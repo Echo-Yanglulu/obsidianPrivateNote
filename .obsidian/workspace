@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "a00daf7331235eff",
+    "type": "split",
+    "children": [
+      {
+        "id": "77ecd93dc6c37d04",
+        "type": "leaf",
+        "dimension": 58.1646423751687,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/版本管理，版本控制.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "f005d2eec511b630",
+        "type": "leaf",
+        "dimension": 41.83535762483131,
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ba117513c0a782d",
+    "type": "split",
+    "children": [
+      {
+        "id": "932e5b2355cf0a40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "231c1b69c3d25663",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "989de35848378ae3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f228e16b95d44e75",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "27f207157d6497ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "279be871517071cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/版本管理，版本控制.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd5ff300df2b3029",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/前端/版本管理，版本控制.md"
+              }
+            }
+          },
+          {
+            "id": "e06cd8634f0d46cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e14adfb50c779d7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314
+  },
+  "active": "77ecd93dc6c37d04",
+  "lastOpenFiles": [
+    "笔记/前端/版本管理，版本控制.md",
+    "笔记/思考工具/图形/图形思考.md",
+    "笔记/前端/前端.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/机械学习.md",
+    "笔记/学习方法/概念/知识.md",
+    "笔记/前端/语言/CSS/选择符，选择器.md",
+    "笔记/前端/语言/CSS/CSS.md",
+    "笔记/记忆/记忆.md",
+    "笔记/前端/语言/CSS/布局.md"
+  ]
+}
