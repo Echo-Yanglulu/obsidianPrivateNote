@@ -1,5 +1,6 @@
 # 分类
 1. 集中式VSC（版本控制系统）
+2. 分布式VSC
 # git
 
 创建git仓库：
@@ -34,7 +35,8 @@
 8. git remote
 	1. -v  查看本地与远程的仓库
 	2. add github git@github.com:gitajodif/git_learning.git  添加某个常用仓库并命名
-9. gitk 查看diff
+9. git list
+10. gitk 查看diff
 	
 # 常用操作
 1. 文件重命名
