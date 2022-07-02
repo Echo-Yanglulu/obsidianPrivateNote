@@ -4,15 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "77ecd93dc6c37d04",
+        "id": "25bc5b8af412cc47",
         "type": "leaf",
-        "dimension": 58.1646423751687,
+        "dimension": 60.41379310344828,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/版本管理，版本控制.md",
             "mode": "source",
-            "backlinks": true,
             "source": false
           }
         }
@@ -20,7 +19,7 @@
       {
         "id": "f005d2eec511b630",
         "type": "leaf",
-        "dimension": 41.83535762483131,
+        "dimension": 39.58620689655172,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -135,11 +134,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 132
   },
-  "active": "77ecd93dc6c37d04",
+  "active": "25bc5b8af412cc47",
   "lastOpenFiles": [
     "笔记/前端/版本管理，版本控制.md",
+    "README.md",
     "笔记/思考工具/图形/图形思考.md",
     "笔记/前端/前端.md",
     "笔记/学习方法/整体性学习.md",
@@ -147,7 +147,6 @@
     "笔记/学习方法/概念/知识.md",
     "笔记/前端/语言/CSS/选择符，选择器.md",
     "笔记/前端/语言/CSS/CSS.md",
-    "笔记/记忆/记忆.md",
-    "笔记/前端/语言/CSS/布局.md"
+    "笔记/记忆/记忆.md"
   ]
 }
