@@ -1,0 +1,2 @@
+# obsidian
+for private notes
