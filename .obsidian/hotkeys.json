@@ -23,7 +23,14 @@
       "key": "ArrowDown"
     }
   ],
-  "editor:attach-file": [],
+  "editor:attach-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
   "editor:toggle-highlight": [
     {
       "modifiers": [
