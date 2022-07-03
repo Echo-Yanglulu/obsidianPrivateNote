@@ -6,7 +6,7 @@
       {
         "id": "0b48a092cb577a64",
         "type": "leaf",
-        "dimension": 43.44135802469136,
+        "dimension": 35.58786346396966,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +14,32 @@
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "fdbc026c0ba803ec"
+      },
+      {
+        "id": "8d69bf34669598ce",
+        "type": "leaf",
+        "dimension": 18.078381795195956,
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "笔记/学习方法/概念/获取.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        },
+        "group": "fdbc026c0ba803ec"
       },
       {
         "id": "f005d2eec511b630",
         "type": "leaf",
-        "dimension": 56.55864197530864,
+        "dimension": 46.33375474083439,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -97,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/获取.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,21 +160,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 162,
-    "collapsed": true
+    "width": 100
   },
-  "active": "0b48a092cb577a64",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/结构.md",
