@@ -139,7 +139,176 @@
         "width": 100
       },
       "active": "0b48a092cb577a64"
+    },
+    "不带侧栏的四栏布局": {
+      "main": {
+        "id": "a00daf7331235eff",
+        "type": "split",
+        "children": [
+          {
+            "id": "2e955dae3cb07a92",
+            "type": "split",
+            "dimension": 59.176788124156545,
+            "children": [
+              {
+                "id": "0b48a092cb577a64",
+                "type": "leaf",
+                "dimension": 62.180746561886046,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/整体性学习.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "fdbc026c0ba803ec"
+              },
+              {
+                "id": "8d69bf34669598ce",
+                "type": "leaf",
+                "dimension": 37.81925343811395,
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "笔记/学习方法/整体性学习.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                },
+                "group": "fdbc026c0ba803ec"
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "f005d2eec511b630",
+            "type": "leaf",
+            "dimension": 40.823211875843455,
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8ba117513c0a782d",
+        "type": "split",
+        "children": [
+          {
+            "id": "932e5b2355cf0a40",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "231c1b69c3d25663",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "989de35848378ae3",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f228e16b95d44e75",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "27f207157d6497ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "279be871517071cb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "37fb741facd8f20b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "笔记/学习方法/整体性学习.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "bd5ff300df2b3029",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "笔记/学习方法/整体性学习.md"
+                  }
+                }
+              },
+              {
+                "id": "e06cd8634f0d46cc",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "1e14adfb50c779d7",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 162
+      },
+      "active": "0b48a092cb577a64"
     }
   },
-  "active": "左中右"
+  "active": "不带侧栏的四栏布局"
 }
