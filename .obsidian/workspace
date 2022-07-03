@@ -6,7 +6,7 @@
       {
         "id": "0b48a092cb577a64",
         "type": "leaf",
-        "dimension": 35.58786346396966,
+        "dimension": 43.44135802469136,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,32 +14,12 @@
             "mode": "source",
             "source": false
           }
-        },
-        "group": "fdbc026c0ba803ec"
-      },
-      {
-        "id": "8d69bf34669598ce",
-        "type": "leaf",
-        "dimension": 18.078381795195956,
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "笔记/学习方法/概念/获取.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": false
-          }
-        },
-        "group": "fdbc026c0ba803ec"
+        }
       },
       {
         "id": "f005d2eec511b630",
         "type": "leaf",
-        "dimension": 46.33375474083439,
+        "dimension": 56.55864197530864,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -117,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/概念/获取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/获取.md"
+              }
             }
           },
           {
@@ -160,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/获取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,8 +157,9 @@
     "width": 162,
     "collapsed": true
   },
-  "active": "f005d2eec511b630",
+  "active": "0b48a092cb577a64",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/结构.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
@@ -183,7 +168,6 @@
     "笔记/学习方法/概念/基础策略.md",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/概念/具体信息.md",
-    "笔记/学习方法/概念/抽象信息.md",
-    "笔记/学习方法/概念/过程信息.md"
+    "笔记/学习方法/概念/抽象信息.md"
   ]
 }
