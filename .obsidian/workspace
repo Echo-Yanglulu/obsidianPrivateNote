@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/版本控制/版本控制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/版本控制/版本控制.md"
+              }
             }
           },
           {
@@ -138,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/版本控制/版本控制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,17 +154,17 @@
     "direction": "horizontal",
     "width": 253
   },
-  "active": "f005d2eec511b630",
+  "active": "4dd096d66fb49e68",
   "lastOpenFiles": [
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/版本控制/基本概念.md",
+    "笔记/健身/胸部.md",
+    "笔记/健身/力量训练.md",
+    "笔记/健身/孤立动作.md",
+    "笔记/前端/前端.md",
     "笔记/记忆/记忆.md",
     "笔记/思考工具/图形/图形思考.md",
     "笔记/前端/assets/3对象关系.png",
-    "笔记/前端/前端.md",
-    "README.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/机械学习.md",
-    "笔记/学习方法/概念/知识.md"
+    "README.md"
   ]
 }
