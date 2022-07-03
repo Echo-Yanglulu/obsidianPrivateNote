@@ -117,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/概念/获取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/获取.md"
+              }
             }
           },
           {
@@ -160,18 +163,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/获取.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 162,
+    "collapsed": true
   },
-  "active": "f005d2eec511b630",
+  "active": "0b48a092cb577a64",
   "lastOpenFiles": [
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/结构.md",
