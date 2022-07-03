@@ -6,15 +6,16 @@
       {
         "id": "2e955dae3cb07a92",
         "type": "split",
-        "dimension": 47.32510288065842,
+        "dimension": 59.176788124156545,
         "children": [
           {
             "id": "0b48a092cb577a64",
             "type": "leaf",
+            "dimension": 62.180746561886046,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -24,10 +25,11 @@
           {
             "id": "8d69bf34669598ce",
             "type": "leaf",
+            "dimension": 37.81925343811395,
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -45,7 +47,7 @@
       {
         "id": "f005d2eec511b630",
         "type": "leaf",
-        "dimension": 52.674897119341566,
+        "dimension": 40.823211875843455,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -99,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -115,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -160,12 +163,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 162
   },
   "active": "0b48a092cb577a64",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/超级学习.md",
     "笔记/学习方法/概念/信息.md",
     "笔记/学习方法/概念/机械学习.md",
