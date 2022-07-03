@@ -6,11 +6,11 @@
       {
         "id": "0b48a092cb577a64",
         "type": "leaf",
-        "dimension": 40.49295774647887,
+        "dimension": 35.46144121365361,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/学习方法/概念/拓展.md",
             "mode": "source",
             "source": false
           }
@@ -20,11 +20,11 @@
       {
         "id": "8d69bf34669598ce",
         "type": "leaf",
-        "dimension": 24.014084507042256,
+        "dimension": 22.88242730720607,
         "state": {
           "type": "backlink",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/学习方法/概念/拓展.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -39,7 +39,7 @@
       {
         "id": "f005d2eec511b630",
         "type": "leaf",
-        "dimension": 35.49295774647888,
+        "dimension": 41.65613147914033,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/概念/拓展.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/学习方法/概念/拓展.md"
               }
             }
           },
@@ -150,17 +150,18 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 162
+    "width": 162,
+    "collapsed": true
   },
   "active": "0b48a092cb577a64",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/概念/方法.md",
     "笔记/学习方法/概念/纠错.md",
     "基础策略.md",
