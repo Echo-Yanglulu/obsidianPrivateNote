@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/拓展.md",
+            "file": "笔记/学习方法/概念/获取.md",
             "mode": "source",
             "source": false
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "笔记/学习方法/概念/拓展.md",
+            "file": "笔记/学习方法/概念/获取.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/拓展.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/拓展.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,7 +160,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/拓展.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,8 +173,9 @@
     "width": 162,
     "collapsed": true
   },
-  "active": "0b48a092cb577a64",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/结构.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/学习的顺序.md",
@@ -187,7 +184,6 @@
     "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/概念/具体信息.md",
     "笔记/学习方法/概念/抽象信息.md",
-    "笔记/学习方法/概念/过程信息.md",
-    "笔记/学习方法/概念/观点信息.md"
+    "笔记/学习方法/概念/过程信息.md"
   ]
 }
