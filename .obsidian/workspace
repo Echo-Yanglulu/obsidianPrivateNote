@@ -28,6 +28,14 @@
         }
       },
       {
+        "id": "dea18bb2f364362d",
+        "type": "leaf",
+        "state": {
+          "type": "juggl-help",
+          "state": {}
+        }
+      },
+      {
         "id": "c736586bfc8ef61c",
         "type": "leaf",
         "state": {
@@ -165,6 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md"
+              }
             }
           },
           {
@@ -208,6 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -244,10 +256,10 @@
     "direction": "horizontal",
     "width": 730
   },
-  "active": "7adc596a69f4850b",
+  "active": "ad3c8943d5770126",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/知识.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/知识.md",
     "笔记/学习方法/概念/结构.md",
     "笔记/健身/信念.md",
     "笔记/健身/_Index_of_健身.md",
