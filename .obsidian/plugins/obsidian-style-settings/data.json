@@ -36,5 +36,8 @@
   "blue-topaz-theme@@font-family-change-to-default": true,
   "blue-topaz-theme@@fix-right-ribbon": true,
   "blue-topaz-theme@@hide-titlebar-text": false,
-  "blue-topaz-theme@@hide-vault-name": true
+  "blue-topaz-theme@@hide-vault-name": true,
+  "blue-topaz-theme@@background-settings-workplace-background-image": true,
+  "blue-topaz-theme@@blur-depth": 21,
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-orange"
 }
