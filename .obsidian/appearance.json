@@ -2,5 +2,8 @@
   "baseFontSize": 18,
   "theme": "moonstone",
   "cssTheme": "Blue Topaz",
-  "translucency": false
+  "translucency": false,
+  "enabledCssSnippets": [
+    "supercharged-links-gen"
+  ]
 }
