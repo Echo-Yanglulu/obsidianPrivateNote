@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/学习的顺序.md",
+            "file": "笔记/学习方法/概念/纠错.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207
+    "width": 207,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -141,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/学习的顺序.md",
+                "file": "笔记/学习方法/概念/纠错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/学习的顺序.md"
+                "file": "笔记/学习方法/概念/纠错.md"
               }
             }
           },
@@ -187,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/学习的顺序.md",
+                "file": "笔记/学习方法/概念/纠错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -225,6 +226,7 @@
   },
   "active": "f5ff95d442605d8f",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/纠错.md",
     "笔记/学习方法/概念/学习的顺序.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
@@ -233,7 +235,6 @@
     "笔记/学习方法/概念/结构.md",
     "笔记/学习方法/_Index_of_学习方法.md",
     "笔记/思考工具/_Index_of_思考工具.md",
-    "笔记/_Index_of_笔记.md",
-    "笔记/前端/前端.md"
+    "笔记/_Index_of_笔记.md"
   ]
 }
