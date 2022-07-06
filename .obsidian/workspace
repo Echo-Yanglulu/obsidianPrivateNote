@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "cb458d1b4cb70fed",
+        "id": "ad3c8943d5770126",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -76,11 +76,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8f8d17bc408a80e7",
+        "id": "c6a1cba0558ba019",
         "type": "tabs",
+        "dimension": 42.14145383104126,
         "children": [
           {
-            "id": "cba02ce142a5da6d",
+            "id": "cb458d1b4cb70fed",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -92,6 +93,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
+        "dimension": 32.220039292730846,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -181,6 +183,7 @@
       {
         "id": "2bfae2d29225a76f",
         "type": "tabs",
+        "dimension": 25.638506876227897,
         "children": [
           {
             "id": "77d14acda233869f",
@@ -196,7 +199,7 @@
     "direction": "horizontal",
     "width": 730
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "ad3c8943d5770126",
   "lastOpenFiles": [
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/版本控制/基本概念.md",
