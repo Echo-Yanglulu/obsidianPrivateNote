@@ -117,6 +117,30 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "317f497fc058b9b7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "9be427e8a69138d4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "d6f768adb0296a56",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       },
