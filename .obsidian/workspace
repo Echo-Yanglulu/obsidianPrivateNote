@@ -20,13 +20,11 @@
       {
         "id": "7adc596a69f4850b",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/知识.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "juggl_view",
+          "state": {},
+          "pinned": true
         }
       }
     ],
@@ -155,7 +153,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/知识.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,7 +196,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
