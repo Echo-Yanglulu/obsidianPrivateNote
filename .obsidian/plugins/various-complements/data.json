@@ -1,5 +1,5 @@
 {
-  "strategy": "chinese",
+  "strategy": "default",
   "matchStrategy": "prefix",
   "maxNumberOfSuggestions": 18,
   "maxNumberOfWordsAsPhrase": 3,
