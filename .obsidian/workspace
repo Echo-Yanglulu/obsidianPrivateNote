@@ -6,9 +6,27 @@
       {
         "id": "ad3c8943d5770126",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "FANTASY_CALENDAR",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/整体性学习.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "7adc596a69f4850b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/基础策略.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -97,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/概念/基础策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/基础策略.md"
+              }
             }
           },
           {
@@ -140,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/基础策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,8 +191,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "2bfae2d29225a76f",
@@ -191,8 +212,10 @@
     "direction": "horizontal",
     "width": 730
   },
-  "active": "ad3c8943d5770126",
+  "active": "7adc596a69f4850b",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/基础策略.md",
+    "笔记/学习方法/概念/结构.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/版本控制/基本概念.md",
     "笔记/健身/饮食.md",
@@ -200,8 +223,6 @@
     "笔记/学习方法/概念/纠错.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/测试.md",
-    "笔记/学习方法/概念/拓展.md",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/记忆/图像.md"
+    "笔记/学习方法/概念/拓展.md"
   ]
 }
