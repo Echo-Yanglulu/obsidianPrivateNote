@@ -49,7 +49,7 @@
   ],
   "appendMethod": "body",
   "shouldShowMenuOnSelect": false,
-  "cMenuVisibility": false,
-  "cMenuBottomValue": 4.25,
+  "cMenuVisibility": true,
+  "cMenuBottomValue": 2,
   "cMenuNumRows": 4
 }
