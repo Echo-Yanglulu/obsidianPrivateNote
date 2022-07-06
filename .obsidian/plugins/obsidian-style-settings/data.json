@@ -27,5 +27,8 @@
   "blue-topaz-theme@@folder-style-change-options-colorful": true,
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-two",
   "blue-topaz-theme@@no-wrapped-table": true,
-  "blue-topaz-theme@@translucent-setting-panel": false
+  "blue-topaz-theme@@translucent-setting-panel": false,
+  "blue-topaz-theme@@style-options-for-buttons-plugin": true,
+  "blue-topaz-theme@@dialogue-style": "dialogue-style-chat",
+  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one"
 }
