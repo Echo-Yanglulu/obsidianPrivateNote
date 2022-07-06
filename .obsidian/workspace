@@ -4,36 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ad3c8943d5770126",
+        "id": "536ec72dea445365",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/学习方法/整体性学习.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "dea18bb2f364362d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "juggl_view",
-          "state": {},
-          "pinned": true
-        }
-      },
-      {
-        "id": "c736586bfc8ef61c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/基础策略.md",
             "mode": "source",
             "source": false
           }
@@ -165,6 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md"
+              }
             }
           },
           {
@@ -208,6 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -244,7 +224,7 @@
     "direction": "horizontal",
     "width": 730
   },
-  "active": "dea18bb2f364362d",
+  "active": "536ec72dea445365",
   "lastOpenFiles": [
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/知识.md",
