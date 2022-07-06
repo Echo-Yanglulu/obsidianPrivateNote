@@ -32,5 +32,9 @@
   "blue-topaz-theme@@dialogue-style": "dialogue-style-chat",
   "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one",
   "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one",
-  "blue-topaz-theme@@loading-animation": true
+  "blue-topaz-theme@@loading-animation": true,
+  "blue-topaz-theme@@font-family-change-to-default": true,
+  "blue-topaz-theme@@fix-right-ribbon": true,
+  "blue-topaz-theme@@hide-titlebar-text": false,
+  "blue-topaz-theme@@hide-vault-name": true
 }
