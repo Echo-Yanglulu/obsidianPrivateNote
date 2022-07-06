@@ -10,7 +10,7 @@
   "blue-topaz-theme@@circular-checkbox": true,
   "blue-topaz-theme@@fancy-hr": "fancy-hr-icon",
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
-  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-border-left",
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-speech-bubble-one",
   "blue-topaz-theme@@table-style-options": "table-style-two",
   "blue-topaz-theme@@show-border-table": true,
   "blue-topaz-theme@@whole-code-wrap": true,
@@ -23,12 +23,13 @@
   "blue-topaz-theme@@light-background-color-files": false,
   "blue-topaz-theme@@unmuted-collapsed-folder": true,
   "blue-topaz-theme@@folder-icons": true,
-  "blue-topaz-theme@@remove-file-icons": true,
+  "blue-topaz-theme@@remove-file-icons": false,
   "blue-topaz-theme@@folder-style-change-options-colorful": true,
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-two",
   "blue-topaz-theme@@no-wrapped-table": true,
   "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@style-options-for-buttons-plugin": true,
   "blue-topaz-theme@@dialogue-style": "dialogue-style-chat",
-  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one"
+  "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one",
+  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one"
 }
