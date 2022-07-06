@@ -1,8 +1,8 @@
 {
-  "hideVault": true,
-  "hideTitleBar": true,
-  "hideStatusBar": true,
-  "originalMarkings": false,
+  "hideVault": false,
+  "hideTitleBar": false,
+  "hideStatusBar": false,
+  "originalMarkings": true,
   "relationLinesPreview": true,
   "prettyTasksEditor": true,
   "darkEnhance": false,
@@ -12,5 +12,5 @@
   "paragraphFocusMode": true,
   "paragraphFocusFade": 75,
   "flatAndyMode": true,
-  "readableLength": 45
+  "readableLength": 70
 }
