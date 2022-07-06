@@ -8,10 +8,10 @@
   "blue-topaz-theme@@h3-text-align-settings": "h3-text-align-start",
   "blue-topaz-theme@@h4-text-align-settings": "h4-text-align-start",
   "blue-topaz-theme@@circular-checkbox": true,
-  "blue-topaz-theme@@fancy-hr": "fancy-hr-icon",
+  "blue-topaz-theme@@fancy-hr": "fancy-hr-no-icon",
   "blue-topaz-theme@@list-style-change-options-edit": "rainbow-lines",
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-speech-bubble-one",
-  "blue-topaz-theme@@table-style-options": "table-style-two",
+  "blue-topaz-theme@@table-style-options": "table-style-three",
   "blue-topaz-theme@@show-border-table": true,
   "blue-topaz-theme@@whole-code-wrap": true,
   "blue-topaz-theme@@style-options-for-admonition-plugin": true,
@@ -26,10 +26,11 @@
   "blue-topaz-theme@@remove-file-icons": false,
   "blue-topaz-theme@@folder-style-change-options-colorful": true,
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-two",
-  "blue-topaz-theme@@no-wrapped-table": true,
+  "blue-topaz-theme@@no-wrapped-table": false,
   "blue-topaz-theme@@translucent-setting-panel": false,
   "blue-topaz-theme@@style-options-for-buttons-plugin": true,
   "blue-topaz-theme@@dialogue-style": "dialogue-style-chat",
   "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one",
-  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one"
+  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one",
+  "blue-topaz-theme@@loading-animation": true
 }
