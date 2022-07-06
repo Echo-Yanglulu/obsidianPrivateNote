@@ -1,0 +1,17 @@
+{
+  "searches": [
+    {
+      "tags": [],
+      "query": "https://www.baidu.com/search?&q={{query}}",
+      "name": "baidu",
+      "encode": true
+    },
+    {
+      "tags": [],
+      "query": "https://en.wikipedia.org/wiki/Special:Search/{{query}}",
+      "name": "Wikipedia",
+      "encode": true
+    }
+  ],
+  "useIframe": true
+}
