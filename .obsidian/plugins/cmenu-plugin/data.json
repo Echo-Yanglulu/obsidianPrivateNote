@@ -45,6 +45,11 @@
       "id": "cmenu-plugin:editor:toggle-blockquote",
       "name": "cMenu: Toggle blockquote",
       "icon": "quote-glyph"
+    },
+    {
+      "id": "obsidian-wordnet-plugin:open-wordnet-suggestor",
+      "name": "Obsidian42 - WordNet Dictionary: Look up a word",
+      "icon": "enter"
     }
   ],
   "appendMethod": "body",
