@@ -7,9 +7,9 @@
         "id": "2281abb55f6cf681",
         "type": "leaf",
         "state": {
-          "type": "mindmapView",
+          "type": "mindmapview",
           "state": {
-            "file": "笔记/前端/JS.md"
+            "file": "笔记/前端/JS在.md"
           }
         }
       }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/JS.md",
+                "file": "笔记/前端/JS在.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/JS.md"
+                "file": "笔记/前端/JS在.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/JS.md",
+                "file": "笔记/前端/JS在.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -208,6 +208,7 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
+    "笔记/前端/JS在.md",
     "笔记/前端/JS.md",
     "Excalidraw/Drawing 2022-07-09 07.28.06.excalidraw.md",
     "笔记/学习方法/整体性学习.md",
@@ -216,7 +217,6 @@
     "笔记/前端/语言/语言.md",
     "笔记/前端/语言/TS.md",
     "笔记/前端/前端.md",
-    "笔记/学习方法/概念/比喻.md",
-    "笔记/学习方法/概念/联系观点.md"
+    "笔记/学习方法/概念/比喻.md"
   ]
 }
