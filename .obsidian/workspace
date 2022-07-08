@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "11a61dead2ee5dff",
+        "id": "9ae61c96c6fecc0a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/联系观点.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/联系观点.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/联系观点.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/联系观点.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -207,8 +207,9 @@
     "direction": "horizontal",
     "width": 730
   },
-  "active": "11a61dead2ee5dff",
+  "active": "9ae61c96c6fecc0a",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/联系观点.md",
     "笔记/学习方法/概念/方法.md",
     "笔记/学习方法/概念/理解.md",
@@ -217,7 +218,6 @@
     "笔记/学习方法/概念/图表.md",
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/快速阅读.md",
-    "笔记/学习方法/概念/积极阅读.md",
-    "笔记/学习方法/概念/练习阅读.md"
+    "笔记/学习方法/概念/积极阅读.md"
   ]
 }
