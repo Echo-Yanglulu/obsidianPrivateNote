@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/思考工具/图形/mermaid语法.md",
+            "file": "笔记/思考工具/图形/类图.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md",
+                "file": "笔记/思考工具/图形/类图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md"
+                "file": "笔记/思考工具/图形/类图.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md",
+                "file": "笔记/思考工具/图形/类图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,6 +210,7 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
+    "笔记/思考工具/图形/类图.md",
     "笔记/思考工具/图形/mermaid语法.md",
     "笔记/前端/前端.md",
     "笔记/前端/语言/语言.md",
@@ -218,7 +219,6 @@
     "笔记/前端/语言/JS/JS标准库.md",
     "笔记/前端/语言/JS/正则表达式.md",
     "笔记/前端/语言/JS/浏览器内置API、标准库.md",
-    "笔记/前端/语言/JS/数据类型.md",
-    "笔记/前端/JS在.md"
+    "笔记/前端/语言/JS/数据类型.md"
   ]
 }
