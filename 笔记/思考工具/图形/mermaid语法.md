@@ -15,7 +15,7 @@ It can also accommodate different arrow types, multi directional arrows, and lin
 flowchart LR
     id
 ```
-```mermaid-example
+```mermaid
 flowchart LR
     id
 ```
