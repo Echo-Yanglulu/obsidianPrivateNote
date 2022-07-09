@@ -5,8 +5,20 @@
       "path": "笔记/思考工具/图形/mermaid语法.md"
     },
     {
+      "basename": "图形思考",
+      "path": "笔记/思考工具/图形/图形思考.md"
+    },
+    {
       "basename": "实体关系图",
       "path": "笔记/思考工具/图形/实体关系图.md"
+    },
+    {
+      "basename": "类图",
+      "path": "笔记/思考工具/图形/类图.md"
+    },
+    {
+      "basename": "整体性学习",
+      "path": "笔记/学习方法/整体性学习.md"
     },
     {
       "basename": "Mermaid Type",
@@ -31,10 +43,6 @@
     {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "类图",
-      "path": "笔记/思考工具/图形/类图.md"
     },
     {
       "basename": "语言",
@@ -75,10 +83,6 @@
     {
       "basename": "Drawing 2022-07-09 07.28.06.excalidraw",
       "path": "Excalidraw/Drawing 2022-07-09 07.28.06.excalidraw.md"
-    },
-    {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
     },
     {
       "basename": "高速公路",
@@ -195,10 +199,6 @@
     {
       "basename": "随意信息",
       "path": "笔记/学习方法/概念/随意信息.md"
-    },
-    {
-      "basename": "抽象信息",
-      "path": "笔记/学习方法/概念/抽象信息.md"
     }
   ],
   "omittedPaths": [],
