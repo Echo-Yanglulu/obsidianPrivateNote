@@ -656,10 +656,11 @@ mermaid.flowchartConfig = {
 1. 节点
 	1. 文本
 	2. 类型
+	3. 形状
 2. 链接
 	1. 粗细
 	2. 方向
-		1. TD, TB, LR, RL, 
+		1. TD/TB, BT, LR, RL, 
 3. 子进程
 4. 数据库
 5. 
