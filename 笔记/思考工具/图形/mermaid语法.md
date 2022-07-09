@@ -1,6 +1,6 @@
 ```
 	erDiagram TD
-	
+	mermaid ||--o{ diagramType
 ```
 
 # 基本概念
