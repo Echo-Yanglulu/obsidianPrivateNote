@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "基础知识",
+      "path": "笔记/前端/基础知识.md"
+    },
+    {
       "basename": "比喻",
       "path": "笔记/学习方法/概念/比喻.md"
     },
@@ -125,10 +133,6 @@
       "path": "笔记/前端/包管理/npm.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
       "basename": "JS调试",
       "path": "笔记/前端/语言/JS/JS调试.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "快速阅读",
       "path": "笔记/学习方法/概念/快速阅读.md"
-    },
-    {
-      "basename": "积极阅读",
-      "path": "笔记/学习方法/概念/积极阅读.md"
     }
   ],
   "omittedPaths": [],
