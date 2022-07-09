@@ -18,6 +18,7 @@
 活动-参与者-心情/结果/过程图   （三个维度）
 ## 资质/需求图requirement diagram[^1]
 # 图表开展方向
+TD/TB, BT, LR, RL
 #  子图表
 subgraph 内容 end
 #  指令：%%{指令对象}%%
