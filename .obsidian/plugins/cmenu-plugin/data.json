@@ -50,6 +50,11 @@
       "id": "obsidian-wordnet-plugin:open-wordnet-suggestor",
       "name": "Obsidian42 - WordNet Dictionary: Look up a word",
       "icon": "enter"
+    },
+    {
+      "id": "obsidian-theme-design-utilities:toggle-dark-light-mode",
+      "name": "Theme Design Utilities: Toggle between Dark and Light Mode",
+      "icon": "dice-glyph"
     }
   ],
   "appendMethod": "body",
