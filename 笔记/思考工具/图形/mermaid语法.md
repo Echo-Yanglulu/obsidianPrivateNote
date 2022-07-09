@@ -1,6 +1,6 @@
-``` mermaid
+``` mermaid 
 	erDiagram
-	mermaid ||--o{ diagramType: has
+mermaid ||--o{ diagramType: has
 	mermaid ||--o{ trend: has
 	mermaid ||--o{ node: has
 ```
