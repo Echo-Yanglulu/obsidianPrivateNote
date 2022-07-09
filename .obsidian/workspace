@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/结构.md",
+            "file": "笔记/学习方法/概念/基础策略.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8b3f2020f181d454",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/高速公路.md",
             "mode": "source",
             "source": false
           }
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/结构.md",
+                "file": "笔记/学习方法/概念/高速公路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/结构.md"
+                "file": "笔记/学习方法/概念/高速公路.md"
               }
             }
           },
@@ -185,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/结构.md",
+                "file": "笔记/学习方法/概念/高速公路.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -213,11 +225,11 @@
     "direction": "horizontal",
     "width": 716
   },
-  "active": "daa1777f9f487d03",
+  "active": "8b3f2020f181d454",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/结构.md",
-    "笔记/学习方法/概念/基础策略.md",
     "笔记/学习方法/概念/高速公路.md",
+    "笔记/学习方法/概念/基础策略.md",
+    "笔记/学习方法/概念/结构.md",
     "笔记/学习方法/概念/模型.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/思考工具/img.md",
