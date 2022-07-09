@@ -32,15 +32,17 @@
 		3. subroutine
 		4. cylindrical
 		5. circle
-		6. asymmetric
-		7. rhombus
-		8. parallelogram
-		9. hexagon
+		6. double circle
+		7. asymmetric
+		8. rhombus
+		9. parallelogram
+		10. trapzoid
+		11. hexagon
 7. 链接
 	1. 粗细
 	2. 虚实
-		1. ->>
-		2. -->>
+		1. -->
+		2. 
 	3. 方向
 		1. TD/TB, BT, LR, RL, 
 8. 子进程
