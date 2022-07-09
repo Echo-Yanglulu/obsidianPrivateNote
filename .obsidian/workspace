@@ -7,9 +7,11 @@
         "id": "2281abb55f6cf681",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "笔记/思考工具/img/Mermaid Type.png"
+            "file": "笔记/思考工具/图形/mermaid语法.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -124,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/img/Mermaid Type.png",
+                "file": "笔记/思考工具/图形/mermaid语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/img/Mermaid Type.png"
+                "file": "笔记/思考工具/图形/mermaid语法.md"
               }
             }
           },
@@ -170,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/img/Mermaid Type.png",
+                "file": "笔记/思考工具/图形/mermaid语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -208,9 +210,9 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
+    "笔记/思考工具/图形/mermaid语法.md",
     "笔记/思考工具/img/Mermaid Type.png",
     "笔记/思考工具/图形/实体关系图.md",
-    "笔记/思考工具/图形/mermaid语法.md",
     "笔记/思考工具/img.md",
     "笔记/前端/版本管理/版本管理.md",
     "笔记/前端/包管理/yarn.md",
