@@ -29,7 +29,12 @@
 	3. 形状
 		1. round edge
 		2. stadium
-		3. hexagon
+		3. subroutine
+		4. cylindrical
+		5. circle
+		6. asymmetric
+		7. rhombus
+		8. hexagon
 7. 链接
 	1. 粗细
 	2. 虚实
