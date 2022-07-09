@@ -15,6 +15,7 @@
 4. [[类图]]
 5. git图
 6. [[实体关系图]]erDiagram
+7. [[主体活动图]]
 活动-参与者-心情/结果/过程图   （三个维度）
 7. 资质/需求图requirement diagram[^1]
 8. 状态图state diagram
