@@ -7,9 +7,11 @@
         "id": "daa1777f9f487d03",
         "type": "leaf",
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/img/整体性学习.svg"
+            "file": "技术.md",
+            "mode": "source",
+            "source": false
           }
         }
       },
@@ -137,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "技术.md"
               }
             }
           },
@@ -183,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -211,8 +213,9 @@
     "direction": "horizontal",
     "width": 716
   },
-  "active": "d18f58b78beb9c75",
+  "active": "daa1777f9f487d03",
   "lastOpenFiles": [
+    "技术.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/img/整体性学习.svg",
     "笔记/学习方法/概念/概念.md",
@@ -221,7 +224,6 @@
     "笔记/前端/语言/JS/JS.svg",
     "笔记/前端/语言/JS/类.md",
     "Excalidraw/JS.excalidraw.md",
-    "笔记/前端/语言/JS/对象.md",
-    "笔记/前端/语言/语言.md"
+    "笔记/前端/语言/JS/对象.md"
   ]
 }
