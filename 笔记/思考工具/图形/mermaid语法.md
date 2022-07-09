@@ -659,7 +659,7 @@ mermaid.flowchartConfig = {
 2. 链接
 	1. 粗细
 	2. 方向
-		1. TD, TB, LR, RL 
+		1. TD, TB, LR, RL, 
 3. 子进程
 4. 数据库
 5. 
