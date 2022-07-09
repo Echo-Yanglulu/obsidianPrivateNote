@@ -1,9 +1,9 @@
 ``` mermaid 
 	erDiagram
-	mermaid ||--o{ diagramType: has
+	mermaid ||--|| diagramType: has
    diagramType {enum flowchart enum pie enum erDiagram}
-	mermaid ||--o{ trend: has
-	mermaid ||--o{ node: has
+	mermaid ||--o| trend: has
+	mermaid ||--|{ node: has
 ```
 
 # 基本概念
