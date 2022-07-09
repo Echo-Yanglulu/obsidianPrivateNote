@@ -60,19 +60,6 @@
       "id": "hotkey-helper:open-plugins",
       "name": "Hotkey Helper: Open the Community Plugins settings",
       "icon": "blocks"
-    },
-    {
-      "id": "app:open-settings",
-      "name": "打开设置",
-      "icon": "wrench-screwdriver-glyph",
-      "hotkeys": [
-        {
-          "modifiers": [
-            "Mod"
-          ],
-          "key": ","
-        }
-      ]
     }
   ],
   "appendMethod": "body",
