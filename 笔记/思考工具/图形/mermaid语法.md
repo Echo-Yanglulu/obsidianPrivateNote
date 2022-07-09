@@ -1,7 +1,7 @@
 ``` mermaid 
 	erDiagram
 	mermaid ||--o{ diagramType: has
-   diagramType {string flowchart string pie string erDiagram}
+   diagramType {enum flowchart enum pie enum erDiagram}
 	mermaid ||--o{ trend: has
 	mermaid ||--o{ node: has
 ```
