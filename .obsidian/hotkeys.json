@@ -107,9 +107,19 @@
   "hotkey-helper:browse-plugins": [
     {
       "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "hotkey-helper:open-plugins": [
+    {
+      "modifiers": [
+        "Alt",
         "Mod"
       ],
-      "key": "C"
+      "key": "P"
     }
   ]
 }
