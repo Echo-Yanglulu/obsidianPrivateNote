@@ -5,6 +5,10 @@
       "path": "笔记/前端/语言/JS/JS标准库.md"
     },
     {
+      "basename": "输出",
+      "path": "输出.md"
+    },
+    {
       "basename": "正则表达式",
       "path": "笔记/前端/语言/JS/正则表达式.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "基本概念",
       "path": "笔记/前端/版本控制/基本概念.md"
-    },
-    {
-      "basename": "测试",
-      "path": "笔记/学习方法/概念/测试.md"
     }
   ],
   "omittedPaths": [],
