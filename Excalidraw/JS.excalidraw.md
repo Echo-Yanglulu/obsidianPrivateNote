@@ -10,8 +10,6 @@ tags: [excalidraw]
 # Text Elements
 类 ^jMV5eDKN
 
-创建 ^T88ard2D
-
 对象 ^X025N3Fo
 
 对象 ^RRlVsavC
@@ -221,41 +219,6 @@ tags: [excalidraw]
 			"originalText": "类"
 		},
 		{
-			"type": "text",
-			"version": 200,
-			"versionNonce": 1440449758,
-			"isDeleted": false,
-			"id": "T88ard2D",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 0,
-			"opacity": 100,
-			"angle": 0,
-			"x": -240.74612499821126,
-			"y": -1316.2126603565503,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 41,
-			"height": 28,
-			"seed": 1065520345,
-			"groupIds": [],
-			"strokeSharpness": "round",
-			"boundElements": [],
-			"updated": 1657362586493,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 1,
-			"text": "创建",
-			"rawText": "创建",
-			"baseline": 21,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "创建"
-		},
-		{
 			"type": "arrow",
 			"version": 4156,
 			"versionNonce": 510156226,
@@ -340,6 +303,41 @@ tags: [excalidraw]
 			"verticalAlign": "middle",
 			"containerId": "s8jlmThUqDfs7JEN3elag",
 			"originalText": "对象"
+		},
+		{
+			"type": "text",
+			"version": 203,
+			"versionNonce": 1724136862,
+			"isDeleted": true,
+			"id": "T88ard2D",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 0,
+			"opacity": 100,
+			"angle": 0,
+			"x": -240,
+			"y": -1320,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 41,
+			"height": 28,
+			"seed": 1065520345,
+			"groupIds": [],
+			"strokeSharpness": "round",
+			"boundElements": [],
+			"updated": 1657362708689,
+			"link": "",
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "创建",
+			"rawText": "创建",
+			"baseline": 21,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "创建"
 		}
 	],
 	"appState": {
@@ -359,7 +357,7 @@ tags: [excalidraw]
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
 		"currentItemLinearStrokeSharpness": "round",
-		"gridSize": null,
+		"gridSize": 20,
 		"colorPalette": {}
 	},
 	"files": {}
