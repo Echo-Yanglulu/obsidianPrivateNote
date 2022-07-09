@@ -152,8 +152,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "rectangle",
-			"version": 790,
-			"versionNonce": 860649182,
+			"version": 792,
+			"versionNonce": 592460702,
 			"isDeleted": false,
 			"id": "Wld0gWbPOPlENCfxdY7F9",
 			"fillStyle": "hachure",
@@ -181,14 +181,14 @@ tags: [excalidraw]
 					"type": "arrow"
 				}
 			],
-			"updated": 1657362604740,
+			"updated": 1657362673393,
 			"link": "obsidian://open?vault=AAAAAobsidian&file=%E7%AC%94%E8%AE%B0%2F%E5%89%8D%E7%AB%AF%2F%E8%AF%AD%E8%A8%80%2FJS%2F%E7%B1%BB",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 782,
-			"versionNonce": 1325493762,
+			"version": 784,
+			"versionNonce": 630805826,
 			"isDeleted": false,
 			"id": "jMV5eDKN",
 			"fillStyle": "hachure",
@@ -207,7 +207,7 @@ tags: [excalidraw]
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1657362604740,
+			"updated": 1657362673393,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
