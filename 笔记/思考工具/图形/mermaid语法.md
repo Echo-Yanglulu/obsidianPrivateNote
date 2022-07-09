@@ -1,4 +1,4 @@
-```erDiagrem-example
+```erDiagrem
 	erDiagram
 	mermaid ||--o{ diagramType
 ```
@@ -27,8 +27,8 @@
 7. 链接
 	1. 粗细
 	2. 虚实
-		1. - > >
-		2. -- >>
+		1. ->>
+		2. -->>
 	3. 方向
 		1. TD/TB, BT, LR, RL, 
 9. 子进程
