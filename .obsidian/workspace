@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/学习方法/概念/比喻.md",
             "mode": "source",
             "source": false
           }
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "第一个",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/概念/比喻.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/学习方法/概念/比喻.md"
               }
             }
           },
@@ -197,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/概念/比喻.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -227,6 +228,7 @@
   },
   "active": "daa1777f9f487d03",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/比喻.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
     "笔记/学习方法/概念/结构.md",
@@ -235,7 +237,6 @@
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/高速公路.md",
     "笔记/学习方法/概念/模型.md",
-    "笔记/思考工具/img.md",
-    "笔记/前端/语言/语言.md"
+    "笔记/思考工具/img.md"
   ]
 }
