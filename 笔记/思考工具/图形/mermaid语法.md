@@ -15,7 +15,10 @@ It can also accommodate different arrow types, multi directional arrows, and lin
 flowchart LR
     id
 ```
-
+```mermaid-example
+flowchart LR
+    id
+```
 > **Note** The id is what is displayed in the box.
 
 ### A node with text
