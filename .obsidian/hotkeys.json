@@ -129,5 +129,14 @@
       ],
       "key": "."
     }
+  ],
+  "obsidian-wordnet-plugin:open-wordnet-suggestor": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
   ]
 }
