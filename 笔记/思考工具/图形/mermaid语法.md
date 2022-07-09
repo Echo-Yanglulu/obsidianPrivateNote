@@ -1,3 +1,7 @@
+```
+	erDiagram TD
+	
+```
 
 # 基本概念
 1. 图表类型(每个mermaid的开头)
