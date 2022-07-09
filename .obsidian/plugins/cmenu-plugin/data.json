@@ -1,25 +1,10 @@
 {
-  "aestheticStyle": "glass",
+  "aestheticStyle": "default",
   "menuCommands": [
-    {
-      "id": "cmenu-plugin:editor:toggle-bold",
-      "name": "cMenu: Toggle bold",
-      "icon": "bold-glyph"
-    },
-    {
-      "id": "cmenu-plugin:editor:toggle-italics",
-      "name": "cMenu: Toggle italics",
-      "icon": "italic-glyph"
-    },
     {
       "id": "cmenu-plugin:editor:toggle-strikethrough",
       "name": "cMenu: Toggle strikethrough",
       "icon": "strikethrough-glyph"
-    },
-    {
-      "id": "cmenu-plugin:underline",
-      "name": "cMenu: Toggle underline",
-      "icon": "underline-glyph"
     },
     {
       "id": "cmenu-plugin:superscript",
@@ -60,11 +45,24 @@
       "id": "hotkey-helper:open-plugins",
       "name": "Hotkey Helper: Open the Community Plugins settings",
       "icon": "blocks"
+    },
+    {
+      "id": "app:open-settings",
+      "name": "打开设置",
+      "icon": "wrench-screwdriver-glyph",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ]
     }
   ],
-  "appendMethod": "body",
+  "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4,
-  "cMenuNumRows": 8
+  "cMenuNumRows": 15
 }
