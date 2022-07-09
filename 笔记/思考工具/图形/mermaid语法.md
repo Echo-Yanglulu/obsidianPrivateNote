@@ -2,6 +2,7 @@
 	erDiagram
 	mermaid ||--o{ diagramType: has
 	mermaid ||--o{ trend: has
+	mermaid ||--o{ node: has
 ```
 
 # 基本概念
