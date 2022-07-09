@@ -50,4 +50,4 @@ subgraph 内容 end
 # 数据库
 # 
 
-[^1]: A Requirement diagram provides a visualization for requirements and their connections, to each other and other documented elements. 1. 做某事，适合某物所需要的资质。2.需求
+[^1]: A Requirement diagram provides a visualization for requirements and their connections, to each other and other documented elements.   A requirement is a quality or [qualification](https://www.collinsdictionary.com/zh/dictionary/english/qualification "qualification 的释义") that you [must](https://www.collinsdictionary.com/zh/dictionary/english/must "must 的释义") have in order to be allowed to do something or to be [suitable](https://www.collinsdictionary.com/zh/dictionary/english/suitable "suitable 的释义") for something.1. 做某事，适合某物所需要的资质。2.需求
