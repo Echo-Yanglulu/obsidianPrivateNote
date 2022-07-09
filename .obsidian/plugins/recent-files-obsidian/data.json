@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "版本控制",
-      "path": "笔记/前端/版本控制/版本控制.md"
+      "basename": "yarn",
+      "path": "笔记/前端/包管理/yarn.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/包管理/npm.md"
+    },
+    {
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
     },
     {
       "basename": "前端",
@@ -191,14 +199,6 @@
     {
       "basename": "对比",
       "path": "笔记/学习方法/概念/对比.md"
-    },
-    {
-      "basename": "找到弱点",
-      "path": "笔记/学习方法/概念/找到弱点.md"
-    },
-    {
-      "basename": "纠错",
-      "path": "笔记/学习方法/概念/纠错.md"
     }
   ],
   "omittedPaths": [],
