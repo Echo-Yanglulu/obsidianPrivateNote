@@ -660,6 +660,7 @@ mermaid.flowchartConfig = {
 		1. 时间与事件
 	4. [[类图]]
 	5. git图
+	6. 实体关系图
 2. 节点
 	1. 文本
 	2. 类型
