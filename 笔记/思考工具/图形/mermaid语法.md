@@ -1,6 +1,6 @@
-```erDiagrem
+``` mermaid
 	erDiagram
-	mermaid ||--o{ diagramType
+	mermaid ||--o{ diagramType: has
 ```
 
 # 基本概念
