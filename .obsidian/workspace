@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/思考工具/图形/mermaid语法.md",
+            "file": "笔记/思考工具/图形/实体关系图.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md",
+                "file": "笔记/思考工具/图形/实体关系图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md"
+                "file": "笔记/思考工具/图形/实体关系图.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/图形/mermaid语法.md",
+                "file": "笔记/思考工具/图形/实体关系图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,6 +210,7 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
+    "笔记/思考工具/图形/实体关系图.md",
     "笔记/思考工具/图形/mermaid语法.md",
     "笔记/思考工具/img.md",
     "笔记/思考工具/img/Mermaid Type.png",
@@ -217,7 +218,6 @@
     "笔记/前端/包管理/yarn.md",
     "笔记/前端/包管理/npm.md",
     "笔记/前端/前端.md",
-    "笔记/思考工具/图形/实体关系图.md",
     "笔记/思考工具/图形/类图.md",
     "笔记/前端/语言/语言.md"
   ]
