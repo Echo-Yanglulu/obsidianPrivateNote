@@ -42,10 +42,8 @@ subgraph 内容 end
 # 链接
 粗细
 虚实
-		1. -- >
-		2. ` mermaid flowchart LR a-->b `
-方向
-		1. TD/TB, BT, LR, RL, 
+方向：TD/TB, BT, LR, RL, 
+	1. 
 # 子进程
 # 数据库
 # 
