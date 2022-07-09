@@ -16,7 +16,7 @@
 ## git图
 ## [[实体关系图]]erDiagram
 活动-参与者-心情/结果/过程图   （三个维度）
-## 资质/需求图requirement diagram
+## 资质/需求图requirement diagram[^1]
 # 图表开展方向
 #  子图表
 subgraph 内容 end
@@ -49,3 +49,5 @@ subgraph 内容 end
 # 子进程
 # 数据库
 # 
+
+[^1]: A Requirement diagram provides a visualization for requirements and their connections, to each other and other documented elements. 1. 做某事，适合某物所需要的资质。2.需求
