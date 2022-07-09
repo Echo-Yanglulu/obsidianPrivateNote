@@ -6,22 +6,24 @@
       {
         "id": "2405fdc97d57c5e7",
         "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "diagram",
+          "state": {
+            "file": "笔记/前端/语言/JS/JS.svg"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "86aeb0c19475fe59",
+        "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/语言/JS/类.md",
             "mode": "source",
             "source": false
-          }
-        }
-      },
-      {
-        "id": "6dfe262f738baef8",
-        "type": "leaf",
-        "state": {
-          "type": "diagram-edit",
-          "state": {
-            "file": "笔记/思考工具/图形/JS.svg"
           }
         }
       }
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/图形/JS.svg",
+                "file": "笔记/前端/语言/JS/JS.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/图形/JS.svg"
+                "file": "笔记/前端/语言/JS/JS.svg"
               }
             }
           },
@@ -181,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/图形/JS.svg",
+                "file": "笔记/前端/语言/JS/JS.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -217,9 +219,9 @@
     "direction": "horizontal",
     "width": 394
   },
-  "active": "6dfe262f738baef8",
+  "active": "2405fdc97d57c5e7",
   "lastOpenFiles": [
-    "笔记/思考工具/图形/JS.svg",
+    "笔记/前端/语言/JS/JS.svg",
     "笔记/前端/语言/JS/类.md",
     "Excalidraw/JS.excalidraw.md",
     "笔记/前端/语言/JS/对象.md",
