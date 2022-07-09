@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "输出.md",
+            "file": "笔记/前端/语言/JS/JS调试.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "输出.md",
+                "file": "笔记/前端/语言/JS/JS调试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "输出.md"
+                "file": "笔记/前端/语言/JS/JS调试.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "输出.md",
+                "file": "笔记/前端/语言/JS/JS调试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +210,8 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
-    "输出.md",
+    "笔记/前端/语言/JS/JS调试.md",
+    "笔记/前端/语言/JS/输出.md",
     "笔记/前端/语言/JS/JS标准库.md",
     "笔记/前端/语言/JS/正则表达式.md",
     "笔记/前端/语言/JS/浏览器内置API、标准库.md",
@@ -218,7 +219,6 @@
     "笔记/前端/JS在.md",
     "笔记/前端/JS.md",
     "Excalidraw/Drawing 2022-07-09 07.28.06.excalidraw.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/高速公路.md"
+    "笔记/学习方法/整体性学习.md"
   ]
 }
