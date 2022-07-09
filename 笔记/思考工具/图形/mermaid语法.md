@@ -42,7 +42,7 @@
 	1. 粗细
 	2. 虚实
 		1. -- >
-		2. ` mermaid  `
+		2. ` mermaid flowchart LR a-->b `
 	3. 方向
 		1. TD/TB, BT, LR, RL, 
 8. 子进程
