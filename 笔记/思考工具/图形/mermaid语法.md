@@ -1,6 +1,6 @@
 # Flowcharts - Basic Syntax
 
-**Edit this Page** [![N|Solid](img/GitHub-Mark-32px.png)](https://github.com/mermaid-js/mermaid/blob/develop/docs/flowchart.md)
+**Edit this Page** [![N|Solid](img/GitHub-Mark-32px.pn(https://github.com/mermaid-js/mermaid/blob/develop/docs/flowchart.md)
 
 All Flowcharts are composed of **nodes**, the geometric shapes and **edges**, the arrows or lines. The mermaid code defines the way that these **nodes** and **edges** are made and interact.
 
