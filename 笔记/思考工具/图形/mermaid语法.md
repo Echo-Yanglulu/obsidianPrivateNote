@@ -42,7 +42,7 @@ subgraph 内容 end
 # 链接
 粗细
 虚实
-方向：TD/TB, BT, LR, RL, 
+方向：
 # 子进程
 # 数据库
 # 
