@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "rollup",
+      "path": "rollup.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "基础知识",
+      "path": "笔记/前端/基础知识.md"
+    },
+    {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
     },
@@ -47,14 +63,6 @@
     {
       "basename": "版本管理",
       "path": "笔记/前端/版本管理/版本管理.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "笔记/前端/基础知识.md"
     },
     {
       "basename": "比喻",
@@ -191,14 +199,6 @@
     {
       "basename": "JS在",
       "path": "笔记/前端/JS在.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/JS.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "笔记/前端/语言/CSS/CSS.md"
     }
   ],
   "omittedPaths": [],
