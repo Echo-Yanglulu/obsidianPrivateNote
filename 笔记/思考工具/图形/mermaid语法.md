@@ -8,7 +8,7 @@
 # 基本概念
 1. 图表类型(每个mermaid的开头)
 	1. [[流程图]]flowchart
-	2. 交流顺序图sequenceDiagram
+	2. [[交流顺序图]]sequenceDiagram
 	3. 甘特图
 		1. 时间与事件
 	4. [[类图]]
