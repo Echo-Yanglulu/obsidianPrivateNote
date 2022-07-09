@@ -40,11 +40,11 @@ subgraph 内容 end
 	5. circle
 	6. double circle
 # 链接
-	1. 粗细
-	2. 虚实
+粗细
+虚实
 		1. -- >
 		2. ` mermaid flowchart LR a-->b `
-	3. 方向
+方向
 		1. TD/TB, BT, LR, RL, 
 # 子进程
 # 数据库
