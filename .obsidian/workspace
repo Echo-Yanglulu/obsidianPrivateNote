@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JS标准库.md",
+            "file": "笔记/前端/语言/JS/JS标准库.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207
+    "width": 258
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS标准库.md",
+                "file": "笔记/前端/语言/JS/JS标准库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS标准库.md"
+                "file": "笔记/前端/语言/JS/JS标准库.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS标准库.md",
+                "file": "笔记/前端/语言/JS/JS标准库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +210,8 @@
   },
   "active": "2281abb55f6cf681",
   "lastOpenFiles": [
-    "JS标准库.md",
+    "笔记/前端/语言/JS/JS标准库.md",
+    "笔记/前端/语言/JS/正则表达式.md",
     "笔记/前端/语言/JS/浏览器内置API、标准库.md",
     "笔记/前端/语言/JS/数据类型.md",
     "笔记/前端/JS在.md",
@@ -218,7 +219,6 @@
     "Excalidraw/Drawing 2022-07-09 07.28.06.excalidraw.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/高速公路.md",
-    "笔记/前端/语言/CSS/CSS.md",
-    "笔记/前端/语言/语言.md"
+    "笔记/前端/语言/CSS/CSS.md"
   ]
 }
