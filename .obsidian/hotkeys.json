@@ -65,15 +65,7 @@
       "key": "Q"
     }
   ],
-  "backlink:toggle-backlinks-in-document": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
+  "backlink:toggle-backlinks-in-document": [],
   "obsidian-footnotes:insert-footnote": [
     {
       "modifiers": [
@@ -111,5 +103,13 @@
     }
   ],
   "obsidian-excalidraw-plugin:insert-link": [],
-  "obsidian-excalidraw-plugin:insert-link-to-element": []
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "hotkey-helper:browse-plugins": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ]
 }
