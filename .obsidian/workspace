@@ -16,11 +16,15 @@
       {
         "id": "d18f58b78beb9c75",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/img/整体性学习.svg"
-          }
+            "file": "笔记/学习方法/整体性学习.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -133,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -179,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,8 +213,8 @@
   },
   "active": "d18f58b78beb9c75",
   "lastOpenFiles": [
-    "笔记/学习方法/img/整体性学习.svg",
     "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/img/整体性学习.svg",
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/概念/学习的顺序.md",
