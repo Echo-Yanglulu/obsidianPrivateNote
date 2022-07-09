@@ -34,7 +34,8 @@
 		5. circle
 		6. asymmetric
 		7. rhombus
-		8. hexagon
+		8. parallelogram
+		9. hexagon
 7. 链接
 	1. 粗细
 	2. 虚实
