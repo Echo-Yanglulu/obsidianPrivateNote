@@ -5,12 +5,12 @@
   "originalMarkings": true,
   "relationLinesPreview": true,
   "prettyTasksEditor": true,
-  "darkEnhance": false,
+  "darkEnhance": true,
   "fontSizeNotes": 14,
   "fontSizeFileExplorer": 14,
   "writerMode": true,
   "paragraphFocusMode": true,
-  "paragraphFocusFade": 75,
+  "paragraphFocusFade": 40,
   "flatAndyMode": true,
   "readableLength": 70
 }
