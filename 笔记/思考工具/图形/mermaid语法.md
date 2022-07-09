@@ -1,5 +1,5 @@
-```
-	erDiagram TD
+```erDiagrem-example
+	erDiagram
 	mermaid ||--o{ diagramType
 ```
 
