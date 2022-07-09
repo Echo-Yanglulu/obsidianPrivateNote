@@ -101,7 +101,15 @@
       "key": "ArrowUp"
     }
   ],
-  "table-editor-obsidian:delete-row": [],
+  "table-editor-obsidian:delete-row": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
   "obsidian-excalidraw-plugin:insert-link": [],
   "obsidian-excalidraw-plugin:insert-link-to-element": []
 }
