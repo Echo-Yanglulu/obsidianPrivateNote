@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "交流顺序图.md",
+            "file": "笔记/思考工具/图形/交流顺序图.md",
             "mode": "source",
             "source": false
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/图形/实体关系图.md",
+                "file": "笔记/思考工具/图形/交流顺序图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/图形/实体关系图.md"
+                "file": "笔记/思考工具/图形/交流顺序图.md"
               }
             }
           },
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/图形/实体关系图.md",
+                "file": "笔记/思考工具/图形/交流顺序图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -220,17 +220,17 @@
     "direction": "horizontal",
     "width": 676
   },
-  "active": "ce775c88fc116718",
+  "active": "01cf562b7c1262d8",
   "lastOpenFiles": [
-    "笔记/思考工具/图形/实体关系图.md",
+    "笔记/思考工具/图形/交流顺序图.md",
+    "笔记/学习方法/概念/概念.md",
     "笔记/思考工具/图形/mermaid语法.md",
+    "笔记/思考工具/图形/实体关系图.md",
     "笔记/思考工具/图形/类图.md",
-    "交流顺序图.md",
     "笔记/思考工具/图形/流程图.md",
     "笔记/思考工具/图形/图形思考.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/思考工具/img/Mermaid Type.png",
-    "笔记/思考工具/img.md",
-    "笔记/前端/版本管理/版本管理.md"
+    "笔记/思考工具/img.md"
   ]
 }
