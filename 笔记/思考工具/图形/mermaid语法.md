@@ -1,4 +1,4 @@
-``` mermaid 实体关系图
+``` mermaid
 	erDiagram
 	mermaid ||--o{ diagramType: has
 	mermaid ||--o{ trend: has
