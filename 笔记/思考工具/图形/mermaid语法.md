@@ -7,10 +7,10 @@
 ```
 
 # 基本概念
-# 图表类型(每个mermaid的开头)
+## 图表类型(每个mermaid的开头)
 ## [[流程图]]flowchart
 ## [[交流顺序图]]sequenceDiagram
-## 甘特图gant
+## 甘特图gantt
 时间与事件
 ## [[类图]]
 ## git图
