@@ -5,6 +5,22 @@
       "path": "笔记/学习方法/概念/获取.md"
     },
     {
+      "basename": "模型",
+      "path": "笔记/学习方法/概念/模型.md"
+    },
+    {
+      "basename": "容量",
+      "path": "笔记/学习方法/概念/容量.md"
+    },
+    {
+      "basename": "整体性学习",
+      "path": "笔记/学习方法/整体性学习.md"
+    },
+    {
+      "basename": "速度",
+      "path": "笔记/学习方法/概念/速度.md"
+    },
+    {
       "basename": "简化",
       "path": "笔记/学习方法/概念/简化.md"
     },
@@ -45,10 +61,6 @@
       "path": "笔记/学习方法/概念/比喻.md"
     },
     {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
       "basename": "技术",
       "path": "技术.md"
     },
@@ -71,10 +83,6 @@
     {
       "basename": "高速公路",
       "path": "笔记/学习方法/概念/高速公路.md"
-    },
-    {
-      "basename": "模型",
-      "path": "笔记/学习方法/概念/模型.md"
     },
     {
       "basename": "img",
@@ -191,14 +199,6 @@
     {
       "basename": "CSS",
       "path": "笔记/前端/语言/CSS/CSS.md"
-    },
-    {
-      "basename": "TS",
-      "path": "笔记/前端/语言/TS.md"
-    },
-    {
-      "basename": "笔记流",
-      "path": "笔记/学习方法/概念/笔记流.md"
     }
   ],
   "omittedPaths": [],
