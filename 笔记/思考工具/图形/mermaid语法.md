@@ -17,6 +17,7 @@
 6. [[实体关系图]]erDiagram
 活动-参与者-心情/结果/过程图   （三个维度）
 7. 资质/需求图requirement diagram[^1]
+8. 状态图state diagram
 # 图表开展方向
 TD/TB, BT, LR, RL
 #  子图表
