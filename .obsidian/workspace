@@ -186,7 +186,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "笔记/学习方法/整体性学习.md",
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -207,7 +207,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
