@@ -7,21 +7,21 @@
 ```
 
 # 基本概念
-##  图表类型(每个mermaid的开头)
-## [[流程图]]flowchart
-## [[交流顺序图]]sequenceDiagram
-## 甘特图gantt
+## 图表类型(每个mermaid的开头)
+1. [[流程图]]flowchart
+2. [[交流顺序图]]sequenceDiagram
+3. 甘特图gantt
 时间与事件
-## [[类图]]
-## git图
-## [[实体关系图]]erDiagram
+4. [[类图]]
+5. git图
+6. [[实体关系图]]erDiagram
 活动-参与者-心情/结果/过程图   （三个维度）
-## 资质/需求图requirement diagram[^1]
+7. 资质/需求图requirement diagram[^1]
 # 图表开展方向
 TD/TB, BT, LR, RL
 #  子图表
 subgraph 内容 end
-#  指令：%%{指令对象}%%
+# 指令：%%{指令对象}%%
 
 # 图表中断
 只影响几种图表
