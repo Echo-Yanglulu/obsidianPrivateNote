@@ -14,10 +14,6 @@ tags: [excalidraw]
 
 创建 ^T88ard2D
 
-
-# Embedded files
-7faba8a0f2d9c7bd3e1e8284905d0c4569b2df36: [[笔记/学习方法/整体性学习.md]]
-
 %%
 # Drawing
 ```json
@@ -28,8 +24,8 @@ tags: [excalidraw]
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 1009,
-			"versionNonce": 618836830,
+			"version": 1011,
+			"versionNonce": 1516373762,
 			"isDeleted": false,
 			"id": "s8jlmThUqDfs7JEN3elag",
 			"fillStyle": "hachure",
@@ -38,11 +34,11 @@ tags: [excalidraw]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -316.2422765059309,
+			"x": -317.8766102923558,
 			"y": -1180.8563855504974,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 112.65793174916438,
+			"width": 113,
 			"height": 55.97018265245111,
 			"seed": 1685184727,
 			"groupIds": [
@@ -63,7 +59,7 @@ tags: [excalidraw]
 					"type": "arrow"
 				}
 			],
-			"updated": 1657361394861,
+			"updated": 1657361999111,
 			"link": "",
 			"locked": false,
 			"fontSize": 25.140717979387208,
@@ -71,8 +67,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 1157,
-			"versionNonce": 265830658,
+			"version": 1168,
+			"versionNonce": 1739173506,
 			"isDeleted": false,
 			"id": "fANL3ytq",
 			"fillStyle": "hachure",
@@ -81,26 +77,26 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -312.65444428461916,
-			"y": -1169.016539220164,
+			"x": -312.8766102923558,
+			"y": -1168.3712942242719,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 105.48226730654241,
-			"height": 32.290489991798715,
+			"width": 103,
+			"height": 31,
 			"seed": 2129058167,
 			"groupIds": [
 				"rLtFAQKH7noD9kgMC_qOa"
 			],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1657361394861,
+			"updated": 1657361999112,
 			"link": null,
 			"locked": false,
-			"fontSize": 25.83239199343897,
+			"fontSize": 25.140717979387208,
 			"fontFamily": 1,
 			"text": "对象",
 			"rawText": "对象",
-			"baseline": 22.290489991798715,
+			"baseline": 22,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "s8jlmThUqDfs7JEN3elag",
@@ -108,8 +104,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 3112,
-			"versionNonce": 1320678366,
+			"version": 3116,
+			"versionNonce": 288452190,
 			"isDeleted": false,
 			"id": "fRjSQt6h1XP5PD1hIkOSq",
 			"fillStyle": "hachure",
@@ -118,17 +114,17 @@ tags: [excalidraw]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": -192.1642898338248,
-			"y": -1153.5939653718283,
+			"x": -193.45655536941405,
+			"y": -1153.604451037419,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 332.09495219075154,
-			"height": 105.33966811504865,
+			"width": 333.3872177263408,
+			"height": 105.3501537806394,
 			"seed": 964838007,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1657361394861,
+			"updated": 1657361999112,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -136,11 +132,7 @@ tags: [excalidraw]
 				"gap": 11.42005492294171,
 				"focus": -0.48421267392363004
 			},
-			"endBinding": {
-				"elementId": "M5JdaaSg",
-				"gap": 2.008591393252014,
-				"focus": -0.03855479047089733
-			},
+			"endBinding": null,
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "triangle",
@@ -150,8 +142,8 @@ tags: [excalidraw]
 					0
 				],
 				[
-					332.09495219075154,
-					105.33966811504865
+					333.3872177263408,
+					105.3501537806394
 				]
 			]
 		},
@@ -227,8 +219,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 2927,
-			"versionNonce": 657516702,
+			"version": 2935,
+			"versionNonce": 72210114,
 			"isDeleted": false,
 			"id": "IN83vpku2uS7lg-KvbXL7",
 			"fillStyle": "hachure",
@@ -237,17 +229,17 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0.06165017063925937,
-			"x": -244.93141843748208,
-			"y": -1333.8864536127533,
+			"x": -245.28990511770422,
+			"y": -1333.9139480226174,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 6.333205705847064,
-			"height": 146.906612412502,
+			"width": 7.2240245854453065,
+			"height": 146.96160123223035,
 			"seed": 827770937,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1657361404758,
+			"updated": 1657361999112,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -269,8 +261,8 @@ tags: [excalidraw]
 					0
 				],
 				[
-					-6.333205705847064,
-					146.906612412502
+					-7.2240245854453065,
+					146.96160123223035
 				]
 			]
 		},
@@ -310,43 +302,6 @@ tags: [excalidraw]
 			"originalText": "创建"
 		},
 		{
-			"type": "image",
-			"version": 524,
-			"versionNonce": 349486722,
-			"isDeleted": false,
-			"id": "M5JdaaSg",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 141.93925375017875,
-			"y": -1101.8941551438745,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 80.01207271263286,
-			"height": 128.01931634021258,
-			"seed": 6140,
-			"groupIds": [],
-			"strokeSharpness": "sharp",
-			"boundElements": [
-				{
-					"id": "fRjSQt6h1XP5PD1hIkOSq",
-					"type": "arrow"
-				}
-			],
-			"updated": 1657360333653,
-			"link": "",
-			"locked": false,
-			"status": "pending",
-			"fileId": "7faba8a0f2d9c7bd3e1e8284905d0c4569b2df36",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
 			"type": "text",
 			"version": 103,
 			"versionNonce": 20556894,
@@ -380,6 +335,43 @@ tags: [excalidraw]
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "发散"
+		},
+		{
+			"type": "image",
+			"version": 525,
+			"versionNonce": 602376542,
+			"isDeleted": true,
+			"id": "M5JdaaSg",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 141.93925375017875,
+			"y": -1101.8941551438745,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 80.01207271263286,
+			"height": 128.01931634021258,
+			"seed": 6140,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"boundElements": [
+				{
+					"id": "fRjSQt6h1XP5PD1hIkOSq",
+					"type": "arrow"
+				}
+			],
+			"updated": 1657361980304,
+			"link": "",
+			"locked": false,
+			"status": "pending",
+			"fileId": "7faba8a0f2d9c7bd3e1e8284905d0c4569b2df36",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
