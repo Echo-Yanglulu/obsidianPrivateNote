@@ -66,7 +66,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/拓展.md",
+                    "file": "笔记/思考工具/逻辑思维/逻辑.md",
                     "mode": "source",
                     "source": false
                   }
@@ -128,13 +128,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -143,7 +141,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 52.946954813359525,
+        "dimension": 72.73954116059379,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -180,33 +178,9 @@
         ]
       },
       {
-        "id": "161cc667bf2c4807",
-        "type": "tabs",
-        "dimension": 27.210216110019648,
-        "children": [
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/学习方法/概念/拓展.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 19.842829076620824,
+        "dimension": 27.260458839406205,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -214,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/拓展.md"
+                "file": "笔记/思考工具/逻辑思维/逻辑.md"
               }
             }
           },
@@ -243,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/拓展.md",
+                "file": "笔记/思考工具/逻辑思维/逻辑.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -264,8 +238,26 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/思考工具/逻辑思维/逻辑.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -273,15 +265,15 @@
   },
   "active": "f882f0720c1f62d0",
   "lastOpenFiles": [
+    "笔记/思考工具/逻辑思维/逻辑.md",
+    "笔记/思考工具/img.md",
+    "笔记/前端/前端.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
     "笔记/学习方法/img/学习的阶段.svg",
     "笔记/学习方法/超级学习.md",
-    "笔记/学习方法/img/整体性学习.svg",
-    "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md"
+    "笔记/学习方法/img/整体性学习.svg"
   ]
 }
