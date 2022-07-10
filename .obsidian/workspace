@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/版本管理/基本概念.md",
+                "file": "笔记/前端/语言/语言.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,6 +35,16 @@
           },
           {
             "id": "f882f0720c1f62d0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "a36cc378f555edcf",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -228,7 +238,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f882f0720c1f62d0",
+  "active": "a36cc378f555edcf",
   "lastOpenFiles": [
     "笔记/学习方法/概念/学习的阶段.md",
     "技术.md",
