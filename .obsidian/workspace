@@ -4,79 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "e914ac872e3514f1",
+        "id": "f5fc51619854febc",
         "type": "split",
         "children": [
           {
-            "id": "e9f41da9c416593f",
-            "type": "split",
-            "dimension": 49.017681728880156,
-            "children": [
-              {
-                "id": "a36edba5e4c27f2e",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "diagram",
-                  "state": {
-                    "file": "笔记/学习方法/img/学习的阶段.svg"
-                  },
-                  "pinned": true
-                }
+            "id": "89ef16a145b97387",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "1baee02d69df8d71",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ],
-            "direction": "vertical"
+              "pinned": true
+            }
           },
           {
-            "id": "f5fc51619854febc",
-            "type": "split",
-            "dimension": 50.982318271119844,
-            "children": [
-              {
-                "id": "89ef16a145b97387",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/概念/学习的阶段.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "f882f0720c1f62d0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/思考工具/逻辑思维/逻辑.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "f882f0720c1f62d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/思考工具/逻辑思维/逻辑.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "direction": "vertical"
+            }
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
