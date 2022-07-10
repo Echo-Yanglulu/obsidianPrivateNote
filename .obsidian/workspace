@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac2b9e945805298",
+        "id": "be6cf1f1d6798cef",
         "type": "leaf",
         "state": {
-          "type": "mindmapview",
-          "state": {
-            "file": "笔记/前端/JS.md"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -123,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/JS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/JS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -197,17 +191,17 @@
     "direction": "horizontal",
     "width": 716
   },
-  "active": "0ac2b9e945805298",
+  "active": "be6cf1f1d6798cef",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/前端/JS.md",
+    "笔记/前端/JS在.md",
+    "笔记/前端/设计模式.md",
     "笔记/前端/未命名.md",
     "笔记/前端/基础知识.md",
     "笔记/前端/语言/语言.md",
     "笔记/学习方法/整体性学习技术.md",
     "笔记/学习方法/概念/概念.md",
-    "笔记/记忆/记忆.md",
-    "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/版本管理/版本控制.md",
-    "笔记/前端/库、框架/工程化库.md"
+    "笔记/记忆/记忆.md"
   ]
 }

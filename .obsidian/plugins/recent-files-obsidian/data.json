@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JS",
-      "path": "笔记/前端/JS.md"
+      "basename": "UI库",
+      "path": "笔记/前端/库、框架/UI库/UI库.md"
+    },
+    {
+      "basename": "JS在",
+      "path": "笔记/前端/JS在.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式.md"
     },
     {
       "basename": "语言",
@@ -26,19 +34,15 @@
     },
     {
       "basename": "工程化库",
-      "path": "笔记/前端/库、框架/工程化库.md"
-    },
-    {
-      "basename": "UI库",
-      "path": "笔记/前端/库、框架/UI库.md"
+      "path": "笔记/前端/库、框架/工程化/工程化库.md"
     },
     {
       "basename": "webpack",
-      "path": "笔记/前端/库、框架/webpack.md"
+      "path": "笔记/前端/库、框架/工程化/webpack.md"
     },
     {
       "basename": "rollup",
-      "path": "笔记/前端/库、框架/rollup.md"
+      "path": "笔记/前端/库、框架/工程化/rollup.md"
     },
     {
       "basename": "函数库",
@@ -191,10 +195,6 @@
     {
       "basename": "yarn",
       "path": "笔记/前端/包管理/yarn.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/包管理/npm.md"
     }
   ],
   "omittedPaths": [],
