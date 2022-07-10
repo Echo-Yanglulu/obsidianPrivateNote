@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络",
+      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+    },
+    {
+      "basename": "计算机组成",
+      "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+    },
+    {
       "basename": "计算机基础",
       "path": "笔记/前端/基础知识/计算机基础.md"
+    },
+    {
+      "basename": "算法",
+      "path": "笔记/前端/基础知识/算法/算法.md"
+    },
+    {
+      "basename": "数据结构",
+      "path": "笔记/前端/基础知识/数据结构/数据结构.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     },
     {
       "basename": "版本管理",
@@ -179,26 +199,6 @@
     {
       "basename": "主体活动图",
       "path": "笔记/思考工具/图形/主体活动图.md"
-    },
-    {
-      "basename": "实体关系图",
-      "path": "笔记/思考工具/图形/实体关系图.md"
-    },
-    {
-      "basename": "类图",
-      "path": "笔记/思考工具/图形/类图.md"
-    },
-    {
-      "basename": "流程图",
-      "path": "笔记/思考工具/图形/流程图.md"
-    },
-    {
-      "basename": "图形思考",
-      "path": "笔记/思考工具/图形/图形思考.md"
-    },
-    {
-      "basename": "Mermaid Type",
-      "path": "笔记/思考工具/img/Mermaid Type.png"
     }
   ],
   "omittedPaths": [],
