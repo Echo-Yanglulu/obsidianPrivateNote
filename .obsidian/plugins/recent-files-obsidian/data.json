@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "样式",
+      "path": "样式.md"
+    },
+    {
       "basename": "库，框架",
       "path": "笔记/前端/库、框架/库，框架.md"
+    },
+    {
+      "basename": "函数",
+      "path": "函数.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "工程化.md"
+    },
+    {
+      "basename": "UI",
+      "path": "UI.md"
     },
     {
       "basename": "语言",
@@ -11,14 +31,6 @@
     {
       "basename": "rollup",
       "path": "rollup.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "基础知识",
@@ -187,18 +199,6 @@
     {
       "basename": "正则表达式",
       "path": "笔记/前端/语言/JS/正则表达式.md"
-    },
-    {
-      "basename": "浏览器内置API、标准库",
-      "path": "笔记/前端/语言/JS/浏览器内置API、标准库.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/语言/JS/数据类型.md"
-    },
-    {
-      "basename": "JS在",
-      "path": "笔记/前端/JS在.md"
     }
   ],
   "omittedPaths": [],
