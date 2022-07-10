@@ -7,11 +7,9 @@
         "id": "a36edba5e4c27f2e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diagram-edit",
           "state": {
-            "file": "笔记/学习方法/概念/学习的阶段.md",
-            "mode": "source",
-            "source": false
+            "file": "Untitled Diagram.svg"
           }
         }
       }
@@ -125,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md"
+                "file": "Untitled Diagram.svg"
               }
             }
           },
@@ -171,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -197,10 +195,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 716
+    "width": 623
   },
   "active": "a36edba5e4c27f2e",
   "lastOpenFiles": [
+    "Untitled Diagram.svg",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
@@ -209,7 +208,6 @@
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/算法/算法.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成.md",
-    "笔记/前端/基础知识/数据结构/数据结构.md"
+    "笔记/前端/基础知识/计算机组成/计算机组成.md"
   ]
 }
