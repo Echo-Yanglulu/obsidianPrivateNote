@@ -19,7 +19,7 @@
       "size": 1
     },
     {
-      "filter": "class:file -class:image",
+      "filter": "class:file",
       "color": "#04ff00",
       "shape": "rectangle",
       "icon": {
@@ -29,7 +29,7 @@
       },
       "showInPane": true,
       "show": true,
-      "size": 10
+      "size": 0.01
     },
     {
       "filter": "",
