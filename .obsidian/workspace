@@ -36,16 +36,33 @@
             }
           },
           {
-            "id": "a9e511d4a80b5f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/概念/获取.md",
-                "mode": "source",
-                "source": false
+            "id": "865544e5f14443bd",
+            "type": "split",
+            "children": [
+              {
+                "id": "a9e511d4a80b5f8f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/万物通用概念/技术.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0fe3557c8fcb74c7",
+                "type": "leaf",
+                "state": {
+                  "type": "diagram-edit",
+                  "state": {
+                    "file": "笔记/万物通用概念/Untitled Diagram.svg"
+                  }
+                }
               }
-            }
+            ],
+            "direction": "horizontal"
           },
           {
             "id": "80fda6f05f9d465b",
@@ -172,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md"
+                "file": "笔记/万物通用概念/Untitled Diagram.svg"
               }
             }
           },
@@ -201,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
+                "file": "笔记/万物通用概念/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -229,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
+                "file": "笔记/万物通用概念/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,17 +264,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "a9e511d4a80b5f8f",
+  "active": "0fe3557c8fcb74c7",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/获取.md",
+    "笔记/万物通用概念/Untitled Diagram.svg",
     "笔记/万物通用概念/技术.md",
+    "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/读书/纳瓦尔宝典.md",
     "笔记/学习方法/概念/内在化.md",
     "笔记/读书/人的行为/健身/健身.md",
     "笔记/读书/人的行为/健身/通用动作.md",
     "笔记/读书/人的行为/健身/孤立动作.md",
-    "笔记/读书/人的行为/健身/放松，热身.md",
-    "笔记/读书/人的行为/健身/法则.md"
+    "笔记/读书/人的行为/健身/放松，热身.md"
   ]
 }
