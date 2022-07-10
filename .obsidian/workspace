@@ -4,89 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fc51619854febc",
-        "type": "split",
-        "children": [
-          {
-            "id": "89ef16a145b97387",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "9ddac3f09707d863",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/概念/内在化.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a9e511d4a80b5f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/思考工具/记忆/记忆.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e3077137da9bdd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90e05b4a6d114b61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/概念/图表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80fda6f05f9d465b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/万物通用概念/技术.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
+        "id": "e125555c9487d7ea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/整体性学习.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "vertical"
+        }
       }
     ],
     "direction": "vertical"
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -227,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -255,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,8 +200,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "9e3077137da9bdd2",
+  "active": "e125555c9487d7ea",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/获取.md",
@@ -282,7 +210,6 @@
     "压缩.md",
     "笔记/学习方法/概念/PBL.md",
     "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/纠错.md",
     "方法.md"
   ]
