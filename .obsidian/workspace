@@ -6,10 +6,24 @@
       {
         "id": "a36edba5e4c27f2e",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "diagram-edit",
+          "type": "diagram",
           "state": {
             "file": "笔记/学习方法/img/学习的阶段.svg"
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "1baee02d69df8d71",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/获取.md",
+            "mode": "source",
+            "source": false
           }
         }
       },
@@ -25,30 +39,6 @@
             "source": false
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "c389ce7847316636",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/获取.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "17dc66839052e470",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/理解.md",
-            "mode": "source",
-            "source": false
-          }
         }
       }
     ],
@@ -161,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/img/学习的阶段.svg",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/img/学习的阶段.svg"
+                "file": "笔记/学习方法/概念/学习的阶段.md"
               }
             }
           },
@@ -207,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/img/学习的阶段.svg",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -235,12 +225,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "a36edba5e4c27f2e",
+  "active": "89ef16a145b97387",
   "lastOpenFiles": [
-    "笔记/学习方法/img/学习的阶段.svg",
-    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/学习的阶段.md",
+    "笔记/学习方法/img/学习的阶段.svg",
     "笔记/学习方法/概念/获取.md",
+    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
