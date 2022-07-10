@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "版本控制",
+      "path": "版本控制.md"
+    },
+    {
+      "basename": "工程化库",
+      "path": "工程化库.md"
+    },
+    {
       "basename": "UI库",
       "path": "UI库.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "函数库",
       "path": "函数库.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "工程化.md"
     },
     {
       "basename": "库，框架",
@@ -195,10 +199,6 @@
     {
       "basename": "npm",
       "path": "笔记/前端/包管理/npm.md"
-    },
-    {
-      "basename": "JS调试",
-      "path": "笔记/前端/语言/JS/JS调试.md"
     }
   ],
   "omittedPaths": [],
