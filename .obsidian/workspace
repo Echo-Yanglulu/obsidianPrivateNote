@@ -26,6 +26,18 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "17dc66839052e470",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/理解.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md"
+                "file": "Untitled Diagram.svg"
               }
             }
           },
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -211,17 +223,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "89ef16a145b97387",
+  "active": "a36edba5e4c27f2e",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/学习的阶段.md",
     "Untitled Diagram.svg",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/通用概念.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/基础知识/算法/算法.md",
-    "笔记/前端/基础知识/编译原理/编译原理.md"
+    "笔记/前端/基础知识/算法/算法.md"
   ]
 }
