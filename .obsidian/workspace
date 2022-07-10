@@ -25,9 +25,11 @@
             "id": "9ddac3f09707d863",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg"
+                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg"
+                "file": "笔记/学习方法/概念/学习的阶段.md"
               }
             }
           },
@@ -173,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -201,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/img/整体性学习.svg",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -221,15 +223,15 @@
   },
   "active": "9ddac3f09707d863",
   "lastOpenFiles": [
-    "笔记/学习方法/img/整体性学习.svg",
+    "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/万物通用概念/技术.md",
+    "笔记/学习方法/img/整体性学习.svg",
     "笔记/万物通用概念/人.md",
     "笔记/万物通用概念/人，思维导图.md",
     "笔记/万物通用概念/事件.md",
-    "笔记/万物通用概念/技术.md",
     "笔记/思考工具/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/思考工具/思维概念/思想.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/方法.md"
+    "笔记/学习方法/概念/理解.md"
   ]
 }
