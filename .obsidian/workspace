@@ -32,34 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f882f0720c1f62d0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "a36cc378f555edcf",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "93fb2e4d30de5a80",
-            "type": "leaf",
-            "state": {
-              "type": "juggl-help",
-              "state": {}
-            }
           }
         ],
         "direction": "vertical"
@@ -174,7 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/学习的阶段.md"
+              }
             }
           },
           {
@@ -202,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -229,6 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +222,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f882f0720c1f62d0",
+  "active": "89ef16a145b97387",
   "lastOpenFiles": [
     "笔记/学习方法/概念/学习的阶段.md",
     "技术.md",
