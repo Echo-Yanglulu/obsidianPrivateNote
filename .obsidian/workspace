@@ -8,21 +8,10 @@
         "type": "split",
         "children": [
           {
-            "id": "78e06d53a3c6b171",
+            "id": "e9f41da9c416593f",
             "type": "split",
+            "dimension": 44.4007858546169,
             "children": [
-              {
-                "id": "1baee02d69df8d71",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/超级学习.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
               {
                 "id": "a36edba5e4c27f2e",
                 "type": "leaf",
@@ -34,6 +23,18 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "1baee02d69df8d71",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/整体性学习.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
             "direction": "vertical"
@@ -41,6 +42,7 @@
           {
             "id": "89ef16a145b97387",
             "type": "leaf",
+            "dimension": 55.5992141453831,
             "pinned": true,
             "state": {
               "type": "markdown",
@@ -105,11 +107,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 309,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -165,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/超级学习.md",
+                "file": "笔记/学习方法/img/学习的阶段.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/超级学习.md"
+                "file": "笔记/学习方法/img/学习的阶段.svg"
               }
             }
           },
@@ -211,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/超级学习.md",
+                "file": "笔记/学习方法/img/学习的阶段.svg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -239,16 +243,16 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "1baee02d69df8d71",
+  "active": "a36edba5e4c27f2e",
   "lastOpenFiles": [
-    "笔记/学习方法/超级学习.md",
     "笔记/学习方法/img/学习的阶段.svg",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/学习的阶段.md",
+    "笔记/学习方法/超级学习.md",
     "笔记/学习方法/img/整体性学习.svg",
     "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/拓展.md",
-    "笔记/学习方法/整体性学习.md",
     "技术.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md"
   ]
