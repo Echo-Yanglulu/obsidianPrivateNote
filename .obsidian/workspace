@@ -39,8 +39,12 @@
             "id": "a9e511d4a80b5f8f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "笔记/读书/纳瓦尔宝典.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -155,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/读书/纳瓦尔宝典.md"
+              }
             }
           },
           {
@@ -183,6 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/读书/纳瓦尔宝典.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,6 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/读书/纳瓦尔宝典.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,6 +237,8 @@
   },
   "active": "a9e511d4a80b5f8f",
   "lastOpenFiles": [
+    "笔记/读书/纳瓦尔宝典.md",
+    "笔记/读书/assets/Pasted image 20220710153100.png",
     "读书/纳瓦尔宝典.md",
     "笔记/思考工具/记忆/记忆.md",
     "笔记/前端/前端.md",
@@ -236,8 +246,6 @@
     "笔记/学习方法/概念/比喻.md",
     "笔记/万物通用概念/技术.md",
     "笔记/学习方法/概念/信息结构.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/img/整体性学习.svg"
+    "笔记/学习方法/整体性学习.md"
   ]
 }
