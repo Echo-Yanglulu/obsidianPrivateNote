@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/读书/运气.md",
+                "file": "笔记/学习方法/概念/联系观点.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 46.36542239685658,
+        "dimension": 64.14538310412574,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -152,7 +152,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 53.63457760314342,
+        "dimension": 35.854616895874265,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/读书/运气.md"
+                "file": "笔记/学习方法/概念/联系观点.md"
               }
             }
           },
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/读书/运气.md",
+                "file": "笔记/学习方法/概念/联系观点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/读书/运气.md",
+                "file": "笔记/学习方法/概念/联系观点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,6 +237,8 @@
   },
   "active": "a9e511d4a80b5f8f",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/联系观点.md",
+    "笔记/学习方法/概念/图表.md",
     "笔记/读书/运气.md",
     "笔记/读书/assets/Pasted image 20220710153100.png",
     "读书/纳瓦尔宝典.md",
@@ -244,8 +246,6 @@
     "笔记/前端/前端.md",
     "笔记/学习方法/概念/内在化.md",
     "笔记/学习方法/概念/比喻.md",
-    "笔记/万物通用概念/技术.md",
-    "笔记/学习方法/概念/信息结构.md",
-    "笔记/学习方法/整体性学习.md"
+    "笔记/万物通用概念/技术.md"
   ]
 }
