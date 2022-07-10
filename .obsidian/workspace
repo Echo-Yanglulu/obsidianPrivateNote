@@ -41,7 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/读书/人的行为/健身/内脏脂肪.md",
+                "file": "笔记/思考工具/记忆/记忆.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e3077137da9bdd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "联想.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/读书/人的行为/健身/内脏脂肪.md"
+                "file": "联想.md"
               }
             }
           },
@@ -215,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/读书/人的行为/健身/内脏脂肪.md",
+                "file": "联想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -243,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/读书/人的行为/健身/内脏脂肪.md",
+                "file": "联想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,17 +273,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "a9e511d4a80b5f8f",
+  "active": "9e3077137da9bdd2",
   "lastOpenFiles": [
+    "联想.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/思考工具/记忆/图像.md",
+    "笔记/思考工具/记忆/联系.md",
+    "笔记/思考工具/记忆/记忆.md",
+    "笔记/学习方法/概念/随意信息.md",
     "笔记/读书/人的行为/健身/内脏脂肪.md",
     "笔记/读书/人的行为/健身/健身.md",
     "笔记/学习方法/概念/知识的结构.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/学习方法/概念/方法.md",
-    "笔记/万物通用概念/技术.md",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/整体性学习.md"
+    "笔记/学习方法/概念/概念.md"
   ]
 }
