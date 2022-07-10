@@ -7,8 +7,12 @@
         "id": "be6cf1f1d6798cef",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "样式库.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -121,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "样式库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "样式库.md"
+              }
             }
           },
           {
@@ -164,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "样式库.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -193,15 +201,15 @@
   },
   "active": "be6cf1f1d6798cef",
   "lastOpenFiles": [
+    "样式库.md",
+    "笔记/前端/库、框架/库，框架.md",
     "笔记/前端/库、框架/UI库/UI库.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/JS.md",
     "笔记/前端/JS在.md",
     "笔记/前端/设计模式.md",
     "笔记/前端/未命名.md",
     "笔记/前端/基础知识.md",
-    "笔记/前端/语言/语言.md",
-    "笔记/学习方法/整体性学习技术.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/记忆/记忆.md"
+    "笔记/前端/语言/语言.md"
   ]
 }
