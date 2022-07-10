@@ -3,9 +3,9 @@
   "rowOverflow": true,
   "horizontalToVertical": true,
   "hideButtons": true,
-  "smallTitle": false,
-  "compactTitle": false,
-  "tabNumbering": false,
-  "tabUnderline": false,
+  "smallTitle": true,
+  "compactTitle": true,
+  "tabNumbering": true,
+  "tabUnderline": true,
   "headerHeight": 40
 }

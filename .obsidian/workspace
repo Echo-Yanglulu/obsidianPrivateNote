@@ -4,42 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "a36edba5e4c27f2e",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "diagram",
-          "state": {
-            "file": "笔记/学习方法/img/学习的阶段.svg"
+        "id": "e914ac872e3514f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "78e06d53a3c6b171",
+            "type": "split",
+            "children": [
+              {
+                "id": "1baee02d69df8d71",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/概念/获取.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a36edba5e4c27f2e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "diagram",
+                  "state": {
+                    "file": "笔记/学习方法/img/学习的阶段.svg"
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "direction": "vertical"
           },
-          "pinned": true
-        }
-      },
-      {
-        "id": "1baee02d69df8d71",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/获取.md",
-            "mode": "source",
-            "source": false
+          {
+            "id": "89ef16a145b97387",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        }
-      },
-      {
-        "id": "89ef16a145b97387",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/学习的阶段.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -151,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "笔记/学习方法/概念/获取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md"
+                "file": "笔记/学习方法/概念/获取.md"
               }
             }
           },
@@ -197,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/学习的阶段.md",
+                "file": "笔记/学习方法/概念/获取.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -225,11 +239,11 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "89ef16a145b97387",
+  "active": "1baee02d69df8d71",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/img/学习的阶段.svg",
-    "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/整体性学习.md",
