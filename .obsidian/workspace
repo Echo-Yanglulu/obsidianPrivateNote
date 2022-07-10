@@ -141,7 +141,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 72.73954116059379,
+        "dimension": 46.36542239685658,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -175,12 +175,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 27.260458839406205,
+        "dimension": 53.63457760314342,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -188,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/思考工具/逻辑思维/逻辑.md"
+                "file": "笔记/学习方法/概念/学习的阶段.md"
               }
             }
           },
@@ -217,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/思考工具/逻辑思维/逻辑.md",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -245,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/思考工具/逻辑思维/逻辑.md",
+                "file": "笔记/学习方法/概念/学习的阶段.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,13 +264,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f882f0720c1f62d0",
+  "active": "89ef16a145b97387",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/学习的阶段.md",
     "笔记/思考工具/逻辑思维/逻辑.md",
     "笔记/思考工具/img.md",
     "笔记/前端/前端.md",
     "笔记/学习方法/概念/拓展.md",
-    "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/整体性学习.md",
     "技术.md",
     "笔记/学习方法/img/学习的阶段.svg",

@@ -7,7 +7,7 @@
   "globalStyleGroups": [
     {
       "filter": "class:dangling",
-      "color": "rgb(232, 118, 89)",
+      "color": "#cc2e2e",
       "shape": "ellipse",
       "icon": {
         "name": "No icon",
@@ -27,7 +27,7 @@
         "path": "",
         "color": "white"
       },
-      "showInPane": true,
+      "showInPane": false,
       "show": true,
       "size": 1
     }
