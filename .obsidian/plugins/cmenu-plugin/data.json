@@ -62,7 +62,7 @@
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
-  "cMenuVisibility": true,
-  "cMenuBottomValue": 4,
+  "cMenuVisibility": false,
+  "cMenuBottomValue": 2,
   "cMenuNumRows": 15
 }
