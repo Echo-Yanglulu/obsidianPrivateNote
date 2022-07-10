@@ -5,6 +5,10 @@
       "path": "笔记/读书/纳瓦尔宝典.md"
     },
     {
+      "basename": "目标",
+      "path": "目标.md"
+    },
+    {
       "basename": "运气",
       "path": "笔记/读书/基本概念/运气.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "lodash",
       "path": "笔记/前端/库、框架/函数库/lodash.md"
-    },
-    {
-      "basename": "Bootstrap",
-      "path": "笔记/前端/库、框架/CSS样式/Bootstrap.md"
     }
   ],
   "omittedPaths": [],
