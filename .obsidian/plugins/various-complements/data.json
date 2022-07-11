@@ -174,8 +174,8 @@
     "webpack": {
       "webpack": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1657410420512
+          "count": 2,
+          "lastUpdated": 1657581592318
         }
       }
     },
@@ -192,6 +192,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1657421496443
+        }
+      }
+    },
+    "npm": {
+      "npm": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1657581427276
+        }
+      }
+    },
+    "babel": {
+      "babel": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1657582023420
         }
       }
     }
