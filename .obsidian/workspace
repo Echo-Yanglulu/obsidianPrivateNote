@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/语言/JS/JS.md",
+            "file": "笔记/人的行为/健身/饮食/饮食.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/语言/JS/JS.md"
+                "file": "笔记/人的行为/健身/饮食/饮食.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/语言/JS/JS.md",
+                "file": "笔记/人的行为/健身/饮食/饮食.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/语言/JS/JS.md",
+                "file": "笔记/人的行为/健身/饮食/饮食.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,6 +202,8 @@
   },
   "active": "08e4111e52f76a66",
   "lastOpenFiles": [
+    "笔记/人的行为/健身/饮食/饮食.md",
+    "笔记/前端/前端.md",
     "笔记/前端/语言/JS/JS.md",
     "笔记/前端/语言/JS/标准库.md",
     "笔记/前端/语言/JS/浏览器内置API、标准库.md",
@@ -209,8 +211,6 @@
     "笔记/前端/语言/JS/JS调试.md",
     "笔记/前端/语言/JS/JS在.md",
     "笔记/前端/语言/TS/TS.md",
-    "笔记/前端/语言/TS/TS Model.svg",
-    "笔记/前端/语言/语言.md",
-    "笔记/前端/包管理/包管理.md"
+    "笔记/前端/语言/TS/TS Model.svg"
   ]
 }
