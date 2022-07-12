@@ -1,0 +1,1 @@
+并不是执行Unix [[shell]]的解释器，而是只能执行windows的bash脚本的解释器。
