@@ -2,23 +2,27 @@
   "recentFiles": [
     {
       "basename": "工程化",
-      "path": "笔记/前端/库、框架/工程化/工程化.md"
+      "path": "笔记/前端/工程化/工程化.md"
     },
     {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
     },
     {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "工程化库",
+      "path": "笔记/前端/库、框架/工程化库/工程化库.md"
     },
     {
       "basename": "webpack",
-      "path": "笔记/前端/库、框架/工程化/webpack.md"
+      "path": "笔记/前端/库、框架/工程化库/webpack.md"
     },
     {
       "basename": "构建",
@@ -42,11 +46,11 @@
     },
     {
       "basename": "vite",
-      "path": "笔记/前端/库、框架/工程化/vite.md"
+      "path": "笔记/前端/库、框架/工程化库/vite.md"
     },
     {
       "basename": "rollup",
-      "path": "笔记/前端/库、框架/工程化/rollup.md"
+      "path": "笔记/前端/库、框架/工程化库/rollup.md"
     },
     {
       "basename": "整体性学习",
@@ -63,10 +67,6 @@
     {
       "basename": "bash",
       "path": "笔记/前端/工程化/bash.md"
-    },
-    {
-      "basename": "版本管理",
-      "path": "笔记/前端/版本管理/版本管理.md"
     },
     {
       "basename": "设计模式",
