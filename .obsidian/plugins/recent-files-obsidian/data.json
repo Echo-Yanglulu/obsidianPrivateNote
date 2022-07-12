@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "basename": "基本概念",
+      "path": "笔记/前端/版本管理/基本概念.md"
     },
     {
       "basename": "版本管理",
       "path": "笔记/前端/版本管理/版本管理.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
+      "basename": "yarn",
+      "path": "笔记/前端/包管理/yarn.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/包管理/npm.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "bash",
+      "path": "笔记/前端/工程化/bash.md"
     },
     {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具.md"
+    },
+    {
+      "basename": "持续集成&部署",
+      "path": "笔记/前端/工程化/持续集成&部署.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "工程化库",
@@ -23,10 +59,6 @@
     {
       "basename": "webpack",
       "path": "笔记/前端/库、框架/工程化库/webpack.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建.md"
     },
     {
       "basename": "工程设计",
@@ -59,14 +91,6 @@
     {
       "basename": "函数库",
       "path": "笔记/前端/库、框架/函数库/函数库.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "bash",
-      "path": "笔记/前端/工程化/bash.md"
     },
     {
       "basename": "设计模式",
@@ -145,10 +169,6 @@
       "path": "笔记/学习方法/概念/应用.md"
     },
     {
-      "basename": "npm",
-      "path": "笔记/前端/包管理/npm.md"
-    },
-    {
       "basename": "记忆",
       "path": "笔记/思考工具/记忆/记忆.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "概念",
       "path": "笔记/学习方法/概念/概念.md"
-    },
-    {
-      "basename": "技术",
-      "path": "笔记/万物通用概念/技术.md"
-    },
-    {
-      "basename": "写作",
-      "path": "笔记/人的行为/写作/写作.md"
-    },
-    {
-      "basename": "设计",
-      "path": "笔记/人的行为/设计/设计.md"
-    },
-    {
-      "basename": "项目3",
-      "path": "笔记/前端/项目3.md"
     }
   ],
   "omittedPaths": [],
