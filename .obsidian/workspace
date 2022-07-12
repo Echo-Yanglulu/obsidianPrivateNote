@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "075429d9bdec8859",
+        "id": "9621abff370da7cc",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,8 +200,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "075429d9bdec8859",
+  "active": "9621abff370da7cc",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
     "WSL.md",
     "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md",
@@ -210,7 +211,6 @@
     "笔记/前端/工程化/基本概念/command.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/shell.md",
-    "笔记/前端/工程化/基本概念/shell解释器/zsh.md",
-    "笔记/前端/工程化/基本概念/shell解释器/sh.md"
+    "笔记/前端/工程化/基本概念/shell解释器/zsh.md"
   ]
 }
