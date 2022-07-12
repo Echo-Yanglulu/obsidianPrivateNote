@@ -2,11 +2,43 @@
   "recentFiles": [
     {
       "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "path": "笔记/前端/库、框架/工程化/工程化.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "工程化",
-      "path": "笔记/前端/库、框架/工程化/工程化.md"
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/库、框架/工程化/webpack.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建.md"
+    },
+    {
+      "basename": "工程设计",
+      "path": "笔记/前端/工程化/工程设计.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本.md"
     },
     {
       "basename": "vite",
@@ -15,14 +47,6 @@
     {
       "basename": "rollup",
       "path": "笔记/前端/库、框架/工程化/rollup.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/库、框架/工程化/webpack.md"
     },
     {
       "basename": "整体性学习",
@@ -39,10 +63,6 @@
     {
       "basename": "bash",
       "path": "笔记/前端/工程化/bash.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "版本管理",
@@ -175,30 +195,6 @@
     {
       "basename": "项目3",
       "path": "笔记/前端/项目3.md"
-    },
-    {
-      "basename": "yarn",
-      "path": "笔记/前端/包管理/yarn.md"
-    },
-    {
-      "basename": "基本概念",
-      "path": "笔记/前端/版本管理/基本概念.md"
-    },
-    {
-      "basename": "版本控制",
-      "path": "笔记/前端/版本管理/版本控制.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "笔记/前端/版本管理/未命名.md"
-    },
-    {
-      "basename": "训练模式",
-      "path": "笔记/人的行为/健身/训练模式/训练模式.md"
-    },
-    {
-      "basename": "人",
-      "path": "笔记/万物通用概念/人.md"
     }
   ],
   "omittedPaths": [],
