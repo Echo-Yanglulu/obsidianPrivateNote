@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "shell",
+      "path": "笔记/前端/工程化/shell.md"
+    },
+    {
+      "basename": "bash",
+      "path": "笔记/前端/工程化/bash.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/包管理/npm.md"
+    },
+    {
       "basename": "脚本",
       "path": "笔记/前端/工程化/脚本.md"
     },
@@ -9,16 +21,16 @@
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
       "basename": "包管理",
       "path": "笔记/前端/包管理/包管理.md"
     },
     {
       "basename": "版本管理",
       "path": "笔记/前端/版本管理/版本管理.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "git",
@@ -31,14 +43,6 @@
     {
       "basename": "yarn",
       "path": "笔记/前端/包管理/yarn.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/包管理/npm.md"
-    },
-    {
-      "basename": "bash",
-      "path": "笔记/前端/工程化/bash.md"
     },
     {
       "basename": "库、框架",
