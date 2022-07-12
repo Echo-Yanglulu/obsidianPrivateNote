@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/版本管理/基本概念.md",
+            "file": "笔记/前端/工程化/脚本.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/版本管理/基本概念.md"
+                "file": "笔记/前端/工程化/脚本.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/版本管理/基本概念.md",
+                "file": "笔记/前端/工程化/脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/版本管理/基本概念.md",
+                "file": "笔记/前端/工程化/脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,15 +202,15 @@
   },
   "active": "075429d9bdec8859",
   "lastOpenFiles": [
-    "笔记/前端/版本管理/基本概念.md",
-    "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/包管理/yarn.md",
-    "笔记/前端/包管理/npm.md",
-    "笔记/前端/包管理/包管理.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/bash.md",
-    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/工程化/脚本.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/工具.md"
+    "笔记/前端/前端.md",
+    "笔记/前端/包管理/包管理.md",
+    "笔记/前端/版本管理/版本管理.md",
+    "笔记/前端/项目3.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/版本管理/基本概念.md",
+    "笔记/前端/包管理/yarn.md",
+    "笔记/前端/包管理/npm.md"
   ]
 }
