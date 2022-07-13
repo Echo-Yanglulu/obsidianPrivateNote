@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "40edcce7ff631e54",
+        "id": "90bd0be0a5ffbde0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "40edcce7ff631e54",
+  "active": "90bd0be0a5ffbde0",
   "lastOpenFiles": [
     "笔记/前端/工程化/脚本.md",
     "笔记/前端/工程化/工程化.md",
