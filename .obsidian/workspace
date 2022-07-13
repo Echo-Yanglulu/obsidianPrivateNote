@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9621abff370da7cc",
+        "id": "40edcce7ff631e54",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/快速阅读.md",
+            "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
             "mode": "source",
             "source": false
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/快速阅读.md"
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/快速阅读.md",
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/快速阅读.md",
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,17 +200,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "9621abff370da7cc",
+  "active": "40edcce7ff631e54",
   "lastOpenFiles": [
+    "笔记/前端/工程化/脚本.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/shell.md",
+    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+    "笔记/前端/包管理/包管理.md",
+    "笔记/前端/前端.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/快速阅读.md",
     "笔记/万物通用概念/技术.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
-    "WSL.md",
-    "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md",
-    "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
-    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
-    "笔记/前端/工程化/基本概念/command.md"
+    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
   ]
 }
