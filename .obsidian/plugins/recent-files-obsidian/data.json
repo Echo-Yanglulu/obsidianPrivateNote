@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/规范/ESLint.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范.md"
+    },
+    {
       "basename": "CLI",
       "path": "笔记/前端/工程化/基本概念/CLI.md"
     },
@@ -105,10 +117,6 @@
       "path": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
     },
     {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范.md"
-    },
-    {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "webpack",
       "path": "笔记/前端/库、框架/工程化库/webpack.md"
-    },
-    {
-      "basename": "工程设计",
-      "path": "笔记/前端/工程化/工程设计.md"
     }
   ],
   "omittedPaths": [],
