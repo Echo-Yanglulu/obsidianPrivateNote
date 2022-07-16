@@ -1,7 +1,7 @@
 {
   "splitDirection": "vertical",
   "typedLinkPrefix": "-",
-  "useImgServer": false,
+  "useImgServer": true,
   "imgServerPort": 3837,
   "debug": false,
   "globalStyleGroups": [
@@ -60,8 +60,8 @@
     "layout": "force-directed",
     "limit": 10000,
     "mergeEdges": true,
-    "metaKeyHover": true,
-    "mode": "workspace",
+    "metaKeyHover": false,
+    "mode": "local",
     "navigator": true,
     "openWithShift": false,
     "readContent": true,
@@ -84,7 +84,7 @@
     "layout": "force-directed",
     "limit": 1000,
     "mergeEdges": true,
-    "metaKeyHover": true,
+    "metaKeyHover": false,
     "mode": "local",
     "navigator": false,
     "openWithShift": false,
@@ -123,7 +123,7 @@
       "nodeSpacing": 10
     },
     "mergeEdges": true,
-    "metaKeyHover": true,
+    "metaKeyHover": false,
     "mode": "workspace",
     "navigator": true,
     "openWithShift": false,
