@@ -19,3 +19,8 @@ vscode/atom/vim/sublime text
 ## 构建工具集成
 在构建过程中进行代码检查
 webpack/rollup/gulp/grunt/vite ，
+## 配置
+使用很简单，但配置的方式和方法较多
+配置文件格式：JS, JSON, YAML, package.json中的eslintConfig字段。
+配置内容：
+ 1. parser：eslilnt使用哪种解析器
