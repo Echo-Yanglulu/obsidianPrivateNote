@@ -47,3 +47,11 @@ kill
 			-p 2333 查看pid(process id)为2333的进程打开的文件
 		top 查看进程，平均负载，CPU使用率，物理内存
 	其他
+
+# bash编程
+## 变量
+全局变量
+B = JFWIOS
+局部变量
+local A = JFIOWE
+环境变量
