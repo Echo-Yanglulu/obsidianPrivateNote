@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/shell.md",
+            "file": "笔记/前端/包管理/npm.md",
             "mode": "source",
             "source": false
           }
@@ -142,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/shell.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +197,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,17 +214,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "1855854b46597d3b",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/包管理/npm.md",
+    "笔记/前端/工程化/脚本.md",
+    "笔记/前端/工程化/node/process.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/shell.md",
     "笔记/前端/工程化/基本概念/WSL.md",
     "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
-    "笔记/前端/工程化/shell.md",
     "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
     "笔记/前端/工程化/基本概念/shell解释器/bash.md",
-    "笔记/前端/工程化/脚本.md",
-    "笔记/前端/工程化/基本概念/CLI.md",
-    "command.md",
-    "笔记/前端/工程化/规范.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/工程化/基本概念/CLI.md"
   ]
 }

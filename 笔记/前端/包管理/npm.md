@@ -1,3 +1,18 @@
+node cli
+# CLI的原理
+从基础API到commander这个库
+
+从[[process]].argv说起
+	定义：获取当前进程的命令与参数。
+	执行： node processArgs.js one two=three four （文件内部）
+# 编写CLI常用的工具与最佳实践
+1. 如何让标准输出带颜色？
+2. 复杂交互怎么办？
+	根据提示让用户进行下一步的操作（如git的rebase）
+3. 调用其他命令？
+	如此就不用重复
+4. 只想开发个脚手架？
+5. 如何把CLI写得更好？
 
 初始化：在需要作为项目文件夹的内部运行npm init -y，得到一个package.json文件，管理项目的详细信息（尤其是依赖的库）
 
@@ -33,7 +48,7 @@ npm script
 				自动化发版（自动增加版本号）
 
 
-命令常用
+常用命令
 	npm
 		init 初始化工程
 		run 运行脚本
