@@ -9,3 +9,13 @@
 > 为何有这些强大的特性？
 通过解析器（parser）将JS代码解析为抽象语法树（[[AST]]），再调用规则（rule）对AST进行检查。
 ESLint的规则就是一个检查AST的函数
+
+
+# 使用
+## eslint cli
+## 编辑器集成
+在写代码的同时进行代码检查
+vscode/atom/vim/sublime text
+## 构建工具集成
+在构建过程中进行代码检查
+webpack/rollup/gulp/grunt/vite ，

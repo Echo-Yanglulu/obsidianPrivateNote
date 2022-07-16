@@ -174,16 +174,16 @@
     "webpack": {
       "webpack": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1657581592318
+          "count": 3,
+          "lastUpdated": 1657962956370
         }
       }
     },
     "rollup": {
       "rollup": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1657414620696
+          "count": 2,
+          "lastUpdated": 1657962973912
         }
       }
     },
@@ -272,6 +272,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1657960659897
+        }
+      }
+    },
+    "CLI": {
+      "CLI": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1657962646726
+        }
+      }
+    },
+    "vite": {
+      "vite": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1657962932040
         }
       }
     }

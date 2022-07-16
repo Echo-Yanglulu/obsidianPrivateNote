@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "AST",
-      "path": "笔记/前端/基础知识/编译原理/AST.md"
-    },
-    {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/规范/ESLint.md"
     },
     {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建.md"
+    },
+    {
       "basename": "规范",
       "path": "笔记/前端/工程化/规范.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/库/webpack.md"
+    },
+    {
+      "basename": "UI库",
+      "path": "笔记/前端/库、框架/UI库/UI库.md"
+    },
+    {
+      "basename": "工程化库",
+      "path": "笔记/前端/库、框架/工程化库/工程化库.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
     {
       "basename": "CLI",
@@ -67,10 +91,6 @@
     {
       "basename": "yeoman-generator",
       "path": "笔记/前端/工程化/node/库/yeoman-generator.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "polp",
@@ -177,28 +197,8 @@
       "path": "笔记/前端/包管理/yarn.md"
     },
     {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
       "basename": "工具",
       "path": "笔记/前端/工程化/工具.md"
-    },
-    {
-      "basename": "持续集成&部署",
-      "path": "笔记/前端/工程化/持续集成&部署.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建.md"
-    },
-    {
-      "basename": "工程化库",
-      "path": "笔记/前端/库、框架/工程化库/工程化库.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/库、框架/工程化库/webpack.md"
     }
   ],
   "omittedPaths": [],
