@@ -6,25 +6,15 @@
       {
         "id": "d817f54e9544018d",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/设计模式/设计模式.md",
+            "file": "笔记/前端/前端.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
+          }
         },
         "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "9b0ac4f22af88e11",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -94,11 +84,9 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true
+              "type": "graph",
+              "state": {}
             },
             "group": "2515ad75bb84e03c"
           },
@@ -136,15 +124,10 @@
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/设计模式/设计模式.md"
-              },
-              "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
+              "state": {}
+            }
           },
           {
             "id": "e06cd8634f0d46cc",
@@ -171,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/设计模式/设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -199,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/设计模式/设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,17 +198,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "d817f54e9544018d",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
-    "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/包管理/包管理.md",
     "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/前端/工程化/未命名思维导图.md"
+    "笔记/学习方法/整体性学习.md"
   ]
 }
