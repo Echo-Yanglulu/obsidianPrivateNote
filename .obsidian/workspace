@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/设计模式/OO基本原则.md",
+            "file": "笔记/前端/设计模式/设计模式.md",
             "mode": "source",
             "source": false
           }
@@ -142,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/设计模式/OO基本原则.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/设计模式/OO基本原则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +197,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/设计模式/OO基本原则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,17 +214,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "0c264d2e8b57ebba",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
     "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/设计模式/未命名.md",
+    "笔记/前端/设计模式/OO设计模式.md",
+    "笔记/前端/设计模式/OO特性.md",
+    "笔记/前端/设计模式/OO基本原则.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/包管理/包管理.md",
-    "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
+    "笔记/前端/包管理/包管理.md"
   ]
 }

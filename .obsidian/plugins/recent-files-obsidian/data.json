@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "OO基本原则",
-      "path": "笔记/前端/设计模式/OO基本原则.md"
-    },
-    {
       "basename": "设计模式",
       "path": "笔记/前端/设计模式/设计模式.md"
     },
     {
-      "basename": "未命名",
-      "path": "笔记/前端/设计模式/未命名.md"
+      "basename": "OO设计模式",
+      "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "OO特性",
+      "path": "笔记/前端/设计模式/OO特性.md"
+    },
+    {
+      "basename": "OO基本原则",
+      "path": "笔记/前端/设计模式/OO基本原则.md"
     },
     {
       "basename": "前端",
@@ -195,10 +199,6 @@
     {
       "basename": "process",
       "path": "笔记/前端/工程化/node/process.md"
-    },
-    {
-      "basename": "WSL",
-      "path": "笔记/前端/工程化/基本概念/WSL.md"
     }
   ],
   "omittedPaths": [],
