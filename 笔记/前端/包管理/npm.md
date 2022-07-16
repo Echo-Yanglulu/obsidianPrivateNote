@@ -4,7 +4,8 @@ node cli
 
 从[[process]].argv说起
 	定义：获取当前进程的命令与参数。
-	执行： node processArgs.js one two=three four （文件内部）
+	执行： node processArgs.js one two=three four （文件内部打印process.argv，第一个是node路径，第二个是执行的文件的路径，后续是输入的参数）
+CLI关心的核心问题，是**参数处理**。（git merge testBranch）如果能提高参数处理的效率，就能提升开发CLI程序的效率：用于node参数处理的库：commander.
 # 编写CLI常用的工具与最佳实践
 1. 如何让标准输出带颜色？
 2. 复杂交互怎么办？

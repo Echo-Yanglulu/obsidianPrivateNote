@@ -5,16 +5,28 @@
       "path": "笔记/前端/包管理/npm.md"
     },
     {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "commander",
+      "path": "笔记/前端/工程化/node/库/commander.md"
+    },
+    {
       "basename": "脚本",
       "path": "笔记/前端/工程化/脚本.md"
     },
     {
       "basename": "process",
       "path": "笔记/前端/工程化/node/process.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     },
     {
       "basename": "shell",
@@ -41,16 +53,8 @@
       "path": "笔记/前端/工程化/基本概念/CLI.md"
     },
     {
-      "basename": "command",
-      "path": "command.md"
-    },
-    {
       "basename": "规范",
       "path": "笔记/前端/工程化/规范.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "git",
@@ -79,10 +83,6 @@
     {
       "basename": "健身",
       "path": "笔记/人的行为/健身/健身.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
     },
     {
       "basename": "整体性学习",
@@ -195,10 +195,6 @@
     {
       "basename": "输出",
       "path": "笔记/前端/语言/JS/输出.md"
-    },
-    {
-      "basename": "JS调试",
-      "path": "笔记/前端/语言/JS/JS调试.md"
     }
   ],
   "omittedPaths": [],
