@@ -4,27 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "761ed150b5c4f94e",
+        "id": "d817f54e9544018d",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+            "file": "笔记/前端/工程化/git.md",
             "mode": "source",
             "source": false
           },
           "pinned": true
         },
-        "group": "7c64223c6499122c"
+        "group": "2515ad75bb84e03c"
       },
       {
-        "id": "1855854b46597d3b",
+        "id": "229b290f9b404c43",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +93,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 64.14538310412574,
+        "dimension": 56.24385447394297,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -104,7 +104,7 @@
               "state": {},
               "pinned": true
             },
-            "group": "7c64223c6499122c"
+            "group": "2515ad75bb84e03c"
           },
           {
             "id": "317f497fc058b9b7",
@@ -135,7 +135,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 35.854616895874265,
+        "dimension": 43.75614552605703,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -207,7 +207,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -215,15 +216,15 @@
   },
   "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
-    "笔记/前端/工程化/规范/ESLint.md",
-    "笔记/前端/工程化/构建.md",
-    "笔记/前端/工程化/规范.md",
-    "笔记/前端/工程化/库/webpack.md",
-    "笔记/前端/库、框架/UI库/UI库.md",
-    "笔记/前端/库、框架/工程化库/工程化库.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/基础知识/编译原理/AST.md",
-    "笔记/前端/工程化/基本概念/CLI.md"
+    "笔记/前端/工程化/Schemetics.md",
+    "笔记/前端/语言/HTML/HTML.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/基本概念/shell.md",
+    "笔记/前端/语言/TS/TS.md",
+    "笔记/前端/语言/JS/JS.md",
+    "笔记/前端/语言/CSS/CSS.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/语言/CSS/盒模型.md"
   ]
 }

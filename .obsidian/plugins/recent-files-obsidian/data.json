@@ -1,16 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "Schemetics",
+      "path": "笔记/前端/工程化/Schemetics.md"
+    },
+    {
+      "basename": "HTML",
+      "path": "笔记/前端/语言/HTML/HTML.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "shell",
+      "path": "笔记/前端/工程化/基本概念/shell.md"
+    },
+    {
+      "basename": "TS",
+      "path": "笔记/前端/语言/TS/TS.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/语言/JS/JS.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "笔记/前端/语言/CSS/CSS.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "盒模型",
+      "path": "笔记/前端/语言/CSS/盒模型.md"
+    },
+    {
+      "basename": "动画",
+      "path": "笔记/前端/语言/CSS/动画.md"
+    },
+    {
+      "basename": "文本",
+      "path": "笔记/前端/语言/CSS/文本.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范.md"
+    },
+    {
+      "basename": "整体性学习",
+      "path": "笔记/学习方法/整体性学习.md"
+    },
+    {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/规范/ESLint.md"
     },
     {
       "basename": "构建",
       "path": "笔记/前端/工程化/构建.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范.md"
     },
     {
       "basename": "webpack",
@@ -25,10 +81,6 @@
       "path": "笔记/前端/库、框架/工程化库/工程化库.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
     },
@@ -37,20 +89,12 @@
       "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
     {
-      "basename": "CLI",
-      "path": "笔记/前端/工程化/基本概念/CLI.md"
-    },
-    {
       "basename": "shell解释器",
       "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
     },
     {
       "basename": "GUI",
       "path": "笔记/前端/工程化/基本概念/GUI.md"
-    },
-    {
-      "basename": "shell",
-      "path": "笔记/前端/工程化/基本概念/shell.md"
     },
     {
       "basename": "脚本",
@@ -79,10 +123,6 @@
     {
       "basename": "ink",
       "path": "笔记/前端/工程化/ink.md"
-    },
-    {
-      "basename": "Schemetics",
-      "path": "笔记/前端/工程化/Schemetics.md"
     },
     {
       "basename": "脚手架",
@@ -137,10 +177,6 @@
       "path": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
     },
     {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
-    },
-    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
@@ -161,44 +197,8 @@
       "path": "笔记/人的行为/健身/健身.md"
     },
     {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
       "basename": "快速阅读",
       "path": "笔记/学习方法/概念/快速阅读.md"
-    },
-    {
-      "basename": "技术",
-      "path": "笔记/万物通用概念/技术.md"
-    },
-    {
-      "basename": "PowerShell",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md"
-    },
-    {
-      "basename": "zsh",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/zsh.md"
-    },
-    {
-      "basename": "sh",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/sh.md"
-    },
-    {
-      "basename": "版本管理",
-      "path": "笔记/前端/版本管理/版本管理.md"
-    },
-    {
-      "basename": "基本概念",
-      "path": "笔记/前端/版本管理/基本概念.md"
-    },
-    {
-      "basename": "yarn",
-      "path": "笔记/前端/包管理/yarn.md"
-    },
-    {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具.md"
     }
   ],
   "omittedPaths": [],
