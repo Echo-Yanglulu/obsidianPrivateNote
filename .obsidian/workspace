@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/node/库/execa.md",
+            "file": "笔记/前端/工程化/ink.md",
             "mode": "source",
             "source": false
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/node/库/execa.md"
+                "file": "笔记/前端/工程化/ink.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/node/库/execa.md",
+                "file": "笔记/前端/工程化/ink.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/node/库/execa.md",
+                "file": "笔记/前端/工程化/ink.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,15 +219,15 @@
   },
   "active": "1855854b46597d3b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/node/库/chalk.md",
-    "笔记/前端/工程化/node/库/inquirer.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/ink.md",
+    "笔记/前端/工程化/Schemetics.md",
+    "笔记/前端/工程化/脚手架.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/node/库/commander.md",
+    "笔记/前端/工程化/基本概念/shell.md",
+    "笔记/前端/工程化/node cli.md",
+    "笔记/前端/工程化/node/库/yeoman-generator.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/包管理/包管理.md",
-    "command.md",
-    "笔记/前端/工程化/脚本.md",
-    "笔记/前端/工程化/node/process.md"
+    "笔记/前端/工程化/node/库/polp.md"
   ]
 }
