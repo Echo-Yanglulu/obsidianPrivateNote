@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "commander",
-      "path": "笔记/前端/工程化/node/库/commander.md"
+      "basename": "chalk",
+      "path": "笔记/前端/工程化/node/库/chalk.md"
     },
     {
       "basename": "npm",
       "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "inquirer",
+      "path": "笔记/前端/工程化/node/库/inquirer.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "commander",
+      "path": "笔记/前端/工程化/node/库/commander.md"
     },
     {
       "basename": "工程化",
@@ -15,10 +27,6 @@
     {
       "basename": "包管理",
       "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     },
     {
       "basename": "脚本",
@@ -191,10 +199,6 @@
     {
       "basename": "标准库",
       "path": "笔记/前端/语言/JS/标准库.md"
-    },
-    {
-      "basename": "输出",
-      "path": "笔记/前端/语言/JS/输出.md"
     }
   ],
   "omittedPaths": [],
