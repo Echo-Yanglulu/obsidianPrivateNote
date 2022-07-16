@@ -1,3 +1,3 @@
 windows subsystem of Linux
-windows下的Linux系统。可以当作一个shell用，
+windows下的Linux子系统。可以当作一个shell用，
 在windows下实现了几乎所有unix shell的常见命令
