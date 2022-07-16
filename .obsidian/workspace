@@ -6,15 +6,29 @@
       {
         "id": "d817f54e9544018d",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/前端.md",
             "mode": "source",
             "source": false
-          }
+          },
+          "pinned": true
         },
         "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "0c264d2e8b57ebba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/设计模式/OO基本原则.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -84,9 +98,11 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             },
             "group": "2515ad75bb84e03c"
           },
@@ -126,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/设计模式/OO基本原则.md"
+              }
             }
           },
           {
@@ -154,6 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/设计模式/OO基本原则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/设计模式/OO基本原则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,17 +218,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "0c264d2e8b57ebba",
   "lastOpenFiles": [
+    "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/设计模式/未命名.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/包管理/包管理.md",
     "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
-    "笔记/学习方法/整体性学习.md"
+    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
   ]
 }
