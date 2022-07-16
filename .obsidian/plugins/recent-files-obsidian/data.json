@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "cmd",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
       "basename": "shell解释器",
       "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
     },
@@ -19,14 +47,6 @@
     {
       "basename": "脚手架",
       "path": "笔记/前端/工程化/脚手架.md"
-    },
-    {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "Schemetics",
@@ -97,10 +117,6 @@
       "path": "笔记/前端/库、框架/工程化库/工程化库.md"
     },
     {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
       "basename": "AST",
       "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
@@ -165,20 +181,12 @@
       "path": "笔记/前端/工程化/node/库/inquirer.md"
     },
     {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
       "basename": "process",
       "path": "笔记/前端/工程化/node/process.md"
     },
     {
       "basename": "WSL",
       "path": "笔记/前端/工程化/基本概念/WSL.md"
-    },
-    {
-      "basename": "cmd",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
     },
     {
       "basename": "bash",
@@ -191,14 +199,6 @@
     {
       "basename": "情绪",
       "path": "笔记/读书/心理学/情绪/情绪.md"
-    },
-    {
-      "basename": "模型思维",
-      "path": "笔记/读书/模型思维.md"
-    },
-    {
-      "basename": "表象与本质-类比作为思考的原料与火焰",
-      "path": "笔记/读书/表象与本质-类比作为思考的原料与火焰.md"
     }
   ],
   "omittedPaths": [],
