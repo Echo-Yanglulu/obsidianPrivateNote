@@ -7,7 +7,8 @@
       "name": "Markdown (Hugo)"
     },
     {
-      "name": "Html"
+      "name": "Html",
+      "openExportedFileLocation": true
     },
     {
       "name": "TextBundle"
@@ -25,7 +26,8 @@
       "name": "RTF"
     },
     {
-      "name": "Epub"
+      "name": "Epub",
+      "openExportedFileLocation": true
     },
     {
       "name": "Latex"
@@ -43,7 +45,11 @@
       "name": "OPML"
     }
   ],
-  "defaultExportDirectoryMode": "Auto",
+  "defaultExportDirectoryMode": "Custom",
   "openExportedFile": true,
-  "version": "1.1.1"
+  "version": "1.1.1",
+  "lastEditName": "Html",
+  "customDefaultExportDirectory": {
+    "win32": "C:\\Users\\11510\\Desktop"
+  }
 }

@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/ink.md",
+            "file": "笔记/前端/工程化/基本概念/CLI.md",
             "mode": "source",
             "source": false
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/ink.md"
+                "file": "笔记/前端/工程化/基本概念/CLI.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/ink.md",
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/ink.md",
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,15 +219,15 @@
   },
   "active": "1855854b46597d3b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/ink.md",
-    "笔记/前端/工程化/Schemetics.md",
-    "笔记/前端/工程化/脚手架.md",
-    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+    "笔记/前端/工程化/基本概念/GUI.md",
     "笔记/前端/工程化/基本概念/shell.md",
+    "笔记/前端/工程化/脚本.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/node cli.md",
-    "笔记/前端/工程化/node/库/yeoman-generator.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/node/库/polp.md"
+    "笔记/前端/工程化/node/库/commander.md",
+    "笔记/前端/工程化/库/oclif.md",
+    "ocli.md"
   ]
 }

@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "ink",
-      "path": "笔记/前端/工程化/ink.md"
-    },
-    {
       "basename": "CLI",
       "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "shell解释器",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
+    },
+    {
+      "basename": "GUI",
+      "path": "笔记/前端/工程化/基本概念/GUI.md"
+    },
+    {
+      "basename": "shell",
+      "path": "笔记/前端/工程化/基本概念/shell.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "node cli",
+      "path": "笔记/前端/工程化/node cli.md"
+    },
+    {
+      "basename": "commander",
+      "path": "笔记/前端/工程化/node/库/commander.md"
+    },
+    {
+      "basename": "oclif",
+      "path": "笔记/前端/工程化/库/oclif.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "ink",
+      "path": "笔记/前端/工程化/ink.md"
     },
     {
       "basename": "Schemetics",
@@ -15,18 +51,6 @@
     {
       "basename": "脚手架",
       "path": "笔记/前端/工程化/脚手架.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "shell",
-      "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "node cli",
-      "path": "笔记/前端/工程化/node cli.md"
     },
     {
       "basename": "yeoman-generator",
@@ -39,10 +63,6 @@
     {
       "basename": "polp",
       "path": "笔记/前端/工程化/node/库/polp.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "plop",
@@ -65,16 +85,8 @@
       "path": "笔记/前端/工程化/node/库/inquirer.md"
     },
     {
-      "basename": "commander",
-      "path": "笔记/前端/工程化/node/库/commander.md"
-    },
-    {
       "basename": "包管理",
       "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "脚本",
-      "path": "笔记/前端/工程化/脚本.md"
     },
     {
       "basename": "process",
@@ -89,10 +101,6 @@
       "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
     },
     {
-      "basename": "shell解释器",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
-    },
-    {
       "basename": "bash",
       "path": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
     },
@@ -103,10 +111,6 @@
     {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
-    },
-    {
-      "basename": "GUI",
-      "path": "笔记/前端/工程化/基本概念/GUI.md"
     },
     {
       "basename": "前端",
@@ -191,14 +195,6 @@
     {
       "basename": "工程设计",
       "path": "笔记/前端/工程化/工程设计.md"
-    },
-    {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量.md"
-    },
-    {
-      "basename": "vite",
-      "path": "笔记/前端/库、框架/工程化库/vite.md"
     }
   ],
   "omittedPaths": [],
