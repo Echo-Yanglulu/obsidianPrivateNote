@@ -11,7 +11,8 @@ Prettier只关注代码格式：不会报错，但会在某个时间[^2]格式�
 ## 定义
 
 ## 使用
-CLI, watch changes, git hook, 与Linter集成
+方式
+	1. [[CLI]] watch changes, git hook, 与Linter集成
 
 
 
