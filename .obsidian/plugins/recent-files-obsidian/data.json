@@ -9,6 +9,10 @@
       "path": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
     },
     {
+      "basename": "代码规范",
+      "path": "代码规范.md"
+    },
+    {
       "basename": "Prettier",
       "path": "笔记/前端/工程化/工具/Prettier.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "OO设计模式",
-      "path": "笔记/前端/设计模式/OO设计模式.md"
     }
   ],
   "omittedPaths": [],
