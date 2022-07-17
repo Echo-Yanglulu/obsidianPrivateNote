@@ -5,6 +5,14 @@
       "path": "笔记/前端/语言/TS/TS.md"
     },
     {
+      "basename": "语言",
+      "path": "笔记/前端/语言/语言.md"
+    },
+    {
+      "basename": "泛型",
+      "path": "笔记/前端/语言/TS/泛型.md"
+    },
+    {
       "basename": "类型断言",
       "path": "笔记/前端/语言/TS/类型断言.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "TS Model",
       "path": "笔记/前端/语言/TS/TS Model.svg"
-    },
-    {
-      "basename": "语言",
-      "path": "笔记/前端/语言/语言.md"
     },
     {
       "basename": "工程化",
@@ -195,10 +199,6 @@
     {
       "basename": "构建",
       "path": "笔记/前端/工程化/构建.md"
-    },
-    {
-      "basename": "parser",
-      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
     }
   ],
   "omittedPaths": [],
