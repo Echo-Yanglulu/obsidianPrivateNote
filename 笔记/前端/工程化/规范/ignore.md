@@ -30,6 +30,7 @@
 	1. 只有包开发者用到，包用户用不到的
 		1. .prettierrc
 		2. .eslintrc
+		3. .git
 
 
 
