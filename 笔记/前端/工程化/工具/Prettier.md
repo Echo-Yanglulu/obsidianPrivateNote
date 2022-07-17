@@ -5,4 +5,5 @@ Lint规则分类：
 	1. 代码格式: max-len, keyword-spacing, comma-style, no-mixed-space-and-tabs
 	2. 代码质量: no-unused-vars, no-extra-bind, no-implicit-globals
 
+Prettier只关注
 [^1]: 严格控制配置项的数量，对默认格式的选择标准是“可读性第一”
