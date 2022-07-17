@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "笔记/前端/工程化/规范/ESLint/未命名.md"
+    },
+    {
+      "basename": "environment",
+      "path": "笔记/前端/工程化/规范/ESLint/environment.md"
+    },
+    {
+      "basename": "parser",
+      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
+    },
+    {
       "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint.md"
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
       "basename": "运行环境",
@@ -187,18 +199,6 @@
     {
       "basename": "execa",
       "path": "笔记/前端/工程化/node/库/execa.md"
-    },
-    {
-      "basename": "shelljs",
-      "path": "笔记/前端/工程化/node/库/shelljs.md"
-    },
-    {
-      "basename": "chalk",
-      "path": "笔记/前端/工程化/node/库/chalk.md"
-    },
-    {
-      "basename": "inquirer",
-      "path": "笔记/前端/工程化/node/库/inquirer.md"
     }
   ],
   "omittedPaths": [],
