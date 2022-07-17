@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
+      "basename": "extends",
+      "path": "笔记/前端/工程化/规范/ESLint/extends.md"
+    },
+    {
       "basename": "globals",
       "path": "笔记/前端/工程化/规范/ESLint/globals.md"
     },
@@ -17,8 +21,8 @@
       "path": "笔记/前端/工程化/规范/ESLint/rules.md"
     },
     {
-      "basename": "environment",
-      "path": "笔记/前端/工程化/规范/ESLint/environment.md"
+      "basename": "environments",
+      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
     },
     {
       "basename": "parser",
@@ -195,10 +199,6 @@
     {
       "basename": "yeoman-generator",
       "path": "笔记/前端/工程化/node/库/yeoman-generator.md"
-    },
-    {
-      "basename": "polp",
-      "path": "笔记/前端/工程化/node/库/polp.md"
     }
   ],
   "omittedPaths": [],
