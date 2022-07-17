@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/Schemetics.md",
+            "file": "笔记/前端/工程化/node/node.md",
             "mode": "source",
             "source": false
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Schemetics.md"
+                "file": "笔记/前端/工程化/node/node.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Schemetics.md",
+                "file": "笔记/前端/工程化/node/node.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Schemetics.md",
+                "file": "笔记/前端/工程化/node/node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -216,8 +216,9 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "704b042fb2bade43",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/前端/工程化/Schemetics.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/质量/质量.md",
@@ -226,7 +227,6 @@
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/规范/ignore.md",
-    "笔记/前端/工程化/vendor.md",
-    "笔记/前端/工程化/规范/npmrc.md"
+    "笔记/前端/工程化/vendor.md"
   ]
 }
