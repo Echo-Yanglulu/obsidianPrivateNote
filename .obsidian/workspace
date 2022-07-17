@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 388,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -161,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -228,10 +229,10 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "989de35848378ae3",
+  "active": "4ec9596bd5773dc9",
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/规范/规范.md",
