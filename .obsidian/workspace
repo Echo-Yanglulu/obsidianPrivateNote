@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "工具/软件/obsidian/obsidian.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -36,7 +36,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/运行环境.md",
+            "file": "工具/软件/obsidian/obsidian.md",
             "mode": "source",
             "source": false
           }
@@ -230,8 +230,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cebc67f6047f1142",
+  "active": "07709d38d02493e3",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/运行环境.md",
+    "工具/软件/obsidian/obsidian.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/包管理/包管理.md",
@@ -239,8 +241,6 @@
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/工程化/规范/ESLint/globals.md",
-    "笔记/前端/工程化/规范/ESLint/plugin.md",
-    "笔记/前端/工程化/规范/ESLint/rules.md",
-    "笔记/前端/工程化/规范/ESLint/environments.md"
+    "笔记/前端/工程化/规范/ESLint/plugin.md"
   ]
 }
