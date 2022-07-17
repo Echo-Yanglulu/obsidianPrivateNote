@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Stylelint",
+      "path": "笔记/前端/工程化/Stylelint.md"
+    },
+    {
+      "basename": "Schemetics",
+      "path": "笔记/前端/工程化/脚手架/Schemetics.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "node cli",
+      "path": "笔记/前端/工程化/脚本/node cli.md"
+    },
+    {
       "basename": "检查时机",
-      "path": "笔记/前端/工程化/检查时机.md"
+      "path": "笔记/前端/工程化/规范/检查时机.md"
     },
     {
       "basename": "node",
@@ -29,16 +49,8 @@
       "path": "笔记/前端/工程化/node/库/chalk.md"
     },
     {
-      "basename": "Schemetics",
-      "path": "笔记/前端/工程化/Schemetics.md"
-    },
-    {
       "basename": "工具",
       "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "质量",
@@ -117,10 +129,6 @@
       "path": "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png"
     },
     {
-      "basename": "Stylelint",
-      "path": "笔记/前端/工程化/Stylelint.md"
-    },
-    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Check box",
       "path": "obsidian-css-snippets-master/Snippets/Check box.md"
-    },
-    {
-      "basename": "Folding arrows",
-      "path": "obsidian-css-snippets-master/Snippets/Folding arrows/Folding arrows.md"
-    },
-    {
-      "basename": "Animation",
-      "path": "obsidian-css-snippets-master/Snippets/Animation.md"
     }
   ],
   "omittedPaths": [],
