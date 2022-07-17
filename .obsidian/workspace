@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "231c1b69c3d25663",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "diagram-edit",
-          "state": {
-            "file": "笔记/前端/工程化/Untitled Diagram.svg"
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "712a9d2083cf5266",
+        "id": "d817f54e9544018d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/Untitled.md",
+            "file": "笔记/前端/工程化/git.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "2515ad75bb84e03c"
       }
     ],
     "direction": "vertical"
@@ -39,15 +28,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "231c1b69c3d25663",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
             "id": "989de35848378ae3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -73,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -82,17 +79,16 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 55.97989949748744,
+        "dimension": 56.24385447394297,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
-            }
+              "state": {}
+            },
+            "group": "2515ad75bb84e03c"
           },
           {
             "id": "317f497fc058b9b7",
@@ -123,7 +119,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 44.02010050251256,
+        "dimension": 43.75614552605703,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -131,34 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Untitled.md"
-              }
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/工程化/Untitled.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
+                "file": "笔记/前端/工程化/git.md"
               }
             }
           },
@@ -187,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Untitled.md",
+                "file": "笔记/前端/工程化/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,25 +169,50 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
+          },
+          {
+            "id": "5a5405417dbef7c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/工程化/git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 460.5
+    "width": 623
   },
-  "active": "989de35848378ae3",
+  "active": "d817f54e9544018d",
   "lastOpenFiles": [
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/Untitled.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/规范/ESLint/editorconfig.md",
-    "笔记/前端/工程化/基本概念/shell.md",
-    "笔记/前端/工程化/规范/ESLint/ESLint.md",
-    "笔记/前端/工程化/规范/代码规范.md",
-    "笔记/前端/语言/语言.md"
+    "笔记/前端/工程化/基本概念/shell.md"
   ]
 }
