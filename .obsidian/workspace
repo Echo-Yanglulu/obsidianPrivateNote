@@ -8,12 +8,12 @@
         "type": "split",
         "children": [
           {
-            "id": "704b042fb2bade43",
+            "id": "4ec9596bd5773dc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/工程化/规范/规范.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,18 +31,6 @@
           }
         ],
         "direction": "horizontal"
-      },
-      {
-        "id": "4ec9596bd5773dc9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/工程化.md",
-            "mode": "source",
-            "source": false
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -228,8 +216,8 @@
   "active": "4ec9596bd5773dc9",
   "lastOpenFiles": [
     "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/代码规范.md",
