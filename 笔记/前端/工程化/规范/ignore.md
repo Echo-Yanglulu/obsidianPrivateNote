@@ -31,6 +31,7 @@
 		1. .prettierrc文件
 		2. .eslintrc文件
 		3. .git文件夹
+		4. 
 
 
 
