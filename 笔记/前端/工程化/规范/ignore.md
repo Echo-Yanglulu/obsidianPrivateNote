@@ -25,6 +25,6 @@
 	3. node_modules文件夹
 只保留用户使用所需[^2]的最少文件
 ![[Pasted image 20220717205606.png]]
-prettierrc与eslintre
+prettierrc与eslintrc只有在开发一个npmqn
 [^1]: 这些文件的变动并不需要被同步上传。
 [^2]: 这个npmignore是干嘛的？与用户使用有什么关系？
