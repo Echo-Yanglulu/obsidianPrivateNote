@@ -10,7 +10,7 @@
           {
             "id": "4ec9596bd5773dc9",
             "type": "leaf",
-            "dimension": 24.392097264437684,
+            "dimension": 30.954773869346734,
             "pinned": true,
             "state": {
               "type": "markdown",
@@ -23,18 +23,22 @@
             }
           },
           {
-            "id": "7becb0699a35bb90",
+            "id": "774f37efb7d9ec18",
             "type": "leaf",
-            "dimension": 24.392097264437684,
+            "dimension": 26.030150753768844,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/工程化/规范/规范.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
             "id": "231c1b69c3d25663",
             "type": "leaf",
-            "dimension": 51.215805471124625,
+            "dimension": 43.01507537688442,
             "pinned": true,
             "state": {
               "type": "diagram-edit",
@@ -152,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/前端/工程化/规范/规范.md"
               }
             }
           },
@@ -162,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -229,17 +233,17 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "4ec9596bd5773dc9",
+  "active": "774f37efb7d9ec18",
   "lastOpenFiles": [
-    "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/工程化/assets/eslint自定义规则使用.png",
+    "笔记/前端/工程化/规范/ESLint/editorconfig.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/基本概念/shell.md",
-    "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/代码规范.md",
     "笔记/前端/语言/语言.md",
-    "笔记/前端/语言/TS/TS.md",
-    "笔记/前端/语言/TS/泛型.md"
+    "笔记/前端/语言/TS/TS.md"
   ]
 }
