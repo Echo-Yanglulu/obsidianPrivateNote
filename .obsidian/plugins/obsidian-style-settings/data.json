@@ -1,6 +1,6 @@
 {
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
-  "blue-topaz-theme@@background-image-settings-markdown-page-random": false,
+  "blue-topaz-theme@@background-image-settings-markdown-page-random": true,
   "blue-topaz-theme@@layout-style-options": "layout-style-options-rectangle",
   "blue-topaz-theme@@bt-status-off": true,
   "blue-topaz-theme@@h1-text-align-settings": "h1-text-align-start",
@@ -15,7 +15,7 @@
   "blue-topaz-theme@@show-border-table": true,
   "blue-topaz-theme@@whole-code-wrap": true,
   "blue-topaz-theme@@style-options-for-admonition-plugin": true,
-  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-sea-and-sky",
+  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-four-seasons",
   "blue-topaz-theme@@h1-toggle-underline": false,
   "blue-topaz-theme@@rainbow-ordered-list": true,
   "blue-topaz-theme@@rainbow-checkbox": true,
@@ -39,5 +39,7 @@
   "blue-topaz-theme@@hide-vault-name": true,
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
   "blue-topaz-theme@@blur-depth": 21,
-  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-orange"
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-orange",
+  "blue-topaz-theme@@background-image-settings-switch": false,
+  "blue-topaz-theme@@background-image-settings-markdown-page-random-options": "background-image-settings-markdown-page-random-yellow-and-orange"
 }

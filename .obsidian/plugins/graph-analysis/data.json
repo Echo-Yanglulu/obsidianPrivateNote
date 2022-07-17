@@ -11,10 +11,16 @@
   "exclusionRegex": "",
   "exclusionTags": [],
   "algsToShow": [
+    "Co-Citations",
+    "HITS",
     "Adamic Adar",
     "Jaccard",
+    "Overlap",
+    "Label Propagation",
+    "Louvain",
+    "Clustering Coefficient",
+    "BoW",
     "Otsuka-Chiai",
-    "Co-Citations",
-    "Label Propagation"
+    "Sentiment"
   ]
 }
