@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/vendor.md",
+            "file": "笔记/前端/工程化/规范/规范.md",
             "mode": "source",
             "source": false
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md"
+                "file": "笔记/前端/工程化/规范/规范.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,6 +218,7 @@
   },
   "active": "704b042fb2bade43",
   "lastOpenFiles": [
+    "笔记/前端/工程化/规范/vendor.md",
     "笔记/前端/工程化/规范/Stylelint.md",
     "笔记/前端/工程化/脚手架/Schemetics.md",
     "笔记/前端/工程化/规范/规范.md",
@@ -226,7 +227,6 @@
     "笔记/前端/工程化/规范/检查时机.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/库/plop.md",
-    "笔记/前端/工程化/node/库/inquirer.md",
-    "笔记/前端/工程化/node/库/execa.md"
+    "笔记/前端/工程化/node/库/inquirer.md"
   ]
 }
