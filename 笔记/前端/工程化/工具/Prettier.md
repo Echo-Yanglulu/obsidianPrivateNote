@@ -20,7 +20,7 @@ Prettier只关注代码格式：不会报错，但会在某个时间[^2]格式�
 	4. 与Linter集成
 		1. 与eslint集成（安装两个npm包）
 			1. ![[Pasted image 20220717164017.png]]
-			2. config-prettier会禁止掉eslint中与prettier冲突的规则。一切以preiiter
+			2. config-prettier会禁止掉eslint中与prettier冲突的规则。一切以preiiter配置为准
 
 
 
