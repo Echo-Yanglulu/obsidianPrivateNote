@@ -21,18 +21,6 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint/ESLint.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "553bd7c4b2a11714",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
             "file": "版本规范.md",
             "mode": "source",
             "source": false
@@ -227,17 +215,17 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "553bd7c4b2a11714",
+  "active": "4ec9596bd5773dc9",
   "lastOpenFiles": [
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
-    "笔记/前端/工程化/规范/规范.md",
+    "^补丁版本.md",
     "版本规范.md",
+    "笔记/前端/工程化/规范/规范.md",
     "代码规范.md",
     "笔记/前端/工程化/工具/Prettier.md",
     "笔记/前端/工程化/assets/watch change方式应用Prettier.png",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png"
+    "笔记/前端/工程化/工具/工具.md"
   ]
 }
