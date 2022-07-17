@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "inquirer",
+      "path": "笔记/前端/工程化/node/库/inquirer.md"
+    },
+    {
+      "basename": "execa",
+      "path": "笔记/前端/工程化/node/库/execa.md"
+    },
+    {
+      "basename": "commander",
+      "path": "笔记/前端/工程化/node/库/commander.md"
+    },
+    {
+      "basename": "chalk",
+      "path": "笔记/前端/工程化/node/库/chalk.md"
+    },
+    {
       "basename": "node",
       "path": "笔记/前端/工程化/node/node.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Obsidian",
       "path": "OB 200个插件和70个主题/图片/Obsidian.png"
-    },
-    {
-      "basename": "Higlighter-screenshot-themes-panel",
-      "path": "OB 200个插件和70个主题/主题截屏/Higlighter-screenshot-themes-panel.png"
-    },
-    {
-      "basename": "Atom-screenshot-hybrid",
-      "path": "OB 200个插件和70个主题/主题截屏/Atom-screenshot-hybrid.png"
-    },
-    {
-      "basename": "Amethyst-screenshot",
-      "path": "OB 200个插件和70个主题/主题截屏/Amethyst-screenshot.png"
-    },
-    {
-      "basename": "Al Dente-aldente-screenshot",
-      "path": "OB 200个插件和70个主题/主题截屏/Al Dente-aldente-screenshot.png"
     }
   ],
   "omittedPaths": [],
