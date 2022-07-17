@@ -12,5 +12,9 @@ Prettier只关注代码格式：不会报错，但会在某个时间[^2]格式�
 
 ## 使用
 CLI, watch changes, git hook, 与Linter集成
+
+
+
+
 [^1]: 严格控制配置项的数量，对默认格式的选择标准是“可读性第一”
 [^2]: save, commit
