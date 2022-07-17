@@ -28,9 +28,9 @@
 
 在开发一个npm包时才会用到，对于这个包的使用者来说没用。
 	1. 只有包开发者用到，包用户用不到的
-		1. .prettierrc
-		2. .eslintrc
-		3. .git
+		1. .prettierrc文件
+		2. .eslintrc文件
+		3. .git文件夹
 
 
 
