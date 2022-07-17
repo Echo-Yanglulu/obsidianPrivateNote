@@ -14,7 +14,8 @@ Prettier只关注代码格式：不会报错，但会在某个时间[^2]格式�
 方式
 	1. CLI
 	2. watch changes
-		1. 使用onchange
+		1. 使用onchange第三方库，
+		2. 
 	3. git hook
 	4. 与Linter集成
 
