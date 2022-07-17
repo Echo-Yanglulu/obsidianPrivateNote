@@ -11,4 +11,5 @@
 # 使用
 ## 自动化发版
 根目录运行yarn release-it即可
+如果git cm "feat: ignore update"，如果以feat开头，会认为是feature更新。
 ## changelog更新
