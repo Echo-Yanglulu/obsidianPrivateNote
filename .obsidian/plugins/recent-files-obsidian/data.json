@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本/脚本.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "持续集成&部署",
+      "path": "笔记/前端/工程化/持续集成&部署.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
     },
@@ -23,14 +39,6 @@
     {
       "basename": "Untitled Diagram",
       "path": "笔记/前端/工程化/Untitled Diagram.svg"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
-    },
-    {
-      "basename": "脚本",
-      "path": "笔记/前端/工程化/脚本/脚本.md"
     },
     {
       "basename": "editorconfig",
@@ -133,10 +141,6 @@
       "path": "笔记/前端/工程化/node/库/chalk.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
       "basename": "技术",
       "path": "笔记/万物通用概念/技术.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "plugins",
       "path": "笔记/前端/工程化/规范/ESLint/plugins.md"
-    },
-    {
-      "basename": "环境变量",
-      "path": "笔记/前端/工程化/assets/环境变量.png"
     }
   ],
   "omittedPaths": [],

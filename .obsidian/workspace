@@ -22,8 +22,12 @@
         "id": "050071cd9312a727",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/规范/规范.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -139,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/git.md"
+                "file": "笔记/前端/工程化/规范/规范.md"
               }
             }
           },
@@ -168,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -196,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,17 +218,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "5a5405417dbef7c4",
+  "active": "050071cd9312a727",
   "lastOpenFiles": [
+    "笔记/前端/工程化/持续集成&部署.md",
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/Untitled.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/脚本/脚本.md",
-    "笔记/前端/工程化/规范/ESLint/editorconfig.md",
-    "笔记/前端/工程化/基本概念/shell.md"
+    "笔记/前端/工程化/脚本/脚本.md"
   ]
 }
