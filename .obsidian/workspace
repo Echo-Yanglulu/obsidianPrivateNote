@@ -19,8 +19,12 @@
         "id": "774f37efb7d9ec18",
         "type": "leaf",
         "state": {
-          "type": "FANTASY_CALENDAR",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/规范/规范.md",
+            "mode": "source",
+            "source": false
+          }
         }
       },
       {
@@ -136,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/规范/规范.md"
               }
             }
           },
@@ -146,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/规范/规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -215,8 +219,8 @@
   },
   "active": "774f37efb7d9ec18",
   "lastOpenFiles": [
-    "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/工程化.md",
