@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "9c2ee46c9edd91ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "e55dfa00742cf8d9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "长空学习笔记.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49e02ee4a3b34610",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5f99e8c9324a428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "351dc15fd738ebab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "aee30c53dda67c71",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c0be98f3101f26ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "71ec5b9f50a1c556",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f91cc5dd6f744378",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "长空学习笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e55dfa00742cf8d9",
+  "lastOpenFiles": [
+    "长空学习笔记.md",
+    "首页.md",
+    "OB所有主题预览.md",
+    "OB所有第三方插件简介.md",
+    "Untitled.md"
+  ]
+}

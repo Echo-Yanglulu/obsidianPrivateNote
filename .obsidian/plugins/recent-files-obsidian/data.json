@@ -1,56 +1,184 @@
 {
   "recentFiles": [
     {
-      "basename": "parser",
-      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
+      "basename": "eslint自定义规则使用",
+      "path": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "basename": "Prettier",
+      "path": "笔记/前端/工程化/工具/Prettier.md"
     },
     {
-      "basename": "rules",
-      "path": "笔记/前端/工程化/规范/ESLint/rules.md"
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
     },
     {
-      "basename": "plugin",
-      "path": "笔记/前端/工程化/规范/ESLint/plugin.md"
-    },
-    {
-      "basename": "globals",
-      "path": "笔记/前端/工程化/规范/ESLint/globals.md"
-    },
-    {
-      "basename": "AST",
-      "path": "笔记/前端/基础知识/编译原理/AST.md"
-    },
-    {
-      "basename": "extends",
-      "path": "笔记/前端/工程化/规范/ESLint/extends.md"
-    },
-    {
-      "basename": "environments",
-      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
-    },
-    {
-      "basename": "obsidian",
-      "path": "笔记/工具/软件/obsidian/obsidian.md"
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
     },
     {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范.md"
+      "basename": "Stylelint",
+      "path": "笔记/前端/工程化/Stylelint.md"
+    },
+    {
+      "basename": "检查时机",
+      "path": "笔记/前端/工程化/检查时机.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
+    },
+    {
+      "basename": "rules",
+      "path": "笔记/前端/工程化/规范/ESLint/rules.md"
+    },
+    {
+      "basename": "extends",
+      "path": "笔记/前端/工程化/规范/ESLint/extends.md"
+    },
+    {
+      "basename": "eslint的extends",
+      "path": "笔记/前端/工程化/assets/eslint的extends.png"
+    },
+    {
+      "basename": "plugins",
+      "path": "笔记/前端/工程化/规范/ESLint/plugins.md"
+    },
+    {
+      "basename": "环境变量",
+      "path": "笔记/前端/工程化/assets/环境变量.png"
+    },
+    {
+      "basename": "eslint-plugin",
+      "path": "笔记/前端/工程化/assets/eslint-plugin.png"
+    },
+    {
+      "basename": "environments",
+      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建.md"
+    },
+    {
+      "basename": "parser",
+      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
+    },
+    {
+      "basename": "shell",
+      "path": "笔记/前端/工程化/基本概念/shell.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "process",
+      "path": "笔记/前端/工程化/node/process.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "README",
+      "path": "obsidian-css-snippets-master/README.md"
+    },
+    {
+      "basename": "Footnotes",
+      "path": "obsidian-css-snippets-master/Snippets/Footnotes.md"
+    },
+    {
+      "basename": "Block quote",
+      "path": "obsidian-css-snippets-master/Snippets/Block quote.md"
+    },
+    {
+      "basename": "Check box",
+      "path": "obsidian-css-snippets-master/Snippets/Check box.md"
+    },
+    {
+      "basename": "Folding arrows",
+      "path": "obsidian-css-snippets-master/Snippets/Folding arrows/Folding arrows.md"
+    },
+    {
+      "basename": "Animation",
+      "path": "obsidian-css-snippets-master/Snippets/Animation.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "OB 200个插件和70个主题/图片/Obsidian.png"
+    },
+    {
+      "basename": "Higlighter-screenshot-themes-panel",
+      "path": "OB 200个插件和70个主题/主题截屏/Higlighter-screenshot-themes-panel.png"
+    },
+    {
+      "basename": "Atom-screenshot-hybrid",
+      "path": "OB 200个插件和70个主题/主题截屏/Atom-screenshot-hybrid.png"
+    },
+    {
+      "basename": "Amethyst-screenshot",
+      "path": "OB 200个插件和70个主题/主题截屏/Amethyst-screenshot.png"
+    },
+    {
+      "basename": "Al Dente-aldente-screenshot",
+      "path": "OB 200个插件和70个主题/主题截屏/Al Dente-aldente-screenshot.png"
+    },
+    {
+      "basename": "80s Neon-screenshot",
+      "path": "OB 200个插件和70个主题/主题截屏/80s Neon-screenshot.jpg"
+    },
+    {
+      "basename": "Ayu-ayu2",
+      "path": "OB 200个插件和70个主题/主题截屏/Ayu-ayu2.png"
+    },
+    {
+      "basename": "Aurora-screenshot-1",
+      "path": "OB 200个插件和70个主题/主题截屏/Aurora-screenshot-1.png"
+    },
+    {
+      "basename": "Ars Magna-arsmagna",
+      "path": "OB 200个插件和70个主题/主题截屏/Ars Magna-arsmagna.png"
+    },
+    {
+      "basename": "长空学习笔记",
+      "path": "OB 200个插件和70个主题/长空学习笔记.md"
+    },
+    {
+      "basename": "OB所有主题预览",
+      "path": "OB 200个插件和70个主题/OB所有主题预览.md"
+    },
+    {
+      "basename": "首页",
+      "path": "OB 200个插件和70个主题/首页.md"
+    },
+    {
+      "basename": "globals",
+      "path": "笔记/前端/工程化/规范/ESLint/globals.md"
+    },
+    {
+      "basename": "obsidian",
+      "path": "笔记/工具/软件/obsidian/obsidian.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
     },
     {
       "basename": "设计模式",
@@ -71,130 +199,6 @@
     {
       "basename": "OO基本原则",
       "path": "笔记/前端/设计模式/OO基本原则.md"
-    },
-    {
-      "basename": "OO特性",
-      "path": "笔记/前端/设计模式/OO特性.md"
-    },
-    {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
-    },
-    {
-      "basename": "cmd",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
-    },
-    {
-      "basename": "版本管理",
-      "path": "笔记/前端/版本管理/版本管理.md"
-    },
-    {
-      "basename": "shell解释器",
-      "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
-    },
-    {
-      "basename": "未命名思维导图",
-      "path": "笔记/前端/工程化/未命名思维导图.md"
-    },
-    {
-      "basename": "test",
-      "path": "笔记/前端/工程化/test.md"
-    },
-    {
-      "basename": "脚手架",
-      "path": "笔记/前端/工程化/脚手架.md"
-    },
-    {
-      "basename": "Schemetics",
-      "path": "笔记/前端/工程化/Schemetics.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "笔记/前端/语言/HTML/HTML.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "笔记/前端/工程化/基本概念/CLI.md"
-    },
-    {
-      "basename": "shell",
-      "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "TS",
-      "path": "笔记/前端/语言/TS/TS.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/语言/JS/JS.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "笔记/前端/语言/CSS/CSS.md"
-    },
-    {
-      "basename": "盒模型",
-      "path": "笔记/前端/语言/CSS/盒模型.md"
-    },
-    {
-      "basename": "动画",
-      "path": "笔记/前端/语言/CSS/动画.md"
-    },
-    {
-      "basename": "文本",
-      "path": "笔记/前端/语言/CSS/文本.md"
-    },
-    {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/库/webpack.md"
-    },
-    {
-      "basename": "UI库",
-      "path": "笔记/前端/库、框架/UI库/UI库.md"
-    },
-    {
-      "basename": "工程化库",
-      "path": "笔记/前端/库、框架/工程化库/工程化库.md"
-    },
-    {
-      "basename": "GUI",
-      "path": "笔记/前端/工程化/基本概念/GUI.md"
-    },
-    {
-      "basename": "脚本",
-      "path": "笔记/前端/工程化/脚本.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
-    },
-    {
-      "basename": "node cli",
-      "path": "笔记/前端/工程化/node cli.md"
-    },
-    {
-      "basename": "commander",
-      "path": "笔记/前端/工程化/node/库/commander.md"
-    },
-    {
-      "basename": "oclif",
-      "path": "笔记/前端/工程化/库/oclif.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "ink",
-      "path": "笔记/前端/工程化/ink.md"
     }
   ],
   "omittedPaths": [],
