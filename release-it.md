@@ -10,4 +10,5 @@
 ![[Pasted image 20220717195426.png]]
 # 使用
 ## 自动化发版
+根目录运行yarn release-it即可
 ## changelog更新
