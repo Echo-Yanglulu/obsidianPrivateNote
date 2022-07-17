@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "TS",
-      "path": "笔记/前端/语言/TS/TS.md"
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
+    },
+    {
+      "basename": "代码规范",
+      "path": "笔记/前端/工程化/规范/代码规范.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "语言",
+      "path": "笔记/前端/语言/语言.md"
     },
     {
       "basename": "eslint自定义规则使用",
       "path": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
     },
     {
-      "basename": "语言",
-      "path": "笔记/前端/语言/语言.md"
+      "basename": "TS",
+      "path": "笔记/前端/语言/TS/TS.md"
     },
     {
       "basename": "泛型",
@@ -33,16 +49,8 @@
       "path": "笔记/前端/语言/TS/TS Model.svg"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "npmrc",
       "path": "笔记/前端/工程化/规范/npmrc.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "ignore",
@@ -113,10 +121,6 @@
       "path": "笔记/前端/工程化/脚本/脚本.md"
     },
     {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
-    },
-    {
       "basename": "技术",
       "path": "笔记/万物通用概念/技术.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "版本规范",
       "path": "笔记/前端/工程化/规范/版本规范.md"
-    },
-    {
-      "basename": "代码规范",
-      "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
       "basename": "commit message规范",
