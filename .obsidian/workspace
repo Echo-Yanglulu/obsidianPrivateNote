@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint/parser.md",
+            "file": "工具/软件/obsidian/obsidian.md",
             "mode": "source",
             "source": false
           }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/parser.md"
+                "file": "工具/软件/obsidian/obsidian.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/parser.md",
+                "file": "工具/软件/obsidian/obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/parser.md",
+                "file": "工具/软件/obsidian/obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -232,15 +232,15 @@
   },
   "active": "cebc67f6047f1142",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/包管理/包管理.md",
+    "笔记/前端/工程化/规范/ESLint/parser.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/工程化/规范/ESLint/globals.md",
     "笔记/前端/工程化/规范/ESLint/plugin.md",
     "笔记/前端/工程化/规范/ESLint/rules.md",
-    "笔记/前端/工程化/规范/ESLint/environments.md",
-    "笔记/前端/工程化/规范/ESLint/parser.md",
-    "笔记/前端/基础知识/运行环境.md",
-    "笔记/前端/工程化/规范.md",
-    "笔记/前端/设计模式/设计模式.md"
+    "笔记/前端/工程化/规范/ESLint/environments.md"
   ]
 }

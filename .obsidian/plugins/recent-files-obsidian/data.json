@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidian",
+      "path": "工具/软件/obsidian/obsidian.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
       "basename": "parser",
       "path": "笔记/前端/工程化/规范/ESLint/parser.md"
     },
@@ -45,20 +61,12 @@
       "path": "笔记/前端/库、框架/库、框架.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "OO设计模式",
       "path": "笔记/前端/设计模式/OO设计模式.md"
     },
     {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "OO基本原则",
@@ -75,10 +83,6 @@
     {
       "basename": "cmd",
       "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
     },
     {
       "basename": "版本管理",
@@ -195,10 +199,6 @@
     {
       "basename": "ink",
       "path": "笔记/前端/工程化/ink.md"
-    },
-    {
-      "basename": "yeoman-generator",
-      "path": "笔记/前端/工程化/node/库/yeoman-generator.md"
     }
   ],
   "omittedPaths": [],
