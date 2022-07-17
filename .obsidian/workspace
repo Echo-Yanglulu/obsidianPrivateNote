@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint/ESLint.md",
+            "file": "笔记/前端/工程化/规范/ESLint/parser.md",
             "mode": "source",
             "source": false
           }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/ESLint.md"
+                "file": "笔记/前端/工程化/规范/ESLint/parser.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/ESLint.md",
+                "file": "笔记/前端/工程化/规范/ESLint/parser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/ESLint.md",
+                "file": "笔记/前端/工程化/规范/ESLint/parser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -232,8 +232,8 @@
   },
   "active": "cebc67f6047f1142",
   "lastOpenFiles": [
-    "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
+    "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/工程化/规范/ESLint/globals.md",
     "笔记/前端/工程化/规范/ESLint/plugin.md",
     "笔记/前端/工程化/规范/ESLint/rules.md",
