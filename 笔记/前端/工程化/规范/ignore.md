@@ -31,7 +31,7 @@
 		1. .prettierrc文件
 		2. .eslintrc文件
 		3. .git文件夹
-		4. .node_
+		4. .node_modules 文件夹（不需要在npm打包的时候把这个文件夹）
 
 
 
