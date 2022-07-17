@@ -4,27 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d817f54e9544018d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/git.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        },
-        "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "050071cd9312a727",
+        "id": "ebd74a6bcee8cfb8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/git.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -98,13 +83,10 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
+              "state": {}
+            }
           },
           {
             "id": "317f497fc058b9b7",
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/git.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -172,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +200,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "050071cd9312a727",
+  "active": "ebd74a6bcee8cfb8",
   "lastOpenFiles": [
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/脚本/脚本.md",
