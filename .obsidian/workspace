@@ -6,13 +6,15 @@
       {
         "id": "d817f54e9544018d",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/工程化/git.md",
             "mode": "source",
             "source": false
-          }
+          },
+          "pinned": true
         },
         "group": "2515ad75bb84e03c"
       }
@@ -84,9 +86,11 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             },
             "group": "2515ad75bb84e03c"
           },
