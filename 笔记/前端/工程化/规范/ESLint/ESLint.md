@@ -30,3 +30,4 @@ webpack/rollup/gulp/grunt/vite ，
  5. [[plugin]]：一组以上的配置项和processor（处理非JS文件）的集合，往往用于特定类型文件的代码检查。如.md文件
 	 1. 先用processor 把md文件中的所有JS代码提取，进行后面的代码检查
  6. [[extends]]：一组配置项的封装，可以被用户继承
+ 7. 
