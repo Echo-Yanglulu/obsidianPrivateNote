@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "release-it",
+      "path": "release-it.md"
+    },
+    {
+      "basename": "Pasted image 20220717195156",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220717195156.png"
+    },
+    {
       "basename": "版本规范",
       "path": "笔记/前端/工程化/规范/版本规范.md"
     },
@@ -13,8 +21,16 @@
       "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
       "basename": "代码规范",
-      "path": "代码规范.md"
+      "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
       "basename": "Prettier",
@@ -23,10 +39,6 @@
     {
       "basename": "watch change方式应用Prettier",
       "path": "笔记/前端/工程化/assets/watch change方式应用Prettier.png"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "node",
@@ -43,10 +55,6 @@
     {
       "basename": "质量",
       "path": "笔记/前端/工程化/质量/质量.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
       "basename": "Stylelint",
@@ -191,10 +199,6 @@
     {
       "basename": "obsidian",
       "path": "笔记/工具/软件/obsidian/obsidian.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
     }
   ],
   "omittedPaths": [],
