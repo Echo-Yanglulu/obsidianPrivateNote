@@ -17,6 +17,30 @@
           "pinned": true
         },
         "group": "39008d0c39e597b0"
+      },
+      {
+        "id": "cebc67f6047f1142",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/规范/ESLint.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "07709d38d02493e3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/基础知识/运行环境.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -204,8 +228,8 @@
   },
   "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/运行环境.md",
     "笔记/前端/工程化/规范/ESLint.md",
+    "笔记/前端/基础知识/运行环境.md",
     "笔记/前端/工程化/规范.md",
     "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/库、框架/库、框架.md",
