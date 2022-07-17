@@ -24,3 +24,4 @@ webpack/rollup/gulp/grunt/vite ，
 配置文件格式：JS, JSON, YAML, package.json中的eslintConfig字段。
 配置内容：
  1. parser：eslilnt使用哪种解析器
+ 2. environments：代码的[[运行环境]]

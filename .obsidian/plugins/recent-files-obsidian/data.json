@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "运行环境",
+      "path": "笔记/前端/基础知识/运行环境.md"
+    },
+    {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/规范/ESLint.md"
     },
     {
       "basename": "规范",
       "path": "笔记/前端/工程化/规范.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
     },
     {
       "basename": "工程化",
@@ -19,10 +31,6 @@
     {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "笔记/前端/设计模式/设计模式.md"
     },
     {
       "basename": "前端",
@@ -43,10 +51,6 @@
     {
       "basename": "cmd",
       "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
     },
     {
       "basename": "包管理",
@@ -195,10 +199,6 @@
     {
       "basename": "inquirer",
       "path": "笔记/前端/工程化/node/库/inquirer.md"
-    },
-    {
-      "basename": "process",
-      "path": "笔记/前端/工程化/node/process.md"
     }
   ],
   "omittedPaths": [],
