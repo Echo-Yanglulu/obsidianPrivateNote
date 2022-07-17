@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
+      "basename": "vendor",
+      "path": "笔记/前端/工程化/vendor.md"
+    },
+    {
       "basename": "Stylelint",
-      "path": "笔记/前端/工程化/Stylelint.md"
+      "path": "笔记/前端/工程化/规范/Stylelint.md"
     },
     {
       "basename": "Schemetics",
@@ -75,10 +79,6 @@
     {
       "basename": "ignore",
       "path": "笔记/前端/工程化/规范/ignore.md"
-    },
-    {
-      "basename": "vendor",
-      "path": "笔记/前端/工程化/vendor.md"
     },
     {
       "basename": "npmrc",
