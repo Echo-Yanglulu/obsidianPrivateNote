@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "parser",
+      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
+    },
+    {
+      "basename": "rules",
+      "path": "笔记/前端/工程化/规范/ESLint/rules.md"
+    },
+    {
+      "basename": "plugin",
+      "path": "笔记/前端/工程化/规范/ESLint/plugin.md"
+    },
+    {
+      "basename": "globals",
+      "path": "笔记/前端/工程化/规范/ESLint/globals.md"
+    },
+    {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
+    },
+    {
+      "basename": "extends",
+      "path": "笔记/前端/工程化/规范/ESLint/extends.md"
+    },
+    {
+      "basename": "environments",
+      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
+    },
+    {
       "basename": "obsidian",
       "path": "工具/软件/obsidian/obsidian.md"
     },
     {
-      "basename": "运行环境",
-      "path": "笔记/前端/基础知识/运行环境.md"
-    },
-    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
       "basename": "工程化",
@@ -19,34 +47,6 @@
     {
       "basename": "包管理",
       "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "parser",
-      "path": "笔记/前端/工程化/规范/ESLint/parser.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
-    },
-    {
-      "basename": "extends",
-      "path": "笔记/前端/工程化/规范/ESLint/extends.md"
-    },
-    {
-      "basename": "globals",
-      "path": "笔记/前端/工程化/规范/ESLint/globals.md"
-    },
-    {
-      "basename": "plugin",
-      "path": "笔记/前端/工程化/规范/ESLint/plugin.md"
-    },
-    {
-      "basename": "rules",
-      "path": "笔记/前端/工程化/规范/ESLint/rules.md"
-    },
-    {
-      "basename": "environments",
-      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
     },
     {
       "basename": "规范",
@@ -163,10 +163,6 @@
     {
       "basename": "工程化库",
       "path": "笔记/前端/库、框架/工程化库/工程化库.md"
-    },
-    {
-      "basename": "AST",
-      "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
     {
       "basename": "GUI",
