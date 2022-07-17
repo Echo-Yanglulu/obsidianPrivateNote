@@ -2,7 +2,7 @@
   "commitMessage": "hostname: {{hostname}} date: {{date}} numFiles: {{numFiles}}",
   "autoCommitMessage": "backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm",
-  "autoSaveInterval": 3,
+  "autoSaveInterval": 5,
   "autoPushInterval": 1,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
