@@ -6,14 +6,17 @@
       {
         "id": "5c887bec2977b04a",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/基础知识/运行环境.md",
             "mode": "source",
             "source": false
-          }
-        }
+          },
+          "pinned": true
+        },
+        "group": "39008d0c39e597b0"
       }
     ],
     "direction": "vertical"
@@ -83,10 +86,13 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
-            }
+              "state": {},
+              "pinned": true
+            },
+            "group": "39008d0c39e597b0"
           },
           {
             "id": "317f497fc058b9b7",
@@ -124,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/基础知识/运行环境.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/运行环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +182,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/运行环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,11 +202,11 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "5c887bec2977b04a",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/运行环境.md",
     "笔记/前端/工程化/规范/ESLint.md",
     "笔记/前端/工程化/规范.md",
-    "笔记/前端/基础知识/运行环境.md",
     "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/工程化.md",
