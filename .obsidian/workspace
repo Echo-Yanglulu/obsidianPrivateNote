@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/vendor.md",
+            "file": "笔记/前端/工程化/规范/ignore.md",
             "mode": "source",
             "source": false
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md"
+                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md",
+                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/vendor.md",
+                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -216,9 +216,10 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "4ec9596bd5773dc9",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
     "笔记/前端/工程化/规范/ignore.md",
+    "笔记/前端/工程化/vendor.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/规范/npmrc.md",
@@ -226,7 +227,6 @@
     "笔记/前端/工程化/规范/vscodeconfig.md",
     "笔记/前端/工程化/规范/ESLint/editorconfig.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
-    "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/规范/代码规范.md"
+    "笔记/前端/工程化/规范/版本规范.md"
   ]
 }
