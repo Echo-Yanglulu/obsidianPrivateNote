@@ -26,11 +26,13 @@
             "id": "231c1b69c3d25663",
             "type": "leaf",
             "dimension": 67.73869346733669,
+            "pinned": true,
             "state": {
               "type": "diagram-edit",
               "state": {
                 "file": "笔记/前端/工程化/Untitled Diagram.svg"
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -141,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
               }
             }
           },
@@ -151,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/assets/eslint自定义规则使用.png",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,17 +220,17 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/shell.md",
+    "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/assets/eslint自定义规则使用.png",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/代码规范.md",
     "笔记/前端/语言/语言.md",
     "笔记/前端/语言/TS/TS.md",
-    "笔记/前端/语言/TS/泛型.md",
-    "笔记/前端/语言/TS/类型断言.md"
+    "笔记/前端/语言/TS/泛型.md"
   ]
 }
