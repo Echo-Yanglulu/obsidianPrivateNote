@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "笔记/前端/工程化/规范/ESLint/未命名.md"
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
+    },
+    {
+      "basename": "globals",
+      "path": "笔记/前端/工程化/规范/ESLint/globals.md"
+    },
+    {
+      "basename": "plugin",
+      "path": "笔记/前端/工程化/规范/ESLint/plugin.md"
+    },
+    {
+      "basename": "rules",
+      "path": "笔记/前端/工程化/规范/ESLint/rules.md"
     },
     {
       "basename": "environment",
@@ -11,10 +23,6 @@
     {
       "basename": "parser",
       "path": "笔记/前端/工程化/规范/ESLint/parser.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
       "basename": "运行环境",
@@ -191,14 +199,6 @@
     {
       "basename": "polp",
       "path": "笔记/前端/工程化/node/库/polp.md"
-    },
-    {
-      "basename": "plop",
-      "path": "笔记/前端/工程化/node/库/plop.md"
-    },
-    {
-      "basename": "execa",
-      "path": "笔记/前端/工程化/node/库/execa.md"
     }
   ],
   "omittedPaths": [],
