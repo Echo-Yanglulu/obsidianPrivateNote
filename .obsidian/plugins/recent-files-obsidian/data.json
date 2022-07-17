@@ -9,12 +9,20 @@
       "path": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
     },
     {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
+      "basename": "watch change方式应用Prettier",
+      "path": "笔记/前端/工程化/assets/watch change方式应用Prettier.png"
     },
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "工具",
@@ -87,10 +95,6 @@
     {
       "basename": "shell",
       "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     },
     {
       "basename": "process",
@@ -195,10 +199,6 @@
     {
       "basename": "OO设计模式",
       "path": "笔记/前端/设计模式/OO设计模式.md"
-    },
-    {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
     }
   ],
   "omittedPaths": [],
