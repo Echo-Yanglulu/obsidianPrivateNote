@@ -25,7 +25,7 @@
           {
             "id": "231c1b69c3d25663",
             "type": "leaf",
-            "dimension": 67.73869346733669,
+            "dimension": 33.869346733668344,
             "pinned": true,
             "state": {
               "type": "diagram-edit",
@@ -33,6 +33,15 @@
                 "file": "笔记/前端/工程化/Untitled Diagram.svg"
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "7696074ba9ac354d",
+            "type": "leaf",
+            "dimension": 33.869346733668344,
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -84,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -220,12 +228,12 @@
     "direction": "horizontal",
     "width": 460.5
   },
-  "active": "231c1b69c3d25663",
+  "active": "989de35848378ae3",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png",
-    "笔记/前端/工程化/Untitled Diagram.svg",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/规范/代码规范.md",
