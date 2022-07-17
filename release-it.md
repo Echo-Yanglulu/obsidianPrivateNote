@@ -7,3 +7,4 @@
 	4. npm发版后自动打git tag
 		1. 以便回滚
 # 配置
+![[Pasted image 20220717195426.png]]
