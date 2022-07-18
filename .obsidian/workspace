@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/思考工具/控制论与科学方法论/概述.md",
+            "file": "笔记/学习方法/学习的方法-诺奖/概述.md",
             "mode": "source",
             "source": false
           }
@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/学习的方法-诺奖/概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/学习的方法-诺奖/概述.md"
+              }
             }
           },
           {
@@ -144,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/学习的方法-诺奖/概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,7 +159,7 @@
     "direction": "horizontal",
     "width": 674.5
   },
-  "active": "f005d2eec511b630",
+  "active": "0b48a092cb577a64",
   "lastOpenFiles": [
     "笔记/思考工具/控制论与科学方法论/概述.md",
     "笔记/工具/软件/obsidian/obsidian.md",
