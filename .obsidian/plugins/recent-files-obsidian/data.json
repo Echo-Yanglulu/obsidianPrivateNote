@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "ignore",
+      "path": "笔记/前端/工程化/规范/ignore.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/规范/版本规范.md"
+    },
+    {
+      "basename": "vscodeconfig",
+      "path": "笔记/前端/工程化/规范/vscodeconfig.md"
+    },
+    {
       "basename": "心法",
       "path": "笔记/学习方法/心法.md"
     },
@@ -63,10 +79,6 @@
     {
       "basename": "脚本",
       "path": "笔记/前端/工程化/脚本/脚本.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "持续集成&部署",
@@ -141,10 +153,6 @@
       "path": "笔记/前端/工程化/规范/npmrc.md"
     },
     {
-      "basename": "ignore",
-      "path": "笔记/前端/工程化/规范/ignore.md"
-    },
-    {
       "basename": "Pasted image 20220717204512",
       "path": "笔记/前端/工程化/assets/Pasted image 20220717204512.png"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "chalk",
       "path": "笔记/前端/工程化/node/库/chalk.md"
-    },
-    {
-      "basename": "技术",
-      "path": "笔记/万物通用概念/技术.md"
-    },
-    {
-      "basename": "vscodeconfig",
-      "path": "笔记/前端/工程化/规范/vscodeconfig.md"
     }
   ],
   "omittedPaths": [],
