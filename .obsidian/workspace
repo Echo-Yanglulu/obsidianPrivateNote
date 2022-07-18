@@ -78,7 +78,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 56.24385447394297,
+        "dimension": 79.89949748743719,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -117,16 +117,14 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 43.75614552605703,
+        "dimension": 20.100502512562816,
         "children": [
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/工程化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +179,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,17 +194,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623
+    "width": 1029.5
   },
-  "active": "ebd74a6bcee8cfb8",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/持续集成&部署.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/Untitled.md",
     "笔记/前端/工程化/assets/eslint自定义规则使用.png"
