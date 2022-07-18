@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint/editorconfig.md",
+            "file": "笔记/前端/工程化/质量/质量.md",
             "mode": "source",
             "source": false
           }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/editorconfig.md"
+                "file": "笔记/前端/工程化/质量/质量.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/editorconfig.md",
+                "file": "笔记/前端/工程化/质量/质量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/规范/ESLint/editorconfig.md",
+                "file": "笔记/前端/工程化/质量/质量.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -164,6 +164,7 @@
   },
   "active": "0b48a092cb577a64",
   "lastOpenFiles": [
+    "笔记/前端/工程化/规范/ESLint/editorconfig.md",
     "笔记/前端/工程化/规范/vscodeconfig.md",
     "笔记/前端/工程化/规范/npmrc.md",
     "笔记/前端/工程化/规范/ignore.md",
@@ -172,7 +173,6 @@
     "笔记/前端/工程化/规范/代码规范.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/学习方法/心法.md",
-    "笔记/学习方法/整体性学习.md"
+    "笔记/学习方法/心法.md"
   ]
 }
