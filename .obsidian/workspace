@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/质量.md",
+            "file": "监控与异常上报.md",
             "mode": "source",
             "source": false
           }
@@ -121,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/质量/质量.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/质量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/质量.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -162,17 +158,17 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "0b48a092cb577a64",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
+    "监控与异常上报.md",
     "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/测试.md",
+    "Code Review.md",
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/规范/ESLint/editorconfig.md",
     "笔记/前端/工程化/规范/vscodeconfig.md",
     "笔记/前端/工程化/规范/npmrc.md",
     "笔记/前端/工程化/规范/ignore.md",
-    "笔记/前端/工程化/规范/ESLint/ESLint.md",
-    "笔记/前端/工程化/工具/Prettier.md",
-    "笔记/前端/工程化/规范/代码规范.md",
-    "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/规范/版本规范.md"
+    "笔记/前端/工程化/规范/ESLint/ESLint.md"
   ]
 }
