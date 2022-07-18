@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0b48a092cb577a64",
+        "id": "ed5e92342e1fd60e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/测试.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -108,8 +108,49 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c46f228a72f798a3",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "e64a478c38e1b61b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "a91e2e0c6660a152",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5764a4ce75e7e62f",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9f7324dc69c53e0",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "2dcf10aeae0c0f5e",
@@ -122,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/测试.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -132,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/测试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/测试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +203,7 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "0b48a092cb577a64",
+  "active": "f9f7324dc69c53e0",
   "lastOpenFiles": [
     "笔记/前端/工程化/质量/质量.md",
     "笔记/工具/软件/obsidian/obsidian.md",
