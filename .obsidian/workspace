@@ -78,6 +78,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
+        "dimension": 67.03517587939697,
         "children": [
           {
             "id": "f005d2eec511b630",
@@ -95,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/心法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,14 @@
       {
         "id": "2dcf10aeae0c0f5e",
         "type": "tabs",
+        "dimension": 32.96482412060301,
         "children": [
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/心法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -147,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/心法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,8 +157,9 @@
     "direction": "horizontal",
     "width": 674.5
   },
-  "active": "0b48a092cb577a64",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
+    "笔记/学习方法/心法.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/学习的方法-诺奖/概述.md",
     "笔记/思考工具/控制论与科学方法论/概述.md",
@@ -169,7 +168,6 @@
     "笔记/读书/人性的弱点.md",
     "笔记/读书/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/读书/模型思维.md",
-    "笔记/读书/纳瓦尔宝典.md",
-    "笔记/前端/前端.md"
+    "笔记/读书/纳瓦尔宝典.md"
   ]
 }
