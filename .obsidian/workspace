@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/规范/ESLint/ESLint.md",
-            "mode": "source",
+            "file": "笔记/前端/工程化/规范/ignore.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -121,17 +121,8 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "0254f05ae0353b5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
               "state": {
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "笔记/前端/工程化/规范/ignore.md"
               }
             }
           },
@@ -141,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/规范/ignore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,15 +142,27 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "0254f05ae0353b5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/工程化/规范/ignore.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "f005d2eec511b630",
+  "active": "0b48a092cb577a64",
   "lastOpenFiles": [
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/前端/工程化/工具/Prettier.md",
