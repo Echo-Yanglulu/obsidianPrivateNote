@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "OO设计模式",
+      "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
       "basename": "Jest",
       "path": "笔记/前端/工程化/质量/Jest.md"
     },
     {
       "basename": "测试",
       "path": "笔记/前端/测试.md"
-    },
-    {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量/质量.md"
     },
     {
       "basename": "工程化",
@@ -195,10 +199,6 @@
     {
       "basename": "node cli",
       "path": "笔记/前端/工程化/脚本/node cli.md"
-    },
-    {
-      "basename": "检查时机",
-      "path": "笔记/前端/工程化/规范/检查时机.md"
     }
   ],
   "omittedPaths": [],

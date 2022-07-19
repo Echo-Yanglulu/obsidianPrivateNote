@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/Jest.md",
-            "mode": "source",
+            "file": "笔记/前端/设计模式/OO设计模式.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -149,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "2dcf10aeae0c0f5e",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md"
+                "file": "笔记/前端/设计模式/OO设计模式.md"
               }
             }
           },
@@ -173,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md",
+                "file": "笔记/前端/设计模式/OO设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md",
+                "file": "笔记/前端/设计模式/OO设计模式.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -203,11 +202,11 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "30f3e28960c73e48",
+  "active": "37fb741facd8f20b",
   "lastOpenFiles": [
-    "笔记/前端/测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/Jest.md",
+    "笔记/前端/测试.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/质量/Pasted image 20220719002230.png",
