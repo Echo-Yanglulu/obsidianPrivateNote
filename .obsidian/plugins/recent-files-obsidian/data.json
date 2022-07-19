@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "basename": "Jest",
+      "path": "笔记/前端/工程化/质量/Jest.md"
     },
     {
       "basename": "测试",
@@ -13,16 +13,24 @@
       "path": "笔记/前端/工程化/质量/质量.md"
     },
     {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "Code Review",
+      "path": "笔记/前端/工程化/质量/Code Review.md"
+    },
+    {
+      "basename": "Pasted image 20220719002230",
+      "path": "笔记/前端/工程化/质量/Pasted image 20220719002230.png"
+    },
+    {
       "basename": "obsidian",
       "path": "笔记/工具/软件/obsidian/obsidian.md"
     },
     {
       "basename": "监控与异常上报",
-      "path": "监控与异常上报.md"
-    },
-    {
-      "basename": "Code Review",
-      "path": "Code Review.md"
+      "path": "笔记/前端/工程化/质量/监控与异常上报.md"
     },
     {
       "basename": "前端",
@@ -191,14 +199,6 @@
     {
       "basename": "检查时机",
       "path": "笔记/前端/工程化/规范/检查时机.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "plop",
-      "path": "笔记/前端/工程化/node/库/plop.md"
     }
   ],
   "omittedPaths": [],
