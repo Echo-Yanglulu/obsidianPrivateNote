@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/单元测试.md",
+            "file": "笔记/学习方法/概念/快速阅读.md",
             "mode": "source",
             "source": false
           }
@@ -149,8 +149,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "2dcf10aeae0c0f5e",
@@ -162,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,7 +170,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -202,17 +197,17 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "f9f7324dc69c53e0",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/快速阅读.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/设计模式/单一职责.md",
     "笔记/前端/工程化/质量/test case.md",
-    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/设计模式/OO基本原则.md",
-    "依赖倒置.md",
-    "笔记/前端/设计模式/设计模式.md"
+    "笔记/前端/设计模式/OO基本原则.md"
   ]
 }
