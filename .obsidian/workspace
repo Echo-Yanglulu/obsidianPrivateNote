@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/单元测试.md",
+            "file": "笔记/前端/设计模式/单一职责.md",
             "mode": "source",
             "source": false
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md"
+                "file": "笔记/前端/设计模式/单一职责.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md",
+                "file": "笔记/前端/设计模式/单一职责.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/单元测试.md",
+                "file": "笔记/前端/设计模式/单一职责.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -203,6 +203,7 @@
   },
   "active": "d352d87695c1b594",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/工程化.md",
@@ -211,7 +212,6 @@
     "依赖倒置.md",
     "笔记/前端/设计模式/单一职责.md",
     "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/工程化/质量/test case.md",
-    "笔记/前端/工程化/质量/Jest.md"
+    "笔记/前端/工程化/质量/test case.md"
   ]
 }
