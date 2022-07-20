@@ -5,7 +5,7 @@
 4. 文档丰富
 # 目标
 了解自动化测试相关概念
-	1. test case[^4]/text suit[^5]
+	1. [[test case]][^4]/text suit[^5]
 		1. 在Jest中表现为一个describe方法与test方法。接收的第二个函数参数正常执行时：不报错，则测试通过
 	2. 断言[^6]
 		1. 表现为：浏览器的console.assert，node的assert模块，Jest的**Matchers**，第三方自定义（vuex）
