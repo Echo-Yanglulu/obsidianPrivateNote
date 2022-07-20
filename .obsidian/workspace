@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/工程化/基本概念/CLI.md",
             "mode": "source",
             "source": false
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/前端/工程化/基本概念/CLI.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -204,15 +204,15 @@
   },
   "active": "144515d42deb14e6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/shell.md",
+    "笔记/前端/工程化/脚本/脚本.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/工程化/质量/Jest.md",
     "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/质量/Pasted image 20220719002230.png",
-    "笔记/工具/软件/obsidian/obsidian.md",
-    "笔记/前端/工程化/质量/监控与异常上报.md",
-    "笔记/前端/前端.md"
+    "笔记/工具/软件/obsidian/obsidian.md"
   ]
 }

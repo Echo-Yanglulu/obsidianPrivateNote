@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "shell",
+      "path": "笔记/前端/工程化/基本概念/shell.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本/脚本.md"
+    },
+    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
     },
@@ -125,10 +137,6 @@
       "path": "笔记/前端/工程化/脚手架/脚手架.md"
     },
     {
-      "basename": "脚本",
-      "path": "笔记/前端/工程化/脚本/脚本.md"
-    },
-    {
       "basename": "持续集成&部署",
       "path": "笔记/前端/工程化/持续集成&部署.md"
     },
@@ -147,10 +155,6 @@
     {
       "basename": "Untitled Diagram",
       "path": "笔记/前端/工程化/Untitled Diagram.svg"
-    },
-    {
-      "basename": "shell",
-      "path": "笔记/前端/工程化/基本概念/shell.md"
     },
     {
       "basename": "语言",
@@ -195,10 +199,6 @@
     {
       "basename": "Schemetics",
       "path": "笔记/前端/工程化/脚手架/Schemetics.md"
-    },
-    {
-      "basename": "node cli",
-      "path": "笔记/前端/工程化/脚本/node cli.md"
     }
   ],
   "omittedPaths": [],
