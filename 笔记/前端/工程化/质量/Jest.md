@@ -18,8 +18,8 @@
 		2. beforeEach, afterEach, beforeAll, afterAll. 
 		3. 某个测试文件中，测试套件中：只对当前测试文件/套件生效。
 	5. Mock[^9]
-		1. ![[Pasted image 20220720000754.png]]（测试一个函数、类）
-		2. Mock并测试一个第三方模块
+		1. ![[Pasted image 20220720000754.png]]（测试一个**函数、类**）
+		2. Mock并测试一个**第三方模块**
 
 
 
