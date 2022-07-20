@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/Jest.md",
+            "file": "单元测试.md",
             "mode": "source",
             "source": false
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md"
+                "file": "单元测试.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md",
+                "file": "单元测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/Jest.md",
+                "file": "单元测试.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -205,14 +205,14 @@
   "active": "144515d42deb14e6",
   "lastOpenFiles": [
     "笔记/前端/测试.md",
+    "E2E测试.md",
+    "笔记/前端/工程化/质量/Jest.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/工程化/质量/Jest.md",
-    "笔记/前端/工程化/质量/Code Review.md"
+    "笔记/前端/设计模式/OO设计模式.md"
   ]
 }

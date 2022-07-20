@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Jest",
-      "path": "笔记/前端/工程化/质量/Jest.md"
+      "basename": "单元测试",
+      "path": "单元测试.md"
     },
     {
       "basename": "测试",
       "path": "笔记/前端/测试.md"
+    },
+    {
+      "basename": "E2E测试",
+      "path": "E2E测试.md"
+    },
+    {
+      "basename": "Jest",
+      "path": "笔记/前端/工程化/质量/Jest.md"
     },
     {
       "basename": "质量",
@@ -191,14 +199,6 @@
     {
       "basename": "vendor",
       "path": "笔记/前端/工程化/规范/vendor.md"
-    },
-    {
-      "basename": "Stylelint",
-      "path": "笔记/前端/工程化/规范/Stylelint.md"
-    },
-    {
-      "basename": "Schemetics",
-      "path": "笔记/前端/工程化/脚手架/Schemetics.md"
     }
   ],
   "omittedPaths": [],
