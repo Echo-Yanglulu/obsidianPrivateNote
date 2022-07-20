@@ -161,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "单元测试.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +170,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "单元测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "单元测试.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -202,8 +198,9 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "144515d42deb14e6",
+  "active": "f005d2eec511b630",
   "lastOpenFiles": [
+    "单元测试.md",
     "笔记/前端/测试.md",
     "E2E测试.md",
     "笔记/前端/工程化/质量/Jest.md",
@@ -212,7 +209,6 @@
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/脚本/脚本.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/设计模式/OO设计模式.md"
+    "笔记/前端/工程化/工程化.md"
   ]
 }
