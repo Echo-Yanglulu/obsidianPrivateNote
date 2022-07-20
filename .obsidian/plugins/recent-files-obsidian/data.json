@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "test case",
-      "path": "test case.md"
+      "path": "笔记/前端/工程化/质量/test case.md"
+    },
+    {
+      "basename": "单一职责",
+      "path": "笔记/前端/设计模式/单一职责.md"
     },
     {
       "basename": "Jest",
@@ -14,11 +18,11 @@
     },
     {
       "basename": "E2E测试",
-      "path": "E2E测试.md"
+      "path": "笔记/前端/工程化/质量/E2E测试.md"
     },
     {
       "basename": "单元测试",
-      "path": "单元测试.md"
+      "path": "笔记/前端/工程化/质量/单元测试.md"
     },
     {
       "basename": "质量",
@@ -195,10 +199,6 @@
     {
       "basename": "TS Model",
       "path": "笔记/前端/语言/TS/TS Model.svg"
-    },
-    {
-      "basename": "Pasted image 20220717204512",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220717204512.png"
     }
   ],
   "omittedPaths": [],

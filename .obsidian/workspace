@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "test case.md",
+            "file": "笔记/前端/工程化/质量/test case.md",
             "mode": "source",
             "source": false
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test case.md"
+                "file": "笔记/前端/工程化/质量/test case.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test case.md",
+                "file": "笔记/前端/工程化/质量/test case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test case.md",
+                "file": "笔记/前端/工程化/质量/test case.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -202,17 +202,17 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "144515d42deb14e6",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/前端/设计模式/单一职责.md",
+    "笔记/前端/工程化/质量/test case.md",
     "笔记/前端/工程化/质量/Jest.md",
     "笔记/前端/测试.md",
-    "E2E测试.md",
-    "单元测试.md",
+    "笔记/前端/工程化/质量/E2E测试.md",
+    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/基本概念/shell.md",
-    "笔记/前端/工程化/脚本/脚本.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/工程化/基本概念/shell.md"
   ]
 }
