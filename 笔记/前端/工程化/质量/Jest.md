@@ -8,14 +8,15 @@
 	1. test case[^4]/text suit[^5]
 		1. 在Jest中表现为一个describe方法与test方法。接收的第二个函数参数正常执行时：不报错，则测试通过
 	2. 断言[^6]
-		1. 表现为：浏览器的console.assert，node的assert模块，Jest的Matchers，第三方自定义（vuex）
+		1. 表现为：浏览器的console.assert，node的assert模块，Jest的**Matchers**，第三方自定义（vuex）
+			1. Jest包含了各种类型的断言
 		2. 浏览器的assert并不报错，所以并不算断言
 	3. 异步测试[^7]
-		1. 利用done方法传参，让用例收到异步测试的结果
+		1. 利用done方法传递错误，让框架收到错误
 		2. async/await的异步测试：在then中调用调试用例即可
 	4. 环境[^8]
-		1. 把四种方法写在两种地方
-		2. beforeEach, afterEach, beforeAll, afterAll. 
+		1. 把四种方法写在两种地方（测试前的环境准备工作等，测试后把环境清理恢复到初始状态）
+		2. beforeEach, afterEach（用例）, beforeAll, afterAll. 
 		3. 某个测试文件中，测试套件中：只对当前测试文件/套件生效。
 	5. Mock[^9]
 		1. ![[Pasted image 20220720000754.png]]（测试一个**函数、类**）
