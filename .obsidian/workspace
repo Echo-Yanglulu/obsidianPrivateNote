@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TDD.md",
+            "file": "笔记/工具/思考/思考.md",
             "mode": "source",
             "source": false
           }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TDD.md"
+                "file": "笔记/工具/思考/思考.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TDD.md",
+                "file": "笔记/工具/思考/思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TDD.md",
+                "file": "笔记/工具/思考/思考.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -203,15 +203,15 @@
   },
   "active": "0d656d192757e121",
   "lastOpenFiles": [
-    "笔记/前端/测试.md",
-    "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/test case.md",
-    "笔记/前端/工程化/Untitled Diagram.svg",
-    "笔记/前端/工程化/Untitled.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/版本管理/版本管理.md",
+    "笔记/前端/包管理/包管理.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/学习方法/概念/快速阅读.md",
-    "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/质量/单元测试.md",
-    "笔记/前端/设计模式/单一职责.md"
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/工程化/脚手架/脚手架.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/脚本/脚本.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "TDD.md"
   ]
 }

@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
+      "basename": "脚手架",
+      "path": "笔记/前端/工程化/脚手架/脚手架.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本/脚本.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
       "basename": "TDD",
       "path": "TDD.md"
     },
@@ -9,20 +49,12 @@
       "path": "笔记/前端/测试.md"
     },
     {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量/质量.md"
-    },
-    {
       "basename": "test case",
       "path": "笔记/前端/工程化/质量/test case.md"
     },
     {
       "basename": "Untitled Diagram",
       "path": "笔记/前端/工程化/Untitled Diagram.svg"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "快速阅读",
@@ -61,16 +93,8 @@
       "path": "笔记/前端/工程化/质量/E2E测试.md"
     },
     {
-      "basename": "脚手架",
-      "path": "笔记/前端/工程化/脚手架/脚手架.md"
-    },
-    {
       "basename": "shell",
       "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "脚本",
-      "path": "笔记/前端/工程化/脚本/脚本.md"
     },
     {
       "basename": "Code Review",
@@ -87,10 +111,6 @@
     {
       "basename": "监控与异常上报",
       "path": "笔记/前端/工程化/质量/监控与异常上报.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "editorconfig",
@@ -121,10 +141,6 @@
       "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
-    },
-    {
       "basename": "版本规范",
       "path": "笔记/前端/工程化/规范/版本规范.md"
     },
@@ -142,7 +158,7 @@
     },
     {
       "basename": "概述",
-      "path": "笔记/思考工具/控制论与科学方法论/概述.md"
+      "path": "笔记/工具/思考/控制论与科学方法论/概述.md"
     },
     {
       "basename": "写作",
@@ -177,28 +193,12 @@
       "path": "笔记/前端/工程化/持续集成&部署.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
       "basename": "eslint自定义规则使用",
       "path": "笔记/前端/工程化/assets/eslint自定义规则使用.png"
     },
     {
       "basename": "语言",
       "path": "笔记/前端/语言/语言.md"
-    },
-    {
-      "basename": "TS",
-      "path": "笔记/前端/语言/TS/TS.md"
-    },
-    {
-      "basename": "泛型",
-      "path": "笔记/前端/语言/TS/泛型.md"
-    },
-    {
-      "basename": "类型断言",
-      "path": "笔记/前端/语言/TS/类型断言.md"
     }
   ],
   "omittedPaths": [],
