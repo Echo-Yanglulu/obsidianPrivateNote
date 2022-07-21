@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c8123daac4d89134",
+        "id": "d817f54e9544018d",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/TDD.md",
+            "file": "笔记/前端/工程化/git.md",
             "mode": "source",
             "source": false
-          }
-        }
+          },
+          "pinned": true
+        },
+        "group": "2515ad75bb84e03c"
       }
     ],
     "direction": "vertical"
@@ -30,10 +33,8 @@
             "id": "231c1b69c3d25663",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg"
-              }
+              "type": "file-explorer",
+              "state": {}
             }
           },
           {
@@ -71,25 +72,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 890.5
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
     "type": "split",
     "children": [
       {
-        "id": "279be871517071cb",
+        "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 55.47738693467337,
+        "dimension": 56.24385447394297,
         "children": [
           {
-            "id": "f005d2eec511b630",
+            "id": "cb458d1b4cb70fed",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
               "pinned": true
+            },
+            "group": "2515ad75bb84e03c"
+          },
+          {
+            "id": "317f497fc058b9b7",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "9be427e8a69138d4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          },
+          {
+            "id": "d6f768adb0296a56",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "279be871517071cb",
+        "type": "tabs",
+        "dimension": 43.75614552605703,
+        "children": [
+          {
+            "id": "bd5ff300df2b3029",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/前端/工程化/git.md"
+              }
             }
           },
           {
@@ -112,31 +155,19 @@
             }
           },
           {
-            "id": "c46f228a72f798a3",
+            "id": "0254f05ae0353b5b",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
-              "state": {}
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/工程化/git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
             }
           },
           {
-            "id": "e64a478c38e1b61b",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "a91e2e0c6660a152",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5764a4ce75e7e62f",
+            "id": "83121a7b23c40521",
             "type": "leaf",
             "state": {
               "type": "FANTASY_CALENDAR",
@@ -144,28 +175,11 @@
             }
           },
           {
-            "id": "f9f7324dc69c53e0",
+            "id": "5a5405417dbef7c4",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
               "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "2dcf10aeae0c0f5e",
-        "type": "tabs",
-        "dimension": 44.52261306532663,
-        "children": [
-          {
-            "id": "bd5ff300df2b3029",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg"
-              }
             }
           },
           {
@@ -174,38 +188,28 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0254f05ae0353b5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg",
-                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 620.5
+    "width": 623
   },
-  "active": "231c1b69c3d25663",
+  "active": "d817f54e9544018d",
   "lastOpenFiles": [
     "笔记/前端/工程化/质量/TDD.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/质量/Untitled Diagram.svg",
     "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
     "笔记/前端/工程化/质量/质量.md",
@@ -213,7 +217,6 @@
     "笔记/前端/工程化/工程化.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/实用性思考的艺术.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/版本管理/版本管理.md"
+    "笔记/前端/前端.md"
   ]
 }
