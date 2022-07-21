@@ -30,8 +30,10 @@
             "id": "231c1b69c3d25663",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {}
+              "type": "diagram-edit",
+              "state": {
+                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg"
+              }
             }
           },
           {
@@ -69,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 890.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/TDD.md"
+                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg"
               }
             }
           },
@@ -172,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/TDD.md",
+                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/TDD.md",
+                "file": "笔记/前端/工程化/质量/Untitled Diagram.svg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -201,17 +203,17 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "c8123daac4d89134",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
-    "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
     "笔记/前端/工程化/质量/TDD.md",
+    "笔记/前端/工程化/质量/Untitled Diagram.svg",
+    "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/前端/前端.md",
-    "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/包管理/包管理.md"
+    "笔记/前端/版本管理/版本管理.md"
   ]
 }
