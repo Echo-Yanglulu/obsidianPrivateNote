@@ -4,25 +4,10 @@
     "type": "split",
     "children": [
       {
-        "id": "d817f54e9544018d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/git.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        },
-        "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "d773e9aeb1d35fc3",
+        "id": "231c1b69c3d25663",
         "type": "leaf",
         "state": {
-          "type": "diagram",
+          "type": "diagram-edit",
           "state": {
             "file": "笔记/前端/工程化/质量/TDD原则.svg"
           }
@@ -39,16 +24,6 @@
         "id": "932e5b2355cf0a40",
         "type": "tabs",
         "children": [
-          {
-            "id": "231c1b69c3d25663",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "笔记/前端/工程化/质量/TDD原则.svg"
-              }
-            }
-          },
           {
             "id": "989de35848378ae3",
             "type": "leaf",
@@ -84,7 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 878.5
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -98,13 +73,14 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/工程化/质量/TDD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           },
           {
             "id": "317f497fc058b9b7",
@@ -222,8 +198,8 @@
   "lastOpenFiles": [
     "笔记/前端/工程化/质量/TDD.md",
     "笔记/前端/工程化/质量/TDD原则.svg",
-    "笔记/工具/思考/思考.md",
     "笔记/前端/工程化/git.md",
+    "笔记/工具/思考/思考.md",
     "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/测试.md",
