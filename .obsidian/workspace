@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TDD.md",
+            "file": "笔记/前端/工程化/质量/TDD.md",
             "mode": "source",
             "source": false
           }
@@ -161,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/质量/TDD.md"
+              }
             }
           },
           {
@@ -170,6 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/质量/TDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/质量/TDD.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -197,17 +201,17 @@
     "direction": "horizontal",
     "width": 620.5
   },
-  "active": "f005d2eec511b630",
+  "active": "c8123daac4d89134",
   "lastOpenFiles": [
-    "TDD.md",
-    "笔记/前端/测试.md",
+    "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
+    "笔记/前端/工程化/质量/TDD.md",
     "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/测试.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/前端/前端.md",
     "笔记/前端/版本管理/版本管理.md",
-    "笔记/前端/包管理/包管理.md",
-    "笔记/前端/工程化/工具/工具.md"
+    "笔记/前端/包管理/包管理.md"
   ]
 }
