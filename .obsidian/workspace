@@ -17,6 +17,18 @@
           "pinned": true
         },
         "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "d773e9aeb1d35fc3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/质量/TDD.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -131,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/git.md"
+                "file": "笔记/前端/工程化/质量/TDD.md"
               }
             }
           },
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/质量/TDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -188,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/质量/TDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,16 +218,16 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "d817f54e9544018d",
+  "active": "d773e9aeb1d35fc3",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/TDD原则.svg",
     "笔记/前端/工程化/质量/TDD.md",
+    "笔记/工具/思考/思考.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/质量/Untitled Diagram.svg",
     "笔记/前端/工程化/质量/Pasted image 20220722064836.png",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/工具/思考/思考.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/前端/前端.md"
   ]
