@@ -8,9 +8,9 @@
   "darkEnhance": true,
   "fontSizeNotes": 14,
   "fontSizeFileExplorer": 14,
-  "writerMode": true,
-  "paragraphFocusMode": true,
+  "writerMode": false,
+  "paragraphFocusMode": false,
   "paragraphFocusFade": 40,
-  "flatAndyMode": true,
+  "flatAndyMode": false,
   "readableLength": 70
 }
