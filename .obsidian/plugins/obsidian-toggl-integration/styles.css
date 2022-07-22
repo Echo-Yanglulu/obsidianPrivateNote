@@ -46,6 +46,40 @@
 	border-radius: 50%;
 }
 
+/* REPORTS */
+
+.time-entry-group-header {
+	font-weight: 600;
+	font-size: 1.1em;
+
+	border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.project-circle {
+	width: 0.7em;
+	height: 0.7em;
+	border-radius: 50%;
+}
+
+.group-item-description {
+	overflow: hidden;
+}
+
+.group-item-time {
+	color: var(--text-muted);
+	text-align: right;
+}
+
+.group-item-count {
+	color: var(--text-muted);
+	font-size: 0.7em;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid var(--background-modifier-border);
+	height: 1.75em;
+	width: 1.75em;
+}
+
 /* -------------- */
 /* HELPER CLASSES */
 /* -------------- */
@@ -54,6 +88,8 @@
 The following helper classes have been taken from
 https://github.com/jgthms/bulma/ under MIT License	 
 */
+
+/* @import url('bulma.min.css'); */
 
 /* MISC */
 
@@ -270,6 +306,18 @@ https://github.com/jgthms/bulma/ under MIT License
 
 .is-flex-shrink-5 {
 	flex-shrink: 5 !important;
+}
+
+.is-flex-wrap-nowrap {
+	flex-wrap: nowrap !important;
+}
+
+.is-flex-wrap-wrap {
+	flex-wrap: wrap !important;
+}
+
+.is-flex-wrap-wrap-reverse {
+	flex-wrap: wrap-reverse !important;
 }
 
 /* MARGINS */
@@ -754,4 +802,50 @@ https://github.com/jgthms/bulma/ under MIT License
 .py-auto {
 	padding-top: auto !important;
 	padding-bottom: auto !important;
+}
+
+/* Autocomplete Svelte component */
+
+.select-container {
+	--height: 30px !important;
+	--background: var(--background-modifier-form-field);
+	--clearSelectTop: 5px;
+	--indicatorTop: 6px;
+
+	--border: 1px solid var(--background-modifier-border);
+	--borderHoverColor: var(--background-modifier-border);
+	--borderFocusColor: var(--interactive-accent);
+
+	--inputFontSize: 16px;
+	--inputColor: var(--text-normal) !important;
+	--placeholderColor: var(--text-faint);
+
+	--listBackground: var(--interactive-normal);
+	--itemHoverBG: var(--interactive-hover);
+
+	--multiSelectPadding: 0 14px 0 14px !important;
+
+	--multiItemHeight: 20px !important;
+	--multiItemMargin: 5px 5px 0 0;
+	--multiItemPadding: 0 10px 0 10px;
+	--multiItemBG: var(--interactive-accent);
+	--multiItemActiveBG: var(--interactive-accent-hover);
+
+	--multiLabelMargin: 0px;
+
+	--multiClearWidth: 0px;
+	--multiClearHeight: 0px;
+	--multiClearTop: 5px;
+	--multiClearBG: var(--interactive-normal);
+	--multiClearFill: var(--text-faint);
+	--multiClearHoverFill: var(--text-accent-hover);
+}
+
+.select-container .multiSelectItem {
+	font-size: 14px;
+	color: var(--text-on-accent) !important;
+}
+
+.select-container .multiSelectItem_clear {
+	display: none;
 }
