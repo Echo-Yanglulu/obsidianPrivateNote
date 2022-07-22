@@ -772,8 +772,17 @@ input.is-invalid {
     color: #dc3545;
 }
 
+.block-language-leaflet {
+    margin: 0 auto;
+}
+
 .block-language-leaflet > .leaflet-container {
     z-index: 0;
+    background-color: var(--background-secondary-alt);
+}
+
+.block-language-leaflet > .adding-text {
+    cursor: text;
 }
 
 .block-language-leaflet .leaflet-bar a {
@@ -909,6 +918,19 @@ input.is-invalid {
     cursor: pointer !important;
 }
 
+.block-language-leaflet .leaflet-control-draw-paint-icon > svg {
+    stroke: black;
+    stroke-width: 25;
+}
+.block-language-leaflet .leaflet-control-draw-palette {
+    position: relative;
+}
+.block-language-leaflet .leaflet-control input[type="color"] {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .leaflet-file-upload > input[type="file"] {
     display: none;
 }
@@ -959,39 +981,95 @@ input.is-invalid {
     filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg)
         saturate(0.3) brightness(0.7);
 }
+
+.block-language-leaflet .leaflet-container.drawing {
+    cursor: crosshair;
+}
+.block-language-leaflet
+    .leaflet-container.shape-dragging
+    .leaflet-drawing-pane
+    path {
+    cursor: move;
+}
+
+.block-language-leaflet .leaflet-div-icon.initiative-marker-disabled {
+    opacity: 50%;
+}
+.block-language-leaflet .leaflet-div-icon.initiative-marker-active svg {
+    filter: drop-shadow(0 0 3px green);
+}
+.block-language-leaflet .leaflet-div-icon progress {
+    width: 100%;
+    top: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block-language-leaflet .leaflet-div-icon .initiative-marker-status-container {
+    position: absolute;
+    top: -6px;
+    right: -15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    gap: 2px;
+}
+.block-language-leaflet
+    .leaflet-div-icon
+    .initiative-marker-status-container
+    svg {
+    height: 10px;
+}
+.block-language-leaflet
+    .leaflet-div-icon
+    .initiative-marker-status-container
+    svg
+    > * {
+    stroke-width: 20px;
+    stroke: white;
+}
+
 /** Filter Control */
-.block-language-leaflet .leaflet-control-filter {
+.block-language-leaflet .leaflet-control-expandable {
     background: #fff;
 }
-.block-language-leaflet .leaflet-control-filter.expanded {
-    padding: 6px 10px 6px 6px;
-}
 .block-language-leaflet
-    .leaflet-control-filter:not(.expanded)
-    > .leaflet-control-filter-list {
+    .leaflet-control-expandable:not(.expanded)
+    > .leaflet-control-expandable-list {
     display: none;
 }
 .block-language-leaflet
-    .leaflet-control-filter.expanded
-    > .leaflet-control-filter-icon {
+    .leaflet-control-expandable.expanded
+    > .leaflet-control-expandable-icon {
     display: none;
 }
-.block-language-leaflet .leaflet-control-filter .task-list-item > * {
+.block-language-leaflet .leaflet-control-expandable .task-list-item > * {
     cursor: pointer;
 }
 
-.block-language-leaflet .leaflet-control-filter .input-container {
+.block-language-leaflet .leaflet-control-expandable .input-container {
+    margin: 0;
+}
+.block-language-leaflet .leaflet-control-expandable.expanded .input-container {
+    padding: 6px 10px 6px 6px;
     margin: 0;
 }
 
-.block-language-leaflet .leaflet-control-filter-list .input-item {
+.block-language-leaflet .leaflet-control-expandable-list .input-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+.block-language-leaflet .leaflet-control-expandable input[type="radio"] {
+    margin-top: 0;
+}
+
 .block-language-leaflet
-    .leaflet-control-filter-list
+    .leaflet-control-expandable-list
     .input-container
     .input-item
     > input {
@@ -999,7 +1077,7 @@ input.is-invalid {
     appearance: auto;
 }
 .block-language-leaflet
-    .leaflet-control-filter-list
+    .leaflet-control-expandable-list
     .input-container
     .input-item
     > label {
@@ -1008,34 +1086,184 @@ input.is-invalid {
     justify-content: flex-start;
 }
 .block-language-leaflet
-    .leaflet-control-filter-list
+    .leaflet-control-expandable-list
     .input-container
     .input-item
-    .leaflet-control-filter-icon {
+    .leaflet-control-expandable-icon {
     width: 18px;
     height: 18px;
     margin-right: 4px;
 }
 .block-language-leaflet
-    .leaflet-control-filter-list
-    .leaflet-control-filter-button-group {
+    .leaflet-control-expandable-list
+    .leaflet-control-expandable-button-group {
     margin-bottom: 6px;
+    padding: 6px 10px 0px 6px;
 }
 .block-language-leaflet
-    .leaflet-control-filter-list
-    .leaflet-control-filter-button-group
+    .leaflet-control-expandable-list
+    .leaflet-control-expandable-button-group
     button:last-child {
     margin-right: 0px;
 }
 
-.block-language-leaflet .leaflet-pane.leaflet-geojson-pane {
-    z-index: 399;
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-gpx
+    .gpx-data {
+    padding: 6px 10px 6px 6px;
+    border-bottom: 1px solid var(--background-modifier-border);
 }
-.block-language-leaflet .leaflet-pane.leaflet-image-overlay-pane {
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-gpx
+    .input-container {
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-gpx
+    .control-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.25rem;
+}
+
+.block-language-leaflet .leaflet-control-gpx .gpx-elevation {
+    display: flex;
+    justify-content: space-around;
+}
+.block-language-leaflet .gpx-elevation .elevation-gain {
+    color: green;
+}
+.block-language-leaflet .gpx-elevation .elevation-loss {
+    color: red;
+}
+
+.gpx-popup {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-draw.expanded
+    .leaflet-control-expandable-list {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-draw.expanded
+    .leaflet-control-expandable-list
+    .leaflet-control,
+.block-language-leaflet .leaflet-control-draw a {
+    margin: 0;
+    border: 0;
+}
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-draw.expanded
+    a {
+    margin-right: 0;
+}
+
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-draw.expanded
+    .leaflet-control-expandable-list
+    .leaflet-control.leaflet-control-draw-trash,
+.block-language-leaflet
+    .leaflet-control-expandable.leaflet-control-draw.expanded
+    .leaflet-control-expandable-list
+    .leaflet-control.leaflet-control-draw-paint {
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.block-language-leaflet .leaflet-control-has-actions {
+    position: relative;
+}
+
+.block-language-leaflet .leaflet-control-has-actions .control-actions.expanded {
+    display: flex;
+    background-color: white;
+}
+.block-language-leaflet .leaflet-control-has-actions .control-actions {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: 100%;
+    border: 1px solid #ccc;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.block-language-leaflet
+    .leaflet-control-has-actions
+    .control-actions
+    .leaflet-control
+    a {
+    border-radius: 0;
+}
+
+.block-language-leaflet .leaflet-control-arrow.active,
+.block-language-leaflet .leaflet-control-fill-color.active {
+    background-color: #3388ff;
+    color: white;
+    border-radius: 0;
+}
+.block-language-leaflet .leaflet-control-arrow.active a,
+.block-language-leaflet .leaflet-control-fill-color.active a {
+    background-color: transparent;
+    color: white;
+}
+
+.block-language-leaflet .leaflet-div-icon.leaflet-middle-icon,
+.block-language-leaflet .leaflet-div-icon.leaflet-vertex-icon {
+    border-radius: 100%;
+    width: 12px !important;
+    height: 12px !important;
+    border: 1px solid rgb(204, 204, 204) !important;
+    background-color: white !important;
+    margin-top: -6px !important;
+    margin-left: -6px !important;
+    display: block;
+}
+
+.block-language-leaflet .leaflet-div-icon.leaflet-middle-icon {
+    width: 10px !important;
+    height: 10px !important;
+    margin-top: -5px !important;
+    margin-left: -5px !important;
+}
+
+.block-language-leaflet .leaflet-text-entry {
+    position: relative;
+    width: max-content;
+}
+.block-language-leaflet .leaflet-text-entry input {
+    outline: none;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+}
+.block-language-leaflet .leaflet-text-entry span {
+    width: fit-content;
+}
+
+.block-language-leaflet .leaflet-pane.leaflet-geojson-pane {
     z-index: 398;
 }
-.block-language-leaflet .leaflet-pane.leaflet-base-layer-pane {
+.block-language-leaflet .leaflet-pane.leaflet-image-overlay-pane {
     z-index: 397;
+}
+.block-language-leaflet .leaflet-pane.leaflet-gpx-pane {
+    z-index: 405;
+}
+.block-language-leaflet .leaflet-pane.leaflet-gpx-canvas-pane {
+    z-index: 301;
+}
+.block-language-leaflet .leaflet-pane.leaflet-base-layer-pane {
+    z-index: 300;
 }
 
 .hidden-leaflet-popup {
@@ -1055,5 +1283,19 @@ input.is-invalid {
 }
 .block-language-leaflet .leaflet-default-icon-path {
     background-image: unset !important;
+}
+
+.leaflet-layer-targeted {
+    filter: drop-shadow(0 0 3px green);
+}
+
+.leaflet-edit-parameters .context-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.block-language-leaflet .leaflet-pm-toolbar .button-container {
+    margin-top: unset;
 }
 
