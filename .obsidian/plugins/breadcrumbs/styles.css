@@ -1,21 +1,29 @@
-div.breadcrumbs-trail {
+.BC-trail {
   border: 1px solid var(--background-modifier-border);
   border-radius: 5px;
   padding: 5px;
+  margin-bottom: 5px !important;
 }
 
-.breadcrumbs-matrix-square li {
+/* completely hides the trail when "no path found message" is left empty and no path is found */
+.BC-trail:empty {
+  display: none;
+}
+
+.BC-matrix-square li {
   text-align: left;
 }
 
-li.breadcrumbs-implied::marker {
+/* ensure empty headers not leaving an element  */
+.BC-Matrix .BC-Matrix-square .BC-Matrix-header:empty {
+  display: none;
 }
 
-.internal-link.breadcrumbs-link {
+.internal-link.BC-Link {
   color: var(--text-accent);
 }
 
-.internal-link.breadcrumbs-link:hover {
+.internal-link.BC-Link:hover {
   color: var(--text-accent-hover, var(--text-accent));
 }
 
@@ -91,17 +99,15 @@ li.breadcrumbs-implied::marker {
   opacity: 0;
 }
 
-.hierarchy-row {
+.thread-dir-templates .setting-item-control {
   display: flex;
-  flex-direction: row;
-  padding: 5px;
+  flex-direction: column;
 }
 
-.save-hierarchy-button {
-  opacity: 0.6;
+.juggl-hide {
+  display: none;
 }
 
-.save-hierarchy-button.hierarchy-unsaved {
-  opacity: 1;
-  background-color: rgb(245, 48, 48) !important;
+[data-type="BC-matrix"] div.view-content {
+  overflow: hidden !important;
 }

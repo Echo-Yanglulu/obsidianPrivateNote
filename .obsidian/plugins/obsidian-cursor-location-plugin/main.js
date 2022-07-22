@@ -35,19 +35,26 @@ function __awaiter(thisArg, _arguments, P, generator) {
 const DEFAULT_SETTINGS = {
     numberCursors: 1,
     selectionMode: "full",
-    displayCount: true,
+    displayCharCount: true,
     displayPattern: "ch:ln/ct",
     cursorSeperator: " / ",
     rangeSeperator: "->",
+    displayTotalLines: true,
+    displayCursorLines: false,
+    cursorLinePattern: "[lc]",
 };
 class CursorLocation extends obsidian.Plugin {
     constructor() {
         super(...arguments);
-        this.updateCursor = (editor) => {
-            if (editor) {
-                if (!this.cursorStatusBar) {
-                    this.cursorStatusBar = this.addStatusBarItem();
-                }
+        this.updateCursor = () => {
+            let editor = this.getEditor();
+            if (!this.cursorStatusBar) {
+                this.cursorStatusBar = this.addStatusBarItem();
+            }
+            if (this.inPreviewMode()) {
+                this.cursorStatusBar.setText("");
+            }
+            else if (editor) {
                 let selections = editor.listSelections();
                 let lineCount = editor.lineCount();
                 if (selections && this.settings.numberCursors) {
@@ -58,7 +65,7 @@ class CursorLocation extends obsidian.Plugin {
                     else if (selections.length <= this.settings.numberCursors) {
                         let cursorStrings = [];
                         selections.forEach((value) => {
-                            cursorStrings.push(this.cursorDisplay(value, lineCount, true));
+                            cursorStrings.push(this.cursorDisplay(value, lineCount, true, true));
                         });
                         display = cursorStrings.join(this.settings.cursorSeperator);
                         if (/ct/.test(this.settings.displayPattern)) {
@@ -66,14 +73,10 @@ class CursorLocation extends obsidian.Plugin {
                         }
                     }
                     else {
-                        display = selections.length.toString() + " cursors";
+                        display = `${selections.length} cursors`;
                     }
-                    if (this.settings.displayCount && editor.somethingSelected()) {
-                        let selectionText = editor.getSelection();
-                        display +=
-                            " (" +
-                                (selectionText.length - selections.length + 1) +
-                                " selected)";
+                    if (editor.somethingSelected()) {
+                        display += this.totalDisplay(editor, selections);
                     }
                     this.cursorStatusBar.setText(display);
                 }
@@ -86,9 +89,11 @@ class CursorLocation extends obsidian.Plugin {
             this.registerCodeMirror((cm) => {
                 cm.on("cursorActivity", this.updateCursor);
             });
+            this.registerEvent(this.app.workspace.on("active-leaf-change", this.updateCursor));
+            this.registerEvent(this.app.workspace.on("layout-change", this.updateCursor));
             yield this.loadSettings();
             this.addSettingTab(new CursorLocationSettingTab(this.app, this));
-            this.updateCursor(this.getEditor());
+            this.updateCursor();
         });
     }
     onunload() {
@@ -111,6 +116,10 @@ class CursorLocation extends obsidian.Plugin {
         var _a;
         return (_a = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _a === void 0 ? void 0 : _a.editor;
     }
+    inPreviewMode() {
+        var _a;
+        return ((_a = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _a === void 0 ? void 0 : _a.getMode()) == "preview";
+    }
     cursorString(cursor, totalCount, skipTotal = false) {
         let value = this.settings.displayPattern;
         let middlePattern = /^.*(ln|ch).*?ct.*?(ln|ch).*/i;
@@ -130,7 +139,7 @@ class CursorLocation extends obsidian.Plugin {
             .replace("ln", (cursor.line + 1).toString());
         return value;
     }
-    cursorDisplay(selection, totalCount, skipTotal = false) {
+    cursorDisplay(selection, totalCount, displayLines = false, skipTotal = false) {
         let value;
         if (this.settings.selectionMode == "begin") {
             value = this.cursorString(selection.anchor, totalCount, skipTotal);
@@ -148,7 +157,39 @@ class CursorLocation extends obsidian.Plugin {
                     this.settings.rangeSeperator +
                     this.cursorString(selection.head, totalCount, skipTotal);
         }
+        if (displayLines && this.settings.displayCursorLines) {
+            let numberLines = Math.abs(selection.anchor.line - selection.head.line) + 1;
+            let cursorLinePattern = this.settings.cursorLinePattern;
+            value += ` ${cursorLinePattern.replace("lc", numberLines.toString())}`;
+        }
         return value;
+    }
+    totalDisplay(editor, selections) {
+        let totalsDisplay = "";
+        let textDisplay;
+        let lineDisplay;
+        if (this.settings.displayCharCount) {
+            let textSelection = editor.getSelection();
+            let textCount = textSelection.length - selections.length + 1;
+            textDisplay = `${textCount} selected`;
+        }
+        if (this.settings.displayTotalLines) {
+            let lineCount = 0;
+            selections.forEach((selection) => {
+                lineCount += Math.abs(selection.anchor.line - selection.head.line) + 1;
+            });
+            lineDisplay = `${lineCount} lines`;
+        }
+        if (this.settings.displayCharCount && this.settings.displayTotalLines) {
+            totalsDisplay = ` (${textDisplay} / ${lineDisplay})`;
+        }
+        else if (this.settings.displayCharCount) {
+            totalsDisplay = ` (${textDisplay})`;
+        }
+        else if (this.settings.displayTotalLines) {
+            totalsDisplay = ` (${lineDisplay})`;
+        }
+        return totalsDisplay;
     }
 }
 class CursorLocationSettingTab extends obsidian.PluginSettingTab {
@@ -156,20 +197,22 @@ class CursorLocationSettingTab extends obsidian.PluginSettingTab {
         super(app, plugin);
         this.plugin = plugin;
     }
-    resetComponent(setting, value) {
-        let name = setting.nameEl.getText();
-        console.log("resetting '" + name + "' to '" + value.toString() + "'");
-        let component = setting.components[0];
+    resetComponent(elem, setting) {
+        const value = DEFAULT_SETTINGS[setting];
+        console.log(`resetting ${setting}: ${value}`);
+        let component = elem.components[0];
         component.setValue(value);
+        this.plugin.settings[setting] = value;
     }
     display() {
         let { containerEl } = this;
         containerEl.empty();
+        containerEl.createDiv().createEl("h2", { text: "Cursor Information" });
         let cursorEl = containerEl.createDiv();
         cursorEl.createEl("h3", { text: "# of Cursors" });
         let numberCursors = new obsidian.Setting(cursorEl)
-            .setName("Number of cursor positions that will display " +
-            'in the status bar before switching to "N cursors".')
+            .setName('Number of cursor positions that will display \
+          in the status bar before switching to "N cursors".')
             .addText((text) => {
             var _a, _b;
             return text
@@ -177,16 +220,14 @@ class CursorLocationSettingTab extends obsidian.PluginSettingTab {
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
                 let parsedValue = parseInt(value);
                 if (!isNaN(parsedValue)) {
-                    console.log("Updating number of cursors to display to " + parsedValue);
+                    console.log(`updating numberCursors: ${parsedValue}`);
                     warningSection.setText("");
                     this.plugin.settings.numberCursors = parsedValue;
                     yield this.plugin.saveSettings();
                 }
                 else {
-                    console.log("Number of cursors to display not updated." +
-                        "Unable to parse new value into integer: " +
-                        value);
-                    warningSection.setText(value + " is not a number, unable to save.");
+                    console.log("unable to update numberCursors, ", `unable to parse new value into integer: ${value}`);
+                    warningSection.setText(`"${value}" is not a number, unable to save.`);
                 }
             }));
         });
@@ -195,142 +236,200 @@ class CursorLocationSettingTab extends obsidian.PluginSettingTab {
             attr: { style: "color:red" },
         });
         new obsidian.Setting(cursorEl)
-            .setName("Reset to default value of '" + DEFAULT_SETTINGS.numberCursors + "'")
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.numberCursors}'`)
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(numberCursors, DEFAULT_SETTINGS.numberCursors.toString());
+            this.resetComponent(numberCursors, "numberCursors");
             warningSection.setText("");
-            this.plugin.settings.numberCursors = DEFAULT_SETTINGS.numberCursors;
             yield this.plugin.saveSettings();
         })));
         let selectionEl = containerEl.createDiv();
         selectionEl.createEl("h3", { text: "Selecion Mode" });
         let selectionMode = new obsidian.Setting(selectionEl)
-            .setName("Display the just the beginning, just the end, " +
-            "or the full range of a selection.")
+            .setName("Display just the beginning, just the end, or the full range of a selection.")
             .addDropdown((cb) => cb
             .addOption("begin", "Beginning")
             .addOption("end", "End")
             .addOption("full", "Full Selection")
             .setValue(this.plugin.settings.selectionMode || DEFAULT_SETTINGS.selectionMode)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            console.log("Changing range display to " + value);
+            console.log(`changing selectionMode: ${value}`);
             this.plugin.settings.selectionMode = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(selectionEl)
             .setName("Reset to default value of 'Full Selection'")
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(selectionMode, DEFAULT_SETTINGS.selectionMode);
-            this.plugin.settings.selectionMode = DEFAULT_SETTINGS.selectionMode;
+            this.resetComponent(selectionMode, "selectionMode");
             yield this.plugin.saveSettings();
         })));
-        let displayCountEl = containerEl.createDiv();
-        displayCountEl.createEl("h3", { text: "Display Count" });
-        let displayCount = new obsidian.Setting(displayCountEl)
+        let displayCharCountEl = containerEl.createDiv();
+        displayCharCountEl.createEl("h3", { text: "Display Character Count" });
+        let displayCharCount = new obsidian.Setting(displayCharCountEl)
             .setName("Display the total number of characters selected.")
             .addToggle((cb) => cb
-            .setValue(this.plugin.settings.displayCount != null
-            ? this.plugin.settings.displayCount
-            : DEFAULT_SETTINGS.displayCount)
+            .setValue(this.plugin.settings.displayCharCount != null
+            ? this.plugin.settings.displayCharCount
+            : DEFAULT_SETTINGS.displayCharCount)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            console.log("Chanign display count visiblity to " + value);
-            this.plugin.settings.displayCount = value;
+            if (this.plugin.settings.displayCharCount != value) {
+                console.log(`changing displayCharCount: ${value}`);
+            }
+            this.plugin.settings.displayCharCount = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(displayCountEl)
-            .setName("Reset to default value of '" + DEFAULT_SETTINGS.displayCount + "'")
+        new obsidian.Setting(displayCharCountEl)
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.displayCharCount}'`)
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(displayCount, DEFAULT_SETTINGS.displayCount);
-            this.plugin.settings.displayCount = DEFAULT_SETTINGS.displayCount;
+            this.resetComponent(displayCharCount, "displayCharCount");
+            yield this.plugin.saveSettings();
+        })));
+        let displayTotalLineCountEl = containerEl.createDiv();
+        displayTotalLineCountEl.createEl("h3", { text: "Display Total Line Count" });
+        let displayTotalLineCount = new obsidian.Setting(displayTotalLineCountEl)
+            .setName("Display the total number of lines selected.")
+            .addToggle((cb) => cb
+            .setValue(this.plugin.settings.displayTotalLines != null
+            ? this.plugin.settings.displayTotalLines
+            : DEFAULT_SETTINGS.displayTotalLines)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            if (this.plugin.settings.displayTotalLines != value) {
+                console.log(`changing displayTotalLines: ${value}`);
+            }
+            this.plugin.settings.displayTotalLines = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(displayTotalLineCountEl)
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.displayTotalLines}'`)
+            .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
+            this.resetComponent(displayTotalLineCount, "displayTotalLines");
             yield this.plugin.saveSettings();
         })));
         let displayPatternEl = containerEl.createDiv();
         displayPatternEl.createEl("h3", { text: "Individual Cursor Pattern" });
         let displayPattern = new obsidian.Setting(displayPatternEl)
-            .setName("Pattern to display location information for each cursor, " +
-            "`ch` is the column the cursor is at in the current line, " +
-            "`ln` is the current line number, " +
-            "`ct` is the total line numbers in the file (count). " +
-            "If `ct` is the first or last of the three values, " +
-            "it will be removed when displaying a range.")
+            .setName("Pattern to display location information for each cursor, \
+          `ch` is the column the cursor is at in the current line, \
+          `ln` is the current line number, \
+          `ct` is the total line numbers in the file (count). \
+          If `ct` is the first or last of the three values, \
+          it will be removed when displaying a range.")
             .addText((text) => {
-            text
-                .setValue(this.plugin.settings.displayPattern)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                console.log("Changing display pattern to " + value);
-                this.plugin.settings.displayPattern = value;
+            text.setValue(this.plugin.settings.displayPattern).onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                console.log(`changing displayPattern: ${value}`);
+                this.plugin.settings.displayPattern = value.trim();
                 yield this.plugin.saveSettings();
             }));
         });
         new obsidian.Setting(displayPatternEl)
-            .setName("Reset to default value of '" + DEFAULT_SETTINGS.displayPattern + "'")
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.displayPattern}'`)
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(displayPattern, DEFAULT_SETTINGS.displayPattern);
-            this.plugin.settings.displayPattern = DEFAULT_SETTINGS.displayPattern;
+            this.resetComponent(displayPattern, "displayPattern");
             yield this.plugin.saveSettings();
         })));
         let cursorSeperatorEl = containerEl.createDiv();
         cursorSeperatorEl.createEl("h3", { text: "Cursor Seperator" });
         let cursorSeperator = new obsidian.Setting(cursorSeperatorEl)
-            .setName("String to seperate multiple curor locations when " +
-            "`# of Cursors` is greater than 1. Consecutive whitespace " +
-            "is squashed to 1 space (per HTML rules).")
+            .setName("String to seperate multiple curor locations when \
+          `# of Cursors` is greater than 1. Consecutive whitespace \
+          is squashed to 1 space (per HTML rules).")
             .addText((text) => {
-            text
-                .setValue(this.plugin.settings.cursorSeperator)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                console.log("Changing cursor seperator to " + value);
+            text.setValue(this.plugin.settings.cursorSeperator).onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                console.log(`changing cursorSeperator: ${value}`);
                 this.plugin.settings.cursorSeperator = value;
                 yield this.plugin.saveSettings();
             }));
         });
         new obsidian.Setting(cursorSeperatorEl)
-            .setName("Reset to default value of '" + DEFAULT_SETTINGS.cursorSeperator + "'")
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.cursorSeperator}'`)
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(cursorSeperator, DEFAULT_SETTINGS.cursorSeperator);
-            this.plugin.settings.cursorSeperator =
-                DEFAULT_SETTINGS.cursorSeperator;
+            this.resetComponent(cursorSeperator, "cursorSeperator");
             yield this.plugin.saveSettings();
         })));
         let rangeSeperatorEl = containerEl.createDiv();
         rangeSeperatorEl.createEl("h3", { text: "Range Seperator" });
         let rangeSeperator = new obsidian.Setting(rangeSeperatorEl)
-            .setName("String to seperate the beginning and end of a selection " +
-            "when `Selection Mode` is set to `Full Selection`. " +
-            "Consecutive whitespace is squashed to 1 space (per HTML rules)")
+            .setName("String to seperate the beginning and end of a selection \
+          when `Selection Mode` is set to `Full Selection`. \
+          Consecutive whitespace is squashed to 1 space (per HTML rules)")
             .addText((text) => {
-            text
-                .setValue(this.plugin.settings.rangeSeperator)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                console.log("Changing range seperator to " + value);
+            text.setValue(this.plugin.settings.rangeSeperator).onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                console.log(`changing rangeSeperator: ${value}`);
                 this.plugin.settings.rangeSeperator = value;
                 yield this.plugin.saveSettings();
             }));
         });
         new obsidian.Setting(rangeSeperatorEl)
-            .setName("Reset to default value of '" + DEFAULT_SETTINGS.rangeSeperator + "'")
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.rangeSeperator}'`)
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(rangeSeperator, DEFAULT_SETTINGS.rangeSeperator);
-            this.plugin.settings.rangeSeperator = DEFAULT_SETTINGS.rangeSeperator;
+            this.resetComponent(rangeSeperator, "rangeSeperator");
             yield this.plugin.saveSettings();
         })));
-        let resetEl = containerEl.createDiv();
-        resetEl.createEl("h3", { text: "Reset" });
-        new obsidian.Setting(resetEl)
+        let displayCursorLineCountEl = containerEl.createDiv();
+        displayCursorLineCountEl.createEl("h3", { text: "Display Cursor Line Count" });
+        let displayCursorLineCount = new obsidian.Setting(displayCursorLineCountEl)
+            .setName("Display the number of lines selected by each cursor.")
+            .addToggle((cb) => cb
+            .setValue(this.plugin.settings.displayCursorLines != null
+            ? this.plugin.settings.displayCursorLines
+            : DEFAULT_SETTINGS.displayCursorLines)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            if (this.plugin.settings.displayCursorLines != value) {
+                console.log(`changing displayCursorLines: ${value}`);
+            }
+            this.plugin.settings.displayCursorLines = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(displayCursorLineCountEl)
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.displayCursorLines}'`)
+            .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
+            this.resetComponent(displayCursorLineCount, "displayCursorLines");
+            yield this.plugin.saveSettings();
+        })));
+        let cursorLinePatternEl = containerEl.createDiv();
+        cursorLinePatternEl.createEl("h3", { text: "Cursor Line Pattern" });
+        let cursorLinePattern = new obsidian.Setting(cursorLinePatternEl)
+            .setName("Pattern to display number of highlighted lines for each cursor. \
+          `lc` is the line count and will not be displayed if only one line \
+          is selected or 'Display Cursor Line Count' setting is `false`. \
+          Leading and trailing whitespace is trimmed.")
+            .addText((text) => {
+            text.setValue(this.plugin.settings.cursorLinePattern).onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                console.log(`changing cursorLinePattern: ${value}`);
+                this.plugin.settings.cursorLinePattern = value.trim();
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(cursorLinePatternEl)
+            .setName(`Reset to default value of '${DEFAULT_SETTINGS.cursorLinePattern}'`)
+            .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
+            this.resetComponent(cursorLinePattern, "cursorLinePattern");
+            yield this.plugin.saveSettings();
+        })));
+        containerEl.createDiv().createEl("h2", { text: "Reset All Settings" });
+        const cursorLocationSettings = [
+            { elem: numberCursors, setting: "numberCursors" },
+            { elem: selectionMode, setting: "selectionMode" },
+            { elem: displayCharCount, setting: "displayCharCount" },
+            { elem: displayTotalLineCount, setting: "displayTotalLines" },
+            { elem: displayPattern, setting: "displayPattern" },
+            { elem: cursorSeperator, setting: "cursorSeperator" },
+            { elem: rangeSeperator, setting: "rangeSeperator" },
+            { elem: displayCursorLineCount, setting: "displayCursorLines" },
+            { elem: cursorLinePattern, setting: "cursorLinePattern" },
+        ];
+        let resetAllEl = containerEl.createDiv();
+        new obsidian.Setting(resetAllEl)
             .setName("Reset all settings to default values.")
             .addButton((cb) => cb.setButtonText("Reset").onClick(() => __awaiter(this, void 0, void 0, function* () {
-            this.resetComponent(numberCursors, DEFAULT_SETTINGS.numberCursors.toString());
-            this.resetComponent(selectionMode, DEFAULT_SETTINGS.selectionMode);
-            this.resetComponent(displayCount, DEFAULT_SETTINGS.displayCount);
-            this.resetComponent(displayPattern, DEFAULT_SETTINGS.displayPattern);
-            this.resetComponent(cursorSeperator, DEFAULT_SETTINGS.cursorSeperator);
-            this.resetComponent(rangeSeperator, DEFAULT_SETTINGS.rangeSeperator);
+            console.log("resetting all values to their defaults");
+            cursorLocationSettings.forEach((setting) => {
+                this.resetComponent(setting.elem, setting.setting);
+            });
             warningSection.setText("");
-            this.plugin.settings = DEFAULT_SETTINGS;
             yield this.plugin.saveSettings();
         })));
     }
 }
 
 module.exports = CursorLocation;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXMiOlsibm9kZV9tb2R1bGVzL3RzbGliL3RzbGliLmVzNi5qcyIsIm1haW4udHMiXSwic291cmNlc0NvbnRlbnQiOm51bGwsIm5hbWVzIjpbIlBsdWdpbiIsIk1hcmtkb3duVmlldyIsIlBsdWdpblNldHRpbmdUYWIiLCJTZXR0aW5nIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBdURBO0FBQ08sU0FBUyxTQUFTLENBQUMsT0FBTyxFQUFFLFVBQVUsRUFBRSxDQUFDLEVBQUUsU0FBUyxFQUFFO0FBQzdELElBQUksU0FBUyxLQUFLLENBQUMsS0FBSyxFQUFFLEVBQUUsT0FBTyxLQUFLLFlBQVksQ0FBQyxHQUFHLEtBQUssR0FBRyxJQUFJLENBQUMsQ0FBQyxVQUFVLE9BQU8sRUFBRSxFQUFFLE9BQU8sQ0FBQyxLQUFLLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQyxFQUFFO0FBQ2hILElBQUksT0FBTyxLQUFLLENBQUMsS0FBSyxDQUFDLEdBQUcsT0FBTyxDQUFDLEVBQUUsVUFBVSxPQUFPLEVBQUUsTUFBTSxFQUFFO0FBQy9ELFFBQVEsU0FBUyxTQUFTLENBQUMsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsRUFBRTtBQUNuRyxRQUFRLFNBQVMsUUFBUSxDQUFDLEtBQUssRUFBRSxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsU0FBUyxDQUFDLE9BQU8sQ0FBQyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsRUFB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
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXMiOlsibm9kZV9tb2R1bGVzL3RzbGliL3RzbGliLmVzNi5qcyIsIm1haW4udHMiXSwic291cmNlc0NvbnRlbnQiOm51bGwsIm5hbWVzIjpbIlBsdWdpbiIsIk1hcmtkb3duVmlldyIsIlBsdWdpblNldHRpbmdUYWIiLCJTZXR0aW5nIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBdURBO0FBQ08sU0FBUyxTQUFTLENBQUMsT0FBTyxFQUFFLFVBQVUsRUFBRSxDQUFDLEVBQUUsU0FBUyxFQUFFO0FBQzdELElBQUksU0FBUyxLQUFLLENBQUMsS0FBSyxFQUFFLEVBQUUsT0FBTyxLQUFLLFlBQVksQ0FBQyxHQUFHLEtBQUssR0FBRyxJQUFJLENBQUMsQ0FBQyxVQUFVLE9BQU8sRUFBRSxFQUFFLE9BQU8sQ0FBQyxLQUFLLENBQUMsQ0FBQyxFQUFFLENBQUMsQ0FBQyxFQUFFO0FBQ2hILElBQUksT0FBTyxLQUFLLENBQUMsS0FBSyxDQUFDLEdBQUcsT0FBTyxDQUFDLEVBQUUsVUFBVSxPQUFPLEVBQUUsTUFBTSxFQUFFO0FBQy9ELFFBQVEsU0FBUyxTQUFTLENBQUMsS0FBSyxFQUFFLEVBQUUsSUFBSSxFQUFFLElBQUksQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsRUFBRTtBQUNuRyxRQUFRLFNBQVMsUUFBUSxDQUFDLEtBQUssRUFBRSxFQUFFLElBQUksRUFBRSxJQUFJLENBQUMsU0FBUyxDQUFDLE9BQU8sQ0FBQyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsRUFBRSxDQUFDLE9BQU8sQ0FBQyxFQUFFLEVBQUUsTUFBTSxDQUFDLENBQUMsQ0FBQyxDQUFDLEVBQUUsRUFB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
