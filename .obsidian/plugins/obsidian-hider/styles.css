@@ -1,3 +1,8 @@
+/* Hides vault name */
+.hider-vault .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content {
+  display:none;
+}
+
 /* Hide ribbon */
 .hider-ribbon .workspace-ribbon.mod-left {
   display:none;
@@ -49,6 +54,11 @@
 /* Hide tooltips */
 .hider-tooltips .tooltip {
   display:none;
+}
+
+/* Hide search suggestions */
+.hider-search-suggestions .suggestion-container.mod-search-suggestion {
+  display: none;
 }
 
 /* Hide instructions */
