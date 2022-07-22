@@ -29,6 +29,14 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "af08df746a7838eb",
+        "type": "leaf",
+        "state": {
+          "type": "Search on Internet",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -151,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md"
+                "file": "笔记/前端/工程化/git.md"
               }
             }
           },
@@ -180,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md",
+                "file": "笔记/前端/工程化/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -208,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md",
+                "file": "笔记/前端/工程化/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,10 +233,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "0762231ef6c3d6a4",
+  "active": "d817f54e9544018d",
   "lastOpenFiles": [
-    "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/思考/基本概念/重要概念.md",
+    "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/思考/基本概念.md",
     "笔记/前端/工程化/git.md",
     "笔记/工具/思考/思考.md",
