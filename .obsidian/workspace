@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/信息结构.md",
-            "mode": "preview",
+            "file": "笔记/前端/前端.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -86,14 +86,16 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 56.24385447394297,
+        "dimension": 71.75879396984925,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           },
           {
@@ -125,16 +127,14 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 43.75614552605703,
+        "dimension": 28.241206030150757,
         "children": [
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/信息结构.md"
-              }
+              "state": {}
             }
           },
           {
@@ -162,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,17 +206,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "0f599a7e31e13a3b",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/工具/思考/记忆/联系.md",
+    "笔记/学习方法/概念/信息结构.md",
     "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/意识/意识.md",
-    "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/观点信息.md",
     "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/概念/理解.md"
+    "笔记/学习方法/概念/获取.md"
   ]
 }
