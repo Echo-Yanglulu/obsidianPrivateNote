@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/超级学习.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -142,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/超级学习.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/超级学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +197,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/超级学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,9 +213,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "afb57b250f345f7b",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
     "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/超级学习.md",
     "笔记/学习方法/心法.md",
     "笔记/前端/前端.md",
     "sentry.md",
@@ -227,7 +224,6 @@
     "笔记/前端/工程化/3.质量/1.Code Review.md",
     "笔记/前端/工程化/3.质量/3.质量.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/设计模式/设计模式.md"
+    "笔记/前端/工程化/3.质量/2.测试.md"
   ]
 }
