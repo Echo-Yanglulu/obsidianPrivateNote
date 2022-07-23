@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/前端.md",
             "mode": "source",
             "source": false
           }
@@ -132,9 +132,31 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "5a5405417dbef7c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
             }
           },
           {
@@ -162,7 +184,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,40 +196,18 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/工程化/工程化.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "e9a455635eb482ea",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/思考/基本概念.md",
@@ -216,8 +215,6 @@
     "笔记/前端/工程化/git.md",
     "笔记/工具/思考/思考.md",
     "笔记/人的行为/健身/健身.md",
-    "笔记/人的行为/演讲/演讲.md",
-    "笔记/人的行为/健身/通用动作.md",
-    "笔记/人的行为/健身/饮食/饮食.md"
+    "笔记/人的行为/演讲/演讲.md"
   ]
 }
