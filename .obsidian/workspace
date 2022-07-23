@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
+            "file": "sentry.md",
             "mode": "source",
             "source": false
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
+                "file": "sentry.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
+                "file": "sentry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
+                "file": "sentry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,8 +212,8 @@
   },
   "active": "0f599a7e31e13a3b",
   "lastOpenFiles": [
-    "sentry.md",
     "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
+    "sentry.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/BDD.md",
     "笔记/工具/思考/基本概念/思维.md",
