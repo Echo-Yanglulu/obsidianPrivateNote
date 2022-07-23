@@ -7,11 +7,17 @@
         "id": "83f4e23ddb8654f2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "map",
           "state": {
-            "file": "笔记/前端/工程化/4.工程设计/工程设计范式.md",
-            "mode": "source",
-            "source": false
+            "name": "Default",
+            "mapZoom": 1,
+            "mapCenter": {
+              "lat": 40.44694705960048,
+              "lng": -180.35156250000003
+            },
+            "query": "",
+            "chosenMapSource": 0,
+            "queryError": false
           }
         }
       }
@@ -134,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/4.工程设计/工程设计范式.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/4.工程设计/工程设计范式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +192,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/4.工程设计/工程设计范式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -211,8 +213,8 @@
   },
   "active": "83f4e23ddb8654f2",
   "lastOpenFiles": [
-    "domain style.md",
     "笔记/前端/工程化/4.工程设计/工程设计范式.md",
+    "domain style.md",
     "rails style.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/前端.md",
