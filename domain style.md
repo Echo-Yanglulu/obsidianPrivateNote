@@ -1,3 +1,4 @@
-实例：ant design
+前端实例：ant design-单个组件单独文件夹，包含了所有需要的文件
 ![[Pasted image 20220724000106.png]]
-每个组件单独产文件夹，包含了所有需要的文件
+后端案例：nestjs library
+![[Pasted image 20220724000302.png]]
