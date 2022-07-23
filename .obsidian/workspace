@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "83f4e23ddb8654f2",
+        "id": "ec198c197f2be0d6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,17 +209,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "83f4e23ddb8654f2",
+  "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/6.持续集成&部署.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建.md",
     "笔记/前端/工程化/4.工程设计/工程设计范式.md",
     "domain style.md",
     "rails style.md",
-    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/assets/Pasted image 20220723235314.png",
-    "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
-    "sentry.md"
+    "笔记/前端/工程化/2.规范/2.规范.md"
   ]
 }
