@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "sentry.md",
+            "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
             "mode": "source",
             "source": false
           }
@@ -136,8 +136,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sentry.md"
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
               }
+            }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5a5405417dbef7c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
             }
           },
           {
@@ -165,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sentry.md",
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,31 +203,6 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "sentry.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
           }
         ]
       }
@@ -210,15 +210,15 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "83f4e23ddb8654f2",
+  "active": "bd5ff300df2b3029",
   "lastOpenFiles": [
+    "sentry.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/基本概念.md",
     "笔记/工具/思考/思考.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
-    "sentry.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/BDD.md",
     "笔记/工具/思考/基本概念/思维.md"
