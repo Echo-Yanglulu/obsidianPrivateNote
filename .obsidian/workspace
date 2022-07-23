@@ -4,27 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "e9a455635eb482ea",
+        "id": "d817f54e9544018d",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/git.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
+        },
+        "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "afb57b250f345f7b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/BDD.md",
+            "file": "笔记/前端/测试.md",
             "mode": "source",
-            "backlinks": true,
             "source": false
           }
-        },
-        "group": "377fa7b6b7ac9656"
-      },
-      {
-        "id": "75e1750cf3f8d22e",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "juggl_view",
-          "state": {},
-          "pinned": true
         }
       }
     ],
@@ -76,14 +79,6 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "9b14217769b98dcf",
-            "type": "leaf",
-            "state": {
-              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
-              "state": {}
-            }
           }
         ]
       }
@@ -103,16 +98,13 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/前端/工程化/质量/BDD.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "pinned": true
             },
-            "group": "377fa7b6b7ac9656"
+            "group": "2515ad75bb84e03c"
           },
           {
             "id": "317f497fc058b9b7",
@@ -151,33 +143,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/BDD.md"
+                "file": "笔记/前端/测试.md"
               }
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/工程化/质量/BDD.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
             }
           },
           {
@@ -205,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/BDD.md",
+                "file": "笔记/前端/测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -218,24 +185,50 @@
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
+          },
+          {
+            "id": "5a5405417dbef7c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/测试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "e9a455635eb482ea",
+  "active": "afb57b250f345f7b",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/BDD.md",
+    "笔记/前端/工程化/质量/TDD.md",
+    "笔记/前端/库、框架/CSS样式/Bootstrap.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
-    "笔记/前端/工程化/质量/BDD.md",
-    "笔记/前端/工程化/质量/TDD.md",
     "笔记/工具/思考/信念.md",
-    "笔记/工具/思考/幻觉.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/思考/基本概念/重要概念.md"
+    "笔记/工具/思考/幻觉.md"
   ]
 }
