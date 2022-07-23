@@ -7,17 +7,11 @@
         "id": "83f4e23ddb8654f2",
         "type": "leaf",
         "state": {
-          "type": "map",
+          "type": "markdown",
           "state": {
-            "name": "Default",
-            "mapZoom": 1,
-            "mapCenter": {
-              "lat": 40.44694705960048,
-              "lng": -180.35156250000003
-            },
-            "query": "",
-            "chosenMapSource": 0,
-            "queryError": false
+            "file": "笔记/前端/工程化/5.构建.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -140,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/5.构建.md"
+              }
             }
           },
           {
@@ -149,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/5.构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,6 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/5.构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }

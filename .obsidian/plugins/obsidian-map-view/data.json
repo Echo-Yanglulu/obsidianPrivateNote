@@ -77,7 +77,7 @@
   "mapControls": {
     "filtersDisplayed": true,
     "viewDisplayed": true,
-    "presetsDisplayed": false
+    "presetsDisplayed": true
   },
   "maxClusterRadiusPixels": 20,
   "searchProvider": "osm",
