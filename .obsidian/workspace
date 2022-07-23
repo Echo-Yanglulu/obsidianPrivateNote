@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/质量/3.监控与异常上报.md",
+            "file": "笔记/前端/工程化/1.脚本/1.脚本.md",
             "mode": "source",
             "source": false
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/质量/3.监控与异常上报.md"
+                "file": "笔记/前端/工程化/1.脚本/1.脚本.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/质量/3.监控与异常上报.md",
+                "file": "笔记/前端/工程化/1.脚本/1.脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/质量/3.监控与异常上报.md",
+                "file": "笔记/前端/工程化/1.脚本/1.脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,17 +217,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "afb57b250f345f7b",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
-    "笔记/工具/思考/实用性思考的艺术.md",
-    "笔记/工具/思考/基本概念/重要概念.md",
+    "笔记/前端/工程化/持续集成&部署.md",
+    "笔记/前端/工程化/工程设计.md",
+    "笔记/前端/工程化/构建.md",
     "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/1.Code Review.md",
-    "笔记/前端/工程化/质量/2.测试.md",
-    "笔记/前端/工程化/质量/单元测试.md",
-    "笔记/前端/工程化/assets/Untitled Diagram.svg",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md",
-    "笔记/工具/思考/思考.md"
+    "笔记/前端/工程化/assets/TDD原则.svg",
+    "笔记/前端/工程化/assets/Pasted image 20220719002230.png",
+    "笔记/前端/工程化/assets/Pasted image 20220722064836.png",
+    "笔记/前端/工程化/质量/3.监控与异常上报.md",
+    "笔记/前端/工程化/assets/Pasted image 20220723112615.png"
   ]
 }
