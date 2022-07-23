@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "工程设计范式.md",
+            "file": "笔记/前端/工程化/4.工程设计.md",
             "mode": "source",
             "source": false
           }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工程设计范式.md"
+                "file": "笔记/前端/工程化/4.工程设计.md"
               }
             }
           },
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工程设计范式.md",
+                "file": "笔记/前端/工程化/4.工程设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工程设计范式.md",
+                "file": "笔记/前端/工程化/4.工程设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -212,15 +211,15 @@
   },
   "active": "83f4e23ddb8654f2",
   "lastOpenFiles": [
+    "笔记/前端/工程化/2.规范/2.规范.md",
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/4.工程设计.md",
+    "工程设计范式.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
     "sentry.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/意识/意识.md",
-    "笔记/工具/思考/基本概念/基本概念.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/工程化/3.质量/BDD.md"
+    "笔记/工具/思考/基本概念/基本概念.md"
   ]
 }
