@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/实用性思考的艺术.md",
+            "file": "sentry.md",
             "mode": "source",
             "source": false
           }
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/实用性思考的艺术.md"
+                "file": "sentry.md"
               }
             }
           },
@@ -164,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/实用性思考的艺术.md",
+                "file": "sentry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/实用性思考的艺术.md",
+                "file": "sentry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,6 +212,7 @@
   },
   "active": "83f4e23ddb8654f2",
   "lastOpenFiles": [
+    "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/基本概念.md",
     "笔记/工具/思考/思考.md",
@@ -219,7 +221,6 @@
     "sentry.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/BDD.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/思考/实用性思考的艺术.md"
+    "笔记/工具/思考/基本概念/思维.md"
   ]
 }
