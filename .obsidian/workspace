@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/概念.md",
+            "file": "笔记/工具/思考/实用性思考的艺术.md",
             "mode": "source",
             "source": false
           }
@@ -134,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/思考/实用性思考的艺术.md"
+              }
             }
           },
           {
@@ -162,6 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/思考/实用性思考的艺术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -189,6 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/思考/实用性思考的艺术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +210,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "0f599a7e31e13a3b",
   "lastOpenFiles": [
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/整体性学习.md",
