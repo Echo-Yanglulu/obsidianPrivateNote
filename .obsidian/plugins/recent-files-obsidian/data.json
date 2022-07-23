@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "BDD",
+      "path": "笔记/前端/工程化/质量/BDD.md"
+    },
+    {
       "basename": "测试",
       "path": "笔记/前端/测试.md"
     },
     {
       "basename": "质量",
       "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "TDD",
@@ -23,14 +35,6 @@
     {
       "basename": "思考",
       "path": "笔记/工具/思考/思考.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "实用性思考的艺术",
@@ -195,10 +199,6 @@
     {
       "basename": "代码规范",
       "path": "笔记/前端/工程化/规范/代码规范.md"
-    },
-    {
-      "basename": "版本规范",
-      "path": "笔记/前端/工程化/规范/版本规范.md"
     }
   ],
   "omittedPaths": [],
