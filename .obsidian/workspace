@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "sentry.md",
+            "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
             "mode": "source",
             "source": false
           }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sentry.md"
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sentry.md",
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sentry.md",
+                "file": "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,6 +212,7 @@
   },
   "active": "0f599a7e31e13a3b",
   "lastOpenFiles": [
+    "sentry.md",
     "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/BDD.md",
@@ -220,7 +221,6 @@
     "笔记/工具/思考/基本概念/基本概念.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/基本概念/重要概念.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/学习方法/整体性学习.md"
+    "笔记/学习方法/概念/概念.md"
   ]
 }
