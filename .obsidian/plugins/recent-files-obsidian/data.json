@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "监控与异常上报",
-      "path": "笔记/前端/工程化/质量/监控与异常上报.md"
+      "basename": "测试",
+      "path": "笔记/前端/工程化/质量/测试.md"
+    },
+    {
+      "basename": "单元测试",
+      "path": "笔记/前端/工程化/质量/单元测试.md"
     },
     {
       "basename": "质量",
       "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
+      "basename": "Untitled Diagram",
+      "path": "笔记/前端/工程化/assets/Untitled Diagram.svg"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "意识",
+      "path": "笔记/工具/意识/意识.md"
+    },
+    {
+      "basename": "冥想",
+      "path": "笔记/工具/意识/冥想.md"
+    },
+    {
+      "basename": "监控与异常上报",
+      "path": "笔记/前端/工程化/质量/监控与异常上报.md"
     },
     {
       "basename": "信念",
@@ -15,14 +47,6 @@
     {
       "basename": "BDD",
       "path": "笔记/前端/工程化/质量/BDD.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
-    },
-    {
-      "basename": "测试",
-      "path": "笔记/前端/测试.md"
     },
     {
       "basename": "TDD",
@@ -35,14 +59,6 @@
     {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "幻觉",
@@ -129,20 +145,12 @@
       "path": "笔记/前端/工程化/质量/test case.md"
     },
     {
-      "basename": "Untitled Diagram",
-      "path": "笔记/前端/工程化/Untitled Diagram.svg"
-    },
-    {
       "basename": "快速阅读",
       "path": "笔记/学习方法/概念/快速阅读.md"
     },
     {
       "basename": "CLI",
       "path": "笔记/前端/工程化/基本概念/CLI.md"
-    },
-    {
-      "basename": "单元测试",
-      "path": "笔记/前端/工程化/质量/单元测试.md"
     },
     {
       "basename": "单一职责",
@@ -191,14 +199,6 @@
     {
       "basename": "ignore",
       "path": "笔记/前端/工程化/规范/ignore.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
-    },
-    {
-      "basename": "Prettier",
-      "path": "笔记/前端/工程化/工具/Prettier.md"
     }
   ],
   "omittedPaths": [],
