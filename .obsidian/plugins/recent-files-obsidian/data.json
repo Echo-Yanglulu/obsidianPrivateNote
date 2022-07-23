@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "3.监控与异常上报",
+      "path": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
+    },
+    {
+      "basename": "3.质量",
+      "path": "笔记/前端/工程化/3.质量/3.质量.md"
+    },
+    {
+      "basename": "4.工程设计",
+      "path": "笔记/前端/工程化/4.工程设计.md"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建.md"
+    },
+    {
+      "basename": "6.持续集成&部署",
+      "path": "笔记/前端/工程化/6.持续集成&部署.md"
+    },
+    {
       "basename": "1.脚本",
       "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
-    },
-    {
-      "basename": "持续集成&部署",
-      "path": "笔记/前端/工程化/持续集成&部署.md"
-    },
-    {
-      "basename": "工程设计",
-      "path": "笔记/前端/工程化/工程设计.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建.md"
-    },
-    {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量/质量.md"
     },
     {
       "basename": "工程化",
@@ -37,10 +41,6 @@
       "path": "笔记/前端/工程化/assets/Pasted image 20220722064836.png"
     },
     {
-      "basename": "3.监控与异常上报",
-      "path": "笔记/前端/工程化/质量/3.监控与异常上报.md"
-    },
-    {
       "basename": "Pasted image 20220723112615",
       "path": "笔记/前端/工程化/assets/Pasted image 20220723112615.png"
     },
@@ -54,15 +54,15 @@
     },
     {
       "basename": "1.Code Review",
-      "path": "笔记/前端/工程化/质量/1.Code Review.md"
+      "path": "笔记/前端/工程化/3.质量/1.Code Review.md"
     },
     {
       "basename": "2.测试",
-      "path": "笔记/前端/工程化/质量/2.测试.md"
+      "path": "笔记/前端/工程化/3.质量/2.测试.md"
     },
     {
       "basename": "单元测试",
-      "path": "笔记/前端/工程化/质量/单元测试.md"
+      "path": "笔记/前端/工程化/3.质量/单元测试.md"
     },
     {
       "basename": "Untitled Diagram",
@@ -90,11 +90,11 @@
     },
     {
       "basename": "BDD",
-      "path": "笔记/前端/工程化/质量/BDD.md"
+      "path": "笔记/前端/工程化/3.质量/BDD.md"
     },
     {
       "basename": "TDD",
-      "path": "笔记/前端/工程化/质量/TDD.md"
+      "path": "笔记/前端/工程化/3.质量/TDD.md"
     },
     {
       "basename": "Bootstrap",
@@ -162,7 +162,7 @@
     },
     {
       "basename": "test case",
-      "path": "笔记/前端/工程化/质量/test case.md"
+      "path": "笔记/前端/工程化/3.质量/test case.md"
     },
     {
       "basename": "快速阅读",
@@ -190,11 +190,11 @@
     },
     {
       "basename": "Jest",
-      "path": "笔记/前端/工程化/质量/Jest.md"
+      "path": "笔记/前端/工程化/3.质量/Jest.md"
     },
     {
       "basename": "E2E测试",
-      "path": "笔记/前端/工程化/质量/E2E测试.md"
+      "path": "笔记/前端/工程化/3.质量/E2E测试.md"
     },
     {
       "basename": "shell",
