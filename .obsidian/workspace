@@ -4,27 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d817f54e9544018d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/git.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        },
-        "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "afb57b250f345f7b",
+        "id": "0f599a7e31e13a3b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -79,6 +64,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "7c95cc6ca9704418",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,13 +91,10 @@
           {
             "id": "cb458d1b4cb70fed",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
+              "state": {}
+            }
           },
           {
             "id": "317f497fc058b9b7",
@@ -143,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -172,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +207,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "afb57b250f345f7b",
+  "active": "0f599a7e31e13a3b",
   "lastOpenFiles": [
     "笔记/学习方法/心法.md",
     "笔记/学习方法/整体性学习.md",
