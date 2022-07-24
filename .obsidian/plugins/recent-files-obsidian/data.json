@@ -5,6 +5,14 @@
       "path": "多仓库选型.md"
     },
     {
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/2.规范/版本规范.md"
+    },
+    {
+      "basename": "2.规范",
+      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+    },
+    {
       "basename": "4.工程设计",
       "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "Pasted image 20220723235314",
       "path": "笔记/前端/工程化/assets/Pasted image 20220723235314.png"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
     },
     {
       "basename": "3.监控与异常上报",
@@ -195,10 +199,6 @@
     {
       "basename": "幻觉",
       "path": "笔记/工具/思考/幻觉.md"
-    },
-    {
-      "basename": "Pasted image 20220722073242",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220722073242.png"
     }
   ],
   "omittedPaths": [],
