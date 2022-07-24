@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/ES Module.md",
+            "file": "笔记/前端/工程化/5.构建/5.构建.md",
             "mode": "source",
             "source": false
           }
@@ -134,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/5.构建.md"
+              }
             }
           },
           {
@@ -143,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +209,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
