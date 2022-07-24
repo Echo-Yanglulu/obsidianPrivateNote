@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "多仓库选型",
-      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
-    },
-    {
       "basename": "5.构建",
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
       "basename": "预编译语言",
-      "path": "预编译语言.md"
+      "path": "笔记/前端/工程化/5.构建/预编译语言.md"
+    },
+    {
+      "basename": "sentry",
+      "path": "笔记/前端/工程化/3.质量/sentry.md"
+    },
+    {
+      "basename": "3.监控与异常上报",
+      "path": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
+    },
+    {
+      "basename": "3.质量",
+      "path": "笔记/前端/工程化/3.质量/3.质量.md"
+    },
+    {
+      "basename": "Pasted image 20220724153426",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220724153426.png"
+    },
+    {
+      "basename": "Pasted image 20220724000106",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220724000106.png"
+    },
+    {
+      "basename": "Pasted image 20220724114333",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220724114333.png"
+    },
+    {
+      "basename": "Pasted image 20220724000302",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220724000302.png"
+    },
+    {
+      "basename": "多仓库选型",
+      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
     },
     {
       "basename": "工程化",
@@ -18,7 +46,7 @@
     },
     {
       "basename": "gulp",
-      "path": "gulp.md"
+      "path": "笔记/前端/工程化/5.构建/gulp.md"
     },
     {
       "basename": "2.规范",
@@ -42,11 +70,11 @@
     },
     {
       "basename": "domain style",
-      "path": "domain style.md"
+      "path": "笔记/前端/工程化/4.工程设计/domain style.md"
     },
     {
       "basename": "rails style",
-      "path": "rails style.md"
+      "path": "笔记/前端/工程化/4.工程设计/rails style.md"
     },
     {
       "basename": "6.持续集成&部署",
@@ -59,14 +87,6 @@
     {
       "basename": "Pasted image 20220723235314",
       "path": "笔记/前端/工程化/assets/Pasted image 20220723235314.png"
-    },
-    {
-      "basename": "3.监控与异常上报",
-      "path": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
-    },
-    {
-      "basename": "sentry",
-      "path": "sentry.md"
     },
     {
       "basename": "实用性思考的艺术",
@@ -149,10 +169,6 @@
       "path": "笔记/前端/工程化/3.质量/1.Code Review.md"
     },
     {
-      "basename": "3.质量",
-      "path": "笔记/前端/工程化/3.质量/3.质量.md"
-    },
-    {
       "basename": "设计模式",
       "path": "笔记/前端/设计模式/设计模式.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "单元测试",
       "path": "笔记/前端/工程化/3.质量/单元测试.md"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "笔记/前端/工程化/assets/Untitled Diagram.svg"
-    },
-    {
-      "basename": "冥想",
-      "path": "笔记/工具/意识/冥想.md"
-    },
-    {
-      "basename": "信念",
-      "path": "笔记/工具/思考/信念.md"
-    },
-    {
-      "basename": "TDD",
-      "path": "笔记/前端/工程化/3.质量/TDD.md"
     }
   ],
   "omittedPaths": [],
