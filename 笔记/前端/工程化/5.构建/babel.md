@@ -9,3 +9,7 @@
 	1. 解析parsing：生成AST
 	2. 转换transformation：操作AST（修改AST的内容）
 	3. 生成code generation：根据AST生成新的代码
+
+# 使用
+为何配置了这里，那里却失效了。因为对bab
+
