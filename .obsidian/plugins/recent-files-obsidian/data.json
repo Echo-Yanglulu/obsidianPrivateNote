@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "多仓库选型",
+      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
+    },
+    {
       "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建.md"
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "预编译语言",
+      "path": "预编译语言.md"
     },
     {
       "basename": "工程化",
@@ -15,10 +23,6 @@
     {
       "basename": "2.规范",
       "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
-      "basename": "多仓库选型",
-      "path": "多仓库选型.md"
     },
     {
       "basename": "版本规范",
@@ -195,10 +199,6 @@
     {
       "basename": "TDD",
       "path": "笔记/前端/工程化/3.质量/TDD.md"
-    },
-    {
-      "basename": "Bootstrap",
-      "path": "笔记/前端/库、框架/CSS样式/Bootstrap.md"
     }
   ],
   "omittedPaths": [],
