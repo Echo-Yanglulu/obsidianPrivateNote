@@ -1,14 +1,14 @@
 {
   "userAdmonitions": {},
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "9.0.3",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
-  "dropShadow": false,
-  "hideEmpty": false,
+  "dropShadow": true,
+  "hideEmpty": true,
   "open": {
     "admonitions": true,
     "icons": true,
