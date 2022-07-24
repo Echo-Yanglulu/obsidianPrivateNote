@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "babel.md",
+            "file": "笔记/前端/工程化/5.构建/babel.md",
             "mode": "source",
             "source": false
           }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "babel.md"
+                "file": "笔记/前端/工程化/5.构建/babel.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "babel.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "babel.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -212,15 +212,15 @@
   },
   "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/编译原理/AST.md",
+    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/库/webpack.md",
-    "babel.md",
     "笔记/前端/工程化/ES Module.md",
     "静态分析.md",
     "笔记/前端/工程化/5.构建/CMD.md",
-    "AMD.md",
+    "笔记/前端/工程化/5.构建/AMD.md",
     "笔记/前端/工程化/5.构建/gulp.md",
-    "笔记/前端/工程化/5.构建/预编译语言.md",
-    "笔记/前端/工程化/3.质量/sentry.md"
+    "笔记/前端/工程化/5.构建/预编译语言.md"
   ]
 }

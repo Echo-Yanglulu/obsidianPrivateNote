@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "babel",
-      "path": "babel.md"
+      "path": "笔记/前端/工程化/5.构建/babel.md"
+    },
+    {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
     {
       "basename": "5.构建",
@@ -26,7 +30,7 @@
     },
     {
       "basename": "AMD",
-      "path": "AMD.md"
+      "path": "笔记/前端/工程化/5.构建/AMD.md"
     },
     {
       "basename": "gulp",
@@ -195,10 +199,6 @@
     {
       "basename": "设计模式",
       "path": "笔记/前端/设计模式/设计模式.md"
-    },
-    {
-      "basename": "OO设计模式",
-      "path": "笔记/前端/设计模式/OO设计模式.md"
     }
   ],
   "omittedPaths": [],
