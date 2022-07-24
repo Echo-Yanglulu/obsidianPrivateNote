@@ -157,6 +157,18 @@
             }
           },
           {
+            "id": "0254f05ae0353b5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/工程化/库/webpack.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
             "id": "5a5405417dbef7c4",
             "type": "leaf",
             "state": {
@@ -184,18 +196,6 @@
             }
           },
           {
-            "id": "0254f05ae0353b5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/前端/工程化/库/webpack.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "83121a7b23c40521",
             "type": "leaf",
             "state": {
@@ -203,7 +203,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -211,6 +212,7 @@
   },
   "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/库/webpack.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "babel.md",
     "笔记/前端/工程化/ES Module.md",
@@ -219,7 +221,6 @@
     "AMD.md",
     "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/前端/工程化/5.构建/预编译语言.md",
-    "笔记/前端/工程化/3.质量/sentry.md",
-    "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
+    "笔记/前端/工程化/3.质量/sentry.md"
   ]
 }
