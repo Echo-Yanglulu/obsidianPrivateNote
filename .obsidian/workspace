@@ -57,7 +57,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/脚手架/脚手架.md",
+            "file": "笔记/前端/工程化/1.脚本/node cli.md",
             "mode": "source",
             "source": false
           }
@@ -186,7 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/1.脚本/node cli.md"
+              }
             }
           },
           {
@@ -195,6 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/1.脚本/node cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,6 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/1.脚本/node cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -257,17 +261,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "94953b857cfce28c",
   "lastOpenFiles": [
-    "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/node/库/yeoman-generator.md",
+    "笔记/前端/工程化/脚手架/脚手架.md",
+    "笔记/前端/工程化/脚手架/Schemetics.md",
     "笔记/前端/工程化/node/库/shelljs.md",
     "笔记/前端/工程化/node/库/polp.md",
     "笔记/前端/工程化/node/库/execa.md",
     "笔记/前端/工程化/node/库/chalk.md",
     "笔记/前端/工程化/库/oclif.md",
     "笔记/前端/工程化/1.脚本/node cli.md",
-    "笔记/前端/工程化/node/process.md",
-    "笔记/前端/工程化/node/库/inquirer.md"
+    "笔记/前端/工程化/node/process.md"
   ]
 }
