@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/编译原理/AST.md",
+            "file": "笔记/前端/基础知识/编译原理/编译原理.md",
             "mode": "source",
             "source": false
           }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/AST.md"
+                "file": "笔记/前端/基础知识/编译原理/编译原理.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/AST.md",
+                "file": "笔记/前端/基础知识/编译原理/编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/AST.md",
+                "file": "笔记/前端/基础知识/编译原理/编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -203,24 +203,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ec198c197f2be0d6",
+  "active": "bd5ff300df2b3029",
   "lastOpenFiles": [
-    "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
-    "笔记/前端/基础知识/编译原理/AST.md",
+    "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
+    "笔记/前端/基础知识/编译原理/AST.md",
+    "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/库/webpack.md",
     "笔记/前端/工程化/ES Module.md",
-    "静态分析.md",
-    "笔记/前端/工程化/5.构建/CMD.md"
+    "静态分析.md"
   ]
 }
