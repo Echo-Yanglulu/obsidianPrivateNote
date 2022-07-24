@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "process",
+      "path": "笔记/前端/工程化/node/process.md"
+    },
+    {
       "basename": "编译器",
       "path": "笔记/前端/基础知识/编译原理/编译器.md"
+    },
+    {
+      "basename": "inquirer",
+      "path": "笔记/前端/工程化/node/库/inquirer.md"
     },
     {
       "basename": "编译原理",
@@ -15,10 +27,6 @@
     {
       "basename": "node cli",
       "path": "笔记/前端/工程化/1.脚本/node cli.md"
-    },
-    {
-      "basename": "inquirer",
-      "path": "笔记/前端/工程化/node/库/inquirer.md"
     },
     {
       "basename": "execa",
@@ -51,14 +59,6 @@
     {
       "basename": "shelljs",
       "path": "笔记/前端/工程化/node/库/shelljs.md"
-    },
-    {
-      "basename": "process",
-      "path": "笔记/前端/工程化/node/process.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "笔记/前端/工程化/基本概念/CLI.md"
     },
     {
       "basename": "ink",

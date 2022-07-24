@@ -33,7 +33,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/编译原理/编译器.md",
+            "file": "笔记/前端/工程化/基本概念/CLI.md",
             "mode": "source",
             "source": false
           }
@@ -150,9 +150,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,7 +159,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +175,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -225,17 +221,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "94953b857cfce28c",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/node/process.md",
+    "笔记/前端/基础知识/编译原理/编译器.md",
+    "笔记/前端/工程化/node/库/inquirer.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/基础知识/编译原理/AST.md",
     "笔记/前端/工程化/1.脚本/node cli.md",
-    "笔记/前端/工程化/node/库/inquirer.md",
     "笔记/前端/工程化/node/库/execa.md",
     "笔记/前端/工程化/库/oclif.md",
-    "笔记/前端/工程化/node/库/chalk.md",
-    "笔记/前端/工程化/node/库/polp.md",
-    "笔记/前端/基础知识/编译原理/编译器.md",
-    "笔记/前端/工程化/node/库/yeoman-generator.md"
+    "笔记/前端/工程化/node/库/chalk.md"
   ]
 }
