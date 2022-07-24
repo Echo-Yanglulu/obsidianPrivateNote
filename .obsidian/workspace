@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/编译原理/编译原理.md",
+            "file": "笔记/前端/基础知识/编译原理/编译器.md",
             "mode": "source",
             "source": false
           }
@@ -134,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/基础知识/编译原理/编译器.md"
+              }
             }
           },
           {
@@ -143,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -206,7 +210,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
     "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
