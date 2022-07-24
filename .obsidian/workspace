@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/gulp.md",
+            "file": "笔记/前端/工程化/5.构建/5.构建.md",
             "mode": "source",
             "source": false
           }
@@ -134,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -145,7 +143,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +186,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,9 +205,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ec198c197f2be0d6",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/前端/工程化/5.构建/预编译语言.md",
     "笔记/前端/工程化/3.质量/sentry.md",
     "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
@@ -219,7 +216,6 @@
     "笔记/前端/工程化/assets/Pasted image 20220724153426.png",
     "笔记/前端/工程化/assets/Pasted image 20220724000106.png",
     "笔记/前端/工程化/assets/Pasted image 20220724114333.png",
-    "笔记/前端/工程化/assets/Pasted image 20220724000302.png",
-    "笔记/前端/工程化/4.工程设计/多仓库选型.md"
+    "笔记/前端/工程化/assets/Pasted image 20220724000302.png"
   ]
 }
