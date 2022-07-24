@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/编译原理/编译器.md",
-            "mode": "preview",
+            "file": "笔记/前端/工程化/5.构建/babel.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md"
+                "file": "笔记/前端/工程化/5.构建/babel.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/编译器.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -212,8 +212,8 @@
   },
   "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
+    "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/基础知识/编译原理/AST.md",
     "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
     "笔记/前端/工程化/工程化.md",
