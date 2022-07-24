@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "ink",
+      "path": "笔记/前端/工程化/ink.md"
+    },
+    {
+      "basename": "execa",
+      "path": "笔记/前端/工程化/node/库/execa.md"
+    },
+    {
+      "basename": "chalk",
+      "path": "笔记/前端/工程化/node/库/chalk.md"
+    },
+    {
+      "basename": "shelljs",
+      "path": "笔记/前端/工程化/node/库/shelljs.md"
+    },
+    {
+      "basename": "polp",
+      "path": "笔记/前端/工程化/node/库/polp.md"
+    },
+    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "多仓库选型",
       "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
-      "basename": "ignore",
-      "path": "笔记/前端/工程化/2.规范/ignore.md"
-    },
-    {
-      "basename": "4.工程设计",
-      "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
-    },
-    {
-      "basename": "工程设计范式",
-      "path": "笔记/前端/工程化/4.工程设计/工程设计范式.md"
-    },
-    {
-      "basename": "domain style",
-      "path": "笔记/前端/工程化/4.工程设计/domain style.md"
-    },
-    {
-      "basename": "rails style",
-      "path": "笔记/前端/工程化/4.工程设计/rails style.md"
     }
   ],
   "omittedPaths": [],

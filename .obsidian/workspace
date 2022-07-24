@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/工程化/基本概念/CLI.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/基本概念/CLI.md"
+              }
             }
           },
           {
@@ -135,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/基本概念/CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,17 +201,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "e239e34884d70c40",
   "lastOpenFiles": [
+    "笔记/前端/工程化/ink.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/node/库/execa.md",
+    "笔记/前端/工程化/node/库/chalk.md",
+    "笔记/前端/工程化/node/库/shelljs.md",
+    "笔记/前端/工程化/node/库/polp.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/基本概念/基本概念.md",
-    "笔记/工具/思考/实用性思考的艺术.md",
-    "笔记/前端/工程化/2.规范/版本规范.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/学习方法/整体性学习.md",
-    "README.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/超级学习.md"
+    "笔记/工具/思考/实用性思考的艺术.md"
   ]
 }
