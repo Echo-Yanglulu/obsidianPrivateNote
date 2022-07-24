@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/理解.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -135,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +201,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/整体性学习.md",
