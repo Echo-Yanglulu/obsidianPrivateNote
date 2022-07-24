@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建.md",
+            "file": "gulp.md",
             "mode": "source",
             "source": false
           }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md"
+                "file": "gulp.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md",
+                "file": "gulp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建.md",
+                "file": "gulp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -211,6 +211,7 @@
   },
   "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/5.构建.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "多仓库选型.md",
@@ -219,7 +220,6 @@
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/工程化/4.工程设计/工程设计范式.md",
     "domain style.md",
-    "rails style.md",
-    "笔记/前端/工程化/6.持续集成&部署.md"
+    "rails style.md"
   ]
 }
