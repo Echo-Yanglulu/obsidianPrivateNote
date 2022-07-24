@@ -8,7 +8,8 @@
 
 为何nodejs中很少使用该parser？因为新版本的node自动提供对ES新特性的支持，但浏览器没有单独对新版ES做支持，所以babel作为一种parser是短期内无法忽视的工具。
 ## 语法转换
-
+转为语义一致的，低版本浏览器可理解的ES代码。
+## polyfill
 # 基本概念
 syntax
 feature
