@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
+      "basename": "babel",
+      "path": "babel.md"
+    },
+    {
       "basename": "ES Module",
       "path": "笔记/前端/工程化/ES Module.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1.脚本",
       "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
-    },
-    {
-      "basename": "TDD原则",
-      "path": "笔记/前端/工程化/assets/TDD原则.svg"
     }
   ],
   "omittedPaths": [],
