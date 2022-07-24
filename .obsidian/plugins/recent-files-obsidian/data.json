@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "CLI",
-      "path": "笔记/前端/工程化/基本概念/CLI.md"
+      "basename": "脚手架",
+      "path": "笔记/前端/工程化/脚手架/脚手架.md"
     },
     {
-      "basename": "ink",
-      "path": "笔记/前端/工程化/ink.md"
+      "basename": "yeoman-generator",
+      "path": "笔记/前端/工程化/node/库/yeoman-generator.md"
+    },
+    {
+      "basename": "shelljs",
+      "path": "笔记/前端/工程化/node/库/shelljs.md"
+    },
+    {
+      "basename": "polp",
+      "path": "笔记/前端/工程化/node/库/polp.md"
     },
     {
       "basename": "execa",
@@ -17,12 +25,28 @@
       "path": "笔记/前端/工程化/node/库/chalk.md"
     },
     {
-      "basename": "shelljs",
-      "path": "笔记/前端/工程化/node/库/shelljs.md"
+      "basename": "oclif",
+      "path": "笔记/前端/工程化/库/oclif.md"
     },
     {
-      "basename": "polp",
-      "path": "笔记/前端/工程化/node/库/polp.md"
+      "basename": "node cli",
+      "path": "笔记/前端/工程化/1.脚本/node cli.md"
+    },
+    {
+      "basename": "process",
+      "path": "笔记/前端/工程化/node/process.md"
+    },
+    {
+      "basename": "inquirer",
+      "path": "笔记/前端/工程化/node/库/inquirer.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "ink",
+      "path": "笔记/前端/工程化/ink.md"
     },
     {
       "basename": "工程化",
@@ -175,30 +199,6 @@
     {
       "basename": "3.监控与异常上报",
       "path": "笔记/前端/工程化/3.质量/3.监控与异常上报.md"
-    },
-    {
-      "basename": "3.质量",
-      "path": "笔记/前端/工程化/3.质量/3.质量.md"
-    },
-    {
-      "basename": "Pasted image 20220724153426",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220724153426.png"
-    },
-    {
-      "basename": "Pasted image 20220724000106",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220724000106.png"
-    },
-    {
-      "basename": "Pasted image 20220724114333",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220724114333.png"
-    },
-    {
-      "basename": "Pasted image 20220724000302",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220724000302.png"
-    },
-    {
-      "basename": "多仓库选型",
-      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
     }
   ],
   "omittedPaths": [],
