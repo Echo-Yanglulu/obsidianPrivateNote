@@ -7,9 +7,11 @@
         "id": "ec198c197f2be0d6",
         "type": "leaf",
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/万物通用概念/assets/Untitled Diagram.svg"
+            "file": "笔记/学习方法/整体性学习.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/万物通用概念/assets/Untitled Diagram.svg"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/万物通用概念/assets/Untitled Diagram.svg",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/万物通用概念/assets/Untitled Diagram.svg",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -201,15 +203,15 @@
   },
   "active": "ec198c197f2be0d6",
   "lastOpenFiles": [
+    "笔记/学习方法/超级学习.md",
+    "笔记/学习方法/img/学习的阶段.svg",
+    "笔记/学习方法/img/整体性学习.svg",
+    "笔记/万物通用概念/assets/Untitled Diagram.svg",
     "笔记/写作/写作.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/基础知识/assets/Pasted image 20220724175108.png",
-    "笔记/前端/基础知识/编译原理/编译原理.md",
-    "笔记/前端/基础知识/assets/Pasted image 20220724174208.png",
-    "笔记/前端/基础知识/assets/Pasted image 20220724174037.png",
-    "笔记/前端/基础知识/assets/Pasted image 20220724173735.png"
+    "笔记/前端/基础知识/assets/Pasted image 20220724175108.png"
   ]
 }
