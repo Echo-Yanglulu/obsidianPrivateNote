@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "babel",
-      "path": "笔记/前端/工程化/5.构建/babel.md"
-    },
-    {
       "basename": "编译器",
       "path": "笔记/前端/基础知识/编译原理/编译器.md"
+    },
+    {
+      "basename": "AST",
+      "path": "笔记/前端/基础知识/编译原理/AST.md"
     },
     {
       "basename": "编译原理",
       "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     },
     {
-      "basename": "AST",
-      "path": "笔记/前端/基础知识/编译原理/AST.md"
+      "basename": "计算机基础",
+      "path": "笔记/前端/基础知识/计算机基础.md"
+    },
+    {
+      "basename": "通用概念",
+      "path": "笔记/前端/基础知识/通用概念.md"
+    },
+    {
+      "basename": "Pasted image 20220724172032",
+      "path": "笔记/前端/基础知识/assets/Pasted image 20220724172032.png"
+    },
+    {
+      "basename": "Pasted image 20220724161227",
+      "path": "笔记/前端/基础知识/assets/Pasted image 20220724161227.png"
+    },
+    {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/5.构建/babel.md"
     },
     {
       "basename": "ESLint",
@@ -183,22 +199,6 @@
     {
       "basename": "观点信息",
       "path": "笔记/学习方法/概念/观点信息.md"
-    },
-    {
-      "basename": "获取",
-      "path": "笔记/学习方法/概念/获取.md"
-    },
-    {
-      "basename": "学习的阶段",
-      "path": "笔记/学习方法/概念/学习的阶段.md"
-    },
-    {
-      "basename": "理解",
-      "path": "笔记/学习方法/概念/理解.md"
-    },
-    {
-      "basename": "超级学习",
-      "path": "笔记/学习方法/超级学习.md"
     }
   ],
   "omittedPaths": [],
