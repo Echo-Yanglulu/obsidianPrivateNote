@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "mermaid语法",
-      "path": "笔记/工具/思考/图形/mermaid语法.md"
-    },
-    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "shell解释器",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
+    },
+    {
+      "basename": "mermaid语法",
+      "path": "笔记/工具/思考/图形/mermaid语法.md"
     },
     {
       "basename": "实用性思考的艺术",
@@ -195,10 +199,6 @@
     {
       "basename": "gulp",
       "path": "笔记/前端/工程化/5.构建/gulp.md"
-    },
-    {
-      "basename": "预编译语言",
-      "path": "笔记/前端/工程化/5.构建/预编译语言.md"
     }
   ],
   "omittedPaths": [],
