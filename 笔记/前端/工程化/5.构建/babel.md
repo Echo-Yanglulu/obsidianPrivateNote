@@ -42,6 +42,8 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 可使用对应的preset插件，一键配置对应项目的babel
 ## env
 虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
+配置例子![[Pasted image 20220727015704.png]]
+[browserslist](https://github.com/browserslist/browserslist)及[compat-table](https://github.com/kangax/compat-table)是
 ![[babel基本概念.svg]]
 # 原理
 概述：将代码转换成token流，转换成AST。
