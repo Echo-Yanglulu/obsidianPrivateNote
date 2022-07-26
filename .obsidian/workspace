@@ -30,8 +30,10 @@
             "id": "231c1b69c3d25663",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {}
+              "type": "diagram-edit",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg"
+              }
             }
           },
           {
@@ -69,7 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 783
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -78,7 +80,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 69.64824120603015,
+        "dimension": 57.70750988142292,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -119,14 +121,16 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 30.351758793969847,
+        "dimension": 42.29249011857708,
         "children": [
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg"
+              }
             }
           },
           {
@@ -135,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,17 +203,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
     "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
     "笔记/前端/工程化/npm.md",
-    "obsidian-css-snippets-master/Snippets/Search.md",
-    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
-    "笔记/工具/思考/图形/mermaid语法.md"
+    "obsidian-css-snippets-master/Snippets/Search.md"
   ]
 }

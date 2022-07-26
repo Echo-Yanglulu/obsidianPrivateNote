@@ -41,7 +41,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 一组插件的集合（难道不是内置的插件？）
 可使用对应的preset插件，一键配置对应项目的babel
 ## env
-虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种更智能的preset，可根据**目标环境快速配置**babel，
+虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 # 原理
 概述：将代码转换成token流，转换成AST。
 输入：较高版本的ES代码，输出符合要求的低版本ES代码。如ES7转换成ES5
