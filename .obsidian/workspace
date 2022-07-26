@@ -4,27 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d817f54e9544018d",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/git.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        },
-        "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "eae64f290efbf83e",
+        "id": "f4bcf919b576206e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
+            "file": "笔记/前端/工程化/5.构建/5.构建.md",
             "mode": "source",
             "source": false
           }
@@ -55,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "babel基本概念",
+                "query": "babel",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -80,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,8 +88,7 @@
               "type": "graph",
               "state": {},
               "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
+            }
           },
           {
             "id": "317f497fc058b9b7",
@@ -144,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md"
+                "file": "笔记/前端/工程化/5.构建/5.构建.md"
               }
             }
           },
@@ -173,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -201,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,17 +202,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "989de35848378ae3",
+  "active": "f4bcf919b576206e",
   "lastOpenFiles": [
     "笔记/前端/工程化/git.md",
+    "笔记/前端/工程化/4.工程设计/多仓库选型.md",
+    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/assets/babel基本概念.svg",
-    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
-    "笔记/前端/工程化/1.脚本/1.脚本.md",
-    "笔记/前端/工程化/npm.md"
+    "笔记/前端/工程化/1.脚本/1.脚本.md"
   ]
 }

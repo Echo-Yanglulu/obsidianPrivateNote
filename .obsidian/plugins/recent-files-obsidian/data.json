@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "babel",
-      "path": "笔记/前端/工程化/5.构建/babel.md"
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
     },
     {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+      "basename": "多仓库选型",
+      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
+    },
+    {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/5.构建/babel.md"
     },
     {
       "basename": "babel基本概念",
@@ -195,10 +199,6 @@
     {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/库/webpack.md"
     }
   ],
   "omittedPaths": [],
