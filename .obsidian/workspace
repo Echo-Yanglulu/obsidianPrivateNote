@@ -4,7 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "037d7b5d9e462e57",
+        "id": "d817f54e9544018d",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/git.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
+        },
+        "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "eae64f290efbf83e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -30,10 +45,8 @@
             "id": "231c1b69c3d25663",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg"
-              }
+              "type": "file-explorer",
+              "state": {}
             }
           },
           {
@@ -42,10 +55,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "babel基本概念",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -67,11 +80,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 783
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -80,7 +94,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 57.70750988142292,
+        "dimension": 56.24385447394297,
         "children": [
           {
             "id": "cb458d1b4cb70fed",
@@ -90,7 +104,8 @@
               "type": "graph",
               "state": {},
               "pinned": true
-            }
+            },
+            "group": "2515ad75bb84e03c"
           },
           {
             "id": "317f497fc058b9b7",
@@ -121,7 +136,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 42.29249011857708,
+        "dimension": 43.75614552605703,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -129,45 +144,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/5.构建/babel.md"
               }
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "0254f05ae0353b5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
             }
           },
           {
@@ -190,30 +168,68 @@
             }
           },
           {
+            "id": "0254f05ae0353b5b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
             "id": "83121a7b23c40521",
             "type": "leaf",
             "state": {
               "type": "FANTASY_CALENDAR",
               "state": {}
             }
+          },
+          {
+            "id": "5a5405417dbef7c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "231c1b69c3d25663",
+  "active": "989de35848378ae3",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/前端/工程化/5.构建/Untitled Diagram.svg",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/assets/babel基本概念.svg",
+    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
-    "笔记/前端/工程化/npm.md",
-    "obsidian-css-snippets-master/Snippets/Search.md"
+    "笔记/前端/工程化/npm.md"
   ]
 }

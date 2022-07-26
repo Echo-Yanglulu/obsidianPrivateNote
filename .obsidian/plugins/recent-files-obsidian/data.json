@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled Diagram",
-      "path": "笔记/前端/工程化/5.构建/Untitled Diagram.svg"
-    },
-    {
       "basename": "babel",
       "path": "笔记/前端/工程化/5.构建/babel.md"
     },
     {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
       "basename": "5.构建",
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "babel基本概念",
+      "path": "笔记/前端/工程化/assets/babel基本概念.svg"
     },
     {
       "basename": "前端",
@@ -195,10 +199,6 @@
     {
       "basename": "webpack",
       "path": "笔记/前端/工程化/库/webpack.md"
-    },
-    {
-      "basename": "ES Module",
-      "path": "笔记/前端/工程化/ES Module.md"
     }
   ],
   "omittedPaths": [],
