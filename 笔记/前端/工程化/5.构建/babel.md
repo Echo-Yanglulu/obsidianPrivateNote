@@ -24,16 +24,19 @@
 	proxy无法使用ES5实现
 ## 修改源码
 # 基本概念
-syntax
+## syntax
 原子级别，最基础的概念，无能通过其他概念实现
-feature
-特性，一般是对象或方法，可通过基础语法实现。如includes方法，Promise对象，
-plugin
+## feature
+特性，一般是对象或方法，可通过基础语法实现。如includes方法，Promise对象。
+ES新特性的诞生过程：
+
+babel会为前4个阶段提供专门的preset
+## plugin
 作为前端工程化构建工具之一，也是插件化的。本身不提供功能，由插件提供。
-preset
+## preset
 一组插件的集合（难道不是内置的插件？）
 可使用对应的preset插件，一键配置对应项目的babel
-env
+## env
 # 原理
 概述：将代码转换成token流，转换成AST。
 输入：较高版本的ES代码，输出符合要求的低版本ES代码。如ES7转换成ES5
