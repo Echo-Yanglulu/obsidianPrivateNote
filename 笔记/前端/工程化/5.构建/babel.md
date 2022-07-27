@@ -41,7 +41,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 
 ### 执行顺序
 1. 整体在preset之前执行[^5]
-2. 多个插件从前向后执行
+2. 多个插件**从前向后**执行
 ## preset
 一组插件的集合（难道不是内置的插件？）
 可使用对应的preset插件，一键配置对应项目的babel
@@ -49,7 +49,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 配置方式与plugin相似。为何preset也要配置？因为preset本质就是一组plugin的集合。
 ### 执行顺序
 1. 在plugin之后执行
-2. preset之间
+2. preset之间**从后向前**执行。
 ## env
 虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 配置例子![[Pasted image 20220727015704.png]]
