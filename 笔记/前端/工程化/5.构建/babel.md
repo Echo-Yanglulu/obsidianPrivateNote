@@ -113,4 +113,4 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 [^11]: 用于对大部分新feature进行polyfill
 [^12]: 用于转换generator函数
 [^13]: 默认值：完全由用户决定如何进行polyfill。
-[^14]: 常用：根据实际使用
+[^14]: 常用：根据实际使用。根据对新feature的使用情况，智能地为每个JS文件引入最小化的polyfill代码。问题：各种polyfill被内联地写入文件
