@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "obsidian-css-snippets-master/Snippets/Edge on left.md",
             "mode": "source",
             "source": false
           }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 309,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "obsidian-css-snippets-master/Snippets/Edge on left.md"
               }
             }
           },
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "obsidian-css-snippets-master/Snippets/Edge on left.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "obsidian-css-snippets-master/Snippets/Edge on left.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,9 +247,9 @@
   },
   "active": "33e96099166ae992",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
     "笔记/前端/语言/CSS/CSS.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/git.md",
     "笔记/学习方法/img/整体性学习.svg",
     "笔记/学习方法/img/Drawing 2022-07-27 08.49.54.excalidraw.md",
