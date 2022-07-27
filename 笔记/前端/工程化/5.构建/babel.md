@@ -55,6 +55,8 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 大多情况只用这个preset即可，主要是两个配置
 	1. useBuiltlns配置polyfill ，
 	2. targets希望preset-env 选择的插件[^7]
+		1. 可以是描述浏览器版本的对象
+		2. 符合browserslist 语法的字符串。写出条件[^8]筛选出对应的浏览器列表
 ![[Pasted image 20220727224323.png]]
 ## env
 虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
@@ -93,3 +95,4 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 [^5]: preset往往配置了比较成熟的语法。二者同时使用时往往是希望在成熟的语法之外使用一些feature。先执行plugin就能保证feature是先被转换的，让preset只关心那些比较稳定的语法。
 [^6]: 历史原因导致，记住规则即可。
 [^7]: 描述我们需要支持的**物料平台**是什么，然后preset-env 根据描述选择插件
+[^8]: 市场占有率，是否是最新的几个版本。
