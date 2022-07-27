@@ -59,8 +59,8 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 
 本质是一组NPM包（使用方式）
 	1. 如果只需要部分功能，可直接require某个包（如require(@babel/core)）
-	2. 使用babel cli进行语法转换，使用babel-node去启动一个应用
-	3. 结合打包工具使用
+	2. 使用babel cli进行语法转换，使用babel-node去启动一个应用（先转换）
+	3. 结合打包工具（webpack, rollup）使用
 # 配置
 
 [^1]: 随时享受新语法带来的便利。【proxy不是不能编译？】
