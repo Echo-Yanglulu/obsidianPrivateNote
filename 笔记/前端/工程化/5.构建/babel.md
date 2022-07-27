@@ -71,7 +71,8 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 		3. 在根目录的.browserslistrc文件中写browserslist 语法字符串
 ![[Pasted image 20220727224323.png]]
 存在问题：
-	1. ![[Pasted image 20220727235051.png]]如果有一个类语法，就会内联地写入大量的polyfill函数 ，打包后的dist文件会有大量的。如果有重复的类语法，就
+	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会内联地**写入大量的polyfill函数** ，如果*有重复的类语法*，打包后的dist文件会有大量重复。
+		1. 解决方案：使用（就能去除重复的polyfill 函数引入？）
 ## env
 虽然有preset，但还是要关心**用户的浏览器能否支持某个feature** 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 配置例子![[Pasted image 20220727015704.png]]

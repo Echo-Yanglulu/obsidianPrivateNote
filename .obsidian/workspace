@@ -4,41 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cb458d1b4cb70fed",
+        "id": "ccc317f2f2315b76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "f59515532fe6ff4b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/整体性学习.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "33e96099166ae992",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/信息结构.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
         }
       }
     ],
@@ -113,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -154,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -226,7 +200,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "ccc317f2f2315b76",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/工程化.md",
