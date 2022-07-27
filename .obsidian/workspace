@@ -19,9 +19,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/思维概念/思想.md",
+            "file": "笔记/前端/设计模式/设计模式.md",
             "mode": "source",
             "source": false
+          }
+        }
+      },
+      {
+        "id": "231c1b69c3d25663",
+        "type": "leaf",
+        "state": {
+          "type": "diagram-edit",
+          "state": {
+            "file": "笔记/前端/设计模式/assets/Untitled Diagram.svg"
           }
         }
       },
@@ -50,14 +60,6 @@
         "id": "932e5b2355cf0a40",
         "type": "tabs",
         "children": [
-          {
-            "id": "231c1b69c3d25663",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "989de35848378ae3",
             "type": "leaf",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/思想.md"
+                "file": "笔记/前端/设计模式/assets/Untitled Diagram.svg"
               }
             }
           },
@@ -151,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/思想.md",
+                "file": "笔记/前端/设计模式/assets/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/思想.md",
+                "file": "笔记/前端/设计模式/assets/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -223,17 +225,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/设计模式/assets/Untitled Diagram.svg",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/前端.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/工具/思考/思维概念/思想.md",
     "笔记/工具/思考/逻辑思维/逻辑.md",
     "笔记/工具/思考/减法思维/减法思维.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/基本概念/基本概念.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/工具/思考/基本概念/重要概念.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/写作/写作.md"
+    "笔记/工具/思考/记忆/记忆.md"
   ]
 }

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled Diagram",
+      "path": "笔记/前端/设计模式/assets/Untitled Diagram.svg"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
       "basename": "思想",
       "path": "笔记/工具/思考/思维概念/思想.md"
     },
@@ -19,10 +43,6 @@
     {
       "basename": "基本概念",
       "path": "笔记/工具/思考/基本概念/基本概念.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
     },
     {
       "basename": "知识",
@@ -93,20 +113,8 @@
       "path": "笔记/读书/科学/科学.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "babel",
       "path": "笔记/前端/工程化/5.构建/babel.md"
-    },
-    {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
       "basename": "多仓库选型",
@@ -191,14 +199,6 @@
     {
       "basename": "脚手架",
       "path": "笔记/前端/工程化/脚手架/脚手架.md"
-    },
-    {
-      "basename": "Schemetics",
-      "path": "笔记/前端/工程化/脚手架/Schemetics.md"
-    },
-    {
-      "basename": "shelljs",
-      "path": "笔记/前端/工程化/node/库/shelljs.md"
     }
   ],
   "omittedPaths": [],
