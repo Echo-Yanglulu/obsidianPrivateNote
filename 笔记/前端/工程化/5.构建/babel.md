@@ -23,8 +23,8 @@
 	promise API，可以在低版本的浏览器中使用ES5实现
 	proxy无法使用ES5实现
 ### 使用
-7.4之前只需引入@babel/polyfill
-之后需要引入两个包: core-js/stable，regenerator-runtime/runtime。前者用于对大部分新feature进行polyfill，后者用于转换generator函数。两种方式等价，但新方式利于babel进行进一步的优化。
+1. 7.4之前只需引入@babel/polyfill
+2. 7.4之后需要引入两个包: core-js/stable，regenerator-runtime/runtime。前者用于对大部分新feature进行polyfill，后者用于转换generator函数。两种方式等价，但新方式利于babel进行进一步优化。
 
 需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者
 
