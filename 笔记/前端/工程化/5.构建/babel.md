@@ -24,10 +24,11 @@
 	proxy无法使用ES5实现
 ### 使用
 1. 7.4之前只需引入@babel/polyfill[^10]
-2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。两种方式等价，但新方式利于babel进行进一步优化。
+2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。
 3. 通过preset-env智能配置。
 
-需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者
+两种方式等价，但新方式利于babel进行进一步优化。
+需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者。建议core-js/stable包与3的useBuiltlns同时使用(为啥要用两次polyfill 配置？)
 
 ## 修改源码
 # 基本概念
@@ -61,7 +62,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 #### preset-env 
 大多情况只用这个preset即可，主要是两个配置
 	1. useBuiltlns配置polyfill [^9]
-		1. false：不自动注入
+		1. false：不自动注入[^13]
 		2. usage：实际使用
 		3. entry：环境配置
 	2. targets希望preset-env 选择的插件[^7]
@@ -111,3 +112,4 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 [^10]: 不建议，因为太大，无法做优化
 [^11]: 用于对大部分新feature进行polyfill
 [^12]: 用于转换generator函数
+[^13]: 默认值：完全由用户决定如何进行polyfill 

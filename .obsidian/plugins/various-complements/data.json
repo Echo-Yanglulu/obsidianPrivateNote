@@ -562,8 +562,24 @@
     "polyfill": {
       "polyfill": {
         "currentFile": {
-          "count": 5,
-          "lastUpdated": 1658934579730
+          "count": 6,
+          "lastUpdated": 1658936362240
+        }
+      }
+    },
+    "core-js": {
+      "core-js": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658936306589
+        }
+      }
+    },
+    "useBuiltlns": {
+      "useBuiltlns": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658936348251
         }
       }
     }
