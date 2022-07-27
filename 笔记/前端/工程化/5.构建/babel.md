@@ -45,6 +45,11 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 ## preset
 一组插件的集合（难道不是内置的插件？）
 可使用对应的preset插件，一键配置对应项目的babel
+### 使用
+配置方式与plugin相似。为何preset也要配置？因为preset本质就是一组plugin的集合。
+### 执行顺序
+1. 在plugin之后执行
+2. preset之间
 ## env
 虽然有preset，但还是要关心用户的浏览器能否支持某个feature 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 配置例子![[Pasted image 20220727015704.png]]
@@ -79,4 +84,4 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 [^2]: 装修时，用来抹平墙面的腻子。抹平浏览器高低版本的差异
 [^3]: 对整个项目生效，不能跨项目。最常见的配置
 [^4]: 对整个工程生产，可跨项目
-[^5]: preset往往配置了比较成熟的语法。二者同时使用时往往是希望在成熟的语法之外使用一些feature。先执行plugin就能保证feature是先被转换的。
+[^5]: preset往往配置了比较成熟的语法。二者同时使用时往往是希望在成熟的语法之外使用一些feature。先执行plugin就能保证feature是先被转换的，让preset只关心那些比较稳定的语法。
