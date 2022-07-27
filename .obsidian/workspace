@@ -4,16 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "599da4e7d1620e90",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/整体性学习.md",
-            "mode": "source",
-            "source": false
+        "id": "e5303fc8a8a66905",
+        "type": "split",
+        "children": [
+          {
+            "id": "231c1b69c3d25663",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "笔记/学习方法/img/整体性学习.svg"
+              }
+            }
+          },
+          {
+            "id": "599da4e7d1620e90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -26,14 +43,6 @@
         "id": "932e5b2355cf0a40",
         "type": "tabs",
         "children": [
-          {
-            "id": "231c1b69c3d25663",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
           {
             "id": "989de35848378ae3",
             "type": "leaf",
@@ -69,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 339.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/学习方法/img/整体性学习.svg"
               }
             }
           },
@@ -156,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/img/整体性学习.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -184,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/img/整体性学习.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,17 +211,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "599da4e7d1620e90",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/img/整体性学习.svg",
+    "笔记/前端/工程化/assets/Pasted image 20220727015704.png",
     "笔记/读书/历史/历史.md",
     "笔记/读书/常识/常识.md",
     "笔记/读书/哲学/哲学.md",
     "笔记/读书/科学/科学.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/4.工程设计/多仓库选型.md",
-    "笔记/前端/工程化/5.构建/babel.md"
+    "笔记/前端/工程化/5.构建/5.构建.md"
   ]
 }
