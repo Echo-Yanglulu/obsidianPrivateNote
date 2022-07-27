@@ -6,13 +6,11 @@
       {
         "id": "cb458d1b4cb70fed",
         "type": "leaf",
+        "pinned": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/工具/思考/减法思维/减法思维.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {},
+          "pinned": true
         }
       },
       {
@@ -21,7 +19,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/人的行为/健身/部位/胸部.md",
             "mode": "source",
             "source": false
           }
@@ -95,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 309,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/减法思维/减法思维.md"
+                "file": "笔记/人的行为/健身/部位/胸部.md"
               }
             }
           },
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/减法思维/减法思维.md",
+                "file": "笔记/人的行为/健身/部位/胸部.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/减法思维/减法思维.md",
+                "file": "笔记/人的行为/健身/部位/胸部.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -219,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -228,14 +227,14 @@
   "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
     "笔记/学习方法/整体性学习.md",
-    "笔记/工具/思考/减法思维/减法思维.md",
+    "笔记/学习方法/概念/找到弱点.md",
+    "笔记/学习方法/记笔记.md",
+    "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/思考.md",
+    "笔记/工具/思考/减法思维/减法思维.md",
     "笔记/前端/前端.md",
     "笔记/前端/设计模式/设计模式.md",
     "静态分析.md",
-    "笔记/前端/设计模式/assets/面向对象.svg",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/工具/思考/思维概念/思想.md"
+    "笔记/前端/设计模式/assets/面向对象.svg"
   ]
 }
