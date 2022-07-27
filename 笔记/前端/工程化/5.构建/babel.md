@@ -22,6 +22,9 @@
 如
 	promise API，可以在低版本的浏览器中使用ES5实现
 	proxy无法使用ES5实现
+### 使用
+7.4之前只需引入@babel/polyfill
+之后需要引入两个包: core-js/stable，regenerator-runtime/runtime
 ## 修改源码
 # 基本概念
 ## syntax
