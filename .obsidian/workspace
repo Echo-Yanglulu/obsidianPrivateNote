@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 797.5
+    "width": 797.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/assets/babel基本概念.svg"
+                "file": "笔记/前端/工程化/5.构建/babel.md"
               }
             }
           },
@@ -143,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/assets/babel基本概念.svg",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/assets/babel基本概念.svg",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -215,11 +216,11 @@
     "direction": "horizontal",
     "width": 378.5
   },
-  "active": "231c1b69c3d25663",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/前端/工程化/assets/babel基本概念.svg",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/学习方法/概念/信息结构.md",
-    "笔记/前端/工程化/assets/babel基本概念.svg",
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/工程化.md",
