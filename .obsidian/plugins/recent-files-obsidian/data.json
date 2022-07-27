@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled Diagram",
-      "path": "笔记/前端/设计模式/assets/Untitled Diagram.svg"
-    },
-    {
       "basename": "设计模式",
       "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "静态分析",
+      "path": "静态分析.md"
+    },
+    {
+      "basename": "整体性学习",
+      "path": "笔记/学习方法/整体性学习.md"
+    },
+    {
+      "basename": "面向对象",
+      "path": "笔记/前端/设计模式/assets/面向对象.svg"
     },
     {
       "basename": "工程化",
@@ -47,10 +55,6 @@
     {
       "basename": "知识",
       "path": "笔记/学习方法/概念/知识.md"
-    },
-    {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
     },
     {
       "basename": "重要概念",
@@ -195,10 +199,6 @@
     {
       "basename": "yeoman-generator",
       "path": "笔记/前端/工程化/node/库/yeoman-generator.md"
-    },
-    {
-      "basename": "脚手架",
-      "path": "笔记/前端/工程化/脚手架/脚手架.md"
     }
   ],
   "omittedPaths": [],
