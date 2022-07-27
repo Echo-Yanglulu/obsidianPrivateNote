@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/读书/常识/未命名.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/读书/常识/未命名.md"
+              }
             }
           },
           {
@@ -154,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/读书/常识/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/读书/常识/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,15 +201,15 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "599da4e7d1620e90",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/4.工程设计/多仓库选型.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/assets/babel基本概念.svg",
-    "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md"
