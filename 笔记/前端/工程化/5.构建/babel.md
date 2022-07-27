@@ -80,9 +80,9 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
 
 本质是一组NPM包（使用方式）
-	1. 如果只需要部分功能，可直接require某个包（如require(@babel/core)）
-	2. 使用babel cli进行语法转换，使用babel-node去启动一个应用（先转换）
-	3. 结合打包工具（webpack, rollup）使用
+	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)）
+	2. 使用babel cli进行**语法转换**，使用babel-node去启动一个应用（先转换）
+	3. **结合打包工具**（webpack, rollup）
 # 配置
 ## 方式
 1. 使用项目根目录的.babelrc.json[^3]
