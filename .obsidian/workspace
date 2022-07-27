@@ -89,7 +89,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 28.14070351758794,
+        "dimension": 43.81846635367762,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -130,7 +130,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 36.08040201005025,
+        "dimension": 56.18153364632238,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -139,7 +139,7 @@
               "type": "backlink",
               "state": {
                 "file": "笔记/前端/工程化/5.构建/babel.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -148,14 +148,7 @@
                 "unlinkedCollapsed": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "279be871517071cb",
-        "type": "tabs",
-        "dimension": 35.77889447236181,
-        "children": [
+          },
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
@@ -203,14 +196,13 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "66926bd3f487d1c4",
+  "active": "37fb741facd8f20b",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/工程化.md",

@@ -63,9 +63,12 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 	2. 使用babel cli进行语法转换，使用babel-node去启动一个应用（先转换）
 	3. 结合打包工具（webpack, rollup）使用
 # 配置
+## 方式
 1. 使用项目根目录的.babelrc.json[^3]
 2. 对monorepo的统一配置可使用babel.config.json[^4]
 3. package.json的babel字段，相当于1中的文件
+## 内容
+
 
 [^1]: 随时享受新语法带来的便利。【proxy不是不能编译？】
 [^2]: 装修时，用来抹平墙面的腻子。抹平浏览器高低版本的差异
