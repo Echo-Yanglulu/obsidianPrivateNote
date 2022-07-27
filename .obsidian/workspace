@@ -6,23 +6,37 @@
       {
         "id": "cb458d1b4cb70fed",
         "type": "leaf",
-        "pinned": true,
         "state": {
-          "type": "graph",
-          "state": {},
-          "pinned": true
+          "type": "diagram",
+          "state": {
+            "file": "笔记/前端/工程化/Untitled Diagram.svg"
+          }
         }
       },
       {
-        "id": "66926bd3f487d1c4",
+        "id": "f59515532fe6ff4b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
+        }
+      },
+      {
+        "id": "33e96099166ae992",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/信息结构.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -50,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "babel基本概念.svg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -89,7 +102,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 43.81846635367762,
+        "dimension": 28.14070351758794,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md"
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
               }
             }
           },
@@ -130,7 +143,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 56.18153364632238,
+        "dimension": 36.08040201005025,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -138,8 +151,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
-                "collapseAll": true,
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -148,7 +161,14 @@
                 "unlinkedCollapsed": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "279be871517071cb",
+        "type": "tabs",
+        "dimension": 35.77889447236181,
+        "children": [
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
@@ -174,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -196,23 +216,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "37fb741facd8f20b",
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/人的行为/健身/部位/胸部.md",
+    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/找到弱点.md",
-    "笔记/学习方法/记笔记.md",
-    "笔记/学习方法/概念/概念.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/前端/前端.md",
     "笔记/工具/思考/思考.md",
-    "笔记/工具/思考/减法思维/减法思维.md"
+    "笔记/工具/思考/减法思维/减法思维.md",
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/人的行为/健身/部位/胸部.md"
   ]
 }
