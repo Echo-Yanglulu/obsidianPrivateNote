@@ -4,26 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "d817f54e9544018d",
+        "id": "cb458d1b4cb70fed",
         "type": "leaf",
         "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        },
+        "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "33e96099166ae992",
+        "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
-        },
-        "group": "2515ad75bb84e03c"
-      },
-      {
-        "id": "057950520deadeef",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
+          }
         }
       }
     ],
@@ -89,8 +89,18 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 56.24385447394297,
+        "dimension": 28.14070351758794,
         "children": [
+          {
+            "id": "bd5ff300df2b3029",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md"
+              }
+            }
+          },
           {
             "id": "317f497fc058b9b7",
             "type": "leaf",
@@ -118,18 +128,34 @@
         ]
       },
       {
-        "id": "279be871517071cb",
+        "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 43.75614552605703,
+        "dimension": 36.08040201005025,
         "children": [
           {
-            "id": "bd5ff300df2b3029",
+            "id": "37fb741facd8f20b",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "279be871517071cb",
+        "type": "tabs",
+        "dimension": 35.77889447236181,
+        "children": [
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
@@ -155,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,25 +202,9 @@
               "type": "graph-analysis",
               "state": {}
             }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,33 +215,39 @@
     "type": "floating",
     "children": [
       {
-        "id": "2d3d96acc50ce6ab",
+        "id": "4b4c4e48bccf37b5",
         "type": "window",
         "children": [
           {
-            "id": "cb458d1b4cb70fed",
+            "id": "d817f54e9544018d",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "笔记/学习方法/整体性学习.md",
+                "mode": "source",
+                "source": false
+              },
               "pinned": true
             },
             "group": "2515ad75bb84e03c"
           }
         ],
         "direction": "vertical",
-        "x": 508,
-        "y": 142,
-        "width": 1248,
-        "height": 841,
+        "x": 815,
+        "y": 124,
+        "width": 732,
+        "height": 817,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "cb458d1b4cb70fed",
+  "active": "33e96099166ae992",
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+    "笔记/前端/语言/CSS/CSS.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/git.md",
     "笔记/学习方法/img/整体性学习.svg",
@@ -238,8 +255,6 @@
     "笔记/前端/工程化/assets/Pasted image 20220727015704.png",
     "笔记/读书/历史/历史.md",
     "笔记/读书/常识/常识.md",
-    "笔记/读书/哲学/哲学.md",
-    "笔记/读书/科学/科学.md",
-    "笔记/前端/前端.md"
+    "笔记/读书/哲学/哲学.md"
   ]
 }
