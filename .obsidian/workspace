@@ -6,15 +6,13 @@
       {
         "id": "33e96099166ae992",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/学习方法/概念/信息结构.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
+          }
         },
         "group": "b8990eb4de923d68"
       },
@@ -119,13 +117,11 @@
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "outline",
               "state": {
                 "file": "笔记/学习方法/概念/信息结构.md"
-              },
-              "pinned": true
+              }
             },
             "group": "b8990eb4de923d68"
           },
@@ -159,7 +155,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "01b984a51df1d6b1",
@@ -169,7 +166,6 @@
           {
             "id": "37fb741facd8f20b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "backlink",
               "state": {
@@ -181,8 +177,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              },
-              "pinned": true
+              }
             },
             "group": "b8990eb4de923d68"
           }
@@ -219,11 +214,9 @@
           {
             "id": "5a5405417dbef7c4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph-analysis",
-              "state": {},
-              "pinned": true
+              "state": {}
             },
             "group": "b8990eb4de923d68"
           }
