@@ -26,7 +26,7 @@
 1. 7.4之前只需引入@babel/polyfill[^10]
 2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。
 3. 通过preset-env的useBuiltlns 与targets智能配置。
-4. 一般是core-js 与useBuiltlns 结合使用
+4. 一般是==core-js 与useBuiltlns 结合使用==
 
 两种方式等价，但方式2利于babel进行进一步优化。
 需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者。建议core-js/stable包与3的useBuiltlns同时使用(为啥要用两次polyfill 配置？)
@@ -64,15 +64,15 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 大多情况只用这个preset即可，主要是两个配置（引入polyfill 代码）
 	1. useBuiltlns配置**polyfill** [^9]
 		1. false：不自动注入[^13]
-		2. usage：实际使用[^14]
+		2. usage：实际使用[^14]![[Pasted image 20220728232655.png]]
 		3. entry：环境配置![[Pasted image 20220728232437.png]]
 	2. targets希望preset-env 选择的**插件**[^7]
 		1. 可以是描述浏览器版本的对象
 		2. 符合browserslist 语法的字符串。写出条件[^8]筛选出对应的浏览器列表，然后根据结果决定引用的插件。
 		3. 在根目录的.browserslistrc文件中写browserslist 语法字符串
 ![[Pasted image 20220727224323.png]]
-存在问题：
-	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会内联地**写入大量的polyfill函数** ，如果*有重复的类语法*，打包后的dist文件会有大量重复。
+如此对polyfill 的使用仍存在问题：
+	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会**内联地写入大量的polyfill函数** ，如果*有重复的类语法*，打包后的dist文件会有大量重复。
 		1. 解决方案：使用（就能去除重复的polyfill 函数引入？） ^li7mj0
 ## env
 虽然有preset，但还是要关心**用户的浏览器能否支持某个feature** 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
@@ -117,4 +117,4 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 [^11]: 用于对大部分新feature进行polyfill
 [^12]: 用于转换generator函数
 [^13]: 默认值：完全由用户决定如何进行polyfill。
-[^14]: 常用：根据实际使用。根据对新feature的使用情况，智能地为每个JS文件引入最小化的polyfill代码。问题：各种polyfill被内联地写入文件
+[^14]: 最常用：根据对新feature的使用情况，智能地为每个JS文件引入最小化的polyfill代码。问题：各种polyfill被内联地写入文件
