@@ -47,7 +47,10 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 ## plugin
 作为前端**工程化构建工具**之一，也是**插件化**的。本身不提供功能，由插件提供。
 在配置时，plugin的名称可缩写，所以如果发现某个插件找不到依赖，可能是插件名被缩写
-
+### 配置方式
+plugin: '名称'
+plugin: ['名称']
+plugin: ['名称', 配置对象]
 ### 执行顺序
 1. 整体在preset之前执行[^5]
 2. 多个插件**从前向后**执行[^6]
@@ -100,9 +103,9 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 	3. **结合打包工具**（webpack, rollup）
 # 配置
 ## 方式
-1. 使用项目根目录的.babelrc.json[^3]
-2. 对monorepo的统一配置可使用babel.config.json[^4]
-3. package.json的babel字段，相当于1中的文件
+1. 使用项目根目录的**.babelrc.json**[^3]
+2. 对monorepo的统一配置可使用**babel.config.json**[^4]
+3. **package.json**的babel字段，相当于1中的文件
 ## 内容
 将配置传入插件的方式
 ![[Pasted image 20220727223048.png]]
