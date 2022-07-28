@@ -76,7 +76,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 		1. 解决方案：使用一个plugin和包![[Pasted image 20220728232929.png]]然后可以让polyfill 代码从这个包中**引入**，而不是**内联地写入**polyfill 代码，即：![[Pasted image 20220728233132.png]]如果项目是个三方包，那么这种不影响他人环境的方式很重要。
 
 ### 小结
-如果想写一个性能最好，体积最小，侵入性最小的babel/polyfill ，
+如果想写一个性能最好，体积最小，侵入性最小的babel/polyfill ，应配置为：![[Pasted image 20220728233405.png]]
 ## env
 虽然有preset，但还是要关心**用户的浏览器能否支持某个feature** 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 配置例子![[Pasted image 20220727015704.png]]

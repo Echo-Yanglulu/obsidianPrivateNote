@@ -29,14 +29,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "b7aed3b2f7f47f37",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -154,9 +146,21 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "f6bd47b9d6b709a4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/babel.md"
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -229,8 +233,8 @@
   },
   "active": "ea63cea4050075ca",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/前端.md",
     "笔记/读书/纳瓦尔宝典.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
