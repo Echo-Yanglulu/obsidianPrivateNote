@@ -4,15 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "080ff7d40f0a2bb9",
+        "id": "cb458d1b4cb70fed",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        },
+        "group": "2515ad75bb84e03c"
+      },
+      {
+        "id": "f59515532fe6ff4b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
+        }
+      },
+      {
+        "id": "33e96099166ae992",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/学习方法/概念/信息结构.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -87,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -128,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,17 +225,51 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "080ff7d40f0a2bb9",
+  "floating": {
+    "id": "c876004692b50a98",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4b4c4e48bccf37b5",
+        "type": "window",
+        "children": [
+          {
+            "id": "d817f54e9544018d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/工程化/脚手架/脚手架.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            },
+            "group": "2515ad75bb84e03c"
+          }
+        ],
+        "direction": "vertical",
+        "x": 815,
+        "y": 124,
+        "width": 732,
+        "height": 817,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "cb458d1b4cb70fed",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/assets/babel基本概念.svg",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/前端.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/思考/减法思维/减法思维.md"
+    "笔记/工具/思考/思考.md"
   ]
 }
