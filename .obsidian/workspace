@@ -21,13 +21,23 @@
       {
         "id": "ea63cea4050075ca",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/前端/工程化/5.构建/babel.md",
             "mode": "source",
             "source": false
-          }
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "b7aed3b2f7f47f37",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -149,8 +159,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -225,44 +234,11 @@
     "direction": "horizontal",
     "width": 623
   },
-  "floating": {
-    "id": "c876004692b50a98",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4b4c4e48bccf37b5",
-        "type": "window",
-        "children": [
-          {
-            "id": "d817f54e9544018d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/前端/前端.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          }
-        ],
-        "direction": "vertical",
-        "x": 815,
-        "y": 124,
-        "width": 732,
-        "height": 817,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "ea63cea4050075ca",
   "lastOpenFiles": [
-    "笔记/前端/前端.md",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/前端/前端.md",
     "笔记/读书/纳瓦尔宝典.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/版本管理/版本管理.md",

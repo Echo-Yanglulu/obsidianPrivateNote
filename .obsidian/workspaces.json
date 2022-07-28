@@ -1038,34 +1038,11 @@
       },
       "active": "d817f54e9544018d"
     },
-    "没有目录的5栏布局": {
+    "5栏": {
       "main": {
         "id": "a00daf7331235eff",
         "type": "split",
         "children": [
-          {
-            "id": "cb458d1b4cb70fed",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            },
-            "group": "2515ad75bb84e03c"
-          },
-          {
-            "id": "f59515532fe6ff4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/整体性学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "33e96099166ae992",
             "type": "leaf",
@@ -1078,6 +1055,29 @@
                 "source": false
               },
               "pinned": true
+            },
+            "group": "b8990eb4de923d68"
+          },
+          {
+            "id": "ea63cea4050075ca",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b7aed3b2f7f47f37",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -1144,40 +1144,59 @@
           {
             "id": "c6a1cba0558ba019",
             "type": "tabs",
-            "dimension": 28.14070351758794,
+            "dimension": 45.22613065326633,
             "children": [
+              {
+                "id": "f59515532fe6ff4b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              },
               {
                 "id": "bd5ff300df2b3029",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md"
-                  }
-                }
+                    "file": "笔记/学习方法/概念/信息结构.md"
+                  },
+                  "pinned": true
+                },
+                "group": "b8990eb4de923d68"
               },
               {
                 "id": "317f497fc058b9b7",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "juggl_nodes",
-                  "state": {}
+                  "state": {},
+                  "pinned": true
                 }
               },
               {
                 "id": "9be427e8a69138d4",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "juggl_style",
-                  "state": {}
+                  "state": {},
+                  "pinned": true
                 }
               },
               {
                 "id": "d6f768adb0296a56",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "review-queue-list-view",
-                  "state": {}
+                  "state": {},
+                  "pinned": true
                 }
               }
             ]
@@ -1185,15 +1204,16 @@
           {
             "id": "01b984a51df1d6b1",
             "type": "tabs",
-            "dimension": 36.08040201005025,
+            "dimension": 31.155778894472363,
             "children": [
               {
                 "id": "37fb741facd8f20b",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
+                    "file": "笔记/学习方法/概念/信息结构.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1201,15 +1221,17 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": false
-                  }
-                }
+                  },
+                  "pinned": true
+                },
+                "group": "b8990eb4de923d68"
               }
             ]
           },
           {
             "id": "279be871517071cb",
             "type": "tabs",
-            "dimension": 35.77889447236181,
+            "dimension": 23.618090452261306,
             "children": [
               {
                 "id": "e06cd8634f0d46cc",
@@ -1223,84 +1245,37 @@
                 }
               },
               {
-                "id": "1e14adfb50c779d7",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
                 "id": "0254f05ae0353b5b",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
+                    "file": "笔记/前端/工程化/5.构建/babel.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
                 }
               },
               {
-                "id": "83121a7b23c40521",
-                "type": "leaf",
-                "state": {
-                  "type": "FANTASY_CALENDAR",
-                  "state": {}
-                }
-              },
-              {
                 "id": "5a5405417dbef7c4",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "graph-analysis",
-                  "state": {}
-                }
+                  "state": {},
+                  "pinned": true
+                },
+                "group": "b8990eb4de923d68"
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
         "width": 623
       },
-      "floating": {
-        "id": "c876004692b50a98",
-        "type": "floating",
-        "children": [
-          {
-            "id": "4b4c4e48bccf37b5",
-            "type": "window",
-            "children": [
-              {
-                "id": "d817f54e9544018d",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                },
-                "group": "2515ad75bb84e03c"
-              }
-            ],
-            "direction": "vertical",
-            "x": 815,
-            "y": 124,
-            "width": 732,
-            "height": 817,
-            "maximize": false,
-            "zoom": 0
-          }
-        ]
-      },
-      "active": "cb458d1b4cb70fed"
+      "active": "ea63cea4050075ca"
     }
   },
-  "active": "没有目录的5栏布局"
+  "active": "5栏"
 }
