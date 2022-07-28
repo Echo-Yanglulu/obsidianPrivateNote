@@ -4,26 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ea63cea4050075ca",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
-            "mode": "source",
-            "source": false
-          },
-          "pinned": true
-        },
-        "group": "810759ca40e5fe94"
-      },
-      {
         "id": "f49a3ac8f2c179fb",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/工程化.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -89,7 +78,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 45.22613065326633,
+        "dimension": 45.226130653266324,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -145,18 +134,23 @@
           {
             "id": "f6bd47b9d6b709a4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md"
-              },
-              "pinned": true
-            },
-            "group": "810759ca40e5fe94"
+                "file": "笔记/前端/工程化/工程化.md"
+              }
+            }
+          },
+          {
+            "id": "3631d6d29635d0e2",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "01b984a51df1d6b1",
@@ -186,7 +180,7 @@
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 23.618090452261306,
+        "dimension": 23.61809045226131,
         "children": [
           {
             "id": "e06cd8634f0d46cc",
@@ -205,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -227,7 +221,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ea63cea4050075ca",
+  "active": "f49a3ac8f2c179fb",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/学习方法/整体性学习.md",
