@@ -73,7 +73,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 ![[Pasted image 20220727224323.png]]
 如此对polyfill 的使用仍存在问题：
 	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会**内联地写入大量的polyfill函数** ，如果*有大量的类语法*，使打包后的dist文件会有大量重复的polyfill代码。
-		1. 解决方案：使用一个插件（就能去除重复的polyfill 函数引入？）![[Pasted image 20220728232929.png]]然后可以让polyfill 代码从这个包中引入，而不是
+		1. 解决方案：使用一个plugin和包![[Pasted image 20220728232929.png]]然后可以让polyfill 代码从这个包中**引入**，而不是**内联地写入**polyfill 代码，即：![[Pasted image 20220728233132.png]]
 ## env
 虽然有preset，但还是要关心**用户的浏览器能否支持某个feature** 。于是出现了env，@babel/preset-env是一种**更智能的preset**，可根据目标环境快速配置babel，
 配置例子![[Pasted image 20220727015704.png]]
