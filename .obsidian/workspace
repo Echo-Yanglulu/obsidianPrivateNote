@@ -4,19 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "33e96099166ae992",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/学习方法/概念/信息结构.md",
-            "mode": "source",
-            "source": false
-          }
-        },
-        "group": "b8990eb4de923d68"
-      },
-      {
         "id": "ea63cea4050075ca",
         "type": "leaf",
         "pinned": true,
@@ -28,6 +15,15 @@
             "source": false
           },
           "pinned": true
+        },
+        "group": "810759ca40e5fe94"
+      },
+      {
+        "id": "f49a3ac8f2c179fb",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -84,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 309
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -157,7 +152,8 @@
                 "file": "笔记/前端/工程化/5.构建/babel.md"
               },
               "pinned": true
-            }
+            },
+            "group": "810759ca40e5fe94"
           }
         ],
         "currentTab": 5
@@ -209,7 +205,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -231,15 +226,15 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ea63cea4050075ca",
+  "active": "f49a3ac8f2c179fb",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/前端.md",
     "笔记/读书/纳瓦尔宝典.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/版本管理/版本管理.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/assets/babel基本概念.svg"

@@ -96,7 +96,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 
 本质是一组NPM包（使用方式）
 	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)）
-	2. 使用babel cli进行**语法转换**，使用babel-node去启动一个应用（先转换）
+	2. 使用**babel cli**进行语法转换，使用babel-node去启动一个应用（先转换）
 	3. **结合打包工具**（webpack, rollup）
 # 配置
 ## 方式
