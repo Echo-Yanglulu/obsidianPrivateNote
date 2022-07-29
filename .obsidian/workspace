@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/工程化/5.构建/babel.md",
             "mode": "source",
             "source": false
           }
@@ -136,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/信息结构.md"
+              }
             }
           },
           {
@@ -147,7 +149,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "01b984a51df1d6b1",
@@ -196,6 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/信息结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -217,12 +221,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "bd5ff300df2b3029",
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/信息结构.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/前端/前端.md",
     "笔记/读书/纳瓦尔宝典.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
