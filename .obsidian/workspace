@@ -136,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/工程化.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -199,7 +196,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -221,8 +217,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f1631f9880d75077",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/信息结构.md",
@@ -231,7 +228,6 @@
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/版本管理/版本管理.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/assets/babel基本概念.svg"
   ]
 }
