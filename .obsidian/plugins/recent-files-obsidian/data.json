@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "babel",
-      "path": "笔记/前端/工程化/5.构建/babel.md"
+      "basename": "parser",
+      "path": "笔记/前端/工程化/2.规范/ESLint/parser.md"
     },
     {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
+    },
+    {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/5.构建/babel.md"
     },
     {
       "basename": "AST",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机基础",
       "path": "笔记/前端/基础知识/计算机基础.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     }
   ],
   "omittedPaths": [],

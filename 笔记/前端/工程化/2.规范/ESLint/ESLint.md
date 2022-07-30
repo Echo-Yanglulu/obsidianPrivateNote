@@ -7,7 +7,7 @@
 # 原理
 
 > 为何有这些强大的特性？
-通过解析器（parser）将JS代码解析为抽象语法树（[[AST]]），再调用规则（rule）对AST进行分析检查以发现语法问题。
+通过解析器（[[parser]]）将JS代码解析为抽象语法树（[[AST]]），再调用规则（rule）对AST进行分析检查以发现语法问题。
 ESLint的规则（rule）就是一个检查AST的函数
 
 # 使用
@@ -22,7 +22,7 @@ webpack/rollup/gulp/grunt/vite ，
 使用很简单，但配置的方式和方法较多
 配置文件格式：JS, JSON, YAML, package.json中的eslintConfig字段。
 配置内容：
- 1. [[parser]]：eslilnt使用哪种解析器
+ 1. [[parser]]：希望eslilnt使用哪种解析器
  2. [[environments]]：当前需要被规范化的代码的[[environments|运行环境]]，就是预先配置好的全局变量的集合（不同环境默认的内置全局变量）
  3. [[globals]]：ENV之外，其他需要自定义的全局变量（自定义的全局变量）
  4. [[rules]]：很多rules可能组成plugin
