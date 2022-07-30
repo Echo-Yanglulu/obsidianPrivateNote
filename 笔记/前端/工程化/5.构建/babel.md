@@ -95,7 +95,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 ### 常用preset
 #### preset-env 
 大多情况只用这个preset即可，主要是两个配置（引入polyfill 代码）
-	1. useBuiltlns配置**polyfill** [^9]
+	1. useBuiltlns配置**polyfill代码注入条件** [^9]
 		1. false：不自动注入[^13]
 		2. usage：实际使用[^14]![[Pasted image 20220728232655.png]]
 		3. entry：环境配置![[Pasted image 20220728232437.png]]
@@ -104,8 +104,8 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 		2. 符合browserslist 语法的字符串。写出条件[^8]筛选出对应的浏览器列表，然后根据结果决定引用的插件。
 		3. 在根目录的.browserslistrc文件中写browserslist 语法字符串
 ![[Pasted image 20220727224323.png]]
-如此对polyfill 的使用仍存在问题：
-	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会**内联地写入大量的polyfill函数** ，如果*有大量的类语法*，使打包后的dist文件会有大量重复的polyfill代码。
+preset-env 如此使用存在的问题：
+	1. ![[Pasted image 20220727235051.png]]如果有*一个类语法*，就会**内联地写入大量的polyfill代码**[^15] ，如果*有大量的类语法*，使打包后的dist文件会有大量重复的polyfill代码。
 		1. 解决方案：使用一个plugin和包![[Pasted image 20220728232929.png]]
 		2. 然后可以让polyfill 代码从这个包中**引入**，而不是**内联地写入**polyfill 代码，即：![[Pasted image 20220728233132.png]]如果项目是个三方包，那么这种不影响他人环境的方式很重要。
 
@@ -137,3 +137,4 @@ preset 与plugin混用的目的，往往是希望在成熟语法之外使用一�
 [^12]: 用于转换generator函数
 [^13]: 默认值：完全由用户决定如何进行polyfill。
 [^14]: 最常用：根据对新feature的使用情况，智能地为每个JS文件引入最小化的polyfill代码。问题：各种polyfill被内联地写入文件
+[^15]: 用于转换API的函数

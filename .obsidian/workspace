@@ -78,7 +78,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 42.11055276381911,
+        "dimension": 57.98994974874372,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -144,7 +144,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 34.2713567839196,
+        "dimension": 42.01005025125628,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -173,15 +173,7 @@
                 "file": "笔记/前端/工程化/5.构建/babel.md"
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "279be871517071cb",
-        "type": "tabs",
-        "dimension": 23.61809045226131,
-        "children": [
+          },
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
@@ -192,36 +184,15 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "0254f05ae0353b5b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "5a5405417dbef7c4",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            },
-            "group": "b8990eb4de923d68"
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6f1cab3fd88bfb2d",
+  "active": "f6bd47b9d6b709a4",
   "lastOpenFiles": [
     "笔记/前端/工程化/5.构建/打包工具.md",
     "笔记/前端/工程化/库/webpack.md",
