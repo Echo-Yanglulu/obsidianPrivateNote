@@ -1,4 +1,29 @@
 插件化的语法转义工具
+# 原理
+概述：将代码转换成token流，转换成AST。
+输入：较高版本的ES代码，输出符合要求的低版本ES代码。如ES7转换成ES5
+过程：不严格对应于[[编译器]]中的5步
+	1. 解析parsing：生成AST
+	2. 转换transformation：操作AST（修改AST的内容）
+	3. 生成code generation：根据AST生成新的代码
+
+# 使用
+为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
+
+本质是一组NPM包（使用方式）
+	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)
+	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先按配置进行转换再执行）
+		1. ![[Pasted image 20220730103129.png]]
+	3. **结合打包工具**（webpack, rollup）
+# 配置
+## 方式
+1. 使用项目根目录的**.babelrc.json**[^3]
+2. 对monorepo的统一配置可使用**babel.config.json**[^4]
+3. **package.json**的babel字段，相当于1中的文件
+## 内容
+将配置传入插件的方式
+![[Pasted image 20220727223048.png]]
+
 
 # 功能
 一种特殊的[[编译器]]，因为==源语言与目标语言都是JS==：把高版本的JS转换为低版本的JS[^1]
@@ -89,30 +114,8 @@ plugin: ['名称', 配置对象]
 [browserslist](https://github.com/browserslist/browserslist)及[compat-table](https://github.com/kangax/compat-table)是干嘛用的？统计数据？
 ## 小结
 ![[babel基本概念.svg]]
-# 原理
-概述：将代码转换成token流，转换成AST。
-输入：较高版本的ES代码，输出符合要求的低版本ES代码。如ES7转换成ES5
-过程：不严格对应于[[编译器]]中的5步
-	1. 解析parsing：生成AST
-	2. 转换transformation：操作AST（修改AST的内容）
-	3. 生成code generation：根据AST生成新的代码
 
-# 使用
-为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
 
-本质是一组NPM包（使用方式）
-	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)
-	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先转换再执行）
-		1. ![[Pasted image 20220730103129.png]]
-	3. **结合打包工具**（webpack, rollup）
-# 配置
-## 方式
-1. 使用项目根目录的**.babelrc.json**[^3]
-2. 对monorepo的统一配置可使用**babel.config.json**[^4]
-3. **package.json**的babel字段，相当于1中的文件
-## 内容
-将配置传入插件的方式
-![[Pasted image 20220727223048.png]]
 
 [^1]: 随时享受新语法带来的便利。【proxy不是不能编译？】
 [^2]: 装修时，用来抹平墙面的腻子。抹平浏览器高低版本的差异
