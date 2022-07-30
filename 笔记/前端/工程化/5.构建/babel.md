@@ -14,7 +14,8 @@
 	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)
 	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先按配置进行转换再执行）
 		1. ![[Pasted image 20220730103129.png]]
-	3. **结合打包工具**（webpack, rollup）
+	3. 结合[[打包工具]]
+		1. ![[Pasted image 20220730103504.png]]
 # 配置
 ## 方式
 1. 使用项目根目录的**.babelrc.json**[^3]
