@@ -102,7 +102,8 @@ plugin: ['名称', 配置对象]
 
 本质是一组NPM包（使用方式）
 	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)）
-	2. 使用**babel cli**进行语法转换，使用babel-node去启动一个应用（先转换）
+	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先转换再执行）
+
 	3. **结合打包工具**（webpack, rollup）
 # 配置
 ## 方式

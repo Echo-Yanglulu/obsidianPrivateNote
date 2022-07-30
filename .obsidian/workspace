@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/工程化/5.构建/babel.md",
             "mode": "source",
             "source": false
           }
@@ -78,7 +78,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 45.226130653266324,
+        "dimension": 42.1105527638191,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -132,16 +132,6 @@
             }
           },
           {
-            "id": "f6bd47b9d6b709a4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/工程化.md"
-              }
-            }
-          },
-          {
             "id": "3631d6d29635d0e2",
             "type": "leaf",
             "state": {
@@ -154,7 +144,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 31.155778894472363,
+        "dimension": 34.2713567839196,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -173,13 +163,24 @@
               }
             },
             "group": "b8990eb4de923d68"
+          },
+          {
+            "id": "f6bd47b9d6b709a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/babel.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "279be871517071cb",
         "type": "tabs",
-        "dimension": 23.61809045226131,
+        "dimension": 23.618090452261306,
         "children": [
           {
             "id": "e06cd8634f0d46cc",
@@ -198,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -222,10 +223,10 @@
   },
   "active": "b30f2d97ecaadc13",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/前端.md",
     "笔记/读书/纳瓦尔宝典.md",
