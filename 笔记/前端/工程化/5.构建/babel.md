@@ -93,7 +93,7 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 一组插件的集合（难道不是内置的插件？）
 可使用对应的preset插件，一键配置对应项目的babel
 ### 使用
-配置方式与plugin相似。为何preset也要配置？因为preset本质就是一组plugin的集合。
+配置方式与plugin相似。preset本质就是一组plugin的集合。==可依赖其他preset==。
 ### 执行顺序
 1. 在plugin之后执行
 2. preset之间**从后向前**执行。
