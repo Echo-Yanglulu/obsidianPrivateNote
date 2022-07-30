@@ -117,6 +117,7 @@ preset 与plugin混用的目的，往往是希望在成熟语法之外使用一�
 配置例子![[Pasted image 20220727015704.png]]
 [browserslist](https://github.com/browserslist/browserslist)及[compat-table](https://github.com/kangax/compat-table)是干嘛用的？统计数据？
 ## 小结
+如何使用语法转换功能？如何使用polyfill 功能？如何使用修改源码功能？
 ![[babel基本概念.svg]]
 
 
