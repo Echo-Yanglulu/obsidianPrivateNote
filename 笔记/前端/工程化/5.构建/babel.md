@@ -92,6 +92,9 @@ babel会为前4个阶段提供专门的preset。但babel 7已不再添加这些�
 ### 执行顺序
 1. 在plugin之后执行
 2. preset之间**从后向前**执行。
+
+plugin执行后执行preset能保证先转换新特性，preset就只需关心比较稳定的语法。
+
 ### 常用preset
 #### preset-env 
 大多情况只用这个preset即可，主要是两个配置（引入polyfill 代码）
