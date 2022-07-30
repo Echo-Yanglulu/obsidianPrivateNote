@@ -6,7 +6,8 @@
 不严格对应于[[编译器]]中的5步
 	1. 解析parsing：生成AST
 	2. 转换transformation：操作AST（修改AST的内容）
-	3. 生成code generation：根据AST生成新的代码
+	3. 生成code generation：根据AST生成新代码
+不用关注解析与生成，babel实现，开发者只需关注转换。
 
 # 使用
 为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
