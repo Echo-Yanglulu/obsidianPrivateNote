@@ -101,9 +101,9 @@ plugin: ['名称', 配置对象]
 为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
 
 本质是一组NPM包（使用方式）
-	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)）
+	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)
 	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先转换再执行）
-
+		1. ![[Pasted image 20220730103129.png]]
 	3. **结合打包工具**（webpack, rollup）
 # 配置
 ## 方式
