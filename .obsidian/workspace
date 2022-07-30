@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/编译原理/AST.md",
+            "file": "笔记/前端/工程化/ES Module.md",
             "mode": "source",
             "source": false
           }
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/编译原理/AST.md"
+                "file": "笔记/前端/工程化/ES Module.md"
               }
             },
             "group": "89a1a0b67f817208"
@@ -198,13 +199,13 @@
   "lastOpenFiles": [
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/基础知识/编译原理/AST.md",
+    "笔记/前端/基础知识/计算机基础.md",
+    "笔记/前端/基础知识/编译原理/编译原理.md",
     "笔记/学习方法/概念/信息结构.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
     "静态分析.md",
-    "笔记/前端/工程化/assets/Pasted image 20220730104132.png",
-    "笔记/前端/工程化/assets/Pasted image 20220730103504.png",
-    "笔记/前端/工程化/assets/Pasted image 20220730103129.png"
+    "笔记/前端/工程化/assets/Pasted image 20220730104132.png"
   ]
 }
