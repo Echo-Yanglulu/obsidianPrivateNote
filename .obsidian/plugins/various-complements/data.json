@@ -210,8 +210,8 @@
           "lastUpdated": 1657582023420
         },
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1658654370161
+          "count": 2,
+          "lastUpdated": 1659368134209
         }
       }
     },
@@ -298,8 +298,8 @@
     "plugin": {
       "plugin": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1659149187385
+          "count": 4,
+          "lastUpdated": 1659197650791
         }
       }
     },
@@ -620,6 +620,78 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1659170833042
+        }
+      }
+    },
+    "tabable": {
+      "tabable": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1659182662194
+        }
+      }
+    },
+    "chunk": {
+      "chunk": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1659459862485
+        }
+      }
+    },
+    "bundle": {
+      "bundle": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1659459322637
+        }
+      }
+    },
+    "loader": {
+      "loader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659197228085
+        }
+      }
+    },
+    "css-loader": {
+      "css-loader": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1659367790172
+        }
+      }
+    },
+    "HTML": {
+      "HTML": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1659367928921
+        }
+      }
+    },
+    "HtmlWebpackPlugin": {
+      "HtmlWebpackPlugin": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659368002979
+        }
+      }
+    },
+    "file-loader": {
+      "file-loader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659368275092
+        }
+      }
+    },
+    "url-loader": {
+      "url-loader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659368287360
         }
       }
     }

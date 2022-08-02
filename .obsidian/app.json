@@ -10,7 +10,10 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showLineNumber": true,
+  "showLineNumber": false,
   "readableLineLength": false,
-  "attachmentFolderPath": "笔记/前端/库、框架/react"
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": false,
+  "showFrontmatter": true
 }

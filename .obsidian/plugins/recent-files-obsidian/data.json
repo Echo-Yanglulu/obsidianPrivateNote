@@ -1,8 +1,160 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.svg"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "gulp",
+      "path": "笔记/前端/工程化/5.构建/gulp.md"
+    },
+    {
+      "basename": "Untitled Diagram 1",
+      "path": "笔记/前端/工程化/5.构建/Untitled Diagram 1.svg"
+    },
+    {
+      "basename": "内心",
+      "path": "笔记/内心/内心.md"
+    },
+    {
+      "basename": "逃避",
+      "path": "笔记/内心/逃避.md"
+    },
+    {
+      "basename": "焦虑",
+      "path": "笔记/内心/焦虑.md"
+    },
+    {
+      "basename": "幻想",
+      "path": "笔记/内心/幻想.md"
+    },
+    {
+      "basename": "压力",
+      "path": "笔记/内心/压力.md"
+    },
+    {
+      "basename": "心灵",
+      "path": "笔记/内心/心灵.md"
+    },
+    {
+      "basename": "世界",
+      "path": "笔记/内心/世界.md"
+    },
+    {
+      "basename": "欲望",
+      "path": "笔记/内心/欲望.md"
+    },
+    {
+      "basename": "哲学",
+      "path": "笔记/读书/哲学/哲学.md"
+    },
+    {
+      "basename": "历史",
+      "path": "笔记/读书/历史/历史.md"
+    },
+    {
+      "basename": "科学",
+      "path": "笔记/读书/科学/科学.md"
+    },
+    {
+      "basename": "常识",
+      "path": "笔记/读书/常识/常识.md"
+    },
+    {
+      "basename": "信息结构",
+      "path": "笔记/学习方法/概念/信息结构.md"
+    },
+    {
+      "basename": "写作",
+      "path": "笔记/写作/写作.md"
+    },
+    {
+      "basename": "脚手架",
+      "path": "笔记/前端/工程化/脚手架/脚手架.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
       "basename": "babel",
       "path": "笔记/前端/工程化/5.构建/babel.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
+      "basename": "4.工程设计",
+      "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
+    },
+    {
+      "basename": "3.质量",
+      "path": "笔记/前端/工程化/3.质量/3.质量.md"
+    },
+    {
+      "basename": "1.脚本",
+      "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
+    },
+    {
+      "basename": "2.规范",
+      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+    },
+    {
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
+    },
+    {
+      "basename": "Pasted image 20220730201026",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220730201026.png"
+    },
+    {
+      "basename": "Pasted image 20220730200434",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220730200434.png"
+    },
+    {
+      "basename": "Pasted image 20220730171452",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220730171452.png"
+    },
+    {
+      "basename": "Pasted image 20220730170953",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220730170953.png"
+    },
+    {
+      "basename": "控方证人",
+      "path": "笔记/电影/控方证人.md"
+    },
+    {
+      "basename": "触不可及",
+      "path": "笔记/电影/触不可及.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
+    },
+    {
+      "basename": "打包工具",
+      "path": "笔记/前端/工程化/5.构建/打包工具.md"
     },
     {
       "basename": "AST",
@@ -29,18 +181,6 @@
       "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     },
     {
-      "basename": "信息结构",
-      "path": "笔记/学习方法/概念/信息结构.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
       "basename": "Pasted image 20220730104132",
       "path": "笔记/前端/工程化/assets/Pasted image 20220730104132.png"
     },
@@ -55,150 +195,6 @@
     {
       "basename": "Pasted image 20220730102924",
       "path": "笔记/前端/工程化/assets/Pasted image 20220730102924.png"
-    },
-    {
-      "basename": "Pasted image 20220728233405",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220728233405.png"
-    },
-    {
-      "basename": "Pasted image 20220728233132",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220728233132.png"
-    },
-    {
-      "basename": "Pasted image 20220728232929",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220728232929.png"
-    },
-    {
-      "basename": "Pasted image 20220728232655",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220728232655.png"
-    },
-    {
-      "basename": "Pasted image 20220728232437",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220728232437.png"
-    },
-    {
-      "basename": "Pasted image 20220727235051",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220727235051.png"
-    },
-    {
-      "basename": "Pasted image 20220727224323",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220727224323.png"
-    },
-    {
-      "basename": "Pasted image 20220727223048",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220727223048.png"
-    },
-    {
-      "basename": "触不可及",
-      "path": "笔记/电影/触不可及.md"
-    },
-    {
-      "basename": "内心",
-      "path": "笔记/内心/内心.md"
-    },
-    {
-      "basename": "常识",
-      "path": "笔记/读书/常识/常识.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
-    },
-    {
-      "basename": "parser",
-      "path": "笔记/前端/工程化/2.规范/ESLint/parser.md"
-    },
-    {
-      "basename": "多仓库选型",
-      "path": "笔记/前端/工程化/4.工程设计/多仓库选型.md"
-    },
-    {
-      "basename": "打包工具",
-      "path": "笔记/前端/工程化/5.构建/打包工具.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/库/webpack.md"
-    },
-    {
-      "basename": "工程化库",
-      "path": "笔记/前端/库、框架/工程化库/工程化库.md"
-    },
-    {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
-    },
-    {
-      "basename": "整体性学习",
-      "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
-      "basename": "纳瓦尔宝典",
-      "path": "笔记/读书/纳瓦尔宝典.md"
-    },
-    {
-      "basename": "版本管理",
-      "path": "笔记/前端/版本管理/版本管理.md"
-    },
-    {
-      "basename": "脚手架",
-      "path": "笔记/前端/工程化/脚手架/脚手架.md"
-    },
-    {
-      "basename": "babel基本概念",
-      "path": "笔记/前端/工程化/assets/babel基本概念.svg"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "笔记/前端/工程化/Untitled Diagram.svg"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
-    },
-    {
-      "basename": "减法思维",
-      "path": "笔记/工具/思考/减法思维/减法思维.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "笔记流",
-      "path": "笔记/学习方法/概念/笔记流.md"
-    },
-    {
-      "basename": "胸部",
-      "path": "笔记/人的行为/健身/部位/胸部.md"
-    },
-    {
-      "basename": "找到弱点",
-      "path": "笔记/学习方法/概念/找到弱点.md"
-    },
-    {
-      "basename": "记笔记",
-      "path": "笔记/学习方法/记笔记.md"
-    },
-    {
-      "basename": "概念",
-      "path": "笔记/学习方法/概念/概念.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "笔记/前端/设计模式/设计模式.md"
-    },
-    {
-      "basename": "面向对象",
-      "path": "笔记/前端/设计模式/assets/面向对象.svg"
-    },
-    {
-      "basename": "思想",
-      "path": "笔记/工具/思考/思维概念/思想.md"
     }
   ],
   "omittedPaths": [],

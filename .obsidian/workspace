@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6f1cab3fd88bfb2d",
+        "id": "18d68827b1dc9b2d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
+            "file": "笔记/前端/工程化/5.构建/webpack.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "89a1a0b67f817208"
+        }
       }
     ],
     "direction": "vertical"
@@ -66,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -80,7 +78,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 57.98994974874372,
+        "dimension": 59.21052631578947,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -91,17 +89,6 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "bd5ff300df2b3029",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/信息结构.md"
-              }
-            },
-            "group": "b8990eb4de923d68"
           },
           {
             "id": "317f497fc058b9b7",
@@ -134,7 +121,27 @@
             }
           },
           {
-            "id": "3631d6d29635d0e2",
+            "id": "972ef8530c4b53a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "efa986629590d479",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "98e58aaaf743feda",
             "type": "leaf",
             "state": {
               "type": "FANTASY_CALENDAR",
@@ -146,7 +153,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 42.01005025125628,
+        "dimension": 40.789473684210535,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -154,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,19 +170,7 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
-            },
-            "group": "b8990eb4de923d68"
-          },
-          {
-            "id": "f6bd47b9d6b709a4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/5.构建/babel.md"
-              }
-            },
-            "group": "89a1a0b67f817208"
+            }
           },
           {
             "id": "e06cd8634f0d46cc",
@@ -187,25 +182,34 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "bd5ff300df2b3029",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "笔记/前端/工程化/5.构建/webpack.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 623
+    "width": 455.5
   },
-  "active": "6f1cab3fd88bfb2d",
+  "active": "18d68827b1dc9b2d",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/编译原理/AST.md",
-    "笔记/前端/工程化/5.构建/babel.md",
-    "静态分析.md",
-    "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/基础知识/编译原理/编译器.md",
-    "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/基础知识/编译原理/编译原理.md",
-    "笔记/学习方法/概念/信息结构.md",
+    "笔记/前端/工程化/5.构建/webpack.svg",
+    "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md"
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
+    "笔记/前端/工程化/5.构建/Untitled Diagram 1.svg",
+    "笔记/内心/内心.md",
+    "笔记/内心/逃避.md"
   ]
 }
