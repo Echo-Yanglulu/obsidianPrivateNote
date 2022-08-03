@@ -12,6 +12,12 @@
             {
               "leaf": "ee62d6c68f275d12",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}}}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/未命名.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
@@ -68,7 +74,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/未命名.md",
+            "file": "笔记/工具/思考/思考.md",
             "mode": "source",
             "source": false
           }
@@ -477,7 +483,6 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 59.21052631578947,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -510,7 +515,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/未命名.md",
+                "file": "笔记/读书/模型思维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -581,7 +586,6 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 40.789473684210535,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -589,7 +593,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/未命名.md",
+                "file": "笔记/读书/模型思维.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -614,10 +618,14 @@
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/未命名.md"
+                "file": "笔记/读书/模型思维.md"
               }
             }
           }
@@ -628,17 +636,17 @@
     "direction": "horizontal",
     "width": 593
   },
-  "active": "ee62d6c68f275d12",
+  "active": "4736a7b63599d22b",
   "lastOpenFiles": [
     "笔记/工具/思考/思考.md",
+    "笔记/读书/模型思维.md",
+    "笔记/工具/思考/未命名.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
+    "笔记/前端/工程化/2.规范/2.规范.md"
   ]
 }
