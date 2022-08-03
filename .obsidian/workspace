@@ -12,8 +12,8 @@
             {
               "leaf": "ee62d6c68f275d12",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/未命名.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "ee62d6c68f275d12",
@@ -86,7 +86,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/未命名.md",
+            "file": "笔记/工具/工具.md",
             "mode": "source",
             "source": false
           }
@@ -454,6 +454,10 @@
           {
             "id": "989de35848378ae3",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "search",
               "state": {
@@ -469,6 +473,10 @@
           {
             "id": "f228e16b95d44e75",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "starred",
               "state": {}
@@ -477,6 +485,10 @@
           {
             "id": "69a2e6fc80af00cf",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "recent-files",
               "state": {}
@@ -527,7 +539,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/未命名.md",
+                "file": "笔记/工具/工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -602,10 +614,14 @@
           {
             "id": "37fb741facd8f20b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/未命名.md",
+                "file": "笔记/工具/工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -619,6 +635,10 @@
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -637,7 +657,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/未命名.md"
+                "file": "笔记/工具/工具.md"
               }
             }
           }
@@ -653,4 +673,12 @@
     "笔记/工具/意识/意识.md",
     "笔记/工具/思考/思考.md",
     "笔记/读书/模型思维.md",
-   
+    "笔记/工具/思考/未命名.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/5.构建/webpack.svg",
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/npm.md"
+  ]
+}
