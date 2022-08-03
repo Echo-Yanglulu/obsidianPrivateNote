@@ -15,5 +15,6 @@
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
   "showUnsupportedFiles": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "communityPluginSortOrder": "release"
 }

@@ -109,16 +109,6 @@
             }
           },
           {
-            "id": "d6f768adb0296a56",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "972ef8530c4b53a6",
             "type": "leaf",
             "state": {
@@ -143,6 +133,14 @@
             "type": "leaf",
             "state": {
               "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "a03ea82f44b956df",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
               "state": {}
             }
           }
@@ -198,7 +196,7 @@
     "direction": "horizontal",
     "width": 455.5
   },
-  "active": "588ab61d4152dadc",
+  "active": "a03ea82f44b956df",
   "lastOpenFiles": [
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/webpack.svg",

@@ -60,6 +60,13 @@ var import_obsidian3 = __toModule(require("obsidian"));
 // src/CreateNoteModal.ts
 var import_obsidian2 = __toModule(require("obsidian"));
 
+// src/enums.ts
+var NewFileLocation;
+(function(NewFileLocation2) {
+  NewFileLocation2["CurrentPane"] = "current-pane";
+  NewFileLocation2["NewPane"] = "new-pane";
+})(NewFileLocation || (NewFileLocation = {}));
+
 // src/utils.ts
 var import_obsidian = __toModule(require("obsidian"));
 var path = {
@@ -77,8 +84,9 @@ var path = {
 
 // src/CreateNoteModal.ts
 var CreateNoteModal = class extends import_obsidian2.Modal {
-  constructor(app) {
+  constructor(app, mode) {
     super(app);
+    this.mode = mode;
     this.inputEl = document.createElement("input");
     this.inputEl.type = "text";
     this.inputEl.placeholder = "Type filename for new note";
@@ -171,7 +179,12 @@ var CreateNoteModal = class extends import_obsidian2.Modal {
           yield this.createDirectory(dir);
         }
         const File = yield vault.create(filePath, "");
-        yield this.app.workspace.activeLeaf.openFile(File);
+        if (this.mode === NewFileLocation.NewPane) {
+          const leaf = this.app.workspace.splitLeafOrActive();
+          yield leaf.openFile(File);
+        } else {
+          yield this.app.workspace.activeLeaf.openFile(File);
+        }
       } catch (error) {
         new import_obsidian2.Notice(error.toString());
       }
@@ -189,8 +202,9 @@ var instructions = [
   { command: "esc", purpose: "to dismiss" }
 ];
 var ChooseFolderModal = class extends import_obsidian3.FuzzySuggestModal {
-  constructor(app) {
+  constructor(app, mode) {
     super(app);
+    this.mode = mode;
     this.init();
   }
   init() {
@@ -205,7 +219,7 @@ var ChooseFolderModal = class extends import_obsidian3.FuzzySuggestModal {
     this.setPlaceholder(PLACEHOLDER_TEXT);
     this.setInstructions(instructions);
     this.initChooseFolderItem();
-    this.createNoteModal = new CreateNoteModal(this.app);
+    this.createNoteModal = new CreateNoteModal(this.app, this.mode);
     this.inputListener = this.listenInput.bind(this);
   }
   getItems() {
@@ -284,9 +298,16 @@ var AdvancedNewFilePlugin = class extends import_obsidian4.Plugin {
       console.log("loading plugin");
       this.addCommand({
         id: "advanced-new-file",
-        name: "Create note",
+        name: "Create note in the current pane",
         callback: () => {
-          new ChooseFolderModal(this.app).open();
+          new ChooseFolderModal(this.app, NewFileLocation.CurrentPane).open();
+        }
+      });
+      this.addCommand({
+        id: "advanced-new-file-new-pane",
+        name: "Create note in a new pane",
+        callback: () => {
+          new ChooseFolderModal(this.app, NewFileLocation.NewPane).open();
         }
       });
     });
