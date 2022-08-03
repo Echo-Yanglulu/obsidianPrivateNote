@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/内心/内心.md",
             "mode": "source",
             "source": false
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/内心/内心.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/内心/内心.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/内心/内心.md"
               }
             }
           }
@@ -186,6 +186,7 @@
   },
   "active": "75d358e3f9ec05fd",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/心法.md",
     "笔记/学习方法/概念/学习的阶段.md",
@@ -194,7 +195,6 @@
     "笔记/学习方法/概念/图表.md",
     "笔记/前端/工程化/3.质量/sentry.md",
     "笔记/学习方法/概念/拓展.md",
-    "静态分析.md",
-    "笔记/工具/工具.md"
+    "静态分析.md"
   ]
 }
