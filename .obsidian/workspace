@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/工程化/5.构建/webpack.md",
             "mode": "source",
             "source": false
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/前端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,28 +173,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/前端/前端.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 593
   },
-  "active": "9d303386e435d377",
+  "active": "330a5bb1d5f243dc",
   "lastOpenFiles": [
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
+    "笔记/前端/工程化/库/rollup.md",
+    "笔记/前端/工程化/git.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/心法.md",
-    "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/万物通用概念/技术.md",
-    "笔记/学习方法/概念/图表.md",
-    "笔记/前端/工程化/3.质量/sentry.md",
-    "笔记/学习方法/概念/拓展.md",
-    "静态分析.md"
+    "笔记/学习方法/心法.md"
   ]
 }
