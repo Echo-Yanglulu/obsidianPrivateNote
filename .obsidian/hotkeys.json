@@ -165,5 +165,25 @@
       ],
       "key": "S"
     }
+  ],
+  "obsidian-sidebar-toggler:show-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-sidebar-toggler:hide-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
   ]
 }

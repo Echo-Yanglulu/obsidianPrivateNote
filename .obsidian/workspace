@@ -7,9 +7,11 @@
         "id": "588ab61d4152dadc",
         "type": "leaf",
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.svg"
+            "file": "笔记/前端/工程化/5.构建/webpack.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -173,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg"
+                "file": "笔记/前端/工程化/5.构建/webpack.md"
               }
             }
           }
@@ -212,10 +215,10 @@
     "direction": "horizontal",
     "width": 455.5
   },
-  "active": "8a0a51b763534f2e",
+  "active": "588ab61d4152dadc",
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/5.构建/webpack.md",
