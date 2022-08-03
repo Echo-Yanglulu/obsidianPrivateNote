@@ -9,103 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/工具.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "bdeea0e3cbb65964",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "8369769726c6515e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "9262e2050248b060",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/babel.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "62751f8a0b927a21",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/gulp.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "cfb67dc1f551288e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/读书/基本概念/运气.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "2bdcbd4bf66d7dfd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/gulp.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "6b5f91ca66d673ea",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0b42d598571d6dcc",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -191,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           }
@@ -280,17 +184,17 @@
     "direction": "horizontal",
     "width": 593
   },
-  "active": "bdeea0e3cbb65964",
+  "active": "ee62d6c68f275d12",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/前端/工程化/5.构建/webpack.md",
-    "笔记/前端/工程化/5.构建/gulp.md",
-    "笔记/读书/基本概念/运气.md",
+    "静态分析.md",
     "笔记/工具/工具.md",
-    "笔记/工具/意识/意识.md",
     "笔记/工具/思考/思考.md",
+    "笔记/工具/意识/意识.md",
+    "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/读书/基本概念/运气.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/读书/模型思维.md",
-    "笔记/工具/思考/未命名.md",
-    "笔记/前端/前端.md"
+    "笔记/工具/思考/未命名.md"
   ]
 }
