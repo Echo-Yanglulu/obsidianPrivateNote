@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "588ab61d4152dadc",
+        "id": "ee62d6c68f275d12",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
           }
         }
       }
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "01b984a51df1d6b1",
@@ -176,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md"
+                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
               }
             }
           }
@@ -215,15 +213,16 @@
     "direction": "horizontal",
     "width": 455.5
   },
-  "active": "588ab61d4152dadc",
+  "active": "ee62d6c68f275d12",
   "lastOpenFiles": [
+    "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/前端/工程化/5.构建/Untitled Diagram 1.svg",
+    "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/前端.md",
-    "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/5.构建/gulp.md",
-    "笔记/前端/工程化/5.构建/Untitled Diagram 1.svg",
     "笔记/内心/内心.md",
     "笔记/内心/逃避.md"
   ]
