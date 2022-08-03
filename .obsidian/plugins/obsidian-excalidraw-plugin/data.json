@@ -68,7 +68,14 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Add Link to Existing File and Open": {
+      "Open link in active pane": {
+        "value": false,
+        "description": "Open the link in the current active pane (on) or a new pane (off)."
+      }
+    }
+  },
   "defaultTrayMode": false,
   "previousRelease": "1.7.9",
   "showReleaseNotes": true,
