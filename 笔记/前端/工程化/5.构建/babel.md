@@ -8,14 +8,14 @@
 	1. 解析parsing：生成AST（前三步合并？词法，语法，主义分析）
 	2. 转换transformation：操作AST（修改AST的内容）
 	3. 生成code generation：根据最终的AST生成新代码
-不用关注解析与生成，babel实现，开发者只需关注转换（读写AST）。
+不用关注解析与生成，babel实现，开发者只需关注**转换**（读写AST）。
 
 # 使用
 为何babel配置了这里，那里却失效了？因为对babel的基本概念没有整体的了解，看babel完全是看黑盒。
 
 本质是一组NPM包（使用方式）
 	1. 如果只需要部分功能，可**直接require**某个包（如require(@babel/core)
-	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先按配置进行转换再执行）
+	2. 通过**babel cli**进行语法转换，使用babel-node去启动一个应用（先按配置进行转换，再用node执行该脚本）
 		1. ![[Pasted image 20220730103129.png]]
 	3. 结合[[打包工具]]使用
 		1. ![[Pasted image 20220730103504.png]]
