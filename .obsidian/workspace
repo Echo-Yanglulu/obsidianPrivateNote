@@ -13,7 +13,7 @@
               "leaf": "ee62d6c68f275d12",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}}}"
+              "eState": "{}"
             },
             {
               "leaf": "ee62d6c68f275d12",
@@ -515,7 +515,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/读书/模型思维.md",
+                "file": "笔记/工具/思考/思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -593,7 +593,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/读书/模型思维.md",
+                "file": "笔记/工具/思考/思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -625,7 +625,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/读书/模型思维.md"
+                "file": "笔记/工具/思考/思考.md"
               }
             }
           }
@@ -636,10 +636,10 @@
     "direction": "horizontal",
     "width": 593
   },
-  "active": "4736a7b63599d22b",
+  "active": "ee62d6c68f275d12",
   "lastOpenFiles": [
-    "笔记/工具/思考/思考.md",
     "笔记/读书/模型思维.md",
+    "笔记/工具/思考/思考.md",
     "笔记/工具/思考/未命名.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
