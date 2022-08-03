@@ -7,9 +7,11 @@
         "id": "ee62d6c68f275d12",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
+            "file": "笔记/前端/工程化/2.规范/2.规范.md",
+            "mode": "source",
+            "source": false
           }
         }
       },
@@ -341,32 +343,12 @@
             }
           },
           {
-            "id": "317f497fc058b9b7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "9be427e8a69138d4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "972ef8530c4b53a6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
+                "file": "笔记/前端/工程化/2.规范/2.规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -413,7 +395,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       },
       {
         "id": "01b984a51df1d6b1",
@@ -426,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
+                "file": "笔记/前端/工程化/2.规范/2.规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -454,7 +436,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
+                "file": "笔记/前端/工程化/2.规范/2.规范.md"
               }
             }
           }
@@ -467,15 +449,15 @@
   },
   "active": "ee62d6c68f275d12",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/gulp.md",
+    "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/前端/工程化/2.规范/2.规范.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/读书/基本概念/运气.md",
     "笔记/前端/工程化/5.构建/webpack.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
-    "笔记/前端/工程化/Untitled Diagram.svg",
-    "笔记/前端/工程化/5.构建/Untitled Diagram 1.svg",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/前端.md"
+    "笔记/前端/工程化/Untitled Diagram.svg"
   ]
 }
