@@ -1,18 +1,21 @@
 {
   "settings": {
+    "flashcardEasyText": "简单",
+    "flashcardGoodText": "记得",
+    "flashcardHardText": "较难",
     "flashcardTags": [
       "#flashcards"
     ],
-    "convertFoldersToDecks": true,
+    "convertFoldersToDecks": false,
     "cardCommentOnSameLine": false,
     "burySiblingCards": false,
     "showContextInCards": true,
     "flashcardHeightPercentage": 80,
     "flashcardWidthPercentage": 40,
-    "showFileNameInFileLink": false,
+    "showFileNameInFileLink": true,
     "randomizeCardOrder": true,
     "convertHighlightsToClozes": true,
-    "convertBoldTextToClozes": false,
+    "convertBoldTextToClozes": true,
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::",
     "multilineCardSeparator": "?",
@@ -32,6 +35,6 @@
     "maxLinkFactor": 1,
     "showDebugMessages": false
   },
-  "buryDate": "2022-07-06",
+  "buryDate": "2022-08-03",
   "buryList": []
 }
