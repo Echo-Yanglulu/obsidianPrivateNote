@@ -13,7 +13,7 @@
               "leaf": "ee62d6c68f275d12",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "ee62d6c68f275d12",
@@ -554,18 +554,6 @@
             },
             "state": {
               "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "98e58aaaf743feda",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "FANTASY_CALENDAR",
               "state": {}
             }
           },
