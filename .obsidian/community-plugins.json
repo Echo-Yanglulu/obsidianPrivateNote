@@ -55,8 +55,6 @@
   "obsidian-vault-statistics-plugin",
   "cm-show-whitespace-obsidian",
   "wikilinks-to-mdlinks-obsidian",
-  "obsidian-indent-lines",
-  "obsidian-incremental-writing",
   "consistent-attachments-and-links",
   "obsidian-pluck",
   "obsidian-wikipedia",
@@ -66,13 +64,10 @@
   "obsidian-echarts",
   "obsidian-sidebar-toggler",
   "obsidian-trim-whitespace",
-  "obsidian-hover-editor",
   "format-hotkeys-obsidian",
   "obsidian-fountain",
-  "obsidian-image-uploader",
   "obsidian-journey-plugin",
   "juggl",
-  "markdown-attributes",
   "obsidian-markdown-formatting-assistant-plugin",
   "markdown-prettifier",
   "obsidian-leaflet-plugin",
@@ -91,5 +86,9 @@
   "obsidian-comments",
   "cycle-through-panes",
   "discordian-plugin",
-  "obsidian-dynamic-highlights"
+  "obsidian-dynamic-highlights",
+  "folder-note-plugin",
+  "obsidian-hover-editor",
+  "obsidian-image-uploader",
+  "obsidian-incremental-writing"
 ]
