@@ -5,12 +5,12 @@
 ![[webpack.svg]]
 # 工作流程
 1. 初始化
-主要是实例化Compiler对象（以及实例化多个tapable hook）
+主要是**实例化Compiler对象**（以及实例化**多个tapable hook**）
 ![[Pasted image 20220730200434.png]]
 配置
 tabable插件体系
 2. 准备工作
-初始化plugin：依次调用每个插件的apply方法的过程
+初始化**plugin**：依次调用每个插件的apply方法的过程
 3. resolve源文件，构建module
 遍历源文件，从3到最后，都是由plugin以**注册hook回调**的方式参与
 4. 生成chunk
@@ -34,7 +34,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 使用**加载器**处理[^2]JS/JSON之外的其他**文件**。因为webpack是基于node.js开发的，node天然支持js。
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules【说明loader处理得到JS模块】
 ![[Pasted image 20220731000757.png]]
-## plugin 
+## plugin
 更高级的**构建、打包**功能（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
@@ -46,7 +46,7 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 ## 文件概念
 ### bundle
 从入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件
-### chunk 
+### chunk
 从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
 # 配置
 ## 资源加载
