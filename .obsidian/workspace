@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
+            "file": "笔记/前端/工程化/5.构建/babel.md",
             "mode": "source",
             "source": false
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/前端.md",
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/前端.md",
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,27 +173,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/前端.md"
+                "file": "笔记/前端/基础知识/编译原理/编译器.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 593
   },
-  "active": "330a5bb1d5f243dc",
+  "active": "d50c24a0605eba14",
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
     "笔记/前端/前端.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/前端/工程化/库/rollup.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/心法.md"
+    "笔记/前端/工程化/git.md"
   ]
 }
