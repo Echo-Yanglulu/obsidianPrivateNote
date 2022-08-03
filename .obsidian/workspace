@@ -12,8 +12,32 @@
             {
               "leaf": "ee62d6c68f275d12",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":5.761904761904762}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/5.构建.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":41.0124080882353}"
+              "eState": "{\"scroll\":41.0124080882353}"
             },
             {
               "leaf": "ee62d6c68f275d12",
@@ -26,7 +50,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/npm.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -440,6 +464,17 @@
           {
             "id": "f59515532fe6ff4b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "f59515532fe6ff4b",
+                  "group": null,
+                  "state": "{\"type\":\"graph\",\"state\":{},\"pinned\":true}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "pinned": true,
             "state": {
               "type": "graph",
@@ -450,10 +485,13 @@
           {
             "id": "972ef8530c4b53a6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/npm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -462,6 +500,10 @@
           {
             "id": "efa986629590d479",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "graph-analysis",
               "state": {}
@@ -470,6 +512,10 @@
           {
             "id": "98e58aaaf743feda",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "FANTASY_CALENDAR",
               "state": {}
@@ -478,6 +524,10 @@
           {
             "id": "a03ea82f44b956df",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {}
@@ -506,6 +556,10 @@
           {
             "id": "b11fff4a3acf5962",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_nodes",
               "state": {}
@@ -514,13 +568,16 @@
           {
             "id": "7b30ec670d44c0ea",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_style",
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -533,7 +590,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/npm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -560,9 +616,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/npm.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -570,19 +624,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 593
   },
-  "active": "ee62d6c68f275d12",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
-    "笔记/前端/工程化/5.构建/gulp.md",
-    "笔记/读书/基本概念/运气.md",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
-    "笔记/前端/工程化/Untitled Diagram.svg"
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/2.规范/2.规范.md",
+    "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
+    "笔记/读书/基本概念/运气.md"
   ]
 }
