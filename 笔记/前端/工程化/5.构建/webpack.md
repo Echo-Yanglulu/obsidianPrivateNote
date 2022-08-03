@@ -5,7 +5,7 @@
 ![[webpack.svg]]
 # 工作流程
 1. 初始化
-主要是实例化Compiler对象（在这个过程中实例化多个tapable hook）
+主要是实例化Compiler对象（以及实例化多个tapable hook）
 ![[Pasted image 20220730200434.png]]
 配置
 tabable插件体系
