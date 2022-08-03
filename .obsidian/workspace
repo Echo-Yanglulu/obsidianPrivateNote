@@ -12,6 +12,24 @@
             {
               "leaf": "ee62d6c68f275d12",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/未命名.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "ee62d6c68f275d12",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
@@ -50,7 +68,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/工具/思考/未命名.md",
             "mode": "source",
             "source": false
           }
@@ -492,6 +510,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/思考/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -534,26 +553,6 @@
             }
           },
           {
-            "id": "b5ef2bf12ca8b021",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "8a0a51b763534f2e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
             "id": "b11fff4a3acf5962",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -590,6 +589,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/思考/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -616,7 +616,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/思考/未命名.md"
+              }
             }
           }
         ],
@@ -626,8 +628,10 @@
     "direction": "horizontal",
     "width": 593
   },
-  "active": "f59515532fe6ff4b",
+  "active": "ee62d6c68f275d12",
   "lastOpenFiles": [
+    "笔记/工具/思考/思考.md",
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
@@ -635,8 +639,6 @@
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md",
-    "笔记/前端/工程化/5.构建/gulp.md",
-    "笔记/读书/基本概念/运气.md"
+    "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
   ]
 }
