@@ -60,7 +60,7 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 	1. 想把CSS抽离出来，成为单独的文件，而不是通过JS插入HTML![[Pasted image 20220801233153.png]]
 		1. 它还提供了一个loader用于CSS文件的提取。webpack 的plugin与loader非常丰富。
 	2. 处理HTML资源。如果要操作HTML，一般使用HtmlWebpackPlugin 插件
-		1. 不用Loader，直接实例化一个该插件即可。可使用EJS语法定制HTML内容
+		1. 不用Loader，直接实例化一个该插件即可。可使用EJS语法定制HTML内容。比如不用手动去写标签的属性值。
 	3. 处理JS资源
 		1. 使用了ES高级语法，用babel-loader加载JS文件。不单独配置，这个loader会使用项目的.babelrc.json配置
 	4. 开发中的静态资源
