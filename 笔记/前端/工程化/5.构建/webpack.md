@@ -33,9 +33,11 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 ## loader
 使用**加载器**处理[^2]JS/JSON之外的其他**文件**。因为webpack是基于node.js开发的，node天然支持js。
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules【说明loader处理得到JS模块】
+
 ![[Pasted image 20220731000757.png]]
+![[Pasted image 20220804222709.png]]loader的执行顺序是反的，所以最后执行的放在最前。如style-loader。
 ## plugin
-更高级的**构建、打包**功能（这两个不是一个意思？）。
+更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ## mode
