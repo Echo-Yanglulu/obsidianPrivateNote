@@ -5,6 +5,18 @@
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
@@ -29,10 +41,6 @@
       "path": "笔记/前端/工程化/5.构建/AMD.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
       "basename": "gulp",
       "path": "笔记/前端/工程化/5.构建/gulp.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
       "basename": "内心",
@@ -195,10 +199,6 @@
     {
       "basename": "包管理",
       "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "Pasted image 20220730201026",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220730201026.png"
     }
   ],
   "omittedPaths": [],
