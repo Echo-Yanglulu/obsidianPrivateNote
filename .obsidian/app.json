@@ -11,10 +11,17 @@
     "downscalePercent": 100
   },
   "showLineNumber": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
   "showUnsupportedFiles": false,
   "showFrontmatter": true,
-  "communityPluginSortOrder": "release"
+  "communityPluginSortOrder": "release",
+  "strictLineBreaks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "autoPairMarkdown": true,
+  "autoConvertHtml": false
 }
