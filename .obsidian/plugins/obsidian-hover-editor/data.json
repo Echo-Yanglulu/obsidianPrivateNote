@@ -1,6 +1,6 @@
 {
-  "defaultMode": "preview",
-  "autoPin": "onMove",
+  "defaultMode": "match",
+  "autoPin": "always",
   "triggerDelay": 300,
   "closeDelay": 600,
   "autoFocus": true,
@@ -8,5 +8,7 @@
   "snapToEdges": true,
   "initialHeight": "340px",
   "initialWidth": "400px",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "imageZoom": true,
+  "hoverEmbeds": false
 }

@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "92906c81180adf9c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/3.质量/3.质量.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           }
@@ -195,15 +207,15 @@
   },
   "active": "bf861d7b5f732b4c",
   "lastOpenFiles": [
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/6.持续集成&部署.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/3.质量/3.质量.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/学习方法/西方文明简史/1. 方法论.md",
     "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/assets/watch change方式应用Prettier.png",
-    "笔记/前端/工程化/2.规范/ESLint/plugins.md",
-    "笔记/前端/工程化/5.构建/babel.md",
-    "笔记/前端/工程化/5.构建/打包工具.md",
-    "笔记/前端/工程化/5.构建/AMD.md",
-    "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/工程化/2.规范/ESLint/plugins.md"
   ]
 }
