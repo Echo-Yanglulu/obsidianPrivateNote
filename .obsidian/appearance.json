@@ -5,9 +5,7 @@
   "translucency": false,
   "enabledCssSnippets": [
     "supercharged-links-gen",
-    "Block quote inline",
     "Check box",
-    "Block quote",
     "Buttons - stylized",
     "Markers",
     "Mermaid",
@@ -30,7 +28,9 @@
     "Lines - horizontal",
     "Command palette",
     "Embeds",
-    "Folding arrows",
-    "Animation"
+    "Animation",
+    "Font",
+    "Block quote inline",
+    "Folding arrows"
   ]
 }
