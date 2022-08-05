@@ -6399,7 +6399,14 @@ var linkPlugin = (linkMap) => regexPlugin(/\[\[([^\]]+)\]\]/, (match, utils2) =>
   const content = match[1];
   const [link, label] = content.split("|");
   const linkItem = linkMap.get(link);
-  const displayText = label ? label : linkItem ? linkItem.linkName : link;
+  let displayText = label ? label : linkItem ? linkItem.linkName : link;
+  if (label) {
+    displayText = label;
+  } else if (linkItem) {
+    displayText = linkItem.linkName;
+  } else {
+    displayText = link;
+  }
   return `<a data-href="${link}" data-type="link" data-filepath="${linkItem.filePath}" class="internal-link">${utils2.escape(displayText)}</a>`;
 });
 
@@ -6469,7 +6476,13 @@ var findAllTodosInFile = (file) => {
   if (!file.content)
     return [];
   const fileLines = getAllLinesFromFile(file.content);
-  const links = (_b = (_a = file.cache) == null ? void 0 : _a.links) != null ? _b : [];
+  const links = [];
+  if ((_a = file.cache) == null ? void 0 : _a.links) {
+    links.push(...file.cache.links);
+  }
+  if ((_b = file.cache) == null ? void 0 : _b.embeds) {
+    links.push(...file.cache.embeds);
+  }
   const tagMeta = file.frontmatterTag ? getTagMeta(file.frontmatterTag) : void 0;
   const todos = [];
   for (let i = 0; i < fileLines.length; i++) {
@@ -6483,9 +6496,15 @@ var findAllTodosInFile = (file) => {
   return todos;
 };
 var findAllTodosFromTagBlock = (file, tag) => {
-  var _a;
+  var _a, _b;
   const fileContents = file.content;
-  const links = (_a = file.cache.links) != null ? _a : [];
+  const links = [];
+  if ((_a = file.cache) == null ? void 0 : _a.links) {
+    links.push(...file.cache.links);
+  }
+  if ((_b = file.cache) == null ? void 0 : _b.embeds) {
+    links.push(...file.cache.embeds);
+  }
   if (!fileContents)
     return [];
   const fileLines = getAllLinesFromFile(fileContents);
