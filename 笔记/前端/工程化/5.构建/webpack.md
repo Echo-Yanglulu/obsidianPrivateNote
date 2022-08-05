@@ -41,7 +41,12 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ## mode
-指定当前**构建任务所处环境**，webpack会根据环境使用一些优化项
+指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
+环境
+	1. 开发环境
+	2. 生产环境
+	3. 不指定环境
+
 ![[Pasted image 20220731001611.png]]
 ## hook
 各个插件注册在hook上，由webpack在相应时机调用
