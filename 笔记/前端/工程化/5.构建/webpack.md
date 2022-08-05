@@ -62,7 +62,7 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 	2. 处理HTML资源。如果要操作HTML，一般使用HtmlWebpackPlugin 插件
 		1. 不用Loader，直接实例化一个该插件即可。可使用EJS语法定制HTML内容。比如不用手动去写标签的属性值。
 	3. 处理JS资源
-		1. 使用了ES高级语法→用babel-loader加载JS文件。如果不单独配置，这个loader会使用项目的.babelrc.json配置![[Pasted image 20220805192120.png]]
+		1. 使用了ES高级语法→用babel-loader加载JS文件。如果不单独配置，这个loader会使用项目的.babelrc.json作为默认配置![[Pasted image 20220805192120.png]]
 	4. 开发中的静态资源
 		1. 图片，字体图标，音视频：url-loader与file-loader。![[Pasted image 20220801233644.png]]
 		2. file-loader ：处理这些静态资源的引入，并输出到output目录
