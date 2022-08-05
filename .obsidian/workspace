@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "9557912ec6e97adf",
+        "id": "bf861d7b5f732b4c",
         "type": "leaf",
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.svg"
+            "file": "笔记/前端/工程化/工程化.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -71,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -101,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg"
+                "file": "笔记/前端/工程化/5.构建/webpack.md"
               }
             }
           }
@@ -190,17 +193,17 @@
     "direction": "horizontal",
     "width": 593
   },
-  "active": "231c1b69c3d25663",
+  "active": "bf861d7b5f732b4c",
   "lastOpenFiles": [
+    "笔记/学习方法/西方文明简史/1. 方法论.md",
+    "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/assets/watch change方式应用Prettier.png",
     "笔记/前端/工程化/2.规范/ESLint/plugins.md",
-    "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/打包工具.md",
     "笔记/前端/工程化/5.构建/AMD.md",
     "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/脚手架/脚手架.md"
+    "笔记/前端/工程化/工程化.md"
   ]
 }
