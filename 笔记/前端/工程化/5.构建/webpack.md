@@ -44,6 +44,8 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 ![[Pasted image 20220804222709.png]]
 ### 执行顺序
 反向：所以期望最后执行的放在最前。如style-loader。
+### 常用loader 
+postcss-loader：把sass, less之类的样式转译为
 ## plugin
 更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
@@ -127,6 +129,7 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 使用loader-utils[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
 	1. 获取配置：可使用loaderUtils的getOptions方法
 ![[Pasted image 20220806153129.png]]
+如果是使用角度，配置在前的loader后执行。但如果是开发loader，则是洋葱模型。
 ## plugin
 
 # 特点
