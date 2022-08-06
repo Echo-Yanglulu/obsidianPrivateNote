@@ -61,8 +61,13 @@ module.exports = input => input + input;
 ```
 
 #### 异步loader 
-![[Pasted image 20220806152751.png]]
-返回值用callback传递出去。
+```JavaScript
+module.exports = function (input) {
+	const callback = this.async();
+	callback(null, input + input);
+}
+```
+与同步的区别：返回值用callback传递出去。
 ### 使用
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
