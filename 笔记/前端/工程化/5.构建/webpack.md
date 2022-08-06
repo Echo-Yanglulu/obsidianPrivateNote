@@ -31,7 +31,7 @@ webpack开始这**一个或多个JS文件**开始遍历整个项目的依赖，�
 filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3]
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
 ## loader
-使用**加载器**处理[^2]JS/JSON之外的其他**文件**。因为webpack是基于node.js开发的，node天然支持js。
+使用**加载器**处理[^2]JS/JSON之外的其他**文件**。是一个接受输入，返回输入的**函数**。因为webpack是基于node.js开发的，node天然支持js。
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules【说明loader处理得到JS模块】
 
 ![[Pasted image 20220731000757.png]]
@@ -115,6 +115,11 @@ loader的执行顺序是反的，所以期望最后执行的放在最前。如st
 		1. import()[^8]
 			1. 可利用注释为分离出来的chunk命名。这样就能在chunkFilename 中使用[lodash]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
 		2. require.ensure[^9]
+# 开发
+## loader
+
+## plugin
+
 # 特点
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
