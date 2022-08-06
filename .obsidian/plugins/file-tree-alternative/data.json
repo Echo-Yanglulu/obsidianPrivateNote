@@ -1,7 +1,7 @@
 {
   "ribbonIcon": true,
   "showRootFolder": true,
-  "showFilesFromSubFolders": true,
+  "showFilesFromSubFolders": false,
   "searchFunction": true,
   "allSearchOnlyInFocusedFolder": false,
   "showFilesFromSubFoldersButton": true,
@@ -13,7 +13,7 @@
   "evernoteView": true,
   "filePreviewOnHover": false,
   "iconBeforeFileName": true,
-  "sortFilesBy": "name",
+  "sortFilesBy": "last-update",
   "sortFoldersBy": "name",
   "fixedHeaderInFileList": false,
   "createdYaml": false,

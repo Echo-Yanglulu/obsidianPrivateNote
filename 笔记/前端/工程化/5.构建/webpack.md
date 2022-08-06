@@ -33,7 +33,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 ## loader
 使用**加载器**处理[^2]JS/JSON之外的其他**文件**，得到JS模块。是一个接受输入，返回输入的**函数**。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则使用babel-loader，否则JS不用loader。
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules。
-### 分类
+### 结构分类
 #### 同步loader 
 #### 异步loader 
 
