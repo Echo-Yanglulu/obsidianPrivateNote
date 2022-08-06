@@ -124,7 +124,9 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 		2. require.ensure[^9]
 # 开发
 ## loader
-使用loader-utils[^11]，
+使用loader-utils[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
+	1. 获取配置：可使用loaderUtils的getOptions方法
+![[Pasted image 20220806153129.png]]
 ## plugin
 
 # 特点
