@@ -126,7 +126,7 @@ React官方脚手架：create-react-app
 ## CRA源码分析
 除了loader与plugin配置，还需关注
 1. Resolve：webpack如何分析模块之间的依赖关系 
-2. Node runtime mock：有时需要使用webpack去mock一些node的内置模块。因为需要对模块测试？
+2. Node runtime mock：有时需要使用webpack去**mock一些node的内置模块**。因为需要对模块测试？
 3. Performance：性能配置项
 4. optimization：打包的优化项
 5. SourceMap ：如何正确地开启它、选择它的类型。
