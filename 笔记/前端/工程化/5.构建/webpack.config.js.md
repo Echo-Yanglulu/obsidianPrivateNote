@@ -20,7 +20,9 @@
 		1. 如设置src为@，工程路径较深时使用绝对路径方便。webpack打包时自动将简化路径展开，找到真正路径。![[Pasted image 20220806144231.png]]
 	4. plugin：resolve 时使用的插件。
 		1. webpack在这里使用了yarn开发的PnpWebpackPlugin[^5]
-		2. 使用该插件需要引入resolveLoader
+		2. 使用该插件需要引入resolveLoader![[Pasted image 20220806144527.png]]
+	5. optimization：优化[^6]
+		1. minize
 
 
 [^1]: 打包后的sourcemap 可以将dist后的结果完全映射到最初的源代码，并可以在映射后的源代码上自由地打断点。如果映射的不是源代码文件，而是loader处理后的文件。或者映射粒度较粗，只能对应第一行的代码建立映射，而不是每个字符，即不能自由地打断点，则sourcemap 质量一般。
@@ -28,3 +30,4 @@
 [^3]: 模块搜索目录
 [^4]: .mjs是es6 module的模块名
 [^5]: 即插即用。该插件可利用yarn的全局缓存，提升模块加载速度
+[^6]: 主要指代码压缩。从4开始不用手动配置，因为会根据mode自动调整。
