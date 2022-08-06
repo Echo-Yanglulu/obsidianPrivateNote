@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/2.规范.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/2.规范.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/2.规范.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           }
@@ -200,17 +200,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "231c1b69c3d25663",
+  "active": "bf861d7b5f732b4c",
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/内心/内心.md",
+    "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/3.质量/3.质量.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/版本管理/版本管理.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/5.构建/打包工具.md",
-    "笔记/前端/工程化/2.规范/代码规范.md",
-    "笔记/前端/工程化/5.构建/webpack.md"
+    "笔记/前端/工程化/2.规范/代码规范.md"
   ]
 }
