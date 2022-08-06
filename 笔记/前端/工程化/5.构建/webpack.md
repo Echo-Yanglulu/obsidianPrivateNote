@@ -111,6 +111,8 @@ module.exports = class DemoPlugin {
 更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
+### 常用plugin
+#### 
 ## mode
 指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
 环境
