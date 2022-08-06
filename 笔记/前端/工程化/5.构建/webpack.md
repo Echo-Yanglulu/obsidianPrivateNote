@@ -61,7 +61,11 @@ module.exports.pitch = function (remainingReq, precedingReq, input) {
 loaderApi.pitch = function loader(request){
 	const options = loaderUtils.getOptions(this);
 	return `
-		var content = require(${loaderUtils.stringifyRequest()})	
+		var content = require(${loaderUtils.stringifyRequest(this, `!!${request}`)});
+		var api = require('runtime/injectStylesIntoLinkTag.js');
+		var options = ${JSON.stringify(options)};
+		var update = api(content, options);
+		update(content);	
 	`
 }
 ```
