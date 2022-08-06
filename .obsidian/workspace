@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "60802bb4509d4f0d",
+        "id": "0277f6d98430f45b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/2.规范/2.规范.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/2.规范/2.规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/2.规范/2.规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,12 +181,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/前端/工程化/2.规范/2.规范.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,15 +193,15 @@
   },
   "active": "0277f6d98430f45b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/assets/babel基本概念.svg",
-    "笔记/前端/工程化/5.构建/babel.svg",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/5.构建/babel.md",
+    "笔记/前端/工程化/2.规范/git工程规范.md",
+    "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/前端.md",
-    "笔记/前端/工程化/5.构建/webpack实战.md",
-    "笔记/前端/工程化/5.构建/webpack.md",
-    "笔记/前端/工程化/5.构建/中后台框架.md"
+    "笔记/前端/工程化/6.持续集成&部署.md",
+    "笔记/前端/工程化/5.构建/webpack.svg",
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/工程化/脚手架/脚手架.md",
+    "笔记/前端/工程化/assets/babel基本概念.svg"
   ]
 }
