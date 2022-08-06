@@ -125,10 +125,12 @@ React官方脚手架：create-react-app
 ## CRA配置提取
 ## CRA源码分析
 除了loader与plugin配置，还需关注
-1. Resolve 
-2. Node runtime mock
-3. performance
-4. optimi
+1. Resolve：webpack如何分析模块之间的依赖关系 
+2. Node runtime mock：有时需要使用webpack去mock一些node的内置模块。因为需要对模块测试？
+3. Performance：性能配置项
+4. optimization：打包的优化项
+5. SourceMap ：如何正确地开启它、选择它的类型。
+6. WebpackDevServer
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
