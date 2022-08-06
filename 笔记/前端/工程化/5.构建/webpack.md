@@ -44,9 +44,16 @@ module.exports = function(input){
 	const {text} = loaderUtils.getOptions(this);
 	return input + text;
 }
-module.exports.pitch = function (remainingReq, prec)
+module.exports.pitch = function (remainingReq, precedingReq, input) {
+	console.log(`
+		Remaining request: ${remainingReq}
+		Preceding request: ${precedingReq}
+		Input: ${JSON.stringify(input, null, 2)}
+	`);
+	return "pitched";
+}
 ```
-![[Pasted image 20220806154043.png]]
+
 ### 结构分类
 #### 同步loader 
 ![[Pasted image 20220806152824.png]]
