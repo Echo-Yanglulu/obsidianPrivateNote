@@ -196,6 +196,48 @@ plugin需要的上下文信息太多，没有模拟环境，plugin需要在真�
 需求：编写一个webpack plugin，统计打包结果中各个文件的大小，以JSON形式输出统计结果。
 分析：需要注册在一个打包结果相关的hook，需要输出JSON所以hook调用需要文件被输出到硬盘之前
 实战：在webpack文档中找到对应的**compiler钩子**：emit钩子。
+```typescript
+import { Plugin, Compiler, compilation } from 'webpack';
+import { RawSource } from 'webpack-sources';
+
+class WebpackSizePlugin implements Plugin {
+
+    options: any;
+    PLUGIN_NAME: string = 'WebpackSizePlugin';
+
+    constructor(options: any) {
+        this.options = options;
+    }
+
+    apply(compiler: Compiler) {
+        const outputOptions = compiler.options.output;
+        compiler.hooks.emit.tap(
+            this.PLUGIN_NAME,
+            compilation => {
+                const assets = compilation.assets;
+                // 创建buildSize保存编译信息
+                const buildSize = {} as any;
+                // asset是编译结果对象。key是文件名，value是文件内容
+                const files = Object.keys(assets);
+                let total = 0;
+                for (let file of files) {
+                    const size = assets[file].size();
+                    buildSize[file] = size;
+                    total += size;
+                }
+                console.log('Build Size: ', buildSize);
+                console.log('Total Size: ', total);
+                buildSize.total = total;
+                assets[
+                    outputOptions.publicPath + '/' + (this.options.fileName || 'build-size.json')
+                ] = new RawSource(JSON.stringify(buildSize, null, 4));
+            }
+        )
+    }
+}
+
+module.exports = WebpackSizePlugin;
+```
 # 特点
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
