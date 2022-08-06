@@ -130,7 +130,7 @@ React官方脚手架：create-react-app
 3. Performance：性能配置项
 4. optimization：打包的优化项
 5. SourceMap ：如何正确地开启它、选择它的类型。
-6. WebpackDevServer
+6. WebpackDevServer：用法
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
