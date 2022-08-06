@@ -102,7 +102,8 @@ module.exports = class DemoPlugin {
 	}
 	apply(compiler){
 		compiler.plugin("emit", (compilation, cb) => {
-			console.plu
+			console.plugin(compilation);
+			cb()
 		})
 	}
 }
@@ -191,7 +192,8 @@ module.exports = class DemoPlugin {
 ![[Pasted image 20220806153129.png]]
 如果是使用角度，配置在前的loader后执行。但如果是开发loader，则是洋葱模型。
 ## plugin（自定义plugin相对loader更常见）
-plugin需要的上下文信息太多，没有模拟环境，plugin需要在真实环境中开发与调试。
+plugin需要的上下文信息太多，没有模拟环境，plugin需要在真实环境中开发与调试（如一个react app）。
+需求：编写一个webpack plugin，统计打包结果中各个文件的大小，以JSON形式输出统计结果。
 # 特点
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
