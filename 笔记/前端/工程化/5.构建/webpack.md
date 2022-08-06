@@ -134,7 +134,7 @@ React官方脚手架：create-react-app
 
 eject之后的脚本分析：
 1. start.js
-	1. 使用configFactory取开发模式下的配置，这个函数就是webpack.config.js文件输出的配置函数。返回值就是webpack最终构建时使用的配置
+	1. 使用configFactory取开发模式下的配置，这个函数就是[[webpack.config.js]]文件输出的配置函数。返回值就是webpack最终构建时使用的配置
 	2. serverConfig：是WebpackDevServer 本身的配置，这个函数就是[[WebpackDevServer.js]]文件输出的配置函数。有了serverConfig 和环境配置后，即可实例化一个WebpackDevServer 的服务。
 
 关于注释：

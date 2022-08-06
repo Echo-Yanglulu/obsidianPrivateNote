@@ -1,5 +1,5 @@
 # 概述
-是一个用express写的node web服务。
+是一个用express写的node **web服务**。
 	1. 可通过app.use添加自己的中间件。
 # 配置
 compress: true  开启g-zip压缩，提高资源的加载速度。

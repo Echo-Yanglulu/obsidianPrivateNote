@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
+            "file": "笔记/前端/工程化/5.构建/webpack.config.js.md",
             "mode": "source",
             "source": false
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/WebpackDevServer.js.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.config.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/WebpackDevServer.js.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.config.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/WebpackDevServer.js.md"
+                "file": "笔记/前端/工程化/5.构建/webpack.config.js.md"
               }
             }
           }
@@ -200,17 +200,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "ff4819869d4da057",
+  "active": "5b2cbe3920b36c37",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806125628.png",
     "笔记/前端/工程化/5.构建/WebpackDevServer.js.md",
+    "笔记/前端/工程化/5.构建/webpack.config.js.md",
     "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806125628.png",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220806080410.png",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220806075243.png",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220805223240.png",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220805222909.png",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220805222427.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220801233644.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220805192120.png"
+    "笔记/前端/工程化/5.构建/assets/Pasted image 20220801233644.png"
   ]
 }
