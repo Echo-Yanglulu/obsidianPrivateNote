@@ -45,7 +45,8 @@ module.exports = function(input){
 	return input + text;
 }
 // precedingReq： loader链中，排在当前loader之前的loader及其资源文件组成的链接。
-/
+// input：一个对象，挂载各个loader需要共享的数据。
+// 如果pitch方法返回一个值，webpack会跳过剩下的loader的pitch和execute（可通过pitch方法返回值阻断后续loader执行）
 module.exports.pitch = function (remainingReq, precedingReq, input) {
 	console.log(`
 		Remaining request: ${remainingReq}
