@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "内心",
+      "path": "笔记/内心/内心.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/工具/工具.md"
+    },
+    {
+      "basename": "人性",
+      "path": "笔记/内心/人性.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "1.脚本",
       "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
-    },
-    {
-      "basename": "内心",
-      "path": "笔记/内心/内心.md"
     },
     {
       "basename": "3.质量",
@@ -113,10 +121,6 @@
       "path": "静态分析.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/工具/工具.md"
-    },
-    {
       "basename": "思考",
       "path": "笔记/工具/思考/思考.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "脚手架",
       "path": "笔记/前端/工程化/脚手架/脚手架.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     }
   ],
   "omittedPaths": [],
