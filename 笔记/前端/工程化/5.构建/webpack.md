@@ -94,6 +94,7 @@ postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader �
 css-loader ：处理如import的样式引入语法。
 style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ## plugin
+本质：一个实现了apply方法的类，在运行时得到compiler和compilation两个实例
 更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
