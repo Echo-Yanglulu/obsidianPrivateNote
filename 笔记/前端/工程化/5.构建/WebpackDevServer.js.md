@@ -5,3 +5,6 @@ hot：   HMR。在webpack4中只需设置hot为true，对应plugin会自动添�
 transportMode：‘ws’     webpackDevServer与前端页面通信的方式
 watchOption：{}   wds对文件变化的监听（ignoredFiles：生成不需要监听变化的路径，提高监听的性能）
 ![[Pasted image 20220806125628.png]]
+overlay: false   出现编译错误时是否在页面全屏显示该错误（一般打开，如果是关闭是因为其他定制功能【before与after这两个钩子】，不需这个内置功能）。
+before（app, server）{}
+after（app）：所有 
