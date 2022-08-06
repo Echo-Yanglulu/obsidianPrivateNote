@@ -124,7 +124,11 @@ React官方脚手架：create-react-app
 它生成的react配置。
 ## CRA配置提取
 ## CRA源码分析
-
+除了loader与plugin配置，还需关注
+1. Resolve 
+2. Node runtime mock
+3. performance
+4. optimi
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
