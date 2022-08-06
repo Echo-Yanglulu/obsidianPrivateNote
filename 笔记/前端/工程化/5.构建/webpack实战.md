@@ -4,4 +4,4 @@
 
 webpack是面向JS的，默认情况打包结果是JS
 
-css-loader把css代码转化为JS模块。
+css-loader把css代码转化为JS模块。 
