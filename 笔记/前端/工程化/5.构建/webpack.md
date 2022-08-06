@@ -56,7 +56,15 @@ module.exports.pitch = function (remainingReq, precedingReq, input) {
 	return "pitched";
 }
 ```
-
+如style-loader 的伪代码
+```JavaScript
+loaderApi.pitch = function loader(request){
+	const options = loaderUtils.getOptions(this);
+	return `
+		var content = require(${loaderUtils.stringifyRequest()})	
+	`
+}
+```
 ### 结构分类
 #### 同步loader 
 ```Javascript
