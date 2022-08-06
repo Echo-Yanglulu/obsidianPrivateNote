@@ -55,8 +55,7 @@
 ### 使用
 1. 7.4之前只需引入@babel/polyfill[^10]
 2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。
-3. 通过preset-env的useBuiltlns 与targets智能配置。
-4. 一般是==core-js 与useBuiltlns 结合使用==
+3. 通过preset-env的useBuiltlns 与targets智能配置。（一般是==core-js 与useBuiltlns 结合使用==）
 
 两种方式等价，但方式2利于babel进行进一步优化。
 需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者。建议core-js/stable包与3的useBuiltlns同时使用(为啥要用两次polyfill 配置？)
