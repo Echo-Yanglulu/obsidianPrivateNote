@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.md"
+    },
+    {
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/2.规范/版本规范.md"
+    },
+    {
+      "basename": "ignore",
+      "path": "笔记/前端/工程化/2.规范/ignore.md"
+    },
+    {
+      "basename": "2.规范",
+      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "打包工具",
+      "path": "笔记/前端/工程化/5.构建/打包工具.md"
+    },
+    {
       "basename": "webpack实战",
       "path": "笔记/前端/工程化/5.构建/webpack实战.md"
     },
@@ -14,19 +38,11 @@
     },
     {
       "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.md"
-    },
-    {
-      "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.svg"
     },
     {
       "basename": "webpack.config.js",
       "path": "笔记/前端/工程化/5.构建/webpack.config.js.md"
-    },
-    {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
     {
       "basename": "rollup",
@@ -61,10 +77,6 @@
       "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
     },
     {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
     },
@@ -75,10 +87,6 @@
     {
       "basename": "4.工程设计",
       "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
-    },
-    {
-      "basename": "打包工具",
-      "path": "笔记/前端/工程化/5.构建/打包工具.md"
     },
     {
       "basename": "Pasted image 20220731000757",
@@ -191,14 +199,6 @@
     {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
-    },
-    {
-      "basename": "理解",
-      "path": "笔记/学习方法/概念/理解.md"
-    },
-    {
-      "basename": "学习的阶段",
-      "path": "笔记/学习方法/概念/学习的阶段.md"
     }
   ],
   "omittedPaths": [],
