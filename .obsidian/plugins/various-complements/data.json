@@ -622,8 +622,8 @@
     "css-loader": {
       "css-loader": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1659367790172
+          "count": 3,
+          "lastUpdated": 1659771365184
         }
       }
     },
@@ -784,6 +784,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1659769462742
+        }
+      }
+    },
+    "sass-loader": {
+      "sass-loader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659771335968
+        }
+      }
+    },
+    "style-loader": {
+      "style-loader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659771386562
         }
       }
     }
