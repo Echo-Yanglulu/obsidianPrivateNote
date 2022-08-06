@@ -172,13 +172,13 @@ style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中
 			1. 可利用注释为分离出来的chunk命名。这样就能在chunkFilename 中使用[lodash]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
 		2. require.ensure[^9]
 # 开发
-## loader
+## loader（理解原理即可，社区loader已经足够丰富）
 使用loader-utils[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
 	1. 获取配置：可使用loaderUtils的getOptions方法
 ![[Pasted image 20220806153129.png]]
 如果是使用角度，配置在前的loader后执行。但如果是开发loader，则是洋葱模型。
-## plugin
-
+## plugin（自定义plugin相对loader更常见）
+plugin需要的上下文信息太多，没有模拟环境，plugin需要在真实环境中开发与调试。
 # 特点
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
