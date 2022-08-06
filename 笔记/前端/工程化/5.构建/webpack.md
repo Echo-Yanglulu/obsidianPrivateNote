@@ -44,6 +44,8 @@ module.exports = function(input){
 	const {text} = loaderUtils.getOptions(this);
 	return input + text;
 }
+// precedingReq： loader链中，排在当前loader之前的loader及其资源文件组成的链接。
+/
 module.exports.pitch = function (remainingReq, precedingReq, input) {
 	console.log(`
 		Remaining request: ${remainingReq}
