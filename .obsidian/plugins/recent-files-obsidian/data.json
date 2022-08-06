@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20220731000757",
-      "path": "笔记/前端/工程化/assets/Pasted image 20220731000757.png"
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "1.脚本",
+      "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
+    },
+    {
+      "basename": "2.规范",
+      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
     },
     {
       "basename": "3.质量",
@@ -11,6 +31,18 @@
     {
       "basename": "4.工程设计",
       "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "打包工具",
+      "path": "笔记/前端/工程化/5.构建/打包工具.md"
+    },
+    {
+      "basename": "Pasted image 20220731000757",
+      "path": "笔记/前端/工程化/assets/Pasted image 20220731000757.png"
     },
     {
       "basename": "Pasted image 20220724145442",
@@ -37,16 +69,8 @@
       "path": "笔记/前端/工程化/assets/Pasted image 20220724150816.png"
     },
     {
-      "basename": "5.构建",
-      "path": "笔记/前端/工程化/5.构建/5.构建.md"
-    },
-    {
       "basename": "脚手架",
       "path": "笔记/前端/工程化/脚手架/脚手架.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "webpack",
@@ -97,24 +121,8 @@
       "path": "笔记/工具/工具.md"
     },
     {
-      "basename": "1.脚本",
-      "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
       "basename": "版本管理",
       "path": "笔记/前端/版本管理/版本管理.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "打包工具",
-      "path": "笔记/前端/工程化/5.构建/打包工具.md"
     },
     {
       "basename": "代码规范",
@@ -191,14 +199,6 @@
     {
       "basename": "意识",
       "path": "笔记/工具/意识/意识.md"
-    },
-    {
-      "basename": "运气",
-      "path": "笔记/读书/基本概念/运气.md"
-    },
-    {
-      "basename": "模型思维",
-      "path": "笔记/读书/模型思维.md"
     }
   ],
   "omittedPaths": [],
