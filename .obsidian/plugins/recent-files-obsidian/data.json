@@ -5,12 +5,24 @@
       "path": "笔记/内心/内心.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/工具/工具.md"
+      "basename": "卑劣",
+      "path": "笔记/内心/卑劣.md"
+    },
+    {
+      "basename": "压力",
+      "path": "笔记/内心/压力.md"
     },
     {
       "basename": "人性",
       "path": "笔记/内心/人性.md"
+    },
+    {
+      "basename": "崇高",
+      "path": "笔记/内心/崇高.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/工具/工具.md"
     },
     {
       "basename": "webpack",
@@ -157,10 +169,6 @@
       "path": "笔记/内心/幻想.md"
     },
     {
-      "basename": "压力",
-      "path": "笔记/内心/压力.md"
-    },
-    {
       "basename": "心灵",
       "path": "笔记/内心/心灵.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "信息结构",
       "path": "笔记/学习方法/概念/信息结构.md"
-    },
-    {
-      "basename": "写作",
-      "path": "笔记/写作/写作.md"
-    },
-    {
-      "basename": "脚手架",
-      "path": "笔记/前端/工程化/脚手架/脚手架.md"
     }
   ],
   "omittedPaths": [],

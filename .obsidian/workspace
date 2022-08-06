@@ -111,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/内心/内心.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/内心/内心.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,9 +186,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/内心/内心.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -200,17 +196,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "bf861d7b5f732b4c",
+  "active": "30f8be26ece9672d",
   "lastOpenFiles": [
-    "笔记/工具/工具.md",
-    "笔记/内心/人性.md",
+    "笔记/内心/逃避.md",
+    "笔记/内心/方式.md",
     "笔记/内心/内心.md",
+    "笔记/内心/卑劣.md",
+    "笔记/内心/压力.md",
+    "笔记/内心/人性.md",
+    "笔记/内心/崇高.md",
+    "笔记/工具/工具.md",
     "笔记/前端/工程化/5.构建/assets/Pasted image 20220806080410.png",
-    "笔记/前端/工程化/5.构建/webpack.md",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806075243.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220805223240.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220805222909.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220805222427.png",
-    "笔记/前端/工程化/5.构建/webpack.svg"
+    "笔记/前端/工程化/5.构建/webpack.md"
   ]
 }
