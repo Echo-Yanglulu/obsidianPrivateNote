@@ -221,6 +221,7 @@ class WebpackSizePlugin implements Plugin {
                 const files = Object.keys(assets);
                 let total = 0;
                 for (let file of files) {
+	                // file的每个值都是一个Source对象，存在size方法，统计文件内容包含的字符数[^15]
                     const size = assets[file].size();
                     buildSize[file] = size;
                     total += size;
@@ -291,3 +292,4 @@ eject之后的脚本分析：
 [^12]: **编译器**实例（即webpack的实例）
 [^13]: 每次的**编译过程**实例
 [^14]: 在这两个实例上的多个hook上注册逻辑，webpack在相应时机触发hook，调用注册的逻辑
+[^15]: 在UTF-8中，字符数就是字节数
