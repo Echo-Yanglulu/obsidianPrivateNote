@@ -7,11 +7,9 @@
         "id": "5b2cbe3920b36c37",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "笔记/前端/工程化/5.构建/webpack.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/前端/工程化/assets/Pasted image 20220731000757.png"
           }
         }
       }
@@ -81,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/assets/Pasted image 20220731000757.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/assets/Pasted image 20220731000757.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md"
+                "file": "笔记/前端/工程化/assets/Pasted image 20220731000757.png"
               }
             }
           }
@@ -201,17 +198,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "5b2cbe3920b36c37",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220804222709.png",
-    "笔记/前端/工程化/5.构建/webpack.md",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220731000757.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220731001033.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220801231703.png",
-    "笔记/前端/工程化/5.构建/webpack.config.js.md",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806145522.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806144527.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806144231.png",
-    "笔记/前端/工程化/5.构建/assets/Pasted image 20220806134813.png"
+    "笔记/前端/工程化/3.质量/3.质量.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
+    "笔记/前端/工程化/assets/Pasted image 20220724145442.png",
+    "笔记/前端/工程化/assets/Pasted image 20220724142413.png",
+    "笔记/前端/工程化/assets/Pasted image 20220724141323.png",
+    "笔记/前端/工程化/assets/Pasted image 20220724150254.png",
+    "笔记/前端/工程化/assets/Pasted image 20220724142046.png",
+    "笔记/前端/工程化/assets/Pasted image 20220724150816.png",
+    "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/脚手架/脚手架.md"
   ]
 }
