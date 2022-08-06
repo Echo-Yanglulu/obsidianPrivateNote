@@ -65,8 +65,9 @@ loaderApi.pitch = function loader(request){
 		var api = require('runtime/injectStylesIntoLinkTag.js');
 		var options = ${JSON.stringify(options)};
 		var update = api(content, options);
-		update(content);	
+		update(content);
 	`
+	export default loaderApi;
 }
 ```
 ### 结构分类
