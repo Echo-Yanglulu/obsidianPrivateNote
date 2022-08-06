@@ -95,6 +95,18 @@ css-loader ：处理如import的样式引入语法。
 style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ## plugin
 本质：一个实现了apply方法的类，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
+```JavaScript
+module.exports = class DemoPlugin {
+	constructor(options){
+		this.options = options
+	}
+	apply(compiler){
+		compiler.plugin("emit", (compilation, cb) => {
+			console.plu
+		})
+	}
+}
+```
 更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
