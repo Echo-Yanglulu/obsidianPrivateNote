@@ -36,7 +36,9 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 ### 原理
 #### 洋葱模型
 ![[Pasted image 20220806153852.png]]
-执行时，从开始调用每个loader的
+执行时，从开始调用每个loader的pitch方法，再反向调用loader函数本身。即：在pitch阶段正序执行loader的pitch方法，在execute阶段倒序执行本身。
+#### pitch函数
+![[Pasted image 20220806154043.png]]
 ### 结构分类
 #### 同步loader 
 ![[Pasted image 20220806152824.png]]
