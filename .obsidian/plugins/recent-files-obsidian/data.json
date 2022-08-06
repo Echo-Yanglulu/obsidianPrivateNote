@@ -5,6 +5,26 @@
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
     {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/5.构建/webpack.config.js.md"
+    },
+    {
+      "basename": "gulp",
+      "path": "笔记/前端/工程化/5.构建/gulp.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.svg"
+    },
+    {
+      "basename": "Pasted image 20220806152751",
+      "path": "笔记/前端/assets/Pasted image 20220806152751.png"
+    },
+    {
+      "basename": "Pasted image 20220806152824",
+      "path": "笔记/前端/assets/Pasted image 20220806152824.png"
+    },
+    {
       "basename": "5.构建",
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
@@ -77,20 +97,12 @@
       "path": "笔记/前端/工程化/脚手架/脚手架.md"
     },
     {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/5.构建/webpack.config.js.md"
-    },
-    {
       "basename": "WebpackDevServer.js",
       "path": "笔记/前端/工程化/5.构建/WebpackDevServer.js.md"
     },
     {
       "basename": "内心",
       "path": "笔记/内心/内心.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.svg"
     },
     {
       "basename": "崇高",
@@ -153,10 +165,6 @@
       "path": "笔记/前端/工程化/5.构建/AMD.md"
     },
     {
-      "basename": "gulp",
-      "path": "笔记/前端/工程化/5.构建/gulp.md"
-    },
-    {
       "basename": "Drawing 2022-08-03 09.39.32.excalidraw",
       "path": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "静态分析",
       "path": "静态分析.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
-    },
-    {
-      "basename": "意识",
-      "path": "笔记/工具/意识/意识.md"
     }
   ],
   "omittedPaths": [],

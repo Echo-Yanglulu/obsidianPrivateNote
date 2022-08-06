@@ -124,7 +124,7 @@ test用正则识别文件类型，use用字符串选择使用loader 处理该格
 		2. require.ensure[^9]
 # 开发
 ## loader
-
+使用loader-utils[^11]，
 ## plugin
 
 # 特点
@@ -176,3 +176,4 @@ eject之后的脚本分析：
 [^8]: ES 模块化中规定的，语言级别的动态导入语法
 [^9]: ES Module之前，webpack自己hack的动态导入语法
 [^10]: 动态导入是异步的，会返回一个Promise
+[^11]: 编写webpack-loader的官方工具库，提供了许多常用方法
