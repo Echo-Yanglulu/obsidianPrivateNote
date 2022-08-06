@@ -187,7 +187,7 @@ module.exports = class DemoPlugin {
 		2. require.ensure[^9]
 # 开发
 ## loader（理解原理即可，社区loader已经足够丰富）
-使用loader-utils[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
+使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
 	1. 获取配置：可使用loaderUtils的getOptions方法
 ![[Pasted image 20220806153129.png]]
 如果是使用角度，配置在前的loader后执行。但如果是开发loader，则是洋葱模型。
