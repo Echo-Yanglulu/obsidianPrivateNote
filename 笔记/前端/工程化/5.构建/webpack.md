@@ -195,7 +195,7 @@ module.exports = class DemoPlugin {
 plugin需要的上下文信息太多，没有模拟环境，plugin需要在真实环境中开发与调试（如一个react app）。
 需求：编写一个webpack plugin，统计打包结果中各个文件的大小，以JSON形式输出统计结果。
 分析：需要注册在一个打包结果相关的hook，需要输出JSON所以hook调用需要文件被输出到硬盘之前
-实战：在webpack文档中找到对应的 
+实战：在webpack文档中找到对应的**compiler钩子**：emit钩子。
 # 特点
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
