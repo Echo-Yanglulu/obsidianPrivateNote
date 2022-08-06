@@ -221,7 +221,7 @@ class WebpackSizePlugin implements Plugin {
                 const files = Object.keys(assets);
                 let total = 0;
                 for (let file of files) {
-	                // file的每个值都是一个Source对象，存在size方法，统计文件内容包含的字符数[^15]
+	                // file的每个值都是一个RawSource对象，存在size方法，统计文件内容包含的字符数[^15]
                     const size = assets[file].size();
                     buildSize[file] = size;
                     total += size;
@@ -229,6 +229,7 @@ class WebpackSizePlugin implements Plugin {
                 console.log('Build Size: ', buildSize);
                 console.log('Total Size: ', total);
                 buildSize.total = total;
+                // 让webpack新增文件，只需增加键值对。通过publicPath拿到output指定的目录。 
                 assets[
                     outputOptions.publicPath + '/' + (this.options.fileName || 'build-size.json')
                 ] = new RawSource(JSON.stringify(buildSize, null, 4));
