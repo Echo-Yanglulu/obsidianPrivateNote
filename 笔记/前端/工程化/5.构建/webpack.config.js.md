@@ -23,7 +23,8 @@
 		2. 使用该插件需要引入resolveLoader![[Pasted image 20220806144527.png]]
 	5. optimization：优化[^6]
 		1. minize：是否压缩代码。只在生产环境开启
-		2. minizer：压缩工具。
+		2. minizer：压缩工具。![[Pasted image 20220806145522.png]]
+	6. splitChunks：代码分离
 
 
 [^1]: 打包后的sourcemap 可以将dist后的结果完全映射到最初的源代码，并可以在映射后的源代码上自由地打断点。如果映射的不是源代码文件，而是loader处理后的文件。或者映射粒度较粗，只能对应第一行的代码建立映射，而不是每个字符，即不能自由地打断点，则sourcemap 质量一般。
