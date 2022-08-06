@@ -56,7 +56,10 @@ module.exports.pitch = function (remainingReq, precedingReq, input) {
 
 ### 结构分类
 #### 同步loader 
-![[Pasted image 20220806152824.png]]
+```Javascript
+module.exports = input => input + input;
+```
+
 #### 异步loader 
 ![[Pasted image 20220806152751.png]]
 返回值用callback传递出去。
