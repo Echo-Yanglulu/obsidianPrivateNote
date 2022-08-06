@@ -230,6 +230,7 @@ class WebpackSizePlugin implements Plugin {
                 console.log('Total Size: ', total);
                 buildSize.total = total;
                 // 让webpack新增文件，只需增加键值对。通过publicPath拿到output指定的目录。 
+                // 让用户自己指定统计文件的名称，可通过fileName拿到
                 assets[
                     outputOptions.publicPath + '/' + (this.options.fileName || 'build-size.json')
                 ] = new RawSource(JSON.stringify(buildSize, null, 4));
@@ -239,6 +240,11 @@ class WebpackSizePlugin implements Plugin {
 }
 
 module.exports = WebpackSizePlugin;
+
+// webpack.config.js
+plugins: [
+	new Webpack
+]
 ```
 # 特点
 1. 也是**插件化**[^1]的
