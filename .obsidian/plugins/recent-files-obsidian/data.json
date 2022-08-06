@@ -5,24 +5,8 @@
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
-      "basename": "代码规范",
-      "path": "笔记/前端/工程化/2.规范/代码规范.md"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
       "basename": "1.脚本",
       "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.svg"
     },
     {
       "basename": "3.质量",
@@ -31,6 +15,34 @@
     {
       "basename": "5.构建",
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "2.规范",
+      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+    },
+    {
+      "basename": "版本管理",
+      "path": "笔记/前端/版本管理/版本管理.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "打包工具",
+      "path": "笔记/前端/工程化/5.构建/打包工具.md"
+    },
+    {
+      "basename": "代码规范",
+      "path": "笔记/前端/工程化/2.规范/代码规范.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.svg"
     },
     {
       "basename": "ES Module",
@@ -63,10 +75,6 @@
     {
       "basename": "Drawing 2022-08-03 09.39.32.excalidraw",
       "path": "笔记/前端/工程化/5.构建/Drawing 2022-08-03 09.39.32.excalidraw.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "心法",
@@ -191,14 +199,6 @@
     {
       "basename": "node",
       "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "4.工程设计",
-      "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
-    },
-    {
-      "basename": "版本管理",
-      "path": "笔记/前端/版本管理/版本管理.md"
     }
   ],
   "omittedPaths": [],
