@@ -192,8 +192,9 @@ module.exports = class DemoPlugin {
 ![[Pasted image 20220806153129.png]]
 如果是使用角度，配置在前的loader后执行。但如果是开发loader，则是洋葱模型。
 ## plugin（自定义plugin相对loader更常见）
+
 plugin需要的上下文信息太多，没有模拟环境，plugin需要在真实环境中开发与调试（如一个react app）。
-需求：编写一个webpack plugin，统计打包结果中各个文件的大小，以JSON形式输出统计结果。
+需求[^16]：编写一个webpack plugin，统计打包结果中各个文件的大小，以JSON形式输出统计结果。
 分析：需要注册在一个打包结果相关的hook，需要输出JSON所以hook调用需要文件被输出到硬盘之前
 实战：在webpack文档中找到对应的**compiler钩子**：emit钩子。
 ```typescript
@@ -243,7 +244,7 @@ module.exports = WebpackSizePlugin;
 
 // webpack.config.js
 plugins: [
-	new Webpack
+	new WebpackSizePlugin({fileName: 'size.json'})
 ]
 ```
 # 特点
@@ -300,3 +301,4 @@ eject之后的脚本分析：
 [^13]: 每次的**编译过程**实例
 [^14]: 在这两个实例上的多个hook上注册逻辑，webpack在相应时机触发hook，调用注册的逻辑
 [^15]: 在UTF-8中，字符数就是字节数
+[^16]: 构建与 
