@@ -5,6 +5,10 @@
       "path": "笔记/工作/心法.md"
     },
     {
+      "basename": "工作",
+      "path": "笔记/工作/工作.md"
+    },
+    {
       "basename": "5.构建",
       "path": "笔记/前端/工程化/5.构建/5.构建.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1. 方法论",
       "path": "笔记/学习方法/西方文明简史/1. 方法论.md"
-    },
-    {
-      "basename": "watch change方式应用Prettier",
-      "path": "笔记/前端/工程化/assets/watch change方式应用Prettier.png"
     }
   ],
   "omittedPaths": [],
