@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md",
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md",
+                "file": "笔记/前端/工程化/5.构建/5.构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,27 +190,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/gulp.md"
+                "file": "笔记/前端/工程化/5.构建/5.构建.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 572
   },
-  "active": "3dcdd97443eef10c",
+  "active": "0277f6d98430f45b",
   "lastOpenFiles": [
+    "笔记/前端/工程化/5.构建/Esbuild.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
+    "笔记/前端/工程化/5.构建/gulp.md",
     "笔记/前端/工程化/5.构建/grunt.md",
     "笔记/前端/工程化/5.构建/打包工具.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/工程化/6.持续集成&部署.md",
-    "笔记/前端/工程化/5.构建/webpack.svg"
+    "笔记/前端/前端.md"
   ]
 }
