@@ -1,5 +1,5 @@
 {
-  "aestheticStyle": "default",
+  "aestheticStyle": "glass",
   "menuCommands": [
     {
       "id": "cmenu-plugin:editor:toggle-strikethrough",
@@ -64,5 +64,5 @@
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 2.75,
-  "cMenuNumRows": 15
+  "cMenuNumRows": 17
 }
