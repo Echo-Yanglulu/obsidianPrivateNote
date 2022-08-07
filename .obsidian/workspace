@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "babel基本概念",
+                "query": "敏捷",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,7 +201,7 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "0277f6d98430f45b",
+  "active": "989de35848378ae3",
   "lastOpenFiles": [
     "笔记/前端/工程化/Drawing 2022-08-07 10.59.32.excalidraw.md",
     "笔记/前端/工程化/6.CICD.md",
