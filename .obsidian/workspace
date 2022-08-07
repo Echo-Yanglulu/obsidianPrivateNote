@@ -112,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/西方文明简史/器，工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/西方文明简史/器，工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,9 +187,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/西方文明简史/器，工具.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -201,8 +197,9 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "0277f6d98430f45b",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/西方文明简史/器，工具.md",
     "笔记/西方文明简史/西方文明简史.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/3.质量/TDD.md",
@@ -211,7 +208,6 @@
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
-    "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/内心/内心.md"
+    "笔记/前端/工程化/2.规范/2.规范.md"
   ]
 }
