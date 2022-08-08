@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/西方文明简史/器，工具.md",
+            "file": "笔记/西方文明简史/主题，问题，命题.md",
             "mode": "source",
             "source": false
           }
@@ -112,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/西方文明简史/主题，问题，命题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/西方文明简史/主题，问题，命题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/西方文明简史/主题，问题，命题.md"
+              }
             }
           }
         ],
@@ -197,7 +201,7 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "f59515532fe6ff4b",
+  "active": "0277f6d98430f45b",
   "lastOpenFiles": [
     "笔记/西方文明简史/器，工具.md",
     "笔记/西方文明简史/西方文明简史.md",
