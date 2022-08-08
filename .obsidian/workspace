@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0277f6d98430f45b",
+        "id": "6d161a41bc5fa70e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diagram-edit",
           "state": {
-            "file": "笔记/西方文明简史/主题，问题，命题.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/西方文明简史/概念.svg"
           }
         }
       }
@@ -72,17 +70,8 @@
               "type": "center-panes",
               "state": {}
             }
-          },
-          {
-            "id": "8d8bd69be52e5736",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md",
+                "file": "笔记/西方文明简史/概念.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md",
+                "file": "笔记/西方文明简史/概念.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md"
+                "file": "笔记/西方文明简史/概念.svg"
               }
             }
           }
@@ -201,17 +190,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "8d8bd69be52e5736",
+  "active": "6d161a41bc5fa70e",
   "lastOpenFiles": [
-    "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/西方文明简史/主题，问题，命题.md",
+    "笔记/西方文明简史/1. 方法论.md",
+    "笔记/西方文明简史/西方文明简史.md",
+    "Day Planners/Day Planner-20220805.md",
+    "笔记/前端/前端.md",
+    "笔记/西方文明简史/概念.svg",
+    "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/工具/思考/实用性思考的艺术.md",
-    "笔记/西方文明简史/器，工具.md",
-    "笔记/西方文明简史/西方文明简史.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/3.质量/TDD.md",
-    "笔记/前端/工程化/Drawing 2022-08-07 10.59.32.excalidraw.md",
-    "笔记/前端/工程化/脚手架/脚手架.md"
+    "笔记/西方文明简史/器，工具.md"
   ]
 }
