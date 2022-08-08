@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "敏捷",
+                "query": "命题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md",
+                "file": "笔记/工具/思考/基本概念/重要概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md",
+                "file": "笔记/工具/思考/基本概念/重要概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/西方文明简史/主题，问题，命题.md"
+                "file": "笔记/工具/思考/基本概念/重要概念.md"
               }
             }
           }
@@ -201,17 +201,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "0277f6d98430f45b",
+  "active": "5aac0e026e601942",
   "lastOpenFiles": [
+    "笔记/工具/思考/实用性思考的艺术.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/工具/思考/基本概念/重要概念.md",
+    "笔记/西方文明简史/主题，问题，命题.md",
     "笔记/西方文明简史/器，工具.md",
     "笔记/西方文明简史/西方文明简史.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/3.质量/TDD.md",
     "笔记/前端/工程化/Drawing 2022-08-07 10.59.32.excalidraw.md",
-    "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
-    "笔记/前端/工程化/2.规范/2.规范.md"
+    "笔记/前端/工程化/脚手架/脚手架.md"
   ]
 }
