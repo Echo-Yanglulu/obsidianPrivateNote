@@ -43,30 +43,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "快速阅读": {
-      "快速阅读": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1657445012377
-        }
-      }
-    },
-    "笔记流": {
-      "笔记流": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1657445015995
-        }
-      }
-    },
-    "内在化": {
-      "内在化": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1657436469557
-        }
-      }
-    },
     "webpack": {
       "webpack": {
         "internalLink": {
@@ -84,14 +60,6 @@
         "internalLink": {
           "count": 4,
           "lastUpdated": 1659834364972
-        }
-      }
-    },
-    "性能优化": {
-      "性能优化": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1657421496443
         }
       }
     },
@@ -254,8 +222,8 @@
     "版本规范": {
       "版本规范": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1658047627873
+          "count": 2,
+          "lastUpdated": 1659978832118
         }
       }
     },
@@ -936,6 +904,14 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1659842562875
+        }
+      }
+    },
+    "git工程规范": {
+      "git工程规范": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1659978854821
         }
       }
     }
