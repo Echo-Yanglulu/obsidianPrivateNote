@@ -463,7 +463,10 @@ var require_tslib = __commonJS({
 __export(exports, {
   default: () => InitiativeTracker
 });
-var import_obsidian20 = __toModule(require("obsidian"));
+var import_obsidian21 = __toModule(require("obsidian"));
+
+// src/utils/constants.ts
+var import_obsidian = __toModule(require("obsidian"));
 
 // src/utils/conditions.ts
 var Conditions = [
@@ -537,6 +540,7 @@ var Conditions = [
 var INTIATIVE_TRACKER_VIEW = "initiative-tracker-view";
 var CREATURE_TRACKER_VIEW = "initiative-tracker-creature-view";
 var DEFAULT_UNDEFINED = "\u2013";
+var META_MODIFIER = import_obsidian.Platform.isMacOS ? "Meta" : "Control";
 var DEFAULT_SETTINGS = {
   players: [],
   parties: [],
@@ -558,17 +562,20 @@ var DEFAULT_SETTINGS = {
     round: null
   },
   condense: false,
-  clamp: false,
-  autoStatus: false,
+  clamp: true,
+  autoStatus: true,
   displayDifficulty: true,
   encounters: {},
   warnedAboutImports: false,
   openState: {
+    battle: true,
     party: true,
     status: true,
     plugin: true,
     player: true
-  }
+  },
+  hpOverflow: "ignore",
+  additiveTemp: false
 };
 var XP_PER_CR = {
   "0": 0,
@@ -606,38 +613,43 @@ var XP_PER_CR = {
   "29": 135e3,
   "30": 155e3
 };
+var OVERFLOW_TYPE = {
+  ignore: "ignore",
+  current: "current",
+  temp: "temp"
+};
 
 // src/utils/icons.ts
-var import_obsidian = __toModule(require("obsidian"));
+var import_obsidian2 = __toModule(require("obsidian"));
 function registerIcons() {
-  (0, import_obsidian.addIcon)(BASE, ICON);
-  (0, import_obsidian.addIcon)(SAVE, SAVE_ICON);
-  (0, import_obsidian.addIcon)(ADD, ADD_ICON);
-  (0, import_obsidian.addIcon)(RESTART, RESTART_ICON);
-  (0, import_obsidian.addIcon)(PLAY, PLAY_ICON);
-  (0, import_obsidian.addIcon)(FORWARD, FORWARD_ICON);
-  (0, import_obsidian.addIcon)(BACKWARD, BACKWARD_ICON);
-  (0, import_obsidian.addIcon)(STOP, STOP_ICON);
-  (0, import_obsidian.addIcon)(GRIP, GRIP_ICON);
-  (0, import_obsidian.addIcon)(HP, HP_ICON);
-  (0, import_obsidian.addIcon)(AC, AC_ICON);
-  (0, import_obsidian.addIcon)(HAMBURGER, HAMBURGER_ICON);
-  (0, import_obsidian.addIcon)(ENABLE, ENABLE_ICON);
-  (0, import_obsidian.addIcon)(DISABLE, DISABLE_ICON);
-  (0, import_obsidian.addIcon)(TAG, TAG_ICON);
-  (0, import_obsidian.addIcon)(EDIT, EDIT_ICON);
-  (0, import_obsidian.addIcon)(INITIATIVE, INITIATIVE_ICON);
-  (0, import_obsidian.addIcon)(REDO, REDO_ICON);
-  (0, import_obsidian.addIcon)(NEW, NEW_ICON);
-  (0, import_obsidian.addIcon)(DICE, DICE_ICON);
-  (0, import_obsidian.addIcon)(START_ENCOUNTER, START_ENCOUNTER_ICON);
-  (0, import_obsidian.addIcon)(MAP, MAP_ICON);
-  (0, import_obsidian.addIcon)(COPY, COPY_ICON);
-  (0, import_obsidian.addIcon)(GROUP, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" class="svg-inline--fa fa-users fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"/></svg>`);
-  (0, import_obsidian.addIcon)(EXPAND, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users-slash" class="svg-inline--fa fa-users-slash fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M132.65,212.32,36.21,137.78A63.4,63.4,0,0,0,32,160a63.84,63.84,0,0,0,100.65,52.32Zm40.44,62.28A63.79,63.79,0,0,0,128,256H64A64.06,64.06,0,0,0,0,320v32a32,32,0,0,0,32,32H97.91A146.62,146.62,0,0,1,173.09,274.6ZM544,224a64,64,0,1,0-64-64A64.06,64.06,0,0,0,544,224ZM500.56,355.11a114.24,114.24,0,0,0-84.47-65.28L361,247.23c41.46-16.3,71-55.92,71-103.23A111.93,111.93,0,0,0,320,32c-57.14,0-103.69,42.83-110.6,98.08L45.46,3.38A16,16,0,0,0,23,6.19L3.37,31.46A16,16,0,0,0,6.18,53.91L594.53,508.63A16,16,0,0,0,617,505.82l19.64-25.27a16,16,0,0,0-2.81-22.45ZM128,403.21V432a48,48,0,0,0,48,48H464a47.45,47.45,0,0,0,12.57-1.87L232,289.13C173.74,294.83,128,343.42,128,403.21ZM576,256H512a63.79,63.79,0,0,0-45.09,18.6A146.29,146.29,0,0,1,542,384h66a32,32,0,0,0,32-32V320A64.06,64.06,0,0,0,576,256Z"/></svg>`);
-  (0, import_obsidian.addIcon)(ACTIVE, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>`);
-  (0, import_obsidian.addIcon)(MAPMARKER, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>`);
-  (0, import_obsidian.addIcon)(CREATURE, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dragon" class="svg-inline--fa fa-dragon fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M18.32 255.78L192 223.96l-91.28 68.69c-10.08 10.08-2.94 27.31 11.31 27.31h222.7c-9.44-26.4-14.73-54.47-14.73-83.38v-42.27l-119.73-87.6c-23.82-15.88-55.29-14.01-77.06 4.59L5.81 227.64c-12.38 10.33-3.45 30.42 12.51 28.14zm556.87 34.1l-100.66-50.31A47.992 47.992 0 0 1 448 196.65v-36.69h64l28.09 22.63c6 6 14.14 9.37 22.63 9.37h30.97a32 32 0 0 0 28.62-17.69l14.31-28.62a32.005 32.005 0 0 0-3.02-33.51l-74.53-99.38C553.02 4.7 543.54 0 533.47 0H296.02c-7.13 0-10.7 8.57-5.66 13.61L352 63.96 292.42 88.8c-5.9 2.95-5.9 11.36 0 14.31L352 127.96v108.62c0 72.08 36.03 139.39 96 179.38-195.59 6.81-344.56 41.01-434.1 60.91C5.78 478.67 0 485.88 0 494.2 0 504 7.95 512 17.76 512h499.08c63.29.01 119.61-47.56 122.99-110.76 2.52-47.28-22.73-90.4-64.64-111.36zM489.18 66.25l45.65 11.41c-2.75 10.91-12.47 18.89-24.13 18.26-12.96-.71-25.85-12.53-21.52-29.67z"/></svg>`);
+  (0, import_obsidian2.addIcon)(BASE, ICON);
+  (0, import_obsidian2.addIcon)(SAVE, SAVE_ICON);
+  (0, import_obsidian2.addIcon)(ADD, ADD_ICON);
+  (0, import_obsidian2.addIcon)(RESTART, RESTART_ICON);
+  (0, import_obsidian2.addIcon)(PLAY, PLAY_ICON);
+  (0, import_obsidian2.addIcon)(FORWARD, FORWARD_ICON);
+  (0, import_obsidian2.addIcon)(BACKWARD, BACKWARD_ICON);
+  (0, import_obsidian2.addIcon)(STOP, STOP_ICON);
+  (0, import_obsidian2.addIcon)(GRIP, GRIP_ICON);
+  (0, import_obsidian2.addIcon)(HP, HP_ICON);
+  (0, import_obsidian2.addIcon)(AC, AC_ICON);
+  (0, import_obsidian2.addIcon)(HAMBURGER, HAMBURGER_ICON);
+  (0, import_obsidian2.addIcon)(ENABLE, ENABLE_ICON);
+  (0, import_obsidian2.addIcon)(DISABLE, DISABLE_ICON);
+  (0, import_obsidian2.addIcon)(TAG, TAG_ICON);
+  (0, import_obsidian2.addIcon)(EDIT, EDIT_ICON);
+  (0, import_obsidian2.addIcon)(INITIATIVE, INITIATIVE_ICON);
+  (0, import_obsidian2.addIcon)(REDO, REDO_ICON);
+  (0, import_obsidian2.addIcon)(NEW, NEW_ICON);
+  (0, import_obsidian2.addIcon)(DICE, DICE_ICON);
+  (0, import_obsidian2.addIcon)(START_ENCOUNTER, START_ENCOUNTER_ICON);
+  (0, import_obsidian2.addIcon)(MAP, MAP_ICON);
+  (0, import_obsidian2.addIcon)(COPY, COPY_ICON);
+  (0, import_obsidian2.addIcon)(GROUP, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users" class="svg-inline--fa fa-users fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"/></svg>`);
+  (0, import_obsidian2.addIcon)(EXPAND, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="users-slash" class="svg-inline--fa fa-users-slash fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M132.65,212.32,36.21,137.78A63.4,63.4,0,0,0,32,160a63.84,63.84,0,0,0,100.65,52.32Zm40.44,62.28A63.79,63.79,0,0,0,128,256H64A64.06,64.06,0,0,0,0,320v32a32,32,0,0,0,32,32H97.91A146.62,146.62,0,0,1,173.09,274.6ZM544,224a64,64,0,1,0-64-64A64.06,64.06,0,0,0,544,224ZM500.56,355.11a114.24,114.24,0,0,0-84.47-65.28L361,247.23c41.46-16.3,71-55.92,71-103.23A111.93,111.93,0,0,0,320,32c-57.14,0-103.69,42.83-110.6,98.08L45.46,3.38A16,16,0,0,0,23,6.19L3.37,31.46A16,16,0,0,0,6.18,53.91L594.53,508.63A16,16,0,0,0,617,505.82l19.64-25.27a16,16,0,0,0-2.81-22.45ZM128,403.21V432a48,48,0,0,0,48,48H464a47.45,47.45,0,0,0,12.57-1.87L232,289.13C173.74,294.83,128,343.42,128,403.21ZM576,256H512a63.79,63.79,0,0,0-45.09,18.6A146.29,146.29,0,0,1,542,384h66a32,32,0,0,0,32-32V320A64.06,64.06,0,0,0,576,256Z"/></svg>`);
+  (0, import_obsidian2.addIcon)(ACTIVE, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-w-8" role="img" viewBox="0 0 256 512"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg>`);
+  (0, import_obsidian2.addIcon)(MAPMARKER, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12" role="img" viewBox="0 0 384 512"><path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>`);
+  (0, import_obsidian2.addIcon)(CREATURE, `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dragon" class="svg-inline--fa fa-dragon fa-w-20" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M18.32 255.78L192 223.96l-91.28 68.69c-10.08 10.08-2.94 27.31 11.31 27.31h222.7c-9.44-26.4-14.73-54.47-14.73-83.38v-42.27l-119.73-87.6c-23.82-15.88-55.29-14.01-77.06 4.59L5.81 227.64c-12.38 10.33-3.45 30.42 12.51 28.14zm556.87 34.1l-100.66-50.31A47.992 47.992 0 0 1 448 196.65v-36.69h64l28.09 22.63c6 6 14.14 9.37 22.63 9.37h30.97a32 32 0 0 0 28.62-17.69l14.31-28.62a32.005 32.005 0 0 0-3.02-33.51l-74.53-99.38C553.02 4.7 543.54 0 533.47 0H296.02c-7.13 0-10.7 8.57-5.66 13.61L352 63.96 292.42 88.8c-5.9 2.95-5.9 11.36 0 14.31L352 127.96v108.62c0 72.08 36.03 139.39 96 179.38-195.59 6.81-344.56 41.01-434.1 60.91C5.78 478.67 0 485.88 0 494.2 0 504 7.95 512 17.76 512h499.08c63.29.01 119.61-47.56 122.99-110.76 2.52-47.28-22.73-90.4-64.64-111.36zM489.18 66.25l45.65 11.41c-2.75 10.91-12.47 18.89-24.13 18.26-12.96-.71-25.85-12.53-21.52-29.67z"/></svg>`);
 }
 var MAPMARKER = "tracker-map-marker";
 var EXPAND = "expand-creatures";
@@ -693,10 +705,10 @@ var COPY = "initiative-tracker-copy";
 var COPY_ICON = `<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="far" data-icon="copy" class="svg-inline--fa fa-copy fa-w-14" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M433.941 65.941l-51.882-51.882A48 48 0 0 0 348.118 0H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h224c26.51 0 48-21.49 48-48v-48h80c26.51 0 48-21.49 48-48V99.882a48 48 0 0 0-14.059-33.941zM266 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h74v224c0 26.51 21.49 48 48 48h96v42a6 6 0 0 1-6 6zm128-96H182a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h106v88c0 13.255 10.745 24 24 24h88v202a6 6 0 0 1-6 6zm6-256h-64V48h9.632c1.591 0 3.117.632 4.243 1.757l48.368 48.368a6 6 0 0 1 1.757 4.243V112z"/></svg>`;
 
 // src/settings.ts
-var import_obsidian3 = __toModule(require("obsidian"));
+var import_obsidian4 = __toModule(require("obsidian"));
 
 // src/utils/suggester.ts
-var import_obsidian2 = __toModule(require("obsidian"));
+var import_obsidian3 = __toModule(require("obsidian"));
 
 // node_modules/@popperjs/core/lib/enums.js
 var top = "top";
@@ -2296,11 +2308,11 @@ var Suggester = class {
     }
   }
 };
-var SuggestionModal = class extends import_obsidian2.FuzzySuggestModal {
+var SuggestionModal = class extends import_obsidian3.FuzzySuggestModal {
   constructor(app, inputEl) {
     super(app);
     this.items = [];
-    this.scope = new import_obsidian2.Scope();
+    this.scope = new import_obsidian3.Scope();
     this.emptyStateText = "No match found";
     this.limit = 25;
     this.inputEl = inputEl;
@@ -2537,7 +2549,7 @@ var ConditionSuggestionModal = class extends SuggestionModal {
   }
   renderSuggestion(result, el) {
     let { item, match: matches } = result || {};
-    let content = new import_obsidian2.Setting(el);
+    let content = new import_obsidian3.Setting(el);
     if (!item) {
       content.nameEl.setText(this.emptyStateText);
       this.condition = null;
@@ -2625,8 +2637,8 @@ var PlayerSuggestionModal = class extends SuggestionModal {
 };
 
 // src/settings.ts
-var import_obsidian4 = __toModule(require("obsidian"));
-var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab {
+var import_obsidian5 = __toModule(require("obsidian"));
+var InitiativeTrackerSettings = class extends import_obsidian4.PluginSettingTab {
   constructor(plugin) {
     super(plugin.app, plugin);
     this.plugin = plugin;
@@ -2640,12 +2652,19 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       this._displayBase(containerEl.createDiv());
       if (!this.plugin.data.openState) {
         this.plugin.data.openState = {
+          battle: true,
           player: true,
           party: true,
           plugin: true,
           status: true
         };
       }
+      this._displayBattle(containerEl.createEl("details", {
+        cls: "initiative-tracker-additional-container",
+        attr: {
+          ...this.plugin.data.openState.player ? { open: true } : {}
+        }
+      }));
       this._displayPlayers(containerEl.createEl("details", {
         cls: "initiative-tracker-additional-container",
         attr: {
@@ -2681,19 +2700,19 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       });
     } catch (e) {
       console.error(e);
-      new import_obsidian3.Notice("There was an error displaying the settings tab for Obsidian Initiative Tracker.");
+      new import_obsidian4.Notice("There was an error displaying the settings tab for Obsidian Initiative Tracker.");
     }
   }
   _displayBase(containerEl) {
     containerEl.empty();
-    new import_obsidian3.Setting(containerEl).setHeading().setName("Basic Settings");
-    new import_obsidian3.Setting(containerEl).setName("Display Encounter Difficulty").setDesc("Display encounter difficulty based on creature CR and player level. Creatures without CR or level will not be considered in the calculation.").addToggle((t) => {
+    new import_obsidian4.Setting(containerEl).setHeading().setName("Basic Settings");
+    new import_obsidian4.Setting(containerEl).setName("Display Encounter Difficulty").setDesc("Display encounter difficulty based on creature CR and player level. Creatures without CR or level will not be considered in the calculation.").addToggle((t) => {
       t.setValue(this.plugin.data.displayDifficulty).onChange(async (v) => {
         this.plugin.data.displayDifficulty = v;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian3.Setting(containerEl).setName("Roll Equivalent Creatures Together").setDesc("Equivalent creatures (same HP, AC and Name) will roll the same initiative by default.").addToggle((t) => {
+    new import_obsidian4.Setting(containerEl).setName("Roll Equivalent Creatures Together").setDesc("Equivalent creatures (same HP, AC and Name) will roll the same initiative by default.").addToggle((t) => {
       t.setValue(this.plugin.data.condense).onChange(async (v) => {
         this.plugin.data.condense = v;
         const view = this.plugin.view;
@@ -2703,15 +2722,40 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian3.Setting(containerEl).setName("Clamp Minimum HP").setDesc("When a creature takes damage that would reduce its HP below 0, its HP is set to 0 instead.").addToggle((t) => {
+  }
+  _displayBattle(additionalContainer) {
+    additionalContainer.empty();
+    additionalContainer.ontoggle = () => {
+      this.plugin.data.openState.battle = additionalContainer.open;
+    };
+    const summary = additionalContainer.createEl("summary");
+    new import_obsidian4.Setting(summary).setHeading().setName("Battle");
+    summary.createDiv("collapser").createDiv("handle");
+    new import_obsidian4.Setting(additionalContainer).setName("Clamp Minimum HP").setDesc("When a creature takes damage that would reduce its HP below 0, its HP is set to 0 instead.").addToggle((t) => {
       t.setValue(this.plugin.data.clamp).onChange(async (v) => {
         this.plugin.data.clamp = v;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian3.Setting(containerEl).setName("Automatic Unconscious Status Application").setDesc('When a creature takes damage that would reduce its HP below 0, it gains the "Unconscious" status effect.').addToggle((t) => {
+    new import_obsidian4.Setting(additionalContainer).setName("Overflow Healing").setDesc("Set what happens to healing which goes above creatures' max HP threshold.").addDropdown((d) => {
+      d.addOption("ignore", "Ignore");
+      d.addOption("temp", "Add to temp HP");
+      d.addOption("current", "Add to current HP");
+      d.setValue(this.plugin.data.hpOverflow ?? "ignore");
+      d.onChange(async (v) => {
+        this.plugin.data.hpOverflow = v;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian4.Setting(additionalContainer).setName("Automatic Unconscious Status Application").setDesc('When a creature takes damage that would reduce its HP below 0, it gains the "Unconscious" status effect.').addToggle((t) => {
       t.setValue(this.plugin.data.autoStatus).onChange(async (v) => {
         this.plugin.data.autoStatus = v;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian4.Setting(additionalContainer).setName("Additive Temporary HP").setDesc("Any temporary HP added to a creature will be added on top of existing temporary HP.").addToggle((t) => {
+      t.setValue(this.plugin.data.additiveTemp).onChange(async (v) => {
+        this.plugin.data.additiveTemp = v;
         await this.plugin.saveSettings();
       });
     });
@@ -2722,9 +2766,9 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       this.plugin.data.openState.player = additionalContainer.open;
     };
     const summary = additionalContainer.createEl("summary");
-    new import_obsidian3.Setting(summary).setHeading().setName("Players");
+    new import_obsidian4.Setting(summary).setHeading().setName("Players");
     summary.createDiv("collapser").createDiv("handle");
-    new import_obsidian3.Setting(additionalContainer).setName("Add New Player").setDesc("Players added here will be available to add to a party. If you do not have a party created, all players will be added to a new encounter.").addButton((button) => {
+    new import_obsidian4.Setting(additionalContainer).setName("Add New Player").setDesc("Players added here will be available to add to a party. If you do not have a party created, all players will be added to a new encounter.").addButton((button) => {
       let b = button.setTooltip("Add Player").setButtonText("+").onClick(async () => {
         const modal = new NewPlayerModal(this.plugin);
         modal.open();
@@ -2753,9 +2797,9 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
     } else {
       const headers = playerView.createDiv("initiative-tracker-player headers");
       headers.createDiv({ text: "Name" });
-      new import_obsidian3.ExtraButtonComponent(headers.createDiv()).setIcon(HP).setTooltip("Max HP");
-      new import_obsidian3.ExtraButtonComponent(headers.createDiv()).setIcon(AC).setTooltip("Armor Class");
-      new import_obsidian3.ExtraButtonComponent(headers.createDiv()).setIcon(INITIATIVE).setTooltip("Initiative Modifier");
+      new import_obsidian4.ExtraButtonComponent(headers.createDiv()).setIcon(HP).setTooltip("Max HP");
+      new import_obsidian4.ExtraButtonComponent(headers.createDiv()).setIcon(AC).setTooltip("Armor Class");
+      new import_obsidian4.ExtraButtonComponent(headers.createDiv()).setIcon(INITIATIVE).setTooltip("Initiative Modifier");
       headers.createDiv();
       for (let player of this.plugin.data.players) {
         const playerDiv = playerView.createDiv("initiative-tracker-player");
@@ -2770,7 +2814,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
           text: `${player.modifier ?? DEFAULT_UNDEFINED}`
         });
         const icons = playerDiv.createDiv("initiative-tracker-player-icon");
-        new import_obsidian3.ExtraButtonComponent(icons.createDiv()).setIcon("pencil").setTooltip("Edit").onClick(() => {
+        new import_obsidian4.ExtraButtonComponent(icons.createDiv()).setIcon("pencil").setTooltip("Edit").onClick(() => {
           const modal = new NewPlayerModal(this.plugin, player);
           modal.open();
           modal.onClose = async () => {
@@ -2781,7 +2825,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
             this._displayPlayers(additionalContainer);
           };
         });
-        new import_obsidian3.ExtraButtonComponent(icons.createDiv()).setIcon("trash").setTooltip("Delete").onClick(async () => {
+        new import_obsidian4.ExtraButtonComponent(icons.createDiv()).setIcon("trash").setTooltip("Delete").onClick(async () => {
           this.plugin.data.players = this.plugin.data.players.filter((p) => p != player);
           await this.plugin.saveSettings();
           this._displayPlayers(additionalContainer);
@@ -2795,7 +2839,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       this.plugin.data.openState.party = additionalContainer.open;
     };
     const summary = additionalContainer.createEl("summary");
-    new import_obsidian3.Setting(summary).setHeading().setName("Parties");
+    new import_obsidian4.Setting(summary).setHeading().setName("Parties");
     summary.createDiv("collapser").createDiv("handle");
     const explanation = additionalContainer.createDiv("initiative-tracker-explanation");
     explanation.createEl("span", {
@@ -2806,7 +2850,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
     explanation.createEl("span", {
       text: "You can set a default party for encounters to use, or specify the party for the encounter in the encounter block. While running an encounter in the tracker, you can change the active party, allowing you to quickly switch which players are in combat."
     });
-    new import_obsidian3.Setting(additionalContainer).setName("Default Party").setDesc("The tracker will load this party to encounters by default.").addDropdown((d) => {
+    new import_obsidian4.Setting(additionalContainer).setName("Default Party").setDesc("The tracker will load this party to encounters by default.").addDropdown((d) => {
       d.addOption("none", "None");
       for (const party of this.plugin.data.parties) {
         d.addOption(party.name, party.name);
@@ -2817,7 +2861,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
         this.plugin.saveSettings();
       });
     });
-    new import_obsidian3.Setting(additionalContainer).setName("Add New Party").addButton((button) => {
+    new import_obsidian4.Setting(additionalContainer).setName("Add New Party").addButton((button) => {
       let b = button.setTooltip("Add Party").setButtonText("+").onClick(async () => {
         const modal = new PartyModal(this.plugin);
         modal.open();
@@ -2853,7 +2897,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       });
     } else {
       for (const party of this.plugin.data.parties) {
-        new import_obsidian3.Setting(additional).setName(party.name).setDesc(party.players.join(", ")).addExtraButton((b) => {
+        new import_obsidian4.Setting(additional).setName(party.name).setDesc(party.players.join(", ")).addExtraButton((b) => {
           b.setIcon("pencil").onClick(() => {
             const modal = new PartyModal(this.plugin, party);
             modal.open();
@@ -2893,9 +2937,9 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       this.plugin.data.openState.status = additionalContainer.open;
     };
     const summary = additionalContainer.createEl("summary");
-    new import_obsidian3.Setting(summary).setHeading().setName("Statuses");
+    new import_obsidian4.Setting(summary).setHeading().setName("Statuses");
     summary.createDiv("collapser").createDiv("handle");
-    const add = new import_obsidian3.Setting(additionalContainer).setName("Add New Status").setDesc("These statuses will be available to apply to creatures.").addButton((button) => {
+    const add = new import_obsidian4.Setting(additionalContainer).setName("Add New Status").setDesc("These statuses will be available to apply to creatures.").addButton((button) => {
       let b = button.setTooltip("Add Status").setButtonText("+").onClick(async () => {
         const modal = new StatusModal(this.plugin);
         modal.onClose = async () => {
@@ -2932,7 +2976,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
     }
     const additional = additionalContainer.createDiv("additional");
     for (const status of this.plugin.data.statuses) {
-      new import_obsidian3.Setting(additional).setName(status.name).setDesc(status.description).addExtraButton((b) => b.setIcon("pencil").onClick(() => {
+      new import_obsidian4.Setting(additional).setName(status.name).setDesc(status.description).addExtraButton((b) => b.setIcon("pencil").onClick(() => {
         const modal = new StatusModal(this.plugin, status);
         modal.onClose = async () => {
           if (modal.canceled)
@@ -2967,13 +3011,13 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       this.plugin.data.openState.plugin = containerEl.open;
     };
     const summary = containerEl.createEl("summary");
-    new import_obsidian3.Setting(summary).setHeading().setName("Plugin Integrations");
+    new import_obsidian4.Setting(summary).setHeading().setName("Plugin Integrations");
     summary.createDiv("collapser").createDiv("handle");
     if (!this.plugin.canUseStatBlocks) {
       this.plugin.data.sync = false;
       await this.plugin.saveSettings();
     }
-    new import_obsidian3.Setting(containerEl).setName("Sync Monsters from TTRPG Statblocks").setDesc(createFragment((e) => {
+    new import_obsidian4.Setting(containerEl).setName("Sync Monsters from TTRPG Statblocks").setDesc(createFragment((e) => {
       e.createSpan({
         text: "Homebrew creatures saved to the TTRPG Statblocks plugin will be available in the quick-add."
       });
@@ -3000,12 +3044,12 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       });
     });
     if (this.plugin.data.sync) {
-      const synced = new import_obsidian3.Setting(containerEl).setDesc(`${this.plugin.statblock_creatures.length} creatures synced.`);
+      const synced = new import_obsidian4.Setting(containerEl).setDesc(`${this.plugin.statblock_creatures.length} creatures synced.`);
       synced.settingEl.addClass("initiative-synced");
-      (0, import_obsidian3.setIcon)(synced.nameEl, "check-in-circle");
+      (0, import_obsidian4.setIcon)(synced.nameEl, "check-in-circle");
       synced.nameEl.appendChild(createSpan({ text: "Synced" }));
     }
-    new import_obsidian3.Setting(containerEl).setName("Initiative Formula").setDesc(createFragment((e) => {
+    new import_obsidian4.Setting(containerEl).setName("Initiative Formula").setDesc(createFragment((e) => {
       e.createSpan({
         text: "Initiative formula to use when calculating initiative. Use "
       });
@@ -3050,7 +3094,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
         await this.plugin.saveSettings();
       };
     });
-    new import_obsidian3.Setting(containerEl).setName("Integrate with Obsidian Leaflet").setDesc(createFragment((e) => {
+    new import_obsidian4.Setting(containerEl).setName("Integrate with Obsidian Leaflet").setDesc(createFragment((e) => {
       e.createSpan({
         text: "Integrate with the Obsidian Leaflet plugin and display combats on a map."
       });
@@ -3089,7 +3133,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
       });
     });
     if (this.plugin.canUseLeaflet && this.plugin.data.leafletIntegration) {
-      new import_obsidian3.Setting(containerEl).setName("Default Player Marker Type").setDesc(createFragment((e) => {
+      new import_obsidian4.Setting(containerEl).setName("Default Player Marker Type").setDesc(createFragment((e) => {
         if (this.plugin.data.playerMarker) {
           const div = e.createDiv("marker-type-display");
           const inner = div.createDiv("marker-icon-display");
@@ -3109,7 +3153,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
           this._displayIntegrations(containerEl);
         });
       });
-      new import_obsidian3.Setting(containerEl).setName("Default Monster Marker Type").setDesc(createFragment((e) => {
+      new import_obsidian4.Setting(containerEl).setName("Default Monster Marker Type").setDesc(createFragment((e) => {
         if (this.plugin.data.monsterMarker) {
           const div = e.createDiv("marker-type-display");
           const inner = div.createDiv("marker-icon-display");
@@ -3135,7 +3179,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
     additionalContainer.empty();
     if (this.plugin.data.homebrew.length) {
       const additional = additionalContainer.createDiv("additional");
-      new import_obsidian3.Setting(additional).setHeading().setName("Homebrew Creatures");
+      new import_obsidian4.Setting(additional).setHeading().setName("Homebrew Creatures");
       const warning = additional.createDiv({
         attr: {
           style: "display: flex; justify-content: center; padding: 18px;"
@@ -3152,12 +3196,12 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
         text: " plugin."
       });
       if (this.plugin.canUseStatBlocks) {
-        new import_obsidian3.Setting(additional).setName("Migrate Hombrew").setDesc("Move all created homebrew creatures to the 5e Statblocks plugin.").addButton((b) => {
+        new import_obsidian4.Setting(additional).setName("Migrate Hombrew").setDesc("Move all created homebrew creatures to the 5e Statblocks plugin.").addButton((b) => {
           b.setIcon("install").setTooltip("Migrate").onClick(async () => {
             const statblocks = this.app.plugins.getPlugin("obsidian-5e-statblocks");
             const existing = statblocks.settings.monsters.length;
             await statblocks.saveMonsters(this.plugin.data.homebrew);
-            new import_obsidian3.Notice(`${statblocks.settings.monsters.length - existing} of ${this.plugin.data.homebrew.length} Homebrew Monsters saved.`);
+            new import_obsidian4.Notice(`${statblocks.settings.monsters.length - existing} of ${this.plugin.data.homebrew.length} Homebrew Monsters saved.`);
           });
         }).addExtraButton((b) => {
           b.setIcon("cross-in-box").setTooltip("Delete Homebrew").onClick(async () => {
@@ -3188,7 +3232,7 @@ var InitiativeTrackerSettings = class extends import_obsidian3.PluginSettingTab 
     }
   }
 };
-var NewPlayerModal = class extends import_obsidian4.Modal {
+var NewPlayerModal = class extends import_obsidian5.Modal {
   constructor(plugin, original) {
     super(plugin.app);
     this.plugin = plugin;
@@ -3203,7 +3247,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
     contentEl.createEl("h2", {
       text: this.original ? "Edit Player" : "New Player"
     });
-    new import_obsidian3.Setting(contentEl).setName("Link to Note").setDesc("Link player to a note in your vault.").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Link to Note").setDesc("Link player to a note in your vault.").addText((t) => {
       t.setValue(this.player.note ?? "");
       const modal = new FileSuggestionModal(this.app, t);
       modal.onClose = async () => {
@@ -3224,7 +3268,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
       };
     });
     let nameInput, levelInput, hpInput, acInput, modInput;
-    new import_obsidian3.Setting(contentEl).setName("Name").setDesc("Player name. Must be unique!").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Name").setDesc("Player name. Must be unique!").addText((t) => {
       nameInput = {
         input: t.inputEl,
         validate: (i) => {
@@ -3242,7 +3286,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
         this.player.name = v;
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Level").setDesc("Player level.").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Level").setDesc("Player level.").addText((t) => {
       levelInput = {
         input: t.inputEl,
         validate: (i) => {
@@ -3260,7 +3304,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
         this.player.level = Number(v);
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Max Hit Points").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Max Hit Points").addText((t) => {
       hpInput = {
         input: t.inputEl,
         validate: (i) => {
@@ -3278,7 +3322,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
         this.player.hp = Number(v);
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Armor Class").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Armor Class").addText((t) => {
       acInput = {
         input: t.inputEl,
         validate: (i) => {
@@ -3296,7 +3340,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
         this.player.ac = Number(v);
       });
     });
-    new import_obsidian3.Setting(contentEl).setName("Initiative Modifier").setDesc("This will be added to randomly-rolled initiatives.").addText((t) => {
+    new import_obsidian4.Setting(contentEl).setName("Initiative Modifier").setDesc("This will be added to randomly-rolled initiatives.").addText((t) => {
       modInput = {
         input: t.inputEl,
         validate: (i) => {
@@ -3314,7 +3358,7 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
       });
     });
     if (this.plugin.canUseLeaflet) {
-      const markerSetting = new import_obsidian3.Setting(contentEl).setName("Leaflet Marker").addDropdown((drop) => {
+      const markerSetting = new import_obsidian4.Setting(contentEl).setName("Leaflet Marker").addDropdown((drop) => {
         for (let marker of this.plugin.leaflet.markerIcons) {
           drop.addOption(marker.type, marker.type);
         }
@@ -3335,12 +3379,12 @@ var NewPlayerModal = class extends import_obsidian4.Modal {
       }
     }
     let footerEl = contentEl.createDiv();
-    let footerButtons = new import_obsidian3.Setting(footerEl);
+    let footerButtons = new import_obsidian4.Setting(footerEl);
     footerButtons.addButton((b) => {
       b.setTooltip("Save").setIcon("checkmark").onClick(async () => {
         let error2 = this.validateInputs(nameInput, acInput, hpInput, modInput);
         if (error2) {
-          new import_obsidian3.Notice("Fix errors before saving.");
+          new import_obsidian4.Notice("Fix errors before saving.");
           return;
         }
         this.saved = true;
@@ -3384,7 +3428,7 @@ async function confirmWithModal(app, text2, buttons = {
     modal.open();
   });
 }
-var ConfirmModal = class extends import_obsidian4.Modal {
+var ConfirmModal = class extends import_obsidian5.Modal {
   constructor(app, text2, buttons) {
     super(app);
     this.text = text2;
@@ -3399,11 +3443,11 @@ var ConfirmModal = class extends import_obsidian4.Modal {
         text: this.text
       });
       const buttonEl = this.contentEl.createDiv("fantasy-calendar-confirm-buttons");
-      new import_obsidian4.ButtonComponent(buttonEl).setButtonText(this.buttons.cta).setCta().onClick(() => {
+      new import_obsidian5.ButtonComponent(buttonEl).setButtonText(this.buttons.cta).setCta().onClick(() => {
         this.confirmed = true;
         this.close();
       });
-      new import_obsidian4.ButtonComponent(buttonEl).setButtonText(this.buttons.secondary).onClick(() => {
+      new import_obsidian5.ButtonComponent(buttonEl).setButtonText(this.buttons.secondary).onClick(() => {
         this.close();
       });
     });
@@ -3412,8 +3456,8 @@ var ConfirmModal = class extends import_obsidian4.Modal {
     this.display();
   }
 };
-(0, import_obsidian3.addIcon)("initiative-tracker-warning", `<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-triangle" class="svg-inline--fa fa-exclamation-triangle fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>`);
-var StatusModal = class extends import_obsidian4.Modal {
+(0, import_obsidian4.addIcon)("initiative-tracker-warning", `<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-triangle" class="svg-inline--fa fa-exclamation-triangle fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>`);
+var StatusModal = class extends import_obsidian5.Modal {
   constructor(plugin, status) {
     super(plugin.app);
     this.plugin = plugin;
@@ -3432,14 +3476,14 @@ var StatusModal = class extends import_obsidian4.Modal {
   }
   onOpen() {
     this.titleEl.setText(this.editing ? "Edit Status" : "New Status");
-    const name = new import_obsidian3.Setting(this.contentEl).setName("Name").addText((t) => {
+    const name = new import_obsidian4.Setting(this.contentEl).setName("Name").addText((t) => {
       t.setValue(this.status.name).onChange((v) => {
         this.status.name = v;
         if (this.plugin.data.statuses.find((s) => s.name == this.status.name) && !this.warned && this.original != this.status.name) {
           this.warned = true;
           name.setDesc(createFragment((e) => {
             const container = e.createDiv("initiative-tracker-warning");
-            (0, import_obsidian3.setIcon)(container, "initiative-tracker-warning");
+            (0, import_obsidian4.setIcon)(container, "initiative-tracker-warning");
             container.createSpan({
               text: "A status by this name already exists and will be overwritten."
             });
@@ -3450,16 +3494,16 @@ var StatusModal = class extends import_obsidian4.Modal {
         }
       });
     });
-    new import_obsidian3.Setting(this.contentEl).setName("Description").addTextArea((t) => {
+    new import_obsidian4.Setting(this.contentEl).setName("Description").addTextArea((t) => {
       t.setValue(this.status.description).onChange((v) => this.status.description = v);
     });
-    new import_obsidian4.ButtonComponent(this.contentEl.createDiv("initiative-tracker-cancel")).setButtonText("Cancel").onClick(() => {
+    new import_obsidian5.ButtonComponent(this.contentEl.createDiv("initiative-tracker-cancel")).setButtonText("Cancel").onClick(() => {
       this.canceled = true;
       this.close();
     });
   }
 };
-var PartyModal = class extends import_obsidian4.Modal {
+var PartyModal = class extends import_obsidian5.Modal {
   constructor(plugin, party) {
     super(plugin.app);
     this.plugin = plugin;
@@ -3478,14 +3522,14 @@ var PartyModal = class extends import_obsidian4.Modal {
   }
   onOpen() {
     this.titleEl.setText(this.editing ? `Edit ${this.party.name ?? "Party"}` : "New Party");
-    const name = new import_obsidian3.Setting(this.contentEl).setName("Name").addText((t) => {
+    const name = new import_obsidian4.Setting(this.contentEl).setName("Name").addText((t) => {
       t.setValue(this.party.name).onChange((v) => {
         this.party.name = v;
         if (this.plugin.data.parties.find((s) => s.name == this.party.name) && !this.warned && this.original != this.party.name) {
           this.warned = true;
           name.setDesc(createFragment((e) => {
             const container = e.createDiv("initiative-tracker-warning");
-            (0, import_obsidian3.setIcon)(container, "initiative-tracker-warning");
+            (0, import_obsidian4.setIcon)(container, "initiative-tracker-warning");
             container.createSpan({
               text: "A party by this name already exists and will be overwritten."
             });
@@ -3498,18 +3542,18 @@ var PartyModal = class extends import_obsidian4.Modal {
     });
     const playersEl = this.contentEl.createDiv("initiative-tracker-additional-container");
     let playerText;
-    new import_obsidian3.Setting(playersEl).setName("Add Player to Party").addText((t) => {
+    new import_obsidian4.Setting(playersEl).setName("Add Player to Party").addText((t) => {
       playerText = t;
       new PlayerSuggestionModal(this.plugin, t, this.party);
     }).addExtraButton((b) => b.setIcon("plus-with-circle").onClick(() => {
       if (!playerText.getValue() || !playerText.getValue().length)
         return;
       if (this.party.players.includes(playerText.getValue())) {
-        new import_obsidian3.Notice("That player is already in this party!");
+        new import_obsidian4.Notice("That player is already in this party!");
         return;
       }
       if (!this.plugin.data.players.find((p) => p.name == playerText.getValue())) {
-        new import_obsidian3.Notice("That player doesn't exist! You should make them first.");
+        new import_obsidian4.Notice("That player doesn't exist! You should make them first.");
         return;
       }
       this.party.players.push(playerText.getValue());
@@ -3518,7 +3562,7 @@ var PartyModal = class extends import_obsidian4.Modal {
     }));
     const playersDisplayEl = playersEl.createDiv("additional");
     this.displayPlayers(playersDisplayEl);
-    new import_obsidian4.ButtonComponent(this.contentEl.createDiv("initiative-tracker-cancel")).setButtonText("Cancel").onClick(() => {
+    new import_obsidian5.ButtonComponent(this.contentEl.createDiv("initiative-tracker-cancel")).setButtonText("Cancel").onClick(() => {
       this.canceled = true;
       this.close();
     });
@@ -3527,7 +3571,7 @@ var PartyModal = class extends import_obsidian4.Modal {
     containerEl.empty();
     if (this.party.players.length) {
       for (const player of this.party.players) {
-        new import_obsidian3.Setting(containerEl).setName(player).addExtraButton((b) => {
+        new import_obsidian4.Setting(containerEl).setName(player).addExtraButton((b) => {
           b.setIcon("trash").onClick(() => {
             this.party.players.splice(this.party.players.indexOf(player), 1);
             this.displayPlayers(containerEl);
@@ -3547,7 +3591,7 @@ var PartyModal = class extends import_obsidian4.Modal {
 };
 
 // src/encounter/index.ts
-var import_obsidian7 = __toModule(require("obsidian"));
+var import_obsidian8 = __toModule(require("obsidian"));
 
 // src/utils/creature.ts
 function getId() {
@@ -3574,6 +3618,7 @@ var Creature = class {
     this.player = creature.player;
     this.marker = creature.marker;
     this.hp = this.max;
+    this.temp = 0;
     this.source = creature.source;
     if ("xp" in creature) {
       this.xp = creature.xp;
@@ -3584,7 +3629,10 @@ var Creature = class {
   }
   get hpDisplay() {
     if (this.max) {
-      return `${this.hp}/${this.max}`;
+      const tempMods = this.temp > 0 ? `aria-label="Temp HP: ${this.temp}" style="font-weight:bold"` : "";
+      return `
+                <span ${tempMods}>${this.hp + this.temp}</span><span>/${this.max}</span>
+            `;
     }
     return DEFAULT_UNDEFINED;
   }
@@ -3644,6 +3692,7 @@ var Creature = class {
       id: this.id,
       marker: this.marker,
       currentHP: this.hp,
+      tempHP: this.temp,
       status: Array.from(this.status).map((c) => c.name),
       enabled: this.enabled,
       level: this.level,
@@ -3655,6 +3704,7 @@ var Creature = class {
   static fromJSON(state) {
     const creature = new Creature(state, state.initiative);
     creature.enabled = state.enabled;
+    creature.temp = state.tempHP ? state.tempHP : 0;
     creature.hp = state.currentHP;
     let statuses = [];
     for (const status of state.status) {
@@ -3775,7 +3825,7 @@ function get_root_for_style(node) {
 function append_empty_stylesheet(node) {
   const style_element = element("style");
   append_stylesheet(get_root_for_style(node), style_element);
-  return style_element;
+  return style_element.sheet;
 }
 function append_stylesheet(node, style) {
   append(node.head || node, style);
@@ -3835,17 +3885,21 @@ function set_input_value(input, value) {
   input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
-  node.style.setProperty(key, value, important ? "important" : "");
+  if (value === null) {
+    node.style.removeProperty(key);
+  } else {
+    node.style.setProperty(key, value, important ? "important" : "");
+  }
 }
 function toggle_class(element2, name, toggle) {
   element2.classList[toggle ? "add" : "remove"](name);
 }
-function custom_event(type, detail, bubbles = false) {
+function custom_event(type, detail, { bubbles = false, cancelable = false } = {}) {
   const e = document.createEvent("CustomEvent");
-  e.initCustomEvent(type, bubbles, false, detail);
+  e.initCustomEvent(type, bubbles, cancelable, detail);
   return e;
 }
-var active_docs = /* @__PURE__ */ new Set();
+var managed_styles = /* @__PURE__ */ new Map();
 var active = 0;
 function hash3(str) {
   let hash4 = 5381;
@@ -3853,6 +3907,11 @@ function hash3(str) {
   while (i--)
     hash4 = (hash4 << 5) - hash4 ^ str.charCodeAt(i);
   return hash4 >>> 0;
+}
+function create_style_information(doc, node) {
+  const info = { stylesheet: append_empty_stylesheet(node), rules: {} };
+  managed_styles.set(doc, info);
+  return info;
 }
 function create_rule(node, a, b, duration, delay, ease, fn2, uid = 0) {
   const step = 16.666 / duration;
@@ -3866,11 +3925,9 @@ function create_rule(node, a, b, duration, delay, ease, fn2, uid = 0) {
 }`;
   const name = `__svelte_${hash3(rule)}_${uid}`;
   const doc = get_root_for_style(node);
-  active_docs.add(doc);
-  const stylesheet = doc.__svelte_stylesheet || (doc.__svelte_stylesheet = append_empty_stylesheet(node).sheet);
-  const current_rules = doc.__svelte_rules || (doc.__svelte_rules = {});
-  if (!current_rules[name]) {
-    current_rules[name] = true;
+  const { stylesheet, rules } = managed_styles.get(doc) || create_style_information(doc, node);
+  if (!rules[name]) {
+    rules[name] = true;
     stylesheet.insertRule(`@keyframes ${name} ${rule}`, stylesheet.cssRules.length);
   }
   const animation = node.style.animation || "";
@@ -3893,14 +3950,14 @@ function clear_rules() {
   raf(() => {
     if (active)
       return;
-    active_docs.forEach((doc) => {
-      const stylesheet = doc.__svelte_stylesheet;
+    managed_styles.forEach((info) => {
+      const { stylesheet } = info;
       let i = stylesheet.cssRules.length;
       while (i--)
         stylesheet.deleteRule(i);
-      doc.__svelte_rules = {};
+      info.rules = {};
     });
-    active_docs.clear();
+    managed_styles.clear();
   });
 }
 function create_animation(node, from, fn2, params) {
@@ -3986,18 +4043,21 @@ function get_current_component() {
 }
 function createEventDispatcher() {
   const component = get_current_component();
-  return (type, detail) => {
+  return (type, detail, { cancelable = false } = {}) => {
     const callbacks = component.$$.callbacks[type];
     if (callbacks) {
-      const event = custom_event(type, detail);
+      const event = custom_event(type, detail, { cancelable });
       callbacks.slice().forEach((fn2) => {
         fn2.call(component, event);
       });
+      return !event.defaultPrevented;
     }
+    return true;
   };
 }
 function setContext(key, context) {
   get_current_component().$$.context.set(key, context);
+  return context;
 }
 function getContext(key) {
   return get_current_component().$$.context.get(key);
@@ -4023,20 +4083,20 @@ function schedule_update() {
 function add_render_callback(fn2) {
   render_callbacks.push(fn2);
 }
-var flushing = false;
 var seen_callbacks = /* @__PURE__ */ new Set();
+var flushidx = 0;
 function flush() {
-  if (flushing)
-    return;
-  flushing = true;
+  const saved_component = current_component;
   do {
-    for (let i = 0; i < dirty_components.length; i += 1) {
-      const component = dirty_components[i];
+    while (flushidx < dirty_components.length) {
+      const component = dirty_components[flushidx];
+      flushidx++;
       set_current_component(component);
       update(component.$$);
     }
     set_current_component(null);
     dirty_components.length = 0;
+    flushidx = 0;
     while (binding_callbacks.length)
       binding_callbacks.pop()();
     for (let i = 0; i < render_callbacks.length; i += 1) {
@@ -4052,8 +4112,8 @@ function flush() {
     flush_callbacks.pop()();
   }
   update_scheduled = false;
-  flushing = false;
   seen_callbacks.clear();
+  set_current_component(saved_component);
 }
 function update($$) {
   if ($$.fragment !== null) {
@@ -4100,6 +4160,8 @@ function transition_out(block, local, detach2, callback) {
       }
     });
     block.o(local);
+  } else if (callback) {
+    callback();
   }
 }
 var globals = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : global;
@@ -4112,7 +4174,7 @@ function fix_and_outro_and_destroy_block(block, lookup) {
   block.f();
   outro_and_destroy_block(block, lookup);
 }
-function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, lookup, node, destroy, create_each_block8, next2, get_context) {
+function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, lookup, node, destroy, create_each_block9, next2, get_context) {
   let o = old_blocks.length;
   let n = list.length;
   let i = o;
@@ -4128,7 +4190,7 @@ function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, looku
     const key = get_key(child_ctx);
     let block = lookup.get(key);
     if (!block) {
-      block = create_each_block8(key, child_ctx);
+      block = create_each_block9(key, child_ctx);
       block.c();
     } else if (dynamic) {
       block.p(child_ctx, dirty);
@@ -4399,7 +4461,7 @@ var {
 } = import_tslib.default;
 
 // src/encounter/ui/Encounter.svelte
-var import_obsidian5 = __toModule(require("obsidian"));
+var import_obsidian6 = __toModule(require("obsidian"));
 
 // src/utils/encounter-difficulty.ts
 var tresholds = {
@@ -5299,7 +5361,7 @@ function instance($$self, $$props, $$invalidate) {
   totalXP = [...creatureMap].reduce((a, c) => a + c[0].xp * c[1], 0);
   let difficulty;
   const openButton = (node) => {
-    new import_obsidian5.ExtraButtonComponent(node).setIcon(START_ENCOUNTER);
+    new import_obsidian6.ExtraButtonComponent(node).setIcon(START_ENCOUNTER);
   };
   const open = () => __awaiter(void 0, void 0, void 0, function* () {
     if (!plugin.view) {
@@ -5315,7 +5377,7 @@ function instance($$self, $$props, $$invalidate) {
     plugin.app.workspace.revealLeaf(view.leaf);
   });
   const addButton = (node) => {
-    new import_obsidian5.ExtraButtonComponent(node).setIcon("plus-with-circle");
+    new import_obsidian6.ExtraButtonComponent(node).setIcon("plus-with-circle");
   };
   const add = (evt) => __awaiter(void 0, void 0, void 0, function* () {
     if (!plugin.view) {
@@ -5417,7 +5479,7 @@ var Encounter = class extends SvelteComponent {
 var Encounter_default = Encounter;
 
 // src/encounter/ui/EncounterRow.svelte
-var import_obsidian6 = __toModule(require("obsidian"));
+var import_obsidian7 = __toModule(require("obsidian"));
 function add_css2(target) {
   append_styles(target, "svelte-bf6d6a", ".deadly.svelte-bf6d6a .difficulty-label.svelte-bf6d6a{color:red}.hard.svelte-bf6d6a .difficulty-label.svelte-bf6d6a{color:orange}.medium.svelte-bf6d6a .difficulty-label.svelte-bf6d6a{color:yellow}.easy.svelte-bf6d6a .difficulty-label.svelte-bf6d6a{color:green}.icons.svelte-bf6d6a.svelte-bf6d6a{display:flex}.icons.svelte-bf6d6a>div.svelte-bf6d6a:first-child .clickable-icon{margin-right:0}ul.svelte-bf6d6a.svelte-bf6d6a{margin:0}");
 }
@@ -5437,7 +5499,9 @@ function create_if_block_42(ctx) {
   let ul;
   let show_if;
   function select_block_type(ctx2, dirty) {
-    if (show_if == null || dirty & 10)
+    if (dirty & 10)
+      show_if = null;
+    if (show_if == null)
       show_if = !!(!ctx2[3].includes("creatures") && ctx2[1].size);
     if (show_if)
       return create_if_block_52;
@@ -5599,7 +5663,9 @@ function create_if_block_22(ctx) {
   let ul;
   let show_if;
   function select_block_type_1(ctx2, dirty) {
-    if (show_if == null || dirty & 12)
+    if (dirty & 12)
+      show_if = null;
+    if (show_if == null)
       show_if = !!(!ctx2[3].includes("players") && ctx2[2] instanceof Array && ctx2[2].length);
     if (show_if)
       return create_if_block_32;
@@ -5966,15 +6032,16 @@ function instance2($$self, $$props, $$invalidate) {
   let { playerLevels } = $$props;
   let { plugin } = $$props;
   let { headers } = $$props;
-  const creatureMap = /* @__PURE__ */ new Map();
+  let totalXP;
+  let creatureMap = /* @__PURE__ */ new Map();
   const rollerMap = /* @__PURE__ */ new Map();
-  let totalXP = [...creatureMap].reduce((a, c) => a + c[0].xp * c[1], 0);
   for (let [creature, count] of creatures) {
     let number = Number(count);
     if (plugin.canUseDiceRoller) {
       let roller = plugin.getRoller(`${count}`);
       roller.on("new-result", () => {
         creatureMap.set(creature, roller.result);
+        $$invalidate(15, creatureMap);
         $$invalidate(6, totalXP = [...creatureMap].reduce((a, c) => a + c[0].xp * c[1], 0));
       });
       rollerMap.set(creature, roller);
@@ -5983,9 +6050,10 @@ function instance2($$self, $$props, $$invalidate) {
       creatureMap.set(creature, number);
     }
   }
+  totalXP = [...creatureMap].reduce((a, c) => a + c[0].xp * c[1], 0);
   let difficulty;
   const open = (node) => {
-    new import_obsidian6.ExtraButtonComponent(node).setIcon(START_ENCOUNTER).setTooltip("Begin Encounter").onClick(() => __awaiter(void 0, void 0, void 0, function* () {
+    new import_obsidian7.ExtraButtonComponent(node).setIcon(START_ENCOUNTER).setTooltip("Begin Encounter").onClick(() => __awaiter(void 0, void 0, void 0, function* () {
       if (!plugin.view) {
         yield plugin.addTrackerView();
       }
@@ -6000,7 +6068,7 @@ function instance2($$self, $$props, $$invalidate) {
     }));
   };
   const addButton = (node) => {
-    new import_obsidian6.ExtraButtonComponent(node).setIcon("plus-with-circle");
+    new import_obsidian7.ExtraButtonComponent(node).setIcon("plus-with-circle");
   };
   const add = (evt) => __awaiter(void 0, void 0, void 0, function* () {
     if (!plugin.view) {
@@ -6064,10 +6132,10 @@ function instance2($$self, $$props, $$invalidate) {
       $$invalidate(5, headers = $$props2.headers);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty & 16450) {
+    if ($$self.$$.dirty & 49216) {
       $: {
         if (!isNaN(totalXP)) {
-          $$invalidate(7, difficulty = encounterDifficulty(playerLevels, [...creatures].map((creature) => creature[0].xp)));
+          $$invalidate(7, difficulty = encounterDifficulty(playerLevels, [...creatureMap].map((creature) => Array(creature[1]).fill(creature[0].xp)).flat()));
         }
       }
     }
@@ -6087,7 +6155,8 @@ function instance2($$self, $$props, $$invalidate) {
     rollerEl,
     label,
     xp,
-    playerLevels
+    playerLevels,
+    creatureMap
   ];
 }
 var EncounterRow = class extends SvelteComponent {
@@ -6526,7 +6595,7 @@ var EncounterComponent = class {
     });
   }
 };
-var EncounterBlock = class extends import_obsidian7.MarkdownRenderChild {
+var EncounterBlock = class extends import_obsidian8.MarkdownRenderChild {
   constructor(plugin, src, containerEl, table = false) {
     super(containerEl);
     this.plugin = plugin;
@@ -6552,12 +6621,12 @@ var EncounterBlock = class extends import_obsidian7.MarkdownRenderChild {
       if (!encounter?.trim().length)
         continue;
       try {
-        const params = (0, import_obsidian7.parseYaml)(encounter);
+        const params = (0, import_obsidian8.parseYaml)(encounter);
         new EncounterComponent(await this.parser.parse(params), containerEl.createDiv("encounter-instance"), this.plugin);
         empty2.detach();
       } catch (e) {
         console.error(e);
-        new import_obsidian7.Notice("Initiative Tracker: here was an issue parsing: \n\n" + encounter);
+        new import_obsidian8.Notice("Initiative Tracker: here was an issue parsing: \n\n" + encounter);
       }
     }
     this.registerEvent(this.plugin.app.workspace.on("initiative-tracker:unload", () => {
@@ -6579,11 +6648,11 @@ ${this.src}\`\`\``
       if (!encounter?.trim().length)
         continue;
       try {
-        const params = (0, import_obsidian7.parseYaml)(encounter);
+        const params = (0, import_obsidian8.parseYaml)(encounter);
         encounters.push(await this.parser.parse(params));
       } catch (e) {
         console.error(e);
-        new import_obsidian7.Notice("Initiative Tracker: here was an issue parsing: \n\n" + encounter);
+        new import_obsidian8.Notice("Initiative Tracker: here was an issue parsing: \n\n" + encounter);
       }
     }
     if (encounters.length) {
@@ -6607,7 +6676,7 @@ ${this.src}\`\`\``
 };
 
 // src/encounter/ui/EncounterLine.svelte
-var import_obsidian8 = __toModule(require("obsidian"));
+var import_obsidian9 = __toModule(require("obsidian"));
 function add_css3(target) {
   append_styles(target, "svelte-kf2ut3", ".encounter-line.svelte-kf2ut3.svelte-kf2ut3{display:flex;gap:1rem}.icons.svelte-kf2ut3.svelte-kf2ut3{display:flex}.icons.svelte-kf2ut3>span.svelte-kf2ut3 .clickable-icon{margin-right:0}");
 }
@@ -6842,7 +6911,7 @@ function instance4($$self, $$props, $$invalidate) {
     }
   }
   const openButton = (node) => {
-    new import_obsidian8.ExtraButtonComponent(node).setIcon(START_ENCOUNTER);
+    new import_obsidian9.ExtraButtonComponent(node).setIcon(START_ENCOUNTER);
   };
   const open = () => __awaiter(void 0, void 0, void 0, function* () {
     if (!plugin.view) {
@@ -6858,7 +6927,7 @@ function instance4($$self, $$props, $$invalidate) {
     plugin.app.workspace.revealLeaf(view.leaf);
   });
   const addButton = (node) => {
-    new import_obsidian8.ExtraButtonComponent(node).setIcon("plus-with-circle");
+    new import_obsidian9.ExtraButtonComponent(node).setIcon("plus-with-circle");
   };
   const add = (evt) => __awaiter(void 0, void 0, void 0, function* () {
     if (!plugin.view) {
@@ -25993,11 +26062,11 @@ var BESTIARY_BY_NAME = new Map(BESTIARY.map((monster) => {
 }));
 
 // src/view.ts
-var import_obsidian19 = __toModule(require("obsidian"));
+var import_obsidian20 = __toModule(require("obsidian"));
 
 // src/svelte/Controls.svelte
-var import_obsidian9 = __toModule(require("obsidian"));
 var import_obsidian10 = __toModule(require("obsidian"));
+var import_obsidian11 = __toModule(require("obsidian"));
 function add_css4(target) {
   append_styles(target, "svelte-g63m31", ".buttons.svelte-g63m31.svelte-g63m31{display:flex;justify-content:space-between;padding:0 0 0.5rem 0}.state.svelte-g63m31.svelte-g63m31{display:flex;justify-content:flex-start;align-items:center}.clean.svelte-g63m31.svelte-g63m31{display:flex;justify-content:flex-end;align-items:center}.state.svelte-g63m31>.svelte-g63m31:not(:last-child),.clean.svelte-g63m31>.svelte-g63m31:not(:last-child){margin-right:0.25rem}");
 }
@@ -26149,24 +26218,24 @@ function instance5($$self, $$props, $$invalidate) {
   let { map = false } = $$props;
   let view = getContext("view");
   const playButton = (node) => {
-    new import_obsidian9.ExtraButtonComponent(node).setIcon(PLAY).setTooltip("Play").onClick(() => {
+    new import_obsidian10.ExtraButtonComponent(node).setIcon(PLAY).setTooltip("Play").onClick(() => {
       view.toggleState();
       $$invalidate(0, state = view.state);
     });
   };
   const stopButton = (node) => {
-    new import_obsidian9.ExtraButtonComponent(node).setIcon(STOP).setTooltip("Stop").onClick(() => {
+    new import_obsidian10.ExtraButtonComponent(node).setIcon(STOP).setTooltip("Stop").onClick(() => {
       view.toggleState();
       $$invalidate(0, state = view.state);
     });
   };
   const nextButton = (node) => {
-    new import_obsidian9.ExtraButtonComponent(node).setIcon(FORWARD).setTooltip("Next").onClick(() => {
+    new import_obsidian10.ExtraButtonComponent(node).setIcon(FORWARD).setTooltip("Next").onClick(() => {
       view.goToNext();
     });
   };
   const prevButton = (node) => {
-    new import_obsidian9.ExtraButtonComponent(node).setIcon(BACKWARD).setTooltip("Previous").onClick(() => {
+    new import_obsidian10.ExtraButtonComponent(node).setIcon(BACKWARD).setTooltip("Previous").onClick(() => {
       view.goToPrevious();
     });
   };
@@ -26174,7 +26243,7 @@ function instance5($$self, $$props, $$invalidate) {
   const open = (evt) => {
     menu.showAtMouseEvent(evt);
   };
-  const menu = new import_obsidian10.Menu(plugin.app);
+  const menu = new import_obsidian11.Menu(plugin.app);
   menu.addItem((item) => {
     item.setIcon(NEW).setTitle("New Encounter").onClick(() => view.newEncounter());
   });
@@ -26188,7 +26257,7 @@ function instance5($$self, $$props, $$invalidate) {
     menu.addItem((item) => {
       item.setIcon("switch").setTitle("Switch Party").onClick((evt) => {
         menu.hide();
-        const partyMenu = new import_obsidian10.Menu(plugin.app).setNoIcon();
+        const partyMenu = new import_obsidian11.Menu(plugin.app).setNoIcon();
         for (const party of plugin.data.parties) {
           partyMenu.addItem((item2) => {
             var _a;
@@ -26229,7 +26298,7 @@ function instance5($$self, $$props, $$invalidate) {
     });
   }
   const menuIcon = (node) => {
-    new import_obsidian9.ExtraButtonComponent(node).setIcon("vertical-three-dots");
+    new import_obsidian10.ExtraButtonComponent(node).setIcon("vertical-three-dots");
   };
   const click_handler3 = (evt) => open(evt);
   $$self.$$set = ($$props2) => {
@@ -26259,7 +26328,7 @@ var Controls = class extends SvelteComponent {
 var Controls_default = Controls;
 
 // src/svelte/Table.svelte
-var import_obsidian14 = __toModule(require("obsidian"));
+var import_obsidian15 = __toModule(require("obsidian"));
 
 // node_modules/svelte/easing/index.mjs
 function cubicOut(t) {
@@ -28131,7 +28200,7 @@ function isInt(value) {
 }
 
 // src/svelte/Initiative.svelte
-var import_obsidian11 = __toModule(require("obsidian"));
+var import_obsidian12 = __toModule(require("obsidian"));
 function add_css5(target) {
   append_styles(target, "svelte-1kp13ds", '.tree-item-flair-outer.svelte-1kp13ds::after{content:""}.initiative.svelte-1kp13ds{display:block;padding:0;width:20px;text-align:center;white-space:nowrap;user-select:all;border:0;color:inherit}');
 }
@@ -28228,7 +28297,7 @@ function instance6($$self, $$props, $$invalidate) {
   const blur_handler = function(evt) {
     const value = this.value;
     if (isNaN(Number(value)) || Number(value) < 1) {
-      new import_obsidian11.Notice("Enter a valid initiative.");
+      new import_obsidian12.Notice("Enter a valid initiative.");
       this.value = `${initiative}`;
       return;
     }
@@ -28254,7 +28323,7 @@ var Initiative = class extends SvelteComponent {
 var Initiative_default = Initiative;
 
 // src/svelte/CreatureControls.svelte
-var import_obsidian12 = __toModule(require("obsidian"));
+var import_obsidian13 = __toModule(require("obsidian"));
 function add_css6(target) {
   append_styles(target, "svelte-ptr4mi", ".controls.svelte-ptr4mi{display:flex;justify-content:flex-end}.icon.svelte-ptr4mi .clickable-icon{margin-right:0}");
 }
@@ -28295,18 +28364,13 @@ function instance7($$self, $$props, $$invalidate) {
   let { view } = $$props;
   let { creature } = $$props;
   const hamburgerIcon = (node) => {
-    const hamburger = new import_obsidian12.ExtraButtonComponent(node).setIcon("vertical-three-dots").setTooltip("Actions");
+    const hamburger = new import_obsidian13.ExtraButtonComponent(node).setIcon("vertical-three-dots").setTooltip("Actions");
     hamburger.extraSettingsEl.onclick = (evt) => {
       evt.stopPropagation();
-      const menu = new import_obsidian12.Menu(view.plugin.app);
+      const menu = new import_obsidian13.Menu(view.plugin.app);
       menu.addItem((item) => {
         item.setIcon("pencil").setTitle("Edit").onClick(() => {
           dispatch("edit", creature);
-        });
-      });
-      menu.addItem((item) => {
-        item.setIcon(TAG).setTitle("Add Status").onClick(() => {
-          dispatch("tag", creature);
         });
       });
       if (creature.enabled) {
@@ -28325,7 +28389,7 @@ function instance7($$self, $$props, $$invalidate) {
       if (view.plugin.data.leafletIntegration) {
         menu.addItem((item) => {
           item.setIcon(MAPMARKER).setTitle("Change Marker").onClick((evt2) => {
-            const markerMenu = new import_obsidian12.Menu(view.plugin.app);
+            const markerMenu = new import_obsidian13.Menu(view.plugin.app);
             markerMenu.setNoIcon();
             for (let marker of view.plugin.leaflet.markerIcons) {
               markerMenu.addItem((item2) => {
@@ -28364,7 +28428,7 @@ var CreatureControls = class extends SvelteComponent {
 var CreatureControls_default = CreatureControls;
 
 // src/svelte/Status.svelte
-var import_obsidian13 = __toModule(require("obsidian"));
+var import_obsidian14 = __toModule(require("obsidian"));
 function add_css7(target) {
   append_styles(target, "svelte-7lk3cs", ".tag.svelte-7lk3cs{display:flex;align-items:center;gap:0.125rem;color:var(--text-muted);font-size:small;width:fit-content;border-radius:0.25rem}.tag.svelte-7lk3cs .clickable-icon{margin:0}");
 }
@@ -28425,7 +28489,7 @@ function instance8($$self, $$props, $$invalidate) {
   const dispatch = createEventDispatcher();
   let { status } = $$props;
   const deleteIcon = (node) => {
-    new import_obsidian13.ExtraButtonComponent(node).setIcon("cross-in-box");
+    new import_obsidian14.ExtraButtonComponent(node).setIcon("cross-in-box");
   };
   const click_handler3 = () => dispatch("remove");
   $$self.$$set = ($$props2) => {
@@ -28611,14 +28675,13 @@ function create_fragment9(ctx) {
   let div1;
   let t2;
   let td2;
-  let span;
-  let t3_value = ctx[0].hpDisplay + "";
+  let div2;
+  let raw_value = ctx[0].hpDisplay + "";
   let t3;
-  let t4;
   let td3;
-  let t5_value = (ctx[0].ac ?? DEFAULT_UNDEFINED) + "";
+  let t4_value = (ctx[0].ac ?? DEFAULT_UNDEFINED) + "";
+  let t4;
   let t5;
-  let t6;
   let td4;
   let creaturecontrols;
   let current;
@@ -28663,19 +28726,18 @@ function create_fragment9(ctx) {
         if_block1.c();
       t2 = space();
       td2 = element("td");
-      span = element("span");
-      t3 = text(t3_value);
-      t4 = space();
+      div2 = element("div");
+      t3 = space();
       td3 = element("td");
-      t5 = text(t5_value);
-      t6 = space();
+      t4 = text(t4_value);
+      t5 = space();
       td4 = element("td");
       create_component(creaturecontrols.$$.fragment);
       attr(td0, "class", "initiative-container svelte-cnqzyh");
       attr(div0, "class", "name-holder svelte-cnqzyh");
       attr(div1, "class", "statuses svelte-cnqzyh");
       attr(td1, "class", "name-container");
-      attr(span, "class", "editable svelte-cnqzyh");
+      attr(div2, "class", "editable svelte-cnqzyh");
       attr(td2, "class", "center hp-container svelte-cnqzyh");
       attr(td3, "class", "center ac-container svelte-cnqzyh");
       attr(td4, "class", "controls-container svelte-cnqzyh");
@@ -28693,12 +28755,12 @@ function create_fragment9(ctx) {
         if_block1.m(div1, null);
       insert(target, t2, anchor);
       insert(target, td2, anchor);
-      append(td2, span);
-      append(span, t3);
-      insert(target, t4, anchor);
+      append(td2, div2);
+      div2.innerHTML = raw_value;
+      insert(target, t3, anchor);
       insert(target, td3, anchor);
-      append(td3, t5);
-      insert(target, t6, anchor);
+      append(td3, t4);
+      insert(target, t5, anchor);
       insert(target, td4, anchor);
       mount_component(creaturecontrols, td4, null);
       current = true;
@@ -28706,7 +28768,7 @@ function create_fragment9(ctx) {
         dispose = [
           listen(td0, "click", click_handler_1),
           listen(div1, "click", click_handler_2),
-          listen(span, "click", ctx[7])
+          listen(div2, "click", ctx[7])
         ];
         mounted = true;
       }
@@ -28747,10 +28809,11 @@ function create_fragment9(ctx) {
         });
         check_outros();
       }
-      if ((!current || dirty & 1) && t3_value !== (t3_value = ctx2[0].hpDisplay + ""))
-        set_data(t3, t3_value);
-      if ((!current || dirty & 1) && t5_value !== (t5_value = (ctx2[0].ac ?? DEFAULT_UNDEFINED) + ""))
-        set_data(t5, t5_value);
+      if ((!current || dirty & 1) && raw_value !== (raw_value = ctx2[0].hpDisplay + ""))
+        div2.innerHTML = raw_value;
+      ;
+      if ((!current || dirty & 1) && t4_value !== (t4_value = (ctx2[0].ac ?? DEFAULT_UNDEFINED) + ""))
+        set_data(t4, t4_value);
       const creaturecontrols_changes = {};
       if (dirty & 1)
         creaturecontrols_changes.creature = ctx2[0];
@@ -28786,11 +28849,11 @@ function create_fragment9(ctx) {
       if (detaching)
         detach(td2);
       if (detaching)
-        detach(t4);
+        detach(t3);
       if (detaching)
         detach(td3);
       if (detaching)
-        detach(t6);
+        detach(t5);
       if (detaching)
         detach(td4);
       destroy_component(creaturecontrols);
@@ -28825,7 +28888,12 @@ function instance9($$self, $$props, $$invalidate) {
     $$invalidate(1, statuses = creature.status);
   };
   const click_handler_3 = (e) => {
-    dispatch("hp", creature);
+    dispatch("hp", {
+      creature,
+      ctrl: e.getModifierState(META_MODIFIER),
+      shift: e.getModifierState("Shift"),
+      alt: e.getModifierState("Alt")
+    });
     e.stopPropagation();
   };
   function tag_handler(event) {
@@ -29212,10 +29280,10 @@ function instance10($$self, $$props, $$invalidate) {
   const dispatch = createEventDispatcher();
   const view = getContext("view");
   const hpIcon = (node) => {
-    (0, import_obsidian14.setIcon)(node, HP);
+    (0, import_obsidian15.setIcon)(node, HP);
   };
   const acIcon = (node) => {
-    (0, import_obsidian14.setIcon)(node, AC);
+    (0, import_obsidian15.setIcon)(node, AC);
   };
   function handleDndConsider(e) {
     $$invalidate(2, items = e.detail.items);
@@ -29238,15 +29306,10 @@ function instance10($$self, $$props, $$invalidate) {
   };
   const hamburgerIcon = (evt, creature) => {
     evt.stopPropagation();
-    const menu = new import_obsidian14.Menu(view.plugin.app);
+    const menu = new import_obsidian15.Menu(view.plugin.app);
     menu.addItem((item) => {
       item.setIcon("pencil").setTitle("Edit").onClick(() => {
         dispatch("edit", creature);
-      });
-    });
-    menu.addItem((item) => {
-      item.setIcon(TAG).setTitle("Add Status").onClick(() => {
-        dispatch("tag", creature);
       });
     });
     if (creature.enabled) {
@@ -29265,7 +29328,7 @@ function instance10($$self, $$props, $$invalidate) {
     if (view.plugin.data.leafletIntegration) {
       menu.addItem((item) => {
         item.setIcon(MAPMARKER).setTitle("Change Marker").onClick((evt2) => {
-          const markerMenu = new import_obsidian14.Menu(view.plugin.app);
+          const markerMenu = new import_obsidian15.Menu(view.plugin.app);
           markerMenu.setNoIcon();
           for (let marker of view.plugin.leaflet.markerIcons) {
             markerMenu.addItem((item2) => {
@@ -29337,7 +29400,7 @@ var Table = class extends SvelteComponent {
 var Table_default = Table;
 
 // src/svelte/Create.svelte
-var import_obsidian15 = __toModule(require("obsidian"));
+var import_obsidian16 = __toModule(require("obsidian"));
 function add_css10(target) {
   append_styles(target, "svelte-1rjv45j", ".create-new.svelte-1rjv45j>.svelte-1rjv45j{display:grid;grid-template-columns:33% 66%;margin-bottom:0.5rem}.context-buttons.svelte-1rjv45j.svelte-1rjv45j{display:flex;justify-content:flex-end;align-items:center;grid-gap:0.125rem}.cancel-button.svelte-1rjv45j.svelte-1rjv45j{color:var(--text-faint)}.initiative.svelte-1rjv45j.svelte-1rjv45j{position:relative}.initiative.svelte-1rjv45j>.dice.svelte-1rjv45j{position:absolute;right:0.25rem;top:50%;transform:translateY(-50%)}");
 }
@@ -29647,9 +29710,9 @@ function instance11($$self, $$props, $$invalidate) {
   let level;
   let number = 1;
   const saveButton = (node) => {
-    new import_obsidian15.ExtraButtonComponent(node).setTooltip("Add Creature").setIcon(SAVE).onClick(() => {
+    new import_obsidian16.ExtraButtonComponent(node).setTooltip("Add Creature").setIcon(SAVE).onClick(() => {
       if (!name || !(name === null || name === void 0 ? void 0 : name.length)) {
-        new import_obsidian15.Notice("Enter a name!");
+        new import_obsidian16.Notice("Enter a name!");
         return;
       }
       if (!modifier) {
@@ -29670,12 +29733,12 @@ function instance11($$self, $$props, $$invalidate) {
     });
   };
   const cancelButton = (node) => {
-    new import_obsidian15.ExtraButtonComponent(node).setTooltip("Cancel").setIcon("cross").onClick(() => {
+    new import_obsidian16.ExtraButtonComponent(node).setTooltip("Cancel").setIcon("cross").onClick(() => {
       dispatch("cancel");
     });
   };
   const diceButton = (node) => {
-    new import_obsidian15.ExtraButtonComponent(node).setIcon(DICE).setTooltip("Roll Initiative").onClick(() => {
+    new import_obsidian16.ExtraButtonComponent(node).setIcon(DICE).setTooltip("Roll Initiative").onClick(() => {
       $$invalidate(3, initiative = Math.floor(Math.random() * 19 + 1) + (modifier !== null && modifier !== void 0 ? modifier : 0));
     });
   };
@@ -29786,7 +29849,7 @@ var Create = class extends SvelteComponent {
 var Create_default = Create;
 
 // src/svelte/App.svelte
-var import_obsidian18 = __toModule(require("obsidian"));
+var import_obsidian19 = __toModule(require("obsidian"));
 
 // node_modules/svelte/store/index.mjs
 var subscriber_queue = [];
@@ -30071,7 +30134,7 @@ var Difficulty = class extends SvelteComponent {
 var Difficulty_default = Difficulty;
 
 // src/svelte/SaveEncounter.svelte
-var import_obsidian16 = __toModule(require("obsidian"));
+var import_obsidian17 = __toModule(require("obsidian"));
 function add_css12(target) {
   append_styles(target, "svelte-1ud8n4x", ".saving-container.svelte-1ud8n4x.svelte-1ud8n4x{padding:0.5rem}.saving-encounter.svelte-1ud8n4x.svelte-1ud8n4x{display:flex;align-items:center;justify-content:space-between}.save-buttons.svelte-1ud8n4x.svelte-1ud8n4x{margin-top:1rem;display:flex;justify-content:flex-end;gap:1rem}.save-buttons.svelte-1ud8n4x>div.svelte-1ud8n4x{display:flex;align-items:center}.save-buttons.svelte-1ud8n4x .clickable-icon{margin:0}.save-buttons.svelte-1ud8n4x>.save.svelte-1ud8n4x .clickable-icon.is-disabled{cursor:not-allowed;color:var(--text-faint)}");
 }
@@ -30199,7 +30262,7 @@ function instance13($$self, $$props, $$invalidate) {
   };
   let checking = false;
   const save = (node) => {
-    saveButton = new import_obsidian16.ExtraButtonComponent(node).setIcon(SAVE).setDisabled(!(encounterName != void 0 && (encounterName === null || encounterName === void 0 ? void 0 : encounterName.length) > 0)).onClick(() => __awaiter(void 0, void 0, void 0, function* () {
+    saveButton = new import_obsidian17.ExtraButtonComponent(node).setIcon(SAVE).setDisabled(!(encounterName != void 0 && (encounterName === null || encounterName === void 0 ? void 0 : encounterName.length) > 0)).onClick(() => __awaiter(void 0, void 0, void 0, function* () {
       if (encounterName && encounterName in view.plugin.data.encounters && !checking) {
         $$invalidate(1, checking = true);
       } else {
@@ -30210,7 +30273,7 @@ function instance13($$self, $$props, $$invalidate) {
   };
   const dispatch = createEventDispatcher();
   const cancel = (node) => {
-    new import_obsidian16.ExtraButtonComponent(node).setIcon("cross").onClick(() => {
+    new import_obsidian17.ExtraButtonComponent(node).setIcon("cross").onClick(() => {
       dispatch("cancel");
     });
   };
@@ -30233,7 +30296,7 @@ var SaveEncounter = class extends SvelteComponent {
 var SaveEncounter_default = SaveEncounter;
 
 // src/svelte/LoadEncounter.svelte
-var import_obsidian17 = __toModule(require("obsidian"));
+var import_obsidian18 = __toModule(require("obsidian"));
 function add_css13(target) {
   append_styles(target, "svelte-vsvyan", ".controls.svelte-vsvyan.svelte-vsvyan{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--background-modifier-border)}.controls.svelte-vsvyan h4.svelte-vsvyan{margin:0}.loading-container.svelte-vsvyan.svelte-vsvyan{display:flex;flex-flow:column nowrap;gap:0.5rem;padding:0.5rem;height:100%}.loading-container.svelte-vsvyan .clickable-icon{margin:0}.encounter-container.svelte-vsvyan.svelte-vsvyan{height:100%;display:flex;flex-flow:column nowrap;gap:1rem;overflow-y:auto}.no-encounters.svelte-vsvyan.svelte-vsvyan{color:var(--text-muted);display:flex;justify-content:center}.encounter.svelte-vsvyan.svelte-vsvyan{display:flex;justify-content:space-between;align-items:center}.encounter-controls.svelte-vsvyan.svelte-vsvyan{display:flex;align-items:center;gap:1rem}");
 }
@@ -30436,16 +30499,16 @@ function instance14($$self, $$props, $$invalidate) {
   const dispatch = createEventDispatcher();
   const view = getContext("view");
   const cancel = (node) => {
-    new import_obsidian17.ExtraButtonComponent(node).setIcon("cross").setTooltip("Cancel");
+    new import_obsidian18.ExtraButtonComponent(node).setIcon("cross").setTooltip("Cancel");
   };
   const load = (node, encounter) => {
-    new import_obsidian17.ExtraButtonComponent(node).setIcon("open-elsewhere-glyph").setTooltip("Load Encounter").onClick(() => {
+    new import_obsidian18.ExtraButtonComponent(node).setIcon("open-elsewhere-glyph").setTooltip("Load Encounter").onClick(() => {
       view.loadEncounter(encounter);
       dispatch("cancel");
     });
   };
   const trash = (node, encounter) => {
-    new import_obsidian17.ExtraButtonComponent(node).setIcon("trash").setTooltip("Delete Encounter").onClick(() => {
+    new import_obsidian18.ExtraButtonComponent(node).setIcon("trash").setTooltip("Delete Encounter").onClick(() => {
       delete view.plugin.data.encounters[encounter];
       $$invalidate(0, encounters = view.plugin.data.encounters);
     });
@@ -30465,24 +30528,34 @@ var LoadEncounter_default = LoadEncounter;
 
 // src/svelte/App.svelte
 function add_css14(target) {
-  append_styles(target, "svelte-rp16qm", ".obsidian-initiative-tracker.svelte-rp16qm{margin:0.5rem;min-width:180px}.initiative-tracker-round-container.svelte-rp16qm,.initiave-tracker-party.svelte-rp16qm{padding:0 0.5rem}.add-creature-container.svelte-rp16qm{display:flex;flex-flow:column nowrap;justify-content:flex-start;margin-right:0.5rem}.context-container.svelte-rp16qm{display:flex;flex-flow:row nowrap;justify-content:space-between}.copy-button.svelte-rp16qm{width:min-content;opacity:0.25}.copy-button.svelte-rp16qm:hover{opacity:1}.add-button.svelte-rp16qm{width:min-content}.add-button.svelte-rp16qm .clickable-icon{margin:0}.initiative-tracker-name-container.svelte-rp16qm{display:flex;justify-content:space-between;align-items:center;padding:0 0.5rem}.initiative-tracker-name.svelte-rp16qm{margin:0}");
+  append_styles(target, "svelte-cqbi84", ".left.svelte-cqbi84{text-align:left}.center.svelte-cqbi84{text-align:center}.obsidian-initiative-tracker.svelte-cqbi84{margin:0 0.5rem;min-width:180px}.initiative-tracker-round-container.svelte-cqbi84{padding:0 0.5rem}.initiave-tracker-party.svelte-cqbi84{padding:0 0.5rem;margin:0 0 1rem 0}.updating-creature-table-row.svelte-cqbi84{font-size:small;height:80%}.add-creature-container.svelte-cqbi84{display:flex;flex-flow:column nowrap;justify-content:flex-start;margin-right:0.5rem}.context-container.svelte-cqbi84{display:flex;flex-flow:row nowrap;justify-content:space-between}.copy-button.svelte-cqbi84{width:min-content;opacity:0.25}.copy-button.svelte-cqbi84:hover{opacity:1}.add-button.svelte-cqbi84{width:min-content}.add-button.svelte-cqbi84 .clickable-icon{margin:0}.initiative-tracker-name-container.svelte-cqbi84{display:flex;justify-content:space-between;align-items:center;padding:0 0.5rem;margin:0}.initiative-tracker-name.svelte-cqbi84{margin:0}");
 }
-function create_if_block_9(ctx) {
+function get_each_context8(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[45] = list[i].creature;
+  child_ctx[46] = list[i].saved;
+  child_ctx[47] = list[i].resist;
+  child_ctx[48] = list[i].customMod;
+  child_ctx[49] = list;
+  child_ctx[50] = i;
+  return child_ctx;
+}
+function create_if_block_82(ctx) {
   let h4;
   let t;
   return {
     c() {
       h4 = element("h4");
-      t = text(ctx[9]);
-      attr(h4, "class", "initiave-tracker-party svelte-rp16qm");
+      t = text(ctx[7]);
+      attr(h4, "class", "initiave-tracker-party svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, h4, anchor);
       append(h4, t);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 512)
-        set_data(t, ctx2[9]);
+      if (dirty[0] & 128)
+        set_data(t, ctx2[7]);
     },
     d(detaching) {
       if (detaching)
@@ -30490,7 +30563,7 @@ function create_if_block_9(ctx) {
     }
   };
 }
-function create_if_block_82(ctx) {
+function create_if_block_72(ctx) {
   let div;
   let small;
   let em;
@@ -30502,8 +30575,8 @@ function create_if_block_82(ctx) {
       small = element("small");
       em = element("em");
       t0 = text("Round ");
-      t1 = text(ctx[8]);
-      attr(div, "class", "initiative-tracker-round-container svelte-rp16qm");
+      t1 = text(ctx[6]);
+      attr(div, "class", "initiative-tracker-round-container svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -30513,8 +30586,8 @@ function create_if_block_82(ctx) {
       append(em, t1);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 256)
-        set_data(t1, ctx2[8]);
+      if (dirty[0] & 64)
+        set_data(t1, ctx2[6]);
     },
     d(detaching) {
       if (detaching)
@@ -30522,22 +30595,22 @@ function create_if_block_82(ctx) {
     }
   };
 }
-function create_if_block_62(ctx) {
+function create_if_block_53(ctx) {
   let div;
   let h2;
   let t0;
   let t1;
-  let if_block = ctx[11] > 0 && create_if_block_72(ctx);
+  let if_block = ctx[9] > 0 && create_if_block_62(ctx);
   return {
     c() {
       div = element("div");
       h2 = element("h2");
-      t0 = text(ctx[4]);
+      t0 = text(ctx[2]);
       t1 = space();
       if (if_block)
         if_block.c();
-      attr(h2, "class", "initiative-tracker-name svelte-rp16qm");
-      attr(div, "class", "initiative-tracker-name-container svelte-rp16qm");
+      attr(h2, "class", "initiative-tracker-name svelte-cqbi84");
+      attr(div, "class", "initiative-tracker-name-container svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -30548,13 +30621,13 @@ function create_if_block_62(ctx) {
         if_block.m(div, null);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 16)
-        set_data(t0, ctx2[4]);
-      if (ctx2[11] > 0) {
+      if (dirty[0] & 4)
+        set_data(t0, ctx2[2]);
+      if (ctx2[9] > 0) {
         if (if_block) {
           if_block.p(ctx2, dirty);
         } else {
-          if_block = create_if_block_72(ctx2);
+          if_block = create_if_block_62(ctx2);
           if_block.c();
           if_block.m(div, null);
         }
@@ -30571,14 +30644,14 @@ function create_if_block_62(ctx) {
     }
   };
 }
-function create_if_block_72(ctx) {
+function create_if_block_62(ctx) {
   let span;
   let t0;
   let t1;
   return {
     c() {
       span = element("span");
-      t0 = text(ctx[11]);
+      t0 = text(ctx[9]);
       t1 = text(" XP");
       attr(span, "class", "initiative-tracker-xp encounter-xp");
     },
@@ -30588,8 +30661,8 @@ function create_if_block_72(ctx) {
       append(span, t1);
     },
     p(ctx2, dirty) {
-      if (dirty[0] & 2048)
-        set_data(t0, ctx2[11]);
+      if (dirty[0] & 512)
+        set_data(t0, ctx2[9]);
     },
     d(detaching) {
       if (detaching)
@@ -30597,11 +30670,11 @@ function create_if_block_72(ctx) {
     }
   };
 }
-function create_if_block_53(ctx) {
+function create_if_block_43(ctx) {
   let difficulty;
   let current;
   difficulty = new Difficulty_default({
-    props: { creatures: ctx[3] }
+    props: { creatures: ctx[1] }
   });
   return {
     c() {
@@ -30613,8 +30686,8 @@ function create_if_block_53(ctx) {
     },
     p(ctx2, dirty) {
       const difficulty_changes = {};
-      if (dirty[0] & 8)
-        difficulty_changes.creatures = ctx2[3];
+      if (dirty[0] & 2)
+        difficulty_changes.creatures = ctx2[1];
       difficulty.$set(difficulty_changes);
     },
     i(local) {
@@ -30637,10 +30710,10 @@ function create_else_block7(ctx) {
   let current_block_type_index;
   let if_block;
   let current;
-  const if_block_creators = [create_if_block_43, create_else_block_13];
+  const if_block_creators = [create_if_block_33, create_else_block_13];
   const if_blocks = [];
   function select_block_type_1(ctx2, dirty) {
-    if (ctx2[13] || ctx2[12] || ctx2[2])
+    if (ctx2[14] || ctx2[13] || ctx2[0])
       return 0;
     return 1;
   }
@@ -30650,7 +30723,7 @@ function create_else_block7(ctx) {
     c() {
       div = element("div");
       if_block.c();
-      attr(div, "class", "add-creature-container svelte-rp16qm");
+      attr(div, "class", "add-creature-container svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -30696,11 +30769,11 @@ function create_else_block7(ctx) {
     }
   };
 }
-function create_if_block_33(ctx) {
+function create_if_block_24(ctx) {
   let loadencounter;
   let current;
   loadencounter = new LoadEncounter_default({});
-  loadencounter.$on("cancel", ctx[34]);
+  loadencounter.$on("cancel", ctx[41]);
   return {
     c() {
       create_component(loadencounter.$$.fragment);
@@ -30725,11 +30798,11 @@ function create_if_block_33(ctx) {
     }
   };
 }
-function create_if_block_24(ctx) {
+function create_if_block_15(ctx) {
   let saveencounter;
   let current;
-  saveencounter = new SaveEncounter_default({ props: { name: ctx[4] } });
-  saveencounter.$on("cancel", ctx[33]);
+  saveencounter = new SaveEncounter_default({ props: { name: ctx[2] } });
+  saveencounter.$on("cancel", ctx[40]);
   return {
     c() {
       create_component(saveencounter.$$.fragment);
@@ -30740,8 +30813,8 @@ function create_if_block_24(ctx) {
     },
     p(ctx2, dirty) {
       const saveencounter_changes = {};
-      if (dirty[0] & 16)
-        saveencounter_changes.name = ctx2[4];
+      if (dirty[0] & 4)
+        saveencounter_changes.name = ctx2[2];
       saveencounter.$set(saveencounter_changes);
     },
     i(local) {
@@ -30759,88 +30832,177 @@ function create_if_block_24(ctx) {
     }
   };
 }
-function create_if_block_15(ctx) {
-  let div;
-  let span;
-  let t1;
-  let input;
-  let init_action;
-  let mounted;
-  let dispose;
-  return {
-    c() {
-      div = element("div");
-      span = element("span");
-      span.textContent = "Apply status:";
-      t1 = space();
-      input = element("input");
-      attr(input, "type", "text");
-      attr(div, "class", "updating-hp");
-    },
-    m(target, anchor) {
-      insert(target, div, anchor);
-      append(div, span);
-      append(div, t1);
-      append(div, input);
-      if (!mounted) {
-        dispose = [
-          listen(input, "focus", ctx[31]),
-          listen(input, "blur", ctx[32]),
-          listen(input, "keydown", keydown_handler_1),
-          action_destroyer(init_action = init2.call(null, input))
-        ];
-        mounted = true;
-      }
-    },
-    p: noop,
-    i: noop,
-    o: noop,
-    d(detaching) {
-      if (detaching)
-        detach(div);
-      mounted = false;
-      run_all(dispose);
-    }
-  };
-}
 function create_if_block12(ctx) {
-  let div;
-  let span;
-  let t1;
-  let input;
+  let div0;
+  let tag0;
+  let hpIcon_action;
+  let t0;
+  let input0;
   let init_action;
+  let t1;
+  let br;
+  let t2;
+  let tag1;
+  let tagIcon_action;
+  let t3;
+  let input1;
+  let t4;
+  let div1;
+  let table;
+  let thead;
+  let th0;
+  let removeIcon_action;
+  let t5;
+  let th1;
+  let t7;
+  let th2;
+  let t9;
+  let th3;
+  let t11;
+  let th4;
+  let t13;
+  let tbody;
   let mounted;
   let dispose;
+  let each_value = ctx[12];
+  let each_blocks = [];
+  for (let i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block8(get_each_context8(ctx, each_value, i));
+  }
   return {
     c() {
-      div = element("div");
-      span = element("span");
-      span.textContent = "Apply damage(+) or healing(-):";
+      div0 = element("div");
+      tag0 = element("tag");
+      t0 = space();
+      input0 = element("input");
       t1 = space();
-      input = element("input");
-      attr(input, "type", "number");
-      attr(div, "class", "updating-hp");
+      br = element("br");
+      t2 = space();
+      tag1 = element("tag");
+      t3 = space();
+      input1 = element("input");
+      t4 = space();
+      div1 = element("div");
+      table = element("table");
+      thead = element("thead");
+      th0 = element("th");
+      t5 = space();
+      th1 = element("th");
+      th1.textContent = "Name";
+      t7 = space();
+      th2 = element("th");
+      th2.textContent = "Saved";
+      t9 = space();
+      th3 = element("th");
+      th3.textContent = "Resist";
+      t11 = space();
+      th4 = element("th");
+      th4.textContent = "Modifier";
+      t13 = space();
+      tbody = element("tbody");
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      attr(tag0, "aria-label", "Apply damage, healing(-) or temp HP(t)");
+      set_style(tag0, "margin", "0 0.2rem 0 0.7rem");
+      attr(input0, "type", "text");
+      attr(tag1, "aria-label", "Apply status effect to creatures that fail their saving throw");
+      set_style(tag1, "margin", "0 0.2rem 0 0.7rem");
+      attr(input1, "type", "text");
+      attr(div0, "class", "updating-hp");
+      set_style(th0, "padding", "0 0.2rem 0 0");
+      set_style(th0, "cursor", "pointer");
+      attr(th0, "class", "left svelte-cqbi84");
+      set_style(th1, "width", "100%");
+      attr(th1, "class", "left svelte-cqbi84");
+      set_style(th2, "padding", "0 0.2rem");
+      attr(th2, "class", "center svelte-cqbi84");
+      set_style(th3, "padding", "0 0.2rem");
+      attr(th3, "class", "center svelte-cqbi84");
+      set_style(th4, "padding", "0 0.2rem");
+      attr(th4, "class", "center svelte-cqbi84");
+      attr(thead, "class", "updating-creature-table-header");
+      attr(table, "class", "updating-creature-table");
+      set_style(div1, "margin", "0.5rem");
     },
     m(target, anchor) {
-      insert(target, div, anchor);
-      append(div, span);
-      append(div, t1);
-      append(div, input);
+      insert(target, div0, anchor);
+      append(div0, tag0);
+      append(div0, t0);
+      append(div0, input0);
+      set_input_value(input0, ctx[10]);
+      append(div0, t1);
+      append(div0, br);
+      append(div0, t2);
+      append(div0, tag1);
+      append(div0, t3);
+      append(div0, input1);
+      insert(target, t4, anchor);
+      insert(target, div1, anchor);
+      append(div1, table);
+      append(table, thead);
+      append(thead, th0);
+      append(thead, t5);
+      append(thead, th1);
+      append(thead, t7);
+      append(thead, th2);
+      append(thead, t9);
+      append(thead, th3);
+      append(thead, t11);
+      append(thead, th4);
+      append(table, t13);
+      append(table, tbody);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].m(tbody, null);
+      }
       if (!mounted) {
         dispose = [
-          listen(input, "blur", ctx[30]),
-          listen(input, "keydown", keydown_handler2),
-          action_destroyer(init_action = init2.call(null, input))
+          action_destroyer(hpIcon_action = ctx[18].call(null, tag0)),
+          listen(input0, "input", ctx[32]),
+          listen(input0, "keydown", ctx[33]),
+          action_destroyer(init_action = init2.call(null, input0)),
+          action_destroyer(tagIcon_action = ctx[19].call(null, tag1)),
+          listen(input1, "focus", ctx[34]),
+          listen(input1, "keydown", ctx[35]),
+          action_destroyer(removeIcon_action = ctx[20].call(null, th0)),
+          listen(th0, "click", ctx[22])
         ];
         mounted = true;
       }
     },
-    p: noop,
+    p(ctx2, dirty) {
+      if (dirty[0] & 1024 && input0.value !== ctx2[10]) {
+        set_input_value(input0, ctx2[10]);
+      }
+      if (dirty[0] & 4096) {
+        each_value = ctx2[12];
+        let i;
+        for (i = 0; i < each_value.length; i += 1) {
+          const child_ctx = get_each_context8(ctx2, each_value, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+          } else {
+            each_blocks[i] = create_each_block8(child_ctx);
+            each_blocks[i].c();
+            each_blocks[i].m(tbody, null);
+          }
+        }
+        for (; i < each_blocks.length; i += 1) {
+          each_blocks[i].d(1);
+        }
+        each_blocks.length = each_value.length;
+      }
+    },
     i: noop,
     o: noop,
     d(detaching) {
       if (detaching)
-        detach(div);
+        detach(div0);
+      if (detaching)
+        detach(t4);
+      if (detaching)
+        detach(div1);
+      destroy_each(each_blocks, detaching);
       mounted = false;
       run_all(dispose);
     }
@@ -30861,9 +31023,9 @@ function create_else_block_13(ctx) {
       div0 = element("div");
       t = space();
       div1 = element("div");
-      attr(div0, "class", "copy-button svelte-rp16qm");
-      attr(div1, "class", "add-button svelte-rp16qm");
-      attr(div2, "class", "context-container svelte-rp16qm");
+      attr(div0, "class", "copy-button svelte-cqbi84");
+      attr(div1, "class", "add-button svelte-cqbi84");
+      attr(div2, "class", "context-container svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, div2, anchor);
@@ -30872,8 +31034,8 @@ function create_else_block_13(ctx) {
       append(div2, div1);
       if (!mounted) {
         dispose = [
-          action_destroyer(copyButton_action = ctx[21].call(null, div0)),
-          action_destroyer(addButton_action = ctx[20].call(null, div1))
+          action_destroyer(copyButton_action = ctx[24].call(null, div0)),
+          action_destroyer(addButton_action = ctx[23].call(null, div1))
         ];
         mounted = true;
       }
@@ -30889,22 +31051,22 @@ function create_else_block_13(ctx) {
     }
   };
 }
-function create_if_block_43(ctx) {
+function create_if_block_33(ctx) {
   let create;
   let current;
   create = new Create_default({
     props: {
-      editing: ctx[13] != null,
-      name: ctx[13]?.name,
-      display: ctx[13]?.display,
-      hp: `${ctx[13]?.hp}`,
-      initiative: ctx[13]?.initiative,
-      modifier: ctx[13]?.modifier,
-      ac: `${ctx[13]?.ac}`
+      editing: ctx[14] != null,
+      name: ctx[14]?.name,
+      display: ctx[14]?.display,
+      hp: `${ctx[14]?.hp}`,
+      initiative: ctx[14]?.initiative,
+      modifier: ctx[14]?.modifier,
+      ac: `${ctx[14]?.ac}`
     }
   });
-  create.$on("cancel", ctx[35]);
-  create.$on("save", ctx[36]);
+  create.$on("cancel", ctx[42]);
+  create.$on("save", ctx[43]);
   return {
     c() {
       create_component(create.$$.fragment);
@@ -30915,20 +31077,20 @@ function create_if_block_43(ctx) {
     },
     p(ctx2, dirty) {
       const create_changes = {};
-      if (dirty[0] & 8192)
-        create_changes.editing = ctx2[13] != null;
-      if (dirty[0] & 8192)
-        create_changes.name = ctx2[13]?.name;
-      if (dirty[0] & 8192)
-        create_changes.display = ctx2[13]?.display;
-      if (dirty[0] & 8192)
-        create_changes.hp = `${ctx2[13]?.hp}`;
-      if (dirty[0] & 8192)
-        create_changes.initiative = ctx2[13]?.initiative;
-      if (dirty[0] & 8192)
-        create_changes.modifier = ctx2[13]?.modifier;
-      if (dirty[0] & 8192)
-        create_changes.ac = `${ctx2[13]?.ac}`;
+      if (dirty[0] & 16384)
+        create_changes.editing = ctx2[14] != null;
+      if (dirty[0] & 16384)
+        create_changes.name = ctx2[14]?.name;
+      if (dirty[0] & 16384)
+        create_changes.display = ctx2[14]?.display;
+      if (dirty[0] & 16384)
+        create_changes.hp = `${ctx2[14]?.hp}`;
+      if (dirty[0] & 16384)
+        create_changes.initiative = ctx2[14]?.initiative;
+      if (dirty[0] & 16384)
+        create_changes.modifier = ctx2[14]?.modifier;
+      if (dirty[0] & 16384)
+        create_changes.ac = `${ctx2[14]?.ac}`;
       create.$set(create_changes);
     },
     i(local) {
@@ -30946,6 +31108,126 @@ function create_if_block_43(ctx) {
     }
   };
 }
+function create_each_block8(ctx) {
+  let tr;
+  let td0;
+  let removeIcon_action;
+  let t0;
+  let td1;
+  let span;
+  let t1_value = ctx[45].name + (ctx[45].number ? " " + ctx[45].number : "") + "";
+  let t1;
+  let t2;
+  let td2;
+  let input0;
+  let input0_checked_value;
+  let t3;
+  let td3;
+  let input1;
+  let input1_checked_value;
+  let t4;
+  let td4;
+  let input2;
+  let t5;
+  let mounted;
+  let dispose;
+  function click_handler3(...args) {
+    return ctx[36](ctx[50], ...args);
+  }
+  function click_handler_12(...args) {
+    return ctx[37](ctx[46], ctx[49], ctx[50], ...args);
+  }
+  function click_handler_22(...args) {
+    return ctx[38](ctx[47], ctx[49], ctx[50], ...args);
+  }
+  function input2_input_handler() {
+    ctx[39].call(input2, ctx[49], ctx[50]);
+  }
+  return {
+    c() {
+      tr = element("tr");
+      td0 = element("td");
+      t0 = space();
+      td1 = element("td");
+      span = element("span");
+      t1 = text(t1_value);
+      t2 = space();
+      td2 = element("td");
+      input0 = element("input");
+      t3 = space();
+      td3 = element("td");
+      input1 = element("input");
+      t4 = space();
+      td4 = element("td");
+      input2 = element("input");
+      t5 = space();
+      set_style(td0, "cursor", "pointer");
+      attr(input0, "type", "checkbox");
+      input0.checked = input0_checked_value = ctx[46];
+      attr(td2, "class", "center svelte-cqbi84");
+      attr(input1, "type", "checkbox");
+      input1.checked = input1_checked_value = ctx[47];
+      attr(td3, "class", "center svelte-cqbi84");
+      attr(input2, "type", "number");
+      attr(input2, "class", "center svelte-cqbi84");
+      set_style(input2, "width", "90%");
+      set_style(input2, "height", "80%");
+      set_style(input2, "padding", "0");
+      attr(td4, "class", "center svelte-cqbi84");
+      attr(tr, "class", "updating-creature-table-row svelte-cqbi84");
+    },
+    m(target, anchor) {
+      insert(target, tr, anchor);
+      append(tr, td0);
+      append(tr, t0);
+      append(tr, td1);
+      append(td1, span);
+      append(span, t1);
+      append(tr, t2);
+      append(tr, td2);
+      append(td2, input0);
+      append(tr, t3);
+      append(tr, td3);
+      append(td3, input1);
+      append(tr, t4);
+      append(tr, td4);
+      append(td4, input2);
+      set_input_value(input2, ctx[48]);
+      append(tr, t5);
+      if (!mounted) {
+        dispose = [
+          action_destroyer(removeIcon_action = ctx[20].call(null, td0)),
+          listen(td0, "click", click_handler3),
+          listen(input0, "click", click_handler_12),
+          listen(input1, "click", click_handler_22),
+          listen(input2, "input", input2_input_handler),
+          listen(input2, "keydown", keydown_handler_2)
+        ];
+        mounted = true;
+      }
+    },
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      if (dirty[0] & 4096 && t1_value !== (t1_value = ctx[45].name + (ctx[45].number ? " " + ctx[45].number : "") + ""))
+        set_data(t1, t1_value);
+      if (dirty[0] & 4096 && input0_checked_value !== (input0_checked_value = ctx[46])) {
+        input0.checked = input0_checked_value;
+      }
+      if (dirty[0] & 4096 && input1_checked_value !== (input1_checked_value = ctx[47])) {
+        input1.checked = input1_checked_value;
+      }
+      if (dirty[0] & 4096 && to_number(input2.value) !== ctx[48]) {
+        set_input_value(input2, ctx[48]);
+      }
+    },
+    d(detaching) {
+      if (detaching)
+        detach(tr);
+      mounted = false;
+      run_all(dispose);
+    }
+  };
+}
 function create_fragment15(ctx) {
   let div;
   let t0;
@@ -30959,45 +31241,36 @@ function create_fragment15(ctx) {
   let current_block_type_index;
   let if_block4;
   let current;
-  let if_block0 = ctx[9] && create_if_block_9(ctx);
+  let if_block0 = ctx[7] && create_if_block_82(ctx);
   controls = new Controls_default({
     props: {
-      state: ctx[5],
-      map: ctx[10]
+      state: ctx[3],
+      map: ctx[8]
     }
   });
-  controls.$on("save", ctx[25]);
-  controls.$on("load", ctx[26]);
-  let if_block1 = ctx[5] && create_if_block_82(ctx);
-  let if_block2 = ctx[4] && ctx[4].length && create_if_block_62(ctx);
+  controls.$on("save", ctx[28]);
+  controls.$on("load", ctx[29]);
+  let if_block1 = ctx[3] && create_if_block_72(ctx);
+  let if_block2 = ctx[2] && ctx[2].length && create_if_block_53(ctx);
   table = new Table_default({
     props: {
-      creatures: ctx[3],
-      state: ctx[5]
+      creatures: ctx[1],
+      state: ctx[3]
     }
   });
-  table.$on("hp", ctx[27]);
-  table.$on("tag", ctx[28]);
-  table.$on("edit", ctx[29]);
-  let if_block3 = ctx[6].data.displayDifficulty && create_if_block_53(ctx);
-  const if_block_creators = [
-    create_if_block12,
-    create_if_block_15,
-    create_if_block_24,
-    create_if_block_33,
-    create_else_block7
-  ];
+  table.$on("hp", ctx[30]);
+  table.$on("edit", ctx[31]);
+  let if_block3 = ctx[4].data.displayDifficulty && !ctx[12].length && create_if_block_43(ctx);
+  const if_block_creators = [create_if_block12, create_if_block_15, create_if_block_24, create_else_block7];
   const if_blocks = [];
   function select_block_type(ctx2, dirty) {
-    if (ctx2[0])
+    if (ctx2[12].length)
       return 0;
-    if (ctx2[1])
-      return 1;
     if (ctx2[15])
-      return 2;
+      return 1;
     if (ctx2[16])
-      return 3;
-    return 4;
+      return 2;
+    return 3;
   }
   current_block_type_index = select_block_type(ctx, [-1, -1]);
   if_block4 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
@@ -31021,7 +31294,7 @@ function create_fragment15(ctx) {
         if_block3.c();
       t5 = space();
       if_block4.c();
-      attr(div, "class", "obsidian-initiative-tracker svelte-rp16qm");
+      attr(div, "class", "obsidian-initiative-tracker svelte-cqbi84");
     },
     m(target, anchor) {
       insert(target, div, anchor);
@@ -31045,11 +31318,11 @@ function create_fragment15(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
-      if (ctx2[9]) {
+      if (ctx2[7]) {
         if (if_block0) {
           if_block0.p(ctx2, dirty);
         } else {
-          if_block0 = create_if_block_9(ctx2);
+          if_block0 = create_if_block_82(ctx2);
           if_block0.c();
           if_block0.m(div, t0);
         }
@@ -31058,16 +31331,16 @@ function create_fragment15(ctx) {
         if_block0 = null;
       }
       const controls_changes = {};
-      if (dirty[0] & 32)
-        controls_changes.state = ctx2[5];
-      if (dirty[0] & 1024)
-        controls_changes.map = ctx2[10];
+      if (dirty[0] & 8)
+        controls_changes.state = ctx2[3];
+      if (dirty[0] & 256)
+        controls_changes.map = ctx2[8];
       controls.$set(controls_changes);
-      if (ctx2[5]) {
+      if (ctx2[3]) {
         if (if_block1) {
           if_block1.p(ctx2, dirty);
         } else {
-          if_block1 = create_if_block_82(ctx2);
+          if_block1 = create_if_block_72(ctx2);
           if_block1.c();
           if_block1.m(div, t2);
         }
@@ -31075,11 +31348,11 @@ function create_fragment15(ctx) {
         if_block1.d(1);
         if_block1 = null;
       }
-      if (ctx2[4] && ctx2[4].length) {
+      if (ctx2[2] && ctx2[2].length) {
         if (if_block2) {
           if_block2.p(ctx2, dirty);
         } else {
-          if_block2 = create_if_block_62(ctx2);
+          if_block2 = create_if_block_53(ctx2);
           if_block2.c();
           if_block2.m(div, t3);
         }
@@ -31088,19 +31361,19 @@ function create_fragment15(ctx) {
         if_block2 = null;
       }
       const table_changes = {};
+      if (dirty[0] & 2)
+        table_changes.creatures = ctx2[1];
       if (dirty[0] & 8)
-        table_changes.creatures = ctx2[3];
-      if (dirty[0] & 32)
-        table_changes.state = ctx2[5];
+        table_changes.state = ctx2[3];
       table.$set(table_changes);
-      if (ctx2[6].data.displayDifficulty) {
+      if (ctx2[4].data.displayDifficulty && !ctx2[12].length) {
         if (if_block3) {
           if_block3.p(ctx2, dirty);
-          if (dirty[0] & 64) {
+          if (dirty[0] & 4112) {
             transition_in(if_block3, 1);
           }
         } else {
-          if_block3 = create_if_block_53(ctx2);
+          if_block3 = create_if_block_43(ctx2);
           if_block3.c();
           transition_in(if_block3, 1);
           if_block3.m(div, t5);
@@ -31169,36 +31442,13 @@ function create_fragment15(ctx) {
 function init2(el) {
   el.focus();
 }
-var keydown_handler2 = function(evt) {
-  if (evt.key === "Enter" || evt.key === "Tab") {
-    evt.preventDefault();
-    this.blur();
-    return;
-  }
+var keydown_handler_2 = function(evt) {
   if (evt.key === "Escape") {
-    this.value = "";
-    this.blur();
+    this.value = "1";
     return;
   }
-  if (!/^(-?\d*\.?\d*|Backspace|Delete|Arrow\w+)$/.test(evt.key)) {
+  if (evt.key === "Enter") {
     evt.preventDefault();
-    return false;
-  }
-};
-var keydown_handler_1 = function(evt) {
-  if (evt.key === "Escape") {
-    this.value = "";
-    this.blur();
-    return;
-  }
-  if (evt.key === "Enter" || evt.key === "Tab") {
-    evt.preventDefault();
-    this.blur();
-    return;
-  }
-  if (evt.key === "Escape") {
-    this.value = "";
-    this.blur();
     return;
   }
 };
@@ -31217,36 +31467,61 @@ function instance15($$self, $$props, $$invalidate) {
   setContext("plugin", plugin);
   setContext("view", view);
   let totalXP = xp;
-  let { updatingHP = null } = $$props;
-  const updateHP = (toAdd) => {
-    view.updateCreature(updatingHP, { hp: -1 * toAdd });
-    $$invalidate(0, updatingHP = null);
+  const hpIcon = (node) => {
+    (0, import_obsidian19.setIcon)(node, HP);
   };
-  let { updatingStatus = null } = $$props;
-  const addStatus = (tag) => {
-    view.addStatus(updatingStatus, tag);
-    $$invalidate(1, updatingStatus = null);
+  const tagIcon = (node) => {
+    (0, import_obsidian19.setIcon)(node, TAG);
+  };
+  const removeIcon = (node) => {
+    (0, import_obsidian19.setIcon)(node, REMOVE);
+  };
+  let damage = "";
+  let status = null;
+  let updatingCreatures = [];
+  const updateCreatures = (toAddString, tag) => {
+    const roundHalf = !toAddString.includes(".");
+    updatingCreatures.forEach((entry) => {
+      const modifier = (entry.saved ? 0.5 : 1) * (entry.resist ? 0.5 : 1) * Number(entry.customMod);
+      if (toAddString.charAt(0) == "t") {
+        let toAdd = Number(toAddString.slice(1));
+        view.updateCreature(entry.creature, { temp: toAdd });
+      } else {
+        let toAdd = Number(toAddString);
+        toAdd = -1 * Math.sign(toAdd) * Math.max(Math.abs(toAdd) * modifier, 1);
+        toAdd = roundHalf ? Math.trunc(toAdd) : toAdd;
+        view.updateCreature(entry.creature, { hp: toAdd });
+        tag && !entry.saved && view.addStatus(entry.creature, tag);
+      }
+    });
+    closeUpdateCreatures();
+  };
+  const closeUpdateCreatures = () => {
+    $$invalidate(12, updatingCreatures.length = 0, updatingCreatures);
+    $$invalidate(10, damage = "");
+    $$invalidate(11, status = null);
   };
   let addNew = false;
   let { addNewAsync = false } = $$props;
   let editCreature = null;
   const addButton = (node) => {
-    new import_obsidian18.ExtraButtonComponent(node).setTooltip("Add Creature").setIcon(ADD).onClick(() => {
-      $$invalidate(12, addNew = true);
+    new import_obsidian19.ExtraButtonComponent(node).setTooltip("Add Creature").setIcon(ADD).onClick(() => {
+      $$invalidate(13, addNew = true);
     });
   };
   const copyButton = (node) => {
-    new import_obsidian18.ExtraButtonComponent(node).setTooltip("Copy Initiative Order").setIcon(COPY).onClick(() => __awaiter(void 0, void 0, void 0, function* () {
+    new import_obsidian19.ExtraButtonComponent(node).setTooltip("Copy Initiative Order").setIcon(COPY).onClick(() => __awaiter(void 0, void 0, void 0, function* () {
       const contents = creatures.map((creature) => `${creature.initiative} ${creature.name}`).join("\n");
       yield navigator.clipboard.writeText(contents);
     }));
   };
   let modal;
   const suggestConditions = (node) => {
-    $$invalidate(14, modal = new ConditionSuggestionModal(view.plugin, node));
-    $$invalidate(14, modal.onClose = () => {
-      node.blur();
-    }, modal);
+    modal = new ConditionSuggestionModal(view.plugin, node);
+    modal.onClose = () => {
+      $$invalidate(11, status = modal.condition);
+      node.focus();
+    };
     modal.open();
   };
   let saving = false;
@@ -31254,33 +31529,79 @@ function instance15($$self, $$props, $$invalidate) {
   const save_handler = () => $$invalidate(15, saving = true);
   const load_handler = () => $$invalidate(16, loading = true);
   const hp_handler = (evt) => {
-    $$invalidate(0, updatingHP = evt.detail);
-  };
-  const tag_handler = (evt) => {
-    $$invalidate(1, updatingStatus = evt.detail);
+    let index = updatingCreatures.findIndex((entry) => entry.creature == evt.detail.creature);
+    if (index == -1) {
+      $$invalidate(12, updatingCreatures = [
+        ...updatingCreatures,
+        {
+          creature: evt.detail.creature,
+          saved: evt.detail.shift,
+          resist: evt.detail.ctrl,
+          customMod: evt.detail.alt ? "2" : "1"
+        }
+      ]);
+      console.log(updatingCreatures);
+    } else {
+      updatingCreatures.splice(index, 1);
+    }
+    $$invalidate(12, updatingCreatures);
   };
   const edit_handler = (evt) => {
-    $$invalidate(13, editCreature = evt.detail);
+    $$invalidate(14, editCreature = evt.detail);
   };
-  const blur_handler = function(evt) {
-    updateHP(Number(this.value));
+  function input0_input_handler() {
+    damage = this.value;
+    $$invalidate(10, damage);
+  }
+  const keydown_handler2 = function(evt) {
+    if (evt.key === "Enter") {
+      evt.preventDefault();
+      updateCreatures(damage, status);
+      return;
+    }
+    if (evt.key === "Escape") {
+      closeUpdateCreatures();
+      return;
+    }
+    if (!/^(t?-?\d*\.?\d*(Backspace|Delete|Arrow\w+)?)$/.test(this.value + evt.key)) {
+      evt.preventDefault();
+      return false;
+    }
   };
   const focus_handler = function(evt) {
     suggestConditions(this);
   };
-  const blur_handler_1 = function(evt) {
-    if (!this.value.length) {
-      $$invalidate(1, updatingStatus = null);
+  const keydown_handler_1 = function(evt) {
+    if (evt.key === "Escape") {
+      closeUpdateCreatures();
       return;
     }
-    addStatus(modal.condition);
+    if (evt.key === "Enter") {
+      evt.preventDefault();
+      updateCreatures(damage, status);
+      return;
+    }
   };
+  const click_handler3 = function(i, evt) {
+    updatingCreatures.splice(i, 1);
+    $$invalidate(12, updatingCreatures);
+  };
+  const click_handler_12 = function(saved, each_value, i, evt) {
+    $$invalidate(12, each_value[i].saved = !saved, updatingCreatures);
+  };
+  const click_handler_22 = function(resist, each_value, i, evt) {
+    $$invalidate(12, each_value[i].resist = !resist, updatingCreatures);
+  };
+  function input2_input_handler(each_value, i) {
+    each_value[i].customMod = to_number(this.value);
+    $$invalidate(12, updatingCreatures);
+  }
   const cancel_handler = () => $$invalidate(15, saving = false);
   const cancel_handler_1 = () => $$invalidate(16, loading = false);
   const cancel_handler_2 = () => {
-    $$invalidate(12, addNew = false);
-    $$invalidate(2, addNewAsync = false);
-    $$invalidate(13, editCreature = null);
+    $$invalidate(13, addNew = false);
+    $$invalidate(0, addNewAsync = false);
+    $$invalidate(14, editCreature = null);
     dispatch("cancel-add-new-async");
   };
   const save_handler_1 = (evt) => {
@@ -31299,58 +31620,52 @@ function instance15($$self, $$props, $$invalidate) {
     if (addNewAsync) {
       dispatch("add-new-async", newCreature);
     } else if (editCreature) {
-      $$invalidate(13, editCreature.name = creature.name, editCreature);
-      $$invalidate(13, editCreature.ac = creature.ac, editCreature);
-      $$invalidate(13, editCreature.display = creature.display, editCreature);
-      $$invalidate(13, editCreature.initiative = creature.initiative, editCreature);
-      $$invalidate(13, editCreature.modifier = creature.modifier, editCreature);
+      $$invalidate(14, editCreature.name = creature.name, editCreature);
+      $$invalidate(14, editCreature.ac = creature.ac, editCreature);
+      $$invalidate(14, editCreature.display = creature.display, editCreature);
+      $$invalidate(14, editCreature.initiative = creature.initiative, editCreature);
+      $$invalidate(14, editCreature.modifier = creature.modifier, editCreature);
       view.updateCreature(editCreature, { name: creature.name });
     } else {
       const number = Math.max(isNaN(creature.number) ? 1 : creature.number, 1);
       view.addCreatures([...Array(number).keys()].map((k) => Creature.new(newCreature)));
     }
-    $$invalidate(12, addNew = false);
-    $$invalidate(2, addNewAsync = false);
-    $$invalidate(13, editCreature = null);
+    $$invalidate(13, addNew = false);
+    $$invalidate(0, addNewAsync = false);
+    $$invalidate(14, editCreature = null);
   };
   $$self.$$set = ($$props2) => {
     if ("creatures" in $$props2)
-      $$invalidate(3, creatures = $$props2.creatures);
+      $$invalidate(1, creatures = $$props2.creatures);
     if ("name" in $$props2)
-      $$invalidate(4, name = $$props2.name);
+      $$invalidate(2, name = $$props2.name);
     if ("state" in $$props2)
-      $$invalidate(5, state = $$props2.state);
+      $$invalidate(3, state = $$props2.state);
     if ("xp" in $$props2)
-      $$invalidate(23, xp = $$props2.xp);
+      $$invalidate(26, xp = $$props2.xp);
     if ("plugin" in $$props2)
-      $$invalidate(6, plugin = $$props2.plugin);
+      $$invalidate(4, plugin = $$props2.plugin);
     if ("view" in $$props2)
-      $$invalidate(7, view = $$props2.view);
+      $$invalidate(5, view = $$props2.view);
     if ("round" in $$props2)
-      $$invalidate(8, round3 = $$props2.round);
+      $$invalidate(6, round3 = $$props2.round);
     if ("party" in $$props2)
-      $$invalidate(9, party = $$props2.party);
+      $$invalidate(7, party = $$props2.party);
     if ("map" in $$props2)
-      $$invalidate(10, map = $$props2.map);
-    if ("updatingHP" in $$props2)
-      $$invalidate(0, updatingHP = $$props2.updatingHP);
-    if ("updatingStatus" in $$props2)
-      $$invalidate(1, updatingStatus = $$props2.updatingStatus);
+      $$invalidate(8, map = $$props2.map);
     if ("addNewAsync" in $$props2)
-      $$invalidate(2, addNewAsync = $$props2.addNewAsync);
+      $$invalidate(0, addNewAsync = $$props2.addNewAsync);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty[0] & 25165832) {
+    if ($$self.$$.dirty[0] & 201326594) {
       $: {
         if (!xp) {
-          $$invalidate(11, totalXP = $$invalidate(24, _a = creatures === null || creatures === void 0 ? void 0 : creatures.filter((creature) => creature.xp)) === null || _a === void 0 ? void 0 : _a.reduce((num, cr) => num + cr.xp, 0));
+          $$invalidate(9, totalXP = $$invalidate(27, _a = creatures === null || creatures === void 0 ? void 0 : creatures.filter((creature) => creature.xp)) === null || _a === void 0 ? void 0 : _a.reduce((num, cr) => num + cr.xp, 0));
         }
       }
     }
   };
   return [
-    updatingHP,
-    updatingStatus,
     addNewAsync,
     creatures,
     name,
@@ -31361,14 +31676,19 @@ function instance15($$self, $$props, $$invalidate) {
     party,
     map,
     totalXP,
+    damage,
+    status,
+    updatingCreatures,
     addNew,
     editCreature,
-    modal,
     saving,
     loading,
     dispatch,
-    updateHP,
-    addStatus,
+    hpIcon,
+    tagIcon,
+    removeIcon,
+    updateCreatures,
+    closeUpdateCreatures,
     addButton,
     copyButton,
     suggestConditions,
@@ -31377,11 +31697,15 @@ function instance15($$self, $$props, $$invalidate) {
     save_handler,
     load_handler,
     hp_handler,
-    tag_handler,
     edit_handler,
-    blur_handler,
+    input0_input_handler,
+    keydown_handler2,
     focus_handler,
-    blur_handler_1,
+    keydown_handler_1,
+    click_handler3,
+    click_handler_12,
+    click_handler_22,
+    input2_input_handler,
     cancel_handler,
     cancel_handler_1,
     cancel_handler_2,
@@ -31392,25 +31716,23 @@ var App3 = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance15, create_fragment15, safe_not_equal, {
-      creatures: 3,
-      name: 4,
-      state: 5,
-      xp: 23,
-      plugin: 6,
-      view: 7,
-      round: 8,
-      party: 9,
-      map: 10,
-      updatingHP: 0,
-      updatingStatus: 1,
-      addNewAsync: 2
+      creatures: 1,
+      name: 2,
+      state: 3,
+      xp: 26,
+      plugin: 4,
+      view: 5,
+      round: 6,
+      party: 7,
+      map: 8,
+      addNewAsync: 0
     }, add_css14, [-1, -1]);
   }
 };
 var App_default = App3;
 
 // src/view.ts
-var TrackerView = class extends import_obsidian19.ItemView {
+var TrackerView = class extends import_obsidian20.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.leaf = leaf;
@@ -31430,7 +31752,7 @@ var TrackerView = class extends import_obsidian19.ItemView {
   }
   async saveEncounter(name) {
     if (!name) {
-      new import_obsidian19.Notice("An encounter must have a name to be saved.");
+      new import_obsidian20.Notice("An encounter must have a name to be saved.");
       return;
     }
     this.plugin.data.encounters[name] = {
@@ -31444,7 +31766,7 @@ var TrackerView = class extends import_obsidian19.ItemView {
   async loadEncounter(name) {
     const state = this.plugin.data.encounters[name];
     if (!state) {
-      new import_obsidian19.Notice("There was an issue loading the encounter.");
+      new import_obsidian20.Notice("There was an issue loading the encounter.");
       return;
     }
     this.newEncounterFromState(state);
@@ -31760,6 +32082,7 @@ var TrackerView = class extends import_obsidian19.ItemView {
     ac,
     initiative,
     name,
+    temp,
     marker
   }) {
     if (initiative) {
@@ -31770,10 +32093,29 @@ var TrackerView = class extends import_obsidian19.ItemView {
       creature.number = 0;
     }
     if (hp) {
-      if (this.plugin.data.clamp && creature.hp + Number(hp) < 0) {
+      hp = Number(hp);
+      if (hp < 0 && creature.temp > 0) {
+        const remaining = creature.temp + hp;
+        creature.temp = Math.max(0, remaining);
+        hp = Math.min(0, remaining);
+      }
+      if (this.plugin.data.clamp && creature.hp + hp < 0) {
         hp = -creature.hp;
       }
-      creature.hp += Number(hp);
+      if (hp > 0 && hp + creature.hp > creature.max) {
+        switch (this.plugin.data.hpOverflow) {
+          case OVERFLOW_TYPE.ignore:
+            hp = Math.max(creature.max - creature.hp, 0);
+            break;
+          case OVERFLOW_TYPE.temp:
+            temp = hp - Math.min(creature.max - creature.hp, 0);
+            hp -= temp;
+            break;
+          case OVERFLOW_TYPE.current:
+            break;
+        }
+      }
+      creature.hp += hp;
       if (this.plugin.data.autoStatus && creature.hp <= 0) {
         this.addStatus(creature, this.plugin.data.statuses.find((s) => s.name == "Unconscious"));
       }
@@ -31786,6 +32128,13 @@ var TrackerView = class extends import_obsidian19.ItemView {
     }
     if (ac) {
       creature.ac = ac;
+    }
+    if (temp) {
+      let baseline = 0;
+      if (this.plugin.data.additiveTemp) {
+        baseline = creature.temp;
+      }
+      creature.temp = Math.max(creature.temp, baseline + temp);
     }
     if (marker) {
       creature.marker = marker;
@@ -31932,7 +32281,7 @@ var TrackerView = class extends import_obsidian19.ItemView {
     }));
   }
 };
-var CreatureView = class extends import_obsidian19.ItemView {
+var CreatureView = class extends import_obsidian20.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.plugin = plugin;
@@ -31942,7 +32291,7 @@ var CreatureView = class extends import_obsidian19.ItemView {
     this.containerEl.addClass("creature-view-container");
   }
   onload() {
-    new import_obsidian19.ExtraButtonComponent(this.buttonEl).setIcon("cross").setTooltip("Close Statblock").onClick(() => {
+    new import_obsidian20.ExtraButtonComponent(this.buttonEl).setIcon("cross").setTooltip("Close Statblock").onClick(() => {
       this.render();
       this.app.workspace.trigger("initiative-tracker:stop-viewing");
     });
@@ -31981,7 +32330,7 @@ var CreatureView = class extends import_obsidian19.ItemView {
 };
 
 // src/main.ts
-var InitiativeTracker = class extends import_obsidian20.Plugin {
+var InitiativeTracker = class extends import_obsidian21.Plugin {
   constructor() {
     super(...arguments);
     this.playerCreatures = /* @__PURE__ */ new Map();
@@ -32002,7 +32351,7 @@ var InitiativeTracker = class extends import_obsidian20.Plugin {
   get canUseDiceRoller() {
     if (this.app.plugins.getPlugin("obsidian-dice-roller") != null) {
       if (!this.app.plugins.getPlugin("obsidian-dice-roller").getRollerSync) {
-        new import_obsidian20.Notice("Please update Dice Roller to the latest version to use with Initiative Tracker.");
+        new import_obsidian21.Notice("Please update Dice Roller to the latest version to use with Initiative Tracker.");
       } else {
         return true;
       }
@@ -32089,7 +32438,7 @@ var InitiativeTracker = class extends import_obsidian20.Plugin {
       if (!codes.length)
         return;
       for (const code of codes) {
-        const creatures = code.innerText.replace(`encounter:`, "").trim().split(",").map((s) => (0, import_obsidian20.parseYaml)(s.trim()));
+        const creatures = code.innerText.replace(`encounter:`, "").trim().split(",").map((s) => (0, import_obsidian21.parseYaml)(s.trim()));
         const parser = new EncounterParser(this);
         const parsed = await parser.parse({ creatures });
         if (!parsed || !parsed.creatures || !parsed.creatures.size)
@@ -32116,14 +32465,14 @@ var InitiativeTracker = class extends import_obsidian20.Plugin {
           continue;
         const file = await this.app.metadataCache.getFirstLinkpathDest(player.note, "");
         if (!file || !this.app.metadataCache.getFileCache(file)?.frontmatter) {
-          new import_obsidian20.Notice(`Initiative Tracker: There was an issue with the linked note for ${player.name}.
+          new import_obsidian21.Notice(`Initiative Tracker: There was an issue with the linked note for ${player.name}.
 
 Please re-link it in settings.`);
           continue;
         }
       }
       this.registerEvent(this.app.metadataCache.on("changed", (file) => {
-        if (!(file instanceof import_obsidian20.TFile))
+        if (!(file instanceof import_obsidian21.TFile))
           return;
         const players = this.data.players.filter((p) => p.path == file.path);
         if (!players.length)
@@ -32150,7 +32499,7 @@ Please re-link it in settings.`);
         }
       }));
       this.registerEvent(this.app.vault.on("rename", (file, old) => {
-        if (!(file instanceof import_obsidian20.TFile))
+        if (!(file instanceof import_obsidian21.TFile))
           return;
         const players = this.data.players.filter((p) => p.path == old);
         if (!players.length)
@@ -32161,7 +32510,7 @@ Please re-link it in settings.`);
         }
       }));
       this.registerEvent(this.app.vault.on("delete", (file) => {
-        if (!(file instanceof import_obsidian20.TFile))
+        if (!(file instanceof import_obsidian21.TFile))
           return;
         const players = this.data.players.filter((p) => p.path == file.path);
         if (!players.length)
@@ -32242,10 +32591,10 @@ Please re-link it in settings.`);
           });
           this.app.workspace.revealLeaf(view.leaf);
         } else {
-          new import_obsidian20.Notice("Could not find the Initiative Tracker. Try reloading the note!");
+          new import_obsidian21.Notice("Could not find the Initiative Tracker. Try reloading the note!");
         }
       } catch (e) {
-        new import_obsidian20.Notice("There was an issue launching the encounter.\n\n" + e.message);
+        new import_obsidian21.Notice("There was an issue launching the encounter.\n\n" + e.message);
         console.error(e);
         return;
       }
