@@ -6,6 +6,17 @@
       {
         "id": "6d161a41bc5fa70e",
         "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "6d161a41bc5fa70e",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":23},\"to\":{\"line\":3,\"ch\":23}}}"
+            }
+          ]
+        },
         "state": {
           "type": "markdown",
           "state": {
@@ -99,6 +110,17 @@
           {
             "id": "f59515532fe6ff4b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "f59515532fe6ff4b",
+                  "group": null,
+                  "state": "{\"type\":\"graph\",\"state\":{},\"pinned\":true}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "pinned": true,
             "state": {
               "type": "graph",
@@ -109,10 +131,13 @@
           {
             "id": "972ef8530c4b53a6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,6 +146,10 @@
           {
             "id": "efa986629590d479",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "graph-analysis",
               "state": {}
@@ -150,8 +179,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -163,7 +191,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,9 +217,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/6.CICD.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -201,10 +226,10 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "6d161a41bc5fa70e",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/3.质量/1.Code Review.md",
     "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/3.质量/1.Code Review.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/git.md",
