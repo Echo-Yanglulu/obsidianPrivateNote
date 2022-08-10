@@ -13,7 +13,7 @@
               "leaf": "6a8af3c51224e025",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":3},\"to\":{\"line\":42,\"ch\":3}},\"scroll\":17.598086124401913}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
             }
           ]
         },
@@ -138,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,6 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +223,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/actions.md"
+              }
             }
           }
         ],
@@ -231,7 +235,7 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "f59515532fe6ff4b",
+  "active": "c2667d4690d9bbba",
   "lastOpenFiles": [
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
