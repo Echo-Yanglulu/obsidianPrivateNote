@@ -36,7 +36,19 @@
               "leaf": "c2667d4690d9bbba",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":7.346726190476191}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0.9626}"
+            },
+            {
+              "leaf": "c2667d4690d9bbba",
+              "group": null,
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/github actions.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "c2667d4690d9bbba",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0.962582538517975}"
             }
           ]
         },
@@ -63,6 +75,10 @@
           {
             "id": "231c1b69c3d25663",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "file-explorer",
               "state": {}
@@ -71,6 +87,10 @@
           {
             "id": "989de35848378ae3",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "search",
               "state": {
@@ -86,6 +106,10 @@
           {
             "id": "f228e16b95d44e75",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "starred",
               "state": {}
@@ -94,6 +118,10 @@
           {
             "id": "69a2e6fc80af00cf",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "recent-files",
               "state": {}
@@ -102,6 +130,10 @@
           {
             "id": "c29b20be9e546fba",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "center-panes",
               "state": {}
@@ -110,6 +142,10 @@
           {
             "id": "478cd7f7d7518d74",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -161,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +218,10 @@
           {
             "id": "a03ea82f44b956df",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {}
@@ -190,6 +230,10 @@
           {
             "id": "b11fff4a3acf5962",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_nodes",
               "state": {}
@@ -198,6 +242,10 @@
           {
             "id": "7b30ec670d44c0ea",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_style",
               "state": {}
@@ -212,10 +260,14 @@
           {
             "id": "37fb741facd8f20b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,6 +281,10 @@
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -247,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/actions.md"
               }
             }
           }
@@ -258,10 +314,10 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "d4542f9adf67e185",
+  "active": "c2667d4690d9bbba",
   "lastOpenFiles": [
+    "笔记/前端/工程化/github actions.svg",
     "笔记/前端/工程化/actions.md",
-    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/3.质量/1.Code Review.md",
