@@ -25,6 +25,29 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "c2667d4690d9bbba",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "c2667d4690d9bbba",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":7.346726190476191}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/actions.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -138,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/actions.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/actions.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/actions.md"
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
               }
             }
           }
@@ -235,10 +258,10 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "c2667d4690d9bbba",
+  "active": "d4542f9adf67e185",
   "lastOpenFiles": [
-    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/actions.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/3.质量/1.Code Review.md",
