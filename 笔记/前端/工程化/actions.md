@@ -24,7 +24,10 @@ job是一系列step，
 		runs-on：运行所需要的虚拟机环境
 		needs：当前job的依赖
 		steps：运行步骤
-			1. name
+			1. name：一个step名字
+			2. env：该步骤所需要的环境变量
+			3. run：该step运行的命令
+			4. use：调用一个外部的action
 		
 
 
