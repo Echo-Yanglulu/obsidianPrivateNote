@@ -13,6 +13,11 @@ workflow > job > step > action
 workflow由一个或多个JOB[^4]构成，
 job是一系列step，
 每个step[^5]是多个action[^6]。
+# 使用
+## 起步
+新建.github/
+
+
 [^1]: 比如在push的时候，或merge一个MR时触发CI
 [^2]: 为每个workflow（==一次CI**过程**==）提供一个独享的一核虚拟CPU，3.75GB的内存，网络权限，100GB的磁盘空间。所以actions的性能强大。
 [^3]: CI流程中很多操作类似。就允许把每个操作可写成独立脚本，放在仓库。需要的可直接引用他人写好的，整个CI过程实质就成了actions组合过程。
