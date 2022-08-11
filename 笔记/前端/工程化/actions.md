@@ -18,6 +18,7 @@ job是一系列step，
 新建.github/workflows文件夹[^7]，其中的每个[[yml文件]]，就是一个workflow。
 	name字段：当前名称，没有则取文件名
 	on：这个overflow的触发条件（定时，事件，手动）
+	job：一个目的
 
 
 [^1]: 比如在push的时候，或merge一个MR时触发CI
