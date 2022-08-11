@@ -19,6 +19,13 @@ job是一系列step，
 	name字段：当前名称，没有则取文件名
 	on：这个overflow的触发条件（定时，事件，手动）
 	job：一个目的
+		jobId
+		name：名字
+		steps：运行步骤
+			1. name
+		runs-on：运行所需要的虚拟机环境
+		needs：当前job的依赖
+		
 
 
 [^1]: 比如在push的时候，或merge一个MR时触发CI
