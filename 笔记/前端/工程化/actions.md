@@ -21,10 +21,10 @@ job是一系列step，
 	job：一个目的
 		jobId
 		name：名字
-		steps：运行步骤
-			1. name
 		runs-on：运行所需要的虚拟机环境
 		needs：当前job的依赖
+		steps：运行步骤
+			1. name
 		
 
 
