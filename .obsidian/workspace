@@ -12,6 +12,12 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":10.9151}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/语言.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
             },
@@ -56,7 +62,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/语言/语言.md",
+            "file": "笔记/前端/工程化/actions.md",
             "mode": "source",
             "source": false
           }
@@ -198,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/语言/语言.md",
+                "file": "笔记/前端/工程化/actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/语言/语言.md",
+                "file": "笔记/前端/工程化/actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/语言/语言.md"
+                "file": "笔记/前端/工程化/actions.md"
               }
             }
           }
@@ -317,8 +323,8 @@
   },
   "active": "6a8af3c51224e025",
   "lastOpenFiles": [
-    "笔记/前端/语言/YAML.md",
     "笔记/前端/语言/语言.md",
+    "笔记/前端/语言/YAML.md",
     "笔记/前端/语言/yml文件.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/工程化/6.CICD.md",
