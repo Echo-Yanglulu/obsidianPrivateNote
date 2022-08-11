@@ -15,7 +15,7 @@ job是一系列step，
 每个step[^5]是多个action[^6]。
 # 使用
 ## 起步
-新建.github/
+新建.github/workflows文件夹[^7]，其中的每个[[.yml文件]]，就是一个workflow，
 
 
 [^1]: 比如在push的时候，或merge一个MR时触发CI
@@ -24,3 +24,4 @@ job是一系列step，
 [^4]: 完成某个==**目的**==的一系列步骤。如build，test与deploy，三个步骤可以是三个job。默认**并行**运行，除非指定依赖关系
 [^5]: 组成job的步骤，可是自定义的**命令**，也可引入其他仓库的action。
 [^6]: 对一种**逻辑**的封装，每个step可**依次**执行一个或多个action。
+[^7]: 顾名思义，里面都是workflow。
