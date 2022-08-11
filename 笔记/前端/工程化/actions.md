@@ -15,7 +15,7 @@ job是一系列step，
 每个step[^5]是多个action[^6]。
 # 使用
 ## 起步
-新建.github/workflows文件夹[^7]，其中的每个[[.yml文件]]，就是一个workflow，
+新建.github/workflows文件夹[^7]，其中的每个[[yml文件]]，就是一个workflow，
 
 
 [^1]: 比如在push的时候，或merge一个MR时触发CI
