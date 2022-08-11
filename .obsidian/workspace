@@ -12,80 +12,27 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":10.9169}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":17},\"to\":{\"line\":5,\"ch\":17}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/6.CICD.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "c2667d4690d9bbba",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/yml文件.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":10.91694820646905}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}},\"scroll\":0}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":10.6067}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/github actions.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":10.602955433473369}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/github actions.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "c2667d4690d9bbba",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0.962582538517975}"
-            }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/yml文件.md",
+            "file": "笔记/前端/语言/语言.md",
             "mode": "source",
             "source": false
           }
@@ -227,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/yml文件.md",
+                "file": "笔记/前端/语言/语言.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/yml文件.md",
+                "file": "笔记/前端/语言/语言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/yml文件.md"
+                "file": "笔记/前端/语言/语言.md"
               }
             }
           }
@@ -344,8 +291,10 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "c2667d4690d9bbba",
+  "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/前端/语言/yml文件.md",
+    "笔记/前端/语言/语言.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/github actions.svg",
@@ -353,8 +302,6 @@
     "笔记/前端/工程化/3.质量/1.Code Review.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/2.规范/git工程规范.md",
-    "笔记/前端/前端.md",
-    "笔记/内心/内心.md"
+    "笔记/前端/工程化/2.规范/git工程规范.md"
   ]
 }
