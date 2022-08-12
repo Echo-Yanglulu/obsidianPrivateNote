@@ -1003,7 +1003,7 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-quote {
 
 div:not(.CodeMirror-activeline)>.HyperMD-quote {
     border-left: 5px solid var(--blockquote-border);
-    padding-left: 13px !important;
+    padding-left: 9px !important;/* or 13 */
     margin-left: 0px;
     margin-top: 0em;
 }

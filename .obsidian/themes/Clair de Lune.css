@@ -6,7 +6,7 @@
   --font-editor-linenumbers-size: medium;
   --font-h1-preview-size: 2em;
   --font-h2-preview-size: 1.5em;
-  --font-h3-preview-size: 1.25;
+  --font-h3-preview-size: 1.25em;
   --font-h4-preview-size: 1em;
   --font-h5-preview-size: 0.875em;
   --font-h6-preview-size: 0.85em;
@@ -164,6 +164,10 @@
   color: #7a88cf !important;
 }
 .cm-s-obsidian span.cm-quote {
+  font-style: italic;
+}
+.cm-s-obsidian span.cm-comment {
+  color: #444a73 !important;
   font-style: italic;
 }
 .cm-s-obsidian .cm-hmd-frontmatter.cm-def {
@@ -887,7 +891,7 @@ textarea:hover {
   font-size: var(--font-prompt-size);
 }
 .prompt .prompt-results .suggestion-item {
-  padding: 8px 10px;
+  padding: 8px 10px 8px 34px;
   font-size: var(--font-prompt-size);
   margin-right: 2px;
 }
@@ -938,7 +942,7 @@ textarea:hover {
   max-height: 450px;
 }
 .suggestion-container .suggestion .suggestion-item {
-  padding: 8px 10px;
+  padding: 8px 10px 8px 34px;
   font-size: var(--font-preview-size);
   margin-right: 2px;
 }
