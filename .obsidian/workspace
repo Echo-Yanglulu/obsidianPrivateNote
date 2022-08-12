@@ -12,8 +12,26 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":14},\"to\":{\"line\":4,\"ch\":14}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":17},\"to\":{\"line\":11,\"ch\":17}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":16.198511166253102}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/YAML.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":10.9151}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/语言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/YAML.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/图形/图形思考.md",
+            "file": "笔记/工具/思考/图形/概念图.md",
             "mode": "source",
             "source": false
           }
@@ -275,7 +275,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/图形/图形思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +344,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/图形/图形思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -380,9 +378,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/工具/思考/图形/图形思考.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -392,9 +388,10 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "6a8af3c51224e025",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
     "笔记/工具/思考/图形/概念图.md",
+    "笔记/工具/思考/图形/图形思考.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/概念/找到弱点.md",
@@ -402,7 +399,6 @@
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/工具/思考/图形/实体关系图.md",
     "笔记/工具/思考/思考.md",
-    "笔记/工具/工具.md",
-    "笔记/前端/前端.md"
+    "笔记/工具/工具.md"
   ]
 }
