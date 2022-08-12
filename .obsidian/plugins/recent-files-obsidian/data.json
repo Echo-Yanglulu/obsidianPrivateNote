@@ -5,6 +5,14 @@
       "path": "笔记/工具/思考/图形/概念图.md"
     },
     {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "成为超级学习者",
+      "path": "笔记/学习方法/成为超级学习者.md"
+    },
+    {
       "basename": "基本概念",
       "path": "笔记/工具/思考/基本概念/基本概念.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "实体关系图",
       "path": "笔记/工具/思考/图形/实体关系图.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
     },
     {
       "basename": "工具",
@@ -195,10 +199,6 @@
     {
       "basename": "webpack实战",
       "path": "笔记/前端/工程化/5.构建/webpack实战.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.md"
     }
   ],
   "omittedPaths": [],
