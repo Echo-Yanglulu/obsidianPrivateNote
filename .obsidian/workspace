@@ -12,8 +12,14 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":91},\"to\":{\"line\":34,\"ch\":91}},\"scroll\":34.53986763315474}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/成为超级学习者.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":24},\"to\":{\"line\":1,\"ch\":24}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}}}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":16.198511166253102}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/成为超级学习者.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/图形/概念图.md",
+                "file": "笔记/学习方法/概念/拓展.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/图形/概念图.md",
+                "file": "笔记/学习方法/概念/拓展.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,7 +381,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/图形/概念图.md"
+                "file": "笔记/学习方法/概念/拓展.md"
               }
             }
           }
@@ -392,17 +392,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "16a9323899c10277",
+  "active": "e23491d1f3e8e10a",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/学习的阶段.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/成为超级学习者.md",
+    "笔记/工具/思考/图形/概念图.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/图形/图形思考.md",
-    "笔记/工具/思考/图形/概念图.md",
     "笔记/工具/思考/基本概念/基本概念.md",
     "笔记/工具/思考/基本概念/重要概念.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/减法思维/减法思维.md",
-    "笔记/工具/思考/图形/思维导图.md",
-    "笔记/工具/思考/图形/头脑风暴.md"
+    "笔记/工具/思考/记忆/记忆.md"
   ]
 }
