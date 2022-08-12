@@ -18,6 +18,24 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":14},\"to\":{\"line\":81,\"ch\":14}},\"scroll\":63.90632754342432}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/费曼技巧.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":35},\"to\":{\"line\":4,\"ch\":35}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/思维导图.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":31},\"to\":{\"line\":4,\"ch\":31}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/实体关系图.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":15},\"to\":{\"line\":37,\"ch\":15}},\"scroll\":18.573326520183954}"
             },
@@ -110,18 +128,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/语言.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":10.9169}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":17},\"to\":{\"line\":5,\"ch\":17}}}"
             }
           ]
         },
@@ -224,7 +230,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -388,15 +395,15 @@
   },
   "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/费曼技巧.md",
+    "笔记/工具/思考/图形/思维导图.md",
     "笔记/工具/思考/图形/实体关系图.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/工具.md",
     "笔记/前端/前端.md",
     "笔记/学习方法/概念/概念.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/费曼技巧.md",
     "笔记/学习方法/概念/盲点.md",
-    "笔记/学习方法/概念/费曼技巧.svg",
-    "笔记/学习方法/概念/知识.md"
+    "笔记/学习方法/概念/费曼技巧.svg"
   ]
 }
