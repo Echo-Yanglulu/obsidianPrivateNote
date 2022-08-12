@@ -234,7 +234,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +303,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,9 +337,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -351,8 +347,9 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "d94478ec091aae2f",
+  "active": "dc935f0781ca8b58",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/费曼技巧.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/万物通用概念/技术.md",
     "笔记/学习方法/概念/信息结构.md",
@@ -361,7 +358,6 @@
     "笔记/前端/语言/YAML.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/语言/语言.md",
-    "笔记/前端/语言/yml文件.md",
-    "笔记/前端/工程化/6.CICD.md"
+    "笔记/前端/语言/yml文件.md"
   ]
 }
