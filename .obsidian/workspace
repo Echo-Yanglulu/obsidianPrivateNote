@@ -13,7 +13,7 @@
               "leaf": "6a8af3c51224e025",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":18.708003796267004}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":9},\"to\":{\"line\":41,\"ch\":9}},\"scroll\":25.84308763049668}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -275,6 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/思考/图形/图形思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -344,6 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/思考/图形/图形思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -378,7 +380,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/思考/图形/图形思考.md"
+              }
             }
           }
         ],
@@ -388,15 +392,15 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "f59515532fe6ff4b",
+  "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/工具/思考/图形/思维导图.md",
     "笔记/工具/思考/图形/图形思考.md",
     "笔记/工具/思考/图形/头脑风暴.md",
     "笔记/工具/思考/图形/概念图.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/概念/找到弱点.md",
-    "笔记/工具/思考/图形/思维导图.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/工具/思考/图形/实体关系图.md",
     "笔记/工具/思考/思考.md"
