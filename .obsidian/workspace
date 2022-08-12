@@ -13,7 +13,7 @@
               "leaf": "6a8af3c51224e025",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/YAML.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":4.458333333333333}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -210,7 +210,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/语言/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +279,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/语言/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,9 +313,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/语言/YAML.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -327,11 +323,11 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "6a8af3c51224e025",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/前端/语言/YAML.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/语言/语言.md",
-    "笔记/前端/语言/YAML.md",
     "笔记/前端/语言/yml文件.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/github actions.svg",
