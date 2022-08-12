@@ -12,8 +12,20 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/重要概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":28},\"to\":{\"line\":7,\"ch\":28}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/重要概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/实体关系图.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":15},\"to\":{\"line\":37,\"ch\":15}},\"scroll\":18.573326520183954}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/基本概念/重要概念.md",
+            "file": "笔记/工具/思考/图形/概念图.md",
             "mode": "source",
             "source": false
           }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md",
+                "file": "笔记/工具/思考/图形/概念图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md",
+                "file": "笔记/工具/思考/图形/概念图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,7 +381,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/基本概念/重要概念.md"
+                "file": "笔记/工具/思考/图形/概念图.md"
               }
             }
           }
@@ -395,6 +395,7 @@
   "active": "6a8af3c51224e025",
   "lastOpenFiles": [
     "笔记/工具/思考/基本概念/基本概念.md",
+    "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/减法思维/减法思维.md",
     "笔记/工具/思考/图形/概念图.md",
@@ -402,7 +403,6 @@
     "笔记/工具/思考/图形/思维导图.md",
     "笔记/工具/思考/图形/头脑风暴.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/学习的阶段.md",
-    "笔记/学习方法/概念/找到弱点.md"
+    "笔记/学习方法/概念/学习的阶段.md"
   ]
 }
