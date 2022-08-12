@@ -234,6 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/学习方法/概念/盲点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,6 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/概念/盲点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +339,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/学习方法/概念/盲点.md"
+              }
             }
           }
         ],
