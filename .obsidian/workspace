@@ -13,7 +13,7 @@
               "leaf": "6a8af3c51224e025",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":41.194685743484925}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":6},\"to\":{\"line\":79,\"ch\":6}},\"scroll\":66.19213081246806}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md",
+                "file": "笔记/学习方法/概念/费曼技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md",
+                "file": "笔记/学习方法/概念/费曼技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/信息结构.md"
+                "file": "笔记/学习方法/概念/费曼技巧.md"
               }
             }
           }
@@ -351,17 +351,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "e4e65a34082f5007",
+  "active": "d94478ec091aae2f",
   "lastOpenFiles": [
     "笔记/学习方法/整体性学习.md",
+    "笔记/万物通用概念/技术.md",
+    "笔记/学习方法/概念/信息结构.md",
     "笔记/学习方法/超级学习.md",
     "笔记/学习方法/记笔记.md",
     "笔记/前端/语言/YAML.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/语言/语言.md",
     "笔记/前端/语言/yml文件.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/github actions.svg",
-    "笔记/前端/工程化/2.规范/版本规范.md"
+    "笔记/前端/工程化/6.CICD.md"
   ]
 }
