@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "概念图",
+      "path": "笔记/工具/思考/图形/概念图.md"
+    },
+    {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
     },
     {
-      "basename": "找到弱点",
-      "path": "笔记/学习方法/概念/找到弱点.md"
-    },
-    {
       "basename": "学习的阶段",
       "path": "笔记/学习方法/概念/学习的阶段.md"
+    },
+    {
+      "basename": "找到弱点",
+      "path": "笔记/学习方法/概念/找到弱点.md"
     },
     {
       "basename": "思维导图",
@@ -195,10 +199,6 @@
     {
       "basename": "rollup",
       "path": "笔记/前端/工程化/库/rollup.md"
-    },
-    {
-      "basename": "gulp",
-      "path": "笔记/前端/工程化/5.构建/gulp.md"
     }
   ],
   "omittedPaths": [],
