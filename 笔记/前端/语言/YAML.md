@@ -4,6 +4,7 @@
 	2. 强大
 	3. 方便（远比JSON格式）
 
+[YAML 语言教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2016/07/yaml.html)
 # 规则
 大小写敏感
 通过**空格**缩进（而不是tab）
