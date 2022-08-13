@@ -12,8 +12,14 @@
             {
               "leaf": "293fdf008705b095",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+            },
+            {
+              "leaf": "293fdf008705b095",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}}}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -32,7 +38,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/整体.md",
+            "file": "笔记/工具/通用概念/通用概念.md",
             "mode": "source",
             "source": false
           }
@@ -307,8 +313,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -316,15 +321,15 @@
   },
   "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/整体.md",
     "笔记/工具/通用概念/通用概念.md",
+    "笔记/工具/通用概念/本质.md",
+    "笔记/工具/通用概念/整体.md",
     "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/形式.md",
     "笔记/工具/通用概念/状态.md",
     "笔记/工具/通用概念/质料.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/assets/Untitled Diagram.svg",
-    "笔记/工具/通用概念/人物.md",
-    "笔记/工具/通用概念/时间.md"
+    "笔记/工具/通用概念/人物.md"
   ]
 }
