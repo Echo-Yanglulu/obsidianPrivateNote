@@ -13,7 +13,7 @@
               "leaf": "b7aed3b2f7f47f37",
               "group": "54616fd9f56bda52",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":6},\"to\":{\"line\":6,\"ch\":6}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":6},\"to\":{\"line\":9,\"ch\":6}}}"
             },
             {
               "leaf": "b7aed3b2f7f47f37",
@@ -206,8 +206,33 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "0a9dfea17ddecbf9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc55ca4b3679aac4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "center-panes",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -284,6 +309,30 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "1e28e91b1787e92c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/工具/通用概念/通用概念.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a06c9236fa770d2c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ]
       },
@@ -302,6 +351,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/通用概念/通用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,7 +399,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "b7aed3b2f7f47f37",
   "lastOpenFiles": [
     "笔记/工具/通用概念/通用概念.md",
     "笔记/工具/通用概念/事物.md",
