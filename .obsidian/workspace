@@ -12,8 +12,14 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":6},\"to\":{\"line\":45,\"ch\":6}},\"scroll\":26.540178571428573}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":13}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":15},\"to\":{\"line\":15,\"ch\":15}}}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/概念图.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":51},\"to\":{\"line\":10,\"ch\":51}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/图形/概念图.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -393,17 +393,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "a00da521d167eb21",
+  "active": "d7d62b7896496a09",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/学习的阶段.md",
+    "笔记/学习方法/概念/获取.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/信息结构.md",
+    "笔记/学习方法/概念/知识的结构.md",
     "笔记/工具/思考/图形/概念图.md",
+    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/工具/思考/思维概念/类比.md",
-    "笔记/工具/思考/思维概念/归纳.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思维概念/溯因.md",
-    "笔记/工具/思考/思维概念/演绎.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/工具/思考/基本概念/重要概念.md"
+    "笔记/工具/思考/思维概念/归纳.md"
   ]
 }
