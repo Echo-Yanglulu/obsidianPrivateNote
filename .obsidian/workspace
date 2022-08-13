@@ -12,8 +12,20 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"笔记/万物通用概念/人，思维导图.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -116,27 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/技术.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":6},\"to\":{\"line\":21,\"ch\":6}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"笔记/万物通用概念/人，思维导图.md\"}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "mindmapview",
           "state": {
-            "file": "笔记/万物通用概念/事物.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/万物通用概念/人，思维导图.md"
           }
         }
       }
@@ -275,7 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/万物通用概念/事物.md",
+                "file": "笔记/万物通用概念/人，思维导图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +343,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/万物通用概念/事物.md",
+                "file": "笔记/万物通用概念/人，思维导图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,7 +379,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/万物通用概念/事物.md"
+                "file": "笔记/万物通用概念/人，思维导图.md"
               }
             }
           }
@@ -394,6 +392,8 @@
   },
   "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/万物通用概念/人.md",
+    "笔记/万物通用概念/事物.md",
     "笔记/万物通用概念/事件.md",
     "笔记/万物通用概念/技术.md",
     "笔记/工具/工具.md",
@@ -401,8 +401,6 @@
     "笔记/工具/思考/未命名.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/基本概念.md",
-    "笔记/工具/思考/思维概念/目标.md",
-    "笔记/工具/思考/基本概念/重要概念.md",
-    "笔记/工作/工作.md"
+    "笔记/工具/思考/思维概念/目标.md"
   ]
 }
