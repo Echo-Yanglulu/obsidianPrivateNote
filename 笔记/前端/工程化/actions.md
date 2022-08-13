@@ -21,11 +21,11 @@ job是一系列step，
 	**job**：一个目的
 		jobId
 		name：名字
-		runs-on：运行所需要的虚拟机环境
-		needs：当前job的依赖
-		steps：运行步骤
+		runs-on：运行所需的**虚拟机环境**
+		needs：当前job的**依赖项**
+		**steps**：（一个job的）运行步骤
 			1. name：一个step名字
-			2. env：该步骤所需要的环境变量
+			2. env：该步骤所需要的**环境变量**
 			3. run：该step运行的命令
 			4. use：调用一个外部的action
 		
