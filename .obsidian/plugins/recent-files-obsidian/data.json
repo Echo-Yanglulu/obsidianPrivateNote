@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "人",
+      "path": "笔记/工具/通用概念/人.md"
+    },
+    {
+      "basename": "人物",
+      "path": "笔记/工具/通用概念/人物.md"
+    },
+    {
       "basename": "通用概念",
-      "path": "笔记/通用概念/通用概念.md"
+      "path": "笔记/工具/通用概念/通用概念.md"
+    },
+    {
+      "basename": "科学",
+      "path": "笔记/工具/科学/科学.md"
+    },
+    {
+      "basename": "常识",
+      "path": "笔记/工具/常识/常识.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/工具/工具.md"
     },
     {
       "basename": "状态",
-      "path": "笔记/通用概念/状态.md"
+      "path": "笔记/工具/通用概念/状态.md"
     },
     {
       "basename": "表象与本质-类比作为思考的原料与火焰",
@@ -15,10 +35,6 @@
     {
       "basename": "模型思维",
       "path": "笔记/工具/模型思维.md"
-    },
-    {
-      "basename": "工具",
-      "path": "笔记/工具/工具.md"
     },
     {
       "basename": "人性的弱点",
@@ -33,10 +49,6 @@
       "path": "笔记/工具/哲学/哲学.md"
     },
     {
-      "basename": "常识",
-      "path": "笔记/工具/常识/常识.md"
-    },
-    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
@@ -46,19 +58,15 @@
     },
     {
       "basename": "事件",
-      "path": "笔记/通用概念/事件.md"
+      "path": "笔记/工具/通用概念/事件.md"
     },
     {
       "basename": "通用概念",
-      "path": "笔记/通用概念/通用概念.svg"
+      "path": "笔记/工具/通用概念/通用概念.svg"
     },
     {
       "basename": "事物",
-      "path": "笔记/通用概念/事物.md"
-    },
-    {
-      "basename": "人",
-      "path": "笔记/通用概念/人.md"
+      "path": "笔记/工具/通用概念/事物.md"
     },
     {
       "basename": "技术",
@@ -191,14 +199,6 @@
     {
       "basename": "超级学习",
       "path": "笔记/学习方法/超级学习.md"
-    },
-    {
-      "basename": "记笔记",
-      "path": "笔记/学习方法/记笔记.md"
-    },
-    {
-      "basename": "YAML",
-      "path": "笔记/前端/语言/YAML.md"
     }
   ],
   "omittedPaths": [],
