@@ -10,11 +10,10 @@
           "pos": 0,
           "stack": []
         },
-        "pinned": true,
         "state": {
           "type": "backlink",
           "state": {
-            "file": "笔记/工具/思考/思维概念/联想.md",
+            "file": "笔记/学习方法/技术.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -22,39 +21,64 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": false
-          },
-          "pinned": true
+          }
         },
         "group": "a452d18ab1a9cdf1"
       },
       {
-        "id": "67657b84f2e9e13a",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "67657b84f2e9e13a",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+        "id": "505d2c52f9fa14ea",
+        "type": "split",
+        "children": [
+          {
+            "id": "027e544465ae63f6",
+            "type": "leaf",
+            "dimension": 18.108419838523638,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
             },
-            {
-              "leaf": "67657b84f2e9e13a",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/工具/通用概念/行为.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/工具/通用概念/生活方式.md",
-            "mode": "source",
-            "source": false
+          },
+          {
+            "id": "551c48bb4eb0d7d8",
+            "type": "leaf",
+            "dimension": 81.89158016147637,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "pinned": true,
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/工具/通用概念/生活.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "pinned": true
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -235,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/生活方式.md",
+                "file": "笔记/工具/通用概念/行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,13 +291,11 @@
               "pos": 0,
               "stack": []
             },
-            "pinned": true,
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md"
-              },
-              "pinned": true
+                "file": "笔记/学习方法/技术.md"
+              }
             },
             "group": "a452d18ab1a9cdf1"
           },
@@ -298,17 +320,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "67657b84f2e9e13a",
+  "active": "027e544465ae63f6",
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/联想.md",
-    "笔记/工具/通用概念/生活方式.md",
-    "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/生活.md",
     "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/需要.md",
-    "笔记/工具/通用概念/情感.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/自我.md",
     "笔记/工具/通用概念/心理.md",
-    "笔记/工具/通用概念/本能.md",
-    "笔记/学习方法/概念/知识.md"
+    "笔记/学习方法/技术.md",
+    "笔记/工具/思考/思维概念/联想.md",
+    "笔记/工具/通用概念/生活方式.md",
+    "笔记/工具/通用概念/需要.md",
+    "笔记/工具/通用概念/情感.md"
   ]
 }
