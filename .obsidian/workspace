@@ -16,8 +16,14 @@
                 {
                   "leaf": "478cd7f7d7518d74",
                   "group": null,
+                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/通用概念/Untitled Diagram.svg\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "478cd7f7d7518d74",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.848569434752268}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}},\"scroll\":0}"
                 },
                 {
                   "leaf": "478cd7f7d7518d74",
@@ -28,11 +34,9 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "diagram-edit",
               "state": {
-                "file": "笔记/通用概念/人.md",
-                "mode": "source",
-                "source": false
+                "file": "笔记/通用概念/Untitled Diagram.svg"
               }
             }
           },
@@ -233,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/通用概念/人.md",
+                "file": "笔记/通用概念/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/通用概念/人.md",
+                "file": "笔记/通用概念/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/通用概念/人.md"
+                "file": "笔记/通用概念/Untitled Diagram.svg"
               }
             }
           }
@@ -352,8 +356,8 @@
   },
   "active": "478cd7f7d7518d74",
   "lastOpenFiles": [
-    "笔记/通用概念/通用概念.md",
     "笔记/通用概念/人.md",
+    "笔记/通用概念/通用概念.md",
     "笔记/通用概念/Untitled Diagram.svg",
     "笔记/通用概念/事物.md",
     "笔记/通用概念/未命名思维导图.md",
