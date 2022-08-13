@@ -12,8 +12,14 @@
             {
               "leaf": "293fdf008705b095",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+            },
+            {
+              "leaf": "293fdf008705b095",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":5},\"to\":{\"line\":3,\"ch\":5}}}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -26,7 +32,30 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/通用概念.md",
+            "file": "笔记/工具/通用概念/整体.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "77668ca7d36d22fd",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "77668ca7d36d22fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/工具/通用概念/整体.md",
             "mode": "source",
             "source": false
           }
@@ -207,7 +236,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/整体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +270,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/整体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,9 +304,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/工具/通用概念/整体.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -289,8 +314,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "77668ca7d36d22fd",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/整体.md",
     "笔记/工具/通用概念/通用概念.md",
     "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/形式.md",
@@ -299,7 +325,6 @@
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/assets/Untitled Diagram.svg",
     "笔记/工具/通用概念/人物.md",
-    "笔记/工具/通用概念/时间.md",
-    "笔记/工具/通用概念/事件.md"
+    "笔记/工具/通用概念/时间.md"
   ]
 }
