@@ -4,187 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "8d66b1886a787dd3",
-        "type": "split",
-        "children": [
-          {
-            "id": "293fdf008705b095",
-            "type": "leaf",
-            "dimension": 73.09644670050761,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":16},\"to\":{\"line\":21,\"ch\":16}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/成为超级学习者.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":5},\"to\":{\"line\":35,\"ch\":5}},\"scroll\":24.1464}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/信息结构.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/盲点.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": "a452d18ab1a9cdf1",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/恨.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":9},\"to\":{\"line\":2,\"ch\":9}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/愤怒.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":12},\"to\":{\"line\":5,\"ch\":12}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/结构.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "293fdf008705b095",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/学习方法/技术.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "a452d18ab1a9cdf1"
+        "id": "37fb741facd8f20b",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": []
+        },
+        "pinned": true,
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "笔记/工具/思考/思维概念/联想.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
           },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "dimension": 26.903553299492383,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "pinned": true,
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/学习方法/技术.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "pinned": true
-            },
-            "group": "a452d18ab1a9cdf1"
-          }
-        ],
-        "direction": "horizontal"
+          "pinned": true
+        },
+        "group": "a452d18ab1a9cdf1"
       },
       {
-        "id": "77668ca7d36d22fd",
+        "id": "91f7433bde33335f",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "77668ca7d36d22fd",
+              "leaf": "91f7433bde33335f",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "91f7433bde33335f",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "91f7433bde33335f",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":122.5}"
             }
           ]
         },
@@ -288,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -376,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/工具/通用概念/整体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/技术.md"
+                "file": "笔记/工具/思考/思维概念/联想.md"
               },
               "pinned": true
             },
@@ -427,29 +292,4 @@
             },
             "state": {
               "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 623
-  },
-  "active": "cadfe267075ca675",
-  "lastOpenFiles": [
-    "笔记/学习方法/技术.md",
-    "笔记/学习方法/成为超级学习者.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/概念/信息结构.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/学习方法/概念/盲点.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/情感.md"
-  ]
-}
+           
