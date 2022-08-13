@@ -12,8 +12,14 @@
             {
               "leaf": "293fdf008705b095",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}}}"
+            },
+            {
+              "leaf": "293fdf008705b095",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":13},\"to\":{\"line\":14,\"ch\":13}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}},\"scroll\":0}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -68,7 +74,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人.md",
+            "file": "笔记/工具/通用概念/情感.md",
             "mode": "source",
             "source": false
           }
@@ -276,6 +282,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/通用概念/情感.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,6 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/通用概念/情感.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +352,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/通用概念/情感.md"
+              }
             }
           }
         ]
@@ -353,17 +363,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "55f406ff36f9e21f",
+  "active": "293fdf008705b095",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/心理.md",
     "笔记/工具/通用概念/人.md",
+    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/情感.md",
     "笔记/工具/通用概念/本能.md",
     "笔记/工具/通用概念/生活方式.md",
     "笔记/工具/通用概念/纠结.md",
     "笔记/工具/通用概念/期望.md",
-    "笔记/工具/通用概念/选择.md",
-    "笔记/工具/通用概念/意志.md",
-    "笔记/工具/通用概念/自我.md",
-    "笔记/工具/通用概念/评估.md"
+    "笔记/工具/通用概念/选择.md"
   ]
 }
