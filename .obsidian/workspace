@@ -12,8 +12,26 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/未命名.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/意识/意识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":23},\"to\":{\"line\":4,\"ch\":23}}}"
+              "eState": "{}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/基本概念/基本概念.md",
+            "file": "笔记/工具/思考/思考.md",
             "mode": "source",
             "source": false
           }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/目标.md",
+                "file": "笔记/工具/思考/思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/目标.md",
+                "file": "笔记/工具/思考/思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,7 +381,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/目标.md"
+                "file": "笔记/工具/思考/思考.md"
               }
             }
           }
@@ -392,17 +392,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "5cd2fb73498cdb0d",
+  "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/工具/思考/未命名.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/基本概念.md",
     "笔记/工具/思考/思维概念/目标.md",
     "笔记/工具/思考/基本概念/重要概念.md",
     "笔记/万物通用概念/技术.md",
     "笔记/工具/思考/思考.md",
     "笔记/工作/工作.md",
-    "笔记/工具/意识/意识.md",
     "笔记/工具/工具.md",
-    "笔记/内心/内心.md",
-    "笔记/工具/思考/思维概念/溯因.md"
+    "笔记/内心/内心.md"
   ]
 }
