@@ -13,7 +13,7 @@
               "leaf": "293fdf008705b095",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":7},\"to\":{\"line\":15,\"ch\":7}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":7},\"to\":{\"line\":27,\"ch\":7}}}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -269,6 +269,10 @@
           {
             "id": "1e28e91b1787e92c",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -343,7 +347,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
