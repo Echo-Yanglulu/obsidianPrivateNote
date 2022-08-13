@@ -644,7 +644,450 @@
         "width": 623
       },
       "active": "b7aed3b2f7f47f37"
+    },
+    "最优布局": {
+      "main": {
+        "id": "a00daf7331235eff",
+        "type": "split",
+        "children": [
+          {
+            "id": "8d66b1886a787dd3",
+            "type": "split",
+            "children": [
+              {
+                "id": "293fdf008705b095",
+                "type": "leaf",
+                "dimension": 73.09644670050761,
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/成为超级学习者.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":5},\"to\":{\"line\":35,\"ch\":5}},\"scroll\":24.1464}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/信息结构.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/盲点.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": "a452d18ab1a9cdf1",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/恨.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":9},\"to\":{\"line\":2,\"ch\":9}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/愤怒.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/情感.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":12},\"to\":{\"line\":5,\"ch\":12}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/结构.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "293fdf008705b095",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/技术.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "a452d18ab1a9cdf1"
+              },
+              {
+                "id": "37fb741facd8f20b",
+                "type": "leaf",
+                "dimension": 26.903553299492383,
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "笔记/学习方法/技术.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "pinned": true
+                },
+                "group": "a452d18ab1a9cdf1"
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "77668ca7d36d22fd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "77668ca7d36d22fd",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/工具/通用概念/整体.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8ba117513c0a782d",
+        "type": "split",
+        "children": [
+          {
+            "id": "932e5b2355cf0a40",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "231c1b69c3d25663",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "989de35848378ae3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f228e16b95d44e75",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "69a2e6fc80af00cf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "0a9dfea17ddecbf9",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bc55ca4b3679aac4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "center-panes",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309
+      },
+      "right": {
+        "id": "27f207157d6497ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "c6a1cba0558ba019",
+            "type": "tabs",
+            "dimension": 59.21052631578947,
+            "children": [
+              {
+                "id": "f59515532fe6ff4b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "f59515532fe6ff4b",
+                      "group": null,
+                      "state": "{\"type\":\"graph\",\"state\":{},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              },
+              {
+                "id": "317f497fc058b9b7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "pinned": true
+                }
+              },
+              {
+                "id": "9be427e8a69138d4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "pinned": true
+                }
+              },
+              {
+                "id": "d6f768adb0296a56",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {},
+                  "pinned": true
+                }
+              },
+              {
+                "id": "1e28e91b1787e92c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "笔记/学习方法/技术.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "a06c9236fa770d2c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "graph-analysis",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "01b984a51df1d6b1",
+            "type": "tabs",
+            "dimension": 40.789473684210535,
+            "children": [
+              {
+                "id": "bd5ff300df2b3029",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "pinned": true,
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "笔记/学习方法/技术.md"
+                  },
+                  "pinned": true
+                },
+                "group": "a452d18ab1a9cdf1"
+              },
+              {
+                "id": "e06cd8634f0d46cc",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 623
+      },
+      "active": "293fdf008705b095"
     }
   },
-  "active": "55栏"
+  "active": "最优布局"
 }
