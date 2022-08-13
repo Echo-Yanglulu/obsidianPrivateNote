@@ -12,8 +12,14 @@
             {
               "leaf": "293fdf008705b095",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}}}"
+            },
+            {
+              "leaf": "293fdf008705b095",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -62,7 +68,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/思维概念/联想.md",
+            "file": "笔记/工具/通用概念/人.md",
             "mode": "source",
             "source": false
           }
@@ -266,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/工具/通用概念/人.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/工具/通用概念/人.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -337,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md"
+                "file": "笔记/工具/通用概念/人.md"
               }
             }
           }
@@ -349,15 +355,15 @@
   },
   "active": "293fdf008705b095",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/评估.md",
     "笔记/工具/通用概念/人.md",
+    "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/通用概念/通用概念.md",
     "笔记/学习方法/概念/结构.md",
     "笔记/工具/通用概念/整体.md",
     "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/本质.md",
     "笔记/工具/通用概念/形式.md",
-    "笔记/工具/通用概念/状态.md",
-    "笔记/工具/通用概念/质料.md",
-    "笔记/工具/通用概念/事物.md"
+    "笔记/工具/通用概念/状态.md"
   ]
 }
