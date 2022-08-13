@@ -17,8 +17,20 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/性格.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/乱世佳人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -121,25 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/电影/乱世佳人.md",
+                "file": "笔记/工具/通用概念/性格.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/电影/乱世佳人.md",
+                "file": "笔记/工具/通用概念/性格.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/电影/乱世佳人.md",
+                "file": "笔记/工具/通用概念/性格.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/电影/乱世佳人.md"
+                "file": "笔记/工具/通用概念/性格.md"
               }
             }
           },
@@ -413,15 +413,15 @@
   },
   "active": "027e544465ae63f6",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/自大.md",
+    "笔记/工具/通用概念/性格.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/电影/乱世佳人.md",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/语言/YAML.md",
     "笔记/前端/语言/yml文件.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/6.CICD.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/生活.md",
-    "笔记/工具/通用概念/生育.md",
-    "笔记/工具/通用概念/性格.md"
+    "笔记/工具/通用概念/行为.md"
   ]
 }
