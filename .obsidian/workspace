@@ -18,7 +18,7 @@
                   "leaf": "293fdf008705b095",
                   "group": "a452d18ab1a9cdf1",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":16},\"to\":{\"line\":21,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "leaf": "293fdf008705b095",
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/技术.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,8 +439,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "293fdf008705b095",
+  "active": "cadfe267075ca675",
   "lastOpenFiles": [
+    "笔记/学习方法/技术.md",
     "笔记/学习方法/成为超级学习者.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/信息结构.md",
@@ -449,7 +450,6 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/情感.md",
-    "笔记/工具/通用概念/恨.md"
+    "笔记/工具/通用概念/情感.md"
   ]
 }
