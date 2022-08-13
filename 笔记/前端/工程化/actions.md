@@ -16,9 +16,9 @@ job是一系列step，
 # 使用
 ## 起步
 新建.github/workflows文件夹[^7]，每个[[yml文件]]，都是一个workflow。
-	name字段：当前名称，没有则取文件名
-	on：这个overflow的触发条件（定时，事件，手动）
-	job：一个目的
+	name字段：名称，没有则取文件名
+	on：触发条件（定时，事件，手动）
+	**job**：一个目的
 		jobId
 		name：名字
 		runs-on：运行所需要的虚拟机环境
