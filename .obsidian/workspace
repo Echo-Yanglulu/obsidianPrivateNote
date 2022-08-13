@@ -13,7 +13,7 @@
               "leaf": "293fdf008705b095",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
             },
             {
               "leaf": "293fdf008705b095",
@@ -242,6 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/通用概念/部分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,6 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/通用概念/部分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -310,7 +312,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/通用概念/部分.md"
+              }
             }
           }
         ]
@@ -319,13 +323,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "5e3f05d980380f46",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/整体.md",
     "笔记/工具/通用概念/通用概念.md",
+    "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/本质.md",
     "笔记/工具/通用概念/形式.md",
-    "笔记/工具/通用概念/整体.md",
-    "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/状态.md",
     "笔记/工具/通用概念/质料.md",
     "笔记/工具/通用概念/事物.md",
