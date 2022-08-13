@@ -5,8 +5,20 @@
       "path": "笔记/通用概念/通用概念.md"
     },
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/5.构建/webpack.svg"
+    },
+    {
       "basename": "事件",
       "path": "笔记/通用概念/事件.md"
+    },
+    {
+      "basename": "通用概念",
+      "path": "笔记/通用概念/通用概念.svg"
     },
     {
       "basename": "事物",
@@ -19,10 +31,6 @@
     {
       "basename": "技术",
       "path": "笔记/学习方法/技术.md"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "笔记/通用概念/Untitled Diagram.svg"
     },
     {
       "basename": "工具",
@@ -191,14 +199,6 @@
     {
       "basename": "2.规范",
       "path": "笔记/前端/工程化/2.规范/2.规范.md"
-    },
-    {
-      "basename": "西方文明简史",
-      "path": "笔记/西方文明简史/西方文明简史.md"
-    },
-    {
-      "basename": "主题，问题，命题",
-      "path": "笔记/西方文明简史/主题，问题，命题.md"
     }
   ],
   "omittedPaths": [],

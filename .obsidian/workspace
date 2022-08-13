@@ -4,103 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "7e00e9b50e92ea8b",
-        "type": "split",
-        "children": [
-          {
-            "id": "478cd7f7d7518d74",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "478cd7f7d7518d74",
-                  "group": null,
-                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/通用概念/Untitled Diagram.svg\"}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "478cd7f7d7518d74",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "478cd7f7d7518d74",
-                  "group": null,
-                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/通用概念/Untitled Diagram.svg\"}}",
-                  "eState": "{}"
-                }
-              ]
+        "id": "b7aed3b2f7f47f37",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "b7aed3b2f7f47f37",
+              "group": "54616fd9f56bda52",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
             },
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "笔记/通用概念/Untitled Diagram.svg"
-              }
+            {
+              "leaf": "b7aed3b2f7f47f37",
+              "group": "54616fd9f56bda52",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             }
-          },
-          {
-            "id": "dbc865855e20b04b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":9},\"to\":{\"line\":6,\"ch\":9}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}}}"
-                },
-                {
-                  "leaf": "dbc865855e20b04b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/通用概念/通用概念.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/通用概念/通用概念.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "54616fd9f56bda52"
       }
     ],
     "direction": "vertical"
@@ -114,69 +45,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3c461a5bd6469f7b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 5,
-              "stack": [
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}}}"
-                },
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "3c461a5bd6469f7b",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/通用概念/事件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "989de35848378ae3",
+            "id": "231c1b69c3d25663",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": []
             },
             "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "989de35848378ae3",
+            "type": "leaf",
+            "state": {
               "type": "search",
               "state": {
-                "query": "命题",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,10 +74,6 @@
           {
             "id": "f228e16b95d44e75",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "starred",
               "state": {}
@@ -208,21 +90,8 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "c29b20be9e546fba",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "center-panes",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,6 +104,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
+        "dimension": 59.21052631578947,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -258,67 +128,33 @@
             }
           },
           {
-            "id": "972ef8530c4b53a6",
+            "id": "317f497fc058b9b7",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/通用概念/通用概念.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "efa986629590d479",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "a03ea82f44b956df",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "b11fff4a3acf5962",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
+            "pinned": true,
             "state": {
               "type": "juggl_nodes",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "7b30ec670d44c0ea",
+            "id": "9be427e8a69138d4",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
+            "pinned": true,
             "state": {
               "type": "juggl_style",
-              "state": {}
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "d6f768adb0296a56",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "pinned": true
             }
           }
         ]
@@ -326,18 +162,14 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
+        "dimension": 40.789473684210535,
         "children": [
           {
             "id": "37fb741facd8f20b",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/通用概念/通用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,10 +183,6 @@
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -366,35 +194,32 @@
           {
             "id": "bd5ff300df2b3029",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "outline",
               "state": {
                 "file": "笔记/通用概念/通用概念.md"
               }
-            }
+            },
+            "group": "54616fd9f56bda52"
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 572
+    "width": 623
   },
-  "active": "dbc865855e20b04b",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/通用概念/地点.md",
-    "笔记/通用概念/事件.md",
     "笔记/通用概念/通用概念.md",
+    "笔记/通用概念/经过.md",
+    "笔记/前端/工程化/5.构建/webpack.md",
+    "笔记/前端/工程化/5.构建/webpack.svg",
+    "笔记/通用概念/事件.md",
+    "笔记/通用概念/通用概念.svg",
+    "笔记/通用概念/地点.md",
     "笔记/通用概念/时间.md",
     "笔记/通用概念/事物.md",
-    "笔记/通用概念/人.md",
-    "笔记/学习方法/技术.md",
-    "笔记/通用概念/Untitled Diagram.svg",
-    "笔记/通用概念/经过.md",
-    "笔记/通用概念/人物.md"
+    "笔记/通用概念/人.md"
   ]
 }
