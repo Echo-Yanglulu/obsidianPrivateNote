@@ -4,68 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "37fb741facd8f20b",
-        "type": "leaf",
-        "dimension": 26.047565118912797,
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": []
-        },
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "笔记/学习方法/技术.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": false
+        "id": "17145d55ad95c4f7",
+        "type": "split",
+        "children": [
+          {
+            "id": "027e544465ae63f6",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "b70a55ffa34c2e4f",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "b70a55ffa34c2e4f",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "b70a55ffa34c2e4f",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/工具/通用概念/心理.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "60044dbc498f8df7"
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/工具/通用概念/心理.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            },
+            "group": "60044dbc498f8df7"
           }
-        }
-      },
-      {
-        "id": "027e544465ae63f6",
-        "type": "leaf",
-        "dimension": 73.9524348810872,
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "027e544465ae63f6",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "b70a55ffa34c2e4f",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "b70a55ffa34c2e4f",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "b70a55ffa34c2e4f",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-            }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/工具/通用概念/心理.md",
-            "mode": "source",
-            "source": false
-          }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -246,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/技术.md",
+                "file": "笔记/工具/通用概念/心理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/技术.md"
+                "file": "笔记/工具/通用概念/心理.md"
               }
             }
           },
@@ -306,17 +313,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "37fb741facd8f20b",
+  "active": "027e544465ae63f6",
   "lastOpenFiles": [
+    "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/工具/通用概念/心理.md",
+    "笔记/工具/通用概念/人.md",
     "笔记/学习方法/技术.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/创造.md",
     "笔记/工具/通用概念/生活方式.md",
     "笔记/工具/通用概念/生活.md",
-    "笔记/工具/通用概念/自我.md",
-    "笔记/工具/思考/思维概念/联想.md"
+    "笔记/工具/通用概念/自我.md"
   ]
 }
