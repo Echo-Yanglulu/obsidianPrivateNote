@@ -15,7 +15,7 @@ job是一系列step，
 每个step[^5]是多个action[^6]。
 # 使用
 ## 起步
-新建.github/workflows文件夹[^7]，其中的每个[[yml文件]]，就是一个workflow。
+新建.github/workflows文件夹[^7]，每个[[yml文件]]，都是一个workflow。
 	name字段：当前名称，没有则取文件名
 	on：这个overflow的触发条件（定时，事件，手动）
 	job：一个目的
