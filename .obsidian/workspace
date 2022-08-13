@@ -12,8 +12,32 @@
             {
               "leaf": "6a8af3c51224e025",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
+              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"笔记/万物通用概念/人，思维导图.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6a8af3c51224e025",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/万物通用概念/技术.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":8},\"to\":{\"line\":12,\"ch\":8}}}"
             },
             {
               "leaf": "6a8af3c51224e025",
@@ -104,37 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/拓展.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":5.5038}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":91},\"to\":{\"line\":34,\"ch\":91}},\"scroll\":34.5399}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/重要概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":152},\"to\":{\"line\":28,\"ch\":152}},\"scroll\":26.256803907885555}"
-            },
-            {
-              "leaf": "6a8af3c51224e025",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.4563852058618285}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/万物通用概念/技术.md",
+            "file": "笔记/万物通用概念/事物.md",
             "mode": "source",
             "source": false
           }
@@ -230,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -276,7 +275,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/万物通用概念/事物.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/万物通用概念/事物.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +381,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md"
+                "file": "笔记/万物通用概念/事物.md"
               }
             }
           }
@@ -393,17 +392,17 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "213f769ad94e551b",
+  "active": "6a8af3c51224e025",
   "lastOpenFiles": [
+    "笔记/万物通用概念/事件.md",
+    "笔记/万物通用概念/人.md",
+    "笔记/万物通用概念/人，思维导图.md",
     "笔记/万物通用概念/技术.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/思维概念/溯因.md",
     "笔记/学习方法/概念/学习的阶段.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/找到弱点.md",
-    "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/概念/信息结构.md"
+    "笔记/学习方法/整体性学习.md"
   ]
 }
