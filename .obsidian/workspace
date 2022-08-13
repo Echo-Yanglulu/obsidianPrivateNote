@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/乱世佳人.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":15.70051282051282}"
+                  "eState": "{\"scroll\":10.81371811925279}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/工程化/actions.md",
+                "file": "笔记/电影/乱世佳人.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/actions.md",
+                "file": "笔记/电影/乱世佳人.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/actions.md",
+                "file": "笔记/电影/乱世佳人.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/actions.md"
+                "file": "笔记/电影/乱世佳人.md"
               }
             }
           },
@@ -413,8 +413,8 @@
   },
   "active": "027e544465ae63f6",
   "lastOpenFiles": [
-    "笔记/前端/语言/YAML.md",
     "笔记/前端/工程化/actions.md",
+    "笔记/前端/语言/YAML.md",
     "笔记/前端/语言/yml文件.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/6.CICD.md",
