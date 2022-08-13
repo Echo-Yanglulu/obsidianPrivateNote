@@ -5,6 +5,38 @@
       "path": "笔记/通用概念/通用概念.md"
     },
     {
+      "basename": "状态",
+      "path": "笔记/通用概念/状态.md"
+    },
+    {
+      "basename": "表象与本质-类比作为思考的原料与火焰",
+      "path": "笔记/工具/表象与本质-类比作为思考的原料与火焰.md"
+    },
+    {
+      "basename": "模型思维",
+      "path": "笔记/工具/模型思维.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/工具/工具.md"
+    },
+    {
+      "basename": "人性的弱点",
+      "path": "笔记/工具/人性的弱点.md"
+    },
+    {
+      "basename": "纳瓦尔宝典",
+      "path": "笔记/工具/纳瓦尔宝典.md"
+    },
+    {
+      "basename": "哲学",
+      "path": "笔记/工具/哲学/哲学.md"
+    },
+    {
+      "basename": "常识",
+      "path": "笔记/工具/常识/常识.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
@@ -31,10 +63,6 @@
     {
       "basename": "技术",
       "path": "笔记/学习方法/技术.md"
-    },
-    {
-      "basename": "工具",
-      "path": "笔记/工具/工具.md"
     },
     {
       "basename": "思考",
@@ -171,34 +199,6 @@
     {
       "basename": "YAML",
       "path": "笔记/前端/语言/YAML.md"
-    },
-    {
-      "basename": "actions",
-      "path": "笔记/前端/工程化/actions.md"
-    },
-    {
-      "basename": "语言",
-      "path": "笔记/前端/语言/语言.md"
-    },
-    {
-      "basename": "yml文件",
-      "path": "笔记/前端/语言/yml文件.md"
-    },
-    {
-      "basename": "6.CICD",
-      "path": "笔记/前端/工程化/6.CICD.md"
-    },
-    {
-      "basename": "github actions",
-      "path": "笔记/前端/工程化/github actions.svg"
-    },
-    {
-      "basename": "版本规范",
-      "path": "笔记/前端/工程化/2.规范/版本规范.md"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
     }
   ],
   "omittedPaths": [],
