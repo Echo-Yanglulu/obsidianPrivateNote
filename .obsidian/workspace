@@ -28,35 +28,23 @@
         "group": "a452d18ab1a9cdf1"
       },
       {
-        "id": "91f7433bde33335f",
+        "id": "67657b84f2e9e13a",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "91f7433bde33335f",
+              "leaf": "67657b84f2e9e13a",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/整体.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "91f7433bde33335f",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "91f7433bde33335f",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":122.5}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/整体.md",
+            "file": "笔记/工具/通用概念/人.md",
             "mode": "source",
             "source": false
           }
@@ -153,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -241,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/整体.md",
+                "file": "笔记/工具/通用概念/需要.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,4 +280,29 @@
             },
             "state": {
               "type": "tag",
-           
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 623
+  },
+  "active": "ae2ce555dbe7f369",
+  "lastOpenFiles": [
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/行为.md",
+    "笔记/工具/通用概念/情感.md",
+    "笔记/工具/思考/思维概念/联想.md",
+    "笔记/工具/通用概念/心理.md",
+    "笔记/工具/通用概念/本能.md",
+    "笔记/学习方法/概念/知识.md",
+    "笔记/工具/通用概念/整体.md",
+    "笔记/学习方法/技术.md",
+    "笔记/学习方法/压缩.md"
+  ]
+}
