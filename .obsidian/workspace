@@ -50,7 +50,7 @@
                   "leaf": "dbc865855e20b04b",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
                 },
                 {
                   "leaf": "dbc865855e20b04b",
@@ -237,7 +237,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/通用概念/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +306,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/通用概念/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,9 +340,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/通用概念/Untitled Diagram.svg"
-              }
+              "state": {}
             }
           }
         ],
@@ -354,11 +350,11 @@
     "direction": "horizontal",
     "width": 572
   },
-  "active": "478cd7f7d7518d74",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/通用概念/人.md",
     "笔记/通用概念/通用概念.md",
     "笔记/通用概念/Untitled Diagram.svg",
+    "笔记/通用概念/人.md",
     "笔记/通用概念/事物.md",
     "笔记/通用概念/未命名思维导图.md",
     "笔记/学习方法/技术.md",
