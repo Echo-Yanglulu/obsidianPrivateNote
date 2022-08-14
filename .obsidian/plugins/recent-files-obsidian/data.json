@@ -5,6 +5,18 @@
       "path": "笔记/学习方法/布鲁姆分类法.md"
     },
     {
+      "basename": "应用",
+      "path": "笔记/学习方法/概念/应用.md"
+    },
+    {
+      "basename": "行为",
+      "path": "笔记/工具/通用概念/行为.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
       "basename": "理解",
       "path": "笔记/学习方法/概念/理解.md"
     },
@@ -59,10 +71,6 @@
     {
       "basename": "期望",
       "path": "笔记/工具/通用概念/期望.md"
-    },
-    {
-      "basename": "应用",
-      "path": "笔记/学习方法/概念/应用.md"
     },
     {
       "basename": "知识",
@@ -166,11 +174,11 @@
     },
     {
       "basename": "YAML",
-      "path": "笔记/前端/语言/YAML.md"
+      "path": "笔记/前端/编程语言/YAML.md"
     },
     {
       "basename": "yml文件",
-      "path": "笔记/前端/语言/yml文件.md"
+      "path": "笔记/前端/编程语言/yml文件.md"
     },
     {
       "basename": "工程化",
@@ -179,10 +187,6 @@
     {
       "basename": "6.CICD",
       "path": "笔记/前端/工程化/6.CICD.md"
-    },
-    {
-      "basename": "行为",
-      "path": "笔记/工具/通用概念/行为.md"
     },
     {
       "basename": "生活",
@@ -195,10 +199,6 @@
     {
       "basename": "生活方式",
       "path": "笔记/工具/通用概念/生活方式.md"
-    },
-    {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
     }
   ],
   "omittedPaths": [],
