@@ -12,7 +12,37 @@
             {
               "leaf": "a6a3a22d56f63793",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":true}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/获取.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}}}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/学习的阶段.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":33.35456475583864}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/成为超级学习者.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/超级学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
             {
@@ -26,9 +56,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/学习方法/概念/获取.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -211,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +305,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/学习方法/技术.md"
               }
             }
           },
@@ -300,17 +330,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "a6a3a22d56f63793",
+  "active": "e7aa33184e19328c",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/获取.md",
+    "笔记/工具/通用概念/方法.md",
+    "笔记/学习方法/概念/学习的阶段.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/成为超级学习者.md",
+    "笔记/学习方法/超级学习.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/工具/通用概念/自我层级.md",
-    "笔记/工具/通用概念/自我的层级.svg",
-    "笔记/工具/通用概念/Untitled Diagram.svg",
-    "笔记/工具/通用概念/自我的诞生.md",
-    "笔记/工具/通用概念/理性.md",
-    "笔记/工具/通用概念/意志.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/工具/通用概念/心灵能力.md"
+    "笔记/工具/通用概念/自我的层级.svg"
   ]
 }
