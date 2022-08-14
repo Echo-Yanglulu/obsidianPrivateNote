@@ -12,8 +12,14 @@
             {
               "leaf": "027e544465ae63f6",
               "group": "1295a85ea1f4104b",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "027e544465ae63f6",
+              "group": "1295a85ea1f4104b",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":6},\"to\":{\"line\":14,\"ch\":10}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":0}"
             },
             {
               "leaf": "027e544465ae63f6",
@@ -122,19 +128,13 @@
               "group": "60044dbc498f8df7",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/YAML.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "60044dbc498f8df7",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":10.65826152333584}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/自我的诞生.md",
+            "file": "笔记/工具/通用概念/自我层级.md",
             "mode": "source",
             "source": false
           }
@@ -356,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/自我的诞生.md",
+                "file": "笔记/工具/通用概念/自我层级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -411,9 +411,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ef94d41abf359669",
+  "active": "027e544465ae63f6",
   "lastOpenFiles": [
     "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/自我.md",
     "笔记/工具/通用概念/人.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
@@ -421,7 +422,6 @@
     "笔记/工具/通用概念/边界意识.md",
     "笔记/工具/通用概念/死亡焦虑.md",
     "笔记/工具/通用概念/深度关系.md",
-    "笔记/工具/通用概念/自在感.md",
-    "笔记/工具/通用概念/存在感.md"
+    "笔记/工具/通用概念/自在感.md"
   ]
 }
