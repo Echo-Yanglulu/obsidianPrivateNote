@@ -4,30 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "137511e1db5a4aff",
+        "id": "a6a3a22d56f63793",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "137511e1db5a4aff",
+              "leaf": "a6a3a22d56f63793",
               "group": null,
-              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的层级.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "137511e1db5a4aff",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"empty\",\"state\":{}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "diagram-edit",
-          "state": {
-            "file": "笔记/工具/通用概念/自我的层级.svg"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -301,9 +293,9 @@
   "active": "137511e1db5a4aff",
   "lastOpenFiles": [
     "笔记/工具/通用概念/自我层级.md",
+    "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/Untitled Diagram.svg",
     "笔记/工具/通用概念/自我的诞生.md",
-    "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/理性.md",
     "笔记/工具/通用概念/意志.md",
     "笔记/工具/思考/思维概念/逻辑.md",
