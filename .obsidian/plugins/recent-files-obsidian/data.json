@@ -6,6 +6,18 @@
     },
     {
       "basename": "自我",
+      "path": "笔记/工具/通用概念/自我.md"
+    },
+    {
+      "basename": "人",
+      "path": "笔记/工具/通用概念/人.md"
+    },
+    {
+      "basename": "5.构建",
+      "path": "笔记/前端/工程化/5.构建/5.构建.md"
+    },
+    {
+      "basename": "自我",
       "path": "笔记/工具/通用概念/自我.svg"
     },
     {
@@ -13,16 +25,8 @@
       "path": "笔记/工具/通用概念/死亡焦虑.md"
     },
     {
-      "basename": "自我",
-      "path": "笔记/工具/通用概念/自我.md"
-    },
-    {
       "basename": "心理",
       "path": "笔记/工具/通用概念/心理.md"
-    },
-    {
-      "basename": "人",
-      "path": "笔记/工具/通用概念/人.md"
     },
     {
       "basename": "actions",
@@ -195,10 +199,6 @@
     {
       "basename": "哲学",
       "path": "笔记/工具/哲学/哲学.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.md"
     }
   ],
   "omittedPaths": [],
