@@ -12,8 +12,14 @@
             {
               "leaf": "027e544465ae63f6",
               "group": "1295a85ea1f4104b",
+              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的层级.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "027e544465ae63f6",
+              "group": "1295a85ea1f4104b",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":21},\"to\":{\"line\":2,\"ch\":21}},\"scroll\":0.4391025641025641}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "027e544465ae63f6",
@@ -122,21 +128,13 @@
               "group": "60044dbc498f8df7",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/乱世佳人.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":27.33653846153846}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "60044dbc498f8df7",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/性格.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "diagram-edit",
           "state": {
-            "file": "笔记/工具/通用概念/自我层级.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/工具/通用概念/自我的层级.svg"
           }
         },
         "group": "1295a85ea1f4104b"
@@ -320,7 +318,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/意志.md",
+                "file": "笔记/工具/通用概念/自我的层级.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/自我层级.md",
+                "file": "笔记/工具/通用概念/自我的层级.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,7 +384,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/意志.md"
+                "file": "笔记/工具/通用概念/自我的层级.svg"
               }
             }
           },
@@ -411,14 +409,14 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ecaeaef2e26852be",
+  "active": "027e544465ae63f6",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/自我层级.md",
+    "笔记/工具/通用概念/意志.md",
     "笔记/工具/通用概念/理性.md",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/工具/通用概念/意志.md",
     "笔记/工具/通用概念/心灵能力.md",
     "笔记/工具/通用概念/伦理学.md",
-    "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/自我的诞生.md",
     "笔记/工具/通用概念/心灵空间.md",
     "笔记/工具/通用概念/自我的层级.svg",
