@@ -12,14 +12,24 @@
             {
               "leaf": "a6a3a22d56f63793",
               "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":38},\"to\":{\"line\":16,\"ch\":38}}}"
+            },
+            {
+              "leaf": "a6a3a22d56f63793",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/工具/思考/记忆/记忆.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -201,7 +211,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/自我的层级.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,9 +273,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/工具/通用概念/自我的层级.svg"
-              }
+              "state": {}
             }
           },
           {
@@ -290,8 +297,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "137511e1db5a4aff",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/Untitled Diagram.svg",
@@ -299,8 +308,6 @@
     "笔记/工具/通用概念/理性.md",
     "笔记/工具/通用概念/意志.md",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/工具/通用概念/心灵能力.md",
-    "笔记/工具/通用概念/伦理学.md",
-    "笔记/工具/通用概念/心灵空间.md"
+    "笔记/工具/通用概念/心灵能力.md"
   ]
 }
