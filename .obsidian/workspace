@@ -13,7 +13,7 @@
               "leaf": "6d59f0f9659b5e0b",
               "group": "0f31eb20b4241b48",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false},\"pinned\":true}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":5},\"to\":{\"line\":15,\"ch\":5}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":1},\"to\":{\"line\":8,\"ch\":1}}}"
             },
             {
               "leaf": "6d59f0f9659b5e0b",
@@ -70,11 +70,88 @@
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
-          "stack": []
+          "stack": [
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/经验.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/经验.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/边界意识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/深度关系.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自在感.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自恋.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/情绪/情绪.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            }
+          ]
         },
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/工具/通用概念/人.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -256,7 +333,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/行为.md",
+                "file": "笔记/工具/通用概念/性格.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,7 +399,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/行为.md"
+                "file": "笔记/工具/通用概念/性格.md"
               }
             }
           },
@@ -347,17 +424,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6d59f0f9659b5e0b",
+  "active": "e9e4f4a3e055bcd9",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/学习.md",
+    "笔记/工具/通用概念/勇敢.md",
+    "笔记/工具/通用概念/性格.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/情感.md",
     "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
-    "笔记/工具/通用概念/目的.md",
-    "笔记/学习方法/概念/观点.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/学习方法/概念/信息.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/学习方法/概念/PBL.md"
+    "笔记/工具/通用概念/心理.md",
+    "笔记/工具/通用概念/经验.md",
+    "笔记/工具/通用概念/本能.md",
+    "笔记/工具/通用概念/需要.md",
+    "笔记/工具/思考/基本概念/思维.md"
   ]
 }
