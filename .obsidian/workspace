@@ -12,8 +12,8 @@
             {
               "leaf": "a6a3a22d56f63793",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":38},\"to\":{\"line\":16,\"ch\":38}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":3},\"to\":{\"line\":23,\"ch\":3}},\"scroll\":0}"
             },
             {
               "leaf": "a6a3a22d56f63793",
@@ -28,7 +28,7 @@
           "state": {
             "file": "笔记/工具/思考/记忆/记忆.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -211,6 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +274,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md"
+              }
             }
           },
           {
@@ -297,7 +300,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "a6a3a22d56f63793",
   "lastOpenFiles": [
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/间隔重复.md",
