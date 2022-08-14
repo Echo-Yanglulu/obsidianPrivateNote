@@ -74,8 +74,14 @@
             {
               "leaf": "191b0bc6a291a9bd",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}}}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "191b0bc6a291a9bd",
@@ -148,7 +154,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人.md",
+            "file": "笔记/工具/通用概念/通用概念.md",
             "mode": "source",
             "source": false
           }
@@ -333,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/性格.md",
+                "file": "笔记/工具/通用概念/规律.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +405,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/性格.md"
+                "file": "笔记/工具/通用概念/规律.md"
               }
             }
           },
@@ -424,17 +430,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "e9e4f4a3e055bcd9",
+  "active": "242d0389a29db111",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/勇敢.md",
-    "笔记/工具/通用概念/性格.md",
+    "笔记/工具/通用概念/通用概念.md",
+    "笔记/工具/通用概念/规律.md",
+    "笔记/工具/通用概念/价值.md",
+    "笔记/工具/通用概念/重要性.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/情感.md",
-    "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/心理.md",
-    "笔记/工具/通用概念/经验.md",
-    "笔记/工具/通用概念/本能.md",
-    "笔记/工具/通用概念/需要.md",
-    "笔记/工具/思考/基本概念/思维.md"
+    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/通用概念/性格.md",
+    "笔记/工具/通用概念/懦弱.md",
+    "笔记/工具/通用概念/勇气.md"
   ]
 }
