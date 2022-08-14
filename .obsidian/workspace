@@ -12,8 +12,26 @@
             {
               "leaf": "8f0489118cc575fd",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":9},\"to\":{\"line\":67,\"ch\":9}},\"scroll\":20.93127147766323}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}}}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":6},\"to\":{\"line\":67,\"ch\":6}},\"scroll\":62}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主题，问题，命题.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":9}}}"
+              "eState": "{}"
             },
             {
               "leaf": "8f0489118cc575fd",
@@ -32,7 +50,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/西方文明简史/主题，问题，命题.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -129,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -217,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/期望.md",
+                "file": "笔记/工具/通用概念/评估.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +299,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/期望.md"
+                "file": "笔记/工具/通用概念/评估.md"
               }
             }
           },
@@ -306,17 +324,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "d389b9fbb4ce03a9",
+  "active": "27b6a815e954da9d",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/分析.md",
+    "笔记/学习方法/技术.md",
+    "笔记/西方文明简史/主题，问题，命题.md",
+    "笔记/西方文明简史/人文.md",
+    "笔记/西方文明简史/自由.md",
     "笔记/西方文明简史/问题.md",
     "笔记/工具/通用概念/期望.md",
-    "笔记/西方文明简史/主题，问题，命题.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/西方文明简史/主题.md",
-    "笔记/学习方法/分析.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/学习方法/概念/分类.md",
-    "笔记/工具/通用概念/部分.md"
+    "笔记/工具/通用概念/目标.md",
+    "笔记/西方文明简史/命题.md"
   ]
 }
