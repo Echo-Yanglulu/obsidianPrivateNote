@@ -36,7 +36,8 @@ job是一系列step，
 	2. 安装node**环境**
 	3. 安装**依赖**，**构建**应用
 	4. **部署**到AWS[^8]
-
+![[Pasted image 20220814151535.png]]
+在push时触发，触发分支是master（主要分支？）。只有一个build job，这个JOB依赖的是最新的ubutu虚拟机环境。
 
 [^1]: 比如在push的时候，或merge一个MR时触发CI
 [^2]: 为每个workflow（==一次CI**过程**==）提供一个独享的一核虚拟CPU，3.75GB的内存，网络权限，100GB的磁盘空间。所以actions的性能强大。
