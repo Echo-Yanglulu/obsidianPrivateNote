@@ -12,8 +12,14 @@
             {
               "leaf": "027e544465ae63f6",
               "group": "1295a85ea1f4104b",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
+            },
+            {
+              "leaf": "027e544465ae63f6",
+              "group": "1295a85ea1f4104b",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":39},\"to\":{\"line\":12,\"ch\":39}}}"
             },
             {
               "leaf": "027e544465ae63f6",
@@ -122,24 +128,39 @@
               "group": "60044dbc498f8df7",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/actions.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":10.81371811925279}"
-            },
-            {
-              "leaf": "027e544465ae63f6",
-              "group": "60044dbc498f8df7",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/语言/YAML.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/自我层级.md",
+            "file": "笔记/工具/通用概念/自我的诞生.md",
             "mode": "source",
             "source": false
           }
         },
         "group": "1295a85ea1f4104b"
+      },
+      {
+        "id": "3445b5cc0e51b1e8",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "3445b5cc0e51b1e8",
+              "group": null,
+              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/工具/通用概念/Untitled Diagram.svg\"}}",
+              "eState": "{}"
+            }
+          ]
+        },
+        "state": {
+          "type": "diagram-edit",
+          "state": {
+            "file": "笔记/工具/通用概念/Untitled Diagram.svg"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -320,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/自我层级.md",
+                "file": "笔记/工具/通用概念/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -356,7 +377,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/自我层级.md",
+                "file": "笔记/工具/通用概念/自我的诞生.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -386,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/自我层级.md"
+                "file": "笔记/工具/通用概念/Untitled Diagram.svg"
               }
             }
           },
@@ -411,17 +432,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "027e544465ae63f6",
+  "active": "3445b5cc0e51b1e8",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/愤怒.md",
     "笔记/工具/通用概念/自我层级.md",
+    "笔记/工具/通用概念/Untitled Diagram.svg",
     "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/工具/通用概念/愤怒.md",
     "笔记/工具/通用概念/自我.md",
     "笔记/工具/通用概念/人.md",
     "笔记/前端/工程化/5.构建/5.构建.md",
     "笔记/工具/通用概念/自我.svg",
     "笔记/工具/通用概念/边界意识.md",
-    "笔记/工具/通用概念/死亡焦虑.md",
-    "笔记/工具/通用概念/深度关系.md"
+    "笔记/工具/通用概念/死亡焦虑.md"
   ]
 }
