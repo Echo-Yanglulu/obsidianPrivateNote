@@ -13,7 +13,7 @@
               "leaf": "8f0489118cc575fd",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":13},\"to\":{\"line\":63,\"ch\":13}},\"scroll\":16.770833333333332}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":8},\"to\":{\"line\":74,\"ch\":8}},\"scroll\":16.770833333333332}"
             }
           ]
         },
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -294,8 +294,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "47d91795ee2f191e",
+  "active": "8f0489118cc575fd",
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/概念/知识.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/技术.md",
     "笔记/学习方法/概念/获取.md",
@@ -303,8 +305,6 @@
     "笔记/学习方法/概念/复习.md",
     "笔记/工具/思考/图形/思维导图.md",
     "笔记/学习方法/概念/内在化.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/费曼技巧.md",
-    "笔记/工具/思考/思维概念/类比.md"
+    "笔记/学习方法/概念/理解.md"
   ]
 }
