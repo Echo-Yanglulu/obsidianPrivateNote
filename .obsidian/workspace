@@ -11,9 +11,21 @@
           "stack": [
             {
               "leaf": "8f0489118cc575fd",
+              "group": "b6cb05b96f634099",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.40247252747253}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": "b6cb05b96f634099",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":16},\"to\":{\"line\":7,\"ch\":16}}}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/评估.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
             },
             {
               "leaf": "8f0489118cc575fd",
@@ -74,11 +86,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/评估.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "b6cb05b96f634099"
       }
     ],
     "direction": "vertical"
@@ -259,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/评估.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,6 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +318,8 @@
                 "unlinkedCollapsed": false
               },
               "pinned": true
-            }
+            },
+            "group": "b6cb05b96f634099"
           }
         ]
       },
@@ -323,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/评估.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -350,11 +365,11 @@
   },
   "active": "8f0489118cc575fd",
   "lastOpenFiles": [
+    "笔记/学习方法/布鲁姆分类法.md",
     "笔记/工具/通用概念/评估.md",
     "笔记/工具/通用概念/批判.md",
     "笔记/工具/通用概念/评价.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/布鲁姆分类法.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/综合.md",
     "笔记/学习方法/分析.md",
