@@ -4,59 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a6a3a22d56f63793",
+        "id": "8f0489118cc575fd",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/获取.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}}}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/学习的阶段.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
+              "leaf": "8f0489118cc575fd",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":33.35456475583864}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/成为超级学习者.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/超级学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "a6a3a22d56f63793",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":0},\"to\":{\"line\":64,\"ch\":0}},\"scroll\":13.450269933554818}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/获取.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -241,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/复习.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -305,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/复习.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -330,17 +294,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "9f498280ac155982",
+  "active": "8f0489118cc575fd",
   "lastOpenFiles": [
-    "笔记/工具/思考/图形/思维导图.md",
-    "笔记/学习方法/概念/复习.md",
+    "笔记/学习方法/技术.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/SQ3R.md",
+    "笔记/学习方法/概念/复习.md",
+    "笔记/工具/思考/图形/思维导图.md",
     "笔记/学习方法/概念/内在化.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/费曼技巧.md",
-    "笔记/工具/思考/思维概念/类比.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/学习方法/概念/观点.md",
-    "笔记/工具/思考/记忆/记忆.md"
+    "笔记/工具/思考/思维概念/类比.md"
   ]
 }
