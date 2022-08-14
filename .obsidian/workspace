@@ -11,20 +11,39 @@
           "stack": [
             {
               "leaf": "6d59f0f9659b5e0b",
-              "group": null,
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/笔记流.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":12},\"to\":{\"line\":2,\"ch\":12}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":22},\"to\":{\"line\":29,\"ch\":22}},\"scroll\":27.99933199732799}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":15},\"to\":{\"line\":11,\"ch\":15}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/布鲁姆分类法.md",
+            "file": "笔记/学习方法/概念/笔记流.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "0f31eb20b4241b48"
       }
     ],
     "direction": "vertical"
@@ -205,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/间隔重复.md",
+                "file": "笔记/学习方法/概念/笔记流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/综合.md",
+                "file": "笔记/学习方法/概念/笔记流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +270,8 @@
                 "unlinkedCollapsed": false
               },
               "pinned": true
-            }
+            },
+            "group": "0f31eb20b4241b48"
           }
         ]
       },
@@ -270,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/间隔重复.md"
+                "file": "笔记/学习方法/概念/笔记流.md"
               }
             }
           },
@@ -295,17 +315,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "d365f435440a9a49",
+  "active": "6d59f0f9659b5e0b",
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/记忆/间隔重复.md",
+    "笔记/学习方法/技术.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/布鲁姆分类法.md",
     "笔记/学习方法/综合.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/工具/通用概念/评估.md",
     "笔记/学习方法/分析.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/语言.md"
+    "笔记/学习方法/概念/应用.md"
   ]
 }
