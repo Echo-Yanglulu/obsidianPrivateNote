@@ -74,8 +74,14 @@
             {
               "leaf": "191b0bc6a291a9bd",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":0},\"to\":{\"line\":29,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":5},\"to\":{\"line\":9,\"ch\":5}}}"
             },
             {
               "leaf": "191b0bc6a291a9bd",
@@ -172,7 +178,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/通用概念.md",
+            "file": "笔记/学习方法/概念/理解.md",
             "mode": "source",
             "source": false
           }
@@ -269,7 +275,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -357,7 +363,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/通用概念.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,7 +429,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/通用概念.md"
+                "file": "笔记/学习方法/概念/理解.md"
               }
             }
           },
@@ -450,15 +456,15 @@
   },
   "active": "191b0bc6a291a9bd",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/通用概念.md",
+    "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/行为.md",
+    "笔记/工具/通用概念/目的.md",
     "笔记/工具/工具.md",
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/预测.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/通用概念.md",
     "笔记/工具/通用概念/调控/控制.md",
     "笔记/工具/通用概念/规律.md",
-    "笔记/工具/通用概念/趋势.md",
-    "笔记/工具/通用概念/价值.md"
+    "笔记/工具/通用概念/趋势.md"
   ]
 }
