@@ -12,8 +12,14 @@
             {
               "leaf": "8f0489118cc575fd",
               "group": "b6cb05b96f634099",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":9}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": "b6cb05b96f634099",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.40247252747253}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":10},\"to\":{\"line\":66,\"ch\":10}},\"scroll\":21.40247252747253}"
             },
             {
               "leaf": "8f0489118cc575fd",
@@ -86,7 +92,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/学习方法/布鲁姆分类法.md",
             "mode": "source",
             "source": false
           }
@@ -197,7 +203,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 43.067846607669615,
+        "dimension": 43.059777102330294,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -272,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/布鲁姆分类法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +301,7 @@
       {
         "id": "cc39f0a7a8b38bf4",
         "type": "tabs",
-        "dimension": 21.33726647000983,
+        "dimension": 28.267477203647417,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -308,7 +314,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/学习方法/布鲁姆分类法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +332,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 35.59488692232055,
+        "dimension": 28.67274569402229,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -338,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/学习方法/布鲁姆分类法.md"
               }
             }
           },
@@ -365,15 +371,15 @@
   },
   "active": "8f0489118cc575fd",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/布鲁姆分类法.md",
+    "笔记/学习方法/概念/知识.md",
+    "笔记/学习方法/概念/举例.md",
+    "笔记/学习方法/分析.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/工具/通用概念/评估.md",
     "笔记/工具/通用概念/批判.md",
     "笔记/工具/通用概念/评价.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/综合.md",
-    "笔记/学习方法/分析.md",
-    "笔记/工具/通用概念/部分.md",
-    "笔记/学习方法/概念/分类.md"
+    "笔记/学习方法/综合.md"
   ]
 }
