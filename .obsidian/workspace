@@ -12,8 +12,8 @@
             {
               "leaf": "6d59f0f9659b5e0b",
               "group": "0f31eb20b4241b48",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":6},\"to\":{\"line\":19,\"ch\":6}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false},\"pinned\":true}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "6d59f0f9659b5e0b",
@@ -53,15 +53,29 @@
             }
           ]
         },
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/工具/通用概念/行为.md",
             "mode": "source",
             "source": false
-          }
+          },
+          "pinned": true
         },
         "group": "0f31eb20b4241b48"
+      },
+      {
+        "id": "191b0bc6a291a9bd",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": []
+        },
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -154,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,7 +181,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 43.059777102330294,
+        "dimension": 43.05977710233029,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -242,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/提问.md",
+                "file": "笔记/工具/通用概念/行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +310,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 28.67274569402229,
+        "dimension": 28.672745694022286,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -308,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/提问.md"
+                "file": "笔记/工具/通用概念/行为.md"
               }
             }
           },
@@ -333,11 +347,11 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "04607022b6b8ca12",
+  "active": "6d59f0f9659b5e0b",
   "lastOpenFiles": [
     "笔记/工具/通用概念/学习.md",
-    "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/提问.md",
+    "笔记/工具/通用概念/行为.md",
     "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
     "笔记/工具/通用概念/目的.md",
     "笔记/学习方法/概念/观点.md",
