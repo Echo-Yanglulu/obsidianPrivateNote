@@ -74,8 +74,32 @@
             {
               "leaf": "191b0bc6a291a9bd",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/SQ3R.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":24.985845718329795}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/内在化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "191b0bc6a291a9bd",
@@ -166,19 +190,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/情绪/情绪.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "191b0bc6a291a9bd",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/理解.md",
+            "file": "笔记/学习方法/概念/SQ3R.md",
             "mode": "source",
             "source": false
           }
@@ -288,7 +306,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 43.05977710233029,
+        "dimension": 43.103448275862064,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -363,7 +381,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md",
+                "file": "笔记/学习方法/概念/SQ3R.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -386,7 +404,7 @@
       {
         "id": "cc39f0a7a8b38bf4",
         "type": "tabs",
-        "dimension": 28.267477203647417,
+        "dimension": 33.97565922920893,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -400,13 +418,13 @@
               "type": "backlink",
               "state": {
                 "file": "笔记/工具/通用概念/行为.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "pinned": true
             },
@@ -417,7 +435,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 28.672745694022286,
+        "dimension": 22.920892494929006,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -429,7 +447,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/理解.md"
+                "file": "笔记/学习方法/概念/SQ3R.md"
               }
             }
           },
@@ -456,15 +474,15 @@
   },
   "active": "191b0bc6a291a9bd",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/通用概念.md",
-    "笔记/工具/通用概念/人.md",
+    "笔记/学习方法/技术.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/概念/内在化.md",
     "笔记/工具/通用概念/行为.md",
-    "笔记/工具/通用概念/目的.md",
-    "笔记/工具/工具.md",
-    "笔记/内心/内心.md",
-    "笔记/工具/通用概念/预测.md",
-    "笔记/工具/通用概念/调控/控制.md",
-    "笔记/工具/通用概念/规律.md",
-    "笔记/工具/通用概念/趋势.md"
+    "笔记/工具/通用概念/心理.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/思考/基本概念/基本概念.md",
+    "笔记/工具/思考/记忆/图像.md",
+    "笔记/工具/通用概念/评价.md",
+    "笔记/学习方法/概念/理解.md"
   ]
 }
