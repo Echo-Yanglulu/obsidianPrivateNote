@@ -12,8 +12,32 @@
             {
               "leaf": "8f0489118cc575fd",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/评估.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}}}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/评价.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":2},\"to\":{\"line\":1,\"ch\":2}}}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":10},\"to\":{\"line\":2,\"ch\":10}}}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":9},\"to\":{\"line\":6,\"ch\":9}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8f0489118cc575fd",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":10},\"to\":{\"line\":60,\"ch\":10}},\"scroll\":23.910828025477706}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":9},\"to\":{\"line\":62,\"ch\":9}},\"scroll\":23.910828025477706}"
             },
             {
               "leaf": "8f0489118cc575fd",
@@ -50,7 +74,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/工具/通用概念/评估.md",
             "mode": "source",
             "source": false
           }
@@ -235,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/工具/通用概念/评估.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/工具/通用概念/评估.md"
               }
             }
           },
@@ -326,15 +350,15 @@
   },
   "active": "8f0489118cc575fd",
   "lastOpenFiles": [
-    "笔记/学习方法/分析.md",
-    "笔记/学习方法/整体性学习.md",
-    "笔记/工具/通用概念/部分.md",
     "笔记/工具/通用概念/评估.md",
-    "笔记/学习方法/概念/信息结构.md",
+    "笔记/工具/通用概念/批判.md",
+    "笔记/工具/通用概念/评价.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/学习方法/布鲁姆分类法.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/综合.md",
-    "笔记/学习方法/组合.md",
-    "笔记/学习方法/聚合.md",
-    "笔记/学习方法/概念/结构.md",
-    "笔记/学习方法/概念/模型.md"
+    "笔记/学习方法/分析.md",
+    "笔记/工具/通用概念/部分.md",
+    "笔记/学习方法/概念/分类.md"
   ]
 }

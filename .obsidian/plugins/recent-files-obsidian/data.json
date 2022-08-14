@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "评估",
+      "path": "笔记/工具/通用概念/评估.md"
+    },
+    {
+      "basename": "评价",
+      "path": "笔记/工具/通用概念/评价.md"
+    },
+    {
+      "basename": "理解",
+      "path": "笔记/学习方法/概念/理解.md"
+    },
+    {
+      "basename": "布鲁姆分类法",
+      "path": "笔记/学习方法/布鲁姆分类法.md"
+    },
+    {
       "basename": "整体性学习",
       "path": "笔记/学习方法/整体性学习.md"
     },
@@ -25,16 +41,8 @@
       "path": "笔记/学习方法/概念/模型.md"
     },
     {
-      "basename": "评估",
-      "path": "笔记/工具/通用概念/评估.md"
-    },
-    {
       "basename": "标准",
       "path": "笔记/工具/通用概念/标准.md"
-    },
-    {
-      "basename": "评价",
-      "path": "笔记/工具/通用概念/评价.md"
     },
     {
       "basename": "技术",
@@ -59,10 +67,6 @@
     {
       "basename": "知识",
       "path": "笔记/学习方法/概念/知识.md"
-    },
-    {
-      "basename": "理解",
-      "path": "笔记/学习方法/概念/理解.md"
     },
     {
       "basename": "记忆",
@@ -195,10 +199,6 @@
     {
       "basename": "git",
       "path": "笔记/前端/工程化/git.md"
-    },
-    {
-      "basename": "创造",
-      "path": "笔记/工具/通用概念/创造.md"
     }
   ],
   "omittedPaths": [],
