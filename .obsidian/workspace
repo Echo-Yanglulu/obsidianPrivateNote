@@ -12,8 +12,32 @@
             {
               "leaf": "6d59f0f9659b5e0b",
               "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":6},\"to\":{\"line\":3,\"ch\":6}}}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":20.0481}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/工具/思考/图形/VN图示例.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/图形思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":20.048124557678697}"
+            },
+            {
+              "leaf": "6d59f0f9659b5e0b",
+              "group": "0f31eb20b4241b48",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":15},\"to\":{\"line\":50,\"ch\":15}},\"scroll\":26.825902335456476}"
+              "eState": "{\"scroll\":26.825902335456476}"
             },
             {
               "leaf": "6d59f0f9659b5e0b",
@@ -104,25 +128,13 @@
               "group": "0f31eb20b4241b48",
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/技术.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":12},\"to\":{\"line\":2,\"ch\":12}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6d59f0f9659b5e0b",
-              "group": "0f31eb20b4241b48",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":22},\"to\":{\"line\":29,\"ch\":22}},\"scroll\":27.99933199732799}"
-            },
-            {
-              "leaf": "6d59f0f9659b5e0b",
-              "group": "0f31eb20b4241b48",
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":15},\"to\":{\"line\":11,\"ch\":15}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/6.CICD.md",
+            "file": "笔记/工具/通用概念/人.md",
             "mode": "source",
             "source": false
           }
@@ -433,7 +445,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
+                "file": "笔记/工具/通用概念/行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -468,7 +480,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
+                "file": "笔记/工具/通用概念/人.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -497,7 +509,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md"
+                "file": "笔记/工具/通用概念/行为.md"
               }
             }
           },
@@ -522,17 +534,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6d59f0f9659b5e0b",
+  "active": "781d996e4e6b36d8",
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
+    "笔记/工具/通用概念/行为.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/思考/图形/图形思考.md",
+    "笔记/工具/思考/图形/VN图示例.svg",
+    "笔记/工具/思考/图形/KWHL图.md",
+    "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/Jenkins.md",
     "笔记/前端/工程化/webhook.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/actions.md",
-    "笔记/工具/思考/图形/概念图.md",
-    "笔记/工具/思考/图形/VN，交集图.md",
-    "笔记/工具/思考/图形/Untitled Diagram.svg",
-    "笔记/工具/思考/图形/主体活动图.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/通用概念/通用概念.md"
+    "笔记/前端/工程化/actions.md"
   ]
 }
