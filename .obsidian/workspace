@@ -16,15 +16,23 @@
                 {
                   "leaf": "231c1b69c3d25663",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/图形/VN，交集图.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "231c1b69c3d25663",
+                  "group": null,
                   "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/工具/思考/图形/Untitled Diagram.svg\"}}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "diagram-edit",
+              "type": "markdown",
               "state": {
-                "file": "笔记/工具/思考/图形/Untitled Diagram.svg"
+                "file": "笔记/工具/思考/图形/VN，交集图.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -455,7 +463,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/图形/Untitled Diagram.svg",
+                "file": "笔记/工具/思考/图形/VN，交集图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -519,7 +527,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/图形/Untitled Diagram.svg"
+                "file": "笔记/工具/思考/图形/VN，交集图.md"
               }
             }
           },
@@ -544,8 +552,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "0a9dfea17ddecbf9",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/工具/思考/图形/Untitled Diagram.svg",
     "笔记/工具/思考/图形/概念图.md",
     "笔记/工具/思考/图形/主体活动图.md",
     "笔记/工具/思考/思考.md",
@@ -554,7 +563,6 @@
     "笔记/工具/通用概念/抗拒.md",
     "笔记/工具/通用概念/臣服.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/工具/通用概念/含义.md"
+    "笔记/工具/通用概念/提问.md"
   ]
 }
