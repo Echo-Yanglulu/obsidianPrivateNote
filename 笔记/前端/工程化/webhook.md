@@ -1,1 +1,1 @@
-github与gitlab都有提供webhook，在执行某个git操作时，向一个URL（如Jekins）发送请求，可携带参数
+github与gitlab都有提供webhook，在执行某个git操作时，向一个URL（如Jenkins）发送请求，可携带参数，通知Jenkins开始CI/CD任务。

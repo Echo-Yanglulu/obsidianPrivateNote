@@ -433,7 +433,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/webhook.md",
+                "file": "笔记/前端/工程化/Jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -497,7 +497,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/webhook.md"
+                "file": "笔记/前端/工程化/Jenkins.md"
               }
             }
           },
@@ -522,8 +522,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "006522fa0af19df2",
+  "active": "8bab8b6e2d9f7e3e",
   "lastOpenFiles": [
+    "笔记/前端/工程化/webhook.md",
     "笔记/前端/工程化/Jenkins.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/actions.md",
@@ -532,7 +533,6 @@
     "笔记/工具/思考/图形/Untitled Diagram.svg",
     "笔记/工具/思考/图形/主体活动图.md",
     "笔记/工具/思考/思考.md",
-    "笔记/工具/通用概念/通用概念.md",
-    "笔记/工具/通用概念/心理.md"
+    "笔记/工具/通用概念/通用概念.md"
   ]
 }
