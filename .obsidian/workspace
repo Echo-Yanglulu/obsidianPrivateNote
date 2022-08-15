@@ -53,15 +53,13 @@
             }
           ]
         },
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/工具/通用概念/行为.md",
             "mode": "source",
             "source": false
-          },
-          "pinned": true
+          }
         },
         "group": "0f31eb20b4241b48"
       },
@@ -75,7 +73,7 @@
               "leaf": "191b0bc6a291a9bd",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/SQ3R.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":40},\"to\":{\"line\":9,\"ch\":40}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "191b0bc6a291a9bd",
@@ -293,7 +291,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -413,7 +411,6 @@
               "pos": 0,
               "stack": []
             },
-            "pinned": true,
             "state": {
               "type": "backlink",
               "state": {
@@ -425,8 +422,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "pinned": true
+              }
             },
             "group": "0f31eb20b4241b48"
           }
