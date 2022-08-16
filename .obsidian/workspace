@@ -12,8 +12,20 @@
             {
               "leaf": "191b0bc6a291a9bd",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":46},\"to\":{\"line\":2,\"ch\":46}},\"scroll\":0}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":27.166312809624912}"
+            },
+            {
+              "leaf": "191b0bc6a291a9bd",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/SQ3R.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "191b0bc6a291a9bd",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自恋.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "191b0bc6a291a9bd",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "191b0bc6a291a9bd",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/情绪/情绪.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/SQ3R.md",
+            "file": "笔记/前端/工程化/Jenkins.md",
             "mode": "source",
             "source": false
           }
@@ -195,18 +195,6 @@
             }
           },
           {
-            "id": "0a9dfea17ddecbf9",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "bc55ca4b3679aac4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -221,13 +209,17 @@
           {
             "id": "66a5b8502e43cb0d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "file-explorer",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -315,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/SQ3R.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +342,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/SQ3R.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -378,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/SQ3R.md"
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
               }
             }
           },
@@ -405,15 +397,15 @@
   },
   "active": "0a9dfea17ddecbf9",
   "lastOpenFiles": [
+    "笔记/前端/工程化/Jenkins.md",
+    "笔记/前端/工程化/6.CICD.md",
+    "笔记/学习方法/概念/SQ3R.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/性格.md",
     "笔记/工具/通用概念/自信.md",
     "笔记/工具/通用概念/心理.md",
     "笔记/工具/通用概念/行为.md",
     "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
-    "笔记/工具/思考/图形/图形思考.md",
-    "笔记/工具/思考/图形/VN图示例.svg",
-    "笔记/工具/思考/图形/KWHL图.md",
-    "笔记/前端/工程化/6.CICD.md"
+    "笔记/工具/思考/图形/图形思考.md"
   ]
 }
