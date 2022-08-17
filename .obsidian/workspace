@@ -12,19 +12,19 @@
             "type": "leaf",
             "dimension": 73.46733668341709,
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
                 {
                   "leaf": "595f9add90349307",
                   "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/MVC.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "leaf": "595f9add90349307",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":3},\"to\":{\"line\":44,\"ch\":3}},\"scroll\":24.029647435897434}"
+                  "eState": "{\"scroll\":30.89423076923077}"
                 },
                 {
                   "leaf": "595f9add90349307",
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/部署：发布策略.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/部署：发布策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/部署：发布策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -306,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md"
+                "file": "笔记/前端/工程化/部署：发布策略.md"
               }
             }
           },
@@ -333,8 +333,8 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/MVC.md",
     "笔记/前端/工程化/模板引擎.md",
     "笔记/前端/工程化/SEO.md",
