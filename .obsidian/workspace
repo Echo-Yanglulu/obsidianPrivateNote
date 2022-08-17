@@ -4,63 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "a3077e63ba68eb2a",
-        "type": "split",
-        "children": [
-          {
-            "id": "595f9add90349307",
-            "type": "leaf",
-            "dimension": 71.80527383367141,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "595f9add90349307",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":34},\"to\":{\"line\":8,\"ch\":34}}}"
-                },
-                {
-                  "leaf": "595f9add90349307",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "dimension": 28.1947261663286,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
+        "id": "37fb741facd8f20b",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": []
+        },
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "笔记/前端/工程化/CI到部署的过程.svg",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -241,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/CI到部署的过程.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md"
+                "file": "笔记/前端/工程化/CI到部署的过程.svg"
               }
             }
           },
@@ -303,11 +265,11 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/前端/工程化/SEO.md",
-    "笔记/前端/工程化/前后端分离.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/CI到部署的过程.svg",
     "笔记/前端/工程化/Jenkins.md",
+    "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/SEO.md",
+    "笔记/前端/工程化/CI到部署的过程.svg",
     "笔记/前端/工程化/actions.md",
     "笔记/前端/工程化/webhook.md",
     "笔记/工具/通用概念/生活方式.md"
