@@ -18,7 +18,25 @@
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":6},\"to\":{\"line\":0,\"ch\":6}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/CI到部署的过程.svg\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -115,24 +133,6 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "b70a55ffa34c2e4f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "b70a55ffa34c2e4f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "b70a55ffa34c2e4f",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
                 }
               ]
             },
@@ -413,9 +413,11 @@
   },
   "active": "027e544465ae63f6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/actions.md",
+    "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/CI到部署的过程.svg",
     "笔记/前端/工程化/Jenkins.md",
     "笔记/前端/工程化/webhook.md",
-    "笔记/前端/工程化/CI到部署的过程.svg",
     "笔记/工具/通用概念/生活方式.md"
   ]
 }
