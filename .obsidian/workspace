@@ -12,8 +12,62 @@
             {
               "leaf": "595f9add90349307",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比较.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/工作.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/抽象信息.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比较.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "595f9add90349307",
@@ -80,7 +134,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/比较.md",
+            "file": "笔记/工具/思考/思维概念/论证.md",
             "mode": "source",
             "source": false
           }
@@ -177,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -265,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/比较.md",
+                "file": "笔记/工具/思考/思维概念/论证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/比较.md"
+                "file": "笔记/工具/思考/思维概念/论证.md"
               }
             }
           },
@@ -329,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/比较.md",
+                "file": "笔记/工具/思考/思维概念/论证.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -349,15 +403,15 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/学习方法/综合.md",
-    "笔记/学习方法/布鲁姆分类法.md",
-    "笔记/学习方法/分析.md",
-    "笔记/前端/工程化/前后端分离.md",
-    "笔记/前端/工程化/3.质量/3.监控与异常上报.md",
-    "笔记/前端/工程化/5.构建/5.构建.md",
-    "笔记/前端/工程化/模板引擎.md",
-    "笔记/前端/工程化/部署：发布策略.md",
-    "笔记/前端/工程化/缓存.md",
-    "笔记/前端/工程化/SSR.md"
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/哲学.md",
+    "笔记/工具/通用概念/通用概念.md",
+    "笔记/工具/工具.md",
+    "笔记/工作/工作.md",
+    "笔记/前端/前端.md",
+    "笔记/学习方法/概念/抽象信息.md",
+    "笔记/学习方法/概念/比较.md",
+    "笔记/学习方法/综合.md"
   ]
 }
