@@ -17,6 +17,12 @@
                 {
                   "leaf": "595f9add90349307",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{}"
                 }
@@ -25,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
+                "file": "笔记/前端/工程化/前后端分离.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,6 +48,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/工程化/前后端分离.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,6 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/工程化/前后端分离.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +275,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/工程化/前后端分离.md"
+              }
             }
           },
           {
@@ -291,7 +301,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "595f9add90349307",
   "lastOpenFiles": [
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
