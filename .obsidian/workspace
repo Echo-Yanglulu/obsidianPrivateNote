@@ -12,13 +12,19 @@
             "type": "leaf",
             "dimension": 73.46733668341709,
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
                   "leaf": "595f9add90349307",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/MVC.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":13},\"to\":{\"line\":23,\"ch\":13}},\"scroll\":6.151677199805542}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0.3625272331154684}"
                 },
                 {
                   "leaf": "595f9add90349307",
@@ -327,15 +333,15 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/前端/工程化/SEO.md",
+    "笔记/前端/工程化/MVC.md",
     "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/模板引擎.md",
+    "笔记/前端/工程化/SEO.md",
     "笔记/前端/工程化/SPA.md",
     "笔记/前端/工程化/CSR.md",
     "笔记/前端/工程化/静态资源.md",
-    "笔记/前端/工程化/MVC.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/CI到部署的过程.svg"
+    "笔记/前端/工程化/工程化.md"
   ]
 }
