@@ -18,7 +18,7 @@
                   "leaf": "595f9add90349307",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":18},\"to\":{\"line\":12,\"ch\":18}},\"scroll\":0}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":2},\"to\":{\"line\":21,\"ch\":2}},\"scroll\":6.151677199805542}"
                 },
                 {
                   "leaf": "595f9add90349307",
@@ -72,7 +72,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +264,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,9 +297,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/工程化/前后端分离.md"
-              }
+              "state": {}
             }
           },
           {
@@ -325,17 +321,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "595f9add90349307",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/MVC.md",
     "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/SPA.md",
+    "笔记/前端/工程化/CSR.md",
+    "笔记/前端/工程化/静态资源.md",
+    "笔记/前端/工程化/MVC.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
-    "笔记/前端/工程化/Jenkins.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/SEO.md",
-    "笔记/前端/工程化/actions.md"
+    "笔记/前端/工程化/Jenkins.md"
   ]
 }
