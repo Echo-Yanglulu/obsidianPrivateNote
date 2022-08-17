@@ -13,7 +13,7 @@
   "useExcalidrawExtension": true,
   "displaySVGInPreview": true,
   "displayExportedImageIfAvailable": false,
-  "previewMatchObsidianTheme": false,
+  "previewMatchObsidianTheme": true,
   "width": "400",
   "isLeftHanded": false,
   "matchTheme": false,
@@ -25,11 +25,11 @@
   "zoomToFitMaxLevel": 2,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
-  "hoverPreviewWithoutCTRL": false,
+  "hoverPreviewWithoutCTRL": true,
   "linkOpacity": 1,
-  "openInAdjacentPane": false,
+  "openInAdjacentPane": true,
   "openInMainWorkspace": true,
-  "showLinkBrackets": true,
+  "showLinkBrackets": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -77,7 +77,7 @@
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "1.7.12",
-  "showReleaseNotes": true,
+  "previousRelease": "1.7.13",
+  "showReleaseNotes": false,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
 }
