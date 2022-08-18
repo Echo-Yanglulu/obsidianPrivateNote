@@ -12,8 +12,14 @@
             {
               "leaf": "595f9add90349307",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":1.4213}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":15},\"to\":{\"line\":25,\"ch\":15}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":15},\"to\":{\"line\":25,\"ch\":15}},\"scroll\":7.628450106157112}"
             },
             {
               "leaf": "595f9add90349307",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/自我的诞生.md",
+            "file": "笔记/工具/通用概念/自我层级.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/自我.svg",
+                "file": "笔记/工具/通用概念/自我层级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/自我.svg",
+                "file": "笔记/工具/通用概念/自我层级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/自我.svg"
+                "file": "笔记/工具/通用概念/自我层级.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f0fd7ddf5859796f",
+  "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/自我的层级.svg",
-    "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/工具/通用概念/自我层级.md",
+    "笔记/工具/通用概念/通用概念.svg",
+    "笔记/工具/通用概念/自我.svg",
+    "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/自我.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/部署：发布策略.md",
-    "笔记/前端/工程化/多环境发布.md",
-    "笔记/前端/工程化/缓存.md",
-    "笔记/前端/工程化/静态资源缓存.svg"
+    "笔记/前端/工程化/多环境发布.md"
   ]
 }
