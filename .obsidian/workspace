@@ -4,141 +4,171 @@
     "type": "split",
     "children": [
       {
-        "id": "595f9add90349307",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":7.490482417901773}"
+        "id": "4fb2590e6dc65c17",
+        "type": "split",
+        "children": [
+          {
+            "id": "595f9add90349307",
+            "type": "leaf",
+            "dimension": 35.51688843398158,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":7.490482417901773}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":36.92536978933214}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/工作.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/抽象信息.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比较.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/综合.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":18},\"to\":{\"line\":13,\"ch\":18}},\"scroll\":14.128205128205128}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":7.497845662277305}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":30.89423076923077}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/工程化/CI到部署的过程.svg\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                }
+              ]
             },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":36.92536978933214}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/工作.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/抽象信息.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比较.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/综合.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/布鲁姆分类法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":18},\"to\":{\"line\":13,\"ch\":18}},\"scroll\":14.128205128205128}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":7.497845662277305}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":30.89423076923077}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/工程化/CI到部署的过程.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/部署：发布策略.md",
-            "mode": "source",
-            "source": false
+          },
+          {
+            "id": "2f45c232259e119a",
+            "type": "leaf",
+            "dimension": 64.48311156601842,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "2f45c232259e119a",
+                  "group": null,
+                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/工程化/Untitled Diagram.svg\"}}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -319,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +384,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md"
+                "file": "笔记/前端/工程化/Untitled Diagram.svg"
               }
             }
           },
@@ -383,7 +413,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "file": "笔记/前端/工程化/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -400,17 +430,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "595f9add90349307",
+  "active": "2f45c232259e119a",
   "lastOpenFiles": [
-    "笔记/前端/工程化/hash值.md",
     "笔记/前端/工程化/部署：发布策略.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/前端/工程化/hash值.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/前端/工程化/静态资源.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/哲学.md"
+    "笔记/工具/哲学/逻辑学/逻辑学.md"
   ]
 }
