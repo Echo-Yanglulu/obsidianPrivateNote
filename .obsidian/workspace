@@ -10,15 +10,21 @@
           {
             "id": "595f9add90349307",
             "type": "leaf",
-            "dimension": 35.51688843398158,
+            "dimension": 47.82168186423505,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
                 {
                   "leaf": "595f9add90349307",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}},\"scroll\":4.212121212121212}"
+                },
+                {
+                  "leaf": "595f9add90349307",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":65},\"to\":{\"line\":28,\"ch\":65}},\"scroll\":24.19080459770115}"
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "595f9add90349307",
@@ -127,19 +133,13 @@
                   "group": null,
                   "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/工程化/CI到部署的过程.svg\"}}",
                   "eState": "{}"
-                },
-                {
-                  "leaf": "595f9add90349307",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "file": "笔记/前端/工程化/前后端分离.md",
                 "mode": "source",
                 "source": false
               }
@@ -148,7 +148,7 @@
           {
             "id": "2f45c232259e119a",
             "type": "leaf",
-            "dimension": 64.48311156601842,
+            "dimension": 52.17831813576495,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
@@ -349,7 +349,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "file": "笔记/前端/工程化/CDN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -384,7 +384,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md"
+                "file": "笔记/前端/工程化/CDN.md"
               }
             }
           },
@@ -413,7 +413,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/部署：发布策略.md",
+                "file": "笔记/前端/工程化/CDN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -424,20 +424,21 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 623
   },
-  "active": "595f9add90349307",
+  "active": "f943372529312a0a",
   "lastOpenFiles": [
-    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/部署：发布策略.md",
+    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/工程化/缓存.md",
     "笔记/前端/工程化/hash值.md",
     "笔记/前端/工程化/静态资源.md",
-    "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
