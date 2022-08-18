@@ -12,8 +12,20 @@
             {
               "leaf": "595f9add90349307",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":8},\"to\":{\"line\":12,\"ch\":8}},\"scroll\":0}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}},\"scroll\":0}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":0},\"to\":{\"line\":72,\"ch\":0}},\"scroll\":54.565292096219935}"
+              "eState": "{\"scroll\":54.565292096219935}"
             },
             {
               "leaf": "595f9add90349307",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/工作.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/6.CICD.md",
+            "file": "笔记/工具/通用概念/自我的诞生.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
+                "file": "笔记/工具/通用概念/自我层级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md",
+                "file": "笔记/工具/通用概念/自我层级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/6.CICD.md"
+                "file": "笔记/工具/通用概念/自我层级.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "595f9add90349307",
+  "active": "607104e72e3dbdd2",
   "lastOpenFiles": [
-    "笔记/前端/工程化/前后端分离.md",
+    "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/工具/通用概念/自我.md",
     "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/部署：发布策略.md",
     "笔记/前端/工程化/多环境发布.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/前端/工程化/静态资源缓存.svg",
     "笔记/前端/工程化/CDN.md",
-    "笔记/前端/工程化/hash值.md",
-    "笔记/前端/工程化/静态资源.md",
-    "笔记/前端/工程化/RESTful API.md"
+    "笔记/前端/工程化/hash值.md"
   ]
 }
