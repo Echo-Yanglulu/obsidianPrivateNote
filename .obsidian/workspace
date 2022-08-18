@@ -13,7 +13,7 @@
               "leaf": "595f9add90349307",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":37},\"to\":{\"line\":43,\"ch\":37}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":11},\"to\":{\"line\":5,\"ch\":11}},\"scroll\":0}"
             },
             {
               "leaf": "595f9add90349307",
@@ -400,8 +400,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "bd5ff300df2b3029",
+  "active": "595f9add90349307",
   "lastOpenFiles": [
+    "笔记/前端/工程化/RESTful API.md",
+    "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/部署：发布策略.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
@@ -409,8 +411,6 @@
     "笔记/工具/哲学/哲学.md",
     "笔记/工具/通用概念/通用概念.md",
     "笔记/工具/工具.md",
-    "笔记/工作/工作.md",
-    "笔记/前端/前端.md",
-    "笔记/学习方法/概念/抽象信息.md"
+    "笔记/工作/工作.md"
   ]
 }
