@@ -12,8 +12,14 @@
             {
               "leaf": "595f9add90349307",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":7.673374987891117}"
+            },
+            {
+              "leaf": "595f9add90349307",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":14},\"to\":{\"line\":24,\"ch\":14}},\"scroll\":12.689420654911839}"
+              "eState": "{\"scroll\":36.92536978933214}"
             },
             {
               "leaf": "595f9add90349307",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Jenkins.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":10.395612172682236}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/前后端分离.md",
+            "file": "笔记/前端/工程化/部署：发布策略.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/部署：发布策略.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md"
+                "file": "笔记/前端/工程化/部署：发布策略.md"
               }
             }
           },
@@ -383,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/前后端分离.md",
+                "file": "笔记/前端/工程化/部署：发布策略.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -402,15 +402,15 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/前端/工程化/RESTful API.md",
-    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/缓存.md",
     "笔记/前端/工程化/部署：发布策略.md",
+    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/工程化/RESTful API.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/哲学.md",
     "笔记/工具/通用概念/通用概念.md",
-    "笔记/工具/工具.md",
-    "笔记/工作/工作.md"
+    "笔记/工具/工具.md"
   ]
 }
