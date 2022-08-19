@@ -12,8 +12,14 @@
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "fba5b546f84bcfde",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/感激，感恩.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":35},\"to\":{\"line\":6,\"ch\":35}}}"
+              "eState": "{}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -104,7 +110,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/感激，感恩.md",
+            "file": "笔记/工具/思考/记忆/记忆.md",
             "mode": "source",
             "source": false
           }
@@ -289,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/感激，感恩.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -324,7 +330,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/感激，感恩.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -352,7 +358,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/感激，感恩.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -379,8 +385,8 @@
   },
   "active": "fba5b546f84bcfde",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/行为.md",
     "笔记/工具/通用概念/感激，感恩.md",
+    "笔记/工具/通用概念/行为.md",
     "笔记/工具/意识/意识.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/词法结构.md",
