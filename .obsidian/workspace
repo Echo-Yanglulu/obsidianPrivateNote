@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/标准库.md",
+                "file": "笔记/前端/编程语言/JS/元编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/标准库.md",
+                "file": "笔记/前端/编程语言/JS/元编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/标准库.md"
+                "file": "笔记/前端/编程语言/JS/元编程.md"
               }
             }
           },
@@ -353,17 +353,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "0fd232cf7d93a1e4",
+  "active": "936382ee1680d721",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/迭代器.md",
+    "笔记/前端/编程语言/JS/标准库.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/模块.md",
     "笔记/前端/编程语言/JS/表达式.md",
     "笔记/前端/编程语言/JS/词法.md",
     "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/JS解释器.md",
-    "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/工程化/node/node.md"
+    "笔记/前端/编程语言/JS/核心JS.svg"
   ]
 }
