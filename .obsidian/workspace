@@ -4,129 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "595f9add90349307",
+        "id": "fba5b546f84bcfde",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "595f9add90349307",
+              "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/实用性思考的艺术.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":7.639773531493277}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":15},\"to\":{\"line\":25,\"ch\":15}},\"scroll\":7.628450106157112}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}},\"scroll\":0}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":54.565292096219935}"
-            },
-            {
-              "leaf": "595f9add90349307",
+              "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":46},\"to\":{\"line\":12,\"ch\":46}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             },
             {
-              "leaf": "595f9add90349307",
+              "leaf": "fba5b546f84bcfde",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":71,\"ch\":0},\"to\":{\"line\":71,\"ch\":0}},\"scroll\":55.84297520661157}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/多环境发布.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
             {
-              "leaf": "595f9add90349307",
+              "leaf": "fba5b546f84bcfde",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":8},\"to\":{\"line\":75,\"ch\":8}},\"scroll\":47.95333009236752}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":9.7356}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/工程化/静态资源缓存.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":20.9746}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":30},\"to\":{\"line\":11,\"ch\":30}},\"scroll\":9.735648818137964}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":36.92536978933214}"
-            },
-            {
-              "leaf": "595f9add90349307",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/元编程.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             }
           ]
@@ -319,7 +223,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +257,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,9 +283,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -407,17 +307,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "595f9add90349307",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/操作符.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/编程语言/JS/标准库.md",
-    "笔记/前端/前端.md",
-    "笔记/工具/思考/实用性思考的艺术.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/通用概念/自我层级.md",
-    "笔记/工具/通用概念/内聚性自我.md",
-    "笔记/工具/通用概念/自我的诞生.md"
+    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/库、框架/UI库/vue.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/工具/工具.md",
+    "笔记/前端/编程语言/JS/扩展.md",
+    "笔记/前端/编程语言/JS/值.md",
+    "笔记/前端/编程语言/JS/变量.md",
+    "笔记/前端/编程语言/JS/类型.md",
+    "笔记/前端/编程语言/JS/词法.md"
   ]
 }

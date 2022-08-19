@@ -5,6 +5,22 @@
       "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
+      "basename": "前后端分离",
+      "path": "笔记/前端/工程化/前后端分离.md"
+    },
+    {
+      "basename": "函数",
+      "path": "笔记/前端/编程语言/JS/函数.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "元编程",
+      "path": "笔记/前端/编程语言/JS/元编程.md"
+    },
+    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
@@ -43,10 +59,6 @@
     {
       "basename": "6.CICD",
       "path": "笔记/前端/工程化/6.CICD.md"
-    },
-    {
-      "basename": "前后端分离",
-      "path": "笔记/前端/工程化/前后端分离.md"
     },
     {
       "basename": "多环境发布",
