@@ -13,7 +13,19 @@
               "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":39},\"to\":{\"line\":7,\"ch\":39}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+            },
+            {
+              "leaf": "fba5b546f84bcfde",
+              "group": null,
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS模型.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "fba5b546f84bcfde",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -265,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Untitled Diagram.svg",
+                "file": "笔记/前端/编程语言/JS/词法结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Untitled Diagram.svg",
+                "file": "笔记/前端/编程语言/JS/词法结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Untitled Diagram.svg"
+                "file": "笔记/前端/编程语言/JS/词法结构.md"
               }
             }
           },
@@ -353,17 +365,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ddc09f8adc302192",
+  "active": "a0bd91fcca3e57ff",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/JS模型.svg",
     "笔记/前端/编程语言/JS/基本概念/类.md",
     "笔记/工具/工具.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/元编程.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/编程语言/JS/迭代器.md",
-    "笔记/前端/编程语言/JS/标准库.md"
+    "笔记/前端/编程语言/JS/异步JS.md"
   ]
 }
