@@ -7,13 +7,19 @@
         "id": "fba5b546f84bcfde",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/属性.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}}}"
+            },
+            {
+              "leaf": "fba5b546f84bcfde",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":20},\"to\":{\"line\":26,\"ch\":20}}}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -24,7 +30,7 @@
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":6},\"to\":{\"line\":29,\"ch\":6}}}"
             },
             {
@@ -385,15 +391,15 @@
   },
   "active": "fba5b546f84bcfde",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/事物.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/通用概念/人的行为.md",
+    "笔记/工具/思考/记忆/属性.md",
     "笔记/工具/通用概念/感激，感恩.md",
-    "笔记/工具/通用概念/行为.md",
     "笔记/工具/意识/意识.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/词法结构.md",
     "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/JS模型.svg",
-    "笔记/前端/编程语言/JS/基本概念/类.md",
-    "笔记/工具/工具.md",
-    "笔记/前端/编程语言/JS/宿主环境.md"
+    "笔记/前端/编程语言/JS/JS模型.svg"
   ]
 }
