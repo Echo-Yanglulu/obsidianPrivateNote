@@ -67,27 +67,6 @@
             "source": false
           }
         }
-      },
-      {
-        "id": "6af4e21180f971ca",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "6af4e21180f971ca",
-              "group": null,
-              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Untitled Diagram.svg\"}}",
-              "eState": "{}"
-            }
-          ]
-        },
-        "state": {
-          "type": "diagram-edit",
-          "state": {
-            "file": "笔记/前端/编程语言/JS/Untitled Diagram.svg"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -268,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/概述.md",
+                "file": "笔记/前端/编程语言/JS/JS解释器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/概述.md",
+                "file": "笔记/前端/编程语言/JS/JS解释器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -331,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/概述.md"
+                "file": "笔记/前端/编程语言/JS/JS解释器.md"
               }
             }
           },
@@ -356,10 +335,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "1fde03b241db86c9",
+  "active": "8a24ac0796cce7fd",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/Untitled Diagram.svg",
     "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/Untitled Diagram.svg",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
