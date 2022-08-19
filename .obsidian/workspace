@@ -13,7 +13,7 @@
               "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -223,6 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,6 +258,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -283,7 +285,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md"
+              }
             }
           },
           {
@@ -307,8 +311,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "fba5b546f84bcfde",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/库、框架/UI库/vue.md",
@@ -317,7 +322,6 @@
     "笔记/前端/编程语言/JS/扩展.md",
     "笔记/前端/编程语言/JS/值.md",
     "笔记/前端/编程语言/JS/变量.md",
-    "笔记/前端/编程语言/JS/类型.md",
-    "笔记/前端/编程语言/JS/词法.md"
+    "笔记/前端/编程语言/JS/类型.md"
   ]
 }
