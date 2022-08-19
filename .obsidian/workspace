@@ -13,7 +13,7 @@
               "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":22},\"to\":{\"line\":12,\"ch\":22}}}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/标准库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/标准库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -328,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/编程语言/JS/标准库.md"
               }
             }
           },
@@ -353,17 +353,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "fba5b546f84bcfde",
+  "active": "0fd232cf7d93a1e4",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/表达式.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/模块.md",
+    "笔记/前端/编程语言/JS/表达式.md",
     "笔记/前端/编程语言/JS/词法.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/严格模式.md"
+    "笔记/前端/工程化/node/node.md"
   ]
 }
