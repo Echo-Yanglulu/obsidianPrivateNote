@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/词法结构.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/词法结构.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/词法结构.md"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -365,8 +365,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "a0bd91fcca3e57ff",
+  "active": "fba5b546f84bcfde",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/词法结构.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/JS模型.svg",
@@ -375,7 +376,6 @@
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/元编程.md",
-    "笔记/前端/编程语言/JS/异步JS.md"
+    "笔记/前端/编程语言/JS/元编程.md"
   ]
 }
