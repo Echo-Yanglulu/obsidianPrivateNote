@@ -13,7 +13,7 @@
               "leaf": "595f9add90349307",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}}}"
             },
             {
               "leaf": "595f9add90349307",
@@ -244,7 +244,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 48.743718592964825,
+        "dimension": 44.42211055276382,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -342,7 +342,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 24.22110552763819,
+        "dimension": 20.100502512562816,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -361,7 +361,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -370,7 +370,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 27.035175879396984,
+        "dimension": 35.47738693467337,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -409,15 +409,15 @@
   },
   "active": "595f9add90349307",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/标准库.md",
+    "笔记/前端/编程语言/JS/操作符.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/编程语言/JS/标准库.md",
     "笔记/前端/前端.md",
     "笔记/工具/思考/实用性思考的艺术.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/内聚性自我.md",
-    "笔记/工具/通用概念/自我的诞生.md",
-    "笔记/工具/通用概念/通用概念.svg",
-    "笔记/工具/通用概念/自我.svg"
+    "笔记/工具/通用概念/自我的诞生.md"
   ]
 }
