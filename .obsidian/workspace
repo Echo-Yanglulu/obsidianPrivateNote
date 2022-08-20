@@ -13,7 +13,7 @@
               "leaf": "6f779b6104dc0743",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":10},\"to\":{\"line\":4,\"ch\":10}}}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/交叉训练.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/交叉训练.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/交叉训练.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -407,8 +407,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "97cee4ccea977659",
+  "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/学习方法/交叉训练.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/整体性学习.md",
@@ -417,7 +418,6 @@
     "笔记/学习方法/技术.md",
     "笔记/学习方法/如何学习.md",
     "笔记/工具/思考/思考.md",
-    "笔记/学习方法/科技.md",
-    "笔记/学习方法/艺术.md"
+    "笔记/学习方法/科技.md"
   ]
 }
