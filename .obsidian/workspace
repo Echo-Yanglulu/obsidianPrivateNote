@@ -13,7 +13,19 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":22},\"to\":{\"line\":66,\"ch\":22}},\"scroll\":51.97241379310345}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":4},\"to\":{\"line\":80,\"ch\":4}},\"scroll\":53.75229885057471}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":57.79827586206896}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,18 +128,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":63.394078144078144}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/工具/通用概念/反思.svg\"}}",
-              "eState": "{}"
             }
           ]
         },
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/获取.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "75c6f31a75906a00",
+  "active": "117790df2034c6aa",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/SQ3R.md",
-    "笔记/学习方法/概念/获取.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/学习方法/概念/费曼技巧.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/学习之道.md",
+    "笔记/学习方法/浏览.md",
     "笔记/反思/反思.md",
-    "笔记/学习方法/概念/知觉学习.md",
-    "笔记/西方文明简史/主题，问题，命题.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/工具/通用概念/问题解决.md",
-    "笔记/学习方法/教学相长.md"
+    "笔记/工具/通用概念/提问.md",
+    "笔记/学习方法/概念/获取.md",
+    "笔记/学习方法/概念/SQ3R.md",
+    "笔记/学习方法/学习之道.md",
+    "笔记/学习方法/概念/知觉学习.md"
   ]
 }
