@@ -13,7 +13,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":33},\"to\":{\"line\":1,\"ch\":33}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md",
+                "file": "笔记/学习方法/概念/复利效应.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md",
+                "file": "笔记/学习方法/概念/复利效应.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md"
+                "file": "笔记/学习方法/概念/复利效应.md"
               }
             }
           },
@@ -407,8 +407,9 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "d70f96e5c1162c04",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/临界知识.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/内心/人性.md",
     "笔记/内心/内心.md",
@@ -417,7 +418,6 @@
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/举例.md",
     "笔记/学习方法/概念/费曼技巧.md",
-    "笔记/行为/人的行为.md",
-    "笔记/行为/犯错.md"
+    "笔记/行为/人的行为.md"
   ]
 }
