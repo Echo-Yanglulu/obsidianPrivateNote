@@ -12,8 +12,14 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比喻.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/比喻.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":97},\"to\":{\"line\":4,\"ch\":97}}}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -98,7 +104,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/比喻.md",
+            "file": "笔记/工具/思考/记忆/记忆.md",
             "mode": "source",
             "source": false
           }
@@ -283,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/比喻.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/比喻.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -346,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/比喻.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -373,6 +379,7 @@
   },
   "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/比喻.md",
     "笔记/学习方法/技术.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/工具/思考/记忆/记忆.md",
@@ -381,7 +388,6 @@
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/前端/《JavaScript权威指南（第七版）》- David Flanagan (z-lib.org).pdf",
-    "笔记/工具/通用概念/事件.md",
-    "笔记/工具/通用概念/苦难.md"
+    "笔记/工具/通用概念/事件.md"
   ]
 }
