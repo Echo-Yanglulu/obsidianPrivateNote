@@ -12,8 +12,20 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":43},\"to\":{\"line\":31,\"ch\":43}},\"scroll\":16.9413}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":6},\"to\":{\"line\":33,\"ch\":6}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":15},\"to\":{\"line\":76,\"ch\":15}},\"scroll\":29.605263157894736}"
+              "eState": "{\"scroll\":17.591346153846153}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -116,7 +128,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/整体性学习.md",
+            "file": "笔记/工具/思考/记忆/记忆.md",
             "mode": "source",
             "source": false
           }
@@ -301,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -364,7 +376,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/整体性学习.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -391,15 +403,15 @@
   },
   "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/人的行为.md",
+    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/如何学习.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/比喻.md",
     "笔记/学习方法/技术.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/感受.md",
-    "笔记/前端/《JavaScript权威指南（第七版）》- David Flanagan (z-lib.org).pdf",
-    "笔记/工具/通用概念/事件.md"
+    "笔记/前端/《JavaScript权威指南（第七版）》- David Flanagan (z-lib.org).pdf"
   ]
 }
