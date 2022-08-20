@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/学习之道.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":7.0739706908583395}"
+              "eState": "{\"scroll\":7.0739706908583395}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -92,7 +98,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/自己的学习行为.md",
+            "file": "笔记/学习方法/学习之道.md",
             "mode": "source",
             "source": false
           }
@@ -189,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -277,7 +283,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
+                "file": "笔记/学习方法/学习之道.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md",
+                "file": "笔记/学习方法/学习之道.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +346,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/费曼技巧.md"
+                "file": "笔记/学习方法/学习之道.md"
               }
             }
           },
@@ -365,17 +371,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "017fc23458cf3029",
+  "active": "117790df2034c6aa",
   "lastOpenFiles": [
-    "笔记/学习方法/教学相长.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/教学相长.md",
+    "笔记/学习方法/概念/费曼技巧.md",
     "笔记/反思/反思.md",
     "笔记/内心/内心.md",
     "笔记/行为/习惯.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/通用概念/反思.svg",
     "笔记/工具/工具.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/通用概念/人的行为.md"
+    "笔记/工具/思考/思考.md"
   ]
 }
