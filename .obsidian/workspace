@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/习惯.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":29},\"to\":{\"line\":8,\"ch\":29}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -74,7 +80,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/行为/习惯.md",
+            "file": "笔记/内心/内心.md",
             "mode": "source",
             "source": false
           }
@@ -170,7 +176,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -258,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/反思/反思.md",
+                "file": "笔记/内心/内心.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/反思/反思.md",
+                "file": "笔记/内心/内心.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -321,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/反思/反思.md"
+                "file": "笔记/内心/内心.md"
               }
             }
           },
@@ -346,7 +353,7 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "2adde58f9b711d67",
+  "active": "117790df2034c6aa",
   "lastOpenFiles": [
     "笔记/行为/习惯.md",
     "笔记/反思/反思.md",
