@@ -12,8 +12,32 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":7},\"to\":{\"line\":74,\"ch\":7}},\"scroll\":16.71955128205128}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/如何学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":68,\"ch\":0}},\"scroll\":45.50601556970984}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/如何学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":5},\"to\":{\"line\":1,\"ch\":5}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -50,7 +74,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人.md",
+            "file": "笔记/学习方法/整体性学习.md",
             "mode": "source",
             "source": false
           }
@@ -147,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -235,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/人.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/人.md",
+                "file": "笔记/学习方法/整体性学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/人.md"
+                "file": "笔记/学习方法/整体性学习.md"
               }
             }
           },
@@ -325,15 +349,15 @@
   },
   "active": "6f779b6104dc0743",
   "lastOpenFiles": [
-    "笔记/学习方法/如何学习.md",
+    "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/学习方法/如何学习.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/感受.md",
     "笔记/前端/《JavaScript权威指南（第七版）》- David Flanagan (z-lib.org).pdf",
     "笔记/工具/通用概念/事件.md",
     "笔记/工具/通用概念/苦难.md",
-    "笔记/工具/思考/思维概念/联想.md",
-    "笔记/工具/思考/记忆/联系.md",
-    "笔记/工具/通用概念/事物.md",
-    "笔记/工具/通用概念/人的行为.md"
+    "笔记/工具/思考/思维概念/联想.md"
   ]
 }
