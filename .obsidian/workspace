@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":9},\"to\":{\"line\":23,\"ch\":9}},\"scroll\":23.0367816091954}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/意识/意识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":10},\"to\":{\"line\":22,\"ch\":10}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/学习之道.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":43.43279857397504}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/学习之道.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/基本概念/思维.md",
+            "file": "笔记/行为/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/基本概念/思维.md",
+                "file": "笔记/行为/人的行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/基本概念/思维.md",
+                "file": "笔记/行为/人的行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/基本概念/思维.md"
+                "file": "笔记/行为/人的行为.md"
               }
             }
           },
@@ -409,15 +409,15 @@
   },
   "active": "117790df2034c6aa",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/知觉学习.md",
+    "笔记/工具/通用概念/感激，感恩.md",
+    "笔记/行为/人的行为.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/思维.md",
+    "笔记/学习方法/概念/知觉学习.md",
     "笔记/学习方法/概念/临界知识.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/内心/人性.md",
     "笔记/内心/内心.md",
-    "笔记/学习方法/概念/拓展.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/举例.md"
+    "笔记/学习方法/概念/拓展.md"
   ]
 }
