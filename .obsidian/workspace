@@ -7,19 +7,19 @@
         "id": "fba5b546f84bcfde",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/属性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}},\"scroll\":0}"
             },
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":5},\"to\":{\"line\":47,\"ch\":5}},\"scroll\":24.043170559094126}"
+              "eState": "{\"scroll\":24.043170559094126}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -116,7 +116,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/工具/通用概念/事件.md",
             "mode": "source",
             "source": false
           }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/工具/通用概念/苦难.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md",
+                "file": "笔记/工具/通用概念/苦难.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -364,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/联想.md"
+                "file": "笔记/工具/通用概念/苦难.md"
               }
             }
           },
@@ -389,8 +389,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "545c870da9c6c908",
+  "active": "88a6fc8eebe7566d",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/苦难.md",
+    "笔记/工具/通用概念/事件.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/联系.md",
@@ -398,8 +400,6 @@
     "笔记/工具/通用概念/人的行为.md",
     "笔记/工具/思考/记忆/属性.md",
     "笔记/工具/通用概念/感激，感恩.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/词法结构.md"
+    "笔记/工具/意识/意识.md"
   ]
 }
