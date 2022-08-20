@@ -12,14 +12,18 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":0},\"to\":{\"line\":42,\"ch\":0}},\"scroll\":24.0432}"
             }
           ]
         },
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/工具/思考/记忆/记忆.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -201,6 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,6 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +267,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md"
+              }
             }
           },
           {
