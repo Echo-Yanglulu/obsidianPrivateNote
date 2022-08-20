@@ -5,6 +5,10 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
+      "basename": "拓展",
+      "path": "笔记/学习方法/概念/拓展.md"
+    },
+    {
       "basename": "理解",
       "path": "笔记/学习方法/概念/理解.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     }
   ],
   "omittedPaths": [],
