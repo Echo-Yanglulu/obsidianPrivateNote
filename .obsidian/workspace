@@ -12,8 +12,26 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/如何学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":26},\"to\":{\"line\":16,\"ch\":26}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":27},\"to\":{\"line\":31,\"ch\":27}},\"scroll\":16.941259731068648}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":8},\"to\":{\"line\":73,\"ch\":8}},\"scroll\":26.97596153846154}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/如何学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":68,\"ch\":0}},\"scroll\":45.50601556970984}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/自己的学习行为.md",
+            "file": "笔记/学习方法/如何学习.md",
             "mode": "source",
             "source": false
           }
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/学习方法/如何学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/学习方法/如何学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md"
+                "file": "笔记/学习方法/如何学习.md"
               }
             }
           },
@@ -409,15 +409,15 @@
   },
   "active": "6f779b6104dc0743",
   "lastOpenFiles": [
-    "笔记/学习方法/布鲁姆分类法.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/通用概念/自我.md",
+    "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/学习方法/布鲁姆分类法.md",
     "笔记/学习方法/如何学习.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/人的行为.md",
-    "笔记/学习方法/概念/比喻.md",
-    "笔记/学习方法/技术.md",
-    "笔记/工具/思考/记忆/间隔重复.md"
+    "笔记/学习方法/概念/比喻.md"
   ]
 }
