@@ -12,8 +12,14 @@
             {
               "leaf": "fba5b546f84bcfde",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":0},\"to\":{\"line\":42,\"ch\":0}},\"scroll\":24.0432}"
+            },
+            {
+              "leaf": "fba5b546f84bcfde",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "fba5b546f84bcfde",
@@ -116,7 +122,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/事件.md",
+            "file": "笔记/工具/思考/记忆/记忆.md",
             "mode": "source",
             "source": false
           }
@@ -301,7 +307,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/苦难.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +342,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/苦难.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -364,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/苦难.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -389,10 +395,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "88a6fc8eebe7566d",
+  "active": "fba5b546f84bcfde",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/苦难.md",
     "笔记/工具/通用概念/事件.md",
+    "笔记/工具/通用概念/苦难.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/联系.md",
