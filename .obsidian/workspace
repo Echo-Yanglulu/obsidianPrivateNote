@@ -4,128 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fba5b546f84bcfde",
+        "id": "6f779b6104dc0743",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "fba5b546f84bcfde",
+              "leaf": "6f779b6104dc0743",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":0},\"to\":{\"line\":42,\"ch\":0}},\"scroll\":24.0432}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":24.043170559094126}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/感激，感恩.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":6},\"to\":{\"line\":29,\"ch\":6}}}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS模型.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/概述.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/核心JS.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/概述.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":22},\"to\":{\"line\":0,\"ch\":22}}}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/概述.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "fba5b546f84bcfde",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/元编程.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"empty\",\"state\":{}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -307,7 +201,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +235,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,9 +261,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
-              }
+              "state": {}
             }
           },
           {
@@ -395,17 +285,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "fba5b546f84bcfde",
+  "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/前端/《JavaScript权威指南（第七版）》- David Flanagan (z-lib.org).pdf",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/工具/通用概念/苦难.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/人的行为.md",
     "笔记/工具/思考/记忆/属性.md",
-    "笔记/工具/通用概念/感激，感恩.md",
-    "笔记/工具/意识/意识.md"
+    "笔记/工具/通用概念/感激，感恩.md"
   ]
 }
