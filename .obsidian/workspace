@@ -12,8 +12,20 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/如何学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":9.693910256410255}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":0},\"to\":{\"line\":42,\"ch\":0}},\"scroll\":24.0432}"
+              "eState": "{\"scroll\":45.55130927105449}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -32,7 +44,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/学习方法/如何学习.md",
             "mode": "source",
             "source": false
           }
@@ -217,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/如何学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/如何学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/学习方法/如何学习.md"
               }
             }
           },
