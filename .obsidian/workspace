@@ -12,8 +12,14 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":7.865120274914089}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":9},\"to\":{\"line\":67,\"ch\":9}},\"scroll\":48.0070771408351}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":7},\"to\":{\"line\":63,\"ch\":7}},\"scroll\":53.43727780599289}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":10},\"to\":{\"line\":31,\"ch\":10}},\"scroll\":10.129807692307692}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/自己的学习行为.md",
+            "file": "笔记/工具/通用概念/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -244,7 +244,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 44.42211055276382,
+        "dimension": 39.39698492462311,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -319,7 +319,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -342,7 +341,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 20.100502512562816,
+        "dimension": 25.125628140703515,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -354,7 +353,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,9 +379,7 @@
             },
             "state": {
               "type": "outline",
-              "state": {
-                "file": "笔记/学习方法/自己的学习行为.md"
-              }
+              "state": {}
             }
           },
           {
@@ -407,17 +403,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6f779b6104dc0743",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/通用概念/人的行为.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/行为/反思.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/布鲁姆分类法.md",
     "笔记/学习方法/概念/SQ3R.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/学习方法/知觉学习.md"
+    "笔记/工具/通用概念/本质.md"
   ]
 }
