@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":33},\"to\":{\"line\":1,\"ch\":33}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":59.3287}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/人性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/问题解决.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/学习之道.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":22}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/内心/人性.md",
+            "file": "笔记/学习方法/概念/临界知识.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/内心/人性.md",
+                "file": "笔记/学习方法/概念/临界知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/内心/人性.md",
+                "file": "笔记/学习方法/概念/临界知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/内心/人性.md"
+                "file": "笔记/学习方法/概念/临界知识.md"
               }
             }
           },
@@ -409,15 +409,15 @@
   },
   "active": "117790df2034c6aa",
   "lastOpenFiles": [
-    "笔记/内心/内心.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/内心/人性.md",
+    "笔记/内心/内心.md",
     "笔记/学习方法/概念/拓展.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/举例.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/行为/人的行为.md",
-    "笔记/行为/犯错.md",
-    "笔记/工具/通用概念/问题解决.md"
+    "笔记/行为/犯错.md"
   ]
 }
