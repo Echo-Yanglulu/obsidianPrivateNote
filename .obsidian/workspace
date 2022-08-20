@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/习惯.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}},\"scroll\":0}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":7},\"to\":{\"line\":75,\"ch\":7}},\"scroll\":63.3941}"
+              "eState": "{\"scroll\":14.147941381716679}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -62,7 +74,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/自己的学习行为.md",
+            "file": "笔记/行为/习惯.md",
             "mode": "source",
             "source": false
           }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/行为/习惯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -281,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/行为/习惯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md"
+                "file": "笔记/行为/习惯.md"
               }
             }
           },
@@ -336,9 +348,9 @@
   },
   "active": "117790df2034c6aa",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/概念.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/反思/反思.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/概念/概念.md",
     "笔记/工具/通用概念/反思.svg",
     "笔记/工具/工具.md",
     "笔记/工具/思考/思考.md",
