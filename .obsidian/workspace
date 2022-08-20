@@ -12,8 +12,20 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":36},\"to\":{\"line\":27,\"ch\":36}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":21},\"to\":{\"line\":57,\"ch\":21}},\"scroll\":35.026147959183675}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}}}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":4},\"to\":{\"line\":3,\"ch\":4}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人.md",
+            "file": "笔记/工具/通用概念/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -230,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -319,7 +318,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/人.md",
+                "file": "笔记/工具/通用概念/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +353,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/人.md",
+                "file": "笔记/工具/通用概念/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +381,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/人.md"
+                "file": "笔记/工具/通用概念/Untitled Diagram.svg"
               }
             }
           },
@@ -407,15 +406,15 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6f779b6104dc0743",
+  "active": "1fa8e500b6cc13c7",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/内聚性自我.md",
+    "笔记/工具/通用概念/人的行为.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/内聚性自我.md",
     "笔记/内心/内心.md",
     "笔记/内心/接地气.md",
-    "笔记/工具/通用概念/人的行为.md",
     "笔记/工具/通用概念/生活.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/行为/反思.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/理解.md"
