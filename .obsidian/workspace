@@ -12,8 +12,14 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":9},\"to\":{\"line\":18,\"ch\":9}}}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/问题解决.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":28},\"to\":{\"line\":13,\"ch\":28}}}"
             },
             {
               "leaf": "6f779b6104dc0743",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}}}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/技能.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/问题解决.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -409,6 +409,7 @@
   },
   "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/问题解决.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/概念/快速阅读.md",
@@ -417,7 +418,6 @@
     "笔记/学习方法/概念/临界知识.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/前端/工程化/git.md",
-    "笔记/学习方法/概念/知识的结构.md",
-    "笔记/工具/通用概念/学习.md"
+    "笔记/学习方法/概念/知识的结构.md"
   ]
 }
