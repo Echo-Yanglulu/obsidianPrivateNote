@@ -12,6 +12,12 @@
             {
               "leaf": "6f779b6104dc0743",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6f779b6104dc0743",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":7.865120274914089}"
             },
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6f779b6104dc0743",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人的行为.md",
+            "file": "笔记/内心/内心.md",
             "mode": "source",
             "source": false
           }
@@ -319,6 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/内心/内心.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -353,6 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/内心/内心.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -379,7 +381,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/内心/内心.md"
+              }
             }
           },
           {
@@ -403,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f59515532fe6ff4b",
+  "active": "6f779b6104dc0743",
   "lastOpenFiles": [
+    "笔记/内心/接地气.md",
+    "笔记/内心/内心.md",
     "笔记/工具/通用概念/人的行为.md",
+    "笔记/工具/通用概念/生活.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/行为/反思.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/工具/思考/记忆/联系.md",
-    "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/布鲁姆分类法.md",
-    "笔记/学习方法/概念/SQ3R.md",
-    "笔记/工具/通用概念/本质.md"
+    "笔记/学习方法/概念/获取.md"
   ]
 }
