@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":10},\"to\":{\"line\":32,\"ch\":10}},\"scroll\":22.162353515625}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/问题解决.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":6},\"to\":{\"line\":9,\"ch\":6}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":13},\"to\":{\"line\":39,\"ch\":13}},\"scroll\":26.8552}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":4},\"to\":{\"line\":22,\"ch\":4}},\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/问题解决.md",
+            "file": "笔记/行为/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md",
+                "file": "笔记/行为/犯错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md",
+                "file": "笔记/行为/犯错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/问题解决.md"
+                "file": "笔记/行为/犯错.md"
               }
             }
           },
@@ -407,9 +407,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "27a2a81a9d3bbdc0",
   "lastOpenFiles": [
     "笔记/行为/人的行为.md",
+    "笔记/工具/通用概念/问题解决.md",
     "笔记/行为/自己的观点.md",
     "笔记/学习方法/概念/观点.md",
     "笔记/工作/工作.md",
@@ -417,7 +418,6 @@
     "笔记/工具/通用概念/学习.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/拓展.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/学习方法/浏览.md"
+    "笔记/工具/通用概念/提问.md"
   ]
 }
