@@ -45,17 +45,17 @@
 			1. background : linear-gardient(45deg, red 0, green 10%, yellow 50%, blue 100%) 光栅
 			2. background: linear-gradient(135deg, transparent 0, transparent 49.5%, green 49.5%, green 50.5%, transparent 50.5%, transparent 100%), linear-gradient(45deg, transparent 0, transparent 49.5%, red 49.5%, red 50.5%, transparent 50.5%, transparent 100%);    background-size: 30px 30px;
 	2. 图片(**图片在颜色之上**。即如果图片是不透明的，则颜色看不到)
-		2. 背景图，雪碧图
-	3. 图片展示
-		1. background-repeat（平铺）
-			1. repeat（重复多次填满盒子背景）
-			2. no-repeat（只展示一次设置的图片。此时如果有背景色，可看到图片外剩余部分的颜色）
-			3. repeat-x：只在水平方向平铺
-		2. background-position（背景图在盒子的位置）
-			1. center center
-		3. background-size
-			1. 100px 50px
-	4. 多背景
-	5. base64与性能优化
-	6. 多分辨率适配
+		1. 背景图，雪碧图(通过调整盒子宽高与背景图位置)【宽高等于需要的图片的宽高，位置对上即可】
+		2. 图片展示
+			1. background-repeat（平铺）
+				1. repeat（重复多次填满盒子背景）
+				2. no-repeat（只展示一次设置的图片。此时如果有背景色，可看到图片外剩余部分的颜色）
+				3. repeat-x：只在水平方向平铺
+			2. background-position（背景图在盒子的位置）
+				1. center center
+			3. background-size
+				1. 100px 50px
+	3. 多背景
+	4. base64与性能优化
+	5. 多分辨率适配
 针对特定媒体的样式
