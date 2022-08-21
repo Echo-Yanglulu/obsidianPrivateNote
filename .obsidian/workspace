@@ -12,8 +12,26 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":10},\"to\":{\"line\":40,\"ch\":10}},\"scroll\":20.691436659589527}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/欲望.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":19.402843601895736}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/事物.md",
+            "file": "笔记/行为/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/认知者.md",
+                "file": "笔记/工具/通用概念/抗拒.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/认知者.md",
+                "file": "笔记/工具/通用概念/抗拒.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/认知者.md"
+                "file": "笔记/工具/通用概念/抗拒.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ba17a84b0a4b4d64",
+  "active": "12607217918d9c28",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/哲学动物.md",
-    "笔记/工具/通用概念/创造者.md",
-    "笔记/工具/通用概念/人的属性.md",
-    "笔记/工具/通用概念/认知者.md",
-    "笔记/工具/通用概念/行动者.md",
-    "笔记/工具/通用概念/事物.md",
+    "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/人.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/事物.md",
+    "笔记/工具/通用概念/哲学动物.md",
+    "笔记/工具/通用概念/认知者.md",
+    "笔记/工具/通用概念/创造者.md",
+    "笔记/工具/通用概念/行动者.md",
     "笔记/学习方法/概念/临界知识.md",
-    "笔记/工具/通用概念/核心思维.svg",
-    "笔记/学习方法/概念/黄金思维圈.md"
+    "笔记/工具/通用概念/核心思维.svg"
   ]
 }
