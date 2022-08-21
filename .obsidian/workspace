@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":4},\"to\":{\"line\":21,\"ch\":4}},\"scroll\":60.50804597701149}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":6},\"to\":{\"line\":1,\"ch\":6}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/人的属性.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/人的属性.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/人的属性.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/人的属性.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "909e8cf2e7679b49",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/哲学动物.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/哲学动物.md",
     "笔记/工具/通用概念/问题解决.md",
     "笔记/工具/通用概念/核心思维.svg",
     "笔记/工具/通用概念/创造者.md",
     "笔记/工具/通用概念/人.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/布鲁姆分类法.md",
-    "笔记/工具/通用概念/思维方式.md",
-    "笔记/工具/通用概念/认知者.md"
+    "笔记/工具/通用概念/思维方式.md"
   ]
 }
