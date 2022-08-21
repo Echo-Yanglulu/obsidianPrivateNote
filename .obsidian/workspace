@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/黄金思维圈.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}},\"scroll\":3.285916489738146}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/策略.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":22.777651601181013}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/行为/人的行为.md",
+            "file": "笔记/学习方法/概念/临界知识.md",
             "mode": "source",
             "source": false
           }
@@ -409,6 +409,8 @@
   },
   "active": "b9fac1ac4bc19c73",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/临界知识.md",
+    "笔记/学习方法/概念/黄金思维圈.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/核心思维.svg",
     "笔记/学习方法/概念/观点.md",
@@ -416,8 +418,6 @@
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/努力.md",
     "笔记/学习方法/概念/环境.md",
-    "笔记/工具/通用概念/方向.md",
-    "笔记/学习方法/概念/黄金思维圈.md",
-    "笔记/学习方法/概念/临界知识.md"
+    "笔记/工具/通用概念/方向.md"
   ]
 }
