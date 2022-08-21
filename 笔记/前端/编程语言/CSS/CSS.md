@@ -24,7 +24,12 @@
 布局属性
 1. overflow（内容超出）
 	1. auto：自动滚动条（默认）：超出则有，否则没有
-	2. scroll：有滚动条(win)
+	2. scroll：有滚动条(win)，mac下没有超出设置scroll也不会有（mac下auto与scroll效果相同）
 	3. hidden：无滚动条，超出隐藏
 	4. visible：无滚动条，超出展示
+2. background（盒子的底层，不会影响正文布局）
+	1. 单一色
+	2. 渐变色
+	3. 多背景
+	4. base64与 
 针对特定媒体的样式
