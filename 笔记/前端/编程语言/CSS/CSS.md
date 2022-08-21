@@ -53,7 +53,7 @@
 				3. repeat-x：只在水平方向平铺
 			2. background-position（背景图在盒子的位置）
 				1. center center
-			3. background-size
+			3. background-size（适配移动端时需要，移动端分辨率较高）
 				1. 100px 50px
 	3. 多背景
 	4. base64与性能优化
