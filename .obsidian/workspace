@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":30},\"to\":{\"line\":11,\"ch\":30}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/思维方式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概率论.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":21},\"to\":{\"line\":31,\"ch\":21}},\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/思维方式.md",
+            "file": "笔记/学习方法/概念/理解.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/思维方式.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/思维方式.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/思维方式.md"
+                "file": "笔记/学习方法/概念/理解.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "37fb741facd8f20b",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/布鲁姆分类法.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/工具/通用概念/思维方式.md",
     "笔记/工具/通用概念/认知者.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/行动者.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/抗拒.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/事物.md",
-    "笔记/工具/通用概念/哲学动物.md",
-    "笔记/工具/通用概念/创造者.md"
+    "笔记/工具/通用概念/人.md"
   ]
 }
