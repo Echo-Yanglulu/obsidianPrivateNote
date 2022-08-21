@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/黄金思维圈.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":15},\"to\":{\"line\":14,\"ch\":15}},\"scroll\":0.5933892726345557}"
+              "eState": "{\"scroll\":0.5933892726345557}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/阅读.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/黄金思维圈.md",
+            "file": "笔记/工具/通用概念/人.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/环境.md",
+                "file": "笔记/工具/通用概念/努力.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/环境.md",
+                "file": "笔记/工具/通用概念/努力.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/环境.md"
+                "file": "笔记/工具/通用概念/努力.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "044ad9170ad08062",
+  "active": "a8bca9319a9eab2c",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/方向.md",
+    "笔记/工具/通用概念/努力.md",
+    "笔记/学习方法/概念/环境.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/人.md",
     "笔记/学习方法/概念/黄金思维圈.md",
     "笔记/工具/通用概念/核心思维.svg",
     "笔记/学习方法/概念/临界知识.md",
     "笔记/工具/通用概念/自我的层级.svg",
-    "笔记/工具/通用概念/自我.svg",
-    "笔记/工具/通用概念/反思.svg",
-    "笔记/工具/assets/Pasted image 20220710153100.png",
-    "笔记/工具/assets/Pasted image 20220710154253.png",
-    "笔记/学习方法/img/学习的阶段.svg",
-    "笔记/学习方法/img/整体性学习.svg"
+    "笔记/工具/通用概念/自我.svg"
   ]
 }
