@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":25},\"to\":{\"line\":84,\"ch\":25}},\"scroll\":68.27018385291767}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/CSS/CSS.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md",
+                "file": "笔记/工具/思考/记忆/记忆.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md"
+                "file": "笔记/工具/思考/记忆/记忆.md"
               }
             }
           },
@@ -407,17 +407,17 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "594bb7867941ea83",
   "lastOpenFiles": [
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/核心思维.svg",
     "笔记/学习方法/概念/应用.md",
     "笔记/工具/通用概念/心理.md",
     "笔记/学习方法/概念/观点.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/获取.md",
-    "笔记/工具/思考/记忆/联系.md"
+    "笔记/学习方法/概念/理解.md"
   ]
 }
