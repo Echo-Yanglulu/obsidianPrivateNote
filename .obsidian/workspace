@@ -173,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "欲望",
+                "query": "![[核心思维.svg|黄金思维]]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/黄金思维圈.md",
+                "file": "笔记/工具/通用概念/核心思维.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -354,7 +354,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/黄金思维圈.md",
+                "file": "笔记/工具/通用概念/核心思维.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/黄金思维圈.md"
+                "file": "笔记/工具/通用概念/核心思维.svg"
               }
             }
           },
@@ -407,10 +407,10 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "79da0ec2c34afca8",
+  "active": "dcbe1f660f9446fa",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/临界知识.md",
     "笔记/学习方法/概念/黄金思维圈.md",
+    "笔记/学习方法/概念/临界知识.md",
     "笔记/工具/通用概念/核心思维.svg",
     "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/自我.svg",
