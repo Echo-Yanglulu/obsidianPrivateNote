@@ -41,9 +41,10 @@
 	1. 颜色
 		1. 单一色
 		2. 渐变色
-			1. background : linear-gardient(45deg, red, green)  从45度开始
-			1. background : linear-gardient(45deg, red 0, green 10%, yellow 50%, blue 100%) 光栅
-			2. background: linear-gradient(135deg, transparent 0, transparent 49.5%, green 49.5%, green 50.5%, transparent 50.5%, transparent 100%), linear-gradient(45deg, transparent 0, transparent 49.5%, red 49.5%, red 50.5%, transparent 50.5%, transparent 100%);    background-size: 30px 30px;
+			1. linear-gardient 默认从上到下
+				1. background : linear-gardient(45deg, red, green)  从45度开始
+				2. background : linear-gardient(45deg, red 0, green 10%, yellow 50%, blue 100%) 光栅
+				3. background: linear-gradient(135deg, transparent 0, transparent 49.5%, green 49.5%, green 50.5%, transparent 50.5%, transparent 100%), linear-gradient(45deg, transparent 0, transparent 49.5%, red 49.5%, red 50.5%, transparent 50.5%, transparent 100%);    background-size: 30px 30px;
 	2. 图片(**图片在颜色之上**。即如果图片是不透明的，则颜色看不到)
 		1. 背景图，雪碧图(通过调整盒子宽高与背景图位置)【宽高等于需要的图片的宽高，位置对上即可】
 		2. 图片展示
