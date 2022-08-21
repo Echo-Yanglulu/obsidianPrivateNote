@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/黄金思维圈.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}}}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知觉学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/临界知识.md",
+            "file": "笔记/学习方法/概念/黄金思维圈.md",
             "mode": "source",
             "source": false
           }
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -407,11 +407,11 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "79da0ec2c34afca8",
+  "active": "0a9dfea17ddecbf9",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/核心思维.svg",
-    "笔记/学习方法/概念/黄金思维圈.md",
     "笔记/学习方法/概念/临界知识.md",
+    "笔记/学习方法/概念/黄金思维圈.md",
+    "笔记/工具/通用概念/核心思维.svg",
     "笔记/工具/通用概念/自我的层级.svg",
     "笔记/工具/通用概念/自我.svg",
     "笔记/工具/通用概念/反思.svg",
