@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":9},\"to\":{\"line\":78,\"ch\":9}},\"scroll\":68.2702}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/联系.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/临界知识.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":6},\"to\":{\"line\":10,\"ch\":6}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/临界知识.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,12 +337,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 25.125628140703515,
+        "dimension": 32.8643216080402,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -354,10 +355,10 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
@@ -370,7 +371,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 35.47738693467337,
+        "dimension": 27.738693467336685,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -382,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/临界知识.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -408,16 +409,19 @@
     "width": 623
   },
   "active": "117790df2034c6aa",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": true
+  },
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/联系.md",
     "笔记/学习方法/概念/临界知识.md",
-    "笔记/学习方法/概念/进化论.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/概念/进化论.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/核心思维.svg",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/工具/通用概念/心理.md"
+    "笔记/学习方法/概念/应用.md"
   ]
 }
