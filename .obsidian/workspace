@@ -13,7 +13,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":8,\"ch\":6}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/博弈.md",
+                "file": "笔记/工具/通用概念/人的属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/博弈.md",
+                "file": "笔记/工具/通用概念/人的属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/博弈.md"
+                "file": "笔记/工具/通用概念/人的属性.md"
               }
             }
           },
@@ -408,20 +408,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "3d5e174ebd21af26",
+  "active": "117790df2034c6aa",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/概念/环境.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/观念.md",
     "笔记/工具/通用概念/智慧.md",
+    "笔记/工具/通用概念/博弈.md",
     "笔记/前端/assets/人生的三层智慧.png",
     "笔记/工具/通用概念/智识.md",
-    "笔记/工具/通用概念/博弈.md",
     "笔记/工具/通用概念/竞争.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/学习方法/概念/知识.md",
-    "笔记/工具/通用概念/是非观.md",
-    "笔记/内心/人性.md",
-    "笔记/内心/道德.md"
+    "笔记/工具/通用概念/是非观.md"
   ]
 }
