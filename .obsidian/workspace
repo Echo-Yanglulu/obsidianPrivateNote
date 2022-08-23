@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":10},\"to\":{\"line\":62,\"ch\":10}},\"scroll\":39.7563025210084}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/哲学动物.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/思考.md",
+            "file": "笔记/行为/人的行为.md",
             "mode": "source",
             "source": false
           }
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思考.md",
+                "file": "笔记/行为/人的行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -355,7 +355,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思考.md",
+                "file": "笔记/行为/人的行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思考.md"
+                "file": "笔记/行为/人的行为.md"
               }
             }
           },
@@ -413,15 +413,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/盲点思维.md",
+    "笔记/行为/运动.md",
+    "笔记/行为/人的行为.md",
+    "笔记/工具/通用概念/人.md",
     "笔记/工具/思考/思考.md",
+    "笔记/工具/思考/盲点思维.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/学习.md",
-    "笔记/行为/人的行为.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/人的属性.md",
-    "笔记/学习方法/概念/环境.md"
+    "笔记/工具/通用概念/人的属性.md"
   ]
 }
