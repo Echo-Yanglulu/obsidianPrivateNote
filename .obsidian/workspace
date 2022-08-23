@@ -13,7 +13,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":18},\"to\":{\"line\":8,\"ch\":18}}}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -319,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/本质.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -371,7 +371,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/本质.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -399,7 +399,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/本质.md"
+                "file": "笔记/学习方法/概念/理解.md"
               }
             }
           },
@@ -424,20 +424,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "07dcb9aca26e06da",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/思考/思考.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/工具/通用概念/本质.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/工具/思考/思考.md",
     "笔记/工具/思考/基础思维.md",
     "笔记/工具/思考/问题思维.md",
     "笔记/工具/思考/变化思维.md",
     "笔记/工具/思考/流动思维.md",
-    "笔记/工具/思考/失败思维.md",
-    "笔记/工具/思考/维度思维.md"
+    "笔记/工具/思考/失败思维.md"
   ]
 }
