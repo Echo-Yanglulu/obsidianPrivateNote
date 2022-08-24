@@ -12,8 +12,20 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":17},\"to\":{\"line\":44,\"ch\":17}},\"scroll\":29.54712643678161}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":9},\"to\":{\"line\":81,\"ch\":9}},\"scroll\":68.6816}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":30},\"to\":{\"line\":4,\"ch\":30}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":10},\"to\":{\"line\":28,\"ch\":10}},\"scroll\":39.76114770232417}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/学习.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":29.45923234158528}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/西方文明简史/命题.md",
+            "file": "笔记/学习方法/概念/理解.md",
             "mode": "source",
             "source": false
           }
@@ -230,7 +230,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -318,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/西方文明简史/命题.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -378,7 +379,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/西方文明简史/命题.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -406,7 +407,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/西方文明简史/命题.md"
+                "file": "笔记/学习方法/概念/理解.md"
               }
             }
           },
@@ -436,15 +437,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/陈述句.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/西方文明简史/主题，问题，命题.md",
+    "笔记/工具/思考/批判性思维.md",
     "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/漏洞.svg",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/西方文明简史/陈述句.md",
+    "笔记/西方文明简史/主题，问题，命题.md",
+    "笔记/学习方法/概念/漏洞.svg",
     "笔记/工具/通用概念/本质.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/思考/基础思维.md"
+    "笔记/工具/思考/思考.md"
   ]
 }
