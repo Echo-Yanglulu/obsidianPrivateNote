@@ -13,7 +13,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":18.9092}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -207,18 +207,6 @@
             }
           },
           {
-            "id": "0a9dfea17ddecbf9",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "bc55ca4b3679aac4",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -229,9 +217,17 @@
               "type": "center-panes",
               "state": {}
             }
+          },
+          {
+            "id": "12031397d98fb888",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
