@@ -12,8 +12,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":13},\"to\":{\"line\":45,\"ch\":13}},\"scroll\":37.51065635895104}"
+              "eState": "{\"scroll\":52.77829316355919}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/虚拟化.md",
+            "file": "笔记/前端/工程化/模块化.md",
             "mode": "source",
             "source": false
           }
@@ -315,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/模块化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/模块化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md"
+                "file": "笔记/前端/工程化/模块化.md"
               }
             }
           },
@@ -433,8 +433,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/Verdaccio.md",
     "笔记/前端/工程化/虚拟化.md",
+    "笔记/前端/工程化/Verdaccio.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/多环境发布.md",
     "笔记/学习方法/概念/理解.md",
