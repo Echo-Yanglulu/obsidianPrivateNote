@@ -5,8 +5,16 @@
       "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
     {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/宿主环境.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "模块",
+      "path": "笔记/前端/编程语言/JS/模块.md"
     },
     {
       "basename": "编程语言",
@@ -191,14 +199,6 @@
     {
       "basename": "黄金思维圈",
       "path": "笔记/学习方法/概念/黄金思维圈.md"
-    },
-    {
-      "basename": "努力",
-      "path": "笔记/工具/通用概念/努力.md"
-    },
-    {
-      "basename": "环境",
-      "path": "笔记/学习方法/概念/环境.md"
     }
   ],
   "omittedPaths": [],
