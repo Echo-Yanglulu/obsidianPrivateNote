@@ -4,6 +4,29 @@
     "type": "split",
     "children": [
       {
+        "id": "b6d23e27734ce814",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "b6d23e27734ce814",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器规范.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/编程语言/JS/浏览器规范.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
         "id": "117790df2034c6aa",
         "type": "leaf",
         "pane-relief:history-v1": {
@@ -314,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器.md",
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -373,7 +396,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器.md",
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -401,7 +424,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器.md"
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md"
               }
             }
           },
@@ -426,13 +449,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f84b115147126b33",
+  "active": "aa7bcc223f3e24d6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/模块.md",
