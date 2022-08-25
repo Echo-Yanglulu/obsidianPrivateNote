@@ -13,7 +13,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":12},\"to\":{\"line\":25,\"ch\":12}}}"
+              "eState": "{}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -173,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "![[核心思维.svg|黄金思维]]",
+                "query": "特性",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -315,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/模块化.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/模块化.md",
+                "file": "笔记/前端/工程化/5.构建/babel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -403,7 +403,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/模块化.md"
+                "file": "笔记/前端/工程化/5.构建/babel.md"
               }
             }
           },
@@ -428,20 +428,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "56a91cafda1f716e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/严格模式.md",
+    "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/学习方法/概念/分析.md",
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/Verdaccio.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/多环境发布.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/工具/思考/批判性思维.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/西方文明简史/陈述句.md",
-    "笔记/西方文明简史/主题，问题，命题.md"
+    "笔记/学习方法/概念/理解.md"
   ]
 }
