@@ -13,7 +13,7 @@
               "leaf": "b6d23e27734ce814",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器规范.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         },
@@ -36,7 +36,7 @@
               "leaf": "117790df2034c6aa",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":8},\"to\":{\"line\":4,\"ch\":8}},\"scroll\":1.3284329167979279}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}},\"scroll\":1.3284329167979279}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -337,7 +337,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -396,7 +396,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -424,7 +424,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/浏览器规范.md"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -449,13 +449,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aa7bcc223f3e24d6",
+  "active": "117790df2034c6aa",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/模块.md",
