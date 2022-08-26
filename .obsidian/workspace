@@ -12,8 +12,14 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}},\"scroll\":4.1092}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":2},\"to\":{\"line\":26,\"ch\":2}},\"scroll\":12.769540229885058}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":6},\"to\":{\"line\":16,\"ch\":6}},\"scroll\":12.769540229885058}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -26,7 +32,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/知识.md",
+            "file": "笔记/前端/编程语言/JS/JS.md",
             "mode": "source",
             "source": false
           }
@@ -328,15 +334,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/知识.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/标准库.md",
+    "笔记/学习方法/概念/知识.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/数据格式.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/XML.md",
     "笔记/前端/编程语言/JS/类型.md",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/变量.md"
+    "笔记/前端/编程语言/JS/核心JS.svg"
   ]
 }
