@@ -12,8 +12,14 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}},\"scroll\":4.1092}"
+              "eState": "{\"scroll\":4.1092}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -32,7 +38,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
+            "file": "笔记/工具/思考/思维概念/联想.md",
             "mode": "source",
             "source": false
           }
@@ -217,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/工具/思考/思维概念/联想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +282,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/工具/思考/思维概念/联想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -304,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg"
+                "file": "笔记/工具/思考/思维概念/联想.md"
               }
             }
           },
@@ -329,12 +335,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "b0616b83e1b7a8e9",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/行为/人的行为.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/标准库.md",
@@ -342,7 +349,6 @@
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/数据格式.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/XML.md",
-    "笔记/前端/编程语言/JS/类型.md"
+    "笔记/前端/编程语言/JS/XML.md"
   ]
 }
