@@ -12,6 +12,18 @@
             {
               "leaf": "b6d23e27734ce814",
               "group": null,
+              "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/未命名思维导图.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "b6d23e27734ce814",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":1.1806}"
+            },
+            {
+              "leaf": "b6d23e27734ce814",
+              "group": null,
               "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS基础.svg\"}}",
               "eState": "{}"
             },
@@ -42,9 +54,9 @@
           ]
         },
         "state": {
-          "type": "diagram-edit",
+          "type": "mindmapview",
           "state": {
-            "file": "笔记/前端/编程语言/JS基础.svg"
+            "file": "笔记/前端/编程语言/JS/未命名思维导图.md"
           }
         }
       },
@@ -362,7 +374,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg",
+                "file": "笔记/前端/编程语言/JS/未命名思维导图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -421,7 +433,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg",
+                "file": "笔记/前端/编程语言/JS/未命名思维导图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -449,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg"
+                "file": "笔记/前端/编程语言/JS/未命名思维导图.md"
               }
             }
           },
@@ -480,8 +492,8 @@
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS基础.svg",
+    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/词法结构.md",
     "笔记/前端/编程语言/JS/浏览器.md",
