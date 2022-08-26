@@ -4,29 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "22d0213026e0ba3c",
+        "id": "aba79a8018f92bae",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "22d0213026e0ba3c",
-              "group": null,
-              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/核心JS.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "22d0213026e0ba3c",
+              "leaf": "aba79a8018f92bae",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":0}}}"
             }
           ]
         },
         "state": {
-          "type": "diagram-edit",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/核心JS.svg"
+            "file": "笔记/前端/编程语言/JS/JS.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -321,20 +317,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "22d0213026e0ba3c",
+  "active": "b0616b83e1b7a8e9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS模型.svg.md",
     "笔记/前端/编程语言/JS/变量.md",
-    "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/内存.md",
     "笔记/前端/编程语言/JS/类型.md",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/JS引擎.md"
+    "笔记/前端/编程语言/JS/作用域.md"
   ]
 }
