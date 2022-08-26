@@ -13,7 +13,7 @@
               "leaf": "b6d23e27734ce814",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器规范.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             }
           ]
         },
@@ -35,8 +35,14 @@
             {
               "leaf": "117790df2034c6aa",
               "group": null,
+              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/工程化/JS基础.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "117790df2034c6aa",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":1.1805803493296931}"
             },
             {
               "leaf": "117790df2034c6aa",
@@ -145,21 +151,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":117,\"ch\":4},\"to\":{\"line\":117,\"ch\":4}},\"scroll\":67.54137931034482}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "diagram-edit",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/前端/工程化/JS基础.svg"
           }
         }
       }
@@ -244,6 +242,10 @@
           {
             "id": "12031397d98fb888",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -338,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -397,7 +399,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -425,7 +427,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/编程语言/JS/浏览器规范.md"
               }
             }
           },
@@ -450,20 +452,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "b6d23e27734ce814",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/JS基础.svg",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/词法结构.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/模块.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/编程语言/编程语言.md"
   ]
 }
