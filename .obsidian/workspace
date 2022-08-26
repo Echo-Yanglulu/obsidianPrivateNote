@@ -4,137 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "117790df2034c6aa",
+        "id": "53545a8ff2c8d8ad",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS基础.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
+              "leaf": "53545a8ff2c8d8ad",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":1.1805803493296931}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":5},\"to\":{\"line\":3,\"ch\":5}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/演讲/演讲.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/标准库.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":52.77829316355919}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/多环境发布.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":33.28960223307746}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":31.97471264367816}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":9},\"to\":{\"line\":81,\"ch\":9}},\"scroll\":68.6816}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主题，问题，命题.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":29.58390804597701}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":9},\"to\":{\"line\":84,\"ch\":9}},\"scroll\":68.6816091954023}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "117790df2034c6aa",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":117,\"ch\":4},\"to\":{\"line\":117,\"ch\":4}},\"scroll\":67.54137931034482}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":1.1806}"
             }
           ]
         },
         "state": {
-          "type": "diagram-edit",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS基础.svg"
+            "file": "笔记/前端/编程语言/JS/JS.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -317,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -404,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS基础.svg"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -429,20 +317,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "117790df2034c6aa",
+  "active": "53545a8ff2c8d8ad",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/JS模型.svg",
+    "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/编程语言/JS/未命名思维导图.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/词法结构.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/编程语言/JS/模块.md",
-    "笔记/前端/工程化/模块化.md"
+    "笔记/前端/编程语言/JS/模块.md"
   ]
 }
