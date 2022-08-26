@@ -13,7 +13,7 @@
               "leaf": "aba79a8018f92bae",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}},\"scroll\":4.109160081943225}"
             }
           ]
         },
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -317,20 +317,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "b0616b83e1b7a8e9",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/JS模型.svg.md",
-    "笔记/前端/编程语言/JS/变量.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/编程语言/JS/内存.md",
     "笔记/前端/编程语言/JS/类型.md",
-    "笔记/前端/编程语言/JS/作用域.md"
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/宿主环境.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
+    "笔记/前端/编程语言/JS/变量.md",
+    "笔记/前端/编程语言/JS/JSON.md",
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/JS模型.svg.md",
+    "笔记/前端/编程语言/编程语言.md"
   ]
 }
