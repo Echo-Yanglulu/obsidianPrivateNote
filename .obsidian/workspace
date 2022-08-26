@@ -12,8 +12,14 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":4.1092}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":4},\"to\":{\"line\":23,\"ch\":4}},\"scroll\":21.586206896551722}"
+              "eState": "{\"scroll\":21.586206896551722}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -44,7 +50,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/前端/编程语言/JS/JS.md",
             "mode": "source",
             "source": false
           }
@@ -220,22 +226,6 @@
             }
           },
           {
-            "id": "1e28e91b1787e92c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "a06c9236fa770d2c",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -288,13 +278,29 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e28e91b1787e92c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -316,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -346,8 +352,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/学习之道.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/学习之道.md",
     "笔记/学习方法/如何学习.md",
     "笔记/学习方法/教学相长.md",
     "笔记/学习方法/成为超级学习者.md",
