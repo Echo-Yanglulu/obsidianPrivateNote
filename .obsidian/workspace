@@ -12,8 +12,20 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":14.601724137931035}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/分析.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -68,7 +80,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/概念/分析.md",
+            "file": "笔记/学习方法/概念/理解.md",
             "mode": "source",
             "source": false
           }
@@ -296,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/综合.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -317,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/综合.md",
+                "file": "笔记/学习方法/概念/理解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/综合.md"
+                "file": "笔记/学习方法/概念/理解.md"
               }
             }
           },
@@ -365,14 +377,14 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "4da4c4c038defea2",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思考.md",
     "笔记/学习方法/概念/分析.md",
     "笔记/学习方法/概念/综合.md",
-    "笔记/工具/思考/思考.md",
     "笔记/学习方法/概念/组合.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
