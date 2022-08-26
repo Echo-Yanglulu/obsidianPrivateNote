@@ -12,8 +12,26 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/分析.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":21},\"to\":{\"line\":5,\"ch\":21}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":3},\"to\":{\"line\":29,\"ch\":3}},\"scroll\":14.638505747126437}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/综合.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":25},\"to\":{\"line\":16,\"ch\":25}},\"scroll\":12.004187020237264}"
+              "eState": "{\"scroll\":12.004187020237264}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -50,7 +68,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
+            "file": "笔记/学习方法/概念/分析.md",
             "mode": "source",
             "source": false
           }
@@ -278,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/学习方法/概念/综合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -299,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/学习方法/概念/综合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/学习方法/概念/综合.md"
               }
             }
           },
@@ -347,20 +365,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aba79a8018f92bae",
+  "active": "76e1de5dc1bfaf7a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/宿主环境.md",
+    "笔记/学习方法/概念/分析.md",
+    "笔记/学习方法/概念/综合.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/学习方法/概念/组合.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/元编程.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/学习之道.md",
-    "笔记/学习方法/如何学习.md",
-    "笔记/学习方法/教学相长.md",
-    "笔记/学习方法/成为超级学习者.md"
+    "笔记/工具/思考/记忆/记忆.md"
   ]
 }
