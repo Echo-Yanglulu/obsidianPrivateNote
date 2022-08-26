@@ -12,17 +12,21 @@
             {
               "leaf": "22d0213026e0ba3c",
               "group": null,
+              "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/核心JS.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "22d0213026e0ba3c",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "diagram-edit",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/前端/编程语言/JS/核心JS.svg"
           }
         }
       }
@@ -205,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/核心JS.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/核心JS.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -292,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/编程语言/JS/核心JS.svg"
               }
             }
           },
@@ -322,8 +326,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS模型.svg.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/JS模型.svg.md",
     "笔记/前端/编程语言/JS/变量.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/编程语言.md",
