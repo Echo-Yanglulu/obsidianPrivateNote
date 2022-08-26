@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/变量.md",
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/变量.md",
+                "file": "笔记/前端/基础知识/编译原理/编译器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/变量.md"
+                "file": "笔记/前端/基础知识/编译原理/编译器.md"
               }
             }
           },
@@ -317,11 +317,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "663d2e5902897971",
+  "active": "b12433ccfdf32657",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/变量.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/类型.md",
     "笔记/前端/编程语言/JS/JS模型.svg",
@@ -330,7 +331,6 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/词法结构.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/宿主环境.md"
+    "笔记/前端/编程语言/JS/浏览器.md"
   ]
 }
