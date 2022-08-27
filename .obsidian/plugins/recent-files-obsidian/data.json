@@ -5,6 +5,18 @@
       "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
+      "basename": "Flux",
+      "path": "笔记/前端/库、框架/UI库/Flux.md"
+    },
+    {
+      "basename": "JSX",
+      "path": "笔记/前端/库、框架/UI库/JSX.md"
+    },
+    {
+      "basename": "MVC",
+      "path": "笔记/前端/工程化/MVC.md"
+    },
+    {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "XML",
       "path": "笔记/前端/编程语言/JS/XML.md"
-    },
-    {
-      "basename": "JSX",
-      "path": "笔记/前端/库、框架/UI库/JSX.md"
     },
     {
       "basename": "babel",
@@ -191,14 +199,6 @@
     {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "TS",
-      "path": "笔记/前端/编程语言/TS/TS.md"
-    },
-    {
-      "basename": "自己的学习行为",
-      "path": "笔记/学习方法/自己的学习行为.md"
     }
   ],
   "omittedPaths": [],
