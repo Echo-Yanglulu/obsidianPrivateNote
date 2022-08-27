@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/属性.md",
+                "file": "笔记/工具/思考/记忆/路由处理器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/属性.md",
+                "file": "笔记/工具/思考/记忆/路由处理器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/属性.md"
+                "file": "笔记/工具/思考/记忆/路由处理器.md"
               }
             }
           },
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "4683ecd6ffc906a9",
+  "active": "4157b48de298e132",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/路由.md",
+    "笔记/工具/思考/记忆/路由处理器.md",
+    "笔记/工具/思考/记忆/属性.md",
     "笔记/前端/工程化/node/node事件.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/libuv.md",
     "笔记/前端/编程语言/JS/模块.md",
     "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/工程化/模块化.md",
-    "笔记/工具/通用概念/事件发射器.md",
-    "笔记/工具/通用概念/基类.md",
-    "笔记/前端/工程化/REPL.md"
+    "笔记/前端/工程化/模块化.md"
   ]
 }
