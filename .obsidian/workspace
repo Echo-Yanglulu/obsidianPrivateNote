@@ -12,6 +12,18 @@
             {
               "leaf": "489dfb7ea24c3589",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/严格模式.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":1.5152769586755528}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/robots.txt.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":55},\"to\":{\"line\":0,\"ch\":55}}}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/爬虫.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/robots.txt.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":55},\"to\":{\"line\":0,\"ch\":55}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/数据格式.md",
+            "file": "笔记/前端/编程语言/JS/严格模式.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/数据格式.md",
+                "file": "笔记/前端/编程语言/JS/严格模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/数据格式.md"
+                "file": "笔记/前端/编程语言/JS/严格模式.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/数据格式.md",
+                "file": "笔记/前端/编程语言/JS/严格模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/数据类型.md",
+    "笔记/前端/编程语言/JS/引用类型.md",
+    "笔记/前端/编程语言/JS/数据格式.md",
     "笔记/前端/编程语言/JS/XML.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/polyfill.md",
     "笔记/前端/工程化/5.构建/ES规范.md",
-    "笔记/前端/工程化/5.构建/Promise.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/编程语言/JS/标准库.md"
+    "笔记/前端/工程化/5.构建/Promise.md"
   ]
 }

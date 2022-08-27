@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "严格模式",
+      "path": "笔记/前端/编程语言/JS/严格模式.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/数据类型.md"
+    },
+    {
+      "basename": "引用类型",
+      "path": "笔记/前端/编程语言/JS/引用类型.md"
     },
     {
       "basename": "数据格式",
@@ -141,16 +153,8 @@
       "path": "笔记/前端/编程语言/JS/函数.md"
     },
     {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/数据类型.md"
-    },
-    {
       "basename": "值",
       "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "引用类型",
-      "path": "笔记/前端/编程语言/JS/引用类型.md"
     },
     {
       "basename": "变量",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机组成",
       "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     }
   ],
   "omittedPaths": [],
