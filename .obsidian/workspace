@@ -13,7 +13,7 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/严格模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -139,6 +139,29 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "6dfb00741659b478",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/编程语言/JS/函数.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -231,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -362,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/严格模式.md",
+                "file": "笔记/前端/编程语言/JS/函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +413,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/严格模式.md"
+                "file": "笔记/前端/编程语言/JS/函数.md"
               }
             }
           },
@@ -419,7 +442,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/严格模式.md",
+                "file": "笔记/前端/编程语言/JS/函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,11 +454,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "489dfb7ea24c3589",
+  "active": "6dfb00741659b478",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/严格模式.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/数据类型.md",
     "笔记/前端/编程语言/JS/引用类型.md",
@@ -444,7 +468,6 @@
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/工程化/5.构建/babel.md",
     "笔记/前端/工程化/5.构建/polyfill.md",
-    "笔记/前端/工程化/5.构建/ES规范.md",
-    "笔记/前端/工程化/5.构建/Promise.md"
+    "笔记/前端/工程化/5.构建/ES规范.md"
   ]
 }
