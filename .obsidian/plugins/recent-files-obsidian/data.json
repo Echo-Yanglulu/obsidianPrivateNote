@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "模板语言",
+      "path": "笔记/前端/工程化/模板语言.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "编译器",
+      "path": "笔记/前端/基础知识/编译原理/编译器.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/5.构建/webpack.md"
     },
@@ -71,10 +87,6 @@
     {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "模板语言",
-      "path": "笔记/前端/工程化/模板语言.md"
     },
     {
       "basename": "模板引擎",
@@ -187,18 +199,6 @@
     {
       "basename": "知识",
       "path": "笔记/学习方法/概念/知识.md"
-    },
-    {
-      "basename": "类型",
-      "path": "笔记/前端/编程语言/JS/类型.md"
-    },
-    {
-      "basename": "概述",
-      "path": "笔记/前端/编程语言/JS/概述.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     }
   ],
   "omittedPaths": [],
