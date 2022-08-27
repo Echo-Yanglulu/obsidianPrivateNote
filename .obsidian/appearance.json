@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 21,
   "theme": "moonstone",
-  "cssTheme": "Ayu Mirage",
+  "cssTheme": "Dark Graphite Pie",
   "translucency": false,
   "enabledCssSnippets": [
     "supercharged-links-gen",
@@ -25,5 +25,6 @@
     "Animation",
     "Font",
     "Folding arrows"
-  ]
+  ],
+  "baseFontSizeAction": true
 }

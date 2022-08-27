@@ -12,6 +12,36 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/TDD.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/2.测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":8},\"to\":{\"line\":7,\"ch\":8}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/3.质量.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/功能测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/单元测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/TS/断言.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
@@ -98,43 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/预处理器.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模板语言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模板引擎.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/宿主环境.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.095223030686492}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/TS/断言.md",
+            "file": "笔记/前端/工程化/3.质量/TDD.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/TS/断言.md",
+                "file": "笔记/前端/工程化/3.质量/TDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/TS/断言.md",
+                "file": "笔记/前端/工程化/3.质量/TDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/TS/断言.md"
+                "file": "笔记/前端/工程化/3.质量/TDD.md"
               }
             }
           },
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/表达式.md",
-    "笔记/前端/编程语言/TS/断言.md",
-    "笔记/前端/编程语言/TS/类型断言.md",
+    "笔记/前端/工程化/3.质量/2.测试.md",
+    "笔记/前端/工程化/3.质量/功能测试.md",
+    "笔记/前端/工程化/3.质量/E2E测试.md",
+    "笔记/前端/工程化/3.质量/3.质量.md",
     "笔记/前端/工程化/3.质量/单元测试.md",
+    "笔记/前端/编程语言/TS/断言.md",
+    "笔记/前端/编程语言/JS/表达式.md",
+    "笔记/前端/编程语言/TS/类型断言.md",
     "笔记/前端/工程化/3.质量/BDD.md",
-    "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/工程化/模板语言.md",
-    "笔记/前端/前端.md"
+    "笔记/前端/设计模式/OO设计模式.md"
   ]
 }
