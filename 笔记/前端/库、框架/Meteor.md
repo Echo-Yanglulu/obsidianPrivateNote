@@ -1,0 +1,1 @@
+与react, angular, vue都不一样，因为它是[[同构]]的JS框架。

@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "MVC",
-      "path": "笔记/前端/工程化/MVC.md"
+      "basename": "Meteor",
+      "path": "笔记/前端/库、框架/Meteor.md"
+    },
+    {
+      "basename": "同构",
+      "path": "笔记/前端/工程化/node/同构.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "vue",
+      "path": "笔记/前端/库、框架/UI库/vue.md"
     },
     {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "MVC",
+      "path": "笔记/前端/工程化/MVC.md"
     },
     {
       "basename": "MVC",
@@ -19,10 +35,6 @@
     {
       "basename": "JSX",
       "path": "笔记/前端/库、框架/UI库/JSX.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
     },
     {
       "basename": "UI库",
@@ -187,18 +199,6 @@
     {
       "basename": "JS.excalidraw",
       "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "笔记/前端/编程语言/HTML/HTML.md"
-    },
-    {
-      "basename": "excalibrain",
-      "path": "excalibrain.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":11},\"to\":{\"line\":17,\"ch\":11}}}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -384,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/MVC.md",
+                "file": "笔记/前端/库、框架/Meteor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -412,7 +412,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/MVC.md"
+                "file": "笔记/前端/库、框架/Meteor.md"
               }
             }
           },
@@ -441,7 +441,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/MVC.md",
+                "file": "笔记/前端/库、框架/Meteor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -453,20 +453,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "c9379d0591291255",
+  "active": "dfcf6d1050af5e33",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/node/同构.md",
+    "笔记/前端/库、框架/Meteor.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/UI库/vue.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/工程化/MVC.svg",
     "笔记/前端/工程化/MVC.md",
+    "笔记/前端/工程化/MVC.svg",
     "笔记/前端/库、框架/UI库/Flux.md",
     "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/库、框架/UI库/UI库.md",
-    "笔记/前端/工程化/SPA.md",
-    "笔记/前端/工程化/框架.md",
-    "笔记/前端/工程化/History.md"
+    "笔记/前端/库、框架/UI库/UI库.md"
   ]
 }
