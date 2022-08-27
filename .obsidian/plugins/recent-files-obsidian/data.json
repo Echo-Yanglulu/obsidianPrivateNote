@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "网络抓取",
+      "path": "笔记/前端/库、框架/UI库/网络抓取.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "JSX",
+      "path": "笔记/前端/库、框架/UI库/JSX.md"
+    },
+    {
       "basename": "构造器",
       "path": "笔记/前端/库、框架/UI库/构造器.md"
     },
@@ -17,16 +29,8 @@
       "path": "笔记/前端/库、框架/UI库/爬虫.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
       "basename": "UI库",
       "path": "笔记/前端/库、框架/UI库/UI库.md"
-    },
-    {
-      "basename": "JSX",
-      "path": "笔记/前端/库、框架/UI库/JSX.md"
     },
     {
       "basename": "库、框架",
@@ -195,10 +199,6 @@
     {
       "basename": "同构",
       "path": "笔记/前端/工程化/node/同构.md"
-    },
-    {
-      "basename": "node事件",
-      "path": "笔记/前端/工程化/node/node事件.md"
     }
   ],
   "omittedPaths": [],

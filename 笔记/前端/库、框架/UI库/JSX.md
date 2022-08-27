@@ -1,1 +1,1 @@
-JavaScript [[XML]] ，
+JavaScript [[XML]] ，通过[[babel]] 转换为JS的函数调用表达式，返回一个React 元素
