@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "Add Link to Existing File and Open",
+      "path": "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg"
+    },
+    {
+      "basename": "表达式",
+      "path": "笔记/前端/编程语言/JS/表达式.md"
+    },
+    {
       "basename": "JS.excalidraw",
       "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
     },
@@ -69,10 +81,6 @@
       "path": "笔记/前端/编程语言/TS/断言.md"
     },
     {
-      "basename": "表达式",
-      "path": "笔记/前端/编程语言/JS/表达式.md"
-    },
-    {
       "basename": "类型断言",
       "path": "笔记/前端/编程语言/TS/类型断言.md"
     },
@@ -95,10 +103,6 @@
     {
       "basename": "模板语言",
       "path": "笔记/前端/工程化/模板语言.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "编译器",
@@ -195,10 +199,6 @@
     {
       "basename": "同构",
       "path": "笔记/前端/工程化/node/同构.md"
-    },
-    {
-      "basename": "sourcemap",
-      "path": "笔记/前端/工程化/node/sourcemap.md"
     }
   ],
   "omittedPaths": [],

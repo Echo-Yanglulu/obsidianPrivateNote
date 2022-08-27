@@ -4,137 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "aba79a8018f92bae",
+        "id": "489dfb7ea24c3589",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 1,
+          "pos": 0,
           "stack": [
             {
-              "leaf": "aba79a8018f92bae",
+              "leaf": "489dfb7ea24c3589",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/变量.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}}}"
             },
             {
-              "leaf": "aba79a8018f92bae",
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/表达式.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.excalidraw.md\"}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/编程语言/JS基础.svg\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CDN.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":14.861905060910114}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":4.4102111622934554}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":4},\"to\":{\"line\":77,\"ch\":4}},\"scroll\":65.49931633940466}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/TDD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":17.51571688400513}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/2.测试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":8},\"to\":{\"line\":7,\"ch\":8}}}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/3.质量.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/功能测试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/单元测试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/TS/断言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/TS/类型断言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/单元测试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/BDD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+            "file": "笔记/前端/前端.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -228,8 +134,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -360,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
+                "file": "笔记/前端/前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -381,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
+                "file": "笔记/前端/前端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -404,7 +309,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+                "file": "笔记/前端/前端.md"
               }
             }
           },
@@ -429,20 +334,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aba79a8018f92bae",
+  "active": "489dfb7ea24c3589",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/变量.md",
+    "Excalidraw/Scripts/Downloaded/Add Link to Existing File and Open.svg",
+    "笔记/前端/编程语言/JS/表达式.md",
     "笔记/前端/编程语言/JS/JS.excalidraw.md",
+    "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.18.13.excalidraw.md",
+    "笔记/前端/编程语言/JS/变量.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS基础.svg",
-    "笔记/前端/工程化/CDN.md",
-    "笔记/前端/工程化/Docker.md",
-    "笔记/前端/工程化/assets/SSH.md",
-    "笔记/前端/工程化/assets/chalk.png"
+    "笔记/前端/工程化/CDN.md"
   ]
 }
