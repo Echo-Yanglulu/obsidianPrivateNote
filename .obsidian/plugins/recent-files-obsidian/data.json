@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "本质",
+      "path": "笔记/工具/通用概念/本质.md"
+    },
+    {
+      "basename": "REPL",
+      "path": "笔记/前端/工程化/REPL.md"
+    },
+    {
+      "basename": "CSS预处理器",
+      "path": "笔记/前端/工程化/CSS预处理器.md"
+    },
+    {
       "basename": "预处理器",
       "path": "笔记/前端/工程化/预处理器.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "函数",
       "path": "笔记/前端/编程语言/JS/函数.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "笔记/前端/设计模式/设计模式.md"
-    },
-    {
-      "basename": "babel",
-      "path": "笔记/前端/工程化/5.构建/babel.md"
-    },
-    {
-      "basename": "虚拟化",
-      "path": "笔记/前端/工程化/虚拟化.md"
     }
   ],
   "omittedPaths": [],
