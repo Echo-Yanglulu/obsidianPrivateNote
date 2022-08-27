@@ -7,13 +7,43 @@
         "id": "aba79a8018f92bae",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 2,
           "stack": [
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}},\"scroll\":0.3846883897500791}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/预处理器.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模板语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模板引擎.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}}}"
+              "eState": "{}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -98,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":6},\"to\":{\"line\":16,\"ch\":6}},\"scroll\":12.769540229885058}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":4.109160081943225}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/node/node.md",
+            "file": "笔记/前端/工程化/预处理器.md",
             "mode": "source",
             "source": false
           }
@@ -338,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/bycrypt.md",
+                "file": "笔记/前端/工程化/CSS预处理器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -359,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/bycrypt.md",
+                "file": "笔记/前端/工程化/CSS预处理器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/bycrypt.md"
+                "file": "笔记/前端/工程化/CSS预处理器.md"
               }
             }
           },
@@ -407,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "1884d6dcc7ee051a",
+  "active": "344a5ed9a3a7a4fa",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/预处理器.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/工程化/模板语言.md",
+    "笔记/前端/工程化/模板引擎.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/bycrypt.md",
+    "笔记/前端/工程化/数据库.md",
     "笔记/前端/工程化/中间件.md",
-    "笔记/前端/工程化/SPA.md",
-    "笔记/前端/工程化/MVC.md",
-    "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/工程化/node/同构.md",
-    "笔记/前端/工程化/node/sourcemap.md",
-    "笔记/前端/工程化/node/node项目.md",
-    "笔记/工具/通用概念/cURL.md",
-    "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/1.脚本/node cli.md"
+    "笔记/前端/工程化/SPA.md"
   ]
 }
