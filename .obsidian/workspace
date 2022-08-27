@@ -12,8 +12,8 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":275.19888346127004}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":16},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -135,7 +135,7 @@
           "type": "markdown",
           "state": {
             "file": "笔记/前端/工程化/5.构建/webpack.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.md"
+                "file": "笔记/前端/工程化/5.构建/webpack.svg"
               }
             }
           },
@@ -431,11 +431,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aba79a8018f92bae",
+  "active": "87fce7a2ad561ccd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/2.规范/ESLint/plugins.md",
     "笔记/前端/工程化/预处理器.md",
     "笔记/工具/思考/记忆/路由.md",
@@ -444,7 +445,6 @@
     "笔记/前端/工程化/node/node事件.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/工具/通用概念/事件.md",
-    "笔记/前端/编程语言/JS/libuv.md",
-    "笔记/前端/编程语言/JS/模块.md"
+    "笔记/前端/编程语言/JS/libuv.md"
   ]
 }
