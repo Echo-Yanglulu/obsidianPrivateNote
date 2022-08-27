@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "SSH",
+      "path": "笔记/前端/工程化/assets/SSH.md"
+    },
+    {
+      "basename": "chalk",
+      "path": "笔记/前端/工程化/assets/chalk.png"
+    },
+    {
+      "basename": "Docker",
+      "path": "笔记/前端/工程化/Docker.md"
+    },
+    {
       "basename": "虚拟化",
       "path": "笔记/前端/工程化/虚拟化.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "npm",
       "path": "笔记/前端/工程化/npm.md"
-    },
-    {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
-    },
-    {
-      "basename": "yarn",
-      "path": "笔记/前端/包管理/yarn.md"
-    },
-    {
-      "basename": "宿主环境",
-      "path": "笔记/前端/编程语言/JS/宿主环境.md"
     }
   ],
   "omittedPaths": [],

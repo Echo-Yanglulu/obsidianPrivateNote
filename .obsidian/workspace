@@ -12,6 +12,12 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":14.174106017957103}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":4.4102111622934554}"
             },
@@ -122,11 +128,34 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0.8459770114942529}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/工程化/Docker.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "f794b65202b87db2",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "f794b65202b87db2",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/assets/SSH.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "aba79a8018f92bae",
+              "leaf": "f794b65202b87db2",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/编译原理/编译器.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"image\",\"state\":{\"file\":\"笔记/前端/工程化/assets/chalk.png\"}}",
               "eState": "{}"
             }
           ]
@@ -134,7 +163,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/虚拟化.md",
+            "file": "笔记/前端/工程化/assets/SSH.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +391,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/assets/SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/assets/SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md"
+                "file": "笔记/前端/工程化/assets/SSH.md"
               }
             }
           },
@@ -431,20 +460,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6ef29cacb13a1b14",
+  "active": "f794b65202b87db2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/虚拟化.md",
+    "笔记/前端/工程化/assets/chalk.png",
     "笔记/前端/工程化/Docker.md",
-    "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/kubernetes.md",
+    "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/3.质量/TDD.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/功能测试.md",
     "笔记/前端/工程化/3.质量/E2E测试.md",
-    "笔记/前端/工程化/3.质量/3.质量.md",
-    "笔记/前端/工程化/3.质量/单元测试.md"
+    "笔记/前端/工程化/3.质量/3.质量.md"
   ]
 }
