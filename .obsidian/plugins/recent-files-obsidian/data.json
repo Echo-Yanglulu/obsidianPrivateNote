@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "缓存",
+      "path": "笔记/前端/工程化/缓存.md"
+    },
+    {
       "basename": "mixin",
       "path": "笔记/前端/工程化/mixin.md"
     },
     {
-      "basename": "静态资源",
-      "path": "笔记/前端/工程化/静态资源.md"
+      "basename": "类",
+      "path": "笔记/前端/编程语言/JS/基本概念/类.md"
     },
     {
-      "basename": "缓存",
-      "path": "笔记/前端/工程化/缓存.md"
+      "basename": "静态资源",
+      "path": "笔记/前端/工程化/静态资源.md"
     },
     {
       "basename": "部署：发布策略",
@@ -195,10 +199,6 @@
     {
       "basename": "单元测试",
       "path": "笔记/前端/工程化/3.质量/单元测试.md"
-    },
-    {
-      "basename": "断言",
-      "path": "笔记/前端/编程语言/TS/断言.md"
     }
   ],
   "omittedPaths": [],
