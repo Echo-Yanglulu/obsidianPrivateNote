@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
       "basename": "包管理器",
       "path": "笔记/前端/工程化/包管理器.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "polyfill",
       "path": "笔记/前端/工程化/5.构建/polyfill.md"
-    },
-    {
-      "basename": "ES规范",
-      "path": "笔记/前端/工程化/5.构建/ES规范.md"
     }
   ],
   "omittedPaths": [],
