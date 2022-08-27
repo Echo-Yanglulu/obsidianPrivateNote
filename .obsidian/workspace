@@ -13,7 +13,19 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":1.297097494302703}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":1.2971}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":1.297097494302703}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -115,18 +127,6 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/静态资源.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":10},\"to\":{\"line\":20,\"ch\":10}}}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/同构.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             }
           ]
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/编程语言/JS/浏览器.md"
               }
             }
           },
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "489dfb7ea24c3589",
+  "active": "c20ccce4d39af75f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/数据格式.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/工程化/assets/SSH.md",
-    "笔记/前端/编程语言/JS/JS.excalidraw.md",
+    "excalibrain.md",
+    "笔记/前端/编程语言/JS/JS引擎.md",
+    "笔记/前端/编程语言/JS/操作符.md",
+    "笔记/前端/编程语言/JS/输出.md",
     "笔记/前端/编程语言/JS/变量.md",
-    "笔记/前端/工程化/基本概念/shell.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/基础知识/算法/算法.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成.md",
-    "笔记/前端/基础知识/编译原理/编译原理.md"
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/模块.md",
+    "笔记/前端/编程语言/JS/数据格式.md",
+    "笔记/前端/编程语言/JS/XML.md",
+    "笔记/前端/编程语言/JS/JSON.md"
   ]
 }

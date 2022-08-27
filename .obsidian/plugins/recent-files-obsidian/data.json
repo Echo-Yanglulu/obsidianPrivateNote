@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "excalibrain",
+      "path": "excalibrain.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
-      "basename": "SSH",
-      "path": "笔记/前端/工程化/assets/SSH.md"
+      "basename": "数据格式",
+      "path": "笔记/前端/编程语言/JS/数据格式.md"
+    },
+    {
+      "basename": "标准库",
+      "path": "笔记/前端/编程语言/JS/标准库.md"
     },
     {
       "basename": "JS.excalidraw",
       "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+    },
+    {
+      "basename": "SSH",
+      "path": "笔记/前端/工程化/assets/SSH.md"
     },
     {
       "basename": "编程语言",
@@ -187,18 +199,6 @@
     {
       "basename": "属性",
       "path": "笔记/工具/思考/记忆/属性.md"
-    },
-    {
-      "basename": "事件",
-      "path": "笔记/工具/通用概念/事件.md"
-    },
-    {
-      "basename": "libuv",
-      "path": "笔记/前端/编程语言/JS/libuv.md"
-    },
-    {
-      "basename": "模块",
-      "path": "笔记/前端/编程语言/JS/模块.md"
     }
   ],
   "omittedPaths": [],

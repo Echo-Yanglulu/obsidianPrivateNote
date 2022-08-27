@@ -49,7 +49,7 @@
   "showInferredNodes": true,
   "showAttachments": true,
   "showVirtualNodes": true,
-  "showFolderNodes": false,
+  "showFolderNodes": true,
   "showTagNodes": false,
   "showPageNodes": true,
   "showNeighborCount": true,
@@ -146,7 +146,13 @@
     "Jump": {},
     "Jumps": {}
   },
-  "navigationHistory": [],
+  "navigationHistory": [
+    "笔记/前端/编程语言/JS/日期.md",
+    "笔记/前端/编程语言/JS/标准库.md",
+    "笔记/前端/编程语言/JS/JSON.md",
+    "笔记/前端/编程语言/JS/数据格式.md",
+    "笔记/前端/编程语言/JS/JS.md"
+  ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
   "ontologySuggesterChildTrigger": "::c",
