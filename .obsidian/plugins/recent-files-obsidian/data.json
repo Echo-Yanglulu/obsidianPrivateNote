@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "JS.excalidraw",
+      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "HTML",
+      "path": "笔记/前端/编程语言/HTML/HTML.md"
+    },
+    {
       "basename": "excalibrain",
       "path": "excalibrain.md"
     },
     {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "TS",
+      "path": "笔记/前端/编程语言/TS/TS.md"
+    },
+    {
+      "basename": "自己的学习行为",
+      "path": "笔记/学习方法/自己的学习行为.md"
+    },
+    {
+      "basename": "XML",
+      "path": "笔记/前端/编程语言/JS/XML.md"
     },
     {
       "basename": "数据格式",
@@ -17,16 +45,12 @@
       "path": "笔记/前端/编程语言/JS/标准库.md"
     },
     {
-      "basename": "JS.excalidraw",
-      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+      "basename": "函数",
+      "path": "笔记/前端/编程语言/JS/函数.md"
     },
     {
       "basename": "SSH",
       "path": "笔记/前端/工程化/assets/SSH.md"
-    },
-    {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
     },
     {
       "basename": "算法",
@@ -51,10 +75,6 @@
     {
       "basename": "计算机基础",
       "path": "笔记/前端/基础知识/计算机基础.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "性能优化",
@@ -179,26 +199,6 @@
     {
       "basename": "编译器",
       "path": "笔记/前端/基础知识/编译原理/编译器.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/5.构建/webpack.md"
-    },
-    {
-      "basename": "plugins",
-      "path": "笔记/前端/工程化/2.规范/ESLint/plugins.md"
-    },
-    {
-      "basename": "预处理器",
-      "path": "笔记/前端/工程化/预处理器.md"
-    },
-    {
-      "basename": "路由",
-      "path": "笔记/工具/思考/记忆/路由.md"
-    },
-    {
-      "basename": "属性",
-      "path": "笔记/工具/思考/记忆/属性.md"
     }
   ],
   "omittedPaths": [],
