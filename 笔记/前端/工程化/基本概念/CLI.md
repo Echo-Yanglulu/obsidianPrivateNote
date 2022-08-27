@@ -4,16 +4,16 @@ command-line interface
 
 [[node cli]]
 
-# CLI的原理
+# 原理
 从基础API到commander这个库
 
 从[[process]].argv说起
 	定义：获取当前进程的命令与参数。
 	执行： node processArgs.js one two=three four （文件内部打印process.argv，第一个是node路径，第二个是执行的文件的路径，后续是输入的参数）
 CLI关心的核心问题，是**参数处理**。（git merge testBranch）如果能提高参数处理的效率，就能提升开发CLI程序的效率：用于node参数处理的库：[[commander]].
-# CLI的使用
+# 使用
 
-# CLI开发
+# 开发
 通过开发CLI应用，思考：
 	1. 找到问题/需求的==**共性，抽象封装**==为一个通用的解决方案。高级前端的核心竞争力：如何找到需求的共性。
 	2. 一定要比别人多思考一步。
