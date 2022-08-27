@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "日志轮转",
+      "path": "笔记/前端/工程化/日志轮转.md"
+    },
+    {
+      "basename": "日志文件",
+      "path": "笔记/前端/工程化/日志文件.md"
+    },
+    {
       "basename": "Docker",
       "path": "笔记/前端/工程化/Docker.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "虚拟化",
       "path": "笔记/前端/工程化/虚拟化.md"
-    },
-    {
-      "basename": "TDD",
-      "path": "笔记/前端/工程化/3.质量/TDD.md"
-    },
-    {
-      "basename": "2.测试",
-      "path": "笔记/前端/工程化/3.质量/2.测试.md"
     }
   ],
   "omittedPaths": [],
