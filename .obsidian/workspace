@@ -13,7 +13,7 @@
               "leaf": "aba79a8018f92bae",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/TS/断言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -436,6 +436,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/表达式.md",
+    "笔记/前端/编程语言/TS/断言.md",
     "笔记/前端/编程语言/TS/类型断言.md",
     "笔记/前端/工程化/3.质量/单元测试.md",
     "笔记/前端/工程化/3.质量/BDD.md",
@@ -443,8 +445,6 @@
     "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/工程化/模板语言.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/基础知识/编译原理/编译器.md",
-    "笔记/前端/工程化/5.构建/webpack.md"
+    "笔记/前端/前端.md"
   ]
 }
