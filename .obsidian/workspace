@@ -13,7 +13,7 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":14},\"to\":{\"line\":21,\"ch\":14}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}}}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -384,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md",
+                "file": "笔记/前端/库、框架/Underscore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -412,7 +412,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md"
+                "file": "笔记/前端/库、框架/Underscore.md"
               }
             }
           },
@@ -441,7 +441,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md",
+                "file": "笔记/前端/库、框架/Underscore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -453,13 +453,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "489dfb7ea24c3589",
+  "active": "15598f553db4af31",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/Backbone.md",
     "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/Backbone.md",
     "笔记/前端/库、框架/Meteor.md",
     "笔记/前端/工程化/node/同构.md",
     "笔记/前端/库、框架/UI库/vue.md",
