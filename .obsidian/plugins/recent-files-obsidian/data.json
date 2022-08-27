@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "mixin",
+      "path": "笔记/前端/工程化/mixin.md"
+    },
+    {
+      "basename": "静态资源",
+      "path": "笔记/前端/工程化/静态资源.md"
+    },
+    {
+      "basename": "缓存",
+      "path": "笔记/前端/工程化/缓存.md"
+    },
+    {
+      "basename": "部署：发布策略",
+      "path": "笔记/前端/工程化/部署：发布策略.md"
+    },
+    {
       "basename": "shell",
       "path": "笔记/前端/工程化/基本概念/shell.md"
     },
@@ -113,10 +129,6 @@
       "path": "笔记/前端/工程化/静态资源缓存.svg"
     },
     {
-      "basename": "静态资源",
-      "path": "笔记/前端/工程化/静态资源.md"
-    },
-    {
       "basename": "node",
       "path": "笔记/前端/工程化/node/node.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "断言",
       "path": "笔记/前端/编程语言/TS/断言.md"
-    },
-    {
-      "basename": "类型断言",
-      "path": "笔记/前端/编程语言/TS/类型断言.md"
-    },
-    {
-      "basename": "BDD",
-      "path": "笔记/前端/工程化/3.质量/BDD.md"
-    },
-    {
-      "basename": "OO设计模式",
-      "path": "笔记/前端/设计模式/OO设计模式.md"
     }
   ],
   "omittedPaths": [],

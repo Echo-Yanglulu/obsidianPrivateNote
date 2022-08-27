@@ -12,8 +12,44 @@
             {
               "leaf": "489dfb7ea24c3589",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/mixin.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/静态资源.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/缓存.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":6},\"to\":{\"line\":9,\"ch\":6}}}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/静态资源.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/缓存.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "489dfb7ea24c3589",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/基本概念/shell.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -92,49 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":89.59069908073455}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"excalibrain.md\"}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/XML.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/标准库.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "489dfb7ea24c3589",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":1.2971}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/基本概念/shell.md",
+            "file": "笔记/前端/工程化/mixin.md",
             "mode": "source",
             "source": false
           }
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md",
+                "file": "笔记/前端/工程化/mixin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md"
+                "file": "笔记/前端/工程化/mixin.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md",
+                "file": "笔记/前端/工程化/mixin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -437,15 +437,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/静态资源.md",
+    "笔记/前端/工程化/缓存.md",
+    "笔记/前端/工程化/部署：发布策略.md",
+    "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/Docker.md",
     "笔记/前端/编程语言/JS/标准库.md",
     "笔记/前端/编程语言/JS/core-js.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/数据类型.md",
-    "笔记/前端/编程语言/JS/值.md",
-    "笔记/前端/编程语言/JS/类型.md",
-    "笔记/前端/编程语言/JS/引用类型.md",
-    "笔记/前端/编程语言/JS/基本概念/类.md",
-    "笔记/前端/编程语言/JS/数组.md"
+    "笔记/前端/编程语言/JS/值.md"
   ]
 }

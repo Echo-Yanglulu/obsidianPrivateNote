@@ -1,5 +1,5 @@
 定义：*形式*上可以是命令行[[CLI]] ，也可以是[[GUI]]，叫“shell”是因为它是操作系统的最外层，用于提供用户与操作系统交互的接口（其实就是执行文件夹，文件，进程的读写？）。
-	一般说的shell都是linux shell，是CLI，不是GUI（两种方式）
+	一般说的shell都是linux shell，是CLI形式，不是GUI（两种方式）
 
 shell命令
 shell原理
