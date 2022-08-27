@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/5.构建/webpack.svg"
+                "file": "笔记/前端/工程化/5.构建/webpack.md"
               }
             }
           },
@@ -431,11 +431,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "87fce7a2ad561ccd",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/5.构建/webpack.svg",
     "笔记/前端/工程化/5.构建/webpack.md",
     "笔记/前端/工程化/2.规范/ESLint/plugins.md",
     "笔记/前端/工程化/预处理器.md",
@@ -444,7 +445,6 @@
     "笔记/工具/思考/记忆/属性.md",
     "笔记/前端/工程化/node/node事件.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/工具/通用概念/事件.md",
-    "笔记/前端/编程语言/JS/libuv.md"
+    "笔记/工具/通用概念/事件.md"
   ]
 }
