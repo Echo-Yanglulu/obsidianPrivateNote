@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/宿主环境.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "数据格式",
+      "path": "笔记/前端/编程语言/JS/数据格式.md"
     },
     {
       "basename": "理解",
@@ -47,14 +59,6 @@
     {
       "basename": "知识",
       "path": "笔记/学习方法/概念/知识.md"
-    },
-    {
-      "basename": "宿主环境",
-      "path": "笔记/前端/编程语言/JS/宿主环境.md"
-    },
-    {
-      "basename": "数据格式",
-      "path": "笔记/前端/编程语言/JS/数据格式.md"
     },
     {
       "basename": "类型",
@@ -195,10 +199,6 @@
     {
       "basename": "道德",
       "path": "笔记/内心/道德.md"
-    },
-    {
-      "basename": "感恩",
-      "path": "笔记/内心/感恩.md"
     }
   ],
   "omittedPaths": [],

@@ -12,8 +12,32 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/宿主环境.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.095223030686492}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}},\"scroll\":1.5186786153575822}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -86,7 +110,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
+            "file": "笔记/前端/工程化/node/node.md",
             "mode": "source",
             "source": false
           }
@@ -314,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/node/node项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -335,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/node/node项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/工程化/node/node项目.md"
               }
             }
           },
@@ -383,20 +407,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aba79a8018f92bae",
+  "active": "1884d6dcc7ee051a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/工具.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/数据格式.md",
+    "笔记/前端/编程语言/JS/JSON.md",
+    "笔记/工具/工具.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/工具/思考/思考.md",
     "笔记/学习方法/概念/分析.md",
-    "笔记/学习方法/概念/综合.md",
-    "笔记/学习方法/概念/组合.md",
-    "笔记/前端/编程语言/JS/宿主环境.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/异步JS.md"
+    "笔记/学习方法/概念/综合.md"
   ]
 }
