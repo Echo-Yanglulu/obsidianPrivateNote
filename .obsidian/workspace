@@ -12,8 +12,26 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":4.4102111622934554}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":4},\"to\":{\"line\":77,\"ch\":4}},\"scroll\":65.49931633940466}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/TDD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":17.51571688400513}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/编译原理/编译器.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/ESLint/plugins.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/预处理器.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/3.质量/TDD.md",
+            "file": "笔记/前端/工程化/虚拟化.md",
             "mode": "source",
             "source": false
           }
@@ -173,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "memorize",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/TDD.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/TDD.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/TDD.md"
+                "file": "笔记/前端/工程化/kubernetes.md"
               }
             }
           },
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aba79a8018f92bae",
+  "active": "6ef29cacb13a1b14",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/虚拟化.md",
+    "笔记/前端/工程化/Docker.md",
+    "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/工程化/kubernetes.md",
+    "笔记/前端/工程化/3.质量/TDD.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/功能测试.md",
     "笔记/前端/工程化/3.质量/E2E测试.md",
     "笔记/前端/工程化/3.质量/3.质量.md",
-    "笔记/前端/工程化/3.质量/单元测试.md",
-    "笔记/前端/编程语言/TS/断言.md",
-    "笔记/前端/编程语言/JS/表达式.md",
-    "笔记/前端/编程语言/TS/类型断言.md",
-    "笔记/前端/工程化/3.质量/BDD.md",
-    "笔记/前端/设计模式/OO设计模式.md"
+    "笔记/前端/工程化/3.质量/单元测试.md"
   ]
 }
