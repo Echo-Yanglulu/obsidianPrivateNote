@@ -8,9 +8,7 @@ tags: [excalidraw]
 
 
 # Text Elements
-
-# Embedded files
-f3653cc238f4d079a640d006c7673cc684e316ca: [[笔记/前端/assets/Pasted Image 20220827130538_954.svg]]
+[[变量]] ^ffFbLxrr
 
 %%
 # Drawing
@@ -20,6 +18,72 @@ f3653cc238f4d079a640d006c7673cc684e316ca: [[笔记/前端/assets/Pasted Image 20
 	"version": 2,
 	"source": "https://excalidraw.com",
 	"elements": [
+		{
+			"id": "eVN7eiTR2wrY8nMKIlLYV",
+			"type": "ellipse",
+			"x": -195.73385620117188,
+			"y": 66.57391738891602,
+			"width": 76,
+			"height": 60,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 1479423808,
+			"version": 138,
+			"versionNonce": 1314032832,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "ffFbLxrr"
+				}
+			],
+			"updated": 1661576987178,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "ffFbLxrr",
+			"type": "text",
+			"x": -190.73385620117188,
+			"y": 84.07391738891602,
+			"width": 66,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 1682773184,
+			"version": 115,
+			"versionNonce": 1601806144,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1661576987178,
+			"link": "[[变量]]",
+			"locked": false,
+			"text": "📍变量",
+			"rawText": "[[变量]]",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 16,
+			"containerId": "eVN7eiTR2wrY8nMKIlLYV",
+			"originalText": "📍变量"
+		},
 		{
 			"id": "4j-EHAnP3sEecwZO33ute",
 			"type": "image",
@@ -38,11 +102,11 @@ f3653cc238f4d079a640d006c7673cc684e316ca: [[笔记/前端/assets/Pasted Image 20
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"seed": 1856294080,
-			"version": 139,
-			"versionNonce": 304907456,
-			"isDeleted": false,
+			"version": 140,
+			"versionNonce": 1686588608,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1661576902698,
+			"updated": 1661576921618,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -436,6 +500,47 @@ f3653cc238f4d079a640d006c7673cc684e316ca: [[笔记/前端/assets/Pasted Image 20
 			"baseline": 17,
 			"containerId": null,
 			"originalText": ""
+		},
+		{
+			"id": "eM8V42iaFZMuvykC-MCk0",
+			"type": "arrow",
+			"x": 1.446319580078125,
+			"y": -120.74715805053711,
+			"width": 99.68548583984375,
+			"height": 146.7896728515625,
+			"angle": 0,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "round",
+			"seed": 518149312,
+			"version": 41,
+			"versionNonce": 1621222592,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1661576920793,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					99.68548583984375,
+					146.7896728515625
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {

@@ -7,12 +7,18 @@
         "id": "aba79a8018f92bae",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 1,
           "stack": [
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
-              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md\"}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/变量.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.excalidraw.md\"}}",
               "eState": "{}"
             },
             {
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":72},\"to\":{\"line\":40,\"ch\":72}},\"scroll\":27.06551724137931}"
             }
           ]
         },
         "state": {
           "type": "excalidraw",
           "state": {
-            "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md"
+            "file": "笔记/前端/编程语言/JS/JS.excalidraw.md"
           }
         }
       }
@@ -360,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md",
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -381,7 +381,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md",
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -404,7 +404,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md"
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md"
               }
             }
           },
@@ -434,15 +434,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/变量.md",
+    "笔记/前端/编程语言/JS/JS.excalidraw.md",
+    "笔记/学习方法/概念/理解.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/工程化/Docker.md",
     "笔记/前端/工程化/assets/SSH.md",
-    "笔记/前端/工程化/assets/chalk.png",
-    "笔记/前端/工程化/虚拟化.md",
-    "笔记/前端/工程化/kubernetes.md",
-    "笔记/前端/工程化/6.CICD.md"
+    "笔记/前端/工程化/assets/chalk.png"
   ]
 }
