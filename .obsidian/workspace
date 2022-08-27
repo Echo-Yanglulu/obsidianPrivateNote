@@ -12,8 +12,32 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/前端/编程语言/JS基础.svg\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CDN.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -104,39 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":72},\"to\":{\"line\":40,\"ch\":72}},\"scroll\":27.06551724137931}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/作用域.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模板语言.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}},\"scroll\":0}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "excalidraw",
           "state": {
-            "file": "笔记/前端/工程化/CDN.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md"
           }
         }
       }
@@ -231,7 +229,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -362,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/CDN.md",
+                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +381,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/CDN.md",
+                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +404,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/CDN.md"
+                "file": "笔记/前端/编程语言/JS/Drawing 2022-08-27 13.04.31.excalidraw.md"
               }
             }
           },
@@ -436,15 +434,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/Docker.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/工程化/CDN.md",
+    "笔记/前端/工程化/Docker.md",
     "笔记/前端/工程化/assets/SSH.md",
     "笔记/前端/工程化/assets/chalk.png",
     "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/kubernetes.md",
-    "笔记/前端/工程化/6.CICD.md",
-    "笔记/前端/工程化/3.质量/TDD.md",
-    "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/工程化/3.质量/功能测试.md"
+    "笔记/前端/工程化/6.CICD.md"
   ]
 }
