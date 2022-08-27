@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "单元测试",
+      "path": "笔记/前端/工程化/3.质量/单元测试.md"
+    },
+    {
       "basename": "JS工具",
       "path": "笔记/前端/编程语言/JS/JS工具.md"
+    },
+    {
+      "basename": "包管理器",
+      "path": "笔记/前端/工程化/包管理器.md"
+    },
+    {
+      "basename": "JSPM",
+      "path": "笔记/前端/工程化/JSPM.md"
+    },
+    {
+      "basename": "Bower",
+      "path": "笔记/前端/工程化/Bower.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理/包管理.md"
     },
     {
       "basename": "JS",
@@ -179,26 +199,6 @@
     {
       "basename": "原生",
       "path": "笔记/前端/工程化/基本概念/原生.md"
-    },
-    {
-      "basename": "shell",
-      "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "日志轮转",
-      "path": "笔记/前端/工程化/日志轮转.md"
-    },
-    {
-      "basename": "日志文件",
-      "path": "笔记/前端/工程化/日志文件.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "笔记/前端/工程化/Docker.md"
-    },
-    {
-      "basename": "断言",
-      "path": "笔记/前端/编程语言/TS/断言.md"
     }
   ],
   "omittedPaths": [],

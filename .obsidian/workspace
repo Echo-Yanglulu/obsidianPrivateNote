@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS工具.md",
+                "file": "笔记/前端/工程化/3.质量/单元测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS工具.md"
+                "file": "笔记/前端/工程化/3.质量/单元测试.md"
               }
             }
           },
@@ -322,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS工具.md",
+                "file": "笔记/前端/工程化/3.质量/单元测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,20 +334,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "2fe01a26ccba4cf2",
+  "active": "210ea17bef978733",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/JS工具.md",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/前端/工程化/JSPM.md",
+    "笔记/前端/工程化/Bower.md",
+    "笔记/前端/包管理/包管理.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/工具/工具.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/JS在.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/库、框架/LightBox.md",
-    "笔记/前端/库、框架/moo.fx.md",
-    "笔记/前端/库、框架/three.js.md",
-    "笔记/前端/库、框架/D3.md",
-    "笔记/前端/库、框架/Google Closure Library.md"
+    "笔记/前端/库、框架/库、框架.md"
   ]
 }
