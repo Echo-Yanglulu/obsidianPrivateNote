@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "ES规范",
-      "path": "笔记/前端/工程化/5.构建/ES规范.md"
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "数据格式",
+      "path": "笔记/前端/编程语言/JS/数据格式.md"
+    },
+    {
+      "basename": "XML",
+      "path": "笔记/前端/编程语言/JS/XML.md"
+    },
+    {
+      "basename": "JSX",
+      "path": "笔记/前端/库、框架/UI库/JSX.md"
     },
     {
       "basename": "babel",
       "path": "笔记/前端/工程化/5.构建/babel.md"
     },
     {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
+      "basename": "polyfill",
+      "path": "笔记/前端/工程化/5.构建/polyfill.md"
+    },
+    {
+      "basename": "ES规范",
+      "path": "笔记/前端/工程化/5.构建/ES规范.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "笔记/前端/工程化/5.构建/Promise.md"
     },
     {
       "basename": "概述",
@@ -39,10 +59,6 @@
     {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
-      "basename": "JSX",
-      "path": "笔记/前端/库、框架/UI库/JSX.md"
     },
     {
       "basename": "构造器",
@@ -169,14 +185,6 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
-      "basename": "XML",
-      "path": "笔记/前端/编程语言/JS/XML.md"
-    },
-    {
-      "basename": "数据格式",
-      "path": "笔记/前端/编程语言/JS/数据格式.md"
-    },
-    {
       "basename": "SSH",
       "path": "笔记/前端/工程化/assets/SSH.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "编译原理",
       "path": "笔记/前端/基础知识/编译原理/编译原理.md"
-    },
-    {
-      "basename": "通用概念",
-      "path": "笔记/前端/基础知识/通用概念.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
     }
   ],
   "omittedPaths": [],
