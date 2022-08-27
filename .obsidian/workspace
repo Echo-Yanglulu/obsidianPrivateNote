@@ -253,8 +253,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -413,7 +412,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/MVC.md"
               }
             }
           },
@@ -442,7 +441,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -454,20 +453,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "47852c0d7c0df9f1",
+  "active": "c9379d0591291255",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/MVC.md",
     "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/工程化/MVC.svg",
+    "笔记/前端/工程化/MVC.md",
     "笔记/前端/库、框架/UI库/Flux.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/前端/工程化/SPA.md",
     "笔记/前端/工程化/框架.md",
-    "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/严格模式.md"
+    "笔记/前端/工程化/History.md"
   ]
 }
