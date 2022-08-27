@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "JS.excalidraw",
+      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "算法",
+      "path": "笔记/前端/基础知识/算法/算法.md"
+    },
+    {
+      "basename": "计算机组成",
+      "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
+    },
+    {
+      "basename": "通用概念",
+      "path": "笔记/前端/基础知识/通用概念.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+    },
+    {
+      "basename": "计算机基础",
+      "path": "笔记/前端/基础知识/计算机基础.md"
+    },
+    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "性能优化",
+      "path": "笔记/前端/性能优化/性能优化.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "静态资源缓存",
+      "path": "笔记/前端/工程化/静态资源缓存.svg"
+    },
+    {
+      "basename": "静态资源",
+      "path": "笔记/前端/工程化/静态资源.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "同构",
+      "path": "笔记/前端/工程化/node/同构.md"
+    },
+    {
+      "basename": "node事件",
+      "path": "笔记/前端/工程化/node/node事件.md"
+    },
+    {
+      "basename": "process",
+      "path": "笔记/前端/工程化/node/process.md"
+    },
+    {
+      "basename": "node项目",
+      "path": "笔记/前端/工程化/node/node项目.md"
+    },
+    {
+      "basename": "6.CICD",
+      "path": "笔记/前端/工程化/6.CICD.md"
     },
     {
       "basename": "Add Link to Existing File and Open",
@@ -13,20 +89,8 @@
       "path": "笔记/前端/编程语言/JS/表达式.md"
     },
     {
-      "basename": "JS.excalidraw",
-      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
-    },
-    {
       "basename": "变量",
       "path": "笔记/前端/编程语言/JS/变量.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
     },
     {
       "basename": "JS基础",
@@ -51,10 +115,6 @@
     {
       "basename": "虚拟化",
       "path": "笔记/前端/工程化/虚拟化.md"
-    },
-    {
-      "basename": "6.CICD",
-      "path": "笔记/前端/工程化/6.CICD.md"
     },
     {
       "basename": "TDD",
@@ -129,14 +189,6 @@
       "path": "笔记/工具/思考/记忆/属性.md"
     },
     {
-      "basename": "node事件",
-      "path": "笔记/前端/工程化/node/node事件.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
       "basename": "事件",
       "path": "笔记/工具/通用概念/事件.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "模块",
       "path": "笔记/前端/编程语言/JS/模块.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "模块化",
-      "path": "笔记/前端/工程化/模块化.md"
-    },
-    {
-      "basename": "事件发射器",
-      "path": "笔记/工具/通用概念/事件发射器.md"
-    },
-    {
-      "basename": "REPL",
-      "path": "笔记/前端/工程化/REPL.md"
-    },
-    {
-      "basename": "本质",
-      "path": "笔记/工具/通用概念/本质.md"
-    },
-    {
-      "basename": "CSS预处理器",
-      "path": "笔记/前端/工程化/CSS预处理器.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
-      "basename": "模板引擎",
-      "path": "笔记/前端/工程化/模板引擎.md"
-    },
-    {
-      "basename": "bycrypt",
-      "path": "笔记/前端/工程化/bycrypt.md"
-    },
-    {
-      "basename": "中间件",
-      "path": "笔记/前端/工程化/中间件.md"
-    },
-    {
-      "basename": "SPA",
-      "path": "笔记/前端/工程化/SPA.md"
-    },
-    {
-      "basename": "MVC",
-      "path": "笔记/前端/工程化/MVC.md"
-    },
-    {
-      "basename": "同构",
-      "path": "笔记/前端/工程化/node/同构.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 {
   "excalibrainFilepath": "excalibrain.md",
-  "indexUpdateInterval": 5000,
+  "indexUpdateInterval": 50000,
   "hierarchy": {
     "exclusions": [
       "excalidraw-border-color",

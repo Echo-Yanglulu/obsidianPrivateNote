@@ -1,3 +1,6 @@
+---
+时间: 20220827
+---
 plugins是对environments,globals, rules, processor等==配置的封装==
 以eslint-plugin-vue[^1]为例：
 	1. 一系列规则
