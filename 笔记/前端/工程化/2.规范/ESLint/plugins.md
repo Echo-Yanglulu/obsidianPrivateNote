@@ -1,4 +1,4 @@
-plugins是对environments,globals, rules, processor等配置的封装
+plugins是对environments,globals, rules, processor等==配置的封装==
 以eslint-plugin-vue[^1]为例：
 	1. 一系列规则
 	2. 集成好的配置

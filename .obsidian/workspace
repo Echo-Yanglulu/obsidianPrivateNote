@@ -7,25 +7,25 @@
         "id": "aba79a8018f92bae",
         "type": "leaf",
         "pane-relief:history-v1": {
-          "pos": 2,
+          "pos": 0,
           "stack": [
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/5.构建/webpack.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/ESLint/plugins.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}},\"scroll\":0.3846883897500791}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/预处理器.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -134,7 +134,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/预处理器.md",
+            "file": "笔记/前端/工程化/5.构建/webpack.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/路由处理器.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/路由处理器.md",
+                "file": "笔记/前端/工程化/5.构建/webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/路由处理器.md"
+                "file": "笔记/前端/工程化/5.构建/webpack.md"
               }
             }
           },
@@ -431,11 +431,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "4157b48de298e132",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/2.规范/ESLint/plugins.md",
+    "笔记/前端/工程化/预处理器.md",
     "笔记/工具/思考/记忆/路由.md",
     "笔记/工具/思考/记忆/路由处理器.md",
     "笔记/工具/思考/记忆/属性.md",
@@ -443,8 +445,6 @@
     "笔记/前端/工程化/node/node.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/libuv.md",
-    "笔记/前端/编程语言/JS/模块.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/工程化/模块化.md"
+    "笔记/前端/编程语言/JS/模块.md"
   ]
 }
