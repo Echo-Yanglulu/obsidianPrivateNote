@@ -13,7 +13,7 @@
               "leaf": "489dfb7ea24c3589",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":32},\"to\":{\"line\":14,\"ch\":32}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
             },
             {
               "leaf": "489dfb7ea24c3589",
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md",
+                "file": "笔记/前端/库、框架/UI库/react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -413,7 +413,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md"
+                "file": "笔记/前端/库、框架/UI库/react.md"
               }
             }
           },
@@ -442,7 +442,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/库、框架/库、框架.md",
+                "file": "笔记/前端/库、框架/UI库/react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -454,20 +454,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "c361833cab031330",
+  "active": "f6d9930f67dd1d1d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/前端/工程化/SPA.md",
     "笔记/前端/工程化/框架.md",
     "笔记/前端/工程化/History.md",
-    "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/编程语言/JS/严格模式.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/数据类型.md",
-    "笔记/前端/编程语言/JS/引用类型.md",
-    "笔记/前端/编程语言/JS/数据格式.md"
+    "笔记/前端/编程语言/JS/引用类型.md"
   ]
 }
