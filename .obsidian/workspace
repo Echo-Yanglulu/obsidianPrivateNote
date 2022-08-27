@@ -338,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/SPA.md",
+                "file": "笔记/前端/工程化/bycrypt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -359,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/SPA.md",
+                "file": "笔记/前端/工程化/bycrypt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/SPA.md"
+                "file": "笔记/前端/工程化/bycrypt.md"
               }
             }
           },
@@ -412,6 +412,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/中间件.md",
+    "笔记/前端/工程化/SPA.md",
     "笔记/前端/工程化/MVC.md",
     "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/工程化/node/同构.md",
@@ -419,8 +421,6 @@
     "笔记/前端/工程化/node/node项目.md",
     "笔记/工具/通用概念/cURL.md",
     "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/1.脚本/node cli.md",
-    "笔记/工具/通用概念/状态.md",
-    "笔记/前端/工程化/node/package.json.md"
+    "笔记/前端/工程化/1.脚本/node cli.md"
   ]
 }
