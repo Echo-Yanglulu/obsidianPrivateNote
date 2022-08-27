@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "ES规范",
+      "path": "笔记/前端/工程化/5.构建/ES规范.md"
+    },
+    {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/5.构建/babel.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "概述",
+      "path": "笔记/前端/编程语言/JS/概述.md"
     },
     {
       "basename": "宿主环境",
@@ -187,18 +199,6 @@
     {
       "basename": "计算机网络",
       "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "笔记/前端/性能优化/性能优化.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     }
   ],
   "omittedPaths": [],
