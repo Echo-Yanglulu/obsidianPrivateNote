@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "笔记/前端/工程化/Docker.md"
+    },
+    {
+      "basename": "断言",
+      "path": "笔记/前端/编程语言/TS/断言.md"
+    },
+    {
       "basename": "XSS",
       "path": "笔记/前端/工程化/XSS.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "shell",
       "path": "笔记/前端/工程化/基本概念/shell.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "笔记/前端/工程化/Docker.md"
     },
     {
       "basename": "标准库",
@@ -195,10 +199,6 @@
     {
       "basename": "2.测试",
       "path": "笔记/前端/工程化/3.质量/2.测试.md"
-    },
-    {
-      "basename": "3.质量",
-      "path": "笔记/前端/工程化/3.质量/3.质量.md"
     }
   ],
   "omittedPaths": [],
