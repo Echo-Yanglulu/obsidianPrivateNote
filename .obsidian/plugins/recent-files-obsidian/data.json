@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "JS工具",
+      "path": "笔记/前端/编程语言/JS/JS工具.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/工具/工具.md"
+    },
+    {
+      "basename": "函数",
+      "path": "笔记/前端/编程语言/JS/函数.md"
+    },
+    {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "LightBox",
+      "path": "笔记/前端/库、框架/LightBox.md"
+    },
+    {
+      "basename": "moo.fx",
+      "path": "笔记/前端/库、框架/moo.fx.md"
+    },
+    {
+      "basename": "three.js",
+      "path": "笔记/前端/库、框架/three.js.md"
+    },
+    {
+      "basename": "D3",
+      "path": "笔记/前端/库、框架/D3.md"
     },
     {
       "basename": "Google Closure Library",
@@ -71,14 +103,6 @@
     {
       "basename": "严格模式",
       "path": "笔记/前端/编程语言/JS/严格模式.md"
-    },
-    {
-      "basename": "函数",
-      "path": "笔记/前端/编程语言/JS/函数.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "数据类型",
@@ -175,30 +199,6 @@
     {
       "basename": "断言",
       "path": "笔记/前端/编程语言/TS/断言.md"
-    },
-    {
-      "basename": "XSS",
-      "path": "笔记/前端/工程化/XSS.md"
-    },
-    {
-      "basename": "缓存",
-      "path": "笔记/前端/工程化/缓存.md"
-    },
-    {
-      "basename": "带宽",
-      "path": "笔记/前端/工程化/带宽.md"
-    },
-    {
-      "basename": "mixin",
-      "path": "笔记/前端/工程化/mixin.md"
-    },
-    {
-      "basename": "类",
-      "path": "笔记/前端/编程语言/JS/基本概念/类.md"
-    },
-    {
-      "basename": "静态资源",
-      "path": "笔记/前端/工程化/静态资源.md"
     }
   ],
   "omittedPaths": [],
