@@ -220,7 +220,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 39.39698492462311,
+        "dimension": 39.41236068895643,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -326,7 +326,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 32.8643216080402,
+        "dimension": 32.82674772036474,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -338,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/node/node项目.md",
+                "file": "笔记/前端/工程化/node/package.json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -359,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/node/node项目.md",
+                "file": "笔记/前端/工程化/node/package.json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -370,7 +370,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 27.738693467336685,
+        "dimension": 27.760891590678828,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -382,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/node/node项目.md"
+                "file": "笔记/前端/工程化/node/package.json.md"
               }
             }
           },
@@ -407,20 +407,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "1884d6dcc7ee051a",
+  "active": "d24c3353c3cbc1d5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/node/node项目.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/前端/包管理/yarn.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/宿主环境.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/数据格式.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/工具/工具.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/学习方法/概念/分析.md",
-    "笔记/学习方法/概念/综合.md"
+    "笔记/工具/工具.md"
   ]
 }
