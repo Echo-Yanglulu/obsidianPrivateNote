@@ -13,7 +13,7 @@
               "leaf": "6dfb00741659b478",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":10},\"to\":{\"line\":20,\"ch\":10}},\"scroll\":11.253524053932857}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":9},\"to\":{\"line\":19,\"ch\":9}},\"scroll\":11.253524053932857}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/单元测试.md",
+                "file": "笔记/前端/工程化/包管理器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/单元测试.md"
+                "file": "笔记/前端/工程化/包管理器.md"
               }
             }
           },
@@ -322,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/单元测试.md",
+                "file": "笔记/前端/工程化/包管理器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,20 +334,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "210ea17bef978733",
+  "active": "5ba837ecd29f38a8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/JS工具.md",
-    "笔记/前端/工程化/包管理器.md",
-    "笔记/前端/工程化/JSPM.md",
-    "笔记/前端/工程化/Bower.md",
-    "笔记/前端/包管理/包管理.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/工具/工具.md",
-    "笔记/前端/编程语言/JS/函数.md",
-    "笔记/前端/编程语言/JS/JS在.md",
-    "笔记/前端/库、框架/库、框架.md"
+    "笔记/前端/包管理/包管理.md",
+    "笔记/前端/工程化/3.质量/单元测试.md",
+    "笔记/前端/工程化/3.质量/Dojo Object Harness.md",
+    "笔记/前端/工程化/3.质量/JsUnit.md",
+    "笔记/前端/工程化/3.质量/qUnit.md",
+    "笔记/前端/工程化/3.质量/Jasmine.md",
+    "笔记/前端/工程化/3.质量/Mocha.md",
+    "笔记/前端/编程语言/JS/文档生成器.md"
   ]
 }

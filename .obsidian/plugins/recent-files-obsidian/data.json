@@ -1,16 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "单元测试",
-      "path": "笔记/前端/工程化/3.质量/单元测试.md"
+      "basename": "包管理器",
+      "path": "笔记/前端/工程化/包管理器.md"
     },
     {
       "basename": "JS工具",
       "path": "笔记/前端/编程语言/JS/JS工具.md"
     },
     {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "单元测试",
+      "path": "笔记/前端/工程化/3.质量/单元测试.md"
+    },
+    {
+      "basename": "Dojo Object Harness",
+      "path": "笔记/前端/工程化/3.质量/Dojo Object Harness.md"
+    },
+    {
+      "basename": "JsUnit",
+      "path": "笔记/前端/工程化/3.质量/JsUnit.md"
+    },
+    {
+      "basename": "qUnit",
+      "path": "笔记/前端/工程化/3.质量/qUnit.md"
+    },
+    {
+      "basename": "Jasmine",
+      "path": "笔记/前端/工程化/3.质量/Jasmine.md"
+    },
+    {
+      "basename": "Mocha",
+      "path": "笔记/前端/工程化/3.质量/Mocha.md"
+    },
+    {
+      "basename": "文档生成器",
+      "path": "笔记/前端/编程语言/JS/文档生成器.md"
+    },
+    {
+      "basename": "AjaxDoc",
+      "path": "笔记/前端/编程语言/JS/AjaxDoc.md"
+    },
+    {
+      "basename": "YUI Doc",
+      "path": "笔记/前端/编程语言/JS/YUI Doc.md"
+    },
+    {
+      "basename": "JsDoc Toolkit",
+      "path": "笔记/前端/编程语言/JS/JsDoc Toolkit.md"
+    },
+    {
+      "basename": "Docco",
+      "path": "笔记/前端/编程语言/JS/Docco.md"
+    },
+    {
+      "basename": "documentation.js",
+      "path": "笔记/前端/编程语言/JS/documentation.js.md"
+    },
+    {
+      "basename": "ESDoc",
+      "path": "笔记/前端/编程语言/JS/ESDoc.md"
     },
     {
       "basename": "JSPM",
@@ -19,14 +71,6 @@
     {
       "basename": "Bower",
       "path": "笔记/前端/工程化/Bower.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理/包管理.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "工具",
@@ -151,54 +195,6 @@
     {
       "basename": "ES规范",
       "path": "笔记/前端/工程化/5.构建/ES规范.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "笔记/前端/工程化/5.构建/Promise.md"
-    },
-    {
-      "basename": "概述",
-      "path": "笔记/前端/编程语言/JS/概述.md"
-    },
-    {
-      "basename": "宿主环境",
-      "path": "笔记/前端/编程语言/JS/宿主环境.md"
-    },
-    {
-      "basename": "标准库",
-      "path": "笔记/前端/编程语言/JS/标准库.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "网络抓取",
-      "path": "笔记/前端/库、框架/UI库/网络抓取.md"
-    },
-    {
-      "basename": "构造器",
-      "path": "笔记/前端/库、框架/UI库/构造器.md"
-    },
-    {
-      "basename": "robots.txt",
-      "path": "笔记/前端/库、框架/UI库/robots.txt.md"
-    },
-    {
-      "basename": "抓取器",
-      "path": "笔记/前端/库、框架/UI库/抓取器.md"
-    },
-    {
-      "basename": "爬虫",
-      "path": "笔记/前端/库、框架/UI库/爬虫.md"
-    },
-    {
-      "basename": "原生",
-      "path": "笔记/前端/工程化/基本概念/原生.md"
     }
   ],
   "omittedPaths": [],
