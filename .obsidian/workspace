@@ -230,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -362,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md",
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -383,7 +382,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md",
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -406,7 +405,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell.md"
+                "file": "笔记/前端/编程语言/JS/JS.excalidraw.md"
               }
             }
           },
@@ -436,15 +435,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/变量.md",
+    "笔记/前端/编程语言/JS/JS.excalidraw.md",
+    "笔记/前端/工程化/基本概念/shell.md",
     "笔记/前端/工程化/assets/SSH.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/JS.excalidraw.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/基础知识/算法/算法.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
     "笔记/前端/基础知识/编译原理/编译原理.md",
-    "笔记/前端/基础知识/通用概念.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/计算机基础.md"
+    "笔记/前端/基础知识/通用概念.md"
   ]
 }
