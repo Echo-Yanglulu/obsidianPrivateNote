@@ -1,1 +1,1 @@
-与react, angular, vue都不一样，因为它是[[同构]]的JS框架。
+与react, angular, vue都不一样，因为它是[[同构]]的JS框架（客户端与服务器端共享一套代码）。

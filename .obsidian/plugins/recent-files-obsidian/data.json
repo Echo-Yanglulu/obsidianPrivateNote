@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "Backbone",
+      "path": "笔记/前端/库、框架/Backbone.md"
+    },
+    {
       "basename": "Meteor",
       "path": "笔记/前端/库、框架/Meteor.md"
     },
     {
       "basename": "同构",
       "path": "笔记/前端/工程化/node/同构.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
     },
     {
       "basename": "vue",
@@ -195,10 +199,6 @@
     {
       "basename": "变量",
       "path": "笔记/前端/编程语言/JS/变量.md"
-    },
-    {
-      "basename": "JS.excalidraw",
-      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
     }
   ],
   "omittedPaths": [],
