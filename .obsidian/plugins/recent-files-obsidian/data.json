@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/宿主环境.md"
+    },
+    {
+      "basename": "标准库",
+      "path": "笔记/前端/编程语言/JS/标准库.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "笔记/前端/编程语言/JS/DOM.md"
+    },
+    {
       "basename": "网络抓取",
       "path": "笔记/前端/库、框架/UI库/网络抓取.md"
     },
@@ -35,10 +55,6 @@
     {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "原生",
@@ -91,10 +107,6 @@
     {
       "basename": "部署：发布策略",
       "path": "笔记/前端/工程化/部署：发布策略.md"
-    },
-    {
-      "basename": "标准库",
-      "path": "笔记/前端/编程语言/JS/标准库.md"
     },
     {
       "basename": "函数",
@@ -187,18 +199,6 @@
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "静态资源缓存",
-      "path": "笔记/前端/工程化/静态资源缓存.svg"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "同构",
-      "path": "笔记/前端/工程化/node/同构.md"
     }
   ],
   "omittedPaths": [],
