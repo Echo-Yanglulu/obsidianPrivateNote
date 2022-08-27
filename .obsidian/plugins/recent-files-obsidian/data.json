@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "模块",
+      "path": "笔记/前端/编程语言/JS/模块.md"
+    },
+    {
+      "basename": "模块化",
+      "path": "笔记/前端/工程化/模块化.md"
+    },
+    {
       "basename": "事件",
       "path": "笔记/工具/通用概念/事件.md"
     },
     {
-      "basename": "模块",
-      "path": "笔记/前端/编程语言/JS/模块.md"
+      "basename": "事件发射器",
+      "path": "笔记/工具/通用概念/事件发射器.md"
     },
     {
       "basename": "REPL",
@@ -191,14 +199,6 @@
     {
       "basename": "演讲",
       "path": "笔记/行为/演讲/演讲.md"
-    },
-    {
-      "basename": "标准库",
-      "path": "笔记/前端/编程语言/JS/标准库.md"
-    },
-    {
-      "basename": "模块化",
-      "path": "笔记/前端/工程化/模块化.md"
     }
   ],
   "omittedPaths": [],
