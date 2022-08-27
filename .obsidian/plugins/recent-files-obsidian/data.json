@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "CDN",
+      "path": "笔记/前端/工程化/CDN.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "笔记/前端/工程化/Docker.md"
+    },
+    {
       "basename": "SSH",
       "path": "笔记/前端/工程化/assets/SSH.md"
     },
     {
       "basename": "chalk",
       "path": "笔记/前端/工程化/assets/chalk.png"
-    },
-    {
-      "basename": "Docker",
-      "path": "笔记/前端/工程化/Docker.md"
     },
     {
       "basename": "虚拟化",
@@ -195,10 +199,6 @@
     {
       "basename": "状态",
       "path": "笔记/工具/通用概念/状态.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     }
   ],
   "omittedPaths": [],

@@ -12,8 +12,14 @@
             {
               "leaf": "aba79a8018f92bae",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CDN.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "aba79a8018f92bae",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":14.174106017957103}"
+              "eState": "{\"scroll\":14.861905060910114}"
             },
             {
               "leaf": "aba79a8018f92bae",
@@ -122,48 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}},\"scroll\":0}"
-            },
-            {
-              "leaf": "aba79a8018f92bae",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0.8459770114942529}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/Docker.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "f794b65202b87db2",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "f794b65202b87db2",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/assets/SSH.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "f794b65202b87db2",
-              "group": null,
-              "state": "{\"type\":\"image\",\"state\":{\"file\":\"笔记/前端/工程化/assets/chalk.png\"}}",
-              "eState": "{}"
-            }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/工程化/assets/SSH.md",
+            "file": "笔记/前端/工程化/CDN.md",
             "mode": "source",
             "source": false
           }
@@ -391,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/assets/SSH.md",
+                "file": "笔记/前端/工程化/CDN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -412,7 +383,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/assets/SSH.md",
+                "file": "笔记/前端/工程化/CDN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -435,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/assets/SSH.md"
+                "file": "笔记/前端/工程化/CDN.md"
               }
             }
           },
@@ -460,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f794b65202b87db2",
+  "active": "aba79a8018f92bae",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/assets/chalk.png",
     "笔记/前端/工程化/Docker.md",
+    "笔记/前端/工程化/CDN.md",
+    "笔记/前端/工程化/assets/SSH.md",
+    "笔记/前端/工程化/assets/chalk.png",
     "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/工程化/3.质量/TDD.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/工程化/3.质量/功能测试.md",
-    "笔记/前端/工程化/3.质量/E2E测试.md",
-    "笔记/前端/工程化/3.质量/3.质量.md"
+    "笔记/前端/工程化/3.质量/功能测试.md"
   ]
 }
