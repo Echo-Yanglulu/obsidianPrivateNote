@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "操作系统",
-      "path": "笔记/前端/基础知识/操作系统/操作系统.md"
+      "basename": "kubernetes",
+      "path": "笔记/前端/工程化/kubernetes.md"
     },
     {
       "basename": "计算机组成",
       "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+    },
+    {
+      "basename": "操作系统",
+      "path": "笔记/前端/基础知识/操作系统/操作系统.md"
     },
     {
       "basename": "计算机硬件",
@@ -195,10 +199,6 @@
     {
       "basename": "three.js",
       "path": "笔记/前端/库、框架/three.js.md"
-    },
-    {
-      "basename": "D3",
-      "path": "笔记/前端/库、框架/D3.md"
     }
   ],
   "omittedPaths": [],

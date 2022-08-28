@@ -12,8 +12,14 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/kubernetes.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":16},\"to\":{\"line\":14,\"ch\":16}}}"
+              "eState": "{}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -116,7 +122,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+            "file": "笔记/前端/工程化/kubernetes.md",
             "mode": "source",
             "source": false
           }
@@ -343,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -371,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md"
+                "file": "笔记/前端/工程化/kubernetes.md"
               }
             }
           },
@@ -400,7 +406,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,12 +418,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ceb9ef1c383f4a1c",
+  "active": "6dfb00741659b478",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
+    "笔记/前端/基础知识/操作系统/操作系统.md",
     "笔记/前端/基础知识/操作系统/计算机硬件.md",
     "笔记/前端/基础知识/计算机组成/应用程序.md",
     "笔记/前端/编程语言/JS/Web浏览器.md",
@@ -425,7 +432,6 @@
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/操作系统/操作系统.md",
     "笔记/前端/基础知识/操作系统/进程.md"
   ]
 }
