@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "kubernetes",
+      "path": "笔记/前端/工程化/kubernetes.md"
+    },
+    {
       "basename": "基础设施",
       "path": "笔记/前端/工程化/基础设施.md"
     },
     {
-      "basename": "kubernetes",
-      "path": "笔记/前端/工程化/kubernetes.md"
+      "basename": "公共服务",
+      "path": "笔记/前端/工程化/公共服务.md"
     },
     {
       "basename": "云原生",
@@ -195,10 +199,6 @@
     {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "LightBox",
-      "path": "笔记/前端/库、框架/LightBox.md"
     }
   ],
   "omittedPaths": [],

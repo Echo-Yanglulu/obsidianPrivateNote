@@ -349,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基础设施.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -377,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基础设施.md"
+                "file": "笔记/前端/工程化/kubernetes.md"
               }
             }
           },
@@ -406,7 +406,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基础设施.md",
+                "file": "笔记/前端/工程化/kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -418,11 +418,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "8d8d08d845facfa8",
+  "active": "6dfb00741659b478",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/基础设施.md",
+    "笔记/前端/工程化/公共服务.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/云原生.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
@@ -430,8 +432,6 @@
     "笔记/前端/基础知识/操作系统/计算机硬件.md",
     "笔记/前端/基础知识/计算机组成/应用程序.md",
     "笔记/前端/编程语言/JS/Web浏览器.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md"
+    "笔记/前端/编程语言/JS/浏览器.md"
   ]
 }
