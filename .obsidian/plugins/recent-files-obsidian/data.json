@@ -5,6 +5,14 @@
       "path": "笔记/前端/基础知识/操作系统/操作系统.md"
     },
     {
+      "basename": "并发",
+      "path": "笔记/前端/基础知识/操作系统/并发.md"
+    },
+    {
+      "basename": "进程",
+      "path": "笔记/前端/基础知识/操作系统/进程.md"
+    },
+    {
       "basename": "计算机组成",
       "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
-      "basename": "MVC",
-      "path": "笔记/前端/工程化/MVC.md"
-    },
-    {
-      "basename": "MVC",
-      "path": "笔记/前端/工程化/MVC.svg"
     }
   ],
   "omittedPaths": [],
