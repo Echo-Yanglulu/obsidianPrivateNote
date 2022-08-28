@@ -11,7 +11,7 @@
     "downscalePercent": 100
   },
   "showLineNumber": false,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "attachmentFolderPath": "笔记/前端/assets",
   "newFileLocation": "current",
   "showUnsupportedFiles": false,
@@ -23,5 +23,6 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "autoPairMarkdown": true,
-  "autoConvertHtml": false
+  "autoConvertHtml": false,
+  "spellcheck": false
 }
