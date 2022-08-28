@@ -173,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "环境变量",
+                "query": "changelog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,7 +230,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -361,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
+                "file": "笔记/前端/工程化/2.规范/git工程规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -389,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md"
+                "file": "笔记/前端/工程化/2.规范/git工程规范.md"
               }
             }
           },
@@ -418,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
+                "file": "笔记/前端/工程化/2.规范/git工程规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -430,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "e75800ad202a6dcb",
+  "active": "f5ac3cb24e17cb89",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/2.规范/git工程规范.md",
+    "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/commit message规范.md",
+    "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/FDD.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/基础设施.md",
     "笔记/前端/工程化/公共服务.md",
     "笔记/前端/工程化/云原生.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成.md",
-    "笔记/前端/基础知识/操作系统/操作系统.md"
+    "笔记/前端/基础知识/计算机组成/计算机组成.md"
   ]
 }
