@@ -13,7 +13,7 @@
               "leaf": "6dfb00741659b478",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":15},\"to\":{\"line\":4,\"ch\":15}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":5},\"to\":{\"line\":4,\"ch\":5}}}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -319,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/基础知识/操作系统/计算机硬件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -347,7 +347,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md"
+                "file": "笔记/前端/基础知识/操作系统/计算机硬件.md"
               }
             }
           },
@@ -376,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/基础知识/操作系统/计算机硬件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,16 +388,16 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6dfb00741659b478",
+  "active": "6a6013a48a90257f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/基础知识/操作系统/操作系统结构.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
+    "笔记/前端/基础知识/操作系统/进程.md",
+    "笔记/前端/基础知识/操作系统/操作系统结构.md",
     "笔记/前端/基础知识/操作系统/编程环境.md",
     "笔记/前端/基础知识/操作系统/并发.md",
-    "笔记/前端/基础知识/操作系统/进程.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
     "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md",
     "笔记/前端/工程化/虚拟化.md",

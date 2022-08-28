@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机硬件",
+      "path": "笔记/前端/基础知识/操作系统/计算机硬件.md"
+    },
+    {
       "basename": "操作系统",
       "path": "笔记/前端/基础知识/操作系统/操作系统.md"
+    },
+    {
+      "basename": "进程",
+      "path": "笔记/前端/基础知识/操作系统/进程.md"
     },
     {
       "basename": "操作系统结构",
@@ -15,10 +23,6 @@
     {
       "basename": "并发",
       "path": "笔记/前端/基础知识/操作系统/并发.md"
-    },
-    {
-      "basename": "进程",
-      "path": "笔记/前端/基础知识/操作系统/进程.md"
     },
     {
       "basename": "计算机组成",
@@ -195,10 +199,6 @@
     {
       "basename": "Meteor",
       "path": "笔记/前端/库、框架/Meteor.md"
-    },
-    {
-      "basename": "同构",
-      "path": "笔记/前端/工程化/node/同构.md"
     }
   ],
   "omittedPaths": [],
