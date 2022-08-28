@@ -12,8 +12,14 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":9},\"to\":{\"line\":92,\"ch\":9}},\"scroll\":76.7642749318322}"
+              "eState": "{\"scroll\":115.81876302964525}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -38,7 +44,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/学习方法/自己的学习行为.md",
+            "file": "笔记/学习方法/概念/知识.md",
             "mode": "source",
             "source": false
           }
@@ -266,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/学习方法/概念/环境思维.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -294,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md"
+                "file": "笔记/学习方法/概念/环境思维.md"
               }
             }
           },
@@ -323,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/学习方法/概念/环境思维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,20 +341,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "f803c62bf2d0b7de",
+  "active": "db3eec4a989fad19",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/概念/临界知识.md",
+    "笔记/学习方法/概念/知识.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/2.规范/release-it.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/1.脚本/1.脚本.md",
-    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
-    "笔记/前端/工程化/脚手架/脚手架.md"
+    "笔记/前端/工程化/1.脚本/1.脚本.md"
   ]
 }
