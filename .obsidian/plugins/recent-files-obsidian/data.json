@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "运行环境",
-      "path": "笔记/前端/工程化/运行环境.md"
+      "basename": "操作系统",
+      "path": "笔记/前端/基础知识/操作系统/操作系统.md"
     },
     {
       "basename": "虚拟化",
       "path": "笔记/前端/工程化/虚拟化.md"
+    },
+    {
+      "basename": "算法",
+      "path": "笔记/前端/基础知识/算法/算法.md"
+    },
+    {
+      "basename": "计算机组成",
+      "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "运行环境",
+      "path": "笔记/前端/工程化/运行环境.md"
     },
     {
       "basename": "bash",
@@ -175,30 +199,6 @@
     {
       "basename": "Flux",
       "path": "笔记/前端/库、框架/UI库/Flux.md"
-    },
-    {
-      "basename": "JSX",
-      "path": "笔记/前端/库、框架/UI库/JSX.md"
-    },
-    {
-      "basename": "UI库",
-      "path": "笔记/前端/库、框架/UI库/UI库.md"
-    },
-    {
-      "basename": "SPA",
-      "path": "笔记/前端/工程化/SPA.md"
-    },
-    {
-      "basename": "框架",
-      "path": "笔记/前端/工程化/框架.md"
-    },
-    {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
-    },
-    {
-      "basename": "严格模式",
-      "path": "笔记/前端/编程语言/JS/严格模式.md"
     }
   ],
   "omittedPaths": [],
