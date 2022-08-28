@@ -12,8 +12,14 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":15},\"to\":{\"line\":1,\"ch\":15}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -74,7 +80,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+            "file": "笔记/前端/基础知识/操作系统/操作系统.md",
             "mode": "source",
             "source": false
           }
@@ -301,7 +307,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -329,7 +335,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md"
               }
             }
           },
@@ -358,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -375,8 +381,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
+    "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
     "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/基础知识/算法/算法.md",
