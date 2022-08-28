@@ -12,8 +12,20 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/git工程规范.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/kubernetes.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}}}"
+              "eState": "{}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -122,7 +134,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/kubernetes.md",
+            "file": "笔记/前端/工程化/git.md",
             "mode": "source",
             "source": false
           }
@@ -349,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -377,7 +389,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md"
+                "file": "笔记/前端/工程化/git.md"
               }
             }
           },
@@ -406,7 +418,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,15 +435,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/2.规范/git工程规范.md",
+    "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/基础设施.md",
     "笔记/前端/工程化/公共服务.md",
-    "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/云原生.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
     "笔记/前端/基础知识/操作系统/计算机硬件.md",
     "笔记/前端/基础知识/计算机组成/应用程序.md",
-    "笔记/前端/编程语言/JS/Web浏览器.md",
-    "笔记/前端/编程语言/JS/浏览器.md"
+    "笔记/前端/编程语言/JS/Web浏览器.md"
   ]
 }
