@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/间隔重复.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -294,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/间隔重复.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -323,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/间隔重复.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,11 +335,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "00afc31333685d45",
+  "active": "f803c62bf2d0b7de",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/工程化/工程化.md",
@@ -348,7 +349,6 @@
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
-    "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/脚手架/Schemetics.md"
+    "笔记/前端/工程化/脚手架/脚手架.md"
   ]
 }
