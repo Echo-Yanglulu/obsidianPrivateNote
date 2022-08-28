@@ -16,3 +16,4 @@ git flow采用了[[FDD]]，
 5. hotfix：紧急修复一些bug，基于master的tag建立，修复结束后合并到develop与master。
 # git commit 规范
 [[commit message规范]] 
+修改git commit 使用的插件：npm i -g cz-customizable
