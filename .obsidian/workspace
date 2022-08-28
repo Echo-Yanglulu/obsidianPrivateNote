@@ -12,8 +12,14 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统结构.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":14},\"to\":{\"line\":4,\"ch\":14}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":15},\"to\":{\"line\":4,\"ch\":15}},\"scroll\":0}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -80,7 +86,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+            "file": "笔记/前端/基础知识/操作系统/操作系统结构.md",
             "mode": "source",
             "source": false
           }
@@ -307,7 +313,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -335,7 +341,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md"
+                "file": "笔记/前端/基础知识/操作系统/操作系统结构.md"
               }
             }
           },
@@ -364,7 +370,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -381,8 +387,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/基础知识/操作系统/操作系统结构.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
+    "笔记/前端/基础知识/操作系统/操作系统结构.md",
     "笔记/前端/基础知识/操作系统/编程环境.md",
     "笔记/前端/基础知识/操作系统/并发.md",
     "笔记/前端/基础知识/操作系统/进程.md",
