@@ -23,4 +23,4 @@ angular规范
 4. body：具体修改内容，可多行，建议符合上述
 5. footer：备注。通常是breaking change、修复BUG的链接。
 
-记不住？用CLI工具：commitizen
+记不住？用CLI工具：[[commitizen]]

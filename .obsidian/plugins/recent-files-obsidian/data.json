@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "commitizen",
+      "path": "笔记/前端/工程化/2.规范/commitizen.md"
+    },
+    {
       "basename": "commit message规范",
       "path": "笔记/前端/工程化/2.规范/commit message规范.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "FDD",
       "path": "笔记/前端/工程化/2.规范/FDD.md"
-    },
-    {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
     },
     {
       "basename": "kubernetes",
@@ -195,10 +199,6 @@
     {
       "basename": "Docco",
       "path": "笔记/前端/编程语言/JS/Docco.md"
-    },
-    {
-      "basename": "documentation.js",
-      "path": "笔记/前端/编程语言/JS/documentation.js.md"
     }
   ],
   "omittedPaths": [],

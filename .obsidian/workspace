@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
+                "file": "笔记/前端/工程化/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md"
+                "file": "笔记/前端/工程化/git.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
+                "file": "笔记/前端/工程化/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "db3cbdc8c6e25a0c",
+  "active": "131560afdcdb1b45",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/2.规范/commitizen.md",
+    "笔记/前端/工程化/2.规范/commit message规范.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/前端/工程化/2.规范/commit message规范.md",
     "笔记/前端/工程化/2.规范/FDD.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/基础设施.md",
     "笔记/前端/工程化/公共服务.md",
-    "笔记/前端/工程化/云原生.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成.md"
+    "笔记/前端/工程化/云原生.md"
   ]
 }
