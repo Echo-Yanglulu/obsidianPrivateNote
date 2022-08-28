@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/kubernetes.md"
     },
     {
+      "basename": "云原生",
+      "path": "笔记/前端/工程化/云原生.md"
+    },
+    {
       "basename": "计算机组成",
       "path": "笔记/前端/基础知识/计算机组成/计算机组成.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "moo.fx",
       "path": "笔记/前端/库、框架/moo.fx.md"
-    },
-    {
-      "basename": "three.js",
-      "path": "笔记/前端/库、框架/three.js.md"
     }
   ],
   "omittedPaths": [],
