@@ -14,8 +14,13 @@ angular规范
 	2. fix
 	3. refactor：代码重构
 	4. docs：文档修改
-	5. style：如缩进整体由2个空格变成4个空格。
-	6. test：
+	5. style：代码格式修改。如缩进整体由2个空格变成4个空格。
+	6. test：测试用例修改。
 	7. chore：其他修改（构建流程，依赖管理）
-2. body
-3. footer
+2. scope：影响范围
+	1. route, component, utils, build
+3. subject：概述，建议符合50/72 formatting
+4. body：具体修改内容，可多行，建议符合上述
+5. footer：备注。通常是breaking change、修复BUG的链接。
+
+记不住？用CLI工具：commitizen
