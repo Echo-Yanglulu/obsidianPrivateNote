@@ -12,8 +12,14 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}},\"scroll\":0}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/调试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":13},\"to\":{\"line\":6,\"ch\":13}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -26,7 +32,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/基础知识/调试.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -254,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/调试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -282,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/调试.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -311,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/调试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,15 +334,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/基础知识/调试.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/commit message规范.md",
     "笔记/前端/工程化/2.规范/commitizen.md",
     "笔记/前端/工程化/2.规范/FDD.md",
-    "笔记/前端/工程化/kubernetes.md",
-    "笔记/前端/工程化/基础设施.md",
-    "笔记/前端/工程化/公共服务.md",
-    "笔记/前端/工程化/云原生.md"
+    "笔记/前端/工程化/kubernetes.md"
   ]
 }
