@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "4.工程设计",
-      "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/2.规范/版本规范.md"
     },
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "1.脚本",
+      "path": "笔记/前端/工程化/1.脚本/1.脚本.md"
+    },
+    {
+      "basename": "4.工程设计",
+      "path": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
     },
     {
       "basename": "脚手架",
@@ -169,10 +181,6 @@
       "path": "笔记/前端/工程化/Bower.md"
     },
     {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
-    },
-    {
       "basename": "node项目",
       "path": "笔记/前端/工程化/node/node项目.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "JsUnit",
       "path": "笔记/前端/工程化/3.质量/JsUnit.md"
-    },
-    {
-      "basename": "qUnit",
-      "path": "笔记/前端/工程化/3.质量/qUnit.md"
-    },
-    {
-      "basename": "Jasmine",
-      "path": "笔记/前端/工程化/3.质量/Jasmine.md"
     }
   ],
   "omittedPaths": [],

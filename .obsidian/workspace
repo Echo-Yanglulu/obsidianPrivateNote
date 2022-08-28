@@ -13,7 +13,7 @@
               "leaf": "f803c62bf2d0b7de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}},\"scroll\":0}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/4.工程设计/4.工程设计.md",
+                "file": "笔记/前端/工程化/2.规范/版本规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -288,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/4.工程设计/4.工程设计.md"
+                "file": "笔记/前端/工程化/2.规范/版本规范.md"
               }
             }
           },
@@ -317,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/4.工程设计/4.工程设计.md",
+                "file": "笔记/前端/工程化/2.规范/版本规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,20 +329,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "52591bb931c065ab",
+  "active": "13c54fe1b4cdae89",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/1.脚本/1.脚本.md",
+    "笔记/前端/工程化/4.工程设计/4.工程设计.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/脚手架/Schemetics.md",
     "笔记/前端/工程化/node/库/yeoman-generator.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/基础知识/调试.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/2.规范/git工程规范.md",
-    "笔记/前端/工程化/2.规范/2.规范.md",
-    "笔记/前端/工程化/2.规范/commit message规范.md"
+    "笔记/前端/工程化/git.md"
   ]
 }
