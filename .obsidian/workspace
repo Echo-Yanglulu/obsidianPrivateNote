@@ -12,8 +12,14 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/基本概念/shell解释器/bash.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":44.65412875819004}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":6},\"to\":{\"line\":3,\"ch\":6}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -62,7 +68,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/虚拟化.md",
+            "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
             "mode": "source",
             "source": false
           }
@@ -101,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stage",
+                "query": "环境变量",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -290,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -318,7 +324,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md"
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
               }
             }
           },
@@ -347,7 +353,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,6 +370,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/Docker.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/编程语言/JS/JS.md",
@@ -372,7 +379,6 @@
     "笔记/前端/工程化/Bower.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/node项目.md",
-    "笔记/前端/工程化/node/node.md",
-    "笔记/前端/包管理/包管理.md"
+    "笔记/前端/工程化/node/node.md"
   ]
 }
