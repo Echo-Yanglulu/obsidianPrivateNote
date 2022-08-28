@@ -5,6 +5,10 @@
       "path": "笔记/前端/基础知识/操作系统/操作系统.md"
     },
     {
+      "basename": "编程环境",
+      "path": "笔记/前端/基础知识/操作系统/编程环境.md"
+    },
+    {
       "basename": "并发",
       "path": "笔记/前端/基础知识/操作系统/并发.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "vue",
       "path": "笔记/前端/库、框架/UI库/vue.md"
-    },
-    {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
     }
   ],
   "omittedPaths": [],
