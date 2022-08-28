@@ -48,6 +48,8 @@ git hook：提升协同代码质量
 	1. 每个终点，都代表当前仓库有至少一个分支
 	
 git status => gst
+# git hook
+git 仓库中特定事件触发后被调用的脚本。
 # 常用操作
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme

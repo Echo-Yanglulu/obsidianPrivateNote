@@ -4,130 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6dfb00741659b478",
+        "id": "f803c62bf2d0b7de",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "6dfb00741659b478",
+              "leaf": "f803c62bf2d0b7de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":37.8298}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/git工程规范.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/kubernetes.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统结构.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":6},\"to\":{\"line\":26,\"ch\":6}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":15},\"to\":{\"line\":4,\"ch\":15}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/操作系统/操作系统.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":36},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":1.0342233962896348}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":6},\"to\":{\"line\":82,\"ch\":6}},\"scroll\":68.3610154498628}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":36},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":2.6108108093949483}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.629926139652008}"
-            },
-            {
-              "leaf": "6dfb00741659b478",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
@@ -431,16 +317,16 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6dfb00741659b478",
+  "active": "f803c62bf2d0b7de",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/2.规范/commit message规范.md",
-    "笔记/前端/工程化/2.规范/commitizen.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/git.md",
+    "笔记/前端/工程化/2.规范/commit message规范.md",
+    "笔记/前端/工程化/2.规范/commitizen.md",
     "笔记/前端/工程化/2.规范/FDD.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/基础设施.md",
