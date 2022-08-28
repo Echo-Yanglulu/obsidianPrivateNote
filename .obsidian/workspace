@@ -13,7 +13,7 @@
               "leaf": "6dfb00741659b478",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":9},\"to\":{\"line\":19,\"ch\":9}},\"scroll\":11.253524053932857}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}},\"scroll\":11.253524053932857}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -265,7 +265,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/Bower.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/Bower.md"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -322,7 +322,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/Bower.md",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,15 +334,15 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "aaa3bcc4d18c1017",
+  "active": "6dfb00741659b478",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/Bower.md",
-    "笔记/前端/工程化/包管理器.md",
     "笔记/前端/编程语言/JS/JS工具.md",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/前端/工程化/Bower.md",
+    "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/node项目.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/JS.md",
