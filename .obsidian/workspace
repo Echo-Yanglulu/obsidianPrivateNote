@@ -19,7 +19,7 @@
               "leaf": "6dfb00741659b478",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":27},\"to\":{\"line\":5,\"ch\":27}},\"scroll\":0}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -296,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/运行环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -324,7 +324,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md"
+                "file": "笔记/前端/工程化/运行环境.md"
               }
             }
           },
@@ -353,7 +353,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/工程化/运行环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -365,13 +365,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6dfb00741659b478",
+  "active": "baa0efbc581092a6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
     "笔记/前端/工程化/虚拟化.md",
+    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
     "笔记/前端/工程化/Docker.md",
     "笔记/前端/工程化/6.CICD.md",
     "笔记/前端/编程语言/JS/JS.md",
