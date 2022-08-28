@@ -272,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/概念/结果思维.md",
+                "file": "笔记/学习方法/概念/系统思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -300,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/学习方法/概念/结果思维.md"
+                "file": "笔记/学习方法/概念/系统思考.md"
               }
             }
           },
@@ -329,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/学习方法/概念/结果思维.md",
+                "file": "笔记/学习方法/概念/系统思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -341,12 +341,13 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "ea4f2f9cd8decb25",
+  "active": "6e39670a7e63b91a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/学习方法/概念/临界知识.md",
+    "笔记/学习方法/概念/结果思维.md",
     "笔记/学习方法/概念/系统思考.md",
     "笔记/学习方法/概念/环境思维.md",
     "笔记/学习方法/概念/知识.md",
@@ -354,7 +355,6 @@
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/2.规范/版本规范.md",
-    "笔记/前端/工程化/2.规范/release-it.md"
+    "笔记/前端/工程化/2.规范/版本规范.md"
   ]
 }
