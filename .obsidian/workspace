@@ -12,8 +12,32 @@
             {
               "leaf": "6dfb00741659b478",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":36},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":1.0342233962896348}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/6.CICD.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":6},\"to\":{\"line\":82,\"ch\":6}},\"scroll\":68.3610154498628}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":36},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":2.6108108093949483}"
+            },
+            {
+              "leaf": "6dfb00741659b478",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -38,7 +62,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
+            "file": "笔记/前端/工程化/虚拟化.md",
             "mode": "source",
             "source": false
           }
@@ -266,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -294,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/工程化/虚拟化.md"
               }
             }
           },
@@ -323,7 +347,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -340,15 +364,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/Docker.md",
+    "笔记/前端/工程化/6.CICD.md",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS工具.md",
     "笔记/前端/工程化/包管理器.md",
     "笔记/前端/工程化/Bower.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/node项目.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/包管理/包管理.md",
-    "笔记/前端/工程化/3.质量/单元测试.md",
-    "笔记/前端/工程化/3.质量/Dojo Object Harness.md"
+    "笔记/前端/包管理/包管理.md"
   ]
 }
