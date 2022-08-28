@@ -12,8 +12,14 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":26.9606}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -32,7 +38,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -260,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -288,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -317,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,9 +340,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/2.规范/release-it.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
     "笔记/前端/工程化/4.工程设计/4.工程设计.md",
