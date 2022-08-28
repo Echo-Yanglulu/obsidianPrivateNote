@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/版本规范.md",
+                "file": "笔记/前端/工程化/2.规范/release-it.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -288,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/版本规范.md"
+                "file": "笔记/前端/工程化/2.规范/release-it.md"
               }
             }
           },
@@ -317,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/版本规范.md",
+                "file": "笔记/前端/工程化/2.规范/release-it.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,11 +329,12 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "13c54fe1b4cdae89",
+  "active": "a6f03ecbe5bde3c8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/2.规范/版本规范.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/1.脚本/1.脚本.md",
@@ -342,7 +343,6 @@
     "笔记/前端/工程化/脚手架/Schemetics.md",
     "笔记/前端/工程化/node/库/yeoman-generator.md",
     "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/基础知识/调试.md",
-    "笔记/前端/工程化/git.md"
+    "笔记/前端/基础知识/调试.md"
   ]
 }
