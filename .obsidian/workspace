@@ -13,7 +13,7 @@
               "leaf": "6dfb00741659b478",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机组成/计算机组成.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":13},\"to\":{\"line\":6,\"ch\":13}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":20},\"to\":{\"line\":9,\"ch\":20}}}"
             },
             {
               "leaf": "6dfb00741659b478",
@@ -343,7 +343,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -371,7 +371,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md"
+                "file": "笔记/前端/编程语言/JS/浏览器.md"
               }
             }
           },
@@ -400,7 +400,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/基础知识/计算机组成/计算机组成.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,20 +412,20 @@
     "direction": "horizontal",
     "width": 623
   },
-  "active": "6dfb00741659b478",
+  "active": "6a12e2f9bef4d4f8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/基础知识/计算机组成/应用程序.md",
+    "笔记/前端/编程语言/JS/Web浏览器.md",
     "笔记/前端/基础知识/计算机组成/计算机组成.md",
     "笔记/前端/基础知识/操作系统/计算机硬件.md",
     "笔记/前端/基础知识/计算机组成/计算机组成-结构化方法.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
-    "笔记/前端/基础知识/操作系统/进程.md",
-    "笔记/前端/基础知识/操作系统/操作系统结构.md",
-    "笔记/前端/基础知识/操作系统/编程环境.md",
-    "笔记/前端/基础知识/操作系统/并发.md"
+    "笔记/前端/基础知识/操作系统/进程.md"
   ]
 }
