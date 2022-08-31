@@ -343,7 +343,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -371,7 +371,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md"
+                "file": "笔记/前端/工程化/虚拟化.md"
               }
             }
           },
@@ -400,7 +400,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/kubernetes.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,20 +412,20 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "eda2480c2a5556a9",
+  "active": "f803c62bf2d0b7de",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/kubernetes.md",
+    "笔记/前端/工程化/分布式服务部署.md",
+    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/虚拟机.md",
     "笔记/前端/工程化/运行环境.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/编程语言/JS基础.svg",
-    "笔记/前端/前端.md"
+    "笔记/前端/编程语言/JS基础.svg"
   ]
 }
