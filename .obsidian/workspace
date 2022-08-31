@@ -12,6 +12,18 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}},\"scroll\":0}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/JS基础.svg\"}}",
               "eState": "{}"
             },
@@ -84,9 +96,11 @@
           ]
         },
         "state": {
-          "type": "diagram-edit",
+          "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS基础.svg"
+            "file": "笔记/前端/编程语言/JS/JS.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -180,8 +194,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -312,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -340,7 +353,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg"
+                "file": "笔记/前端/编程语言/JS/JS.md"
               }
             }
           },
@@ -369,7 +382,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/核心JS.svg",
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -379,18 +392,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623
+    "width": 554.766845703125
   },
-  "active": "cacc0ba7affd8109",
+  "active": "f803c62bf2d0b7de",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/记忆.md",
