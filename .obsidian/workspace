@@ -12,14 +12,18 @@
             {
               "leaf": "a2842ef30d26beee",
               "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         },
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/编程语言/JS/JS.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -112,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -231,7 +236,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 20.705882352941178,
+        "dimension": 20.705882352941174,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -243,6 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -269,7 +275,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md"
+              }
             }
           },
           {
@@ -297,6 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/编程语言/JS/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
