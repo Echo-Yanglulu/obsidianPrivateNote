@@ -12,8 +12,14 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}},\"scroll\":0}"
+              "eState": "{\"scroll\":1.6294366078353475}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -98,7 +104,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/JS.md",
+            "file": "笔记/前端/工程化/虚拟化.md",
             "mode": "source",
             "source": false
           }
@@ -325,7 +331,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -353,7 +359,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md"
+                "file": "笔记/前端/工程化/虚拟化.md"
               }
             }
           },
@@ -382,7 +388,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/JS.md",
+                "file": "笔记/前端/工程化/虚拟化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,8 +405,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS基础.svg",
