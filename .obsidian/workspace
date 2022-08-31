@@ -13,7 +13,7 @@
               "leaf": "f803c62bf2d0b7de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":4.238452457171517}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":24},\"to\":{\"line\":16,\"ch\":24}},\"scroll\":4.238452457171517}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -361,7 +361,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/元编程.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -389,7 +389,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/元编程.md"
+                "file": "笔记/前端/编程语言/JS/浏览器.md"
               }
             }
           },
@@ -418,7 +418,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/元编程.md",
+                "file": "笔记/前端/编程语言/JS/浏览器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -430,20 +430,20 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "626650323ceacfab",
+  "active": "5fe694a7bd078b2d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/基本概念/生成器.md",
-    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
-    "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/编程语言/JS/元编程.md",
-    "笔记/前端/工程化/node/node框架.md",
-    "笔记/前端/工程化/node/Egg.md"
+    "笔记/前端/编程语言/JS/JS API.md",
+    "笔记/前端/编程语言/JS/媒体元素.md",
+    "笔记/前端/编程语言/JS/Streams API.md",
+    "笔记/前端/编程语言/JS/Encoding API.md",
+    "笔记/前端/编程语言/JS/File API.md",
+    "笔记/前端/编程语言/JS/Blob API.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/异步JS.md"
   ]
 }
