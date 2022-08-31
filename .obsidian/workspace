@@ -13,7 +13,7 @@
               "leaf": "a2842ef30d26beee",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":6},\"to\":{\"line\":10,\"ch\":6}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":6},\"to\":{\"line\":30,\"ch\":6}},\"scroll\":14.12361319403977}"
             },
             {
               "leaf": "a2842ef30d26beee",
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/干扰.md",
+                "file": "笔记/工具/通用概念/通用概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -288,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/干扰.md"
+                "file": "笔记/工具/通用概念/通用概念.md"
               }
             }
           },
@@ -317,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/干扰.md",
+                "file": "笔记/工具/通用概念/通用概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -329,11 +329,12 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "41c5c8532916f64a",
+  "active": "a2842ef30d26beee",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/干扰.md",
     "笔记/工具/通用概念/通用概念.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/技术选型.md",
@@ -342,7 +343,6 @@
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/JS API.md",
-    "笔记/前端/编程语言/JS/媒体元素.md"
+    "笔记/前端/编程语言/JS/JS API.md"
   ]
 }
