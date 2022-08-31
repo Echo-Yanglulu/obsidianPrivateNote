@@ -13,7 +13,19 @@
               "leaf": "f803c62bf2d0b7de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/运行环境.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":33},\"to\":{\"line\":0,\"ch\":33}}}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":38},\"to\":{\"line\":3,\"ch\":38}},\"scroll\":0}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -405,6 +417,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/运行环境.md",
+    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/概述.md",
@@ -412,8 +426,6 @@
     "笔记/前端/编程语言/JS基础.svg",
     "笔记/前端/前端.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/学习方法/概念/临界知识.md"
+    "笔记/工具/思考/记忆/记忆.md"
   ]
 }
