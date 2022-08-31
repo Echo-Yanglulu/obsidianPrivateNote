@@ -13,7 +13,7 @@
               "leaf": "a2842ef30d26beee",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":7},\"to\":{\"line\":31,\"ch\":7}},\"scroll\":26.08610134451666}"
             },
             {
               "leaf": "a2842ef30d26beee",
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/技术选型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -282,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md"
+                "file": "笔记/前端/工程化/技术选型.md"
               }
             }
           },
@@ -311,7 +311,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/工程化.md",
+                "file": "笔记/前端/工程化/技术选型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,11 +323,12 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "a2842ef30d26beee",
+  "active": "29aa498b5067c217",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/工程化/History.md",
@@ -336,7 +337,6 @@
     "笔记/前端/编程语言/JS/JS API.md",
     "笔记/前端/编程语言/JS/媒体元素.md",
     "笔记/前端/编程语言/JS/Streams API.md",
-    "笔记/前端/编程语言/JS/Encoding API.md",
-    "笔记/前端/编程语言/JS/File API.md"
+    "笔记/前端/编程语言/JS/Encoding API.md"
   ]
 }
