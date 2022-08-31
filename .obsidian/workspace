@@ -13,7 +13,7 @@
               "leaf": "f803c62bf2d0b7de",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/部署：发布策略.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":87},\"to\":{\"line\":12,\"ch\":87}},\"scroll\":10.71491749983284}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":10.944638258008275}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -243,7 +243,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 39.369369369369366,
+        "dimension": 39.372549019607845,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -349,7 +349,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 26.936936936936934,
+        "dimension": 20.705882352941178,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -377,7 +377,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 33.693693693693696,
+        "dimension": 39.92156862745098,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -436,6 +436,7 @@
   },
   "lastOpenFiles": [
     "笔记/前端/工程化/Docker.md",
+    "笔记/前端/工程化/部署：发布策略.md",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/基础知识/操作系统/操作系统结构.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
@@ -443,7 +444,6 @@
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/分布式服务部署.md",
     "笔记/前端/工程化/虚拟机.md",
-    "笔记/前端/工程化/运行环境.md",
-    "笔记/前端/编程语言/JS/JS.md"
+    "笔记/前端/工程化/运行环境.md"
   ]
 }

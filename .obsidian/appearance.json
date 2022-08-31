@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 10,
+  "baseFontSize": 15,
   "theme": "moonstone",
-  "cssTheme": "Gitsidian",
+  "cssTheme": "Horizon",
   "translucency": false,
   "enabledCssSnippets": [
     "supercharged-links-gen",
@@ -30,8 +30,6 @@
     "c",
     "Clutter remove",
     "Country flag hashtag",
-    "HTML",
-    "Headers",
     "Images",
     "Lists - (un)ordered",
     "Note title in pane",
