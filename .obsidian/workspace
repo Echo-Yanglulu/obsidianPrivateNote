@@ -12,8 +12,26 @@
             {
               "leaf": "a2842ef30d26beee",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":4},\"to\":{\"line\":7,\"ch\":4}}}"
+            },
+            {
+              "leaf": "a2842ef30d26beee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/库/commander.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":20},\"to\":{\"line\":2,\"ch\":20}},\"scroll\":0}"
+            },
+            {
+              "leaf": "a2842ef30d26beee",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/REPL.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":26},\"to\":{\"line\":1,\"ch\":26}}}"
+            },
+            {
+              "leaf": "a2842ef30d26beee",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":4},\"to\":{\"line\":21,\"ch\":4}},\"scroll\":19.961631673156866}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "a2842ef30d26beee",
@@ -32,7 +50,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/通用概念/通用概念.md",
+            "file": "笔记/西方文明简史/问题.md",
             "mode": "source",
             "source": false
           }
@@ -142,7 +160,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 39.372549019607845,
+        "dimension": 39.353612167300376,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -248,7 +266,7 @@
       {
         "id": "10e571c4b96b40ab",
         "type": "tabs",
-        "dimension": 20.705882352941174,
+        "dimension": 25.76045627376426,
         "children": [
           {
             "id": "37fb741facd8f20b",
@@ -260,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/通用概念.md",
+                "file": "笔记/西方文明简史/问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -276,7 +294,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 39.92156862745098,
+        "dimension": 34.88593155893536,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -288,7 +306,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/通用概念.md"
+                "file": "笔记/西方文明简史/问题.md"
               }
             }
           },
@@ -317,7 +335,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/通用概念/通用概念.md",
+                "file": "笔记/西方文明简史/问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -334,15 +352,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/概率论.md",
+    "笔记/西方文明简史/主题.md",
+    "笔记/西方文明简史/问题.md",
+    "笔记/前端/工程化/node/库/commander.md",
+    "笔记/前端/工程化/REPL.md",
     "笔记/工具/通用概念/通用概念.md",
+    "笔记/学习方法/概念/概率论.md",
     "笔记/工具/通用概念/干扰.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/技术选型.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/基本概念/数据格式.md",
-    "笔记/前端/编程语言/JS/JSON.md"
+    "笔记/前端/编程语言/JS/JS.md"
   ]
 }
