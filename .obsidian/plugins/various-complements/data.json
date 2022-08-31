@@ -103,14 +103,6 @@
         }
       }
     },
-    "chunk": {
-      "chunk": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1659459862485
-        }
-      }
-    },
     "bundle": {
       "bundle": {
         "currentFile": {
@@ -135,35 +127,11 @@
         }
       }
     },
-    "HTML": {
-      "HTML": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1659367928921
-        }
-      }
-    },
-    "HtmlWebpackPlugin": {
-      "HtmlWebpackPlugin": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659368002979
-        }
-      }
-    },
     "file-loader": {
       "file-loader": {
         "currentFile": {
           "count": 2,
           "lastUpdated": 1659698817619
-        }
-      }
-    },
-    "url-loader": {
-      "url-loader": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659368287360
         }
       }
     },
@@ -986,8 +954,8 @@
     "Docker": {
       "Docker": {
         "internalLink": {
-          "count": 2,
-          "lastUpdated": 1661673717655
+          "count": 3,
+          "lastUpdated": 1661913942245
         }
       }
     },
@@ -1202,8 +1170,8 @@
     "kubernetes": {
       "kubernetes": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1661674155853
+          "count": 2,
+          "lastUpdated": 1661913949882
         }
       }
     },

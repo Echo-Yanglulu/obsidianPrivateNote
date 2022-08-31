@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "kubernetes",
+      "path": "笔记/前端/工程化/kubernetes.md"
+    },
+    {
       "basename": "虚拟化",
       "path": "笔记/前端/工程化/虚拟化.md"
+    },
+    {
+      "basename": "虚拟机",
+      "path": "笔记/前端/工程化/虚拟机.md"
     },
     {
       "basename": "运行环境",
@@ -145,10 +153,6 @@
       "path": "笔记/前端/工程化/2.规范/FDD.md"
     },
     {
-      "basename": "kubernetes",
-      "path": "笔记/前端/工程化/kubernetes.md"
-    },
-    {
       "basename": "基础设施",
       "path": "笔记/前端/工程化/基础设施.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "计算机网络",
       "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "进程",
-      "path": "笔记/前端/基础知识/操作系统/进程.md"
     }
   ],
   "omittedPaths": [],
