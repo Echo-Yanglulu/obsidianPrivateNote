@@ -12,8 +12,14 @@
             {
               "leaf": "f803c62bf2d0b7de",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Docker.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":11},\"to\":{\"line\":31,\"ch\":11}},\"scroll\":18.128295506375707}"
+            },
+            {
+              "leaf": "f803c62bf2d0b7de",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/虚拟化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "f803c62bf2d0b7de",
@@ -116,7 +122,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/虚拟化.md",
+            "file": "笔记/前端/工程化/Docker.md",
             "mode": "source",
             "source": false
           }
@@ -343,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -371,7 +377,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md"
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md"
               }
             }
           },
@@ -400,7 +406,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/虚拟化.md",
+                "file": "笔记/前端/基础知识/操作系统/操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -412,20 +418,20 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "f803c62bf2d0b7de",
+  "active": "042693294de724bf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/Docker.md",
+    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/kubernetes.md",
     "笔记/前端/工程化/分布式服务部署.md",
-    "笔记/前端/工程化/虚拟化.md",
     "笔记/前端/工程化/虚拟机.md",
     "笔记/前端/工程化/运行环境.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/编程语言/JS基础.svg"
+    "笔记/前端/编程语言/编程语言.md"
   ]
 }
