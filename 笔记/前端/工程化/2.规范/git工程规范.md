@@ -1,4 +1,5 @@
 # git flow规范
+阅读GIT文档
 git flow采用了[[FDD]]，
 特点
 	1. 存在长期分支
