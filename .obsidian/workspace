@@ -4,58 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "a2842ef30d26beee",
+        "id": "38169f4e97cc8a74",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":21.573691060140135}"
-            },
-            {
-              "leaf": "a2842ef30d26beee",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/库/commander.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":20},\"to\":{\"line\":2,\"ch\":20}},\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":10},\"to\":{\"line\":5,\"ch\":10}}}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/REPL.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":26},\"to\":{\"line\":1,\"ch\":26}}}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/通用概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本管理/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":26.08610134451666}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
             },
             {
-              "leaf": "a2842ef30d26beee",
+              "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":1.0357714388741335}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
             }
           ]
         },
@@ -158,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -359,20 +370,20 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "a2842ef30d26beee",
+  "active": "38169f4e97cc8a74",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/版本控制/基本概念.md",
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/版本管理/基本概念.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/代码规范.md",
     "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
     "笔记/前端/工程化/技术选型.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/西方文明简史/主题.md",
-    "笔记/前端/工程化/node/库/commander.md",
-    "笔记/前端/工程化/REPL.md"
+    "笔记/西方文明简史/问题.md"
   ]
 }
