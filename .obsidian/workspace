@@ -12,8 +12,26 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/盲点思维.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":28},\"to\":{\"line\":0,\"ch\":28}}}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/盲点.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/盲点思维.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":65},\"to\":{\"line\":36,\"ch\":65}},\"scroll\":9.307924091530694}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "38169f4e97cc8a74",
@@ -74,7 +92,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/版本控制/版本控制.md",
+            "file": "笔记/工具/思考/盲点思维.md",
             "mode": "source",
             "source": false
           }
@@ -171,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -302,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/版本控制/版本控制.md",
+                "file": "笔记/工具/思考/盲点思维.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -330,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/版本控制/版本控制.md"
+                "file": "笔记/工具/思考/盲点思维.md"
               }
             }
           },
@@ -359,7 +377,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/版本控制/版本控制.md",
+                "file": "笔记/工具/思考/盲点思维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,15 +394,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/版本控制/基本概念.md",
+    "笔记/学习方法/概念/盲点.md",
+    "笔记/工具/思考/盲点思维.md",
     "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/版本控制/基本概念.md",
     "笔记/前端/版本管理/基本概念.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/代码规范.md",
-    "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
-    "笔记/前端/工程化/技术选型.md",
-    "笔记/西方文明简史/问题.md"
+    "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
   ]
 }
