@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "版本控制",
+      "path": "笔记/前端/版本控制/版本控制.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
       "basename": "盲点思维",
       "path": "笔记/工具/思考/盲点思维.md"
     },
@@ -9,16 +21,8 @@
       "path": "笔记/学习方法/概念/盲点.md"
     },
     {
-      "basename": "版本控制",
-      "path": "笔记/前端/版本控制/版本控制.md"
-    },
-    {
       "basename": "基本概念",
       "path": "笔记/前端/版本控制/基本概念.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "git工程规范",
@@ -195,10 +199,6 @@
     {
       "basename": "核心JS",
       "path": "笔记/前端/编程语言/JS/核心JS.svg"
-    },
-    {
-      "basename": "概述",
-      "path": "笔记/前端/编程语言/JS/概述.md"
     }
   ],
   "omittedPaths": [],
