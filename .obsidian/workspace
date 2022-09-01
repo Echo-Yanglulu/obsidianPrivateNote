@@ -12,8 +12,14 @@
             {
               "leaf": "a2842ef30d26beee",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本管理/版本管理.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "a2842ef30d26beee",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":6},\"to\":{\"line\":30,\"ch\":6}},\"scroll\":21.573691060140135}"
+              "eState": "{\"scroll\":21.573691060140135}"
             },
             {
               "leaf": "a2842ef30d26beee",
@@ -56,7 +62,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/工程化.md",
+            "file": "笔记/前端/版本管理/版本管理.md",
             "mode": "source",
             "source": false
           }
@@ -284,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/git工程规范.md",
+                "file": "笔记/前端/版本管理/版本管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -312,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/git工程规范.md"
+                "file": "笔记/前端/版本管理/版本管理.md"
               }
             }
           },
@@ -341,7 +347,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/2.规范/git工程规范.md",
+                "file": "笔记/前端/版本管理/版本管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -353,12 +359,13 @@
     "direction": "horizontal",
     "width": 554.766845703125
   },
-  "active": "2f4849a5d47a5327",
+  "active": "a2842ef30d26beee",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/2.规范/git工程规范.md",
     "笔记/前端/工程化/2.规范/2.规范.md",
     "笔记/前端/工程化/2.规范/代码规范.md",
     "笔记/前端/工程化/2.规范/ESLint/ESLint.md",
@@ -366,7 +373,6 @@
     "笔记/西方文明简史/问题.md",
     "笔记/西方文明简史/主题.md",
     "笔记/前端/工程化/node/库/commander.md",
-    "笔记/前端/工程化/REPL.md",
-    "笔记/工具/通用概念/通用概念.md"
+    "笔记/前端/工程化/REPL.md"
   ]
 }
