@@ -68,4 +68,4 @@ git 仓库中特定事件触发后被调用的脚本。
 
 # 最佳实践
 1. commit offen, perfect later.
-	1. 用git rebase -i合并多次提交
+	1. 用git rebase -i合并多次提交。隐藏香肠的 制做过程。
