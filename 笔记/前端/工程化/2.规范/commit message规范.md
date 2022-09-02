@@ -12,11 +12,13 @@ angular规范
 1. type
 	1. feat
 	2. fix
-	3. refactor：代码重构
-	4. docs：文档修改
-	5. style：代码格式修改。如缩进整体由2个空格变成4个空格。
-	6. test：测试用例修改。
-	7. chore：其他修改（构建流程，依赖管理）
+	3. build: 构建系统/外部依赖变化。如build[gulp]
+	4. refactor：代码重构
+	5. docs：文档变化
+	6. perf：性能优化
+	7. style：代码格式修改。如缩进整体由2个空格变成4个空格。
+	8. test：测试用例新增/修改。
+	9. chore：其他修改（构建流程，依赖管理）
 2. scope：影响范围
 	1. route, component, utils, build
 3. subject：概述，建议符合50/72 formatting

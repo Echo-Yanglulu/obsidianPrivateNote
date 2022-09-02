@@ -12,8 +12,14 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/commit message规范.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":41.211633533175345}"
             },
             {
               "leaf": "38169f4e97cc8a74",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/基本概念.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "38169f4e97cc8a74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/git.md",
+            "file": "笔记/前端/工程化/2.规范/commit message规范.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/git.md"
+                "file": "笔记/前端/工程化/2.规范/commit message规范.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/git.md",
+                "file": "笔记/前端/工程化/2.规范/commit message规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,9 +436,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/git.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/git.md",
     "笔记/工具/思考/盲点思维.md",
     "笔记/学习方法/概念/盲点.md",
     "笔记/前端/版本控制/基本概念.md",
