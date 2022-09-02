@@ -5,6 +5,30 @@
       "path": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
     },
     {
+      "basename": "shell解释器",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md"
+    },
+    {
+      "basename": "WSL",
+      "path": "笔记/前端/工程化/基本概念/WSL.md"
+    },
+    {
+      "basename": "PowerShell",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md"
+    },
+    {
+      "basename": "cmd",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/cmd.md"
+    },
+    {
+      "basename": "sh",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/sh.md"
+    },
+    {
+      "basename": "zsh",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/zsh.md"
+    },
+    {
       "basename": "性能测试",
       "path": "笔记/前端/工程化/3.质量/性能测试.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "node框架",
       "path": "笔记/前端/工程化/node/node框架.md"
-    },
-    {
-      "basename": "Egg",
-      "path": "笔记/前端/工程化/node/Egg.md"
-    },
-    {
-      "basename": "Express",
-      "path": "笔记/前端/工程化/node/Express.md"
-    },
-    {
-      "basename": "Koa",
-      "path": "笔记/前端/工程化/node/Koa.md"
-    },
-    {
-      "basename": "部署：发布策略",
-      "path": "笔记/前端/工程化/部署：发布策略.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "笔记/前端/工程化/Docker.md"
-    },
-    {
-      "basename": "CDN",
-      "path": "笔记/前端/工程化/CDN.md"
     }
   ],
   "omittedPaths": [],

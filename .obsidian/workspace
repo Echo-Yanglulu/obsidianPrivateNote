@@ -13,7 +13,7 @@
               "leaf": "38169f4e97cc8a74",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/基本概念/shell解释器/bash.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":20.170523191841262}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}},\"scroll\":0}"
             },
             {
               "leaf": "38169f4e97cc8a74",
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
+    "笔记/前端/工程化/基本概念/WSL.md",
+    "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md",
+    "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
+    "笔记/前端/工程化/基本概念/shell解释器/sh.md",
+    "笔记/前端/工程化/基本概念/shell解释器/zsh.md",
+    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
     "笔记/前端/工程化/3.质量/性能测试.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/工程化/3.质量/E2E测试.md",
-    "笔记/前端/工程化/3.质量/单元测试.md",
-    "笔记/前端/工程化/3.质量/功能测试.md",
-    "笔记/前端/工程化/3.质量/3.质量.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/版本控制/版本控制.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/2.规范/commit message规范.md"
+    "笔记/前端/工程化/3.质量/E2E测试.md"
   ]
 }
