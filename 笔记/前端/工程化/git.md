@@ -34,7 +34,7 @@ git hook：提升协同代码质量
 5. git rm   删除
 6. git merge 合并
 7. git rebase 变基
-	1. -i 
+	1. -i  + [[hash值]] ，可合并该hash之后（不含）的提交。
 8. gi reset
 9. git branch
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
