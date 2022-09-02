@@ -36,6 +36,7 @@ git hook：提升协同代码质量
 7. git rebase 变基
 	1. -i  + [[hash值]] ，可合并该hash之后（**不含**）的提交。
 8. gi reset
+	1. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
 9. git branch
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
 10. git remote
@@ -46,7 +47,6 @@ git hook：提升协同代码质量
 	1. HEAD HEAD~2/HEAD^^
 13. gitk 查看diff
 	1. 每个终点，都代表当前仓库有至少一个分支
-	
 git status => gst
 # git hook
 git 仓库中特定事件触发后被调用的脚本。
