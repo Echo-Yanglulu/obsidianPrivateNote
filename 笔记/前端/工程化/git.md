@@ -74,5 +74,8 @@ git 仓库中特定事件触发后被调用的脚本。
 	2. git reflog。引用记录：记录所有可能导致引用变化的操作
 	3. 通过rebase/reset/cherry-pick恢复
 3. 慎用git push -f
+4. 使用分支
+	1. 单人一个分支
+		1. 以
 
 [^1]: 用rebase -i
