@@ -12,8 +12,26 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/性能测试.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":36},\"to\":{\"line\":19,\"ch\":36}},\"scroll\":4.7332275849231245}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/质量.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":717},\"to\":{\"line\":5,\"ch\":717}}}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/2.测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/性能测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":21},\"to\":{\"line\":25,\"ch\":21}},\"scroll\":0}"
             },
             {
               "leaf": "38169f4e97cc8a74",
@@ -24,19 +42,19 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/性能测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/性能测试.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":6},\"to\":{\"line\":10,\"ch\":6}}}"
             },
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/2.测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/2.测试.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":8},\"to\":{\"line\":12,\"ch\":8}}}"
             },
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/3.质量.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/质量.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
@@ -60,7 +78,7 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/2.规范/commit message规范.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/commit message规范.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":10.253826876454376}"
             },
             {
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":39},\"to\":{\"line\":19,\"ch\":39}}}"
-            },
-            {
-              "leaf": "38169f4e97cc8a74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/盲点思维.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "38169f4e97cc8a74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/盲点.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":37},\"to\":{\"line\":0,\"ch\":37}}}"
-            },
-            {
-              "leaf": "38169f4e97cc8a74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/盲点思维.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/3.质量/性能测试.md",
+            "file": "笔记/前端/工程化/工程化.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/性能测试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/性能测试.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/3.质量/性能测试.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
-    "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
-    "笔记/前端/工程化/基本概念/WSL.md",
-    "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md",
-    "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
-    "笔记/前端/工程化/基本概念/shell解释器/sh.md",
-    "笔记/前端/工程化/基本概念/shell解释器/zsh.md",
-    "笔记/前端/工程化/3.质量/性能测试.md",
-    "笔记/前端/工程化/3.质量/2.测试.md",
-    "笔记/前端/工程化/3.质量/E2E测试.md"
+    "笔记/前端/工程化/脚本/脚本.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/构建/笔记/前端/工程化/5.构建/CMD.md",
+    "笔记/前端/工程化/工程设计/工程设计.md",
+    "笔记/前端/工程化/CICD.md",
+    "笔记/前端/工程化/质量/2.测试.md",
+    "笔记/前端/工程化/质量/性能测试.md"
   ]
 }

@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "脚本",
+      "path": "笔记/前端/工程化/脚本/脚本.md"
+    },
+    {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
+    },
+    {
+      "basename": "CMD",
+      "path": "笔记/前端/工程化/构建/笔记/前端/工程化/5.构建/CMD.md"
+    },
+    {
+      "basename": "工程设计",
+      "path": "笔记/前端/工程化/工程设计/工程设计.md"
+    },
+    {
+      "basename": "CICD",
+      "path": "笔记/前端/工程化/CICD.md"
+    },
+    {
+      "basename": "2.测试",
+      "path": "笔记/前端/工程化/质量/2.测试.md"
+    },
+    {
       "basename": "性能测试",
-      "path": "笔记/前端/工程化/3.质量/性能测试.md"
+      "path": "笔记/前端/工程化/质量/性能测试.md"
     },
     {
       "basename": "bash",
@@ -33,28 +69,16 @@
       "path": "笔记/前端/工程化/基本概念/shell解释器/zsh.md"
     },
     {
-      "basename": "2.测试",
-      "path": "笔记/前端/工程化/3.质量/2.测试.md"
-    },
-    {
       "basename": "E2E测试",
-      "path": "笔记/前端/工程化/3.质量/E2E测试.md"
+      "path": "笔记/前端/工程化/质量/E2E测试.md"
     },
     {
       "basename": "单元测试",
-      "path": "笔记/前端/工程化/3.质量/单元测试.md"
+      "path": "笔记/前端/工程化/质量/单元测试.md"
     },
     {
       "basename": "功能测试",
-      "path": "笔记/前端/工程化/3.质量/功能测试.md"
-    },
-    {
-      "basename": "3.质量",
-      "path": "笔记/前端/工程化/3.质量/3.质量.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
+      "path": "笔记/前端/工程化/质量/功能测试.md"
     },
     {
       "basename": "版本控制",
@@ -66,7 +90,7 @@
     },
     {
       "basename": "commit message规范",
-      "path": "笔记/前端/工程化/2.规范/commit message规范.md"
+      "path": "笔记/前端/工程化/规范/commit message规范.md"
     },
     {
       "basename": "盲点思维",
@@ -82,19 +106,15 @@
     },
     {
       "basename": "git工程规范",
-      "path": "笔记/前端/工程化/2.规范/git工程规范.md"
-    },
-    {
-      "basename": "2.规范",
-      "path": "笔记/前端/工程化/2.规范/2.规范.md"
+      "path": "笔记/前端/工程化/规范/git工程规范.md"
     },
     {
       "basename": "代码规范",
-      "path": "笔记/前端/工程化/2.规范/代码规范.md"
+      "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
       "basename": "ESLint",
-      "path": "笔记/前端/工程化/2.规范/ESLint/ESLint.md"
+      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     },
     {
       "basename": "技术选型",
@@ -179,26 +199,6 @@
     {
       "basename": "异步JS",
       "path": "笔记/前端/编程语言/JS/异步JS.md"
-    },
-    {
-      "basename": "元编程",
-      "path": "笔记/前端/编程语言/JS/元编程.md"
-    },
-    {
-      "basename": "生成器",
-      "path": "笔记/前端/编程语言/JS/基本概念/生成器.md"
-    },
-    {
-      "basename": "迭代器",
-      "path": "笔记/前端/编程语言/JS/基本概念/迭代器.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "node框架",
-      "path": "笔记/前端/工程化/node/node框架.md"
     }
   ],
   "omittedPaths": [],
