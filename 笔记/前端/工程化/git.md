@@ -65,3 +65,7 @@ git 仓库中特定事件触发后被调用的脚本。
 	1. git rebase -i 最旧的commit hash值
 5. 把非连续的多个commit合并为1个
 6. diff当前HEAD与暂存区
+
+# 最佳实践
+1. commit offen, perfect later.
+	1. 用git rebase -i合并多次提交
