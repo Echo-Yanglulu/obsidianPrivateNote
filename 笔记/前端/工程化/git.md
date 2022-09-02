@@ -80,9 +80,9 @@ git 仓库中特定事件触发后被调用的脚本。
 	2. 多人一个分支
 5. 随时更新远程分支
 	1. 拉取：不要使用git pull[^2]，而是使用git pull --rabase[^3]
-	2. 合并：使用git merge --no-ff[^4]
+	2. 合并：使用git merge --no-ff[^4]，可为当前分支创建简洁的提交记录，便于快速查看版本历史
 
 [^1]: 用rebase -i
 [^2]: git 图会生成很多开叉
 [^3]: 适用于多个使用一个分支的情况：把没有push的提交作为最新提交，拉取的提交作为历史提交。
-[^4]: fast-forward是git merge 的默认行为。
+[^4]: fast-forward是git merge 的默认行为。即如果合并到master分支时master没有其他提交，则master会直接指向当前分支。导致master记录太多。相同情况使用no-ff则会为此次合并在master生成一个新的提交记录。便于单独查看master的提交记录。
