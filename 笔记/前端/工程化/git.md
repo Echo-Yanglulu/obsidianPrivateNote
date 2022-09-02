@@ -67,5 +67,11 @@ git 仓库中特定事件触发后被调用的脚本。
 6. diff当前HEAD与暂存区
 
 # 最佳实践
-1. commit offen, perfect later.
-	1. 用git rebase -i合并多次提交。隐藏香肠的 制做过程。
+1. commit offen, perfect later[^1].
+	1. 用git rebase -i合并多次提交。通过最后的合并，隐藏香肠的丑陋制做过程。
+2. 发现有代码不见了。
+	1. 先确保保存当前进度
+	2. git reflog。引用记录：记录所有可能导致引用变化的操作
+	3. 通过rebase/reset/cherry-pick恢复
+
+[^1]: 用rebase -i
