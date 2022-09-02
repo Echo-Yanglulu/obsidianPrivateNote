@@ -29,5 +29,11 @@ angular规范
 5. footer：备注。通常是用于重大更新提示。
 	1. 以BREAKING CHANGE：开头
 	2. 修复BUG的链接。
+规范的commit message，可触发隐藏操作
+	1. 自动生成changelog 
+	2. sem-ver版本升级
+		1. fix开头会自动升级patch
+		2. feat开头会自动升级minor
+		3. Footer 中包含BREAKING CHANGE 会自动升级major。
 
 记不住？用CLI工具：[[commitizen]]
