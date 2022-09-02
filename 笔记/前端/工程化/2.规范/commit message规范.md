@@ -18,11 +18,16 @@ angular规范
 	6. perf：性能优化
 	7. style：代码格式修改。如缩进整体由2个空格变成4个空格。
 	8. test：测试用例新增/修改。
-	9. chore：其他修改（构建流程，依赖管理）
+	9. ci：CI配置文件/脚本变化。如ci[travis]
+	10. chore：其他修改（构建流程，依赖管理）
 2. scope：影响范围
 	1. route, component, utils, build
-3. subject：概述，建议符合50/72 formatting
-4. body：具体修改内容，可多行，建议符合上述
-5. footer：备注。通常是breaking change、修复BUG的链接。
+3. subject/description：概述，建议符合50/72 formatting
+4. body：具体修改内容，**补充描述**，
+	1. 可多行，语法符合上述50/72
+	2. 修改的原因与目的
+5. footer：备注。通常是用于重大更新提示。
+	1. 以BREAKING CHANGE：开头
+	2. 修复BUG的链接。
 
 记不住？用CLI工具：[[commitizen]]
