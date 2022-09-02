@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "bash",
+      "path": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
+    },
+    {
       "basename": "性能测试",
       "path": "笔记/前端/工程化/3.质量/性能测试.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CDN",
       "path": "笔记/前端/工程化/CDN.md"
-    },
-    {
-      "basename": "操作系统结构",
-      "path": "笔记/前端/基础知识/操作系统/操作系统结构.md"
     }
   ],
   "omittedPaths": [],
