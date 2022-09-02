@@ -12,8 +12,14 @@
             {
               "leaf": "38169f4e97cc8a74",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/3.质量/性能测试.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":36},\"to\":{\"line\":19,\"ch\":36}},\"scroll\":4.7332275849231245}"
+            },
+            {
+              "leaf": "38169f4e97cc8a74",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/基本概念/shell解释器/bash.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}},\"scroll\":0}"
+              "eState": "{\"scroll\":40.92570047784233}"
             },
             {
               "leaf": "38169f4e97cc8a74",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/盲点思维.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "38169f4e97cc8a74",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+            "file": "笔记/前端/工程化/3.质量/性能测试.md",
             "mode": "source",
             "source": false
           }
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+                "file": "笔记/前端/工程化/3.质量/性能测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md"
+                "file": "笔记/前端/工程化/3.质量/性能测试.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/基本概念/shell解释器/bash.md",
+                "file": "笔记/前端/工程化/3.质量/性能测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,13 +436,13 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
     "笔记/前端/工程化/基本概念/shell解释器/shell解释器.md",
     "笔记/前端/工程化/基本概念/WSL.md",
     "笔记/前端/工程化/基本概念/shell解释器/PowerShell.md",
     "笔记/前端/工程化/基本概念/shell解释器/cmd.md",
     "笔记/前端/工程化/基本概念/shell解释器/sh.md",
     "笔记/前端/工程化/基本概念/shell解释器/zsh.md",
-    "笔记/前端/工程化/基本概念/shell解释器/bash.md",
     "笔记/前端/工程化/3.质量/性能测试.md",
     "笔记/前端/工程化/3.质量/2.测试.md",
     "笔记/前端/工程化/3.质量/E2E测试.md"
