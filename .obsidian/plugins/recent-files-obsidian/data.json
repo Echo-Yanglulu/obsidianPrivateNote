@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "质量",
@@ -191,14 +199,6 @@
     {
       "basename": "Blob API",
       "path": "笔记/前端/编程语言/JS/Blob API.md"
-    },
-    {
-      "basename": "宿主环境",
-      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
-    },
-    {
-      "basename": "异步JS",
-      "path": "笔记/前端/编程语言/JS/异步JS.md"
     }
   ],
   "omittedPaths": [],
