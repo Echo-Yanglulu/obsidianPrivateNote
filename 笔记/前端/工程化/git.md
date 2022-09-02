@@ -79,8 +79,10 @@ git 仓库中特定事件触发后被调用的脚本。
 		1. 以生产新建分支，在此基础上每个feature建立一个分支。
 	2. 多人一个分支
 5. 随时更新远程分支
-	1. 不要使用git pull[^2]，而是使用git pull --rabase[^3]
+	1. 拉取：不要使用git pull[^2]，而是使用git pull --rabase[^3]
+	2. 合并：使用git merge --no-ff[^4]
 
 [^1]: 用rebase -i
 [^2]: git 图会生成很多开叉
 [^3]: 适用于多个使用一个分支的情况：把没有push的提交作为最新提交，拉取的提交作为历史提交。
+[^4]: fast-forward是git merge 的默认行为。
