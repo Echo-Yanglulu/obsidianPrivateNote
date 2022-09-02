@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "BOM",
+      "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
+      "basename": "navigator",
+      "path": "笔记/前端/编程语言/JS/navigator.md"
+    },
+    {
+      "basename": "screen",
+      "path": "笔记/前端/编程语言/JS/screen.md"
+    },
+    {
+      "basename": "window",
+      "path": "笔记/前端/编程语言/JS/window.md"
+    },
+    {
+      "basename": "location",
+      "path": "笔记/前端/编程语言/JS/location.md"
+    },
+    {
+      "basename": "History",
+      "path": "笔记/前端/工程化/History.md"
+    },
+    {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
     },
@@ -169,36 +193,12 @@
       "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
     {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
-    },
-    {
       "basename": "数据格式",
       "path": "笔记/前端/编程语言/JS/基本概念/数据格式.md"
     },
     {
       "basename": "JSON",
       "path": "笔记/前端/编程语言/JS/JSON.md"
-    },
-    {
-      "basename": "JS API",
-      "path": "笔记/前端/编程语言/JS/JS API.md"
-    },
-    {
-      "basename": "媒体元素",
-      "path": "笔记/前端/编程语言/JS/媒体元素.md"
-    },
-    {
-      "basename": "Streams API",
-      "path": "笔记/前端/编程语言/JS/Streams API.md"
-    },
-    {
-      "basename": "Encoding API",
-      "path": "笔记/前端/编程语言/JS/Encoding API.md"
-    },
-    {
-      "basename": "File API",
-      "path": "笔记/前端/编程语言/JS/File API.md"
     }
   ],
   "omittedPaths": [],
