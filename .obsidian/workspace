@@ -12,6 +12,12 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":13},\"to\":{\"line\":5,\"ch\":13}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/工具/思考/Untitled Diagram.svg\"}}",
               "eState": "{}"
             },
@@ -122,19 +128,15 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考的技术.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             }
           ]
         },
         "state": {
-          "type": "diagram",
+          "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/Untitled Diagram.svg"
+            "file": "笔记/前端/工程化/git.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -171,7 +173,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cat ",
+                "query": "git flow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -360,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -388,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/Untitled Diagram.svg"
+                "file": "笔记/前端/工程化/git.md"
               }
             }
           },
@@ -417,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/Untitled Diagram.svg",
+                "file": "笔记/前端/工程化/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/卡茨模型.md",
+    "笔记/前端/工程化/git flow.md",
+    "笔记/前端/工程化/git.md",
     "笔记/工具/思考/Untitled Diagram.svg",
+    "笔记/工具/思考/卡茨模型.md",
     "笔记/工具/思考/深度思考法.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/概念技能.md",
     "笔记/行为/人的行为.md",
     "笔记/学习方法/概念/感知.md",
-    "笔记/工具/通用概念/技能.md",
-    "笔记/学习方法/概念/技术.md",
-    "笔记/工具/思考/盲点思维.md"
+    "笔记/工具/通用概念/技能.md"
   ]
 }

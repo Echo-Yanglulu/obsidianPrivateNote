@@ -2,13 +2,15 @@ git flow：git工作流，提升项目迭代效率
 	1. 规范：[[git工程规范]] 
 git commit：通过创建提交，提高review效率
 git hook：提升协同代码质量
-
+# 工作流
+[[git flow]] 
 创建git仓库：
 1. 已有项目代码
 	1. git init
 2. 对新建项目
 	1. git init 项目名
 
+# 命令
 代码所处位置：工作区，暂存区。
 通过git status查看两个区的工作状态
 

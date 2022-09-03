@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "git flow",
+      "path": "笔记/前端/工程化/git flow.md"
+    },
+    {
       "basename": "Untitled Diagram",
       "path": "笔记/工具/思考/Untitled Diagram.svg"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "E2E测试",
       "path": "笔记/前端/工程化/质量/E2E测试.md"
-    },
-    {
-      "basename": "单元测试",
-      "path": "笔记/前端/工程化/质量/单元测试.md"
-    },
-    {
-      "basename": "功能测试",
-      "path": "笔记/前端/工程化/质量/功能测试.md"
     }
   ],
   "omittedPaths": [],
