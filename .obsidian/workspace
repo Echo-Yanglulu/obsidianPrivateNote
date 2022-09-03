@@ -12,8 +12,20 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
+              "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/工具/思考/Untitled Diagram.svg\"}}",
               "eState": "{}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/卡茨模型.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":10},\"to\":{\"line\":25,\"ch\":10}},\"scroll\":5.178471587960166}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -116,27 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考的技术.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/问题解决.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "markdown",
+          "type": "diagram",
           "state": {
-            "file": "笔记/工具/思考/深度思考法.md",
-            "mode": "source",
-            "source": false
+            "file": "笔记/工具/思考/Untitled Diagram.svg"
           }
         }
       }
@@ -362,7 +360,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/深度思考法.md",
+                "file": "笔记/工具/思考/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/深度思考法.md"
+                "file": "笔记/工具/思考/Untitled Diagram.svg"
               }
             }
           },
@@ -419,7 +417,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/深度思考法.md",
+                "file": "笔记/工具/思考/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -437,6 +435,7 @@
   },
   "lastOpenFiles": [
     "笔记/工具/思考/卡茨模型.md",
+    "笔记/工具/思考/Untitled Diagram.svg",
     "笔记/工具/思考/深度思考法.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/概念技能.md",
@@ -444,7 +443,6 @@
     "笔记/学习方法/概念/感知.md",
     "笔记/工具/通用概念/技能.md",
     "笔记/学习方法/概念/技术.md",
-    "笔记/工具/思考/盲点思维.md",
-    "笔记/学习方法/概念/盲点.md"
+    "笔记/工具/思考/盲点思维.md"
   ]
 }
