@@ -12,14 +12,36 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
-              "state": "{\"type\":\"empty\",\"state\":{}}",
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/window.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/screen.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/window.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
             }
           ]
         },
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/前端/编程语言/JS/DOM.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -244,6 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/前端/编程语言/JS/DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -270,7 +293,9 @@
             },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "笔记/前端/编程语言/JS/DOM.md"
+              }
             }
           },
           {
@@ -298,6 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/前端/编程语言/JS/DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,10 +340,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/window.md",
+    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
-    "笔记/前端/编程语言/JS/screen.md",
-    "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/DOM.md",

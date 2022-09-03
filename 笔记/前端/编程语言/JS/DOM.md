@@ -2,3 +2,4 @@
 	1. 提供了JS处理DOM的方法，与JS无关？
 
 clientHeight：某个元素的高度
+offsetHeight:元素的可见高度
