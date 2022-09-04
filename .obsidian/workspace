@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":11},\"to\":{\"line\":48,\"ch\":11}},\"scroll\":25.845136441468384}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":7},\"to\":{\"line\":44,\"ch\":7}},\"scroll\":25.845136441468384}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/假设.md",
+                "file": "笔记/工具/思考/深度思考法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/思维概念/假设.md"
+                "file": "笔记/工具/思考/深度思考法.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/思维概念/假设.md",
+                "file": "笔记/工具/思考/深度思考法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,11 +431,13 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "3e7d59e8a94eee8c",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/假设.md",
+    "笔记/工具/思考/思维概念/观察.md",
     "笔记/工具/思考/深度思考法.md",
     "笔记/工具/思考/过程.md",
     "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
@@ -443,8 +445,6 @@
     "笔记/工具/思考/现象.md",
     "笔记/工具/思考/本体.md",
     "笔记/工具/思考/思维概念/溯因.md",
-    "笔记/工具/思考/思维概念/假设.md",
-    "笔记/工具/思考/思维概念/解释.md",
-    "笔记/工具/通用概念/原因.md"
+    "笔记/工具/思考/思维概念/解释.md"
   ]
 }
