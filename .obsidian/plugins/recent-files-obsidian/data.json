@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/工具/抓包工具.md"
     },
     {
+      "basename": "HTTPS",
+      "path": "笔记/前端/工程化/工具/HTTPS.md"
+    },
+    {
       "basename": "工具",
       "path": "笔记/前端/工程化/工具/工具.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
-      "basename": "navigator",
-      "path": "笔记/前端/编程语言/JS/navigator.md"
     }
   ],
   "omittedPaths": [],
