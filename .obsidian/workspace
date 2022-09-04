@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":11},\"to\":{\"line\":48,\"ch\":11}},\"scroll\":25.845136441468384}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/过程.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/盲点.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/过程.md",
+            "file": "笔记/工具/思考/深度思考法.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/过程.md",
+                "file": "笔记/工具/思考/思维概念/假设.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/过程.md"
+                "file": "笔记/工具/思考/思维概念/假设.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/过程.md",
+                "file": "笔记/工具/思考/思维概念/假设.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,15 +431,15 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "3e7d59e8a94eee8c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
-    "笔记/工具/思考/过程.md",
-    "笔记/学习方法/概念/感知.md",
     "笔记/工具/思考/深度思考法.md",
+    "笔记/工具/思考/过程.md",
+    "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
+    "笔记/学习方法/概念/感知.md",
     "笔记/工具/思考/现象.md",
     "笔记/工具/思考/本体.md",
     "笔记/工具/思考/思维概念/溯因.md",
