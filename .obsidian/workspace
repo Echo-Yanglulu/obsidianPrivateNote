@@ -12,8 +12,8 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/内网穿透.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":30.6451378119336}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/内网穿透.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":8},\"to\":{\"line\":55,\"ch\":8}},\"scroll\":30.6451378119336}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -135,7 +135,7 @@
           "type": "markdown",
           "state": {
             "file": "笔记/前端/工程化/工具/内网穿透.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
