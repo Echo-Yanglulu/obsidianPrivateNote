@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/mock.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/mock.md"
+                "file": "笔记/前端/工程化/工程化.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/mock.md",
+                "file": "笔记/前端/工程化/工程化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,11 +431,12 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "277d7b9661bf76e1",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/工具/内网穿透.md",
@@ -444,7 +445,6 @@
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/PBL.md",
     "笔记/前端/工程化/工具/HTTPS.md",
-    "笔记/前端/工程化/工具/抓包工具.md",
-    "笔记/前端/工程化/工具/Map请求重定向.md"
+    "笔记/前端/工程化/工具/抓包工具.md"
   ]
 }
