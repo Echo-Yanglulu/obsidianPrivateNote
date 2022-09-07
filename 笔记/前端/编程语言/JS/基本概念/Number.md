@@ -40,3 +40,10 @@ NaN：本来要返回数值的==操作失败==，而不是抛出错误。
 
 为解决<u>相等</u>问题，可通过isNaN<u>判断</u>是否是NaN
 	1. 隐式转换为数值。不能转为数值（'blue'）会返回true。
+# 转换
+Number()
+parseInt()
+parseFloat()
+| Number() | parseInt() | parseFloat() |
+| --- | --- | --- |
+|  |  |  |
