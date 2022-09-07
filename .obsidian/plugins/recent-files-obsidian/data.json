@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "mock",
+      "path": "笔记/前端/工程化/mock.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
       "basename": "内网穿透",
       "path": "笔记/前端/工程化/工具/内网穿透.md"
     },
@@ -21,10 +33,6 @@
       "path": "笔记/学习方法/概念/PBL.md"
     },
     {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
       "basename": "HTTPS",
       "path": "笔记/前端/工程化/工具/HTTPS.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Map请求重定向",
       "path": "笔记/前端/工程化/工具/Map请求重定向.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "事实",
@@ -195,10 +199,6 @@
     {
       "basename": "iframe",
       "path": "笔记/前端/编程语言/HTML/iframe.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
     }
   ],
   "omittedPaths": [],
