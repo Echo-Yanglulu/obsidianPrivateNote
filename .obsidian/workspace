@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":15},\"to\":{\"line\":44,\"ch\":0}},\"scroll\":38.7555524504236}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":15},\"to\":{\"line\":46,\"ch\":15}},\"scroll\":44.39518059369232}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/守破离.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":9,\"ch\":12}},\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+            "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/转为数值类型.svg",
+                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/转为数值类型.svg"
+                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/转为数值类型.svg",
+                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,7 +431,7 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "dbfe59d831be1fd3",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
