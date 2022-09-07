@@ -12,6 +12,24 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":19},\"to\":{\"line\":2,\"ch\":19}},\"scroll\":0}"
             },
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/感知.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/深度思考法.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":7},\"to\":{\"line\":44,\"ch\":7}},\"scroll\":31.8451}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":14.499999175837049}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/值.md",
+            "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
             "mode": "source",
             "source": false
           }
@@ -430,15 +430,15 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "13bb76187113e7b9",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/基本类型.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/引用类型.md",
     "笔记/前端/编程语言/JS/值.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/基本类型.md",
+    "笔记/前端/编程语言/JS/引用类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/mock.md",
