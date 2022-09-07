@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}},\"scroll\":0}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -358,7 +358,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/八进制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -386,7 +386,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                "file": "笔记/前端/编程语言/JS/基本概念/八进制.md"
               }
             }
           },
@@ -415,7 +415,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/八进制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -427,13 +427,13 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "68025f7236a4a533",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/值.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/值.md",
     "笔记/前端/编程语言/JS/基本概念/基本类型.md",
     "笔记/前端/编程语言/JS/引用类型.md",
     "笔记/前端/编程语言/JS/JS.md",
