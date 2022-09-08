@@ -9,6 +9,10 @@
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
+      "basename": "mock.js",
+      "path": "笔记/前端/工程化/mock.js.md"
+    },
+    {
       "basename": "mock",
       "path": "笔记/前端/工程化/mock.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "原因",
       "path": "笔记/工具/通用概念/原因.md"
-    },
-    {
-      "basename": "背景，上下文，情况，场合，环境",
-      "path": "笔记/工具/思考/思维概念/背景，上下文，情况，场合，环境.md"
     }
   ],
   "omittedPaths": [],
