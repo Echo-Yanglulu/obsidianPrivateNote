@@ -21,8 +21,8 @@
 
 | 规则 | [[String]] | [[Number]] | Boolean | Object |
 | --- | --- | --- | --- | --- |
-| min-max | 随机重复次数 |  |  |  |
-| count | 固定重复次数 |  |  |  |
+| min-max | 对属性值字符串进行随机次数重复 | 随机生成 |  |  |
+| count | 对属性值字符串进行固定次数重复 |  |  |  |
 | min-max.dmin-dmax |  |  |  |  |
 | ount.dmin-dmax |  |  |  |  |
 | +step |  |  |  |  |
