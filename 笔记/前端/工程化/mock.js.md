@@ -19,14 +19,14 @@
 ![[Pasted image 20220909073421.png]]
 如果value类型是[[String]]，min-
 
-| 规则 | [[String]] | [[Number]] | Boolean | Object |
-| --- | --- | --- | --- | --- |
-| min-max | 对属性值进行随机次数重复 | 使用**数值类型**，根据**范围**随机生成 | 概率 |  |
-| count | 对属性值进行固定次数重复 |  |  |  |
-| min-max.dmin-dmax |  | 最小值，最大值须随机精确到dmin-dmax之间\\n感觉场景不多 |  |  |
-| count.dmin-dmax |  |  |  |  |
-| count.dount |  |  |  |  |
-| +step |  |  |  |  |
+| 规则 | [[String]] | [[Number]] | Boolean | Object | Array |
+| --- | --- | --- | --- | --- | --- |
+| min-max | 对属性值进行随机次数重复 | 使用**数值类型**，根据**范围**随机生成 | 概率 | 随机取min-max个属性 | 将所有元素重复min-max次 |
+| count | 对属性值进行固定次数重复 |  |  | 随机取固定个属性 | 随机取固定个元素 |
+| min-max.dmin-dmax |  | 最小值，最大值须随机精确到dmin-dmax之间\\n感觉场景不多 |  |  |  |
+| count.dmin-dmax |  |  |  |  |  |
+| count.dount |  |  |  |  |  |
+| +step |  |  |  |  |  |
 
-｛‘rep|1-5’: 'hi'｝生成 {rep: hihi}
+{ ‘rep|1-5’: 'hi' }生成 {rep: hihi}
 { 'dd| 1-4': true}：生成true的概率为1/5，false概率为4/5
