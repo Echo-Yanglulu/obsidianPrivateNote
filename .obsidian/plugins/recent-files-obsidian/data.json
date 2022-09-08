@@ -5,6 +5,14 @@
       "path": "笔记/前端/工程化/mock.js.md"
     },
     {
+      "basename": "OO设计模式",
+      "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
       "basename": "mock",
       "path": "笔记/前端/工程化/mock.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "现象",
       "path": "笔记/工具/思考/现象.md"
-    },
-    {
-      "basename": "本体",
-      "path": "笔记/工具/思考/本体.md"
-    },
-    {
-      "basename": "溯因",
-      "path": "笔记/工具/思考/思维概念/溯因.md"
     }
   ],
   "omittedPaths": [],
