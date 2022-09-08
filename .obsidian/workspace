@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/mock.js.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":0},\"to\":{\"line\":28,\"ch\":0}},\"scroll\":9.924100725798457}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":33},\"to\":{\"line\":25,\"ch\":33}},\"scroll\":9.924100725798457}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -141,29 +141,6 @@
         }
       },
       {
-        "id": "73b68cd4a3103777",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "73b68cd4a3103777",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/前端/设计模式/设计模式.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "077a5e73552ec2b0",
         "type": "leaf",
         "pane-relief:history-v1": {
@@ -173,7 +150,7 @@
               "leaf": "077a5e73552ec2b0",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":9},\"to\":{\"line\":36,\"ch\":9}},\"scroll\":10.003773815227005}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":3},\"to\":{\"line\":39,\"ch\":3}},\"scroll\":10.003773815227005}"
             }
           ]
         },
@@ -483,8 +460,8 @@
   },
   "lastOpenFiles": [
     "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/工程化/mock.js.md",
+    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/开发流程.md",
     "笔记/前端/前端.md",

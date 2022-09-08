@@ -21,10 +21,10 @@
 
 | 规则 | [[String]] | [[Number]] | Boolean | Object |
 | --- | --- | --- | --- | --- |
-| min-max | 对属性值字符串进行随机次数重复 | 随机生成 |  |  |
-| count | 对属性值字符串进行固定次数重复 |  |  |  |
-| min-max.dmin-dmax |  |  |  |  |
-| ount.dmin-dmax |  |  |  |  |
+| min-max | 对属性值进行随机次数重复 | 使用**数值类型**，根据**范围**随机生成 |  |  |
+| count | 对属性值进行固定次数重复 |  |  |  |
+| min-max.dmin-dmax |  | 最小值，最大值随机精确到dmin-dmax之间 |  |  |
+| count.dmin-dmax |  |  |  |  |
 | +step |  |  |  |  |
 
 ｛‘rep|1-5’: 'hi'｝生成 {rep: hihi}
