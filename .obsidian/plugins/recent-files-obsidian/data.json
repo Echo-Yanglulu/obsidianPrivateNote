@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "高级语言",
-      "path": "笔记/前端/编程语言/高级语言.md"
+      "basename": "变量",
+      "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "高级语言",
+      "path": "笔记/前端/编程语言/高级语言.md"
+    },
+    {
+      "basename": "编译",
+      "path": "笔记/前端/编程语言/编译.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
+    },
+    {
+      "basename": "解释",
+      "path": "笔记/工具/思考/思维概念/解释.md"
     },
     {
       "basename": "汇编语言",
@@ -19,10 +39,6 @@
     {
       "basename": "概述",
       "path": "笔记/前端/编程语言/JS/概述.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "函数",
@@ -157,10 +173,6 @@
       "path": "笔记/工具/思考/思维概念/溯因.md"
     },
     {
-      "basename": "解释",
-      "path": "笔记/工具/思考/思维概念/解释.md"
-    },
-    {
       "basename": "原因",
       "path": "笔记/工具/通用概念/原因.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "PDCA",
       "path": "笔记/工具/思考/PDCA.md"
-    },
-    {
-      "basename": "资源",
-      "path": "笔记/工具/思考/资源.md"
-    },
-    {
-      "basename": "精力",
-      "path": "笔记/工具/思考/精力.md"
-    },
-    {
-      "basename": "卡茨模型",
-      "path": "笔记/工具/思考/卡茨模型.md"
     }
   ],
   "omittedPaths": [],
