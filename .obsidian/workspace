@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":56},\"to\":{\"line\":14,\"ch\":56}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/函数.md",
+            "file": "笔记/前端/编程语言/编程语言.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/函数.md",
+                "file": "笔记/前端/编程语言/JS/概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/函数.md"
+                "file": "笔记/前端/编程语言/JS/概述.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/函数.md",
+                "file": "笔记/前端/编程语言/JS/概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "fafa1f7cd58b05b9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/前端/编程语言/JS/面向过程编程.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
-    "笔记/前端/编程语言/JS/值.md",
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
-    "笔记/前端/编程语言/JS/基本概念/转为数值类型.svg"
+    "笔记/前端/编程语言/JS/值.md"
   ]
 }
