@@ -9,6 +9,18 @@
       "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "概述",
+      "path": "笔记/前端/编程语言/JS/概述.md"
+    },
+    {
+      "basename": "JS.excalidraw",
+      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
+    },
+    {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
     },
@@ -37,16 +49,8 @@
       "path": "笔记/前端/编程语言/机器语言.md"
     },
     {
-      "basename": "概述",
-      "path": "笔记/前端/编程语言/JS/概述.md"
-    },
-    {
       "basename": "函数",
       "path": "笔记/前端/编程语言/JS/函数.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "数据格式",
@@ -195,10 +199,6 @@
     {
       "basename": "DAMIC",
       "path": "笔记/工具/思考/DAMIC.md"
-    },
-    {
-      "basename": "PDCA",
-      "path": "笔记/工具/思考/PDCA.md"
     }
   ],
   "omittedPaths": [],
