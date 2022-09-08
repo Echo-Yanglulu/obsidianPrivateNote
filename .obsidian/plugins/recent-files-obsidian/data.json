@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "mock",
+      "path": "笔记/前端/工程化/mock.md"
+    },
+    {
       "basename": "开发流程",
       "path": "笔记/前端/工程化/开发流程.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "工程化",
@@ -11,10 +19,6 @@
     {
       "basename": "mock.js",
       "path": "笔记/前端/工程化/mock.js.md"
-    },
-    {
-      "basename": "mock",
-      "path": "笔记/前端/工程化/mock.md"
     },
     {
       "basename": "2.测试",
@@ -195,10 +199,6 @@
     {
       "basename": "溯因",
       "path": "笔记/工具/思考/思维概念/溯因.md"
-    },
-    {
-      "basename": "原因",
-      "path": "笔记/工具/通用概念/原因.md"
     }
   ],
   "omittedPaths": [],

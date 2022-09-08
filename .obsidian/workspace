@@ -13,7 +13,37 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/开发流程.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":30},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":11},\"to\":{\"line\":19,\"ch\":11}},\"scroll\":3.6889}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"scroll\":3.7}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/开发流程.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}},\"scroll\":0}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -98,36 +128,6 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":34},\"to\":{\"line\":5,\"ch\":34}},\"scroll\":1.6757964652436899}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":17},\"to\":{\"line\":26,\"ch\":17}},\"scroll\":13.185184352300933}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.6757964652436899}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.6757964652436899}"
             }
           ]
         },
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/开发流程.md",
+                "file": "笔记/前端/工程化/mock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/开发流程.md"
+                "file": "笔记/前端/工程化/mock.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/开发流程.md",
+                "file": "笔记/前端/工程化/mock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "5b072d3f50e36413",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/开发流程.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/mock.js.md",
     "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/质量/2.测试.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md"
+    "笔记/前端/编程语言/JS/JS.md"
   ]
 }
