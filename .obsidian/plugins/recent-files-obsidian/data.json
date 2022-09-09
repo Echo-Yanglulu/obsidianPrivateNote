@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "变形",
-      "path": "笔记/前端/编程语言/CSS/变形.md"
+      "basename": "CSS预处理器",
+      "path": "笔记/前端/工程化/CSS预处理器.md"
     },
     {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "PostCSS",
+      "path": "笔记/前端/工程化/PostCSS.md"
+    },
+    {
+      "basename": "选择器",
+      "path": "笔记/前端/编程语言/CSS/选择器.md"
+    },
+    {
+      "basename": "动画",
+      "path": "笔记/前端/编程语言/CSS/动画.md"
+    },
+    {
+      "basename": "变形",
+      "path": "笔记/前端/编程语言/CSS/变形.md"
     },
     {
       "basename": "过渡",
@@ -183,22 +199,6 @@
     {
       "basename": "数据格式",
       "path": "笔记/前端/编程语言/JS/基本概念/数据格式.md"
-    },
-    {
-      "basename": "编程范式",
-      "path": "笔记/前端/编程语言/JS/编程范式.md"
-    },
-    {
-      "basename": "函数式编程",
-      "path": "笔记/前端/编程语言/JS/函数式编程.md"
-    },
-    {
-      "basename": "面向过程编程",
-      "path": "笔记/前端/编程语言/JS/面向过程编程.md"
-    },
-    {
-      "basename": "面向对象编程",
-      "path": "笔记/前端/编程语言/JS/面向对象编程.md"
     }
   ],
   "omittedPaths": [],
