@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
       "basename": "对象",
       "path": "笔记/前端/编程语言/JS/基本概念/对象.md"
     },
@@ -9,8 +13,8 @@
       "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
     },
     {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+      "basename": "Map",
+      "path": "笔记/前端/编程语言/JS/基本概念/Map.md"
     },
     {
       "basename": "String",
@@ -195,10 +199,6 @@
     {
       "basename": "Map请求重定向",
       "path": "笔记/前端/工程化/工具/Map请求重定向.md"
-    },
-    {
-      "basename": "事实",
-      "path": "笔记/学习方法/概念/事实.md"
     }
   ],
   "omittedPaths": [],
