@@ -12,8 +12,26 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Symbol.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":42},\"to\":{\"line\":20,\"ch\":42}},\"scroll\":0}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -110,31 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/mock.js.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"scroll\":9.93031837670712}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/String.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":45.49305375466144}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":5},\"to\":{\"line\":15,\"ch\":5}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}},\"scroll\":1.7546}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/JS/基本概念/Symbol.md",
+            "file": "笔记/前端/编程语言/CSS/CSS.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/Symbol.md",
+                "file": "笔记/前端/编程语言/CSS/值与单位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
+                "file": "笔记/前端/编程语言/CSS/值与单位.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/Symbol.md",
+                "file": "笔记/前端/编程语言/CSS/值与单位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -432,20 +432,20 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "c88253276be53d6d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/幂等.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/值与单位.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/基本概念/Symbol.md",
+    "笔记/前端/编程语言/JS/基本概念/幂等.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/基本概念/属性名.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/浏览器.md"
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md"
   ]
 }
