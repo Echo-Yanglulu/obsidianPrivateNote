@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
     },
     {
+      "basename": "幂等",
+      "path": "笔记/前端/编程语言/JS/基本概念/幂等.md"
+    },
+    {
       "basename": "String",
       "path": "笔记/前端/编程语言/JS/基本概念/String.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "深度思考法",
       "path": "笔记/工具/思考/深度思考法.md"
-    },
-    {
-      "basename": "守破离",
-      "path": "笔记/工具/思考/守破离.md"
     }
   ],
   "omittedPaths": [],
