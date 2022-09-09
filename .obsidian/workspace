@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Sass.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":46},\"to\":{\"line\":1,\"ch\":46}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":55},\"to\":{\"line\":1,\"ch\":55}}}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/依赖.md",
+                "file": "笔记/前端/工程化/npm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/依赖.md"
+                "file": "笔记/前端/工程化/npm.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/依赖.md",
+                "file": "笔记/前端/工程化/npm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "4ff4da151081cf8b",
+  "active": "93adae258f45a3fb",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/开发依赖.md",
     "笔记/前端/工程化/Sass.md",
+    "笔记/前端/工程化/开发依赖.md",
+    "笔记/前端/工程化/依赖.md",
     "笔记/前端/工程化/生产依赖.md",
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/LibSass.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/工程化/LESS.md",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/工程化/PostCSS.md",
-    "笔记/前端/编程语言/CSS/选择器.md"
+    "笔记/前端/工程化/PostCSS.md"
   ]
 }
