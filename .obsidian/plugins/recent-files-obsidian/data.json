@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Sass",
+      "path": "笔记/前端/工程化/Sass.md"
+    },
+    {
+      "basename": "编译器",
+      "path": "笔记/前端/基础知识/编译原理/编译器.md"
+    },
+    {
       "basename": "CSS预处理器",
       "path": "笔记/前端/工程化/CSS预处理器.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "汇编语言",
       "path": "笔记/前端/编程语言/汇编语言.md"
-    },
-    {
-      "basename": "机器语言",
-      "path": "笔记/前端/编程语言/机器语言.md"
-    },
-    {
-      "basename": "函数",
-      "path": "笔记/前端/编程语言/JS/函数.md"
     }
   ],
   "omittedPaths": [],
