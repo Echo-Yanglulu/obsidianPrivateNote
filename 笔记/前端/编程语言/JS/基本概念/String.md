@@ -27,7 +27,7 @@ function simpleTag(strings, aValExpression, bValExpression, sumExpression) {
   console.log(aValExpression);
   console.log(bValExpression);
   console.log(sumExpression);
-
+	// 参数数量不定，所以使用剩余参数收集
   return 'foobar';
 }
 
@@ -51,7 +51,29 @@ toString()
 		2. 数值调用：默认返回二进制。传数值返回对应进制的字符串表示。（转换类型与进制）
 		3. 字符串调用：只是返回副本（值与类型都不转换）。
 		4. 对象调用：调用内部的toString()方法。没有则报错
+# 其他
+获取原始字符串，而非转换字符串
+```javascript
+function printRaw(strings) {
+  console.log('Actual characters:');
+  for (const string of strings) {
+    console.log(string);
+  }
 
+  console.log('Escaped characters;');
+  for (const rawString of strings.raw) {
+    console.log(rawString);
+  }
+}
+
+printRaw`\u00A9${ 'and' }\n`;
+// Actual characters:
+// ©
+//（换行符）
+// Escaped characters:
+// \u00A9
+// \n
+```
 
 [^1]: let text = "This is the letter sigma: \u03a3.";长度为28，因为\u03a3是一个16位字符
 [^2]: 一旦创建，值不能改变。没有修改，只有新增且删除。所以有的浏览器拼接字符串非常慢。
