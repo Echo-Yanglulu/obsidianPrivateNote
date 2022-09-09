@@ -5,6 +5,18 @@
       "path": "笔记/前端/工程化/npm.md"
     },
     {
+      "basename": "运行依赖",
+      "path": "笔记/前端/工程化/运行依赖.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "笔记/前端/工程化/基本概念/CLI.md"
+    },
+    {
+      "basename": "注册表",
+      "path": "笔记/前端/工程化/注册表.md"
+    },
+    {
       "basename": "Sass",
       "path": "笔记/前端/工程化/Sass.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "依赖",
       "path": "笔记/前端/工程化/依赖.md"
-    },
-    {
-      "basename": "生产依赖",
-      "path": "笔记/前端/工程化/生产依赖.md"
     },
     {
       "basename": "CSS预处理器",
@@ -191,14 +199,6 @@
     {
       "basename": "值",
       "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "非打印字符",
-      "path": "笔记/前端/编程语言/JS/基本概念/非打印字符.md"
-    },
-    {
-      "basename": "JS.excalidraw",
-      "path": "笔记/前端/编程语言/JS/JS.excalidraw.md"
     }
   ],
   "omittedPaths": [],
