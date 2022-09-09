@@ -1,14 +1,14 @@
 .theme-dark {
   --background-primary: #282a36;
   --background-primary-alt: #44475a;
-  --background-secondary: #282a36;
-  --background-secondary-alt: #1a1e24;
+  --background-secondary: #1a1e24;
+  --background-secondary-alt: #282a36;
   --text-normal: #f8f8f2;
   --text-title-h1: #bd93f9;
-  --text-title-h2: #bd93f8;
-  --text-title-h3: #bd93f7;
-  --text-title-h4: #bd93f6;
-  --text-title-h5: #bd93f5;
+  --text-title-h2: #ffb86c;
+  --text-title-h3: #50fa7b;
+  --text-title-h4: #ff5555;
+  --text-title-h5: #f1fa8c;
   --text-title-h6: #bd93f4;
   --text-link: #8be9fd;
   --markup-code: #ffb86c;
@@ -16,11 +16,9 @@
   --text-a: #ff79c6;
   --text-a-hover: #ff79c0;
   --text-mark: #f1fa8c;
-  --interactive-accent: #f1fa8c;
+  --interactive-accent: #50fa7b;
   --blockquote-border: #b294bb;
   --interactive-accent-rgb: #f1fa8c;
-  --font-family-editor: Avenir, Avenir Next, sans-serif;
-  --font-family-preview: Avenir, Avenir Next, sans-serif;
 }
 
 /* LINKS & BRACKETS */
@@ -51,9 +49,6 @@ a,
   color: var(--text-link) !important;
 }
 
-/* link hover color */
-
-/* redacted */
 
 /* make external links italics to differentiate */
 
@@ -67,12 +62,6 @@ a:not(.internal-link) {
   background-color: var(--text-normal);
 }
 
-/* internal embedded link rendering in preview */
-
-.markdown-embed-title {
-  font-weight: 600;
-}
-
 .markdown-embed {
   padding-left: 8px !important;
   padding-right: 4px !important;
@@ -83,7 +72,6 @@ a:not(.internal-link) {
 /* internal embedded link rendering in preview */
 
 .markdown-embed-title {
-  font-weight: 600;
   color: var(--text-link);
 }
 
@@ -145,11 +133,6 @@ a:not(.internal-link) {
 
 /* CODEBLOCKS */
 
-/* code and code blocks for preview */
-
-.markdown-preview-view code {
-  font-size: 13.5px;
-}
 
 /* code blocks in preview */
 
@@ -169,7 +152,7 @@ pre code {
 code,
 .cm-inline-code {
   background-color: var(--background-primary-alt) !important;
-  color: var(--text-muted) !important;
+  color: var(--markup-code) !important;
   bottom: 0px !important;
 }
 
@@ -248,171 +231,12 @@ blockquote {
 blockquote:before {
   font: 14px/20px italic Times, serif;
   content: "“";
-  font-size: 3em;
   line-height: 0.1em;
   vertical-align: -0.4em;
 }
 
 blockquote p {
   display: inline;
-}
-
-/* ANDY MATUSCHAK MODE*/
-
-/* V2! for 0.7.0! (2.7?) */
-
-.mod-root.workspace-split.mod-vertical {
-  overflow-x: auto;
-  --header-width: 36px;
-  /* <- 36px is the header height in the default theme */
-}
-
-.mod-root.workspace-split.mod-vertical > div {
-  min-width: calc(700px + var(--header-width));
-  /* <-- 700px is the default theme's "readable" max-width */
-  box-shadow: 0px 0px 20px 20px #202225;
-  position: sticky;
-  left: 0;
-}
-
-/* shift sticky position, so titles will stack up to the left */
-
-/* This will currently stack to a maximum of 10 before resetting */
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) {
-  left: calc(var(--header-width) * 0);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) {
-  left: calc(var(--header-width) * 1);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) {
-  left: calc(var(--header-width) * 2);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) {
-  left: calc(var(--header-width) * 3);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) {
-  left: calc(var(--header-width) * 4);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) {
-  left: calc(var(--header-width) * 5);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) {
-  left: calc(var(--header-width) * 6);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) {
-  left: calc(var(--header-width) * 7);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n + 0) {
-  left: calc(var(--header-width) * 8);
-}
-
-.mod-root.workspace-split.mod-vertical > div:nth-child(10n + 1) {
-  left: calc(var(--header-width) * 9);
-}
-
-/* fancy vertical titles */
-
-.workspace-leaf-content {
-  padding-left: var(--header-width);
-  position: relative;
-}
-
-.view-header {
-  writing-mode: vertical-lr;
-  border-right: 1px solid var(--background-secondary-alt);
-  border-left: 2px solid var(--background-secondary-alt);
-  border-top: none;
-  border-bottom: none;
-  height: auto;
-  width: var(--header-width);
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
-
-/* active titles have different border colours */
-
-.workspace-leaf.mod-active .view-header {
-  background-color: var(--background-secondary-alt) !important;
-  border-right: 2px solid var(--interactive-accent);
-  border-bottom: none;
-}
-
-/* unset the title container height and swap padding */
-
-.view-header-title-container {
-  height: unset;
-  padding-left: unset;
-  padding-top: 5px;
-  background: var(--background-secondary-alt);
-}
-
-/* fix the long-title-obscuring shadows */
-
-.view-header-title-container:after {
-  width: 100%;
-  height: 30px;
-  top: unset;
-  bottom: 0;
-  background: var(--background-secondary-alt) !important;
-}
-
-.workspace-leaf.mod-active .view-header-title-container:after {
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    var(--background-secondary-alt)
-  );
-}
-
-/* swap the padding/margin around for the header and actions icons */
-
-.view-header-icon,
-.view-actions {
-  padding: 10px 5px;
-  background: var(--background-secondary-alt);
-}
-
-.view-action {
-  margin: 8px 0;
-}
-
-/* get rid of the gap left by the now-missing horizontal title */
-
-.view-content {
-  height: 100%;
-}
-
-/* make the fake drop target overlay have a background so you can see it. */
-
-/* TODO: figure out how the fake target overlay works so we can put the title back, too */
-
-.workspace-fake-target-overlay {
-  background-color: var(--background-primary);
-}
-
-/* Clean up secondary scrollbar*/
-
-/* remove, comes from adding variable padding */
-
-.CodeMirror-scroll::-webkit-scrollbar {
-  display: none;
-}
-
-/* remote secondary scroll bar */
-
-.CodeMirror-scroll::-webkit-scrollbar {
-  display: none;
 }
 
 /* IMAGES */
@@ -428,7 +252,6 @@ img {
 /* TABLES */
 
 th {
-  font-weight: 800 !important;
   border: 1px solid var(--background-primary-alt) !important;
 }
 
@@ -465,6 +288,7 @@ thead {
 .view-action.is-active {
   color: var(--text-normal) !important;
 }
+
 
 .status-bar {
   background-color: var(--background-secondary-alt);
@@ -545,6 +369,10 @@ button.mod-cta {
   color: var(--text-normal) !important;
 }
 
+.nav-action-button.is-active {
+  background-color: var(--background-secondary-alt);
+}
+
 .search-result-file-title {
   color: var(--text-a) !important;
   background-color: var(--background-secondary);
@@ -563,19 +391,6 @@ button.mod-cta {
   color: var(--text-normal);
 }
 
-/* side dock text, like file names and backlink context */
-
-.side-dock-panels-container {
-  font-size: 13px !important;
-}
-
-/* side dock titles at top */
-
-.side-dock-title {
-  font-size: 20px !important;
-  font-weight: 800 !important;
-}
-
 /* hover actions on side dock navigation */
 
 .side-dock-ribbon-tab:hover,
@@ -587,15 +402,9 @@ button.mod-cta {
   color: var(--text-normal);
 }
 
-/* condense line spacing on file explorer title list. also avoids character-level word breaks */
-
-.nav-file-title-content,
-.search-result-file-title,
-.search-result-file-match {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  line-height: normal !important;
-  word-break: keep-all;
+/* Hover color over tree item flairs */
+.tree-item-self:hover .tree-item-flair {
+  background-color: var(--background-secondary);
 }
 
 /* clean up side bar empty state (e.g. unlinked mentions) */
@@ -605,17 +414,6 @@ button.mod-cta {
   padding-left: 15px;
   padding-right: 15px;
   line-height: normal;
-}
-
-/* font for everything outside of editor/preview panes */
-
-.app-container {
-  font-family: var(--font-family-preview);
-}
-
-.status-bar-item {
-  font-family: var(--font-family-preview);
-  font-size: 12px;
 }
 
 /* clean up side bar empty state (e.g. unlinked mentions) */
@@ -632,16 +430,12 @@ button.mod-cta {
 /* preview */
 
 .markdown-preview-view {
-  font-family: var(--font-family-preview);
-  font-size: 15px;
   color: var(--text-normal);
   padding-left: 8% !important;
   padding-right: 4% !important;
 }
 
 .mod-single-child .markdown-preview-view {
-  font-family: var(--font-family-preview);
-  font-size: 15px;
   color: var(--text-normal);
   padding-left: 10% !important;
   padding-right: 10% !important;
@@ -650,16 +444,12 @@ button.mod-cta {
 /* editor */
 
 .cm-s-obsidian {
-  font-family: var(--font-family-editor);
-  font-size: 15px;
   color: var(--text-normal);
   padding-left: 8% !important;
   padding-right: 4% !important;
 }
 
 .mod-single-child .cm-s-obsidian {
-  font-family: var(--font-family-editor);
-  font-size: 15px;
   color: var(--text-normal);
   padding-left: 8% !important;
   padding-right: 4% !important;
@@ -670,100 +460,52 @@ button.mod-cta {
 /* preview */
 
 .markdown-preview-view h1 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 28px;
-  font-weight: bold;
   color: var(--text-title-h1);
 }
 
 .markdown-preview-view h2 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 26px;
-  font-weight: bold;
   color: var(--text-title-h2);
 }
 
 .markdown-preview-view h3 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 23px;
-  font-weight: bold;
   color: var(--text-title-h3);
 }
 
 .markdown-preview-view h4 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 20px;
-  font-weight: bold;
   color: var(--text-title-h4);
 }
 
 .markdown-preview-view h5 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 18px;
-  font-weight: bold;
   color: var(--text-title-h5);
 }
 
 .markdown-preview-view h6 {
-  font-family: var(--font-family-preview);
-  font-weight: 500;
-  font-size: 16px;
-  font-weight: bold;
   color: var(--text-title-h6);
 }
 
 /* editor */
 
 .cm-header-1 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 28px;
-  font-weight: bold;
   color: var(--text-title-h1);
 }
 
 .cm-header-2 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 26px;
-  font-weight: bold;
   color: var(--text-title-h2);
 }
 
 .cm-header-3 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 23px;
-  font-weight: bold;
   color: var(--text-title-h3);
 }
 
 .cm-header-4 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 20px;
-  font-weight: bold;
   color: var(--text-title-h4);
 }
 
 .cm-header-5 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 18px;
-  font-weight: bold;
   color: var(--text-title-h5);
 }
 
 .cm-header-6 {
-  font-family: var(--font-family-editor);
-  font-weight: 500;
-  font-size: 16px;
-  font-weight: bold;
   color: var(--text-title-h6);
 }
 
@@ -787,14 +529,12 @@ a.tag {
 
 strong {
   color: var(--markup-code);
-  font-weight: 700;
 }
 
 /* editor */
 
 .cm-strong {
   color: var(--markup-code);
-  font-weight: 700;
 }
 
 /* ITALICS */
@@ -873,7 +613,6 @@ mark {
   content: "✓";
   position: absolute;
   color: var(--interactive-accent);
-  font-size: 1em;
   line-height: 1.25em;
   width: 1.2em;
   text-align: center;
@@ -900,18 +639,13 @@ mark {
 }
 
 .checkbox-container.is-enabled {
-  background-color: var(--background-primary-alt);
+  background-color: var(--interactive-accent);
 }
+
 
 .markdown-preview-view mark {
   color: var(--text-link);
   background-color: var(--background-primary-alt);
-}
-
-/* dashes in bullets */
-
-.cm-formatting-list {
-  font-weight: 700;
 }
 
 .cm-formatting
@@ -926,20 +660,17 @@ mark {
 .CodeMirror-foldgutter-folded:after,
 .CodeMirror-foldgutter-open:after {
   opacity: 0.5;
-  font-size: 60%;
   color: var(--text-link);
 }
 
 .CodeMirror-foldgutter-folded:hover:after,
 .CodeMirror-foldgutter-open:hover:after {
   opacity: 1;
-  font-size: 60%;
   color: var(--text-link);
 }
 
 .CodeMirror-foldgutter-folded:after {
   content: "\25BA";
-  font-size: 60%;
   color: var(--text-link);
 }
 

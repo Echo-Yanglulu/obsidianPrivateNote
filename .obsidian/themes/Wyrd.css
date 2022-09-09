@@ -14,9 +14,9 @@
 /**
   1.1 Fonts
  */
-/* Preview: Neucha */
+/* TODO: Need to change these to be base64 to make them useable offline. */
+/* Preview/Edit: Neucha */
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-/* Edit:  */
 /* Monospace: Space Mono — NOT SELECTED FOR LIGATURES */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* Headings: Birthstone */
@@ -230,7 +230,7 @@
   left: calc(var(--editor-font-size) * -2);
   margin-top: 1.25rem;
   position: absolute;
-  top: calc(var(--editor-font-size) * -1);
+  top: calc(var(--editor-font-size) * -1.3);
   width: calc(100% + .25rem);
   z-index: -1;
 }
@@ -255,10 +255,10 @@
   background: linear-gradient(90deg, var(--color-hot-pink), var(--color-hot-pink) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 2.7);
+  height: calc(var(--editor-font-size) * 2.9);
   left: calc(var(--editor-font-size) * -2);
   position: absolute;
-  top: calc(var(--editor-font-size) / 3);
+  top: calc(var(--editor-font-size) * -0.1);
   width: calc(100% + .25rem);
   z-index: -1;
 }
@@ -285,10 +285,10 @@
   background: linear-gradient(90deg, var(--color-shadowy-gold), var(--color-shadowy-gold) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 2.35);
+  height: calc(var(--editor-font-size) * 2.4);
   left: calc(var(--editor-font-size) * -2);
   position: absolute;
-  top: calc(var(--editor-font-size) / 5);
+  top: calc(var(--editor-font-size) * 0.1);
   width: calc(100% + .25rem);
   z-index: -1;
 }
@@ -315,7 +315,7 @@
   height: calc(var(--editor-font-size) * 2.1);
   left: calc(var(--editor-font-size) * -2);
   position: absolute;
-  top: calc(var(--editor-font-size) / 7);
+  top: calc(var(--editor-font-size) * 0.05);
   width: calc(100% + .25rem);
   z-index: -1;
 }
@@ -339,11 +339,11 @@
   background: linear-gradient(90deg, var(--color-teal), var(--color-teal) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 1.8);
+  height: calc(var(--editor-font-size) * 1.9);
   left: calc(var(--editor-font-size) * -2);
   position: absolute;
   width: calc(100% + .25rem);
-  top: calc(var(--editor-font-size) / 7.5);
+  top: calc(var(--editor-font-size) * 0.1);
   z-index: -1;
 }
 .markdown-preview-view h6,
@@ -370,7 +370,7 @@
   left: calc(var(--editor-font-size) * -2);
   position: absolute;
   width: calc(100% + .25rem);
-  top: calc(var(--editor-font-size) / 9);
+  top: calc(var(--editor-font-size) * 0.15);
   z-index: -1;
 }
 /* 4.2 Preview — Text */
@@ -601,7 +601,7 @@ ul ul ul ul ul ul {
 li {
   border-radius: 0.25rem;
   padding-bottom: 0.2rem;
-  padding-left: 0.6rem;
+  padding-left: 0.4rem;
   padding-right: 0.2rem;
   transition: var(--transition-duration-normal) box-shadow ease-in-out;
 }
@@ -659,6 +659,75 @@ ol ol ol ol ol ol li::marker {
 .markdown-preview-view.mod-cm6 ul > li.task-list-item.is-checked > ul > li {
   color: var(--text-normal);
 }
+.markdown-preview-view .task-list-item-checkbox {
+  margin-left: 0;
+}
+.markdown-preview-view input[type=checkbox] {
+  border-radius: 5px;
+  -webkit-appearance: none;
+  filter: none;
+  height: calc(var(--editor-font-size) * 0.8);
+  left: 0.05rem;
+  margin-right: 0.5rem;
+  position: relative;
+  width: calc(var(--editor-font-size) * 0.8);
+}
+.markdown-preview-view ul > li.task-list-item.is-checked {
+  font-weight: normal;
+}
+.markdown-preview-view ul > li.task-list-item.is-checked .contains-task-list > li:not(.is-checked) {
+  color: var(--text-normal);
+}
+.markdown-preview-view .task-list-item[data-task] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] .task-list-item-checkbox {
+  background: var(--background-primary);
+  border: 1.5px solid var(--color-magic-gold);
+  vertical-align: text-top;
+}
+.markdown-preview-view ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-1[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-1:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-purple-3);
+}
+.markdown-preview-view ul ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-2[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-2:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-hot-pink);
+}
+.markdown-preview-view ul ul ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-3[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-3:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-shadowy-gold);
+}
+.markdown-preview-view ul ul ul ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-4[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-4:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-green);
+}
+.markdown-preview-view ul ul ul ul ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-5[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-5:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-teal);
+}
+.markdown-preview-view ul ul ul ul ul ul .task-list-item[data-task='x'] .task-list-item-checkbox:checked,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-6[data-task='x'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-task-line.HyperMD-list-line-6:not([data-task=' ']) .task-list-item-checkbox {
+  background: var(--color-cyan-desat);
+}
+.markdown-preview-view .task-list-item[data-task].is-checked:not([data-task=" "]),
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task]:not([data-task=" "]) {
+  text-decoration: none;
+  color: var(--text-faint);
+}
+.markdown-preview-view .task-list-item[data-task='-'],
+.markdown-source-view.mod-cm6 .HyperMD-list-line.HyperMD-task-line[data-task='-'] {
+  color: var(--text-strike);
+}
+.markdown-preview-view .task-list-item[data-task='-'] .task-list-item-checkbox,
+.markdown-source-view.mod-cm6 .HyperMD-list-line.HyperMD-task-line[data-task='-'] .task-list-item-checkbox {
+  background: var(--text-strike);
+}
+
 /* 4.4 Preview — Links */
 /* 4.4.1 Preview — Links — Internal */
 .markdown-preview-view .internal-link {
@@ -742,6 +811,7 @@ ol ol ol ol ol ol li::marker {
   height: 2px;
 }
 /* Preview — Tables */
+.markdown-preview-view.mod-cm6 .cm-table-widget table,
 .markdown-preview-view table {
   box-shadow: 0 -1px 1px var(--color-shadowy-gold),
               0 -1px 2px var(--color-shadowy-gold),
@@ -750,11 +820,14 @@ ol ol ol ol ol ol li::marker {
               0 -1px 8px var(--shadow-primary);
   margin: 0 auto;
 }
+.markdown-rendered th,
+.markdown-rendered td,
 .markdown-preview-view table td,
 .markdown-preview-view table th {
   border: none;
   transition: var(--transition-duration-normal) box-shadow, text-shadow ease-in-out;
 }
+.markdown-rendered thead,
 .markdown-preview-view table thead {
   box-shadow: 0 -1px 1px var(--color-shadowy-gold),
               0 -1px 2px var(--color-shadowy-gold),
@@ -763,6 +836,7 @@ ol ol ol ol ol ol li::marker {
               0 -1px 8px var(--shadow-primary),
               0 -1px 16px var(--shadow-primary);
 }
+.markdown-rendered th,
 .markdown-preview-view table th {
   font-size: 1.1rem;
   box-shadow: 0 -1px 1px var(--color-purple-3) inset,
@@ -773,6 +847,7 @@ ol ol ol ol ol ol li::marker {
                0 -1px 2px var(--color-purple-3),
                0 -1px 4px var(--color-purple-3);
 }
+.markdown-rendered th:hover,
 .markdown-preview-view table th:hover {
   box-shadow: 0 -1px 1px var(--color-purple-3) inset,
               0 -1px 2px var(--color-purple-3) inset,
@@ -784,6 +859,7 @@ ol ol ol ol ol ol li::marker {
                0 -1px 4px var(--color-purple-3),
                0 -1px 8px var(--color-purple-3);
 }
+.markdown-rendered tr:nth-child(even) td,
 .markdown-preview-view table tr:nth-child(even) td {
   font-size: 1.1rem;
   box-shadow: 0 -1px 1px var(--color-green) inset,
@@ -792,6 +868,7 @@ ol ol ol ol ol ol li::marker {
               0 -1px 8px var(--color-green) inset;
   text-shadow: 0 -1px 1px var(--color-green);
 }
+.markdown-rendered tr:nth-child(odd) td,
 .markdown-preview-view table tr:nth-child(odd) td {
   font-size: 1.1rem;
   box-shadow: 0 -1px 1px var(--color-blue) inset,
@@ -800,6 +877,7 @@ ol ol ol ol ol ol li::marker {
               0 -1px 8px var(--color-blue) inset;
   text-shadow: 0 -1px 1px var(--color-blue);
 }
+.markdown-rendered tr td:hover,
 .markdown-preview-view table tr td:hover {
   box-shadow: 0 -1px 1px var(--color-teal) inset,
               0 -1px 2px var(--color-teal) inset,
@@ -830,6 +908,19 @@ ol ol ol ol ol ol li::marker {
 .nav-folder-children > div:first-child:not() {
   /* removes the small gap between folders and the files within them */
   display: none;
+}
+.nav-folder-children {
+  padding-left: 0.5rem;
+}
+.nav-file {
+  border: none;
+}
+.nav-file-title,
+.nav-folder-title {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  /* flex-wrap: wrap; */
+  max-width: -webkit-fill-available;
 }
 .tree-item:hover {
   box-shadow: 0 -1px 1px var(--color-hot-pink) inset,
@@ -1073,6 +1164,11 @@ input,
 .cm-s-obsidian .cm-cursor-primary {
   box-shadow: 0 0 2px var(--color-teal);
 }
+body .markdown-source-view.mod-cm6 .cm-content,
+body .mod-cm6 .cm-line,
+body input.prompt-input {
+  caret-color: var(--color-magic-gold);
+}
 /* Edit — Line */
 .cm-s-obsidian .cm-line,
 .cm-s-obsidian .CodeMirror-line {
@@ -1164,7 +1260,7 @@ input,
   left: -1.5rem;
 }
 .cm-s-obsidian .HyperMD-header-1 {
-  font-size: calc(var(--editor-font-size) * 1.6);
+  font-size: calc(var(--editor-font-size) * 2);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-purple-4),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-purple-4),
@@ -1181,14 +1277,14 @@ input,
   background: linear-gradient(90deg, var(--color-purple-3), var(--color-purple-3) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 4);
-  top: calc(var(--editor-font-size) / 2);
+  height: calc(var(--editor-font-size) * 2.75);
+  /* top: calc(var(--editor-font-size) * -0.25); */
   position: absolute;
   width: calc(100% + .25rem);
   z-index: -1;
 }
 .cm-s-obsidian .HyperMD-header-2 {
-  font-size: calc(var(--editor-font-size) * 1.5);
+  font-size: calc(var(--editor-font-size) * 1.8);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-red-pink),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-red-pink),
@@ -1205,14 +1301,14 @@ input,
   background: linear-gradient(90deg, var(--color-hot-pink), var(--color-hot-pink) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 3);
+  height: calc(var(--editor-font-size) * 2.5);
   position: absolute;
-  top: calc(var(--editor-font-size) / 2.5);
+  /* top: calc(var(--editor-font-size) * -0.25); */
   width: calc(100% + .25rem);
   z-index: -1;
 }
 .cm-s-obsidian .HyperMD-header-3 {
-  font-size: calc(var(--editor-font-size) * 1.4);
+  font-size: calc(var(--editor-font-size) * 1.6);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-magic-gold),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-magic-gold),
@@ -1229,14 +1325,14 @@ input,
   background: linear-gradient(90deg, var(--color-shadowy-gold), var(--color-shadowy-gold) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 2.5);
+  height: calc(var(--editor-font-size) * 2.3);
   position: absolute;
-  top: calc(var(--editor-font-size) / 3.5);
+  /* top: calc(var(--editor-font-size) * 0); */
   width: calc(100% + .25rem);
   z-index: -1;
 }
 .cm-s-obsidian .HyperMD-header-4 {
-  font-size: calc(var(--editor-font-size) * 1.3);
+  font-size: calc(var(--editor-font-size) * 1.4);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-green),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-green),
@@ -1255,12 +1351,12 @@ input,
   border-bottom-left-radius: 20px;
   height: calc(var(--editor-font-size) * 2.15);
   position: absolute;
-  top: calc(var(--editor-font-size) / 7.5);
+  /* top: calc(var(--editor-font-size) / 7.5); */
   width: calc(100% + .25rem);
   z-index: -1;
 }
 .cm-s-obsidian .HyperMD-header-5 {
-  font-size: calc(var(--editor-font-size) * 1.2);
+  font-size: calc(var(--editor-font-size) * 1.3);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-teal),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-teal),
@@ -1277,14 +1373,14 @@ input,
   background: linear-gradient(90deg, var(--color-teal), var(--color-teal) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 1.8);
+  height: calc(var(--editor-font-size) * 1.95);
   position: absolute;
   width: calc(100% + .25rem);
-  top: calc(var(--editor-font-size) / 7.5);
+  /* top: calc(var(--editor-font-size) / 7.5); */
   z-index: -1;
 }
 .cm-s-obsidian .HyperMD-header-6 {
-  font-size: calc(var(--editor-font-size) * 1.1);
+  font-size: calc(var(--editor-font-size) * 1.2);
   text-shadow: 0 -1px calc(var(--editor-font-size) / 16) var(--shadow-primary),
                0 -1px calc(var(--editor-font-size) / 16) var(--color-cyan),
                0 -1px calc(var(--editor-font-size) / 8) var(--color-cyan),
@@ -1301,10 +1397,10 @@ input,
   background: linear-gradient(90deg, var(--color-cyan-desat), var(--color-cyan-desat) 25%, #00000000 75%);
   border-top-left-radius: 50px;
   border-bottom-left-radius: 20px;
-  height: calc(var(--editor-font-size) * 1.6);
+  height: calc(var(--editor-font-size) * 1.8);
   position: absolute;
   width: calc(100% + .25rem);
-  top: calc(var(--editor-font-size) / 9);
+  /* top: calc(var(--editor-font-size) / 9); */
   z-index: -1;
 }
 .cm-s-obsidian .cm-formatting-header {
@@ -1472,8 +1568,9 @@ span.cm-formatting-quote-2,
 .cm-s-obsidian span.cm-formatting-quote-2 {
   color: var(--color-red-pink);
 }
-.markdown-source-view.mod-cm6 .HyperMD-quote-2 .cm-blockquote-border
+/* .markdown-source-view.mod-cm6 .HyperMD-quote-2 .cm-blockquote-border */
 /* .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote-2 .cm-blockquote-border  */
+.markdown-source-view.mod-cm6 .HyperMD-quote span.cm-blockquote-border:nth-child(3)
 {
   border-color: var(--color-red-pink);
 }
@@ -1487,8 +1584,9 @@ span.cm-formatting-quote-3,
 .cm-s-obsidian span.cm-formatting-quote-3 {
   color: var(--color-shadowy-gold);
 }
-.markdown-source-view.mod-cm6 .HyperMD-quote.HyperMD-quote-3 .cm-quote-3 .cm-blockquote-border
+/* .markdown-source-view.mod-cm6 .HyperMD-quote-3 .cm-blockquote-border */
 /* .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote-2 .cm-blockquote-border  */
+.markdown-source-view.mod-cm6 .HyperMD-quote span.cm-blockquote-border:nth-child(7)
 {
   border-color: var(--color-shadowy-gold);
 }
@@ -1502,7 +1600,7 @@ span.cm-formatting-quote-4,
 .cm-s-obsidian span.cm-formatting-quote-4 {
   color: var(--color-green);
 }
-.markdown-source-view.mod-cm6 .HyperMD-quote.HyperMD-quote-4 .cm-quote-4 .cm-blockquote-border {
+.markdown-source-view.mod-cm6 .HyperMD-quote span.cm-blockquote-border:nth-child(11) {
   border-color: var(--color-green);
 }
 .HyperMD-quote-4,
@@ -1515,7 +1613,7 @@ span.cm-formatting-quote-5,
 .cm-s-obsidian span.cm-formatting-quote-5 {
   color: var(--color-teal);
 }
-.markdown-source-view.mod-cm6 .HyperMD-quote.HyperMD-quote-5 .cm-quote-5 .cm-blockquote-border {
+.markdown-source-view.mod-cm6 .HyperMD-quote span.cm-blockquote-border:nth-child(15) {
   border-color: var(--color-teal);
 }
 .HyperMD-quote-5,
@@ -1528,7 +1626,7 @@ span.cm-formatting-quote-6,
 .cm-s-obsidian span.cm-formatting-quote-6 {
   color: var(--color-cyan-desat);
 }
-.markdown-source-view.mod-cm6 .HyperMD-quote.HyperMD-quote-6 .cm-quote-6 .cm-blockquote-border {
+.markdown-source-view.mod-cm6 .HyperMD-quote span.cm-blockquote-border:nth-child(19) {
   border-color: var(--color-cyan-desat);
 }
 .HyperMD-quote-6,
@@ -1559,8 +1657,8 @@ span.cm-formatting-quote-6,
   content: '\2192';
   font-size: calc(var(--editor-font-size) * 0.6);
   font-weight: 900;
-  left: calc(var(--editor-font-size) * -0.1);
-  top: calc(var(--editor-font-size) * 0.15);
+  left: calc(var(--editor-font-size) * -0.2);
+  top: calc(var(--editor-font-size) * 0.25);
 }
 .HyperMD-list-line-1 .list-bullet::after,
 .HyperMD-list-line.HyperMD-list-line-1 .cm-formatting-list {
@@ -1591,8 +1689,25 @@ span.cm-formatting-quote-6,
   -webkit-appearance: none;
   filter: none;
   height: calc(var(--editor-font-size) * 0.8);
+  left: -0.55rem;
   position: relative;
   width: calc(var(--editor-font-size) * 0.8);
+}
+.markdown-source-view.mod-cm6 .HyperMD-task-line .cm-formatting-list-ol {
+  margin-right: 0.3rem;
+}
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] .cm-list-1:not(.cm-formatting-list),
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] .cm-list-2:not(.cm-formatting-list),
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] .cm-list-3:not(.cm-formatting-list) {
+  left: -0.7rem;
+  position: relative;
+}
+.markdown-source-view.mod-cm6 .cm-active.HyperMD-task-line[data-task] {
+  left: 0;
+}
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-task-line[data-task] .cm-formatting-task.cm-meta {
+  margin-right: 0.75rem;
+  margin-left: -0.3rem;
 }
 .markdown-source-view.mod-cm6 .HyperMD-task-line[data-task] .task-list-item-checkbox {
   background: var(--background-primary);
@@ -1637,12 +1752,14 @@ span.cm-formatting-quote-6,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line .is-unresolved {
   opacity: 1;
 }
+.is-live-preview .internal-link,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line .cm-hmd-internal-link .cm-underline,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line .cm-link .cm-underline,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line .cm-url {
   border-radius: 0.25rem;
   text-decoration: none;
 }
+.is-live-preview .cm-line:not(.cm-active) .internal-link,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line:not(.cm-active) > .is-unresolved > .cm-hmd-internal-link .cm-underline,
 .markdown-source-view.mod-cm6.is-live-preview .cm-line:not(.cm-active) > .cm-hmd-internal-link .cm-underline {
   border-bottom: 1px solid var(--link-internal-color);
