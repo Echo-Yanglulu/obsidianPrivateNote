@@ -16,7 +16,31 @@
 3. 特点
 	1. 不可变[^2]
 	2. 拼接：与修改某个字符的过程相反。先分配内存并拼成新字符串，再删除原有的多个字符串
-	3. 标签函数
+	3. 标签函数：自定义插值行为
+
+```javascript 标签函数
+let a = 6;
+let b = 9;
+
+function simpleTag(strings, aValExpression, bValExpression, sumExpression) {
+  console.log(strings);
+  console.log(aValExpression);
+  console.log(bValExpression);
+  console.log(sumExpression);
+
+  return 'foobar';
+}
+
+let untaggedResult = `${ a } + ${ b } = ${ a + b }`;
+let taggedResult = simpleTag`${ a } + ${ b } = ${ a + b }`;
+// ["", " + ", " = ", ""]
+// 6
+// 9
+// 15
+
+console.log(untaggedResult);   // "6 + 9 = 15"
+console.log(taggedResult);     // "foobar"
+```
 # 转换
 转换为字符串类型像转换为布尔类型一样常用。
 
