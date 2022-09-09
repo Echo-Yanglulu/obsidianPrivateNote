@@ -21,8 +21,8 @@
 
 | 规则 | [[String]] | [[Number]] | Boolean | Object | Array | Function | RegExp |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| min-max | 对属性值进行随机次数重复 | 使用**数值类型**，根据**范围**随机生成 | 概率 | 随机取min-max个属性 | 将所有元素重复min-max次 |  |  |
-| count | 对属性值进行固定次数重复 |  |  | 随机取固定个属性 | 随机取固定个元素 |  |  |
+| min-max | 随机次重复 | **范围**随机生成 | 概率 | 随机取min-max个属性 | 将所有元素重复min-max次 |  |  |
+| count | 固定次重复 |  |  | 随机取固定个属性 | 随机取固定个元素 |  |  |
 | min-max.dmin-dmax |  | 最小值，最大值须随机精确到dmin-dmax之间\\n感觉场景不多 |  |  |  |  |  |
 | count.dmin-dmax |  |  |  |  |  |  |  |
 | count.dount |  |  |  |  |  |  |  |
