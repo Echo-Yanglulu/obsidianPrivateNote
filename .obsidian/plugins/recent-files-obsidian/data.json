@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
     },
     {
+      "basename": "构造函数",
+      "path": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
+    },
+    {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "自己的学习行为",
       "path": "笔记/学习方法/自己的学习行为.md"
-    },
-    {
-      "basename": "PBL",
-      "path": "笔记/学习方法/概念/PBL.md"
     }
   ],
   "omittedPaths": [],
