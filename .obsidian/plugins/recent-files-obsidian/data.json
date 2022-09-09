@@ -9,6 +9,14 @@
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
+      "basename": "Symbol",
+      "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
+    },
+    {
+      "basename": "mock.js",
+      "path": "笔记/前端/工程化/mock.js.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "mock",
       "path": "笔记/前端/工程化/mock.md"
-    },
-    {
-      "basename": "mock.js",
-      "path": "笔记/前端/工程化/mock.js.md"
     },
     {
       "basename": "内心",
@@ -195,10 +199,6 @@
     {
       "basename": "假设",
       "path": "笔记/工具/思考/思维概念/假设.md"
-    },
-    {
-      "basename": "观察",
-      "path": "笔记/工具/思考/思维概念/观察.md"
     }
   ],
   "omittedPaths": [],
