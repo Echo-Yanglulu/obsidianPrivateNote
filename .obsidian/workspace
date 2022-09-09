@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/Sass.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":55},\"to\":{\"line\":1,\"ch\":55}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":69},\"to\":{\"line\":1,\"ch\":69}}}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/npm.md",
+                "file": "笔记/前端/工程化/Sass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/npm.md"
+                "file": "笔记/前端/工程化/Sass.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/npm.md",
+                "file": "笔记/前端/工程化/Sass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,13 +431,13 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "93adae258f45a3fb",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/注册表.md",
     "笔记/前端/工程化/Sass.md",
