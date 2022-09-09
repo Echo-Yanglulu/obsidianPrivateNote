@@ -5,12 +5,32 @@
       "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
     },
     {
-      "basename": "对象",
-      "path": "笔记/前端/编程语言/JS/基本概念/对象.md"
-    },
-    {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "概述",
+      "path": "笔记/前端/编程语言/JS/概述.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "浏览器调试",
+      "path": "笔记/前端/编程语言/JS/浏览器调试.md"
+    },
+    {
+      "basename": "对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/对象.md"
     },
     {
       "basename": "Map",
@@ -23,10 +43,6 @@
     {
       "basename": "mock.js",
       "path": "笔记/前端/工程化/mock.js.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "编程语言",
@@ -59,10 +75,6 @@
     {
       "basename": "冥想",
       "path": "笔记/工具/意识/冥想.md"
-    },
-    {
-      "basename": "概述",
-      "path": "笔记/前端/编程语言/JS/概述.md"
     },
     {
       "basename": "OO设计模式",
@@ -187,18 +199,6 @@
     {
       "basename": "PBL",
       "path": "笔记/学习方法/概念/PBL.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "笔记/前端/工程化/工具/HTTPS.md"
-    },
-    {
-      "basename": "抓包工具",
-      "path": "笔记/前端/工程化/工具/抓包工具.md"
-    },
-    {
-      "basename": "Map请求重定向",
-      "path": "笔记/前端/工程化/工具/Map请求重定向.md"
     }
   ],
   "omittedPaths": [],
