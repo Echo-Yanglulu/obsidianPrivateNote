@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "依赖",
+      "path": "笔记/前端/工程化/依赖.md"
+    },
+    {
       "basename": "开发依赖",
       "path": "笔记/前端/工程化/开发依赖.md"
     },
     {
       "basename": "Sass",
       "path": "笔记/前端/工程化/Sass.md"
+    },
+    {
+      "basename": "生产依赖",
+      "path": "笔记/前端/工程化/生产依赖.md"
     },
     {
       "basename": "CSS预处理器",
@@ -191,14 +199,6 @@
     {
       "basename": "高级语言",
       "path": "笔记/前端/编程语言/高级语言.md"
-    },
-    {
-      "basename": "编译",
-      "path": "笔记/前端/编程语言/编译.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "笔记/前端/基础知识/编译原理/编译原理.md"
     }
   ],
   "omittedPaths": [],
