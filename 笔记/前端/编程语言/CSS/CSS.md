@@ -10,7 +10,11 @@ cascading style sheet：层叠样式表
 3. @import(css文件内)
 4. HTTP
 # 基本概念
-![[笔记/前端/编程语言/CSS/Untitled Diagram.svg]]
+@规则：由@符号开头的语法
+	- @import
+	- @media
+	- @keyframes
+![[CSS基本概念.svg]]
 [[层叠]] 
 特殊值
 属性简写
