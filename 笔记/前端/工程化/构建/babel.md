@@ -1,6 +1,3 @@
----
-时间: 20220827
----
 插件化的语法转义工具，是一个monorepo ，包含了很多子项目。其中有些工具在开发plugin时可用
 ![[Pasted image 20220730172031.png]]
 # 原理
@@ -53,8 +50,8 @@
 	2. 语法转换是针对语法，polyfill是针对API。
 
 如
-	promise API，可以在低版本的浏览器中使用ES5实现
-	proxy无法使用ES5实现
+	promise API，可以使用ES5实现
+	proxy无法使用ES5实现，就无法被polyfill，所以无法被老环境支持
 ### 使用
 1. 7.4之前只需引入@babel/polyfill[^10]
 2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。
