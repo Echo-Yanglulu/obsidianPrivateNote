@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/gzip.md",
+                "file": "笔记/前端/工程化/PostCSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/gzip.md"
+                "file": "笔记/前端/工程化/PostCSS.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/gzip.md",
+                "file": "笔记/前端/工程化/PostCSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,11 +431,12 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "401e5dd887cd30f8",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/gzip.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/构建/babel.md",
@@ -444,7 +445,6 @@
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/注册表.md",
-    "笔记/前端/工程化/开发依赖.md"
+    "笔记/前端/工程化/注册表.md"
   ]
 }
