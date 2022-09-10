@@ -1,5 +1,5 @@
 #  概述
-cascading style sheet。层叠样式表
+cascading style sheet：层叠样式表
 # 引入
 1. style标签
 2. 行内
