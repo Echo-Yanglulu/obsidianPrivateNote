@@ -12,8 +12,20 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":23.112006564758932}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/PostCSS.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":52},\"to\":{\"line\":20,\"ch\":52}},\"scroll\":7.285714307339553}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CSS预处理器.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"preview\",\"source\":false}}",
+              "eState": "{\"scroll\":110.22915121822034}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -116,25 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":2},\"to\":{\"line\":25,\"ch\":2}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":4},\"to\":{\"line\":17,\"ch\":4}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/盒模型.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/工程化/构建/babel.md",
+            "file": "笔记/前端/工程化/PostCSS.md",
             "mode": "source",
             "source": false
           }
@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/工程化/构建/babel.md",
+                "file": "笔记/前端/工程化/PostCSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/工程化/构建/babel.md"
+                "file": "笔记/前端/工程化/PostCSS.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/工程化/构建/babel.md",
+                "file": "笔记/前端/工程化/PostCSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/工程化/CSS预处理器.md",
+    "笔记/前端/工程化/构建/babel.md",
+    "笔记/前端/工程化/PostCSS.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/工程化/Sass.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/注册表.md",
-    "笔记/前端/工程化/开发依赖.md",
-    "笔记/前端/工程化/依赖.md"
+    "笔记/前端/工程化/开发依赖.md"
   ]
 }
