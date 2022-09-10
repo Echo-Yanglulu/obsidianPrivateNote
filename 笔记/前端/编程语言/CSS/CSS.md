@@ -9,7 +9,8 @@ cascading style sheet：层叠样式表
 2. 行内
 3. @import(css文件内)
 4. HTTP
-[[特指度，优先级]] 
+# 基本概念
+![[笔记/前端/编程语言/CSS/Untitled Diagram.svg]]
 [[层叠]] 
 特殊值
 属性简写
