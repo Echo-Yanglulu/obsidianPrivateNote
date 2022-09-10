@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/HTML/HTML.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}}}"
+              "eState": "{}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CSS预处理器.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":3},\"to\":{\"line\":30,\"ch\":3}},\"scroll\":17.02380900840732}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/CSS/CSS.md",
+            "file": "笔记/前端/编程语言/HTML/HTML.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md",
+                "file": "笔记/前端/编程语言/HTML/HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md"
+                "file": "笔记/前端/编程语言/HTML/HTML.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md",
+                "file": "笔记/前端/编程语言/HTML/HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,9 +436,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/工程化/gzip.md",
     "笔记/前端/工程化/构建/babel.md",
