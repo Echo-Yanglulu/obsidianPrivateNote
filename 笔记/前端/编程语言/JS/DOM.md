@@ -2,7 +2,10 @@
 	1. 提供了JS处理DOM的方法，与JS无关？
 
 clientHeight：某个元素的content + padding。不含滚动条
+offsetWidth：某个元素的clientWidth + border。
 offsetHeight：某个元素的clientHeight + border。含滚动条
+	1. 元素自身有fixed定位，则
 scrollY：被滚动的高度
-offsetTop：元素距离<u>父元素</u>的顶部偏移量
-offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果 。
+offsetTop：元素距离<u>定位父元素</u>的顶部偏移量
+offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一直没有最多上升到body元素。
+	1. 元素自身有fixed定位，则为Null
