@@ -7,8 +7,8 @@ clientHeight：某个元素的content + padding。不含滚动条（不含滚动
 clientLeft：元素左border宽度
 scrollHeight：元素的content + padding，包含滚动部分。
 	1. 超出内容没有滚动：等于clientHeight
-	2. 超出内容且滚动：所有子元素的高度之和
-	3. 如果设置scroll为auto，content高为手动设置的高度，clientHeight不含border
+	2. 超出内容有滚动：==滚动内容高度== + ==padding==
+	3. 如果设置scroll为auto，content高为手动设置的高度
 	4. 如果设置scroll为scroll，content高缩小
 offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
 offsetHeight：某个元素的clientHeight + border。含滚动条
