@@ -1,10 +1,11 @@
 文档对象模型。一种标准：定义了JS处理HTML使用的API。是与==语言无关==的HTML处理接口。
 	1. 提供了JS处理DOM的方法，与JS无关？
 
-clientWidth：元素的content+padding。
+clientWidth：元素的**content+padding**。
 clientHeight：某个元素的content + padding。不含滚动条
-	只读
-offsetWidth：某个元素的content + padding + border。
+	document.documentElement.clientWidth
+clientLeft：元素左border宽度
+offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
 offsetHeight：某个元素的clientHeight + border。含滚动条
 	1. 元素自身有fixed定位，则
 scrollY：被滚动的高度
