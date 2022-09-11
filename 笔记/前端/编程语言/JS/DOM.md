@@ -3,7 +3,7 @@
 
 clientWidth：元素的**content+padding**。
 clientHeight：某个元素的content + padding。不含滚动条
-	document.documentElement.clientWidth
+	document.documentElement.clientWidth：页面的宽高
 clientLeft：元素左border宽度
 offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
 offsetHeight：某个元素的clientHeight + border。含滚动条
