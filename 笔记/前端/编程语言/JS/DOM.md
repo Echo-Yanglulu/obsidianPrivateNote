@@ -14,6 +14,7 @@ offsetWidth：某个元素的**content + padding + border**。即clientWidth + c
 offsetHeight：某个元素的clientHeight + border。含滚动条
 	1. 元素自身有fixed定位，则
 scrollY：被滚动的高度
+scrollTop：一个内部产生了滚动，它的内容区被滚动的值
 offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一直没有最多上升到body元素。
 	1. 元素自身有fixed定位，则为Null
 	2. 无fixed，且上级无定位：body元素
