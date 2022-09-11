@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":6},\"to\":{\"line\":101,\"ch\":6}},\"scroll\":73.8186}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}},\"scroll\":7.415171907610178}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":19},\"to\":{\"line\":29,\"ch\":19}},\"scroll\":40.06551443056904}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CSS预处理器.md\",\"mode\":\"preview\",\"source\":false}}",
               "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"preview\",\"source\":false}}",
-              "eState": "{\"scroll\":110.22915121822034}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/学习方法/自己的学习行为.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,6 +436,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/记忆宫殿.md",
     "笔记/工具/思考/图形/思维导图.md",
@@ -444,7 +445,6 @@
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
-    "笔记/前端/编程语言/CSS/特指度，优先级.md",
-    "笔记/前端/编程语言/CSS/CSS层叠性.svg"
+    "笔记/前端/编程语言/CSS/特指度，优先级.md"
   ]
 }
