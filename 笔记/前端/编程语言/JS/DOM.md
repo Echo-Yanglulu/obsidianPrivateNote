@@ -8,6 +8,8 @@ clientLeft：元素左border宽度
 scrollHeight：元素的content + padding，包含滚动部分。
 	1. 超出内容没有滚动：等于clientHeight
 	2. 超出内容且滚动：所有子元素的高度之和
+	3. 如果设置scroll为auto，content高设置的高度
+	4. 如果设置scroll为scroll，content高缩小
 offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
 offsetHeight：某个元素的clientHeight + border。含滚动条
 	1. 元素自身有fixed定位，则
