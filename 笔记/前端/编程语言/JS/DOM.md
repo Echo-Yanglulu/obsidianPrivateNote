@@ -4,4 +4,5 @@
 clientHeight：某个元素的content + padding。不含滚动条
 offsetHeight：某个元素的clientHeight + border。含滚动条
 scrollY：被滚动的高度
-offsetTop：元素距离父元素的顶部偏移量
+offsetTop：元素距离<u>父元素</u>的顶部偏移量
+offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果 。
