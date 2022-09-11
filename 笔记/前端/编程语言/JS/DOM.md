@@ -10,8 +10,7 @@ scrollHeight：元素的content + padding，包含滚动部分。
 	2. 超出内容有滚动：==滚动内容高度== + ==padding==
 	3. 如果设置scroll为auto，content高为手动设置的高度
 	4. 如果设置scroll为scroll，content高缩小
-offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
-offsetHeight：某个元素的clientHeight + border。含滚动条
+
 	1. 元素自身有fixed定位，则
 scrollY：被滚动的高度
 scrollTop：一个内部产生了滚动，它的内容区被滚动的值
@@ -26,6 +25,8 @@ offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一�
 	2. 无fixed，且上级无定位：body元素
 	3. 无fixed，上级有定位：存在定位的上级元素
 	4. body元素：null
+offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
+offsetHeight：某个元素的clientHeight + border。含滚动条
 offsetTop：元素上边框与offsetParent元素的上边框距离
 
 # 方法
