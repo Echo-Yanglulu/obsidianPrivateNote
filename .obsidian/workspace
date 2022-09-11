@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":90,\"ch\":7},\"to\":{\"line\":90,\"ch\":7}},\"scroll\":64.9910314105834}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/层叠.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/PostCSS.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":52},\"to\":{\"line\":20,\"ch\":52}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CSS预处理器.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/前端/编程语言/CSS/层叠.md",
+            "file": "笔记/学习方法/自己的学习行为.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/层叠.md",
+                "file": "笔记/学习方法/记忆宫殿.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/层叠.md"
+                "file": "笔记/学习方法/记忆宫殿.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/层叠.md",
+                "file": "笔记/学习方法/记忆宫殿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -431,20 +431,20 @@
     "direction": "horizontal",
     "width": 591.0001220703125
   },
-  "active": "5590dafc9df78341",
+  "active": "820995d8058f5a99",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/图形/思维导图.md",
+    "笔记/前端/编程语言/CSS/层叠.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/PostCSS.md",
-    "笔记/前端/编程语言/CSS/层叠.md",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
     "笔记/前端/编程语言/CSS/特指度，优先级.md",
     "笔记/前端/编程语言/CSS/CSS层叠性.svg",
-    "笔记/前端/编程语言/CSS/优先级.md",
-    "笔记/前端/编程语言/CSS/选择器.md",
-    "笔记/前端/编程语言/编程语言.md"
+    "笔记/前端/编程语言/CSS/优先级.md"
   ]
 }
