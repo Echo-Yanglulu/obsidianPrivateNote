@@ -14,3 +14,5 @@ offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一�
 	3. 无fixed，上级有定位：存在定位的上级元素
 	4. body元素：null
 offsetTop：元素上边框与offsetParent元素的上边框距离
+
+当前元素在<u>页面</u>上的偏移量
