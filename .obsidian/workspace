@@ -12,8 +12,14 @@
             {
               "leaf": "5590dafc9df78341",
               "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}},\"scroll\":0}"
+            },
+            {
+              "leaf": "5590dafc9df78341",
+              "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":22},\"to\":{\"line\":37,\"ch\":22}},\"scroll\":19.850343000015222}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":9},\"to\":{\"line\":45,\"ch\":9}},\"scroll\":4.060689496572946}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -122,19 +128,13 @@
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/层叠.md\",\"mode\":\"source\",\"source\":false}}",
               "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":22},\"to\":{\"line\":12,\"ch\":22}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":7},\"to\":{\"line\":12,\"ch\":7}}}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
+            "file": "笔记/工具/思考/思维概念/联想.md",
             "mode": "source",
             "source": false
           }
@@ -362,7 +362,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/工具/思考/思维概念/联想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -390,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/工具/思考/思维概念/联想.md"
               }
             }
           },
@@ -419,7 +419,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/工具/思考/思维概念/联想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -436,15 +436,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/概念/费曼技巧.md",
+    "笔记/工具/思考/思维概念/联想.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/记忆宫殿.md",
     "笔记/内心/内心.md",
     "笔记/前端/assets/学霸课.jpg",
     "笔记/工具/思考/图形/思维导图.md",
     "笔记/前端/编程语言/CSS/层叠.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/工程化/CSS预处理器.md"
+    "笔记/前端/编程语言/CSS/CSS.md"
   ]
 }
