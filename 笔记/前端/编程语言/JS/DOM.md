@@ -2,9 +2,10 @@
 	1. 提供了JS处理DOM的方法，与JS无关？
 
 clientWidth：元素的**content+padding**。
-clientHeight：某个元素的content + padding。不含滚动条
+clientHeight：某个元素的content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
 	document.documentElement.clientWidth：页面的宽高
 clientLeft：元素左border宽度
+scrollHeight：元素的content + padding，包含滚动部分。
 offsetWidth：某个元素的**content + padding + border**。即clientWidth + clientLeft
 offsetHeight：某个元素的clientHeight + border。含滚动条
 	1. 元素自身有fixed定位，则
