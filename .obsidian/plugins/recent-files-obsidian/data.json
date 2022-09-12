@@ -5,8 +5,16 @@
       "path": "笔记/前端/编程语言/CSS/属性值与单位.md"
     },
     {
+      "basename": "响应式布局",
+      "path": "笔记/前端/编程语言/CSS/响应式布局.md"
+    },
+    {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "布局",
+      "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "属性简写",
@@ -189,16 +197,8 @@
       "path": "笔记/前端/编程语言/CSS/模块化CSS.md"
     },
     {
-      "basename": "布局",
-      "path": "笔记/前端/编程语言/CSS/布局.md"
-    },
-    {
       "basename": "盒模型",
       "path": "笔记/前端/编程语言/CSS/盒模型.md"
-    },
-    {
-      "basename": "Symbol",
-      "path": "笔记/前端/编程语言/JS/基本概念/Symbol.md"
     }
   ],
   "omittedPaths": [],
