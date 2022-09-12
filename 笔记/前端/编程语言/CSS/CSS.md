@@ -16,6 +16,7 @@ cascading style sheet：层叠样式表
 	- @keyframes
 ![[CSS基本概念.svg]]
 [[层叠]] 
+[[继承]]
 特殊值
 属性简写
 [[值与单位]] 
