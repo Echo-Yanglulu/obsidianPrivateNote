@@ -17,8 +17,14 @@
                 {
                   "leaf": "5590dafc9df78341",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":7},\"to\":{\"line\":29,\"ch\":7}},\"scroll\":16.553773837146665}"
+                  "eState": "{\"scroll\":16.553773837146665}"
                 },
                 {
                   "leaf": "5590dafc9df78341",
@@ -127,19 +133,13 @@
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "5590dafc9df78341",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/CSS.md",
+                "file": "笔记/前端/编程语言/JS/DOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -181,7 +181,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -417,7 +417,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                "file": "笔记/前端/编程语言/JS/DOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -442,15 +442,15 @@
     "direction": "horizontal",
     "width": 712.993896484375
   },
-  "active": "fad1247292a88658",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
+    "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/编程语言/CSS/特殊值.md",
     "笔记/前端/编程语言/CSS/层叠.md",
