@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CSS常见问题",
-      "path": "笔记/前端/编程语言/CSS/CSS常见问题.md"
+      "basename": "布局",
+      "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "CSS常见问题",
+      "path": "笔记/前端/编程语言/CSS/CSS常见问题.md"
     },
     {
       "basename": "属性值与单位",
@@ -43,10 +47,6 @@
     {
       "basename": "响应式布局",
       "path": "笔记/前端/编程语言/CSS/响应式布局.md"
-    },
-    {
-      "basename": "布局",
-      "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "属性简写",
@@ -195,10 +195,6 @@
     {
       "basename": "LibSass",
       "path": "笔记/前端/工程化/LibSass.md"
-    },
-    {
-      "basename": "编译器",
-      "path": "笔记/前端/基础知识/编译原理/编译器.md"
     }
   ],
   "omittedPaths": [],
