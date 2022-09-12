@@ -13,7 +13,7 @@
               "leaf": "5590dafc9df78341",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+              "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":26},\"to\":{\"line\":9,\"ch\":26}}}"
             },
             {
               "leaf": "5590dafc9df78341",
@@ -244,7 +244,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 35.54502369668246,
+        "dimension": 48.816326530612244,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -348,37 +348,9 @@
         ]
       },
       {
-        "id": "10e571c4b96b40ab",
+        "id": "660129b902a410a0",
         "type": "tabs",
-        "dimension": 28.751974723538705,
-        "children": [
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/前端/性能优化/性能优化.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "byModifiedTime",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "01b984a51df1d6b1",
-        "type": "tabs",
-        "dimension": 35.70300157977883,
+        "dimension": 16.3265306122449,
         "children": [
           {
             "id": "bd5ff300df2b3029",
@@ -393,7 +365,14 @@
                 "file": "笔记/前端/性能优化/性能优化.md"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "01b984a51df1d6b1",
+        "type": "tabs",
+        "dimension": 34.85714285714286,
+        "children": [
           {
             "id": "e06cd8634f0d46cc",
             "type": "leaf",
@@ -424,8 +403,30 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/性能优化/性能优化.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
