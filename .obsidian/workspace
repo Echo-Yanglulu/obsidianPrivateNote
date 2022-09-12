@@ -4,141 +4,171 @@
     "type": "split",
     "children": [
       {
-        "id": "5590dafc9df78341",
-        "type": "leaf",
-        "pane-relief:history-v1": {
-          "pos": 0,
-          "stack": [
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+        "id": "3b1a48a88046b8b3",
+        "type": "split",
+        "children": [
+          {
+            "id": "5590dafc9df78341",
+            "type": "leaf",
+            "dimension": 61.87755102040816,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/层叠.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":3},\"to\":{\"line\":17,\"ch\":3}},\"scroll\":16.382930292344042}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/层叠.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":6},\"to\":{\"line\":11,\"ch\":6}},\"scroll\":16.553773837146665}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/层叠.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":3},\"to\":{\"line\":17,\"ch\":3}},\"scroll\":16.553773837146665}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/内网穿透.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/抓包工具.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":4},\"to\":{\"line\":18,\"ch\":4}},\"scroll\":2.0931035118995043}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}}}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/修辞.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":33.3841359537665}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":23},\"to\":{\"line\":41,\"ch\":23}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "5590dafc9df78341",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":8},\"to\":{\"line\":31,\"ch\":8}},\"scroll\":24.67833816854842}"
+                }
+              ]
             },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/内网穿透.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/抓包工具.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":4},\"to\":{\"line\":18,\"ch\":4}},\"scroll\":2.0931035118995043}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化/性能优化.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}}}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/修辞.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"scroll\":33.3841359537665}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":23},\"to\":{\"line\":41,\"ch\":23}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":8},\"to\":{\"line\":31,\"ch\":8}},\"scroll\":24.67833816854842}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":14},\"to\":{\"line\":32,\"ch\":14}},\"scroll\":17.113791481892097}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联想.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":4},\"to\":{\"line\":24,\"ch\":4}},\"scroll\":0}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":9},\"to\":{\"line\":45,\"ch\":9}},\"scroll\":4.060689496572946}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":8},\"to\":{\"line\":96,\"ch\":8}},\"scroll\":82.26483148900185}"
-            },
-            {
-              "leaf": "5590dafc9df78341",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}},\"scroll\":0}"
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/前端/编程语言/CSS/层叠.md",
+                "mode": "source",
+                "source": false
+              }
             }
-          ]
-        },
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/工具/思考/记忆/记忆.md",
-            "mode": "source",
-            "source": false
+          },
+          {
+            "id": "37fb741facd8f20b",
+            "type": "leaf",
+            "dimension": 38.12244897959184,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "笔记/前端/编程语言/CSS/层叠.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -362,7 +392,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/前端/编程语言/CSS/层叠.md"
               }
             }
           }
@@ -398,35 +428,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/前端/编程语言/CSS/层叠.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "37fb741facd8f20b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "byModifiedTime",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -437,15 +445,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/层叠.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/性能优化/性能优化.md",
     "笔记/前端/工程化/工具/内网穿透.md",
     "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/前端.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/编码.md",
-    "笔记/工具/思考/记忆/回忆.md",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/写作/修辞.md"
+    "笔记/工具/思考/记忆/回忆.md"
   ]
 }
