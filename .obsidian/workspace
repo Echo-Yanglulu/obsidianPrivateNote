@@ -22,8 +22,14 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":15},\"to\":{\"line\":6,\"ch\":3}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":12},\"to\":{\"line\":35,\"ch\":12}},\"scroll\":25.61923257956959}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":12},\"to\":{\"line\":106,\"ch\":12}},\"scroll\":87.47844109560924}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习方法/记忆宫殿.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -468,10 +468,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/记忆宫殿.md",
-    "笔记/前端/assets/记忆宫殿具体图像.png",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/记忆宫殿.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/前端/assets/记忆宫殿具体图像.png",
     "笔记/工具/思考/记忆/回忆.md",
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/浏览.md",
