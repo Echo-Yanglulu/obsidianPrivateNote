@@ -10,6 +10,7 @@
           {
             "id": "8f0489118cc575fd",
             "type": "leaf",
+            "dimension": 63.38259441707718,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
@@ -102,6 +103,7 @@
           {
             "id": "4a7e6cc0adf1362b",
             "type": "split",
+            "dimension": 36.61740558292282,
             "children": [
               {
                 "id": "37fb741facd8f20b",
@@ -343,18 +345,6 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "a06c9236fa770d2c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
           }
         ]
       },
@@ -377,8 +367,21 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "a06c9236fa770d2c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
