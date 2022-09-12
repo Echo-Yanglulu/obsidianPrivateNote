@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled Diagram",
+      "path": "笔记/前端/编程语言/CSS/Untitled Diagram.svg"
+    },
+    {
       "basename": "属性值与单位",
       "path": "笔记/前端/编程语言/CSS/属性值与单位.md"
     },
     {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "笔记/前端/编程语言/JS/DOM.md"
     },
     {
       "basename": "响应式布局",
@@ -121,10 +141,6 @@
       "path": "笔记/前端/编程语言/CSS/优先级.md"
     },
     {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
       "basename": "HTML",
       "path": "笔记/前端/编程语言/HTML/HTML.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "动画",
       "path": "笔记/前端/编程语言/CSS/动画.md"
-    },
-    {
-      "basename": "变形",
-      "path": "笔记/前端/编程语言/CSS/变形.md"
-    },
-    {
-      "basename": "过渡",
-      "path": "笔记/前端/编程语言/CSS/过渡.md"
-    },
-    {
-      "basename": "模块化CSS",
-      "path": "笔记/前端/编程语言/CSS/模块化CSS.md"
-    },
-    {
-      "basename": "盒模型",
-      "path": "笔记/前端/编程语言/CSS/盒模型.md"
     }
   ],
   "omittedPaths": [],
