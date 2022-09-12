@@ -5,6 +5,18 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
+      "basename": "浏览",
+      "path": "笔记/学习方法/浏览.md"
+    },
+    {
+      "basename": "认知者",
+      "path": "笔记/工具/通用概念/认知者.md"
+    },
+    {
+      "basename": "运行环境",
+      "path": "笔记/前端/工程化/运行环境.md"
+    },
+    {
       "basename": "生活方式",
       "path": "笔记/工具/通用概念/生活方式.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "babel",
       "path": "笔记/前端/工程化/构建/babel.md"
-    },
-    {
-      "basename": "Sass",
-      "path": "笔记/前端/工程化/Sass.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
-    },
-    {
-      "basename": "运行依赖",
-      "path": "笔记/前端/工程化/运行依赖.md"
     }
   ],
   "omittedPaths": [],

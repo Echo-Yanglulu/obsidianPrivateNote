@@ -425,397 +425,6 @@
         "pane-relief:focus-lock": true
       }
     },
-    "目前最优": {
-      "main": {
-        "id": "a00daf7331235eff",
-        "type": "split",
-        "children": [
-          {
-            "id": "17145d55ad95c4f7",
-            "type": "split",
-            "children": [
-              {
-                "id": "027e544465ae63f6",
-                "type": "leaf",
-                "dimension": 68.11902231668438,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/生活方式.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                },
-                "group": "60044dbc498f8df7"
-              },
-              {
-                "id": "37fb741facd8f20b",
-                "type": "leaf",
-                "dimension": 31.88097768331562,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "笔记/工具/通用概念/生活方式.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                },
-                "group": "60044dbc498f8df7"
-              }
-            ],
-            "direction": "horizontal"
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "8ba117513c0a782d",
-        "type": "split",
-        "children": [
-          {
-            "id": "932e5b2355cf0a40",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "231c1b69c3d25663",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "file-explorer",
-                  "state": {}
-                }
-              },
-              {
-                "id": "989de35848378ae3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "f228e16b95d44e75",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "starred",
-                  "state": {}
-                }
-              },
-              {
-                "id": "69a2e6fc80af00cf",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "recent-files",
-                  "state": {}
-                }
-              },
-              {
-                "id": "0a9dfea17ddecbf9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "file-tree-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "bc55ca4b3679aac4",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "center-panes",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 309
-      },
-      "right": {
-        "id": "27f207157d6497ec",
-        "type": "split",
-        "children": [
-          {
-            "id": "c6a1cba0558ba019",
-            "type": "tabs",
-            "dimension": 59.21052631578947,
-            "children": [
-              {
-                "id": "f59515532fe6ff4b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "f59515532fe6ff4b",
-                      "group": null,
-                      "state": "{\"type\":\"graph\",\"state\":{},\"pinned\":true}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "pinned": true,
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "pinned": true
-                }
-              },
-              {
-                "id": "317f497fc058b9b7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "pinned": true,
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "pinned": true
-                }
-              },
-              {
-                "id": "9be427e8a69138d4",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "pinned": true,
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "pinned": true
-                }
-              },
-              {
-                "id": "d6f768adb0296a56",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "pinned": true,
-                "state": {
-                  "type": "review-queue-list-view",
-                  "state": {},
-                  "pinned": true
-                }
-              },
-              {
-                "id": "1e28e91b1787e92c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "笔记/工具/通用概念/生活方式.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "a06c9236fa770d2c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "graph-analysis",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "01b984a51df1d6b1",
-            "type": "tabs",
-            "dimension": 40.789473684210535,
-            "children": [
-              {
-                "id": "bd5ff300df2b3029",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "笔记/工具/通用概念/生活方式.md"
-                  }
-                }
-              },
-              {
-                "id": "e06cd8634f0d46cc",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 623
-      },
-      "active": "027e544465ae63f6"
-    },
     "最优--113": {
       "main": {
         "id": "a00daf7331235eff",
@@ -1183,7 +792,7 @@
       },
       "active": "8f0489118cc575fd"
     },
-    "目前最好": {
+    "最优": {
       "main": {
         "id": "a00daf7331235eff",
         "type": "split",
@@ -1193,128 +802,165 @@
             "type": "split",
             "children": [
               {
-                "id": "027e544465ae63f6",
-                "type": "leaf",
-                "dimension": 63.14907872696818,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
+                "id": "ec56ac806753c375",
+                "type": "split",
+                "dimension": 69.17922948073702,
+                "children": [
+                  {
+                    "id": "027e544465ae63f6",
+                    "type": "leaf",
+                    "dimension": 83.24240062353859,
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/认知者.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"scroll\":0}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":19},\"to\":{\"line\":17,\"ch\":19}},\"scroll\":0.5449127193816282}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"scroll\":0}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "b70a55ffa34c2e4f",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "b70a55ffa34c2e4f",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "b70a55ffa34c2e4f",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
+                        }
+                      ]
                     },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/工具/通用概念/认知者.md",
+                        "mode": "source",
+                        "source": false
+                      }
                     },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                    "group": "60044dbc498f8df7"
+                  },
+                  {
+                    "id": "bd5ff300df2b3029",
+                    "type": "leaf",
+                    "dimension": 16.757599376461418,
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": []
                     },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "笔记/工具/通用概念/认知者.md"
+                      }
                     },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "b70a55ffa34c2e4f",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/生活方式.md",
-                    "mode": "source",
-                    "source": false
+                    "group": "60044dbc498f8df7"
                   }
-                },
-                "group": "60044dbc498f8df7"
+                ],
+                "direction": "vertical"
               },
               {
                 "id": "50eaaa22d6d8a78a",
                 "type": "split",
-                "dimension": 36.85092127303183,
+                "dimension": 30.82077051926298,
                 "children": [
                   {
                     "id": "37fb741facd8f20b",
                     "type": "leaf",
+                    "dimension": 39.28293063133281,
                     "pane-relief:history-v1": {
                       "pos": 0,
                       "stack": []
@@ -1322,7 +968,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/生活方式.md",
+                        "file": "笔记/工具/通用概念/认知者.md",
                         "collapseAll": false,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1335,23 +981,9 @@
                     "group": "60044dbc498f8df7"
                   },
                   {
-                    "id": "bd5ff300df2b3029",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": []
-                    },
-                    "state": {
-                      "type": "outline",
-                      "state": {
-                        "file": "笔记/工具/通用概念/生活方式.md"
-                      }
-                    },
-                    "group": "60044dbc498f8df7"
-                  },
-                  {
                     "id": "1e28e91b1787e92c",
                     "type": "leaf",
+                    "dimension": 60.71706936866719,
                     "pane-relief:history-v1": {
                       "pos": 0,
                       "stack": []
@@ -1359,7 +991,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/生活方式.md",
+                        "file": "笔记/工具/通用概念/认知者.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1439,18 +1071,6 @@
                 }
               },
               {
-                "id": "0a9dfea17ddecbf9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "file-tree-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "bc55ca4b3679aac4",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1461,9 +1081,17 @@
                   "type": "center-panes",
                   "state": {}
                 }
+              },
+              {
+                "id": "1107673ef3054e32",
+                "type": "leaf",
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -1476,7 +1104,7 @@
           {
             "id": "c6a1cba0558ba019",
             "type": "tabs",
-            "dimension": 67.50418760469012,
+            "dimension": 50.92127303182579,
             "children": [
               {
                 "id": "f59515532fe6ff4b",
@@ -1506,12 +1134,15 @@
                   "pos": 0,
                   "stack": []
                 },
-                "pinned": true,
                 "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "pinned": true
-                }
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/认知者.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "60044dbc498f8df7"
               },
               {
                 "id": "9be427e8a69138d4",
@@ -1520,12 +1151,15 @@
                   "pos": 0,
                   "stack": []
                 },
-                "pinned": true,
                 "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "pinned": true
-                }
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/认知者.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "60044dbc498f8df7"
               },
               {
                 "id": "d6f768adb0296a56",
@@ -1556,13 +1190,21 @@
                   "type": "online.tokuhirom.obsidian-stopwatch-plugin",
                   "state": {}
                 }
+              },
+              {
+                "id": "8f75fcebbd6bd3be",
+                "type": "leaf",
+                "state": {
+                  "type": "graph-analysis",
+                  "state": {}
+                }
               }
             ]
           },
           {
             "id": "01b984a51df1d6b1",
             "type": "tabs",
-            "dimension": 32.49581239530988,
+            "dimension": 49.07872696817421,
             "children": [
               {
                 "id": "e06cd8634f0d46cc",
@@ -1580,24 +1222,29 @@
                 }
               },
               {
-                "id": "a06c9236fa770d2c",
+                "id": "cb975962c28e962a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
-                  "stack": []
+                  "stack": [
+                    {
+                      "leaf": "cb975962c28e962a",
+                      "group": null,
+                      "state": "{\"type\":\"empty\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
                 },
                 "state": {
-                  "type": "graph-analysis",
+                  "type": "empty",
                   "state": {}
-                },
-                "group": "60044dbc498f8df7"
+                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 562.993896484375
+        "width": 640.0001220703125
       },
       "active": "027e544465ae63f6",
       "ophidian:layout-settings": {
@@ -1605,5 +1252,5 @@
       }
     }
   },
-  "active": "目前最好"
+  "active": "最优"
 }
