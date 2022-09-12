@@ -10,7 +10,7 @@
           {
             "id": "5590dafc9df78341",
             "type": "leaf",
-            "dimension": 30.93877551020408,
+            "dimension": 44.79905437352246,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": [
@@ -18,7 +18,7 @@
                   "leaf": "5590dafc9df78341",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":40},\"to\":{\"line\":53,\"ch\":40}},\"scroll\":37.38858443776952}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":16},\"to\":{\"line\":53,\"ch\":0}},\"scroll\":46.21892245672143}"
                 },
                 {
                   "leaf": "5590dafc9df78341",
@@ -146,31 +146,9 @@
             }
           },
           {
-            "id": "0c94cb9295a594ab",
-            "type": "leaf",
-            "dimension": 30.93877551020408,
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "0c94cb9295a594ab",
-                  "group": null,
-                  "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/Untitled Diagram.svg\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "笔记/前端/编程语言/CSS/Untitled Diagram.svg"
-              }
-            }
-          },
-          {
             "id": "042e102a7ca6982e",
             "type": "split",
-            "dimension": 38.12244897959184,
+            "dimension": 55.20094562647754,
             "children": [
               {
                 "id": "37fb741facd8f20b",
@@ -182,7 +160,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/Untitled Diagram.svg",
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -203,7 +181,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/Untitled Diagram.svg"
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
                   }
                 }
               }
@@ -439,7 +417,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/Untitled Diagram.svg",
+                "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -464,11 +442,12 @@
     "direction": "horizontal",
     "width": 712.993896484375
   },
-  "active": "0c94cb9295a594ab",
+  "active": "5590dafc9df78341",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS单位选择.svg",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/编程语言.md",
@@ -477,7 +456,6 @@
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
-    "笔记/前端/编程语言/CSS/布局.md",
-    "笔记/前端/编程语言/CSS/属性简写.md"
+    "笔记/前端/编程语言/CSS/布局.md"
   ]
 }
