@@ -18,7 +18,7 @@
                   "leaf": "5590dafc9df78341",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":8},\"to\":{\"line\":19,\"ch\":8}},\"scroll\":16.553773837146665}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":16.553773837146665}"
                 },
                 {
                   "leaf": "5590dafc9df78341",
@@ -160,7 +160,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性简写.md",
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -181,7 +181,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性简写.md"
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
                   }
                 }
               }
@@ -417,7 +417,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/CSS/属性简写.md",
+                "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -442,20 +442,20 @@
     "direction": "horizontal",
     "width": 712.993896484375
   },
-  "active": "faec7b2a89f8bb4d",
+  "active": "fad1247292a88658",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/属性值与单位.md",
+    "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/编程语言/CSS/特殊值.md",
     "笔记/前端/编程语言/CSS/层叠.md",
     "笔记/前端/编程语言/CSS/继承.md",
     "笔记/前端/编程语言/CSS/选择器.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/工程化/CSS预处理器.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/前端/性能优化/性能优化.md"
+    "笔记/工具/思考/记忆/记忆.md"
   ]
 }
