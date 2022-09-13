@@ -15,7 +15,7 @@
               {
                 "id": "027e544465ae63f6",
                 "type": "leaf",
-                "dimension": 83.24240062353857,
+                "dimension": 83.24240062353859,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": [
@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":20},\"to\":{\"line\":28,\"ch\":20}},\"scroll\":8.354687372843424}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -463,11 +463,12 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "21ab4524bb545b35",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/深度思考-让所有事都能正确入手.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/哲学/哲学.md",
     "笔记/学习方法/记忆宫殿.md",
@@ -476,7 +477,6 @@
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/回忆.md",
     "笔记/学习方法/概念/获取.md",
-    "笔记/学习方法/浏览.md",
-    "笔记/工具/思考/记忆/主动回忆.md"
+    "笔记/学习方法/浏览.md"
   ]
 }
