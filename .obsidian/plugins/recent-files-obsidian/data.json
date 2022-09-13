@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "近义词",
-      "path": "笔记/工具/思考/近义词.md"
+      "basename": "逻辑学",
+      "path": "笔记/工具/哲学/逻辑学/逻辑学.md"
+    },
+    {
+      "basename": "假设",
+      "path": "笔记/工具/思考/思维概念/假设.md"
+    },
+    {
+      "basename": "主题",
+      "path": "笔记/西方文明简史/主题.md"
     },
     {
       "basename": "思考",
@@ -11,6 +19,10 @@
     {
       "basename": "表象与本质-类比作为思考的原料与火焰",
       "path": "笔记/工具/表象与本质-类比作为思考的原料与火焰.md"
+    },
+    {
+      "basename": "近义词",
+      "path": "笔记/工具/思考/近义词.md"
     },
     {
       "basename": "类比",
@@ -187,18 +199,6 @@
     {
       "basename": "选择器",
       "path": "笔记/前端/编程语言/CSS/选择器.md"
-    },
-    {
-      "basename": "PostCSS",
-      "path": "笔记/前端/工程化/PostCSS.md"
-    },
-    {
-      "basename": "CSS预处理器",
-      "path": "笔记/前端/工程化/CSS预处理器.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "笔记/前端/性能优化/性能优化.md"
     }
   ],
   "omittedPaths": [],

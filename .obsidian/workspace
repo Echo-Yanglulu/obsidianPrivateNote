@@ -22,8 +22,20 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":8.354687372843424}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/近义词.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -126,25 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/近义词.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/近义词.md"
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/近义词.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/近义词.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -468,15 +468,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/假设.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/西方文明简史/主题.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
+    "笔记/工具/思考/近义词.md",
     "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/思考/基础思维.md",
     "笔记/工具/思考/概括.md",
-    "笔记/工具/思考/抽象.md",
-    "笔记/学习方法/概念/综合.md",
-    "笔记/学习方法/概念/分析.md",
-    "笔记/工具/思考/深度思考-让所有事都能正确入手.md",
-    "笔记/工具/哲学/哲学.md"
+    "笔记/工具/思考/抽象.md"
   ]
 }
