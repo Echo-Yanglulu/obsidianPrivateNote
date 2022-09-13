@@ -22,8 +22,14 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
+                    "file": "笔记/工具/哲学/哲学.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md"
+                    "file": "笔记/工具/哲学/哲学.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -178,7 +178,7 @@
               {
                 "id": "37fb741facd8f20b",
                 "type": "leaf",
-                "dimension": 39.28293063133281,
+                "dimension": 44.28794992175274,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
+                    "file": "笔记/工具/哲学/哲学.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -201,7 +201,7 @@
               {
                 "id": "1e28e91b1787e92c",
                 "type": "leaf",
-                "dimension": 60.71706936866719,
+                "dimension": 55.712050078247266,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
+                    "file": "笔记/工具/哲学/哲学.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -468,8 +468,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/记忆宫殿具体图像.png",
     "笔记/学习方法/记忆宫殿.md",
+    "笔记/前端/assets/记忆宫殿具体图像.png",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/回忆.md",
