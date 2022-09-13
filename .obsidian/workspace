@@ -22,6 +22,12 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":20},\"to\":{\"line\":25,\"ch\":20}},\"scroll\":8.354687372843424}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{}"
                     },
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/哲学.md",
+                    "file": "笔记/工具/思考/思考.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/哲学.md"
+                    "file": "笔记/工具/思考/思考.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/哲学.md",
+                    "file": "笔记/工具/思考/思考.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/哲学/哲学.md",
+                    "file": "笔记/工具/思考/思考.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -468,6 +468,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/哲学.md",
     "笔记/学习方法/记忆宫殿.md",
     "笔记/前端/assets/记忆宫殿具体图像.png",
     "笔记/工具/思考/记忆/记忆.md",
@@ -476,7 +477,6 @@
     "笔记/学习方法/概念/获取.md",
     "笔记/学习方法/浏览.md",
     "笔记/工具/思考/记忆/主动回忆.md",
-    "笔记/工具/通用概念/价值.md",
-    "笔记/工具/通用概念/目标.md"
+    "笔记/工具/通用概念/价值.md"
   ]
 }
