@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}},\"scroll\":0}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":0}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -390,6 +390,10 @@
           {
             "id": "e84a2c804b1001a7",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_nodes",
               "state": {}
@@ -398,6 +402,10 @@
           {
             "id": "97f3ea4d003e3259",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
             "state": {
               "type": "juggl_style",
               "state": {}
@@ -463,20 +471,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "90d31aceae69d619",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/主张.md",
+    "笔记/工具/哲学/逻辑学/蕴涵.md",
+    "笔记/学习方法/概念/推论.md",
+    "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/论题.md",
     "笔记/工具/思考/思维概念/假设.md",
     "笔记/工具/思考/思维概念/直觉.md",
     "笔记/西方文明简史/主题.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
-    "笔记/工具/思考/近义词.md",
-    "笔记/工具/思考/思维概念/类比.md"
+    "笔记/工具/思考/思考.md"
   ]
 }
