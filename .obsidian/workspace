@@ -22,8 +22,14 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/近义词.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":23},\"to\":{\"line\":25,\"ch\":23}},\"scroll\":8.354687372843424}"
+                      "eState": "{\"scroll\":0}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md",
+                    "file": "笔记/工具/思考/近义词.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md"
+                    "file": "笔记/工具/思考/近义词.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md",
+                    "file": "笔记/工具/思考/近义词.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md",
+                    "file": "笔记/工具/思考/近义词.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -463,14 +463,14 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "98e19915edaf2178",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/类比.md",
-    "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/工具/思考/思考.md",
+    "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
+    "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/思考/基础思维.md",
     "笔记/工具/思考/概括.md",
     "笔记/工具/思考/抽象.md",
