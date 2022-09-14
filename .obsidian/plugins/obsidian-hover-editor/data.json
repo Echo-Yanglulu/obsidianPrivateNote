@@ -1,6 +1,6 @@
 {
   "defaultMode": "source",
-  "autoPin": "onMove",
+  "autoPin": "always",
   "triggerDelay": 500,
   "closeDelay": 100,
   "autoFocus": false,
