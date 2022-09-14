@@ -15,7 +15,7 @@
               {
                 "id": "027e544465ae63f6",
                 "type": "leaf",
-                "dimension": 83.24240062353857,
+                "dimension": 41.621200311769286,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": [
@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学方法.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":6},\"to\":{\"line\":6,\"ch\":6}}}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -150,6 +150,36 @@
                   }
                 },
                 "group": "60044dbc498f8df7"
+              },
+              {
+                "id": "9494927fe04e2242",
+                "type": "leaf",
+                "dimension": 41.621200311769286,
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "9494927fe04e2242",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}}}"
+                    },
+                    {
+                      "leaf": "9494927fe04e2242",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/假设.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":18},\"to\":{\"line\":1,\"ch\":18}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               },
               {
                 "id": "bd5ff300df2b3029",
@@ -447,20 +477,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "07f4ff97e9aa83ed",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/假设.md",
+    "笔记/工具/哲学/逻辑学/前提.md",
+    "笔记/工具/哲学/逻辑学/预设.md",
+    "笔记/工具/科学/科学方法.md",
     "笔记/工具/科学/科学素养.md",
     "笔记/工具/科学/科学.md",
     "笔记/工具/思考/思考.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/思考/思维概念/类比.md",
-    "笔记/工具/思考/思维概念/实例.md",
-    "笔记/学习方法/概念/SQ3R.md",
-    "笔记/工具/思考/思维概念/目的，企图，动机，欲求，期望，愿景.md",
-    "笔记/学习方法/概念/复习.md",
-    "笔记/工具/思考/图形/思维导图.md"
+    "笔记/工具/思考/思维概念/类比.md"
   ]
 }
