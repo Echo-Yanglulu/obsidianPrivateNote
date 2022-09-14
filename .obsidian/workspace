@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":15},\"to\":{\"line\":0,\"ch\":15}}}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -301,12 +301,8 @@
             }
           },
           {
-            "id": "1107673ef3054e32",
+            "id": "a2ea9eabca70ca2a",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -471,20 +467,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "403dfc9ccb63f9c8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/科学/科学素养.md",
     "笔记/工具/科学/科学.md",
+    "笔记/工具/科学/价值观.md",
+    "笔记/工具/科学/科学素养.md",
     "笔记/学习方法/概念/分析.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/断言.md",
     "笔记/前端/编程语言/TS/断言.md",
     "笔记/工具/思考/思维概念/假设.md",
     "笔记/工具/哲学/逻辑学/假说.md",
-    "笔记/工具/哲学/逻辑学/前提.md",
-    "笔记/工具/思考/思维概念/论证.md"
+    "笔记/工具/哲学/逻辑学/前提.md"
   ]
 }
