@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":17},\"to\":{\"line\":28,\"ch\":17}},\"scroll\":10.080379022102125}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -154,7 +154,7 @@
               {
                 "id": "bd5ff300df2b3029",
                 "type": "leaf",
-                "dimension": 30.60824068018312,
+                "dimension": 30.608240680183116,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -313,7 +313,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -386,6 +386,22 @@
               "type": "online.tokuhirom.obsidian-stopwatch-plugin",
               "state": {}
             }
+          },
+          {
+            "id": "151739ec265ee34b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "3dba7fb9b49e1c83",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ]
       },
@@ -447,13 +463,13 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "30c5eed8937389b9",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/提问.md",
     "笔记/工具/哲学/逻辑学/论题.md",
+    "笔记/工具/通用概念/提问.md",
     "笔记/工具/通用概念/词语.md",
     "笔记/工具/通用概念/证据.md",
     "笔记/西方文明简史/问题.md",
