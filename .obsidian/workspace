@@ -17,6 +17,24 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"scroll\":0}"
                 },
@@ -115,31 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -303,7 +303,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -437,20 +437,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "1e28e91b1787e92c",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/对象.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/类列表对象.md",
-    "笔记/前端/编程语言/JS/基本概念/关联数组.md",
-    "笔记/前端/编程语言/JS/基本概念/TypedArray.md"
+    "笔记/前端/编程语言/JS/基本概念/关联数组.md"
   ]
 }
