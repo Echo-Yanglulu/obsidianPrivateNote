@@ -15,15 +15,21 @@
               {
                 "id": "027e544465ae63f6",
                 "type": "leaf",
-                "dimension": 69.3917593198169,
+                "dimension": 82.77992277992277,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": [
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":41},\"to\":{\"line\":4,\"ch\":41}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":54.66268825332124}"
+                      "eState": "{\"scroll\":54.63250223784858}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "mode": "source",
                     "source": false
                   }
@@ -154,7 +154,7 @@
               {
                 "id": "bd5ff300df2b3029",
                 "type": "leaf",
-                "dimension": 30.60824068018311,
+                "dimension": 17.220077220077222,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习方法/记忆宫殿.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/记忆宫殿.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -463,13 +463,13 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "37fb741facd8f20b",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/思维概念/联想.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/概念.md",
