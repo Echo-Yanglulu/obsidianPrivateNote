@@ -16,3 +16,6 @@ shift删头，返回删除元素
 slice
 splice
 
+find
+findIndex
+indexOf
