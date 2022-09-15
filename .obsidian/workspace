@@ -10,7 +10,7 @@
           {
             "id": "ec56ac806753c375",
             "type": "split",
-            "dimension": 68.27242524916943,
+            "dimension": 72.17607973421927,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -23,7 +23,7 @@
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":11},\"to\":{\"line\":8,\"ch\":11}},\"scroll\":45.47499910990397}"
+                      "eState": "{\"scroll\":54.66268825332124}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -154,7 +154,7 @@
               {
                 "id": "bd5ff300df2b3029",
                 "type": "leaf",
-                "dimension": 30.608240680183112,
+                "dimension": 30.60824068018311,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -173,7 +173,7 @@
           {
             "id": "50eaaa22d6d8a78a",
             "type": "split",
-            "dimension": 31.727574750830566,
+            "dimension": 27.82392026578073,
             "children": [
               {
                 "id": "37fb741facd8f20b",
@@ -187,7 +187,7 @@
                   "type": "backlink",
                   "state": {
                     "file": "笔记/工具/思考/记忆/记忆.md",
-                    "collapseAll": false,
+                    "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
                     "showSearch": false,
@@ -463,7 +463,7 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "37fb741facd8f20b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
