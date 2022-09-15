@@ -12,6 +12,13 @@
 ## 字面量
 ## new Array()
 # 访问
+## 方式
+### []
+### .
+只能访问字符串索引
+## 结果
+访问的索引不存在：不会报错，而是返回undefined
+	1. 无法分辨本来就是undefined，还是索引不存在
 # 属性
 1. length
 2. 
@@ -26,8 +33,8 @@ push尾增，返回长度
 unshift
 pop删尾，返回删除元素
 shift删头，返回删除元素
-slice
-splice
+slice复制
+splice增删
 
 find
 findIndex
