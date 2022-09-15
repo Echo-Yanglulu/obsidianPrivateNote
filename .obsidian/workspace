@@ -15,15 +15,39 @@
               {
                 "id": "027e544465ae63f6",
                 "type": "leaf",
-                "dimension": 82.77992277992276,
+                "dimension": 73.51351351351352,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": [
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":5},\"to\":{\"line\":41,\"ch\":5}},\"scroll\":26.649999777475994}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}},\"scroll\":1.7988748802245103}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}},\"scroll\":1.9680073540831002}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -114,37 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学方法.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学素养.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":41},\"to\":{\"line\":6,\"ch\":41}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":26},\"to\":{\"line\":1,\"ch\":26}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "source": false
                   }
@@ -152,72 +152,70 @@
                 "group": "60044dbc498f8df7"
               },
               {
-                "id": "bd5ff300df2b3029",
-                "type": "leaf",
-                "dimension": 17.220077220077222,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md"
+                "id": "9f51022a224a9f7f",
+                "type": "split",
+                "dimension": 26.486486486486488,
+                "children": [
+                  {
+                    "id": "bd5ff300df2b3029",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": []
+                    },
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                      }
+                    },
+                    "group": "60044dbc498f8df7"
+                  },
+                  {
+                    "id": "37fb741facd8f20b",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": []
+                    },
+                    "state": {
+                      "type": "backlink",
+                      "state": {
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "collapseAll": true,
+                        "extraContext": false,
+                        "sortOrder": "byModifiedTime",
+                        "showSearch": false,
+                        "searchQuery": "",
+                        "backlinkCollapsed": false,
+                        "unlinkedCollapsed": false
+                      }
+                    },
+                    "group": "60044dbc498f8df7"
                   }
-                },
-                "group": "60044dbc498f8df7"
+                ],
+                "direction": "horizontal"
               }
             ],
             "direction": "vertical"
           },
           {
-            "id": "50eaaa22d6d8a78a",
-            "type": "split",
+            "id": "1e28e91b1787e92c",
+            "type": "leaf",
             "dimension": 27.82392026578073,
-            "children": [
-              {
-                "id": "37fb741facd8f20b",
-                "type": "leaf",
-                "dimension": 39.28293063133281,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                },
-                "group": "60044dbc498f8df7"
-              },
-              {
-                "id": "1e28e91b1787e92c",
-                "type": "leaf",
-                "dimension": 60.71706936866719,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "笔记/学习方法/记忆宫殿.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                },
-                "group": "60044dbc498f8df7"
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
-            ],
-            "direction": "vertical"
+            },
+            "group": "60044dbc498f8df7"
           }
         ],
         "direction": "horizontal"
@@ -463,20 +461,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "1211ea95ace1fd86",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/数据格式.md",
+    "笔记/学习方法/记忆宫殿.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/概念.md",
-    "笔记/工具/思考/思维概念/思想.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/工具/思考/记忆/编码.md",
-    "笔记/工具/文学/方法.md"
+    "笔记/工具/思考/思维概念/思想.md"
   ]
 }
