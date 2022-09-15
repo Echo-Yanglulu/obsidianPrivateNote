@@ -22,8 +22,20 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":107,\"ch\":10},\"to\":{\"line\":107,\"ch\":10}},\"scroll\":95.96911144111021}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":16},\"to\":{\"line\":33,\"ch\":16}},\"scroll\":16.706029854062596}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":26},\"to\":{\"line\":32,\"ch\":26}},\"scroll\":0}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -126,25 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":17},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":9},\"to\":{\"line\":102,\"ch\":9}},\"scroll\":84.43203035990398}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":20},\"to\":{\"line\":109,\"ch\":20}},\"scroll\":95.82929838219647}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/概念/理解.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习方法/概念/理解.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/概念/理解.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/概念/理解.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -463,20 +463,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "0c1df596e228e2cf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/编码.md",
-    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/文学/方法.md",
     "笔记/工具/文学/如何阅读一本文学书.md",
     "笔记/内心/内心.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/通用概念/提问.md",
-    "笔记/工具/哲学/逻辑学/论题.md",
-    "笔记/工具/通用概念/词语.md"
+    "笔记/工具/哲学/逻辑学/论题.md"
   ]
 }
