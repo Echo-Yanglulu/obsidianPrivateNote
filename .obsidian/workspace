@@ -22,8 +22,20 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/对象.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":17.682812372843426}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}},\"scroll\":0.1123}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -126,25 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/背景，上下文，情况，场合，环境.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":17},\"to\":{\"line\":28,\"ch\":17}},\"scroll\":16.15468692779541}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/对象.md",
                     "mode": "source",
                     "source": false
                   }
@@ -166,7 +166,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
+                        "file": "笔记/前端/编程语言/JS/基本概念/对象.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -181,7 +181,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
