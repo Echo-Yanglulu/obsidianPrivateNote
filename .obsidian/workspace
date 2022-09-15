@@ -22,8 +22,20 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":26},\"to\":{\"line\":32,\"ch\":26}},\"scroll\":3.70603002445666}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":95.51211037601212}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
                     },
                     {
                       "leaf": "027e544465ae63f6",
@@ -126,25 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":29},\"to\":{\"line\":72,\"ch\":29}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/记忆宫殿.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":17},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/理解.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "source": false
                   }
@@ -162,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/概念/理解.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/概念/理解.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/学习方法/概念/理解.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -463,17 +463,17 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "14fd7a2eb203ac15",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/概念/理解.md",
+    "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/意识/意识.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/文学/方法.md",
