@@ -4,42 +4,156 @@
     "type": "split",
     "children": [
       {
-        "id": "17145d55ad95c4f7",
+        "id": "ec56ac806753c375",
         "type": "split",
         "children": [
           {
-            "id": "ec56ac806753c375",
-            "type": "split",
-            "dimension": 72.17607973421927,
-            "children": [
-              {
-                "id": "915bcfe939951a1c",
-                "type": "leaf",
-                "dimension": 45.43429844097995,
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "915bcfe939951a1c",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    }
-                  ]
+            "id": "027e544465ae63f6",
+            "type": "leaf",
+            "dimension": 66.33204633204633,
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
                 },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":20},\"to\":{\"line\":109,\"ch\":20}},\"scroll\":95.82929838219647}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":29},\"to\":{\"line\":39,\"ch\":29}},\"scroll\":32.8628}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":119,\"ch\":52},\"to\":{\"line\":119,\"ch\":52}},\"scroll\":92.9522577980418}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":8},\"to\":{\"line\":102,\"ch\":8}},\"scroll\":92.81741440978307}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/认知者.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":19},\"to\":{\"line\":17,\"ch\":19}},\"scroll\":0.5449127193816282}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
                 }
-              },
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/工具/思考/记忆/记忆.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "60044dbc498f8df7"
+          },
+          {
+            "id": "03555132cbcc4348",
+            "type": "split",
+            "dimension": 17.45173745173745,
+            "children": [
               {
                 "id": "bd5ff300df2b3029",
                 "type": "leaf",
-                "dimension": 31.254639940608758,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
@@ -47,57 +161,56 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
               },
               {
-                "id": "37fb741facd8f20b",
+                "id": "1e28e91b1787e92c",
                 "type": "leaf",
-                "dimension": 23.311061618411287,
                 "pane-relief:history-v1": {
                   "pos": 0,
                   "stack": []
                 },
                 "state": {
-                  "type": "backlink",
+                  "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTime",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
+                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
                 },
                 "group": "60044dbc498f8df7"
               }
             ],
-            "direction": "vertical"
+            "direction": "horizontal"
           },
           {
-            "id": "1e28e91b1787e92c",
+            "id": "37fb741facd8f20b",
             "type": "leaf",
-            "dimension": 27.82392026578073,
+            "dimension": 16.216216216216218,
             "pane-relief:history-v1": {
               "pos": 0,
               "stack": []
             },
             "state": {
-              "type": "outgoing-link",
+              "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "笔记/工具/思考/记忆/记忆.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             },
             "group": "60044dbc498f8df7"
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -190,7 +303,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -263,22 +376,6 @@
               "type": "online.tokuhirom.obsidian-stopwatch-plugin",
               "state": {}
             }
-          },
-          {
-            "id": "151739ec265ee34b",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "3dba7fb9b49e1c83",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
         ]
       },
@@ -338,9 +435,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 587.5001220703125
+    "width": 640.0001220703125
   },
-  "active": "bd5ff300df2b3029",
+  "active": "1e28e91b1787e92c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
