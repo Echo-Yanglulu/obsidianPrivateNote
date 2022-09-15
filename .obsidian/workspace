@@ -22,6 +22,12 @@
                     {
                       "leaf": "027e544465ae63f6",
                       "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}},\"scroll\":0.1123}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":5},\"to\":{\"line\":41,\"ch\":5}},\"scroll\":26.649999777475994}"
                     },
@@ -132,19 +138,13 @@
                       "group": "60044dbc498f8df7",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":17},\"to\":{\"line\":28,\"ch\":17}},\"scroll\":16.15468692779541}"
-                    },
-                    {
-                      "leaf": "027e544465ae63f6",
-                      "group": "60044dbc498f8df7",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "mode": "source",
                     "source": false
                   }
@@ -166,7 +166,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -181,7 +181,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -461,15 +461,15 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "1211ea95ace1fd86",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/关联数组.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/基本概念/关联数组.md",
+    "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/学习方法/记忆宫殿.md",
