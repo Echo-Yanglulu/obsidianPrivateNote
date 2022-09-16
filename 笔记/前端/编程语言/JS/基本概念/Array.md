@@ -28,6 +28,8 @@
 	3. [[JS解释器]]会动态修改length的值
 2. 
 # 方法
+35个
+
 forEach
 some
 every
@@ -43,13 +45,31 @@ splice增删
 
 from
 of
+isArray
 flat
+copyWithin
+sort
+reverse
 
 join
-flat()
+flat
+flatMap
+concat
+fill
+reduce
+reduceRight
+
+entries
+values
+
+toString
+toLocaleString
 
 find
 findIndex
+findLast
+findLastIndex
+at
 indexOf
 
 [^1]: 数组对象上一组属性的集合
