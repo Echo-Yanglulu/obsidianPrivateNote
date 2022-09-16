@@ -35,6 +35,8 @@ some
 every
 filter
 map
+reduce
+reduceRight
 
 push尾增，返回长度
 unshift
@@ -42,29 +44,26 @@ pop删尾，返回删除元素
 shift删头，返回删除元素
 slice复制
 splice增删
+fill
+concat
 
 from
 of
-isArray
-flat
 copyWithin
-sort
-reverse
 
-join
+变形
 flat
 flatMap
-concat
-fill
-reduce
-reduceRight
+sort
+reverse
+toString（默认以逗号为连接符号）
+toLocaleString
+join（自定义连接符号）
 
 entries
 values
 
-toString
-toLocaleString
-
+isArray
 find
 findIndex
 findLast
