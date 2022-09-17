@@ -5,6 +5,14 @@
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
+      "basename": "Map",
+      "path": "笔记/前端/编程语言/JS/基本概念/Map.md"
+    },
+    {
+      "basename": "普通对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
+    },
+    {
       "basename": "Object",
       "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "前提",
       "path": "笔记/工具/哲学/逻辑学/前提.md"
-    },
-    {
-      "basename": "结论",
-      "path": "笔记/工具/哲学/逻辑学/结论.md"
-    },
-    {
-      "basename": "预定",
-      "path": "笔记/工具/哲学/逻辑学/预定.md"
     }
   ],
   "omittedPaths": [],
