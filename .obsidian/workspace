@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":11},\"to\":{\"line\":20,\"ch\":11}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/内心/内心.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/内心/内心.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/内心/内心.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md",
+                "file": "笔记/内心/内心.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -442,15 +442,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/自我.md",
+    "笔记/工具/通用概念/发现.md",
+    "笔记/工具/通用概念/创造.md",
+    "笔记/内心/内心.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/属性.md",
     "笔记/工具/思考/记忆/可枚举性.md",
     "笔记/工具/思考/记忆/数据属性.md",
     "笔记/前端/编程语言/JS/基本概念/静态属性.md",
-    "笔记/工具/思考/记忆/实例属性.md",
-    "笔记/工具/思考/记忆/访问器属性.md",
-    "笔记/前端/编程语言/JS/基本概念/类.md",
-    "笔记/前端/编程语言/JS/基本概念/类的结构.svg",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/原型对象.md"
+    "笔记/工具/思考/记忆/实例属性.md"
   ]
 }
