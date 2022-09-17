@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":11},\"to\":{\"line\":67,\"ch\":11}},\"scroll\":47.25826283131959}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":8},\"to\":{\"line\":67,\"ch\":8}},\"scroll\":50.2914576854454}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/内心/内心.md",
+                "file": "笔记/内心/活在当下指南.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/内心.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/内心/内心.md",
+                    "file": "笔记/内心/活在当下指南.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/内心/内心.md",
+                "file": "笔记/内心/活在当下指南.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -376,6 +376,22 @@
               "type": "online.tokuhirom.obsidian-stopwatch-plugin",
               "state": {}
             }
+          },
+          {
+            "id": "4e38c098ad49f89b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "5fe6c38fe0c3da89",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ]
       },
@@ -437,20 +453,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "015e17266cbb7c53",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/心智.md",
     "笔记/内心/活在当下指南.md",
+    "笔记/内心/常态.md",
+    "笔记/内心/内心.md",
+    "笔记/工具/通用概念/自我.md",
+    "笔记/内心/心智.md",
     "笔记/工具/思考/现象.md",
     "笔记/学习方法/概念/感知.md",
     "笔记/内心/实践.md",
     "笔记/工具/通用概念/经验.md",
-    "笔记/内心/生活质量.md",
-    "笔记/工具/通用概念/爱.md",
-    "笔记/内心/人际关系.md",
-    "笔记/内心/迷思.md"
+    "笔记/内心/生活质量.md"
   ]
 }
