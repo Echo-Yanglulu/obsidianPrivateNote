@@ -23,9 +23,9 @@ new Array()
 访问的索引不存在：不会报错，而是返回undefined
 	1. 无法分辨本来就是undefined，还是索引不存在
 # 属性
-## 静态属性
-Array.from
-## 实例属性（什么意思？跟原型属性区分？只有实例才有这个属性？）
+## [[静态属性]]
+
+## 实例属性
 1. length
 	1. 返回一个数组实例中元素的个数
 	2. 永远大于最大的下标
@@ -34,7 +34,10 @@ Array.from
 # 方法
 ## 静态方法
 
-# 
+Array.from
+Array.of
+Array.isArray
+## 实例方法
 35个
 
 forEach
