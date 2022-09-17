@@ -18,7 +18,7 @@
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":4},\"to\":{\"line\":64,\"ch\":4}},\"scroll\":44.3647}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":35},\"to\":{\"line\":51,\"ch\":35}},\"scroll\":17.435293651259656}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -453,12 +453,13 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "4605fff94c67845e",
+  "active": "da7d3f5d486bb596",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/工具/思考/记忆/属性.md",
     "笔记/前端/编程语言/JS/基本概念/BigInt.md",
@@ -466,7 +467,6 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/TS/TS.md",
     "笔记/前端/前端.md",
-    "笔记/内心/活在当下指南.md",
-    "笔记/内心/满足.md"
+    "笔记/内心/活在当下指南.md"
   ]
 }
