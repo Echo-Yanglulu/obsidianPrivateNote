@@ -18,6 +18,18 @@
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":30},\"to\":{\"line\":27,\"ch\":30}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/快乐.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":31},\"to\":{\"line\":1,\"ch\":31}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":19},\"to\":{\"line\":25,\"ch\":19}}}"
                 },
                 {
@@ -121,18 +133,6 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}},\"scroll\":0}"
                 }
               ]
             },
@@ -453,11 +453,12 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "0405a6f755854a70",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/无我.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/快乐.md",
     "笔记/内心/幸福.md",
@@ -466,7 +467,6 @@
     "笔记/工具/通用概念/自我.md",
     "笔记/工具/通用概念/经验.md",
     "笔记/内心/常态.md",
-    "笔记/内心/内心.md",
-    "笔记/内心/心智.md"
+    "笔记/内心/内心.md"
   ]
 }
