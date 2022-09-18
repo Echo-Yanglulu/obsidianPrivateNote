@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
+      "basename": "Number",
+      "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
+    },
+    {
       "basename": "值",
       "path": "笔记/前端/编程语言/JS/值.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "断言",
       "path": "笔记/工具/哲学/逻辑学/断言.md"
-    },
-    {
-      "basename": "断言",
-      "path": "笔记/前端/编程语言/TS/断言.md"
     }
   ],
   "omittedPaths": [],
