@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":9},\"to\":{\"line\":69,\"ch\":9}},\"scroll\":52.67142640976679}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":6},\"to\":{\"line\":3,\"ch\":6}},\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":8},\"to\":{\"line\":102,\"ch\":8}},\"scroll\":92.81741440978307}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "file": "笔记/前端/编程语言/JS/值.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/值.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/值.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                "file": "笔记/前端/编程语言/JS/值.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -453,15 +453,15 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "1e28e91b1787e92c",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
     "笔记/前端/编程语言/JS/基本概念/二进制数据.md",
     "笔记/前端/编程语言/JS/基本概念/字节数组.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/映射.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
