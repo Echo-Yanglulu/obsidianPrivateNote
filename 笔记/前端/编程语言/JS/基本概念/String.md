@@ -41,6 +41,8 @@ let taggedResult = simpleTag`${ a } + ${ b } = ${ a + b }`;
 console.log(untaggedResult);   // "6 + 9 = 15"
 console.log(taggedResult);     // "foobar"
 ```
+# 属性
+调用length属性会返回16 长度
 # 转换
 转换为字符串类型像转换为布尔类型一样常用。
 
