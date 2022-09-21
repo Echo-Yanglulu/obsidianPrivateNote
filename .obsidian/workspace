@@ -18,7 +18,7 @@
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/假设.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":18},\"to\":{\"line\":11,\"ch\":18}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -376,6 +376,22 @@
               "type": "online.tokuhirom.obsidian-stopwatch-plugin",
               "state": {}
             }
+          },
+          {
+            "id": "2c2e4ab5d78dc929",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "de2f5a97fe6951ff",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ]
       },
@@ -437,7 +453,7 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "27fa8374ce976b5c",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
