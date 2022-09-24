@@ -17,7 +17,13 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"preview\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":0},\"to\":{\"line\":33,\"ch\":0}},\"scroll\":18.560720010346326}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{}"
                 },
                 {
@@ -127,20 +133,14 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"scroll\":0}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":20},\"to\":{\"line\":109,\"ch\":20}},\"scroll\":95.82929838219647}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/通用概念/提问.md",
-                "mode": "preview",
+                "file": "笔记/内心/活在当下指南.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/内心/活在当下指南.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/提问.md",
+                "file": "笔记/内心/活在当下指南.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -461,20 +461,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "d3f7ae2edc36cb55",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/提问.svg",
+    "笔记/内心/活在当下指南.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/提问.md",
+    "笔记/工具/通用概念/提问.svg",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/思考/思维概念/归纳.md",
     "笔记/工具/思考/充足理由律.md",
     "笔记/工具/思考/排中律.md",
     "笔记/工具/思考/矛盾律.md",
-    "笔记/工具/思考/同一律.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思维形式.md"
+    "笔记/工具/思考/同一律.md"
   ]
 }
