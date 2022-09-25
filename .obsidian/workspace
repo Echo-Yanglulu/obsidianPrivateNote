@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":11},\"to\":{\"line\":58,\"ch\":11}},\"scroll\":88.87327645216301}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/溯因.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/内心/活在当下指南.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md"
+                    "file": "笔记/学习方法/自己的学习行为.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md",
+                    "file": "笔记/学习方法/自己的学习行为.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/内心/活在当下指南.md",
+                "file": "笔记/学习方法/自己的学习行为.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -303,7 +303,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -461,20 +461,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "7282fae80d8bce41",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/我.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/内心/活在当下指南.md",
+    "笔记/内心/我.md",
     "笔记/内心/小我.md",
     "笔记/工具/通用概念/自我.md",
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/内心/挣扎.md",
     "笔记/工具/意识/意识.md",
     "笔记/学习方法/概念/感知.md",
-    "笔记/学习方法/概念/知觉学习.md",
-    "笔记/行为/认知.md"
+    "笔记/学习方法/概念/知觉学习.md"
   ]
 }
