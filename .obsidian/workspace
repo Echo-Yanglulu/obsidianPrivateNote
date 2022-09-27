@@ -17,6 +17,18 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/表达式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}},\"scroll\":1.7207277279626072}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":9},\"to\":{\"line\":37,\"ch\":9}},\"scroll\":0}"
                 },
@@ -121,25 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":2},\"to\":{\"line\":8,\"ch\":2}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/世界观.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活方式.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/表达式.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/表达式.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/表达式.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/表达式.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -453,20 +453,20 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "d24aa9e05fb24b61",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/可迭代对象.md",
-    "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
-    "笔记/前端/编程语言/JS/基本概念/严格模式.md",
+    "笔记/前端/编程语言/JS/基本概念/操作符.md",
+    "笔记/前端/编程语言/JS/基本概念/表达式.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/学习方法/记忆宫殿.md",
-    "笔记/前端/编程语言/JS/作用域.md"
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/函数式编程.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
+    "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
+    "笔记/前端/编程语言/JS/基本概念/可迭代对象.md",
+    "笔记/前端/编程语言/JS/基本概念/严格模式.md",
+    "笔记/前端/编程语言/编程语言.md"
   ]
 }
