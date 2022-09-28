@@ -62,13 +62,25 @@ parseFloat：暂时未看
 3. MAX_VALUE
 4. Infinity
 5. isNaN()
-6. isInteger()
-7. isFinite()
+6. isSafeInteger()
+7. isInteger()
+8. isFinite()
+9. parseInt()
+10. parseFloat()
+11. toFixed()
+12. to
+
+
 ## Math
 trunc()：取整数部分
 floor
 ceil
 round
+abs
 random
 cbrt
 sqrt平方根
+pow
+sign 正负
+min
+max多个参数中的最小值
