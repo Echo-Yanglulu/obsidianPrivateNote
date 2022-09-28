@@ -58,5 +58,12 @@ parseFloat：暂时未看
 # 属性方法
 ## Number
 1. NaN
+2. MAX_SAFE_INTEGER
+3. MAX_VALUE
+4. Infinity
+5. isNaN()
+6. isInteger()
+7. isFinite()
 ## Math
+trunc()：取整数部分
 
