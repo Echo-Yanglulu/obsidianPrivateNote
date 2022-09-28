@@ -57,18 +57,23 @@ parseFloat：暂时未看
 
 # 属性方法
 ## Number
-1. NaN
-2. MAX_SAFE_INTEGER
-3. MAX_VALUE
-4. Infinity
-5. isNaN()
-6. isSafeInteger()
-7. isInteger()
-8. isFinite()
-9. parseInt()
-10. parseFloat()
-11. toFixed()
-12. to
+1. 常量
+	1. NaN
+	2. MAX_SAFE_INTEGER 2\*\*53-1
+	3. MAX_VALUE
+	4. Infinity
+2. 检测
+	1. isNaN()
+	2. isSafeInteger()
+	3. isInteger()
+	4. isFinite()
+3. 转换
+	1. parseInt()
+	2. parseFloat()
+4. 精度
+	1. toFixed()
+	2. toPrecision()
+	3. toExponential()
 
 
 ## Math
