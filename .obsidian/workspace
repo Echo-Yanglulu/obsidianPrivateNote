@@ -17,8 +17,38 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/词法结构.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.43806777756267}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据格式.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}},\"scroll\":1.307979931865263}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/词法结构.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":7},\"to\":{\"line\":17,\"ch\":7}},\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -103,43 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":29},\"to\":{\"line\":39,\"ch\":29}},\"scroll\":32.8628}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":119,\"ch\":52},\"to\":{\"line\":119,\"ch\":52}},\"scroll\":92.9522577980418}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}},\"scroll\":0}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":8},\"to\":{\"line\":102,\"ch\":8}},\"scroll\":92.81741440978307}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/浏览.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/认知者.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/词法结构.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/词法结构.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/词法结构.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/前端/编程语言/JS/基本概念/词法结构.md",
+                "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -458,15 +458,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/数据格式.md",
+    "笔记/前端/编程语言/JS/基本概念/词法结构.md",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/值.md",
     "笔记/学习方法/概念/比较.md",
     "笔记/前端/编程语言/JS/基本概念/表达式.md",
-    "笔记/前端/编程语言/JS/基本概念/标识符.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/函数式编程.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md"
+    "笔记/前端/编程语言/JS/基本概念/标识符.md"
   ]
 }

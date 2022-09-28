@@ -55,4 +55,8 @@ parseFloat：暂时未看
 | undefined |  |  |  |
 | 对象 | 调用valueOf方法，返回值按上述规则转换。如果转换得到NaN则重新调用toString，再按字符串规则 |  |  |
 
+# 属性方法
+## Number
+1. NaN
+## Math
 
