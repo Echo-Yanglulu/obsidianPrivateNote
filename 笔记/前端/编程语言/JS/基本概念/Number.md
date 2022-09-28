@@ -66,4 +66,9 @@ parseFloat：暂时未看
 7. isFinite()
 ## Math
 trunc()：取整数部分
-
+floor
+ceil
+round
+random
+cbrt
+sqrt平方根
