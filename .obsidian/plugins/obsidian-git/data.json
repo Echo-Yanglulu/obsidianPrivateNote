@@ -22,5 +22,6 @@
   "changedFilesInStatusBar": true,
   "username": "",
   "showedMobileNotice": true,
-  "refreshSourceControlTimer": 7000
+  "refreshSourceControlTimer": 7000,
+  "showBranchStatusBar": true
 }
