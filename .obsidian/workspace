@@ -17,8 +17,20 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/结构.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/DOCTORS模型.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":9,\"ch\":3}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":27},\"to\":{\"line\":18,\"ch\":27}},\"scroll\":7.0526}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -121,25 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/操作符.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":4},\"to\":{\"line\":21,\"ch\":4}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/表达式.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":22},\"to\":{\"line\":20,\"ch\":22}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/操作符.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/通用概念/本质.md",
+                "file": "笔记/学习方法/概念/结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/本质.md"
+                    "file": "笔记/学习方法/概念/结构.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/通用概念/本质.md",
+                    "file": "笔记/学习方法/概念/结构.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/通用概念/本质.md",
+                "file": "笔记/学习方法/概念/结构.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -457,17 +457,17 @@
     "direction": "horizontal",
     "width": 640.0001220703125
   },
-  "active": "ed713270e7ae6b3b",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/DOCTORS模型.md",
     "笔记/工具/通用概念/本质.md",
     "笔记/学习方法/概念/分析.md",
     "笔记/工具/思考/思维概念/观察.md",
     "笔记/工具/科学/观察方法.md",
     "笔记/学习方法/概念/结构.md",
-    "笔记/工具/通用概念/DOCTORS模型.md",
     "笔记/工具/历史/历史.md",
     "笔记/工具/通用概念/关系.md",
     "笔记/工具/通用概念/形式.md",
