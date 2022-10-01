@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑的力量.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":16},\"to\":{\"line\":2,\"ch\":16}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}}}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/结构.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/思考/思维概念/逻辑.md",
+                "file": "笔记/工具/思考/思维概念/逻辑的力量.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/逻辑.md"
+                    "file": "笔记/工具/思考/思维概念/逻辑的力量.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/逻辑.md",
+                    "file": "笔记/工具/思考/思维概念/逻辑的力量.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/逻辑.md",
+                "file": "笔记/工具/思考/思维概念/逻辑的力量.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "byModifiedTime",
@@ -315,41 +315,6 @@
         "dimension": 50.92127303182579,
         "children": [
           {
-            "id": "f59515532fe6ff4b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "leaf": "f59515532fe6ff4b",
-                  "group": null,
-                  "state": "{\"type\":\"graph\",\"state\":{},\"pinned\":true}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "d6f768adb0296a56",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
-            "pinned": true,
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
             "id": "675b99dc67621673",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -397,7 +362,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "01b984a51df1d6b1",
@@ -438,20 +404,20 @@
     "direction": "horizontal",
     "width": 642.993896484375
   },
-  "active": "1e28e91b1787e92c",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/意义.md",
     "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/工具/思考/思维概念/逻辑的力量.md",
+    "笔记/学习方法/概念/意义.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/谬误.md",
     "笔记/工具/通用概念/系统.md",
     "笔记/学习方法/概念/系统思考.md",
-    "笔记/工具/通用概念/系统之美.md",
-    "笔记/工具/思考/思考.md"
+    "笔记/工具/通用概念/系统之美.md"
   ]
 }
