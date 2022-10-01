@@ -18,7 +18,7 @@
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑的力量.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":9},\"to\":{\"line\":26,\"ch\":9}},\"scroll\":0}"
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -332,13 +332,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 178.99375915527344
+    "width": 178.99375915527344,
+    "collapsed": true
   },
-  "active": "a9a572ef1de1f143",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/思考/思维概念/逻辑的力量.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/科学/科学方法.md",
@@ -347,7 +349,6 @@
     "笔记/工具/通用概念/世界观.md",
     "笔记/学习方法/概念/意义.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md"
+    "笔记/前端/编程语言/JS/基本概念/模块模式.md"
   ]
 }
