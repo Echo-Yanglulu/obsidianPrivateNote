@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/错误.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":4},\"to\":{\"line\":8,\"ch\":4}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{}"
+                  "eState": "{\"scroll\":0}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基础思维.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":36},\"to\":{\"line\":3,\"ch\":36}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/西方文明简史/问题.md",
+                "file": "笔记/学习方法/错误.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/西方文明简史/问题.md"
+                    "file": "笔记/学习方法/错误.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/西方文明简史/问题.md",
+                    "file": "笔记/学习方法/错误.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/西方文明简史/问题.md",
+                "file": "笔记/学习方法/错误.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -302,7 +302,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -457,8 +458,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/问题解决.md",
     "笔记/西方文明简史/问题.md",
+    "笔记/工具/通用概念/问题解决.md",
     "笔记/工具/通用概念/通用概念.md",
     "笔记/学习方法/错误.md",
     "笔记/工具/思考/思维概念/溯因.md",
