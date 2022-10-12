@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":27},\"to\":{\"line\":12,\"ch\":27}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":9.924999237060547}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":11},\"to\":{\"line\":27,\"ch\":11}},\"scroll\":6.553571246919178}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/工具/通用概念/提问.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/工具/通用概念/提问.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md",
+                    "file": "笔记/工具/通用概念/提问.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/学习方法/自己的学习行为.md",
+                "file": "笔记/工具/通用概念/提问.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -458,15 +458,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/论题.md",
+    "笔记/工具/通用概念/原因.md",
     "笔记/工具/通用概念/提问.md",
-    "笔记/工具/哲学/逻辑学/主张.md",
+    "笔记/工具/通用概念/证据.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/哲学/逻辑学/论题.md",
+    "笔记/工具/哲学/逻辑学/主张.md",
     "笔记/学习方法/错误.md",
     "笔记/学习方法/黑匣子思维.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/自我.md",
-    "笔记/工具/通用概念/价值.md",
-    "笔记/工具/通用概念/原则.md"
+    "笔记/工具/通用概念/自我.md"
   ]
 }
