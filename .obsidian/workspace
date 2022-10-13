@@ -17,8 +17,14 @@
                 {
                   "leaf": "027e544465ae63f6",
                   "group": "60044dbc498f8df7",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "027e544465ae63f6",
+                  "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/归纳.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":34},\"to\":{\"line\":9,\"ch\":34}}}"
                 },
                 {
                   "leaf": "027e544465ae63f6",
@@ -127,19 +133,13 @@
                   "group": "60044dbc498f8df7",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/价值.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{}"
-                },
-                {
-                  "leaf": "027e544465ae63f6",
-                  "group": "60044dbc498f8df7",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/工具/思考/思维概念/归纳.md",
+                "file": "笔记/工具/思考/思维概念/推理.md",
                 "mode": "source",
                 "source": false
               }
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/归纳.md"
+                    "file": "笔记/工具/思考/思维概念/推理.md"
                   }
                 },
                 "group": "60044dbc498f8df7"
@@ -176,7 +176,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/归纳.md",
+                    "file": "笔记/工具/思考/思维概念/推理.md",
                     "linksCollapsed": true,
                     "unlinkedCollapsed": false
                   }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/工具/思考/思维概念/归纳.md",
+                "file": "笔记/工具/思考/思维概念/推理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime",
@@ -453,12 +453,13 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "94a84c4de8e05af0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/思维概念/归纳.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/思考/思维概念/逻辑.md",
@@ -466,7 +467,6 @@
     "笔记/行为/表达.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/学习方法/概念/概念.md",
-    "笔记/工具/思考/思维形式.md",
-    "笔记/工具/通用概念/提问.md"
+    "笔记/工具/思考/思维形式.md"
   ]
 }
