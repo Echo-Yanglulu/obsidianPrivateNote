@@ -1,12 +1,12 @@
 {
   "baseFontSize": 17,
-  "theme": "obsidian",
-  "cssTheme": "Modern Dark",
+  "theme": "moonstone",
+  "cssTheme": "Obsidian Nord",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
     "Footnotes"
   ],
   "baseFontSizeAction": true,
-  "accentColor": ""
+  "accentColor": "#09a0f1"
 }
