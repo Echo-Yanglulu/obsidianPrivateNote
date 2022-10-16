@@ -1,7 +1,6 @@
 {
   "baseFontSize": 15,
   "theme": "obsidian",
-  "cssTheme": "Typewriter",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
@@ -10,5 +9,6 @@
   "baseFontSizeAction": true,
   "accentColor": "#09a0f1",
   "interfaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "cssTheme": "Obsidian gruvbox"
 }
