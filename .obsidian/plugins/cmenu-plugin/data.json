@@ -55,9 +55,9 @@
       "icon": "broken-link"
     },
     {
-      "id": "theme:switch",
-      "name": "Change theme",
-      "icon": "bot-glyph"
+      "id": "theme-picker:open-theme-picker",
+      "name": "Theme Picker: Open Theme Picker",
+      "icon": "heading-glyph"
     }
   ],
   "appendMethod": "body",
