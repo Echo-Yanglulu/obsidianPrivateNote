@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":8},\"to\":{\"line\":48,\"ch\":8}},\"scroll\":33.0025254835244}"
+                    },
+                    {
                       "title": "问题",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -209,7 +215,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/通用概念/理由.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -243,7 +249,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md"
+                        "file": "笔记/工具/通用概念/理由.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -269,7 +275,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/工具/通用概念/理由.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -301,7 +307,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/通用概念/理由.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -441,7 +447,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -633,16 +639,16 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f54c5731a62fb42d",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/理由.md",
-    "笔记/工具/通用概念/证据.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/工具/通用概念/提问.md",
+    "笔记/工具/通用概念/理由.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/通用概念/证据.md",
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/逻辑学/论题.md",
     "笔记/西方文明简史/问题.md",
     "笔记/反思/反思.md",
