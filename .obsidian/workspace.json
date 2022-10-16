@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "问题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "反思",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":18},\"to\":{\"line\":23,\"ch\":18}},\"scroll\":39.471081788708624}"
+                    },
+                    {
                       "title": "提问",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -197,7 +209,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/反思/反思.md",
+                    "file": "笔记/工具/通用概念/提问.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -231,7 +243,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/反思/反思.md"
+                        "file": "笔记/工具/通用概念/提问.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -257,7 +269,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/反思/反思.md",
+                        "file": "笔记/工具/通用概念/提问.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -289,7 +301,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/反思/反思.md",
+                    "file": "笔记/工具/通用概念/提问.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -626,15 +638,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/错误.md",
+    "笔记/西方文明简史/问题.md",
     "笔记/反思/反思.md",
+    "笔记/学习方法/错误.md",
     "笔记/工具/通用概念/经验.md",
     "笔记/工具/通用概念/目的.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/工具/哲学/逻辑学/结论.md",
     "笔记/工具/思考/记忆/记忆.md",
-    "笔记/西方文明简史/问题.md",
     "笔记/工具/通用概念/自我层级.md"
   ]
 }
