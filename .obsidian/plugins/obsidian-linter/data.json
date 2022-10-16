@@ -85,7 +85,7 @@
       "Converts common bullet list marker symbols to markdown list markers.": false
     },
     "Emphasis Style": {
-      "Makes sure the emphasis style is consistent.": false,
+      "Makes sure the emphasis style is consistent.": true,
       "Style": "consistent"
     },
     "No Bare URLs": {
@@ -173,8 +173,8 @@
       "Two Space Linebreak": false
     }
   },
-  "lintOnSave": true,
-  "displayChanged": true,
+  "lintOnSave": false,
+  "displayChanged": false,
   "foldersToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": 4,
