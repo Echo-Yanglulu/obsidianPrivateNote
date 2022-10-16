@@ -1,12 +1,14 @@
 {
-  "baseFontSize": 17,
+  "baseFontSize": 14,
   "theme": "moonstone",
-  "cssTheme": "Sanctum",
+  "cssTheme": "Shimmering Focus",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
     "Footnotes"
   ],
   "baseFontSizeAction": true,
-  "accentColor": "#09a0f1"
+  "accentColor": "#09a0f1",
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }

@@ -519,6 +519,15 @@
           {
             "id": "77aa0d0fd472e159",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "juggl_nodes",
               "state": {}
@@ -527,6 +536,15 @@
           {
             "id": "dc0948b6ee3e08de",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "juggl_style",
               "state": {}
@@ -608,6 +626,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/反思/反思.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/工具/哲学/逻辑学/结论.md",
     "笔记/工具/思考/记忆/记忆.md",
@@ -615,8 +635,6 @@
     "笔记/工具/通用概念/自我层级.md",
     "笔记/工具/通用概念/自我的诞生.md",
     "笔记/工具/通用概念/自我.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/思考/思维概念/归纳.md"
+    "笔记/工具/思考/思维概念/推理.md"
   ]
 }
