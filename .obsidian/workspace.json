@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":4},\"to\":{\"line\":6,\"ch\":4}}}"
+                    },
+                    {
                       "title": "问题",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -245,7 +251,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/数学/基本概念/映射.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -279,7 +285,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md"
+                        "file": "笔记/工具/数学/基本概念/映射.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -305,7 +311,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/工具/数学/基本概念/映射.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -337,7 +343,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/数学/基本概念/映射.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -674,8 +680,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Buttons 1.0 is Coming.md",
     "笔记/工具/通用概念/提问.md",
+    "Buttons 1.0 is Coming.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/西方文明简史/问题.md",
     "笔记/工具/思考/基本概念/思维.md",
