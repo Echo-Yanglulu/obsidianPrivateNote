@@ -23,6 +23,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":23},\"to\":{\"line\":16,\"ch\":23}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                    },
+                    {
                       "title": "问题",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -287,7 +305,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/思考/思维概念/逻辑.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -321,7 +339,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md"
+                        "file": "笔记/工具/思考/思维概念/逻辑.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -347,7 +365,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/工具/思考/思维概念/逻辑.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -379,7 +397,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/思考/思维概念/逻辑.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -711,20 +729,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "7fd8ccfc8bc34f18",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/问题.md",
-    "笔记/工具/通用概念/提问.md",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/工具/思考/思考.md",
+    "笔记/工具/思考/思维概念/素质.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/通用概念/提问.md",
+    "笔记/西方文明简史/问题.md",
+    "笔记/工具/思考/思考.md",
     "笔记/工具/通用概念/本质.md",
     "笔记/工具/数学/基本概念/映射.md",
-    "Buttons 1.0 is Coming.md",
-    "笔记/工具/通用概念/原则.md",
-    "笔记/工具/思考/基本概念/思维.md"
+    "Buttons 1.0 is Coming.md"
   ]
 }
