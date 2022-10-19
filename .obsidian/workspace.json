@@ -26,6 +26,18 @@
                       "title": "真相",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "本体真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/本体真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
                     },
                     {
@@ -341,7 +353,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/本体真相.md",
+                    "file": "笔记/工具/思考/逻辑真相.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -375,7 +387,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/本体真相.md"
+                        "file": "笔记/工具/思考/逻辑真相.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -401,7 +413,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/本体真相.md",
+                        "file": "笔记/工具/思考/逻辑真相.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -433,7 +445,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/本体真相.md",
+                    "file": "笔记/工具/思考/逻辑真相.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -765,20 +777,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "3858477f275f2bdb",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/逻辑真相.md",
     "笔记/工具/思考/真相.md",
+    "笔记/工具/思考/本体真相.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/学习方法/错误.md",
     "笔记/工具/通用概念/谬误.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/逻辑学/基本原理.md",
-    "笔记/工具/哲学/逻辑学/表现形式.md",
-    "笔记/工具/哲学/逻辑学/技巧.md"
+    "笔记/工具/哲学/逻辑学/基本原理.md"
   ]
 }
