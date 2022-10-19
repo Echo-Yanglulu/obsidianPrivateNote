@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -305,7 +311,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/逻辑.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -339,7 +345,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/逻辑.md"
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -365,7 +371,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/逻辑.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -397,7 +403,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/逻辑.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -729,20 +735,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7fd8ccfc8bc34f18",
+  "active": "d7135deb798f0c35",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/思维方式.md",
-    "笔记/工具/思考/思维概念/素质.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/工具/文学/方法.md",
+    "笔记/工具/哲学/逻辑学/技巧.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/工具/数学/基本概念/映射.md"
+    "笔记/工具/通用概念/原则.md",
+    "笔记/工具/科学/科学.md",
+    "笔记/学习方法/概念/艺术.md",
+    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/工具/思考/思维概念/素质.md",
+    "笔记/工具/通用概念/思维方式.md",
+    "笔记/工具/思考/思维概念/论证.md"
   ]
 }
