@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":10},\"to\":{\"line\":35,\"ch\":10}},\"scroll\":14.017776913113064}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}}}"
+                    },
+                    {
                       "title": "逻辑真相",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -359,7 +371,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -393,7 +405,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/思考/真相.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -419,7 +431,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/思考/真相.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -451,7 +463,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -783,11 +795,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "563c56b7019e7335",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/分析.md",
     "笔记/工具/思考/逻辑真相.md",
@@ -796,7 +809,6 @@
     "笔记/西方文明简史/主观事实.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/本体真相.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/思考/思维概念/推理.md"
+    "笔记/工具/思考/思维概念/论证.md"
   ]
 }
