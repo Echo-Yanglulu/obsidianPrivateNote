@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":9},\"to\":{\"line\":32,\"ch\":9}},\"scroll\":5.62592572629535}"
+                    },
+                    {
                       "title": "错误",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/错误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -329,7 +335,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -363,7 +369,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/逻辑思维.md"
+                        "file": "笔记/工具/思考/真相.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -389,7 +395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/逻辑思维.md",
+                        "file": "笔记/工具/思考/真相.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -421,7 +427,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -753,20 +759,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "76921298b364f4c2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑思维.md",
+    "笔记/工具/思考/思维概念/推理.md",
     "笔记/学习方法/错误.md",
     "笔记/工具/通用概念/谬误.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/哲学/逻辑学/表现形式.md",
     "笔记/工具/哲学/逻辑学/技巧.md",
-    "笔记/工具/文学/方法.md",
-    "笔记/工具/通用概念/原则.md"
+    "笔记/工具/文学/方法.md"
   ]
 }
