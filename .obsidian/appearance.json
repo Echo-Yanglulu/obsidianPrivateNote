@@ -1,6 +1,6 @@
 {
   "baseFontSize": 15,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
@@ -10,5 +10,5 @@
   "accentColor": "#09a0f1",
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "cssTheme": "Prism"
+  "cssTheme": "Sanctum"
 }
