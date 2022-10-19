@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "映射",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/数学/基本概念/映射.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":17}}}"
+                    },
+                    {
                       "title": "提问",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -251,7 +257,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/数学/基本概念/映射.md",
+                    "file": "笔记/工具/通用概念/本质.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -285,7 +291,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/数学/基本概念/映射.md"
+                        "file": "笔记/工具/通用概念/本质.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -311,7 +317,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/数学/基本概念/映射.md",
+                        "file": "笔记/工具/通用概念/本质.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -343,7 +349,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/数学/基本概念/映射.md",
+                    "file": "笔记/工具/通用概念/本质.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -483,7 +489,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -680,6 +686,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/数学/基本概念/映射.md",
     "笔记/工具/通用概念/提问.md",
     "Buttons 1.0 is Coming.md",
     "笔记/工具/通用概念/原则.md",
@@ -688,7 +695,6 @@
     "笔记/反思/反思.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/工具/通用概念/理由.md",
-    "笔记/工具/哲学/逻辑学/断言.md",
-    "笔记/工具/哲学/逻辑学/结论.md"
+    "笔记/工具/哲学/逻辑学/断言.md"
   ]
 }
