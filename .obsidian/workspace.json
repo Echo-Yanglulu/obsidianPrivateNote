@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "逻辑思维",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -371,7 +377,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/真相.md",
+                    "file": "笔记/工具/通用概念/提问.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -405,7 +411,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/真相.md"
+                        "file": "笔记/工具/通用概念/提问.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -431,7 +437,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/真相.md",
+                        "file": "笔记/工具/通用概念/提问.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -463,7 +469,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/真相.md",
+                    "file": "笔记/工具/通用概念/提问.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -795,20 +801,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "5617a0beda4e15eb",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/提问.md",
+    "笔记/工具/通用概念/理由.md",
+    "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/工具/思考/真相.md",
     "笔记/工具/思考/本体真相.md",
     "笔记/工具/通用概念/证据.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/学习方法/概念/分析.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/西方文明简史/主观事实.md"
+    "笔记/学习方法/概念/分析.md"
   ]
 }
