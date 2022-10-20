@@ -407,19 +407,19 @@ body {
   --table-row-alt-background: var(--table-background);
   --table-row-last-border-width: var(--table-border-width);
   /* Tags */
-  --tag-size: var(--font-smaller);
-  --tag-color: rgb(var(--ctp-peach));
-  --tag-color-hover: rgb(var(--ctp-peach));
+  --tag-size: var(--font-normal);
+  --tag-color: rgb(var(--ctp-accent));
+  --tag-color-hover: rgb(var(--ctp-accent));
   --tag-decoration: none;
   --tag-decoration-hover: underline;
-  --tag-background: rgb(var(--ctp-mauve), 0.4);
-  --tag-background-hover: rgb(var(--ctp-mauve), 0.6);
+  --tag-background: transparent;
+  --tag-background-hover: 0;
   --tag-border-color: hsla(var(--interactive-accent-hsl), 0.1);
   --tag-border-color-hover: hsla(var(--interactive-accent-hsl), 0.15);
   --tag-border-width: 0;
-  --tag-padding-x: 0.45em;
-  --tag-padding-y: 0.25em;
-  --tag-radius: 0.4em;
+  --tag-padding-x: 0;
+  --tag-padding-y: 0;
+  --tag-radius: 0.8em;
   /* Window frame */
   --titlebar-background: var(--background-secondary);
   --titlebar-background-focused: var(--background-secondary-alt);
@@ -688,7 +688,7 @@ settings:
 
 /* ------------------Selecting Accents------------------- */
 .ctp-full-palette {
-  --ctp-accent: var(--ctp-lavender);
+  --ctp-accent: var(--ctp-lavander);
 }
 
 .ctp-accent-rosewater {
@@ -789,6 +789,29 @@ settings:
   --scrollbar-active-thumb-bg: rgba(var(--ctp-text), 0.2);
   --scrollbar-bg: rgba(var(--ctp-text), 0.05);
   --scrollbar-thumb-bg: rgba(var(--ctp-text), 0.1);
+  --mono-rgb-0: var(--ctp-crust);
+  --mono-rgb-100: var(--ctp-text);
+  --color-red-rgb: var(--ctp-red);
+  --color-red: rgb(var(--ctp-red));
+  --color-green-rgb: var(--ctp-green);
+  --color-green: rgb(var(--ctp-green));
+  --color-orange: rgb(var(--ctp-peach));
+  --color-yellow: rgb(var(--ctp-yellow));
+  --color-cyan: rgb(var(--ctp-sky));
+  --color-blue: rgb(var(--ctp-blue));
+  --color-purple: rgb(var(--ctp-lavender));
+  --color-pink: rgb(var(--ctp-pink));
+  --color-base-00: rgb(var(--ctp-crust));
+  --color-base-10: rgb(var(--ctp-mantle));
+  --color-base-20: rgb(var(--ctp-base));
+  --color-base-25: rgb(var(--ctp-surface0));
+  --color-base-30: rgb(var(--ctp-surface1));
+  --color-base-35: rgb(var(--ctp-surface2));
+  --color-base-40: rgb(var(--ctp-overlay0));
+  --color-base-50: rgb(var(--ctp-overlay1));
+  --color-base-60: rgb(var(--ctp-overlay2));
+  --color-base-70: rgb(var(--ctp-subtext0));
+  --color-base-100: rgb(var(--ctp-text));
 }
 
 .theme-dark {
@@ -849,6 +872,10 @@ input[type=number]:focus-visible {
 .markdown-source-view.mod-cm6 .is-unresolved:hover {
   color: rgb(var(--ctp-red));
   text-decoration-line: none;
+}
+
+.markdown-rendered button.copy-code-button {
+  background-color: rgb(var(--ctp-crust));
 }
 
 .theme-dark:not(.ctp-accent-blue, .ctp-accent-flamingo, .ctp-accent-green, .ctp-accent-lavender, .ctp-accent-maroon, .ctp-accent-mauve, .ctp-accent-peach, .ctp-accent-pink, .ctp-accent-red, .ctp-accent-rosewater, .ctp-accent-sapphire, .ctp-accent-sky, .ctp-accent-teal, .ctp-accent-yellow),
@@ -1369,6 +1396,20 @@ button.mod-cta:hover {
   border-color: rgb(var(--ctp-surface1));
 }
 
+.style-settings-heading[data-id=catppuccin-theme-credits-link] + .style-settings-container,
+.style-settings-heading[data-id=catppuccin-theme-credits-link] .style-settings-collapse-indicator {
+  display: none;
+}
+.style-settings-heading[data-id=catppuccin-theme-credits-link]:not(.is-collapsed) {
+  margin-bottom: 0;
+}
+
+.community-item .flair:not(.mod-pop) {
+  --tag-background: rgb(var(--ctp-accent));
+  --tag-color: var(--text-on-accent);
+  text-transform: lowercase;
+}
+
 .horizontal-tab-nav-item,
 .vertical-tab-nav-item {
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -1467,6 +1508,11 @@ body {
 body {
   --font-text-theme: "Vollkorn", "Gentium Book Basic", inter, -apple-system, blinkmacsystemfont, "Segoe UI", "Microsoft YaHei Light", sans-serif;
   --font-interface-theme: "Public Sans", "Gill Sans", -apple-system, system-ui, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+}
+
+.cm-hashtag.cm-hashtag-end:hover {
+  text-decoration: underline 1px var(--text-normal);
+  text-decoration-thickness: 2px;
 }
 
 /*# sourceMappingURL=theme.css.map */
