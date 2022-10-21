@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":29},\"to\":{\"line\":29,\"ch\":29}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":29},\"to\":{\"line\":16,\"ch\":29}},\"scroll\":0}"
+                    },
+                    {
                       "title": "真相",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -377,7 +389,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -411,7 +423,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md"
+                        "file": "笔记/工具/思考/逻辑思维.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -437,7 +449,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/工具/思考/逻辑思维.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -469,7 +481,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -609,7 +621,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -801,20 +813,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1e28e91b1787e92c",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/理由.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/提问.md",
+    "笔记/工具/通用概念/理由.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/西方文明简史/客观事实.md",
     "笔记/工具/思考/本体真相.md",
     "笔记/工具/通用概念/证据.md",
     "笔记/工具/思考/逻辑思维.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/分析.md"
   ]
 }
