@@ -1,10 +1,11 @@
 {
-  "baseFontSize": 15,
+  "baseFontSize": 17,
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
-    "Footnotes"
+    "Footnotes",
+    "Popover-Popup"
   ],
   "baseFontSizeAction": true,
   "accentColor": "#09a0f1",
