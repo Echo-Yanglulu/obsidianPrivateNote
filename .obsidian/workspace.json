@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":15.928905884424845}"
+                    },
+                    {
                       "title": "观念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -455,7 +461,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/工具/通用概念/观念.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -516,7 +522,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/逻辑思维.md"
+                        "file": "笔记/行为/认知.md"
                       }
                     }
                   }
@@ -541,7 +547,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/逻辑思维.md",
+                        "file": "笔记/行为/认知.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -572,7 +578,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/行为/认知.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -901,13 +907,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "f5c6d5f9efa67b11",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/通用概念/观念.md",
+    "笔记/工具/思考/逻辑思维.md",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/通用概念/自恋.md",
     "笔记/工具/通用概念/外部世界.md",
