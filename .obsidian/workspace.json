@@ -10,7 +10,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 66.33204633204633,
+            "dimension": 70.27572293207801,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -460,8 +460,7 @@
                     "backlinks": false,
                     "source": false
                   }
-                },
-                "group": "60044dbc498f8df7"
+                }
               },
               {
                 "id": "bf6bae597ae1bde4",
@@ -491,13 +490,12 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "03555132cbcc4348",
             "type": "split",
-            "dimension": 17.45173745173745,
+            "dimension": 14.055144586415603,
             "children": [
               {
                 "id": "78af655098cf1c9d",
@@ -520,8 +518,7 @@
                       "state": {
                         "file": "笔记/工具/通用概念/观念.md"
                       }
-                    },
-                    "group": "60044dbc498f8df7"
+                    }
                   }
                 ]
               },
@@ -548,8 +545,7 @@
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
-                    },
-                    "group": "60044dbc498f8df7"
+                    }
                   }
                 ]
               }
@@ -559,7 +555,7 @@
           {
             "id": "22a79bfc7d6b6bf3",
             "type": "tabs",
-            "dimension": 16.216216216216218,
+            "dimension": 15.66913248150639,
             "children": [
               {
                 "id": "37fb741facd8f20b",
@@ -585,8 +581,7 @@
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": false
                   }
-                },
-                "group": "60044dbc498f8df7"
+                }
               }
             ]
           }
@@ -762,11 +757,9 @@
                 }
               ]
             },
-            "pinned": true,
             "state": {
               "type": "review-queue-list-view",
-              "state": {},
-              "pinned": true
+              "state": {}
             }
           },
           {
@@ -908,20 +901,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bf6bae597ae1bde4",
+  "active": "bd5ff300df2b3029",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/逻辑思维.md",
+    "笔记/西方文明简史/命题.md",
     "笔记/工具/通用概念/观念.md",
+    "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/通用概念/自恋.md",
     "笔记/工具/通用概念/外部世界.md",
     "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/主观事实.md",
     "笔记/工具/通用概念/客观.md",
     "笔记/工具/通用概念/定义.md",
-    "笔记/工具/通用概念/主观.md",
-    "笔记/工具/思考/记忆/联系.md"
+    "笔记/工具/通用概念/主观.md"
   ]
 }

@@ -2148,7 +2148,915 @@
       "ophidian:layout-settings": {
         "pane-relief:focus-lock": true
       }
+    },
+    "2022-10-22": {
+      "main": {
+        "id": "a00daf7331235eff",
+        "type": "split",
+        "children": [
+          {
+            "id": "ec56ac806753c375",
+            "type": "split",
+            "children": [
+              {
+                "id": "e67a4c566e0eea1a",
+                "type": "tabs",
+                "dimension": 66.33204633204633,
+                "children": [
+                  {
+                    "id": "027e544465ae63f6",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 1,
+                      "stack": [
+                        {
+                          "title": "主观",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/主观.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":11},\"to\":{\"line\":4,\"ch\":11}}}"
+                        },
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}},\"scroll\":4.3615418940457875}"
+                        },
+                        {
+                          "title": "事实",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":23},\"to\":{\"line\":24,\"ch\":23}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}},\"scroll\":4.3615418940457875}"
+                        },
+                        {
+                          "title": "事实",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":40},\"to\":{\"line\":15,\"ch\":40}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "主观事实",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":52},\"to\":{\"line\":1,\"ch\":52}}}"
+                        },
+                        {
+                          "title": "事实",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "事件",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                        },
+                        {
+                          "title": "事物",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "事实",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":77},\"to\":{\"line\":11,\"ch\":77}}}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":29},\"to\":{\"line\":29,\"ch\":29}}}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":29},\"to\":{\"line\":16,\"ch\":29}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "真相",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":10},\"to\":{\"line\":35,\"ch\":10}},\"scroll\":14.017776913113064}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "逻辑真相",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
+                        },
+                        {
+                          "title": "真相",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
+                        },
+                        {
+                          "title": "本体真相",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/本体真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":10}}}"
+                        },
+                        {
+                          "title": "真相",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":9},\"to\":{\"line\":32,\"ch\":9}},\"scroll\":5.62592572629535}"
+                        },
+                        {
+                          "title": "错误",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/错误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":25.1919}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":9},\"to\":{\"line\":14,\"ch\":9}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "论证",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":23},\"to\":{\"line\":16,\"ch\":23}}}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "问题",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":18},\"to\":{\"line\":18,\"ch\":18}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "本质",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":19},\"to\":{\"line\":16,\"ch\":19}},\"scroll\":3.3000707469268606}"
+                        },
+                        {
+                          "title": "映射",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/数学/基本概念/映射.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":17}}}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":4},\"to\":{\"line\":6,\"ch\":4}}}"
+                        },
+                        {
+                          "title": "问题",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":7},\"to\":{\"line\":18,\"ch\":7}},\"scroll\":6.977777777777778}"
+                        },
+                        {
+                          "title": "思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "反思",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":25.277243326205635}"
+                        },
+                        {
+                          "title": "数据类型",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "理由",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/理由.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":8},\"to\":{\"line\":48,\"ch\":8}},\"scroll\":33.0025254835244}"
+                        },
+                        {
+                          "title": "问题",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "反思",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":18},\"to\":{\"line\":23,\"ch\":18}},\"scroll\":39.471081788708624}"
+                        },
+                        {
+                          "title": "提问",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":3},\"to\":{\"line\":43,\"ch\":3}},\"scroll\":30.546121558009336}"
+                        },
+                        {
+                          "title": "问题",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "自我层级",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":20},\"to\":{\"line\":15,\"ch\":20}},\"scroll\":1.0556840736172997}"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}",
+                          "title": "自我的诞生",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                          "title": "自我",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{}",
+                          "title": "推理",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/归纳.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":34},\"to\":{\"line\":9,\"ch\":34}}}",
+                          "title": "归纳",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}",
+                          "title": "推理",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":10},\"to\":{\"line\":48,\"ch\":10}},\"scroll\":42.4415870363524}",
+                          "title": "人的行为",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":7},\"to\":{\"line\":4,\"ch\":7}}}",
+                          "title": "人",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}",
+                          "title": "逻辑",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"scroll\":0}",
+                          "title": "推理",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":10},\"to\":{\"line\":51,\"ch\":10}},\"scroll\":40.44420288792096}",
+                          "title": "人的行为",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}",
+                          "title": "人",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":5},\"to\":{\"line\":52,\"ch\":5}},\"scroll\":44.26736045644121}",
+                          "title": "人的行为",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":36},\"to\":{\"line\":7,\"ch\":36}}}",
+                          "title": "推理",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":106},\"to\":{\"line\":6,\"ch\":106}}}",
+                          "title": "理解",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}}}",
+                          "title": "概念",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维形式.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}",
+                          "title": "思维形式",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}",
+                          "title": "推理",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"scroll\":13.8529}",
+                          "title": "提问",
+                          "icon": "document"
+                        },
+                        {
+                          "leaf": "027e544465ae63f6",
+                          "group": "60044dbc498f8df7",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}",
+                          "title": "自己的学习行为",
+                          "icon": "document"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/工具/通用概念/观念.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "bf6bae597ae1bde4",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "逻辑思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}},\"scroll\":0}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/西方文明简史/命题.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "03555132cbcc4348",
+                "type": "split",
+                "dimension": 17.45173745173745,
+                "children": [
+                  {
+                    "id": "78af655098cf1c9d",
+                    "type": "tabs",
+                    "children": [
+                      {
+                        "id": "bd5ff300df2b3029",
+                        "type": "leaf",
+                        "pane-relief:history-v1": {
+                          "pos": 0,
+                          "stack": [
+                            {
+                              "state": "{}",
+                              "eState": "{}"
+                            }
+                          ]
+                        },
+                        "state": {
+                          "type": "outline",
+                          "state": {
+                            "file": "笔记/工具/通用概念/观念.md"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "be29d87c4ad60f93",
+                    "type": "tabs",
+                    "children": [
+                      {
+                        "id": "1e28e91b1787e92c",
+                        "type": "leaf",
+                        "pane-relief:history-v1": {
+                          "pos": 0,
+                          "stack": [
+                            {
+                              "state": "{}",
+                              "eState": "{}"
+                            }
+                          ]
+                        },
+                        "state": {
+                          "type": "outgoing-link",
+                          "state": {
+                            "file": "笔记/工具/通用概念/观念.md",
+                            "linksCollapsed": true,
+                            "unlinkedCollapsed": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "horizontal"
+              },
+              {
+                "id": "22a79bfc7d6b6bf3",
+                "type": "tabs",
+                "dimension": 16.216216216216218,
+                "children": [
+                  {
+                    "id": "37fb741facd8f20b",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "backlink",
+                      "state": {
+                        "file": "笔记/工具/通用概念/观念.md",
+                        "collapseAll": true,
+                        "extraContext": false,
+                        "sortOrder": "byModifiedTime",
+                        "showSearch": false,
+                        "searchQuery": "",
+                        "backlinkCollapsed": false,
+                        "unlinkedCollapsed": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8ba117513c0a782d",
+        "type": "split",
+        "children": [
+          {
+            "id": "932e5b2355cf0a40",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "231c1b69c3d25663",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "989de35848378ae3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f228e16b95d44e75",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "69a2e6fc80af00cf",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bc55ca4b3679aac4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "center-panes",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1107673ef3054e32",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 224.0124969482422
+      },
+      "right": {
+        "id": "27f207157d6497ec",
+        "type": "split",
+        "children": [
+          {
+            "id": "c6a1cba0558ba019",
+            "type": "tabs",
+            "dimension": 50.92127303182579,
+            "children": [
+              {
+                "id": "f59515532fe6ff4b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              },
+              {
+                "id": "d6f768adb0296a56",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "675b99dc67621673",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "online.tokuhirom.obsidian-pomodoro-plugin",
+                  "state": {}
+                }
+              },
+              {
+                "id": "bbfe783a7b6ff6fa",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "online.tokuhirom.obsidian-stopwatch-plugin",
+                  "state": {}
+                }
+              },
+              {
+                "id": "77aa0d0fd472e159",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {}
+                }
+              },
+              {
+                "id": "dc0948b6ee3e08de",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "juggl_style",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "01b984a51df1d6b1",
+            "type": "tabs",
+            "dimension": 49.07872696817421,
+            "children": [
+              {
+                "id": "e06cd8634f0d46cc",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false
+                  }
+                }
+              },
+              {
+                "id": "8f75fcebbd6bd3be",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "graph-analysis",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cb975962c28e962a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 549.0001220703125
+      },
+      "ribbon": {
+        "mostRecentAction": ""
+      },
+      "active": "027e544465ae63f6",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": true
+      }
     }
   },
-  "active": "132-2022-9-16"
+  "active": "2022-10-22"
 }
