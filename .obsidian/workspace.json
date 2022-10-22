@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0.2173286791916093}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":10},\"to\":{\"line\":23,\"ch\":10}},\"scroll\":6.340086522900205}"
+                    },
+                    {
                       "title": "观念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -467,7 +479,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/西方文明简史/主观事实.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -528,7 +540,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/观念.md"
+                        "file": "笔记/西方文明简史/主观事实.md"
                       }
                     }
                   }
@@ -553,7 +565,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/观念.md",
+                        "file": "笔记/西方文明简史/主观事实.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -584,7 +596,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/观念.md",
+                    "file": "笔记/西方文明简史/主观事实.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -913,14 +925,14 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b76e94b0213fe30a",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/通用概念/观念.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/主观事实.md",
     "笔记/行为/认知.md",
     "笔记/工具/通用概念/语言.md",
