@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "事件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
                       "title": "事物",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -407,7 +419,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/事件.md",
+                    "file": "笔记/西方文明简史/主观事实.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -441,7 +453,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/事件.md"
+                        "file": "笔记/西方文明简史/主观事实.md"
                       }
                     },
                     "group": "60044dbc498f8df7"
@@ -467,7 +479,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/事件.md",
+                        "file": "笔记/西方文明简史/主观事实.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -499,7 +511,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/事件.md",
+                    "file": "笔记/西方文明简史/主观事实.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -836,15 +848,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/概念/事实.md",
+    "笔记/西方文明简史/主观事实.md",
+    "笔记/工具/通用概念/事件.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/哲学/逻辑学/预设.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/西方文明简史/主观事实.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/学习方法/概念/客观性.md",
     "笔记/工具/通用概念/观念.md",
-    "笔记/工具/通用概念/语言.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md"
+    "笔记/工具/通用概念/语言.md"
   ]
 }
