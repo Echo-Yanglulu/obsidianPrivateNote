@@ -462,8 +462,37 @@
                   }
                 },
                 "group": "60044dbc498f8df7"
+              },
+              {
+                "id": "bf6bae597ae1bde4",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/西方文明简史/命题.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -879,20 +908,20 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "027e544465ae63f6",
+  "active": "bf6bae597ae1bde4",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/自恋.md",
+    "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/通用概念/观念.md",
+    "笔记/工具/通用概念/自恋.md",
     "笔记/工具/通用概念/外部世界.md",
     "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/主观事实.md",
     "笔记/工具/通用概念/客观.md",
     "笔记/工具/通用概念/定义.md",
     "笔记/工具/通用概念/主观.md",
-    "笔记/工具/思考/记忆/联系.md",
-    "笔记/工具/思考/逻辑思维.md"
+    "笔记/工具/思考/记忆/联系.md"
   ]
 }
