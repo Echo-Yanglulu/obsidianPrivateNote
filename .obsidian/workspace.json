@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.018319028393362}"
+                    },
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
                       "title": "观念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -515,7 +527,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/语言.md",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -576,7 +588,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/语言.md"
+                        "file": "笔记/工具/思考/逻辑思维.md"
                       }
                     }
                   }
@@ -601,7 +613,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/语言.md",
+                        "file": "笔记/工具/思考/逻辑思维.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -632,7 +644,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/语言.md",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -762,7 +774,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -954,15 +966,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/表达.md",
-    "笔记/工具/通用概念/语言.md",
-    "笔记/工具/通用概念/观念.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/逻辑思维.md",
+    "笔记/工具/通用概念/语言.md",
+    "笔记/工具/通用概念/事物.md",
+    "笔记/行为/表达.md",
+    "笔记/工具/通用概念/观念.md",
     "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/主观事实.md",
     "笔记/行为/认知.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/通用概念/自恋.md",
-    "笔记/工具/通用概念/外部世界.md"
+    "笔记/西方文明简史/命题.md"
   ]
 }
