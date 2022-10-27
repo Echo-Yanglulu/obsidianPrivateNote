@@ -1,7 +1,23 @@
-/* Increase space for resize handle */
+.mod-root .workspace-split.mod-horizontal > div:not(:first-of-type) {
+  background-color: var(--background-primary);
+}
+.mod-root .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  background-color: var(--background-secondary-alt);
+}
+
+.is-translucent:not(.is-fullscreen) .mod-root .workspace-split.mod-horizontal > div:not(:first-of-type) {
+  border-top: 1px solid var(--divider-color);
+  background-color: var(--divider-color) !important;
+}
+.is-translucent:not(.is-fullscreen) .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
+  background-color: var(--divider-color);
+  --divider-color: transparent ;
+}
+
 .workspace-leaf-resize-handle {
   background-color: transparent;
   border: none !important;
+  overflow: visible;
 }
 
 .workspace-leaf-resize-handle {
@@ -15,13 +31,11 @@
 
 .workspace-leaf-resize-handle::after {
   content: "";
-  /* background-color: var(--background-secondary-alt); */
-  background-color: transparent;
   position: absolute;
   border-radius: 3px;
   width: 50%;
   height: 50%;
-  transition: background-color 200ms ease-out;
+  transition: background-color 150ms ease-out;
 }
 
 .workspace-leaf-resize-handle:hover::after {
@@ -31,28 +45,24 @@
 .markdown-source-view .markdown-embed,
 .markdown-embed {
   --border-color: var(--background-modifier-border);
-  border: 1px solid var(--border-color);
+  border: none;
   background-color: var(--background-secondary);
   margin-bottom: 0.75rem;
   border-radius: var(--corner-radius);
   padding: 0;
-}
-
-.markdown-embed {
-  margin-bottom: 0;
   overflow: hidden;
 }
 
 .markdown-embed-title {
-  font-weight: normal;
-  text-align: left;
-  padding-left: 1rem;
-  padding-right: 3rem;
-  font-size: 1.2em;
-  padding-bottom: 0;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  border-bottom: 1px dashed var(--border-color);
+  font-weight: var(--inline-title-weight);
+  font-size: 1.75em;
+  font-style: var(--inline-title-style);
+  font-variant: var(--inline-title-variant);
+  font-family: var(--inline-title-font);
+  letter-spacing: -0.015em;
+  padding: 0.25em 1rem;
+  color: var(--color-accent);
+  background-color: var(--background-secondary-alt);
   white-space: break-spaces;
 }
 
@@ -65,11 +75,14 @@
 }
 
 .markdown-embed-content.markdown-embed-page {
-  padding: 0 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  max-height: 50vh;
+  overflow: auto;
 }
 
 .inline-title {
-  --inline-title-color: var(--interactive-accent);
+  --inline-title-color: var(--color-accent);
 }
 
 .is-translucent:not(.is-fullscreen) {
@@ -92,6 +105,20 @@
   --tab-outline-color: #bdbdbd15;
   --tab-outline-width: 1px;
 }
+.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left.is-collapsed {
+  border-right-color: var(--divider-color);
+}
+.is-translucent:not(.is-fullscreen) .workspace-tabs:not(.mod-top):not(.mod-root) .workspace-tab-header-container {
+  background-color: transparent;
+  border-bottom: none;
+  border-radius: 0;
+  margin: 0;
+  background-color: var(--divider-color);
+  border-right: none;
+}
+.is-translucent:not(.is-fullscreen) .workspace-split {
+  background-color: transparent;
+}
 
 .is-translucent:not(.is-fullscreen) .titlebar, .is-translucent .app-container {
   background-color: transparent !important;
@@ -109,6 +136,10 @@
   padding: 0 var(--size-4-3);
 }
 
+.graph-view.color-line {
+  color: rgba(189, 189, 189, 0.1450980392);
+}
+
 body {
   --highlight-colour: #ff9f0038;
   --highlight-colour-outline: #ff9f00de;
@@ -122,6 +153,83 @@ body {
   box-shadow: 0 0 10px var(--highlight-colour-outline);
 }
 
+body {
+  --lucide-x: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'%3E%3C/line%3E%3Cline x1='6' y1='6' x2='18' y2='18'%3E%3C/line%3E%3C/svg%3E");
+  --lucide-minus: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
+  --lucide-maximize: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3'%3E%3C/path%3E%3Cpath d='M21 8V5a2 2 0 0 0-2-2h-3'%3E%3C/path%3E%3Cpath d='M3 16v3a2 2 0 0 0 2 2h3'%3E%3C/path%3E%3Cpath d='M16 21h3a2 2 0 0 0 2-2v-3'%3E%3C/path%3E%3C/svg%3E");
+}
+
+:is(.mod-linux, .mod-windows) .titlebar-button:not(.mod-logo) svg {
+  -webkit-mask-size: cover;
+  background-color: var(--icon-color);
+  color: transparent;
+  width: var(--icon-s);
+  height: var(--icon-s);
+}
+
+:is(.mod-linux, .mod-windows) .titlebar-button:not(.mod-logo) {
+  padding: 0 var(--size-4-3);
+}
+
+:is(.mod-linux, .mod-windows) .titlebar-button.mod-minimize svg {
+  -webkit-mask-image: var(--lucide-minus);
+}
+
+:is(.mod-linux, .mod-windows) .titlebar-button.mod-maximize svg {
+  -webkit-mask-image: var(--lucide-maximize);
+}
+
+:is(.mod-linux, .mod-windows) .titlebar-button.mod-close svg {
+  -webkit-mask-image: var(--lucide-x);
+}
+
+.prompt-input-container {
+  background-color: var(--background-secondary-alt);
+}
+
+input.prompt-input {
+  background-color: transparent;
+  font-size: larger;
+}
+
+.suggestion-item.is-selected {
+  color: var(--color-accent);
+}
+
+.modal.mod-sidebar-layout .community-modal-sidebar .community-item {
+  border: none;
+  cursor: pointer;
+  transition: background-color 100ms ease-out;
+}
+.modal.mod-sidebar-layout .community-modal-sidebar .community-item:hover:not(.is-selected) {
+  background-color: var(--background-secondary-alt);
+}
+.modal.mod-sidebar-layout .community-modal-sidebar .community-item.mod-active {
+  outline: 1px solid var(--color-accent);
+}
+.modal.mod-sidebar-layout .community-modal-sidebar:not(:last-child) {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+}
+.modal.mod-sidebar-layout .community-modal-sidebar:last-child {
+  padding-top: 0;
+}
+.modal.mod-sidebar-layout .community-modal-sidebar:last-child .community-modal-controls {
+  padding-top: 1em;
+  background-color: var(--background-secondary-alt);
+}
+.modal.mod-sidebar-layout .community-modal-info {
+  margin-left: 287px;
+}
+.modal.mod-sidebar-layout .modal-setting-nav-bar {
+  background-color: var(--background-secondary-alt);
+  border: none;
+}
+.modal.mod-sidebar-layout .community-modal-details.is-loading::before {
+  top: 50px;
+}
+
 :root {
   --corner-radius: 0.5rem;
 }
@@ -129,18 +237,100 @@ body {
 body {
   --checklist-done-decoration: none;
   --checklist-done-color: #bababaa0;
+  --text-on-accent: var(--color-base-00);
+  --hr-color: #ffffff90;
+  --hr-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
-.workspace-ribbon {
-  transition: all 250ms ease-in-out !important;
+.theme-dark {
+  --accent-h: 254;
+  --accent-s: 96%;
+  --accent-l: 82%;
 }
+
+.theme-light {
+  --accent-h: 254;
+  --accent-s: 40%;
+  --accent-l: 40%;
+}
+
 .workspace-ribbon.mod-left {
-  background-color: transparent;
+  transition: all 250ms ease-out !important;
 }
 .workspace-ribbon.mod-left.is-collapsed {
-  background-color: transparent;
+  border-right-color: transparent;
 }
 
 .sidebar-toggle-button > .clickable-icon {
   color: var(--interactive-accent);
+}
+
+.empty-state::before {
+  content: "";
+  width: 100%;
+  height: 30%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='18' height='18' fill='none' stroke='%23ffffff40' stroke-width='2%' stroke-linecap='round' stroke-linejoin='round' class='logo-wireframe'%3E%3Cpath d='M 30.91 17.52 L 34.43 35.7 M 61.44 14.41 L 62.61 0 M 34.43 35.7 L 37.57 90.47 M 81 26.39 L 61.44 14.41 L 34.43 35.7 L 65.35 100 M 62.61 0 L 30.91 17.52 L 18 45.45 L 37.57 90.47 L 65.35 100 L 70.44 89.8 L 81 26.39 L 62.61 0 Z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.theme-light .empty-state::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='18' height='18' fill='none' stroke='%2300000040' stroke-width='2%' stroke-linecap='round' stroke-linejoin='round' class='logo-wireframe'%3E%3Cpath d='M 30.91 17.52 L 34.43 35.7 M 61.44 14.41 L 62.61 0 M 34.43 35.7 L 37.57 90.47 M 81 26.39 L 61.44 14.41 L 34.43 35.7 L 65.35 100 M 62.61 0 L 30.91 17.52 L 18 45.45 L 37.57 90.47 L 65.35 100 L 70.44 89.8 L 81 26.39 L 62.61 0 Z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.empty-state-title {
+  font-size: 2.5rem !important;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.3137254902);
+  display: none;
+}
+
+.tree-item-children > div:not([class]) {
+  display: none;
+}
+
+.modal.mod-settings .vertical-tab-header {
+  border-right: none;
+}
+
+body:not(.is-translucent) .modal-bg {
+  display: none;
+}
+body:not(.is-translucent) .modal-container.mod-dim .modal-bg {
+  display: block;
+  backdrop-filter: brightness(0.5) blur(5px);
+  opacity: 1 !important;
+  background-color: transparent;
+}
+
+.workspace-leaf-content[data-mode=preview] .view-action:first-child {
+  color: var(--interactive-accent);
+}
+
+.workspace-tabs:not(.mod-top):not(.mod-root) .workspace-tab-header-container {
+  background-color: var(--titlebar-background-focused);
+  border-bottom: none;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.workspace-split {
+  background-color: var(--background-secondary);
+}
+
+.cm-line.hr hr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--background-primary);
+  margin: 0 46%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='8' height='8' fill='none' stroke='%23ffffff90' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' class='logo-wireframe'%3E%3Cpath d='M 30.91 17.52 L 34.43 35.7 M 61.44 14.41 L 62.61 0 M 34.43 35.7 L 37.57 90.47 M 81 26.39 L 61.44 14.41 L 34.43 35.7 L 65.35 100 M 62.61 0 L 30.91 17.52 L 18 45.45 L 37.57 90.47 L 65.35 100 L 70.44 89.8 L 81 26.39 L 62.61 0 Z'%3E%3C/path%3E%3C/svg%3E");
 }

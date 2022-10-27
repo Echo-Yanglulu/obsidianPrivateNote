@@ -215,22 +215,24 @@ body.type-scale-major-third {
   --heading-weight: 600;
 }
 
-.css-settings-manager h1.embedded-note-title,
-.css-settings-manager h1.cm-line.embedded-note-title {
-  font-weight: 700;
-  font-weight: var(--title-weight);
-}
-
 h1,
-h1.embedded-note-title.embedded-note-title.embedded-note-title,
+h1.embedded-note-title,
+.cm-header.cm-header-1,
+.inline-title,
 .cm-s-obsidian .cm-header.cm-header-1,
 .HyperMD-header-1.HyperMD-header .cm-header-1,
 .markdown-preview-view h1 {
   font-weight: 700;
-  font-weight: var(--title-weight);
   color: var(--text-title-h1);
   font-family: var(--font-title);
   padding-bottom: 7px;
+}
+
+.css-settings-manager h1,
+.css-settings-manager h1.embedded-note-title,
+.css-settings-manager .cm-header.cm-header-1,
+.css-settings-manager .inline-title {
+  font-weight: var(--title-weight);
 }
 
 h1.embedded-note-title.embedded-note-title,
@@ -442,6 +444,7 @@ body:not(.align-title-left) .markdown-preview-section.markdown-preview-section h
 }
 .css-settings-manager.heading-ligatures h1,
 .css-settings-manager.heading-ligatures .cm-header-1,
+.css-settings-manager.heading-ligatures .inline-title,
 .css-settings-manager.heading-ligatures h2,
 .css-settings-manager.heading-ligatures .cm-header-2,
 .css-settings-manager.heading-ligatures h3,
@@ -457,19 +460,16 @@ body:not(.align-title-left) .markdown-preview-section.markdown-preview-section h
 }
 
 /* Headings END */
-@keyframes skinnyheavy {
-  0% {
-    font-weight: 300;
-  }
-  50% {
-    font-weight: 900;
-  }
-  100% {
-    font-weight: 300;
-  }
-}
 .mod-left-split .workspace-tabs .workspace-leaf-content h1, .mod-left-split .workspace-tabs .workspace-leaf-content h1.embedded-note-title.embedded-note-title {
   font-size: var(--h2-size);
+}
+
+body:not(.no-image-alttext-caption) .image-embed[alt]:not([alt$=".png"], [alt$=".jpg"], [alt$=".jpeg"], [alt$=".tiff"])::after {
+  display: block;
+  content: attr(alt);
+  color: var(--text-muted);
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 /*
@@ -707,6 +707,21 @@ body {
   transform: rotate(180deg) scale(1.25);
 }
 
+sup.footnote-ref {
+  position: relative;
+  bottom: 0.2em;
+  padding-left: 0.1em;
+}
+
+.footnote-link {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.footnote-link:hover {
+  text-decoration: none;
+}
+
 body.theme-light .modal-bg {
   --background-modifier-cover: rgba(0,0,0,0.1) ;
 }
@@ -795,6 +810,7 @@ body {
   --tag-color-hover: #f7d865;
   --code-normal: #62d770;
   --link-decoration: none;
+  --modal-height: 75vh;
   --line-height-body: 1.45;
 }
 
@@ -1021,6 +1037,7 @@ body.css-settings-manager.body-ligatures {
   font-family: var(--default-font);
 }
 
+.cm-content .cm-line,
 .ͼ1 .cm-scroller,
 .markdown-preview-view {
   line-height: var(--line-height-body);
