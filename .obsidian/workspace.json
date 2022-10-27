@@ -588,7 +588,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/观念.md"
+                        "file": "笔记/学习方法/概念/事实.md"
                       }
                     }
                   }
@@ -613,7 +613,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/观念.md",
+                        "file": "笔记/学习方法/概念/事实.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -644,7 +644,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/观念.md",
+                    "file": "笔记/学习方法/概念/事实.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -961,20 +961,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "92446ba738890733",
+  "active": "11f31d10c92199d7",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/事物.md",
-    "笔记/工具/通用概念/观念.md",
+    "笔记/学习方法/概念/客观性.md",
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/通用概念/客观.md",
     "笔记/工具/思考/逻辑思维.md",
-    "笔记/学习方法/概念/事实.md",
+    "笔记/工具/通用概念/观念.md",
+    "笔记/工具/思考/记忆/联系.md",
+    "笔记/工具/通用概念/事物.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/语言.md",
-    "笔记/行为/表达.md",
-    "笔记/西方文明简史/主观事实.md",
-    "笔记/行为/认知.md"
+    "笔记/行为/表达.md"
   ]
 }
