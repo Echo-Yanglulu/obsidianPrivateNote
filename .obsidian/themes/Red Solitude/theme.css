@@ -1,4 +1,6 @@
 .theme-dark {
+  --color-base-offset-mult: 0;
+  --color-base-offset: calc(1% * var(--color-base-offset-mult));
   color-scheme: dark;
   --highlight-mix-blend-mode: lighten;
   --mono-rgb-0: 0, 0, 0;
@@ -13,20 +15,18 @@
   --color-blue: #027aff;
   --color-purple: #a882ff;
   --color-pink: #FA99CD;
-  --color-base-00: hsl(196, 18%, 6%);
-  --color-base-10: hsl(196, 18%, 8%);
-  --color-base-20: hsl(196, 18%, 9%);
-  --color-base-25: hsl(196, 18%, 10%);
-  --color-base-30: hsl(196, 18%, 15%);
-  --color-base-35: hsl(196, 18%, 19%);
-  --color-base-40: hsl(196, 18%, 27%);
-  --color-base-50: hsl(196, 18%, 34%);
-  --color-base-60: hsl(196, 18%, 54%);
-  --color-base-70: hsl(196, 18%, 67%);
-  --color-base-100: hsl(196, 18%, 79%);
-  --color-accent-hsl: var(--accent-h),
-  var(--accent-s),
-  var(--accent-l);
+  --color-base-00: hsl(196, 18%, calc(6% + var(--color-base-offset)));
+  --color-base-10: hsl(196, 18%, calc(8% + var(--color-base-offset)));
+  --color-base-20: hsl(196, 18%, calc(9% + var(--color-base-offset)));
+  --color-base-25: hsl(196, 18%, calc(10% + var(--color-base-offset)));
+  --color-base-30: hsl(196, 18%, calc(15% + var(--color-base-offset)));
+  --color-base-35: hsl(196, 18%, calc(19% + var(--color-base-offset)));
+  --color-base-40: hsl(196, 18%, calc(27% + var(--color-base-offset)));
+  --color-base-50: hsl(196, 18%, calc(34% + var(--color-base-offset)));
+  --color-base-60: hsl(196, 18%, calc(54% + var(--color-base-offset)));
+  --color-base-70: hsl(196, 18%, calc(67% + var(--color-base-offset)));
+  --color-base-100: hsl(196, 18%, calc(79% + var(--color-base-offset)));
+  --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
   --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
   --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 15%));
   --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 15%));
@@ -562,9 +562,11 @@ body:not(.is-mobile):is(.has-custom-background) .workspace-split.mod-root {
   background-color: var(--color-accent-1);
   border-radius: var(--radius-s);
   padding: 0px;
+  margin: 0px;
+  align-self: center;
+  justify-self: center;
   box-shadow: var(--shadow-l);
   height: 24px;
-  align-self: center;
 }
 
 .workspace-tabs .workspace-leaf {
@@ -584,10 +586,9 @@ body:not(.is-mobile):is(.has-custom-background) .workspace-split.mod-root {
   padding: 1px 23px 0;
 }
 
-.workspace-split.mod-left-split .workspace-leaf,
-.workspace-split.mod-right-split .workspace-leaf {
+.workspace-split:is(.mod-left-split, .mod-right-split) .workspace-leaf {
   border-radius: var(--radius-l);
-  margin: 6px;
+  margin: 0px 6px 6px 6px;
 }
 
 .workspace-split.mod-root .workspace-leaf,
@@ -688,5 +689,19 @@ settings:
     type: class-toggle
     default: false
   -
+    id: colors
+    title: Colors
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: color-base-offset-mult
+    title: Adjust brightness
+    description: Adjusts the brightness of all dark backgrounds
+    type: variable-number-slider
+    default: 0
+    min: -6
+    max: 21
+    step: 1
 */
 /* #endregion */
