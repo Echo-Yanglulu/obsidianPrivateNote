@@ -4,11 +4,11 @@
   "triggerDelay": 200,
   "closeDelay": 100,
   "autoFocus": true,
-  "rollDown": true,
+  "rollDown": false,
   "snapToEdges": true,
   "initialHeight": "740px",
   "initialWidth": "900px",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "imageZoom": true,
   "hoverEmbeds": true
 }
