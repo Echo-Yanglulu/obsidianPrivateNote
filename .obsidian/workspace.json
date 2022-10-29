@@ -16,17 +16,17 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "语言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":4},\"to\":{\"line\":33,\"ch\":4}},\"scroll\":0}"
                     },
                     {
                       "title": "原则",
@@ -629,7 +629,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/逻辑思维.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -706,7 +706,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/哲学/逻辑学/基本原理.md"
                       }
                     }
                   }
@@ -731,7 +731,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/哲学/逻辑学/基本原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -762,7 +762,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/哲学/逻辑学/基本原理.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -1088,15 +1088,15 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "0a6753dee5dd86ad",
+  "active": "10b373efb44d2b19",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
+    "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/哲学/逻辑学/主张.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/通用概念/原则.md",
