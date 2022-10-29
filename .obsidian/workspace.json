@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":7.4071756353877465}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -689,7 +695,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/事实.md",
+                    "file": "笔记/西方文明简史/主观事实.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1148,20 +1154,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "612827ee6cd4f3bd",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/学习方法/概念/事实.md",
     "笔记/西方文明简史/客观事实.md",
+    "笔记/西方文明简史/主观事实.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/哲学/逻辑学/主张.md",
     "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/通用概念/原则.md",
-    "笔记/工具/科学/科学.md"
+    "笔记/工具/通用概念/原则.md"
   ]
 }
