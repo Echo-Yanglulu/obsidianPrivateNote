@@ -26,6 +26,24 @@
                       "title": "逻辑真相",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}},\"scroll\":0.3759}"
+                    },
+                    {
+                      "title": "定义",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/定义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
                     },
                     {
@@ -563,7 +581,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/定义.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -624,7 +642,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/定义.md"
+                        "file": "笔记/工具/思考/真相.md"
                       }
                     }
                   }
@@ -649,7 +667,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/定义.md",
+                        "file": "笔记/工具/思考/真相.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -680,7 +698,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/定义.md",
+                    "file": "笔记/工具/思考/真相.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -1003,14 +1021,14 @@
   },
   "lastOpenFiles": [
     "笔记/工具/思考/逻辑真相.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/工具/思考/符合论.md",
+    "笔记/工具/思考/真相.md",
     "笔记/工具/通用概念/定义.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/思考/记忆/属性.md",
-    "笔记/工具/思考/真相.md",
     "笔记/工具/思考/融贯说.md",
-    "笔记/工具/思考/符合论.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/本体真相.md"
   ]
 }
