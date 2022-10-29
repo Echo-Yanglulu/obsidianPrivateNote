@@ -657,9 +657,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "e157ca5b03ad26ff",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/自己的学习行为.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "03555132cbcc4348",
@@ -685,7 +707,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/学习方法/概念/知识.md"
+                        "file": "笔记/学习方法/概念/事实.md"
                       }
                     }
                   }
@@ -710,7 +732,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/知识.md",
+                        "file": "笔记/学习方法/概念/事实.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -741,7 +763,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/概念/知识.md",
+                    "file": "笔记/学习方法/概念/事实.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -880,7 +902,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1067,20 +1089,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "bff539d2de2fbc4f",
+  "active": "fa9344304badd1f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/科学/科学.md",
     "笔记/工具/哲学/逻辑学/基本原理.md",
+    "笔记/学习方法/概念/事实.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/科学/科学.md",
+    "笔记/学习方法/概念/知识.md",
     "笔记/工具/思考/逻辑思维.md",
     "笔记/工具/通用概念/语言.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/通用概念/原则.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/哲学/逻辑学/表现形式.md",
-    "笔记/工具/思考/真相.md",
-    "笔记/工具/思考/逻辑真相.md"
+    "笔记/西方文明简史/命题.md"
   ]
 }
