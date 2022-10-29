@@ -16,17 +16,17 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "逻辑思维",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":4},\"to\":{\"line\":36,\"ch\":4}},\"scroll\":16.985038108010063}"
                     },
                     {
                       "title": "原则",
@@ -629,7 +629,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/原则.md",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -662,7 +662,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/Untitled Diagram.svg"
+                        "file": "笔记/工具/思考/逻辑思维.md"
                       }
                     }
                   }
@@ -687,7 +687,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/Untitled Diagram.svg",
+                        "file": "笔记/工具/思考/逻辑思维.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -718,7 +718,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/Untitled Diagram.svg",
+                    "file": "笔记/工具/思考/逻辑思维.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "byModifiedTime",
@@ -842,6 +842,15 @@
           {
             "id": "213e3f4c8c30fa0f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -1035,20 +1044,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "bf6bae597ae1bde4",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/通用概念/原则.md",
+    "笔记/工具/通用概念/语言.md",
     "笔记/工具/思考/逻辑思维.md",
+    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
+    "笔记/工具/通用概念/原则.md",
+    "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/表现形式.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/工具/思考/符合论.md",
-    "笔记/工具/思考/融贯说.md",
-    "笔记/工具/哲学/逻辑学/结论.md",
-    "笔记/工具/通用概念/定义.md"
+    "笔记/工具/思考/融贯说.md"
   ]
 }
