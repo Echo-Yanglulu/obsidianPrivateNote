@@ -1,6 +1,6 @@
 /* -------- FRONT MATTER ---------
 ** Theme: Obsidian Typewriter
-** Version number: 2.0.3
+** Version number: 2.0.4
 ** GitHub Repo: https://github.com/crashmoney/obsidian-typewriter
 ** Made by: crashmoney
 ----------------------------------- */
@@ -402,7 +402,19 @@ body .modal-bg {
   background-color: var(--background-primary);
 }
 
-/* OBSIDIAN HUB */
+/* +++ PLUGINS */
+
+/* ZOOM by @vslinko */
+.zoom-plugin-header {
+  font-family: var(--font-interface-theme);
+}
+
+/* KANBAN by @mgmeyers */
+.kanban-plugin__grow-wrap>textarea {
+  background-color: var(--background-primary);
+}
+
+/* +++ OBSIDIAN HUB */
 /* @plugins
 core:
 - audio-recorder
