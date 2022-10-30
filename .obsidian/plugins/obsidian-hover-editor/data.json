@@ -1,8 +1,8 @@
 {
   "defaultMode": "match",
   "autoPin": "onMove",
-  "triggerDelay": 400,
-  "closeDelay": 400,
+  "triggerDelay": 200,
+  "closeDelay": 200,
   "autoFocus": true,
   "rollDown": false,
   "snapToEdges": true,
