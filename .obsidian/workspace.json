@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":6},\"to\":{\"line\":28,\"ch\":6}},\"scroll\":2.370638353783972}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -737,7 +749,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/事实.md",
+                    "file": "笔记/工具/通用概念/观念.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -870,7 +882,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/学习方法/概念/事实.md"
+                        "file": "笔记/工具/通用概念/观念.md"
                       }
                     }
                   }
@@ -895,7 +907,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/事实.md",
+                        "file": "笔记/工具/通用概念/观念.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -926,7 +938,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/概念/事实.md",
+                    "file": "笔记/工具/通用概念/观念.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1257,6 +1269,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/西方文明简史/主观事实.md",
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/数理逻辑.md",
     "笔记/工具/哲学/逻辑学/学科.md",
@@ -1264,8 +1278,6 @@
     "笔记/工具/哲学/逻辑学/形式逻辑.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/哲学/逻辑学/演绎有效性.md",
-    "笔记/工具/通用概念/观念.md",
-    "笔记/学习方法/概念/事实.md",
-    "笔记/西方文明简史/主观事实.md"
+    "笔记/工具/通用概念/观念.md"
   ]
 }
