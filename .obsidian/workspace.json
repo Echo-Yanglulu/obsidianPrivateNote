@@ -739,6 +739,28 @@
                 }
               },
               {
+                "id": "aca98ff9bdd0c025",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/概念/事实.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "75f8b7468e6cb7f7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -810,7 +832,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -836,7 +859,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/形式逻辑.md"
+                        "file": "笔记/学习方法/概念/事实.md"
                       }
                     }
                   }
@@ -861,7 +884,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/形式逻辑.md",
+                        "file": "笔记/学习方法/概念/事实.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -892,7 +915,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/形式逻辑.md",
+                    "file": "笔记/学习方法/概念/事实.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1218,12 +1241,13 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "3038bd066faae87a",
+  "active": "aca98ff9bdd0c025",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/形式逻辑.md",
     "笔记/学习方法/概念/知识.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
@@ -1231,7 +1255,6 @@
     "笔记/内心/我.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/学习方法/概念/事实.md",
-    "笔记/西方文明简史/主观事实.md",
-    "笔记/西方文明简史/客观事实.md"
+    "笔记/西方文明简史/主观事实.md"
   ]
 }
