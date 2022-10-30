@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":7},\"to\":{\"line\":51,\"ch\":7}},\"scroll\":37.69226748910981}"
+                    },
+                    {
                       "title": "观念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -779,7 +785,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/学习方法/概念/事实.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1299,11 +1305,11 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/西方文明简史/客观事实.md",
     "笔记/西方文明简史/主观事实.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/逻辑学/数理逻辑.md",
     "笔记/工具/哲学/逻辑学/学科.md",
     "笔记/工具/哲学/逻辑学/非形式逻辑.md",
