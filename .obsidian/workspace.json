@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":13},\"to\":{\"line\":64,\"ch\":13}},\"scroll\":40.8154807942898}"
+                    },
+                    {
                       "title": "基本原理basic principles",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -803,7 +809,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/同一律.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -936,7 +942,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/思考/同一律.md"
                       }
                     }
                   }
@@ -961,7 +967,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/思考/同一律.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -992,7 +998,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/同一律.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1323,8 +1329,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
     "笔记/工具/思考/同一律.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
