@@ -16,11 +16,29 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":54},\"to\":{\"line\":59,\"ch\":54}},\"scroll\":45.66726344266394}"
+                    },
+                    {
+                      "title": "同一律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/同一律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
                     },
                     {
                       "title": "逻辑学",
@@ -809,7 +827,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/同一律.md",
+                    "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -942,7 +960,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/同一律.md"
+                        "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md"
                       }
                     }
                   }
@@ -967,7 +985,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/同一律.md",
+                        "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -998,7 +1016,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/同一律.md",
+                    "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1329,14 +1347,14 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/同一律.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/工具/通用概念/谬误.md",
     "笔记/工具/思考/思维概念/推理.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/通用概念/语言.md"
   ]

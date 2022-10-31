@@ -5666,7 +5666,7 @@ var Editor2 = class {
     return __async(this, null, function* () {
       yield this.registerCodeMirrorMode();
       this.plugin.registerEditorSuggest(new Autocomplete());
-      if (import_obsidian17.Platform.isDesktopApp) {
+      if (import_obsidian17.Platform.isDesktopApp && this.plugin.settings.syntax_highlighting) {
         this.plugin.registerEditorExtension(import_language.StreamLanguage.define(window.CodeMirror.getMode({}, { name: "templater" })));
       }
     });
