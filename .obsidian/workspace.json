@@ -61,6 +61,24 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "充足理由律",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":29},\"to\":{\"line\":69,\"ch\":29}},\"scroll\":58.22708249092102}"
+                        },
+                        {
+                          "title": "矛盾律",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/矛盾律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":50},\"to\":{\"line\":7,\"ch\":50}},\"scroll\":0}"
+                        },
+                        {
                           "title": "逻辑学",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -907,7 +925,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/工具/思考/矛盾律.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1043,7 +1061,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/矛盾律.md"
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                       }
                     }
                   }
@@ -1068,7 +1086,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/矛盾律.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1099,7 +1117,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/矛盾律.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1430,10 +1448,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/同一律.md",
-    "笔记/工具/思考/矛盾律.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/充足理由律.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/矛盾律.md",
+    "笔记/工具/思考/同一律.md",
     "笔记/工具/思考/排中律.md",
     "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
     "笔记/学习方法/概念/事实.md",
