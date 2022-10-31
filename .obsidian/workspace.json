@@ -77,17 +77,17 @@
                     "id": "027e544465ae63f6",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 1,
+                      "pos": 0,
                       "stack": [
-                        {
-                          "title": "原因",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原因.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
                         {
                           "state": "{}",
                           "eState": "{}"
+                        },
+                        {
+                          "title": "充足理由律",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":31},\"to\":{\"line\":0,\"ch\":31}},\"scroll\":0}"
                         },
                         {
                           "title": "逻辑学",
@@ -972,7 +972,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/工具/思考/充足理由律.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1108,7 +1108,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/原因.md"
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                       }
                     }
                   }
@@ -1133,7 +1133,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/原因.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1164,7 +1164,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/原因.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1490,7 +1490,7 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "2a69765c6d1d5356",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
