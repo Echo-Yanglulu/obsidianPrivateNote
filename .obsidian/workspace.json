@@ -61,6 +61,12 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":27},\"to\":{\"line\":65,\"ch\":27}},\"scroll\":57.5757055370987}"
+                        },
+                        {
                           "title": "充足理由律",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -925,7 +931,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/思考/充足理由律.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1061,7 +1067,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/思考/充足理由律.md"
                       }
                     }
                   }
@@ -1086,7 +1092,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/思考/充足理由律.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1117,7 +1123,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/充足理由律.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1448,8 +1454,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/充足理由律.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/充足理由律.md",
     "笔记/工具/思考/矛盾律.md",
     "笔记/工具/思考/同一律.md",
     "笔记/工具/思考/排中律.md",
