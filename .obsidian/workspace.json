@@ -15,6 +15,7 @@
               {
                 "id": "7d81ab9a20d52e3b",
                 "type": "tabs",
+                "dimension": 42.04451772464963,
                 "children": [
                   {
                     "id": "757b14994688f73b",
@@ -72,13 +73,20 @@
               {
                 "id": "e67a4c566e0eea1a",
                 "type": "tabs",
+                "dimension": 57.95548227535037,
                 "children": [
                   {
                     "id": "027e544465ae63f6",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "关系图谱",
+                          "icon": "lucide-git-fork",
+                          "state": "{\"type\":\"graph\",\"state\":{}}",
+                          "eState": "{}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1495,8 +1503,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/思考/充足理由律.md",
     "笔记/工具/通用概念/原因.md",
     "笔记/工具/思考/矛盾律.md",
