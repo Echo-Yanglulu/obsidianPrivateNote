@@ -934,8 +934,14 @@
                 "id": "d17d1b8b5818eee2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "理由",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/理由.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1074,7 +1080,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -1482,20 +1489,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "d17d1b8b5818eee2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/语言.md",
+    "笔记/工具/通用概念/理由.md",
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/工具/通用概念/语言.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/思考/充足理由律.md",
     "笔记/工具/通用概念/原因.md",
     "笔记/工具/思考/矛盾律.md",
-    "笔记/工具/思考/同一律.md",
-    "笔记/工具/思考/排中律.md",
-    "笔记/工具/哲学/逻辑学/基本原理basic principles.md"
+    "笔记/工具/思考/同一律.md"
   ]
 }
