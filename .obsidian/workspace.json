@@ -1113,7 +1113,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/推理.md"
+                        "file": "笔记/工具/思考/思维概念/论证.md"
                       }
                     }
                   }
@@ -1138,7 +1138,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/推理.md",
+                        "file": "笔记/工具/思考/思维概念/论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1169,7 +1169,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/推理.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1495,20 +1495,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "bc9081d0fdfb77ae",
+  "active": "b0d9a7094cb146b5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/断言.md",
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
     "笔记/工具/通用概念/证据.md",
     "笔记/工具/通用概念/理由.md",
     "笔记/工具/通用概念/语言.md",
-    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
-    "笔记/工具/思考/充足理由律.md"
+    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg"
   ]
 }
