@@ -308,15 +308,6 @@ settings:
         level: 2
         collapsed: true
     -
-        id: anp-header-toggle
-        title: Toggle to enable custom header
-        type: class-toggle
-    - 
-        id: anp-header-font
-        title: Heading Font
-        type: variable-text
-        default: Noto Serif
-    -
         id: anp-header-color-toggle
         title: Toggle to enable custom header colors
         type: class-toggle
@@ -334,12 +325,17 @@ settings:
         step: 2
         default: 20
         format: px
-    - 
-        id: anp-header-size-value
-        title: Header font sizes
+    -
+        id: anp-h1-header
+        title: H1 settings
         type: heading
-        level: 4
-        collapsed: false
+        level: 3
+        collapsed: true
+    -
+        id: h1-font
+        title: H1 font family
+        type: variable-text
+        default: Noto Serif
     - 
         id: h1-size
         title: H1 Size
@@ -348,12 +344,160 @@ settings:
         default: 2
         format: em
     - 
+        id: h1-weight
+        title: H1 weight
+        type: variable-number
+        default: 700
+    - 
+        id: h1-line-height
+        title: H1 line height
+        type: variable-number
+        default: 1.2
+    - 
+        id: anp-h1-color-custom
+        title: H1 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h1-red
+        options:
+            - 
+                label: Rosewater
+                value: anp-h1-rosewater
+            - 
+                label: Flamingo
+                value: anp-h1-flamingo
+            - 
+                label: Pink
+                value: anp-h1-pink
+            - 
+                label: Mauve
+                value: anp-h1-mauve
+            - 
+                label: Red
+                value: anp-h1-red
+            - 
+                label: Maroon
+                value: anp-h1-maroon
+            - 
+                label: Peach
+                value: anp-h1-peach
+            - 
+                label: Yellow
+                value: anp-h1-yellow
+            - 
+                label: Green
+                value: anp-h1-green
+            - 
+                label: Teal
+                value: anp-h1-teal
+            - 
+                label: Sky
+                value: anp-h1-sky
+            - 
+                label: Sapphire
+                value: anp-h1-sapphire
+            - 
+                label: Blue
+                value: anp-h1-blue
+            - 
+                label: Lavender
+                value: anp-h1-lavender
+    -
+        id: anp-h1-divider
+        title: H1 divider
+        type: class-toggle
+    -
+        id: anp-h2-header
+        title: H2 settings
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h2-font
+        title: H2 font family
+        type: variable-text
+        default: Noto Serif
+    - 
         id: h2-size
         title: H2 Size
         description: Size unit is em
         type: variable-number
         default: 1.6
         format: em
+    - 
+        id: h2-weight
+        title: H2 weight
+        type: variable-number
+        default: 600
+    - 
+        id: h2-line-height
+        title: H2 line height
+        type: variable-number
+        default: 1.2
+    - 
+        id: anp-h2-color-custom
+        title: H2 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h2-peach
+        options:
+            - 
+                label: Rosewater
+                value: anp-h2-rosewater
+            - 
+                label: Flamingo
+                value: anp-h2-flamingo
+            - 
+                label: Pink
+                value: anp-h2-pink
+            - 
+                label: Mauve
+                value: anp-h2-mauve
+            - 
+                label: Red
+                value: anp-h2-red
+            - 
+                label: Maroon
+                value: anp-h2-maroon
+            - 
+                label: Peach
+                value: anp-h2-peach
+            - 
+                label: Yellow
+                value: anp-h2-yellow
+            - 
+                label: Green
+                value: anp-h2-green
+            - 
+                label: Teal
+                value: anp-h2-teal
+            - 
+                label: Sky
+                value: anp-h2-sky
+            - 
+                label: Sapphire
+                value: anp-h2-sapphire
+            - 
+                label: Blue
+                value: anp-h2-blue
+            - 
+                label: Lavender
+                value: anp-h2-lavender
+    -
+        id: anp-h2-divider
+        title: H2 divider
+        type: class-toggle
+    -
+        id: anp-h3-header
+        title: H3 settings
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h3-font
+        title: H3 font family
+        type: variable-text
+        default: Noto Serif
     - 
         id: h3-size
         title: H3 Size
@@ -362,12 +506,160 @@ settings:
         default: 1.37
         format: em
     - 
+        id: h3-weight
+        title: H3 weight
+        type: variable-number
+        default: 600
+    - 
+        id: h3-line-height
+        title: H3 line height
+        type: variable-number
+        default: 1.3
+    - 
+        id: anp-h3-color-custom
+        title: H3 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h3-green
+        options:
+            - 
+                label: Rosewater
+                value: anp-h3-rosewater
+            - 
+                label: Flamingo
+                value: anp-h3-flamingo
+            - 
+                label: Pink
+                value: anp-h3-pink
+            - 
+                label: Mauve
+                value: anp-h3-mauve
+            - 
+                label: Red
+                value: anp-h3-red
+            - 
+                label: Maroon
+                value: anp-h3-maroon
+            - 
+                label: Peach
+                value: anp-h3-peach
+            - 
+                label: Yellow
+                value: anp-h3-yellow
+            - 
+                label: Green
+                value: anp-h3-green
+            - 
+                label: Teal
+                value: anp-h3-teal
+            - 
+                label: Sky
+                value: anp-h3-sky
+            - 
+                label: Sapphire
+                value: anp-h3-sapphire
+            - 
+                label: Blue
+                value: anp-h3-blue
+            - 
+                label: Lavender
+                value: anp-h3-lavender
+    -
+        id: anp-h3-divider
+        title: H3 divider
+        type: class-toggle
+    -
+        id: anp-h4-header
+        title: H4 settings
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h4-font
+        title: H4 font family
+        type: variable-text
+        default: Noto Serif
+    - 
         id: h4-size
         title: H4 Size
         description: Size unit is em
         type: variable-number
         default: 1.25
         format: em
+    - 
+        id: h4-weight
+        title: H4 weight
+        type: variable-number
+        default: 600
+    - 
+        id: h4-line-height
+        title: H4 line height
+        type: variable-number
+        default: 1.4
+    - 
+        id: anp-h4-color-custom
+        title: H4 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h4-teal
+        options:
+            - 
+                label: Rosewater
+                value: anp-h4-rosewater
+            - 
+                label: Flamingo
+                value: anp-h4-flamingo
+            - 
+                label: Pink
+                value: anp-h4-pink
+            - 
+                label: Mauve
+                value: anp-h4-mauve
+            - 
+                label: Red
+                value: anp-h4-red
+            - 
+                label: Maroon
+                value: anp-h4-maroon
+            - 
+                label: Peach
+                value: anp-h4-peach
+            - 
+                label: Yellow
+                value: anp-h4-yellow
+            - 
+                label: Green
+                value: anp-h4-green
+            - 
+                label: Teal
+                value: anp-h4-teal
+            - 
+                label: Sky
+                value: anp-h4-sky
+            - 
+                label: Sapphire
+                value: anp-h4-sapphire
+            - 
+                label: Blue
+                value: anp-h4-blue
+            - 
+                label: Lavender
+                value: anp-h4-lavender
+    -
+        id: anp-h4-divider
+        title: H4 divider
+        type: class-toggle
+    -
+        id: anp-h5-header
+        title: H5 settings
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h5-font
+        title: H5 font family
+        type: variable-text
+        default: Noto Serif
     - 
         id: h5-size
         title: H5 Size
@@ -376,12 +668,149 @@ settings:
         default: 1.12
         format: em
     - 
+        id: h5-weight
+        title: H5 weight
+        type: variable-number
+        default: 600
+    - 
+        id: h5-line-height
+        title: H5 line height
+        type: variable-number
+        default: 1.5
+    - 
+        id: anp-h5-color-custom
+        title: H5 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h5-lavender
+        options:
+            - 
+                label: Rosewater
+                value: anp-h5-rosewater
+            - 
+                label: Flamingo
+                value: anp-h5-flamingo
+            - 
+                label: Pink
+                value: anp-h5-pink
+            - 
+                label: Mauve
+                value: anp-h5-mauve
+            - 
+                label: Red
+                value: anp-h5-red
+            - 
+                label: Maroon
+                value: anp-h5-maroon
+            - 
+                label: Peach
+                value: anp-h5-peach
+            - 
+                label: Yellow
+                value: anp-h5-yellow
+            - 
+                label: Green
+                value: anp-h5-green
+            - 
+                label: Teal
+                value: anp-h5-teal
+            - 
+                label: Sky
+                value: anp-h5-sky
+            - 
+                label: Sapphire
+                value: anp-h5-sapphire
+            - 
+                label: Blue
+                value: anp-h5-blue
+            - 
+                label: Lavender
+                value: anp-h5-lavender
+    -
+        id: anp-h5-divider
+        title: H5 divider
+        type: class-toggle
+    -
+        id: anp-h6-header
+        title: H6 settings
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: h6-font
+        title: H6 font family
+        type: variable-text
+        default: Noto Serif
+    - 
         id: h6-size
         title: H6 Size
         description: Size unit is em
         type: variable-number
         default: 1.12
         format: em
+    - 
+        id: h6-weight
+        title: H6 weight
+        type: variable-number
+        default: 600
+    - 
+        id: h6-line-height
+        title: H6 line height
+        type: variable-number
+        default: 1.5
+    - 
+        id: anp-h6-color-custom
+        title: H6 color
+        type: class-select
+        allowEmpty: true
+        default: anp-h6-mauve
+        options:
+            - 
+                label: Rosewater
+                value: anp-h6-rosewater
+            - 
+                label: Flamingo
+                value: anp-h6-flamingo
+            - 
+                label: Pink
+                value: anp-h6-pink
+            - 
+                label: Mauve
+                value: anp-h6-mauve
+            - 
+                label: Red
+                value: anp-h6-red
+            - 
+                label: Maroon
+                value: anp-h6-maroon
+            - 
+                label: Peach
+                value: anp-h6-peach
+            - 
+                label: Yellow
+                value: anp-h6-yellow
+            - 
+                label: Green
+                value: anp-h6-green
+            - 
+                label: Teal
+                value: anp-h6-teal
+            - 
+                label: Sky
+                value: anp-h6-sky
+            - 
+                label: Sapphire
+                value: anp-h6-sapphire
+            - 
+                label: Blue
+                value: anp-h6-blue
+            - 
+                label: Lavender
+                value: anp-h6-lavender
+    -
+        id: anp-h6-divider
+        title: H6 divider
+        type: class-toggle
     - 
         id: anp-layout-header
         title: Layout
@@ -406,17 +835,35 @@ settings:
         title: Disable borders
         type: class-toggle
     - 
+        id: anp-bg-fix
+        title: Background fix for applying colors
+        type: class-toggle
+    - 
         id: anp-layout-card
         title: Card layout settings
         type: heading
         level: 3
         collapsed: true
     - 
+        id: anp-card-radius
+        title: Card radius
+        description: Size unit is px
+        type: variable-number
+        default: 16
+        format: px
+    - 
         id: anp-card-layout-padding
         title: Card padding
         description: Size unit is px
         type: variable-number
         default: 10
+        format: px
+    - 
+        id: anp-card-header-left-padding
+        title: Tab left padding
+        description: Size unit is px
+        type: variable-number
+        default: 20
         format: px
     - 
         id: anp-card-shadows
@@ -476,6 +923,10 @@ settings:
         level: 2
         collapsed: true
     - 
+        id: anp-codeblock-numbers
+        title: Enable codeblock numbering
+        type: class-toggle
+    - 
         id: anp-button-metadata-toggle
         title: Enable custom metadata button
         type: class-toggle
@@ -504,10 +955,6 @@ settings:
         type: heading
         level: 3
         collapsed: true
-    - 
-        id: anp-plugin-style-settings-header-color
-        title: Toggle to enable colored headers in style settings menu
-        type: class-toggle
     - 
         id: anp-rainbow-section-header
         title: Rainbow folder
@@ -611,6 +1058,76 @@ settings:
         title: Enable custom table width
         description: Use anp-table-width for yaml syntax
         type: class-toggle
+    -
+        id: anp-th-highlight
+        title: Th highlight
+        type: class-toggle
+    -
+        id: anp-td-highlight
+        title: Td highlight
+        type: class-select
+        default: anp-td-none
+        allowEmpty: false
+        options:
+            -
+                label: None
+                value: anp-td-none
+            -
+                label: Alternate rows
+                value: anp-td-alt-rows
+            -
+                label: Alternate columns
+                value: anp-td-alt-cols
+            -
+                label: Checkered
+                value: anp-td-checkered
+            -
+                label: Full
+                value: anp-td-full
+    -
+        id: anp-table-highlight-opacity
+        title: Highlight opacity
+        default: 0.5
+        type: variable-number-slider
+        min: 0
+        max: 1
+        step: 0.1
+    -
+        id: anp-table-align-th
+        title: Th text align
+        type: variable-select
+        default: center
+        options:
+            -
+                label: Left
+                value: left
+            -
+                label: Center
+                value: center
+            -
+                label: Right
+                value: right
+    -
+        id: anp-table-align-td
+        title: Td text align
+        type: variable-select
+        default: center
+        options:
+            -
+                label: Left
+                value: left
+            -
+                label: Center
+                value: center
+            -
+                label: Right
+                value: right
+    -
+        id: anp-table-thickness
+        title: Custom table border width
+        type: variable-number
+        default: 2
+        format: px
     - 
         id: anp-table-width-pct
         title: Custom table width
@@ -660,6 +1177,64 @@ settings:
         type: heading
         level: 3
         collapsed: true
+    -
+        id: anp-safari-tab-radius
+        title: Tab radius
+        type: variable-number
+        description: Size unit is px
+        default: 6
+        format: px
+    -
+        id: anp-safari-tab-gap
+        title: Tab gap
+        type: variable-number
+        description: Size unit is px
+        default: 10
+        format: px
+    -
+        id: anp-safari-border-width
+        title: Tab border width
+        type: variable-number
+        description: Size unit is px
+        default: 1
+        format: px
+    -
+        id: anp-safari-tab-align
+        title: Tab align
+        type: variable-select
+        default: center
+        options:
+            -
+                label: Left
+                value: left
+            -
+                label: Center
+                value: center
+            -
+                label: Right
+                value: right
+    -
+        id: anp-tags-header
+        title: Tags
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: tag-border-width
+        title: Tag border width
+        type: variable-number
+        description: Size unit is px
+        default: 0
+        format: px
+    -
+        id: tag-radius
+        title: Tag radius
+        type: variable-number-slider
+        default: 2
+        max: 2
+        min: 0
+        step: 0.1
+        format: em
     - 
         id: anp-decor-header
         title: Text decorations
@@ -1235,6 +1810,8 @@ settings:
   --nav-indentation-guide-color: rgba(var(--ctp-crust), 0.4);
   --titlebar-text-color-focused: var(--color-accent);
   --callout-title-padding: var(--size-4-2);
+  --table-border-width: var(--anp-table-thickness, 1px);
+  --icon-color-focused: var(--color-accent);
 }
 
 .theme-dark {
@@ -1334,6 +1911,11 @@ body {
   animation: fade 0.2s;
 }
 
+.popover .markdown-embed-link {
+  --icon-color: var(--text-normal);
+  --icon-color-hover: var(--text-faint);
+}
+
 /*-Recolor tooltips-*/
 .tooltip {
   color: rgb(var(--text));
@@ -1428,14 +2010,14 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 }
 
 .anp-card-layout-actions.anp-card-layout .side-dock-actions {
-  border-radius: 0px var(--radius-xl) var(--radius-xl) 0px;
+  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0px;
   border: 1px solid var(--tab-outline-color);
   background-color: var(--background-primary);
   margin-top: 2px;
 }
 
 .anp-card-layout-actions.anp-card-layout .side-dock-settings {
-  border-radius: 0px var(--radius-xl) 0px 0px;
+  border-radius: 0px var(--anp-card-radius, var(--radius-xl)) 0px 0px;
   border: 1px solid var(--tab-outline-color);
   background-color: var(--background-primary);
 }
@@ -1453,7 +2035,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 }
 
 .anp-card-layout .mod-vertical .workspace-tab-header-container {
-  padding-left: 20px;
+  padding-left: var(--anp-card-header-left-padding, 20px);
 }
 
 .anp-card-layout .mod-vertical .workspace-tab-header-container-inner {
@@ -1487,7 +2069,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 }
 
 .anp-card-layout .workspace-split .workspace-leaf-content {
-  border-radius: var(--radius-xl);
+  border-radius: var(--anp-card-radius, var(--radius-xl));
   background-color: var(--background-primary);
   border: 1px solid var(--tab-outline-color);
   margin-bottom: var(--anp-card-layout-padding, 10px);
@@ -1525,7 +2107,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 
 .anp-card-layout .mod-stacked .workspace-tab-header {
   border-style: solid;
-  border-radius: var(--radius-xl) 0px 0px var(--radius-xl) !important;
+  border-radius: var(--anp-card-radius, var(--radius-xl)) 0px 0px var(--anp-card-radius, var(--radius-xl)) !important;
   border-width: var(--tab-outline-width);
   border-color: var(--tab-outline-color);
   border-right: var(--tab-outline-width) dashed var(--tab-outline-color);
@@ -1537,7 +2119,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
   border-bottom-width: var(--tab-outline-width);
   border-style: solid;
   border-color: var(--tab-outline-color);
-  border-radius: 0 var(--radius-xl) var(--radius-xl) 0;
+  border-radius: 0 var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0;
 }
 
 .anp-card-layout .mod-stacked .workspace-tab-container {
@@ -1558,9 +2140,56 @@ body.anp-disable-borders {
   margin: auto;
 }
 
+.anp-bg-fix,
+.anp-bg-fix .workspace,
+.anp-bg-fix .app-container,
+.anp-bg-fix .horizontal-main-container {
+  background-color: var(--tab-container-background);
+}
+
+.markdown-rendered.rtl .list-bullet {
+  float: right;
+  margin-right: -12px;
+}
+.anp-button-metadata-toggle .markdown-rendered.rtl .frontmatter-container .frontmatter-container-header {
+  left: unset;
+  right: calc(100% - 32px);
+}
+.anp-button-metadata-toggle .markdown-rendered.rtl .frontmatter-container .frontmatter-container-header:after {
+  margin-left: unset;
+  margin-right: 7px;
+}
+.markdown-rendered.rtl blockquote {
+  border-right: var(--blockquote-border-thickness) solid var(--blockquote-border-color);
+  border-left: none;
+}
+.markdown-rendered.rtl .collapse-indicator {
+  float: right;
+  margin-left: unset;
+  margin-right: -22px;
+}
+
 .mod-community-theme summary h1:first-child, .mod-community-theme summary h2:first-child, .mod-community-theme summary h3:first-child, .mod-community-theme summary h4:first-child, .mod-community-theme summary h5:first-child, .mod-community-theme summary h6:first-child {
   margin-top: -24px !important;
   margin-left: 24px !important;
+}
+
+.modal.mod-settings,
+.modal.mod-community-theme,
+.modal.mod-community-plugin {
+  --h1-font: var(--font-interface);
+  --h2-font: var(--font-interface);
+  --h3-font: var(--font-interface);
+  --h4-font: var(--font-interface);
+  --h5-font: var(--font-interface);
+  --h6-font: var(--font-interface);
+  --h1-weight: 600;
+  --h1-color: var(--text-normal);
+  --h2-color: var(--text-normal);
+  --h3-color: var(--text-normal);
+  --h4-color: var(--text-normal);
+  --h5-color: var(--text-normal);
+  --h6-color: var(--text-normal);
 }
 
 body {
@@ -1698,25 +2327,280 @@ span[alt=anp-embed] .markdown-embed .markdown-embed-title, .anp-embed-toggle .ma
 
 /*--------------HEADERS----------------*/
 /*-Custom header font-*/
-.anp-header-toggle .markdown-reading-view, .anp-header-toggle .is-live-preview {
-  --h1-font: var(--anp-header-font);
-  --h2-font: var(--anp-header-font);
-  --h3-font: var(--anp-header-font);
-  --h4-font: var(--anp-header-font);
-  --h5-font: var(--anp-header-font);
-  --h6-font: var(--anp-header-font);
+.anp-header-color-toggle {
+  /*--------------H1 Colors-------------*/
+  /*--------------H2 Colors-------------*/
+  /*--------------H3 Colors-------------*/
+  /*--------------H4 Colors-------------*/
+  /*--------------H5 Colors-------------*/
+  /*--------------H6 Colors-------------*/
+}
+.anp-header-color-toggle.anp-h1-rosewater {
+  --h1-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h1-flamingo {
+  --h1-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h1-pink {
+  --h1-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h1-mauve {
+  --h1-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h1-red {
+  --h1-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h1-maroon {
+  --h1-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h1-peach {
+  --h1-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h1-yellow {
+  --h1-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h1-green {
+  --h1-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h1-teal {
+  --h1-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h1-sky {
+  --h1-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h1-sapphire {
+  --h1-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h1-blue {
+  --h1-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h1-lavender {
+  --h1-color: rgb(var(--ctp-lavender));
+}
+.anp-header-color-toggle.anp-h2-rosewater {
+  --h2-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h2-flamingo {
+  --h2-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h2-pink {
+  --h2-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h2-mauve {
+  --h2-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h2-red {
+  --h2-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h2-maroon {
+  --h2-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h2-peach {
+  --h2-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h2-yellow {
+  --h2-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h2-green {
+  --h2-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h2-teal {
+  --h2-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h2-sky {
+  --h2-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h2-sapphire {
+  --h2-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h2-blue {
+  --h2-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h2-lavender {
+  --h2-color: rgb(var(--ctp-lavender));
+}
+.anp-header-color-toggle.anp-h3-rosewater {
+  --h3-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h3-flamingo {
+  --h3-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h3-pink {
+  --h3-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h3-mauve {
+  --h3-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h3-red {
+  --h3-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h3-maroon {
+  --h3-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h3-peach {
+  --h3-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h3-yellow {
+  --h3-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h3-green {
+  --h3-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h3-teal {
+  --h3-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h3-sky {
+  --h3-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h3-sapphire {
+  --h3-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h3-blue {
+  --h3-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h3-lavender {
+  --h3-color: rgb(var(--ctp-lavender));
+}
+.anp-header-color-toggle.anp-h4-rosewater {
+  --h4-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h4-flamingo {
+  --h4-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h4-pink {
+  --h4-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h4-mauve {
+  --h4-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h4-red {
+  --h4-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h4-maroon {
+  --h4-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h4-peach {
+  --h4-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h4-yellow {
+  --h4-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h4-green {
+  --h4-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h4-teal {
+  --h4-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h4-sky {
+  --h4-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h4-sapphire {
+  --h4-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h4-blue {
+  --h4-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h4-lavender {
+  --h4-color: rgb(var(--ctp-lavender));
+}
+.anp-header-color-toggle.anp-h5-rosewater {
+  --h5-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h5-flamingo {
+  --h5-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h5-pink {
+  --h5-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h5-mauve {
+  --h5-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h5-red {
+  --h5-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h5-maroon {
+  --h5-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h5-peach {
+  --h5-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h5-yellow {
+  --h5-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h5-green {
+  --h5-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h5-teal {
+  --h5-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h5-sky {
+  --h5-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h5-sapphire {
+  --h5-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h5-blue {
+  --h5-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h5-lavender {
+  --h5-color: rgb(var(--ctp-lavender));
+}
+.anp-header-color-toggle.anp-h6-rosewater {
+  --h6-color: rgb(var(--ctp-rosewater));
+}
+.anp-header-color-toggle.anp-h6-flamingo {
+  --h6-color: rgb(var(--ctp-flamingo));
+}
+.anp-header-color-toggle.anp-h6-pink {
+  --h6-color: rgb(var(--ctp-pink));
+}
+.anp-header-color-toggle.anp-h6-mauve {
+  --h6-color: rgb(var(--ctp-mauve));
+}
+.anp-header-color-toggle.anp-h6-red {
+  --h6-color: rgb(var(--ctp-red));
+}
+.anp-header-color-toggle.anp-h6-maroon {
+  --h6-color: rgb(var(--ctp-maroon));
+}
+.anp-header-color-toggle.anp-h6-peach {
+  --h6-color: rgb(var(--ctp-peach));
+}
+.anp-header-color-toggle.anp-h6-yellow {
+  --h6-color: rgb(var(--ctp-yellow));
+}
+.anp-header-color-toggle.anp-h6-green {
+  --h6-color: rgb(var(--ctp-green));
+}
+.anp-header-color-toggle.anp-h6-teal {
+  --h6-color: rgb(var(--ctp-teal));
+}
+.anp-header-color-toggle.anp-h6-sky {
+  --h6-color: rgb(var(--ctp-sky));
+}
+.anp-header-color-toggle.anp-h6-sapphire {
+  --h6-color: rgb(var(--ctp-sapphire));
+}
+.anp-header-color-toggle.anp-h6-blue {
+  --h6-color: rgb(var(--ctp-blue));
+}
+.anp-header-color-toggle.anp-h6-lavender {
+  --h6-color: rgb(var(--ctp-lavender));
 }
 
-/*-Custom header colors-*/
-.anp-header-toggle.anp-header-color-toggle,
-.markdown-rendered.anp-header-color-toggle,
-.markdown-source-view.anp-header-color-toggle {
-  --h1-color: var(--anp-h1-color, rgba(var(--ctp-red)));
-  --h2-color: var(--anp-h2-color, rgba(var(--ctp-peach)));
-  --h3-color: var(--anp-h3-color, rgba(var(--ctp-green)));
-  --h4-color: var(--anp-h4-color, rgba(var(--ctp-teal)));
-  --h5-color: var(--anp-h5-color, rgba(var(--ctp-lavender)));
-  --h6-color: var(--anp-h6-color, rgba(var(--ctp-mauve)));
+.anp-h1-divider .markdown-rendered h1,
+.anp-h1-divider .HyperMD-header-1,
+.anp-h2-divider .markdown-rendered h2,
+.anp-h2-divider .HyperMD-header-2,
+.anp-h3-divider .markdown-rendered h3,
+.anp-h3-divider .HyperMD-header-3,
+.anp-h4-divider .markdown-rendered h4,
+.anp-h4-divider .HyperMD-header-4,
+.anp-h5-divider .markdown-rendered h5,
+.anp-h5-divider .HyperMD-header-5,
+.anp-h6-divider .HyperMD-header-6,
+.anp-h6-divider .markdown-rendered h6 {
+  border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
 }
 
 /*-Source editor recolor application-*/
@@ -1754,6 +2638,15 @@ span[alt=anp-embed] .markdown-embed .markdown-embed-title, .anp-embed-toggle .ma
   margin-block-end: var(--anp-header-margin-value);
 }
 
+.anp-editor-font-toggle .markdown-source-view:not(.is-live-preview) {
+  --h1-font: var(--anp-editor-font);
+  --h2-font: var(--anp-editor-font);
+  --h3-font: var(--anp-editor-font);
+  --h4-font: var(--anp-editor-font);
+  --h5-font: var(--anp-editor-font);
+  --h6-font: var(--anp-editor-font);
+}
+
 /*-Custom hr margins-*/
 hr {
   margin-block-start: 5px;
@@ -1765,16 +2658,37 @@ hr {
 }
 
 /*-Recolor table borders-*/
-.anp-table-toggle .markdown-rendered table {
-  background-color: rgba(var(--ctp-mantle), 0.5);
-}
 .anp-table-toggle .markdown-rendered table, .anp-table-toggle .markdown-rendered td, .anp-table-toggle .markdown-rendered th, .anp-table-toggle .markdown-rendered thead tr > th:first-child, .anp-table-toggle .markdown-rendered thead tr > th, .anp-table-toggle .markdown-rendered thead tr > th:last-child {
-  text-align: center;
-  border: 2px solid var(--table-border-color);
+  border: var(--anp-table-thickness, 1px) solid var(--table-border-color);
+}
+.anp-table-toggle .markdown-rendered th, .anp-table-toggle .markdown-rendered thead tr > th:first-child, .anp-table-toggle .markdown-rendered thead tr > th, .anp-table-toggle .markdown-rendered thead tr > th:last-child {
+  text-align: var(--anp-table-align-th, center);
+}
+.anp-table-toggle .markdown-rendered td {
+  text-align: var(--anp-table-align-td, center);
 }
 
 .anp-table-toggle .table-view-table > tbody > tr:hover {
   background-color: rgba(var(--ctp-surface1), 0.1) !important;
+}
+
+.anp-table-toggle.anp-th-highlight .markdown-rendered th {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-td-alt-rows .markdown-rendered table tr:nth-child(2n) td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-td-alt-cols .markdown-rendered table tr td:nth-child(2n) {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-td-checkered .markdown-rendered table tr td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-rendered table tr:nth-child(2n) td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-td-checkered .markdown-rendered table tr:nth-child(2n) td:nth-child(2n) {
+  background-color: rgba(var(--ctp-crust), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-td-full .markdown-rendered table td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
 
 .anp-table-auto.markdown-rendered table {
@@ -1785,12 +2699,14 @@ hr {
   width: var(--anp-table-width-pct);
 }
 
-.anp-table-auto .markdown-rendered table {
+.anp-table-auto.anp-table-toggle .markdown-rendered table {
   margin: 0 auto;
 }
 
-.anp-table-width .markdown-rendered table {
+.anp-table-width.anp-table-toggle .markdown-rendered table {
   width: var(--anp-table-width-pct);
+  margin-left: calc(50% - var(--anp-table-width-pct) / 2);
+  margin-right: calc(50% - var(--anp-table-width-pct) / 2);
 }
 
 .anp-alternate-tab-toggle, .anp-default-tab {
@@ -1824,24 +2740,25 @@ hr {
 .anp-alternate-tab-toggle .mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner,
 .anp-alternate-tab-toggle .mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner {
   align-items: center;
-  justify-content: center;
+  justify-content: var(--anp-safari-tab-align, center);
   margin: 0;
   width: 100%;
+  gap: var(--anp-safari-tab-gap, 10px);
 }
 
 .anp-alternate-tab-toggle .mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header,
 .anp-alternate-tab-toggle .mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
   background: var(--tab-background);
-  border-radius: 6px;
+  border-radius: var(--anp-safari-tab-radius, 6px);
   box-shadow: none !important;
   height: var(--tab-height);
-  margin-left: 12px;
   padding: 0 !important;
   transition: 400ms, background-color 150ms ease-in-out;
 }
 
 .anp-alternate-tab-toggle .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
   max-width: var(--tab-max-width) !important;
+  border: var(--anp-safari-border-width, 1px) solid var(--tab-outline-color);
 }
 
 .anp-alternate-tab-toggle.anp-alt-tab-anim-toggle .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
@@ -2016,7 +2933,7 @@ None of the code was used, and the callout was written from scratch.
 }
 .anp-callout-toggle.anp-callout-sleek .callout:not(.is-collapsible) .callout-title {
   background-color: rgba(var(--callout-color), 0.1);
-  padding: var(--callout-title-padding) 0px var(--callout-title-padding) var(--callout-title-padding);
+  padding: var(--callout-title-padding);
   border-color: rgba(var(--callout-color), 0.4);
 }
 .anp-callout-toggle.anp-callout-sleek .callout .list-collapse-indicator {
@@ -2686,7 +3603,7 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 .theme-dark.anp-speech-bubble [data-task="8"],
 .theme-dark.anp-speech-bubble [data-task="9"] {
   --text-normal: var(--background-primary);
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, background 0.2s;
 }
 .theme-dark.anp-speech-bubble [data-task="0"]::selection,
 .theme-dark.anp-speech-bubble [data-task="1"]::selection,
@@ -2699,6 +3616,7 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 .theme-dark.anp-speech-bubble [data-task="8"]::selection,
 .theme-dark.anp-speech-bubble [data-task="9"]::selection {
   background-color: rgba(var(--ctp-crust), 0.2);
+  background: rgba(var(--ctp-crust), 0.2);
 }
 
 .anp-speech-bubble .is-live-preview [data-task="0"].cm-active,
@@ -2713,6 +3631,7 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 .anp-speech-bubble .is-live-preview [data-task="9"].cm-active {
   border-radius: 0;
   --text-normal: rgb(var(--ctp-text));
+  background: rgba(var(--ctp-surface1), 0.4);
 }
 
 .anp-speech-bubble [data-task="0"] {
@@ -2764,14 +3683,16 @@ None of the original code was used and the feature was implemented from scratch.
   background-color: var(--background-secondary);
   position: fixed;
   z-index: 1;
-  width: calc(100% - 2 * var(--size-4-3));
+  margin-left: calc(-0.5 * var(--size-4-3));
+  width: calc(100% - 1.22 * var(--size-4-3));
   border: 1px solid var(--background-modifier-border);
   border-radius: var(--radius-s);
 }
 
 .anp-floating-header .nav-folder.mod-root > .nav-folder-title:hover {
   background-color: var(--background-secondary);
-  width: calc(100% - 2 * var(--size-4-3));
+  width: calc(100% - 1.2 * var(--size-4-3));
+  margin-left: calc(-0.5 * var(--size-4-3));
 }
 
 .anp-floating-header .nav-folder.mod-root > .nav-folder-children {
@@ -2785,31 +3706,79 @@ None of the original code was used and the feature was implemented from scratch.
   padding-top: 45px;
 }
 
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="1"] .setting-item-name {
-  color: rgb(var(--ctp-red));
+.anp-codeblock-numbers .HyperMD-codeblock-begin {
+  counter-reset: line-numbers;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="1"].style-settings-heading {
-  border-bottom: 1px solid rgba(var(--ctp-red), 0.5);
+
+.anp-codeblock-numbers .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end) {
+  padding-left: 5em;
+  position: relative;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="2"] .setting-item-name {
-  color: rgb(var(--ctp-green));
+
+.anp-codeblock-numbers .HyperMD-codeblock.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::before {
+  align-items: flex-end;
+  border-right: 1px solid var(--scrollbar-thumb-bg);
+  color: var(--text-faint);
+  content: counter(line-numbers);
+  counter-increment: line-numbers;
+  display: flex;
+  font-size: 0.8em;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  padding-right: 0.5em;
+  padding-top: 1px;
+  position: absolute;
+  text-align: right;
+  width: 3em;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="2"].style-settings-heading {
-  border-bottom: 1px solid rgba(var(--ctp-green), 0.5);
+
+.anp-codeblock-numbers .HyperMD-codeblock.cm-line.cm-active:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-end)::before {
+  color: var(--color-accent);
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="3"] .setting-item-name {
-  color: rgb(var(--ctp-blue));
+
+.anp-codeblock-numbers .HyperMD-codeblock .cm-foldPlaceholder::before {
+  display: none;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="3"].style-settings-heading {
-  border-bottom: 1px solid rgba(var(--ctp-blue), 0.5);
+
+.style-settings-container [data-level="1"].setting-item-heading .setting-item-name,
+.style-settings-container [data-level="2"].setting-item-heading .setting-item-name,
+.style-settings-container [data-level="3"].setting-item-heading .setting-item-name,
+.style-settings-container [data-level="4"].setting-item-heading .setting-item-name,
+.style-settings-container [data-level="5"].setting-item-heading .setting-item-name {
+  color: var(--text-normal);
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="4"] .setting-item-name {
-  color: rgb(var(--ctp-mauve));
+.style-settings-container [data-level="1"].setting-item-heading.style-settings-heading,
+.style-settings-container [data-level="2"].setting-item-heading.style-settings-heading,
+.style-settings-container [data-level="3"].setting-item-heading.style-settings-heading,
+.style-settings-container [data-level="4"].setting-item-heading.style-settings-heading,
+.style-settings-container [data-level="5"].setting-item-heading.style-settings-heading {
+  border-bottom: 1px solid rgba(var(--ctp-text), 0.2);
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-level="4"].style-settings-heading {
-  border-bottom: 1px solid rgba(var(--ctp-mauve), 0.5);
+.style-settings-container [data-level="1"].setting-item-heading.style-settings-heading:not(.is-collapsed),
+.style-settings-container [data-level="2"].setting-item-heading.style-settings-heading:not(.is-collapsed),
+.style-settings-container [data-level="3"].setting-item-heading.style-settings-heading:not(.is-collapsed),
+.style-settings-container [data-level="4"].setting-item-heading.style-settings-heading:not(.is-collapsed),
+.style-settings-container [data-level="5"].setting-item-heading.style-settings-heading:not(.is-collapsed) {
+  border-color: transparent;
+  margin-bottom: 0px;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-rainbow-section-header], .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-full-rainbow-folder-settings], .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-simple-rainbow-folder-settings] {
+.style-settings-container [data-level="1"].style-settings-container,
+.style-settings-container [data-level="2"].style-settings-container,
+.style-settings-container [data-level="3"].style-settings-container,
+.style-settings-container [data-level="4"].style-settings-container,
+.style-settings-container [data-level="5"].style-settings-container {
+  border: 1px solid rgba(var(--ctp-text), 0.2);
+  border-radius: var(--radius-s);
+  padding: var(--size-4-2);
+  padding-left: var(--size-4-6);
+  background-color: rgba(var(--ctp-crust), 0.3);
+}
+.style-settings-container .setting-item-heading[data-id=anuppuccin-extended-colorschemes-link],
+.style-settings-container .setting-item-heading[data-id=anuppuccin-theme-credits-link] {
+  border-bottom-width: 0px !important;
+}
+.style-settings-container[data-id=anp-rainbow-section-header], .style-settings-container[data-id=anp-full-rainbow-folder-settings], .style-settings-container[data-id=anp-simple-rainbow-folder-settings] {
   background: linear-gradient(to right, rgba(var(--ctp-red), 1), rgba(var(--ctp-peach), 1), rgba(var(--ctp-yellow), 1), rgba(var(--ctp-green), 1), rgba(var(--ctp-teal), 1), rgba(var(--ctp-blue), 1), rgba(var(--ctp-mauve), 1), rgba(var(--ctp-pink), 1)) !important;
   padding-bottom: 3px;
   padding-top: 0px;
@@ -2817,13 +3786,13 @@ None of the original code was used and the feature was implemented from scratch.
   border-bottom-width: 0 !important;
   margin-top: 3px;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-rainbow-section-header] .setting-item-info, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-full-rainbow-folder-settings] .setting-item-info, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-simple-rainbow-folder-settings] .setting-item-info {
+.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-info, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-info, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-info {
   background-color: var(--background-primary);
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-rainbow-section-header] .setting-item-name, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-full-rainbow-folder-settings] .setting-item-name, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-simple-rainbow-folder-settings] .setting-item-name {
+.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-name, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-name, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-name {
   line-height: 37px;
 }
-.anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-rainbow-section-header] .setting-item-control, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-full-rainbow-folder-settings] .setting-item-control, .anp-plugin-style-settings-header-color .style-settings-container .setting-item-heading[data-id=anp-simple-rainbow-folder-settings] .setting-item-control {
+.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-control, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-control, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-control {
   background-color: var(--background-primary);
   height: 37px;
 }
@@ -2851,7 +3820,7 @@ None of the original code was used and the feature was implemented from scratch.
   border-radius: 5px;
 }
 .style-settings-heading[data-id=anuppuccin-theme-settings], .style-settings-heading[data-id=anuppuccin-theme-settings-extended] {
-  border-color: hsla(var(--color-accent-hsl), 0.5);
+  border-color: hsla(var(--color-accent-hsl), 0.2);
 }
 .style-settings-heading[data-id=anuppuccin-theme-settings] .setting-item-name, .style-settings-heading[data-id=anuppuccin-theme-settings-extended] .setting-item-name {
   color: var(--color-accent);
@@ -2867,11 +3836,15 @@ None of the original code was used and the feature was implemented from scratch.
 }
 
 .anuppuccin-accent-toggle .style-settings-heading[data-id=anuppuccin-theme-settings], .anuppuccin-accent-toggle .style-settings-heading[data-id=anuppuccin-theme-settings-extended] {
-  border-color: rgba(var(--ctp-accent), 0.5);
+  border-color: rgba(var(--ctp-accent), 0.2);
 }
 
 .style-settings-container:empty {
   display: none;
+}
+
+.modal {
+  --h1-font: var(--interface-font);
 }
 
 /*-Fix dataview table header size-*/
@@ -2916,6 +3889,10 @@ None of the original code was used and the feature was implemented from scratch.
   padding-bottom: 5px;
   border-radius: 4px;
 }
+.kanban-plugin__item.is-complete .kanban-plugin__item-markdown {
+  color: var(--text-muted);
+  text-decoration-line: line-through;
+}
 
 .theme-dark .excalidraw, .theme-dark .excalidraw.theme--dark, .theme-light .excalidraw, .theme-light .excalidraw.theme--dark {
   --button-destructive-bg-color: rgba(var(--ctp-red), 0.2);
@@ -2925,7 +3902,7 @@ None of the original code was used and the feature was implemented from scratch.
   --button-gray-3: rgb(var(--ctp-crust));
   --button-special-active-bg-color: rgb(var(--ctp-base));
   --dialog-border-color: rgb(var(--ctp-surface1));
-  --focus-highlight-color: rgb(var(--ctp-accent, --ctp-teal));
+  --focus-highlight-color: rgb(var(--ctp-accent, var(--ctp-teal)));
   --icon-fill-color: var(--text-normal);
   --icon-green-fill-color: rgb(var(--ctp-green));
   --default-bg-color: rgb(var(--ctp-base));
@@ -2950,6 +3927,11 @@ None of the original code was used and the feature was implemented from scratch.
   --color-primary-light: rgb(var(--ctp-base));
 }
 
+.excalidraw-tooltip {
+  background: rgb(var(--ctp-crust)) !important;
+  color: var(--text-normal) !important;
+}
+
 .excalidraw .ToolIcon--plain,
 .excalidraw .reset-zoom-button,
 .excalidraw .ToolIcon[aria-label="Zoom in"],
@@ -2957,9 +3939,24 @@ None of the original code was used and the feature was implemented from scratch.
 .excalidraw .ToolIcon[aria-label="Reset the canvas"] {
   background-color: rgb(var(--ctp-crust)) !important;
 }
+.excalidraw .Dialog__titleContent {
+  font-family: var(--font-interface) !important;
+  font-variant-caps: normal;
+  --h2-color: var(--color-accent);
+}
+.excalidraw .confirm-dialog--confirm.ToolIcon_type_button {
+  background-color: rgb(var(--ctp-red)) !important;
+}
+.excalidraw .confirm-dialog--confirm.ToolIcon_type_button .ToolIcon__icon {
+  color: var(--background-primary) !important;
+}
 
 [data-type=excalidraw] .view-header {
   margin: 0;
+}
+
+body .excalidraw .library-menu-items-container .library-actions--load, body .excalidraw .library-menu-items-container .library-actions--load:hover {
+  background-color: var(--color-accent);
 }
 
 .obsidian-icon-folder-icon {
