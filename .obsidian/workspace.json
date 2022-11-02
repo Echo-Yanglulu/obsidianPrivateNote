@@ -16,17 +16,23 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "关系图谱",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{}}",
-                      "eState": "{}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":38.92976981606755}"
                     },
                     {
                       "title": "充足理由律",
@@ -917,7 +923,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -925,7 +931,7 @@
                 }
               },
               {
-                "id": "aca98ff9bdd0c025",
+                "id": "d17d1b8b5818eee2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -933,19 +939,13 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "事实",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":24},\"to\":{\"line\":20,\"ch\":24}},\"scroll\":7.449308643271688}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/观念.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1100,7 +1100,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/思考/思维概念/论证.md"
                       }
                     }
                   }
@@ -1125,7 +1125,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/思考/思维概念/论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1156,7 +1156,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1487,6 +1487,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/语言.md",
+    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/思考/充足理由律.md",
@@ -1494,8 +1496,6 @@
     "笔记/工具/思考/矛盾律.md",
     "笔记/工具/思考/同一律.md",
     "笔记/工具/思考/排中律.md",
-    "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
-    "笔记/学习方法/概念/事实.md",
-    "笔记/工具/思考/真相.md"
+    "笔记/工具/哲学/逻辑学/基本原理basic principles.md"
   ]
 }
