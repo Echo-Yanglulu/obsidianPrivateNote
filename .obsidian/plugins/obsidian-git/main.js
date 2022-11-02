@@ -19697,17 +19697,22 @@ var IsomorphicGit = class extends GitManager {
     }
   }
   async status() {
-    const notice = new import_obsidian5.Notice("Getting status...", this.noticeLength);
+    let notice;
+    const timeout = window.setTimeout(function() {
+      notice = new import_obsidian5.Notice("This takes longer: Getting status", this.noticeLength);
+    }, 2e4);
     try {
       this.plugin.setState(PluginState.status);
       const status2 = (await this.wrapFS(isomorphic_git_default.statusMatrix({ ...this.getRepo() }))).map((row) => this.getFileStatusResult(row));
       const changed = status2.filter((fileStatus) => fileStatus.working_dir !== " ");
       const staged = status2.filter((fileStatus) => fileStatus.index !== " " && fileStatus.index !== "U");
       const conflicted = [];
-      notice.hide();
+      window.clearTimeout(timeout);
+      notice == null ? void 0 : notice.hide();
       return { changed, staged, conflicted };
     } catch (error) {
-      notice.hide();
+      window.clearTimeout(timeout);
+      notice == null ? void 0 : notice.hide();
       this.plugin.displayError(error);
       throw error;
     }
@@ -19845,7 +19850,7 @@ var IsomorphicGit = class extends GitManager {
     return this.wrapFS(isomorphic_git_default.resolveRef({ ...this.getRepo(), ref }));
   }
   async pull() {
-    const progressNotice = new import_obsidian5.Notice("Initializing pull", this.noticeLength);
+    const progressNotice = this.showNotice("Initializing pull");
     try {
       this.plugin.setState(PluginState.pull);
       const localCommit = await this.resolveRef("HEAD");
@@ -19865,7 +19870,7 @@ var IsomorphicGit = class extends GitManager {
         },
         remote: branchInfo.remote
       }));
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       const upstreamCommit = await this.resolveRef("HEAD");
       this.plugin.lastUpdate = Date.now();
       const changedFiles = await this.getFileChangesCount(localCommit, upstreamCommit);
@@ -19877,7 +19882,7 @@ var IsomorphicGit = class extends GitManager {
         vault_path: this.getVaultPath(file.path)
       }));
     } catch (error) {
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       if (error instanceof Errors.MergeConflictError) {
         this.plugin.handleConflict(error.data.filepaths.map((file) => this.getVaultPath(file)));
       }
@@ -19889,7 +19894,7 @@ var IsomorphicGit = class extends GitManager {
     if (!await this.canPush()) {
       return 0;
     }
-    const progressNotice = new import_obsidian5.Notice("Initializing push", this.noticeLength);
+    const progressNotice = this.showNotice("Initializing push");
     try {
       this.plugin.setState(PluginState.status);
       const status2 = await this.branchInfo();
@@ -19903,10 +19908,10 @@ var IsomorphicGit = class extends GitManager {
           progressNotice.noticeEl.innerText = this.getProgressText("Pushing", progress);
         }
       }));
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       return numChangedFiles;
     } catch (error) {
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       this.plugin.displayError(error);
       throw error;
     }
@@ -19987,7 +19992,7 @@ var IsomorphicGit = class extends GitManager {
     }
   }
   async clone(url, dir) {
-    const progressNotice = new import_obsidian5.Notice("Initializing clone", this.noticeLength);
+    const progressNotice = this.showNotice("Initializing clone");
     try {
       await this.wrapFS(isomorphic_git_default.clone({
         ...this.getRepo(),
@@ -19997,9 +20002,9 @@ var IsomorphicGit = class extends GitManager {
           progressNotice.noticeEl.innerText = this.getProgressText("Cloning", progress);
         }
       }));
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
     } catch (error) {
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       this.plugin.displayError(error);
       throw error;
     }
@@ -20028,7 +20033,7 @@ var IsomorphicGit = class extends GitManager {
     }
   }
   async fetch(remote) {
-    const progressNotice = new import_obsidian5.Notice("Initializing fetch", this.noticeLength);
+    const progressNotice = this.showNotice("Initializing fetch");
     try {
       const args = {
         ...this.getRepo(),
@@ -20038,10 +20043,10 @@ var IsomorphicGit = class extends GitManager {
         remote: remote != null ? remote : await this.getCurrentRemote()
       };
       await this.wrapFS(isomorphic_git_default.fetch(args));
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
     } catch (error) {
       this.plugin.displayError(error);
-      progressNotice.hide();
+      progressNotice == null ? void 0 : progressNotice.hide();
       throw error;
     }
   }
@@ -20136,7 +20141,10 @@ var IsomorphicGit = class extends GitManager {
     });
   }
   async getUnstagedFiles(base = ".") {
-    const notice = new import_obsidian5.Notice("Getting status...", this.noticeLength);
+    let notice;
+    const timeout = window.setTimeout(function() {
+      notice = new import_obsidian5.Notice("This takes longer: Getting status", this.noticeLength);
+    }, 2e4);
     try {
       const repo = this.getRepo();
       const res = await this.wrapFS(isomorphic_git_default.walk({
@@ -20188,10 +20196,12 @@ var IsomorphicGit = class extends GitManager {
           return null;
         }
       }));
-      notice.hide();
+      window.clearTimeout(timeout);
+      notice == null ? void 0 : notice.hide();
       return res;
     } catch (error) {
-      notice.hide();
+      window.clearTimeout(timeout);
+      notice == null ? void 0 : notice.hide();
       this.plugin.displayError(error);
       throw error;
     }
@@ -20234,6 +20244,11 @@ var IsomorphicGit = class extends GitManager {
       path: row[this.FILE],
       vault_path: this.getVaultPath(row[this.FILE])
     };
+  }
+  showNotice(message) {
+    if (!this.plugin.settings.disablePopups) {
+      return new import_obsidian5.Notice(message, this.noticeLength);
+    }
   }
 };
 function fromValue2(value) {
@@ -24073,10 +24088,11 @@ var SimpleGit = class extends GitManager {
         config: ["core.quotepath=off"]
       });
       const env = this.plugin.localStorage.getPATHPaths();
-      if (env) {
-        this.git.env("PATH", process.env["PATH"] + ":" + env.join(":"));
+      if (env.length > 0) {
+        const path3 = process.env["PATH"] + ":" + env.join(":");
+        process.env["PATH"] = path3;
       }
-      this.git.cwd(await this.git.revparse("--show-toplevel"));
+      await this.git.cwd(await this.git.revparse("--show-toplevel"));
     }
   }
   async status() {
@@ -24395,7 +24411,7 @@ var SimpleGit = class extends GitManager {
   }
   onError(error) {
     if (error) {
-      const networkFailure = error.message.contains("Could not resolve host") || error.message.match(/ssh: connect to host .*? port .*?: Operation timed out/);
+      const networkFailure = error.message.contains("Could not resolve host") || error.message.match(/ssh: connect to host .*? port .*?: Operation timed out/) || error.message.match(/ssh: connect to host .*? port .*?: Network is unreachable/);
       if (!networkFailure) {
         this.plugin.displayError(error.message);
         this.plugin.setState(PluginState.idle);
