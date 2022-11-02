@@ -8,1089 +8,1073 @@
         "type": "split",
         "children": [
           {
-            "id": "9c7f59757c62182f",
-            "type": "split",
+            "id": "e67a4c566e0eea1a",
+            "type": "tabs",
             "dimension": 70.27572293207801,
             "children": [
               {
-                "id": "7d81ab9a20d52e3b",
-                "type": "tabs",
-                "dimension": 42.04451772464963,
-                "children": [
-                  {
-                    "id": "757b14994688f73b",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":3},\"to\":{\"line\":65,\"ch\":3}},\"scroll\":58.2796}"
-                        }
-                      ]
+                "id": "027e544465ae63f6",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "关系图谱",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
                     },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/工具/思考/同一律.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "2a69765c6d1d5356",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/工具/通用概念/原因.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
+                    {
+                      "title": "充足理由律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":31},\"to\":{\"line\":0,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":3},\"to\":{\"line\":74,\"ch\":3}},\"scroll\":58.03072194067683}"
+                    },
+                    {
+                      "title": "充足理由律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":22},\"to\":{\"line\":9,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":27},\"to\":{\"line\":65,\"ch\":27}},\"scroll\":57.5757055370987}"
+                    },
+                    {
+                      "title": "充足理由律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":29},\"to\":{\"line\":69,\"ch\":29}},\"scroll\":58.22708249092102}"
+                    },
+                    {
+                      "title": "矛盾律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/矛盾律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":50},\"to\":{\"line\":7,\"ch\":50}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":15},\"to\":{\"line\":65,\"ch\":15}},\"scroll\":47.690203796902814}"
+                    },
+                    {
+                      "title": "充足理由律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":41},\"to\":{\"line\":11,\"ch\":41}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":13},\"to\":{\"line\":64,\"ch\":13}},\"scroll\":46.69439450004228}"
+                    },
+                    {
+                      "title": "排中律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/排中律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":6},\"to\":{\"line\":64,\"ch\":6}},\"scroll\":47.690203796902814}"
+                    },
+                    {
+                      "title": "充足理由律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":2},\"to\":{\"line\":58,\"ch\":2}},\"scroll\":56.17354949737313}"
+                    },
+                    {
+                      "title": "基本原理basic principles",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":54},\"to\":{\"line\":59,\"ch\":54}},\"scroll\":45.66726344266394}"
+                    },
+                    {
+                      "title": "同一律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/同一律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":13},\"to\":{\"line\":64,\"ch\":13}},\"scroll\":40.8154807942898}"
+                    },
+                    {
+                      "title": "基本原理basic principles",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":41},\"to\":{\"line\":8,\"ch\":41}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":11},\"to\":{\"line\":58,\"ch\":11}},\"scroll\":41.84739458240869}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":126},\"to\":{\"line\":25,\"ch\":126}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":7},\"to\":{\"line\":51,\"ch\":7}},\"scroll\":37.69226748910981}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":17.59365605747118}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":46},\"to\":{\"line\":31,\"ch\":3}},\"scroll\":37.14995737757583}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":13},\"to\":{\"line\":29,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":36},\"to\":{\"line\":68,\"ch\":36}},\"scroll\":34.07126562093291}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":30},\"to\":{\"line\":28,\"ch\":30}},\"scroll\":10.5059248098327}"
+                    },
+                    {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":6},\"to\":{\"line\":28,\"ch\":6}},\"scroll\":2.370638353783972}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":10},\"to\":{\"line\":41,\"ch\":10}},\"scroll\":33.2521}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":10},\"to\":{\"line\":42,\"ch\":10}},\"scroll\":31.687012144144994}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":173},\"to\":{\"line\":7,\"ch\":173}},\"scroll\":2.2021063222482047}"
+                    },
+                    {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":7.4071756353877465}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":10},\"to\":{\"line\":42,\"ch\":10}},\"scroll\":34.016974219003075}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":4},\"to\":{\"line\":28,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":12},\"to\":{\"line\":22,\"ch\":12}},\"scroll\":1.2106649054825696}"
+                    },
+                    {
+                      "title": "客观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/客观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":12},\"to\":{\"line\":19,\"ch\":12}},\"scroll\":7.396642550838186}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":15},\"to\":{\"line\":15,\"ch\":15}},\"scroll\":10.592484560168314}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":24},\"to\":{\"line\":30,\"ch\":24}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":10},\"to\":{\"line\":6,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":4},\"to\":{\"line\":28,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":4},\"to\":{\"line\":33,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "原则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":33},\"to\":{\"line\":22,\"ch\":33}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":7},\"to\":{\"line\":27,\"ch\":7}},\"scroll\":15.720880712400453}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":24},\"to\":{\"line\":13,\"ch\":24}}}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "符合论",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/符合论.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":11},\"to\":{\"line\":4,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":24},\"to\":{\"line\":13,\"ch\":24}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}},\"scroll\":0.3759}"
+                    },
+                    {
+                      "title": "定义",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/定义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "定义",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/定义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":1,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":3},\"to\":{\"line\":38,\"ch\":3}},\"scroll\":8.547265847524008}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":20},\"to\":{\"line\":3,\"ch\":20}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":21},\"to\":{\"line\":29,\"ch\":21}},\"scroll\":12.510671807353427}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.018319028393362}"
+                    },
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":24},\"to\":{\"line\":18,\"ch\":24}},\"scroll\":4.370638487721112}"
+                    },
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":12},\"to\":{\"line\":16,\"ch\":12}},\"scroll\":4.370638487721112}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":10},\"to\":{\"line\":33,\"ch\":10}},\"scroll\":12.136444494688158}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0.2173286791916093}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":10},\"to\":{\"line\":23,\"ch\":10}},\"scroll\":6.340086522900205}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":19},\"to\":{\"line\":3,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":15.928905884424845}"
+                    },
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":66},\"to\":{\"line\":7,\"ch\":66}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}},\"scroll\":4.3615418940457875}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":23},\"to\":{\"line\":24,\"ch\":23}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}},\"scroll\":4.3615418940457875}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":40},\"to\":{\"line\":15,\"ch\":40}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "主观事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":52},\"to\":{\"line\":1,\"ch\":52}}}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "事件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "事物",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":77},\"to\":{\"line\":11,\"ch\":77}}}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":29},\"to\":{\"line\":29,\"ch\":29}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":29},\"to\":{\"line\":16,\"ch\":29}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":10},\"to\":{\"line\":35,\"ch\":10}},\"scroll\":14.017776913113064}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "逻辑真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "本体真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/本体真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "真相",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":9},\"to\":{\"line\":32,\"ch\":9}},\"scroll\":5.62592572629535}"
+                    },
+                    {
+                      "title": "错误",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/错误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":25.1919}"
+                    },
+                    {
+                      "title": "逻辑思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":9},\"to\":{\"line\":14,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":23},\"to\":{\"line\":16,\"ch\":23}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "问题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":18},\"to\":{\"line\":18,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "本质",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":19},\"to\":{\"line\":16,\"ch\":19}},\"scroll\":3.3000707469268606}"
+                    },
+                    {
+                      "title": "映射",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/数学/基本概念/映射.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":17}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":4},\"to\":{\"line\":6,\"ch\":4}}}"
+                    },
+                    {
+                      "title": "问题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":7},\"to\":{\"line\":18,\"ch\":7}},\"scroll\":6.977777777777778}"
+                    },
+                    {
+                      "title": "思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "反思",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":25.277243326205635}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "理由",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/理由.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":8},\"to\":{\"line\":48,\"ch\":8}},\"scroll\":33.0025254835244}"
+                    },
+                    {
+                      "title": "问题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "反思",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":18},\"to\":{\"line\":23,\"ch\":18}},\"scroll\":39.471081788708624}"
+                    },
+                    {
+                      "title": "提问",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":3},\"to\":{\"line\":43,\"ch\":3}},\"scroll\":30.546121558009336}"
+                    },
+                    {
+                      "title": "问题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "自我层级",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":20},\"to\":{\"line\":15,\"ch\":20}},\"scroll\":1.0556840736172997}"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}",
+                      "title": "自我的诞生",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                      "title": "自我",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{}",
+                      "title": "推理",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/归纳.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":34},\"to\":{\"line\":9,\"ch\":34}}}",
+                      "title": "归纳",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}",
+                      "title": "推理",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":10},\"to\":{\"line\":48,\"ch\":10}},\"scroll\":42.4415870363524}",
+                      "title": "人的行为",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":7},\"to\":{\"line\":4,\"ch\":7}}}",
+                      "title": "人",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}",
+                      "title": "逻辑",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":0}",
+                      "title": "推理",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":10},\"to\":{\"line\":51,\"ch\":10}},\"scroll\":40.44420288792096}",
+                      "title": "人的行为",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}",
+                      "title": "人",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":5},\"to\":{\"line\":52,\"ch\":5}},\"scroll\":44.26736045644121}",
+                      "title": "人的行为",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":36},\"to\":{\"line\":7,\"ch\":36}}}",
+                      "title": "推理",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":106},\"to\":{\"line\":6,\"ch\":106}}}",
+                      "title": "理解",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}}}",
+                      "title": "概念",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维形式.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}",
+                      "title": "思维形式",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}",
+                      "title": "推理",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"scroll\":13.8529}",
+                      "title": "提问",
+                      "icon": "document"
+                    },
+                    {
+                      "leaf": "027e544465ae63f6",
+                      "group": "60044dbc498f8df7",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}",
+                      "title": "自己的学习行为",
+                      "icon": "document"
                     }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
-                ],
-                "currentTab": 1
+                }
               },
               {
-                "id": "e67a4c566e0eea1a",
-                "type": "tabs",
-                "dimension": 57.95548227535037,
-                "children": [
-                  {
-                    "id": "027e544465ae63f6",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 1,
-                      "stack": [
-                        {
-                          "title": "关系图谱",
-                          "icon": "lucide-git-fork",
-                          "state": "{\"type\":\"graph\",\"state\":{}}",
-                          "eState": "{}"
-                        },
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        },
-                        {
-                          "title": "充足理由律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":31},\"to\":{\"line\":0,\"ch\":31}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":3},\"to\":{\"line\":74,\"ch\":3}},\"scroll\":58.03072194067683}"
-                        },
-                        {
-                          "title": "充足理由律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":22},\"to\":{\"line\":9,\"ch\":22}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":27},\"to\":{\"line\":65,\"ch\":27}},\"scroll\":57.5757055370987}"
-                        },
-                        {
-                          "title": "充足理由律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":29},\"to\":{\"line\":69,\"ch\":29}},\"scroll\":58.22708249092102}"
-                        },
-                        {
-                          "title": "矛盾律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/矛盾律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":50},\"to\":{\"line\":7,\"ch\":50}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":15},\"to\":{\"line\":65,\"ch\":15}},\"scroll\":47.690203796902814}"
-                        },
-                        {
-                          "title": "充足理由律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":41},\"to\":{\"line\":11,\"ch\":41}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":13},\"to\":{\"line\":64,\"ch\":13}},\"scroll\":46.69439450004228}"
-                        },
-                        {
-                          "title": "排中律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/排中律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":6},\"to\":{\"line\":64,\"ch\":6}},\"scroll\":47.690203796902814}"
-                        },
-                        {
-                          "title": "充足理由律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/充足理由律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":2},\"to\":{\"line\":58,\"ch\":2}},\"scroll\":56.17354949737313}"
-                        },
-                        {
-                          "title": "基本原理basic principles",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":54},\"to\":{\"line\":59,\"ch\":54}},\"scroll\":45.66726344266394}"
-                        },
-                        {
-                          "title": "同一律",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/同一律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":13},\"to\":{\"line\":64,\"ch\":13}},\"scroll\":40.8154807942898}"
-                        },
-                        {
-                          "title": "基本原理basic principles",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":41},\"to\":{\"line\":8,\"ch\":41}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":11},\"to\":{\"line\":58,\"ch\":11}},\"scroll\":41.84739458240869}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":126},\"to\":{\"line\":25,\"ch\":126}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":7},\"to\":{\"line\":51,\"ch\":7}},\"scroll\":37.69226748910981}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":17.59365605747118}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":46},\"to\":{\"line\":31,\"ch\":3}},\"scroll\":37.14995737757583}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":13},\"to\":{\"line\":29,\"ch\":13}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":36},\"to\":{\"line\":68,\"ch\":36}},\"scroll\":34.07126562093291}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":30},\"to\":{\"line\":28,\"ch\":30}},\"scroll\":10.5059248098327}"
-                        },
-                        {
-                          "title": "主观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":6},\"to\":{\"line\":28,\"ch\":6}},\"scroll\":2.370638353783972}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":10},\"to\":{\"line\":41,\"ch\":10}},\"scroll\":33.2521}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":10},\"to\":{\"line\":42,\"ch\":10}},\"scroll\":31.687012144144994}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "主观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":173},\"to\":{\"line\":7,\"ch\":173}},\"scroll\":2.2021063222482047}"
-                        },
-                        {
-                          "title": "主观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":7.4071756353877465}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":10},\"to\":{\"line\":42,\"ch\":10}},\"scroll\":34.016974219003075}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":4},\"to\":{\"line\":28,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":12},\"to\":{\"line\":22,\"ch\":12}},\"scroll\":1.2106649054825696}"
-                        },
-                        {
-                          "title": "客观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/客观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":6},\"to\":{\"line\":5,\"ch\":6}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":12},\"to\":{\"line\":19,\"ch\":12}},\"scroll\":7.396642550838186}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":15},\"to\":{\"line\":15,\"ch\":15}},\"scroll\":10.592484560168314}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":24},\"to\":{\"line\":30,\"ch\":24}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":10},\"to\":{\"line\":6,\"ch\":10}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":4},\"to\":{\"line\":28,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":4},\"to\":{\"line\":33,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "原则",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":33},\"to\":{\"line\":22,\"ch\":33}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":7},\"to\":{\"line\":27,\"ch\":7}},\"scroll\":15.720880712400453}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":24},\"to\":{\"line\":13,\"ch\":24}}}"
-                        },
-                        {
-                          "title": "逻辑真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
-                        },
-                        {
-                          "title": "符合论",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/符合论.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":11},\"to\":{\"line\":4,\"ch\":11}}}"
-                        },
-                        {
-                          "title": "逻辑真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":24},\"to\":{\"line\":13,\"ch\":24}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":5},\"to\":{\"line\":18,\"ch\":5}},\"scroll\":0.3759}"
-                        },
-                        {
-                          "title": "定义",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/定义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
-                        },
-                        {
-                          "title": "逻辑真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
-                        },
-                        {
-                          "title": "定义",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/定义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":1,\"ch\":10}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":3},\"to\":{\"line\":38,\"ch\":3}},\"scroll\":8.547265847524008}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":20},\"to\":{\"line\":3,\"ch\":20}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":21},\"to\":{\"line\":29,\"ch\":21}},\"scroll\":12.510671807353427}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.018319028393362}"
-                        },
-                        {
-                          "title": "语言",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":24},\"to\":{\"line\":18,\"ch\":24}},\"scroll\":4.370638487721112}"
-                        },
-                        {
-                          "title": "语言",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":12},\"to\":{\"line\":16,\"ch\":12}},\"scroll\":4.370638487721112}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":10},\"to\":{\"line\":33,\"ch\":10}},\"scroll\":12.136444494688158}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "主观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":26},\"to\":{\"line\":8,\"ch\":26}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0.2173286791916093}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":10},\"to\":{\"line\":23,\"ch\":10}},\"scroll\":6.340086522900205}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":19},\"to\":{\"line\":3,\"ch\":19}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":0},\"to\":{\"line\":35,\"ch\":0}},\"scroll\":15.928905884424845}"
-                        },
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":66},\"to\":{\"line\":7,\"ch\":66}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}},\"scroll\":4.3615418940457875}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":23},\"to\":{\"line\":24,\"ch\":23}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":10},\"to\":{\"line\":21,\"ch\":10}},\"scroll\":4.3615418940457875}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":40},\"to\":{\"line\":15,\"ch\":40}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "主观事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":52},\"to\":{\"line\":1,\"ch\":52}}}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "事件",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
-                        },
-                        {
-                          "title": "事物",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":77},\"to\":{\"line\":11,\"ch\":77}}}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":29},\"to\":{\"line\":29,\"ch\":29}}}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":29},\"to\":{\"line\":16,\"ch\":29}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":10},\"to\":{\"line\":35,\"ch\":10}},\"scroll\":14.017776913113064}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "逻辑真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":14},\"to\":{\"line\":0,\"ch\":14}}}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
-                        },
-                        {
-                          "title": "本体真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/本体真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":10}}}"
-                        },
-                        {
-                          "title": "真相",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/真相.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":12},\"to\":{\"line\":7,\"ch\":12}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":9},\"to\":{\"line\":32,\"ch\":9}},\"scroll\":5.62592572629535}"
-                        },
-                        {
-                          "title": "错误",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/错误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":25.1919}"
-                        },
-                        {
-                          "title": "逻辑思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/逻辑思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":9},\"to\":{\"line\":14,\"ch\":9}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "论证",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":23},\"to\":{\"line\":16,\"ch\":23}}}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "问题",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":4},\"to\":{\"line\":11,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":7},\"to\":{\"line\":1,\"ch\":7}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":18},\"to\":{\"line\":18,\"ch\":18}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "逻辑学",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "本质",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":19},\"to\":{\"line\":16,\"ch\":19}},\"scroll\":3.3000707469268606}"
-                        },
-                        {
-                          "title": "映射",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/数学/基本概念/映射.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":16},\"to\":{\"line\":0,\"ch\":17}}}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":4},\"to\":{\"line\":6,\"ch\":4}}}"
-                        },
-                        {
-                          "title": "问题",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":7},\"to\":{\"line\":18,\"ch\":7}},\"scroll\":6.977777777777778}"
-                        },
-                        {
-                          "title": "思维",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "反思",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":9},\"to\":{\"line\":21,\"ch\":9}},\"scroll\":25.277243326205635}"
-                        },
-                        {
-                          "title": "数据类型",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "理由",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/理由.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":8},\"to\":{\"line\":48,\"ch\":8}},\"scroll\":33.0025254835244}"
-                        },
-                        {
-                          "title": "问题",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "反思",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/反思/反思.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":18},\"to\":{\"line\":23,\"ch\":18}},\"scroll\":39.471081788708624}"
-                        },
-                        {
-                          "title": "提问",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":3},\"to\":{\"line\":43,\"ch\":3}},\"scroll\":30.546121558009336}"
-                        },
-                        {
-                          "title": "问题",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/问题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":4},\"to\":{\"line\":15,\"ch\":4}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "自我层级",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我层级.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":20},\"to\":{\"line\":15,\"ch\":20}},\"scroll\":1.0556840736172997}"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}",
-                          "title": "自我的诞生",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
-                          "title": "自我",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{}",
-                          "title": "推理",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/归纳.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":34},\"to\":{\"line\":9,\"ch\":34}}}",
-                          "title": "归纳",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}",
-                          "title": "推理",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":10},\"to\":{\"line\":48,\"ch\":10}},\"scroll\":42.4415870363524}",
-                          "title": "人的行为",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":7},\"to\":{\"line\":4,\"ch\":7}}}",
-                          "title": "人",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}",
-                          "title": "逻辑",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"scroll\":0}",
-                          "title": "推理",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":10},\"to\":{\"line\":51,\"ch\":10}},\"scroll\":40.44420288792096}",
-                          "title": "人的行为",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}",
-                          "title": "人",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":5},\"to\":{\"line\":52,\"ch\":5}},\"scroll\":44.26736045644121}",
-                          "title": "人的行为",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":36},\"to\":{\"line\":7,\"ch\":36}}}",
-                          "title": "推理",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":106},\"to\":{\"line\":6,\"ch\":106}}}",
-                          "title": "理解",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}}}",
-                          "title": "概念",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维形式.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}",
-                          "title": "思维形式",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}",
-                          "title": "推理",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/提问.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"scroll\":13.8529}",
-                          "title": "提问",
-                          "icon": "document"
-                        },
-                        {
-                          "leaf": "027e544465ae63f6",
-                          "group": "60044dbc498f8df7",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}}}",
-                          "title": "自己的学习行为",
-                          "icon": "document"
-                        }
-                      ]
+                "id": "aca98ff9bdd0c025",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
+                    {
+                      "title": "事实",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":24},\"to\":{\"line\":20,\"ch\":24}},\"scroll\":7.449308643271688}"
                     }
-                  },
-                  {
-                    "id": "aca98ff9bdd0c025",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        },
-                        {
-                          "title": "事实",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":24},\"to\":{\"line\":20,\"ch\":24}},\"scroll\":7.449308643271688}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/工具/通用概念/观念.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "75f8b7468e6cb7f7",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 1,
-                      "stack": [
-                        {
-                          "title": "观念",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":0}"
-                        },
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/学习方法/概念/知识.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "6a5e997fff0d96e3",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/工具/科学/科学.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
-                    "id": "e157ca5b03ad26ff",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/观念.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
-                ]
+                }
+              },
+              {
+                "id": "75f8b7468e6cb7f7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "观念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/概念/知识.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6a5e997fff0d96e3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/科学/科学.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "757b14994688f73b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":3},\"to\":{\"line\":65,\"ch\":3}},\"scroll\":58.2796}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/思考/同一律.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2a69765c6d1d5356",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/原因.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e157ca5b03ad26ff",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/自己的学习行为.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
-            ],
-            "direction": "horizontal"
+            ]
           },
           {
             "id": "03555132cbcc4348",
