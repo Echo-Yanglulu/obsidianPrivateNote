@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}},\"scroll\":6.12193563337851}"
+                    },
+                    {
                       "title": "论证",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -929,7 +935,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/结论.md",
+                    "file": "笔记/工具/通用概念/原因.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1118,7 +1124,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/结论.md"
+                        "file": "笔记/工具/通用概念/原因.md"
                       }
                     }
                   }
@@ -1143,7 +1149,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/结论.md",
+                        "file": "笔记/工具/通用概念/原因.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1174,7 +1180,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/结论.md",
+                    "file": "笔记/工具/通用概念/原因.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1505,15 +1511,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/思维概念/溯因.md",
+    "笔记/工具/通用概念/原因.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/哲学/逻辑学/结论.md",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/断言.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
-    "笔记/工具/通用概念/证据.md",
-    "笔记/工具/通用概念/理由.md",
-    "笔记/工具/通用概念/语言.md",
-    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg"
+    "笔记/工具/通用概念/证据.md"
   ]
 }
