@@ -1160,7 +1160,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/论证.md"
+                        "file": "笔记/工具/思考/思维概念/联言论证.md"
                       }
                     }
                   }
@@ -1185,7 +1185,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/论证.md",
+                        "file": "笔记/工具/思考/思维概念/联言论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1216,7 +1216,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/论证.md",
+                    "file": "笔记/工具/思考/思维概念/联言论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1547,6 +1547,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/论证.md",
     "笔记/学习方法/概念/比较.md",
     "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/通用概念/观念.md",
@@ -1555,7 +1556,6 @@
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/工具/哲学/逻辑学/断言.md",
-    "笔记/工具/哲学/逻辑学/主项.md",
-    "笔记/工具/哲学/逻辑学/对象.md"
+    "笔记/工具/哲学/逻辑学/主项.md"
   ]
 }
