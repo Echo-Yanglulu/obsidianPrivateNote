@@ -16,17 +16,23 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "命题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":6},\"to\":{\"line\":27,\"ch\":6}},\"scroll\":10.181329074874233}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":6},\"to\":{\"line\":21,\"ch\":6}},\"scroll\":0}"
                     },
                     {
                       "title": "三段论",
@@ -1067,7 +1073,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/论证.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1083,6 +1089,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":0}"
                     },
                     {
                       "title": "断言",
@@ -1101,7 +1113,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1230,8 +1242,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "03555132cbcc4348",
@@ -1257,7 +1268,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg"
+                        "file": "笔记/工具/思考/判断.md"
                       }
                     }
                   }
@@ -1282,7 +1293,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
+                        "file": "笔记/工具/思考/判断.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1313,7 +1324,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
+                    "file": "笔记/工具/思考/判断.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1639,20 +1650,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "4b85bf7bee30ffc9",
+  "active": "f445ee0f78c76778",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
+    "笔记/西方文明简史/命题.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/记忆/内视觉.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/思考/思维概念/三段论.md",
-    "笔记/工具/思考/思维概念/推理.md"
+    "笔记/工具/思考/记忆/内视觉.md"
   ]
 }
