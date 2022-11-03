@@ -19,10 +19,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "命题",
+                      "title": "自己的学习行为",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":17},\"to\":{\"line\":6,\"ch\":17}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -1112,24 +1112,24 @@
                 "id": "75f8b7468e6cb7f7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "观念",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/观念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":31},\"to\":{\"line\":18,\"ch\":31}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "知识",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/知识.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":18.876721164253173}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/知识.md",
+                    "file": "笔记/学习方法/自己的学习行为.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1230,7 +1230,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -1256,7 +1257,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/论证.md"
+                        "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg"
                       }
                     }
                   }
@@ -1281,7 +1282,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/论证.md",
+                        "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1312,7 +1313,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/论证.md",
+                    "file": "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1638,20 +1639,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "027e544465ae63f6",
+  "active": "4b85bf7bee30ffc9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/思考/思维概念/三段论.md",
-    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/西方文明简史/价值命题.md",
-    "笔记/工具/思考/思维概念/假言论证.md",
-    "笔记/工具/思考/思维概念/选言论证.md",
-    "笔记/工具/思考/思维概念/联言论证.md",
-    "笔记/工具/思考/判断.md"
+    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/内视觉.md",
+    "笔记/学习方法/概念/知识.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/工具/思考/思维概念/三段论.md",
+    "笔记/工具/思考/思维概念/推理.md"
   ]
 }
