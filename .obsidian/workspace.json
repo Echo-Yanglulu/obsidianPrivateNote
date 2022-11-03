@@ -26,6 +26,18 @@
                       "title": "论证",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":5},\"to\":{\"line\":26,\"ch\":5}},\"scroll\":15.895072741472536}"
+                    },
+                    {
+                      "title": "联言论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/联言论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":12},\"to\":{\"line\":35,\"ch\":12}},\"scroll\":12.179932437627533}"
                     },
                     {
@@ -1560,14 +1572,14 @@
   },
   "lastOpenFiles": [
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/思考/思维概念/联言论证.md",
+    "笔记/工具/思考/思维概念/选言论证.md",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/判断.md",
-    "笔记/工具/思考/思维概念/联言论证.md",
     "笔记/学习方法/概念/比较.md",
     "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/思考/真相.md",
-    "笔记/工具/思考/逻辑真相.md",
-    "笔记/工具/哲学/逻辑学/断言.md"
+    "笔记/工具/思考/逻辑真相.md"
   ]
 }
