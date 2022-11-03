@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":19},\"to\":{\"line\":12,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
                       "title": "原因",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原因.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -941,7 +953,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1130,7 +1142,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg"
+                        "file": "笔记/工具/思考/思维概念/论证.md"
                       }
                     }
                   }
@@ -1155,7 +1167,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
+                        "file": "笔记/工具/思考/思维概念/论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1186,7 +1198,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1325,7 +1337,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1512,20 +1524,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f4889be660f9aadd",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/哲学/逻辑学/结论.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
     "笔记/工具/通用概念/原因.md",
-    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/溯因.md",
     "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/哲学/逻辑学/结论.md",
     "笔记/西方文明简史/命题.md",
-    "笔记/工具/哲学/逻辑学/断言.md",
-    "笔记/工具/通用概念/证据.md"
+    "笔记/工具/哲学/逻辑学/断言.md"
   ]
 }
