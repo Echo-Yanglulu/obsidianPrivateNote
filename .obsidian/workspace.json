@@ -26,6 +26,30 @@
                       "title": "论证",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":34},\"to\":{\"line\":17,\"ch\":34}},\"scroll\":19.725780884424847}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":19},\"to\":{\"line\":12,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "命题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":20},\"to\":{\"line\":14,\"ch\":20}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":34},\"to\":{\"line\":17,\"ch\":34}},\"scroll\":0}"
                     },
                     {
@@ -1031,7 +1055,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/西方文明简史/命题.md",
+                    "file": "笔记/工具/思考/思维概念/三段论.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1220,7 +1244,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/西方文明简史/价值命题.md"
+                        "file": "笔记/工具/思考/思维概念/三段论.md"
                       }
                     }
                   }
@@ -1245,7 +1269,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/西方文明简史/价值命题.md",
+                        "file": "笔记/工具/思考/思维概念/三段论.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1276,7 +1300,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/西方文明简史/价值命题.md",
+                    "file": "笔记/工具/思考/思维概念/三段论.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1602,20 +1626,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "8bb668233d728757",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/西方文明简史/价值命题.md",
     "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/思维概念/假言论证.md",
     "笔记/工具/思考/思维概念/选言论证.md",
     "笔记/工具/思考/思维概念/联言论证.md",
-    "笔记/工具/思考/判断.md",
-    "笔记/学习方法/概念/比较.md",
-    "笔记/工具/思考/思维概念/类比.md",
-    "笔记/工具/通用概念/观念.md"
+    "笔记/工具/思考/判断.md"
   ]
 }
