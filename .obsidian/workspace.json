@@ -1091,6 +1091,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":9},\"to\":{\"line\":8,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1113,7 +1119,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1309,7 +1315,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md"
+                        "file": "笔记/工具/思考/思维概念/归纳.md"
                       }
                     }
                   }
@@ -1334,7 +1340,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md",
+                        "file": "笔记/工具/思考/思维概念/归纳.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1365,7 +1371,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/工具/思考/思维概念/归纳.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1691,17 +1697,17 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "6987c90bcbc0033f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/判断.md",
+    "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/工具/思考/判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/思维概念/三段论.md",
