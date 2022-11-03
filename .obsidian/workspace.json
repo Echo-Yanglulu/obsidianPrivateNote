@@ -1081,6 +1081,46 @@
                 }
               },
               {
+                "id": "f73d7b2ec3e4282f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":9},\"to\":{\"line\":65,\"ch\":9}},\"scroll\":48.746854476693564}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":4},\"to\":{\"line\":36,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":6},\"to\":{\"line\":17,\"ch\":6}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/概念/概念.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "d17d1b8b5818eee2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1242,7 +1282,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -1268,7 +1309,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/判断.md"
+                        "file": "笔记/学习方法/概念/概念.md"
                       }
                     }
                   }
@@ -1293,7 +1334,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/判断.md",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1324,7 +1365,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/判断.md",
+                    "file": "笔记/学习方法/概念/概念.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1650,20 +1691,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f445ee0f78c76778",
+  "active": "f73d7b2ec3e4282f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
     "笔记/工具/思考/思维概念/推理.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/工具/思考/判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/西方文明简史/命题.md",
-    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/思考/思维概念/三段论.md",
-    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/记忆/内视觉.md"
+    "笔记/学习方法/自己的学习行为.md"
   ]
 }
