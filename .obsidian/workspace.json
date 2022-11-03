@@ -23,6 +23,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":12},\"to\":{\"line\":35,\"ch\":12}},\"scroll\":12.179932437627533}"
+                    },
+                    {
+                      "title": "命题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":0}"
+                    },
+                    {
                       "title": "断言",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/断言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -971,7 +983,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/西方文明简史/命题.md",
+                    "file": "笔记/工具/思考/思维概念/选言论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1160,7 +1172,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/联言论证.md"
+                        "file": "笔记/工具/思考/思维概念/选言论证.md"
                       }
                     }
                   }
@@ -1185,7 +1197,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/联言论证.md",
+                        "file": "笔记/工具/思考/思维概念/选言论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1216,7 +1228,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/联言论证.md",
+                    "file": "笔记/工具/思考/思维概念/选言论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1542,20 +1554,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "5fcb89afcba766d6",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/工具/思考/判断.md",
+    "笔记/工具/思考/思维概念/联言论证.md",
     "笔记/学习方法/概念/比较.md",
     "笔记/工具/思考/思维概念/类比.md",
     "笔记/工具/通用概念/观念.md",
-    "笔记/工具/思考/判断.md",
-    "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/真相.md",
     "笔记/工具/思考/逻辑真相.md",
-    "笔记/工具/哲学/逻辑学/断言.md",
-    "笔记/工具/哲学/逻辑学/主项.md"
+    "笔记/工具/哲学/逻辑学/断言.md"
   ]
 }
