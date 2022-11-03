@@ -16,11 +16,23 @@
                 "id": "027e544465ae63f6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "命题",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/命题.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":17},\"to\":{\"line\":6,\"ch\":17}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "三段论",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/三段论.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "title": "论证",
@@ -1055,7 +1067,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/三段论.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1244,7 +1256,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/三段论.md"
+                        "file": "笔记/工具/思考/思维概念/论证.md"
                       }
                     }
                   }
@@ -1269,7 +1281,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/三段论.md",
+                        "file": "笔记/工具/思考/思维概念/论证.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1300,7 +1312,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/三段论.md",
+                    "file": "笔记/工具/思考/思维概念/论证.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1631,12 +1643,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/西方文明简史/命题.md",
     "笔记/西方文明简史/价值命题.md",
-    "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/思维概念/假言论证.md",
     "笔记/工具/思考/思维概念/选言论证.md",
     "笔记/工具/思考/思维概念/联言论证.md",
