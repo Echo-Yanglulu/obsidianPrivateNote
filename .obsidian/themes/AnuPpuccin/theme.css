@@ -274,11 +274,10 @@ settings:
         format: px
     - 
         id: anp-tab-stacked-pane-width
-        title: Stacked tabs pane width
-        description: In percentage
+        title: Stacked tabs pane width multiplier
+        description: Multiplies the stack tab pane with which depends on file line width
         type: variable-number
-        default: 100
-        format: "%"
+        default: 1
     - 
         id: anp-ui-header
         title: General UI
@@ -945,7 +944,7 @@ settings:
         type: class-toggle
     - 
         id: anp-plugin-header
-        title: Plugin integrations
+        title: "Plugin/Snippet integrations"
         type: heading
         level: 2
         collapsed: true
@@ -956,6 +955,44 @@ settings:
         level: 3
         collapsed: true
     - 
+        id: anp-snippet-minimal-cards
+        title: Minimal Cards
+        description: "The snippet is available at: https://github.com/kepano/obsidian-minimal/blob/master/src/scss/features/cards.scss"
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: cards-min-width
+        title: Card minimum width
+        type: variable-text
+        default: 180px
+    -
+        id: cards-max-width
+        title: Card maximum width
+        description: Default fills the available width, accepts valid CSS units
+        type: variable-text
+        default: 1fr
+    -
+        id: cards-mobile-width
+        title: Card minimum width on mobile
+        type: variable-text
+        default: 120px
+    -
+        id: cards-padding
+        title: Card padding
+        type: variable-text
+        default: 1.2em
+    -
+        id: cards-image-height
+        title: Card maximum image height
+        type: variable-text
+        default: 400px
+    -
+        id: cards-border-width
+        title: Card border width
+        type: variable-text
+        default: 1px
+    -
         id: anp-rainbow-section-header
         title: Rainbow folder
         type: heading
@@ -1155,8 +1192,11 @@ settings:
                 label: Minimalistic
                 value: anp-mini-tab-toggle
             - 
-                label: Safari-style
+                label: Safari-style (Animated)
                 value: anp-alternate-tab-toggle
+            - 
+                label: Safari-style (Vanilla)
+                value: anp-safari-tab-toggle
     - 
         id: anp-alt-tab-custom-height
         title: Custom tab height
@@ -1165,11 +1205,25 @@ settings:
         default: 40
         format: px
     - 
+        id: anp-disable-newtab-align
+        title: Disable new tab button right alignment
+        type: class-toggle
+    - 
         id: anp-mini-tab-header
         title: Minimalistic Tab settings
         type: heading
         level: 3
         collapsed: true
+    - 
+        id: anp-safari-vanilla-tab-header
+        title: Vanilla Safari-style Tab settings
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: anp-safari-tab-animated
+        title: Enable WIP animated safari tabs
+        type: class-toggle
     - 
         id: anp-safari-tab-header
         title: Safari-style Tab settings
@@ -1786,7 +1840,6 @@ settings:
   --background-modifier-error: rgba(var(--ctp-red), 1);
   --background-modifier-error-rgb: var(--ctp-red);
   --background-modifier-error-hover: rgba(var(--ctp-red), 0.9);
-  --background-modifier-cover: rgba(var(--ctp-mantle), 0.4);
   --background-modifier-message: rgba(var(--ctp-crust), 0.9);
   --modal-border-color:rgb(var(--ctp-surface0));
   --text-normal: rgb(var(--ctp-text));
@@ -1812,6 +1865,7 @@ settings:
   --callout-title-padding: var(--size-4-2);
   --table-border-width: var(--anp-table-thickness, 1px);
   --icon-color-focused: var(--color-accent);
+  --embed-block-shadow-hover: none;
 }
 
 .theme-dark {
@@ -1821,6 +1875,7 @@ settings:
   --background-modifier-border-hover: rgb(var(--ctp-surface1));
   --background-modifier-border-focus: rgb(var(--ctp-surface2));
   --anp-speech-bubble-opacity: var(--anp-sp-op-dark, 0.9);
+  --background-modifier-cover: rgba(var(--ctp-mantle), 0.4);
 }
 
 .theme-light {
@@ -1830,6 +1885,7 @@ settings:
   --background-modifier-border-hover: rgb(var(--ctp-surface2));
   --background-modifier-border-focus: rgb(var(--ctp-overlay0));
   --anp-speech-bubble-opacity: var(--anp-sp-op-light, 0.5);
+  --background-modifier-cover: #00000022 ;
 }
 
 body {
@@ -1840,7 +1896,7 @@ body {
   --anp-preview-width-max: 800px;
   --anp-header-margin-value: 10px;
   --anp-header-font: "Noto Serif";
-  --tab-stacked-pane-width: var(--file-line-width);
+  --tab-stacked-pane-width: calc(var(--anp-tab-stacked-pane-width, 1)*var(--file-line-width));
   --anp-table-width-pct: 100%;
 }
 
@@ -1870,10 +1926,68 @@ body {
   color: rgb(var(--ctp-red));
 }
 
+/*-Block edit button-*/
+.markdown-source-view.mod-cm6 .edit-block-button {
+  background-color: var(--background-secondary);
+  cursor: pointer;
+  border: 1px solid var(--background-modifer-border);
+}
+.markdown-source-view.mod-cm6 .edit-block-button:hover {
+  background-color: var(--background-secondary);
+  background-color: var(--background-secondary);
+  opacity: 1;
+}
+
+.markdown-source-view.mod-cm6 .cm-embed-block:hover .edit-block-button:hover {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifer-border);
+  opacity: 1;
+}
+
+/*-Vim Terminal-*/
+.ͼ2 .cm-panels-bottom {
+  border-top: 1px solid rgb(var(--ctp-surface1));
+}
+.ͼ2 .cm-panels-bottom input {
+  background-color: transparent;
+  font-family: var(--font-monospace);
+  width: 100%;
+}
+.ͼ2 .cm-panels-bottom input:hover, .ͼ2 .cm-panels-bottom input:focus, .ͼ2 .cm-panels-bottom input:focus-visible {
+  border: none;
+  box-shadow: none;
+}
+
+.ͼp .cm-vim-panel {
+  font-family: var(--font-monospace);
+}
+
 /*----------FILE PREVIEW MARGINS--------------*/
 .anp-toggle-preview .markdown-preview-section {
   width: var(--anp-preview-width-pct);
   margin: 0 auto;
+}
+
+/*---------------HIGHLIGHTS-----------------*/
+.markdown-rendered .search-highlight > div {
+  box-shadow: none;
+  opacity: 0.3;
+  background-color: rgba(var(--ctp-text), 0.4);
+  mix-blend-mode: var(--highlight-mix-blend-mode);
+  border-radius: 2px;
+}
+
+.markdown-rendered .search-highlight > div.is-active {
+  box-shadow: 0 0 0px 2px rgba(var(--ctp-yellow), 0.5);
+  background-color: rgba(var(--ctp-yellow), 0.2);
+  opacity: 1;
+}
+
+.cm-s-obsidian span.obsidian-search-match-highlight {
+  box-shadow: 0 0 0px 2px rgba(var(--ctp-yellow), 0.5);
+  background-color: rgba(var(--ctp-yellow), 0.2);
+  mix-blend-mode: var(--highlight-mix-blend-mode);
+  border-radius: 2px;
 }
 
 /*-Slider checkboxes-*/
@@ -2075,18 +2189,17 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
   margin-bottom: var(--anp-card-layout-padding, 10px);
 }
 
-.anp-card-layout.anp-card-shadows .workspace-split .workspace-leaf-content {
-  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+.anp-card-layout.anp-card-shadows .workspace-split .workspace-leaf-content, .anp-card-layout.anp-card-shadows .side-dock-actions {
+  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.anp-card-layout.anp-card-shadows.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
+  box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 .anp-card-layout .workspace-split .workspace-leaf-content[data-type=file-explorer] {
   background-color: var(--tab-container-background);
   box-shadow: none;
   border-width: 0px;
-}
-
-.anp-card-layout.anp-card-layout-filebrowser.anp-card-shadows .workspace-split .workspace-leaf-content[data-type=file-explorer] {
-  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .anp-card-layout.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
@@ -2241,6 +2354,20 @@ body.is-translucent {
 /*-Blockquote spacing-*/
 .markdown-rendered blockquote {
   padding: 5px 5px 5px 10px;
+}
+
+.anp-list-toggle ul.has-list-bullet > li > ul.has-list-bullet > li .list-bullet::after {
+  border: 1px solid var(--list-marker-color);
+  background-color: transparent;
+  width: calc(var(--list-bullet-size) - 1px);
+  height: calc(var(--list-bullet-size) - 1px);
+}
+.anp-list-toggle ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li .list-bullet::after {
+  border-radius: 0;
+  background-color: var(--list-marker-color);
+}
+.anp-list-toggle ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li .list-bullet::after {
+  background-color: transparent;
 }
 
 /*-Decorations for bold and italics-*/
@@ -2601,6 +2728,7 @@ span[alt=anp-embed] .markdown-embed .markdown-embed-title, .anp-embed-toggle .ma
 .anp-h6-divider .HyperMD-header-6,
 .anp-h6-divider .markdown-rendered h6 {
   border-bottom: var(--hr-thickness) solid var(--background-modifier-border);
+  padding-bottom: 2px;
 }
 
 /*-Source editor recolor application-*/
@@ -2658,63 +2786,163 @@ hr {
 }
 
 /*-Recolor table borders-*/
-.anp-table-toggle .markdown-rendered table, .anp-table-toggle .markdown-rendered td, .anp-table-toggle .markdown-rendered th, .anp-table-toggle .markdown-rendered thead tr > th:first-child, .anp-table-toggle .markdown-rendered thead tr > th, .anp-table-toggle .markdown-rendered thead tr > th:last-child {
+.anp-table-toggle .markdown-preview-view:not(.cards) table,
+.anp-table-toggle .markdown-preview-view:not(.cards) table td,
+.anp-table-toggle .markdown-preview-view:not(.cards) table th,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:last-child,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table td,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table th,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:last-child,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview),
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) td,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) th,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:first-child,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:last-child {
   border: var(--anp-table-thickness, 1px) solid var(--table-border-color);
 }
-.anp-table-toggle .markdown-rendered th, .anp-table-toggle .markdown-rendered thead tr > th:first-child, .anp-table-toggle .markdown-rendered thead tr > th, .anp-table-toggle .markdown-rendered thead tr > th:last-child {
+.anp-table-toggle .markdown-preview-view:not(.cards) table th,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th,
+.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:last-child,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table th,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:last-child,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) th,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:first-child,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:last-child {
   text-align: var(--anp-table-align-th, center);
 }
-.anp-table-toggle .markdown-rendered td {
+.anp-table-toggle .markdown-preview-view:not(.cards) table td,
+.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table td,
+.anp-table-toggle .is-live-preview.cards table:not(.dataview) td {
   text-align: var(--anp-table-align-td, center);
 }
 
-.anp-table-toggle .table-view-table > tbody > tr:hover {
+table.dataview.table-view-table > tbody > tr:hover {
   background-color: rgba(var(--ctp-surface1), 0.1) !important;
 }
 
-.anp-table-toggle.anp-th-highlight .markdown-rendered th {
+.anp-table-toggle.anp-th-highlight .markdown-preview-view:not(.cards) th, .anp-table-toggle.anp-th-highlight .markdown-preview-view.cards table:not(.dataview) th, .anp-table-toggle.anp-th-highlight .is-live-preview:not(.cards) th, .anp-table-toggle.anp-th-highlight .is-live-preview.cards table:not(.dataview) th {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-rows .markdown-rendered table tr:nth-child(2n) td {
+.anp-table-toggle.anp-td-alt-rows .markdown-preview-view:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-cols .markdown-rendered table tr td:nth-child(2n) {
+.anp-table-toggle.anp-td-alt-cols .markdown-preview-view:not(.cards) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .markdown-preview-view.cards table:not(.dataview) tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview:not(.cards) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview.cards table:not(.dataview) tr td:nth-child(2n) {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-rendered table tr td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-rendered table tr:nth-child(2n) td {
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-rendered table tr:nth-child(2n) td:nth-child(2n) {
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
   background-color: rgba(var(--ctp-crust), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-full .markdown-rendered table td {
+.anp-table-toggle.anp-td-full .markdown-preview-view:not(.cards) table td, .anp-table-toggle.anp-td-full .markdown-preview-view.cards table:not(.dataview) td, .anp-table-toggle.anp-td-full .is-live-preview:not(.cards) table td, .anp-table-toggle.anp-td-full .is-live-preview.cards table:not(.dataview) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
 
-.anp-table-auto.markdown-rendered table {
+.anp-table-auto.markdown-rendered:not(.cards) table,
+.anp-table-auto.markdown-rendered.cards table:not(.dataview) {
   margin: 0 auto;
 }
 
-.anp-table-width.markdown-rendered table {
+.anp-table-width.markdown-rendered:not(.cards) table,
+.anp-table-width.markdown-rendered.cards table:not(.dataview) {
   width: var(--anp-table-width-pct);
 }
 
-.anp-table-auto.anp-table-toggle .markdown-rendered table {
+.anp-table-auto.anp-table-toggle .markdown-rendered:not(.cards) table,
+.anp-table-auto.anp-table-toggle .markdown-rendered.cards table:not(.dataview) {
   margin: 0 auto;
 }
 
-.anp-table-width.anp-table-toggle .markdown-rendered table {
+.anp-table-width.anp-table-toggle .markdown-rendered:not(.cards) table,
+.anp-table-width.anp-table-toggle .markdown-rendered.cards table:not(.dataview) {
   width: var(--anp-table-width-pct);
   margin-left: calc(50% - var(--anp-table-width-pct) / 2);
   margin-right: calc(50% - var(--anp-table-width-pct) / 2);
 }
 
-.anp-alternate-tab-toggle, .anp-default-tab {
+body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-split.mod-vertical .workspace-tab-header-spacer {
+  display: none;
+}
+body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-split.mod-vertical .workspace-tab-header-new-tab {
+  margin-left: auto;
+}
+
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root {
+  /*-----VARIABLES---------*/
+  --tab-background-inactive: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
+  --tab-background-inactive-hover: var(--background-primary);
+  --tab-text-color: var(--text-faint);
+  --tab-text-color-active: var(--text-muted);
+  --tab-text-color-focused: var(--text-muted);
+  --tab-text-color-focused-active: var(--text-muted);
+  --tab-text-color-focused-highlighted: var(--text-accent);
+  --tab-text-color-focused-active-current: var(--text-accent);
+  --tab-divider-color: var(--background-modifier-border-hover);
+  --tab-width: 200px;
+  --tab-max-width: 320px;
+  /*-------CONFIGS---------*/
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner {
+  margin: 5px 0 !important;
+  gap: var(--anp-safari-tab-gap, 10px);
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header {
+  border-radius: var(--anp-safari-tab-radius, 5px);
+  border: var(--anp-safari-border-width, 1px) solid var(--tab-outline-color);
+  background-color: var(--tab-background-inactive);
+  color: var(--text-muted);
+  max-width: var(--tab-max-width);
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header .workspace-tab-header-inner .workspace-tab-header-inner-title {
+  margin-top: 3px;
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header::before, .anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header::after {
+  display: none;
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active {
+  background-color: var(--tab-background-active);
+  max-width: var(--tab-max-width-active);
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header:not(.is-active):hover {
+  background-color: var(--tab-background-inactive-hover);
+}
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: transparent;
+}
+.anp-safari-tab-toggle:not(.anp-disable-newtab-align) .workspace-tab-header-container-inner {
+  width: 100%;
+}
+
+.anp-safari-tab-toggle.anp-safari-tab-animated .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header {
+  transition: max-width 400ms ease-in-out, width 400ms ease-in-out, flex-grow 400ms ease, background-color 150ms;
+}
+.anp-safari-tab-toggle.anp-safari-tab-animated .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active {
+  flex-grow: 1.67;
+}
+
+.anp-alternate-tab-toggle, .anp-default-tab, .anp-safari-tab-toggle {
   --header-height: var(--anp-alt-tab-custom-height, 40px);
   --tab-stacked-header-width: var(--anp-stacked-header-width, 40px);
 }
 
-.anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked) {
+.anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked),
+.anp-safari-tab-toggle .workspace-tabs:not(.mod-stacked) {
   --tab-background: var(--background-secondary);
   --tab-background-active: var(--background-primary);
   --tab-font-size: 12px;
@@ -2746,6 +2974,12 @@ hr {
   gap: var(--anp-safari-tab-gap, 10px);
 }
 
+.anp-disable-newtab-align.anp-alternate-tab-toggle .mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner,
+.anp-disable-newtab-align.anp-alternate-tab-toggle .mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-container-inner {
+  width: unset;
+  gap: var(--anp-safari-tab-gap, 10px);
+}
+
 .anp-alternate-tab-toggle .mod-vertical:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header,
 .anp-alternate-tab-toggle .mod-horizontal:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
   background: var(--tab-background);
@@ -2757,12 +2991,12 @@ hr {
 }
 
 .anp-alternate-tab-toggle .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
-  max-width: var(--tab-max-width) !important;
+  max-width: var(--tab-max-width);
   border: var(--anp-safari-border-width, 1px) solid var(--tab-outline-color);
 }
 
 .anp-alternate-tab-toggle.anp-alt-tab-anim-toggle .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header {
-  transition: 400ms;
+  transition: 400ms, background-color 150ms ease-in-out;
 }
 
 .anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked) .workspace-tab-header:first-child {
@@ -2775,7 +3009,7 @@ hr {
 
 .anp-alternate-tab-toggle .mod-root:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner {
   padding: 0 4px 0 8px;
-  transition: 400ms;
+  transition: 400ms, background-color 150ms ease-in-out, max-width 400ms;
 }
 .anp-alternate-tab-toggle .mod-root:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner, .anp-alternate-tab-toggle .mod-root:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner-close-button, .anp-alternate-tab-toggle .mod-root:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner-icon {
   color: var(--text-muted);
@@ -2786,8 +3020,8 @@ hr {
 }
 
 .anp-alternate-tab-toggle .mod-root:not(.mod-left-split):not(.mod-right-split) .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active {
-  flex-grow: 1.67 !important;
-  max-width: var(--tab-max-width-active) !important;
+  flex-grow: 1.67;
+  max-width: var(--tab-max-width-active);
   background-color: var(--background-primary);
 }
 
@@ -3096,6 +3330,46 @@ None of the code was used, and the callout was written from scratch.
 }
 .anp-button-metadata-toggle .frontmatter-container .frontmatter-container-header:active {
   background-color: rgba(var(--ctp-accent), 0.6);
+}
+
+/*-------Tweak for Minimal Cards--------------
+Minimal cards are a snippet designed by Kepano for the Minimal theme.
+None of the original code was used in this theme, and the following code is merely some tweaks to the snippet.
+--------------------------------------------*/
+.cards .table-view-table > tbody > tr > td {
+  border-bottom: 1px dashed var(--background-modifier-border) !important; /*-Dashed borders for all cells-*/
+}
+.cards .table-view-table > tbody > tr > td:last-child {
+  border-bottom-color: transparent !important; /*-No border for last cell-*/
+}
+.cards .table-view-table > tbody > tr > td:first-child {
+  width: 100% !important; /*-Max width for first cell-*/
+  border-bottom: 1px dashed var(--background-modifier-border) !important; /*-Border for first table that spans to the end because of max width-*/
+}
+.cards .table-view-table > tbody > tr > td:first-child span {
+  margin: 2px calc(var(--cards-padding) * 0.5) 0 calc(var(--cards-padding) * 0.5); /*-Add padding to text-*/
+}
+.cards .table-view-table > tbody > tr > td:first-child span a {
+  padding: 0 !important; /*-0 padding on link-*/
+}
+.cards:not([class*=cards-cols-]) {
+  --cards-columns: repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width))); /*-force card width to be obeyed on notes not having cards-cols css class-*/
+}
+
+.cards.cards-bookmark .table-view-table .table-view-tbody tr::after {
+  --text-normal: var(--text-muted);
+  content: " ";
+  width: 25px;
+  height: 25px;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--!  --%3E%3Cpath d='M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z'/%3E%3C/svg%3E"); /*-SVG for bookmark-*/
+  -webkit-mask-repeat: no-repeat;
+  background-color: var(--color-accent); /*-Bookmark follows accent color-*/
+  position: absolute;
+  margin-top: calc(-2px + -1 * var(--cards-border-width)); /*-Bookmark is a bit higher than the card-*/
+  margin-left: 5px; /*-Bookmark is 5px from the left*/
+}
+.cards.cards-bookmark .table-view-table tbody tr > td:first-child span {
+  margin: 2px calc(var(--cards-padding) * 0.5) 0 calc(var(--cards-padding) * 0.5 + 20px); /*-Shift first cell title to the left by about 20px-*/
 }
 
 /*---------------COLORFUL FRAME--------------*/
@@ -4163,9 +4437,16 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
   --h6-color: var(--text-normal) !important;
 }
 
-.decorations-normal-toggle {
+.decorations-normal-toggle,
+.decorations-normal-toggle.markdown-rendered {
   --bold-color: var(--text-normal) !important;
   --italic-color: var(--text-normal) !important;
+}
+
+.decorations-normal-toggle.markdown-rendered .table-view-table,
+.decorations-normal-toggle.is-live-preview .table-view-table {
+  --bold-color: var(--text-muted) !important;
+  --italic-color: var(--text-muted) !important;
 }
 
 /*# sourceMappingURL=theme.css.map */

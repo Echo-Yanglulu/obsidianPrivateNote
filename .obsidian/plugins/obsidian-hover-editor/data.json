@@ -9,6 +9,6 @@
   "initialHeight": "740px",
   "initialWidth": "900px",
   "showViewHeader": true,
-  "imageZoom": true,
-  "hoverEmbeds": true
+  "imageZoom": false,
+  "hoverEmbeds": false
 }
