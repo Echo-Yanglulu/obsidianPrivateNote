@@ -1321,7 +1321,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/哲学.md"
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                       }
                     }
                   }
@@ -1346,7 +1346,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/哲学.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1377,7 +1377,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/哲学.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1703,20 +1703,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "59fc262b4fed64e3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/用得上的哲学.md",
     "笔记/工具/哲学/哲学.md",
+    "笔记/工具/思考/批判性思维.md",
+    "笔记/工具/哲学/庸俗辩证法.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/归纳.md",
     "笔记/工具/思考/判断.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/哲学/Argument_terminology_used_in_logic_(en).svg",
-    "笔记/西方文明简史/命题.md"
+    "笔记/学习方法/概念/概念.md"
   ]
 }
