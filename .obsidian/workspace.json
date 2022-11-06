@@ -277,7 +277,7 @@
                     {
                       "title": "基本原理basic principles",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
                     },
                     {
@@ -301,7 +301,7 @@
                     {
                       "title": "基本原理basic principles",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理basic principles.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":41},\"to\":{\"line\":8,\"ch\":41}},\"scroll\":0}"
                     },
                     {
@@ -1326,7 +1326,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md"
+                        "file": "笔记/学习方法/框架思维/因果律.md"
                       }
                     }
                   }
@@ -1351,7 +1351,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
+                        "file": "笔记/学习方法/框架思维/因果律.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1382,7 +1382,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
+                    "file": "笔记/学习方法/框架思维/因果律.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1708,20 +1708,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "1e83a9c221ff415b",
+  "active": "c8438ff21fd1d602",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/框架思维/因果律.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/事件.md",
+    "笔记/学习方法/框架思维/因果律.md",
+    "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/通用概念/方法.md",
     "笔记/工具/文学/方法.md",
     "笔记/工具/哲学/逻辑学/逻辑方法.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/工具/通用概念/观念.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/逻辑学/基本原理basic principles.md",
     "笔记/工具/思考/同一律.md"
   ]
 }
