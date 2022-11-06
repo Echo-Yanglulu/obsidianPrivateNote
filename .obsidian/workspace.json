@@ -1443,7 +1443,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "method",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1521,7 +1521,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
