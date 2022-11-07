@@ -34,6 +34,11 @@ settings:
     description: Make tooltips stand out much more by applying your theme colour to the border
     type: class-toggle
   -
+    id: encore-disable-clickability-fix
+    title: Disable Clickability Fix
+    description: Encore makes it easier to click the edge of a document by adding some invisible padding. May cause issues if you have content that exceeds the width of your page. No effect on mobile version.
+    type: class-toggle
+  -
     id: encore-no-calendar
     title: Disable Calendar Integration
     description: Encore makes some changes to Calendar. Turn this on to keep the default look
@@ -45,20 +50,12 @@ settings:
     type: class-toggle
 */
 
+@charset "UTF-8";
 .mod-root .workspace-split.mod-horizontal > div:not(:first-of-type) {
   background-color: var(--background-primary);
 }
 .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
   background-color: var(--background-secondary-alt);
-}
-
-.is-translucent:not(.is-fullscreen) .mod-root .workspace-split.mod-horizontal > div:not(:first-of-type) {
-  border-top: 1px solid var(--divider-color);
-  background-color: var(--divider-color) !important;
-}
-.is-translucent:not(.is-fullscreen) .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-header-container {
-  background-color: var(--divider-color);
-  --divider-color: transparent ;
 }
 
 .workspace-leaf-resize-handle {
@@ -133,58 +130,42 @@ settings:
 }
 
 .is-translucent:not(.is-fullscreen) {
-  --divider-color: #bdbdbd3b;
+  --divider-color: transparent;
 }
-.is-translucent:not(.is-fullscreen) .mod-right-split :not(.mod-top) .workspace-tab-header-container,
-.is-translucent:not(.is-fullscreen) .mod-right-split .workspace-leaf {
-  background-color: var(--background-secondary);
+.is-translucent:not(.is-fullscreen) .view-header-title-container:not(.mod-at-end):after,
+.is-translucent:not(.is-fullscreen) .workspace-split.mod-root .workspace-tab-header.is-active::before, .is-translucent:not(.is-fullscreen) .workspace-split.mod-root .workspace-tab-header.is-active::after {
+  display: none;
 }
-.is-translucent:not(.is-fullscreen) .mod-left-split {
-  --background-secondary: #2a2a2abe;
-  --background-modifier-form-field: #262626be;
-  --background-modifier-border: #363636be;
+.is-translucent:not(.is-fullscreen) .titlebar {
+  background-color: transparent !important;
+}
+.is-translucent:not(.is-fullscreen) .mod-right-split,
+.is-translucent:not(.is-fullscreen) .mod-left-split,
+.is-translucent:not(.is-fullscreen) .sidebar-toggle-button {
+  background-color: transparent;
 }
 .is-translucent:not(.is-fullscreen) .mod-left-split :not(.mod-top) .workspace-tab-header-container,
-.is-translucent:not(.is-fullscreen) .mod-left-split .workspace-tab-container {
-  border-right: 1px solid var(--divider-color);
+.is-translucent:not(.is-fullscreen) .mod-right-split :not(.mod-top) .workspace-tab-header-container {
+  background-color: var(--background-secondary-alt) !important;
 }
-.is-translucent:not(.is-fullscreen) .workspace-split.mod-root .workspace-tab-header.is-active::before, .is-translucent:not(.is-fullscreen) .workspace-split.mod-root .workspace-tab-header.is-active::after {
-  --tab-outline-color: #bdbdbd15;
-  --tab-outline-width: 1px;
-}
-.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left.is-collapsed {
-  border-right-color: var(--divider-color);
-}
-.is-translucent:not(.is-fullscreen) .workspace-tabs:not(.mod-top):not(.mod-root) .workspace-tab-header-container {
-  background-color: transparent;
-  border-bottom: none;
-  border-radius: 0;
-  margin: 0;
-  background-color: var(--divider-color);
-  border-right: none;
-}
-.is-translucent:not(.is-fullscreen) .workspace-split {
-  background-color: transparent;
-}
-
-.is-translucent:not(.is-fullscreen) .titlebar, .is-translucent .app-container {
+.is-translucent:not(.is-fullscreen) .workspace-tabs .workspace-leaf {
   background-color: transparent !important;
 }
-.is-translucent:not(.is-fullscreen) .titlebar .workspace-split.mod-root, .is-translucent .app-container .workspace-split.mod-root {
-  background-color: transparent !important;
+.is-translucent:not(.is-fullscreen) .workspace-tab-container {
+  border-radius: 8px;
+}
+.is-translucent:not(.is-fullscreen) .workspace-split.mod-root .view-content {
+  background-color: var(--workspace-background-translucent);
+}
+.is-translucent:not(.is-fullscreen) .view-header {
+  background-color: var(--workspace-background-translucent) !important;
+}
+.is-translucent:not(.is-fullscreen) .workspace-tab-header.is-active {
+  background-color: var(--workspace-background-translucent) !important;
 }
 
 .is-hidden-frameless:not(.is-fullscreen) .titlebar-button-container.mod-right {
   background-color: transparent !important;
-}
-
-.view-header {
-  margin: 0;
-  padding: 0 var(--size-4-3);
-}
-
-.graph-view.color-line {
-  color: rgba(189, 189, 189, 0.1450980392);
 }
 
 .markdown-rendered mark,
@@ -329,7 +310,50 @@ body:not(.encore-no-calendar) #calendar-container .day.has-note {
   background-color: var(--background-secondary-alt);
 }
 body:not(.encore-no-calendar) #calendar-container .day.today {
+  color: var(--color-accent) !important;
+}
+body:not(.encore-no-calendar) #calendar-container .day.active {
   background-color: var(--background-modifier-active-hover);
+  color: var(--text-normal);
+}
+
+.kanban-plugin .kanban-plugin__lane {
+  border: none;
+  overflow: hidden;
+  background-color: var(--background-secondary);
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__lane-header-wrapper {
+  border: none;
+  background-color: var(--background-secondary-alt);
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__item-button-wrapper:nth-child(2) {
+  border: none;
+  background-color: var(--background-secondary-alt);
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__item-button-wrapper:nth-child(2) button.kanban-plugin__new-item-button:not(:hover) {
+  background-color: var(--background-secondary);
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__item {
+  border: none;
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__item:not(:hover) .kanban-plugin__item-postfix-button {
+  display: none;
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__item-content-wrapper {
+  background-color: var(--background-primary);
+}
+.kanban-plugin .kanban-plugin__lane > :last-child {
+  border: none;
+}
+.kanban-plugin .kanban-plugin__lane > :last-child.kanban-plugin__item-button-wrapper {
+  padding-top: 0;
+}
+.kanban-plugin .kanban-plugin__lane .kanban-plugin__grow-wrap > textarea, .kanban-plugin .kanban-plugin__lane .kanban-plugin__grow-wrap:after {
+  background-color: transparent !important;
+}
+.kanban-plugin .kanban-plugin__lane button.kanban-plugin__new-item-button:not(:hover) {
+  background-color: var(--background-secondary-alt);
+  box-shadow: unset;
 }
 
 body:not(.encore-no-excalidraw) .excalidraw-wrapper {
@@ -456,6 +480,7 @@ body.theme-dark {
   --h4-color: hsl(calc(var(--accent-h) + 60), 50%, 90%);
   --h5-color: hsl(calc(var(--accent-h) + 80), 80%, 93%);
   --h6-color: hsl(calc(var(--accent-h) + 99), 95%, 95%);
+  --workspace-background-translucent: #1e1e1ece;
 }
 body.theme-dark .cm-line.hr hr::after {
   content: "";
@@ -494,6 +519,7 @@ body.theme-light {
   --h4-color: hsl(calc(var(--accent-h) + 60), 45%, 20%);
   --h5-color: hsl(calc(var(--accent-h) + 80), 75%, 15%);
   --h6-color: hsl(calc(var(--accent-h) + 99), 90%, 10%);
+  --workspace-background-translucent: #ffffff99;
 }
 body.theme-light .cm-line.hr hr::after {
   content: "";
@@ -560,6 +586,7 @@ body.encore-theme-atom.theme-dark {
   --h4-color: var(--color-blue);
   --h5-color: var(--color-red);
   --h6-color: var(--color-yellow);
+  --workspace-background-translucent: #272b34ab;
 }
 body.encore-theme-atom.theme-light {
   --color-base-00: #fafafa;
@@ -590,6 +617,7 @@ body.encore-theme-atom.theme-light {
   --h4-color: var(--color-blue);
   --h5-color: var(--color-red);
   --h6-color: var(--color-yellow);
+  --workspace-background-translucent: #fafafa99;
 }
 body.encore-theme-dracula.theme-dark {
   --color-base-00: #1a1e24;
@@ -694,10 +722,9 @@ body.theme-light {
 }
 
 body:not(.is-translucent) .modal-bg {
-  display: none;
+  opacity: 0;
 }
 body:not(.is-translucent) .modal-container.mod-dim .modal-bg {
-  display: block;
   backdrop-filter: brightness(0.5) blur(5px);
   opacity: 1 !important;
   background-color: transparent;
@@ -718,12 +745,15 @@ body:not(.is-translucent) .modal-container.mod-dim .modal-bg {
   background-color: var(--background-secondary);
 }
 
-.markdown-source-view.mod-cm6.is-readable-line-width .cm-content {
+body:not(.is-mobile):not(.encore-disable-clickability-fix) .markdown-source-view.mod-cm6.is-readable-line-width .cm-content {
   max-width: unset;
-  margin-left: -24rem;
-  padding-left: 24rem;
-  margin-right: -24rem;
-  padding-right: 24rem;
+  margin-left: -4rem;
+  padding-left: 4rem;
+  margin-right: -4rem;
+  padding-right: 4rem;
+}
+body:not(.is-mobile):not(.encore-disable-clickability-fix) .ͼ1 .cm-scroller {
+  overflow-x: hidden;
 }
 
 body.shaded-title .markdown-source-view.mod-cm6 .cm-hmd-frontmatter:last-child {
