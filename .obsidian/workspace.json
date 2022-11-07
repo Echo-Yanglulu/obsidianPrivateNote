@@ -1101,13 +1101,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "三段论",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/三段论.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/三段论.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1355,7 +1361,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/三段论.md"
+                        "file": "笔记/工具/思考/基本概念/思维.md"
                       }
                     }
                   }
@@ -1380,7 +1386,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/三段论.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1411,7 +1417,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/三段论.md",
+                    "file": "笔记/工具/思考/基本概念/思维.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1737,20 +1743,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "8d05a704e995cc3b",
+  "active": "8c7cefeb80e94052",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/哲学/逻辑学/形式逻辑.md",
     "笔记/工具/思考/逻辑真相.md",
     "笔记/工具/哲学/逻辑学/演绎有效性.md",
-    "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/判断.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/学习方法/概念/内涵.md",
-    "笔记/学习方法/概念/本质属性.md"
+    "笔记/学习方法/概念/内涵.md"
   ]
 }
