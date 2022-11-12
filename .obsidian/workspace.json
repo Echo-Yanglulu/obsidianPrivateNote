@@ -1346,8 +1346,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "03555132cbcc4348",
@@ -1373,7 +1372,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md"
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                       }
                     }
                   }
@@ -1398,7 +1397,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1429,7 +1428,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/恐惧.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1755,11 +1754,12 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/恐惧.md",
     "笔记/工具/哲学/哲学.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/哲学/逻辑学/主项.md",
@@ -1768,7 +1768,6 @@
     "笔记/工具/通用概念/词语.md",
     "笔记/学习方法/概念/内涵.md",
     "笔记/学习方法/概念/外延.md",
-    "笔记/学习方法/概念/本质属性.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md"
+    "笔记/学习方法/概念/本质属性.md"
   ]
 }
