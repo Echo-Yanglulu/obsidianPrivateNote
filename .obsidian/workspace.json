@@ -1204,6 +1204,42 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "运动",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/运动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "人的行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":9},\"to\":{\"line\":62,\"ch\":9}},\"scroll\":40.86790589071597}"
+                    },
+                    {
+                      "title": "运动",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/运动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "人的行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":10},\"to\":{\"line\":27,\"ch\":10}},\"scroll\":45.41188602489557}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":5},\"to\":{\"line\":20,\"ch\":5}},\"scroll\":12.800888496204035}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1226,7 +1262,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/论证.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1356,7 +1392,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "03555132cbcc4348",
@@ -1382,7 +1418,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/行为/健身/健身.md"
                       }
                     }
                   }
@@ -1407,7 +1443,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1438,7 +1474,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1764,20 +1800,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "8d05a704e995cc3b",
+  "active": "d17d1b8b5818eee2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/言语.md",
+    "笔记/行为/运动.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/人的行为.md",
+    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/言语.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/工具/哲学/逻辑学/性质.md",
-    "笔记/学习方法/概念/概念.md",
-    "笔记/工具/哲学/Untitled Diagram.svg",
-    "笔记/工具/通用概念/恐惧.md",
-    "笔记/工具/哲学/哲学.md",
-    "笔记/工具/哲学/逻辑学/主项.md"
+    "笔记/学习方法/概念/概念.md"
   ]
 }
