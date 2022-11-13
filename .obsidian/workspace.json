@@ -1418,7 +1418,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md"
+                        "file": "笔记/行为/健身/健身.md"
                       }
                     }
                   }
@@ -1443,7 +1443,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1474,7 +1474,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1800,11 +1800,12 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "2d70afb3011af802",
+  "active": "d17d1b8b5818eee2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/背部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/运动.md",
     "笔记/行为/人的行为.md",
@@ -1813,7 +1814,6 @@
     "笔记/工具/哲学/逻辑学/言语.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
-    "笔记/工具/哲学/逻辑学/性质.md",
-    "笔记/学习方法/概念/概念.md"
+    "笔记/工具/哲学/逻辑学/性质.md"
   ]
 }
