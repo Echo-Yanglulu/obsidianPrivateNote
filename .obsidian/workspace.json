@@ -26,7 +26,7 @@
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":28},\"to\":{\"line\":44,\"ch\":28}},\"scroll\":36.29723461434838}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":4},\"to\":{\"line\":73,\"ch\":4}},\"scroll\":51.11875477668628}"
                     },
                     {
                       "title": "概念",
@@ -1089,9 +1089,12 @@
                   ]
                 },
                 "state": {
-                  "type": "diagram-edit",
+                  "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/Untitled Diagram.svg"
+                    "file": "笔记/学习方法/概念/概念.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               },
@@ -1306,16 +1309,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "科学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "markdown",
+                  "type": "diagram-edit",
                   "state": {
-                    "file": "笔记/工具/科学/科学.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "笔记/工具/哲学/Untitled Diagram.svg"
                   }
                 }
               },
@@ -1417,7 +1423,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/Untitled Diagram.svg"
+                        "file": "笔记/学习方法/概念/概念.md"
                       }
                     }
                   }
@@ -1442,7 +1448,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/Untitled Diagram.svg",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1473,7 +1479,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/Untitled Diagram.svg",
+                    "file": "笔记/学习方法/概念/概念.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1804,15 +1810,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/Untitled Diagram.svg",
+    "笔记/工具/科学/科学.md",
+    "笔记/工具/通用概念/恐惧.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/行为/运动.md",
     "笔记/行为/人的行为.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/逻辑学/言语.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/哲学/逻辑学/逻辑规律.md",
-    "笔记/工具/哲学/逻辑学/性质.md"
+    "笔记/工具/思考/思维概念/论证.md"
   ]
 }
