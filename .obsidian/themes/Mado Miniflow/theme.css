@@ -71,6 +71,7 @@ body{
 body.is-translucent{
 	--background-primary:var(--color-base-00-trans);
 	--background-secondary:var(--color-base-20-trans);
+	--background-fourth:var(--color-base-00-0-trans);
 }
 body.toggle-tab-height{
 	--header-height:35px;
@@ -91,6 +92,7 @@ body.toggle-tab-height{
 	--color-base-00-0:hsla(180, 33%, 99%, 1); /* very white */
 	--color-base-20-0:hsla(207, 10%, 90%, 0.1); /* hovered version for above */
 	--color-base-shadow:hsla(212, 17%, 80%, 0.2); /* shadow */
+	--color-base-00-0-trans:hsla(180, 33%, 99%, 0.5);
 	--color-base-shadow-hover:hsla(212, 17%, 80%, 0.3); /* shadow hover*/
 	--color-base-hover:var(--color-base-shadow-hover); /* hover*/
 	
@@ -122,6 +124,7 @@ body.toggle-tab-height{
 	--color-base-20-trans:hsla(214, 24%, 15%, 0.5);
 	--color-base-00-0:hsla(212, 17%, 22%, 0.9); /* very white */
 	--color-base-20-0:hsla(207, 10%, 10%, 0.1); /* hovered version for above */
+	--color-base-00-0-trans:hsla(212, 17%, 22%, 0.5);
 	--color-base-shadow:hsla(207, 10%, 10%, 0.1); /* shadow */
 	--color-base-shadow-hover:hsla(212, 17%, 0%, 0.3); /* shadow hover*/
 	--color-base-hover:var(--color-base-05); /* hover*/
@@ -247,17 +250,16 @@ body, body.is-translucent{
 body:not(.toggle-wave-background):before{
 	content:"";
 	position:absolute;
-    width:300%;
-    height:300px;
-	bottom:-73px;
-	left:-23%;
+    width:100%;
+    height:100%;
 	
 	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" xml:space="preserve"><path opacity=".1" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"/><path opacity=".2" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"/><path opacity=".4" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"/></svg>');
-	-webkit-mask-size:100% 100%;
+	-webkit-mask-size:300% 300px;
+	-webkit-mask-position:88.5% -73px;
 	-webkit-mask-repeat:no-repeat;
     background-color:var(--color-accent-2);
 	transform:rotateZ(180deg);
-	opacity:0.7;
+	opacity:0.5;
 }
 
 /* remove padding-top when fullscreen in obsidian-ver titlebar */
@@ -359,9 +361,13 @@ body.is-grabbing.is-grabbing.is-grabbing.is-grabbing.is-grabbing .app-container:
 	border:none;
 }
 
-/* Make spacing to match collapsed left-ribbon-dock, also remove background for wave background */
+/* Make spacing to match collapsed left-ribbon-dock */
 body:not(.is-mobile) .workspace:not(.is-right-sidedock-open) .workspace-split.mod-vertical.mod-root{
 	padding-right:var(--ribbon-width);
+}
+/* Make spacing for left side to match the right spacing during pop-out window mode */
+body:not(.is-mobile).is-popout-window .workspace-split.mod-vertical.mod-root{
+	padding-left:var(--ribbon-width);
 }
 .is-mobilebody, .is-mobile .app-container,
 .is-mobile .horizontal-main-container,
@@ -466,13 +472,15 @@ body.is-translucent .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.
 .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner{
 	padding:29px 11px 20px;
 	border-radius:6px;
-	border:var(--border);
+	border:1px solid transparent;
 	box-shadow:none;
 	margin-top:-13px;
-	background:var(--background-secondary);
+	/* background:var(--background-secondary); */
 }
 .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner{
 	background:var(--background-primary);
+	border:var(--border);
+	box-shadow:var(--panel-shadow);
 }
 .workspace-split.mod-vertical.mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner{
 	background:var(--background-modifier-hover);
