@@ -23,6 +23,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":47.03580063858296}"
+                    },
+                    {
                       "title": "概念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1097,7 +1103,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/工具.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1429,7 +1435,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                        "file": "笔记/工具/工具.md"
                       }
                     }
                   }
@@ -1454,7 +1460,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/工具.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1485,7 +1491,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/工具.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1816,8 +1822,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/概念/概念.md",
