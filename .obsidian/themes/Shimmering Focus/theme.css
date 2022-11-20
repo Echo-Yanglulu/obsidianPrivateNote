@@ -1,6 +1,6 @@
 /* ───────────────────────────────────────────────────
 /* SHIMMERING FOCUS by @pseudometa
-Version 3.225
+Version 3.226
 Source CSS: https://github.com/chrisgrieser/shimmering-focus/blob/main/source.css
 MIT License
 ──────────────────────────────────────────────────── */
@@ -448,7 +448,7 @@ settings:
   -
    id: private-mode
    title: Private Mode
-   description: When enabled, all notes with the cssclass 'private' will be garbled. This setting is meant to be enabled temporarily during video calls. Install Supercharged Links and add 'cssclass' as a target attribute to also garble any links and occurences in the File Explorer and Quick Switcher.
+   description: When enabled, all notes with the cssclass 'private' will be garbled. This setting is meant to be enabled temporarily during screen sharing. Install Supercharged Links and add 'cssclass' as a target attribute to also garble any links and occurences in the File Explorer and Quick Switcher. Note that note contents can still show up in views and sidebars created from plugins.
    type: class-toggle
    default: false
   -
