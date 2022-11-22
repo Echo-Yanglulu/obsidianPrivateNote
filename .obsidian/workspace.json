@@ -1409,7 +1409,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 5
           },
           {
             "id": "03555132cbcc4348",
@@ -1435,7 +1436,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/smart原则.md"
+                        "file": "笔记/工具/哲学/Untitled Diagram.svg"
                       }
                     }
                   }
@@ -1460,7 +1461,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/smart原则.md",
+                        "file": "笔记/工具/哲学/Untitled Diagram.svg",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1491,7 +1492,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/smart原则.md",
+                    "file": "笔记/工具/哲学/Untitled Diagram.svg",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1817,20 +1818,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f18c3ea0091ceefd",
+  "active": "6a5e997fff0d96e3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/时间管理.md",
     "笔记/工具/工具.md",
+    "笔记/工具/smart原则.md",
+    "笔记/工具/时间管理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/哲学/逻辑学/逻辑方法.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/科学/科学.md"
+    "笔记/工具/思考/基本概念/思维.md"
   ]
 }
