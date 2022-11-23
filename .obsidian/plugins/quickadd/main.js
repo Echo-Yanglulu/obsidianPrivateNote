@@ -5,40 +5,11 @@ if you want to view the source, please visit the github repository of this plugi
 
 var __create = Object.create;
 var __defProp = Object.defineProperty;
-var __defProps = Object.defineProperties;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __propIsEnum = Object.prototype.propertyIsEnumerable;
-var __reflectGet = Reflect.get;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __spreadValues = (a, b) => {
-  for (var prop in b || (b = {}))
-    if (__hasOwnProp.call(b, prop))
-      __defNormalProp(a, prop, b[prop]);
-  if (__getOwnPropSymbols)
-    for (var prop of __getOwnPropSymbols(b)) {
-      if (__propIsEnum.call(b, prop))
-        __defNormalProp(a, prop, b[prop]);
-    }
-  return a;
-};
-var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
-var __objRest = (source, exclude) => {
-  var target = {};
-  for (var prop in source)
-    if (__hasOwnProp.call(source, prop) && exclude.indexOf(prop) < 0)
-      target[prop] = source[prop];
-  if (source != null && __getOwnPropSymbols)
-    for (var prop of __getOwnPropSymbols(source)) {
-      if (exclude.indexOf(prop) < 0 && __propIsEnum.call(source, prop))
-        target[prop] = source[prop];
-    }
-  return target;
-};
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
@@ -59,26 +30,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var __superGet = (cls, obj, key) => __reflectGet(__getProtoOf(cls), key, obj);
-var __async = (__this, __arguments, generator) => {
-  return new Promise((resolve, reject) => {
-    var fulfilled = (value) => {
-      try {
-        step(generator.next(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var rejected = (value) => {
-      try {
-        step(generator.throw(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-    step((generator = generator.apply(__this, __arguments)).next());
-  });
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
 };
 
 // node_modules/.pnpm/tslib@2.4.1/node_modules/tslib/tslib.js
@@ -26941,7 +26895,7 @@ function dndzone(node, options) {
     e.stopPropagation();
     const c = e.touches ? e.touches[0] : e;
     dragStartMousePosition = { x: c.clientX, y: c.clientY };
-    currentMousePosition = __spreadValues({}, dragStartMousePosition);
+    currentMousePosition = { ...dragStartMousePosition };
     originalDragTarget = e.currentTarget;
     addMaybeListeners();
   }
@@ -26954,10 +26908,10 @@ function dndzone(node, options) {
     const rootNode = originDropZone.getRootNode();
     const originDropZoneRoot = rootNode.body || rootNode;
     const { items, type, centreDraggedOnCursor } = config;
-    draggedElData = __spreadValues({}, items[currentIdx]);
+    draggedElData = { ...items[currentIdx] };
     draggedElType = type;
-    shadowElData = __spreadProps(__spreadValues({}, draggedElData), { [SHADOW_ITEM_MARKER_PROPERTY_NAME]: true });
-    const placeHolderElData = __spreadProps(__spreadValues({}, shadowElData), { [ITEM_ID_KEY]: SHADOW_PLACEHOLDER_ITEM_ID });
+    shadowElData = { ...draggedElData, [SHADOW_ITEM_MARKER_PROPERTY_NAME]: true };
+    const placeHolderElData = { ...shadowElData, [ITEM_ID_KEY]: SHADOW_PLACEHOLDER_ITEM_ID };
     draggedEl = createDraggedElementFrom(originalDragTarget, centreDraggedOnCursor && currentMousePosition);
     function keepOriginalElementInDom() {
       if (!draggedEl.parentElement) {
@@ -27127,15 +27081,12 @@ function initAria() {
   } else {
     window.addEventListener("DOMContentLoaded", initAriaOnBrowser);
   }
-  return __spreadValues({}, INSTRUCTION_IDs);
+  return { ...INSTRUCTION_IDs };
 }
 function destroyAria() {
   if (isOnServer || !alertsDiv)
     return;
-  Object.keys(ID_TO_INSTRUCTION).forEach((id) => {
-    var _a;
-    return (_a = document.getElementById(id)) == null ? void 0 : _a.remove();
-  });
+  Object.keys(ID_TO_INSTRUCTION).forEach((id) => document.getElementById(id)?.remove());
   alertsDiv.remove();
   alertsDiv = void 0;
 }
@@ -27498,7 +27449,7 @@ function dndzone3(node, options) {
   };
 }
 function validateOptions(options) {
-  const _a = options, {
+  const {
     items,
     flipDurationMs,
     type,
@@ -27510,21 +27461,9 @@ function validateOptions(options) {
     dropTargetClasses,
     transformDraggedElement,
     autoAriaDisabled,
-    centreDraggedOnCursor
-  } = _a, rest = __objRest(_a, [
-    "items",
-    "flipDurationMs",
-    "type",
-    "dragDisabled",
-    "morphDisabled",
-    "dropFromOthersDisabled",
-    "zoneTabIndex",
-    "dropTargetStyle",
-    "dropTargetClasses",
-    "transformDraggedElement",
-    "autoAriaDisabled",
-    "centreDraggedOnCursor"
-  ]);
+    centreDraggedOnCursor,
+    ...rest
+  } = options;
   if (Object.keys(rest).length > 0) {
     console.warn(`dndzone will ignore unknown options`, rest);
   }
@@ -28145,6 +28084,10 @@ var v4_default = v4;
 
 // src/types/choices/Choice.ts
 var Choice = class {
+  id;
+  name;
+  type;
+  command;
   constructor(name, type) {
     this.id = v4_default();
     this.name = name;
@@ -28155,6 +28098,14 @@ var Choice = class {
 
 // src/types/choices/TemplateChoice.ts
 var TemplateChoice = class extends Choice {
+  appendLink;
+  fileNameFormat;
+  folder;
+  incrementFileName;
+  openFileInNewTab;
+  openFile;
+  openFileInMode;
+  templatePath;
   constructor(name) {
     super(name, "Template" /* Template */);
     this.templatePath = "";
@@ -28173,6 +28124,8 @@ var TemplateChoice = class extends Choice {
 
 // src/types/choices/MacroChoice.ts
 var MacroChoice = class extends Choice {
+  macro;
+  macroId;
   constructor(name) {
     super(name, "Macro" /* Macro */);
     this.macroId = null;
@@ -28181,6 +28134,17 @@ var MacroChoice = class extends Choice {
 
 // src/types/choices/CaptureChoice.ts
 var CaptureChoice = class extends Choice {
+  appendLink;
+  captureTo;
+  captureToActiveFile;
+  createFileIfItDoesntExist;
+  format;
+  insertAfter;
+  prepend;
+  task;
+  openFileInNewTab;
+  openFile;
+  openFileInMode;
   constructor(name) {
     super(name, "Capture" /* Capture */);
     this.appendLink = false;
@@ -28202,9 +28166,10 @@ var CaptureChoice = class extends Choice {
 
 // src/types/choices/MultiChoice.ts
 var MultiChoice = class extends Choice {
+  choices = [];
+  collapsed;
   constructor(name) {
     super(name, "Multi" /* Multi */);
-    this.choices = [];
   }
   addChoice(choice) {
     this.choices.push(choice);
@@ -28223,7 +28188,6 @@ var GenericYesNoPrompt = class extends import_obsidian2.Modal {
     super(app);
     this.header = header;
     this.text = text2;
-    this.didSubmit = false;
     this.waitForClose = new Promise(
       (resolve, reject) => {
         this.resolvePromise = resolve;
@@ -28233,6 +28197,11 @@ var GenericYesNoPrompt = class extends import_obsidian2.Modal {
     this.open();
     this.display();
   }
+  resolvePromise;
+  rejectPromise;
+  input;
+  waitForClose;
+  didSubmit = false;
   static Prompt(app, header, text2) {
     const newPromptModal = new GenericYesNoPrompt(app, header, text2);
     return newPromptModal.waitForClose;
@@ -29850,6 +29819,11 @@ var wrapAround = (value, size) => {
   return (value % size + size) % size;
 };
 var Suggest = class {
+  owner;
+  values;
+  suggestions;
+  selectedItem;
+  containerEl;
   constructor(owner, containerEl, scope) {
     this.owner = owner;
     this.containerEl = containerEl;
@@ -29914,8 +29888,8 @@ var Suggest = class {
     const normalizedIndex = wrapAround(selectedIndex, this.suggestions.length);
     const prevSelectedSuggestion = this.suggestions[this.selectedItem];
     const selectedSuggestion = this.suggestions[normalizedIndex];
-    prevSelectedSuggestion == null ? void 0 : prevSelectedSuggestion.removeClass("is-selected");
-    selectedSuggestion == null ? void 0 : selectedSuggestion.addClass("is-selected");
+    prevSelectedSuggestion?.removeClass("is-selected");
+    selectedSuggestion?.addClass("is-selected");
     this.selectedItem = normalizedIndex;
     if (scrollIntoView) {
       selectedSuggestion.scrollIntoView(false);
@@ -29923,6 +29897,12 @@ var Suggest = class {
   }
 };
 var TextInputSuggest = class {
+  app;
+  inputEl;
+  popper;
+  scope;
+  suggestEl;
+  suggest;
   constructor(app, inputEl) {
     this.app = app;
     this.inputEl = inputEl;
@@ -30198,7 +30178,12 @@ var AdvancedOptions = {
   ignoreFieldNorm: false,
   fieldNormWeight: 1
 };
-var Config = __spreadValues(__spreadValues(__spreadValues(__spreadValues({}, BasicOptions), MatchOptions), FuzzyOptions), AdvancedOptions);
+var Config = {
+  ...BasicOptions,
+  ...MatchOptions,
+  ...FuzzyOptions,
+  ...AdvancedOptions
+};
 var SPACE = /[^ ]+/g;
 function norm(weight = 1, mantissa = 3) {
   const cache = /* @__PURE__ */ new Map();
@@ -31104,7 +31089,7 @@ function format2(results, docs, {
 }
 var Fuse = class {
   constructor(docs, options = {}, index) {
-    this.options = __spreadValues(__spreadValues({}, Config), options);
+    this.options = { ...Config, ...options };
     if (this.options.useExtendedSearch && false) {
       throw new Error(EXTENDED_SEARCH_UNAVAILABLE);
     }
@@ -31336,9 +31321,8 @@ function buildFileMap(files, unresolvedLinkNames) {
   return fileMap;
 }
 function getAliasesForFile(file, app) {
-  var _a, _b, _c, _d;
   const fileMetadata = app.metadataCache.getFileCache(file);
-  const fileMetaAlias = (_d = (_c = (_a = fileMetadata == null ? void 0 : fileMetadata.frontmatter) == null ? void 0 : _a.alias) != null ? _c : (_b = fileMetadata == null ? void 0 : fileMetadata.frontmatter) == null ? void 0 : _b.aliases) != null ? _d : "";
+  const fileMetaAlias = fileMetadata?.frontmatter?.alias ?? fileMetadata?.frontmatter?.aliases ?? "";
   let aliases = [];
   if (typeof fileMetaAlias === "string" && fileMetaAlias) {
     aliases.push(fileMetaAlias);
@@ -31348,20 +31332,22 @@ function getAliasesForFile(file, app) {
       aliases.push(...filteredAliases);
     }
   }
-  return __spreadProps(__spreadValues({}, file), { alias: aliases });
+  return { ...file, alias: aliases };
 }
 var SilentFileSuggester = class extends TextInputSuggest {
   constructor(app, inputEl) {
     super(app, inputEl);
     this.app = app;
     this.inputEl = inputEl;
-    this.lastInput = "";
     const filesAndAliases = app.vault.getMarkdownFiles().map((file) => getAliasesForFile(file, app));
     const unresolvedLinkNames = this.getUnresolvedLinkNames(app);
     const fileAndAliasMap = buildFileMap(filesAndAliases, unresolvedLinkNames);
     this.fileNames = [...fileAndAliasMap.keys()];
     this.fileMap = fileAndAliasMap;
   }
+  lastInput = "";
+  fileNames;
+  fileMap;
   getSuggestions(inputStr) {
     const cursorPosition = this.inputEl.selectionStart;
     const inputBeforeCursor = inputStr.substr(0, cursorPosition);
@@ -31383,19 +31369,18 @@ var SilentFileSuggester = class extends TextInputSuggest {
     return search2;
   }
   renderSuggestion(item, el) {
-    var _a, _b, _c;
     const suggestionItem = this.fileMap.get(item);
     switch (suggestionItem.type) {
       case 0 /* File */:
         el.innerHTML = `
-                    <span class="suggestion-main-text">${(_a = suggestionItem == null ? void 0 : suggestionItem.file) == null ? void 0 : _a.basename}</span>
-                    <span class="suggestion-sub-text">${(_b = suggestionItem == null ? void 0 : suggestionItem.file) == null ? void 0 : _b.path}</span>
+                    <span class="suggestion-main-text">${suggestionItem?.file?.basename}</span>
+                    <span class="suggestion-sub-text">${suggestionItem?.file?.path}</span>
                 `;
         break;
       case 1 /* Alias */:
         el.innerHTML = `
                     <span class="suggestion-main-text">${item}</span>
-                    <span class="suggestion-sub-text">${(_c = suggestionItem == null ? void 0 : suggestionItem.file) == null ? void 0 : _c.path}</span>
+                    <span class="suggestion-sub-text">${suggestionItem?.file?.path}</span>
                 `;
         break;
       case 2 /* Unresolved */:
@@ -31420,9 +31405,9 @@ var SilentFileSuggester = class extends TextInputSuggest {
     let insertedEndPosition = 0;
     const suggestionItem = this.fileMap.get(item);
     if (suggestionItem.type === 0 /* File */) {
-      insertedEndPosition = this.makeLinkObsidianMethod(suggestionItem == null ? void 0 : suggestionItem.file, currentInputValue, cursorPosition, lastInputLength);
+      insertedEndPosition = this.makeLinkObsidianMethod(suggestionItem?.file, currentInputValue, cursorPosition, lastInputLength);
     } else if (suggestionItem.type === 1 /* Alias */) {
-      insertedEndPosition = this.makeLinkObsidianMethod(suggestionItem == null ? void 0 : suggestionItem.file, currentInputValue, cursorPosition, lastInputLength, item);
+      insertedEndPosition = this.makeLinkObsidianMethod(suggestionItem?.file, currentInputValue, cursorPosition, lastInputLength, item);
     } else {
       insertedEndPosition = this.makeLinkManually(currentInputValue, item.replace(/.md$/, ""), cursorPosition, lastInputLength);
     }
@@ -31432,7 +31417,7 @@ var SilentFileSuggester = class extends TextInputSuggest {
   }
   makeLinkObsidianMethod(linkFile, currentInputValue, cursorPosition, lastInputLength, alias) {
     const file = this.app.vault.getAbstractFileByPath(linkFile.path);
-    const link = this.app.fileManager.generateMarkdownLink(file, "", "", alias != null ? alias : "");
+    const link = this.app.fileManager.generateMarkdownLink(file, "", "", alias ?? "");
     this.inputEl.value = this.getNewInputValueForFileLink(currentInputValue, link, cursorPosition, lastInputLength);
     return cursorPosition - lastInputLength + link.length + 2;
   }
@@ -31464,9 +31449,10 @@ var SilentTagSuggester = class extends TextInputSuggest {
     super(app, inputEl);
     this.app = app;
     this.inputEl = inputEl;
-    this.lastInput = "";
     this.tags = Object.keys(app.metadataCache.getTags());
   }
+  lastInput = "";
+  tags;
   getSuggestions(inputStr) {
     const cursorPosition = this.inputEl.selectionStart;
     const inputBeforeCursor = inputStr.substr(0, cursorPosition);
@@ -31505,15 +31491,6 @@ var GenericInputPrompt = class extends import_obsidian4.Modal {
   constructor(app, header, placeholder, value) {
     super(app);
     this.header = header;
-    this.didSubmit = false;
-    this.submitClickCallback = (evt) => this.submit();
-    this.cancelClickCallback = (evt) => this.cancel();
-    this.submitEnterCallback = (evt) => {
-      if (evt.key === "Enter") {
-        evt.preventDefault();
-        this.submit();
-      }
-    };
     this.placeholder = placeholder;
     this.input = value;
     this.waitForClose = new Promise(
@@ -31527,6 +31504,15 @@ var GenericInputPrompt = class extends import_obsidian4.Modal {
     this.fileSuggester = new SilentFileSuggester(app, this.inputComponent.inputEl);
     this.tagSuggester = new SilentTagSuggester(app, this.inputComponent.inputEl);
   }
+  waitForClose;
+  resolvePromise;
+  rejectPromise;
+  didSubmit = false;
+  inputComponent;
+  input;
+  placeholder;
+  fileSuggester;
+  tagSuggester;
   static Prompt(app, header, placeholder, value) {
     const newPromptModal = new GenericInputPrompt(app, header, placeholder, value);
     return newPromptModal.waitForClose;
@@ -31542,7 +31528,7 @@ var GenericInputPrompt = class extends import_obsidian4.Modal {
   createInputField(container, placeholder, value) {
     const textComponent = new import_obsidian4.TextComponent(container);
     textComponent.inputEl.style.width = "100%";
-    textComponent.setPlaceholder(placeholder != null ? placeholder : "").setValue(value != null ? value : "").onChange((value2) => this.input = value2).inputEl.addEventListener("keydown", this.submitEnterCallback);
+    textComponent.setPlaceholder(placeholder ?? "").setValue(value ?? "").onChange((value2) => this.input = value2).inputEl.addEventListener("keydown", this.submitEnterCallback);
     return textComponent;
   }
   createButton(container, text2, callback) {
@@ -31559,6 +31545,14 @@ var GenericInputPrompt = class extends import_obsidian4.Modal {
     buttonBarContainer.style.justifyContent = "flex-start";
     buttonBarContainer.style.marginTop = "1rem";
   }
+  submitClickCallback = (evt) => this.submit();
+  cancelClickCallback = (evt) => this.cancel();
+  submitEnterCallback = (evt) => {
+    if (evt.key === "Enter") {
+      evt.preventDefault();
+      this.submit();
+    }
+  };
   submit() {
     this.didSubmit = true;
     this.close();
@@ -31604,7 +31598,7 @@ var _LogManager = class {
   }
 };
 var LogManager = _LogManager;
-LogManager.loggers = [];
+__publicField(LogManager, "loggers", []);
 var log = new LogManager();
 
 // src/gui/suggesters/genericTextSuggester.ts
@@ -31623,7 +31617,7 @@ var GenericTextSuggester = class extends TextInputSuggest {
     });
     if (!filtered)
       this.close();
-    if ((filtered == null ? void 0 : filtered.length) > 0)
+    if (filtered?.length > 0)
       return filtered;
     return [];
   }
@@ -31640,10 +31634,14 @@ var GenericTextSuggester = class extends TextInputSuggest {
 
 // src/gui/ChoiceBuilder/choiceBuilder.ts
 var ChoiceBuilder = class extends import_obsidian5.Modal {
+  resolvePromise;
+  rejectPromise;
+  input;
+  waitForClose;
+  didSubmit = false;
+  svelteElements = [];
   constructor(app) {
     super(app);
-    this.didSubmit = false;
-    this.svelteElements = [];
     this.waitForClose = new Promise(
       (resolve, reject) => {
         this.resolvePromise = resolve;
@@ -31672,9 +31670,9 @@ var ChoiceBuilder = class extends import_obsidian5.Modal {
   addCenteredChoiceNameHeader(choice) {
     const headerEl = this.contentEl.createEl("h2", { cls: "choiceNameHeader" });
     headerEl.setText(choice.name);
-    headerEl.addEventListener("click", (ev) => __async(this, null, function* () {
+    headerEl.addEventListener("click", async (ev) => {
       try {
-        const newName = yield GenericInputPrompt.Prompt(this.app, choice.name, "Choice name", choice.name);
+        const newName = await GenericInputPrompt.Prompt(this.app, choice.name, "Choice name", choice.name);
         if (newName !== choice.name) {
           choice.name = newName;
           headerEl.setText(newName);
@@ -31682,7 +31680,7 @@ var ChoiceBuilder = class extends import_obsidian5.Modal {
       } catch (e) {
         log.logMessage(`No new name given for ${choice.name}`);
       }
-    }));
+    });
   }
   onClose() {
     super.onClose();
@@ -31891,25 +31889,21 @@ var import_obsidian6 = require("obsidian");
 function getTemplater(app) {
   return app.plugins.plugins["templater-obsidian"];
 }
-function replaceTemplaterTemplatesInCreatedFile(app, file, force = false) {
-  return __async(this, null, function* () {
-    const templater = getTemplater(app);
-    if (templater && (force || !(templater == null ? void 0 : templater.settings["trigger_on_file_creation"]))) {
-      const active_file = app.workspace.getActiveFile();
-      yield templater.templater.overwrite_file_commands(file);
-    }
-  });
+async function replaceTemplaterTemplatesInCreatedFile(app, file, force = false) {
+  const templater = getTemplater(app);
+  if (templater && (force || !templater?.settings["trigger_on_file_creation"])) {
+    const active_file = app.workspace.getActiveFile();
+    await templater.templater.overwrite_file_commands(file);
+  }
 }
-function templaterParseTemplate(app, templateContent, targetFile) {
-  return __async(this, null, function* () {
-    const templater = getTemplater(app);
-    if (!templater)
-      return templateContent;
-    return yield templater.templater.parse_template(
-      { target_file: targetFile, run_mode: 4 },
-      templateContent
-    );
-  });
+async function templaterParseTemplate(app, templateContent, targetFile) {
+  const templater = getTemplater(app);
+  if (!templater)
+    return templateContent;
+  return await templater.templater.parse_template(
+    { target_file: targetFile, run_mode: 4 },
+    templateContent
+  );
 }
 function getCoreTemplatesPath(app) {
   const internalTemplatePlugin = app.internalPlugins.plugins.templates;
@@ -31946,10 +31940,10 @@ function getNaturalLanguageDates(app) {
 }
 function getDate(input) {
   let duration;
-  if ((input == null ? void 0 : input.offset) !== null && (input == null ? void 0 : input.offset) !== void 0 && typeof input.offset === "number") {
+  if (input?.offset !== null && input?.offset !== void 0 && typeof input.offset === "number") {
     duration = window.moment.duration(input.offset, "days");
   }
-  return (input == null ? void 0 : input.format) ? window.moment().add(duration).format(input.format) : window.moment().add(duration).format("YYYY-MM-DD");
+  return input?.format ? window.moment().add(duration).format(input.format) : window.moment().add(duration).format("YYYY-MM-DD");
 }
 function appendToCurrentLine(toAppend, app) {
   try {
@@ -31959,7 +31953,7 @@ function appendToCurrentLine(toAppend, app) {
       return;
     }
     activeView.editor.replaceSelection(toAppend);
-  } catch (e) {
+  } catch {
     log.logError(`unable to append '${toAppend}' to current line.`);
   }
 }
@@ -31999,66 +31993,63 @@ function getLinesInString(input) {
 function escapeRegExp(text2) {
   return text2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 }
-function openFile(app, file, optional) {
-  return __async(this, null, function* () {
-    let leaf;
-    if (optional.openInNewTab && optional.direction) {
-      leaf = app.workspace.getLeaf("split", optional.direction);
-    } else {
-      leaf = app.workspace.getLeaf("tab");
-    }
-    yield leaf.openFile(file);
-    if (optional == null ? void 0 : optional.focus) {
-      app.workspace.setActiveLeaf(leaf, { focus: optional.focus });
-    }
-    if (optional == null ? void 0 : optional.mode) {
-      const leafViewState = leaf.getViewState();
-      leaf.setViewState(__spreadProps(__spreadValues({}, leafViewState), {
-        state: __spreadProps(__spreadValues({}, leafViewState.state), {
-          mode: optional.mode
-        })
-      }));
-    }
-  });
-}
-function getUserScript(command, app) {
-  return __async(this, null, function* () {
-    const file = app.vault.getAbstractFileByPath(command.path);
-    if (!file) {
-      log.logError(`failed to load file ${command.path}.`);
-      return;
-    }
-    if (file instanceof import_obsidian6.TFile) {
-      let req = (s) => window.require && window.require(s);
-      let exp = {};
-      let mod = { exports: exp };
-      const fileContent = yield app.vault.read(file);
-      const fn2 = window.eval(
-        `(function(require, module, exports) { ${fileContent} 
-})`
-      );
-      fn2(req, mod, exp);
-      const userScript = exp["default"] || mod.exports;
-      if (!userScript)
-        return;
-      let script = userScript;
-      const { memberAccess } = getUserScriptMemberAccess(command.name);
-      if (memberAccess && memberAccess.length > 0) {
-        let member;
-        while (member = memberAccess.shift()) {
-          script = script[member];
-        }
+async function openFile(app, file, optional) {
+  let leaf;
+  if (optional.openInNewTab && optional.direction) {
+    leaf = app.workspace.getLeaf("split", optional.direction);
+  } else {
+    leaf = app.workspace.getLeaf("tab");
+  }
+  await leaf.openFile(file);
+  if (optional?.focus) {
+    app.workspace.setActiveLeaf(leaf, { focus: optional.focus });
+  }
+  if (optional?.mode) {
+    const leafViewState = leaf.getViewState();
+    leaf.setViewState({
+      ...leafViewState,
+      state: {
+        ...leafViewState.state,
+        mode: optional.mode
       }
-      return script;
+    });
+  }
+}
+async function getUserScript(command, app) {
+  const file = app.vault.getAbstractFileByPath(command.path);
+  if (!file) {
+    log.logError(`failed to load file ${command.path}.`);
+    return;
+  }
+  if (file instanceof import_obsidian6.TFile) {
+    let req = (s) => window.require && window.require(s);
+    let exp = {};
+    let mod = { exports: exp };
+    const fileContent = await app.vault.read(file);
+    const fn2 = window.eval(
+      `(function(require, module, exports) { ${fileContent} 
+})`
+    );
+    fn2(req, mod, exp);
+    const userScript = exp["default"] || mod.exports;
+    if (!userScript)
+      return;
+    let script = userScript;
+    const { memberAccess } = getUserScriptMemberAccess(command.name);
+    if (memberAccess && memberAccess.length > 0) {
+      let member;
+      while (member = memberAccess.shift()) {
+        script = script[member];
+      }
     }
-  });
+    return script;
+  }
 }
 
 // src/formatters/formatter.ts
 var Formatter = class {
-  constructor() {
-    this.variables = /* @__PURE__ */ new Map();
-  }
+  value;
+  variables = /* @__PURE__ */ new Map();
   replacer(str, reg, replaceValue) {
     return str.replace(reg, function() {
       return replaceValue;
@@ -32093,105 +32084,91 @@ var Formatter = class {
     }
     return output;
   }
-  replaceValueInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (NAME_VALUE_REGEX.test(output)) {
-        if (!this.value)
-          this.value = yield this.promptForValue();
-        output = this.replacer(output, NAME_VALUE_REGEX, this.value);
-      }
-      return output;
-    });
+  async replaceValueInString(input) {
+    let output = input;
+    while (NAME_VALUE_REGEX.test(output)) {
+      if (!this.value)
+        this.value = await this.promptForValue();
+      output = this.replacer(output, NAME_VALUE_REGEX, this.value);
+    }
+    return output;
   }
-  replaceLinkToCurrentFileInString(input) {
-    return __async(this, null, function* () {
-      const currentFilePathLink = this.getCurrentFileLink();
-      let output = input;
-      while (LINK_TO_CURRENT_FILE_REGEX.test(output))
-        output = this.replacer(output, LINK_TO_CURRENT_FILE_REGEX, currentFilePathLink);
-      return output;
-    });
+  async replaceLinkToCurrentFileInString(input) {
+    const currentFilePathLink = this.getCurrentFileLink();
+    let output = input;
+    while (LINK_TO_CURRENT_FILE_REGEX.test(output))
+      output = this.replacer(output, LINK_TO_CURRENT_FILE_REGEX, currentFilePathLink);
+    return output;
   }
-  replaceVariableInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (VARIABLE_REGEX.test(output)) {
-        const match = VARIABLE_REGEX.exec(output);
-        if (!match)
-          throw new Error("unable to parse variable");
-        const variableName = match[1];
-        if (variableName) {
-          if (!this.getVariableValue(variableName)) {
-            const suggestedValues = variableName.split(",");
-            if (suggestedValues.length === 1)
-              this.variables.set(variableName, yield this.promptForVariable(variableName));
-            else
-              this.variables.set(variableName, yield this.suggestForValue(suggestedValues));
-          }
-          output = this.replacer(output, VARIABLE_REGEX, this.getVariableValue(variableName));
-        } else {
-          break;
+  async replaceVariableInString(input) {
+    let output = input;
+    while (VARIABLE_REGEX.test(output)) {
+      const match = VARIABLE_REGEX.exec(output);
+      if (!match)
+        throw new Error("unable to parse variable");
+      const variableName = match[1];
+      if (variableName) {
+        if (!this.getVariableValue(variableName)) {
+          const suggestedValues = variableName.split(",");
+          if (suggestedValues.length === 1)
+            this.variables.set(variableName, await this.promptForVariable(variableName));
+          else
+            this.variables.set(variableName, await this.suggestForValue(suggestedValues));
         }
+        output = this.replacer(output, VARIABLE_REGEX, this.getVariableValue(variableName));
+      } else {
+        break;
       }
-      return output;
-    });
+    }
+    return output;
   }
-  replaceMathValueInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (MATH_VALUE_REGEX.test(output)) {
-        const mathstr = yield this.promptForMathValue();
-        output = this.replacer(output, MATH_VALUE_REGEX, mathstr);
-      }
-      return output;
-    });
+  async replaceMathValueInString(input) {
+    let output = input;
+    while (MATH_VALUE_REGEX.test(output)) {
+      const mathstr = await this.promptForMathValue();
+      output = this.replacer(output, MATH_VALUE_REGEX, mathstr);
+    }
+    return output;
   }
-  replaceMacrosInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (MACRO_REGEX.test(output)) {
-        const macroName = MACRO_REGEX.exec(output)[1];
-        const macroOutput = yield this.getMacroValue(macroName);
-        output = this.replacer(output, MACRO_REGEX, macroOutput ? macroOutput.toString() : "");
-      }
-      return output;
-    });
+  async replaceMacrosInString(input) {
+    let output = input;
+    while (MACRO_REGEX.test(output)) {
+      const macroName = MACRO_REGEX.exec(output)[1];
+      const macroOutput = await this.getMacroValue(macroName);
+      output = this.replacer(output, MACRO_REGEX, macroOutput ? macroOutput.toString() : "");
+    }
+    return output;
   }
-  replaceDateVariableInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (DATE_VARIABLE_REGEX.test(output)) {
-        const match = DATE_VARIABLE_REGEX.exec(output);
-        const variableName = match[1];
-        const dateFormat = match[2];
-        if (variableName && dateFormat) {
-          if (!this.variables.get(variableName)) {
-            this.variables.set(variableName, yield this.promptForVariable(variableName));
-            const parseAttempt = this.getNaturalLanguageDates().parseDate(this.variables.get(variableName));
-            if (parseAttempt)
-              this.variables.set(variableName, parseAttempt.moment.format(dateFormat));
-            else
-              throw new Error(`unable to parse date variable ${this.variables.get(variableName)}`);
-          }
-          output = this.replacer(output, DATE_VARIABLE_REGEX, this.variables.get(variableName));
-        } else {
-          break;
+  async replaceDateVariableInString(input) {
+    let output = input;
+    while (DATE_VARIABLE_REGEX.test(output)) {
+      const match = DATE_VARIABLE_REGEX.exec(output);
+      const variableName = match[1];
+      const dateFormat = match[2];
+      if (variableName && dateFormat) {
+        if (!this.variables.get(variableName)) {
+          this.variables.set(variableName, await this.promptForVariable(variableName));
+          const parseAttempt = this.getNaturalLanguageDates().parseDate(this.variables.get(variableName));
+          if (parseAttempt)
+            this.variables.set(variableName, parseAttempt.moment.format(dateFormat));
+          else
+            throw new Error(`unable to parse date variable ${this.variables.get(variableName)}`);
         }
+        output = this.replacer(output, DATE_VARIABLE_REGEX, this.variables.get(variableName));
+      } else {
+        break;
       }
-      return output;
-    });
+    }
+    return output;
   }
-  replaceTemplateInString(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      while (TEMPLATE_REGEX.test(output)) {
-        const templatePath = TEMPLATE_REGEX.exec(output)[1];
-        const templateContent = yield this.getTemplateContent(templatePath);
-        output = this.replacer(output, TEMPLATE_REGEX, templateContent);
-      }
-      return output;
-    });
+  async replaceTemplateInString(input) {
+    let output = input;
+    while (TEMPLATE_REGEX.test(output)) {
+      const templatePath = TEMPLATE_REGEX.exec(output)[1];
+      const templateContent = await this.getTemplateContent(templatePath);
+      output = this.replacer(output, TEMPLATE_REGEX, templateContent);
+    }
+    return output;
   }
   replaceLinebreakInString(input) {
     let output = input;
@@ -32215,16 +32192,14 @@ var FileNameDisplayFormatter = class extends Formatter {
     super();
     this.app = app;
   }
-  format(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      output = yield this.replaceMacrosInString(output);
-      output = this.replaceDateInString(output);
-      output = yield this.replaceValueInString(output);
-      output = yield this.replaceDateVariableInString(output);
-      output = yield this.replaceVariableInString(output);
-      return `File Name: ${output}`;
-    });
+  async format(input) {
+    let output = input;
+    output = await this.replaceMacrosInString(output);
+    output = this.replaceDateInString(output);
+    output = await this.replaceValueInString(output);
+    output = await this.replaceDateVariableInString(output);
+    output = await this.replaceVariableInString(output);
+    return `File Name: ${output}`;
   }
   promptForValue(header) {
     return `FileName`;
@@ -32233,8 +32208,7 @@ var FileNameDisplayFormatter = class extends Formatter {
     return variableName;
   }
   getCurrentFileLink() {
-    var _a, _b;
-    return (_b = (_a = this.app.workspace.getActiveFile()) == null ? void 0 : _a.path) != null ? _b : "";
+    return this.app.workspace.getActiveFile()?.path ?? "";
   }
   getNaturalLanguageDates() {
     return getNaturalLanguageDates(this.app);
@@ -32248,20 +32222,14 @@ var FileNameDisplayFormatter = class extends Formatter {
   getMacroValue(macroName) {
     return `_macro: ${macroName}`;
   }
-  promptForVariable(variableName) {
-    return __async(this, null, function* () {
-      return `_${variableName}_`;
-    });
+  async promptForVariable(variableName) {
+    return `_${variableName}_`;
   }
-  getTemplateContent(templatePath) {
-    return __async(this, null, function* () {
-      return `/${templatePath}/`;
-    });
+  async getTemplateContent(templatePath) {
+    return `/${templatePath}/`;
   }
-  getSelectedText() {
-    return __async(this, null, function* () {
-      return "_selected_";
-    });
+  async getSelectedText() {
+    return "_selected_";
   }
 };
 
@@ -32273,10 +32241,13 @@ var FormatSyntaxSuggester = class extends TextInputSuggest {
     this.inputEl = inputEl;
     this.plugin = plugin;
     this.suggestForFileNames = suggestForFileNames;
-    this.lastInput = "";
     this.macroNames = this.plugin.settings.macros.map((macro) => macro.name);
     this.templatePaths = getTemplatePaths(this.app);
   }
+  lastInput = "";
+  lastInputType;
+  macroNames;
+  templatePaths;
   getSuggestions(inputStr) {
     const cursorPosition = this.inputEl.selectionStart;
     const lookbehind = 15;
@@ -32391,6 +32362,7 @@ var TemplateChoiceBuilder = class extends ChoiceBuilder {
     this.choice = choice;
     this.display();
   }
+  choice;
   display() {
     this.containerEl.addClass("templateChoiceBuilder");
     this.addCenteredChoiceNameHeader(this.choice);
@@ -32425,22 +32397,19 @@ var TemplateChoiceBuilder = class extends ChoiceBuilder {
     });
     const formatDisplay = this.contentEl.createEl("span");
     const displayFormatter = new FileNameDisplayFormatter(this.app);
-    (() => __async(this, null, function* () {
-      return formatDisplay.textContent = yield displayFormatter.format(this.choice.fileNameFormat.format);
-    }))();
+    (async () => formatDisplay.textContent = await displayFormatter.format(this.choice.fileNameFormat.format))();
     const formatInput = new import_obsidian7.TextComponent(this.contentEl);
     formatInput.setPlaceholder("File name format");
     textField = formatInput;
     formatInput.inputEl.style.width = "100%";
     formatInput.inputEl.style.marginBottom = "8px";
-    formatInput.setValue(this.choice.fileNameFormat.format).setDisabled(!this.choice.fileNameFormat.enabled).onChange((value) => __async(this, null, function* () {
+    formatInput.setValue(this.choice.fileNameFormat.format).setDisabled(!this.choice.fileNameFormat.enabled).onChange(async (value) => {
       this.choice.fileNameFormat.format = value;
-      formatDisplay.textContent = yield displayFormatter.format(value);
-    }));
+      formatDisplay.textContent = await displayFormatter.format(value);
+    });
     new FormatSyntaxSuggester(this.app, textField.inputEl, this.plugin, true);
   }
   addFolderSetting() {
-    var _a, _b, _c, _d;
     const folderSetting = new import_obsidian7.Setting(this.contentEl);
     folderSetting.setName("Create in folder").setDesc("Create the file in the specified folder. If multiple folders are specified, you will be prompted for which folder to create the file in.").addToggle((toggle) => {
       toggle.setValue(this.choice.folder.enabled);
@@ -32450,28 +32419,25 @@ var TemplateChoiceBuilder = class extends ChoiceBuilder {
       });
     });
     if (this.choice.folder.enabled) {
-      if (!((_a = this.choice.folder) == null ? void 0 : _a.createInSameFolderAsActiveFile)) {
+      if (!this.choice.folder?.createInSameFolderAsActiveFile) {
         const chooseFolderWhenCreatingNoteContainer = this.contentEl.createDiv("chooseFolderWhenCreatingNoteContainer");
         chooseFolderWhenCreatingNoteContainer.createEl("span", { text: "Choose folder when creating a new note" });
         const chooseFolderWhenCreatingNote = new import_obsidian7.ToggleComponent(chooseFolderWhenCreatingNoteContainer);
-        chooseFolderWhenCreatingNote.setValue((_b = this.choice.folder) == null ? void 0 : _b.chooseWhenCreatingNote).onChange((value) => {
+        chooseFolderWhenCreatingNote.setValue(this.choice.folder?.chooseWhenCreatingNote).onChange((value) => {
           this.choice.folder.chooseWhenCreatingNote = value;
           this.reload();
         });
-        if (!((_c = this.choice.folder) == null ? void 0 : _c.chooseWhenCreatingNote)) {
+        if (!this.choice.folder?.chooseWhenCreatingNote) {
           this.addFolderSelector();
         }
       }
-      if (!((_d = this.choice.folder) == null ? void 0 : _d.chooseWhenCreatingNote)) {
+      if (!this.choice.folder?.chooseWhenCreatingNote) {
         const createInSameFolderAsActiveFileSetting = new import_obsidian7.Setting(this.contentEl);
         createInSameFolderAsActiveFileSetting.setName("Create in same folder as active file").setDesc("Creates the file in the same folder as the currently active file. Will not create the file if there is no active file.").addToggle(
-          (toggle) => {
-            var _a2;
-            return toggle.setValue((_a2 = this.choice.folder) == null ? void 0 : _a2.createInSameFolderAsActiveFile).onChange((value) => {
-              this.choice.folder.createInSameFolderAsActiveFile = value;
-              this.reload();
-            });
-          }
+          (toggle) => toggle.setValue(this.choice.folder?.createInSameFolderAsActiveFile).onChange((value) => {
+            this.choice.folder.createInSameFolderAsActiveFile = value;
+            this.reload();
+          })
         );
       }
     }
@@ -32573,56 +32539,49 @@ var import_obsidian18 = require("obsidian");
 // src/engine/QuickAddEngine.ts
 var import_obsidian8 = require("obsidian");
 var QuickAddEngine = class {
+  app;
   constructor(app) {
     this.app = app;
   }
-  createFolder(folder) {
-    return __async(this, null, function* () {
-      const folderExists = yield this.app.vault.adapter.exists(folder);
-      if (!folderExists) {
-        yield this.app.vault.createFolder(folder);
-      }
-    });
+  async createFolder(folder) {
+    const folderExists = await this.app.vault.adapter.exists(folder);
+    if (!folderExists) {
+      await this.app.vault.createFolder(folder);
+    }
   }
   formatFilePath(folderPath, fileName) {
     const actualFolderPath = folderPath ? `${folderPath}/` : "";
     const formattedFileName = fileName.replace(MARKDOWN_FILE_EXTENSION_REGEX, "");
     return `${actualFolderPath}${formattedFileName}.md`;
   }
-  fileExists(filePath) {
-    return __async(this, null, function* () {
-      return yield this.app.vault.adapter.exists(filePath);
-    });
+  async fileExists(filePath) {
+    return await this.app.vault.adapter.exists(filePath);
   }
-  getFileByPath(filePath) {
-    return __async(this, null, function* () {
-      const file = yield this.app.vault.getAbstractFileByPath(filePath);
-      if (!file) {
-        log.logError(`${filePath} not found`);
-        throw new Error(`${filePath} not found`);
-      }
-      if (file instanceof import_obsidian8.TFolder) {
-        log.logError(`${filePath} found but it's a folder`);
-        throw new Error(`${filePath} found but it's a folder`);
-      }
-      if (!(file instanceof import_obsidian8.TFile))
-        throw new Error(`${filePath} is not a file`);
-      return file;
-    });
+  async getFileByPath(filePath) {
+    const file = await this.app.vault.getAbstractFileByPath(filePath);
+    if (!file) {
+      log.logError(`${filePath} not found`);
+      throw new Error(`${filePath} not found`);
+    }
+    if (file instanceof import_obsidian8.TFolder) {
+      log.logError(`${filePath} found but it's a folder`);
+      throw new Error(`${filePath} found but it's a folder`);
+    }
+    if (!(file instanceof import_obsidian8.TFile))
+      throw new Error(`${filePath} is not a file`);
+    return file;
   }
-  createFileWithInput(filePath, fileContent) {
-    return __async(this, null, function* () {
-      const dirMatch = filePath.match(/(.*)[\/\\]/);
-      let dirName = "";
-      if (dirMatch)
-        dirName = dirMatch[1];
-      if (yield this.app.vault.adapter.exists(dirName)) {
-        return yield this.app.vault.create(filePath, fileContent);
-      } else {
-        yield this.createFolder(dirName);
-        return yield this.app.vault.create(filePath, fileContent);
-      }
-    });
+  async createFileWithInput(filePath, fileContent) {
+    const dirMatch = filePath.match(/(.*)[\/\\]/);
+    let dirName = "";
+    if (dirMatch)
+      dirName = dirMatch[1];
+    if (await this.app.vault.adapter.exists(dirName)) {
+      return await this.app.vault.create(filePath, fileContent);
+    } else {
+      await this.createFolder(dirName);
+      return await this.app.vault.create(filePath, fileContent);
+    }
   }
 };
 
@@ -32641,6 +32600,10 @@ var GenericSuggester = class extends import_obsidian9.FuzzySuggestModal {
     );
     this.open();
   }
+  resolvePromise;
+  rejectPromise;
+  promise;
+  resolved;
   static Suggest(app, displayItems, items) {
     const newSuggester = new GenericSuggester(app, displayItems, items);
     return newSuggester.promise;
@@ -32686,6 +32649,11 @@ var GenericCheckboxPrompt = class extends import_obsidian10.Modal {
     this.display();
     this.open();
   }
+  resolvePromise;
+  rejectPromise;
+  promise;
+  resolved;
+  _selectedItems;
   static Open(app, items, selectedItems) {
     const newSuggester = new GenericCheckboxPrompt(app, items, selectedItems);
     return newSuggester.promise;
@@ -32738,15 +32706,6 @@ var GenericWideInputPrompt = class extends import_obsidian11.Modal {
   constructor(app, header, placeholder, value) {
     super(app);
     this.header = header;
-    this.didSubmit = false;
-    this.submitClickCallback = (evt) => this.submit();
-    this.cancelClickCallback = (evt) => this.cancel();
-    this.submitEnterCallback = (evt) => {
-      if ((evt.ctrlKey || evt.metaKey) && evt.key === "Enter") {
-        evt.preventDefault();
-        this.submit();
-      }
-    };
     this.placeholder = placeholder;
     this.input = value;
     this.waitForClose = new Promise(
@@ -32760,6 +32719,15 @@ var GenericWideInputPrompt = class extends import_obsidian11.Modal {
     this.fileSuggester = new SilentFileSuggester(app, this.inputComponent.inputEl);
     this.tagSuggester = new SilentTagSuggester(app, this.inputComponent.inputEl);
   }
+  waitForClose;
+  resolvePromise;
+  rejectPromise;
+  didSubmit = false;
+  inputComponent;
+  input;
+  placeholder;
+  fileSuggester;
+  tagSuggester;
   static Prompt(app, header, placeholder, value) {
     const newPromptModal = new GenericWideInputPrompt(app, header, placeholder, value);
     return newPromptModal.waitForClose;
@@ -32775,7 +32743,7 @@ var GenericWideInputPrompt = class extends import_obsidian11.Modal {
   createInputField(container, placeholder, value) {
     const textComponent = new import_obsidian11.TextAreaComponent(container);
     textComponent.inputEl.classList.add("wideInputPromptInputEl");
-    textComponent.setPlaceholder(placeholder != null ? placeholder : "").setValue(value != null ? value : "").onChange((value2) => this.input = value2).inputEl.addEventListener("keydown", this.submitEnterCallback);
+    textComponent.setPlaceholder(placeholder ?? "").setValue(value ?? "").onChange((value2) => this.input = value2).inputEl.addEventListener("keydown", this.submitEnterCallback);
     return textComponent;
   }
   createButton(container, text2, callback) {
@@ -32792,6 +32760,14 @@ var GenericWideInputPrompt = class extends import_obsidian11.Modal {
     buttonBarContainer.style.justifyContent = "flex-start";
     buttonBarContainer.style.marginTop = "1rem";
   }
+  submitClickCallback = (evt) => this.submit();
+  cancelClickCallback = (evt) => this.cancel();
+  submitEnterCallback = (evt) => {
+    if ((evt.ctrlKey || evt.metaKey) && evt.key === "Enter") {
+      evt.preventDefault();
+      this.submit();
+    }
+  };
   submit() {
     this.didSubmit = true;
     this.close();
@@ -32839,7 +32815,7 @@ var QuickAddApi = class {
       checkboxPrompt: (items, selectedItems) => {
         return this.checkboxPrompt(app, items, selectedItems);
       },
-      executeChoice: (choiceName, variables) => __async(this, null, function* () {
+      executeChoice: async (choiceName, variables) => {
         const choice = plugin.getChoiceByName(choiceName);
         if (!choice)
           log.logError(`choice named '${choiceName}' not found`);
@@ -32848,19 +32824,19 @@ var QuickAddApi = class {
             choiceExecutor.variables.set(key, variables[key]);
           });
         }
-        yield choiceExecutor.execute(choice);
+        await choiceExecutor.execute(choice);
         choiceExecutor.variables.clear();
-      }),
-      format: (input) => __async(this, null, function* () {
+      },
+      format: async (input) => {
         return new CompleteFormatter(app, plugin, choiceExecutor).formatFileContent(input);
-      }),
+      },
       utility: {
-        getClipboard: () => __async(this, null, function* () {
-          return yield navigator.clipboard.readText();
-        }),
-        setClipboard: (text2) => __async(this, null, function* () {
-          return yield navigator.clipboard.writeText(text2);
-        }),
+        getClipboard: async () => {
+          return await navigator.clipboard.readText();
+        },
+        setClipboard: async (text2) => {
+          return await navigator.clipboard.writeText(text2);
+        },
         getSelectedText: () => {
           const activeView = app.workspace.getActiveViewOfType(import_obsidian12.MarkdownView);
           if (!activeView) {
@@ -32887,56 +32863,46 @@ var QuickAddApi = class {
       }
     };
   }
-  static inputPrompt(app, header, placeholder, value) {
-    return __async(this, null, function* () {
-      try {
-        return yield GenericInputPrompt.Prompt(app, header, placeholder, value);
-      } catch (e) {
-        return void 0;
-      }
-    });
+  static async inputPrompt(app, header, placeholder, value) {
+    try {
+      return await GenericInputPrompt.Prompt(app, header, placeholder, value);
+    } catch {
+      return void 0;
+    }
   }
-  static wideInputPrompt(app, header, placeholder, value) {
-    return __async(this, null, function* () {
-      try {
-        return yield GenericWideInputPrompt.Prompt(app, header, placeholder, value);
-      } catch (e) {
-        return void 0;
-      }
-    });
+  static async wideInputPrompt(app, header, placeholder, value) {
+    try {
+      return await GenericWideInputPrompt.Prompt(app, header, placeholder, value);
+    } catch {
+      return void 0;
+    }
   }
-  static yesNoPrompt(app, header, text2) {
-    return __async(this, null, function* () {
-      try {
-        return yield GenericYesNoPrompt.Prompt(app, header, text2);
-      } catch (e) {
-        return void 0;
-      }
-    });
+  static async yesNoPrompt(app, header, text2) {
+    try {
+      return await GenericYesNoPrompt.Prompt(app, header, text2);
+    } catch {
+      return void 0;
+    }
   }
-  static suggester(app, displayItems, actualItems) {
-    return __async(this, null, function* () {
-      try {
-        let displayedItems;
-        if (typeof displayItems === "function") {
-          displayedItems = actualItems.map(displayItems);
-        } else {
-          displayedItems = displayItems;
-        }
-        return yield GenericSuggester.Suggest(app, displayedItems, actualItems);
-      } catch (e) {
-        return void 0;
+  static async suggester(app, displayItems, actualItems) {
+    try {
+      let displayedItems;
+      if (typeof displayItems === "function") {
+        displayedItems = actualItems.map(displayItems);
+      } else {
+        displayedItems = displayItems;
       }
-    });
+      return await GenericSuggester.Suggest(app, displayedItems, actualItems);
+    } catch {
+      return void 0;
+    }
   }
-  static checkboxPrompt(app, items, selectedItems) {
-    return __async(this, null, function* () {
-      try {
-        return yield GenericCheckboxPrompt.Open(app, items, selectedItems);
-      } catch (e) {
-        return void 0;
-      }
-    });
+  static async checkboxPrompt(app, items, selectedItems) {
+    try {
+      return await GenericCheckboxPrompt.Open(app, items, selectedItems);
+    } catch {
+      return void 0;
+    }
   }
 };
 
@@ -32946,6 +32912,9 @@ var QuickAddChoiceEngine = class extends QuickAddEngine {
 
 // src/types/macros/Command.ts
 var Command = class {
+  name;
+  type;
+  id;
   constructor(name, type) {
     this.name = name;
     this.type = type;
@@ -32956,6 +32925,7 @@ var Command = class {
 // src/types/macros/EditorCommands/EditorCommand.ts
 var import_obsidian13 = require("obsidian");
 var EditorCommand = class extends Command {
+  editorCommandType;
   constructor(type) {
     super(type, "EditorCommand" /* EditorCommand */);
     this.editorCommandType = type;
@@ -32978,17 +32948,15 @@ var CutCommand = class extends EditorCommand {
   constructor() {
     super("Cut" /* Cut */);
   }
-  static run(app) {
-    return __async(this, null, function* () {
-      const selectedText = EditorCommand.getSelectedText(app);
-      const activeView = EditorCommand.getActiveMarkdownView(app);
-      if (!selectedText) {
-        log.logError("nothing selected.");
-        return;
-      }
-      yield navigator.clipboard.writeText(selectedText);
-      activeView.editor.replaceSelection("");
-    });
+  static async run(app) {
+    const selectedText = EditorCommand.getSelectedText(app);
+    const activeView = EditorCommand.getActiveMarkdownView(app);
+    if (!selectedText) {
+      log.logError("nothing selected.");
+      return;
+    }
+    await navigator.clipboard.writeText(selectedText);
+    activeView.editor.replaceSelection("");
   }
 };
 
@@ -32997,11 +32965,9 @@ var CopyCommand = class extends EditorCommand {
   constructor() {
     super("Copy" /* Copy */);
   }
-  static run(app) {
-    return __async(this, null, function* () {
-      const selectedText = EditorCommand.getSelectedText(app);
-      yield navigator.clipboard.writeText(selectedText);
-    });
+  static async run(app) {
+    const selectedText = EditorCommand.getSelectedText(app);
+    await navigator.clipboard.writeText(selectedText);
   }
 };
 
@@ -33010,16 +32976,14 @@ var PasteCommand = class extends EditorCommand {
   constructor() {
     super("Paste" /* Paste */);
   }
-  static run(app) {
-    return __async(this, null, function* () {
-      const clipboard = yield navigator.clipboard.readText();
-      const activeView = EditorCommand.getActiveMarkdownView(app);
-      if (!activeView) {
-        log.logError("no active markdown view.");
-        return;
-      }
-      activeView.editor.replaceSelection(clipboard);
-    });
+  static async run(app) {
+    const clipboard = await navigator.clipboard.readText();
+    const activeView = EditorCommand.getActiveMarkdownView(app);
+    if (!activeView) {
+      log.logError("no active markdown view.");
+      return;
+    }
+    activeView.editor.replaceSelection(clipboard);
   }
 };
 
@@ -33042,25 +33006,30 @@ var SelectLinkOnActiveLineCommand = class extends EditorCommand {
   constructor() {
     super("Select link on active line" /* SelectLinkOnActiveLine */);
   }
-  static run(app) {
-    return __async(this, null, function* () {
-      const activeView = EditorCommand.getActiveMarkdownView(app);
-      const { line: lineNumber } = activeView.editor.getCursor();
-      const line = activeView.editor.getLine(lineNumber);
-      const match = WIKI_LINK_REGEX.exec(line);
-      if (!match) {
-        log.logError(`no internal link found on line ${lineNumber}.`);
-        return;
-      }
-      const matchStart = match.index;
-      const matchEnd = match[0].length + matchStart;
-      activeView.editor.setSelection({ line: lineNumber, ch: matchStart }, { line: lineNumber, ch: matchEnd });
-    });
+  static async run(app) {
+    const activeView = EditorCommand.getActiveMarkdownView(app);
+    const { line: lineNumber } = activeView.editor.getCursor();
+    const line = activeView.editor.getLine(lineNumber);
+    const match = WIKI_LINK_REGEX.exec(line);
+    if (!match) {
+      log.logError(`no internal link found on line ${lineNumber}.`);
+      return;
+    }
+    const matchStart = match.index;
+    const matchEnd = match[0].length + matchStart;
+    activeView.editor.setSelection({ line: lineNumber, ch: matchStart }, { line: lineNumber, ch: matchEnd });
   }
 };
 
 // src/engine/MacroChoiceEngine.ts
 var MacroChoiceEngine = class extends QuickAddChoiceEngine {
+  choice;
+  params;
+  output;
+  macros;
+  choiceExecutor;
+  plugin;
+  userScriptCommand;
   constructor(app, plugin, choice, macros, choiceExecutor, variables) {
     super(app);
     this.choice = choice;
@@ -33073,207 +33042,183 @@ var MacroChoiceEngine = class extends QuickAddChoiceEngine {
       variables: {},
       obsidian
     };
-    variables == null ? void 0 : variables.forEach((value, key) => {
+    variables?.forEach((value, key) => {
       this.params.variables[key] = value;
     });
   }
-  run() {
-    return __async(this, null, function* () {
-      var _a, _b, _c;
-      const macroId = (_c = this.choice.macroId) != null ? _c : (_b = (_a = this.choice) == null ? void 0 : _a.macro) == null ? void 0 : _b.id;
-      const macro = this.macros.find((m) => m.id === macroId);
-      if (!macro || !(macro == null ? void 0 : macro.commands)) {
+  async run() {
+    const macroId = this.choice.macroId ?? this.choice?.macro?.id;
+    const macro = this.macros.find((m) => m.id === macroId);
+    if (!macro || !macro?.commands) {
+      log.logError(
+        `No commands in the selected macro. Did you select a macro for '${this.choice.name}'?`
+      );
+      return;
+    }
+    await this.executeCommands(macro.commands);
+  }
+  async executeCommands(commands2) {
+    for (const command of commands2) {
+      if (command?.type === "Obsidian" /* Obsidian */)
+        await this.executeObsidianCommand(command);
+      if (command?.type === "UserScript" /* UserScript */)
+        await this.executeUserScript(command);
+      if (command?.type === "Choice" /* Choice */)
+        await this.executeChoice(command);
+      if (command?.type === "Wait" /* Wait */) {
+        const waitCommand = command;
+        await waitFor(waitCommand.time);
+      }
+      if (command?.type === "NestedChoice" /* NestedChoice */) {
+        await this.executeNestedChoice(command);
+      }
+      if (command?.type === "EditorCommand" /* EditorCommand */) {
+        await this.executeEditorCommand(command);
+      }
+      Object.keys(this.params.variables).forEach((key) => {
+        this.choiceExecutor.variables.set(
+          key,
+          this.params.variables[key]
+        );
+      });
+    }
+  }
+  async executeUserScript(command) {
+    const userScript = await getUserScript(command, this.app);
+    if (!userScript) {
+      log.logError(`failed to load user script ${command.path}.`);
+      return;
+    }
+    if (userScript.settings) {
+      this.userScriptCommand = command;
+    }
+    await this.userScriptDelegator(userScript);
+    if (this.userScriptCommand)
+      this.userScriptCommand = null;
+  }
+  async runScriptWithSettings(userScript, command) {
+    if (userScript.entry) {
+      await this.onExportIsFunction(userScript.entry, command.settings);
+    } else {
+      await this.onExportIsFunction(userScript, command.settings);
+    }
+  }
+  async userScriptDelegator(userScript) {
+    switch (typeof userScript) {
+      case "function":
+        if (this.userScriptCommand) {
+          await this.runScriptWithSettings(
+            userScript,
+            this.userScriptCommand
+          );
+        } else {
+          await this.onExportIsFunction(userScript);
+        }
+        break;
+      case "object":
+        await this.onExportIsObject(userScript);
+        break;
+      case "bigint":
+      case "boolean":
+      case "number":
+      case "string":
+        this.output = userScript.toString();
+        break;
+      default:
         log.logError(
-          `No commands in the selected macro. Did you select a macro for '${this.choice.name}'?`
+          `user script in macro for '${this.choice.name}' is invalid`
         );
-        return;
-      }
-      yield this.executeCommands(macro.commands);
-    });
+    }
   }
-  executeCommands(commands2) {
-    return __async(this, null, function* () {
-      for (const command of commands2) {
-        if ((command == null ? void 0 : command.type) === "Obsidian" /* Obsidian */)
-          yield this.executeObsidianCommand(command);
-        if ((command == null ? void 0 : command.type) === "UserScript" /* UserScript */)
-          yield this.executeUserScript(command);
-        if ((command == null ? void 0 : command.type) === "Choice" /* Choice */)
-          yield this.executeChoice(command);
-        if ((command == null ? void 0 : command.type) === "Wait" /* Wait */) {
-          const waitCommand = command;
-          yield waitFor(waitCommand.time);
-        }
-        if ((command == null ? void 0 : command.type) === "NestedChoice" /* NestedChoice */) {
-          yield this.executeNestedChoice(command);
-        }
-        if ((command == null ? void 0 : command.type) === "EditorCommand" /* EditorCommand */) {
-          yield this.executeEditorCommand(command);
-        }
-        Object.keys(this.params.variables).forEach((key) => {
-          this.choiceExecutor.variables.set(
-            key,
-            this.params.variables[key]
-          );
-        });
-      }
-    });
+  async onExportIsFunction(userScript, settings) {
+    this.output = await userScript(this.params, settings);
   }
-  executeUserScript(command) {
-    return __async(this, null, function* () {
-      const userScript = yield getUserScript(command, this.app);
-      if (!userScript) {
-        log.logError(`failed to load user script ${command.path}.`);
-        return;
-      }
-      if (userScript.settings) {
-        this.userScriptCommand = command;
-      }
-      yield this.userScriptDelegator(userScript);
-      if (this.userScriptCommand)
-        this.userScriptCommand = null;
-    });
-  }
-  runScriptWithSettings(userScript, command) {
-    return __async(this, null, function* () {
-      if (userScript.entry) {
-        yield this.onExportIsFunction(userScript.entry, command.settings);
-      } else {
-        yield this.onExportIsFunction(userScript, command.settings);
-      }
-    });
-  }
-  userScriptDelegator(userScript) {
-    return __async(this, null, function* () {
-      switch (typeof userScript) {
-        case "function":
-          if (this.userScriptCommand) {
-            yield this.runScriptWithSettings(
-              userScript,
-              this.userScriptCommand
-            );
-          } else {
-            yield this.onExportIsFunction(userScript);
-          }
-          break;
-        case "object":
-          yield this.onExportIsObject(userScript);
-          break;
-        case "bigint":
-        case "boolean":
-        case "number":
-        case "string":
-          this.output = userScript.toString();
-          break;
-        default:
-          log.logError(
-            `user script in macro for '${this.choice.name}' is invalid`
-          );
-      }
-    });
-  }
-  onExportIsFunction(userScript, settings) {
-    return __async(this, null, function* () {
-      this.output = yield userScript(this.params, settings);
-    });
-  }
-  onExportIsObject(obj) {
-    return __async(this, null, function* () {
-      if (this.userScriptCommand && obj.entry !== null) {
-        yield this.runScriptWithSettings(obj, this.userScriptCommand);
-        return;
-      }
-      try {
-        const keys = Object.keys(obj);
-        const selected = yield GenericSuggester.Suggest(
-          this.app,
-          keys,
-          keys
-        );
-        yield this.userScriptDelegator(obj[selected]);
-      } catch (e) {
-        log.logMessage(e);
-      }
-    });
+  async onExportIsObject(obj) {
+    if (this.userScriptCommand && obj.entry !== null) {
+      await this.runScriptWithSettings(obj, this.userScriptCommand);
+      return;
+    }
+    try {
+      const keys = Object.keys(obj);
+      const selected = await GenericSuggester.Suggest(
+        this.app,
+        keys,
+        keys
+      );
+      await this.userScriptDelegator(obj[selected]);
+    } catch (e) {
+      log.logMessage(e);
+    }
   }
   executeObsidianCommand(command) {
     this.app.commands.executeCommandById(command.commandId);
   }
-  executeChoice(command) {
-    return __async(this, null, function* () {
-      const targetChoice = this.plugin.getChoiceById(
-        command.choiceId
-      );
-      if (!targetChoice) {
-        log.logError("choice could not be found.");
-        return;
-      }
-      yield this.choiceExecutor.execute(targetChoice);
-    });
+  async executeChoice(command) {
+    const targetChoice = this.plugin.getChoiceById(
+      command.choiceId
+    );
+    if (!targetChoice) {
+      log.logError("choice could not be found.");
+      return;
+    }
+    await this.choiceExecutor.execute(targetChoice);
   }
-  executeNestedChoice(command) {
-    return __async(this, null, function* () {
-      const choice = command.choice;
-      if (!choice) {
-        log.logError(`choice in ${command.name} is invalid`);
-        return;
-      }
-      yield this.choiceExecutor.execute(choice);
-    });
+  async executeNestedChoice(command) {
+    const choice = command.choice;
+    if (!choice) {
+      log.logError(`choice in ${command.name} is invalid`);
+      return;
+    }
+    await this.choiceExecutor.execute(choice);
   }
-  executeEditorCommand(command) {
-    return __async(this, null, function* () {
-      switch (command.editorCommandType) {
-        case "Cut" /* Cut */:
-          yield CutCommand.run(this.app);
-          break;
-        case "Copy" /* Copy */:
-          yield CopyCommand.run(this.app);
-          break;
-        case "Paste" /* Paste */:
-          yield PasteCommand.run(this.app);
-          break;
-        case "Select active line" /* SelectActiveLine */:
-          yield SelectActiveLineCommand.run(this.app);
-          break;
-        case "Select link on active line" /* SelectLinkOnActiveLine */:
-          yield SelectLinkOnActiveLineCommand.run(this.app);
-          break;
-      }
-    });
+  async executeEditorCommand(command) {
+    switch (command.editorCommandType) {
+      case "Cut" /* Cut */:
+        await CutCommand.run(this.app);
+        break;
+      case "Copy" /* Copy */:
+        await CopyCommand.run(this.app);
+        break;
+      case "Paste" /* Paste */:
+        await PasteCommand.run(this.app);
+        break;
+      case "Select active line" /* SelectActiveLine */:
+        await SelectActiveLineCommand.run(this.app);
+        break;
+      case "Select link on active line" /* SelectLinkOnActiveLine */:
+        await SelectLinkOnActiveLineCommand.run(this.app);
+        break;
+    }
   }
 };
 
 // src/engine/SingleMacroEngine.ts
 var SingleMacroEngine = class extends MacroChoiceEngine {
+  memberAccess;
   constructor(app, plugin, macros, choiceExecutor, variables) {
     super(app, plugin, null, macros, choiceExecutor, variables);
   }
-  runAndGetOutput(macroName) {
-    return __async(this, null, function* () {
-      const { basename, memberAccess } = getUserScriptMemberAccess(macroName);
-      const macro = this.macros.find((macro2) => macro2.name === basename);
-      if (!macro) {
-        log.logError(`macro '${macroName}' does not exist.`);
-        throw new Error(`macro '${macroName}' does not exist.`);
-      }
-      if (memberAccess && memberAccess.length > 0) {
-        this.memberAccess = memberAccess;
-      }
-      yield this.executeCommands(macro.commands);
-      return this.output;
-    });
+  async runAndGetOutput(macroName) {
+    const { basename, memberAccess } = getUserScriptMemberAccess(macroName);
+    const macro = this.macros.find((macro2) => macro2.name === basename);
+    if (!macro) {
+      log.logError(`macro '${macroName}' does not exist.`);
+      throw new Error(`macro '${macroName}' does not exist.`);
+    }
+    if (memberAccess && memberAccess.length > 0) {
+      this.memberAccess = memberAccess;
+    }
+    await this.executeCommands(macro.commands);
+    return this.output;
   }
-  onExportIsObject(obj) {
-    return __async(this, null, function* () {
-      if (!this.memberAccess)
-        return yield __superGet(SingleMacroEngine.prototype, this, "onExportIsObject").call(this, obj);
-      let newObj = obj;
-      this.memberAccess.forEach((key) => {
-        newObj = newObj[key];
-      });
-      yield this.userScriptDelegator(newObj);
+  async onExportIsObject(obj) {
+    if (!this.memberAccess)
+      return await super.onExportIsObject(obj);
+    let newObj = obj;
+    this.memberAccess.forEach((key) => {
+      newObj = newObj[key];
     });
+    await this.userScriptDelegator(newObj);
   }
 };
 
@@ -33285,15 +33230,11 @@ var SingleInlineScriptEngine = class extends MacroChoiceEngine {
   constructor(app, plugin, choiceExecutor, variables) {
     super(app, plugin, null, null, choiceExecutor, variables);
   }
-  runAndGetOutput(code) {
-    return __async(this, null, function* () {
-      const AsyncFunction = Object.getPrototypeOf(function() {
-        return __async(this, null, function* () {
-        });
-      }).constructor;
-      const userCode = new AsyncFunction(code);
-      return yield userCode.bind(this.params, this).call();
-    });
+  async runAndGetOutput(code) {
+    const AsyncFunction = Object.getPrototypeOf(async function() {
+    }).constructor;
+    const userCode = new AsyncFunction(code);
+    return await userCode.bind(this.params, this).call();
   }
 };
 
@@ -34078,16 +34019,18 @@ var LaTeXSuggester = class extends TextInputSuggest {
   constructor(inputEl) {
     super(QuickAdd.instance.app, inputEl);
     this.inputEl = inputEl;
-    this.lastInput = "";
     this.symbols = Object.assign([], LaTeXSymbols);
     this.elementsRendered = this.symbols.reduce((elements, symbol) => {
       try {
         elements[symbol.toString()] = (0, import_obsidian14.renderMath)(symbol, true);
-      } catch (e) {
+      } catch {
       }
       return elements;
     }, {});
   }
+  lastInput = "";
+  symbols;
+  elementsRendered;
   getSuggestions(inputStr) {
     const cursorPosition = this.inputEl.selectionStart;
     const inputBeforeCursor = inputStr.substr(0, cursorPosition);
@@ -34131,20 +34074,25 @@ var LaTeXSuggester = class extends TextInputSuggest {
 
 // src/gui/MathModal.ts
 var MathModal = class extends import_obsidian15.Modal {
+  waitForClose;
+  resolvePromise;
+  rejectPromise;
+  inputEl;
+  didSubmit = false;
+  keybindListener = (evt) => {
+    if (evt.ctrlKey && evt.key === "Enter") {
+      this.submit();
+    }
+    if (evt.key === "Tab") {
+      evt.preventDefault();
+      this.cursorToGoTo();
+    }
+  };
+  static Prompt() {
+    return new MathModal().waitForClose;
+  }
   constructor() {
     super(QuickAdd.instance.app);
-    this.didSubmit = false;
-    this.keybindListener = (evt) => {
-      if (evt.ctrlKey && evt.key === "Enter") {
-        this.submit();
-      }
-      if (evt.key === "Tab") {
-        evt.preventDefault();
-        this.cursorToGoTo();
-      }
-    };
-    this.submitClickCallback = (evt) => this.submit();
-    this.cancelClickCallback = (evt) => this.cancel();
     this.open();
     this.display();
     this.waitForClose = new Promise(
@@ -34157,9 +34105,6 @@ var MathModal = class extends import_obsidian15.Modal {
     this.inputEl.focus();
     this.inputEl.select();
   }
-  static Prompt() {
-    return new MathModal().waitForClose;
-  }
   display() {
     this.containerEl.addClass("quickAddModal", "qaMathModal");
     this.contentEl.empty();
@@ -34169,25 +34114,19 @@ var MathModal = class extends import_obsidian15.Modal {
     tc.inputEl.style.width = "100%";
     tc.inputEl.style.height = "10rem";
     this.inputEl = tc.inputEl;
-    tc.onChange((0, import_obsidian15.debounce)((value) => __async(this, null, function* () {
-      return yield this.mathjaxLoop(mathDiv, value);
-    }), 50));
+    tc.onChange((0, import_obsidian15.debounce)(async (value) => await this.mathjaxLoop(mathDiv, value), 50));
     tc.inputEl.addEventListener("keydown", this.keybindListener);
     this.createButtonBar(this.contentEl.createDiv());
   }
-  onOpen() {
-    return __async(this, null, function* () {
-      __superGet(MathModal.prototype, this, "onOpen").call(this);
-      yield (0, import_obsidian15.loadMathJax)();
-    });
+  async onOpen() {
+    super.onOpen();
+    await (0, import_obsidian15.loadMathJax)();
   }
-  mathjaxLoop(container, value) {
-    return __async(this, null, function* () {
-      const html = (0, import_obsidian15.renderMath)(value, true);
-      yield (0, import_obsidian15.finishRenderMath)();
-      container.empty();
-      container.append(html);
-    });
+  async mathjaxLoop(container, value) {
+    const html = (0, import_obsidian15.renderMath)(value, true);
+    await (0, import_obsidian15.finishRenderMath)();
+    container.empty();
+    container.append(html);
   }
   cursorToGoTo() {
     if (this.inputEl.value.contains(LATEX_CURSOR_MOVE_HERE)) {
@@ -34210,6 +34149,8 @@ var MathModal = class extends import_obsidian15.Modal {
     buttonBarContainer.style.justifyContent = "flex-start";
     buttonBarContainer.style.marginTop = "1rem";
   }
+  submitClickCallback = (evt) => this.submit();
+  cancelClickCallback = (evt) => this.cancel();
   removeInputListeners() {
     this.inputEl.removeEventListener("keydown", this.keybindListener);
   }
@@ -34252,40 +34193,33 @@ var CompleteFormatter = class extends Formatter {
     this.app = app;
     this.plugin = plugin;
     this.choiceExecutor = choiceExecutor;
-    this.variables = choiceExecutor == null ? void 0 : choiceExecutor.variables;
+    this.variables = choiceExecutor?.variables;
   }
-  format(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      output = yield this.replaceInlineJavascriptInString(output);
-      output = yield this.replaceMacrosInString(output);
-      output = yield this.replaceTemplateInString(output);
-      output = this.replaceDateInString(output);
-      output = yield this.replaceValueInString(output);
-      output = yield this.replaceDateVariableInString(output);
-      output = yield this.replaceVariableInString(output);
-      output = yield this.replaceMathValueInString(output);
-      return output;
-    });
+  valueHeader;
+  async format(input) {
+    let output = input;
+    output = await this.replaceInlineJavascriptInString(output);
+    output = await this.replaceMacrosInString(output);
+    output = await this.replaceTemplateInString(output);
+    output = this.replaceDateInString(output);
+    output = await this.replaceValueInString(output);
+    output = await this.replaceDateVariableInString(output);
+    output = await this.replaceVariableInString(output);
+    output = await this.replaceMathValueInString(output);
+    return output;
   }
-  formatFileName(input, valueHeader) {
-    return __async(this, null, function* () {
-      this.valueHeader = valueHeader;
-      return yield this.format(input);
-    });
+  async formatFileName(input, valueHeader) {
+    this.valueHeader = valueHeader;
+    return await this.format(input);
   }
-  formatFileContent(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      output = yield this.format(output);
-      output = yield this.replaceLinkToCurrentFileInString(output);
-      return output;
-    });
+  async formatFileContent(input) {
+    let output = input;
+    output = await this.format(output);
+    output = await this.replaceLinkToCurrentFileInString(output);
+    return output;
   }
-  formatFolderPath(folderName) {
-    return __async(this, null, function* () {
-      return yield this.format(folderName);
-    });
+  async formatFolderPath(folderName) {
+    return await this.format(folderName);
   }
   getCurrentFileLink() {
     const currentFile = this.app.workspace.getActiveFile();
@@ -34299,73 +34233,54 @@ var CompleteFormatter = class extends Formatter {
   getVariableValue(variableName) {
     return this.variables.get(variableName);
   }
-  promptForValue(header) {
-    return __async(this, null, function* () {
-      var _a;
-      if (!this.value) {
-        const selectedText = yield this.getSelectedText();
-        this.value = selectedText ? selectedText : yield new InputPrompt().factory().Prompt(this.app, (_a = this.valueHeader) != null ? _a : `Enter value`);
-      }
-      return this.value;
-    });
+  async promptForValue(header) {
+    if (!this.value) {
+      const selectedText = await this.getSelectedText();
+      this.value = selectedText ? selectedText : await new InputPrompt().factory().Prompt(this.app, this.valueHeader ?? `Enter value`);
+    }
+    return this.value;
   }
-  promptForVariable(header) {
-    return __async(this, null, function* () {
-      return yield new InputPrompt().factory().Prompt(this.app, header);
-    });
+  async promptForVariable(header) {
+    return await new InputPrompt().factory().Prompt(this.app, header);
   }
-  promptForMathValue() {
-    return __async(this, null, function* () {
-      return yield MathModal.Prompt();
-    });
+  async promptForMathValue() {
+    return await MathModal.Prompt();
   }
-  suggestForValue(suggestedValues) {
-    return __async(this, null, function* () {
-      return yield GenericSuggester.Suggest(this.app, suggestedValues, suggestedValues);
-    });
+  async suggestForValue(suggestedValues) {
+    return await GenericSuggester.Suggest(this.app, suggestedValues, suggestedValues);
   }
-  getMacroValue(macroName) {
-    return __async(this, null, function* () {
-      var _a;
-      const macroEngine = new SingleMacroEngine(this.app, this.plugin, this.plugin.settings.macros, this.choiceExecutor, this.variables);
-      const macroOutput = (_a = yield macroEngine.runAndGetOutput(macroName)) != null ? _a : "";
-      Object.keys(macroEngine.params.variables).forEach((key) => {
-        this.variables.set(key, macroEngine.params.variables[key]);
-      });
-      return macroOutput;
+  async getMacroValue(macroName) {
+    const macroEngine = new SingleMacroEngine(this.app, this.plugin, this.plugin.settings.macros, this.choiceExecutor, this.variables);
+    const macroOutput = await macroEngine.runAndGetOutput(macroName) ?? "";
+    Object.keys(macroEngine.params.variables).forEach((key) => {
+      this.variables.set(key, macroEngine.params.variables[key]);
     });
+    return macroOutput;
   }
-  getTemplateContent(templatePath) {
-    return __async(this, null, function* () {
-      return yield new SingleTemplateEngine(this.app, this.plugin, templatePath, this.choiceExecutor).run();
-    });
+  async getTemplateContent(templatePath) {
+    return await new SingleTemplateEngine(this.app, this.plugin, templatePath, this.choiceExecutor).run();
   }
-  getSelectedText() {
-    return __async(this, null, function* () {
-      const activeView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
-      if (!activeView)
-        return "";
-      return activeView.editor.getSelection();
-    });
+  async getSelectedText() {
+    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+    if (!activeView)
+      return "";
+    return activeView.editor.getSelection();
   }
-  replaceInlineJavascriptInString(input) {
-    return __async(this, null, function* () {
-      var _a;
-      let output = input;
-      while (INLINE_JAVASCRIPT_REGEX.test(output)) {
-        const match = INLINE_JAVASCRIPT_REGEX.exec(output);
-        const code = (_a = match[1]) == null ? void 0 : _a.trim();
-        if (code) {
-          const executor = new SingleInlineScriptEngine(this.app, this.plugin, this.choiceExecutor, this.variables);
-          const outVal = yield executor.runAndGetOutput(code);
-          for (let key in executor.params.variables) {
-            this.variables.set(key, executor.params.variables[key]);
-          }
-          output = typeof outVal === "string" ? this.replacer(output, INLINE_JAVASCRIPT_REGEX, outVal) : this.replacer(output, INLINE_JAVASCRIPT_REGEX, "");
+  async replaceInlineJavascriptInString(input) {
+    let output = input;
+    while (INLINE_JAVASCRIPT_REGEX.test(output)) {
+      const match = INLINE_JAVASCRIPT_REGEX.exec(output);
+      const code = match[1]?.trim();
+      if (code) {
+        const executor = new SingleInlineScriptEngine(this.app, this.plugin, this.choiceExecutor, this.variables);
+        const outVal = await executor.runAndGetOutput(code);
+        for (let key in executor.params.variables) {
+          this.variables.set(key, executor.params.variables[key]);
         }
+        output = typeof outVal === "string" ? this.replacer(output, INLINE_JAVASCRIPT_REGEX, outVal) : this.replacer(output, INLINE_JAVASCRIPT_REGEX, "");
       }
-      return output;
-    });
+    }
+    return output;
   }
 };
 
@@ -34378,104 +34293,92 @@ var TemplateEngine = class extends QuickAddEngine {
     this.templater = getTemplater(app);
     this.formatter = new CompleteFormatter(app, plugin, choiceFormatter);
   }
-  getOrCreateFolder(folders) {
-    return __async(this, null, function* () {
-      let folderPath;
-      if (folders.length > 1) {
-        folderPath = yield GenericSuggester.Suggest(this.app, folders, folders);
-        if (!folderPath)
-          throw new Error("No folder selected.");
-      } else {
-        folderPath = folders[0];
-      }
-      if (folderPath)
-        yield this.createFolder(folderPath);
-      else
-        folderPath = "";
-      return folderPath;
-    });
+  formatter;
+  templater;
+  async getOrCreateFolder(folders) {
+    let folderPath;
+    if (folders.length > 1) {
+      folderPath = await GenericSuggester.Suggest(this.app, folders, folders);
+      if (!folderPath)
+        throw new Error("No folder selected.");
+    } else {
+      folderPath = folders[0];
+    }
+    if (folderPath)
+      await this.createFolder(folderPath);
+    else
+      folderPath = "";
+    return folderPath;
   }
-  getFormattedFilePath(folderPath, format3, promptHeader) {
-    return __async(this, null, function* () {
-      const formattedName = yield this.formatter.formatFileName(format3, promptHeader);
-      return this.formatFilePath(folderPath, formattedName);
-    });
+  async getFormattedFilePath(folderPath, format3, promptHeader) {
+    const formattedName = await this.formatter.formatFileName(format3, promptHeader);
+    return this.formatFilePath(folderPath, formattedName);
   }
-  incrementFileName(fileName) {
-    return __async(this, null, function* () {
-      const numStr = FILE_NUMBER_REGEX.exec(fileName)[1];
-      const fileExists = yield this.app.vault.adapter.exists(fileName);
-      let newFileName = fileName;
-      if (fileExists && numStr) {
-        const number = parseInt(numStr);
-        if (!number)
-          throw new Error("detected numbers but couldn't get them.");
-        newFileName = newFileName.replace(FILE_NUMBER_REGEX, `${number + 1}.md`);
-      } else if (fileExists) {
-        newFileName = newFileName.replace(FILE_NUMBER_REGEX, `${1}.md`);
-      }
-      const newFileExists = yield this.app.vault.adapter.exists(newFileName);
-      if (newFileExists)
-        newFileName = yield this.incrementFileName(newFileName);
-      return newFileName;
-    });
+  async incrementFileName(fileName) {
+    const numStr = FILE_NUMBER_REGEX.exec(fileName)[1];
+    const fileExists = await this.app.vault.adapter.exists(fileName);
+    let newFileName = fileName;
+    if (fileExists && numStr) {
+      const number = parseInt(numStr);
+      if (!number)
+        throw new Error("detected numbers but couldn't get them.");
+      newFileName = newFileName.replace(FILE_NUMBER_REGEX, `${number + 1}.md`);
+    } else if (fileExists) {
+      newFileName = newFileName.replace(FILE_NUMBER_REGEX, `${1}.md`);
+    }
+    const newFileExists = await this.app.vault.adapter.exists(newFileName);
+    if (newFileExists)
+      newFileName = await this.incrementFileName(newFileName);
+    return newFileName;
   }
-  createFileWithTemplate(filePath, templatePath) {
-    return __async(this, null, function* () {
-      try {
-        const templateContent = yield this.getTemplateContent(templatePath);
-        const formattedTemplateContent = yield this.formatter.formatFileContent(templateContent);
-        const createdFile = yield this.createFileWithInput(filePath, formattedTemplateContent);
-        yield replaceTemplaterTemplatesInCreatedFile(this.app, createdFile);
-        return createdFile;
-      } catch (e) {
-        log.logError(`Could not create file with template. Maybe '${templatePath}' is an invalid template path?`);
-        return null;
-      }
-    });
+  async createFileWithTemplate(filePath, templatePath) {
+    try {
+      const templateContent = await this.getTemplateContent(templatePath);
+      const formattedTemplateContent = await this.formatter.formatFileContent(templateContent);
+      const createdFile = await this.createFileWithInput(filePath, formattedTemplateContent);
+      await replaceTemplaterTemplatesInCreatedFile(this.app, createdFile);
+      return createdFile;
+    } catch (e) {
+      log.logError(`Could not create file with template. Maybe '${templatePath}' is an invalid template path?`);
+      return null;
+    }
   }
-  overwriteFileWithTemplate(file, templatePath) {
-    return __async(this, null, function* () {
-      try {
-        const templateContent = yield this.getTemplateContent(templatePath);
-        const formattedTemplateContent = yield this.formatter.formatFileContent(templateContent);
-        yield this.app.vault.modify(file, formattedTemplateContent);
-        yield replaceTemplaterTemplatesInCreatedFile(this.app, file, true);
-        return file;
-      } catch (e) {
-        log.logError(e);
-        return null;
-      }
-    });
+  async overwriteFileWithTemplate(file, templatePath) {
+    try {
+      const templateContent = await this.getTemplateContent(templatePath);
+      const formattedTemplateContent = await this.formatter.formatFileContent(templateContent);
+      await this.app.vault.modify(file, formattedTemplateContent);
+      await replaceTemplaterTemplatesInCreatedFile(this.app, file, true);
+      return file;
+    } catch (e) {
+      log.logError(e);
+      return null;
+    }
   }
-  appendToFileWithTemplate(file, templatePath, section) {
-    return __async(this, null, function* () {
-      try {
-        const templateContent = yield this.getTemplateContent(templatePath);
-        const formattedTemplateContent = yield this.formatter.formatFileContent(templateContent);
-        const fileContent = yield this.app.vault.cachedRead(file);
-        const newFileContent = section === "top" ? `${formattedTemplateContent}
+  async appendToFileWithTemplate(file, templatePath, section) {
+    try {
+      const templateContent = await this.getTemplateContent(templatePath);
+      const formattedTemplateContent = await this.formatter.formatFileContent(templateContent);
+      const fileContent = await this.app.vault.cachedRead(file);
+      const newFileContent = section === "top" ? `${formattedTemplateContent}
 ${fileContent}` : `${fileContent}
 ${formattedTemplateContent}`;
-        yield this.app.vault.modify(file, newFileContent);
-        yield replaceTemplaterTemplatesInCreatedFile(this.app, file, true);
-        return file;
-      } catch (e) {
-        log.logError(e);
-        return null;
-      }
-    });
+      await this.app.vault.modify(file, newFileContent);
+      await replaceTemplaterTemplatesInCreatedFile(this.app, file, true);
+      return file;
+    } catch (e) {
+      log.logError(e);
+      return null;
+    }
   }
-  getTemplateContent(templatePath) {
-    return __async(this, null, function* () {
-      let correctTemplatePath = templatePath;
-      if (!MARKDOWN_FILE_EXTENSION_REGEX.test(templatePath))
-        correctTemplatePath += ".md";
-      const templateFile = this.app.vault.getAbstractFileByPath(correctTemplatePath);
-      if (!(templateFile instanceof import_obsidian17.TFile))
-        throw new Error("Template file not found.");
-      return yield this.app.vault.cachedRead(templateFile);
-    });
+  async getTemplateContent(templatePath) {
+    let correctTemplatePath = templatePath;
+    if (!MARKDOWN_FILE_EXTENSION_REGEX.test(templatePath))
+      correctTemplatePath += ".md";
+    const templateFile = this.app.vault.getAbstractFileByPath(correctTemplatePath);
+    if (!(templateFile instanceof import_obsidian17.TFile))
+      throw new Error("Template file not found.");
+    return await this.app.vault.cachedRead(templateFile);
   }
 };
 
@@ -34485,15 +34388,13 @@ var SingleTemplateEngine = class extends TemplateEngine {
     super(app, plugin, choiceExecutor);
     this.templatePath = templatePath;
   }
-  run() {
-    return __async(this, null, function* () {
-      let templateContent = yield this.getTemplateContent(this.templatePath);
-      if (!templateContent) {
-        log.logError(`Template ${this.templatePath} not found.`);
-      }
-      templateContent = yield this.formatter.formatFileContent(templateContent);
-      return templateContent;
-    });
+  async run() {
+    let templateContent = await this.getTemplateContent(this.templatePath);
+    if (!templateContent) {
+      log.logError(`Template ${this.templatePath} not found.`);
+    }
+    templateContent = await this.formatter.formatFileContent(templateContent);
+    return templateContent;
   }
 };
 
@@ -34504,19 +34405,17 @@ var FormatDisplayFormatter = class extends Formatter {
     this.app = app;
     this.plugin = plugin;
   }
-  format(input) {
-    return __async(this, null, function* () {
-      let output = input;
-      output = this.replaceDateInString(output);
-      output = yield this.replaceValueInString(output);
-      output = yield this.replaceDateVariableInString(output);
-      output = yield this.replaceVariableInString(output);
-      output = yield this.replaceLinkToCurrentFileInString(output);
-      output = yield this.replaceMacrosInString(output);
-      output = yield this.replaceTemplateInString(output);
-      output = this.replaceLinebreakInString(output);
-      return output;
-    });
+  async format(input) {
+    let output = input;
+    output = this.replaceDateInString(output);
+    output = await this.replaceValueInString(output);
+    output = await this.replaceDateVariableInString(output);
+    output = await this.replaceVariableInString(output);
+    output = await this.replaceLinkToCurrentFileInString(output);
+    output = await this.replaceMacrosInString(output);
+    output = await this.replaceTemplateInString(output);
+    output = this.replaceLinebreakInString(output);
+    return output;
   }
   promptForValue(header) {
     return "_value_";
@@ -34525,8 +34424,7 @@ var FormatDisplayFormatter = class extends Formatter {
     return variableName;
   }
   getCurrentFileLink() {
-    var _a, _b;
-    return (_b = (_a = this.app.workspace.getActiveFile()) == null ? void 0 : _a.path) != null ? _b : "_noPageOpen_";
+    return this.app.workspace.getActiveFile()?.path ?? "_noPageOpen_";
   }
   getNaturalLanguageDates() {
     return getNaturalLanguageDates(this.app);
@@ -34543,19 +34441,15 @@ var FormatDisplayFormatter = class extends Formatter {
   promptForVariable(variableName) {
     return Promise.resolve(`${variableName}_`);
   }
-  getTemplateContent(templatePath) {
-    return __async(this, null, function* () {
-      try {
-        return yield new SingleTemplateEngine(this.app, this.plugin, templatePath, null).run();
-      } catch (e) {
-        return `Template (not found): ${templatePath}`;
-      }
-    });
+  async getTemplateContent(templatePath) {
+    try {
+      return await new SingleTemplateEngine(this.app, this.plugin, templatePath, null).run();
+    } catch (e) {
+      return `Template (not found): ${templatePath}`;
+    }
   }
-  getSelectedText() {
-    return __async(this, null, function* () {
-      return "_selected_";
-    });
+  async getSelectedText() {
+    return "_selected_";
   }
 };
 
@@ -34567,15 +34461,15 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     this.choice = choice;
     this.display();
   }
+  choice;
   display() {
-    var _a, _b, _c;
     this.containerEl.addClass("captureChoiceBuilder");
     this.contentEl.empty();
     this.addCenteredChoiceNameHeader(this.choice);
     this.addCapturedToSetting();
-    if (!((_a = this.choice) == null ? void 0 : _a.captureToActiveFile)) {
+    if (!this.choice?.captureToActiveFile) {
       this.addCreateIfNotExistsSetting();
-      if ((_c = (_b = this.choice) == null ? void 0 : _b.createFileIfItDoesntExist) == null ? void 0 : _c.enabled)
+      if (this.choice?.createFileIfItDoesntExist?.enabled)
         this.addCreateWithTemplateSetting();
     }
     this.addTaskSetting();
@@ -34590,7 +34484,6 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     this.addFormatSetting();
   }
   addCapturedToSetting() {
-    var _a, _b, _c;
     let textField;
     const captureToSetting = new import_obsidian18.Setting(this.contentEl).setName("Capture To").setDesc("File to capture to. Supports some format syntax.");
     const captureToContainer = this.contentEl.createDiv("captureToContainer");
@@ -34598,35 +34491,32 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     const captureToActiveFileText = captureToActiveFileContainer.createEl("span");
     captureToActiveFileText.textContent = "Capture to active file";
     const captureToActiveFileToggle = new import_obsidian18.ToggleComponent(captureToActiveFileContainer);
-    captureToActiveFileToggle.setValue((_a = this.choice) == null ? void 0 : _a.captureToActiveFile);
+    captureToActiveFileToggle.setValue(this.choice?.captureToActiveFile);
     captureToActiveFileToggle.onChange((value) => {
       this.choice.captureToActiveFile = value;
       this.reload();
     });
-    if (!((_b = this.choice) == null ? void 0 : _b.captureToActiveFile)) {
+    if (!this.choice?.captureToActiveFile) {
       const captureToFileContainer = captureToContainer.createDiv("captureToFileContainer");
       const formatDisplay = captureToFileContainer.createEl("span");
       const displayFormatter = new FileNameDisplayFormatter(this.app);
-      (() => __async(this, null, function* () {
-        return formatDisplay.textContent = yield displayFormatter.format(this.choice.captureTo);
-      }))();
+      (async () => formatDisplay.textContent = await displayFormatter.format(this.choice.captureTo))();
       const formatInput = new import_obsidian18.TextComponent(captureToFileContainer);
       formatInput.setPlaceholder("File name format");
       textField = formatInput;
       formatInput.inputEl.style.width = "100%";
       formatInput.inputEl.style.marginBottom = "8px";
-      formatInput.setValue(this.choice.captureTo).setDisabled((_c = this.choice) == null ? void 0 : _c.captureToActiveFile).onChange((value) => __async(this, null, function* () {
+      formatInput.setValue(this.choice.captureTo).setDisabled(this.choice?.captureToActiveFile).onChange(async (value) => {
         this.choice.captureTo = value;
-        formatDisplay.textContent = yield displayFormatter.format(value);
-      }));
+        formatDisplay.textContent = await displayFormatter.format(value);
+      });
       const markdownFilesAndFormatSyntax = [...this.app.vault.getMarkdownFiles().map((f) => f.path), ...FILE_NAME_FORMAT_SYNTAX];
       new GenericTextSuggester(this.app, textField.inputEl, markdownFilesAndFormatSyntax);
     }
   }
   addPrependSetting() {
-    var _a;
     const prependSetting = new import_obsidian18.Setting(this.contentEl);
-    prependSetting.setName("Write to bottom of file").setDesc(`Put value at the bottom of the file - otherwise at the ${((_a = this.choice) == null ? void 0 : _a.captureToActiveFile) ? "active cursor location" : "top"}.`).addToggle((toggle) => {
+    prependSetting.setName("Write to bottom of file").setDesc(`Put value at the bottom of the file - otherwise at the ${this.choice?.captureToActiveFile ? "active cursor location" : "top"}.`).addToggle((toggle) => {
       toggle.setValue(this.choice.prepend);
       toggle.onChange((value) => this.choice.prepend = value);
     });
@@ -34658,40 +34548,33 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     });
     const insertAfterFormatDisplay = this.contentEl.createEl("span");
     const displayFormatter = new FormatDisplayFormatter(this.app, this.plugin);
-    (() => __async(this, null, function* () {
-      return insertAfterFormatDisplay.innerText = yield displayFormatter.format(this.choice.insertAfter.after);
-    }))();
+    (async () => insertAfterFormatDisplay.innerText = await displayFormatter.format(this.choice.insertAfter.after))();
     insertAfterInput = new import_obsidian18.TextComponent(this.contentEl);
     insertAfterInput.setPlaceholder("Insert after");
     insertAfterInput.inputEl.style.width = "100%";
     insertAfterInput.inputEl.style.marginBottom = "8px";
-    insertAfterInput.setValue(this.choice.insertAfter.after).setDisabled(!this.choice.insertAfter.enabled).onChange((value) => __async(this, null, function* () {
+    insertAfterInput.setValue(this.choice.insertAfter.after).setDisabled(!this.choice.insertAfter.enabled).onChange(async (value) => {
       this.choice.insertAfter.after = value;
-      insertAfterFormatDisplay.innerText = yield displayFormatter.format(value);
-    }));
+      insertAfterFormatDisplay.innerText = await displayFormatter.format(value);
+    });
     new FormatSyntaxSuggester(this.app, insertAfterInput.inputEl, this.plugin);
     if (this.choice.insertAfter.enabled) {
       const insertAtEndSetting = new import_obsidian18.Setting(this.contentEl);
       insertAtEndSetting.setName("Insert at end of section").setDesc("Insert the text at the end of the section, rather than at the top.").addToggle(
-        (toggle) => {
-          var _a;
-          return toggle.setValue((_a = this.choice.insertAfter) == null ? void 0 : _a.insertAtEnd).onChange((value) => this.choice.insertAfter.insertAtEnd = value);
-        }
+        (toggle) => toggle.setValue(this.choice.insertAfter?.insertAtEnd).onChange((value) => this.choice.insertAfter.insertAtEnd = value)
       );
       const createLineIfNotFound = new import_obsidian18.Setting(this.contentEl);
       createLineIfNotFound.setName("Create line if not found").setDesc("Creates the 'insert after' line if it is not found.").addToggle(
         (toggle) => {
-          var _a, _b;
-          if (!((_a = this.choice.insertAfter) == null ? void 0 : _a.createIfNotFound))
+          if (!this.choice.insertAfter?.createIfNotFound)
             this.choice.insertAfter.createIfNotFound = false;
-          toggle.setValue((_b = this.choice.insertAfter) == null ? void 0 : _b.createIfNotFound).onChange((value) => this.choice.insertAfter.createIfNotFound = value).toggleEl.style.marginRight = "1em";
+          toggle.setValue(this.choice.insertAfter?.createIfNotFound).onChange((value) => this.choice.insertAfter.createIfNotFound = value).toggleEl.style.marginRight = "1em";
         }
       ).addDropdown(
         (dropdown) => {
-          var _a, _b;
-          if (!((_a = this.choice.insertAfter) == null ? void 0 : _a.createIfNotFoundLocation))
+          if (!this.choice.insertAfter?.createIfNotFoundLocation)
             this.choice.insertAfter.createIfNotFoundLocation = CREATE_IF_NOT_FOUND_TOP;
-          dropdown.addOption(CREATE_IF_NOT_FOUND_TOP, "Top").addOption(CREATE_IF_NOT_FOUND_BOTTOM, "Bottom").setValue((_b = this.choice.insertAfter) == null ? void 0 : _b.createIfNotFoundLocation).onChange((value) => this.choice.insertAfter.createIfNotFoundLocation = value);
+          dropdown.addOption(CREATE_IF_NOT_FOUND_TOP, "Top").addOption(CREATE_IF_NOT_FOUND_BOTTOM, "Bottom").setValue(this.choice.insertAfter?.createIfNotFoundLocation).onChange((value) => this.choice.insertAfter.createIfNotFoundLocation = value);
         }
       );
     }
@@ -34711,44 +34594,35 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     formatInput.inputEl.style.width = "100%";
     formatInput.inputEl.style.marginBottom = "8px";
     formatInput.inputEl.style.height = "10rem";
-    formatInput.setValue(this.choice.format.format).setDisabled(!this.choice.format.enabled).onChange((value) => __async(this, null, function* () {
+    formatInput.setValue(this.choice.format.format).setDisabled(!this.choice.format.enabled).onChange(async (value) => {
       this.choice.format.format = value;
-      formatDisplay.innerText = yield displayFormatter.format(value);
-    }));
+      formatDisplay.innerText = await displayFormatter.format(value);
+    });
     new FormatSyntaxSuggester(this.app, textField.inputEl, this.plugin);
     const formatDisplay = this.contentEl.createEl("span");
     const displayFormatter = new FormatDisplayFormatter(this.app, this.plugin);
-    (() => __async(this, null, function* () {
-      return formatDisplay.innerText = yield displayFormatter.format(this.choice.format.format);
-    }))();
+    (async () => formatDisplay.innerText = await displayFormatter.format(this.choice.format.format))();
   }
   addCreateIfNotExistsSetting() {
     if (!this.choice.createFileIfItDoesntExist)
       this.choice.createFileIfItDoesntExist = { enabled: false, createWithTemplate: false, template: "" };
     const createFileIfItDoesntExist = new import_obsidian18.Setting(this.contentEl);
     createFileIfItDoesntExist.setName("Create file if it doesn't exist").addToggle(
-      (toggle) => {
-        var _a, _b;
-        return toggle.setValue((_b = (_a = this.choice) == null ? void 0 : _a.createFileIfItDoesntExist) == null ? void 0 : _b.enabled).setTooltip("Create file if it doesn't exist").onChange((value) => {
-          this.choice.createFileIfItDoesntExist.enabled = value;
-          this.reload();
-        });
-      }
+      (toggle) => toggle.setValue(this.choice?.createFileIfItDoesntExist?.enabled).setTooltip("Create file if it doesn't exist").onChange((value) => {
+        this.choice.createFileIfItDoesntExist.enabled = value;
+        this.reload();
+      })
     );
   }
   addCreateWithTemplateSetting() {
-    var _a, _b, _c, _d, _e;
     let templateSelector;
     const createWithTemplateSetting = new import_obsidian18.Setting(this.contentEl);
-    createWithTemplateSetting.setName("Create file with given template.").addToggle((toggle) => {
-      var _a2;
-      return toggle.setValue((_a2 = this.choice.createFileIfItDoesntExist) == null ? void 0 : _a2.createWithTemplate).onChange((value) => {
-        this.choice.createFileIfItDoesntExist.createWithTemplate = value;
-        templateSelector.setDisabled(!value);
-      });
-    });
+    createWithTemplateSetting.setName("Create file with given template.").addToggle((toggle) => toggle.setValue(this.choice.createFileIfItDoesntExist?.createWithTemplate).onChange((value) => {
+      this.choice.createFileIfItDoesntExist.createWithTemplate = value;
+      templateSelector.setDisabled(!value);
+    }));
     templateSelector = new import_obsidian18.TextComponent(this.contentEl);
-    templateSelector.setValue((_c = (_b = (_a = this.choice) == null ? void 0 : _a.createFileIfItDoesntExist) == null ? void 0 : _b.template) != null ? _c : "").setPlaceholder("Template path").setDisabled(!((_e = (_d = this.choice) == null ? void 0 : _d.createFileIfItDoesntExist) == null ? void 0 : _e.createWithTemplate));
+    templateSelector.setValue(this.choice?.createFileIfItDoesntExist?.template ?? "").setPlaceholder("Template path").setDisabled(!this.choice?.createFileIfItDoesntExist?.createWithTemplate);
     templateSelector.inputEl.style.width = "100%";
     templateSelector.inputEl.style.marginBottom = "8px";
     const markdownFiles = getTemplatePaths(this.app);
@@ -34777,18 +34651,16 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
   addOpenFileInNewTabSetting() {
     const newTabSetting = new import_obsidian18.Setting(this.contentEl);
     newTabSetting.setName("New Tab").setDesc("Open the file that is captured to in a new tab.").addToggle((toggle) => {
-      var _a, _b;
-      toggle.setValue((_b = (_a = this.choice) == null ? void 0 : _a.openFileInNewTab) == null ? void 0 : _b.enabled);
+      toggle.setValue(this.choice?.openFileInNewTab?.enabled);
       toggle.onChange((value) => this.choice.openFileInNewTab.enabled = value);
     }).addDropdown((dropdown) => {
-      var _a, _b, _c;
-      if (!((_a = this.choice) == null ? void 0 : _a.openFileInNewTab)) {
+      if (!this.choice?.openFileInNewTab) {
         this.choice.openFileInNewTab = { enabled: false, direction: "vertical" /* vertical */, focus: true };
       }
       dropdown.selectEl.style.marginLeft = "10px";
       dropdown.addOption("vertical" /* vertical */, "Vertical");
       dropdown.addOption("horizontal" /* horizontal */, "Horizontal");
-      dropdown.setValue((_c = (_b = this.choice) == null ? void 0 : _b.openFileInNewTab) == null ? void 0 : _c.direction);
+      dropdown.setValue(this.choice?.openFileInNewTab?.direction);
       dropdown.onChange((value) => this.choice.openFileInNewTab.direction = value);
     });
     new import_obsidian18.Setting(this.contentEl).setName("Focus new pane").setDesc("Focus the opened tab immediately").addToggle(
@@ -34806,6 +34678,7 @@ var MacroChoiceBuilder = class extends ChoiceBuilder {
     this.choice = choice;
     this.display();
   }
+  choice;
   display() {
     this.containerEl.addClass("macroChoiceBuilder");
     this.addCenteredChoiceNameHeader(this.choice);
@@ -34848,6 +34721,10 @@ var import_obsidian22 = require("obsidian");
 
 // src/types/macros/UserScript.ts
 var UserScript = class extends Command {
+  name;
+  path;
+  type;
+  settings;
   constructor(name, path) {
     super(name, "UserScript" /* UserScript */);
     this.path = path;
@@ -34857,11 +34734,15 @@ var UserScript = class extends Command {
 
 // src/types/macros/ObsidianCommand.ts
 var ObsidianCommand = class extends Command {
+  name;
+  id;
+  commandId;
+  type;
   constructor(name, commandId) {
     super(name, "Obsidian" /* Obsidian */);
-    this.generateId = () => this.id = v4_default();
     this.commandId = commandId;
   }
+  generateId = () => this.id = v4_default();
 };
 
 // src/gui/MacroGUIs/Components/StandardCommand.svelte
@@ -35505,29 +35386,26 @@ var UserScriptSettingsModal = class extends import_obsidian20.Modal {
     if (!this.command.settings)
       this.command.settings = {};
     Object.keys(this.settings.options).forEach((setting) => {
-      var _a;
       if (this.command.settings[setting] === void 0) {
-        this.command.settings[setting] = (_a = this.settings.options[setting]) == null ? void 0 : _a.defaultValue;
+        this.command.settings[setting] = this.settings.options[setting]?.defaultValue;
       }
     });
   }
   display() {
-    var _a, _b, _c;
     this.containerEl.addClass("quickAddModal", "userScriptSettingsModal");
     this.contentEl.empty();
-    this.titleEl.innerText = `${(_a = this.settings) == null ? void 0 : _a.name}${((_b = this.settings) == null ? void 0 : _b.author) ? " by " + ((_c = this.settings) == null ? void 0 : _c.author) : ""}`;
+    this.titleEl.innerText = `${this.settings?.name}${this.settings?.author ? " by " + this.settings?.author : ""}`;
     const options = this.settings.options;
     Object.keys(options).forEach((option) => {
-      var _a2, _b2;
       const entry = options[option];
       let value = entry.defaultValue;
       if (this.command.settings[option] !== void 0) {
         value = this.command.settings[option];
       }
-      switch ((_b2 = (_a2 = options[option]) == null ? void 0 : _a2.type) == null ? void 0 : _b2.toLowerCase()) {
+      switch (options[option]?.type?.toLowerCase()) {
         case "text":
         case "input":
-          this.addInputBox(option, value, entry == null ? void 0 : entry.placeholder, entry == null ? void 0 : entry.secret);
+          this.addInputBox(option, value, entry?.placeholder, entry?.secret);
           break;
         case "checkbox":
         case "toggle":
@@ -35538,7 +35416,7 @@ var UserScriptSettingsModal = class extends import_obsidian20.Modal {
           this.addDropdown(option, entry.options, value);
           break;
         case "format":
-          this.addFormatInput(option, value, entry == null ? void 0 : entry.placeholder);
+          this.addFormatInput(option, value, entry?.placeholder);
           break;
         default:
           break;
@@ -35556,7 +35434,7 @@ var UserScriptSettingsModal = class extends import_obsidian20.Modal {
   }
   addInputBox(name, value, placeholder, passwordOnBlur) {
     new import_obsidian20.Setting(this.contentEl).setName(name).addText((input) => {
-      input.setValue(value).onChange((value2) => this.command.settings[name] = value2).setPlaceholder(placeholder != null ? placeholder : "");
+      input.setValue(value).onChange((value2) => this.command.settings[name] = value2).setPlaceholder(placeholder ?? "");
       if (passwordOnBlur) {
         this.setPasswordOnBlur(input.inputEl);
       }
@@ -35580,15 +35458,13 @@ var UserScriptSettingsModal = class extends import_obsidian20.Modal {
     const input = new import_obsidian20.TextComponent(this.contentEl);
     new FormatSyntaxSuggester(this.app, input.inputEl, QuickAdd.instance);
     const displayFormatter = new FormatDisplayFormatter(this.app, QuickAdd.instance);
-    input.setValue(value).onChange((value2) => __async(this, null, function* () {
+    input.setValue(value).onChange(async (value2) => {
       this.command.settings[name] = value2;
-      formatDisplay.innerText = yield displayFormatter.format(value2);
-    })).setPlaceholder(placeholder != null ? placeholder : "");
+      formatDisplay.innerText = await displayFormatter.format(value2);
+    }).setPlaceholder(placeholder ?? "");
     input.inputEl.style.width = "100%";
     input.inputEl.style.marginBottom = "1em";
-    (() => __async(this, null, function* () {
-      return formatDisplay.innerText = yield displayFormatter.format(value);
-    }))();
+    (async () => formatDisplay.innerText = await displayFormatter.format(value))();
   }
 };
 
@@ -36143,9 +36019,7 @@ function instance16($$self, $$props, $$invalidate) {
     startDrag = value;
     $$invalidate(4, startDrag);
   }
-  const deleteCommand_handler = (e) => __async(this, null, function* () {
-    return yield deleteCommand(e.detail);
-  });
+  const deleteCommand_handler = async (e) => await deleteCommand(e.detail);
   function nestedchoicecommand_command_binding(value, command, each_value, command_index) {
     each_value[command_index] = value;
     $$invalidate(0, commands2);
@@ -36158,9 +36032,7 @@ function instance16($$self, $$props, $$invalidate) {
     startDrag = value;
     $$invalidate(4, startDrag);
   }
-  const deleteCommand_handler_1 = (e) => __async(this, null, function* () {
-    return yield deleteCommand(e.detail);
-  });
+  const deleteCommand_handler_1 = async (e) => await deleteCommand(e.detail);
   function userscriptcommand_command_binding(value, command, each_value, command_index) {
     each_value[command_index] = value;
     $$invalidate(0, commands2);
@@ -36173,9 +36045,7 @@ function instance16($$self, $$props, $$invalidate) {
     startDrag = value;
     $$invalidate(4, startDrag);
   }
-  const deleteCommand_handler_2 = (e) => __async(this, null, function* () {
-    return yield deleteCommand(e.detail);
-  });
+  const deleteCommand_handler_2 = async (e) => await deleteCommand(e.detail);
   function standardcommand_command_binding(value, command, each_value, command_index) {
     each_value[command_index] = value;
     $$invalidate(0, commands2);
@@ -36188,9 +36058,7 @@ function instance16($$self, $$props, $$invalidate) {
     startDrag = value;
     $$invalidate(4, startDrag);
   }
-  const deleteCommand_handler_3 = (e) => __async(this, null, function* () {
-    return yield deleteCommand(e.detail);
-  });
+  const deleteCommand_handler_3 = async (e) => await deleteCommand(e.detail);
   $$self.$$set = ($$props2) => {
     if ("commands" in $$props2)
       $$invalidate(0, commands2 = $$props2.commands);
@@ -36266,6 +36134,7 @@ var CommandList_default = CommandList;
 
 // src/types/macros/ChoiceCommand.ts
 var ChoiceCommand = class extends Command {
+  choiceId;
   constructor(name, choiceId) {
     super(name, "Choice" /* Choice */);
     this.choiceId = choiceId;
@@ -36274,6 +36143,10 @@ var ChoiceCommand = class extends Command {
 
 // src/types/macros/QuickCommands/WaitCommand.ts
 var WaitCommand2 = class extends Command {
+  id;
+  name;
+  time;
+  type;
   constructor(time) {
     super("Wait", "Wait" /* Wait */);
     this.time = time;
@@ -36282,6 +36155,7 @@ var WaitCommand2 = class extends Command {
 
 // src/types/macros/QuickCommands/NestedChoiceCommand.ts
 var NestedChoiceCommand2 = class extends Command {
+  choice;
   constructor(choice) {
     super(choice.name, "NestedChoice" /* NestedChoice */);
     this.choice = choice;
@@ -36290,11 +36164,17 @@ var NestedChoiceCommand2 = class extends Command {
 
 // src/gui/MacroGUIs/MacroBuilder.ts
 var MacroBuilder = class extends import_obsidian22.Modal {
+  macro;
+  waitForClose;
+  commands = [];
+  javascriptFiles = [];
+  choices = [];
+  commandListEl;
+  svelteElements;
+  resolvePromise;
+  plugin;
   constructor(app, plugin, macro, choices) {
     super(app);
-    this.commands = [];
-    this.javascriptFiles = [];
-    this.choices = [];
     this.macro = macro;
     this.svelteElements = [];
     this.choices = choices;
@@ -36329,13 +36209,13 @@ var MacroBuilder = class extends import_obsidian22.Modal {
     headerEl.style.textAlign = "center";
     headerEl.setText(header);
     headerEl.addClass("clickable");
-    headerEl.addEventListener("click", () => __async(this, null, function* () {
-      const newMacroName = yield GenericInputPrompt.Prompt(this.app, `Update name for ${this.macro.name}`, this.macro.name);
+    headerEl.addEventListener("click", async () => {
+      const newMacroName = await GenericInputPrompt.Prompt(this.app, `Update name for ${this.macro.name}`, this.macro.name);
       if (!newMacroName)
         return;
       this.macro.name = newMacroName;
       this.reload();
-    }));
+    });
   }
   reload() {
     this.display();
@@ -36461,14 +36341,14 @@ var MacroBuilder = class extends import_obsidian22.Modal {
         app: this.app,
         plugin: this.plugin,
         commands: this.macro.commands,
-        deleteCommand: (commandId) => __async(this, null, function* () {
+        deleteCommand: async (commandId) => {
           const command = this.macro.commands.find((c) => c.id === commandId);
-          const promptAnswer = yield GenericYesNoPrompt.Prompt(this.app, "Are you sure you wish to delete this command?", `If you click yes, you will delete '${command.name}'.`);
+          const promptAnswer = await GenericYesNoPrompt.Prompt(this.app, "Are you sure you wish to delete this command?", `If you click yes, you will delete '${command.name}'.`);
           if (!promptAnswer)
             return;
           this.macro.commands = this.macro.commands.filter((c) => c.id !== commandId);
           this.commandListEl.updateCommandList(this.macro.commands);
-        }),
+        },
         saveCommands: (commands2) => {
           this.macro.commands = commands2;
         }
@@ -36503,6 +36383,10 @@ var MacroBuilder = class extends import_obsidian22.Modal {
 
 // src/types/macros/QuickAddMacro.ts
 var QuickAddMacro = class {
+  id;
+  name;
+  commands;
+  runOnStartup;
   constructor(name) {
     this.name = name;
     this.id = v4_default();
@@ -36526,6 +36410,12 @@ var MacrosManager = class extends import_obsidian23.Modal {
     this.open();
     this.display();
   }
+  waitForClose;
+  resolvePromise;
+  rejectPromise;
+  updateMacroContainer;
+  macroContainer;
+  plugin;
   display() {
     this.contentEl.createEl("h2", {
       text: "Macro Manager"
@@ -36587,7 +36477,7 @@ var MacrosManager = class extends import_obsidian23.Modal {
         );
         configureButton.setClass("mod-cta");
         configureButton.buttonEl.style.marginRight = "0";
-        configureButton.setButtonText("Configure").onClick((evt) => __async(this, null, function* () {
+        configureButton.setButtonText("Configure").onClick(async (evt) => {
           const getReachableChoices = (choices) => {
             let reachableChoices2 = [];
             choices.forEach((choice) => {
@@ -36605,7 +36495,7 @@ var MacrosManager = class extends import_obsidian23.Modal {
           const reachableChoices = getReachableChoices(
             this.choices
           );
-          const newMacro = yield new MacroBuilder(
+          const newMacro = await new MacroBuilder(
             this.app,
             this.plugin,
             macro,
@@ -36615,7 +36505,7 @@ var MacrosManager = class extends import_obsidian23.Modal {
             this.updateMacro(newMacro);
             this.reload();
           }
-        }));
+        });
       }
     );
   }
@@ -36937,6 +36827,8 @@ var DEFAULT_SETTINGS = {
   devMode: false
 };
 var QuickAddSettingsTab = class extends import_obsidian25.PluginSettingTab {
+  plugin;
+  choiceView;
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -36971,15 +36863,15 @@ var QuickAddSettingsTab = class extends import_obsidian25.PluginSettingTab {
         app: this.app,
         plugin: this.plugin,
         choices: this.plugin.settings.choices,
-        saveChoices: (choices) => __async(this, null, function* () {
+        saveChoices: async (choices) => {
           this.plugin.settings.choices = choices;
-          yield this.plugin.saveSettings();
-        }),
+          await this.plugin.saveSettings();
+        },
         macros: this.plugin.settings.macros,
-        saveMacros: (macros) => __async(this, null, function* () {
+        saveMacros: async (macros) => {
           this.plugin.settings.macros = macros;
-          yield this.plugin.saveSettings();
-        })
+          await this.plugin.saveSettings();
+        }
       }
     });
   }
@@ -36997,10 +36889,7 @@ var QuickAddLogger = class {
 
 // src/logger/consoleErrorLogger.ts
 var ConsoleErrorLogger = class extends QuickAddLogger {
-  constructor() {
-    super(...arguments);
-    this.ErrorLog = [];
-  }
+  ErrorLog = [];
   logError(errorMsg) {
     const error = this.getQuickAddError(errorMsg, "ERROR" /* Error */);
     this.addMessageToErrorLog(error);
@@ -37045,13 +36934,11 @@ var StartupMacroEngine = class extends MacroChoiceEngine {
   constructor(app, plugin, macros, choiceExecutor) {
     super(app, plugin, null, macros, choiceExecutor, null);
   }
-  run() {
-    return __async(this, null, function* () {
-      this.macros.forEach((macro) => {
-        if (macro.runOnStartup) {
-          this.executeCommands(macro.commands);
-        }
-      });
+  async run() {
+    this.macros.forEach((macro) => {
+      if (macro.runOnStartup) {
+        this.executeCommands(macro.commands);
+      }
     });
   }
 };
@@ -37059,207 +36946,190 @@ var StartupMacroEngine = class extends MacroChoiceEngine {
 // src/engine/TemplateChoiceEngine.ts
 var import_obsidian27 = require("obsidian");
 var TemplateChoiceEngine = class extends TemplateEngine {
+  choice;
   constructor(app, plugin, choice, choiceExecutor) {
     super(app, plugin, choiceExecutor);
     this.choice = choice;
   }
-  run() {
-    return __async(this, null, function* () {
-      let folderPath = "";
-      if (this.choice.folder.enabled) {
-        folderPath = yield this.getFolderPath();
+  async run() {
+    let folderPath = "";
+    if (this.choice.folder.enabled) {
+      folderPath = await this.getFolderPath();
+    }
+    let filePath;
+    if (this.choice.fileNameFormat.enabled) {
+      filePath = await this.getFormattedFilePath(folderPath, this.choice.fileNameFormat.format, this.choice.name);
+    } else {
+      filePath = await this.getFormattedFilePath(folderPath, VALUE_SYNTAX, this.choice.name);
+    }
+    if (this.choice.incrementFileName)
+      filePath = await this.incrementFileName(filePath);
+    let createdFile;
+    if (await this.app.vault.adapter.exists(filePath)) {
+      const file = this.app.vault.getAbstractFileByPath(filePath);
+      if (!(file instanceof import_obsidian27.TFile) || file.extension !== "md") {
+        log.logError(`'${filePath}' already exists and is not a valid markdown file.`);
+        return;
       }
-      let filePath;
-      if (this.choice.fileNameFormat.enabled) {
-        filePath = yield this.getFormattedFilePath(folderPath, this.choice.fileNameFormat.format, this.choice.name);
-      } else {
-        filePath = yield this.getFormattedFilePath(folderPath, VALUE_SYNTAX, this.choice.name);
-      }
-      if (this.choice.incrementFileName)
-        filePath = yield this.incrementFileName(filePath);
-      let createdFile;
-      if (yield this.app.vault.adapter.exists(filePath)) {
-        const file = this.app.vault.getAbstractFileByPath(filePath);
-        if (!(file instanceof import_obsidian27.TFile) || file.extension !== "md") {
-          log.logError(`'${filePath}' already exists and is not a valid markdown file.`);
+      await this.app.workspace.getLeaf("tab").openFile(file);
+      const userChoice = await GenericSuggester.Suggest(this.app, fileExistsChoices, fileExistsChoices);
+      switch (userChoice) {
+        case fileExistsAppendToTop:
+          createdFile = await this.appendToFileWithTemplate(file, this.choice.templatePath, "top");
+          break;
+        case fileExistsAppendToBottom:
+          createdFile = await this.appendToFileWithTemplate(file, this.choice.templatePath, "bottom");
+          break;
+        case fileExistsOverwriteFile:
+          createdFile = await this.overwriteFileWithTemplate(file, this.choice.templatePath);
+          break;
+        case fileExistsDoNothing:
+        default:
+          log.logWarning("File not written to.");
           return;
-        }
-        yield this.app.workspace.getLeaf("tab").openFile(file);
-        const userChoice = yield GenericSuggester.Suggest(this.app, fileExistsChoices, fileExistsChoices);
-        switch (userChoice) {
-          case fileExistsAppendToTop:
-            createdFile = yield this.appendToFileWithTemplate(file, this.choice.templatePath, "top");
-            break;
-          case fileExistsAppendToBottom:
-            createdFile = yield this.appendToFileWithTemplate(file, this.choice.templatePath, "bottom");
-            break;
-          case fileExistsOverwriteFile:
-            createdFile = yield this.overwriteFileWithTemplate(file, this.choice.templatePath);
-            break;
-          case fileExistsDoNothing:
-          default:
-            log.logWarning("File not written to.");
-            return;
-        }
-      } else {
-        createdFile = yield this.createFileWithTemplate(filePath, this.choice.templatePath);
-        if (!createdFile) {
-          log.logWarning(`Could not create file '${filePath}'.`);
-          return;
-        }
       }
-      if (this.choice.appendLink) {
-        appendToCurrentLine(this.app.fileManager.generateMarkdownLink(createdFile, ""), this.app);
+    } else {
+      createdFile = await this.createFileWithTemplate(filePath, this.choice.templatePath);
+      if (!createdFile) {
+        log.logWarning(`Could not create file '${filePath}'.`);
+        return;
       }
-      if (this.choice.openFile) {
-        yield openFile(this.app, createdFile, {
-          openInNewTab: this.choice.openFileInNewTab.enabled,
-          direction: this.choice.openFileInNewTab.direction,
-          focus: this.choice.openFileInNewTab.focus,
-          mode: this.choice.openFileInMode
-        });
-      }
-    });
+    }
+    if (this.choice.appendLink) {
+      appendToCurrentLine(this.app.fileManager.generateMarkdownLink(createdFile, ""), this.app);
+    }
+    if (this.choice.openFile) {
+      await openFile(this.app, createdFile, {
+        openInNewTab: this.choice.openFileInNewTab.enabled,
+        direction: this.choice.openFileInNewTab.direction,
+        focus: this.choice.openFileInNewTab.focus,
+        mode: this.choice.openFileInMode
+      });
+    }
   }
-  formatFolderPaths(folders) {
-    return __async(this, null, function* () {
-      const folderPaths = yield Promise.all(folders.map((folder) => __async(this, null, function* () {
-        return yield this.formatter.formatFolderPath(folder);
-      })));
-      return folderPaths;
-    });
+  async formatFolderPaths(folders) {
+    const folderPaths = await Promise.all(folders.map(async (folder) => {
+      return await this.formatter.formatFolderPath(folder);
+    }));
+    return folderPaths;
   }
-  getFolderPath() {
-    return __async(this, null, function* () {
-      var _a, _b;
-      let folders = yield this.formatFolderPaths([...this.choice.folder.folders]);
-      if ((_a = this.choice.folder) == null ? void 0 : _a.chooseWhenCreatingNote) {
-        const allFoldersInVault = getAllFolderPathsInVault(this.app);
-        return yield this.getOrCreateFolder(allFoldersInVault);
+  async getFolderPath() {
+    let folders = await this.formatFolderPaths([...this.choice.folder.folders]);
+    if (this.choice.folder?.chooseWhenCreatingNote) {
+      const allFoldersInVault = getAllFolderPathsInVault(this.app);
+      return await this.getOrCreateFolder(allFoldersInVault);
+    }
+    if (this.choice.folder?.createInSameFolderAsActiveFile) {
+      const activeFile = this.app.workspace.getActiveFile();
+      if (!activeFile) {
+        log.logWarning("No active file. Cannot create file in same folder as active file. Creating in root folder.");
+        return "";
       }
-      if ((_b = this.choice.folder) == null ? void 0 : _b.createInSameFolderAsActiveFile) {
-        const activeFile = this.app.workspace.getActiveFile();
-        if (!activeFile)
-          log.logError("No active file. Cannot create new file.");
-        return this.getOrCreateFolder([activeFile.parent.path]);
-      }
-      return yield this.getOrCreateFolder(folders);
-    });
+      return this.getOrCreateFolder([activeFile.parent.path]);
+    }
+    return await this.getOrCreateFolder(folders);
   }
 };
 
 // src/formatters/captureChoiceFormatter.ts
 var CaptureChoiceFormatter = class extends CompleteFormatter {
+  choice;
+  file = null;
+  fileContent = "";
   constructor(app, plugin, choiceExecutor) {
     super(app, plugin, choiceExecutor);
-    this.file = null;
-    this.fileContent = "";
   }
-  formatContentWithFile(input, choice, fileContent, file) {
-    return __async(this, null, function* () {
-      this.choice = choice;
-      this.file = file;
-      this.fileContent = fileContent;
-      if (!choice || !file || fileContent === null)
-        return input;
-      const formatted = yield this.formatFileContent(input);
-      const templaterFormatted = templaterParseTemplate(this.app, formatted, this.file);
-      if (!templaterFormatted)
-        return formatted;
-      return templaterFormatted;
-    });
+  async formatContentWithFile(input, choice, fileContent, file) {
+    this.choice = choice;
+    this.file = file;
+    this.fileContent = fileContent;
+    if (!choice || !file || fileContent === null)
+      return input;
+    const formatted = await this.formatFileContent(input);
+    const templaterFormatted = templaterParseTemplate(this.app, formatted, this.file);
+    if (!templaterFormatted)
+      return formatted;
+    return templaterFormatted;
   }
-  formatContent(input, choice) {
-    return __async(this, null, function* () {
-      this.choice = choice;
-      if (!choice)
-        return input;
-      return yield this.formatFileContent(input);
-    });
+  async formatContent(input, choice) {
+    this.choice = choice;
+    if (!choice)
+      return input;
+    return await this.formatFileContent(input);
   }
-  formatFileContent(input) {
-    return __async(this, null, function* () {
-      let formatted = yield __superGet(CaptureChoiceFormatter.prototype, this, "formatFileContent").call(this, input);
-      formatted = this.replaceLinebreakInString(formatted);
-      const formattedContentIsEmpty = formatted.trim() === "";
-      if (formattedContentIsEmpty)
-        return this.fileContent;
-      if (this.choice.prepend) {
-        const shouldInsertLinebreak = !this.choice.task;
-        return `${this.fileContent}${shouldInsertLinebreak ? "\n" : ""}${formatted}`;
+  async formatFileContent(input) {
+    let formatted = await super.formatFileContent(input);
+    formatted = this.replaceLinebreakInString(formatted);
+    const formattedContentIsEmpty = formatted.trim() === "";
+    if (formattedContentIsEmpty)
+      return this.fileContent;
+    if (this.choice.prepend) {
+      const shouldInsertLinebreak = !this.choice.task;
+      return `${this.fileContent}${shouldInsertLinebreak ? "\n" : ""}${formatted}`;
+    }
+    if (this.choice.insertAfter.enabled) {
+      return await this.insertAfterHandler(formatted);
+    }
+    const frontmatterEndPosition = this.file ? await this.getFrontmatterEndPosition(this.file) : null;
+    if (!frontmatterEndPosition)
+      return `${formatted}${this.fileContent}`;
+    return this.insertTextAfterPositionInBody(formatted, this.fileContent, frontmatterEndPosition);
+  }
+  async insertAfterHandler(formatted) {
+    const targetString = await this.format(this.choice.insertAfter.after);
+    const targetRegex = new RegExp(`s*${escapeRegExp(targetString.replace("\\n", ""))}s*`);
+    let fileContentLines = getLinesInString(this.fileContent);
+    const targetPosition = fileContentLines.findIndex((line) => targetRegex.test(line));
+    const targetNotFound = targetPosition === -1;
+    if (targetNotFound) {
+      if (this.choice.insertAfter?.createIfNotFound) {
+        return await this.createInsertAfterIfNotFound(formatted);
       }
-      if (this.choice.insertAfter.enabled) {
-        return yield this.insertAfterHandler(formatted);
-      }
-      const frontmatterEndPosition = this.file ? yield this.getFrontmatterEndPosition(this.file) : null;
-      if (!frontmatterEndPosition)
-        return `${formatted}${this.fileContent}`;
-      return this.insertTextAfterPositionInBody(formatted, this.fileContent, frontmatterEndPosition);
-    });
-  }
-  insertAfterHandler(formatted) {
-    return __async(this, null, function* () {
-      var _a, _b;
-      const targetString = yield this.format(this.choice.insertAfter.after);
-      const targetRegex = new RegExp(`s*${escapeRegExp(targetString.replace("\\n", ""))}s*`);
-      let fileContentLines = getLinesInString(this.fileContent);
-      const targetPosition = fileContentLines.findIndex((line) => targetRegex.test(line));
-      const targetNotFound = targetPosition === -1;
-      if (targetNotFound) {
-        if ((_a = this.choice.insertAfter) == null ? void 0 : _a.createIfNotFound) {
-          return yield this.createInsertAfterIfNotFound(formatted);
-        }
-        log.logError("unable to find insert after line in file.");
-      }
-      if ((_b = this.choice.insertAfter) == null ? void 0 : _b.insertAtEnd) {
-        const nextHeaderPositionAfterTargetPosition = fileContentLines.slice(targetPosition + 1).findIndex((line) => /^#+ |---/.test(line));
-        const foundNextHeader = nextHeaderPositionAfterTargetPosition !== -1;
-        if (foundNextHeader) {
-          let endOfSectionIndex;
-          for (let i = nextHeaderPositionAfterTargetPosition + targetPosition; i > targetPosition; i--) {
-            const lineIsNewline = /^[\s\n ]*$/.test(fileContentLines[i]);
-            if (!lineIsNewline) {
-              endOfSectionIndex = i;
-              break;
-            }
+      log.logError("unable to find insert after line in file.");
+    }
+    if (this.choice.insertAfter?.insertAtEnd) {
+      const nextHeaderPositionAfterTargetPosition = fileContentLines.slice(targetPosition + 1).findIndex((line) => /^#+ |---/.test(line));
+      const foundNextHeader = nextHeaderPositionAfterTargetPosition !== -1;
+      if (foundNextHeader) {
+        let endOfSectionIndex;
+        for (let i = nextHeaderPositionAfterTargetPosition + targetPosition; i > targetPosition; i--) {
+          const lineIsNewline = /^[\s\n ]*$/.test(fileContentLines[i]);
+          if (!lineIsNewline) {
+            endOfSectionIndex = i;
+            break;
           }
-          if (!endOfSectionIndex)
-            endOfSectionIndex = targetPosition;
-          return this.insertTextAfterPositionInBody(formatted, this.fileContent, endOfSectionIndex);
-        } else {
-          return this.insertTextAfterPositionInBody(formatted, this.fileContent, fileContentLines.length - 1);
         }
+        if (!endOfSectionIndex)
+          endOfSectionIndex = targetPosition;
+        return this.insertTextAfterPositionInBody(formatted, this.fileContent, endOfSectionIndex);
+      } else {
+        return this.insertTextAfterPositionInBody(formatted, this.fileContent, fileContentLines.length - 1);
       }
-      return this.insertTextAfterPositionInBody(formatted, this.fileContent, targetPosition);
-    });
+    }
+    return this.insertTextAfterPositionInBody(formatted, this.fileContent, targetPosition);
   }
-  createInsertAfterIfNotFound(formatted) {
-    return __async(this, null, function* () {
-      var _a, _b;
-      const insertAfterLine = this.replaceLinebreakInString(yield this.format(this.choice.insertAfter.after));
-      const insertAfterLineAndFormatted = `${insertAfterLine}
+  async createInsertAfterIfNotFound(formatted) {
+    const insertAfterLine = this.replaceLinebreakInString(await this.format(this.choice.insertAfter.after));
+    const insertAfterLineAndFormatted = `${insertAfterLine}
 ${formatted}`;
-      if (((_a = this.choice.insertAfter) == null ? void 0 : _a.createIfNotFoundLocation) === CREATE_IF_NOT_FOUND_TOP) {
-        const frontmatterEndPosition = this.file ? yield this.getFrontmatterEndPosition(this.file) : -1;
-        return this.insertTextAfterPositionInBody(insertAfterLineAndFormatted, this.fileContent, frontmatterEndPosition);
-      }
-      if (((_b = this.choice.insertAfter) == null ? void 0 : _b.createIfNotFoundLocation) === CREATE_IF_NOT_FOUND_BOTTOM) {
-        return `${this.fileContent}
+    if (this.choice.insertAfter?.createIfNotFoundLocation === CREATE_IF_NOT_FOUND_TOP) {
+      const frontmatterEndPosition = this.file ? await this.getFrontmatterEndPosition(this.file) : -1;
+      return this.insertTextAfterPositionInBody(insertAfterLineAndFormatted, this.fileContent, frontmatterEndPosition);
+    }
+    if (this.choice.insertAfter?.createIfNotFoundLocation === CREATE_IF_NOT_FOUND_BOTTOM) {
+      return `${this.fileContent}
 ${insertAfterLineAndFormatted}`;
-      }
-    });
+    }
   }
-  getFrontmatterEndPosition(file) {
-    return __async(this, null, function* () {
-      const fileCache = yield this.app.metadataCache.getFileCache(file);
-      if (!fileCache || !fileCache.frontmatter) {
-        log.logMessage("could not get frontmatter. Maybe there isn't any.");
-        return -1;
-      }
-      if (fileCache.frontmatter.position)
-        return fileCache.frontmatter.position.end.line;
+  async getFrontmatterEndPosition(file) {
+    const fileCache = await this.app.metadataCache.getFileCache(file);
+    if (!fileCache || !fileCache.frontmatter) {
+      log.logMessage("could not get frontmatter. Maybe there isn't any.");
       return -1;
-    });
+    }
+    if (fileCache.frontmatter.position)
+      return fileCache.frontmatter.position.end.line;
+    return -1;
   }
   insertTextAfterPositionInBody(text2, body, pos) {
     if (pos === -1) {
@@ -37283,124 +37153,114 @@ var CaptureChoiceEngine = class extends QuickAddChoiceEngine {
     this.plugin = plugin;
     this.formatter = new CaptureChoiceFormatter(app, plugin, choiceExecutor);
   }
-  run() {
-    return __async(this, null, function* () {
-      var _a, _b, _c, _d;
-      try {
-        if ((_a = this.choice) == null ? void 0 : _a.captureToActiveFile) {
-          yield this.captureToActiveFile();
-          return;
-        }
-        const captureTo = this.choice.captureTo;
-        if (!captureTo) {
-          log.logError(`Invalid capture to for ${this.choice.name}`);
-          return;
-        }
-        const filePath = yield this.getFilePath(captureTo);
-        const content = yield this.getCaptureContent();
-        let getFileAndAddContentFn;
-        if (yield this.fileExists(filePath)) {
-          getFileAndAddContentFn = this.onFileExists;
-        } else if ((_c = (_b = this.choice) == null ? void 0 : _b.createFileIfItDoesntExist) == null ? void 0 : _c.enabled) {
-          getFileAndAddContentFn = this.onCreateFileIfItDoesntExist;
-        } else {
-          log.logWarning(`The file ${filePath} does not exist and "Create file if it doesn't exist" is disabled.`);
-          return;
-        }
-        const { file, content: newFileContent } = yield getFileAndAddContentFn.bind(this)(filePath, content);
-        if (this.choice.appendLink) {
-          const markdownLink = this.app.fileManager.generateMarkdownLink(file, "");
-          appendToCurrentLine(markdownLink, this.app);
-        }
-        if ((_d = this.choice) == null ? void 0 : _d.openFile) {
-          yield openFile(this.app, file, {
-            openInNewTab: this.choice.openFileInNewTab.enabled,
-            direction: this.choice.openFileInNewTab.direction,
-            focus: this.choice.openFileInNewTab.focus,
-            mode: this.choice.openFileInMode
-          });
-        }
-        yield this.app.vault.modify(file, newFileContent);
-      } catch (e) {
-        log.logMessage(e);
-      }
-    });
-  }
-  getCaptureContent() {
-    return __async(this, null, function* () {
-      let content;
-      if (!this.choice.format.enabled)
-        content = VALUE_SYNTAX;
-      else
-        content = this.choice.format.format;
-      if (this.choice.task)
-        content = `- [ ] ${content}
-`;
-      return content;
-    });
-  }
-  onFileExists(filePath, content) {
-    return __async(this, null, function* () {
-      const file = yield this.getFileByPath(filePath);
-      if (!file)
-        throw new Error("File not found");
-      const fileContent = yield this.app.vault.read(file);
-      const newFileContent = yield this.formatter.formatContentWithFile(content, this.choice, fileContent, file);
-      return { file, content: newFileContent };
-    });
-  }
-  onCreateFileIfItDoesntExist(filePath, content) {
-    return __async(this, null, function* () {
-      let fileContent = "";
-      if (this.choice.createFileIfItDoesntExist.createWithTemplate) {
-        const singleTemplateEngine = new SingleTemplateEngine(
-          this.app,
-          this.plugin,
-          this.choice.createFileIfItDoesntExist.template,
-          this.choiceExecutor
-        );
-        fileContent = yield singleTemplateEngine.run();
-      }
-      const file = yield this.createFileWithInput(filePath, fileContent);
-      yield replaceTemplaterTemplatesInCreatedFile(this.app, file);
-      const updatedFileContent = yield this.app.vault.cachedRead(file);
-      const newFileContent = yield this.formatter.formatContentWithFile(
-        content,
-        this.choice,
-        updatedFileContent,
-        file
-      );
-      return { file, content: newFileContent };
-    });
-  }
-  getFilePath(captureTo) {
-    return __async(this, null, function* () {
-      const formattedCaptureTo = yield this.formatter.formatFileName(captureTo, this.choice.name);
-      return this.formatFilePath("", formattedCaptureTo);
-    });
-  }
-  captureToActiveFile() {
-    return __async(this, null, function* () {
-      const activeFile = this.app.workspace.getActiveFile();
-      if (!activeFile) {
-        log.logError("Cannot capture to active file - no active file.");
+  choice;
+  formatter;
+  plugin;
+  async run() {
+    try {
+      if (this.choice?.captureToActiveFile) {
+        await this.captureToActiveFile();
         return;
       }
-      let content = yield this.getCaptureContent();
-      content = yield this.formatter.formatContent(content, this.choice);
-      if (this.choice.format.enabled) {
-        content = yield templaterParseTemplate(this.app, content, activeFile);
-      }
-      if (!content)
+      const captureTo = this.choice.captureTo;
+      if (!captureTo) {
+        log.logError(`Invalid capture to for ${this.choice.name}`);
         return;
-      if (this.choice.prepend) {
-        const fileContent = yield this.app.vault.cachedRead(activeFile);
-        const newFileContent = `${fileContent}${content}`;
-        yield this.app.vault.modify(activeFile, newFileContent);
+      }
+      const filePath = await this.getFilePath(captureTo);
+      const content = await this.getCaptureContent();
+      let getFileAndAddContentFn;
+      if (await this.fileExists(filePath)) {
+        getFileAndAddContentFn = this.onFileExists;
+      } else if (this.choice?.createFileIfItDoesntExist?.enabled) {
+        getFileAndAddContentFn = this.onCreateFileIfItDoesntExist;
       } else {
-        appendToCurrentLine(content, this.app);
+        log.logWarning(`The file ${filePath} does not exist and "Create file if it doesn't exist" is disabled.`);
+        return;
       }
-    });
+      const { file, content: newFileContent } = await getFileAndAddContentFn.bind(this)(filePath, content);
+      if (this.choice.appendLink) {
+        const markdownLink = this.app.fileManager.generateMarkdownLink(file, "");
+        appendToCurrentLine(markdownLink, this.app);
+      }
+      if (this.choice?.openFile) {
+        await openFile(this.app, file, {
+          openInNewTab: this.choice.openFileInNewTab.enabled,
+          direction: this.choice.openFileInNewTab.direction,
+          focus: this.choice.openFileInNewTab.focus,
+          mode: this.choice.openFileInMode
+        });
+      }
+      await this.app.vault.modify(file, newFileContent);
+    } catch (e) {
+      log.logMessage(e);
+    }
+  }
+  async getCaptureContent() {
+    let content;
+    if (!this.choice.format.enabled)
+      content = VALUE_SYNTAX;
+    else
+      content = this.choice.format.format;
+    if (this.choice.task)
+      content = `- [ ] ${content}
+`;
+    return content;
+  }
+  async onFileExists(filePath, content) {
+    const file = await this.getFileByPath(filePath);
+    if (!file)
+      throw new Error("File not found");
+    const fileContent = await this.app.vault.read(file);
+    const newFileContent = await this.formatter.formatContentWithFile(content, this.choice, fileContent, file);
+    return { file, content: newFileContent };
+  }
+  async onCreateFileIfItDoesntExist(filePath, content) {
+    let fileContent = "";
+    if (this.choice.createFileIfItDoesntExist.createWithTemplate) {
+      const singleTemplateEngine = new SingleTemplateEngine(
+        this.app,
+        this.plugin,
+        this.choice.createFileIfItDoesntExist.template,
+        this.choiceExecutor
+      );
+      fileContent = await singleTemplateEngine.run();
+    }
+    const file = await this.createFileWithInput(filePath, fileContent);
+    await replaceTemplaterTemplatesInCreatedFile(this.app, file);
+    const updatedFileContent = await this.app.vault.cachedRead(file);
+    const newFileContent = await this.formatter.formatContentWithFile(
+      content,
+      this.choice,
+      updatedFileContent,
+      file
+    );
+    return { file, content: newFileContent };
+  }
+  async getFilePath(captureTo) {
+    const formattedCaptureTo = await this.formatter.formatFileName(captureTo, this.choice.name);
+    return this.formatFilePath("", formattedCaptureTo);
+  }
+  async captureToActiveFile() {
+    const activeFile = this.app.workspace.getActiveFile();
+    if (!activeFile) {
+      log.logError("Cannot capture to active file - no active file.");
+      return;
+    }
+    let content = await this.getCaptureContent();
+    content = await this.formatter.formatContent(content, this.choice);
+    if (this.choice.format.enabled) {
+      content = await templaterParseTemplate(this.app, content, activeFile);
+    }
+    if (!content)
+      return;
+    if (this.choice.prepend) {
+      const fileContent = await this.app.vault.cachedRead(activeFile);
+      const newFileContent = `${fileContent}${content}`;
+      await this.app.vault.modify(activeFile, newFileContent);
+    } else {
+      appendToCurrentLine(content, this.app);
+    }
   }
 };
 
@@ -37411,10 +37271,10 @@ var ChoiceSuggester = class extends import_obsidian28.FuzzySuggestModal {
     super(plugin.app);
     this.plugin = plugin;
     this.choices = choices;
-    this.choiceExecutor = new ChoiceExecutor(this.app, this.plugin);
     if (choiceExecutor)
       this.choiceExecutor = choiceExecutor;
   }
+  choiceExecutor = new ChoiceExecutor(this.app, this.plugin);
   static Open(plugin, choices, choiceExecutor) {
     new ChoiceSuggester(plugin, choices, choiceExecutor).open();
   }
@@ -37424,13 +37284,11 @@ var ChoiceSuggester = class extends import_obsidian28.FuzzySuggestModal {
   getItems() {
     return this.choices;
   }
-  onChooseItem(item, evt) {
-    return __async(this, null, function* () {
-      if (item.type === "Multi" /* Multi */)
-        this.onChooseMultiType(item);
-      else
-        yield this.choiceExecutor.execute(item);
-    });
+  async onChooseItem(item, evt) {
+    if (item.type === "Multi" /* Multi */)
+      this.onChooseMultiType(item);
+    else
+      await this.choiceExecutor.execute(item);
   }
   onChooseMultiType(multi) {
     const choices = [...multi.choices];
@@ -37445,63 +37303,53 @@ var ChoiceExecutor = class {
   constructor(app, plugin) {
     this.app = app;
     this.plugin = plugin;
-    this.variables = /* @__PURE__ */ new Map();
   }
-  execute(choice) {
-    return __async(this, null, function* () {
-      switch (choice.type) {
-        case "Template" /* Template */:
-          const templateChoice = choice;
-          yield this.onChooseTemplateType(templateChoice);
-          break;
-        case "Capture" /* Capture */:
-          const captureChoice = choice;
-          yield this.onChooseCaptureType(captureChoice);
-          break;
-        case "Macro" /* Macro */:
-          const macroChoice = choice;
-          yield this.onChooseMacroType(macroChoice);
-          break;
-        case "Multi" /* Multi */:
-          const multiChoice = choice;
-          yield this.onChooseMultiType(multiChoice);
-          break;
-        default:
-          break;
-      }
+  variables = /* @__PURE__ */ new Map();
+  async execute(choice) {
+    switch (choice.type) {
+      case "Template" /* Template */:
+        const templateChoice = choice;
+        await this.onChooseTemplateType(templateChoice);
+        break;
+      case "Capture" /* Capture */:
+        const captureChoice = choice;
+        await this.onChooseCaptureType(captureChoice);
+        break;
+      case "Macro" /* Macro */:
+        const macroChoice = choice;
+        await this.onChooseMacroType(macroChoice);
+        break;
+      case "Multi" /* Multi */:
+        const multiChoice = choice;
+        await this.onChooseMultiType(multiChoice);
+        break;
+      default:
+        break;
+    }
+  }
+  async onChooseTemplateType(templateChoice) {
+    if (!templateChoice.templatePath) {
+      log.logError(`please provide a template path for ${templateChoice.name}`);
+      return;
+    }
+    await new TemplateChoiceEngine(this.app, this.plugin, templateChoice, this).run();
+  }
+  async onChooseCaptureType(captureChoice) {
+    if (!captureChoice.captureTo && !captureChoice?.captureToActiveFile) {
+      log.logError(`please provide a capture path for ${captureChoice.name}`);
+      return;
+    }
+    await new CaptureChoiceEngine(this.app, this.plugin, captureChoice, this).run();
+  }
+  async onChooseMacroType(macroChoice) {
+    const macroEngine = await new MacroChoiceEngine(this.app, this.plugin, macroChoice, this.plugin.settings.macros, this, this.variables);
+    await macroEngine.run();
+    Object.entries(macroEngine.params.variables).forEach(([key, value]) => {
+      this.variables.set(key, value);
     });
   }
-  onChooseTemplateType(templateChoice) {
-    return __async(this, null, function* () {
-      if (!templateChoice.templatePath) {
-        log.logError(`please provide a template path for ${templateChoice.name}`);
-        return;
-      }
-      yield new TemplateChoiceEngine(this.app, this.plugin, templateChoice, this).run();
-    });
-  }
-  onChooseCaptureType(captureChoice) {
-    return __async(this, null, function* () {
-      if (!captureChoice.captureTo && !(captureChoice == null ? void 0 : captureChoice.captureToActiveFile)) {
-        log.logError(`please provide a capture path for ${captureChoice.name}`);
-        return;
-      }
-      yield new CaptureChoiceEngine(this.app, this.plugin, captureChoice, this).run();
-    });
-  }
-  onChooseMacroType(macroChoice) {
-    return __async(this, null, function* () {
-      const macroEngine = yield new MacroChoiceEngine(this.app, this.plugin, macroChoice, this.plugin.settings.macros, this, this.variables);
-      yield macroEngine.run();
-      Object.entries(macroEngine.params.variables).forEach(([key, value]) => {
-        this.variables.set(key, value);
-      });
-    });
-  }
-  onChooseMultiType(multiChoice) {
-    return __async(this, null, function* () {
-      ChoiceSuggester.Open(this.plugin, multiChoice.choices, this);
-    });
+  async onChooseMultiType(multiChoice) {
+    ChoiceSuggester.Open(this.plugin, multiChoice.choices, this);
   }
 };
 
@@ -37520,13 +37368,14 @@ var AppContext = React.createContext(void 0);
 function ReactView({}) {
   const app = React2.useContext(AppContext);
   const currentFile = app.workspace.getActiveFile();
-  return /* @__PURE__ */ React2.createElement("div", null, currentFile == null ? void 0 : currentFile.name);
+  return /* @__PURE__ */ React2.createElement("div", null, currentFile?.name);
 }
 var ReactView_default = ReactView;
 
 // src/gui/ReactExampleView.tsx
 var import_client = __toESM(require_client());
 var ReactExampleView = class extends import_obsidian29.ItemView {
+  root;
   constructor(leaf) {
     super(leaf);
   }
@@ -37539,88 +37388,79 @@ var ReactExampleView = class extends import_obsidian29.ItemView {
   getIcon() {
     return "star";
   }
-  onOpen() {
-    return __async(this, null, function* () {
-      this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
-      this.root.render(
-        /* @__PURE__ */ React3.createElement(React3.StrictMode, null, /* @__PURE__ */ React3.createElement(AppContext.Provider, {
-          value: this.app
-        }, /* @__PURE__ */ React3.createElement(ReactView_default, null)))
-      );
-    });
+  async onOpen() {
+    this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
+    this.root.render(
+      /* @__PURE__ */ React3.createElement(React3.StrictMode, null, /* @__PURE__ */ React3.createElement(AppContext.Provider, {
+        value: this.app
+      }, /* @__PURE__ */ React3.createElement(ReactView_default, null)))
+    );
   }
-  onClose() {
-    return __async(this, null, function* () {
-      this.root.unmount();
-    });
+  async onClose() {
+    this.root.unmount();
   }
 };
 var ReactExampleView_default = ReactExampleView;
 
 // src/main.ts
-var QuickAdd = class extends import_obsidian30.Plugin {
-  onload() {
-    return __async(this, null, function* () {
-      console.log("Loading QuickAdd");
-      QuickAdd.instance = this;
-      yield this.loadSettings();
-      this.addCommand({
-        id: "runQuickAdd",
-        name: "Run QuickAdd",
-        callback: () => {
-          ChoiceSuggester.Open(this, this.settings.choices);
-        }
-      });
-      this.addCommand({
-        id: "reloadQuickAdd",
-        name: "Reload QuickAdd (dev)",
-        checkCallback: (checking) => {
-          if (checking) {
-            return this.settings.devMode;
-          }
-          const id = this.manifest.id, plugins = this.app.plugins;
-          plugins.disablePlugin(id).then(() => plugins.enablePlugin(id));
-        }
-      });
-      this.addCommand({
-        id: "testQuickAdd",
-        name: "Test QuickAdd (dev)",
-        checkCallback: (checking) => {
-          if (checking) {
-            return this.settings.devMode;
-          }
-          console.log(`Test QuickAdd (dev)`);
-          const fn2 = () => __async(this, null, function* () {
-            const activeView = yield this.app.workspace.getActiveViewOfType(import_obsidian30.MarkdownView);
-            if (!activeView)
-              return false;
-            const x = this.app.workspace.getLeaf("tab");
-            x.openFile(activeView.file);
-          });
-          fn2();
-        }
-      });
-      this.registerView("react-example", (leaf) => new ReactExampleView_default(leaf));
-      log.register(new ConsoleErrorLogger()).register(new GuiLogger(this));
-      this.addSettingTab(new QuickAddSettingsTab(this.app, this));
-      this.app.workspace.onLayoutReady(() => new StartupMacroEngine(this.app, this, this.settings.macros, new ChoiceExecutor(this.app, this)).run());
-      this.addCommandsForChoices(this.settings.choices);
-      yield this.convertMacroChoicesMacroToId();
+var _QuickAdd = class extends import_obsidian30.Plugin {
+  settings;
+  async onload() {
+    console.log("Loading QuickAdd");
+    _QuickAdd.instance = this;
+    await this.loadSettings();
+    this.addCommand({
+      id: "runQuickAdd",
+      name: "Run QuickAdd",
+      callback: () => {
+        ChoiceSuggester.Open(this, this.settings.choices);
+      }
     });
+    this.addCommand({
+      id: "reloadQuickAdd",
+      name: "Reload QuickAdd (dev)",
+      checkCallback: (checking) => {
+        if (checking) {
+          return this.settings.devMode;
+        }
+        const id = this.manifest.id, plugins = this.app.plugins;
+        plugins.disablePlugin(id).then(() => plugins.enablePlugin(id));
+      }
+    });
+    this.addCommand({
+      id: "testQuickAdd",
+      name: "Test QuickAdd (dev)",
+      checkCallback: (checking) => {
+        if (checking) {
+          return this.settings.devMode;
+        }
+        console.log(`Test QuickAdd (dev)`);
+        const fn2 = async () => {
+          const activeView = await this.app.workspace.getActiveViewOfType(import_obsidian30.MarkdownView);
+          if (!activeView)
+            return false;
+          const x = this.app.workspace.getLeaf("tab");
+          x.openFile(activeView.file);
+        };
+        fn2();
+      }
+    });
+    this.registerView("react-example", (leaf) => new ReactExampleView_default(leaf));
+    log.register(new ConsoleErrorLogger()).register(new GuiLogger(this));
+    this.addSettingTab(new QuickAddSettingsTab(this.app, this));
+    this.app.workspace.onLayoutReady(() => new StartupMacroEngine(this.app, this, this.settings.macros, new ChoiceExecutor(this.app, this)).run());
+    this.addCommandsForChoices(this.settings.choices);
+    await this.convertMacroChoicesMacroToId();
   }
   onunload() {
     console.log("Unloading QuickAdd");
     this.app.workspace.detachLeavesOfType("react-example");
   }
-  loadSettings() {
-    return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
-    });
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
-  saveSettings() {
-    return __async(this, null, function* () {
-      yield this.saveData(this.settings);
-    });
+  async saveSettings() {
+    await this.saveData(this.settings);
   }
   addCommandsForChoices(choices) {
     choices.forEach((choice) => this.addCommandForChoice(choice));
@@ -37633,9 +37473,9 @@ var QuickAdd = class extends import_obsidian30.Plugin {
       this.addCommand({
         id: `choice:${choice.id}`,
         name: choice.name,
-        callback: () => __async(this, null, function* () {
-          yield new ChoiceExecutor(this.app, this).execute(choice);
-        })
+        callback: async () => {
+          await new ChoiceExecutor(this.app, this).execute(choice);
+        }
       });
     }
   }
@@ -37661,29 +37501,29 @@ var QuickAdd = class extends import_obsidian30.Plugin {
   removeCommandForChoice(choice) {
     deleteObsidianCommand(this.app, `quickadd:choice:${choice.id}`);
   }
-  convertMacroChoicesMacroToId() {
-    return __async(this, null, function* () {
-      function convertMacroChoiceMacroToIdHelper(choice) {
-        if (choice.type === "Multi" /* Multi */) {
-          let multiChoice = choice;
-          const multiChoices = multiChoice.choices.map(convertMacroChoiceMacroToIdHelper);
-          multiChoice = __spreadProps(__spreadValues({}, multiChoice), { choices: multiChoices });
-          return multiChoice;
-        }
-        if (choice.type !== "Macro" /* Macro */)
-          return choice;
-        const macroChoice = choice;
-        if (macroChoice.macro) {
-          macroChoice.macroId = macroChoice.macro.id;
-          delete macroChoice.macro;
-        }
-        return macroChoice;
+  async convertMacroChoicesMacroToId() {
+    function convertMacroChoiceMacroToIdHelper(choice) {
+      if (choice.type === "Multi" /* Multi */) {
+        let multiChoice = choice;
+        const multiChoices = multiChoice.choices.map(convertMacroChoiceMacroToIdHelper);
+        multiChoice = { ...multiChoice, choices: multiChoices };
+        return multiChoice;
       }
-      this.settings.choices = this.settings.choices.map(convertMacroChoiceMacroToIdHelper);
-      yield this.saveSettings();
-    });
+      if (choice.type !== "Macro" /* Macro */)
+        return choice;
+      const macroChoice = choice;
+      if (macroChoice.macro) {
+        macroChoice.macroId = macroChoice.macro.id;
+        delete macroChoice.macro;
+      }
+      return macroChoice;
+    }
+    this.settings.choices = this.settings.choices.map(convertMacroChoiceMacroToIdHelper);
+    await this.saveSettings();
   }
 };
+var QuickAdd = _QuickAdd;
+__publicField(QuickAdd, "instance");
 /**
  * @license React
  * react-dom.development.js
