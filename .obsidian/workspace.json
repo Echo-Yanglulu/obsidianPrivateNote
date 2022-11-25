@@ -1323,6 +1323,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Untitled Diagram.svg",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"diagram-edit\",\"state\":{\"file\":\"笔记/工具/哲学/Untitled Diagram.svg\"}}",
+                      "eState": "{}"
+                    },
+                    {
                       "title": "科学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/科学/科学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1331,9 +1337,12 @@
                   ]
                 },
                 "state": {
-                  "type": "diagram-edit",
+                  "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/Untitled Diagram.svg"
+                    "file": "笔记/工具/时间管理.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               },
@@ -1436,7 +1445,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/哲学/Untitled Diagram.svg"
+                        "file": "笔记/工具/时间管理.md"
                       }
                     }
                   }
@@ -1461,7 +1470,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/Untitled Diagram.svg",
+                        "file": "笔记/工具/时间管理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1492,7 +1501,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/哲学/Untitled Diagram.svg",
+                    "file": "笔记/工具/时间管理.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1631,7 +1640,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1823,11 +1832,11 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/工具/工具.md",
     "笔记/工具/smart原则.md",
     "笔记/工具/时间管理.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/概念/概念.md",
