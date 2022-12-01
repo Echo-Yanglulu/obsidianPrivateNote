@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "时间管理",
+      "path": "笔记/工具/时间管理.md"
+    },
+    {
+      "basename": "论证",
+      "path": "笔记/工具/思考/思维概念/论证.md"
+    },
+    {
       "basename": "人的行为",
       "path": "笔记/行为/人的行为.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "自我",
       "path": "笔记/工具/通用概念/自我.md"
-    },
-    {
-      "basename": "时间管理",
-      "path": "笔记/工具/时间管理.md"
     },
     {
       "basename": "Untitled Diagram",
@@ -67,10 +71,6 @@
     {
       "basename": "运动",
       "path": "笔记/行为/运动.md"
-    },
-    {
-      "basename": "论证",
-      "path": "笔记/工具/思考/思维概念/论证.md"
     },
     {
       "basename": "哲学",
@@ -202,5 +202,6 @@
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

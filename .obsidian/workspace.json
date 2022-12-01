@@ -1323,6 +1323,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "论证",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "人的行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "人",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1369,7 +1381,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/人的行为.md",
+                    "file": "笔记/工具/时间管理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1475,7 +1487,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/行为/人的行为.md"
+                        "file": "笔记/工具/时间管理.md"
                       }
                     }
                   }
@@ -1500,7 +1512,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/人的行为.md",
+                        "file": "笔记/工具/时间管理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1531,7 +1543,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/行为/人的行为.md",
+                    "file": "笔记/工具/时间管理.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1670,7 +1682,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1862,6 +1874,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/思考/基本概念/思维.md",
@@ -1869,8 +1883,6 @@
     "笔记/西方文明简史/主观事实.md",
     "笔记/内心/人性.md",
     "笔记/工具/通用概念/智慧.md",
-    "笔记/工具/通用概念/自我.md",
-    "笔记/工具/时间管理.md",
-    "笔记/工具/哲学/Untitled Diagram.svg"
+    "笔记/工具/通用概念/自我.md"
   ]
 }
