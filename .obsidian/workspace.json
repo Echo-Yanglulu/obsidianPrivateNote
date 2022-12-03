@@ -1121,6 +1121,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "内心",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":11},\"to\":{\"line\":67,\"ch\":11}},\"scroll\":50.20119018734162}"
+                    },
+                    {
+                      "title": "心灵",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/心灵.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":7},\"to\":{\"line\":37,\"ch\":7}},\"scroll\":32.92757321737804}"
+                    },
+                    {
                       "title": "概念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1143,7 +1161,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1323,6 +1341,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "时间管理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/时间管理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":22},\"to\":{\"line\":40,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
                       "title": "论证",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1381,7 +1405,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/时间管理.md",
+                    "file": "笔记/行为/人的行为.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1461,7 +1485,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -1487,7 +1511,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/时间管理.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -1512,7 +1536,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/时间管理.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1543,7 +1567,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/时间管理.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1682,7 +1706,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1869,20 +1893,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "6a5e997fff0d96e3",
+  "active": "8d05a704e995cc3b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/发展.md",
-    "笔记/工具/时间管理.md",
-    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/内心/内心.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/心灵.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/行为/人的行为.md",
+    "笔记/工具/时间管理.md",
+    "笔记/工具/发展.md",
+    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/人的属性.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/学习方法/概念/知识.md",
-    "笔记/西方文明简史/主观事实.md",
-    "笔记/内心/人性.md"
+    "笔记/工具/通用概念/人的属性.md"
   ]
 }
