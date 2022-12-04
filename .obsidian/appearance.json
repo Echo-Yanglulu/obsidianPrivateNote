@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 14,
   "theme": "moonstone",
-  "translucency": true,
+  "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
     "Footnotes",
@@ -11,6 +11,6 @@
   "accentColor": "#09a0f1",
   "interfaceFontFamily": "",
   "textFontFamily": "",
-  "cssTheme": "Everblush",
+  "cssTheme": "Everforest",
   "nativeMenus": true
 }
