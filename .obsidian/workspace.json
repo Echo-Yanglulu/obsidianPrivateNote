@@ -1273,6 +1273,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
+                    },
+                    {
                       "title": "法则",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1343,7 +1349,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/训练模式/力量训练.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1742,7 +1748,7 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "35b2717050f96672",
+  "active": "d17d1b8b5818eee2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
