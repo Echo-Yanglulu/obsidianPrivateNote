@@ -1481,7 +1481,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -1569,7 +1569,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1769,6 +1769,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/电影/乱世佳人.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/写作/写作.md",
@@ -1776,8 +1778,6 @@
     "笔记/行为/健身/部位/小臂.md",
     "笔记/行为/健身/训练模式/训练模式.md",
     "笔记/工具/工具.md",
-    "笔记/工具/通用概念/自恋.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/恐惧.md"
+    "笔记/工具/通用概念/自恋.md"
   ]
 }
