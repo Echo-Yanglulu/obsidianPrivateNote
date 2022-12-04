@@ -1209,6 +1209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "恐惧",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/恐惧.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":21},\"to\":{\"line\":0,\"ch\":21}}}"
+                    },
+                    {
                       "title": "哲学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1249,7 +1255,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/恐惧.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1359,7 +1365,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/变化.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -1384,7 +1390,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/变化.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1415,7 +1421,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/变化.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1520,23 +1526,6 @@
             }
           },
           {
-            "id": "bc55ca4b3679aac4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "center-panes",
-              "state": {}
-            }
-          },
-          {
             "id": "213e3f4c8c30fa0f",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1558,8 +1547,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0124969482422,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1742,20 +1730,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "94f7d572abc5de30",
+  "active": "f73d7b2ec3e4282f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/时间.md",
     "笔记/工具/通用概念/恐惧.md",
+    "笔记/工具/工具.md",
+    "笔记/工具/通用概念/时间.md",
+    "笔记/工具/通用概念/变化.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/自恋.md",
     "笔记/工具/通用概念/自我的诞生.md",
     "笔记/工具/通用概念/自我.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/内心/内心.md",
-    "笔记/内心/心灵.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md"
+    "笔记/内心/内心.md"
   ]
 }
