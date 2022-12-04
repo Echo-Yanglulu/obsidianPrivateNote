@@ -1273,6 +1273,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "法则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}}}"
+                    },
+                    {
                       "title": "运动",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/运动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1339,7 +1351,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "03555132cbcc4348",
@@ -1365,7 +1377,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/行为/健身/训练模式/力量训练.md"
                       }
                     }
                   }
@@ -1390,7 +1402,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1421,7 +1433,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/行为/健身/训练模式/力量训练.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1547,7 +1559,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 238.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1730,20 +1742,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "35b2717050f96672",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/恐惧.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/行为/写作/写作.md",
+    "笔记/行为/健身/法则.md",
+    "笔记/行为/健身/部位/小臂.md",
+    "笔记/行为/健身/训练模式/训练模式.md",
     "笔记/工具/工具.md",
-    "笔记/工具/通用概念/时间.md",
-    "笔记/工具/通用概念/变化.md",
-    "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/自恋.md",
-    "笔记/工具/通用概念/自我的诞生.md",
-    "笔记/工具/通用概念/自我.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/内心/内心.md"
+    "笔记/工具/通用概念/恐惧.md"
   ]
 }
