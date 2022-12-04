@@ -1121,6 +1121,36 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "自我的诞生",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":23},\"to\":{\"line\":8,\"ch\":23}}}"
+                    },
+                    {
+                      "title": "自我",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":18},\"to\":{\"line\":5,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "内心",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":45.87317998443506}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":18},\"to\":{\"line\":5,\"ch\":18}}}"
+                    },
+                    {
                       "title": "内心",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1161,7 +1191,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/工具/通用概念/自恋.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1511,7 +1541,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/工具/通用概念/自恋.md"
                       }
                     }
                   }
@@ -1536,7 +1566,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/通用概念/自恋.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1567,7 +1597,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/工具/通用概念/自恋.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1706,7 +1736,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1898,15 +1928,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/内心.md",
+    "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/工具/通用概念/自我.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/内心.md",
     "笔记/内心/心灵.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/时间管理.md",
     "笔记/工具/发展.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/工具/通用概念/人的属性.md"
+    "笔记/工具/思考/思维概念/论证.md"
   ]
 }
