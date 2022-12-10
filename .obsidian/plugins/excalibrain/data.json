@@ -161,7 +161,8 @@
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/TS/TS.md",
     "笔记/前端/编程语言/TS/泛型.md",
-    "笔记/前端/编程语言/编程语言.md"
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
@@ -169,5 +170,7 @@
   "ontologySuggesterFriendTrigger": "::f",
   "ontologySuggesterTrigger": ":::",
   "ontologySuggesterMidSentenceTrigger": "(",
-  "boldFields": false
+  "boldFields": false,
+  "allowAutozoom": true,
+  "allowAutofocuOnSearch": true
 }

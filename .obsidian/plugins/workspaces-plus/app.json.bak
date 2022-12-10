@@ -1,0 +1,29 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "A3",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "笔记/前端/assets",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": false,
+  "showFrontmatter": true,
+  "communityPluginSortOrder": "release",
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "autoPairMarkdown": true,
+  "autoConvertHtml": false,
+  "spellcheck": false,
+  "tabSize": 4
+}

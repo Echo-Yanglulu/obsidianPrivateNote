@@ -1209,6 +1209,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "关系图谱",
+                      "icon": "lucide-git-fork",
+                      "state": "{\"type\":\"graph\",\"state\":{}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":62},\"to\":{\"line\":35,\"ch\":62}},\"scroll\":20.394788273615635}"
+                    },
+                    {
                       "title": "恐惧",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/恐惧.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1382,9 +1394,7 @@
                     },
                     "state": {
                       "type": "outline",
-                      "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
-                      }
+                      "state": {}
                     }
                   }
                 ]
@@ -1408,7 +1418,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1439,7 +1448,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1569,7 +1577,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1695,8 +1703,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "cb90dcff4f2d74ad",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "da367dbbb80f273f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1769,15 +1794,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/电影/乱世佳人.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "excalibrain.md",
+    "静态分析.md",
+    "Day Planners/Day Planner-20220805.md",
+    "README.md",
+    "笔记/电影/乱世佳人.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/写作/写作.md",
-    "笔记/行为/健身/法则.md",
-    "笔记/行为/健身/部位/小臂.md",
-    "笔记/行为/健身/训练模式/训练模式.md",
-    "笔记/工具/工具.md",
-    "笔记/工具/通用概念/自恋.md"
+    "笔记/行为/健身/法则.md"
   ]
 }
