@@ -1209,6 +1209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":27},\"to\":{\"line\":46,\"ch\":27}},\"scroll\":26.06359945872801}"
+                    },
+                    {
                       "title": "关系图谱",
                       "icon": "lucide-git-fork",
                       "state": "{\"type\":\"graph\",\"state\":{}}",
@@ -1267,7 +1273,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/电影/功夫熊猫.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1395,7 +1401,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/电影/功夫熊猫.md"
                       }
                     }
                   }
@@ -1420,7 +1426,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/电影/功夫熊猫.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1451,7 +1457,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/电影/功夫熊猫.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
