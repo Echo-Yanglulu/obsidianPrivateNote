@@ -1209,6 +1209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "功夫熊猫",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/功夫熊猫.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}}}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1273,7 +1279,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/电影/功夫熊猫.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1375,7 +1381,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "03555132cbcc4348",
@@ -1401,7 +1407,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/通用概念/自恋.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -1426,7 +1432,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/自恋.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1457,7 +1463,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/通用概念/自恋.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1587,7 +1593,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1789,20 +1795,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "8d05a704e995cc3b",
+  "active": "f73d7b2ec3e4282f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/工具.md",
     "笔记/电影/功夫熊猫.md",
+    "笔记/工具/工具.md",
+    "笔记/工具/通用概念/自恋.md",
     "笔记/内心/心智.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "excalibrain.md",
     "静态分析.md",
     "Day Planners/Day Planner-20220805.md",
     "README.md",
-    "笔记/电影/乱世佳人.md",
-    "笔记/行为/健身/训练模式/力量训练.md"
+    "笔记/电影/乱世佳人.md"
   ]
 }
