@@ -1,6 +1,6 @@
 /* -------- FRONT MATTER ---------
 ** Theme: Obsidian Typewriter
-** Version number: 2.1.1
+** Version number: 2.1.3
 ** GitHub Repo: https://github.com/crashmoney/obsidian-typewriter
 ** Made by: crashmoney
 ----------------------------------- */
@@ -421,6 +421,25 @@ body .modal-bg {
   background-color: var(--background-primary);
 }
 
+/* OBSIDIAN TODO by @larslockefeer */
+div.todo-item-view-item span.due-date {
+  background-color: var(--yellow);
+  color: white; /* makes due dates legible */
+}
+
+div.todo-item-view-item span.due-date.overdue { 
+  background-color: var(--orange);
+}
+
+/* make toolbar items more legible */
+div.todo-item-view-item-link svg, div.todo-item-view-toolbar-item svg {
+  fill: var(--text-faint);
+}
+/* make focused toolbar item follow the theme accent */
+div.todo-item-view-toolbar-item.active svg {
+  fill: var(--text-accent);
+}
+
 /* +++ STYLE SETTINGS by @mgmeyers */
 
 /* @settings
@@ -483,4 +502,6 @@ community:
 - obsidian-journey-plugin
 - obsidian-banners
 - obsidian-dataview
+- obsidian-style-settings
+- obsidian-plugin-todo
 */
