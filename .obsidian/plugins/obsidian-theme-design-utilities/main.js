@@ -62,7 +62,7 @@ var themeDesignUtilities = class extends import_obsidian.Plugin {
         id: "freeze-obsidian",
         name: "Freeze Obsidian (with " + freezeDelaySecs.toString() + "s delay)",
         callback: () => {
-          new import_obsidian.Notice("Will freeze Obsidian in " + freezeDelaySecs.toString() + "s \n(if the console is open.)", (freezeDelaySecs - 1) * 1e3);
+          new import_obsidian.Notice("Will freeze Obsidian in " + freezeDelaySecs.toString() + "s \n(if the console is open).", (freezeDelaySecs - 1) * 1e3);
           setTimeout(() => {
             debugger;
           }, freezeDelaySecs * 1e3);

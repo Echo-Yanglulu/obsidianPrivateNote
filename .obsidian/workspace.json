@@ -1375,7 +1375,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "03555132cbcc4348",
@@ -1401,7 +1401,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/电影/功夫熊猫.md"
+                        "file": "笔记/工具/通用概念/自恋.md"
                       }
                     }
                   }
@@ -1426,7 +1426,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/电影/功夫熊猫.md",
+                        "file": "笔记/工具/通用概念/自恋.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1457,7 +1457,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/电影/功夫熊猫.md",
+                    "file": "笔记/工具/通用概念/自恋.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1622,23 +1622,6 @@
             }
           },
           {
-            "id": "d6f768adb0296a56",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "675b99dc67621673",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1715,7 +1698,15 @@
             }
           },
           {
-            "id": "cb90dcff4f2d74ad",
+            "id": "da367dbbb80f273f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b04ecbe9c2ddeb65",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -1723,15 +1714,14 @@
             }
           },
           {
-            "id": "da367dbbb80f273f",
+            "id": "b57efb3bd4c1f9ba",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "review-queue-list-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1799,20 +1789,20 @@
     "direction": "horizontal",
     "width": 549.0001220703125
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "8d05a704e995cc3b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/心智.md",
+    "笔记/工具/工具.md",
     "笔记/电影/功夫熊猫.md",
+    "笔记/内心/心智.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "excalibrain.md",
     "静态分析.md",
     "Day Planners/Day Planner-20220805.md",
     "README.md",
     "笔记/电影/乱世佳人.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/行为/健身/健身.md"
+    "笔记/行为/健身/训练模式/力量训练.md"
   ]
 }
