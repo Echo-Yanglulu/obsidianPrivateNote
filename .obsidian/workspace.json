@@ -1209,6 +1209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "人性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/人性/人性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":2},\"to\":{\"line\":2,\"ch\":2}},\"scroll\":0}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1285,7 +1291,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/心理学/人性/人性.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1413,7 +1419,7 @@
                     "state": {
                       "type": "outline",
                       "state": {
-                        "file": "笔记/工具/心理学/人性/人性.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -1438,7 +1444,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/心理学/人性/人性.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1469,7 +1475,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "笔记/工具/心理学/人性/人性.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "byModifiedTime",
@@ -1599,7 +1605,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -1806,6 +1812,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/心理学/人性/人性.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/电影/功夫熊猫.md",
     "笔记/工具/工具.md",
@@ -1814,7 +1821,6 @@
     "excalibrain.md",
     "静态分析.md",
     "Day Planners/Day Planner-20220805.md",
-    "README.md",
-    "笔记/电影/乱世佳人.md"
+    "README.md"
   ]
 }
