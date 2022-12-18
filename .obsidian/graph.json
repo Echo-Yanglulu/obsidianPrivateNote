@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:笔记/前端",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:",
+      "query": "path:笔记/学习方法",
       "color": {
         "a": 1,
         "rgb": 6084188
