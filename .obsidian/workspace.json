@@ -1609,7 +1609,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1809,7 +1810,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "templater-obsidian:Templater": false,
@@ -1835,7 +1835,8 @@
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "f73d7b2ec3e4282f",
