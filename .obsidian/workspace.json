@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 18.207681365576104,
+            "dimension": 14.295874822190612,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 45.80369843527738,
+            "dimension": 63.940256045519206,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -1422,65 +1422,71 @@
             "currentTab": 2
           },
           {
-            "id": "be29d87c4ad60f93",
-            "type": "tabs",
-            "dimension": 18.84779516358464,
+            "id": "86193a5d16fa87de",
+            "type": "split",
+            "dimension": 21.763869132290186,
             "children": [
               {
-                "id": "1e28e91b1787e92c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "be29d87c4ad60f93",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "1e28e91b1787e92c",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "outgoing-link",
+                      "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "linksCollapsed": false,
+                        "unlinkedCollapsed": false
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "linksCollapsed": true,
-                    "unlinkedCollapsed": false
                   }
-                }
-              }
-            ]
-          },
-          {
-            "id": "22a79bfc7d6b6bf3",
-            "type": "tabs",
-            "dimension": 17.14082503556188,
-            "children": [
+                ]
+              },
               {
-                "id": "37fb741facd8f20b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "9284dcaae748ddfc",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "37fb741facd8f20b",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "backlink",
+                      "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "collapseAll": true,
+                        "extraContext": true,
+                        "sortOrder": "byModifiedTime",
+                        "showSearch": false,
+                        "searchQuery": "",
+                        "backlinkCollapsed": false,
+                        "unlinkedCollapsed": false
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "byModifiedTime",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
                   }
-                }
+                ]
               }
-            ]
+            ],
+            "direction": "horizontal"
           }
         ],
         "direction": "vertical"
