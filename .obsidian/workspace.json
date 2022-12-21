@@ -8,9 +8,35 @@
         "type": "split",
         "children": [
           {
+            "id": "670685ad67662d53",
+            "type": "tabs",
+            "dimension": 18.207681365576104,
+            "children": [
+              {
+                "id": "bd5ff300df2b3029",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 64.01326699834162,
+            "dimension": 45.80369843527738,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -1396,69 +1422,37 @@
             "currentTab": 2
           },
           {
-            "id": "03555132cbcc4348",
-            "type": "split",
-            "dimension": 18.90547263681592,
+            "id": "be29d87c4ad60f93",
+            "type": "tabs",
+            "dimension": 18.84779516358464,
             "children": [
               {
-                "id": "78af655098cf1c9d",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "bd5ff300df2b3029",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "outline",
-                      "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
-                      }
+                "id": "1e28e91b1787e92c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     }
+                  ]
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "linksCollapsed": true,
+                    "unlinkedCollapsed": false
                   }
-                ]
-              },
-              {
-                "id": "be29d87c4ad60f93",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "1e28e91b1787e92c",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "outgoing-link",
-                      "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                        "linksCollapsed": true,
-                        "unlinkedCollapsed": false
-                      }
-                    }
-                  }
-                ]
+                }
               }
-            ],
-            "direction": "horizontal"
+            ]
           },
           {
             "id": "22a79bfc7d6b6bf3",
             "type": "tabs",
-            "dimension": 17.081260364842453,
+            "dimension": 17.14082503556188,
             "children": [
               {
                 "id": "37fb741facd8f20b",
@@ -1844,12 +1838,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/未命名.md",
+    "笔记/工具/通用概念/自恋.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/未命名.md",
     "笔记/工具/心理学/人性/人性.md",
     "笔记/电影/功夫熊猫.md",
     "笔记/工具/工具.md",
-    "笔记/工具/通用概念/自恋.md",
     "笔记/内心/心智.md",
     "excalibrain.md",
     "静态分析.md",
