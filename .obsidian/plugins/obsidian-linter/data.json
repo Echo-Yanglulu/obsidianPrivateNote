@@ -168,6 +168,7 @@
     }
   },
   "lintOnSave": false,
+  "recordLintOnSaveLogs": false,
   "displayChanged": false,
   "foldersToIgnore": [],
   "linterLocale": "system-default",
