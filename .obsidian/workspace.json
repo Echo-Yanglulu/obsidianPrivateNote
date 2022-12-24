@@ -1580,32 +1580,23 @@
             }
           },
           {
-            "id": "213e3f4c8c30fa0f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "314b79b2de85db66",
             "type": "leaf",
             "state": {
               "type": "center-panes",
               "state": {}
             }
+          },
+          {
+            "id": "d390400aee94f155",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1818,7 +1809,6 @@
       "obsidian-map-view:Open map view": false,
       "obsidian-journey-plugin:Find Journey": false,
       "juggl:Juggl global graph": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "smart-random-note:Open Random Note from Search": false,
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
@@ -1833,9 +1823,10 @@
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "f73d7b2ec3e4282f",
