@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 14.295874822190612,
+            "dimension": 12.100213219616204,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 63.940256045519206,
+            "dimension": 64.17910447761194,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -1140,17 +1140,23 @@
                 "id": "8d05a704e995cc3b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
                     {
-                      "state": "{}",
+                      "title": "Interactive Map View",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"map\",\"state\":{\"name\":\"Default\",\"mapZoom\":1,\"mapCenter\":{\"lat\":40.44694705960048,\"lng\":-180.70312500000003},\"query\":\"\",\"chosenMapSource\":0,\"queryError\":false}}",
                       "eState": "{}"
                     },
                     {
-                      "title": "自我的诞生",
+                      "title": "自恋",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自我的诞生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":23},\"to\":{\"line\":8,\"ch\":23}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/自恋.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":6},\"to\":{\"line\":9,\"ch\":6}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     },
                     {
                       "title": "自我",
@@ -1217,7 +1223,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/自恋.md",
+                    "file": "笔记/工具/通用概念/自我的诞生.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1225,7 +1231,7 @@
                 }
               },
               {
-                "id": "f73d7b2ec3e4282f",
+                "id": "48c40bbeb9dd014b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -1233,84 +1239,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "人性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/人性/人性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":2},\"to\":{\"line\":2,\"ch\":2}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":28},\"to\":{\"line\":32,\"ch\":28}},\"scroll\":31.352678571428573}"
-                    },
-                    {
-                      "title": "功夫熊猫",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/功夫熊猫.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}}}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":27},\"to\":{\"line\":46,\"ch\":27}},\"scroll\":26.06359945872801}"
-                    },
-                    {
-                      "title": "关系图谱",
-                      "icon": "lucide-git-fork",
-                      "state": "{\"type\":\"graph\",\"state\":{}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":62},\"to\":{\"line\":35,\"ch\":62}},\"scroll\":20.394788273615635}"
-                    },
-                    {
-                      "title": "恐惧",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/恐惧.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":21},\"to\":{\"line\":0,\"ch\":21}}}"
-                    },
-                    {
-                      "title": "哲学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/哲学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":6},\"to\":{\"line\":6,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":0},\"to\":{\"line\":75,\"ch\":0}},\"scroll\":63.98623056422087}"
-                    },
-                    {
-                      "title": "概念",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":9},\"to\":{\"line\":8,\"ch\":9}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":9},\"to\":{\"line\":65,\"ch\":9}},\"scroll\":48.746854476693564}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":4},\"to\":{\"line\":36,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":6},\"to\":{\"line\":17,\"ch\":6}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -1424,7 +1352,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 21.76386913229019,
+            "dimension": 23.720682302771856,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1596,11 +1524,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1796,7 +1725,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 470.5
+    "width": 470.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1829,20 +1759,20 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "f73d7b2ec3e4282f",
+  "active": "48c40bbeb9dd014b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/自我的诞生.md",
     "笔记/工具/通用概念/自恋.md",
+    "笔记/内心/未命名.canvas",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/未命名.md",
     "笔记/工具/心理学/人性/人性.md",
     "笔记/电影/功夫熊猫.md",
     "笔记/工具/工具.md",
     "笔记/内心/心智.md",
-    "excalibrain.md",
-    "静态分析.md",
-    "Day Planners/Day Planner-20220805.md"
+    "excalibrain.md"
   ]
 }

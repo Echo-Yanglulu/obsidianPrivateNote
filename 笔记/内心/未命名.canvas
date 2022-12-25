@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"838fa979e84f066b","x":-200,"y":52,"width":260,"height":140,"type":"file","file":"笔记/内心/深夜加油站遇见苏格拉底.md"},
+		{"id":"3fa8c6c550246c6f","x":200,"y":-60,"width":250,"height":60,"color":"3","type":"text","text":""}
+	],
+	"edges":[
+		{"id":"5b0ae2e9f75b5830","fromNode":"3fa8c6c550246c6f","fromSide":"left","toNode":"838fa979e84f066b","toSide":"right"}
+	]
+}
