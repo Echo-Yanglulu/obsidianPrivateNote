@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/电影/触不可及.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -1352,7 +1352,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -1378,7 +1379,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/电影/触不可及.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1405,7 +1406,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/电影/触不可及.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1533,7 +1534,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1763,11 +1765,12 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "027e544465ae63f6",
+  "active": "48c40bbeb9dd014b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/电影/触不可及.md",
     "笔记/工具/工具.md",
     "笔记/工具/通用概念/自我的诞生.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1776,7 +1779,6 @@
     "笔记/内心/未命名.md",
     "笔记/工具/心理学/人性/人性.md",
     "笔记/电影/功夫熊猫.md",
-    "笔记/内心/心智.md",
-    "excalibrain.md"
+    "笔记/内心/心智.md"
   ]
 }
