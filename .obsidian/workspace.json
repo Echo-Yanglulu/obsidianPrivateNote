@@ -1521,7 +1521,7 @@
             }
           },
           {
-            "id": "d390400aee94f155",
+            "id": "317fb234541754fa",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -1533,8 +1533,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
-    "collapsed": true
+    "width": 221.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1759,9 +1758,9 @@
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "027e544465ae63f6",
