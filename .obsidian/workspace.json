@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/电影/触不可及.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "工具",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/工具.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "逻辑学",
@@ -1129,7 +1135,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/工具.md",
+                    "file": "笔记/电影/触不可及.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1346,8 +1352,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -1373,7 +1378,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/电影/触不可及.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1400,7 +1405,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/电影/触不可及.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1528,7 +1533,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1758,19 +1764,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "48c40bbeb9dd014b",
+  "active": "027e544465ae63f6",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/工具.md",
     "笔记/工具/通用概念/自我的诞生.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/自恋.md",
     "笔记/内心/未命名.canvas",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/未命名.md",
     "笔记/工具/心理学/人性/人性.md",
     "笔记/电影/功夫熊猫.md",
-    "笔记/工具/工具.md",
     "笔记/内心/心智.md",
     "excalibrain.md"
   ]
