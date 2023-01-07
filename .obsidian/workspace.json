@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 13.812154696132598,
+            "dimension": 14.164305949008499,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 66.9889502762431,
+            "dimension": 68.34277620396601,
             "children": [
               {
                 "id": "027e544465ae63f6",
@@ -1358,7 +1358,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 19.19889502762431,
+            "dimension": 17.492917847025495,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1657,7 +1657,7 @@
             }
           },
           {
-            "id": "b57efb3bd4c1f9ba",
+            "id": "3f9df60768dbdd85",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -1739,7 +1739,6 @@
       "templater-obsidian:Templater": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-journey-plugin:Find Journey": false,
       "juggl:Juggl global graph": false,
@@ -1747,7 +1746,6 @@
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "obisidian-note-linker:Note Linker": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": false,
@@ -1759,6 +1757,7 @@
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
     }

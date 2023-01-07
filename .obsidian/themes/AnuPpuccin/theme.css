@@ -130,6 +130,14 @@ settings:
         title: "Toggle colorful frame (WIP)"
         type: class-toggle
     - 
+        id: anp-colorful-frame-icon-toggle-light
+        title: "Invert icon colors - Light"
+        type: class-toggle
+    - 
+        id: anp-colorful-frame-icon-toggle-dark
+        title: "Invert icon colors - Dark"
+        type: class-toggle
+    - 
         id: anp-colorful-frame-opacity
         title: Colorful frame opacity
         type: variable-number-slider
@@ -176,8 +184,8 @@ settings:
                 label: Block
                 value: anp-callout-block
             - 
-                label: Willemstad
-                value: anp-callout-willemstad
+                label: Vanilla
+                value: anp-callout-vanilla
     - 
         id: anp-callout-normal-toggle
         title: Toggle callout styling to non-collapsible callouts
@@ -197,6 +205,120 @@ settings:
         id: anp-callout-fold-position
         title: Callout fold position
         type: class-toggle
+    - 
+        id: anp-canvas-header
+        title: Canvas
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: anp-canvas-dark-bg
+        title: Darker canvas background
+        type: class-toggle
+    - 
+        id: anp-codeblock-header
+        title: Codeblocks
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: anp-codeblock-wrap
+        title: Codeblock line wrap
+        description: Works only in Live Preview and Source Mode
+        type: variable-select
+        default: nowrap
+        options:
+            -
+                label: Wrap
+                value: normal
+            -
+                label: No Wrap
+                value: nowrap
+    - 
+        id: anp-custom-background-header
+        title: Custom background
+        type: heading
+        level: 2
+        collapsed: true
+    - 
+        id: anp-background-image-toggle
+        title: Enable custom background (WIP)
+        description: Not compatible with colorful frame
+        type: class-toggle
+    - 
+        id: anp-custom-background-light-header
+        title: Light Mode
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: anp-background-image-light
+        title: Custom Background Image URL
+        description: 'Formatted as url("https://link-to-image.png")'
+        type: variable-text
+        default: url("https://link-to-image.png")
+    - 
+        id: anp-custom-bg-brightness-light
+        title: Background brightness
+        type: variable-number-slider
+        min: 0
+        max: 2
+        step: 0.05
+        default: 0.7
+    - 
+        id: anp-custom-bg-blur-light
+        title: Background blur
+        type: variable-number-slider
+        min: 0
+        max: 20
+        step: 1
+        default: 5
+        format: px
+    - 
+        id: anp-custom-bg-card-fg-opacity-light
+        title: Container opacity
+        type: variable-number-slider
+        min: 0
+        max: 1
+        step: 0.05
+        default: 0.4
+    - 
+        id: anp-custom-background-dark-header
+        title: Dark Mode
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: anp-background-image-dark
+        title: Custom Background Image URL
+        description: 'Formatted as url("https://link-to-image.png")'
+        type: variable-text
+        default: url("https://link-to-image.png")
+    - 
+        id: anp-custom-bg-brightness-dark
+        title: Background brightness
+        type: variable-number-slider
+        min: 0
+        max: 1
+        step: 0.05
+        default: 0.7
+    - 
+        id: anp-custom-bg-blur-dark
+        title: Background blur
+        type: variable-number-slider
+        min: 0
+        max: 20
+        step: 1
+        default: 5
+        format: px
+    - 
+        id: anp-custom-bg-card-fg-opacity-dark
+        title: Container opacity
+        type: variable-number-slider
+        min: 0
+        max: 1
+        step: 0.05
+        default: 0.4
     - 
         id: anp-custom-checkboxes-header
         title: Custom checkboxes
@@ -285,6 +407,10 @@ settings:
         level: 2
         collapsed: true
     - 
+        id: anp-autohide-titlebar
+        title: Auto-hide tab title bar
+        type: class-toggle
+    - 
         id: anp-toggle-metadata
         title: Hide metadata
         type: class-toggle
@@ -302,21 +428,21 @@ settings:
         type: class-toggle
     - 
         id: anp-header-header
-        title: Headers
+        title: Headings
         type: heading
         level: 2
         collapsed: true
     -
         id: anp-header-color-toggle
-        title: Toggle to enable custom header colors
+        title: Toggle to enable custom heading colors
         type: class-toggle
     -
         id: anp-header-margin-toggle
-        title: Toggle to enable custom header margin
+        title: Toggle to enable custom heading margin
         type: class-toggle
     - 
         id: anp-header-margin-value
-        title: Header margin value
+        title: Heading margin value
         description: Size unit is px
         type: variable-number-slider
         min: 0
@@ -901,26 +1027,20 @@ settings:
         default: 0.075
         format: em
     - 
-        id: anp-markdown-embed-header
-        title: Markdown embeds
-        type: heading
-        level: 2
-        collapsed: true
-    - 
-        id: anp-embed-toggle
-        title: Enable custom internal embeds
-        type: class-toggle
-    - 
-        id: anp-embed-animated-toggle
-        title: Enable custom animated internal embeds
-        type: class-toggle
-    - 
         id: anp-misc-element-header
         title: Misc. element settings
         description: Values in this category may be shifted to their own category in the future
         type: heading
         level: 2
         collapsed: true
+    - 
+        id: anp-collapse-folders
+        title: Enable folder icons for collapse indicators
+        type: class-toggle
+    - 
+        id: anp-file-icons
+        title: Enable file icons
+        type: class-toggle
     - 
         id: anp-codeblock-numbers
         title: Enable codeblock numbering
@@ -1062,6 +1182,10 @@ settings:
     - 
         id: anp-simple-rainbow-icon-toggle
         title: Toggle to enable circular file
+        type: class-toggle
+    - 
+        id: anp-rainbow-subfolder-color-toggle
+        title: Toggle to enable subfolder color inheritance
         type: class-toggle
     - 
         id: anp-stacked-tabs-header
@@ -1468,9 +1592,9 @@ settings:
   --ctp-surface2: 202, 193, 185;
   --ctp-surface1: 209, 201, 194;
   --ctp-surface0: 220, 211, 203;
-  --ctp-crust: 229, 220, 212;
-  --ctp-mantle: 235, 227, 219;
-  --ctp-base: 239, 231, 222;
+  --ctp-base: 238, 230, 221;
+  --ctp-mantle: 230, 219, 209;
+  --ctp-crust: 221, 208, 198;
 }
 
 .theme-dark.ctp-frappe {
@@ -1793,11 +1917,17 @@ settings:
   --color-red: rgb(var(--ctp-red));
   --color-green-rgb: var(--ctp-green);
   --color-green: rgb(var(--ctp-green));
+  --color-orange-rgb: var(--ctp-peach);
   --color-orange: rgb(var(--ctp-peach));
+  --color-yellow-rgb: var(--ctp-yellow);
   --color-yellow: rgb(var(--ctp-yellow));
+  --color-cyan-rgb: var(--ctp-sky);
   --color-cyan: rgb(var(--ctp-sky));
+  --color-blue-rgb: var(--ctp-blue);
   --color-blue: rgb(var(--ctp-blue));
+  --color-purple-rgb: var(--ctp-lavender);
   --color-purple: rgb(var(--ctp-lavender));
+  --color-pink-rgb: var(--ctp-pink);
   --color-pink: rgb(var(--ctp-pink));
   --color-base-00: rgb(var(--ctp-crust));
   --color-base-10: rgb(var(--ctp-mantle));
@@ -1877,6 +2007,9 @@ settings:
   --anp-speech-bubble-opacity: var(--anp-sp-op-dark, 0.9);
   --background-modifier-cover: rgba(var(--ctp-mantle), 0.4);
 }
+.theme-dark.theme-dark {
+  --canvas-color: var(--ctp-overlay0);
+}
 
 .theme-light {
   color-scheme: light;
@@ -1885,7 +2018,10 @@ settings:
   --background-modifier-border-hover: rgb(var(--ctp-surface2));
   --background-modifier-border-focus: rgb(var(--ctp-overlay0));
   --anp-speech-bubble-opacity: var(--anp-sp-op-light, 0.5);
-  --background-modifier-cover: #00000022 ;
+  --background-modifier-cover: #00000022
+  &.theme-light {
+      --canvas-color: var(--ctp-overlay0);
+  } ;
 }
 
 body {
@@ -1898,6 +2034,22 @@ body {
   --anp-header-font: "Noto Serif";
   --tab-stacked-pane-width: calc(var(--anp-tab-stacked-pane-width, 1)*var(--file-line-width));
   --anp-table-width-pct: 100%;
+  --canvas-color: var(--ctp-overlay2);
+  --card-background-color: rgb(var(--ctp-crust));
+  --card-foreground-color: rgb(var(--ctp-base));
+  --tab-inactive-color: rgb(var(--ctp-mantle));
+}
+body.theme-light {
+  --anp-background-image: var(--anp-background-image-light);
+  --anp-custom-bg-brightness: var(--anp-custom-bg-brightness-light);
+  --anp-custom-bg-blur: var(--anp-custom-bg-blur-light);
+  --anp-custom-bg-card-fg-opacity: var(--anp-custom-bg-card-fg-opacity-light);
+}
+body.theme-dark {
+  --anp-background-image: var(--anp-background-image-dark);
+  --anp-custom-bg-brightness: var(--anp-custom-bg-brightness-dark);
+  --anp-custom-bg-blur: var(--anp-custom-bg-blur-dark);
+  --anp-custom-bg-card-fg-opacity: var(--anp-custom-bg-card-fg-opacity-dark);
 }
 
 /*-Highlight current line-*/
@@ -1960,6 +2112,58 @@ body {
 
 .ͼp .cm-vim-panel {
   font-family: var(--font-monospace);
+}
+
+.canvas-card-menu {
+  box-shadow: none;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-secondary);
+}
+.canvas-card-menu .canvas-card-menu-button svg {
+  fill: var(--background-secondary);
+}
+.canvas-card-menu .canvas-card-menu-button:hover {
+  color: var(--text-normal);
+}
+
+.canvas-controls button {
+  background-color: var(--background-secondary);
+}
+.canvas-controls button:hover {
+  filter: brightness(95%);
+}
+
+.anp-canvas-dark-bg .canvas-wrapper {
+  background-color: var(--background-secondary);
+}
+.anp-canvas-dark-bg .canvas-controls button, .anp-canvas-dark-bg .canvas-card-menu {
+  background-color: var(--background-primary);
+}
+.anp-canvas-dark-bg .canvas-card-menu .canvas-card-menu-button svg {
+  fill: var(--background-primary);
+}
+
+.anuppuccin-accent-toggle .canvas-selection {
+  background-color: rgba(var(--ctp-accent), 0.1);
+  border: 2px solid var(--color-accent);
+}
+
+.canvas-node.is-themed .canvas-node-label {
+  color: rgb(var(--canvas-color));
+}
+
+.canvas-node-placeholder {
+  color: rgb(var(--canvas-color));
+}
+.canvas-node-placeholder::after {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.anuppuccin-accent-toggle .canvas-placeholder-message {
+  background: rgba(var(--ctp-accent), 0.1);
 }
 
 /*----------FILE PREVIEW MARGINS--------------*/
@@ -2058,7 +2262,7 @@ body {
 
 .workspace, .horizontal-main-container,
 .anp-card-layout .mod-vertical .workspace-tabs {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--tab-container-background);
 }
 
 .workspace-split:not(.mod-root) .graph-controls.is-close,
@@ -2076,17 +2280,22 @@ body {
   background-color: rgb(var(--ctp-mantle));
 }
 
+body {
+  --card-background-color: rgb(var(--ctp-crust));
+  --card-foreground-color: var(--background-primary);
+}
+
 body.anp-card-layout,
 .anp-card-layout .sidebar-toggle-button,
 .anp-card-layout .workspace-tabs.mod-top {
-  --tab-container-background: rgb(var(--ctp-crust));
+  --tab-container-background: var(--card-background-color);
   --file-header-border: var(--border-width) dashed var(--background-modifier-border);
 }
 
 body.is-focused.anp-card-layout,
 body.is-focused.anp-card-layout .sidebar-toggle-button,
 body.is-focused.anp-card-layout .workspace-tabs.mod-top {
-  --tab-container-background: rgb(var(--ctp-crust));
+  --tab-container-background: var(--card-background-color);
 }
 
 .anp-card-layout .mod-left-split .workspace-tab-header-container {
@@ -2126,14 +2335,14 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 .anp-card-layout-actions.anp-card-layout .side-dock-actions {
   border-radius: 0px var(--anp-card-radius, var(--radius-xl)) var(--anp-card-radius, var(--radius-xl)) 0px;
   border: 1px solid var(--tab-outline-color);
-  background-color: var(--background-primary);
+  background-color: var(--card-foreground-color);
   margin-top: 2px;
 }
 
 .anp-card-layout-actions.anp-card-layout .side-dock-settings {
   border-radius: 0px var(--anp-card-radius, var(--radius-xl)) 0px 0px;
   border: 1px solid var(--tab-outline-color);
-  background-color: var(--background-primary);
+  background-color: var(--card-foreground-color);
 }
 
 .anp-card-layout .side-dock-settings {
@@ -2184,7 +2393,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 
 .anp-card-layout .workspace-split .workspace-leaf-content {
   border-radius: var(--anp-card-radius, var(--radius-xl));
-  background-color: var(--background-primary);
+  background-color: var(--card-foreground-color);
   border: 1px solid var(--tab-outline-color);
   margin-bottom: var(--anp-card-layout-padding, 10px);
 }
@@ -2203,7 +2412,7 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
 }
 
 .anp-card-layout.anp-card-layout-filebrowser .workspace-split .workspace-leaf-content[data-type=file-explorer] {
-  background-color: var(--background-primary);
+  background-color: var(--card-foreground-color);
   border-width: 1px;
 }
 
@@ -2218,9 +2427,9 @@ body.is-focused.anp-card-layout .workspace-tabs.mod-top {
   width: unset;
 }
 
-.anp-card-layout .mod-stacked .workspace-tab-header {
+.anp-card-layout .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header {
   border-style: solid;
-  border-radius: var(--anp-card-radius, var(--radius-xl)) 0px 0px var(--anp-card-radius, var(--radius-xl)) !important;
+  border-radius: var(--anp-card-radius, var(--radius-xl)) 0px 0px var(--anp-card-radius, var(--radius-xl));
   border-width: var(--tab-outline-width);
   border-color: var(--tab-outline-color);
   border-right: var(--tab-outline-width) dashed var(--tab-outline-color);
@@ -2253,7 +2462,6 @@ body.anp-disable-borders {
   margin: auto;
 }
 
-.anp-bg-fix,
 .anp-bg-fix .workspace,
 .anp-bg-fix .app-container,
 .anp-bg-fix .horizontal-main-container {
@@ -2287,9 +2495,7 @@ body.anp-disable-borders {
   margin-left: 24px !important;
 }
 
-.modal.mod-settings,
-.modal.mod-community-theme,
-.modal.mod-community-plugin {
+.modal.mod-settings, .modal.mod-community-theme, .modal.kanban-plugin__board-settings-modal, .modal.mod-community-plugin {
   --h1-font: var(--font-interface);
   --h2-font: var(--font-interface);
   --h3-font: var(--font-interface);
@@ -2356,6 +2562,28 @@ body.is-translucent {
   padding: 5px 5px 5px 10px;
 }
 
+.markdown-source-view.mod-cm6 .HyperMD-codeblock.cm-line {
+  white-space: var(--anp-codeblock-wrap);
+  overflow-x: hidden;
+}
+
+.frontmatter-section-data-item {
+  background-color: var(--background-secondary);
+  padding: 0 4px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  font-family: var(--font-monospace);
+  font-size: 80%;
+}
+
+.frontmatter-container .frontmatter-section-label {
+  text-transform: uppercase;
+  font-size: 70%;
+}
+.frontmatter-container .frontmatter-section-label::first-letter {
+  font-size: 120%;
+}
+
 .anp-list-toggle ul.has-list-bullet > li > ul.has-list-bullet > li .list-bullet::after {
   border: 1px solid var(--list-marker-color);
   background-color: transparent;
@@ -2408,48 +2636,26 @@ body.is-translucent {
   color: var(--italic-color);
 }
 
-span[alt=anp-embed-animated] .markdown-embed, .anp-embed-animated-toggle .markdown-embed {
+.internal-embed[alt*=seamless] > .markdown-embed {
+  --embed-padding: 0;
   border-width: 0px;
-  border-color: var(--color-accent);
-  border-style: solid;
-  transition: border-width 0.2s, background-color 0.2s;
 }
-span[alt=anp-embed-animated] .markdown-embed .markdown-embed-title, .anp-embed-animated-toggle .markdown-embed .markdown-embed-title {
+.internal-embed[alt*=seamless] > .markdown-embed > .markdown-embed-title {
   width: fit-content;
   position: absolute;
   left: unset;
   right: 33px;
   top: 5px;
-}
-span[alt=anp-embed-animated] .markdown-embed .markdown-embed-link, span[alt=anp-embed-animated] .markdown-embed .file-embed-link, span[alt=anp-embed-animated] .markdown-embed .markdown-embed-title, .anp-embed-animated-toggle .markdown-embed .markdown-embed-link, .anp-embed-animated-toggle .markdown-embed .file-embed-link, .anp-embed-animated-toggle .markdown-embed .markdown-embed-title {
   opacity: 0;
-  transition: opacity 0.2s, display 0.2s;
+  transition: opacity 0.1s;
 }
-span[alt=anp-embed-animated] .markdown-embed:hover, .anp-embed-animated-toggle .markdown-embed:hover {
-  transition: border-width 0.2s, background-color 0.2s;
-  border-left-width: 4px;
-  background-color: var(--background-secondary);
+.internal-embed[alt*=seamless] > .markdown-embed > .markdown-embed-link {
+  opacity: 0;
+  transition: opacity 0.1s;
 }
-span[alt=anp-embed-animated] .markdown-embed:hover .markdown-embed-link, span[alt=anp-embed-animated] .markdown-embed:hover .file-embed-link, span[alt=anp-embed-animated] .markdown-embed:hover .markdown-embed-title, .anp-embed-animated-toggle .markdown-embed:hover .markdown-embed-link, .anp-embed-animated-toggle .markdown-embed:hover .file-embed-link, .anp-embed-animated-toggle .markdown-embed:hover .markdown-embed-title {
+.internal-embed[alt*=seamless] > .markdown-embed:hover > .markdown-embed-title, .internal-embed[alt*=seamless] > .markdown-embed:hover > .markdown-embed-link {
   opacity: 1;
-  transition: opacity 0.2s, display 0.2s;
-}
-
-span[alt=anp-embed] .markdown-embed .markdown-preview-section, .anp-embed-toggle .markdown-embed .markdown-preview-section,
-.anp-embed-animated-toggle .markdown-embed .markdown-preview-section, span[alt=anp-embed-animated] .markdown-embed .markdown-preview-section {
-  padding-left: 10px;
-}
-
-span[alt=anp-embed] .markdown-embed, .anp-embed-toggle .markdown-embed {
-  border-width: 0px;
-  border-style: solid;
-}
-span[alt=anp-embed] .markdown-embed .markdown-embed-title, .anp-embed-toggle .markdown-embed .markdown-embed-title {
-  width: fit-content;
-  position: absolute;
-  left: unset;
-  right: 33px;
-  top: 5px;
+  transition: opacity 0.1s;
 }
 
 /*--------------HEADERS----------------*/
@@ -2786,43 +2992,43 @@ hr {
 }
 
 /*-Recolor table borders-*/
-.anp-table-toggle .markdown-preview-view:not(.cards) table,
-.anp-table-toggle .markdown-preview-view:not(.cards) table td,
-.anp-table-toggle .markdown-preview-view:not(.cards) table th,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:last-child,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table td,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table th,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:last-child,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview),
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) td,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) th,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:first-child,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:last-child {
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table td,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table th,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview),
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) td,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child {
   border: var(--anp-table-thickness, 1px) solid var(--table-border-color);
 }
-.anp-table-toggle .markdown-preview-view:not(.cards) table th,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th,
-.anp-table-toggle .markdown-preview-view:not(.cards) table thead tr > th:last-child,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table th,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table thead tr > th:last-child,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) th,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:first-child,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) thead tr > th:last-child {
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table th,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th,
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child {
   text-align: var(--anp-table-align-th, center);
 }
-.anp-table-toggle .markdown-preview-view:not(.cards) table td,
-.anp-table-toggle .markdown-preview-view.cards table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards) table td,
-.anp-table-toggle .is-live-preview.cards table:not(.dataview) td {
+.anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table td,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td,
+.anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) td {
   text-align: var(--anp-table-align-td, center);
 }
 
@@ -2830,49 +3036,95 @@ table.dataview.table-view-table > tbody > tr:hover {
   background-color: rgba(var(--ctp-surface1), 0.1) !important;
 }
 
-.anp-table-toggle.anp-th-highlight .markdown-preview-view:not(.cards) th, .anp-table-toggle.anp-th-highlight .markdown-preview-view.cards table:not(.dataview) th, .anp-table-toggle.anp-th-highlight .is-live-preview:not(.cards) th, .anp-table-toggle.anp-th-highlight .is-live-preview.cards table:not(.dataview) th {
+.anp-table-toggle.anp-th-highlight .markdown-preview-view:not(.cards):not(.table-disable) th, .anp-table-toggle.anp-th-highlight .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th, .anp-table-toggle.anp-th-highlight .is-live-preview:not(.cards):not(.table-disable) th, .anp-table-toggle.anp-th-highlight .is-live-preview.cards:not(.table-disable) table:not(.dataview) th {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-rows .markdown-preview-view:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td {
+.anp-table-toggle.anp-td-alt-rows .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-cols .markdown-preview-view:not(.cards) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .markdown-preview-view.cards table:not(.dataview) tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview:not(.cards) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview.cards table:not(.dataview) tr td:nth-child(2n) {
+.anp-table-toggle.anp-td-alt-cols .markdown-preview-view:not(.cards):not(.table-disable) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview:not(.cards):not(.table-disable) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n) {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td {
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards table:not(.dataview) tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview.cards table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
+.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
   background-color: rgba(var(--ctp-crust), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-full .markdown-preview-view:not(.cards) table td, .anp-table-toggle.anp-td-full .markdown-preview-view.cards table:not(.dataview) td, .anp-table-toggle.anp-td-full .is-live-preview:not(.cards) table td, .anp-table-toggle.anp-td-full .is-live-preview.cards table:not(.dataview) td {
+.anp-table-toggle.anp-td-full .markdown-preview-view:not(.cards):not(.table-disable) table td, .anp-table-toggle.anp-td-full .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td, .anp-table-toggle.anp-td-full .is-live-preview:not(.cards:not(.table-disable)) table td, .anp-table-toggle.anp-td-full .is-live-preview.cards:not(.table-disable) table:not(.dataview) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
 
-.anp-table-auto.markdown-rendered:not(.cards) table,
-.anp-table-auto.markdown-rendered.cards table:not(.dataview) {
+.anp-table-auto.markdown-rendered:not(.cards):not(.table-disable) table,
+.anp-table-auto.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
   margin: 0 auto;
 }
 
-.anp-table-width.markdown-rendered:not(.cards) table,
-.anp-table-width.markdown-rendered.cards table:not(.dataview) {
+.anp-table-width.markdown-rendered:not(.cards):not(.table-disable) table,
+.anp-table-width.markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
   width: var(--anp-table-width-pct);
 }
 
-.anp-table-auto.anp-table-toggle .markdown-rendered:not(.cards) table,
-.anp-table-auto.anp-table-toggle .markdown-rendered.cards table:not(.dataview) {
+.anp-table-auto.anp-table-toggle .markdown-rendered:not(.cards):not(.table-disable) table,
+.anp-table-auto.anp-table-toggle .markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
   margin: 0 auto;
 }
 
-.anp-table-width.anp-table-toggle .markdown-rendered:not(.cards) table,
-.anp-table-width.anp-table-toggle .markdown-rendered.cards table:not(.dataview) {
+.anp-table-width.anp-table-toggle .markdown-rendered:not(.cards):not(.table-disable) table,
+.anp-table-width.anp-table-toggle .markdown-rendered.cards:not(.table-disable) table:not(.dataview) {
   width: var(--anp-table-width-pct);
   margin-left: calc(50% - var(--anp-table-width-pct) / 2);
   margin-right: calc(50% - var(--anp-table-width-pct) / 2);
+}
+
+.anp-autohide-titlebar:not(.is-mobile) {
+  --title-bar-delay: 150ms;
+  --title-bar-duration: 300ms;
+  --title-bar-target-translate-y: 18px;
+  --title-bar-translate-y: 40px;
+}
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header {
+  margin-top: calc(var(--title-bar-translate-y) * -1);
+  position: relative;
+  transition-delay: var(--title-bar-delay);
+  transition-duration: var(--title-bar-duration);
+  transition-property: transform;
+}
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header::before {
+  bottom: calc(var(--title-bar-target-translate-y) * -1);
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition-delay: var(--title-bar-delay);
+  transition-duration: var(--title-bar-duration);
+  transition-property: transform;
+  width: 100%;
+}
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-content {
+  transition-delay: var(--title-bar-delay);
+  transition-duration: var(--title-bar-duration);
+  transition-property: transform;
+}
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within)::before {
+  transform: translateY(var(--title-bar-target-translate-y));
+}
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within),
+.anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within) + .view-content {
+  transform: translateY(var(--title-bar-translate-y));
+}
+.anp-autohide-titlebar:not(.is-mobile) .view-header::before {
+  z-index: 0;
+}
+.anp-autohide-titlebar:not(.is-mobile) .view-header > div {
+  z-index: 1;
+}
+.anp-autohide-titlebar:not(.is-mobile) .view-header-title {
+  --file-header-font-size: var(--font-ui-medium);
 }
 
 body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-split.mod-vertical .workspace-tab-header-spacer {
@@ -2884,9 +3136,9 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
 
 .anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root {
   /*-----VARIABLES---------*/
-  --tab-background-inactive: var(--background-secondary);
+  --tab-background-inactive: var(--background-secondary-alt);
   --tab-background-active: var(--background-primary);
-  --tab-background-inactive-hover: var(--background-primary);
+  --tab-background-inactive-hover: var(--background-primary-secondary);
   --tab-text-color: var(--text-faint);
   --tab-text-color-active: var(--text-muted);
   --tab-text-color-focused: var(--text-muted);
@@ -2917,10 +3169,8 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
 }
 .anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active {
   background-color: var(--tab-background-active);
-  max-width: var(--tab-max-width-active);
-}
-.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header:not(.is-active):hover {
-  background-color: var(--tab-background-inactive-hover);
+  max-width: var(--tab-max-width);
+  box-shadow: none;
 }
 .anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
   background-color: transparent;
@@ -2934,6 +3184,7 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
 }
 .anp-safari-tab-toggle.anp-safari-tab-animated .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header.is-active {
   flex-grow: 1.67;
+  max-width: var(--tab-max-width-active);
 }
 
 .anp-alternate-tab-toggle, .anp-default-tab, .anp-safari-tab-toggle {
@@ -3087,119 +3338,12 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
 }
 
 /*----------------CALLOUTS-------------------*/
-/*------------------------------------------
-The Willemstad callout style was inspired by @tingmelvin's Willemstad theme: https://github.com/tingmelvin/willemstad-x
-None of the code was used, and the callout was written from scratch.
------------------------------------------*/
 .anp-callout-fold-position {
   --anp-callout-fold-position: 1;
 }
 
-.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) {
-  padding: 0px;
-}
-.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) .callout-content {
-  padding: 0 var(--callout-title-padding) var(--callout-title-padding) var(--callout-title-padding);
-}
-.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) .callout-title {
-  background-color: rgba(var(--callout-color), 0 0.5);
-  padding: var(--callout-title-padding);
-  cursor: pointer;
-}
-.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) .callout-title .callout-title-inner {
-  font-weight: normal;
-}
-.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout:not(.is-collapsible) {
-  border-color: rgba(var(--callout-color), 0.4);
-  border-width: 1px;
-  border-radius: var(--callout-radius);
-  background-color: rgba(var(--ctp-mantle), 0.4);
-}
-.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout-content {
-  padding: var(--callout-title-padding) var(--callout-title-padding) var(--callout-title-padding) calc(var(--callout-title-padding) * 1.5);
-  border-top: 1px dashed rgba(var(--callout-color), 0.4);
-}
-.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout-fold {
-  padding-right: 0px;
-}
-.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout-title-inner {
-  flex-grow: var(--anp-callout-fold-position, unset);
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible {
-  border-color: rgba(var(--callout-color), 0.4);
-  border-width: 1px;
-  border-radius: var(--callout-radius);
-  background-color: rgba(var(--ctp-mantle), 0.4);
-  --bold-weight: bolder;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible .callout-fold {
-  padding-right: 0px;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible .callout-title-inner {
-  flex-grow: var(--anp-callout-fold-position, unset);
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible.is-collapsed {
-  padding: 0;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible.is-collapsed .callout-title {
-  background-color: rgba(var(--callout-color), 0.1);
-  padding: var(--callout-title-padding);
-  cursor: pointer;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible.is-collapsed .callout-content {
-  display: none;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible:not(.is-collapsed) {
-  padding: 0px 0px var(--callout-title-padding) 0px;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible:not(.is-collapsed) .callout-title {
-  background-color: rgba(var(--callout-color), 0.1);
-  padding: var(--callout-title-padding);
-  border-color: rgba(var(--callout-color), 0.4);
-  cursor: pointer;
-}
-.anp-callout-toggle.anp-callout-sleek .callout.is-collapsible:not(.is-collapsed) .callout-content {
-  padding: var(--callout-title-padding) var(--callout-title-padding) 0 calc(var(--callout-title-padding) * 1.5);
-  border-top: 1px dashed rgba(var(--callout-color), 0.4);
-}
-.anp-callout-toggle.anp-callout-sleek .callout:not(.is-collapsible) {
-  padding: 0px;
-}
-.anp-callout-toggle.anp-callout-sleek .callout:not(.is-collapsible) .callout-title {
-  background-color: rgba(var(--callout-color), 0.1);
-  padding: var(--callout-title-padding);
-  border-color: rgba(var(--callout-color), 0.4);
-}
-.anp-callout-toggle.anp-callout-sleek .callout .list-collapse-indicator {
-  margin-left: -35px;
-  padding-right: 3px;
-}
-
 .callout-title-inner {
   flex-grow: 1;
-}
-
-.anp-callout-toggle.anp-callout-block .callout {
-  border-left: 4px solid rgb(var(--callout-color));
-  --callout-radius: 0px;
-}
-
-.anp-callout-toggle.anp-callout-willemstad .callout {
-  border-left: 0px solid rgb(var(--callout-color));
-  transition: border-left-width 0.1s;
-  --callout-padding: 0px;
-  --callout-title-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
-  --callout-content-padding: 0 var(--size-4-2) var(--size-4-2) var(--size-4-3);
-  background-color: transparent;
-}
-.anp-callout-toggle.anp-callout-willemstad .callout:hover {
-  border-left-width: 4px;
-}
-.anp-callout-toggle.anp-callout-willemstad .callout .callout-content {
-  background-color: rgba(var(--ctp-mantle), 0.4);
-}
-.anp-callout-toggle.anp-callout-willemstad .callout .callout-title {
-  background-color: rgba(var(--callout-color), 0.1);
 }
 
 .callout-title {
@@ -3219,6 +3363,111 @@ None of the code was used, and the callout was written from scratch.
 }
 .anp-callout-toggle .callout-content > p:last-child, .anp-callout-toggle .callout-content > ul:last-child, .anp-callout-toggle .callout-content > ol:last-child {
   margin-bottom: 0px;
+}
+
+.anp-callout-toggle.anp-callout-block .callout {
+  border-left: 4px solid rgb(var(--callout-color));
+  --callout-radius: 0px;
+}
+
+.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible),
+.anp-callout-toggle.anp-callout-sleek .callout[data-callout-metadata*=revert] {
+  padding: 0px;
+}
+.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) > .callout-content,
+.anp-callout-toggle.anp-callout-sleek .callout[data-callout-metadata*=revert] > .callout-content {
+  padding: 0 var(--callout-title-padding) var(--callout-title-padding) var(--callout-title-padding);
+}
+.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) > .callout-title,
+.anp-callout-toggle.anp-callout-sleek .callout[data-callout-metadata*=revert] > .callout-title {
+  background-color: transparent !important;
+  padding: var(--callout-title-padding);
+  cursor: pointer;
+}
+.anp-callout-toggle.anp-callout-sleek:not(.anp-callout-normal-toggle) .callout:not(.is-collapsible) > .callout-title .callout-title-inner,
+.anp-callout-toggle.anp-callout-sleek .callout[data-callout-metadata*=revert] > .callout-title .callout-title-inner {
+  font-weight: normal;
+}
+.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout:not(.is-collapsible):not([data-callout-metadata*=revert]) {
+  border-color: rgba(var(--callout-color), 0.4);
+  border-width: 1px;
+  border-radius: var(--callout-radius);
+  background-color: rgba(var(--ctp-mantle), 0.4);
+}
+.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout:not([data-callout-metadata*=revert]) > .callout-content {
+  padding: var(--callout-title-padding) var(--callout-title-padding) var(--callout-title-padding) calc(var(--callout-title-padding) * 1.5);
+  border-top: 1px dashed rgba(var(--callout-color), 0.4);
+}
+.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout:not([data-callout-metadata*=revert]) > .callout-title .callout-fold {
+  padding-right: 0px;
+}
+.anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle .callout:not([data-callout-metadata*=revert]) > .callout-title .callout-title-inner {
+  flex-grow: var(--anp-callout-fold-position, unset);
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible {
+  border-color: rgba(var(--callout-color), 0.4);
+  border-width: 1px;
+  border-radius: var(--callout-radius);
+  background-color: rgba(var(--ctp-mantle), 0.4);
+  --bold-weight: bolder;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible * > .callout-title > .callout-fold {
+  padding-right: 0px;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible * > .callout-title > .callout-title-inner {
+  flex-grow: var(--anp-callout-fold-position, unset);
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible.is-collapsed {
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible.is-collapsed > .callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-title-padding);
+  cursor: pointer;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible.is-collapsed > .callout-content {
+  display: none;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible:not(.is-collapsed) {
+  padding: 0px 0px var(--callout-title-padding) 0px;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible:not(.is-collapsed) > .callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-title-padding);
+  border-color: rgba(var(--callout-color), 0.4);
+  cursor: pointer;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible:not(.is-collapsed) > .callout-content {
+  padding: var(--callout-title-padding) var(--callout-title-padding) 0 calc(var(--callout-title-padding) * 1.5);
+  border-top: 1px dashed rgba(var(--callout-color), 0.4);
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]):not(.is-collapsible) {
+  padding: 0px;
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]):not(.is-collapsible) > .callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-title-padding);
+  border-color: rgba(var(--callout-color), 0.4);
+}
+.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]) .list-collapse-indicator {
+  margin-left: -35px;
+  padding-right: 3px;
+}
+
+.anp-callout-vanilla .callout {
+  background-color: transparent;
+  border-radius: var(--radius-s);
+  padding: 0;
+}
+.anp-callout-vanilla .callout .callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+}
+.anp-callout-vanilla .callout .callout-content {
+  padding: var(--callout-padding);
+  background-color: rgb(var(--ctp-mantle));
+}
+.anp-callout-vanilla .callout .callout-title, .anp-callout-vanilla .callout .callout-content {
+  border-left: var(--size-2-3) solid rgb(var(--callout-color));
 }
 
 /*---------------CALLOUT COLORS----------------*/
@@ -3253,6 +3502,28 @@ None of the code was used, and the callout was written from scratch.
   --callout-color: var(--ctp-accent);
 }
 
+/*---------------CUSTOM CALLOUTS---------------*/
+.callout[data-callout=formula] {
+  --callout-color: var(--ctp-text);
+  width: fit-content;
+  height: fit-content;
+  mix-blend-mode: normal;
+  background-color: transparent !important;
+}
+.callout[data-callout=formula] .callout-title {
+  background-color: rgba(var(--callout-color), 0.05) !important;
+  color: var(--ctp-text);
+}
+.callout[data-callout=formula] .callout-title .callout-icon, .callout[data-callout=formula] .callout-title .callout-fold {
+  display: none;
+}
+.callout[data-callout=formula] .callout-content {
+  background-color: transparent !important;
+}
+.callout[data-callout=formula] .callout-content ul, .callout[data-callout=formula] .callout-content ol {
+  padding-inline-start: 12px;
+}
+
 /*-Custom folder title-*/
 .anp-custom-vault-toggle .nav-folder.mod-root > .nav-folder-title > .nav-folder-title-content {
   font-size: 130%;
@@ -3263,26 +3534,55 @@ None of the code was used, and the callout was written from scratch.
 
 .anp-custom-vault-toggle .nav-folder.mod-root > .nav-folder-title > .nav-folder-title-content:before {
   content: " ";
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H298.5c-17 0-33.3-6.7-45.3-18.7L226.7 50.7c-12-12-28.3-18.7-45.3-18.7H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpath d='m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2'%3E%3C/path%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpath d='m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2'%3E%3C/path%3E%3C/svg%3E");
   -webkit-mask-repeat: no-repeat;
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 480H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H298.5c-17 0-33.3-6.7-45.3-18.7L226.7 50.7c-12-12-28.3-18.7-45.3-18.7H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64z'/%3E%3C/svg%3E");
   mask-repeat: no-repeat;
+  mask-size: contain;
+  background-size: contain;
   text-align: center;
   width: 26px;
   height: 26px;
   margin-left: -30px;
-  margin-top: -5px;
+  margin-top: -4px;
   color: rgb(var(--ctp-yellow));
   position: absolute;
-  cursor: pointer;
   background-color: rgb(var(--ctp-yellow));
 }
 
-.anp-custom-vault-toggle .nav-folder.mod-root > .nav-folder-title > .nav-folder-title-content:active:before {
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath d='M88.7 223.8L0 375.8V96C0 60.7 28.7 32 64 32H181.5c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7H416c35.3 0 64 28.7 64 64v32H144c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224H544c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480H32c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath d='M88.7 223.8L0 375.8V96C0 60.7 28.7 32 64 32H181.5c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7H416c35.3 0 64 28.7 64 64v32H144c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224H544c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480H32c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z'/%3E%3C/svg%3E");
-  width: 30px;
-  height: 30px;
+body.rainbow-tags {
+  --rainbow-tags-opacity: 0.3;
+  --r1-color: rgb(var(--ctp-red));
+  --r2-color: rgb(var(--ctp-peach));
+  --r3-color: rgb(var(--ctp-yellow));
+  --r4-color: rgb(var(--ctp-green));
+  --r5-color: rgb(var(--ctp-blue));
+  --r6-color: rgb(var(--ctp-lavender));
+  --r7-color: rgb(var(--ctp-mauve));
+  --r1-color-light: rgba(var(--ctp-red), var(--rainbow-tags-opacity));
+  --r2-color-light: rgba(var(--ctp-peach), var(--rainbow-tags-opacity));
+  --r3-color-light: rgba(var(--ctp-yellow), var(--rainbow-tags-opacity));
+  --r4-color-light: rgba(var(--ctp-green), var(--rainbow-tags-opacity));
+  --r5-color-light: rgba(var(--ctp-blue), var(--rainbow-tags-opacity));
+  --r6-color-light: rgba(var(--ctp-lavender), var(--rainbow-tags-opacity));
+  --r7-color-light: rgba(var(--ctp-mauve), var(--rainbow-tags-opacity));
+}
+
+.anp-collapse-folders .nav-folder .nav-folder-collapse-indicator {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M6 14l1.45-2.9A2 2 0 0 1 9.24 10H22a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E%0A");
+  -webkit-mask-repeat: no-repeat;
+  background-color: currentColor;
+  height: 16px;
+  width: 17px;
+  margin-right: 4px;
+}
+
+.anp-collapse-folders .nav-folder.is-collapsed .nav-folder-collapse-indicator {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2z'/%3E%3Cpath d='M2 10h20' /%3E%3C/svg%3E%0A");
+}
+
+.anp-collapse-folders .nav-folder-collapse-indicator svg.svg-icon {
+  color: transparent !important;
 }
 
 .anp-color-transition-toggle .horizontal-tab-content,
@@ -3293,6 +3593,127 @@ None of the code was used, and the callout was written from scratch.
 .anp-color-transition-toggle .mod-root .workspace-tabs .workspace-leaf,
 .anp-color-transition-toggle .setting-item-name {
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out !important;
+}
+
+.callout[data-callout=capacities-card] {
+  --h1-font: var(--font-text);
+  --h2-font: var(--font-text);
+  --h3-font: var(--font-text);
+  --h4-font: var(--font-text);
+  --h5-font: var(--font-text);
+  --h6-font: var(--font-text);
+  --h1-color: var(--font-normal);
+  --h2-color: var(--font-normal);
+  --h3-color: var(--font-normal);
+  --h4-color: var(--font-normal);
+  --h5-color: var(--font-normal);
+  --h6-color: var(--font-normal);
+  --italic-color: var(--font-normal);
+  --bold-color: var(--font-normal);
+}
+
+.callout[data-callout=capacities-index] {
+  --highlight-mix-blend-mode: none;
+  margin-left: 10px;
+}
+
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] {
+  background-color: var(--background-primary);
+  border-radius: 6px;
+  mix-blend-mode: normal;
+  overflow-y: hidden;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content {
+  padding: 0;
+  background-color: var(--background-primary);
+  overflow-y: hidden;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] {
+  border-radius: 0;
+  top: -1px;
+  padding-top: 1px;
+  right: 11px;
+  padding-right: 1px;
+  height: calc(100% + 6px);
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content {
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] {
+  border: none;
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-content {
+  margin: 0 10px 7px 10px;
+  background-color: var(--background-primary);
+  border-color: var(--background-modifier-border);
+  padding: 3px 0;
+  border-top-style: solid;
+  border-radius: 6px;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title {
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title > .callout-title-inner, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] > .callout-title > .callout-title-inner {
+  color: rgba(var(--ctp-text), 0.7);
+  font-size: 80%;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] {
+  border-radius: 0;
+  margin: -1px;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content {
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] p:first-child, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] p:first-child {
+  margin-bottom: 0;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] {
+  background-color: var(--background-secondary);
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: var(--background-secondary);
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content {
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] {
+  border-width: 0 1px 0 0;
+  background-color: var(--background-primary);
+  mix-blend-mode: normal;
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content {
+  padding: var(--callout-padding);
+  background-color: var(--background-primary);
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image], .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body], .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] {
+  border-color: var(--background-modifier-border);
+}
+.anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content, .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content, .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content, .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content, .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content, .anp-callout-toggle.anp-callout-sleek div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop-image] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-body] > .callout-content, .anp-callout-toggle.anp-callout-sleek.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card] > .callout-content {
+  border-top: none;
+}
+
+.anp-callout-toggle.anp-callout-vanilla div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] .callout-content, .anp-callout-toggle.anp-callout-vanilla div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] .callout-content, .anp-callout-toggle.anp-callout-vanilla div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] .callout-content, .anp-callout-toggle.anp-callout-vanilla.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-index] .callout-content, .anp-callout-toggle.anp-callout-vanilla.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-card-prop] .callout-content, .anp-callout-toggle.anp-callout-vanilla.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-sidebar] .callout-content {
+  border-left: none;
+  padding: 0;
+}
+.anp-callout-toggle.anp-callout-vanilla div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] .callout-title, .anp-callout-toggle.anp-callout-vanilla.anp-callout-normal-toggle div.callout:not([data-callout-metadata*=revert])[data-callout=capacities-prop] .callout-title {
+  border-left: none;
+  background-color: transparent;
+}
+
+.anp-card-layout.anp-callout-toggle.anp-callout-sleek {
+  --capacities-sidebar-bottom: calc(var(--anp-card-layout-padding, 10px) + 80px);
+}
+
+.markdown-reading-view .markdown-preview-view.capacities-card {
+  overflow-y: hidden;
+}
+.markdown-reading-view .markdown-preview-view.capacities-card::after {
+  display: none;
 }
 
 /*-Button for metadata-*/
@@ -3313,16 +3734,17 @@ None of the code was used, and the callout was written from scratch.
 }
 .anp-button-metadata-toggle .frontmatter-container .frontmatter-container-header:after {
   position: absolute;
-  width: 18px;
   content: " ";
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpolygon points='12 2 2 7 12 12 22 7 12 2'%3E%3C/polygon%3E%3Cpolyline points='2 17 12 22 22 17'%3E%3C/polyline%3E%3Cpolyline points='2 12 12 17 22 12'%3E%3C/polyline%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpolygon points='12 2 2 7 12 12 22 7 12 2'%3E%3C/polygon%3E%3Cpolyline points='2 17 12 22 22 17'%3E%3C/polyline%3E%3Cpolyline points='2 12 12 17 22 12'%3E%3C/polyline%3E%3C/svg%3E");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  background-size: contain;
   background-color: var(--background-primary);
   color: var(--background-secondary);
-  height: 20px;
-  margin-left: 7px;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
   margin-top: 5px;
 }
 .anp-button-metadata-toggle .frontmatter-container .frontmatter-container-header:hover {
@@ -3387,6 +3809,17 @@ None of the original code was used, and was written from scratch.
   --titlebar-background: rgba(var(--anp-colorful-frame-color, var(--ctp-accent)), var(--anp-colorful-frame-opacity, 1));
 }
 
+body {
+  --colorful-icon-color: var(--background-secondary);
+  --colorful-icon-color-alt: var(--background-secondary-alt);
+}
+
+body.anp-colorful-frame-icon-toggle-light.theme-light,
+body.anp-colorful-frame-icon-toggle-dark.theme-dark {
+  --colorful-icon-color: var(--text-normal);
+  --colorful-icon-color-alt: var(--text-muted);
+}
+
 .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container,
 body.anp-colorful-frame.anp-card-layout,
 body.anp-colorful-frame.anp-card-layout .workspace-tabs.mod-top,
@@ -3409,49 +3842,52 @@ body.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header.is-active,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .is-focused.workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top:not(.mod-stacked) .workspace-tab-header-container {
-  --tab-text-color: var(--background-secondary-alt);
-  --icon-color: var(--background-secondary-alt);
-  --icon-color-hover: var(--background-secondary);
-  --tab-text-color-focused: var(--background-secondary-alt);
+  --tab-text-color: var(--colorful-icon-color-alt);
+  --icon-color: var(--colorful-icon-color-alt);
+  --icon-color-hover: var(--colorful-icon-color);
+  --tab-text-color-focused: var(--colorful-icon-color-alt);
 }
 .anp-colorful-frame:not(.anp-card-layout) .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top.mod-stacked .workspace-tab-header-new-tab .clickable-icon {
-  --icon-color: var(--background-secondary-alt);
-  --icon-color-hover: var(--background-secondary);
+  --icon-color: var(--colorful-icon-color-alt);
+  --icon-color-hover: var(--colorful-icon-color);
 }
 .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-tab-list .clickable-icon:hover, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon, .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-new-tab .clickable-icon:hover,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-tab-list .clickable-icon:hover,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-top .workspace-tab-header-new-tab .clickable-icon:hover {
-  color: var(--background-secondary-alt);
+  color: var(--colorful-icon-color-alt);
 }
 .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top {
-  --tab-text-color-focused-active-current: var(--background-secondary-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active {
-  --tab-text-color-focused-active: var(--background-secondary-alt);
-  --tab-text-color-active: var(--background-secondary-alt);
-  --tab-text-color-focused: var(--background-secondary-alt);
+  --tab-text-color-focused-active: var(--colorful-icon-color-alt);
+  --tab-text-color-active: var(--colorful-icon-color-alt);
+  --tab-text-color-focused: var(--colorful-icon-color-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
-
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .workspace-tab-header.is-active,
-.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
-  --tab-text-color-focused: var(--background-secondary-alt);
-  --tab-text-color-focused-active-current: var(--background-secondary-alt);
+.anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button, .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button,
+.anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button,
+.anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button,
+.anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header .workspace-tab-header-inner-close-button,
+.anp-colorful-frame:not(.anp-card-layout).is-focused.is-focused.anp-mini-tab-toggle .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-close-button {
+  --tab-text-color-focused: var(--colorful-icon-color-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 
 .anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container .clickable-icon.has-active-menu,
 .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container .clickable-icon:active {
-  --icon-color-focused: var(--background-secondary-alt);
+  --icon-color-focused: var(--colorful-icon-color-alt);
 }
 
 .anp-card-layout.anp-colorful-frame .mod-vertical .workspace-tabs {
@@ -3460,8 +3896,8 @@ body.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before,
 
 .anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header,
 .anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header .workspace-tab-header-inner-close-button {
-  --tab-text-color-focused: var(--background-secondary-alt);
-  --tab-text-color-focused-active-current: var(--background-secondary-alt);
+  --tab-text-color-focused: var(--colorful-icon-color-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 
 .anp-colorful-frame:not(.anp-card-layout) .workspace-tab-header.is-active,
@@ -3475,19 +3911,25 @@ body.anp-colorful-frame.anp-card-layout .workspace-ribbon.mod-left:before,
   background-color: rgba(var(--ctp-crust), 0.3);
 }
 
+.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-left-split .mod-top .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-light.theme-light .mod-right-split .mod-top .workspace-tab-header.is-active, .anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-left-split .mod-top .workspace-tab-header.is-active,
+.anp-colorful-frame:not(.anp-card-layout).anp-colorful-frame-icon-toggle-dark.theme-dark .mod-right-split .mod-top .workspace-tab-header.is-active {
+  background-color: rgba(var(--ctp-text), 0.3);
+}
+
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title,
 .anp-colorful-frame:not(.anp-card-layout).is-focused .mod-active:not(.mod-stacked).mod-top .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title,
 .anp-colorful-frame:not(.anp-card-layout) .mod-left-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon,
 .anp-colorful-frame:not(.anp-card-layout) .mod-right-split .mod-top .workspace-tab-header:active .workspace-tab-header-inner-icon {
-  color: var(--background-secondary-alt);
+  color: var(--colorful-icon-color-alt);
 }
 
 .anp-colorful-frame:not(.anp-card-layout).is-focused.anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active),
 .anp-colorful-frame:not(.anp-card-layout).anp-mini-tab-toggle .mod-top:not(.mod-stacked) .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner-close-button {
-  color: var(--background-secondary-alt);
-  --tab-text-color-focused-active-current: var(--background-secondary-alt);
+  color: var(--colorful-icon-color-alt);
+  --tab-text-color-focused-active-current: var(--colorful-icon-color-alt);
 }
 
 .anp-colorful-frame:not(.anp-card-layout) .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
@@ -3551,6 +3993,20 @@ body.anp-colorful-frame.anp-card-layout .workspace,
   --icon-color-focused: var(--background-secondary-alt);
 }
 
+.anp-colorful-frame.anp-card-layout:not(.anp-card-layout-filebrowser).anp-colorful-frame-icon-toggle-light.theme-light .workspace-leaf-content[data-type=file-explorer], .anp-colorful-frame.anp-card-layout:not(.anp-card-layout-filebrowser).anp-colorful-frame-icon-toggle-dark.theme-dark .workspace-leaf-content[data-type=file-explorer] {
+  --tab-text-color: var(--text-normal);
+  --tab-text-color-focused: var(--text-normal);
+  --tab-text-color-focused-active: var(--text-normal);
+  --tab-text-color-focused-highlighted: var(--text-normal);
+  --tab-text-color-focused-active-current: var(--text-normal);
+  --icon-color: var(--text-normal);
+  --icon-color-hover: var(--text-normal);
+  --icon-color-active: var(--text-normal);
+  --icon-color-focused: var(--text-normal);
+}
+
+.anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-light.theme-light,
+.anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-dark.theme-dark,
 .anp-colorful-frame.anp-card-layout.anp-card-layout-actions .workspace-ribbon,
 .anp-colorful-frame.anp-card-layout .workspace-tab-container,
 .anp-colorful-frame.anp-card-layout .modal,
@@ -3577,16 +4033,26 @@ body.anp-colorful-frame.anp-card-layout .workspace,
   color: var(--color-accent);
 }
 
-.anp-colorful-frame.anp-card-layout.is-focused .mod-left-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .anp-colorful-frame.anp-card-layout.anp-mini-tab-toggle .mod-vertical .workspace-tab-header .workspace-tab-header-inner-title,
 .anp-colorful-frame.anp-card-layout.anp-mini-tab-toggle .mod-vertical .workspace-tab-header .workspace-tab-header-inner-title,
-.anp-colorful-frame.anp-card-layout.is-focused .mod-right-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+.anp-colorful-frame.anp-card-layout.is-focused:not(.anp-colorful-frame-icon-toggle-dark.theme-dark) .mod-left-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame.anp-card-layout.is-focused:not(.anp-colorful-frame-icon-toggle-light.theme-light) .mod-left-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame.anp-card-layout.is-focused:not(.anp-colorful-frame-icon-toggle-dark.theme-dark) .mod-right-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.anp-colorful-frame.anp-card-layout.is-focused:not(.anp-colorful-frame-icon-toggle-light.theme-light) .mod-right-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
   color: var(--background-secondary-alt);
+}
+
+.anp-colorful-frame.anp-card-layout.is-focused.anp-colorful-frame-icon-toggle-light.theme-light .mod-left-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame.anp-card-layout.is-focused.anp-colorful-frame-icon-toggle-light.theme-light .mod-right-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame.anp-card-layout.is-focused.anp-colorful-frame-icon-toggle-dark.theme-dark .mod-left-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .anp-colorful-frame.anp-card-layout.is-focused.anp-colorful-frame-icon-toggle-dark.theme-dark .mod-right-split .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+  color: var(--text-normal);
 }
 
 .anp-colorful-frame.anp-card-layout .mod-right-split .workspace-tab-header.is-active,
 .anp-colorful-frame.anp-card-layout .mod-left-split .workspace-tab-header.is-active {
   background-color: rgba(var(--ctp-crust), 0.3);
+}
+
+.anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-light.theme-light .mod-right-split .workspace-tab-header.is-active, .anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-light.theme-light .mod-left-split .workspace-tab-header.is-active, .anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-dark.theme-dark .mod-right-split .workspace-tab-header.is-active, .anp-colorful-frame.anp-card-layout.anp-colorful-frame-icon-toggle-dark.theme-dark .mod-left-split .workspace-tab-header.is-active {
+  background-color: rgba(var(--ctp-text), 0.3);
 }
 
 .mod-top .workspace-tab-header-inner::after {
@@ -3808,6 +4274,18 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   left: 0px;
 }
 
+.anp-custom-checkboxes [data-task='"'] input[type=checkbox]:checked, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked {
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  border-width: 0;
+}
+.anp-custom-checkboxes [data-task='"'] input[type=checkbox]:checked:after, .anp-custom-checkboxes [data-task='"'][type=checkbox]:checked:after {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --%3E%3Cpath d='M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  background-color: rgb(var(--ctp-subtext0));
+  left: 0px;
+}
+
 .anp-speech-bubble [data-task="0"],
 .anp-speech-bubble [data-task="1"],
 .anp-speech-bubble [data-task="2"],
@@ -3995,7 +4473,7 @@ None of the original code was used and the feature was implemented from scratch.
   color: var(--text-faint);
   content: counter(line-numbers);
   counter-increment: line-numbers;
-  display: flex;
+  display: table-caption;
   font-size: 0.8em;
   height: 100%;
   justify-content: flex-end;
@@ -4013,6 +4491,95 @@ None of the original code was used and the feature was implemented from scratch.
 
 .anp-codeblock-numbers .HyperMD-codeblock .cm-foldPlaceholder::before {
   display: none;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6'/%3E%3C/svg%3E%0A");
+  -webkit-mask-repeat: no-repeat;
+  background-color: currentColor;
+  content: "";
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".md"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".txt"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6m-4 5H8m8 4H8m2-8H8'/%3E%3C/svg%3E%0A");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".canvas"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Crect x='3' y='3' width='7' height='9'%3E%3C/rect%3E%3Crect x='14' y='3' width='7' height='5'%3E%3C/rect%3E%3Crect x='14' y='12' width='7' height='9'%3E%3C/rect%3E%3Crect x='3' y='16' width='7' height='5'%3E%3C/rect%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".jpg"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".gif"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".webp"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".jpeg"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".png"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6'/%3E%3Ccircle cx='10' cy='13' r='2'/%3E%3Cpath d='m20 17-1.09-1.09a2 2 0 0 0-2.82 0L10 22'/%3E%3C/svg%3E%0A");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-folder.mod-root > .nav-folder-children > .nav-file .nav-file-title {
+  padding-left: var(--size-4-2);
+}
+
+.anp-background-image-toggle:not(.anp-colorful-frame) {
+  --card-background-color: transparent;
+  --card-foreground-color: rgba(var(--ctp-base), var(--anp-custom-bg-card-fg-opacity, 0.4));
+  --tab-inactive-color: rgba(var(--ctp-mantle), var(--anp-custom-bg-card-fg-opacity, 0.4));
+  --code-background: var(--card-foreground-color);
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .horizontal-main-container, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .horizontal-main-container {
+  background: var(--anp-background-image, url("https://i.redd.it/m23bwh4n0x151.png"));
+  background-size: cover;
+  background-color: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .workspace, .anp-background-image-toggle:not(.anp-colorful-frame).anp-bg-fix .workspace {
+  backdrop-filter: brightness(var(--anp-custom-bg-brightness, 0.5)) blur(var(--anp-custom-bg-blur, 5px));
+  background-color: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-card-layout .workspace-split.mod-root .view-content {
+  background: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-alternate-tab-toggle .workspace-tabs:not(.mod-stacked), .anp-background-image-toggle:not(.anp-colorful-frame).anp-safari-tab-toggle .workspace-tabs:not(.mod-stacked) {
+  --tab-background: var(--tab-inactive-color);
+  --tab-background-active: var(--card-foreground-color);
+  --tab-background-inactive: var(--tab-inactive-color);
+}
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-floating-header .nav-folder.mod-root > .nav-folder-title {
+  background-color: var(--tab-inactive-color);
+}
+.anp-background-image-toggle:not(.anp-colorful-frame).anp-canvas-dark-bg .canvas-wrapper,
+.anp-background-image-toggle:not(.anp-colorful-frame) .canvas-wrapper,
+.anp-background-image-toggle:not(.anp-colorful-frame) .mod-macos.is-hidden-frameless:not(.is-popout-window) .sidebar-toggle-button.mod-right, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout).mod-macos.is-hidden-frameless:not(.is-popout-window) .sidebar-toggle-button.mod-right, .anp-background-image-toggle:not(.anp-colorful-frame).anp-card-layout .workspace-ribbon.mod-left:before,
+.anp-background-image-toggle:not(.anp-colorful-frame) .anp-card-layout .workspace-tab-header-container,
+.anp-background-image-toggle:not(.anp-colorful-frame) .workspace-split.mod-root {
+  background-color: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-tab-header-container, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-tabs .workspace-leaf, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-split.mod-root .view-content, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-ribbon, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .workspace-ribbon.mod-left:before, .anp-background-image-toggle:not(.anp-colorful-frame):not(.anp-card-layout) .view-header, .anp-background-image-toggle:not(.anp-colorful-frame).is-focused:not(.anp-card-layout) .workspace-leaf.mod-active .view-header,
+.anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin__lane,
+.anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin__item-content-wrapper {
+  background-color: var(--card-foreground-color);
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin__item-title-wrapper, .anp-background-image-toggle:not(.anp-colorful-frame).is-focused.anp-card-layout .workspace-leaf.mod-active .view-header, .anp-background-image-toggle:not(.anp-colorful-frame).anp-card-layout .workspace-ribbon {
+  background: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .workspace-fake-target-overlay:not(.is-in-sidebar) .workspace-tabs .workspace-leaf,
+.anp-background-image-toggle:not(.anp-colorful-frame) .mod-root .workspace-tabs .workspace-leaf, .anp-background-image-toggle:not(.anp-colorful-frame).anp-card-layout .view-header,
+.anp-background-image-toggle:not(.anp-colorful-frame) .is-focused .workspace-leaf.mod-active .view-header {
+  background-color: transparent;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .view-header-title-container:not(.mod-at-end):after {
+  display: none;
+}
+.anp-background-image-toggle:not(.anp-colorful-frame) .kanban-plugin .kanban-plugin__lane button:hover {
+  background-color: var(--card-foreground-color);
 }
 
 .style-settings-container [data-level="1"].setting-item-heading .setting-item-name,
@@ -4052,25 +4619,13 @@ None of the original code was used and the feature was implemented from scratch.
 .style-settings-container .setting-item-heading[data-id=anuppuccin-theme-credits-link] {
   border-bottom-width: 0px !important;
 }
-.style-settings-container[data-id=anp-rainbow-section-header], .style-settings-container[data-id=anp-full-rainbow-folder-settings], .style-settings-container[data-id=anp-simple-rainbow-folder-settings] {
-  background: linear-gradient(to right, rgba(var(--ctp-red), 1), rgba(var(--ctp-peach), 1), rgba(var(--ctp-yellow), 1), rgba(var(--ctp-green), 1), rgba(var(--ctp-teal), 1), rgba(var(--ctp-blue), 1), rgba(var(--ctp-mauve), 1), rgba(var(--ctp-pink), 1)) !important;
-  padding-bottom: 3px;
-  padding-top: 0px;
-  height: 37px;
-  border-bottom-width: 0 !important;
-  margin-top: 3px;
-}
-.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-info, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-info, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-info {
-  background-color: var(--background-primary);
-}
-.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-name, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-name, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-name {
-  line-height: 37px;
-}
-.style-settings-container[data-id=anp-rainbow-section-header] .setting-item-control, .style-settings-container[data-id=anp-full-rainbow-folder-settings] .setting-item-control, .style-settings-container[data-id=anp-simple-rainbow-folder-settings] .setting-item-control {
-  background-color: var(--background-primary);
-  height: 37px;
-}
 
+.style-settings-heading[data-id=anuppuccin-theme-settings], .style-settings-heading[data-id=anuppuccin-theme-settings-extended] {
+  border-color: hsla(var(--color-accent-hsl), 0.2);
+}
+.style-settings-heading[data-id=anuppuccin-theme-settings] .setting-item-name, .style-settings-heading[data-id=anuppuccin-theme-settings-extended] .setting-item-name {
+  color: var(--color-accent);
+}
 .style-settings-heading[data-level="0"] {
   margin-bottom: 15px;
 }
@@ -4092,12 +4647,6 @@ None of the original code was used and the feature was implemented from scratch.
   width: fit-content;
   padding: 4px 6px;
   border-radius: 5px;
-}
-.style-settings-heading[data-id=anuppuccin-theme-settings], .style-settings-heading[data-id=anuppuccin-theme-settings-extended] {
-  border-color: hsla(var(--color-accent-hsl), 0.2);
-}
-.style-settings-heading[data-id=anuppuccin-theme-settings] .setting-item-name, .style-settings-heading[data-id=anuppuccin-theme-settings-extended] .setting-item-name {
-  color: var(--color-accent);
 }
 .style-settings-heading[data-id=anuppuccin-extended-colorschemes-link] {
   margin-bottom: 0px;
@@ -4144,28 +4693,207 @@ None of the original code was used and the feature was implemented from scratch.
 .dataview.inline-field-key {
   font-weight: bold;
   color: var(--bold-color);
-  padding-right: 8px;
+  padding-right: 0;
+}
+.dataview.inline-field-key::after {
+  content: ":";
+  height: inherit;
+  width: fit-content;
 }
 
-.kanban-plugin__lane-items > .kanban-plugin__placeholder:only-child {
-  border: 2px dashed rgba(var(--text-muted-rgb), 0.1);
+.dataview.inline-field-value {
+  padding-left: 8px;
 }
-.kanban-plugin__new-item-button, .kanban-plugin__lane button.kanban-plugin__lane-settings-button:hover, .kanban-plugin__lane-settings-button:hover {
-  box-shadow: none;
-  background-color: rgb(var(--ctp-crust));
+
+/* Fix bottom padding of kanban board on mobile */
+body.is-mobile .kanban-plugin__board > div {
+  padding-bottom: 5rem;
 }
-.kanban-plugin button {
-  box-shadow: none;
+
+/* Fix bottom padding of kanban board when status bar is visible */
+body:not(.is-mobile):not(.anp-hide-status-bar) .kanban-plugin__board > div {
+  padding-bottom: 2.5rem;
+}
+
+/* Kanban background */
+.kanban-plugin__board > div {
+  --kanban-dot-color: var(--canvas-dot-pattern);
+  --kanban-dot-offset: 7px;
+  --kanban-dot-spacing: 20px;
+  --kanban-dot-size: 0.7px;
+  background-image: radial-gradient(circle, var(--kanban-dot-color) var(--kanban-dot-size), transparent var(--kanban-dot-size));
+  background-position: var(--kanban-dot-offset) var(--kanban-dot-offset);
+  background-size: var(--kanban-dot-spacing) var(--kanban-dot-spacing);
+  flex-grow: 1;
+}
+
+/* Kanban lanes */
+.kanban-plugin__lane-form-wrapper {
+  border-color: var(--interactive-accent);
 }
 .kanban-plugin__lane-grip {
-  background-color: rgb(var(--ctp-crust));
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 4px;
+  color: var(--background-modifier-border);
+}
+.kanban-plugin__lane-header-wrapper {
+  padding-right: 8px;
+}
+.kanban-plugin__lane-title-count {
+  margin-right: 5px;
+}
+.kanban-plugin__lane-setting-wrapper > div:last-child {
+  margin-bottom: 0;
+}
+.kanban-plugin__action-confirm-wrapper {
+  margin: 8px 8px 0;
+}
+
+/* Kanban card placeholder */
+.kanban-plugin .kanban-plugin__lane-items > .kanban-plugin__placeholder,
+.kanban-plugin__drag-container .kanban-plugin__lane-items > .kanban-plugin__placeholder {
+  border: 2px dashed rgba(var(--text-muted-rgb), 0.1);
+  width: auto;
+}
+.kanban-plugin .kanban-plugin__lane-items > .kanban-plugin__placeholder:not(:only-child),
+.kanban-plugin__drag-container .kanban-plugin__lane-items > .kanban-plugin__placeholder:not(:only-child) {
+  border-width: 0;
+}
+
+.is-sorting .kanban-plugin__lane-items > .kanban-plugin__placeholder:only-child {
+  border-color: var(--background-modifier-border);
+}
+
+/* Kanban cards */
+.kanban-plugin__item:hover {
+  border-color: var(--interactive-accent);
 }
 .kanban-plugin__item.is-complete .kanban-plugin__item-markdown {
   color: var(--text-muted);
   text-decoration-line: line-through;
+  opacity: 0.75;
+}
+.kanban-plugin__item .markdown-preview-view .tag {
+  --tag-border-width: 0;
+  --tag-padding-y: 0;
+  --tag-padding-x: 0;
+  --tag-background: transparent;
+  --tag-color: var(--link-color);
+  --tag-size: reset;
+}
+.kanban-plugin__item-title-wrapper {
+  padding: 8px;
+}
+.kanban-plugin__item-title-wrapper div:first-child > a.clickable-icon {
+  position: relative;
+  left: -2px;
+}
+.kanban-plugin__item-title-wrapper div:last-child > a.clickable-icon {
+  position: relative;
+  right: -2px;
+}
+
+/* Kanban card content */
+.kanban-plugin,
+.kanban-plugin__drag-container {
+  --checkbox-size: 16px;
+}
+.kanban-plugin code[class*=language-],
+.kanban-plugin__drag-container code[class*=language-] {
+  font-size: 0.875em;
+  padding: 0.75em;
+  white-space: pre;
+}
+.kanban-plugin button.copy-code-button,
+.kanban-plugin__drag-container button.copy-code-button {
+  display: none;
+}
+.kanban-plugin textarea,
+.kanban-plugin__drag-container textarea {
+  background-color: transparent;
+}
+
+.kanban-plugin__drag-container p, .kanban-plugin__drag-container code {
+  overflow: hidden;
+}
+
+/* Kanban card meta and tags */
+.kanban-plugin,
+.kanban-plugin__drag-container {
+  --tag-color: var(--text-faint);
+}
+.kanban-plugin .kanban-plugin__item-metadata,
+.kanban-plugin__drag-container .kanban-plugin__item-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+.kanban-plugin .kanban-plugin__item-metadata:not(:empty),
+.kanban-plugin__drag-container .kanban-plugin__item-metadata:not(:empty) {
+  padding-top: 8px;
+}
+.kanban-plugin .kanban-plugin__item-metadata-date-wrapper,
+.kanban-plugin__drag-container .kanban-plugin__item-metadata-date-wrapper {
+  line-height: var(--line-height-tight);
+}
+.kanban-plugin .kanban-plugin__item-tags,
+.kanban-plugin__drag-container .kanban-plugin__item-tags {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.kanban-plugin .kanban-plugin__item-tags:not(:empty),
+.kanban-plugin__drag-container .kanban-plugin__item-tags:not(:empty) {
+  padding-top: 0;
+}
+.kanban-plugin .kanban-plugin__item-tag,
+.kanban-plugin__drag-container .kanban-plugin__item-tag {
+  margin: 0;
+}
+
+/* Kanban date button and date picker */
+.kanban-plugin__item-metadata-date.is-button {
+  position: relative;
+  display: inline-block;
+}
+.kanban-plugin__item-metadata-date.is-button:hover::before {
+  position: absolute;
+  display: inline-flex;
+  top: -3px;
+  left: -5px;
+  right: -5px;
+  bottom: -3px;
+  content: "";
+  z-index: 0;
+  background-color: var(--background-modifier-hover);
+  border-radius: var(--clickable-icon-radius);
+}
+
+.kanban-plugin__date-picker {
+  --background-primary-alt: var(--background-modifier-hover);
+  --input-shadow: none;
+  --input-shadow-hover: none;
+}
+.kanban-plugin__date-picker .flatpickr-current-month input:hover, .kanban-plugin__date-picker .flatpickr-current-month input:focus,
+.kanban-plugin__date-picker .flatpickr-monthDropdown-months:hover,
+.kanban-plugin__date-picker .flatpickr-monthDropdown-months:focus {
+  background-color: var(--background-modifier-hover);
+  box-shadow: none;
+}
+.kanban-plugin__date-picker .flatpickr-day:not(.today):hover {
+  border-width: 0;
+}
+
+/* Kanban buttons */
+.kanban-plugin button,
+.kanban-plugin__drag-container button {
+  box-shadow: none;
+}
+.kanban-plugin button:hover,
+.kanban-plugin__drag-container button:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+  transition: background-color 0.1s;
 }
 
 .theme-dark .excalidraw, .theme-dark .excalidraw.theme--dark, .theme-light .excalidraw, .theme-light .excalidraw.theme--dark {
@@ -4233,6 +4961,10 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
   background-color: var(--color-accent);
 }
 
+.excalidraw h3 {
+  --h3-font: var(--font-interface);
+}
+
 .obsidian-icon-folder-icon {
   margin-top: -5px;
 }
@@ -4250,7 +4982,7 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 }
 
 .workspace-leaf-content[data-type=advanced-tables-toolbar] .nav-buttons-container {
-  border-style: solid;
+  border-style: dashed;
   border-color: var(--background-modifier-border);
   border-width: 0px 0px 1px 0px;
   margin-top: 10px;
@@ -4292,6 +5024,9 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
   mask-repeat: no-repeat;
   background-color: var(--text-normal);
 }
+.status-bar-item.plugin-obsidian-discordrpc:hover:after {
+  filter: brightness(60%);
+}
 
 #calendar-container h3 {
   font-family: var(--font-interface);
@@ -4300,6 +5035,13 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 
 #calendar-container .right-nav .reset-button {
   margin: auto;
+}
+
+.calendar .day.svelte-q3wqg9 {
+  transition: background-color 0.1s;
+}
+.calendar .day.svelte-q3wqg9:hover {
+  background-color: rgb(var(--ctp-crust));
 }
 
 /*------------RAINBOW FOLDERS-------------*/
@@ -4336,6 +5078,10 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 }
 .nav-folder-children > .nav-folder:nth-child(11n+12) {
   --rainbow-folder-color: var(--ctp-mauve);
+}
+
+.anp-rainbow-subfolder-color-toggle .nav-folder.mod-root .nav-folder .nav-folder {
+  --rainbow-folder-color: inherit;
 }
 
 /*-Full rainbow theme-*/
@@ -4407,11 +5153,11 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 /*-Simple rainbow theme-*/
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-title-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title {
   transition: color 0.4s;
-  color: rgb(var(--rainbow-folder-color));
+  color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
 }
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-icon-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title:after {
   transition: color 0.4s;
-  color: rgb(var(--rainbow-folder-color));
+  color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
   content: "⬤";
   position: relative;
   margin-left: 4px;
@@ -4424,11 +5170,11 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 }
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-collapse-toggle .nav-folder.is-collapsed .collapse-icon svg.svg-icon, .anp-simple-rainbow-color-toggle.anp-simple-rainbow-collapse-toggle .nav-folder-collapse-indicator.collapse-icon svg.svg-icon {
   transition: color 0.4s;
-  color: rgb(var(--rainbow-folder-color));
+  color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
 }
 
 /*--------------DISABLING IN-FRONTMATTER---------------*/
-.header-normal-toggle {
+.heading-normal-toggle {
   --h1-color: var(--text-normal) !important;
   --h2-color: var(--text-normal) !important;
   --h3-color: var(--text-normal) !important;

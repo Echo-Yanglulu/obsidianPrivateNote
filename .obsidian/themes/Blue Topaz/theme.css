@@ -1,5 +1,5 @@
-/*蓝色托帕石，适合Obsidian v1.0.3。uid [20221221] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v1.0.3, uid [20221221] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v1.0.3。uid [20230102] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v1.0.3, uid [20230102] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
 Many thanks to @Cuman
@@ -1325,7 +1325,7 @@ settings:
     description: Fonts except from the code texts
     description.zh: 除代码框外字体
     type: variable-text
-    default: "Bookerly, 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
+    default: "Bookerly,'Inter', 'Segoe UI','霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji',var(--font-default)"
   - 
     id: font-family-h1
     title: Header 1
@@ -1367,7 +1367,7 @@ settings:
     title: Codebox
     title.zh: 代码框字体
     type: variable-text
-    default: "Consolas, Monaco, 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro',  monospace"
+    default: "'JetBrains Mono',Consolas, Monaco, '等距更纱黑体 SC', 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro', monospace"
   -
     id: font-family-inline-code
     title: Inline Code
@@ -1385,12 +1385,12 @@ settings:
     title: Bold Text
     title.zh: 加粗文字字体
     type: variable-text
-    default: "Bookerly, 'LXGW WenKai Screen R', 'LXGW WenKai UI', 'Segoe UI Emoji', var(--font-default)"
+    default: "Bookerly,'Inter', 'Segoe UI', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
   - 
     id: font-weight-strong
     title: Bold text font weight
     title.zh: 加粗文字样式
-    description: typy 'light, normal, bold, bolder; or 100-900'
+    description: type 'light, normal, bold, bolder; or 100-900'
     type: variable-text
     default: bold
   - 
@@ -1910,7 +1910,7 @@ settings:
     title.zh: 行宽（缩减栏宽模式下）
     description: The maximum line width in rem units (1rem = Body font size)
     type: variable-number
-    default: 42
+    default: 45
     format: rem
   -
     id: line-height-main
@@ -2265,6 +2265,16 @@ settings:
     min: 0
     max: 3
     step: 0.2
+  -
+    id: list-indent
+    title: List indent 
+    title.zh: 列表缩进间距
+    type: variable-number-slider
+    default: 2
+    format: em
+    min: 0
+    max: 6
+    step: 0.1
   -
     id: list-style-change-options-folder
     title: 2.3.2.1 Unordered List
@@ -3214,11 +3224,19 @@ settings:
     id: icons-style-folder-3
     title: Intro to Image Grid
     title.zh: 图片横排介绍
-    description: You can add 🔸|+grid into some images to grid these images in a line, e.g. ![[*.jpg|+grid]] Or type ❗cssclass：img-grid❗ in YAML to make images arrange in a grid in the preview mode.
-    description.zh: 在图片格式里添加 🔸|+grid 使复数的图片排成一行, e.g. ![[*.jpg|+grid]] 。或者在YAML种输入 ❗cssclass：img-grid❗
+    description: You can add 🔸|+grid into some images to grid these images in a line, e.g. ![[*.jpg|+grid]] Or type ❗cssclass：img-grid❗ in YAML to make images arrange in a grid in the preview mode. require Contextual Typography plugin
+    description.zh: 在图片格式里添加 🔸|+grid 使复数的图片排成一行, e.g. ![[*.jpg|+grid]] 。或者在YAML种输入 ❗cssclass：img-grid❗最好安装 Contextual Typography 插件实现更好的并排效果
     type: heading
     level: 4
-    collapsed: true
+    collapsed: false
+  -
+    id: img-grid
+    title:  Enable Global Image Grid
+    title.zh: 开启全局图片横排显示
+    description: Enable the Contextual Typography plugin to control side-by-side images via blank lines
+    description.zh:  开启后，不需要在笔记上方声明cssclass：img-grid，通过图片空行控制是否并排
+    type: class-toggle
+    default: false
   -
     id: loading-page-style-folder
     title: 2.3.16 Loading Page 
@@ -3756,14 +3774,114 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  -
+  - 
     id: show-full-metadata 
     title: Show full metadata in Reading mode
     title.zh: 阅读模式下显示完整的metadata信息
     description.zh: 需要先在设置中开启显示front-matter，笔记cssclass中声明show-full-metadata 可单独控制是否显示yaml
     type: class-toggle
     default: false
+  -
+    id: canvas-styles
+    title: 2.3.25 Canvas
+    title.zh: 2.3.25 白板Canvas
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: canvas-card-focus-mode 
+    title: canvas card focus mode
+    title.zh: 开启Canvas聚焦模式
+    description: clicking on a card will highlight all cards and lines of the same color on the canvas When turned on
+    description.zh: 开启后 点击卡片会突出显示画布上所有相同颜色的卡片和线条
+    type: class-toggle
+    default: false
+  -
+    id: canvas-card-text-middle 
+    title: canvas card text center align
+    title.zh: 卡片文字默认居中
+    type: class-toggle
+    default: false
   - 
+    id: canvas-card-opacity
+    title: Canvas Card Opacity
+    title.zh: 卡片透明度
+    type: variable-number-slider
+    default: 0.1
+    min: 0
+    max: 1
+    step: 0.05
+  -
+    id: canvas-workplace-background-heading
+    title: canvas workplace background settings
+    title.zh: canvas页面背景设置
+    type: heading
+    level: 4
+    collapsed: true
+  - 
+    id: toggle-canvas-grid 
+    title: Toggle canvas grid
+    title.zh: 关闭Canvas网格显示
+    type: class-toggle
+    default: false
+  -
+    id: canvas-workplace-background 
+    title: Toggle canvas workplace  background 
+    title.zh: 关闭Canvas工作区背景
+    description.zh: 如果开启了1.2.1工作页面背景，编辑画板也会带有背景，这里可以关闭画板背景
+    type: class-toggle
+    default: false
+  - 
+    id: canvas-background-image
+    title: Canvas Background image
+    title.zh: canvas背景图案
+    type: class-select
+    allowEmpty: false
+    default: default-canvas-background
+    options:
+      - 
+        label: Default
+        value: default-canvas-background
+      - 
+        label: Stardust
+        value: stardust-canvas-background
+      - 
+        label: Dark Mosaic
+        value: mosaic-canvas-background-dark
+      -  
+        label: Woven (Dark)
+        value: woven-canvas-background-dark
+      - 
+        label: Woven (light)
+        value: woven-canvas-background
+      - 
+        label: Wood
+        value: wood-canvas-background
+      - 
+        label: Retina Wood
+        value: retina-wood-canvas-background
+      - 
+        label: Matrix grid 
+        value: matrix-grid-canvas-background
+      - 
+        label: Notebook
+        value: notebook-canvas-background
+      - 
+        label: Project Paper
+        value: paper-canvas-background
+      - 
+        label: Blackboard
+        value: blackboard-canvas-background
+  -
+    id: custom-canvas-bg
+    title: Custom Canvas Background Color
+    title.zh: 自定义canvas背景色
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#fef9ee'
+    default-dark: '#05172e'
+  -
     id: style-options-for-other-plugins
     title: 3. For Plugins
     title.zh: 3. 插件样式
@@ -3792,6 +3910,26 @@ settings:
     description.zh: Obsidian 默认callout样式
     type: class-toggle
     default: false
+  -
+    id: callout-style-settings
+    title: callout style settings
+    title.zh: Callout 外观样式设置
+    type: class-select
+    allowEmpty: false
+    default: traditional-callout-style
+    options:
+      - 
+        label: Default
+        value: admonition-bg-color-same
+      - 
+        label: Traditional
+        value: traditional-callout-style
+      - 
+        label: Border
+        value: border-callout-style
+      - 
+        label: Shade
+        value: shade-callout-style
   -
     id: full-width-callout
     title: Full-width layout for callout & admonition
@@ -4318,6 +4456,9 @@ settings:
         label: monokai
         value: code-theme-monokai
       - 
+        label: sublime
+        value: code-theme-sublime
+      - 
         label: Custom
         value: code-theme-custom
   - 
@@ -4669,16 +4810,16 @@ body {
   --font-family-h6: ;
   --font-family-title: ;/*文件抬头标题*/
   --font-family-folder-file-title: Arlrdbd, "Source Han Sans", "Noto Sans CJK", "Source Sans Pro", "Segoe UI Emoji", sans-serif;/*左侧边栏文件、文件夹字体*/
-  --font-monospace-theme: Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
+  --font-monospace-theme: 'JetBrains Mono',Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
   --font-family-inline-code: var(--font-monospace-theme);
-  --font-family-tag: Bookerly, "Microsoft YaHei", STzhongsong, STSong, "Segoe UI Emoji", Serif;
+  --font-family-tag: Bookerly,'Inter', "Segoe UI", "Microsoft YaHei", STzhongsong, STSong, "Segoe UI Emoji", Serif;
   --font-family-vault: "Lucida Handwriting", "Segoe UI Emoji";/*左侧库名字体*/
   --font-family-special-tag: "Lucida Handwriting", "Segoe UI Emoji";
   --font-family-YAML: "Lucida Handwriting";
 
   --mermaid-font-family: Segoe UI, "Microsoft YaHei", "Segoe UI Emoji", "trebuchet ms", verdana, Arial, cursive;
   --font-family-better-footnote: Arlrdbd, "Source Han Sans", "Segoe UI Emoji";
-  --font-family-strong: Bookerly, "LXGW WenKai Screen", "LXGW WenKai Screen R", "霞鹜文楷 GB", "LXGW WenKai", "Segoe UI Emoji", var(--font-default);
+  --font-family-strong: Bookerly,'Inter', "Segoe UI", "LXGW WenKai Screen", "LXGW WenKai Screen R", "霞鹜文楷 GB", "LXGW WenKai", "Segoe UI Emoji", var(--font-default);
   --font-family-em: ;
   --font-loading-text: var(--font-monospace-theme);
 
@@ -4864,6 +5005,7 @@ body {
   --font-weight-strong: bold;
   --font-style-em: italic;
   --code-background: var(--background-code);
+  --canvas-card-opacity: 0.1;
 }
 
 body.all-dark .print.theme-light,
@@ -10588,11 +10730,11 @@ body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockq
 }
 body.text-indentation-two-em [data-type="markdown"] div[class="el-p"]:not(blockquote) > p>br::after,
 [data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered).indent div[class="el-p"]:not(blockquote) >p>br::after {
-  content: '\A\0020\0020\0020\0020';
+  content: '\A\9\9';
 }
 
-body.justify-align .markdown-source-view.mod-cm6 div.cm-line:not(.HyperMD-header),
-.markdown-source-view.mod-cm6.justify div.cm-line:not(.HyperMD-header) {
+body.justify-align .markdown-source-view.mod-cm6 div[class="cm-line"]:not(.HyperMD-header),
+.markdown-source-view.mod-cm6.justify div[class="cm-line"]:not(.HyperMD-header) {
   text-align: justify;
     hyphens: auto;
 }
@@ -10602,7 +10744,11 @@ body.justify-align [data-type="markdown"] div[class="el-p"]:not(blockquote) > p,
   text-align: justify;
     hyphens: auto;
 }
-
+body.justify-align [data-type="markdown"] div.el-p.callout-content:not(blockquote) > p,
+[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered).justify div.el-p.callout-content:not(blockquote) > p {
+  text-align: justify;
+    hyphens: auto;
+}
 
 /*edit mode blockquote font size*/
 .cm-s-obsidian span.cm-quote {
@@ -11936,8 +12082,8 @@ body:not(.font-family-change-to-default) .markdown-source-view {
 }
 
 .markdown-source-view.mod-cm6.is-readable-line-width:not(.is-rtl) .cm-content {
-  width: var(--file-line-width);
-  max-width: 100%;
+/*   width: var(--file-line-width);
+  max-width: 100%; */
   margin: 0 auto;
 }
 
@@ -12301,6 +12447,18 @@ body.code-theme-monokai {
   --code-comment: #75715E;
   --code-active-line-background-color: #17013f9f;
 }
+body.code-theme-sublime
+{
+  --code-operator: #9a6e3a;
+  --code-variable: #5180de;
+  --code-keyword: #EA5E66;
+  --code-string: #40bf31;
+  --code-function: #F9AE58;
+  --code-string-2: #F9AE58;
+ --code-type: #F9AE58;
+ --code-def: #F9AE58;
+}
+
 
 .cm-s-obsidian span.cm-variable {
   color: var(--code-variable);
@@ -17468,7 +17626,10 @@ body.style-options-for-admonition-plugin .callout.admonition .admonition-content
 .admonition.callout {
   border-color: rgba(var(--callout-color),0.15);
 }
-
+.callout:not(.admonition).drop-shadow
+{
+  box-shadow:var(--window-shadow2);
+}
 .callout.admonition.admonition-plugin.is-collapsed {
   overflow: hidden;
 }
@@ -19060,7 +19221,7 @@ div.code-block-wrap > pre  pre:not([closed]) + code[class*=language-] {
   color: var(--code-language);
 }
 .obsidian-embedded-code-title__code-block-title .collapser .handle {
-  margin-top: 10px;
+  margin-top: -3px;
 }
 .obsidian-embedded-code-title__code-block-title[closed] .langName {
   opacity: 0.75;
@@ -19419,6 +19580,18 @@ div[data-type='memos_view'] .usage-heat-map-wrapper > .usage-heat-map > .stat-co
 /* =============recent files=============== */
 
 /**recent file **/
+body.remove-file-icons .workspace-leaf-content[data-type="recent-files"] .view-content {
+  padding: unset;
+}
+
+body.remove-file-icons:not(.remove-arrow) .nav-folder.mod-root>.nav-folder-children>.nav-file
+{
+ padding-left:16px ;
+}
+body.remove-file-icons.remove-arrow .nav-folder.mod-root
+{
+ padding-left:4px ;
+}
 .workspace-leaf-content[data-type="recent-files"] .view-content {
   padding: unset;
 }
@@ -23999,7 +24172,7 @@ body.plain-file-title.theme-dark {
   --color-view-header-gradient-2: var(--background-primary);
 }
 
-body:not(.default-loading-page) .progress-bar-message {
+body:not(:is(.default-loading-page,.is-popout-window)) .progress-bar-message {
   visibility: hidden;
 }
 
@@ -24018,6 +24191,9 @@ body:not(.default-loading-page).loading-page-style-default .progress-bar-message
 
 body:not(.default-loading-page).theme-light .progress-bar {
   background-color: white;
+}
+body:not(.default-loading-page).theme-dark .progress-bar {
+  background-color: #222222;
 }
 
 @keyframes shape {
@@ -25065,6 +25241,10 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
   display: none;
 }
 /*无序列表分栏（配合伪看板使用）*/
+.theme-dark .gridlist ul>li a {
+  color:var(--text-folder-file) !important;
+}
+
 .gridlist ul ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(10px, 1fr));
@@ -25267,7 +25447,7 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
     display:unset;
   }
   body.text-indentation-two-em .print *:not(blockquote) > p>br::after {
-    content: '\A\0020\0020\0020\0020';
+    content: '\A\9\9'';
   }
   body.justify-align .print *:not(blockquote) > p {
     text-align: justify;
@@ -25285,8 +25465,31 @@ body.admonition-bg-color-same .callout
   background-color: rgba(var(--callout-color), 0.1);
   border-width: var(--callout-border-width);
 }
+body.shade-callout-style .callout
+{
+
+ border:none;
+ box-shadow: inset 0 0 0 2px rgba(var(--callout-color), 0.25), 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.1) !important;
+}
+body.shade-callout-style  .callout .callout-title {
+  padding: 6px;
+  background-color: rgba(var(--callout-color), 0.4);
+}
  
-body:not(.admonition-bg-color-same) .callout-title {
+body.border-callout-style .callout
+{
+  --callout-radius: 2px;
+  border-left: solid 4px rgb(var(--callout-color));
+}
+ 
+body.border-callout-style .callout .callout-title {
+  padding: 6px;
+  background-color: rgba(var(--callout-color), 0.4);
+}
+body.border-callout-style .callout .callout-content {
+  background-color: rgba(var(--callout-color), 0.1);
+}
+.callout-title {
   background-color: rgba(var(--callout-color), 0.15);
 }
 .callout-title-inner {
@@ -25306,6 +25509,7 @@ body:not(.admonition-bg-color-same) .callout-title {
 }
 body.admonition-bg-color-same .callout-title {
   color: rgb(var(--callout-color));
+  background-color:unset;
 }
 .callout-title {
   padding: 12px 0 12px 12px;
@@ -25672,8 +25876,20 @@ body.admonition-bg-color-same .callout-title {
   
 .callout.callout:is([data-callout-metadata*="indent"], 
 [data-callout*=indent]) .callout-content p br::after {
-  content: '\A\0020\0020\0020\0020';
+  content: '\A\9\9';
 }
+
+/* ===段落两端对齐============ */
+/*支持两种写法
+    > [!note|justify]
+    > [!note justify]
+   */
+   .callout.callout:is([data-callout-metadata*="justify"], 
+   [data-callout*=justify]) .callout-content>p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+   }
 /* ===隐藏图标============ */
 .callout.callout:is([data-callout-metadata^="noicon"], 
 [data-callout*=noicon]) .callout-icon {
@@ -26236,13 +26452,11 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 
 .callout.callout[data-callout*=bookinfo] .callout-title {
   text-align: center;
-  margin-top: -10px;
   display: flex;
   justify-content: space-between;
 }
 
 .callout.callout[data-callout*=bookinfo] .callout-content {
-  margin-top: -10px;
   display: flex;
   justify-content: space-between;
 }
@@ -26684,12 +26898,16 @@ body.funny-header-anim.clutter-free-headings .cm-line > :is(.cm-header, .cm-widg
   display: inline-block;
 }
 body.funny-header-anim .is-live-preview .cm-line:not(.cm-active) :is(.cm-header, .cm-widgetBuffer) + .cm-header,
-body.funny-header-anim.clutter-free-headings .cm-line:not(.cm-active) :is(.cm-header, .cm-widgetBuffer) + .cm-header {
+body.funny-header-anim.clutter-free-headings .cm-line:not(.cm-active) :is(.cm-header, .cm-widgetBuffer) + .cm-header,
+body.funny-header-anim .is-live-preview .cm-line:not(.cm-active) :is(.cm-header, .cm-widgetBuffer) + .cm-header ~ *,
+body.funny-header-anim.clutter-free-headings .cm-line:not(.cm-active) :is(.cm-header, .cm-widgetBuffer) + .cm-header ~ * {
   transform: translateX(0ch);
   transition: transform 333ms;
 }
 body.funny-header-anim .is-live-preview .cm-active :is(.cm-header, .cm-widgetBuffer) + .cm-header, 
-body.funny-header-anim.clutter-free-headings :is(.cm-header, .cm-widgetBuffer) + .cm-header {
+body.funny-header-anim.clutter-free-headings :is(.cm-header, .cm-widgetBuffer) + .cm-header ,
+body.funny-header-anim .is-live-preview .cm-active :is(.cm-header, .cm-widgetBuffer) + .cm-header ~ *, 
+body.funny-header-anim.clutter-free-headings :is(.cm-header, .cm-widgetBuffer) + .cm-header ~ *{
   transition: transform 333ms;
   transform: translateX(30px);
 }
@@ -26927,7 +27145,7 @@ body:not(.default-list-marker) .markdown-rendered .list-bullet::after {
   border: none;
   background: transparent;
   color: var(--list-ul-marker-color);
-  margin-left: -0.13em;
+  margin-left: 0.13em;
   margin-top: calc(0.466em * var(--line-height-list) - 0.286em);
   line-height: 0.55;
   transition: all 0.15s ease;
@@ -26941,8 +27159,8 @@ body:not(.default-list-marker) .list-bullet::after {
   border: none;
   background: transparent;
   color: var(--list-ul-marker-color);
-  margin-left: -0.03em;
-  margin-top: -0.15em;
+/*   margin-left: -0.03em;
+  margin-top: -0.15em; */
   display: flex;
   justify-content: center; 
   flex-direction: column; 
@@ -26991,7 +27209,6 @@ body:not(.default-list-marker) .has-list-bullet .has-list-bullet .list-bullet::a
 body:not(.default-list-marker) .has-list-bullet .has-list-bullet .has-list-bullet .list-bullet::after,
 body:not(.default-list-marker) .has-list-bullet .has-list-bullet .has-list-bullet .has-list-bullet .list-bullet::after {
   top: 0;
-  left: -0.6rem;
 }
 
 body:not(.default-list-marker) .markdown-source-view.mod-cm6 .cm-indent::before {
@@ -27008,9 +27225,9 @@ body:not(.default-list-marker) .markdown-source-view.mod-cm6 .cm-indent::before 
   margin-top: calc(var(--header-height)*0.98);
 }
 
-.has-list-bullet .list-bullet:after {
+/* .has-list-bullet .list-bullet:after {
   margin-left: -10px;
-}
+} */
 
 body:not(.default-list-marker) .list-collapse-indicator:hover ~ .list-bullet:after,
 body:not(.default-list-marker) .cm-fold-indicator:hover ~ .list-bullet:after,
@@ -27106,13 +27323,6 @@ body.colorful-unordered-list .markdown-rendered .has-list-bullet .has-list-bulle
   color: var(--list-marker-color-collapsed);
   box-shadow: -0.02em 0.058em 0 2px var(--background-modifier-active-hover);
   background-color: var(--background-modifier-active-hover);
-}
-
-
-
-
-.markdown-rendered.show-indentation-guide li > ul::before{
-  left: -19px;
 }
 
 
@@ -28318,6 +28528,12 @@ body.hide-titlebar-close-btn.is-hidden-frameless.mod-windows .titlebar-button {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='svg-icon lucide-search'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
 }
 /* ====web-browser==== */
+ .wb-bookmark-bar
+{
+  overflow: unset;
+border:none;
+right: 7px;
+}
 .wb-page-search-bar-text
 {
   font-family: var(--font-family-vault);
@@ -28331,9 +28547,13 @@ body.hide-titlebar-close-btn.is-hidden-frameless.mod-windows .titlebar-button {
 .workspace-leaf-content:not([data-type$="web-browser-view"]) .view-actions>a[class*="-web-browser"]{
   display: none;
 }
-.workspace-leaf-content[data-type="surfing-view"] .view-actions>a:not(:is([class*="surfing"],[aria-label^="Surfing"]))
+.workspace-leaf-content[data-type="surfing-view"] .view-actions>a:not(:is([class*="surfing"],[aria-label^="Surfing"],[aria-label="星标"],[aria-label="设置"],[aria-label="star"],[aria-label="settings"]))
 {
   display: none;
+}
+.wb-bookmark-item, .wb-bookmark-folder
+{
+  width: auto;
 }
 .workspace-leaf-content:not([data-type="surfing-view"]) .view-actions>a:is([class*="surfing"],[aria-label^="Surfing"])
 {
@@ -28604,17 +28824,20 @@ body.background-settings-workplace-background-image.theme-dark.is-frameless:is(.
   color: var(--text-muted);
 }
 
-/*********canvas****/
-/****弹出窗口 导出canvas 避免工作区背景干扰****/
-body.is-popout-window .workspace-leaf-content[data-type="canvas"],
-body.is-popout-window .canvas-wrapper
+
+/* ================================== */
+/* ========= Canvas ========= */
+/* ================================== */
+
+.app-container:has(~ .canvas-wrapper.is-screenshotting ) ,
+.titlebar:has(~ .canvas-wrapper.is-screenshotting ) 
 {
-  background-color:var(--color-base-00);
-  --background-primary:var(--color-base-00);
+   display: none;
 }
- .canvas-wrapper
+ 
+.workspace-leaf-content[data-type='canvas'] .view-content .canvas-wrapper
 {
-  --background-primary:var(--bg-color-settings-3);
+  background-color: unset;
 }
 
 .canvas-path-label
@@ -28623,7 +28846,6 @@ body.is-popout-window .canvas-wrapper
   padding: calc(var(--size-2-2) * var(--zoom-multiplier));
   background-color:var(--bg-color-settings-3);
 }
-/***/
 
 .canvas-node-content div[data-embed-type="image"]>p>img {
   min-width: 100%;
@@ -28638,25 +28860,226 @@ body.is-popout-window .canvas-wrapper
         image-rendering: crisp-edges;
         -ms-interpolation-mode:nearest-neighbor;
 }
-
-.canvas-node-container
+.canvas-node-content .markdown-preview-sizer iframe {
+  min-width: 100%;
+}
+.canvas-wrapper .canvas-node .canvas-node-container:has(.canvas-node-placeholder)
 {
-  border:unset;
-  box-shadow: var(--shadow-s);
+  border: 2px solid rgb(var(--canvas-color));
 }
-.canvas-node-container .markdown-embed{
-  background-color: var(--background-primary);
+.canvas-wrapper .canvas-node .canvas-node-container 
+{
+  border: unset;
+  box-shadow: inset 0 0 0 1px rgba(var(--canvas-color), calc(var(--canvas-card-opacity) + 0.6)), var(--shadow-stationary);
 }
+ .canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container:has(.canvas-node-placeholder) 
+{
+  border: 2px solid var(--color-base-60);
+  box-shadow: none;
+}
+.canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container
+{
+  border: 1px solid rgb(var(--canvas-color));
+  box-shadow: inset 0 0 0 1px var(--color-base-00), var(--shadow-stationary);
+}
+.canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-content
+{
+  background-color: rgba(var(--mono-rgb-0),var(--canvas-card-opacity));
+}
+.canvas-wrapper .canvas-node .canvas-node-content
+{
+  background-color: rgba(var(--canvas-color), var(--canvas-card-opacity));
+}
+body.theme-dark .canvas-wrapper .canvas-menu{
+  background-color: rgba(10, 10, 10,0.8);
+}
+
+body.theme-light .canvas-wrapper .canvas-menu{
+  background-color: rgba(var(--mono-rgb-0),0.7);
+}
+
+
 .canvas-node-content.markdown-embed > .markdown-embed-content > .markdown-preview-view {
   padding: 0  0.5em;
 }
-body[data-canvas-path*="_middle"] .canvas-node-container *
+
+
+/* blur node */
+.is-text-garbled .canvas-node  *,
+.is-text-garbled .markdown-preview-section div pre code {
+    text-shadow: 0 0 6px currentColor !important;
+	-webkit-text-fill-color: transparent !important;
+}
+/* blur media */
+.is-text-garbled .canvas-node-container div img,
+.is-text-garbled .canvas-node-container div svg,
+.is-text-garbled .canvas-node-container div video,
+.is-text-garbled .canvas-node-container div webview,
+.is-text-garbled .canvas-node-container div iframe {
+    filter: blur(4px) !important;
+ }
+
+ body.canvas-workplace-background .workspace-leaf-content[data-type="canvas"],
+ body.canvas-workplace-background .canvas-wrapper
+ {
+   --background-primary:var(--color-base-00);
+ }
+ /* hide convas export  grid */
+ body.toggle-canvas-grid .canvas-wrapper .canvas-background rect,
+ .canvas-wrapper.is-screenshotting .canvas-background rect
 {
-text-align: center;
+  opacity: 0;
 }
 
-/*******/
-.show-full-metadata  .frontmatter-container .frontmatter-section
+.workspace-leaf-content[data-type="canvas"] .view-header::before,
+.canvas-wrapper::before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--custom-canvas-bg,var(--canvas-background-color)) ;
+  background-image: var(--canvas-background) ;
+
+} 
+
+
+body.default-canvas-background{
+  --canvas-background-color:var(--custom-canvas-bg);
+}
+
+body.stardust-canvas-background{
+  --canvas-background-color:#000000;
+  --canvas-background:url("https://www.transparenttextures.com/patterns/stardust.png")
+}
+
+
+body.mosaic-canvas-background-dark{
+  --canvas-background-color: #000000;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+}
+
+
+body.woven-canvas-background-dark{
+  --canvas-background-color: #000000;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/woven.png");
+}
+
+
+body.woven-canvas-background{
+  --canvas-background-color: #131401;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/woven-light.png");
+}
+
+body.wood-canvas-background{
+  --canvas-background-color: #000000;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+body.retina-wood-canvas-background{
+  --canvas-background-color: #070f00;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/retina-wood.png");
+}
+
+body.matrix-grid-canvas-background{
+  --canvas-background-color: #050f2e;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/old-mathematics.png");
+}
+
+body.notebook-canvas-background{
+  --canvas-background-color: #9c9e7e;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/notebook.png");
+}
+
+body.notebook-canvas-background{
+  --canvas-background-color: #9c9e7e;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/notebook.png");
+}
+body.paper-canvas-background{
+  --canvas-background-color: #000000;
+  --canvas-background: url("https://www.transparenttextures.com/patterns/project-paper.png");
+}
+body.blackboard-canvas-background{
+  --canvas-background: url("http://thepatternlibrary.com/img/h.jpg");
+}
+
+/*=======canvas-card-focus-mode========
+=====Modified by Cuman from boninall=====*/
+
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
+/* .canvas:has(.is-focused:not(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom)) .canvas-node:not(.is-focused):is(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom),  */
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
+body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom)  {
+    filter: brightness(0.8) grayscale(0.9);
+}
+
+
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
+/* .canvas:has(.is-focused:not(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom)) .canvas-node:not(.is-focused):is(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom),  */
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
+body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom)  {
+
+filter:grayscale(0.9);
+}
+
+/* .canvas:has(.is-focused:not(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom)) .canvas-node:not(.is-focused):is(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom),  */
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:is(.mod-canvas-color-1),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:is(.mod-canvas-color-3),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:is(.mod-canvas-color-2),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:is(.mod-canvas-color-4),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:is(.mod-canvas-color-5),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:is(.mod-canvas-color-6),
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed.mod-canvas-color-custom {
+  box-shadow:
+           0 0px 8px -7px rgba(var(--canvas-color), 0.8),
+           0 0px 8px -7px rgba(var(--canvas-color), 0.8),
+           0px 0 8px -1px   rgba(var(--canvas-color), 0.4),
+           0px 0 8px -1px   rgba(var(--canvas-color), 0.4);
+}
+
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>.mod-canvas-color-1 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>.mod-canvas-color-2 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>.mod-canvas-color-3 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>.mod-canvas-color-4 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>.mod-canvas-color-5 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>.mod-canvas-color-6 path.canvas-interaction-path,
+body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>.mod-canvas-color-custom path.canvas-interaction-path
+{
+  stroke: rgba(var(--canvas-color), 0.1);
+  stroke-width: calc(12 * var(--zoom-multiplier));
+}
+
+.canvas-node-content.markdown-embed table {
+  text-align: start;
+}
+
+/* ================================== */
+.show-full-metadata  .frontmatter-container:not(.is-collapsed) .frontmatter-section
 {
   display: flex!important;
 }
@@ -28698,3 +29121,16 @@ font-size: calc(var(--h1-size) + 1em);
 text-align: center;
 }
 
+ 
+body.canvas-card-text-middle .canvas-node-container .canvas-node-content.markdown-embed:not(.is-loaded)
+{
+text-align: center;
+}
+
+div#popup-search 
+{
+  background-color: var(--color-base-10);
+}
+
+
+  
