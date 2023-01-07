@@ -1,6 +1,6 @@
 {
   "commitMessage": "PC backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "autoCommitMessage": "PC backup:终端：{{hostname}},  {{date}}, 文件数量：{{numFiles}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
   "autoPushInterval": 0,
@@ -14,7 +14,7 @@
   "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
-  "autoBackupAfterFileChange": false,
+  "autoBackupAfterFileChange": true,
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
@@ -22,6 +22,6 @@
   "changedFilesInStatusBar": true,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 2000,
-  "showBranchStatusBar": false,
+  "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false
 }

@@ -1240,8 +1240,14 @@
                 "id": "48c40bbeb9dd014b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "触不可及",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/触不可及.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1534,7 +1540,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 221.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1768,9 +1775,9 @@
   },
   "lastOpenFiles": [
     "笔记/电影/触不可及.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/工具.md",
     "笔记/工具/通用概念/自我的诞生.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/自恋.md",
     "笔记/内心/未命名.canvas",
     "笔记/内心/未命名.md",
