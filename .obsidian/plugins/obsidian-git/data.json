@@ -1,6 +1,6 @@
 {
   "commitMessage": "PC backup: {{date}}",
-  "autoCommitMessage": "PC backup:终端：{{hostname}},  {{date}}, 文件数量：{{numFiles}}",
+  "autoCommitMessage": "{{hostname}}: 文件数量：{{numFiles}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 2,
   "autoPushInterval": 0,
