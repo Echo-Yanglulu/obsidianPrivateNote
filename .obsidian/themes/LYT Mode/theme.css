@@ -330,7 +330,7 @@ body.theme-dark {
     --code-size: var(--font-smaller);
     --code-background: var(--background-primary-alt);
     --code-normal: var(--color-slate-500);
-    --code-comment: var(--text-faint);
+    --code-comment: var(--color-gray-15);
     --code-punctuation: var(--color-slate-900);
     --code-tag: var(--color-magenta-300);
     --code-value: var(--color-cyan-300);
@@ -774,7 +774,7 @@ body.theme-dark {
     --text-on-accent: var(--color-white);
     --text-error: var(--color-magenta-910);
     --text-success: var(--color-green-920);
-    --text-selection: rgba(134, 169, 209, 0.1);
+    --text-selection: rgba(134, 169, 209, 0.15);
     --text-accent: var(--color-gray-20);
     --text-accent-hover: var(--color-white);
     --interactive-normal: var(--color-blacker);
@@ -1247,9 +1247,7 @@ Content / Active Note / Opened Notes
 }
 
 /* Comments */
-.cm-s-obsidian span.cm-comment {
-    color: var(--comment-color);
-}
+
 
 .theme-dark {
     --comment-h1: hsl(56, 44%, 76%);
@@ -1317,10 +1315,6 @@ Content / Active Note / Opened Notes
 
 /*────────── Blockquotes ──────────*/
 
-.theme-dark .cm-s-obsidian span.cm-quote {
-    color: var(--blockquote-color);
-}
-
 .theme-dark span.cm-formatting-quote {
     color: var(--color-purple-910);
 }
@@ -1340,6 +1334,16 @@ Content / Active Note / Opened Notes
 .theme-dark span.cm-quote.cm-strong.cm-em {
     color: var(--bold-italic-color);
 }
+
+.theme-dark span.cm-quote.cm-strong.cm-em {
+    color: var(--bold-italic-color);
+}
+
+.theme-dark span.cm-quote.cm-link {
+    color: var(--bold-italic-color);    
+}
+
+
 
 /*────────── Ordered List / Number List ──────────*/
 
