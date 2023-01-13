@@ -106,6 +106,187 @@ settings:
             - 
                 label: Lavender
                 value: ctp-accent-lavender
+    -
+        id: anp-color-overrides-header
+        title: Color Overrides
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: ctp-custom-rosewater
+        title: Rosewater
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-flamingo
+        title: Flamingo
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-pink
+        title: Pink
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-mauve
+        title: Mauve
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-red
+        title: Red
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-peach
+        title: Peach
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-yellow
+        title: Yellow
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-green
+        title: Green
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-teal
+        title: Teal
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-sky
+        title: Sky
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-sapphire
+        title: Sapphire
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-blue
+        title: Blue
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-lavender
+        title: Lavender
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-text
+        title: Text
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-subtext1
+        title: Subtext 1
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-subtext0
+        title: Subtext0
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-overlay2
+        title: Overlay 2
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-overlay1
+        title: Overlay 1
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-overlay0
+        title: Overlay 0
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-surface2
+        title: Surface 2
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-surface1
+        title: Surface 1
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-surface0
+        title: Surface 0
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-base
+        title: Base
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-mantle
+        title: Mantle
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
+    -
+        id: ctp-custom-crust
+        title: Crust
+        type: variable-themed-color
+        default-light: '#'
+        default-dark: '#'
+        format: 'rgb-values'
     - 
         id: anuppuccin-extended-colorschemes-link
         title: Extended colorschemes
@@ -221,19 +402,55 @@ settings:
         type: heading
         level: 2
         collapsed: true
+    - 
+        id: anp-codeblock-numbers
+        title: Enable codeblock numbering
+        type: class-toggle
     -
-        id: anp-codeblock-wrap
-        title: Codeblock line wrap
-        description: Works only in Live Preview and Source Mode
+        id: anp-codeblock-wrap-preview
+        title: Codeblock line wrap (Preview mode)
+        description: Does not work for codeblocks with syntax highlighting
         type: variable-select
-        default: nowrap
+        default: wrap
         options:
             -
                 label: Wrap
-                value: normal
+                value: pre-wrap
             -
                 label: No Wrap
                 value: nowrap
+    -
+        id: anp-codeblock-wrap-edit
+        title: Codeblock line wrap (Editing mode)
+        description: Does not work for codeblocks with syntax highlighting
+        type: variable-select
+        default: wrap
+        options:
+            -
+                label: Wrap
+                value: pre-wrap
+            -
+                label: No Wrap
+                value: nowrap
+    -
+        id: anp-code-text-color
+        title: Codeblock Text Color
+        type: variable-themed-color
+        description: Applies to codeblocks without syntax highlighting
+        allowEmpty: true
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: anp-code-bg-color
+        title: Codeblock Background Color
+        type: variable-themed-color
+        allowEmpty: true
+        format: hex
+        opacity: false
+        default-light: '#'
+        default-dark: '#'
     - 
         id: anp-custom-background-header
         title: Custom background
@@ -340,14 +557,15 @@ settings:
         level: 2
         collapsed: true
     - 
-        id: anp-editor-font-toggle
-        title: Enable custom source editor font
-        type: class-toggle
-    - 
-        id: anp-editor-font
-        title: Editor font
+        id: anp-editor-font-source
+        title: Source editor font
         type: variable-text
         default: Iosevka Comfy Duo
+    - 
+        id: anp-editor-font-lp
+        title: Live Preview editor font
+        type: variable-text
+        default: Noto Sans
     - 
         id: anp-active-line
         title: Active line highlight
@@ -364,6 +582,40 @@ settings:
             -
                 label: Highlight + Border
                 value: anp-current-line-border
+    - 
+        id: anp-filebrowser-header
+        title: File browser
+        type: heading
+        level: 2
+        collapsed: true
+    - 
+        id: anp-collapse-folders
+        title: Enable folder icons for collapse indicators
+        type: class-toggle
+    - 
+        id: anp-file-icons
+        title: Enable file icons
+        type: class-toggle
+    - 
+        id: anp-floating-header
+        title: Enable floating vault title
+        type: class-toggle
+    - 
+        id: anp-custom-vault-toggle
+        title: Enable custom vault title
+        type: class-toggle
+    -
+        id: anp-file-label-align
+        title: File label alignment
+        type: variable-select
+        default: "0"
+        options:
+            -
+                label: Right
+                value: 1
+            -
+                label: Left
+                value: 0
     - 
         id: anp-preview-header
         title: File preview
@@ -1034,28 +1286,8 @@ settings:
         level: 2
         collapsed: true
     - 
-        id: anp-collapse-folders
-        title: Enable folder icons for collapse indicators
-        type: class-toggle
-    - 
-        id: anp-file-icons
-        title: Enable file icons
-        type: class-toggle
-    - 
-        id: anp-codeblock-numbers
-        title: Enable codeblock numbering
-        type: class-toggle
-    - 
         id: anp-button-metadata-toggle
         title: Enable custom metadata button
-        type: class-toggle
-    - 
-        id: anp-floating-header
-        title: Enable floating vault title
-        type: class-toggle
-    - 
-        id: anp-custom-vault-toggle
-        title: Enable custom vault title
         type: class-toggle
     - 
         id: anp-color-transition-toggle
@@ -1112,6 +1344,13 @@ settings:
         title: Card border width
         type: variable-text
         default: 1px
+    - 
+        id: anp-snippet-minimal-cards-disclaimer
+        title: Minimal Cards is a feature of Minimal by Kepano and this theme does not come with the snippet.
+        description: "https://github.com/kepano/obsidian-minimal"
+        type: heading
+        level: 4
+        collapsed: true
     -
         id: anp-rainbow-section-header
         title: Rainbow folder
@@ -1146,17 +1385,15 @@ settings:
         desc: Recolors files to match the folders
         type: class-toggle
     - 
+        id: anp-full-rainbow-text-color-toggle
+        title: Invert title colors
+        type: class-toggle
+    - 
         id: anp-rainbow-folder-bg-opacity
         title: Folder background color opacity
         description: Uses decimal
         type: variable-number
         default: 0.7
-    - 
-        id: anp-rainbow-folder-border-opacity
-        title: Folder border opacity
-        description: Uses decimal
-        type: variable-number
-        default: 1
     - 
         id: anp-simple-rainbow-folder-settings
         title: Simple folder theme settings
@@ -1313,6 +1550,9 @@ settings:
                 label: Default
                 value: anp-default-tab
             - 
+                label: Depth
+                value: anp-depth-tab-toggle
+            - 
                 label: Minimalistic
                 value: anp-mini-tab-toggle
             - 
@@ -1332,6 +1572,31 @@ settings:
         id: anp-disable-newtab-align
         title: Disable new tab button right alignment
         type: class-toggle
+    - 
+        id: anp-depth-tab-header
+        title: Depth Tab settings
+        description: Only applies to inactive tabs
+        type: heading
+        level: 3
+        collapsed: true
+    - 
+        id: anp-depth-tab-text-invert
+        title: Invert tab text color
+        type: class-toggle
+    -
+        id: anp-depth-tab-opacity
+        title: Tab opacity
+        type: variable-number-slider
+        default: 0.6
+        max: 1
+        min: 0
+        step: 0.1
+    -
+        id: anp-depth-tab-gap
+        title: Tab gap
+        type: variable-number
+        default: 10
+        format: px
     - 
         id: anp-mini-tab-header
         title: Minimalistic Tab settings
@@ -1540,177 +1805,177 @@ settings:
 */
 /*------------------Defining Colorschemes-------------------*/
 .theme-light, .theme-light.ctp-latte {
-  --ctp-rosewater: 222, 149, 132;
-  --ctp-flamingo: 221, 120, 120;
-  --ctp-pink: 236, 131, 208;
-  --ctp-mauve: 136, 57, 239;
-  --ctp-red: 210, 15, 57;
-  --ctp-maroon: 230, 69, 83;
-  --ctp-peach: 254, 100, 11;
-  --ctp-yellow: 228, 147, 32;
-  --ctp-green: 64, 160, 43;
-  --ctp-teal: 23, 146, 153;
-  --ctp-sky: 4, 165, 229;
-  --ctp-sapphire: 32, 159, 181;
-  --ctp-blue: 42, 110, 245;
-  --ctp-lavender: 114, 135, 253;
-  --ctp-text: 76, 79, 105;
-  --ctp-subtext1: 92, 95, 119;
-  --ctp-subtext0: 108, 111, 133;
-  --ctp-overlay2: 124, 127, 147;
-  --ctp-overlay1: 140, 143, 161;
-  --ctp-overlay0: 156, 160, 176;
-  --ctp-surface2: 172, 176, 190;
-  --ctp-surface1: 188, 192, 204;
-  --ctp-surface0: 204, 208, 218;
-  --ctp-base: 239, 241, 245;
-  --ctp-mantle: 230, 233, 239;
-  --ctp-crust: 220, 224, 232;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 222, 149, 132));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 221, 120, 120));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 236, 131, 208));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 136, 57, 239));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 210, 15, 57));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 230, 69, 83));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 254, 100, 11));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 228, 147, 32));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 64, 160, 43));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 23, 146, 153));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 4, 165, 229));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 32, 159, 181));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 42, 110, 245));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 114, 135, 253));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 76, 79, 105));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 92, 95, 119));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 108, 111, 133));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 124, 127, 147));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 140, 143, 161));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 156, 160, 176));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 172, 176, 190));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 188, 192, 204));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 204, 208, 218));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 239, 241, 245));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 230, 233, 239));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 220, 224, 232));
 }
 
 .theme-light.ctp-rosepine-light {
-  --ctp-rosewater: 214, 129, 125;
-  --ctp-flamingo: 214, 129, 125;
-  --ctp-pink: 144, 122, 169;
-  --ctp-mauve: 144, 122, 169;
-  --ctp-red: 180, 99, 122;
-  --ctp-maroon: 180, 99, 122;
-  --ctp-peach: 214, 129, 125;
-  --ctp-yellow: 234, 157, 52;
-  --ctp-green: 86, 148, 159;
-  --ctp-teal: 86, 148, 159;
-  --ctp-sky: 40, 105, 131;
-  --ctp-sapphire: 40, 105, 131;
-  --ctp-blue: 40, 105, 131;
-  --ctp-lavender: 144, 122, 169;
-  --ctp-text: 87, 82, 121;
-  --ctp-subtext1: 97, 92, 132;
-  --ctp-subtext0: 121, 117, 147;
-  --ctp-overlay2: 128, 124, 153;
-  --ctp-overlay1: 152, 147, 165;
-  --ctp-overlay0: 161, 156, 173;
-  --ctp-surface2: 202, 193, 185;
-  --ctp-surface1: 209, 201, 194;
-  --ctp-surface0: 220, 211, 203;
-  --ctp-base: 238, 230, 221;
-  --ctp-mantle: 230, 219, 209;
-  --ctp-crust: 221, 208, 198;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 214, 129, 125));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 214, 129, 125));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 144, 122, 169));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 144, 122, 169));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 180, 99, 122));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 180, 99, 122));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 214, 129, 125));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 234, 157, 52));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 86, 148, 159));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 86, 148, 159));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 40, 105, 131));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 40, 105, 131));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 40, 105, 131));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 144, 122, 169));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 87, 82, 121));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 97, 92, 132));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 121, 117, 147));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 128, 124, 153));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 152, 147, 165));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 161, 156, 173));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 202, 193, 185));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 209, 201, 194));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 220, 211, 203));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 238, 230, 221));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 230, 219, 209));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 221, 208, 198));
 }
 
 .theme-dark.ctp-frappe {
-  --ctp-rosewater: 242, 213, 207;
-  --ctp-flamingo: 238, 190, 190;
-  --ctp-pink: 244, 184, 228;
-  --ctp-mauve: 202, 158, 230;
-  --ctp-red: 231, 130, 132;
-  --ctp-maroon: 234, 153, 156;
-  --ctp-peach: 239, 159, 118;
-  --ctp-yellow: 229, 200, 144;
-  --ctp-green: 166, 209, 137;
-  --ctp-teal: 129, 200, 190;
-  --ctp-sky: 153, 209, 219;
-  --ctp-sapphire: 133, 193, 220;
-  --ctp-blue: 140, 170, 238;
-  --ctp-lavender: 186, 187, 241;
-  --ctp-text: 198, 206, 239;
-  --ctp-subtext1: 181, 189, 220;
-  --ctp-subtext0: 165, 172, 201;
-  --ctp-overlay2: 148, 155, 183;
-  --ctp-overlay1: 131, 138, 164;
-  --ctp-overlay0: 115, 120, 145;
-  --ctp-surface2: 98, 103, 126;
-  --ctp-surface1: 81, 86, 108;
-  --ctp-surface0: 65, 69, 89;
-  --ctp-base: 48, 52, 70;
-  --ctp-mantle: 41, 44, 60;
-  --ctp-crust: 35, 38, 52;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 242, 213, 207));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 238, 190, 190));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 244, 184, 228));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 202, 158, 230));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 231, 130, 132));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 234, 153, 156));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 239, 159, 118));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 229, 200, 144));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 166, 209, 137));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 129, 200, 190));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 153, 209, 219));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 133, 193, 220));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 140, 170, 238));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 186, 187, 241));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 198, 206, 239));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 181, 189, 220));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 165, 172, 201));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 148, 155, 183));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 131, 138, 164));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 115, 120, 145));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 98, 103, 126));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 81, 86, 108));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 65, 69, 89));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 48, 52, 70));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 41, 44, 60));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 35, 38, 52));
 }
 
 .theme-dark.ctp-macchiato {
-  --ctp-rosewater: 244, 219, 214;
-  --ctp-flamingo: 240, 198, 198;
-  --ctp-pink: 245, 189, 230;
-  --ctp-mauve: 198, 160, 246;
-  --ctp-red: 237, 135, 150;
-  --ctp-maroon: 238, 153, 160;
-  --ctp-peach: 245, 169, 127;
-  --ctp-yellow: 238, 212, 159;
-  --ctp-green: 166, 218, 149;
-  --ctp-teal: 139, 213, 202;
-  --ctp-sky: 145, 215, 227;
-  --ctp-sapphire: 125, 196, 228;
-  --ctp-blue: 138, 173, 244;
-  --ctp-lavender: 183, 189, 248;
-  --ctp-text: 197, 207, 245;
-  --ctp-subtext1: 179, 188, 224;
-  --ctp-subtext0: 161, 170, 203;
-  --ctp-overlay2: 143, 151, 183;
-  --ctp-overlay1: 125, 132, 162;
-  --ctp-overlay0: 108, 114, 141;
-  --ctp-surface2: 90, 95, 120;
-  --ctp-surface1: 72, 76, 100;
-  --ctp-surface0: 54, 58, 79;
-  --ctp-base: 36, 39, 58;
-  --ctp-mantle: 30, 32, 48;
-  --ctp-crust: 24, 25, 38;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 244, 219, 214));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 240, 198, 198));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 245, 189, 230));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 198, 160, 246));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 237, 135, 150));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 238, 153, 160));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 245, 169, 127));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 238, 212, 159));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 166, 218, 149));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 139, 213, 202));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 145, 215, 227));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 125, 196, 228));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 138, 173, 244));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 183, 189, 248));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 197, 207, 245));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 179, 188, 224));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 161, 170, 203));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 143, 151, 183));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 125, 132, 162));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 108, 114, 141));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 90, 95, 120));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 72, 76, 100));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 54, 58, 79));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 36, 39, 58));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 30, 32, 48));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 24, 25, 38));
 }
 
 .theme-dark.ctp-mocha, .theme-dark {
-  --ctp-rosewater: 245, 224, 220;
-  --ctp-flamingo: 242, 205, 205;
-  --ctp-pink: 245, 194, 231;
-  --ctp-mauve: 203, 166, 247;
-  --ctp-red: 243, 139, 168;
-  --ctp-maroon: 235, 160, 172;
-  --ctp-peach: 250, 179, 135;
-  --ctp-yellow: 249, 226, 175;
-  --ctp-green: 166, 227, 161;
-  --ctp-teal: 148, 226, 213;
-  --ctp-sky: 137, 220, 235;
-  --ctp-sapphire: 116, 199, 236;
-  --ctp-blue: 135, 176, 249;
-  --ctp-lavender: 180, 190, 254;
-  --ctp-text: 198, 208, 245;
-  --ctp-subtext1: 179, 188, 223;
-  --ctp-subtext0: 161, 168, 201;
-  --ctp-overlay2: 142, 149, 179;
-  --ctp-overlay1: 123, 129, 157;
-  --ctp-overlay0: 105, 109, 134;
-  --ctp-surface2: 86, 89, 112;
-  --ctp-surface1: 67, 70, 90;
-  --ctp-surface0: 49, 50, 68;
-  --ctp-base: 30, 30, 46;
-  --ctp-mantle: 24, 24, 37;
-  --ctp-crust: 17, 17, 27;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 245, 224, 220));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 242, 205, 205));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 245, 194, 231));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 203, 166, 247));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 243, 139, 168));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 235, 160, 172));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 250, 179, 135));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 249, 226, 175));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 166, 227, 161));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 148, 226, 213));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 137, 220, 235));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 116, 199, 236));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 135, 176, 249));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 180, 190, 254));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 198, 208, 245));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 179, 188, 223));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 161, 168, 201));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 142, 149, 179));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 123, 129, 157));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 105, 109, 134));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 86, 89, 112));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 67, 70, 90));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 49, 50, 68));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 30, 30, 46));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 24, 24, 37));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 17, 17, 27));
 }
 
 .theme-dark.ctp-mocha-old {
-  --ctp-rosewater: 245, 224, 220;
-  --ctp-flamingo: 242, 205, 205;
-  --ctp-pink: 245, 194, 231;
-  --ctp-mauve: 203, 166, 247;
-  --ctp-red: 243, 139, 168;
-  --ctp-maroon: 235, 160, 172;
-  --ctp-peach: 250, 179, 135;
-  --ctp-yellow: 249, 226, 175;
-  --ctp-green: 166, 227, 161;
-  --ctp-teal: 148, 226, 213;
-  --ctp-sky: 137, 220, 235;
-  --ctp-sapphire: 116, 199, 236;
-  --ctp-blue: 135, 176, 249;
-  --ctp-lavender: 180, 190, 254;
-  --ctp-text: 217, 224, 238;
-  --ctp-subtext1: 211, 205, 214;
-  --ctp-subtext0: 190, 179, 193;
-  --ctp-overlay2: 167, 156, 176;
-  --ctp-overlay1: 152, 139, 162;
-  --ctp-overlay0: 109, 107, 125;
-  --ctp-surface2: 87, 82, 105;
-  --ctp-surface1: 45, 40, 72;
-  --ctp-surface0: 48, 45, 65;
-  --ctp-base: 30, 30, 46;
-  --ctp-mantle: 26, 24, 38;
-  --ctp-crust: 22, 19, 32;
+  --ctp-rosewater: var(--ctp-custom-rosewater, var(--ctp-ext-rosewater, 245, 224, 220));
+  --ctp-flamingo: var(--ctp-custom-flamingo, var(--ctp-ext-flamingo, 242, 205, 205));
+  --ctp-pink: var(--ctp-custom-pink, var(--ctp-ext-pink, 245, 194, 231));
+  --ctp-mauve: var(--ctp-custom-mauve, var(--ctp-ext-mauve, 203, 166, 247));
+  --ctp-red: var(--ctp-custom-red, var(--ctp-ext-red, 243, 139, 168));
+  --ctp-maroon: var(--ctp-custom-marron, var(--ctp-ext-marron, 235, 160, 172));
+  --ctp-peach: var(--ctp-custom-peach, var(--ctp-ext-peach, 250, 179, 135));
+  --ctp-yellow: var(--ctp-custom-yellow, var(--ctp-ext-yellow, 249, 226, 175));
+  --ctp-green: var(--ctp-custom-green, var(--ctp-ext-green, 166, 227, 161));
+  --ctp-teal: var(--ctp-custom-teal, var(--ctp-ext-teal, 148, 226, 213));
+  --ctp-sky: var(--ctp-custom-sky, var(--ctp-ext-sky, 137, 220, 235));
+  --ctp-sapphire: var(--ctp-custom-sapphire, var(--ctp-ext-sapphire, 116, 199, 236));
+  --ctp-blue: var(--ctp-custom-blue, var(--ctp-ext-blue, 135, 176, 249));
+  --ctp-lavender: var(--ctp-custom-lavender, var(--ctp-ext-lavender, 180, 190, 254));
+  --ctp-text: var(--ctp-custom-text, var(--ctp-ext-text, 217, 224, 238));
+  --ctp-subtext1: var(--ctp-custom-subtext1, var(--ctp-ext-subtext1, 211, 205, 214));
+  --ctp-subtext0: var(--ctp-custom-subtext0, var(--ctp-ext-subtext0, 190, 179, 193));
+  --ctp-overlay2: var(--ctp-custom-overlay2, var(--ctp-ext-overlay2, 167, 156, 176));
+  --ctp-overlay1: var(--ctp-custom-overlay1, var(--ctp-ext-overlay1, 152, 139, 162));
+  --ctp-overlay0: var(--ctp-custom-overlay0, var(--ctp-ext-overlay0, 109, 107, 125));
+  --ctp-surface2: var(--ctp-custom-surface2, var(--ctp-ext-surface2, 87, 82, 105));
+  --ctp-surface1: var(--ctp-custom-surface1, var(--ctp-ext-surface1, 45, 40, 72));
+  --ctp-surface0: var(--ctp-custom-surface0, var(--ctp-ext-surface0, 48, 45, 65));
+  --ctp-base: var(--ctp-custom-base, var(--ctp-ext-base, 30, 30, 46));
+  --ctp-mantle: var(--ctp-custom-mantle, var(--ctp-ext-mantle, 26, 24, 38));
+  --ctp-crust: var(--ctp-custom-crust, var(--ctp-ext-crust, 22, 19, 32));
 }
 
 /*------------------Selecting Accents-------------------*/
@@ -2034,10 +2299,13 @@ body {
   --anp-header-font: "Noto Serif";
   --tab-stacked-pane-width: calc(var(--anp-tab-stacked-pane-width, 1)*var(--file-line-width));
   --anp-table-width-pct: 100%;
+  --code-background: var(--anp-code-bg-color, var(--background-secondary-alt));
   --canvas-color: var(--ctp-overlay2);
   --card-background-color: rgb(var(--ctp-crust));
   --card-foreground-color: rgb(var(--ctp-base));
   --tab-inactive-color: rgb(var(--ctp-mantle));
+  --code-background: rgb(var(--anp-custom-code-bg, var(--ctp-mantle)));
+  --code-normal: rgb(var(--anp-custom-code-normal, var(--ctp-text)));
 }
 body.theme-light {
   --anp-background-image: var(--anp-background-image-light);
@@ -2064,8 +2332,12 @@ body.theme-dark {
 }
 
 /*-Custom editor font-*/
-.anp-editor-font-toggle .markdown-source-view.mod-cm6:not(.is-live-preview) .cm-scroller {
-  font-family: var(--anp-editor-font);
+.markdown-source-view:not(.is-live-preview) {
+  --font-text: var(--anp-editor-font-source, var(--font-text-override)), var(--font-text-theme), var(--font-interface);
+}
+
+.markdown-source-view.is-live-preview {
+  --font-text: var(--anp-editor-font-lp, var(--font-text-override)), var(--font-text-theme), var(--font-interface);
 }
 
 /*-Highlighted gutter number-*/
@@ -2263,6 +2535,20 @@ body.theme-dark {
 .workspace, .horizontal-main-container,
 .anp-card-layout .mod-vertical .workspace-tabs {
   background-color: var(--tab-container-background);
+}
+
+/* Align file extension labels to the right in sidebar */
+.nav-file-title-content {
+  flex-grow: var(--anp-file-label-align);
+}
+
+.nav-folder-title-content {
+  flex-grow: 1;
+}
+
+/* Hide empty frontmatter (uses :has()) */
+.frontmatter-container:not(:has(.frontmatter-section)) {
+  display: none;
 }
 
 .workspace-split:not(.mod-root) .graph-controls.is-close,
@@ -2563,8 +2849,24 @@ body.is-translucent {
 }
 
 .markdown-source-view.mod-cm6 .HyperMD-codeblock.cm-line {
-  white-space: var(--anp-codeblock-wrap);
-  overflow-x: hidden;
+  white-space: var(--anp-codeblock-wrap-edit, pre-wrap);
+  overflow-x: scroll;
+}
+
+.markdown-rendered pre {
+  white-space: var(--anp-codeblock-wrap-preview, pre-wrap);
+  overflow-x: auto;
+}
+.markdown-rendered pre code {
+  overflow-x: scroll;
+}
+
+.markdown-rendered :not(pre) > code {
+  --code-normal: var(--anp-code-text-color, var(--text-normal));
+}
+
+.markdown-rendered code:not([class*=language]) {
+  --code-normal: var(--anp-code-text-color, var(--text-normal));
 }
 
 .frontmatter-section-data-item {
@@ -2636,11 +2938,11 @@ body.is-translucent {
   color: var(--italic-color);
 }
 
-.internal-embed[alt*=seamless] > .markdown-embed {
+.internal-embed[alt*=seamless].markdown-embed {
   --embed-padding: 0;
   border-width: 0px;
 }
-.internal-embed[alt*=seamless] > .markdown-embed > .markdown-embed-title {
+.internal-embed[alt*=seamless].markdown-embed > .markdown-embed-title {
   width: fit-content;
   position: absolute;
   left: unset;
@@ -2649,25 +2951,17 @@ body.is-translucent {
   opacity: 0;
   transition: opacity 0.1s;
 }
-.internal-embed[alt*=seamless] > .markdown-embed > .markdown-embed-link {
+.internal-embed[alt*=seamless].markdown-embed > .markdown-embed-link {
   opacity: 0;
   transition: opacity 0.1s;
 }
-.internal-embed[alt*=seamless] > .markdown-embed:hover > .markdown-embed-title, .internal-embed[alt*=seamless] > .markdown-embed:hover > .markdown-embed-link {
+.internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-title, .internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-link {
   opacity: 1;
   transition: opacity 0.1s;
 }
 
 /*--------------HEADERS----------------*/
 /*-Custom header font-*/
-.anp-header-color-toggle {
-  /*--------------H1 Colors-------------*/
-  /*--------------H2 Colors-------------*/
-  /*--------------H3 Colors-------------*/
-  /*--------------H4 Colors-------------*/
-  /*--------------H5 Colors-------------*/
-  /*--------------H6 Colors-------------*/
-}
 .anp-header-color-toggle.anp-h1-rosewater {
   --h1-color: rgb(var(--ctp-rosewater));
 }
@@ -3161,6 +3455,10 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
   color: var(--text-muted);
   max-width: var(--tab-max-width);
 }
+.anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header:not(.is-active) {
+  --icon-color: var(--text-muted);
+  --icon-color-hover: var(--text-muted);
+}
 .anp-safari-tab-toggle .workspace-split.mod-vertical.mod-root .workspace-tabs .workspace-tab-header-container .workspace-tab-header-container-inner .workspace-tab-header .workspace-tab-header-inner .workspace-tab-header-inner-title {
   margin-top: 3px;
 }
@@ -3337,6 +3635,42 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
   background-color: var(--background-modifier-hover);
 }
 
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header {
+  --tab-text-color-focused-active-current: rgb(var(--anp-depth-tab-text, var(--ctp-text)));
+  --tab-text-color-focused: rgb(var(--anp-depth-tab-text, var(--ctp-text)));
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active) {
+  --tab-text-color: rgb(var(--anp-depth-tab-text));
+  --icon-color: rgb(var(--anp-depth-tab-text));
+  --icon-color-hover: rgb(var(--anp-depth-tab-text));
+  background-color: rgba(var(--ctp-mantle), var(--anp-depth-tab-opacity, 0.6));
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active)::before, .anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active)::after {
+  box-shadow: inset 0 0 0 var(--tab-outline-width) transparent, 0 0 0 calc(var(--tab-curve) * 4) rgba(var(--ctp-mantle), var(--anp-depth-tab-opacity, 0.6));
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active)::after {
+  clip-path: inset(50% 50% 0 calc(var(--tab-curve) * 0));
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active)::before {
+  clip-path: inset(50% calc(var(--tab-curve) * 0) 0 50%);
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header-inner::after {
+  display: none;
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header-container-inner {
+  gap: var(--anp-depth-tab-gap, 10px);
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+  background-color: transparent;
+}
+.anp-depth-tab-toggle .workspace .mod-root .workspace-tab-header-inner-close-button:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.anp-depth-tab-toggle.anp-depth-tab-text-invert {
+  --anp-depth-tab-text: var(--ctp-crust);
+}
+
 /*----------------CALLOUTS-------------------*/
 .anp-callout-fold-position {
   --anp-callout-fold-position: 1;
@@ -3424,9 +3758,6 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
   background-color: rgba(var(--callout-color), 0.1);
   padding: var(--callout-title-padding);
   cursor: pointer;
-}
-.anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible.is-collapsed > .callout-content {
-  display: none;
 }
 .anp-callout-toggle.anp-callout-sleek .callout:not([data-callout-metadata*=revert]).is-collapsible:not(.is-collapsed) {
   padding: 0px 0px var(--callout-title-padding) 0px;
@@ -3550,6 +3881,10 @@ body:not(.anp-alternate-tab-toggle):not(.anp-disable-newtab-align) .workspace-sp
   background-color: rgb(var(--ctp-yellow));
 }
 
+/*-----------------------------------
+Rainbow tags is a snippet by @raisabelatrix
+Link: https://gist.github.com/raisabelatrix/eb383f7e19b59f951430c2f3c6ed80b0
+-----------------------------------*/
 body.rainbow-tags {
   --rainbow-tags-opacity: 0.3;
   --r1-color: rgb(var(--ctp-red));
@@ -3717,6 +4052,24 @@ body.rainbow-tags {
 }
 
 /*-Button for metadata-*/
+.anp-button-metadata-toggle.anuppuccin-accent-toggle .frontmatter-container .frontmatter-container-header {
+  background-color: rgba(var(--ctp-accent), 0.8);
+}
+.anp-button-metadata-toggle.anuppuccin-accent-toggle .frontmatter-container .frontmatter-container-header:hover {
+  background-color: rgba(var(--ctp-accent), 0.7);
+}
+.anp-button-metadata-toggle.anuppuccin-accent-toggle .frontmatter-container .frontmatter-container-header:active {
+  background-color: rgba(var(--ctp-accent), 0.6);
+}
+.anp-button-metadata-toggle:not(.anuppuccin-accent-toggle) .frontmatter-container .frontmatter-container-header {
+  background-color: hsla(var(--color-accent-hsl), 0.8);
+}
+.anp-button-metadata-toggle:not(.anuppuccin-accent-toggle) .frontmatter-container .frontmatter-container-header:hover {
+  background-color: hsla(var(--color-accent-hsl), 0.7);
+}
+.anp-button-metadata-toggle:not(.anuppuccin-accent-toggle) .frontmatter-container .frontmatter-container-header:active {
+  background-color: hsla(var(--color-accent-hsl), 0.6);
+}
 .anp-button-metadata-toggle .frontmatter-container {
   padding: 0;
 }
@@ -3728,7 +4081,6 @@ body.rainbow-tags {
   overflow: hidden;
   color: transparent !important;
   position: absolute;
-  background-color: rgba(var(--ctp-accent), 0.8);
   left: calc(100% - 32px);
   border-radius: 6px;
 }
@@ -3746,12 +4098,6 @@ body.rainbow-tags {
   height: 22px;
   margin-left: 5px;
   margin-top: 5px;
-}
-.anp-button-metadata-toggle .frontmatter-container .frontmatter-container-header:hover {
-  background-color: rgba(var(--ctp-accent), 0.7);
-}
-.anp-button-metadata-toggle .frontmatter-container .frontmatter-container-header:active {
-  background-color: rgba(var(--ctp-accent), 0.6);
 }
 
 /*-------Tweak for Minimal Cards--------------
@@ -3818,6 +4164,18 @@ body.anp-colorful-frame-icon-toggle-light.theme-light,
 body.anp-colorful-frame-icon-toggle-dark.theme-dark {
   --colorful-icon-color: var(--text-normal);
   --colorful-icon-color-alt: var(--text-muted);
+}
+
+.anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner .workspace-tab-header-inner-title, .anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner .workspace-tab-header-inner-close-button {
+  color: var(--text-muted);
+}
+
+.anp-colorful-frame .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner .workspace-tab-header-inner-close-button {
+  color: var(--text-muted);
+}
+
+.anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .workspace-tab-header-inner-title, .anp-colorful-frame.is-focused .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header.is-active .workspace-tab-header-inner .workspace-tab-header-inner-close-button {
+  color: var(--color-accent);
 }
 
 .anp-colorful-frame:not(.anp-card-layout) .mod-top .workspace-tab-header-container,
@@ -4505,23 +4863,47 @@ None of the original code was used and the feature was implemented from scratch.
   margin-right: 5px;
 }
 
-.anp-file-icons .nav-file .nav-file-title[data-path$=".md"]::before,
-.anp-file-icons .nav-file .nav-file-title[data-path$=".txt"]::before {
+.anp-file-icons .nav-file .nav-file-title[data-path$=".md"]::before {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6m-4 5H8m8 4H8m2-8H8'/%3E%3C/svg%3E%0A");
   -webkit-mask-repeat: no-repeat;
 }
 
 .anp-file-icons .nav-file .nav-file-title[data-path$=".canvas"]::before {
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Crect x='3' y='3' width='7' height='9'%3E%3C/rect%3E%3Crect x='14' y='3' width='7' height='5'%3E%3C/rect%3E%3Crect x='14' y='12' width='7' height='9'%3E%3C/rect%3E%3Crect x='3' y='16' width='7' height='5'%3E%3C/rect%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3h7v9H3zm11 0h7v5h-7zm0 9h7v9h-7zM3 16h7v5H3z'/%3E%3C/svg%3E");
   -webkit-mask-repeat: no-repeat;
 }
 
+.anp-file-icons .nav-file .nav-file-title[data-path$=".svg"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".bmp"]::before,
 .anp-file-icons .nav-file .nav-file-title[data-path$=".jpg"]::before,
 .anp-file-icons .nav-file .nav-file-title[data-path$=".gif"]::before,
 .anp-file-icons .nav-file .nav-file-title[data-path$=".webp"]::before,
 .anp-file-icons .nav-file .nav-file-title[data-path$=".jpeg"]::before,
 .anp-file-icons .nav-file .nav-file-title[data-path$=".png"]::before {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6'/%3E%3Ccircle cx='10' cy='13' r='2'/%3E%3Cpath d='m20 17-1.09-1.09a2 2 0 0 0-2.82 0L10 22'/%3E%3C/svg%3E%0A");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".mp3"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".wav"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".m4a"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".ogg"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".flac"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".3gp"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18V5l12-2v13M9 9l12-2'/%3E%3Ccircle cx='6' cy='18' r='3'/%3E%3Ccircle cx='18' cy='16' r='3'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".webm"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M10 8l6 4-6 4V8z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+}
+
+.anp-file-icons .nav-file .nav-file-title[data-path$=".mp4"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".ogv"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".mov"]::before,
+.anp-file-icons .nav-file .nav-file-title[data-path$=".mkv"]::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z'/%3E%3Cpath d='m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z'/%3E%3Cpath d='M6.6 4.99l3.38 4.2m1.88-5.81l3.38 4.2'/%3E%3C/svg%3E");
   -webkit-mask-repeat: no-repeat;
 }
 
@@ -4664,6 +5046,10 @@ None of the original code was used and the feature was implemented from scratch.
 
 .style-settings-container:empty {
   display: none;
+}
+
+body:not(.anuppuccin-accent-toggle) .style-settings-heading[data-id=anuppuccin-theme-settings], body:not(.anuppuccin-accent-toggle) .style-settings-heading[data-id=anuppuccin-theme-settings-extended] {
+  border-color: hsla(var(--color-accent-hsl), 0.2);
 }
 
 .modal {
@@ -4896,6 +5282,17 @@ body:not(.is-mobile):not(.anp-hide-status-bar) .kanban-plugin__board > div {
   transition: background-color 0.1s;
 }
 
+/* Kanban Autocomplete Fix */
+.kanban-plugin__autocomplete-item-active em {
+  color: var(--text-on-accent);
+}
+
+/* Notion-Styled Kanban Fix */
+body.theme-dark.theme-dark {
+  --notion-kanban-card: rgb(var(--ctp-surface0));
+  --notion-kanban-card-hover: rgb(var(--ctp-surface1));
+}
+
 .theme-dark .excalidraw, .theme-dark .excalidraw.theme--dark, .theme-light .excalidraw, .theme-light .excalidraw.theme--dark {
   --button-destructive-bg-color: rgba(var(--ctp-red), 0.2);
   --button-destructive-color: rgb(var(--ctp-red));
@@ -5085,11 +5482,14 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 }
 
 /*-Full rainbow theme-*/
-.anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title, .anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title, .anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-file-title, .anp-full-rainbow-color-toggle .nav-folder-collapse-indicator svg, .anp-full-rainbow-color-toggle .is-collapsed .nav-folder-collapse-indicator svg {
-  color: var(--background-primary);
+.anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title,
+.anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-file-title,
+.anp-full-rainbow-color-toggle .nav-folder-collapse-indicator svg,
+.anp-full-rainbow-color-toggle .is-collapsed .nav-folder-collapse-indicator svg {
+  color: var(--anp-full-rainbow-text-inverted, var(--background-primary));
 }
 .anp-full-rainbow-color-toggle.anp-rainbow-file-toggle .nav-folder.mod-root > .nav-folder-children > .nav-file .nav-file-title {
-  color: var(--background-primary);
+  color: var(--anp-full-rainbow-text-inverted, var(--background-primary));
 }
 .anp-full-rainbow-color-toggle.anp-rainbow-file-toggle.theme-dark .nav-folder.mod-root > .nav-folder-children > .nav-file {
   background-color: rgba(var(--ctp-text), var(--anp-rainbow-folder-bg-opacity));
@@ -5131,7 +5531,6 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
 .anp-full-rainbow-color-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder {
   transition: background-color 0.4s;
   background-color: rgba(var(--rainbow-folder-color), var(--anp-rainbow-folder-bg-opacity));
-  border-color: rgba(var(--rainbow-folder-color), var(--anp-rainbow-folder-border-opacity));
   margin-bottom: 2px;
   border-radius: 5px;
 }
@@ -5150,10 +5549,16 @@ body .excalidraw .library-menu-items-container .library-actions--load, body .exc
   box-shadow: none;
 }
 
+.anp-full-rainbow-text-color-toggle {
+  --anp-full-rainbow-text-inverted: rgb(var(--ctp-text));
+}
+
 /*-Simple rainbow theme-*/
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-title-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title {
   transition: color 0.4s;
   color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
+  --nav-item-background-hover: rgba(var(--rainbow-folder-color), 0.1);
+  --nav-item-background-active: rgba(var(--rainbow-folder-color), 0.1) ;
 }
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-icon-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title:after {
   transition: color 0.4s;
