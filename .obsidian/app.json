@@ -5,6 +5,7 @@
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "A3",
     "landscape": false,
     "margin": "0",
