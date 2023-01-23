@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/工程化/npm.md"
                   }
                 }
               }
@@ -1259,6 +1259,28 @@
                 }
               },
               {
+                "id": "e85da53958190f2e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/npm.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "d17d1b8b5818eee2",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1353,7 +1375,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1379,7 +1401,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1406,7 +1428,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1763,13 +1785,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "48c40bbeb9dd014b",
+  "active": "e85da53958190f2e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/悲伤.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/悲伤.md",
     "笔记/学习方法/概念/环境思维.md",
     "笔记/内心/紧张.md",
     "笔记/内心/压力.md",
