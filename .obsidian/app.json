@@ -1,8 +1,8 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "promptDelete": false,
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,
