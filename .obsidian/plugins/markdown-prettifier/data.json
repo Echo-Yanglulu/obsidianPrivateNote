@@ -2,10 +2,10 @@
   "bullet": "-",
   "emphasis": "_",
   "rule": "-",
-  "createHeaderIfNotPresent": true,
+  "createHeaderIfNotPresent": false,
   "newHeaderTemplate": "\ndate created: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
-  "updateHeader": true,
+  "updateHeader": false,
   "updateHeaderTemplate": "\ndate updated: \"{{date:YYYY-MM-DD HH:mm}}\" \n",
   "listItemIndent": "one",
-  "newlinesAroundHeadings": false
+  "newlinesAroundHeadings": true
 }

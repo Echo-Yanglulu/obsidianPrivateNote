@@ -268,5 +268,25 @@
       ],
       "key": "T"
     }
-  ]
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-tasks-plugin:toggle-done": [],
+  "markdown-prettifier:markdown-prettifier-run": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "markdown-prettifier:markdown-prettifier-update-fields": []
 }
