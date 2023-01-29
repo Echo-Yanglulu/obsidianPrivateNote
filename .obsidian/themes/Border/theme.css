@@ -1570,10 +1570,31 @@ settings:
         collapsed: true
         level: 3
     - 
-        id: full-width-table-off
-        title: Turn off full width table
-        title.zh: 关闭全宽表格
-        type: class-toggle
+        id: table-width-select
+        title: Table width
+        title.zh: 表格宽度
+        type: class-select
+        allowEmpty: false
+        default: table-width-default
+        options:
+            -   label: Consistent with line width (Default)
+                value: table-width-default
+            -   label: Obsidian default
+                value: table-width-obsidian-default
+            -   label: Customize table width
+                value: table-width-customized
+    - 
+        id: table-width
+        title: customize table width
+        title.zh: 自定义表格宽度
+        description: () percent of the editor panel width
+        description.zh: 编辑器面板宽度的百分之（）
+        type: variable-number-slider
+        default: 88
+        min: 10
+        max: 100
+        step: 1
+        format: cqw
     - 
         id: Image
         title: Image
@@ -1798,7 +1819,9 @@ body:not(.accent-color-custom) .setting-item[data-id=accent-l-light],
 body:not(.accent-color-custom) .setting-item[data-id=accent-color-dark],
 body:not(.accent-color-custom) .setting-item[data-id=accent-h-dark],
 body:not(.accent-color-custom) .setting-item[data-id=accent-s-dark],
-body:not(.accent-color-custom) .setting-item[data-id=accent-l-dark] {
+body:not(.accent-color-custom) .setting-item[data-id=accent-l-dark],
+body.table-width-default .setting-item[data-id=table-width],
+body.table-width-obsidian-default .setting-item[data-id=table-width] {
     display: none;
 }
 
@@ -1951,9 +1974,9 @@ body {
     --background-tertiary: hsl(calc(var(--accent-h) - 18),
             calc(var(--accent-s) - 4%),
             calc(100% - (100% - var(--accent-l)) / 8));
-    --workspace-background-translucent: hsla(calc(var(--accent-h) - 18),
-            calc(var(--accent-s) - 4%),
-            calc(100% - (100% - var(--accent-l)) / 8), 0.9);
+    --workspace-background-translucent: hsla(calc(var(--accent-h)),
+            calc((var(--accent-s) - 12%) / 6),
+            calc(100% - (100% - var(--accent-l)) / 36), 0.9);
     --blur-container: rgba(246, 246, 246, 0.8);
     --interactive-normal: var(--color-base-20);
     --interactive-hover: #EBEBEB;
@@ -2609,7 +2632,7 @@ body:not(.is-mobile).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-he
     box-shadow: var(--shadow-activated-tab-header-light-alt);
 }
 
-body:not(.is-mobile).theme-light:not(.is-translucent).card-layout-open .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
+body:not(.is-mobile).theme-light.card-layout-open .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
     box-shadow: var(--shadow-activated-tab-header-light) !important;
 }
 
@@ -2619,41 +2642,70 @@ body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-h
 }
 
 /*---*/
-body:not(.is-mobile).is-translucent .workspace-tabs.mod-top:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner,
-body:not(.is-mobile).is-translucent.card-layout-open .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
-    background: var(--background-modifier-active-hover);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08), inset 0 0 0 1px var(--divider-color);
-}
-
 .is-mobile .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-modifier-active-hover);
     box-shadow: inset 0 0 0 1px var(--divider-color);
 }
 
 /*divider effect*/
-body:not(.is-mobile) .mod-left-split .backlink-pane,
 body:not(.is-mobile) .mod-left-split .item-list,
 body:not(.is-mobile) .mod-left-split .nav-files-container,
-body:not(.is-mobile) .mod-left-split .outgoing-link-pane,
-body:not(.is-mobile) .mod-left-split .tag-container,
-body:not(.is-mobile) .mod-left-split .workspace-leaf-content[data-type=search] .search-result-container {
+body:not(.is-mobile) .mod-left-split .tag-container {
     background: linear-gradient(var(--background-mod-left-split) 10%, transparent) center top, linear-gradient(var(--divider-color) 100%, transparent) center top;
     background-repeat: no-repeat;
     background-size: 100% 40px, 91% 1px;
     background-attachment: local, scroll;
 }
 
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .backlink-pane,
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .item-list,
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .nav-files-container,
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .outgoing-link-pane,
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .tag-container,
-body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .workspace-leaf-content[data-type=search] .search-result-container {
-    background: linear-gradient(transparent 10%, transparent) center top, linear-gradient(var(--divider-color) 100%, transparent) center top;
+body:not(.is-mobile) .mod-right-split .item-list,
+body:not(.is-mobile) .mod-right-split .nav-files-container,
+body:not(.is-mobile) .mod-right-split .tag-container {
+    background: linear-gradient(var(--background-mod-right-split) 10%, transparent) center top, linear-gradient(var(--divider-color) 100%, transparent) center top;
     background-repeat: no-repeat;
     background-size: 100% 40px, 91% 1px;
     background-attachment: local, scroll;
 }
+
+
+body:not(.is-mobile).mod-left-split-background-transparent .mod-left-split .item-list,
+body:not(.is-mobile).mod-left-split-background-transparent .mod-left-split .nav-files-container,
+body:not(.is-mobile).mod-left-split-background-transparent .mod-left-split .tag-container,
+body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .item-list,
+body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .nav-files-container,
+body:not(.is-mobile).mod-left-split-background-CSS .mod-left-split .tag-container {
+    background: linear-gradient(transparent 10%, transparent) center top, linear-gradient(transparent 100%, transparent) center top;
+    background-repeat: no-repeat;
+    background-size: 100% 40px, 91% 1px;
+    background-attachment: local, scroll;
+}
+
+
+body:not(.is-mobile).mod-right-split-background-transparent .mod-right-split .item-list,
+body:not(.is-mobile).mod-right-split-background-transparent .mod-right-split .nav-files-container,
+body:not(.is-mobile).mod-right-split-background-transparent .mod-right-split .tag-container,
+body:not(.is-mobile).mod-right-split-background-CSS .mod-right-split .item-list,
+body:not(.is-mobile).mod-right-split-background-CSS .mod-right-split .nav-files-container,
+body:not(.is-mobile).mod-right-split-background-CSS .mod-right-split .tag-container {
+    background: linear-gradient(transparent 10%, transparent) center top, linear-gradient(transparent 100%, transparent) center top;
+    background-repeat: no-repeat;
+    background-size: 100% 40px, 91% 1px;
+    background-attachment: local, scroll;
+}
+
+/* --- */
+
+body.mod-left-split-background-transparent.card-layout-open.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+body.mod-right-split-background-transparent.card-layout-open.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
 
 /* ====== Layout ===== */
 body:not(.is-mobile) .horizontal-main-container {
@@ -2846,6 +2898,14 @@ body:not(.is-mobile) .workspace-ribbon {
 .mod-left-split .workspace-leaf-content,
 .mod-right-split .workspace-leaf-content {
     gap: var(--size-2-1);
+}
+
+.workspace-leaf-content[data-type="starred"] .item-list {
+    padding-top: 12px;
+}
+
+.nav-header~.search-input-container {
+    width: calc(100% - var(--size-4-6));
 }
 
 /* ====== status bar====== */
@@ -3630,8 +3690,8 @@ body.theme-dark .nav-folder-title.is-active {
     border-radius: var(--border-radius-activated-file-dark);
 }
 
-body.file-names-untrim .nav-file-title-content,
-body.file-names-untrim .nav-folder-title-content {
+body.file-names-untrim .workspace-leaf-content[data-type="file-explorer"] .nav-file-title-content,
+body.file-names-untrim .workspace-leaf-content[data-type="file-explorer"] .nav-folder-title-content {
     white-space: normal;
 }
 
@@ -4111,10 +4171,7 @@ body.canvas-card-menu-right .canvas-card-menu {
     background-color: var(--canvas-background);
 }
 
-/*search*/
-.nav-header~.search-input-container {
-    width: calc(100% - var(--size-4-6));
-}
+
 
 /* graph*/
 .graph-controls {
@@ -5504,10 +5561,27 @@ body {
     --table-row-background-hover: var(--background-primary-alt);
     --table-header-weight: var(--font-semibold);
     --table-header-color: var(--color-accent-3);
+    --table-width: 88cqw;
 }
 
-body:not(.full-width-table-off) :is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview) table {
+:is(.markdown-preview-section, .markdown-rendered) table:not(.dataview.table-view-table):active,
+:is(.markdown-preview-section, .markdown-rendered) table:not(.dataview.table-view-table):hover {
+    overflow: hidden;
+    resize: both !important;
+}
+
+body:not(.table-width-obsidian-default) :is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview) table {
     width: 100% !important;
+}
+
+body.table-width-customized :is(.markdown-source-view, .markdown-reading-view) {
+    container-type: inline-size;
+}
+
+body.table-width-customized :is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview) .el-table {
+    overflow: auto;
+    width: var(--table-width) !important;
+    margin-left: calc((var(--table-width) - 100%) / -2) !important;
 }
 
 /* ===== image ====== */
@@ -5984,6 +6058,21 @@ body.DB-table-bg-color-unify .data-input:hover {
 
 .setting-item+.setting-item-heading {
     margin-top: 0;
+}
+
+.themed-color-wrapper>div+div {
+    margin-top: 0px;
+}
+
+.themed-color-wrapper>div {
+    box-shadow: 0px 0px 0px 1px var(--divider-color);
+}
+
+.themed-color-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
 }
 
 .style-settings-container {
