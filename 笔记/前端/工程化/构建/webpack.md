@@ -9,13 +9,20 @@
 ### 功能
 ### 组成/要素
 ### 关联
+## 为什么
+为什么是webpack，不是其它的
+webpack为什么这样设计
+## 怎么办
+如何配置
+如何优化
+如何发挥作用
 
-# 设计思想
+# 设计思想/原理/流程机制
 ## Tabable插件体系
 定义：一个插件框架，也是webpack的底层依赖
 提供了一个hook体系
 ![[webpack.svg]]
-# 工作流程
+## 工作流程
 1. 初始化
 主要是**实例化Compiler对象**（以及实例化**多个tapable hook**）
 ![[Pasted image 20220730200434.png]]
@@ -25,10 +32,12 @@ tabable插件体系
 初始化**plugin**：依次调用每个插件的apply方法的过程
 3. resolve源文件，构建module
 遍历源文件，从3到最后，都是由plugin以**注册hook回调**的方式参与
-4. 生成chunk
-5. 构建资源
-6. 最终文件生成
+1. 生成chunk
+2. 构建资源
+3. 最终文件生成
 	1. bundle文件
+
+## 重要的对象与实现
 # 基本概念
 ## entry
 webpack开始这**一个或多个JS文件**开始遍历整个项目的依赖，是分析整个**项目依赖关系**的起点，。
@@ -202,6 +211,30 @@ module.exports = class DemoPlugin {
 		1. import()[^8]
 			1. 可利用注释为分离出来的chunk命名。这样就能在chunkFilename 中使用[lodash]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
 		2. require.ensure[^9]
+
+## 配置实战
+React官方脚手架：create-react-app
+它生成的react配置。
+[[webpack实战]]
+### CRA配置提取
+### CRA源码分析
+除了loader与plugin配置，还需关注
+1. Resolve：webpack如何分析模块之间的依赖关系 
+2. Node runtime mock：有时需要使用webpack去**mock一些node的内置模块和全局变量**。因为需要对模块测试？
+3. Performance：性能配置项
+4. optimization：打包的优化项
+5. SourceMap ：如何正确地开启它、选择它的类型。
+6. WebpackDevServer：用法
+
+eject之后的脚本分析：
+1. start.js
+	1. 使用configFactory取开发模式下的配置，这个函数就是[[webpack.config.js]]文件输出的配置函数。返回值就是webpack最终构建时使用的配置
+	2. serverConfig：是WebpackDevServer 本身的配置，这个函数就是[[WebpackDevServer.js]]文件输出的配置函数。有了serverConfig 和环境配置后，即可实例化一个WebpackDevServer 的服务。
+
+关于注释：
+	1. 解释了如此配置的原因及作用。
+
+## 工程化实践
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
@@ -268,29 +301,7 @@ plugins: [
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
 3. 将所有不同类型的资源进行统一管理，进行整体的分析与优化
-# 配置实战
-React官方脚手架：create-react-app
-它生成的react配置。
-[[webpack实战]]
-## CRA配置提取
-## CRA源码分析
-除了loader与plugin配置，还需关注
-1. Resolve：webpack如何分析模块之间的依赖关系 
-2. Node runtime mock：有时需要使用webpack去**mock一些node的内置模块和全局变量**。因为需要对模块测试？
-3. Performance：性能配置项
-4. optimization：打包的优化项
-5. SourceMap ：如何正确地开启它、选择它的类型。
-6. WebpackDevServer：用法
 
-eject之后的脚本分析：
-1. start.js
-	1. 使用configFactory取开发模式下的配置，这个函数就是[[webpack.config.js]]文件输出的配置函数。返回值就是webpack最终构建时使用的配置
-	2. serverConfig：是WebpackDevServer 本身的配置，这个函数就是[[WebpackDevServer.js]]文件输出的配置函数。有了serverConfig 和环境配置后，即可实例化一个WebpackDevServer 的服务。
-
-关于注释：
-	1. 解释了如此配置的原因及作用。
-
-## 工程化实践
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
