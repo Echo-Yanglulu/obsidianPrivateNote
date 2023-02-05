@@ -62,7 +62,7 @@ filename：支持变量，即文件名作为打包文件名。hash：对文件�
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
 ## loader
 定义
-	1.  一个**函数**，用于转换[^2]==JS/JSON之外==的其他**文件**，得到==JS模块==。。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
+	1.  一个**函数**，用于转换[^2]==JS/JSON之外==的其他**文件**，得到==JS模块==。（默认只可编译JS、JSON模块）。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
 
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules。
 ### 原理
@@ -312,6 +312,11 @@ plugins: [
 3. 将所有不同类型的资源进行统一管理，进行整体的分析与优化
 # 小工具
 ## webpack-cli
+### 为何
+在命令行中**运行**webpack（配置文件或命令行是用来**传参**的）。
+还有其他方式用来运行webpack吗？GUI？
+	不能，一种运行方式，两种传参方式。
+### 功能
 1. 构建过程添加进度条：webpack --progress --colors
 2. 平时只有简单的错误提示，查看错误详情：webpack --display-error-details；
 3. 缓存未改变的编译内容（未改动的模块，会被放入内存，不再每次编译），开启监听模式：webpack --watch；

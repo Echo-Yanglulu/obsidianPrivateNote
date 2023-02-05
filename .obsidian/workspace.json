@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/JS模块化.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -317,7 +317,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -343,7 +343,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/JS模块化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -370,7 +370,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/JS模块化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -781,13 +781,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b174ac47b735839",
+  "active": "35e75a6fb5297186",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/模块化.md",
     "笔记/前端/前端.md",
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/工程化.md",
