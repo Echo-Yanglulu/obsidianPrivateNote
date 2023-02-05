@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "模块化",
+      "path": "笔记/前端/工程化/模块化.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
     },
     {
       "basename": "质量",
@@ -187,18 +199,6 @@
     {
       "basename": "思维内容",
       "path": "笔记/工具/思考/基本概念/思维内容.md"
-    },
-    {
-      "basename": "性质",
-      "path": "笔记/工具/哲学/逻辑学/性质.md"
-    },
-    {
-      "basename": "学科",
-      "path": "笔记/工具/哲学/逻辑学/学科.md"
-    },
-    {
-      "basename": "重要概念",
-      "path": "笔记/工具/思考/基本概念/重要概念.md"
     }
   ],
   "omittedPaths": [],

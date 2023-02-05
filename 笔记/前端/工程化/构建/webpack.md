@@ -1,3 +1,15 @@
+# 概述
+把它看作一个“模块化打包工具”，是“温饱”
+如果能了解内核机制、利用强大的plugin系统，是“小康”（其实不只是打包，还可以做许多提高研发效率的事）
+问题
+	1. 为何是webpack，而不是其他的构建工具？
+	2. 其中的概念在webapck的内核与原理上是如何实现的？
+	3. 除了打包还有什么功能？（全是基础问题）
+## 是什么
+### 功能
+### 组成/要素
+### 关联
+
 # 设计思想
 ## Tabable插件体系
 定义：一个插件框架，也是webpack的底层依赖
@@ -134,11 +146,12 @@ module.exports = class DemoPlugin {
 ### chunk
 从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
 # 配置
-## 资源加载
+## 基础配置
+### 资源加载
 任何非JS资源都应使用loader加载
 	1. 加载css应使用css-loader与style-loader。使用这个loader就能在css中使用@import语法引用其他CSS。style-loader可把JS文件中导入的CSS代码打包到JS bundle中，在JS Bundle运行时自动地把样式插入页面的style标签中。
 		1. loader反向执行：把sass-loader放在css-loader 之后，才能将处理后的css交给css-loader ，否则依赖倒置会出错。
-## 资源处理
+### 资源处理
 使用plugin
 	1. 想把**CSS**抽离出来，成为单独的文件，而不是通过JS插入HTML![[Pasted image 20220801233153.png]]
 		1. 它还提供了一个loader用于CSS文件的提取。webpack 的plugin与loader非常丰富。
@@ -150,8 +163,8 @@ module.exports = class DemoPlugin {
 		1. 图片，字体图标，音视频：url-loader与file-loader。![[Pasted image 20220801233644.png]]
 		2. file-loader ：**处理**JS文件中对这些静态资源的引入，并**输出**到output目录[^4]
 		3. url-loader ：与file-loader 很像，但有limit配置，如果小于该**字节数**，则将文件直接打包成**BASE 64**形式放到JS **Bundle**中，而不是作为**单独文件**进行加载。
-# 高级配置
-## devServer
+## 高级配置
+### devServer
 背景：不能每次修改代码，就==全量打包编译==一次。所以在调试状态下，可利用webpack提供的开发工具，
 在代码发生变化后需要自动编译，三种方式：
 	1. webpack watch mode[^5]
@@ -161,7 +174,7 @@ module.exports = class DemoPlugin {
 	3. webpack-dev-middleware[^7]
 
 ![[Pasted image 20220805222427.png]]
-## HMR
+### HMR
 背景：每次都==全量刷新页面==，在大型应用中体验不好（速度慢，打开的弹窗消失）。
 方式：HMR（模块热替换）
 方法：在webpack4中只需开启devServer的hot
@@ -172,7 +185,7 @@ module.exports = class DemoPlugin {
 	2. accept接收发生变化的文件。
 	3. 由应用自己做出局部的判断。
 	4. ![[Pasted image 20220805223240.png]]
-## 代码分离
+### 代码分离
 原因：
 目的：得到多个bundle，灵活定制加载策略（按需加载，并行加载），从而提升整个应用的加载速度。
 方式：
@@ -189,7 +202,7 @@ module.exports = class DemoPlugin {
 		1. import()[^8]
 			1. 可利用注释为分离出来的chunk命名。这样就能在chunkFilename 中使用[lodash]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
 		2. require.ensure[^9]
-# 开发
+# 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
 	1. 获取配置：可使用loaderUtils的getOptions方法
@@ -276,6 +289,8 @@ eject之后的脚本分析：
 
 关于注释：
 	1. 解释了如此配置的原因及作用。
+
+## 工程化实践
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
