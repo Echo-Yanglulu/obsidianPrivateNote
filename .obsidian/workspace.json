@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/学习方法/自己的学习行为.md"
                   }
                 }
               }
@@ -231,13 +231,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":26},\"to\":{\"line\":4,\"ch\":26}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/学习方法/自己的学习行为.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -315,7 +321,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/学习方法/自己的学习行为.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -342,7 +348,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/学习方法/自己的学习行为.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -758,9 +764,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/组件化.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
