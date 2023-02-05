@@ -1380,7 +1380,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/工程化/工程化.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "backlinks": false,
                     "source": true
                   }
@@ -1556,7 +1556,7 @@
             }
           },
           {
-            "id": "3240c8bd42a16968",
+            "id": "4a9f1675391a7409",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -1564,7 +1564,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1790,11 +1790,11 @@
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
   "active": "d17d1b8b5818eee2",
@@ -1802,15 +1802,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/工程设计/工程设计.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/质量/3.监控与异常上报.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/规范/ESLint/editorconfig.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/恐惧.md",
-    "笔记/工具/思考/基本概念/思维.md"
+    "笔记/前端/前端.md"
   ]
 }
