@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -223,6 +223,28 @@
                 }
               },
               {
+                "id": "35e75a6fb5297186",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "e56cdc3385e758d0",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -321,7 +343,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -348,7 +370,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -759,20 +781,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e56cdc3385e758d0",
+  "active": "35e75a6fb5297186",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/策略.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/概念/交叉训练.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/组件化.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/通用概念/策略.md",
+    "笔记/学习方法/概念/交叉训练.md",
+    "笔记/前端/前端.md",
     "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/工程化/JS模块化.md"
   ]
 }
