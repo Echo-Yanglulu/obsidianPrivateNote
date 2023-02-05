@@ -322,7 +322,7 @@
                       "type": "outgoing-link",
                       "state": {
                         "file": "笔记/学习方法/自己的学习行为.md",
-                        "linksCollapsed": false,
+                        "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
                     }
@@ -764,15 +764,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/交叉训练.md",
+    "笔记/工具/通用概念/策略.md",
     "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/概念/交叉训练.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/SPA.md"
+    "笔记/前端/工程化/工程化.md"
   ]
 }
