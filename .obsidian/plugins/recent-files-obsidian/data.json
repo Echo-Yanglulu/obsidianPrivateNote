@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+      "basename": "environments",
+      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "工程化",
@@ -43,10 +51,6 @@
     {
       "basename": "背部",
       "path": "笔记/行为/健身/部位/背部.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "模块化",
@@ -195,10 +199,6 @@
     {
       "basename": "概念",
       "path": "笔记/学习方法/概念/概念.md"
-    },
-    {
-      "basename": "逻辑方法",
-      "path": "笔记/工具/哲学/逻辑学/逻辑方法.md"
     }
   ],
   "omittedPaths": [],

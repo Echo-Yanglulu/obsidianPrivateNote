@@ -1,7 +1,4 @@
----
-时间: 20220827
----
-浏览器，node，commonjs，es6，es2017，worker。
+浏览器，node，[[CommonJS]]，es6，es2017，worker。
 环境配置比较简单，了解即可
 
 不同的运行环境有不同的全局变量。 
