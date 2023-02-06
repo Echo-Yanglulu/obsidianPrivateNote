@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -231,13 +231,25 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":20},\"to\":{\"line\":10,\"ch\":20}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -343,7 +355,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -370,7 +382,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -512,11 +524,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 252,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -785,15 +798,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/前端/工程化/构建/构建.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/通用概念/策略.md",
-    "笔记/学习方法/概念/交叉训练.md"
+    "笔记/学习方法/自己的学习行为.md"
   ]
 }
