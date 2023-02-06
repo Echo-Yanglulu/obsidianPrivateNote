@@ -164,11 +164,12 @@ module.exports = class DemoPlugin {
 ### chunk
 从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
 # 配置
+[[webpack.config.js]] 
 ## 基础配置
 ### 资源加载
-任何非JS资源都应使用loader加载
+任何非JS,[[JSON]]资源都应使用loader加载
 	1. 加载css应使用css-loader与style-loader。使用这个loader就能在css中使用@import语法引用其他CSS。style-loader可把JS文件中导入的CSS代码打包到JS bundle中，在JS Bundle运行时自动地把样式插入页面的style标签中。
-		1. loader反向执行：把sass-loader放在css-loader 之后，才能将处理后的css交给css-loader ，否则依赖倒置会出错。
+		1. loader反向执行：把sass-loader放在css-loader 之后，才能将处理后的css交给css-loader ，否则依赖倒置会导致出错。
 ### 资源处理
 使用plugin
 	1. 想把**CSS**抽离出来，成为单独的文件，而不是通过JS插入HTML![[Pasted image 20220801233153.png]]
@@ -320,6 +321,16 @@ plugins: [
 1. 构建过程添加进度条：webpack --progress --colors
 2. 平时只有简单的错误提示，查看错误详情：webpack --display-error-details；
 3. 缓存未改变的编译内容（未改动的模块，会被放入内存，不再每次编译），开启监听模式：webpack --watch；
+4. webpack -d开发环境打包 -p生产环境打包
+5. -config 指定一个路径，存放webpack的配置文件
+6. -mode 指定打包环境
+7. -json 输出打包结果到json文件
+8. -progress 打包时显示进度
+9. -watch 监听文件变化，重新开始打包（没有变动的会被缓存到内存中）
+10. -color
+11. -hot 开启[[HMR]] 
+12. -profile： 详细输出每个环节的用时
+13. [命令行接口（CLI） | webpack 中文文档](https://webpack.docschina.org/api/cli/)
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源

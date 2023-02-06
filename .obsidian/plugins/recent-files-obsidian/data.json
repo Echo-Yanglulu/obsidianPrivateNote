@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
     },
     {
       "basename": "npm",
       "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "包管理器",
+      "path": "笔记/前端/工程化/包管理器.md"
     },
     {
       "basename": "node项目",
@@ -21,10 +33,6 @@
       "path": "笔记/前端/工程化/node/node.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "健身",
       "path": "笔记/行为/健身/健身.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "背部",
       "path": "笔记/行为/健身/部位/背部.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
       "basename": "前端",
@@ -195,10 +199,6 @@
     {
       "basename": "逻辑方法",
       "path": "笔记/工具/哲学/逻辑学/逻辑方法.md"
-    },
-    {
-      "basename": "科学",
-      "path": "笔记/工具/科学/科学.md"
     }
   ],
   "omittedPaths": [],

@@ -69,7 +69,7 @@ npm
 	set 设置环境变量，如：npm set init-author-name 'Your name'
 	info 查看某个包的信息，如：npm info lodash
 	search 查找npm仓库，如：npm search webpack
-	list
+	list 当前项目的依赖
 	bin 查看bin文件夹
 	link 将工程软链接到全局
 	publish 发布包
