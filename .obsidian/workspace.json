@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -427,7 +427,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -453,7 +453,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -480,7 +480,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -891,16 +891,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ec8f649ea0fef51",
+  "active": "9c9a6c4a22c40ab4",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/规范/ESLint/environments.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/构建/CMD.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/node/node.md",
