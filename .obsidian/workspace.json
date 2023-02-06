@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/前端/工程化/包管理器.md"
                   }
                 }
               }
@@ -75,6 +75,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "包管理器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/包管理器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":27},\"to\":{\"line\":6,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "npm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
@@ -82,6 +94,40 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/工程化/npm.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "48d3f19065b8cf74",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "node项目",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node项目.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":11},\"to\":{\"line\":2,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "package.json",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":26},\"to\":{\"line\":15,\"ch\":26}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/node/node.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -335,7 +381,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -361,9 +407,9 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
-                        "linksCollapsed": true,
-                        "unlinkedCollapsed": false
+                        "file": "笔记/前端/工程化/包管理器.md",
+                        "linksCollapsed": false,
+                        "unlinkedCollapsed": true
                       }
                     }
                   }
@@ -388,7 +434,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/前端/工程化/包管理器.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -799,20 +845,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "b79c9b4e39fb63da",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/部位/腹部.md",
-    "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/组件化.md"
+    "笔记/前端/工程化/pnpm.md",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/node/package.json.md",
+    "笔记/前端/工程化/node/node项目.md",
+    "笔记/前端/工程化/开发依赖.md",
+    "笔记/前端/工程化/运行依赖.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/脚手架/Schemetics.md",
+    "笔记/前端/工程化/工程化.md"
   ]
 }
