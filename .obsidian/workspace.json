@@ -805,17 +805,8 @@
             }
           },
           {
-            "id": "7053dc85efb8603d",
+            "id": "ce27e667895bb5ae",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "review-queue-list-view",
               "state": {}
@@ -912,11 +903,11 @@
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
   "active": "4ba3c8edda2ead0b",
