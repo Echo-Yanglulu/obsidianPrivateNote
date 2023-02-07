@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
+      "basename": "JS模块化",
+      "path": "笔记/前端/工程化/JS模块化.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "笔记/前端/工程化/规范/ESLint/CommonJS.md"
+    },
+    {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
+      "basename": "模块模式",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
+    },
+    {
+      "basename": "webpack-cli",
+      "path": "笔记/前端/工程化/构建/webpack-cli.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
       "basename": "阅读",
       "path": "笔记/行为/阅读.md"
     },
@@ -13,24 +57,8 @@
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
-    },
-    {
       "basename": "environments",
       "path": "笔记/前端/工程化/规范/ESLint/environments.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "包管理器",
@@ -43,10 +71,6 @@
     {
       "basename": "package.json",
       "path": "笔记/前端/工程化/node/package.json.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     },
     {
       "basename": "健身",
@@ -65,16 +89,8 @@
       "path": "笔记/前端/工程化/模块化.md"
     },
     {
-      "basename": "JS模块化",
-      "path": "笔记/前端/工程化/JS模块化.md"
-    },
-    {
       "basename": "CSS模块化",
       "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
     },
     {
       "basename": "质量",
@@ -183,22 +199,6 @@
     {
       "basename": "人",
       "path": "笔记/工具/通用概念/人.md"
-    },
-    {
-      "basename": "人的属性",
-      "path": "笔记/工具/通用概念/人的属性.md"
-    },
-    {
-      "basename": "知识",
-      "path": "笔记/学习方法/概念/知识.md"
-    },
-    {
-      "basename": "Untitled Diagram",
-      "path": "笔记/工具/哲学/Untitled Diagram.svg"
-    },
-    {
-      "basename": "逻辑规律",
-      "path": "笔记/工具/哲学/逻辑学/逻辑规律.md"
     }
   ],
   "omittedPaths": [],

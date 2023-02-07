@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/阅读.md"
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
                   }
                 }
               }
@@ -145,6 +145,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "模块模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":6},\"to\":{\"line\":38,\"ch\":6}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":34},\"to\":{\"line\":38,\"ch\":34}},\"scroll\":20.891544117647058}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":25},\"to\":{\"line\":17,\"ch\":25}},\"scroll\":6.588235294117647}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":11},\"to\":{\"line\":15,\"ch\":11}}}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -239,7 +263,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端.md",
+                    "file": "笔记/前端/工程化/JS模块化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -455,7 +479,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -481,7 +505,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/阅读.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -508,7 +532,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/阅读.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -572,7 +596,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "commonjs",
+                "query": "import",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -650,7 +674,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -910,20 +934,20 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "4ba3c8edda2ead0b",
+  "active": "d45ea6007daf1bbd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/行为/阅读.md",
-    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack-cli.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
-    "笔记/前端/前端.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/构建/AMD.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
-    "笔记/前端/工程化/规范/ESLint/environments.md",
-    "笔记/前端/工程化/构建/CMD.md",
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
-    "笔记/前端/工程化/node/node.md"
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/编程语言/JS/基本概念/模块模式.md"
   ]
 }

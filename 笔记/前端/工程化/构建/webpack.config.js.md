@@ -2,6 +2,18 @@
 大部分配置是loader与plugin
 是[[node]]的一个模块，遵循[[CommonJS]]规范
 # 配置
+## 其他
+### 配置语言
+JS, JSX，ts, CoffeeScript
+###  导出数据类型
+#### 对象
+#### 多配置数组
+#### 函数
+#### Promise
+通过JS原生的[[Promise]]进行配置
+### 指定配置文件
+使用[[webpack-cli]]：webpack --config webpack.config.js
+## 配置项
 1. devtools：用于开启sourcemap功能。CRA是如何使用它的？生产环境默认不开启
 	1. 'sourcemap'很适合生产环境，开启后，webpack会提供==质量好，结果完整==[^1]的源代码映射。但开发环境不适用，因为打包太慢。
 	2. 'cheap-module-source-map'适合开发环境，这种sourcemap 的构建速度快，可映射大部分代码行。虽然对某列打断点为有问题，但考虑到构建速度可接受。
