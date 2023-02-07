@@ -18,7 +18,7 @@ JS, JSX，ts, CoffeeScript
 	1. 'sourcemap'很适合生产环境，开启后，webpack会提供==质量好，结果完整==[^1]的源代码映射。但开发环境不适用，因为打包太慢。
 	2. 'cheap-module-source-map'适合开发环境，这种sourcemap 的构建速度快，可映射大部分代码行。虽然对某列打断点为有问题，但考虑到构建速度可接受。
 2. node：mock一些node的内置模块与全局变量。因为有时需要为前端项目使用一些node包[^2]。
-3. performance：打包性能。CRA默认将基设置为false,因为单独引入了FileSizeReporter这个工具做性能检查。没有这个工具则需要开启，来提供性能信息，从而判断是否需要优化构建策略。
+3. performance：打包性能。CRA默认将基设置为false,因为单独引入了FileSizeReporter这个工具做**性能检查**。没有这个工具则需要开启，来提供性能信息，从而判断是否需要优化构建策略。
 	1. 为某些大的依赖进行==分包加载==。
 	2. ![[Pasted image 20220806134052.png]]
 		1. 警告，错误，关闭
