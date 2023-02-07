@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/行为/阅读.md"
                   }
                 }
               }
@@ -257,6 +257,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":166,\"ch\":22},\"to\":{\"line\":166,\"ch\":22}},\"scroll\":158.2954}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -267,7 +273,29 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/学习方法/自己的学习行为.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4ba3c8edda2ead0b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/行为/阅读.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -427,7 +455,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -453,7 +481,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/阅读.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -480,7 +508,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/阅读.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -891,20 +919,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c9a6c4a22c40ab4",
+  "active": "4ba3c8edda2ead0b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/行为/阅读.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/规范/ESLint/environments.md",
     "笔记/前端/工程化/构建/CMD.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
-    "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/工程化/构建/HMR.md"
+    "笔记/前端/工程化/node/node.md"
   ]
 }
