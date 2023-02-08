@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/模块化.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md"
                   }
                 }
               }
@@ -505,7 +505,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/模块化.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -532,7 +532,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/模块化.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -674,7 +674,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -934,11 +934,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "33e499be1c4af5c0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/构建/webpack-cli.md",
@@ -947,7 +948,6 @@
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/工程化/规范/ESLint/CommonJS.md",
-    "笔记/前端/工程化/ES Module.md"
+    "笔记/前端/工程化/规范/ESLint/CommonJS.md"
   ]
 }
