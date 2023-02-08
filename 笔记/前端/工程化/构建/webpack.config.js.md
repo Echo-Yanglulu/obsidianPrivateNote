@@ -21,6 +21,7 @@ webpack打包项目的相对路径上下文。设置之后，entry与output设�
 ### mode
 ### loader
 对语言模块及预处理器模块进行处理（ES的语法转换，less的编译）
+webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
 ### plugin
 loader以外的功能。
 ### 小结
