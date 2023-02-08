@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md"
+                    "file": "笔记/前端/工程化/模块化.md"
                   }
                 }
               }
@@ -443,6 +443,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
                     }
                   ]
                 },
@@ -505,9 +517,9 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/工程化/模块化.md",
                         "linksCollapsed": false,
-                        "unlinkedCollapsed": true
+                        "unlinkedCollapsed": false
                       }
                     }
                   }
@@ -532,7 +544,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/工程化/模块化.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -934,20 +946,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "33e499be1c4af5c0",
+  "active": "9a6b5f4afc0f8944",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/前端/编程语言/JS/基本概念/模块化编程.md",
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/构建/webpack-cli.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/node/node.md"
+    "笔记/前端/工程化/npm.md"
   ]
 }
