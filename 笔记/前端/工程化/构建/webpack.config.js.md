@@ -1,6 +1,30 @@
 # 概述
 大部分配置是loader与plugin
 是[[node]]的一个模块，遵循[[CommonJS]]规范
+## 重要概念
+### module
+webpack中，一切文件都是[[模块]]（图片，CSS）
+### chunk
+### bundle
+### entry
+入口模块。构建依赖图的起点
+#### 属性
+1. 数量
+	1. 单文件入口
+	2. 多文件入口。几个entry会打包出对应数量的bundle
+2. 数据类型
+	1. 字符串，数组，对象
+#### context
+webpack打包项目的相对路径上下文。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
+
+### output
+### mode
+### loader
+对语言模块及预处理器模块进行处理（ES的语法转换，less的编译）
+### plugin
+loader以外的功能。
+### 小结
+从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
 ## 其他
 ### 配置语言
