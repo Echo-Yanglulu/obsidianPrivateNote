@@ -58,6 +58,16 @@ list: 'path/to/my/entry/list.js'
 webpack打包项目时，相对路径上下文（相对路径所基于的绝对路径）。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
 默认为process.cwd()，当前工作目录。
 ### output
+#### path
+#### filename
+##### 占位符
+name：模块名
+id：模块id
+hash：模块hash。整个项目共用一个hash。一个改动，整个项目重新生成
+chunkhash：整个依赖图是一个hash。一个改动，依赖图全部重新生成
+contenthash：结合提取css的插件，使用。解决js与依赖的css共用hash的问题
+#### publicPath
+当静态资源部署到CDN或其他服务，使用Link或Script标签访问时，可设置该属性，让标签访问该域名及路径。
 ### mode
 生产环境
 	1. 压缩代码
