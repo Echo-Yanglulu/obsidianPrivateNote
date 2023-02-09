@@ -3,9 +3,11 @@
 是[[node]]的一个模块，遵循[[CommonJS]]规范
 ## 重要概念
 ### module
-webpack中，一切文件都是[[模块]]（图片，CSS）
+模块化编程中，**功能**离散的chunk是模块。
+webpack中，一切**文件**都是[[模块]]（图片，CSS）
 ### chunk
 ### bundle
+bundle就是对chunk进行处理[^7]后的产出
 ### entry
 入口模块。构建依赖图的起点
 #### 属性
@@ -13,17 +15,52 @@ webpack中，一切文件都是[[模块]]（图片，CSS）
 	1. 单文件入口
 	2. 多文件入口。几个entry会打包出对应数量的bundle
 2. 数据类型
-	1. 字符串，数组，对象
-#### context
-webpack打包项目的相对路径上下文。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
+	1. 字符串，数组，对象（打包结果中实际只有一个入口模块）
+```javascript
+// 单文件入口：封装库时常用。扩展配置时灵活性较低
+module.exports = {
+entry: 'path/to/my/entry/file.js'
+};
+// 或者使用对象方式
+module.exports = {
+entry: {
+main: 'path/to/my/entry/file.js'
+}
+};
+// 使用数组：
+module.exports = {
+mode: 'development',
+entry: ['./src/app.js', './src/home.js'],
+output: {
+filename: 'array.js'
+}
+};
+// 其实都只有一个入口，在打包产出上会有差异
+// 单文件时，直接作为入口模块。多入口时，新建一个入口模块，最后一个作为入口的module.exports, 其他模块作为新建入口模块的引入。
 
+// 多入口
+// 使用对象语法
+module.exports = {
+entry: {
+home: 'path/to/my/entry/home.js',
+search: 'path/to/my/entry/search.js',
+list: 'path/to/my/entry/list.js'
+}
+};
+```
+#### context
+webpack打包项目时，相对路径上下文（相对路径所基于的绝对路径）。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
+默认为process.cwd()，当前工作目录。
 ### output
 ### mode
+生产环境
+	1. 压缩代码
+	2. 优化图片
 ### loader
-对语言模块及预处理器模块进行处理（ES的语法转换，less的编译）
+对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
 webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
 ### plugin
-loader以外的功能。
+loader以外的功能：处理**chunk与bundle**
 ### 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
@@ -76,3 +113,4 @@ JS, JSX，ts, CoffeeScript
 [^4]: .mjs是es6 module的模块名
 [^5]: 即插即用。该插件可利用yarn的全局缓存，提升模块加载速度
 [^6]: 主要指代码压缩。从4开始不用手动配置，因为会根据mode自动调整。虽然mode有对应的optimization，但要使用其他策略，则仍要了解所有优化项。
+[^7]: 压缩打包等
