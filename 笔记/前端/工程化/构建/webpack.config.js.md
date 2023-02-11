@@ -214,6 +214,10 @@ module.exports = {
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
 应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
 #### rules
+将命中的模块使用相应的模块处理器，
+	1. 如何命中（text, include, exclude）
+	2. 处理器的名称，数量，顺序（及其调整）
+	3. 如何处理（取哪些模块化规范连接依赖）
 ##### test
 选择模块
 ##### use
