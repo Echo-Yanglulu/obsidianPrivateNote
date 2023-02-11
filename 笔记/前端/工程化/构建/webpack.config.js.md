@@ -199,7 +199,17 @@ module.exports = {
 };
 // target为web进行打包时，寻找`browser`版本的模块代码
 ```
+#### 不常用、简单配置
+1. mainFiles
+2. modules
+3. symlinks
+4. plugins
+5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
 ### module
+不同的模块需要不同的loader
+#### noParse
+#### rules
+
 ### 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
