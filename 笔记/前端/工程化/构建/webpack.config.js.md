@@ -148,6 +148,7 @@ module.exports = {
 注意
 1. 可使用@ ~ ! ，往往只用一种，或者每种类型使用一种。
 2. 使用@时注意不要和包名的作用域名冲突
+3. 末尾添加$匹配末尾准确导入
 ```javascript
 module.exports = {
 	resolve: {
@@ -158,6 +159,7 @@ module.exports = {
 	}
 };
 // require('@lib/utils') 或者 require('src/lib/utils')。vscode中可能检测不到utils中的内容，根目录新建jsconfig.json文件，
+// 可帮助定位
 {
 "compilerOptions": {
 		"baseUrl": "./src",
@@ -166,7 +168,15 @@ module.exports = {
 		}
 	}
 }
-// 可帮助定位
+module.exports = {
+	resolve: {
+		alias: {
+			react$: '/path/to/react.min.js'
+		}
+	}
+};
+import react from 'react'; // 精确匹配， 所以 react.min.js 被解析和导入
+import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
 #### mainField
 
