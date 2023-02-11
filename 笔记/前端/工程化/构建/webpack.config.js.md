@@ -6,8 +6,9 @@
 模块化编程中，**功能**离散的chunk是模块。
 webpack中，一切**文件**都是[[模块]]（图片，CSS）
 ### chunk
+根据自定义的规则，由module生成的文件。一个chunk可来自多个module
 ### bundle
-bundle就是对chunk进行处理[^7]后的产出
+bundle就是对chunk进行处理（压缩打包等）后的产出
 ### entry
 入口模块。构建依赖图的起点
 #### 属性
@@ -63,24 +64,63 @@ entry编译打包后输出的bundle。
 存在路径，默认dist
 #### filename
 bundle名称，默认main。即：默认为dist/main.js
+##### 函数
+返回字符串作为bundle名
 ##### 占位符
 多个entry可使用**占位符区分bundle来源**：来自哪个entry
 1. name：entry中配置的模块名，即key
 2. id：模块id
-3. hash：模块hash。整个项目共用一个hash。一个改动，整个项目重新生成
-4. chunkhash：整个依赖图是一个hash。一个改动，依赖图全部重新生成
-5. contenthash：结合提取css的插件，使用。解决js与依赖的css共用hash的问题
+3. hash：模块hash。整个项目共用一个hash。一个改动，bundle中的该字段将重新生成
+4. chunkhash：依赖图hash。依赖的内容改动，整个bundle重新生成
+5. contenthash：文件hash（应该是具体到依赖图中每个层级）。结合提取css的插件，使用。解决js与依赖的css共用hash的问题
 #### publicPath
-在浏览器中被引用的URL地址：当静态资源部署到CDN或其他服务，使用Link或Script标签访问时，可设置该属性，让标签访问该域名及路径。
+使用script或link标签引用不同于本地磁盘路径（output.path）的文件路径时，配置
+在浏览器中被引用的URL地址：当静态资源部署到CDN或其他服务时，让标签访问该域名及路径。
+```javascript
+// 实际上线时应如此设置
+module.exports = {
+	output: {
+		path: '/home/git/public/assets',
+		publicPath: 'http://cdn.example.com/assets/'
+	}
+};
+```
+输出为
+```html
+<head>
+	<link href="http://cdn.example.com/assets/logo.png" />
+</head>
+```
 #### 用webpack封装库用到的属性
-1. library
-2. libraryTarget
+1. library：库名称
+2. libraryTarget：库打包出来的规范
+	1. var（默认）, assign, this, window, commonjs, commonjs2, amd, umd, umd2, jsonp
+#### externals
+去除输出的打包文件（bundle？）中依赖的第三方模块（jquery, vue等），减小打包文件的体积。
+通常在开发JS库时使用，这些被依赖的模块应该由使用者引入、添加，而不应该包含在这个项目的依赖中。如开发vue扩展，不应把vue本身引入打包内容。
+
+库的使用者应如何提供这些，我们的库所依赖的模块？取决于
+	1. 当前库的导出方式
+	2. 使用者的引入方式
+#### target
+开发的可能是web应用，node.js服务应用，electron跨平台桌面应用。因宿主环境不同，构建时需要特殊处理。
+构建的目标（宿主环境）
+1. 接收字符串
+	1. web（默认）：类浏览器环境可用
+	2. node：类node.js环境可用，使用require加载chunk
+	3. async-node：类node.js环境可用，使用fs与vm异步加载chunk
+	4. node-webkit：webkit可用，使用jsonp加载chunk，
+	5. webworker
+2. 接收函数
+	1. compiler对象作为参数
+#### devtool
+如何显示[[sourcemap]]
 ### mode
 生产环境
 	1. 压缩代码
 	2. 优化图片
 ### loader
-对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
+模块处理器：对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
 webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
 ### plugin
 loader以外的功能：处理**chunk与bundle**
@@ -136,4 +176,3 @@ JS, JSX，ts, CoffeeScript
 [^4]: .mjs是es6 module的模块名
 [^5]: 即插即用。该插件可利用yarn的全局缓存，提升模块加载速度
 [^6]: 主要指代码压缩。从4开始不用手动配置，因为会根据mode自动调整。虽然mode有对应的optimization，但要使用其他策略，则仍要了解所有优化项。
-[^7]: 压缩打包等
