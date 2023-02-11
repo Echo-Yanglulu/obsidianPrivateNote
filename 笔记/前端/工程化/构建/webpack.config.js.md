@@ -132,7 +132,32 @@ loader以外的功能：处理**chunk与bundle**
 默认：['.wasm', '.mjs', '.js', '.json']
 通常可以加上.css, .less
 #### alias
-
+作用
+	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
+	2. 给不同环境配置不同的lib库。
+注意
+1. 可使用@ ~ ! ，往往只用一种，或者每种类型使用一种。
+2. 使用@时注意不要和包名的作用域名冲突
+```javascript
+module.exports = {
+	resolve: {
+		alias: {
+			src: path.resolve(__dirname, 'src'),
+			'@lib': path.resolve(__dirname, 'src/lib')
+		}
+	}
+};
+// require('@lib/utils') 或者 require('src/lib/utils')。vscode中可能检测不到utils中的内容，根目录新建jsconfig.json文件，
+{
+"compilerOptions": {
+		"baseUrl": "./src",
+		"paths": {
+			"@lib/": ["src/lib"]
+		}
+	}
+}
+// 可帮助定位
+```
 #### mainField
 
 ### module
