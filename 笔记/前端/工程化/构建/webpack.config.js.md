@@ -65,7 +65,7 @@ entry编译打包后输出的bundle。
 bundle名称，默认main。即：默认为dist/main.js
 ##### 占位符
 多个entry可使用**占位符区分bundle来源**：来自哪个entry
-1. name：模块名
+1. name：entry中配置的模块名，即key
 2. id：模块id
 3. hash：模块hash。整个项目共用一个hash。一个改动，整个项目重新生成
 4. chunkhash：整个依赖图是一个hash。一个改动，依赖图全部重新生成
