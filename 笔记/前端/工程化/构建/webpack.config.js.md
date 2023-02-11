@@ -124,6 +124,11 @@ module.exports = {
 webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
 ### plugin
 loader以外的功能：处理**chunk与bundle**
+### resolve
+在webpack构建的查找模块过程中起作用。
+	1. 快速查找
+	2. 替换
+### module
 ### 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
