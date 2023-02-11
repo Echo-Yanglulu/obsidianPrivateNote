@@ -135,6 +135,16 @@ loader以外的功能：处理**chunk与bundle**
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
 	2. 给不同环境配置不同的lib库。
+		1. 在开发环境使用具有调试功能的dev版本San
+```javascript
+module.exports = {
+	resolve: {
+		alias: {
+			san: process.env.NODE_ENV === 'production' ? 'san/dist/san.min.js' : 'san/dist/san.dev.js'
+		}
+	}
+};
+```
 注意
 1. 可使用@ ~ ! ，往往只用一种，或者每种类型使用一种。
 2. 使用@时注意不要和包名的作用域名冲突
