@@ -221,6 +221,7 @@ module.exports = {
 webpack使用模块化的js文件为入口，内置了模块化JS的解析功能，支持AMD，CommonJS，ES6
 **选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
 ```javascript
+// 对命中的模块文件使用一个/组Loader（从后向前）
 module: {
 	rules: [{
 		test: /\.js$/,
