@@ -206,10 +206,42 @@ module.exports = {
 4. plugins
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
 ### module
-不同的模块需要不同的loader
+模块与模块处理器的对应关系（某种module使用某种对应的loader）
 #### noParse
+对部分**没有采用模块化**的文件不进行递归解析与处理。
+接收
+	1. [[RegExp]],或\[[[RegExp]], [[RegExp]]]
+	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
+应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
 #### rules
-
+##### test
+选择模块
+##### use
+##### parser
+webpack使用模块化的js文件为入口，内置了模块化JS的解析功能，支持AMD，CommonJS，ES6
+**选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
+```javascript
+module: {
+	rules: [{
+		test: /\.js$/,
+		use: ['babel-loader'],
+		parser: {
+			amd: false, // 禁用 AMD
+			commonjs: false, // 禁用 CommonJS
+			system: false, // 禁用 SystemJS
+			harmony: false, // 禁用 ES6 import/export
+			requireInclude: false, // 禁用 require.include
+			requireEnsure: false, // 禁用 require.ensure
+			requireContext: false, // 禁用 require.context
+			browserify: false, // 禁用 browserify
+			requireJs: false, // 禁用 requirejs
+		}
+	}]
+}
+```
+noParse与parser的比较
+	1. 不同
+		1. 前者以**路径**为单位进行排除，后者以**模块内的某种语法**为单位进行排除，
 ### 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
