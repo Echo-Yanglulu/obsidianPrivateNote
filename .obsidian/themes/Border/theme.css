@@ -1,15 +1,8 @@
 /* @settings
 
-name: Border
-id: Border
+name: Components
+id: Components
 settings:
-    - 
-        id: Components
-        title: Components
-        title.zh: 组件
-        type: heading
-        collapsed: true
-        level: 2
     - 
         id: tab-autohide
         title: Auto hide tab bar
@@ -194,13 +187,19 @@ settings:
         title: Hide scrollbar
         title.zh: 隐藏滚动条
         type: class-toggle
+*/
+
+/* @settings
+
+name: Appearance (light mode)
+id: Appearance-light
+settings:
     - 
-        id: Appearance-light
-        title: Appearance(light mode)
-        title.zh: 外观（亮色模式）
-        type: heading
-        collapsed: true
-        level: 2
+        id: Presets-info-light
+        description: "🎨 [Appearance presets (light mode)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode)"
+        description.zh: "🎨 [外观预设 （亮色模式）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) "
+        type: info-text
+        markdown: true
     - 
         id: card-layout-open-light
         title: Enable card layout(light mode)
@@ -658,7 +657,7 @@ settings:
     - 
         id: color-to-tab-icon-light
         title: Apply custom color to tab icons(light mode)
-        title.zh: 将自定义颜色应用于tab前置图标（亮色模式）
+        title.zh: 将自定义颜色应用于tab图标（亮色模式）
         type: class-toggle
     - 
         id: border-radius-activated-tab-header-light
@@ -754,12 +753,73 @@ settings:
         type: variable-text
         default: inset 0 0 0 1px rgba(0, 0, 0, 0.1)
     - 
-        id: Appearance-dark
-        title: Appearance(dark mode)
-        title.zh: 外观（暗色模式）
+        id: UI-Controls-light
+        title: UI Controls
+        title.zh: UI 控件
         type: heading
-        collapsed: true
-        level: 2
+        collapsed: ture
+        level: 3
+    - 
+        id: input-radius-light
+        title: input-radius(light mode)
+        title.zh: input-radius（亮色模式）
+        description: border radius of buttons, input, etc.
+        description.zh: 按钮，输入框等的圆角大小
+        type: variable-number
+        default: 5
+        format: px
+    - 
+        id: input-shadow-light
+        title: input-shadow(light mode)
+        title.zh: input-shadow（亮色模式）
+        description: shadow of button,dropdown, etc.
+        description.zh: 按钮，下拉菜单等的阴影
+        type: variable-text
+        default: inset 0 0 0 1px rgba(0, 0, 0, 0.12),inset 0 2px 0 rgb(255 255 255 / 20%),0 2px 3px 0 rgba(0, 0, 0, .025)
+    - 
+        id: input-shadow-hover-light
+        title: input-shadow-hover(light mode)
+        title.zh: input-shadow-hover（亮色模式）
+        description: shadow of button,dropdown, etc.(mouse hovering)
+        description.zh: 按钮，下拉菜单等的阴影（鼠标悬停时）
+        type: variable-text
+        default: inset 0 0 0 1px rgba(0, 0, 0, 0.17),inset 0 2px 0 rgb(255 255 255 / 20%),0 2px 3px 0 rgba(0, 0, 0, .05)
+    - 
+        id: interactive-normal-light
+        title: interactive-normal(light mode)
+        title.zh: interactive-normal（亮色模式）
+        description: background color of button,dropdown, etc.
+        description.zh: 按钮，下拉菜单等的背景色
+        type: variable-text
+        default: var(--color-base-15)
+    - 
+        id: interactive-hover-light
+        title: interactive-hover(light mode)
+        title.zh: interactive-hover（亮色模式）
+        description: background color of button,dropdown, etc.(mouse hovering)
+        description.zh: 按钮，下拉菜单等的背景色（鼠标悬停时）
+        type: variable-text
+        default: var(--color-base-20)
+    - 
+        id: forced-modification-light
+        title: Enable forced modification
+        title.zh: 启用强制修改
+        description: Avoid some modifications not taking effect
+        description.zh: 避免某些修改不能生效
+        type: class-toggle
+*/
+
+/* @settings
+
+name: Appearance (dark mode)
+id: Appearance-dark
+settings:
+    - 
+        id: Presets-info-dark
+        description: "🎨 [Appearance presets (dark mode)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode)"
+        description.zh: "🎨 [外观预设 （暗色模式）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#dark-mode) "
+        type: info-text
+        markdown: true
     - 
         id: card-layout-open-dark
         title: Enable card layout(dark mode)
@@ -1226,7 +1286,7 @@ settings:
     - 
         id: color-to-tab-icon-dark
         title: Apply custom color to tab icons(dark mode)
-        title.zh: 将自定义颜色应用于tab前置图标（暗色模式）
+        title.zh: 将自定义颜色应用于tab图标（暗色模式）
         type: class-toggle
     - 
         id: border-radius-activated-tab-header-dark
@@ -1322,12 +1382,67 @@ settings:
         type: variable-text
         default: inset 0 0 0 1px rgba(255, 255, 255, 0.15)
     - 
-        id: Editor
-        title: Editor
-        title.zh: 编辑器
+        id: UI-Controls-dark
+        title: UI Controls
+        title.zh: UI 控件
         type: heading
-        collapsed: true
-        level: 2
+        collapsed: ture
+        level: 3
+    - 
+        id: input-radius-dark
+        title: input-radius(dark mode)
+        title.zh: input-radius（暗色模式）
+        description: border radius of button, input, etc.
+        description.zh: 按钮，输入框等的圆角大小
+        type: variable-number
+        default: 5
+        format: px
+    - 
+        id: input-shadow-dark
+        title: input-shadow(dark mode)
+        title.zh: input-shadow（暗色模式）
+        description: shadow of button,dropdown, etc.
+        description.zh: 按钮，下拉菜单等的阴影
+        type: variable-text
+        default: inset 0px 0px 0px 1px var(--background-modifier-border)
+    - 
+        id: input-shadow-hover-dark
+        title: input-shadow-hover(dark mode)
+        title.zh: input-shadow-hover（暗色模式）
+        description: shadow of button,dropdown, etc.(mouse hovering)
+        description.zh: 按钮，下拉菜单等的阴影（鼠标悬停时）
+        type: variable-text
+        default: inset 0px 0px 0px 1px hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25)
+    - 
+        id: interactive-normal-dark
+        title: interactive-normal(dark mode)
+        title.zh: interactive-normal（暗色模式）
+        description: background color of button,dropdown, etc.
+        description.zh: 按钮，下拉菜单等的背景色
+        type: variable-text
+        default: hsl(calc(var(--accent-h) + 8),calc(var(--accent-s) / 7),calc(1.25*var(--accent-l) / 3))
+    - 
+        id: interactive-hover-dark
+        title: interactive-hover(dark mode)
+        title.zh: interactive-hover（暗色模式）
+        description: background color of button,dropdown, etc.(mouse hovering)
+        description.zh: 按钮，下拉菜单等的背景色（鼠标悬停时）
+        type: variable-text
+        default: hsl(calc(var(--accent-h) + 8),calc(var(--accent-s) / 7),calc(1.25*var(--accent-l) / 2.4))
+    - 
+        id: forced-modification-dark
+        title: Enable forced modification
+        title.zh: 启用强制修改
+        description: Avoid some modifications not taking effect
+        description.zh: 避免某些修改不能生效
+        type: class-toggle
+*/
+
+/* @settings
+
+name: Editor
+id: Editor
+settings:
     - 
         id: Active line
         title: Active line
@@ -2093,13 +2208,14 @@ settings:
         title.zh: 关闭图像缩放
         description: from https://github.com/kepano/obsidian-minimal, author:@kepano
         type: class-toggle
-    - 
-        id: Mobile
-        title: Mobile
-        title.zh: 移动端
-        type: heading
-        collapsed: true
-        level: 2
+
+*/
+
+/* @settings
+
+name: Mobile
+id: Mobile
+settings:
     - 
         id: card-layout-pad-open
         title: Enable card layout (pad only)
@@ -2110,13 +2226,14 @@ settings:
         title: Side drawer full screen (phone only)
         title.zh: 侧边抽屉全屏（手机端）
         type: class-toggle
-    - 
-        id: Plugin
-        title: Plugin
-        title.zh: 插件
-        type: heading
-        collapsed: true
-        level: 2
+
+*/
+
+/* @settings
+
+name: Plugin
+id: Plugin
+settings:
     - 
         id: DB Folder
         title: DB Folder
@@ -2155,21 +2272,21 @@ settings:
         title: colorful checkbox
         title.zh: 多彩选框
         type: class-toggle
+
+
+*/
+
+/* @settings
+
+name: Extras
+id: Extras
+settings:
     - 
-        id: Preset
-        title: Preset
-        title.zh: 预设
-        description: Visit the link below for presets, click on "Import" in the top right corner and restart obsidian.
-        description.zh: 访问下面的链接获取预设，点击右上角“Import”导入预设，重启obsidian来生效
-        type: heading
-        collapsed: false
-        level: 2
-    - 
-        id: Preset-link
-        description: https://github.com/Akifyss/obsidian-border/blob/main/presets.md
-        type: heading
-        collapsed: false
-        level: 2
+        id: Extras-info
+        description: "🎨 Appearance presets: [get presets here](https://github.com/Akifyss/obsidian-border/blob/main/presets.md), click on “Import” in the top right corner and restart obsidian. <br> <br> 📭 Submit [issues](https://github.com/Akifyss/obsidian-border/issues) or [discuss](https://github.com/Akifyss/obsidian-border/discussions) on Github <br> <br> ⭐ [Star](https://github.com/Akifyss/obsidian-border)this theme on Github"
+        description.zh: "🎨 外观预设：[在此获取预设](https://github.com/Akifyss/obsidian-border/blob/main/presets.md)，点击右上角“Import”导入预设，重启obsidian来生效. <br> <br> 📭 在Github上 [提交issues](https://github.com/Akifyss/obsidian-border/issues) 或[讨论](https://github.com/Akifyss/obsidian-border/discussions) <br> <br> ⭐ 在Github上 [Star](https://github.com/Akifyss/obsidian-border)这个主题"
+        type: info-text
+        markdown: true
 */
 
 /*hide style setting option*/
@@ -2486,7 +2603,7 @@ body {
     --color-base-05: #fcfcfc;
     --color-base-10: #fafafa;
     --color-base-15: #f7f7f7;
-    --color-base-20: #f4f4f4;
+    --color-base-20: #F0F0F0;
     --color-base-25: #e3e3e3;
     --color-base-30: #e0e0e0;
     --color-base-35: #d4d4d4;
@@ -2519,8 +2636,6 @@ body {
             calc((var(--accent-s) - 12%) / 6),
             calc(100% - (100% - var(--accent-l)) / 36), 0.8);
     --blur-container: rgba(246, 246, 246, 0.8);
-    --interactive-normal: var(--color-base-20);
-    --interactive-hover: #EBEBEB;
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.15);
     --background-modifier-active-hover: hsla(var(--interactive-accent-hsl), 0.15);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
@@ -2528,12 +2643,6 @@ body {
     --background-modifier-form-field: transparent;
     --text-highlight-bg: rgba(255, 208, 0, 0.4);
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
-    --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
-        inset 0 2px 0 rgb(255 255 255 / 20%),
-        0 2px 3px 0 rgba(0, 0, 0, .025);
-    --input-shadow-hover: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
-        inset 0 2px 0 rgb(255 255 255 / 20%),
-        0 2px 3px 0 rgba(0, 0, 0, .05);
     --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
         0px 3.4px 6.7px rgba(0, 0, 0, .042),
         0px 15px 30px rgba(0, 0, 0, .07);
@@ -2565,12 +2674,8 @@ body {
     --workspace-background-translucent: hsla(calc(var(--accent-h) - 18),
             calc(var(--accent-s) - 4%),
             calc(100% - (100% - var(--accent-l)) / 4), 0.9);
-    --interactive-normal: hsl(calc(var(--accent-h)),
-            calc(var(--accent-s) / 2),
-            calc(100% - (100% - var(--accent-l)) / 4.8));
-    --interactive-hover: hsl(calc(var(--accent-h)),
-            calc(var(--accent-s) / 2),
-            calc(100% - (100% - var(--accent-l)) / 3.6));
+    --interactive-normal: var(--color-base-00);
+    --interactive-hover: var(--color-base-15);
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.225);
 }
 
@@ -2638,12 +2743,6 @@ body {
             calc(var(--accent-s) / 5.4),
             calc(1.25*var(--accent-l) / 3.6), 0.6);
     --blur-container: var(--workspace-background-translucent);
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 3));
-    --interactive-hover: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 2.4));
     --background-modifier-hover: hsla(var(--accent-h), 12%, 40%, 0.25);
     --background-modifier-active-hover: hsla(var(--interactive-accent-hsl), 0.15);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
@@ -2654,8 +2753,6 @@ body {
     --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
     --text-selection: hsla(var(--interactive-accent-hsl), 0.25);
     --search-result-background: var(--background-tertiary);
-    --input-shadow: inset 0px 0px 0px 1px var(--divider-color);
-    --input-shadow-hover: inset 0px 0px 0px 1px hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25);
     --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121),
         0px 3.4px 6.7px rgba(0, 0, 0, 0.179),
         0px 15px 30px rgba(0, 0, 0, 0.3);
@@ -3186,47 +3283,9 @@ body:not(.is-translucent):not(.is-mobile) .sidebar-toggle-button.mod-left {
 }
 
 /*view-header gradient*/
-body.theme-light:not(.is-mobile).mod-right-split-background-CSS-light .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-start):before,
-body.theme-light:not(.is-mobile).mod-right-split-background-CSS-light .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-end):after,
-body.theme-dark:not(.is-mobile).mod-right-split-background-CSS-dark .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-start):before,
-body.theme-dark:not(.is-mobile).mod-right-split-background-CSS-dark .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-end):after,
-body.theme-light:not(.is-mobile).mod-left-split-background-CSS-light .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-end):after,
-body.theme-light:not(.is-mobile).mod-left-split-background-CSS-light .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-start):before,
-body.theme-dark:not(.is-mobile).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-end):after,
-body.theme-dark:not(.is-mobile).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-start):before {
-    background: linear-gradient(to right, transparent, transparent);
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-end):after {
-    background: linear-gradient(to right, transparent, var(--background-mod-left-split));
-}
-
-body:not(.is-mobile) .workspace-split.mod-left-split .view-header-title-container:not(.mod-at-start):before {
-    background: linear-gradient(to right, var(--background-mod-left-split), transparent);
-}
-
-body:not(.is-mobile) .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-end):after {
-    background: linear-gradient(to right, transparent, var(--background-mod-right-split));
-}
-
-body:not(.is-mobile) .workspace-split.mod-right-split .view-header-title-container:not(.mod-at-start):before {
-    background: linear-gradient(to right, var(--background-mod-right-split), transparent);
-}
-
-
-body:not(.is-mobile) .workspace-split.mod-root .view-header-title-container:not(.mod-at-end):after {
-    background: linear-gradient(to right, transparent, var(--background-mod-root-split));
-}
-
-body:not(.is-mobile) .workspace-split.mod-root .view-header-title-container:not(.mod-at-start):before {
-    background: linear-gradient(to right, var(--background-mod-root-split), transparent);
-}
-
-body.theme-light:not(.is-mobile).mod-root-split-background-CSS-light .workspace-split.mod-root .view-header-title-container:not(.mod-at-start):before,
-body.theme-light:not(.is-mobile).mod-root-split-background-CSS-light .workspace-split.mod-root .view-header-title-container:not(.mod-at-end):after,
-body.theme-dark:not(.is-mobile).mod-root-split-background-CSS-dark .workspace-split.mod-root .view-header-title-container:not(.mod-at-start):before,
-body.theme-dark:not(.is-mobile).mod-root-split-background-CSS-dark .workspace-split.mod-root .view-header-title-container:not(.mod-at-end):after {
-    background: linear-gradient(to right, transparent, transparent);
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-start):before,
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-end):after {
+    background: transparent;
 }
 
 
@@ -3260,14 +3319,14 @@ body .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
     --icon-color: var(--text-normal);
 }
 
-body.theme-light.color-to-tab-icon-light .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+body.theme-light.color-to-tab-icon-light .mod-root .workspace-tab-header.is-active svg,
 body.theme-light :is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 body.theme-light .workspace-tab-header.is-active .workspace-tab-header-inner-title {
     color: var(--color-activated-tab-header-light) !important;
     --icon-opacity: 1;
 }
 
-body.theme-dark.color-to-tab-icon-dark .mod-root .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+body.theme-dark.color-to-tab-icon-dark .mod-root .workspace-tab-header.is-active svg,
 body.theme-dark :is(.mod-left-split, .mod-right-split) .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 body.theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner-title {
     color: var(--color-activated-tab-header-dark) !important;
@@ -3309,74 +3368,6 @@ body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-h
 .is-mobile .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-modifier-active-hover);
     box-shadow: inset 0 0 0 1px var(--divider-color);
-}
-
-/*divider effect*/
-body:not(.is-mobile) .mod-left-split .item-list,
-body:not(.is-mobile) .mod-left-split .nav-files-container,
-body:not(.is-mobile) .mod-left-split .tag-container {
-    background: linear-gradient(var(--background-mod-left-split) 10%, transparent) center top, linear-gradient(var(--divider-color) 100%, transparent) center top;
-    background-repeat: no-repeat;
-    background-size: 100% 40px, 91% 1px;
-    background-attachment: local, scroll;
-}
-
-body:not(.is-mobile) .mod-right-split .item-list,
-body:not(.is-mobile) .mod-right-split .nav-files-container,
-body:not(.is-mobile) .mod-right-split .tag-container {
-    background: linear-gradient(var(--background-mod-right-split) 10%, transparent) center top, linear-gradient(var(--divider-color) 100%, transparent) center top;
-    background-repeat: no-repeat;
-    background-size: 100% 40px, 91% 1px;
-    background-attachment: local, scroll;
-}
-
-
-body.theme-light:not(.is-mobile).mod-left-split-background-transparent-light .mod-left-split .item-list,
-body.theme-light:not(.is-mobile).mod-left-split-background-transparent-light .mod-left-split .nav-files-container,
-body.theme-light:not(.is-mobile).mod-left-split-background-transparent-light .mod-left-split .tag-container,
-body.theme-dark:not(.is-mobile).mod-left-split-background-transparent-dark .mod-left-split .item-list,
-body.theme-dark:not(.is-mobile).mod-left-split-background-transparent-dark .mod-left-split .nav-files-container,
-body.theme-dark:not(.is-mobile).mod-left-split-background-transparent-dark .mod-left-split .tag-container,
-body.theme-light:not(.is-mobile).mod-left-split-background-CSS-light .mod-left-split .item-list,
-body.theme-light:not(.is-mobile).mod-left-split-background-CSS-light .mod-left-split .nav-files-container,
-body.theme-light:not(.is-mobile).mod-left-split-background-CSS-light .mod-left-split .tag-container,
-body.theme-dark:not(.is-mobile).mod-left-split-background-CSS-dark .mod-left-split .item-list,
-body.theme-dark:not(.is-mobile).mod-left-split-background-CSS-dark .mod-left-split .nav-files-container,
-body.theme-dark:not(.is-mobile).mod-left-split-background-CSS-dark .mod-left-split .tag-container {
-    background: linear-gradient(transparent 10%, transparent) center top, linear-gradient(transparent 100%, transparent) center top;
-    background-repeat: no-repeat;
-    background-size: 100% 40px, 91% 1px;
-    background-attachment: local, scroll;
-}
-
-
-body.theme-light:not(.is-mobile).mod-right-split-background-transparent-light .mod-right-split .item-list,
-body.theme-light:not(.is-mobile).mod-right-split-background-transparent-light .mod-right-split .nav-files-container,
-body.theme-light:not(.is-mobile).mod-right-split-background-transparent-light .mod-right-split .tag-container,
-body.theme-dark:not(.is-mobile).mod-right-split-background-transparent-dark .mod-right-split .item-list,
-body.theme-dark:not(.is-mobile).mod-right-split-background-transparent-dark .mod-right-split .nav-files-container,
-body.theme-dark:not(.is-mobile).mod-right-split-background-transparent-dark .mod-right-split .tag-container,
-body.theme-light:not(.is-mobile).mod-right-split-background-CSS-light .mod-right-split .item-list,
-body.theme-light:not(.is-mobile).mod-right-split-background-CSS-light .mod-right-split .nav-files-container,
-body.theme-light:not(.is-mobile).mod-right-split-background-CSS-light .mod-right-split .tag-container,
-body.theme-dark:not(.is-mobile).mod-right-split-background-CSS-dark .mod-right-split .item-list,
-body.theme-dark:not(.is-mobile).mod-right-split-background-CSS-dark .mod-right-split .nav-files-container,
-body.theme-dark:not(.is-mobile).mod-right-split-background-CSS-dark .mod-right-split .tag-container {
-    background: linear-gradient(transparent 10%, transparent) center top, linear-gradient(transparent 100%, transparent) center top;
-    background-repeat: no-repeat;
-    background-size: 100% 40px, 91% 1px;
-    background-attachment: local, scroll;
-}
-
-/* --- */
-
-body.theme-light.mod-left-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container,
-body.theme-dark.mod-left-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container,
-body.theme-light.mod-right-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container,
-body.theme-dark.mod-right-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container {
-    box-shadow: inset 0px 1px 0px var(--divider-color);
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
 }
 
 
@@ -3505,8 +3496,24 @@ body:not(.is-mobile) .workspace-ribbon {
     gap: 4px;
 }
 
-.workspace-tabs:not(.mod-top) .workspace-tab-container {
-    border-top: 1px solid var(--divider-color);
+.workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+}
+
+body.theme-light.card-layout-open-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.card-layout-open-dark .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px transparent;
+}
+
+body.theme-light.mod-left-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-left-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-light.mod-right-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-right-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-light.mod-root-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-root-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
 }
 
 .theme-light .workspace-tabs.mod-top:not(.mod-stacked) .workspace-tab-header {
@@ -3715,24 +3722,24 @@ body:not(.is-mobile).tab-autohide .workspace-tab-header-container:hover {
     transition: all var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
 }
 
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container {
-    border-top: 1px solid transparent;
-    transition: border-top var(--anim-duration-fast) var(--anim-duration-slow) var(--anim-motion-swing);
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px transparent;
+    transition: box-shadow var(--anim-duration-fast) var(--anim-duration-slow) var(--anim-motion-swing);
 }
 
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container {
-    border-top: 1px solid var(--divider-color);
-    transition: border-top var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    transition: box-shadow var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
 }
 
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container {
-    border-top: 1px solid transparent;
-    transition: border-top var(--anim-duration-fast) var(--anim-duration-slow) var(--anim-motion-swing);
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px transparent;
+    transition: box-shadow var(--anim-duration-fast) var(--anim-duration-slow) var(--anim-motion-swing);
 }
 
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container {
-    border-top: 1px solid var(--divider-color);
-    transition: border-top var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    transition: box-shadow var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
 }
 
 
@@ -3977,7 +3984,7 @@ body:not(.is-mobile).card-layout-open-light.theme-light .workspace-leaf-resize-h
 }
 
 body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container {
-    border-top: 1px solid transparent;
+    border-top: unset;
 }
 
 body.theme-light:not(.is-mobile).card-layout-open-light .workspace-tab-header {
@@ -4028,7 +4035,7 @@ body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-leaf-resize-han
 }
 
 body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container {
-    border-top: 1px solid transparent;
+    border-top: unset;
 }
 
 body.theme-dark:not(.is-mobile).card-layout-open-dark .workspace-tab-header {
@@ -4907,8 +4914,8 @@ input.prompt-input {
 body:not(.is-phone) .popover:not(.svelte-1xg3ic1),
 body:not(.is-phone) .menu:not(.mk-style-menu, .svelte-1xg3ic1),
 body:not(.is-phone) .prompt,
-body:not(.is-phone) .modal:not(.mod-settings),
-body:not(.is-phone) .suggestion-container {
+body:not(.is-phone) .modal:not(:has(.checkbox-container)),
+body:not(.is-phone) .suggestion-container:not([data-popper-placement="bottom-start"]) {
     -webkit-animation: scale-up 200ms cubic-bezier(0.175, 0.885, 0.320, 1.125) both;
     animation: scale-up 200ms cubic-bezier(0.175, 0.885, 0.320, 1.125) both;
 }
@@ -4941,8 +4948,7 @@ body:not(.is-phone) .suggestion-container {
     }
 }
 
-body:not(.is-phone) .modal.kanban-plugin__board-settings-modal,
-body:not(.is-phone) .modal.database-settings-modal,
+body:not(.is-phone) .modal:has(.checkbox-container),
 body:not(.is-phone) .modal.mod-settings,
 body:not(.is-phone) .modal.mod-community-modal {
     -webkit-animation: var(--anim-duration-fast) fadeIn both;
@@ -5341,21 +5347,79 @@ input.wb-search-bar {
 
 
 
-/* ====== 下拉 ====== */
+/* ====== .dropdown 下拉 ====== */
 
 select,
 .dropdown {
     cursor: pointer;
 }
 
-/* ====== 按钮 ====== */
+/* ====== 按钮 button====== */
 
 body {
     /* Buttons */
     --button-radius: var(--input-radius);
 }
 
-body.theme-dark button.mod-cta {
+
+.theme-light {
+    --interactive-normal: var(--interactive-normal-light);
+    --interactive-hover: var(--interactive-hover-light);
+
+    --interactive-normal-light: var(--color-base-15);
+    --interactive-hover-light: var(--color-base-20);
+
+    --input-radius: var(--input-radius-light);
+    --input-shadow: var(--input-shadow-light);
+    --input-shadow-hover: var(--input-shadow-hover-light);
+
+    --input-radius-light: 5px;
+    --input-shadow-light: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
+        inset 0 2px 0 rgb(255 255 255 / 20%),
+        0 2px 3px 0 rgba(0, 0, 0, .025);
+    --input-shadow-hover-light: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
+        inset 0 2px 0 rgb(255 255 255 / 20%),
+        0 2px 3px 0 rgba(0, 0, 0, .05);
+}
+
+.theme-dark {
+    --interactive-normal: var(--interactive-normal-dark);
+    --interactive-hover: var(--interactive-hover-dark);
+
+    --interactive-normal-dark: hsl(calc(var(--accent-h) + 8),
+            calc(var(--accent-s) / 7),
+            calc(1.25*var(--accent-l) / 3));
+    --interactive-hover-dark: hsl(calc(var(--accent-h) + 8),
+            calc(var(--accent-s) / 7),
+            calc(1.25*var(--accent-l) / 2.4));
+
+    --input-radius: var(--input-radius-dark);
+    --input-shadow: var(--input-shadow-dark);
+    --input-shadow-hover: var(--input-shadow-hover-dark);
+
+    --input-radius-dark: 5px;
+    --input-shadow-dark: inset 0px 0px 0px 1px var(--background-modifier-border);
+    --input-shadow-hover-dark: inset 0px 0px 0px 1px hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25);
+}
+
+.theme-light.forced-modification-light {
+    --interactive-normal: var(--interactive-normal-light) !important;
+    --interactive-hover: var(--interactive-hover-light) !important;
+    --input-radius: var(--input-radius-light) !important;
+    --input-shadow: var(--input-shadow-light) !important;
+    --input-shadow-hover: var(--input-shadow-hover-light) !important;
+}
+
+.theme-dark.forced-modification-dark {
+    --interactive-normal: var(--interactive-normal-dark) !important;
+    --interactive-hover: var(--interactive-hover-dark) !important;
+    --input-radius: var(--input-radius-dark) !important;
+    --input-shadow: var(--input-shadow-dark) !important;
+    --input-shadow-hover: var(--input-shadow-hover-dark) !important;
+}
+
+.theme-light.is-mobile,
+.theme-dark.is-mobile {
     --input-shadow: none;
     --input-shadow-hover: none;
 }
@@ -6984,27 +7048,21 @@ svg.pane-layout,
 .workspace-drawer.mod-left .workspace-drawer-inner,
 .workspace-drawer.mod-left .workspace-drawer-inner .workspace-drawer-tab-container,
 .workspace-drawer.mod-left .workspace-drawer-inner .workspace-drawer-tab-container .workspace-leaf-content {
-    background-color: var(--background-mod-left-split);
+    background-color: var(--background-secondary);
 }
 
+.is-tablet.theme-dark .vertical-tab-content,
+.is-tablet .workspace-tab-header-container,
+.is-mobile .workspace-split.mod-root .view-header,
+.is-mobile .workspace-split.mod-root .view-content,
 .workspace-drawer.mod-right .view-header,
 .workspace-drawer.mod-right .view-content,
 .workspace-drawer.mod-right,
 .workspace-drawer.mod-right .workspace-drawer-inner,
 .workspace-drawer.mod-right .workspace-drawer-inner .workspace-drawer-tab-container,
 .workspace-drawer.mod-right .workspace-drawer-inner .workspace-drawer-tab-container .workspace-leaf-content {
-    background-color: var(--background-mod-right-split);
-}
-
-body.is-mobile .workspace-split.mod-root .view-header,
-body.is-mobile .workspace-split.mod-root .view-content {
-    background-color: var(--background-mod-root-split);
-}
-
-.is-tablet.theme-dark .vertical-tab-content {
     background-color: var(--background-primary);
 }
-
 
 .is-phone.theme-dark .modal.mod-settings .vertical-tab-nav-item {
     background-color: var(--background-tertiary);
@@ -7021,7 +7079,6 @@ body.is-mobile .workspace-split.mod-root .view-content {
 .is-tablet .workspace-tab-container {
     border-top: 1px solid var(--divider-color);
 }
-
 
 .is-tablet .workspace-drawer-ribbon {
     border-right: 1px solid var(--divider-color);
@@ -7090,7 +7147,6 @@ body.card-layout-pad-open.is-tablet.theme-dark .workspace-split.mod-root {
     border-radius: var(--card-border-radius-dark, 8px);
 }
 
-
 body.card-layout-pad-open.is-tablet .workspace-drawer.is-pinned {
     border-right: none;
     border-left: none;
@@ -7107,11 +7163,6 @@ body.card-layout-pad-open.is-tablet.theme-dark .workspace-drawer.is-pinned {
 body.card-layout-pad-open.is-tablet .workspace-drawer-inner {
     padding-top: 8px;
 }
-
-/*
-body.card-layout-pad-open{
-    --background-mod-left-split:var(--background-primary)!important;
-}*/
 
 
 /* drawer-phone-full-width */
@@ -7150,9 +7201,22 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="style-settings"] .view-c
     padding: 12px !important;
 }
 
-:is(.style-settings-heading[data-level="0"] + .style-settings-container, .style-settings-container) {
-    padding-left: var(--size-4-4);
-    margin-left: var(--size-4-3);
+.style-settings-container {
+    padding-left: var(--size-4-8);
+    margin-left: var(--size-4-1);
+    border-left: 1px solid var(--background-modifier-border);
+}
+
+.style-settings-heading {
+    margin-bottom: 12px;
+}
+
+.style-settings-heading[data-level="0"] {
+    margin-bottom: 12px;
+}
+
+.style-settings-heading.is-collapsed[data-level="0"] {
+    margin-bottom: 0;
 }
 
 .setting-item+.setting-item-heading {
@@ -7213,38 +7277,13 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="style-settings"] .view-c
     margin-left: var(--size-4-2);
 }
 
-.setting-item.style-settings-heading[data-id=Preset] .style-settings-collapse-indicator::after {
+.setting-item.style-settings-heading[data-id=Extras] .style-settings-collapse-indicator::after {
     content: "\1F308";
     margin-left: var(--size-4-2);
 }
 
-
-.style-settings-heading[data-id=Preset] {
-    pointer-events: none;
-    cursor: text;
-    margin-bottom: 0;
-}
-
-.setting-item.style-settings-heading[data-id=Preset-link] {
-    padding: unset;
-    margin-bottom: 0;
-    cursor: default;
-    border-bottom: unset;
-}
-
-.setting-item.style-settings-heading[data-id=Preset-link] .setting-item-description {
-    padding: 0;
-    color: var(--interactive-accent);
-    cursor: text;
-    user-select: all;
-}
-
 .setting-item.style-settings-heading[data-id=Global-background-header-light]+.style-settings-container .setting-item .setting-item-control div.theme-dark,
-.setting-item.style-settings-heading[data-id=Global-background-header-dark]+.style-settings-container .setting-item .setting-item-control div.theme-light,
-.setting-item.style-settings-heading[data-id=Preset-link]+.style-settings-container,
-.setting-item.style-settings-heading[data-id=Preset-link] .setting-item-name,
-.setting-item.style-settings-heading[data-id=Preset-link] .setting-item-control,
-.setting-item.style-settings-heading[data-id=Preset-link] .style-settings-collapse-indicator {
+.setting-item.style-settings-heading[data-id=Global-background-header-dark]+.style-settings-container .setting-item .setting-item-control div.theme-light {
     display: none;
 }
 
@@ -7368,4 +7407,8 @@ body.colorful-checkbox li.svelte-sx5ktw.svelte-sx5ktw:nth-child(8n+8) .checkbox.
 .search.svelte-rdace4.svelte-rdace4 {
     --checklist-searchBackground: transparent;
     --checklist-listItemBorderRadius: var(--input-radius);
+}
+
+.toggle.svelte-sx5ktw.svelte-sx5ktw:hover {
+    opacity: 1 !important;
 }

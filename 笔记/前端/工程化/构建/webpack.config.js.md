@@ -51,23 +51,30 @@ list: 'path/to/my/entry/list.js'
 |  | 单文件入口 | 多文件入口 |
 | --- | --- | --- |
 | 类型 | 字符串，对象，数组 | 对象 |
-| 场景 | 库 | 页面模块分享优化、多页面 |
+| 场景 | 库,单html页面 | 页面模块分享优化、多页面 |
 | 特点 | 不易扩展 | 灵活性 |
 | 入口模块 | 入口文件 | 并不是会创建一个多起点的依赖图，而是新建一个入口模块，最后一个作为新建入口模块的module.exports, 其他模块作为新建入口模块的引入（成为依赖图中的一部分） |
 #### context
 webpack打包项目时，相对路径上下文（相对路径所基于的绝对路径）。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
 默认为process.cwd()，当前工作目录。
 ### output
+entry编译打包后输出的bundle。
 #### path
+存在路径，默认dist
 #### filename
+bundle名称，默认main。即：默认为dist/main.js
 ##### 占位符
-name：模块名
-id：模块id
-hash：模块hash。整个项目共用一个hash。一个改动，整个项目重新生成
-chunkhash：整个依赖图是一个hash。一个改动，依赖图全部重新生成
-contenthash：结合提取css的插件，使用。解决js与依赖的css共用hash的问题
+多个entry可使用**占位符区分bundle来源**：来自哪个entry
+1. name：模块名
+2. id：模块id
+3. hash：模块hash。整个项目共用一个hash。一个改动，整个项目重新生成
+4. chunkhash：整个依赖图是一个hash。一个改动，依赖图全部重新生成
+5. contenthash：结合提取css的插件，使用。解决js与依赖的css共用hash的问题
 #### publicPath
-当静态资源部署到CDN或其他服务，使用Link或Script标签访问时，可设置该属性，让标签访问该域名及路径。
+在浏览器中被引用的URL地址：当静态资源部署到CDN或其他服务，使用Link或Script标签访问时，可设置该属性，让标签访问该域名及路径。
+#### 用webpack封装库用到的属性
+1. library
+2. libraryTarget
 ### mode
 生产环境
 	1. 压缩代码
