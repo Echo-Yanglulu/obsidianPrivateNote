@@ -127,7 +127,14 @@ loader以外的功能：处理**chunk与bundle**
 ### resolve
 在webpack构建的查找模块过程中起作用。
 	1. 快速查找
-	2. 替换
+	2. 替换（如开发环境使用dev版本的lib）
+#### extensions
+默认：['.wasm', '.mjs', '.js', '.json']
+通常可以加上.css, .less
+#### alias
+
+#### mainField
+
 ### module
 ### 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
