@@ -125,7 +125,7 @@ webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具
 ### plugin
 loader以外的功能：处理**chunk与bundle**
 ### resolve
-在webpack构建的查找模块过程中起作用。
+在webpack构建的**查找模块过程**中起作用。
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
 #### extensions
