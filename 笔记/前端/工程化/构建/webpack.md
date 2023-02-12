@@ -4,7 +4,7 @@
 1. 为何是webpack，而不是其他的构建工具？
 	1. 从入口开始，经过模块的依赖加载，分析，打包三个过程，完成项目构建，在三个过程中可以添加不同问题的解决方案。
 	2. 可解决传统构建工具的问题
-		1. 模块化打包。一切皆模块，CSS，JS等都是模块
+		1. 模块化打包。一切皆模块，CSS，JS，html, 图片，字段，富媒体等
 		2. 语法转换。ES6，TS
 		3. 预处理器编译。LESS
 		4. 项目优化。压缩，CDN
@@ -15,7 +15,7 @@
 3. 除了打包还有什么功能？（全是基础问题）
 ## 是什么
 ### 功能
-是一个现代JS应用的静态模块打包工具。以一个或多个入口为起点，创建一个依赖关系图，将项目所需的每个模块组合为一个或多个bundle。
+是一个现代JS应用的**静态模块打包工具**。以一个或多个入口模块为**起点**，创建一个**依赖关系图**，将项目所需的每个模块**组合产出**为一个或多个bundle。
 ### 组成/要素
 ### 关联
 ## 为什么
@@ -25,6 +25,8 @@ webpack为什么这样设计
 如何配置
 如何优化
 如何发挥作用
+工作机制
+	1. 在编译过程中，对整个项目进行静态分析，得到每个模块的类型与依赖关系，使用配置的Loader处理。
 
 # 设计思想/原理/流程机制
 ## Tabable插件体系
@@ -124,7 +126,7 @@ module.exports = function (input) {
 反向：所以期望最后执行的放在最前。如style-loader。
 ### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
-css-loader ：处理如import的样式引入语法。
+css-loader ：处理如import的样式引入语法。将代码插入到style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
 style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ### plugin
 本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
@@ -163,6 +165,38 @@ module.exports = class DemoPlugin {
 从入口文件开始，将它依赖的所有相关模块综合处理后得到的JS文件
 ### chunk
 从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
+### 注释
+```javascript
+import('./lazy').then(lazy => {
+	console.log(lazy);
+})
+// 构建结果：会单独生成一个0.js
+import(
+/*
+webpackChunkName: 'lazy-name'
+*/
+'./lazy'
+).then(lazy => {
+	console.log(lazy);
+});
+// 单独生成一个lazy-name.js文件。
+```
+支持的注释
+	1. webpackInclude ： 如果是 import 的一个目录， 则可以指定需要引入的文件特性， 例如只加载 json 文件： /\.json$/ ；
+	2. webpackExclude ： 如果是 import 的一个目录， 则可以指定需要过滤的文件， 例如 /\.noimport\.json$/
+	3. webpackChunkName ： 这是 chunk 文件（**打包的结果叫chunk，那bundle是什么？**）的名称， 例如 lazy-name ；
+	4. webpackPrefetch : 是否预取模块， 及其优先级， 可选值 true 、 或者整数优先级别， 0 相当于 true， webpack4.6+支持；
+	5. webpackPreload : 是否预加载模块， 及其优先级， 可选值 true 、 或者整数优先级别， 0 相当于 true， webpack4.6+支持；
+	6. webpackMode : 可选值 lazy / lazy-once / eager / weak 
+		1. lazy ： 是默认的模式， 为每个 import() 导入的模块， 生成一个可延迟加载 chunk；
+		2. lazy-once ： 生成一个可以满足所有 import() 调用的单个可延迟加载 chunk， 此 chunk 将在第一次 import() 调用时获取， 随后的 import() 调用将使用相同的网络响应； 注意， 这种模式仅在部分动态语句中有意义， 例如import( ./locales/${language}.json )， 其中可能含有多个被请求的模块路径
+		3. eager ： 不会生成额外的 chunk， 所有模块都被当前 chunk 引入， 并且没有额外的网络请求。 仍然会返回Promise， 但是是 resolved 状态。 和静态导入相对比， 在调用 import() 完成之前， 该模块不会被执行。
+		4. weak ： 尝试加载模块， 如果该模块函数已经以其他方式加载（即， 另一个 chunk 导入过此模块， 或包含模块的脚本被加载） 。 仍然会返回 Promise， 但是只有在客户端上已经有该 chunk 时才成功解析。 如果该模块不可用， Promise 将会是 rejected 状态， 并且网络请求永远不会执行。 当需要的 chunks 始终在（嵌入在页面中的）初始请求中手动提供， 而不是在应用程序导航在最初没有提供的模块导入的情况触发， 这对于 Server 端渲染（[[SSR]]， Server-Side Render） 是非常有用的。
+通过上面的神奇注释， import() 不再是简单的 JavaScript 异步加载器， 还是任意模块资源的加载器， 举例说明：如果我们页面用到的图片都放在 src/assets/img 文件夹下， 你们可以通过下面方式将用到的图片打包到一起：
+```javascript
+import(/* webpackChunkName: "image", webpackInclude: /\.(png|jpg|gif)/ */ './assets/img');
+```
+prefetch 优先级低于 preload。preload 会并行或者**加载完主文件之后立即加载**； prefetch 则会在**主文件之后、 空闲时在加载**。 prefetch 和 preload 可以用于提前加载图片、 样式等资源的功能
 # 配置
 [[webpack.config.js]] 
 ## 基础配置
@@ -245,6 +279,8 @@ eject之后的脚本分析：
 	1. 解释了如此配置的原因及作用。
 
 ## 工程化实践
+可以通过 import('path/to/module') 的方式引入一个模块， import() 返回的是一个 Promise 对象
+
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。

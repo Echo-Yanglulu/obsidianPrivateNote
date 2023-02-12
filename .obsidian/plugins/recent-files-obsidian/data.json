@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "模块化",
+      "path": "笔记/前端/工程化/模块化.md"
+    },
+    {
+      "basename": "JS模块化",
+      "path": "笔记/前端/工程化/JS模块化.md"
+    },
+    {
+      "basename": "AMD",
+      "path": "笔记/前端/工程化/构建/AMD.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
+    },
+    {
+      "basename": "打包工具",
+      "path": "笔记/前端/工程化/构建/打包工具.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "模块化编程",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块化编程.md"
+    },
+    {
+      "basename": "模块",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
+    },
+    {
       "basename": "webpack.config.js",
       "path": "笔记/前端/工程化/构建/webpack.config.js.md"
     },
@@ -13,24 +53,8 @@
       "path": "笔记/学习方法/概念/概念.md"
     },
     {
-      "basename": "模块化",
-      "path": "笔记/前端/工程化/模块化.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
-      "basename": "模块",
-      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
-    },
-    {
       "basename": "深夜加油站遇见苏格拉底",
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
-    },
-    {
-      "basename": "JS模块化",
-      "path": "笔记/前端/工程化/JS模块化.md"
     },
     {
       "basename": "npm",
@@ -53,20 +77,8 @@
       "path": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
     },
     {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
-    },
-    {
       "basename": "webpack-cli",
       "path": "笔记/前端/工程化/构建/webpack-cli.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "阅读",
@@ -187,18 +199,6 @@
     {
       "basename": "逻辑学",
       "path": "笔记/工具/哲学/逻辑学/逻辑学.md"
-    },
-    {
-      "basename": "人的行为",
-      "path": "笔记/行为/人的行为.md"
-    },
-    {
-      "basename": "时间管理",
-      "path": "笔记/工具/时间管理.md"
-    },
-    {
-      "basename": "发展",
-      "path": "笔记/工具/发展.md"
     }
   ],
   "omittedPaths": [],
