@@ -182,7 +182,7 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
 #### mainField
 > [!question]+
-> 并没有懂这个配置的含义、它的实际工作机制
+> 并没有懂这个配置的实际工作机制
 
 有些模块会根据不同宿主环境提供不同版本的代码。（如浏览器或node.js，ES6或ES6）
 默认值：取决于target字段
@@ -193,7 +193,7 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 	"main": "lib/index.js", //采用ES5语法的代码入口文件， node
 	"browser": "lib/web.js" //这个是专门给浏览器用的版本
 }
-// target设置为web, mainField对应为
+// target设置为web,时mainField默认为
 module.exports = {
 	resolve: {
 		mainFields: ['browser', 'module', 'main']
@@ -208,20 +208,21 @@ module.exports = {
 4. plugins
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
 ### module
+webpack默认只能解析js, json模块。安装Loader后webpack才能在分析模块依赖关系时，分析其他扩展名模块的依赖关系。
 模块与模块处理器的对应关系（某种module使用某种对应的loader）
 #### noParse
-对部分**没有采用模块化**的文件不进行递归解析与处理。
+对部分**没有采用模块化**的文件**不进行递归解析与处理**。
 接收
 	1. [[RegExp]],或\[[[RegExp]], [[RegExp]]]
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
 应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
 #### rules
-对命中的模块使用相应的模块处理器，
+对**命中的模块**使用相应的模块处理器，
 	1. 如何命中
-		1. 机制（text, include, exclude）
+		1. 机制（动词）（text, include, exclude）
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
-	2. 处理器的名称，数量，顺序（及其调整enforce）
-	3. 如何处理（取哪些模块化规范连接依赖）
+	2. use：处理器（宾补）的名称，数量，顺序（及其调整enforce）
+	3. parser：如何处理（取哪些模块化规范连接依赖）
 ##### test
 选择模块
 ##### use
@@ -244,6 +245,18 @@ module: {
 			requireContext: false, // 禁用 require.context
 			browserify: false, // 禁用 browserify
 			requireJs: false, // 禁用 requirejs
+		},
+		// 选中jsx,tsx文件（src, test文件夹中的，不含两个modules文件夹中的）
+		{
+		test: [/\.jsx?$/, /\.tsx?$/],
+		include: [
+			path.resolve(__dirname, 'src'),
+			path.resolve(__dirname, 'test')
+		],
+		exclude: [
+			path.resolve(__dirname, 'node_modules'),
+			path.resolve(__dirname, 'bower_modules')
+		]
 		}
 	}]
 }
