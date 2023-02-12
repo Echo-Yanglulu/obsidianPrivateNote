@@ -184,7 +184,7 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 > [!question]+
 > 并没有懂这个配置的含义、它的实际工作机制
 
-有些模块会根据不同宿主环境提供不同版本代码。（如浏览器或node.js，ES6或ES6）
+有些模块会根据不同宿主环境提供不同版本的代码。（如浏览器或node.js，ES6或ES6）
 默认值：取决于target字段
 ```javascript
 // package.json
