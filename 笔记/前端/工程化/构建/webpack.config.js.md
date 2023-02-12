@@ -208,8 +208,7 @@ module.exports = {
 4. plugins
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
 ### module
-webpack默认只能解析js, json模块。安装Loader后webpack才能在分析模块依赖关系时，分析其他扩展名模块的依赖关系。
-模块与模块处理器的对应关系（某种module使用某种对应的loader）
+webpack在构建模块依赖关系图时，默认只能解析js, json模块。没有Loader（模块处理器）则会在遇到非JSON，js模块时停止，无法构建一个完整的依赖关系图。
 #### noParse
 对部分**没有采用模块化**的文件**不进行递归解析与处理**。
 接收
@@ -217,7 +216,7 @@ webpack默认只能解析js, json模块。安装Loader后webpack才能在分析�
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
 应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
 #### rules
-对**命中的模块**使用相应的模块处理器，
+在构建依赖关系图时，对**命中的模块**使用相应的模块处理器。
 	1. 如何命中
 		1. 机制（动词）（text, include, exclude）
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
