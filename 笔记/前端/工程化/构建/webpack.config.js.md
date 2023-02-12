@@ -122,8 +122,96 @@ module.exports = {
 ### loader
 模块处理器：对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
 webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
+单个loader无法处理的模块：有些模块只有一个loader不足以解析模块依赖关系（如less预编译器模块），此时顺序重要：从后向前
+1. 引用
+	1. 配置文件
+	2. 行内const html = require('html-loader!./loader.html');或import html from 'html-loader!./loader.html';
+2. 传参
+		1. option
+		2. query
+```javascript
+// inline内联写法， 通过 query 传入
+const html = require("html-loader?attrs[]=img:src&attrs[]=img:data-src!./file.html");
+// config内写法， 通过 query 传入
+module: {
+	rules: [{
+		test: /\.html$/,
+		use: [ {
+			loader: 'html-loader?minimize=true&removeComments=false&collapseWhitespace=false',
+		}]
+	}]
+}
+// config内写法， 通过 options 传入
+module: {
+	rules: [{
+		test: /\.html$/,
+		use: [{
+			loader: 'html-loader',
+			options: {
+				minimize: true,
+				removeComments: false,
+				collapseWhitespace: false
+			},
+			oneOf:{},
+			enforce: 'post'
+		}]
+	}]
+} 
+```
+
+#### oneOf
+```javascript
+// 对该模块只使用第一个匹配到的规则，一般结合resourceQuery
+module.exports = {
+//...
+	module: {
+		rules: [
+			{
+			test: /\.css$/,
+			oneOf: [
+				{
+					resourceQuery: /inline/, // foo.css?inline
+					use: 'url-loader'
+				},
+				{
+					resourceQuery: /external/, // foo.css?external
+					use: 'file-loader'
+				}
+			]
+			}
+		]
+	}
+};
+```
+#### enforce
+调整插件顺序
 ### plugin
-loader以外的功能：处理**chunk与bundle**
+loader（处理模块，转换源码，构建依赖关系图）以外的功能：处理**chunk与bundle**。
+#### 内置插件
+直接new即可
+```javascript
+module.exports = {
+	//....
+	plugins: [
+		// 压缩js
+		new webpack.optimize.UglifyJsPlugin();
+	]
+}
+```
+#### 三方插件
+需引入
+```javascript
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+module.exports = {
+	//....
+	plugins: [
+		// 导出css文件到单独的内容
+		new ExtractTextPlugin({
+			filename: 'style.css'
+		})
+	]
+};
+```
 ### resolve
 在webpack构建的**查找模块过程**中起作用。
 	1. 快速查找
