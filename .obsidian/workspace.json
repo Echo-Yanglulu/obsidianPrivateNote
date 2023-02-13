@@ -145,6 +145,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "打包工具",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/打包工具.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "JS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":7},\"to\":{\"line\":17,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":19},\"to\":{\"line\":25,\"ch\":19}},\"scroll\":10.033858727378867}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -299,7 +323,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -575,7 +599,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1023,27 +1047,27 @@
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "d17d1b8b5818eee2",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/SSR.md",
-    "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/编程语言/TS/TS.md",
-    "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/构建/打包工具.md",
-    "笔记/前端/工程化/ES Module.md"
+    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/构建/AMD.md",
+    "笔记/前端/工程化/模块化.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/SSR.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/编程语言/TS/TS.md"
   ]
 }
