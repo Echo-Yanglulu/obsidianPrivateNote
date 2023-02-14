@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -625,7 +625,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -652,7 +652,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1054,11 +1054,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c9a6c4a22c40ab4",
+  "active": "306b2fc012264729",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/LESS.md",
     "笔记/前端/工程化/构建/打包工具.md",
@@ -1067,7 +1068,6 @@
     "笔记/前端/工程化/构建/AMD.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/构建/构建.md",
-    "笔记/前端/工程化/SSR.md",
-    "笔记/前端/工程化/工程化.md"
+    "笔记/前端/工程化/SSR.md"
   ]
 }
