@@ -37,6 +37,12 @@ settings:
         type: class-toggle
         default: true
     -
+        id: pln-view-invert
+        title: Invert view icons
+        description: Invert the Reading and Edit view icons in the top right of notes.
+        type: class-toggle
+        default: false
+    -
         id: pln-head-heads
         title: Header colors
         type: heading
@@ -45,7 +51,7 @@ settings:
     -
         id: pln-hdcl
         title: Header color toggle
-        description: You must open each color and "save" it to render properly. See issue 94 for style settings.
+        description: You must open each color and "save" it to render properly.
         type: class-toggle
         default: false
     -
@@ -157,6 +163,12 @@ settings:
         level: 2
         collapsed: true
     -
+        id: pln-rm-attachments
+        title: Hide attachments
+        description: Hide attachments in the file explorer
+        type: class-toggle
+        default: false
+    -
         id: pln-rm-folder-nav
         title: Remove folder nav
         description: Remove the folder navigation icons
@@ -235,6 +247,12 @@ settings:
         type: class-toggle
         default: true
     -
+        id: pln-rm-srchSug
+        title: Hide search help
+        description: Hide the pop up that appears when clicking the search field
+        type: class-toggle
+        default: true
+    -
         id: pln-head-co
         title: Callout modifications
         type: heading
@@ -265,6 +283,38 @@ settings:
         type: class-toggle
         default: true
     -
+        id: pln-head-cards
+        title: Kepano Cards modificationss
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: pln-cards-sort
+        title: Hide Remove sort icon
+        description: Remove the sort icon from above a collection of cards
+        type: class-toggle
+        default: true
+    -
+        id: pln-cards-borders
+        title: Card border edits
+        description: Change the border of cards to match callouts. You are required to have Kepano's snippet, this just changes it's style.
+        type: class-toggle
+        default: true
+    -
+        id: pln-cards-color-rgb
+        title: Card border color
+        type: variable-themed-color
+        format: rgb-values
+        opacity: false
+        default-light: 'rgb(216, 222, 233)'
+        default-dark: 'rgb(76, 86, 106)'
+    -
+        id: cards
+        title: Add cards class to all files, and allow export.
+        description: This will add the cards class to all files, a primary function for this will be cards rendering when you PDF export a file.
+        type: class-toggle
+        default: false
+    -
         id: pln-head-vi
         title: High contrast modifications
         type: heading
@@ -277,7 +327,7 @@ settings:
         type: class-toggle
         default: false
     -
-        id: pln-vision-yel
+        id: pln-vision-high
         title: Primary color
         description: This is the primary color to be used in vision impaired mode.
         type: variable-color
@@ -285,7 +335,7 @@ settings:
         format: hex
         default: '#cccc00'
     -
-        id: pln-vision-gry
+        id: pln-vision-low
         title: Secondary color
         description: This is used for code blocks and buttons mostly
         type: variable-color
@@ -412,33 +462,33 @@ settings:
 
 /* any vision accomodations would be here */
 .pln-vision {
-    --pln-vision-yel: #cccc00;
-    --pln-vision-gry: #4C4E52;
+    --pln-vision-high: #cccc00;
+    --pln-vision-low: #4C4E52;
 
-    --text-normal: var(--pln-vision-yel);
-    --text-faint: var(--pln-vision-yel);
-    --text-muted: var(--pln-vision-yel);
+    --text-normal: var(--pln-vision-high);
+    --text-faint: var(--pln-vision-high);
+    --text-muted: var(--pln-vision-high);
     --background-primary: black;
-    --background-primary-alt: var(-gry);
+    --background-primary-alt: var(--pln-vision-low);
     --background-secondary: black;
     --background-secondary-alt: black;
-    --background-modifier-border: var(--pln-vision-yel);
+    --background-modifier-border: var(--pln-vision-high);
     --text-on-accent: black;
 
-    --color-base-30: var(--pln-vision-gry);
-    --color-base-35: var(--pln-vision-yel);
+    --color-base-30: var(--pln-vision-low);
+    --color-base-35: var(--pln-vision-high);
 
-    --color-red: var(--pln-vision-yel);
-    --color-orange: var(--pln-vision-yel);
-    --color-yellow-light: var(--pln-vision-yel);
-    --color-yellow-dark: var(--pln-vision-yel);
-    --color-green: var(--pln-vision-yel);
-    --color-purple: var(--pln-vision-yel);
-    --color-sea-green: var(--pln-vision-yel);
-    --color-cyan: var(--pln-vision-yel);
-    --color-frost: var(--pln-vision-yel);
-    --color-blue: var(--pln-vision-yel);
-    --color-salmon: var(--pln-vision-yel);
+    --color-red: var(--pln-vision-high);
+    --color-orange: var(--pln-vision-high);
+    --color-yellow-light: var(--pln-vision-high);
+    --color-yellow-dark: var(--pln-vision-high);
+    --color-green: var(--pln-vision-high);
+    --color-purple: var(--pln-vision-high);
+    --color-sea-green: var(--pln-vision-high);
+    --color-cyan: var(--pln-vision-high);
+    --color-frost: var(--pln-vision-high);
+    --color-blue: var(--pln-vision-high);
+    --color-salmon: var(--pln-vision-high);
 }
 
 /* pdf fixes */
@@ -448,11 +498,18 @@ settings:
         --list-marker-color: var(--b0);
         --code-background: var(--w2);
         --code-normal: var(--b0);
+        --table-header-color: var(--b0);
+        --text-muted: var(--b0);
     }
     .pln-pdf-rm-co-links .callout[data-callout="links"],
     .pln-pdf-rm-co-meta .callout[data-callout="meta"] {
             display: none;
     }
+    /* hacky method to make cards exportable */
+    .cards.pln-cards-borders.theme-dark,
+    .pln-cards-borders.theme-dark { 
+        --pln-cards-color-rgb: 216, 222, 233 !important;
+    } 
 }
 
 /*
@@ -476,9 +533,18 @@ body {
 .mod-stacked {
     --file-margins: 10px;
 }
+.mod-stacked:has(.cm-gutter) {
+    --file-margins: 2px
+}
 
 /* header colors */
 body.pln-hdcl {
+    --pln-hdcl-1: #BF616A;
+    --pln-hdcl-2: #D08770;
+    --pln-hdcl-3: #EBCB8B;
+    --pln-hdcl-4: #A3BE8C;
+    --pln-hdcl-5: #8FBCBB;
+    --pln-hdcl-6: #88C0D0;
     --h1-color: var(--pln-hdcl-1);
     --h2-color: var(--pln-hdcl-2);
     --h3-color: var(--pln-hdcl-3);
@@ -529,16 +595,30 @@ body {
     display: none;
 }
 
+/* invert reading icons to make more sense visually */
+.pln-view-invert .clickable-icon.view-action[aria-label^="Current view: editing"] {
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'%3E%3C/path%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z'%3E%3C/path%3E%3C/svg%3E");
+    background-color: var(--icon-color);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+.pln-view-invert .clickable-icon.view-action[aria-label^="Current view: reading"] {
+    -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'%3E%3C/path%3E%3Cpath d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'%3E%3C/path%3E%3C/svg%3E");
+    background-color: var(--icon-color);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
 /* fix table font size */
 body {
     --table-text-size: var(--font-text-size);
 }
 
 /* highlight active line */
-.pln-hi-line .cm-active.cm-line {
+.pln-hi-line:not(.pln-vision) .cm-active.cm-line {
     background-color: var(--background-modifier-border);
 }
-.pln-hi-line .cm-gutterElement.cm-active {
+.pln-hi-line:not(.pln-vision) .cm-gutterElement.cm-active {
     color:  var(--color-yellow);
     font-weight: bold;
     background-color: var(--background-modifier-border);
@@ -549,6 +629,8 @@ body {
 }
 
 /* REMOVE THINGS */
+/* hide attachments */
+.pln-rm-attachments .nav-file:has(.nav-file-tag),
 /* folder navigation buttons */
 .pln-rm-folder-nav .nav-buttons-container,
 /* ribbon */
@@ -568,6 +650,8 @@ body {
 .pln-rm-nav .view-header-nav-buttons,
 /* action bottons, top right of note */
 .pln-rm-act .view-actions,
+/* suggestion pop up box */
+.pln-rm-srchSug .suggestion-container.mod-search-suggestion,
 /* note icon for tabs */
 .pln-rm-noteic .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-container .workspace-tab-header-inner-icon,
 /* remove top left sidebar container in hidden*/
@@ -624,6 +708,30 @@ em, .cm-em {
 .markdown-rendered h5,
 .markdown-rendered h6 {
     margin: 0 0 0 0;
+}
+
+/*
+ * Card edits
+*/
+.cards.pln-cards-sort table.dataview thead,
+.pln-cards-sort .cards table.dataview thead {
+    display: none !important;
+}
+.cards.pln-cards-borders.theme-light,
+.pln-cards-borders.theme-light { 
+    --pln-cards-color-rgb: 216, 222, 233;
+} 
+.cards.pln-cards-borders.theme-dark,
+.pln-cards-borders.theme-dark { 
+    --pln-cards-color-rgb: 76, 86, 106;
+}
+.cards.pln-cards-borders table.dataview > tbody > tr,
+.pln-cards-borders .cards table.dataview > tbody > tr {
+    background-color: rgba(var(--pln-cards-color-rgb), 0.4) !important;
+    border-top: 4px solid rgb(var(--pln-cards-color-rgb)) !important;
+    border-left: 2px solid rgb(var(--pln-cards-color-rgb)) !important;
+    border-right: none !important;
+    border-bottom: none !important;
 }
 
 /*
@@ -841,17 +949,17 @@ div.HyperMD-quote.HyperMD-quote-1.cm-line {
 
 /* make unique callouts */
 .callout[data-callout="danger"] {
-    --callout-icon: alert-octagon;
+    --callout-icon: lucide-alert-octagon;
     --callout-color: 252, 110, 104;
 }
 .callout[data-callout="idea"] {
-    --callout-icon: lightbulb;
+    --callout-icon: lucide-lightbulb;
 }
 .callout[data-callout="links"] {
-    --callout-icon: link;
+    --callout-icon: lucide-link;
 }
 .callout[data-callout="meta"] {
-    --callout-icon: database;
+    --callout-icon: lucide-database;
 }
 
 /* remove meta callouts in reading mode and when embeded*/
@@ -1045,6 +1153,14 @@ mark.borders {
     border-radius: 0px;
     padding-left: 2px;
     padding-right: 2px;
+}
+/* spoiler */
+mark.spoiler {
+    border-bottom: 0px;
+    background-color: var(--text-normal);
+}
+mark.spoiler:hover {
+    background-color: inherit;
 }
 
 /*
