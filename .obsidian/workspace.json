@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
                   }
                 }
               }
@@ -111,6 +111,48 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":12},\"to\":{\"line\":37,\"ch\":12}},\"scroll\":20.75560667050029}"
+                    },
+                    {
+                      "title": "值",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":9},\"to\":{\"line\":16,\"ch\":9}},\"scroll\":1.6765357899403912}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "包管理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/包管理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "node",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
+                    },
+                    {
                       "title": "node项目",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node项目.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -127,7 +169,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/node/node.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -659,7 +701,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -685,7 +727,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -712,7 +754,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1109,25 +1151,25 @@
       "workspaces:管理工作区布局": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9c9a6c4a22c40ab4",
+  "active": "48d3f19065b8cf74",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习方法/概念/记笔记.md",
-    "笔记/学习方法/概念/康奈尔笔记.md",
-    "笔记/学习方法/概念/笔记流.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/思考/基础思维.md",
-    "笔记/工具/思考/基本概念/基础.md",
-    "笔记/学习方法/概念/临界知识.md",
-    "笔记/学习方法/教学相长.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/工具/通用概念/DOCTORS模型.md"
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/值.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/数据格式.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/包管理.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/学习方法/自己的学习行为.md"
   ]
 }
