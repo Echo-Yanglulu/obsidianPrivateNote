@@ -9,6 +9,14 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
+      "basename": "理解",
+      "path": "笔记/学习方法/概念/理解.md"
+    },
+    {
+      "basename": "评估",
+      "path": "笔记/工具/通用概念/评估.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "自我",
       "path": "笔记/工具/通用概念/自我.md"
-    },
-    {
-      "basename": "内心",
-      "path": "笔记/内心/内心.md"
-    },
-    {
-      "basename": "心灵",
-      "path": "笔记/内心/心灵.md"
     }
   ],
   "omittedPaths": [],

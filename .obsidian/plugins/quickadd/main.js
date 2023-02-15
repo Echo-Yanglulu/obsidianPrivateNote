@@ -31699,7 +31699,7 @@ var GenericInputPrompt = class extends import_obsidian4.Modal {
     this.submitClickCallback = (evt) => this.submit();
     this.cancelClickCallback = (evt) => this.cancel();
     this.submitEnterCallback = (evt) => {
-      if (evt.key === "Enter") {
+      if (!evt.isComposing && evt.key === "Enter") {
         evt.preventDefault();
         this.submit();
       }
