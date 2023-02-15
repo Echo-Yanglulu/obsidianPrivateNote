@@ -5,6 +5,30 @@
       "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
     },
     {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
@@ -13,24 +37,8 @@
       "path": "笔记/前端/编程语言/JS/值.md"
     },
     {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
       "basename": "数据格式",
       "path": "笔记/前端/编程语言/JS/基本概念/数据格式.md"
-    },
-    {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理.md"
     },
     {
       "basename": "node",
@@ -43,10 +51,6 @@
     {
       "basename": "深夜加油站遇见苏格拉底",
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
       "basename": "记笔记",
@@ -119,10 +123,6 @@
     {
       "basename": "概念",
       "path": "笔记/学习方法/概念/概念.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "CommonJS",
