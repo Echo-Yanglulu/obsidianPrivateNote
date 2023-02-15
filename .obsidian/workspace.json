@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习方法/自己的学习行为.md"
                   }
                 }
               }
@@ -341,6 +341,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "本质",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":3},\"to\":{\"line\":26,\"ch\":3}},\"scroll\":5.3696}"
+                    },
+                    {
+                      "title": "自己的学习行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":147,\"ch\":14},\"to\":{\"line\":147,\"ch\":14}},\"scroll\":119.08628005657708}"
+                    },
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":15},\"to\":{\"line\":49,\"ch\":15}},\"scroll\":27.742955721679127}"
+                    },
+                    {
                       "title": "自己的学习行为",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -399,7 +417,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习方法/自己的学习行为.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -667,7 +685,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习方法/自己的学习行为.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -694,7 +712,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习方法/自己的学习行为.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1101,15 +1119,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/间隔重复.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/记忆/主动回忆.md",
-    "笔记/学习方法/概念/概念.md",
+    "笔记/学习方法/概念/记笔记.md",
+    "笔记/学习方法/概念/康奈尔笔记.md",
+    "笔记/学习方法/概念/笔记流.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/概念/理解.md",
-    "笔记/学习方法/概念/应用.md",
-    "笔记/工具/通用概念/评估.md",
-    "笔记/工具/思考/记忆/编码.md",
-    "笔记/前端/工程化/构建/webpack.md"
+    "笔记/工具/思考/基础思维.md",
+    "笔记/工具/思考/基本概念/基础.md",
+    "笔记/学习方法/概念/临界知识.md",
+    "笔记/学习方法/教学相长.md",
+    "笔记/工具/通用概念/本质.md",
+    "笔记/工具/通用概念/DOCTORS模型.md"
   ]
 }
