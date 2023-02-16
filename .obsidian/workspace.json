@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
                   }
                 }
               }
@@ -649,6 +649,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":12,\"ch\":11}},\"scroll\":22.63254744105808}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.9813127083435966}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "包管理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/包管理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -725,7 +749,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -755,7 +779,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -781,7 +805,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -808,7 +832,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1210,20 +1234,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c9a6c4a22c40ab4",
+  "active": "9a6b5f4afc0f8944",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/阅读.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/自由技艺.md",
-    "笔记/工具/通用概念/问题解决.md",
-    "笔记/学习方法/沟通.md",
-    "笔记/学习方法/风格.md",
-    "笔记/工具/思考/批判性思维.md",
-    "笔记/工具/通用概念/策略.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/学习方法/语法.md"
+    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/基本概念/表达式.md",
+    "笔记/前端/编程语言/JS/基本概念/标识符.md",
+    "笔记/前端/编程语言/JS/值.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md"
   ]
 }
