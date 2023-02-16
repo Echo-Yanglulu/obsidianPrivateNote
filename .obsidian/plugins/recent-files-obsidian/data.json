@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
     },
     {
+      "basename": "Number",
+      "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
+    },
+    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "思维",
       "path": "笔记/工具/思考/基本概念/思维.md"
-    },
-    {
-      "basename": "逻辑形式",
-      "path": "笔记/工具/哲学/逻辑学/逻辑形式.md"
     }
   ],
   "omittedPaths": [],

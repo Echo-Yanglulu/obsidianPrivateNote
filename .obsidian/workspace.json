@@ -104,8 +104,14 @@
                 "id": "48d3f19065b8cf74",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "Number",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1173,6 +1179,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS/JS.md",
@@ -1180,8 +1188,6 @@
     "笔记/前端/包管理.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
-    "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/前端/编程语言/JS/基本概念/Symbol.md"
+    "笔记/前端/编程语言/JS/基本概念/原型对象.md"
   ]
 }
