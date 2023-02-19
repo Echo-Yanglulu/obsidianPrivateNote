@@ -1,12 +1,4 @@
 {
-  "editor:insert-callout": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "I"
-    }
-  ],
   "editor:swap-line-up": [
     {
       "modifiers": [
@@ -21,14 +13,6 @@
         "Alt"
       ],
       "key": "ArrowDown"
-    }
-  ],
-  "editor:attach-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
     }
   ],
   "editor:toggle-highlight": [
@@ -157,15 +141,6 @@
       "key": "N"
     }
   ],
-  "darlal-switcher-plus:switcher-plus:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "obsidian-sidebar-toggler:show-left-sidebar": [
     {
       "modifiers": [
@@ -288,5 +263,26 @@
       "key": "B"
     }
   ],
-  "markdown-prettifier:markdown-prettifier-update-fields": []
+  "markdown-prettifier:markdown-prettifier-update-fields": [],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:attach-file": [],
+  "editor:insert-wikilink": [],
+  "obsidian-zoom:zoom-in": [],
+  "obsidian-excalidraw-plugin:save": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ]
 }

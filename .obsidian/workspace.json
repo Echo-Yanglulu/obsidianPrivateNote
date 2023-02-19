@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
+                    "file": "笔记/前端/编程语言/JS/函数.md"
                   }
                 }
               }
@@ -649,6 +649,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":111,\"ch\":7},\"to\":{\"line\":111,\"ch\":7}},\"scroll\":88.68713259307643}"
+                    },
+                    {
                       "title": "函数",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -845,7 +851,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                    "file": "笔记/前端/编程语言/JS/函数.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -901,7 +907,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -928,7 +934,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1333,9 +1339,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
