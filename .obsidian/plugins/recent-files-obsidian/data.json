@@ -5,6 +5,14 @@
       "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
     },
     {
+      "basename": "函数",
+      "path": "笔记/前端/编程语言/JS/函数.md"
+    },
+    {
+      "basename": "Map",
+      "path": "笔记/前端/编程语言/JS/基本概念/Map.md"
+    },
+    {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "包管理器",
       "path": "笔记/前端/工程化/包管理器.md"
-    },
-    {
-      "basename": "node项目",
-      "path": "笔记/前端/工程化/node/node项目.md"
-    },
-    {
-      "basename": "package.json",
-      "path": "笔记/前端/工程化/node/package.json.md"
     }
   ],
   "omittedPaths": [],
