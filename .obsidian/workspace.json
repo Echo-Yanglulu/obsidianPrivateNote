@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/数组.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
                   }
                 }
               }
@@ -652,6 +652,18 @@
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":12},\"to\":{\"line\":37,\"ch\":12}},\"scroll\":21.675675675675677}"
+                    },
+                    {
+                      "title": "数组",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数组.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":9},\"to\":{\"line\":40,\"ch\":9}},\"scroll\":21.528464634847612}"
                     },
                     {
@@ -773,7 +785,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/数组.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -829,7 +841,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/数组.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -856,7 +868,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/数组.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1265,6 +1277,7 @@
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/数组.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/工具/思考/记忆/访问器属性.md",
     "笔记/前端/编程语言/JS/基本概念/Symbol.md",
@@ -1272,7 +1285,6 @@
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
-    "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.prototype.md"
+    "笔记/前端/编程语言/JS/基本概念/原型对象.md"
   ]
 }
