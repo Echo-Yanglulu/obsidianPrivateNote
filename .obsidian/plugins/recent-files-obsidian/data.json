@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "变量",
+      "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
+    },
+    {
+      "basename": "作用域",
+      "path": "笔记/前端/编程语言/JS/作用域.md"
+    },
+    {
       "basename": "函数",
       "path": "笔记/前端/编程语言/JS/函数.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "webpack-cli",
       "path": "笔记/前端/工程化/构建/webpack-cli.md"
-    },
-    {
-      "basename": "environments",
-      "path": "笔记/前端/工程化/规范/ESLint/environments.md"
-    },
-    {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
     }
   ],
   "omittedPaths": [],
