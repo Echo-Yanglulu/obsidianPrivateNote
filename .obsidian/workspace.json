@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/this.md"
+                    "file": "笔记/前端/编程语言/JS/函数.md"
                   }
                 }
               }
@@ -937,7 +937,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/this.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -964,7 +964,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/this.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1355,13 +1355,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "80b34d4551a70166",
+  "active": "9a6b5f4afc0f8944",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/this.md",
+    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/关键字.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
