@@ -995,7 +995,7 @@ settings:
         description: shadow of button,dropdown, etc.
         description.zh: 按钮，下拉菜单等的阴影
         type: variable-text
-        default: inset 0 0 0 1px rgba(0, 0, 0, 0.12),inset 0 2px 0 rgb(255 255 255 / 20%),0 2px 3px 0 rgba(0, 0, 0, .025)
+        default: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 1px 2px rgba(0, 0, 0, 0.04), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.04)
     - 
         id: input-shadow-hover-light
         title: input-shadow-hover(light mode)
@@ -1003,7 +1003,7 @@ settings:
         description: shadow of button,dropdown, etc.(hovered)
         description.zh: 按钮，下拉菜单等的阴影（鼠标悬停时）
         type: variable-text
-        default: inset 0 0 0 1px rgba(0, 0, 0, 0.17),inset 0 2px 0 rgb(255 255 255 / 20%),0 2px 3px 0 rgba(0, 0, 0, .05)
+        default: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.05)
     - 
         id: interactive-normal-light
         title: interactive-normal(light mode)
@@ -1011,7 +1011,7 @@ settings:
         description: background color of button,dropdown, etc.
         description.zh: 按钮，下拉菜单等的背景色
         type: variable-text
-        default: var(--color-base-15)
+        default: var(--color-base-05)
     - 
         id: interactive-hover-light
         title: interactive-hover(light mode)
@@ -1019,7 +1019,7 @@ settings:
         description: background color of button,dropdown, etc.(hovered)
         description.zh: 按钮，下拉菜单等的背景色（鼠标悬停时）
         type: variable-text
-        default: var(--color-base-20)
+        default: var(--color-base-15)
     - 
         id: toggle-light
         title: toggle switch
@@ -1058,7 +1058,7 @@ settings:
         description: background shadow of toggle thumb(enabled)
         description.zh: 开关滑块的阴影（开启时）
         type: variable-text
-        default: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 4px rgba(0, 0, 0, 0.1)
+        default: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 4px hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.3)
 
     - 
         id: toggle-track-color-light
@@ -1083,7 +1083,7 @@ settings:
         description: shadow of toggle track
         description.zh: 开关滑轨的阴影
         type: variable-text
-        default: inset 0px 1px 2px rgba(0, 0, 0, 0.25)
+        default: inset 0px 1px 2px rgba(0, 0, 0, 0.25), 0px 1px 2px var(--background-primary), 0px 2px 2px rgba(0, 0, 0, 0.05)
     - 
         id: toggle-track-hovered-shadow-light
         title: toggle-track-hovered-shadow(light mode)
@@ -1091,7 +1091,7 @@ settings:
         description: background shadow of toggle track(hovered)
         description.zh: 开关滑轨的阴影（鼠标悬停时）
         type: variable-text
-        default: inset 0px 1px 2px rgba(0, 0, 0, 0.25)
+        default: inset 0px 1px 2px rgba(0, 0, 0, 0.25), 0px 1px 2px var(--background-primary), 0px 2px 2px rgba(0, 0, 0, 0.05)
 
 */
 
@@ -1753,7 +1753,7 @@ settings:
         description: shadow of button,dropdown, etc.
         description.zh: 按钮，下拉菜单等的阴影
         type: variable-text
-        default: inset 0px 0px 0px 1px var(--background-modifier-border)
+        default: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25)
     - 
         id: input-shadow-hover-dark
         title: input-shadow-hover(dark mode)
@@ -1761,7 +1761,7 @@ settings:
         description: shadow of button,dropdown, etc.(hovered)
         description.zh: 按钮，下拉菜单等的阴影（鼠标悬停时）
         type: variable-text
-        default: inset 0px 0px 0px 1px hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25)
+        default: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25)
     - 
         id: interactive-normal-dark
         title: interactive-normal(dark mode)
@@ -1777,7 +1777,7 @@ settings:
         description: background color of button,dropdown, etc.(hovered)
         description.zh: 按钮，下拉菜单等的背景色（鼠标悬停时）
         type: variable-text
-        default: hsl(calc(var(--accent-h) + 8),calc(var(--accent-s) / 7),calc(1.25*var(--accent-l) / 2.4))
+        default: hsl(calc(var(--accent-h) + 8),calc(var(--accent-s) / 7),calc(1.25*var(--accent-l) / 2.7))
     - 
         id: toggle-dark
         title: toggle switch
@@ -1808,7 +1808,7 @@ settings:
         description: shadow of toggle thumb
         description.zh: 开关滑块的阴影
         type: variable-text
-        default: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.3), inset 0px 4px 4px #FFFFFF
+        default: 0px 4px 4px rgba(0, 0, 0, 0.3), 0px 1px 2px rgba(0, 0, 0, 0.6), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.25), inset 0px 4px 4px #FFFFFF
     - 
         id: toggle-thumb-enabled-shadow-dark
         title: toggle-thumb-enabled-shadow(dark mode)
@@ -1816,7 +1816,7 @@ settings:
         description: background shadow of toggle thumb(enabled)
         description.zh: 开关滑块的阴影（开启时）
         type: variable-text
-        default: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.3), inset 0px 4px 4px #FFFFFF
+        default: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.5), inset 0px 4px 4px #FFFFFF
 
     - 
         id: toggle-track-color-dark
@@ -3036,7 +3036,7 @@ body {
             calc(var(--accent-s) - 4%),
             calc(100% - (100% - var(--accent-l)) / 4), 0.9);
     --interactive-normal: var(--color-base-00);
-    --interactive-hover: var(--color-base-15);
+    --interactive-hover: var(--color-base-10);
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.225);
 }
 
@@ -3045,8 +3045,8 @@ body {
         calc(var(--accent-s)*0.8),
         calc(var(--accent-l) * 1.125);
     --color-accent: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc(var(--accent-l) * 1.125));
-    --color-accent-1: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) - 3.8%) * 1.125));
-    --color-accent-2: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) + 3.8%) * 1.125));
+    --color-accent-1: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) - 3.8%));
+    --color-accent-2: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) + 3.8%));
 }
 
 .theme-dark {
@@ -3156,7 +3156,7 @@ body {
             calc(var(--accent-l) / 3));
     --interactive-hover: hsl(calc(var(--accent-h) + 8),
             calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 2.4));
+            calc(var(--accent-l) / 2.7));
 }
 
 
@@ -3178,7 +3178,7 @@ body {
             calc(1.25*var(--accent-l) / 2.4));
     --interactive-hover: hsl(calc(var(--accent-h) + 8),
             calc(var(--accent-s) / 5.6),
-            calc(1.25*var(--accent-l) / 2));
+            calc(1.25*var(--accent-l) / 2.2));
 }
 
 
@@ -3194,7 +3194,7 @@ body {
             calc(var(--accent-l) / 4));
     --interactive-hover: hsl(calc(var(--accent-h) + 8),
             calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 3));
+            calc(var(--accent-l) / 3.2));
     --background-table-rows: var(--color-base-00);
     --line-active-bg: rgba(255, 255, 255, 0.08);
     --line-active-bg-customize: rgba(255, 255, 255, 0.08);
@@ -3206,53 +3206,12 @@ body {
 
 
 .is-mobile {
-    --ribbon-width: 58px;
-    --view-header-height: 50px;
-    --mobile-toolbar-height: 40px;
-    --caret-color: var(--text-accent);
-    --font-ui-smaller: calc(var(--font-text-size) * 0.8);
-    --font-ui-small: calc(var(--font-text-size) * 0.937);
-    --font-ui-medium: var(--font-text-size);
-    --font-ui-large: calc(var(--font-text-size) * 1.2);
-    --icon-s: 18px;
-    --icon-m: 20px;
-    --icon-l: 24px;
-    --icon-l-stroke-width: 1.8px;
-    --icon-opacity: 1;
-    --input-height: 40px;
-    --input-shadow: none;
-    --input-shadow-hover: none;
-    --input-font-weight: var(--font-medium);
-    --input-border-width: 0px;
-    --interactive-normal: var(--background-secondary);
-    --background-modifier-hover: rgba(var(--mono-rgb-100), 0.05);
-    --mobile-sidebar-width: 340px;
-    --mobile-sidebar-max-width: 500px;
-    --nav-item-padding: var(--size-2-3) var(--size-4-2);
-    --nav-item-color: var(--text-normal);
-    --search-clear-button-size: 16px;
-    --search-icon-size: 20px;
-    --settings-home-background: var(--background-secondary);
-    --slider-thumb-border-width: 0px;
-    --slider-thumb-height: 24px;
-    --slider-thumb-width: 24px;
-    --slider-thumb-y: -9px;
-    --slider-track-height: 6px;
-    --swatch-shadow: none;
-    --swatch-height: 40px;
-    --swatch-width: 40px;
-    --swatch-radius: 40px;
-    --toggle-width: 48px;
-    --toggle-radius: 26px;
-    --toggle-thumb-radius: 26px;
-    --toggle-thumb-height: 26px;
-    --toggle-thumb-width: 26px;
-    --file-margins: var(--size-4-2) var(--size-4-5);
-    --background-modifier-cover: rgba(0, 0, 0, 0.25);
     --background-modifier-form-field: var(--background-modifier-hover);
-    --keyboard-background: var(--background-primary);
-    --checkbox-size: 17px;
-    --search-result-background: var(--background-primary);
+}
+
+.is-mobile.theme-light {
+    --interactive-normal: rgba(var(--mono-rgb-100), 0.05);
+    --interactive-hover: rgba(var(--mono-rgb-100), 0.075);
 }
 
 .is-mobile.theme-dark {
@@ -3266,30 +3225,8 @@ body {
     --background-modifier-cover: rgba(0, 0, 0, 0.5);
     --background-modifier-hover: rgba(var(--mono-rgb-100), 0.08);
     --settings-home-background: var(--background-primary);
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 3));
-    --interactive-hover: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 2.4));
-}
-
-.is-mobile.theme-dark.theme-dark-background-darker {
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 3));
-    --interactive-hover: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 2.4));
-}
-
-.is-mobile.theme-dark.theme-dark-background-black {
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 4));
-    --interactive-hover: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 3));
+    --interactive-normal: var(--background-modifier-border);
+    --interactive-hover: var(--background-modifier-border-hover);
 }
 
 .is-tablet {
@@ -3300,15 +3237,6 @@ body {
 .is-tablet.theme-dark {
     --titlebar-background: var(--background-primary);
     --titlebar-background-focused: var(--background-primary);
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 3));
-}
-
-.is-tablet.theme-dark.theme-dark-background-darker {
-    --interactive-normal: hsl(calc(var(--accent-h) + 8),
-            calc(var(--accent-s) / 7),
-            calc(var(--accent-l) / 3));
 }
 
 .is-phone {
@@ -5174,6 +5102,10 @@ body.new-tab-image-customize .empty-state::before {
     margin-top: 0px;
 }
 
+.empty-state-container div:has(+ .empty-state-action-list) {
+    margin-bottom: 20px;
+}
+
 .is-mobile .empty-state-action {
     margin: 12px 0;
     padding: 4px 24px;
@@ -5343,10 +5275,6 @@ body:not(.is-mobile):not(.CTA-BTN-disable) .workspace-leaf-content[data-type="fi
     border-radius: var(--button-radius);
     width: 100px;
     padding: var(--size-2-3);
-}
-
-body.theme-dark:not(.is-mobile):not(.CTA-BTN-disable) .workspace-leaf-content[data-type="file-explorer"] .nav-header .nav-buttons-container .clickable-icon.nav-action-button:first-of-type {
-    --input-shadow: none;
 }
 
 
@@ -5901,7 +5829,7 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
     --toggle-thumb-shadow: var(--toggle-thumb-shadow-light);
     --toggle-thumb-enabled-shadow: var(--toggle-thumb-enabled-shadow-light);
     --toggle-thumb-shadow-light: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 4px rgba(0, 0, 0, 0.1);
-    --toggle-thumb-enabled-shadow-light: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 4px rgba(0, 0, 0, 0.1);
+    --toggle-thumb-enabled-shadow-light: 0px 4px 4px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 4px hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.3);
 
     --toggle-track-color: var(--toggle-track-color-light);
     --toggle-track-enabled-color: var(--toggle-track-enabled-color-light);
@@ -5910,26 +5838,22 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
 
     --toggle-track-shadow: var(--toggle-track-shadow-light);
     --toggle-track-hovered-shadow: var(--toggle-track-hovered-shadow-light);
-    --toggle-track-shadow-light: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
-    --toggle-track-hovered-shadow-light: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    --toggle-track-shadow-light: inset 0px 1px 2px rgba(0, 0, 0, 0.25), 0px 1px 2px var(--background-primary), 0px 2px 2px rgba(0, 0, 0, 0.05);
+    --toggle-track-hovered-shadow-light: inset 0px 1px 2px rgba(0, 0, 0, 0.25), 0px 1px 2px var(--background-primary), 0px 2px 2px rgba(0, 0, 0, 0.05);
 
     --interactive-normal: var(--interactive-normal-light);
     --interactive-hover: var(--interactive-hover-light);
 
-    --interactive-normal-light: var(--color-base-15);
-    --interactive-hover-light: var(--color-base-20);
+    --interactive-normal-light: var(--color-base-05);
+    --interactive-hover-light: var(--color-base-15);
 
     --input-radius: var(--input-radius-light);
     --input-shadow: var(--input-shadow-light);
     --input-shadow-hover: var(--input-shadow-hover-light);
 
     --input-radius-light: 5px;
-    --input-shadow-light: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
-        inset 0 2px 0 rgb(255 255 255 / 20%),
-        0 2px 3px 0 rgba(0, 0, 0, .025);
-    --input-shadow-hover-light: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
-        inset 0 2px 0 rgb(255 255 255 / 20%),
-        0 2px 3px 0 rgba(0, 0, 0, .05);
+    --input-shadow-light: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 1px 2px rgba(0, 0, 0, 0.04), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.04);
+    --input-shadow-hover-light: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.05);
 }
 
 .theme-dark {
@@ -5940,8 +5864,8 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
 
     --toggle-thumb-shadow: var(--toggle-thumb-shadow-dark);
     --toggle-thumb-enabled-shadow: var(--toggle-thumb-enabled-shadow-dark);
-    --toggle-thumb-shadow-dark: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.3), inset 0px 4px 4px #FFFFFF;
-    --toggle-thumb-enabled-shadow-dark: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.3), inset 0px 4px 4px #FFFFFF;
+    --toggle-thumb-shadow-dark: 0px 4px 4px rgba(0, 0, 0, 0.3), 0px 1px 2px rgba(0, 0, 0, 0.6), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px rgba(0, 0, 0, 0.25), inset 0px 4px 4px #FFFFFF;
+    --toggle-thumb-enabled-shadow-dark: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.3), inset 0px -1px 1px rgba(255, 255, 255, 0.4), inset 0px -4px 6px hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.5), inset 0px 4px 4px #FFFFFF;
 
     --toggle-track-color: var(--toggle-track-color-dark);
     --toggle-track-enabled-color: var(--toggle-track-enabled-color-dark);
@@ -5961,15 +5885,15 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
             calc(1.25*var(--accent-l) / 3));
     --interactive-hover-dark: hsl(calc(var(--accent-h) + 8),
             calc(var(--accent-s) / 7),
-            calc(1.25*var(--accent-l) / 2.4));
+            calc(1.25*var(--accent-l) / 2.7));
 
     --input-radius: var(--input-radius-dark);
     --input-shadow: var(--input-shadow-dark);
     --input-shadow-hover: var(--input-shadow-hover-dark);
 
     --input-radius-dark: 5px;
-    --input-shadow-dark: inset 0px 0px 0px 1px var(--background-modifier-border);
-    --input-shadow-hover-dark: inset 0px 0px 0px 1px hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25);
+    --input-shadow-dark: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25);
+    --input-shadow-hover-dark: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .theme-light.forced-modification-light {
@@ -6928,14 +6852,14 @@ body .markdown-source-view .cm-scroller .cm-line:not(.HyperMD-codeblock) {
 
 /* ====== hover indicator ====== */
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer)),
-body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image) {
+body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image, .mod-header, .mod-footer, :has(.collapse-indicator, .mk-header)) {
     position: relative;
 }
 
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(:has(.mk-note-footer)):has(.cm-hmd-list-indent)::after,
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer, .collapse-indicator))::after,
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:is(.el-ul, .el-ol)::after,
-body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image, .mod-header, .mod-footer, :has(.collapse-indicator))::after {
+body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image, .mod-header, .mod-footer, :has(.collapse-indicator, .mk-header))::after {
     content: "";
     position: absolute;
     left: -12px;
@@ -6950,7 +6874,7 @@ body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] 
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(:has(.mk-note-footer)):has(.cm-hmd-list-indent):hover::after,
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>div:not(.image-embed, .mk-header, :has(.mk-note-footer, .collapse-indicator)):hover::after,
 body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:is(.el-ul, .el-ol):hover::after,
-body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image, .mod-header, .mod-footer, :has(.collapse-indicator)):hover::after {
+body.line-hover-indicator-enabled .workspace-leaf-content[data-type="markdown"] .markdown-preview-sizer>div:not(.el-embed-image, .mod-header, .mod-footer, :has(.collapse-indicator, .mk-header)):hover::after {
     height: calc(100% - 6px);
 }
 
