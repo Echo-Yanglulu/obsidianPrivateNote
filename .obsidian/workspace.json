@@ -42,14 +42,8 @@
                 "id": "48c40bbeb9dd014b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "触不可及",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/电影/触不可及.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -75,18 +69,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "包管理器",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/包管理器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":27},\"to\":{\"line\":6,\"ch\":27}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "npm",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
@@ -104,71 +86,11 @@
                 "id": "48d3f19065b8cf74",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Number",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":12},\"to\":{\"line\":37,\"ch\":12}},\"scroll\":20.75560667050029}"
-                    },
-                    {
-                      "title": "值",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":13},\"to\":{\"line\":1,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "JS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":9},\"to\":{\"line\":16,\"ch\":9}},\"scroll\":1.6765357899403912}"
-                    },
-                    {
-                      "title": "编程语言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "包管理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/包管理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "node",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "node项目",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node项目.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":11},\"to\":{\"line\":2,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "package.json",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":26},\"to\":{\"line\":15,\"ch\":26}}}"
                     }
                   ]
                 },
@@ -191,180 +113,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "打包工具",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/打包工具.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "JS模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":3},\"to\":{\"line\":16,\"ch\":3}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":7},\"to\":{\"line\":17,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "构建",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":19},\"to\":{\"line\":25,\"ch\":19}},\"scroll\":10.033858727378867}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":14.431372549019608}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "模块化编程",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块化编程.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":52},\"to\":{\"line\":0,\"ch\":52}}}"
-                    },
-                    {
-                      "title": "模块",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":8},\"to\":{\"line\":57,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":13},\"to\":{\"line\":20,\"ch\":13}},\"scroll\":1.2225063938618925}"
-                    },
-                    {
-                      "title": "JS模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "模块模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":6},\"to\":{\"line\":38,\"ch\":6}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "构建",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":34},\"to\":{\"line\":38,\"ch\":34}},\"scroll\":20.891544117647058}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":25},\"to\":{\"line\":17,\"ch\":25}},\"scroll\":6.588235294117647}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":11},\"to\":{\"line\":15,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":15},\"to\":{\"line\":10,\"ch\":15}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":true}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":true}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":5},\"to\":{\"line\":12,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "法则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":7},\"to\":{\"line\":2,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "运动",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/运动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "人的行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":9},\"to\":{\"line\":62,\"ch\":9}},\"scroll\":40.86790589071597}"
-                    },
-                    {
-                      "title": "运动",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/运动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "人的行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":10},\"to\":{\"line\":27,\"ch\":10}},\"scroll\":45.41188602489557}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":8},\"to\":{\"line\":2,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":5},\"to\":{\"line\":20,\"ch\":5}},\"scroll\":12.800888496204035}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "断言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/断言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":17},\"to\":{\"line\":0,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -387,114 +135,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "自由技艺",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自由技艺.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":8},\"to\":{\"line\":0,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":49},\"to\":{\"line\":15,\"ch\":49}},\"scroll\":1.0332390381895333}"
-                    },
-                    {
-                      "title": "问题解决",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/问题解决.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":42},\"to\":{\"line\":1,\"ch\":42}}}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":13},\"to\":{\"line\":20,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "自由技艺",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自由技艺.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":17},\"to\":{\"line\":5,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":41},\"to\":{\"line\":16,\"ch\":41}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "本质",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":3},\"to\":{\"line\":26,\"ch\":3}},\"scroll\":5.3696}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":147,\"ch\":14},\"to\":{\"line\":147,\"ch\":14}},\"scroll\":119.08628005657708}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":15},\"to\":{\"line\":49,\"ch\":15}},\"scroll\":27.742955721679127}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":130,\"ch\":8},\"to\":{\"line\":130,\"ch\":8}},\"scroll\":113.96322489391797}"
-                    },
-                    {
-                      "title": "理解",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":4},\"to\":{\"line\":19,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":137,\"ch\":10},\"to\":{\"line\":137,\"ch\":10}},\"scroll\":112.0997171145686}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":25},\"to\":{\"line\":34,\"ch\":25}},\"scroll\":12.741230592294421}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":131,\"ch\":26},\"to\":{\"line\":131,\"ch\":26}},\"scroll\":119.61470588235294}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":20},\"to\":{\"line\":52,\"ch\":20}},\"scroll\":42.3343}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":10},\"to\":{\"line\":124,\"ch\":10}},\"scroll\":105.9735294117647}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":166,\"ch\":22},\"to\":{\"line\":166,\"ch\":22}},\"scroll\":158.2954}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":11},\"to\":{\"line\":26,\"ch\":11}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -539,24 +179,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "environments",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/ESLint/environments.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "webpack.config.js",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":42},\"to\":{\"line\":2,\"ch\":42}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -579,24 +201,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "背部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":13},\"to\":{\"line\":35,\"ch\":13}},\"scroll\":5.986501963350785}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":20},\"to\":{\"line\":10,\"ch\":20}}}"
                     }
                   ]
                 },
@@ -619,12 +223,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":26},\"to\":{\"line\":4,\"ch\":26}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -647,240 +245,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":14},\"to\":{\"line\":45,\"ch\":14}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":12,\"ch\":15}},\"scroll\":4.762246897452645}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":140,\"ch\":4},\"to\":{\"line\":140,\"ch\":4}},\"scroll\":120.71923620933522}"
-                    },
-                    {
-                      "title": "变量",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":8},\"to\":{\"line\":7,\"ch\":8}},\"scroll\":22.606082036775106}"
-                    },
-                    {
-                      "title": "作用域",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/作用域.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":36},\"to\":{\"line\":43,\"ch\":36}},\"scroll\":29.269944068295555}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":111,\"ch\":7},\"to\":{\"line\":111,\"ch\":7}},\"scroll\":88.68713259307643}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":152,\"ch\":4},\"to\":{\"line\":152,\"ch\":4}},\"scroll\":126.5308}"
-                    },
-                    {
-                      "title": "Map",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Map.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":11},\"to\":{\"line\":0,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":12},\"to\":{\"line\":25,\"ch\":12}},\"scroll\":5.2708}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":3},\"to\":{\"line\":37,\"ch\":3}},\"scroll\":20.682001150086258}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":6},\"to\":{\"line\":144,\"ch\":6}},\"scroll\":126.5307624374448}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":3},\"to\":{\"line\":39,\"ch\":3}},\"scroll\":22.70615296147211}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":12},\"to\":{\"line\":25,\"ch\":12}},\"scroll\":5.270827200471004}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":10},\"to\":{\"line\":39,\"ch\":10}},\"scroll\":20.682001150086258}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":30},\"to\":{\"line\":28,\"ch\":30}},\"scroll\":12.205091937765205}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":12},\"to\":{\"line\":37,\"ch\":12}},\"scroll\":21.675675675675677}"
-                    },
-                    {
-                      "title": "数组",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/数组.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":9},\"to\":{\"line\":40,\"ch\":9}},\"scroll\":21.528464634847612}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "原型对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/原型对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":39},\"to\":{\"line\":13,\"ch\":39}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":6.502121640735502}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":12,\"ch\":11}},\"scroll\":22.63254744105808}"
-                    },
-                    {
-                      "title": "JS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":1.9813127083435966}"
-                    },
-                    {
-                      "title": "编程语言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "包管理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/包管理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5043478260869565}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "JS模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":17},\"to\":{\"line\":2,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "AMD",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/AMD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}}}"
-                    },
-                    {
-                      "title": "JS模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "模块",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":46},\"to\":{\"line\":3,\"ch\":46}}}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":19},\"to\":{\"line\":6,\"ch\":19}}}"
-                    },
-                    {
-                      "title": "模块",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}}}"
                     }
                   ]
                 },
@@ -888,7 +252,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/编程语言/JS/函数.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "backlinks": false,
                     "source": false
                   }
@@ -1097,6 +461,15 @@
           {
             "id": "9e1b511b8bba9377",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -1258,6 +631,15 @@
           {
             "id": "ce27e667895bb5ae",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "review-queue-list-view",
               "state": {}
@@ -1334,18 +716,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-map-view:Open map view": false,
-      "obsidian-journey-plugin:Find Journey": false,
-      "juggl:Juggl global graph": false,
-      "smart-random-note:Open Random Note from Search": false,
-      "workbench-obsidian:Workbench": false,
-      "vantage-obsidian:Vantage - Advanced search builder": false,
-      "obisidian-note-linker:Note Linker": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
@@ -1354,17 +724,26 @@
       "zk-prefixer:创建时间戳笔记": false,
       "random-note:开始漫游笔记": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-memos:Memos": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-journey-plugin:Find Journey": false,
+      "juggl:Juggl global graph": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "smart-random-note:Open Random Note from Search": false,
+      "workbench-obsidian:Workbench": false,
+      "vantage-obsidian:Vantage - Advanced search builder": false,
+      "obisidian-note-linker:Note Linker": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "9a6b5f4afc0f8944",
-  "ophidian:layout-settings": {
-    "pane-relief:focus-lock": true
-  },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/函数.md",
