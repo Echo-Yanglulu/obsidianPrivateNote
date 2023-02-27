@@ -1440,7 +1440,7 @@ var require_readline_sync = __commonJS({
     var ALGORITHM_CIPHER = "aes-256-cbc";
     var ALGORITHM_HASH = "sha256";
     var DEFAULT_ERR_MSG = "The current environment doesn't support interactive reading from TTY.";
-    var fs3 = require("fs");
+    var fs2 = require("fs");
     var TTY = process.binding("tty_wrap").TTY;
     var childProc = require("child_process");
     var pathUtil = require("path");
@@ -1514,7 +1514,7 @@ var require_readline_sync = __commonJS({
         while (true) {
           filepath = pathUtil.join(tempdir, name + suffix);
           try {
-            fd = fs3.openSync(filepath, "wx");
+            fd = fs2.openSync(filepath, "wx");
           } catch (e) {
             if (e.code === "EEXIST") {
               suffix++;
@@ -1523,7 +1523,7 @@ var require_readline_sync = __commonJS({
               throw e;
             }
           }
-          fs3.closeSync(fd);
+          fs2.closeSync(fd);
           break;
         }
         return filepath;
@@ -1565,16 +1565,16 @@ var require_readline_sync = __commonJS({
         res.error.program = shellPath;
         res.error.args = shellArgs;
       }
-      while (fs3.readFileSync(pathDone, { encoding: options.encoding }).trim() !== "1") {
+      while (fs2.readFileSync(pathDone, { encoding: options.encoding }).trim() !== "1") {
       }
-      if ((exitCode = fs3.readFileSync(pathExit, { encoding: options.encoding }).trim()) === "0") {
+      if ((exitCode = fs2.readFileSync(pathExit, { encoding: options.encoding }).trim()) === "0") {
         res.input = decipher.update(
-          fs3.readFileSync(pathStdout, { encoding: "binary" }),
+          fs2.readFileSync(pathStdout, { encoding: "binary" }),
           "hex",
           options.encoding
         ) + decipher.final(options.encoding);
       } else {
-        extMessage = fs3.readFileSync(pathStderr, { encoding: options.encoding }).trim();
+        extMessage = fs2.readFileSync(pathStderr, { encoding: options.encoding }).trim();
         res.error = new Error(DEFAULT_ERR_MSG + (extMessage ? "\n" + extMessage : ""));
         res.error.method = "_execFileSync";
         res.error.program = shellPath;
@@ -1582,10 +1582,10 @@ var require_readline_sync = __commonJS({
         res.error.extMessage = extMessage;
         res.error.exitCode = +exitCode;
       }
-      fs3.unlinkSync(pathStdout);
-      fs3.unlinkSync(pathStderr);
-      fs3.unlinkSync(pathExit);
-      fs3.unlinkSync(pathDone);
+      fs2.unlinkSync(pathStdout);
+      fs2.unlinkSync(pathStderr);
+      fs2.unlinkSync(pathExit);
+      fs2.unlinkSync(pathDone);
       return res;
     }
     function readlineExt(options) {
@@ -1689,7 +1689,7 @@ var require_readline_sync = __commonJS({
             fdW = process.stdout.fd;
           } else {
             try {
-              fdW = fs3.openSync("\\\\.\\CON", "w");
+              fdW = fs2.openSync("\\\\.\\CON", "w");
             } catch (e) {
             }
             if (typeof fdW !== "number") {
@@ -1703,13 +1703,13 @@ var require_readline_sync = __commonJS({
           if (process.stdin.isTTY) {
             process.stdin.pause();
             try {
-              fdR = fs3.openSync("/dev/tty", "r");
+              fdR = fs2.openSync("/dev/tty", "r");
               ttyR = process.stdin._handle;
             } catch (e) {
             }
           } else {
             try {
-              fdR = fs3.openSync("/dev/tty", "r");
+              fdR = fs2.openSync("/dev/tty", "r");
               ttyR = new TTY(fdR, false);
             } catch (e) {
             }
@@ -1718,7 +1718,7 @@ var require_readline_sync = __commonJS({
             fdW = process.stdout.fd;
           } else {
             try {
-              fdW = fs3.openSync("/dev/tty", "w");
+              fdW = fs2.openSync("/dev/tty", "w");
             } catch (e) {
             }
           }
@@ -1742,7 +1742,7 @@ var require_readline_sync = __commonJS({
           return;
         }
         if (options.display) {
-          fs3.writeSync(fdW, options.display);
+          fs2.writeSync(fdW, options.display);
           options.display = "";
         }
         if (options.displayOnly) {
@@ -1763,7 +1763,7 @@ var require_readline_sync = __commonJS({
         while (true) {
           readSize = 0;
           try {
-            readSize = fs3.readSync(fdR, buffer, 0, reqSize);
+            readSize = fs2.readSync(fdR, buffer, 0, reqSize);
           } catch (e) {
             if (e.code !== "EOF") {
               setRawMode(false);
@@ -1791,9 +1791,9 @@ var require_readline_sync = __commonJS({
           if (chunk) {
             if (!isCooked) {
               if (!options.hideEchoBack) {
-                fs3.writeSync(fdW, chunk);
+                fs2.writeSync(fdW, chunk);
               } else if (options.mask) {
-                fs3.writeSync(fdW, new Array(chunk.length + 1).join(options.mask));
+                fs2.writeSync(fdW, new Array(chunk.length + 1).join(options.mask));
               }
             }
             input += chunk;
@@ -1803,7 +1803,7 @@ var require_readline_sync = __commonJS({
           }
         }
         if (!isCooked && !silent) {
-          fs3.writeSync(fdW, "\n");
+          fs2.writeSync(fdW, "\n");
         }
         setRawMode(false);
       })();
@@ -2314,17 +2314,17 @@ var require_readline_sync = __commonJS({
           function mkdirParents(dirPath) {
             dirPath.split(/\/|\\/).reduce(function(parents, dir) {
               var path = pathUtil.resolve(parents += dir + pathUtil.sep);
-              if (!fs3.existsSync(path)) {
-                fs3.mkdirSync(path);
-              } else if (!fs3.statSync(path).isDirectory()) {
+              if (!fs2.existsSync(path)) {
+                fs2.mkdirSync(path);
+              } else if (!fs2.statSync(path).isDirectory()) {
                 throw new Error("Non directory already exists: " + path);
               }
               return parents;
             }, "");
           }
           try {
-            exists = fs3.existsSync(value);
-            validPath = exists ? fs3.realpathSync(value) : pathUtil.resolve(value);
+            exists = fs2.existsSync(value);
+            validPath = exists ? fs2.realpathSync(value) : pathUtil.resolve(value);
             if (!options.hasOwnProperty("exists") && !exists || typeof options.exists === "boolean" && options.exists !== exists) {
               error = (exists ? "Already exists" : "No such file or directory") + ": " + validPath;
               return false;
@@ -2334,12 +2334,12 @@ var require_readline_sync = __commonJS({
                 mkdirParents(validPath);
               } else {
                 mkdirParents(pathUtil.dirname(validPath));
-                fs3.closeSync(fs3.openSync(validPath, "w"));
+                fs2.closeSync(fs2.openSync(validPath, "w"));
               }
-              validPath = fs3.realpathSync(validPath);
+              validPath = fs2.realpathSync(validPath);
             }
             if (exists && (options.min || options.max || options.isFile || options.isDirectory)) {
-              stat = fs3.statSync(validPath);
+              stat = fs2.statSync(validPath);
               if (options.isFile && !stat.isFile()) {
                 error = "Not file: " + validPath;
                 return false;
@@ -2754,18 +2754,18 @@ var require_core = __commonJS({
       };
       nodejs_file_system = {
         open: function(path, type, mode) {
-          var fd, fs3 = require("fs");
-          if (mode === "read" && !fs3.existsSync(path))
+          var fd, fs2 = require("fs");
+          if (mode === "read" && !fs2.existsSync(path))
             return null;
           try {
-            fd = fs3.openSync(path, mode[0]);
+            fd = fs2.openSync(path, mode[0]);
           } catch (ex) {
             return false;
           }
           return {
             get: function(length, position) {
               var buffer = new Buffer(length);
-              fs3.readSync(fd, buffer, 0, length, position);
+              fs2.readSync(fd, buffer, 0, length, position);
               var end_of_file = true;
               var text = buffer.toString();
               for (var i2 = 0; i2 < length && end_of_file; i2++)
@@ -2773,23 +2773,23 @@ var require_core = __commonJS({
               return end_of_file ? "end_of_stream" : buffer.toString();
             },
             eof: function(position) {
-              var stats = fs3.statSync(path);
+              var stats = fs2.statSync(path);
               return position === stats["size"];
             },
             put: function(text, position) {
               var buffer = Buffer.from(text);
               if (position === "end_of_stream")
-                fs3.writeSync(fd, buffer);
+                fs2.writeSync(fd, buffer);
               else if (position === "past_end_of_stream")
                 return null;
               else
-                fs3.writeSync(fd, buffer, 0, buffer.length, position);
+                fs2.writeSync(fd, buffer, 0, buffer.length, position);
               return true;
             },
             get_byte: function(position) {
               try {
                 var buffer = Buffer.alloc(1);
-                var bytesRead = fs3.readSync(fd, buffer, 0, 1, position);
+                var bytesRead = fs2.readSync(fd, buffer, 0, 1, position);
                 var end_of_file = bytesRead < 1;
                 return end_of_file ? "end_of_stream" : buffer.readUInt8(0);
               } catch (ex) {
@@ -2799,18 +2799,18 @@ var require_core = __commonJS({
             put_byte: function(byte, position) {
               var buffer = Buffer.from([byte]);
               if (position === "end_of_stream")
-                fs3.writeSync(fd, buffer);
+                fs2.writeSync(fd, buffer);
               else if (position === "past_end_of_stream")
                 return null;
               else
-                fs3.writeSync(fd, buffer, 0, buffer.length, position);
+                fs2.writeSync(fd, buffer, 0, buffer.length, position);
               return true;
             },
             flush: function() {
               return true;
             },
             close: function() {
-              fs3.closeSync(fd);
+              fs2.closeSync(fd);
               return true;
             }
           };
@@ -5066,9 +5066,9 @@ var require_core = __commonJS({
             }
           }
           if (!success && opts.file && this.get_flag("nodejs").indicator === "true/0") {
-            var fs3 = require("fs");
+            var fs2 = require("fs");
             var thread = this;
-            fs3.readFile(program, function(error, data) {
+            fs2.readFile(program, function(error, data) {
               if (error) {
                 opts.file = false;
                 thread.consult(program, opts);
@@ -12114,24 +12114,25 @@ var ReplExecutor = class extends AsyncExecutor {
       args.unshift("-e", path);
       path = "wsl";
     }
-    this.process = (0, import_child_process2.spawn)(path, args);
+    this.process = (0, import_child_process2.spawn)(path, args, { env: process.env });
     this.process.on("close", () => {
       this.emit("close");
       new import_obsidian32.Notice("Runtime exited");
       this.process = null;
     });
     this.process.on("error", (err) => {
-      this.notifyError(settings.pythonPath, args.join(" "), "", err, void 0, "Error launching Python process: " + err);
+      this.notifyError(settings.pythonPath, args.join(" "), "", err, void 0, "Error launching process: " + err);
       this.stop();
     });
-    this.setup();
+    this.setup().then(() => {
+    });
   }
   run(code, outputter, cmd, cmdArgs, ext) {
     outputter.queueBlock();
-    return this.addJobToQueue((resolve, reject) => {
+    return this.addJobToQueue((resolve, _reject) => {
       if (this.process === null)
         return resolve();
-      const finishSigil = `SIGIL_BLOCK_DONE${Math.random()}_${Date.now()}_${code.length}`;
+      const finishSigil = `SIGIL_BLOCK_DONE_${Math.random()}_${Date.now()}_${code.length}`;
       outputter.startBlock();
       const wrappedCode = this.wrapCode(code, finishSigil);
       this.process.stdin.write(wrappedCode);
@@ -12163,7 +12164,7 @@ var ReplExecutor = class extends AsyncExecutor {
     });
   }
   stop() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, _reject) => {
       this.process.on("close", () => {
         resolve();
       });
@@ -12558,44 +12559,6 @@ var FSharpExecutor = class extends NonInteractiveCodeExecutor {
   }
 };
 
-// src/executors/PowerShellOnWindowsExecutor.ts
-var fs2 = __toESM(require("fs"));
-var child_process3 = __toESM(require("child_process"));
-var PowerShellOnWindowsExecutor = class extends NonInteractiveCodeExecutor {
-  constructor(settings, file) {
-    super(settings, true, file, "powershell");
-  }
-  stop() {
-    return Promise.resolve();
-  }
-  run(codeBlockContent, outputter, cmd, cmdArgs, ext) {
-    if (this.resolveRun !== void 0)
-      this.resolveRun();
-    this.resolveRun = void 0;
-    return new Promise((resolve, reject) => {
-      const tempFileName = this.getTempFile(ext);
-      fs2.promises.writeFile(tempFileName, codeBlockContent, this.settings.powershellEncoding).then(() => {
-        const args = cmdArgs ? cmdArgs.split(" ") : [];
-        if (this.settings.wslMode) {
-          args.unshift("-e", cmd);
-          cmd = "wsl";
-          args.push(windowsPathToWsl_default(tempFileName));
-        } else {
-          args.push(tempFileName);
-        }
-        const child = child_process3.spawn(cmd, args, { env: process.env, shell: this.usesShell });
-        this.handleChildOutput(child, outputter, tempFileName).then(() => {
-          this.tempFileId = void 0;
-        });
-        this.resolveRun = resolve;
-      }).catch((err) => {
-        this.notifyError(cmd, cmdArgs, tempFileName, err, outputter);
-        resolve();
-      });
-    });
-  }
-};
-
 // src/ExecutorContainer.ts
 var interactiveExecutors = {
   "js": NodeJSExecutor,
@@ -12606,8 +12569,7 @@ var nonInteractiveExecutors = {
   "prolog": PrologExecutor,
   "cpp": CppExecutor,
   "c": CExecutor,
-  "fsharp": FSharpExecutor,
-  "powershell": PowerShellOnWindowsExecutor
+  "fsharp": FSharpExecutor
 };
 var ExecutorContainer = class extends import_events2.EventEmitter {
   constructor(plugin) {
@@ -12877,8 +12839,9 @@ var ExecuteCodePlugin2 = class extends import_obsidian37.Plugin {
       const pre = codeBlock.parentElement;
       const parent = pre.parentElement;
       const srcCode = codeBlock.getText();
+      let sanitizedClassList = this.sanitizeClassListOfCodeBlock(codeBlock);
       const canonicalLanguage = getLanguageAlias(
-        supportedLanguages.find((lang) => codeBlock.classList.contains(`language-${lang}`))
+        supportedLanguages.find((lang) => sanitizedClassList.contains(`language-${lang}`))
       );
       if (canonicalLanguage && !parent.classList.contains(hasButtonClass)) {
         const out = new Outputter(codeBlock, this.settings.allowInput);
@@ -12888,6 +12851,10 @@ var ExecuteCodePlugin2 = class extends import_obsidian37.Plugin {
         this.addListenerToButton(canonicalLanguage, srcCode, button, out, file);
       }
     });
+  }
+  sanitizeClassListOfCodeBlock(codeBlock) {
+    let sanitizedClassList = Array.from(codeBlock.classList);
+    return sanitizedClassList.map((c) => c.toLowerCase());
   }
   addListenerToButton(language, srcCode, button, out, file) {
     if (language === "js") {
