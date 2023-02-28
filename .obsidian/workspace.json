@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 18.929110105580694,
+            "dimension": 13.062409288824384,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md"
+                    "file": "笔记/前端/编程语言/JS/网络请求.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 65.98793363499246,
+            "dimension": 71.84325108853412,
             "children": [
               {
                 "id": "48c40bbeb9dd014b",
@@ -135,13 +135,49 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":1.974416538609297}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "自己的学习行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":22},\"to\":{\"line\":10,\"ch\":22}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md",
+                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -281,12 +317,12 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.082956259426847,
+            "dimension": 15.09433962264151,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -307,7 +343,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -334,7 +370,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -728,15 +764,23 @@
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "obisidian-note-linker:Note Linker": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "9c9a6c4a22c40ab4",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/FormData.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/语句.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
