@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "值",
