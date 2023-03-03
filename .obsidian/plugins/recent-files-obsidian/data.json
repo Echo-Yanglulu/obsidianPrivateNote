@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
+      "basename": "FormData",
+      "path": "笔记/前端/编程语言/JS/FormData.md"
+    },
+    {
       "basename": "npm",
       "path": "笔记/前端/工程化/npm.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "模块化编程",
       "path": "笔记/前端/编程语言/JS/基本概念/模块化编程.md"
-    },
-    {
-      "basename": "模块",
-      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
     }
   ],
   "omittedPaths": [],
