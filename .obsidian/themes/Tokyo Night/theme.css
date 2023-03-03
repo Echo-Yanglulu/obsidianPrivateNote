@@ -18,6 +18,13 @@
 }
 
 .theme-dark {
+  /* --accent-h: 261; /* magenta */
+  /* --accent-s: 85%; */
+  /* --accent-l: 79%; */
+  --accent-h: 202; /* cyan */
+  --accent-s: 100%;
+  --accent-l: 75%;
+
   /* Credit: https://github.com/folke/tokyonight.nvim/blob/main/lua/tokyonight/colors.lua */
   --bg_dark2_x: 18, 18, 24;
   --bg_dark2: rgb(var(--bg_dark2_x));
@@ -41,8 +48,10 @@
   --blue0: rgb(var(--blue0_x));
   --blue_x: 122, 162, 247;
   --blue: rgb(var(--blue_x));
+  --cyan_hsl: 202 100% 75%;
   --cyan_x: 125, 207, 255;
   --cyan: rgb(var(--cyan_x));
+  --magent_hsl: 261 85% 79%;
   --magenta_x: 187, 154, 247;
   --magenta: rgb(var(--magenta_x));
   --purple_x: 157, 124, 21;
@@ -63,6 +72,13 @@
 }
 
 .theme-light {
+  /* --accent-h: 261; /* magenta */
+  /* --accent-s: 24%; */
+  /* --accent-l: 38%; */
+  --accent-h: 202; /* cyan */
+  --accent-s: 86%;
+  --accent-l: 43%;
+
   --bg_dark2_x: 188, 189, 194;
   --bg_dark2: rgb(var(--bg_dark2_x));
   --bg_dark_x: 203, 204, 209;
@@ -87,6 +103,7 @@
   --blue: rgb(var(--blue_x));
   --cyan_x: 15, 75, 110;
   --cyan: rgb(var(--cyan_x));
+  --magent_hsl: 261 24% 38%;
   --magenta_x: 90, 74, 120;
   --magenta: rgb(var(--magenta_x));
   --purple_x: 65, 49, 95;
@@ -124,7 +141,6 @@
   --color-orange: var(--orange);
   --color_pink_rgb: var(--magenta_x);
   --color-pink: var(--magenta);
-  --color-accent: var(--magenta);
 
   --background-primary: var(--bg);
   --background-primary-alt: var(--bg);
@@ -138,7 +154,7 @@
   --background-modifier-form-field-highlighted: var(--bg_dark);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: var(--green);
-  --background-modifier-error: rgba(var(--red_x), 0.5);
+  --background-modifier-error: rgba(var(--red_x), 0.8);
   --background-modifier-error-hover: var(--red);
   --background-modifier-cover: rgba(var(--bg_dark_x), 0.8);
   --background-modifier-hover: var(--bg_highlight);
@@ -154,9 +170,6 @@
   --h5-color: var(--blue);
   --h6-color: var(--magenta);
 
-  --text-accent: rgba(var(--blue_x), 0.9);
-  --text-accent-hover: var(--blue);
-
   --tag-color: var(--magenta);
   --tag-background: rgba(var(--magenta_x), 0.15);
 
@@ -170,8 +183,6 @@
   --text-on-accent: var(--bg);
   --interactive-normal: var(--bg_dark);
   --interactive-hover: var(--bg);
-  --interactive-accent: var(--magenta);
-  --interactive-accent-hover: var(--magenta);
   --interactive-success: var(--green);
 
   --text-highlight-bg: rgba(var(--orange_x), 0.4);
@@ -179,8 +190,8 @@
 
   --titlebar-text-color-focused: var(--magenta);
 
-  --bold-color: var(--yellow);
-  --italic-color: var(--yellow);
+  --bold-color: inherit;
+  --italic-color: inherit;
 
   --checkbox-color: var(--comment);
   --checkbox-color-hover: var(--comment);
@@ -211,6 +222,7 @@
   --nav-item-color-active: var(--red);
   --nav-item-background-active: var(--bg_highlight);
   --nav-file-tag: rgba(var(--yellow_x), 0.9);
+  --nav-indentation-guide-color: var(--bg_highlight);
 
   --graph-line: var(--comment);
   --graph-node: var(--fg);
@@ -238,3 +250,13 @@
 .ͼ2 .cm-panels-bottom {
   border-top: 1px solid var(--bg_highlight);
 }
+
+/* kanban */
+.kanban-plugin__lane-action-add {
+  color: var(--fg);
+}
+
+/* .kanban-plugin__autocomplete-item-active, */
+/* .kanban-plugin__ignore-click-outside { */
+/*   background-color: var(--bg_highlight); */
+/* } */
