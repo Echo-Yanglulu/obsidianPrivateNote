@@ -16,7 +16,7 @@ CI重在==个人对团队==的交付。
 ### 保证失败可追溯
 1. 测试结果通知
 2. [[版本规范|changelog]]
-3. [[1.Code Review|CR机制]]
+3. [[Code Review|CR机制]]
 4. ...
 ### 非专业CI工具
 #### GITHUB

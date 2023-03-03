@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -401,7 +401,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -428,7 +428,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -555,6 +555,15 @@
           {
             "id": "1bd6db491e5d74fd",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -829,11 +838,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cabcda0072888b1b",
+  "active": "48d3f19065b8cf74",
   "lastOpenFiles": [
-    "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/3.监控与异常上报.md",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/质量/监控与异常上报.md",
+    "笔记/前端/工程化/质量/Code Review.md",
+    "笔记/前端/工程化/质量/测试.md",
+    "笔记/学习方法/概念/测试.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/assets/Pasted image 20220831223242.png",
     "笔记/前端/前端.md",
@@ -856,9 +868,6 @@
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/异常捕获.md",
-    "笔记/前端/编程语言/JS/JS API.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/编程语言/JS/基本概念/类.md",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
     "笔记/mindmap/JS复习.xmind",
     "笔记/前端/编程语言/JS/函数.md.baiduyun.uploading.cfg",
