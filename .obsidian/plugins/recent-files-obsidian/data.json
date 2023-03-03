@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "网络请求",
-      "path": "笔记/前端/编程语言/JS/网络请求.md"
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "FormData",
       "path": "笔记/前端/编程语言/JS/FormData.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
       "basename": "npm",
@@ -21,16 +33,8 @@
       "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
     },
     {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "自己的学习行为",
@@ -195,10 +199,6 @@
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "模块化编程",
-      "path": "笔记/前端/编程语言/JS/基本概念/模块化编程.md"
     }
   ],
   "omittedPaths": [],

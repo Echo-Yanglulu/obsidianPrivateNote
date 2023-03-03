@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -221,13 +221,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "FormData",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/FormData.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":33},\"to\":{\"line\":4,\"ch\":33}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/FormData.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -367,7 +373,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -393,7 +399,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -420,7 +426,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -821,20 +827,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9d7a531a75bf2eaa",
+  "active": "79ac6dd8ea43b24c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/URL.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/CSS基本概念.svg",
+    "笔记/前端/编程语言/CSS/层叠.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/FormData.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/URL.md",
     "笔记/mindmap/JS复习.xmind",
     "笔记/前端/编程语言/JS/SSL.md",
     "笔记/前端/编程语言/JS/凭据.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/语句.md",
@@ -851,10 +862,6 @@
     "笔记/前端/编程语言/JS/基本概念/普通对象.md.baiduyun.uploading.cfg",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/关键字.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/this.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/关键字.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/编程语言/JS/面向对象编程.md",
-    "笔记/前端/编程语言/JS/编程范式.md"
+    "笔记/前端/编程语言/JS/this.md.baiduyun.uploading.cfg"
   ]
 }
