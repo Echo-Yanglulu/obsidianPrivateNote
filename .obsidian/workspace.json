@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端.md"
+                    "file": "笔记/前端/工程化/工程化.md"
                   }
                 }
               }
@@ -91,13 +91,73 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":9},\"to\":{\"line\":12,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":10},\"to\":{\"line\":20,\"ch\":10}},\"scroll\":1.858152525430705}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":10},\"to\":{\"line\":20,\"ch\":10}},\"scroll\":1.511942141471159}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":3},\"to\":{\"line\":39,\"ch\":3}},\"scroll\":16.857302118171685}"
+                    },
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":8},\"to\":{\"line\":43,\"ch\":8}},\"scroll\":18.89093137254902}"
+                    },
+                    {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":152,\"ch\":10},\"to\":{\"line\":152,\"ch\":10}},\"scroll\":126.89966555183946}"
+                    },
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":8},\"to\":{\"line\":43,\"ch\":8}},\"scroll\":18.89093137254902}"
+                    },
+                    {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":141,\"ch\":15},\"to\":{\"line\":141,\"ch\":15}},\"scroll\":128.9975}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -120,64 +180,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/工程化/构建/webpack.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9c9a6c4a22c40ab4",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "浏览器",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "宿主环境",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "JS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":1.974416538609297}"
-                    },
-                    {
-                      "title": "编程语言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":22},\"to\":{\"line\":10,\"ch\":22}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -373,7 +375,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -399,7 +401,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -426,7 +428,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -827,40 +829,42 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "79ac6dd8ea43b24c",
+  "active": "cabcda0072888b1b",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/CSS/CSS基本概念.svg",
-    "笔记/前端/编程语言/CSS/层叠.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/质量/3.监控与异常上报.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/assets/Pasted image 20220831223242.png",
     "笔记/前端/前端.md",
-    "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/FormData.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/编程语言/JS/URL.md",
-    "笔记/mindmap/JS复习.xmind",
-    "笔记/前端/编程语言/JS/SSL.md",
-    "笔记/前端/编程语言/JS/凭据.md",
-    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/markdown.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/工程化/框架.md",
     "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器API.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/前端/编程语言/JS/函数.md",
-    "笔记/前端/编程语言/JS/语句.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/编程语言/JS/异常捕获.md",
+    "笔记/前端/编程语言/JS/JS API.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/基本概念/类.md",
+    "笔记/前端/编程语言/CSS/CSS基本概念.svg",
+    "笔记/mindmap/JS复习.xmind",
     "笔记/前端/编程语言/JS/函数.md.baiduyun.uploading.cfg",
     "笔记/前端/编程语言/JS/基本概念/解构赋值.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
-    "笔记/学习方法/语法.md",
-    "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/编程语言/JS/全局对象.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/全局对象.md",
-    "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/关键字.md.baiduyun.uploading.cfg",
     "笔记/前端/编程语言/JS/this.md.baiduyun.uploading.cfg"
   ]

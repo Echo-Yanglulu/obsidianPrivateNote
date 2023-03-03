@@ -1,28 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
     {
-      "basename": "CSS",
-      "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
-      "basename": "FormData",
-      "path": "笔记/前端/编程语言/JS/FormData.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "笔记/前端/编程语言/JS/网络请求.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
+      "basename": "markdown",
+      "path": "笔记/前端/markdown.md"
     },
     {
       "basename": "浏览器",
@@ -33,12 +25,16 @@
       "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
     },
     {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
     },
     {
-      "basename": "自己的学习行为",
-      "path": "笔记/学习方法/自己的学习行为.md"
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "函数",
@@ -47,6 +43,38 @@
     {
       "basename": "普通对象",
       "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "异步JS",
+      "path": "笔记/前端/编程语言/JS/异步JS.md"
+    },
+    {
+      "basename": "数据格式",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据格式.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "笔记/前端/编程语言/JS/网络请求.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "FormData",
+      "path": "笔记/前端/编程语言/JS/FormData.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "自己的学习行为",
+      "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
       "basename": "this",
@@ -67,10 +95,6 @@
     {
       "basename": "Map",
       "path": "笔记/前端/编程语言/JS/基本概念/Map.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "数组",
@@ -125,16 +149,8 @@
       "path": "笔记/前端/包管理.md"
     },
     {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
       "basename": "值",
       "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "数据格式",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据格式.md"
     },
     {
       "basename": "node",
@@ -183,22 +199,6 @@
     {
       "basename": "JS模块化",
       "path": "笔记/前端/工程化/JS模块化.md"
-    },
-    {
-      "basename": "AMD",
-      "path": "笔记/前端/工程化/构建/AMD.md"
-    },
-    {
-      "basename": "模块化",
-      "path": "笔记/前端/工程化/模块化.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
     }
   ],
   "omittedPaths": [],

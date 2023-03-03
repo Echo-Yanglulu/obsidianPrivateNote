@@ -12,3 +12,5 @@
 	1. 回调嵌套/地狱
 	2. Promise API
 	3. async函数
+	4. genarator
+	5. iterable
