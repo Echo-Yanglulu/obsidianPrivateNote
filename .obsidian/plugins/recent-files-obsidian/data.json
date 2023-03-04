@@ -5,6 +5,18 @@
       "path": "笔记/前端/markdown.md"
     },
     {
+      "basename": "shiprock.jpg",
+      "path": "assets/img/shiprock.jpg.md"
+    },
+    {
+      "basename": "'图片链接'",
+      "path": "笔记/前端/'图片链接'.md"
+    },
+    {
+      "basename": "''",
+      "path": "笔记/前端/''.md"
+    },
+    {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "理解",
       "path": "笔记/学习方法/概念/理解.md"
-    },
-    {
-      "basename": "评估",
-      "path": "笔记/工具/通用概念/评估.md"
-    },
-    {
-      "basename": "打包工具",
-      "path": "笔记/前端/工程化/构建/打包工具.md"
-    },
-    {
-      "basename": "JS模块化",
-      "path": "笔记/前端/工程化/JS模块化.md"
     }
   ],
   "omittedPaths": [],
