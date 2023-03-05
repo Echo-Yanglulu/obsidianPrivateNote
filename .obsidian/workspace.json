@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/markdown.md"
+                    "file": "笔记/学习方法/自由技艺.md"
                   }
                 }
               }
@@ -387,7 +387,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -413,7 +413,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/markdown.md",
+                        "file": "笔记/学习方法/自由技艺.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -440,7 +440,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/markdown.md",
+                        "file": "笔记/学习方法/自由技艺.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -850,17 +850,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "48d3f19065b8cf74",
+  "active": "0b962ee9e88348f1",
   "lastOpenFiles": [
-    "assets/img/shiprock.jpg.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
+    "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/markdown.md",
+    "assets/img/shiprock.jpg.md",
     "assets/img",
     "assets",
     "笔记/前端/'图片链接'.md",
     "笔记/前端/''.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
@@ -879,8 +882,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
     "笔记/mindmap/JS复习.xmind",
