@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "自己的学习行为",
       "path": "笔记/学习方法/自己的学习行为.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
       "basename": "markdown",
