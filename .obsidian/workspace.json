@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/客户端存储.md"
+                  }
                 }
               }
             ]
@@ -230,7 +232,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/编程语言/JS/客户端存储.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "backlinks": true,
                     "source": false
                   }
@@ -453,6 +455,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -479,6 +482,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -888,7 +892,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "da367dbbb80f273f",
+  "active": "9d7a531a75bf2eaa",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/编程语言/JS/浏览器.md",
