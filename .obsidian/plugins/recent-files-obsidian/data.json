@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "客户端存储",
-      "path": "笔记/前端/编程语言/JS/客户端存储.md"
+      "basename": "模块模式",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
+    },
+    {
+      "basename": "模块",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
     },
     {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "客户端存储",
+      "path": "笔记/前端/编程语言/JS/客户端存储.md"
     },
     {
       "basename": "网络请求",
@@ -191,14 +199,6 @@
     {
       "basename": "本质",
       "path": "笔记/工具/通用概念/本质.md"
-    },
-    {
-      "basename": "DOCTORS模型",
-      "path": "笔记/工具/通用概念/DOCTORS模型.md"
-    },
-    {
-      "basename": "记忆",
-      "path": "笔记/工具/思考/记忆/记忆.md"
     }
   ],
   "omittedPaths": [],
