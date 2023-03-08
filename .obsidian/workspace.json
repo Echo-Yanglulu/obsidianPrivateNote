@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
+                    "file": "笔记/工具/思考/思维概念/思想.md"
                   }
                 }
               }
@@ -207,6 +207,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":33},\"to\":{\"line\":16,\"ch\":33}}}"
+                    },
+                    {
+                      "title": "模块模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":13},\"to\":{\"line\":2,\"ch\":13}},\"scroll\":0}"
                     },
                     {
                       "title": "模块",
@@ -473,7 +485,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                        "file": "笔记/工具/思考/思维概念/思想.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -500,7 +512,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                        "file": "笔记/工具/思考/思维概念/思想.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -910,10 +922,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9d7a531a75bf2eaa",
+  "active": "d9369c68715c0386",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+    "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
@@ -941,8 +955,6 @@
     "笔记/前端/''.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/监控与异常上报.md",
-    "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/assets/Pasted image 20220831223242.png",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
     "笔记/mindmap/JS复习.xmind",
