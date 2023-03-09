@@ -69,6 +69,9 @@
   --red1_x: 219, 75, 75;
   --red1: rgb(var(--red1_x));
   --unknown: #ffffff;
+
+  --external-link-filter: invert(35%) sepia(28%) saturate(681%)
+    hue-rotate(192deg) brightness(94%) contrast(85%);
 }
 
 .theme-light {
@@ -121,6 +124,9 @@
   --red1_x: 115, 42, 56;
   --red1: rgb(var(--red1_x));
   --unknown: #000000;
+
+  --external-link-filter: invert(62%) sepia(9%) saturate(266%)
+    hue-rotate(189deg) brightness(97%) contrast(88%);
 }
 
 .theme-dark,
@@ -158,6 +164,7 @@
   --background-modifier-error-hover: var(--red);
   --background-modifier-cover: rgba(var(--bg_dark_x), 0.8);
   --background-modifier-hover: var(--bg_highlight);
+  --background-modifier-message: rgba(var(--bg_highlight_x), 0.9);
 
   --text-normal: var(--fg);
   --text-faint: var(--comment);
@@ -190,8 +197,8 @@
 
   --titlebar-text-color-focused: var(--magenta);
 
-  --bold-color: inherit;
-  --italic-color: inherit;
+  --bold-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  --italic-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 
   --checkbox-color: var(--comment);
   --checkbox-color-hover: var(--comment);
@@ -224,6 +231,9 @@
   --nav-file-tag: rgba(var(--yellow_x), 0.9);
   --nav-indentation-guide-color: var(--bg_highlight);
 
+  --indentation-guide-color: var(--comment);
+  --indentation-guide-color-active: var(--comment);
+
   --graph-line: var(--comment);
   --graph-node: var(--fg);
   --graph-node-tag: var(--orange);
@@ -236,9 +246,21 @@
   --prompt-border-color: var(--bg_highlight);
   --slider-track-background: var(--bg_highlight);
 
+  --border-width: 2px;
+
   --blockquote-background-color: var(--bg_dark);
+  --callout-quote: var(--fg_dark);
+
+  --embed-background: var(--bg_dark);
+  --embed-padding: 1.5rem 1.5rem 0.5rem;
 }
 
+/* mobile */
+.is-mobile .suggestion-item.is-selected {
+  background-color: var(--bg_highlight);
+}
+
+/* scrollbars */
 ::-webkit-scrollbar {
   width: 0;
 }
@@ -246,9 +268,31 @@
   height: 0;
 }
 
+/* tooltip */
+.tooltip {
+  color: var(--fg);
+}
+
+/* links */
+span.cm-formatting.cm-formatting-link-string.cm-string.cm-url.external-link {
+  filter: var(--external-link-filter);
+}
+
+/* notice */
+.notice {
+  background-color: var(--bg_dark);
+  border: 2px solid var(--bg_highlight);
+}
+
+/* callouts */
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  background-color: rgba(var(--bg_highlight_dark_x), 0.5);
+}
+
 /* for vim */
 .ͼ2 .cm-panels-bottom {
-  border-top: 1px solid var(--bg_highlight);
+  border-top: var(--border-width) solid var(--bg_highlight);
 }
 
 /* kanban */
@@ -256,7 +300,21 @@
   color: var(--fg);
 }
 
-/* .kanban-plugin__autocomplete-item-active, */
-/* .kanban-plugin__ignore-click-outside { */
-/*   background-color: var(--bg_highlight); */
-/* } */
+.kanban-plugin__lane-action-add:hover {
+  color: var(--bg);
+}
+
+.kanban-plugin__autocomplete-item:hover,
+.kanban-plugin__autocomplete-item-active {
+  color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+  background-color: var(--bg_highlight);
+}
+
+/* various-complement */
+.various-complements__suggestion-item::before {
+  filter: var(--external-link-filter);
+}
+
+.various-complements__footer::before {
+  filter: var(--external-link-filter);
+}
