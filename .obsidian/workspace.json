@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
                   }
                 }
               }
@@ -209,6 +209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":29},\"to\":{\"line\":25,\"ch\":29}},\"scroll\":0}"
+                    },
+                    {
                       "title": "模块模式",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -267,7 +273,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -491,7 +497,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -518,7 +524,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -895,7 +901,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -911,8 +917,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-journey-plugin:Find Journey": false,
@@ -921,19 +925,21 @@
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "obisidian-note-linker:Note Linker": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "remotely-save:Remotely Save": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "9d7a531a75bf2eaa",
   "lastOpenFiles": [
-    "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+    "笔记/前端/工程化/模块化.md",
+    "笔记/前端/工程化/JS模块化.md",
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/工具/思考/思维概念/逻辑.md",
