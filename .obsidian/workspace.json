@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
+                    "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md"
                   }
                 }
               }
@@ -212,6 +212,18 @@
                       "title": "模块",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":12},\"to\":{\"line\":30,\"ch\":12}},\"scroll\":10.687812379853902}"
+                    },
+                    {
+                      "title": "模块模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":8},\"to\":{\"line\":68,\"ch\":8}},\"scroll\":21.78186274509804}"
+                    },
+                    {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":29},\"to\":{\"line\":25,\"ch\":29}},\"scroll\":0}"
                     },
                     {
@@ -273,7 +285,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                    "file": "笔记/前端/工程化/JS模块化.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -497,7 +509,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -524,7 +536,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -934,13 +946,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9d7a531a75bf2eaa",
+  "active": "54e8f4261957ff1c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/规范/ESLint/CommonJS.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/工程化/模块化.md",
+    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/工具/思考/思维概念/逻辑.md",
@@ -966,8 +980,6 @@
     "assets/img/shiprock.jpg.md",
     "assets/img",
     "assets",
-    "笔记/前端/'图片链接'.md",
-    "笔记/前端/''.md",
     "笔记/前端/assets/Pasted image 20220831223242.png",
     "笔记/前端/编程语言/CSS/CSS基本概念.svg",
     "笔记/mindmap/JS复习.xmind",
