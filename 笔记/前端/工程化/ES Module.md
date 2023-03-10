@@ -28,6 +28,8 @@ JS模块文件没有专门的内容类型
 ```
 执行
 	1. 按顺序
+# 模块标识符
+可是[[相对路径]]或[[绝对路径]] 
 # 模块加载
 完全支持该规范的浏览器可从顶级模块（异步地）加载整个依赖图，
 
@@ -53,7 +55,6 @@ JS模块文件没有专门的内容类型
 	1. 异步加载
 	2. 因为属性1，所以只能加载一次
 	3. 可请求加载其他模块
-	4. 
 3. 执行
 	1. 异步执行
 	2. 默认在严格模式下
@@ -73,13 +74,20 @@ JS模块文件没有专门的内容类型
 	2. 如果别名是default，则等同于默认导出
 ``` javascript
 // 命名导出
-export let num = 1  // 行内命名导出
-export {a: 1, b: function(){}} // 对象字面量（常用）
-export { num as aName }// 别名
+export let num = 1  // 原始类型初始化
+export const baz = 'baz';
+export const foo = 'foo', bar = 'bar';
+export function* foo() {}  // 对象初始化
+export function foo() {}
+export class Foo {}
+export { name1, name2, …, nameN };// 导出列表
+export {a: 1, b: function(){}} 
 export { str as helloStr } from './b'// 引入外部模块，**别名导出**
 
-// 默认导出
-export default function () {} // 默认导出：变量命名无效
+// 子句命名导出
+export { foo };
+export { foo, bar };
+export { foo as myFoo, bar };
 
 // 导出单个特性
 export let name1, name2, …, nameN; // also var, const
@@ -87,20 +95,20 @@ export let name1 = …, name2 = …, …, nameN; // also var, const
 export function FunctionName(){...}
 export class ClassName {...}
 
-// 导出列表
-export { name1, name2, …, nameN };
-
-// 重命名导出
-export { variable1 as name1, variable2 as name2, …, nameN };
+// 默认导出
+export default 'foo';
+export default 123;
+export default /[a-z]*/;
+export default { foo: 'foo' };
+export { foo, bar as default };
+export default foo
+export default function () {} // 默认导出：变量命名无效
+export default function foo() {}
+export default function*() {}
+export default class {}
 
 // 解构导出并重命名
 export const { name1, name2: bar } = o;
-
-// 默认导出
-export default expression;
-export default function (…) { … } // also class, function*
-export default function name1(…) { … } // also class, function*
-export { name1 as default, … };
 
 // 导出模块合集
 export * from …; // does not set the default export
@@ -108,9 +116,21 @@ export * as name1 from …; // Draft ECMAScript® 2O21
 export { name1, name2, …, nameN } from …;
 export { import1 as name1, import2 as name2, …, nameN } from …;
 export { default } from …;
+
+// 会导致错误的不同形式：
+
+// 1.行内默认导出中不能出现变量声明
+export default const foo = 'bar';
+
+// 2.只有标识符可以出现在export子句中
+export { 123 as foo }
+
+// 3.别名只能在export子句中出现
+export const foo = 'foo' as myFoo;
 ```
 
 # 模块导入
+环境：同样必须出现在模块顶级
 ```javascript
 import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
 import defaultExport from "module-name"; // 默认导出，重命名

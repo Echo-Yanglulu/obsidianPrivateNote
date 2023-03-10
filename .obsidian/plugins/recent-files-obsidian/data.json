@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/ES Module.md"
     },
     {
+      "basename": "相对路径",
+      "path": "笔记/前端/工程化/相对路径.md"
+    },
+    {
       "basename": "JS模块化",
       "path": "笔记/前端/工程化/JS模块化.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "值",
       "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "node",
-      "path": "笔记/前端/工程化/node/node.md"
     }
   ],
   "omittedPaths": [],

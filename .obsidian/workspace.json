@@ -209,6 +209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "JS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":9},\"to\":{\"line\":22,\"ch\":9}},\"scroll\":0}"
+                    },
+                    {
                       "title": "模块",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -285,7 +291,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/JS模块化.md",
+                    "file": "笔记/前端/工程化/ES Module.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -946,12 +952,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "8ed46ab555c7e312",
+  "active": "9d7a531a75bf2eaa",
   "lastOpenFiles": [
+    "笔记/前端/工程化/相对路径.md",
+    "笔记/前端/工程化/绝对路径.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
@@ -974,10 +982,8 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/自由技艺.md",
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
     "笔记/前端/工程化/构建/webpack.svg",
-    "笔记/前端/markdown.md",
     "assets/img",
     "assets",
     "笔记/前端/assets/Pasted image 20220831223242.png",
