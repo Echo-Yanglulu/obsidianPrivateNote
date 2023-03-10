@@ -1,13 +1,85 @@
 ES6的语言级模块化方案
 	1. 支持node与浏览器等运行时
-	2. [[静态分析]][^1]
-### 导出
+		1. 不再需要加载器或预处理
+	2. [[静态分析]][^1] 
+# 模块标签及定义
+作为整块JS代码存在
+JS模块文件没有专门的内容类型
+
+带有type="module"属性的script标签：
+	1. 告诉浏览器，相关代码应*作为模块执行*，而不是*作为传统脚本执行*。
+	2. 立即下载模块文件，文档解析完成后执行（标签出现顺序就是执行顺序）
+带有async属性的script标签
+	1. 执行顺序不再是标签出现顺序，执行时机也不再是文档解析完成
+
+加载
+	1. 次数与方式不影响，都只会加载一次。
+```javascript
+<!-- moduleA在这个页面上只会被加载一次 -->
+
+<script type="module">
+  import './moduleA.js'
+<script>
+<script type="module">
+  import './moduleA.js'
+<script>
+<script type="module" src="./moduleA.js"></script>
+<script type="module" src="./moduleA.js"></script>
+```
+执行
+	1. 按顺序
+# 模块加载
+完全支持该规范的浏览器可从顶级模块（异步地）加载整个依赖图，
+
+浏览器加载模块过程
+	1. 解析入口模块
+	2. 确定依赖
+	3. 发送对依赖模块的请求
+	4. 对返回的请求解析，请求并加载所有依赖
+	5. 整个依赖图解析完成
+	6. 应用正式加载模块
+# 模块行为
+## 属性
+1. 模块是单例
+2. 可定义公共接口
+	1. 其他模块可基于这个接口观察与交互
+3. 不共享全局命名空间
+4. 顶级this的值是undefined
+5. var声明不会添加到window对象
+## 行为
+1. 依赖
+	1. 支持循环依赖
+2. 加载
+	1. 异步加载
+	2. 因为属性1，所以只能加载一次
+	3. 可请求加载其他模块
+	4. 
+3. 执行
+	1. 异步执行
+	2. 默认在严格模式下
+# 模块导出
+方式（不同的导出方式对应不同的导入方式）
+	1. 命名导出
+		1. 形式：export 关键字
+		2. 数量：可有多个
+		3. 环境：只能在模块顶级，不能在块中
+	2. 默认导出：模块就是被导出的值
+		1. 形式：export default
+		2. 数量：只有一个【重复会报typeError】
+两种方式可并存
+
+别名
+	1. 必须在大括号语法中
+	2. 如果别名是default，则等同于默认导出
 ``` javascript
-export let num = 1
-export {a: 1, b: function(){}} // 对象字面量
+// 命名导出
+export let num = 1  // 行内命名导出
+export {a: 1, b: function(){}} // 对象字面量（常用）
+export { num as aName }// 别名
+export { str as helloStr } from './b'// 引入外部模块，**别名导出**
+
+// 默认导出
 export default function () {} // 默认导出：变量命名无效
-export { num as aName }// 导出重命名
-export { str as helloStr } from './b'// 引入外部模块，**重新导出**
 
 // 导出单个特性
 export let name1, name2, …, nameN; // also var, const
@@ -38,7 +110,7 @@ export { import1 as name1, import2 as name2, …, nameN } from …;
 export { default } from …;
 ```
 
-### 导入
+# 模块导入
 ```javascript
 import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
 import defaultExport from "module-name"; // 默认导出，重命名
@@ -61,5 +133,9 @@ import defaultExport, * as name from "module-name"; // 默认与命名同时（�
 import "module-name"; // 运行模块中的全局代码，不导入任何导出
 var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
+
+# 模块转移导出
+# 工作者模块
+# 向后兼容
 
 [^1]: JS引擎不需要通过require函数才能知道引入的模块，在解析代码时可通过[[AST]]得到依赖关系

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md"
+                    "file": "笔记/前端/工程化/ES Module.md"
                   }
                 }
               }
@@ -509,7 +509,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -536,7 +536,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/ESLint/CommonJS.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -946,19 +946,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "54e8f4261957ff1c",
+  "active": "8ed46ab555c7e312",
   "lastOpenFiles": [
     "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/工程化/构建/AMD.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
-    "笔记/前端/工程化/ES Module.md",
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/navigator.md",
@@ -977,7 +978,6 @@
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
     "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/markdown.md",
-    "assets/img/shiprock.jpg.md",
     "assets/img",
     "assets",
     "笔记/前端/assets/Pasted image 20220831223242.png",
