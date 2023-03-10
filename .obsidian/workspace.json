@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/ES Module.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
                   }
                 }
               }
@@ -209,6 +209,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":5},\"to\":{\"line\":7,\"ch\":5}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "模块模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":31},\"to\":{\"line\":58,\"ch\":31}},\"scroll\":38.70132266994771}"
+                    },
+                    {
+                      "title": "JS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":8.195175438596491}"
+                    },
+                    {
+                      "title": "ES Module",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":27},\"to\":{\"line\":72,\"ch\":27}},\"scroll\":105.19069069069069}"
+                    },
+                    {
                       "title": "JS模块化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -291,7 +315,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/ES Module.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -515,7 +539,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -542,7 +566,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -954,17 +978,17 @@
   },
   "active": "9d7a531a75bf2eaa",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/相对路径.md",
     "笔记/前端/工程化/绝对路径.md",
-    "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/工程化/构建/AMD.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/工程化/模块化.md",
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/工具/思考/思维概念/逻辑.md",

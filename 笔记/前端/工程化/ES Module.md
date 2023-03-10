@@ -29,7 +29,8 @@ JS模块文件没有专门的内容类型
 执行
 	1. 按顺序
 # 模块标识符
-可是[[相对路径]]或[[绝对路径]] 
+内容：可是[[相对路径]]或[[绝对路径]] 
+形式：必须是纯字符串，不能是拼接
 # 模块加载
 完全支持该规范的浏览器可从顶级模块（异步地）加载整个依赖图，
 
@@ -55,6 +56,8 @@ JS模块文件没有专门的内容类型
 	1. 异步加载
 	2. 因为属性1，所以只能加载一次
 	3. 可请求加载其他模块
+	4. 浏览器原生加载模块时必须带有扩展名
+	5. 构建工具或第三方模块加载器：不用带有扩展名
 3. 执行
 	1. 异步执行
 	2. 默认在严格模式下
@@ -64,16 +67,20 @@ JS模块文件没有专门的内容类型
 		1. 形式：export 关键字
 		2. 数量：可有多个
 		3. 环境：只能在模块顶级，不能在块中
+		4. 导入处理：可通过`*`进行批量导入、指名导入
 	2. 默认导出：模块就是被导出的值
 		1. 形式：export default
 		2. 数量：只有一个【重复会报typeError】
+		3. 导入处理：无法通过`*`导入
 两种方式可并存
+
+==可以理解为，默认导出是命名导出的子集，是这个对象的一个属性，字段名为default==。只是在导入时可方便地不用加export子句（对象的大括号）
 
 别名
 	1. 必须在大括号语法中
 	2. 如果别名是default，则等同于默认导出
 ``` javascript
-// 命名导出
+// 命名导出（每个都会作为唯一的命名导出对象的一个属性）
 export let num = 1  // 原始类型初始化
 export const baz = 'baz';
 export const foo = 'foo', bar = 'bar';
@@ -130,21 +137,23 @@ export const foo = 'foo' as myFoo;
 ```
 
 # 模块导入
+方式
+	1. 命名导入
+	2. 默认导入
+特性
+	1. 导入变量对模块而言只读
+		1. 无法直接修改导入的值
+		2. 已导出的属性也不能修改
 环境：同样必须出现在模块顶级
 ```javascript
-import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
-import defaultExport from "module-name"; // 默认导出，重命名
-import { export } from "module-name"; // 显式/命名导出
+import * as name from "module-name"; // 批量导入另一个模块的所有导出（包含命名与默认），并绑定在All
+import defaultExport from "module-name"; // 默认导入
+import { export } from "module-name"; // 命名导出
 import { export1 , export2 } from "module-name"; // 多个
 import { export as alias } from "module-name"; // 重命名
-import {
-  reallyReallyLongModuleMemberName as shortName,
-  anotherLongModuleName as short
-} from '/modules/my-module.js'; // 多个重命名
-import { foo , bar } from "module-name/path/to/specific/un-exported/file";
 import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
 import defaultExport, { export [ , [...] ] } from "module-name";
-import defaultExport, * as name from "module-name"; // 默认与命名同时（默认必须在前）
+import defaultExport, * as name from "module-name"; // 默认与命名同时导入（默认必须在前）
 (async () => {
   if (somethingIsTrue) {
     const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
@@ -155,6 +164,9 @@ var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
 
 # 模块转移导出
+```javascript
+export * from './foo.js';
+```
 # 工作者模块
 # 向后兼容
 
