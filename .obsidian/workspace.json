@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/最佳实践.md"
+                    "file": "笔记/前端/编程语言/JS/JS编码规范.md"
                   }
                 }
               }
@@ -593,7 +593,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/最佳实践.md",
+                        "file": "笔记/前端/编程语言/JS/JS编码规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -620,7 +620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/最佳实践.md",
+                        "file": "笔记/前端/编程语言/JS/JS编码规范.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -762,7 +762,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1029,10 +1029,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e85da53958190f2e",
+  "active": "b863d69f12ca017a",
   "lastOpenFiles": [
-    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/编程语言/JS/最佳实践.md",
+    "笔记/前端/编程语言/JS/JS编码规范.md",
+    "笔记/前端/编程语言/JS/编程范式.md",
+    "笔记/前端/编程语言/JS/声明式编程.md",
+    "笔记/工具/思考/记忆/编码.md",
+    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/markdown.md",
     "笔记/前端/编程语言/编程语言.md",
@@ -1053,11 +1057,7 @@
     "笔记/前端/工程化/绝对路径.md",
     "笔记/前端/工程化/构建/AMD.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
-    "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/模块化.md",
-    "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
-    "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
     "笔记/前端/工程化/构建/webpack.svg",
