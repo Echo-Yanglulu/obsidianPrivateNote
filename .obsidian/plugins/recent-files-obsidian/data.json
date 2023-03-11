@@ -5,6 +5,14 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
+      "basename": "臣服",
+      "path": "笔记/工具/通用概念/臣服.md"
+    },
+    {
+      "basename": "当下",
+      "path": "笔记/工具/通用概念/当下.md"
+    },
+    {
       "basename": "模块",
       "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Number",
       "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
-    },
-    {
-      "basename": "包管理",
-      "path": "笔记/前端/包管理.md"
-    },
-    {
-      "basename": "值",
-      "path": "笔记/前端/编程语言/JS/值.md"
     }
   ],
   "omittedPaths": [],
