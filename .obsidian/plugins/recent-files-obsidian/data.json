@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "最佳实践",
+      "path": "笔记/前端/编程语言/JS/最佳实践.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "笔记/前端/设计模式/设计模式.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "笔记/前端/markdown.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "模块",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
+    },
+    {
       "basename": "自己的学习行为",
       "path": "笔记/学习方法/自己的学习行为.md"
     },
@@ -11,10 +51,6 @@
     {
       "basename": "当下",
       "path": "笔记/工具/通用概念/当下.md"
-    },
-    {
-      "basename": "模块",
-      "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
     },
     {
       "basename": "模块模式",
@@ -41,10 +77,6 @@
       "path": "笔记/前端/工程化/模块化.md"
     },
     {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
       "basename": "客户端存储",
       "path": "笔记/前端/编程语言/JS/客户端存储.md"
     },
@@ -57,32 +89,12 @@
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
-      "basename": "宿主环境",
-      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
       "basename": "JS工具",
       "path": "笔记/前端/编程语言/JS/JS工具.md"
     },
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "笔记/前端/markdown.md"
     },
     {
       "basename": "shiprock.jpg",
@@ -127,10 +139,6 @@
     {
       "basename": "FormData",
       "path": "笔记/前端/编程语言/JS/FormData.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "this",
@@ -191,14 +199,6 @@
     {
       "basename": "问题解决",
       "path": "笔记/工具/通用概念/问题解决.md"
-    },
-    {
-      "basename": "沟通",
-      "path": "笔记/学习方法/沟通.md"
-    },
-    {
-      "basename": "Number",
-      "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
     }
   ],
   "omittedPaths": [],

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md"
+                    "file": "笔记/前端/编程语言/JS/最佳实践.md"
                   }
                 }
               }
@@ -69,13 +69,43 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":10},\"to\":{\"line\":12,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":10},\"to\":{\"line\":12,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "npm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md",
+                    "file": "笔记/前端/编程语言/JS/最佳实践.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -86,17 +116,17 @@
                 "id": "48d3f19065b8cf74",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "shiprock.jpg",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assets/img/shiprock.jpg.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "markdown",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/markdown.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":7},\"to\":{\"line\":17,\"ch\":7}}}"
                     },
                     {
                       "title": "前端",
@@ -169,7 +199,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/markdown.md",
+                    "file": "笔记/前端/设计模式/设计模式.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -207,6 +237,24 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "模块",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":26},\"to\":{\"line\":20,\"ch\":26}},\"scroll\":0}"
                     },
                     {
                       "title": "模块模式",
@@ -321,7 +369,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                    "file": "笔记/前端/编程语言/JS/JS.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -519,7 +567,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -545,7 +593,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/最佳实践.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -572,7 +620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/自己的学习行为.md",
+                        "file": "笔记/前端/编程语言/JS/最佳实践.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -636,7 +684,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import",
+                "query": "可维护性",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -714,12 +762,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 252,
-    "collapsed": true
+    "width": 252
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -982,18 +1029,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e56cdc3385e758d0",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
+    "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/编程语言/JS/最佳实践.md",
+    "笔记/前端/设计模式/OO设计模式.md",
+    "笔记/前端/markdown.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/性能/性能.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/工具/通用概念/臣服.md",
     "笔记/工具/通用概念/当下.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/相对路径.md",
     "笔记/前端/工程化/绝对路径.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/工程化/构建/AMD.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/node/node.md",
@@ -1001,16 +1058,6 @@
     "笔记/工具/思考/思维概念/思想.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/前端/编程语言/JS/客户端存储.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/编程语言/JS/navigator.md",
-    "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/编程语言/JS/Blob.md",
-    "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/JS工具.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
     "笔记/前端/工程化/构建/webpack.svg",
