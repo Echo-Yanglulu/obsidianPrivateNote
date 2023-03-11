@@ -209,6 +209,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "模块模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块模式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":16},\"to\":{\"line\":5,\"ch\":16}}}"
+                    },
+                    {
                       "title": "模块",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -315,7 +321,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -978,8 +984,9 @@
   },
   "active": "e56cdc3385e758d0",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
+    "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/相对路径.md",
@@ -1005,7 +1012,6 @@
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
     "笔记/前端/工程化/构建/webpack.svg",
     "assets/img",
