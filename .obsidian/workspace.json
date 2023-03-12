@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -578,7 +578,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -604,7 +605,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -631,7 +632,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1040,8 +1041,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "48c40bbeb9dd014b",
+  "active": "4defcc8407fc05f4",
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/拉伸.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/最佳实践.md",
     "笔记/前端/编程语言/JS/JS编码规范.md",
     "笔记/前端/编程语言/JS/编程范式.md",
@@ -1063,11 +1069,6 @@
     "笔记/工具/通用概念/当下.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/工程化/相对路径.md",
-    "笔记/前端/工程化/绝对路径.md",
-    "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
