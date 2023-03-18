@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/JS模块化.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -283,6 +283,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":148,\"ch\":16},\"to\":{\"line\":148,\"ch\":16}},\"scroll\":140.335005574136}"
+                    },
+                    {
+                      "title": "方式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/方式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "JS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}"
+                    },
+                    {
                       "title": "ES Module",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -317,7 +335,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/JS模块化.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -755,7 +773,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/JS模块化.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -782,7 +800,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/JS模块化.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1193,6 +1211,9 @@
   },
   "active": "d17d1b8b5818eee2",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/方式.md",
+    "笔记/前端/工程化/JS模块化.md",
     "笔记/_gsdata_/2023-0319-002901-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0319-002801-DESKTOP-YLL-Job1.log",
@@ -1203,13 +1224,11 @@
     "笔记/_gsdata_/2023-0319-002301-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0319-002201-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0319-002101-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0319-002001-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/CICD.md",
     "笔记/前端/前端.md",
     "笔记/前端/性能/性能.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/_gsdata_/_saved_/前端/编程语言/JS/基本概念/数据类型.md",
@@ -1228,7 +1247,6 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/JS/Web浏览器.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
     "笔记/_gsdata_/_saved_/西方文明简史/概念.svg",
