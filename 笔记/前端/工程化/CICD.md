@@ -15,8 +15,8 @@ CI重在==个人对团队==的交付。
 除了必须人工干预的，其他都应尽量自动化。（如用git commit hook进行以上检查）
 ### 保证失败可追溯
 1. 测试结果通知
-2. [[版本规范|changelog]]
-3. [[Code Review|CR机制]]
+2. [[版本规范|changelog]] 
+3. [[Code Review|CR机制]] 
 4. ...
 ### 非专业CI工具
 #### GITHUB

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/前端/工程化/JS模块化.md"
                   }
                 }
               }
@@ -69,6 +69,60 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":11},\"to\":{\"line\":3,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":18},\"to\":{\"line\":20,\"ch\":18}},\"scroll\":1.95467392025476}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Web浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Web浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":6},\"to\":{\"line\":9,\"ch\":6}}}"
+                    },
+                    {
+                      "title": "浏览器原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "性能",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能/性能.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":70},\"to\":{\"line\":25,\"ch\":70}}}"
+                    },
+                    {
+                      "title": "最佳实践",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/最佳实践.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":18.86605828672358}"
                     },
                     {
                       "title": "JS编码规范",
@@ -117,7 +171,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/最佳实践.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -227,13 +281,43 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "ES Module",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":165,\"ch\":34},\"to\":{\"line\":165,\"ch\":34}},\"scroll\":141.71200980392157}"
+                    },
+                    {
+                      "title": "CICD",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/CICD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":5},\"to\":{\"line\":13,\"ch\":5}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":22},\"to\":{\"line\":14,\"ch\":22}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/JS模块化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -249,6 +333,66 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":20},\"to\":{\"line\":79,\"ch\":20}},\"scroll\":67.45151564537157}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/_gsdata_/_saved_/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.274247491638796}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/_gsdata_/_saved_/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":1.5886684800636899}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/_gsdata_/_saved_/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/_gsdata_/_saved_/前端/前端.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "性能",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能/性能.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "最佳实践",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/最佳实践.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":7},\"to\":{\"line\":41,\"ch\":7}},\"scroll\":16.917892156862745}"
+                    },
+                    {
+                      "title": "JS编码规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS编码规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":15},\"to\":{\"line\":41,\"ch\":15}},\"scroll\":7.550293188994136}"
+                    },
+                    {
+                      "title": "最佳实践",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/最佳实践.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":10},\"to\":{\"line\":24,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":11},\"to\":{\"line\":22,\"ch\":11}},\"scroll\":1.95467392025476}"
                     },
                     {
                       "title": "宿主环境",
@@ -381,7 +525,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -499,13 +643,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -579,7 +729,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -605,7 +755,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/前端/工程化/JS模块化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -632,7 +782,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/前端/工程化/JS模块化.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1041,48 +1191,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4defcc8407fc05f4",
+  "active": "d17d1b8b5818eee2",
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/胸部.md",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/拉伸.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/编程语言/JS/最佳实践.md",
-    "笔记/前端/编程语言/JS/JS编码规范.md",
-    "笔记/前端/编程语言/JS/编程范式.md",
-    "笔记/前端/编程语言/JS/声明式编程.md",
-    "笔记/工具/思考/记忆/编码.md",
-    "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/markdown.md",
-    "笔记/前端/编程语言/编程语言.md",
+    "笔记/_gsdata_/2023-0318-191736-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0318-191636-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191536-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191435-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191335-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191235-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191135-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-191035-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-190935-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0318-190835-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/CICD.md",
     "笔记/前端/前端.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/性能/性能.md",
-    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/_gsdata_/_saved_/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/_gsdata_/_saved_/前端/编程语言/JS/JS.md",
+    "笔记/_gsdata_/_saved_/前端/编程语言/编程语言.md",
+    "笔记/_gsdata_/_saved_/前端/前端.md",
+    "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/工具/通用概念/臣服.md",
-    "笔记/工具/通用概念/当下.md",
-    "笔记/前端/编程语言/JS/基本概念/模块模式.md",
-    "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/编程语言/JS/基本概念/模块系统.svg",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/工程化/assets/Pasted image 20220730200434.png",
-    "笔记/前端/工程化/构建/webpack.svg",
-    "assets/img",
-    "assets",
-    "笔记/前端/assets/Pasted image 20220831223242.png",
-    "笔记/前端/编程语言/CSS/CSS基本概念.svg",
-    "笔记/mindmap/JS复习.xmind",
-    "笔记/前端/编程语言/JS/函数.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/基本概念/解构赋值.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/全局对象.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/关键字.md.baiduyun.uploading.cfg",
-    "笔记/前端/编程语言/JS/this.md.baiduyun.uploading.cfg"
+    "笔记/前端/编程语言/JS/HTML5规范.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/客户端检测.md",
+    "笔记/前端/编程语言/JS/浏览器调试.md",
+    "笔记/前端/编程语言/JS/工作者线程.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/编程语言/JS/Web浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器规范.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
+    "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
+    "笔记/_gsdata_/_saved_/西方文明简史/概念.svg",
+    "笔记/_gsdata_/_saved_/工具/通用概念/自我的层级.svg",
+    "笔记/_gsdata_/_saved_/工具/通用概念/自我.svg",
+    "笔记/_gsdata_/_saved_/工具/通用概念/核心思维.svg",
+    "笔记/_gsdata_/_saved_/工具/通用概念/提问.svg",
+    "笔记/_gsdata_/_saved_/工具/通用概念/反思.svg",
+    "笔记/_gsdata_/_saved_/工具/思考/图形/VN图示例.svg",
+    "笔记/_gsdata_/_saved_/前端/assets/记忆宫殿具体图像.png",
+    "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
 }

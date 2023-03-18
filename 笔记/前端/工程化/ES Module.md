@@ -146,9 +146,14 @@ export const foo = 'foo' as myFoo;
 		2. 已导出的属性也不能修改
 环境：同样必须出现在模块顶级
 ```javascript
-import * as name from "module-name"; // 批量导入另一个模块的所有导出（包含命名与默认），并绑定在All
-import defaultExport from "module-name"; // 默认导入
-import { export } from "module-name"; // 命名导出
+import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
+import defaultExport from "module-name"; // 默认导出，重命名
+import { export } from "module-name"; // 显式/命名导出
+import {
+  reallyReallyLongModuleMemberName as shortName,
+  anotherLongModuleName as short
+} from '/modules/my-module.js'; // 多个重命名
+import { foo , bar } from "module-name/path/to/specific/un-exported/file";
 import { export1 , export2 } from "module-name"; // 多个
 import { export as alias } from "module-name"; // 重命名
 import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
