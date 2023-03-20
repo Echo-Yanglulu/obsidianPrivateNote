@@ -14,7 +14,7 @@ scrollHeight：元素的content + padding，包含滚动部分。
 	3. 如果设置scroll为auto，content高为手动设置的高度
 	4. 如果设置scroll为scroll，content高缩小
 
-	1. 元素自身有fixed定位，则
+1. 元素自身有fixed定位，则
 scrollY：被滚动的高度
 scrollTop：一个内部产生了滚动，它的内容区被滚动的值
 	可写：开发者修改卷去的长度
