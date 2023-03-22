@@ -12,10 +12,10 @@ ES认为BOM是JS的核心，其实BOM是使用JS开发WEB应用的核心。
 4. 通过navigator对象了解**浏览器（客户端？）**
 5. 通过history对象操作**浏览器历史**
 # [[screen]] 
-客户端能力信息，客户端显示器的信息
+客户端能力信息、浏览器窗口外的客户端显示器的信息
 # [[navigator]] 
+用途：客户端标识浏览器的标准（？）
 前提：客户端启用JS，即存在该对象。
-用途：客户端标识浏览器的标准
 # [[window]] 
 window对象
 	1. 是BOM的*核心*：浏览器的实例
@@ -169,9 +169,19 @@ find()
 print()
 # [[location]] 
 功能
-	1. 当前窗口中加载文档的信息
-		1. 把URL解析为离散片段，保存在属性中
-	2. 导航功能
+	1. 当前窗口中加载的**文档信息**
+	2. **URL信息**：把URL解析为离散片段，保存在属性中 
+		1. 查询字符串：URLSearchParams对象，get, set, delete
+	3. **导航功能**
+		1. 导航
+		2. 修改浏览器的地址：通过修改location对象
+			1. 都会导航并新增历史记录
+				1. location.assign, window.location = , **location.href** 
+				2. 修改当前URL：hostname, port, pathname, search, hash属性赋值
+				3. 页面重新加载新URL：修改hash之外的值
+			2. 不增加记录的导航
+				1. replace(URL)
+			3. location.reload()：无参数，智能使用缓存。传true：强制使用服务器资源
 特性
 	1. 是window的属性，也是document的属性
 URL信息
