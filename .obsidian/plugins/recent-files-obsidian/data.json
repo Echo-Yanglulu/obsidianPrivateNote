@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
-    },
-    {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
+      "basename": "location",
+      "path": "笔记/前端/编程语言/JS/location.md"
+    },
+    {
+      "basename": "History",
+      "path": "笔记/前端/工程化/History.md"
     },
     {
       "basename": "CommonJS",
@@ -195,10 +199,6 @@
     {
       "basename": "方式",
       "path": "笔记/内心/方式.md"
-    },
-    {
-      "basename": "CICD",
-      "path": "笔记/前端/工程化/CICD.md"
     }
   ],
   "omittedPaths": [],
