@@ -8,7 +8,7 @@ ES认为BOM是JS的核心，其实BOM是使用JS开发WEB应用的核心。
 ## 内容
 1. BOM的核心：window对象
 2. 控制窗口与弹窗
-3. 通过location对象获取**页面信息**
+3. 通过location对象获取**页面信息**、导航
 4. 通过navigator对象了解**浏览器（客户端？）**
 5. 通过history对象操作**浏览器历史**
 # [[screen]] 
