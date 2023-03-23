@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS.md"
+                    "file": "笔记/前端/编程语言/JS/网络请求.md"
                   }
                 }
               }
@@ -653,7 +653,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -679,7 +679,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -706,7 +706,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1114,12 +1114,15 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "a7880ee379446c00",
+  "active": "79ac6dd8ea43b24c",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0323-230354-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-230621-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/_gsdata_/2023-0323-230521-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-230418-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-230354-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/2023-0323-230312-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
@@ -1131,11 +1134,8 @@
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/前端/工程化/node/node框架.md",
     "笔记/_gsdata_/2023-0323-230051-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0323-230027-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/浏览器规范.md",
-    "笔记/_gsdata_/2023-0323-225939-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/工作者线程.md",
-    "笔记/_gsdata_/2023-0323-225936-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/网络请求.md",
