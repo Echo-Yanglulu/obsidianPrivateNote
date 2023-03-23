@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"type":"text","text":"JS","id":"3fa8c6c550246c6f","x":-120,"y":-60,"width":250,"height":60,"color":"3"}
+		{"id":"0c68f046ebfe80b4","x":27,"y":-28,"width":400,"height":400,"type":"group","label":"未命名组"},
+		{"id":"6f9eecc490f1735e","x":-156,"y":-67,"width":400,"height":400,"type":"file","file":"笔记/内心/深夜加油站遇见苏格拉底.md"},
+		{"id":"8bf3ea8f845e49b9","x":-260,"y":100,"width":165,"height":60,"type":"file","file":"笔记/前端/编程语言/JS/JS.md","subpath":"#^c8dad8"}
 	],
 	"edges":[]
 }

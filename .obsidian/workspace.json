@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/未命名.canvas"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -237,9 +237,9 @@
                   "state": {
                     "file": "笔记/内心/未命名.canvas",
                     "viewState": {
-                      "x": 208.22564892083716,
-                      "y": 7.2328475888979185,
-                      "zoom": -0.6666666666666667
+                      "x": 227,
+                      "y": 172,
+                      "zoom": 0
                     }
                   }
                 }
@@ -361,7 +361,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -387,7 +387,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/未命名.canvas",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -414,7 +414,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/未命名.canvas",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -555,7 +555,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -821,12 +822,23 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "a7880ee379446c00",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/内心/未命名.canvas",
-    "笔记/_gsdata_/2023-0323-231218-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-231548-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/CSS/CSS模块化.md",
+    "笔记/内心/未命名.canvas",
+    "笔记/_gsdata_/2023-0323-231524-DESKTOP-YLL-Job1.log",
+    "笔记/内心/歧路.md",
+    "笔记/内心/人性的优点.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/_gsdata_/2023-0323-231424-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-231421-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-231318-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0323-231218-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/未命名.md",
     "笔记/_gsdata_/2023-0323-231151-DESKTOP-YLL-Job1.log",
@@ -840,14 +852,9 @@
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/_gsdata_/2023-0323-231021-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0323-230921-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0323-230821-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0323-230721-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0323-230621-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0323-230521-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/node框架.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
@@ -855,12 +862,6 @@
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
-    "笔记/前端/编程语言/JS/客户端检测.md",
-    "笔记/前端/编程语言/JS/浏览器API.md",
-    "笔记/前端/编程语言/JS/最佳实践.md",
-    "笔记/前端/编程语言/JS/Web浏览器.md",
-    "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/工程化/History.md",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
     "笔记/_gsdata_/_saved_/西方文明简史/概念.svg",
