@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "笔记/前端/编程语言/JS/客户端检测.md"
                   }
                 }
               }
@@ -69,6 +69,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":8},\"to\":{\"line\":25,\"ch\":8}}}"
                     },
                     {
                       "title": "BOM",
@@ -177,7 +183,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md",
+                    "file": "笔记/前端/编程语言/JS/客户端检测.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -387,7 +393,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -414,7 +420,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -824,19 +830,19 @@
   },
   "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0324-072029-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0324-072341-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0324-072338-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0324-072235-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0324-072150-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/_gsdata_/2023-0324-072129-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0324-072029-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0324-071929-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0324-071829-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0324-071729-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071629-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071529-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071429-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071329-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071229-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0324-071129-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/SSR.md",
     "笔记/前端/编程语言/JS/函数.md",
