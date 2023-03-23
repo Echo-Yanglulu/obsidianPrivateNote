@@ -253,6 +253,8 @@
 
   --embed-background: var(--bg_dark);
   --embed-padding: 1.5rem 1.5rem 0.5rem;
+
+  --canvas-color: var(--bg_highlight_x);
 }
 
 /* mobile */
@@ -299,6 +301,10 @@ a.external-link {
   border-top: var(--border-width) solid var(--bg_highlight);
 }
 
+.cm-vim-message {
+  color: var(--red);
+}
+
 /* kanban */
 .kanban-plugin__lane-action-add {
   color: var(--fg);
@@ -325,5 +331,13 @@ a.external-link {
 
 /* Math Jax */
 mjx-math {
-  font-size: 120% !important;
+  font-size: 110% !important;
+}
+
+/* metadata */
+.cm-atom {
+  color: var(--blue);
+}
+span.cm-hmd-frontmatter.cm-meta {
+  color: rgba(var(--blue0_x), 0.9);
 }

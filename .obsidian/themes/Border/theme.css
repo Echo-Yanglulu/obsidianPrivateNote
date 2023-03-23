@@ -311,38 +311,26 @@ settings:
         title.zh: 隐藏滚动条
         type: class-toggle
     - 
-        id: anim-duration
-        title: Animation duration
-        title.zh: 动效速度
+        id: animation
+        title: Animation
+        title.zh: 动效
         type: heading
         collapsed: true
         level: 3
     - 
-        id: anim-duration-info
-        description: "Border usually uses 'fast/moderate' value as animation duration and 'superfast/slow' as animation delay time."
-        description.zh: "Border一般将'fast/moderate'值用作动画的持续时间，'superfast/slow'值用作动画的延迟时间"
-        type: info-text
-        markdown: true
+        id: extra-anim-remove
+        title: Remove additional added animation
+        title.zh: 移除 额外增加的动效
+        type: class-toggle
     - 
-        id: anim-duration-superfast
-        title: anim-duration-superfast
-        type: variable-text
-        default: 75ms
-    - 
-        id: anim-duration-fast
-        title: anim-duration-fast
-        type: variable-text
-        default: 150ms
-    - 
-        id: anim-duration-moderate
-        title: anim-duration-moderate
-        type: variable-text
-        default: 300ms
-    - 
-        id: anim-duration-slow
-        title: anim-duration-slow
-        type: variable-text
-        default: 600ms
+        id: anim-speed
+        title: Animation speed
+        title.zh: 动效速度
+        type: variable-number-slider
+        default: 1
+        min: 0.5
+        max: 2
+        step: 0.05
 
 */
 
@@ -353,8 +341,8 @@ id: Appearance-light
 settings:
     - 
         id: Presets-info-light
-        description: "🎨 [Appearance presets (light mode)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) Before importing, it is recommended to reset this entry to default↗️"
-        description.zh: "🎨 [外观预设 （亮色模式）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) 导入前，推荐先将此条目重设为默认↗️ "
+        description: "[Presets (light)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) | Before importing, it is recommended to reset this entry to default / Remove preset↗️"
+        description.zh: "[预设（亮色）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) | 导入前，推荐先将此条目重设为默认 / 移除预设↗️ "
         type: info-text
         markdown: true
     - 
@@ -664,20 +652,6 @@ settings:
         collapsed: ture
         level: 4
     - 
-		id: on-border-light
-        title: underlying foreground(light mode)
-        title.zh: 底层前景（亮色模式）
-        description: Color of elements (text&icon) displayed on underlying background, including top tab bar, ribbon menu, and status bar
-        description.zh: 显示在底层背景上的元素(text&icon)颜色，包括顶部标签栏、功能区菜单和状态栏
-		type: variable-color
-        opacity: ture
-        format: hex
-        alt-format:
-            -
-                id: accent-rgb
-                format: rgb
-        default: '#'
-    - 
         id: background-underlying-select-light
         title: underlying background(light mode)
         title.zh: 底层背景（亮色模式）
@@ -720,6 +694,37 @@ settings:
         type: variable-text
         default: overlay, color-burn
     - 
+        id: underlying-foreground-header-light
+        title: Underlying foreground
+        title.zh: 底层前景
+        description: Adjust foreground to fit the background
+        description.zh: 调整前景以适应背景
+        type: heading
+        collapsed: ture
+        level: 5
+    - 
+		id: on-border-light
+        title: underlying foreground color(light mode)
+        title.zh: 底层前景色（亮色模式）
+        description: Color of elements (text&icon) displayed on underlying background, including top tab bar, ribbon menu, and status bar
+        description.zh: 显示在底层背景上的元素(text&icon)颜色，包括顶部标签栏、功能区菜单和状态栏
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: mix-blend-mode-on-border-light
+        title: mix blend mode of underlying foreground(light mode)
+        title.zh: 底层前景的混合模式（亮色模式）
+        description: Input any CSS mix-blend-mode value
+        description.zh: 输入任意 CSS mix-blend-mode 值
+        type: variable-text
+        default: normal
+    - 
         id: Global-background-header-light
         title: Global background
         title.zh: 全局背景
@@ -728,8 +733,8 @@ settings:
         level: 4
     - 
 		id: background-primary
-		title: Customize background-primary(light mode)
-        title.zh: 自定义 background-primary（亮色模式）
+		title: background-primary(light mode)
+        title.zh: background-primary（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -737,8 +742,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-primary-alt
-		title: Customize background-primary-alt(light mode)
-        title.zh: 自定义 background-primary-alt（亮色模式）
+		title: background-primary-alt(light mode)
+        title.zh: background-primary-alt（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -746,8 +751,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-secondary
-		title: Customize background-secondary(light mode)
-        title.zh: 自定义 background-secondary（亮色模式）
+		title: background-secondary(light mode)
+        title.zh: background-secondary（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -755,8 +760,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-secondary-alt
-		title: Customize background-secondary-alt(light mode)
-        title.zh: 自定义 background-secondary-alt（亮色模式）
+		title: background-secondary-alt(light mode)
+        title.zh: background-secondary-alt（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -764,17 +769,26 @@ settings:
 		default-dark: '#'
     - 
 		id: background-tertiary
-		title: Customize background-tertiary(light mode)
-        title.zh: 自定义 background-tertiary（亮色模式）
+		title: background-tertiary(light mode)
+        title.zh: background-tertiary（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
 		default-light: '#'
 		default-dark: '#'
     - 
+		id: workspace-background-translucent
+		title: workspace-background-translucent(light mode)
+        title.zh: workspace-background-translucent（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hsl
+		default-light: '#'
+		default-dark: '#'
+    - 
 		id: background-modifier-hover
-		title: Customize background-modifier-hover(light mode)
-        title.zh: 自定义 background-modifier-hover（亮色模式）
+		title: background-modifier-hover(light mode)
+        title.zh: background-modifier-hover（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -782,8 +796,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-active-hover
-		title: Customize background-modifier-active-hover(light mode)
-        title.zh: 自定义 background-modifier-active-hover（亮色模式）
+		title: background-modifier-active-hover(light mode)
+        title.zh: background-modifier-active-hover（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -791,8 +805,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border
-		title: Customize background-modifier-border(light mode)
-        title.zh: 自定义 background-modifier-border（亮色模式）
+		title: background-modifier-border(light mode)
+        title.zh: background-modifier-border（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -800,8 +814,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border-hover
-		title: Customize background-modifier-border-hover(light mode)
-        title.zh: 自定义 background-modifier-border-hover（亮色模式）
+		title: background-modifier-border-hover(light mode)
+        title.zh: background-modifier-border-hover（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -809,8 +823,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border-focus
-		title: Customize background-modifier-border-focus(light mode)
-        title.zh: 自定义 background-modifier-border-focus（亮色模式）
+		title: background-modifier-border-focus(light mode)
+        title.zh: background-modifier-border-focus（亮色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1193,8 +1207,8 @@ id: Appearance-dark
 settings:
     - 
         id: Presets-info-dark
-        description: "🎨 [Appearance presets (dark mode)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) Before importing, it is recommended to reset this entry to default↗️"
-        description.zh: "🎨 [外观预设 （暗色模式）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#dark-mode) 导入前，推荐先将此条目重设为默认↗️ "
+        description: "[Presets (dark)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) | Before importing, it is recommended to reset this entry to default / Remove preset↗️"
+        description.zh: "[预设（暗色）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#dark-mode) | 导入前，推荐先将此条目重设为默认 / 移除预设↗️ "
         type: info-text
         markdown: true
     - 
@@ -1515,20 +1529,6 @@ settings:
         collapsed: ture
         level: 4
     - 
-		id: on-border-dark
-        title: underlying foreground(dark mode)
-        title.zh: 底层前景（暗色模式）
-        description: Color of elements (text&icon) displayed on underlying background, including top tab bar, ribbon menu, and status bar
-        description.zh: 显示在底层背景上的元素(text&icon)颜色，包括顶部标签栏、功能区菜单和状态栏
-		type: variable-color
-        opacity: ture
-        format: hex
-        alt-format:
-            -
-                id: accent-rgb
-                format: rgb
-        default: '#'
-    - 
         id: background-underlying-select-dark
         title: underlying background(dark mode)
         title.zh: 底层背景（暗色模式）
@@ -1571,6 +1571,37 @@ settings:
         type: variable-text
         default: soft-light, luminosity, hue, luminosity, hard-light
     - 
+        id: underlying-foreground-header-dark
+        title: Underlying foreground
+        title.zh: 底层前景
+        description: Adjust foreground to fit the background
+        description.zh: 调整前景以适应背景
+        type: heading
+        collapsed: ture
+        level: 5
+    - 
+		id: on-border-dark
+        title: underlying foreground color(dark mode)
+        title.zh: 底层前景色（暗色模式）
+        description: Color of elements (text&icon) displayed on underlying background, including top tab bar, ribbon menu, and status bar
+        description.zh: 显示在底层背景上的元素(text&icon)颜色，包括顶部标签栏、功能区菜单和状态栏
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: mix-blend-mode-on-border-dark
+        title: mix blend mode of underlying foreground(dark mode)
+        title.zh: 底层前景的混合模式（暗色模式）
+        description: Input any CSS mix-blend-mode value
+        description.zh: 输入任意 CSS mix-blend-mode 值
+        type: variable-text
+        default: screen
+    - 
         id: Global-background-header-dark
         title: Global background
         title.zh: 全局背景
@@ -1579,8 +1610,8 @@ settings:
         level: 4
     - 
 		id: background-primary
-		title: Customize background-primary(dark mode)
-        title.zh: 自定义 background-primary（暗色模式）
+		title: background-primary(dark mode)
+        title.zh: background-primary（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1588,8 +1619,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-primary-alt
-		title: Customize background-primary-alt(dark mode)
-        title.zh: 自定义 background-primary-alt（暗色模式）
+		title: background-primary-alt(dark mode)
+        title.zh: background-primary-alt（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1597,8 +1628,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-secondary
-		title: Customize background-secondary(dark mode)
-        title.zh: 自定义 background-secondary（暗色模式）
+		title: background-secondary(dark mode)
+        title.zh: background-secondary（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1606,8 +1637,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-secondary-alt
-		title: Customize background-secondary-alt(dark mode)
-        title.zh: 自定义 background-secondary-alt（暗色模式）
+		title: background-secondary-alt(dark mode)
+        title.zh: background-secondary-alt（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1615,17 +1646,26 @@ settings:
 		default-dark: '#'
     - 
 		id: background-tertiary
-		title: Customize background-tertiary(dark mode)
-        title.zh: 自定义 background-tertiary（暗色模式）
+		title: background-tertiary(dark mode)
+        title.zh: background-tertiary（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
 		default-light: '#'
 		default-dark: '#'
     - 
+		id: workspace-background-translucent
+		title: workspace-background-translucent(dark mode)
+        title.zh: workspace-background-translucent（暗色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hsl
+		default-light: '#'
+		default-dark: '#'
+    - 
 		id: background-modifier-hover
-		title: Customize background-modifier-hover(dark mode)
-        title.zh: 自定义 background-modifier-hover（暗色模式）
+		title: background-modifier-hover(dark mode)
+        title.zh: background-modifier-hover（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1633,8 +1673,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-active-hover
-		title: Customize background-modifier-active-hover(dark mode)
-        title.zh: 自定义 background-modifier-active-hover（暗色模式）
+		title: background-modifier-active-hover(dark mode)
+        title.zh: background-modifier-active-hover（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1642,8 +1682,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border
-		title: Customize background-modifier-border(dark mode)
-        title.zh: 自定义 background-modifier-border（暗色模式）
+		title: background-modifier-border(dark mode)
+        title.zh: background-modifier-border（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1651,8 +1691,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border-hover
-		title: Customize background-modifier-border-hover(dark mode)
-        title.zh: 自定义 background-modifier-border-hover（暗色模式）
+		title: background-modifier-border-hover(dark mode)
+        title.zh: background-modifier-border-hover（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -1660,8 +1700,8 @@ settings:
 		default-dark: '#'
     - 
 		id: background-modifier-border-focus
-		title: Customize background-modifier-border-focus(dark mode)
-        title.zh: 自定义 background-modifier-border-focus（暗色模式）
+		title: background-modifier-border-focus(dark mode)
+        title.zh: background-modifier-border-focus（暗色模式）
 		type: variable-themed-color
 		opacity: true
 		format: hex
@@ -2045,27 +2085,38 @@ id: Editor
 settings:
     - 
         id: line-emphasis
-        title: Emphasis on line
-        title.zh: 行强调
+        title: Hover line indicator
+        title.zh: 悬停行指示器
         type: heading
         collapsed: false
         level: 3
     - 
+        id: line-hover-indicator-info
+        description: "**Note**: This feature requires your **installer** version(not APP current version) > v1.1.8. If not, you can download and re-install obsidian [here](https://obsidian.md/download).Check **installer** version in “Settings-About-APP“"
+        description.zh: "**注意**：此特性需要**安装程序**版本（不是指APP当前版本） > v1.1.8。如果不是，可以在[这里](https://obsidian.md/download)重新下载安装obsidian。可以在“设置-关于-APP”处查看**安装程序**版本"
+        type: info-text
+        markdown: true
+    - 
         id: line-hover-indicator-disable
-        title: Disable hovered line indicator
-        description: "Note: This feature requires your **installer** version(not APP current version) > v1.1.8. If not, you can download and re-install obsidian.Check **installer** version in “Settings-About-APP“"
-        description.zh: "注意：此特性需要**安装程序**版本（不是指APP当前版本） > v1.1.8。如果不是，可以重新下载安装obsidian。可以在“设置-关于-APP”处查看**安装程序**版本"
+        title: Disable hover line indicator
         title.zh: 禁用 悬停行指示器
         type: class-toggle
     - 
 		id: hover-indicator-color
-		title: Customize hovered line indicator color
-        title.zh: 自定义悬停行指示器颜色
+		title: Customize indicator color
+        title.zh: 自定义指示器的颜色
 		type: variable-themed-color
 		opacity: true
 		format: hex
 		default-light: '#'
 		default-dark: '#'
+    - 
+        id: active-line-heading
+        title: Active line
+        title.zh: 行高亮
+        type: heading
+		collapsed: true
+        level: 3
     - 
         id: line-active-disable
         title: Disable active line hightlight
@@ -3332,10 +3383,7 @@ body {
     --background-tertiary: hsl(calc(var(--accent-h) - 18),
             calc(var(--accent-s) - 4%),
             calc(100% - (100% - var(--accent-l)) / 8));
-    --workspace-background-translucent: hsla(calc(var(--accent-h)),
-            calc((var(--accent-s) - 12%) / 6),
-            calc(100% - (100% - var(--accent-l)) / 36), 0.8);
-    --blur-container: rgba(246, 246, 246, 0.8);
+    --workspace-background-translucent: rgba(246, 246, 246, 0.8);
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.15);
     --background-modifier-active-hover: hsla(var(--interactive-accent-hsl), 0.15);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
@@ -3369,9 +3417,6 @@ body {
     --background-tertiary: hsl(calc(var(--accent-h) - 18),
             calc(var(--accent-s) - 4%),
             calc(100% - (100% - var(--accent-l)) / 4));
-    --workspace-background-translucent: hsla(calc(var(--accent-h) - 18),
-            calc(var(--accent-s) - 4%),
-            calc(100% - (100% - var(--accent-l)) / 4), 0.9);
     --interactive-normal: var(--color-base-00);
     --interactive-hover: var(--color-base-10);
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.225);
@@ -3450,7 +3495,6 @@ body {
     --workspace-background-translucent: hsla(calc(var(--accent-h) + 8),
             calc(var(--accent-s) / 5.4),
             calc(1.25*var(--accent-l) / 3.6), 0.6);
-    --blur-container: var(--workspace-background-translucent);
     --background-modifier-hover: hsla(var(--accent-h), 12%, 40%, 0.25);
     --background-modifier-active-hover: hsla(var(--interactive-accent-hsl), 0.15);
     --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
@@ -3538,21 +3582,22 @@ body {
 /*====== Animations ======*/
 body {
     /* Animations */
-    --anim-duration-superfast: 75ms;
-    --anim-duration-fast: 150ms;
-    --anim-duration-moderate: 300ms;
-    --anim-duration-slow: 600ms;
+    --anim-speed: 1;
+    --anim-duration-superfast: calc(75ms / var(--anim-speed));
+    --anim-duration-fast: calc(150ms / var(--anim-speed));
+    --anim-duration-moderate: calc(300ms / var(--anim-speed));
+    --anim-duration-slow: calc(600ms / var(--anim-speed));
     --anim-in: var(--anim-duration-fast) var(--anim-duration-superfast) var(--anim-motion-swing);
     --anim-out: var(--anim-duration-moderate) var(--anim-duration-slow) var(--anim-motion-swing);
 }
 
-.document-search-container,
-.graph-controls:not(.is-close),
-body:not(.is-phone) .popover:not(.svelte-1xg3ic1),
-body:not(.is-phone) .menu:not(.mk-style-menu, .svelte-1xg3ic1),
-body:not(.is-phone) .prompt,
-body:not(.is-phone) .modal:not(:has(.checkbox-container)),
-body:not(.is-phone) .suggestion-container:not([data-popper-placement="bottom-start"]) {
+body:not(.is-mobile, .extra-anim-remove) .document-search-container,
+body:not(.is-phone, .extra-anim-remove) .graph-controls:not(.is-close),
+body:not(.is-phone, .extra-anim-remove) .popover:not(.svelte-1xg3ic1),
+body:not(.is-phone, .extra-anim-remove) .menu:not(.mk-style-menu, .svelte-1xg3ic1),
+body:not(.is-phone, .extra-anim-remove) .prompt,
+body:not(.is-phone, .extra-anim-remove) .modal:not(:has(.checkbox-container)),
+body:not(.is-phone, .extra-anim-remove) .suggestion-container:not([data-popper-placement="bottom-start"]) {
     -webkit-animation: scale-up var(--anim-duration-fast) cubic-bezier(0.175, 0.885, 0.320, 1.095) both;
     animation: scale-up var(--anim-duration-fast) cubic-bezier(0.175, 0.885, 0.320, 1.095) both;
 }
@@ -3770,13 +3815,15 @@ body.theme-dark:not(.is-mobile).background-underlying-CSS-dark .app-container {
 body {
     --on-border-light: var(--color-accent-3);
     --on-border-dark: var(--color-accent-3);
+    --mix-blend-mode-on-border-light: normal;
+    --mix-blend-mode-on-border-dark: screen;
 }
 
-.titlebar,
-.status-bar,
-.workspace-ribbon,
-.workspace-tabs.mod-top .workspace-tab-header-container,
-body:not(.is-mobile).card-layout-open-light .workspace-tabs .workspace-tab-header-container {
+.theme-light .titlebar,
+.theme-light .status-bar,
+.theme-light .workspace-ribbon,
+.theme-light .workspace-tabs.mod-top .workspace-tab-header-container,
+.theme-light:not(.is-mobile).card-layout-open-light .workspace-tabs .workspace-tab-header-container {
     --text-muted: var(--on-border-light);
     --text-faint: var(--on-border-light);
 
@@ -3789,6 +3836,8 @@ body:not(.is-mobile).card-layout-open-light .workspace-tabs .workspace-tab-heade
     --icon-color-hover: var(--text-muted);
 
     --tab-text-color: var(--text-faint);
+
+    mix-blend-mode: var(--mix-blend-mode-on-border-light);
 }
 
 .theme-dark .titlebar,
@@ -3798,6 +3847,18 @@ body:not(.is-mobile).card-layout-open-light .workspace-tabs .workspace-tab-heade
 .theme-dark:not(.is-mobile).card-layout-open-dark .workspace-tabs .workspace-tab-header-container {
     --text-muted: var(--on-border-dark);
     --text-faint: var(--on-border-dark);
+
+    --titlebar-text-color: var(--text-muted);
+    --tab-text-color-active: var(--text-muted);
+    --tab-text-color-focused: var(--text-muted);
+    --tab-text-color-focused-active: var(--text-muted);
+    --status-bar-text-color: var(--text-muted);
+    --icon-color: var(--text-muted);
+    --icon-color-hover: var(--text-muted);
+
+    --tab-text-color: var(--text-faint);
+
+    mix-blend-mode: var(--mix-blend-mode-on-border-dark);
 }
 
 
@@ -4537,10 +4598,6 @@ body:not(.is-mobile) .workspace-tab-header.is-active .workspace-tab-header-inner
     border-radius: var(--border-radius-activated-tab-header-light);
 }
 
-body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner {
-    border-radius: var(--border-radius-activated-tab-header-dark);
-}
-
 body:not(.is-mobile).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-header.is-active .workspace-tab-header-inner {
     box-shadow: var(--shadow-activated-tab-header-light-alt);
 }
@@ -4552,6 +4609,7 @@ body:not(.is-mobile).theme-light.card-layout-open-light .workspace-tabs:not(.mod
 body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner {
     box-shadow: var(--shadow-activated-tab-header-dark);
     background: var(--background-activated-tab-header-dark);
+    border-radius: var(--border-radius-activated-tab-header-dark);
 }
 
 /* tab - mobile*/
@@ -4979,21 +5037,21 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
 }
 
 /* document search replace */
-.mod-active .document-search-container,
-.document-search-container {
+body:not(.is-mobile) .mod-active .document-search-container,
+body:not(.is-mobile) .document-search-container {
     background-color: var(--background-primary);
 }
 
 /*
 .mod-active .document-search-container,
 .document-search-container {
-    background-color: var(--blur-container);
+    background-color: var(--workspace-background-translucent);
     backdrop-filter: blur(12px) saturate(190%) contrast(50%) brightness(130%);
     -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(50%) brightness(130%);
 }*/
 
 
-.document-search-container {
+body:not(.is-mobile) .document-search-container {
     position: absolute;
     top: var(--size-4-4);
     border-radius: var(--size-4-2);
@@ -5008,12 +5066,12 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
 }
 
 @container (max-width: 600px) {
-    .document-search-container {
+    body:not(.is-mobile) .document-search-container {
         margin-left: 4px;
     }
 }
 
-.document-search-buttons .document-search-button {
+body:not(.is-mobile) .document-search-buttons .document-search-button {
     font-size: 0;
     background-color: transparent !important;
     color: var(--text-muted);
@@ -5024,12 +5082,12 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
     box-shadow: unset !important;
 }
 
-.document-search-buttons .document-search-button:hover {
+body:not(.is-mobile) .document-search-buttons .document-search-button:hover {
     background-color: var(--background-modifier-hover) !important;
     color: var(--text-normal);
 }
 
-.document-search-buttons button:nth-child(1):before {
+body:not(.is-mobile) .document-search-buttons button:nth-child(1):before {
     content: " ";
     display: block;
     height: 24px;
@@ -5038,7 +5096,7 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3e%3cpath stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M12 18V6m0 0-6 6m6-6 6 6'/%3e%3c/svg%3e");
 }
 
-.document-search-buttons button:nth-child(2):before {
+body:not(.is-mobile) .document-search-buttons button:nth-child(2):before {
     content: " ";
     display: block;
     height: 24px;
@@ -5047,7 +5105,7 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3e%3cpath stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M12 6v12m0 0 6-6m-6 6-6-6'/%3e%3c/svg%3e");
 }
 
-.document-search-buttons button:nth-child(3):before {
+body:not(.is-mobile) .document-search-buttons button:nth-child(3):before {
     content: " ";
     display: block;
     height: 24px;
@@ -5056,14 +5114,14 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
     -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3e%3cpath fill='black' d='M5.647 17H3.819l3.328-9.455h2.114L12.595 17h-1.829L8.241 9.484h-.074L5.647 17Zm.06-3.707h4.986v1.376H5.707v-1.376Zm9.73-5.748V17h-1.671V7.545h1.671Zm3.39 0V17h-1.672V7.545h1.672Z'/%3e%3c/svg%3e");
 }
 
-.document-search-close-button {
+body:not(.is-mobile) .document-search-close-button {
     top: unset;
     height: 30px;
     width: 30px;
     padding: 3px;
 }
 
-.document-search-close-button:before {
+body:not(.is-mobile) .document-search-close-button:before {
     content: " ";
     display: block;
     height: 24px;
@@ -5151,6 +5209,7 @@ body.immersive-canvas .canvas-controls:hover {
     height: 32px;
     border-radius: 0px;
     --icon-color: var(--text-normal);
+    background-color: var(--interactive-normal);
 }
 
 .graph-controls-button.mod-animate {
@@ -5165,7 +5224,8 @@ body.immersive-canvas .canvas-controls:hover {
 
 .graph-controls.is-close,
 .workspace-split:not(.mod-root) .graph-controls.is-close {
-    background-color: var(--interactive-normal);
+    background-color: var(--background-primary);
+    box-shadow: var(--input-shadow);
 }
 
 .graph-controls-button.mod-open:hover,
@@ -6082,8 +6142,7 @@ input[type='range']::-webkit-slider-thumb {
     transition: none;
 }
 
-input[type=range]::-webkit-slider-thumb:hover,
-input[type=range]::-webkit-slider-thumb:active {
+input[type=range]::-webkit-slider-thumb:is(:hover, :active) {
     box-shadow: var(--toggle-thumb-shadow);
     outline-offset: 2px;
     outline: 2px solid var(--background-modifier-border-hover);
@@ -6091,8 +6150,7 @@ input[type=range]::-webkit-slider-thumb:active {
     border-color: var(--slider-thumb-border-color);
 }
 
-body:not(.is-mobile) input[type=range]:focus::-webkit-slider-thumb,
-body:not(.is-mobile) input[type=range]:focus-visible::-webkit-slider-thumb {
+body:not(.is-mobile) input[type=range]:is(:focus, :focus-visible)::-webkit-slider-thumb {
     box-shadow: var(--toggle-thumb-shadow);
     outline-offset: 2px;
     outline: 2px solid var(--background-modifier-border-focus);
@@ -6102,38 +6160,23 @@ body:not(.is-mobile) input[type=range]:focus-visible::-webkit-slider-thumb {
 
 /* input */
 
-body:not(.is-mobile) textarea:not(.kanban-plugin__item-input, .kanban-plugin__lane-input):focus,
-body:not(.is-mobile) input[type='text']:not(.mk-cell-text):focus,
-body:not(.is-mobile) input[type='search']:not(.svelte-bi6cvo):focus,
-body:not(.is-mobile) input[type='email']:focus,
-body:not(.is-mobile) input[type='password']:focus,
-body:not(.is-mobile) input[type='number']:focus,
-body:not(.is-mobile) textarea:not(.kanban-plugin__item-input, .kanban-plugin__lane-input):focus-visible,
-body:not(.is-mobile) input[type='text']:not(.mk-cell-text):focus-visible,
-body:not(.is-mobile) input[type='search']:not(.svelte-bi6cvo):focus-visible,
-body:not(.is-mobile) input[type='email']:focus-visible,
-body:not(.is-mobile) input[type='password']:focus-visible,
-body:not(.is-mobile) input[type='number']:focus-visible {
+body:not(.is-mobile) textarea:not(.kanban-plugin__item-input, .kanban-plugin__lane-input, .sync-history-text):is(:focus, :focus-visible),
+body:not(.is-mobile) input[type='text']:not(.mk-cell-text):is(:focus, :focus-visible),
+body:not(.is-mobile) input[type='search']:not(.svelte-bi6cvo):is(:focus, :focus-visible),
+body:not(.is-mobile) input[type='email']:is(:focus, :focus-visible),
+body:not(.is-mobile) input[type='password']:is(:focus, :focus-visible),
+body:not(.is-mobile) input[type='number']:is(:focus, :focus-visible) {
     border: 1px solid var(--interactive-accent);
     box-shadow: 0 0 0 4px var(--background-modifier-active-hover);
 }
 
-.view-header input {
-    box-shadow: none !important;
-}
-
-body:not(.is-mobile) input.prompt-input,
-body:not(.is-mobile) input.prompt-input:hover,
-body:not(.is-mobile) input.prompt-input:focus,
-body:not(.is-mobile) input.prompt-input:focus-visible {
+.view-header input,
+body:not(.is-mobile) input.prompt-input {
     border: none !important;
     box-shadow: none !important;
 }
 
-body:not(.is-phone) input.prompt-input,
-body:not(.is-phone) input.prompt-input:hover,
-body:not(.is-phone) input.prompt-input:focus,
-body:not(.is-phone) input.prompt-input:focus-visible {
+body:not(.is-phone) div:has(>input.prompt-input) {
     border-bottom: 2px solid var(--color-accent) !important;
 }
 
@@ -6193,7 +6236,7 @@ body {
 .prompt,
 .menu,
 .suggestion-container.mod-search-suggestion {
-    background-color: var(--blur-container);
+    background-color: var(--workspace-background-translucent);
     backdrop-filter: blur(12px) saturate(190%) contrast(50%) brightness(130%);
     -webkit-backdrop-filter: blur(12px) saturate(190%) contrast(50%) brightness(130%);
 }
@@ -6205,7 +6248,7 @@ body {
 .theme-dark .prompt,
 .theme-dark .menu,
 .theme-dark .suggestion-container.mod-search-suggestion {
-    background-color: var(--blur-container);
+    background-color: var(--workspace-background-translucent);
     backdrop-filter: blur(10px) saturate(190%) contrast(70%) brightness(80%);
     -webkit-backdrop-filter: blur(10px) saturate(190%) contrast(70%) brightness(80%);
 }
@@ -7562,7 +7605,6 @@ li[data-task="<"]>p>input:checked {
 /* ====== Callout ====== */
 body {
     --callout-border-width: 1px;
-    --callout-border-opacity: 0.25;
 }
 
 
@@ -7942,13 +7984,7 @@ body:not(.zoom-off) .view-content .image-embed:not(.canvas-node-content):active 
 }
 
 /* ====== icon ====== */
-
-body {
-    --icon-stroke: var(--icon-s-stroke-width);
-}
-
 .workspace-tab-header-inner-icon {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -7960,11 +7996,11 @@ body {
 
 .mod-left-split .workspace-tab-header .workspace-tab-header-inner,
 .mod-right-split .workspace-tab-header .workspace-tab-header-inner,
+.clickable-icon.nav-action-button,
+.clickable-icon.side-dock-ribbon-action,
 .sidebar-toggle-button .clickable-icon,
 .workspace-tab-header-new-tab .clickable-icon,
-.workspace-tab-header-tab-list .clickable-icon,
-.clickable-icon.side-dock-ribbon-action,
-.workspace-leaf-content .nav-header .nav-buttons-container .clickable-icon.nav-action-button:not(:first-of-type) {
+.workspace-tab-header-tab-list .clickable-icon {
     padding: 6px;
     height: 32px;
     width: 32px;
@@ -7972,21 +8008,27 @@ body {
 
 .mod-left-split .workspace-tab-header .workspace-tab-header-inner,
 .mod-right-split .workspace-tab-header .workspace-tab-header-inner {
+    /*pin icon*/
     width: fit-content;
-    gap: 4px;
+    gap: var(--size-2-2);
 }
 
-.workspace-tab-header-inner-icon svg,
-.workspace-tab-header-inner-icon,
-.sidebar-toggle-button svg,
-.workspace-tab-header-new-tab .clickable-icon svg,
-.workspace-tab-header-tab-list .clickable-icon svg,
-.nav-header .clickable-icon svg,
-.clickable-icon.side-dock-ribbon-action svg {
-    width: 20px;
-    height: 20px;
+.is-mobile .clickable-icon.nav-action-button,
+.is-mobile .clickable-icon.side-dock-ribbon-action,
+.is-mobile .sidebar-toggle-button .clickable-icon {
+    padding: var(--size-2-2);
 }
 
+body:not(.is-mobile) .mod-left-split .workspace-tab-header-inner-icon .svg-icon,
+body:not(.is-mobile) .mod-right-split .workspace-tab-header-inner-icon .svg-icon,
+body:not(.is-mobile) .clickable-icon.side-dock-ribbon-action .svg-icon,
+body:not(.is-mobile) .clickable-icon.nav-action-button .svg-icon,
+body:not(.is-mobile) .sidebar-toggle-button .clickable-icon .svg-icon,
+body:not(.is-mobile) .workspace-tab-header-new-tab .clickable-icon .svg-icon,
+body:not(.is-mobile) .workspace-tab-header-tab-list .clickable-icon .svg-icon {
+    --icon-size: var(--icon-l);
+    --icon-l: 20px;
+}
 
 .titlebar .workspace-tab-header-tab-list,
 .titlebar .workspace-tab-header-new-tab,
@@ -8000,26 +8042,27 @@ body {
     gap: var(--size-2-2);
 }
 
-.workspace .mod-root .workspace-tab-header-inner-icon svg {
-    width: 16px;
-    height: 16px;
+.workspace-tab-header-status-icon,
+.mod-root .workspace-tab-header-status-icon,
+.mod-root .workspace-tab-header-inner-icon {
+    --icon-size: var(--icon-s);
 }
 
+/* ====== Icon replace ====== */
 svg {
     -webkit-mask-size: contain;
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat;
 }
 
-/* ====== Icon replace ====== */
 .mod-macos svg.sidebar-right,
-svg.sidebar-right {
+body:not(.is-phone) svg.sidebar-right {
     background-color: currentColor;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="_å±‚_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}</style></defs><rect class="cls-1" width="24" height="24"/><path d="M14,20c.55,0,1-.45,1-1V5c0-.55-.45-1-1-1s-1,.45-1,1v14c0,.55,.45,1,1,1Z"/><path d="M17,15h1c.55,0,1-.45,1-1s-.45-1-1-1h-1c-.55,0-1,.45-1,1s.45,1,1,1Zm0-4h1c.55,0,1-.45,1-1s-.45-1-1-1h-1c-.55,0-1,.45-1,1s.45,1,1,1Z"/><path d="M4,20H20c1.1,0,2-.9,2-2V6c0-1.1-.9-2-2-2H4c-1.1,0-2,.9-2,2v12c0,1.1,.9,2,2,2ZM20,6v12H4V6H20Z"/></svg>')
 }
 
 .mod-macos svg.sidebar-left,
-svg.sidebar-left {
+body:not(.is-phone) svg.sidebar-left {
     background-color: currentColor;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.b{fill:none;}</style></defs><rect class="b" width="24" height="24"/><path d="M10,20c-.55,0-1-.45-1-1V5c0-.55,.45-1,1-1s1,.45,1,1v14c0,.55-.45,1-1,1Z"/><path d="M7,15h-1c-.55,0-1-.45-1-1s.45-1,1-1h1c.55,0,1,.45,1,1s-.45,1-1,1Zm0-4h-1c-.55,0-1-.45-1-1s.45-1,1-1h1c.55,0,1,.45,1,1s-.45,1-1,1Z"/><path d="M20,20H4c-1.1,0-2-.9-2-2V6c0-1.1,.9-2,2-2H20c1.1,0,2,.9,2,2v12c0,1.1-.9,2-2,2ZM4,6v12H20V6H4Z"/></svg>')
 }
@@ -8498,7 +8541,7 @@ body.Surfing-bookmark-bar-hide .workspace-leaf-content[data-type="surfing-view"]
 
 /* make.md */
 .mk-blink-preview {
-    border-color: var(--background-modifier-border);
+    border-color: var(--divider-color);
 }
 
 .mk-blink-modal .mk-options-menu__search input {
@@ -8595,4 +8638,10 @@ body.colorful-checkbox li.svelte-sx5ktw.svelte-sx5ktw:nth-child(8n+8) .checkbox.
 /* Text Generator */
 .modelTitle {
     display: none;
+}
+
+/* callout manager */
+body:not(.is-mobile):not(.mod-macos):not(.mod-windows):not(.mod-linux) .workspace::before,
+body:not(.is-mobile):not(.mod-macos):not(.mod-windows):not(.mod-linux) .app-container::before {
+    display: none !important;
 }

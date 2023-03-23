@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "宿主环境",
+      "path": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "最佳实践",
+      "path": "笔记/前端/编程语言/JS/最佳实践.md"
+    },
+    {
+      "basename": "阅读",
+      "path": "笔记/行为/阅读.md"
+    },
+    {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "笔记/前端/编程语言/JS/未命名.md"
     },
     {
       "basename": "深夜加油站遇见苏格拉底",
@@ -19,10 +47,6 @@
     {
       "basename": "CommonJS",
       "path": "笔记/前端/工程化/规范/ESLint/CommonJS.md"
-    },
-    {
-      "basename": "阅读",
-      "path": "笔记/行为/阅读.md"
     },
     {
       "basename": "背部",
@@ -47,10 +71,6 @@
     {
       "basename": "浏览器原理",
       "path": "笔记/前端/编程语言/JS/浏览器原理.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
     {
       "basename": "数组",
@@ -145,10 +165,6 @@
       "path": "笔记/前端/编程语言/JS/JSON.md"
     },
     {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Code Review",
       "path": "笔记/前端/工程化/质量/Code Review.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "ES Module",
-      "path": "笔记/前端/工程化/ES Module.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "方式",
-      "path": "笔记/内心/方式.md"
     }
   ],
   "omittedPaths": [],
