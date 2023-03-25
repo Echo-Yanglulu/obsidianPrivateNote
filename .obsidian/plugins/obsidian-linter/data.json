@@ -103,7 +103,7 @@
       "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
     },
     "Remove Multiple Spaces": {
-      "Removes two or more consecutive spaces. Ignores spaces at the beginning and ending of the line. ": false
+      "Removes two or more consecutive spaces. Ignores spaces at the beginning and ending of the line. ": true
     },
     "Strong Style": {
       "Makes sure the strong style is consistent.": false,
@@ -221,7 +221,7 @@
   },
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
-  "displayChanged": true,
+  "displayChanged": false,
   "foldersToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": 4,

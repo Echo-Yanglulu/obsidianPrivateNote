@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/工具/通用概念/恐惧.md"
                   }
                 }
               }
@@ -353,13 +353,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "CSS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS模块化.md",
+                    "file": "笔记/工具/通用概念/恐惧.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -367,7 +373,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -393,7 +399,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -420,7 +426,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -562,7 +568,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -828,8 +834,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "6dc19d428873a0c3",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS模块化.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/行为/健身/部位/背部.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/客户端检测.md",
@@ -848,8 +858,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/SSR.md",
-    "笔记/前端/编程语言/JS/函数.md",
-    "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/内心/歧路.md",
     "笔记/内心/人性的优点.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -866,8 +874,6 @@
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/node/node框架.md",
-    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
     "笔记/_gsdata_/_saved_/西方文明简史/概念.svg",
