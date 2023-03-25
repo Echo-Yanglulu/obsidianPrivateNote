@@ -1,8 +1,10 @@
 {
 	"nodes":[
-		{"id":"0c68f046ebfe80b4","x":27,"y":-28,"width":400,"height":400,"type":"group","label":"未命名组"},
-		{"id":"6f9eecc490f1735e","x":-156,"y":-67,"width":400,"height":400,"type":"file","file":"笔记/内心/深夜加油站遇见苏格拉底.md"},
-		{"id":"8bf3ea8f845e49b9","x":-260,"y":100,"width":165,"height":60,"type":"file","file":"笔记/前端/编程语言/JS/JS.md","subpath":"#^c8dad8"}
+		{"type":"group","id":"0c68f046ebfe80b4","x":220,"y":0,"width":400,"height":392,"color":"2","label":"未命名组"},
+		{"type":"file","file":"笔记/内心/深夜加油站遇见苏格拉底.md","id":"6f9eecc490f1735e","x":-260,"y":-40,"width":400,"height":400},
+		{"type":"file","file":"笔记/前端/编程语言/JS/JS.md","subpath":"#^c8dad8","id":"8bf3ea8f845e49b9","x":58,"y":-260,"width":165,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"7fcece06c09d6ae7","fromNode":"8bf3ea8f845e49b9","fromSide":"bottom","toNode":"0c68f046ebfe80b4","toSide":"top"}
+	]
 }
