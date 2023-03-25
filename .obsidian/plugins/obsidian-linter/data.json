@@ -97,7 +97,7 @@
       "Removes consecutive list markers. Useful when copy-pasting list items.": false
     },
     "Remove Empty List Markers": {
-      "Removes empty list markers, i.e. list items without content.": false
+      "Removes empty list markers, i.e. list items without content.": true
     },
     "Remove Hyphenated Line Breaks": {
       "Removes hyphenated line breaks. Useful when pasting text from textbooks.": false
@@ -121,7 +121,7 @@
       "Inner New Lines": false
     },
     "Consecutive blank lines": {
-      "There should be at most one consecutive blank line.": false
+      "There should be at most one consecutive blank line.": true
     },
     "Convert Spaces to Tabs": {
       "Converts leading spaces to tabs.": false,
