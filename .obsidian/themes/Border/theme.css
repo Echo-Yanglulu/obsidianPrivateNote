@@ -392,6 +392,53 @@ settings:
         opacity: false
         default: '#5a6ded'
     - 
+        id: accent-advanced-light
+        title: Advanced
+        title.zh: 高级
+        type: heading
+        collapsed: true
+        level: 5
+    - 
+		id: color-accent-hsl-light
+		title: color-accent-hsl
+        title.zh: color-accent-hsl
+        type: variable-color
+		format: hsl-values
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-light
+		title: color-accent
+        title.zh: color-accent
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-1-light
+		title: color-accent-1
+        title.zh: color-accent-1
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-2-light
+		title: color-accent-2
+        title.zh: color-accent-2
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-3-light
+		title: color-accent-3
+        title.zh: color-accent-3
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
         id: Extended-colors-light
         title: Extended colors
         title.zh: 拓展色
@@ -1197,6 +1244,43 @@ settings:
         description.zh: 开关滑轨的阴影（鼠标悬停时） 接受任意 CSS box-shadow 值
         type: variable-text
         default: ''
+    - 
+        id: Miscellaneous-light
+        title: Miscellaneous
+        title.zh: 杂项
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: card-highlight-light
+        title: Highlight active card
+        title.zh: 高亮当前活动卡片
+        description: Only applicable for card layout
+        description.zh: 仅限卡片式布局
+        type: class-toggle
+    - 
+        id: workspace-divider-transparent-light
+        title: Visually remove divider effect in workspace
+        title.zh: 在视觉上移除工作区的分隔线效果
+        description: For default layout
+        description.zh: 针对默认布局
+        type: class-toggle
+	- 
+		id: link-external-color
+		title: External link color
+        title.zh: 外部链接颜色
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	- 
+		id: link-external-color-hover
+		title: External link color (hover)
+        title.zh: 外部链接颜色（鼠标悬停时）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
 
 */
 
@@ -1268,6 +1352,53 @@ settings:
         format: hsl-split
         opacity: false
         default: '#5a6ded'
+    - 
+        id: accent-advanced-dark
+        title: Advanced
+        title.zh: 高级
+        type: heading
+        collapsed: true
+        level: 5
+    - 
+		id: color-accent-hsl-dark
+		title: color-accent-hsl
+        title.zh: color-accent-hsl
+        type: variable-color
+		format: hsl-values
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-dark
+		title: color-accent
+        title.zh: color-accent
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-1-dark
+		title: color-accent-1
+        title.zh: color-accent-1
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-2-dark
+		title: color-accent-2
+        title.zh: color-accent-2
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-3-dark
+		title: color-accent-3
+        title.zh: color-accent-3
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
     - 
         id: Extended-colors-dark
         title: Extended colors
@@ -2075,6 +2206,43 @@ settings:
         description.zh: 开关滑轨的阴影（鼠标悬停时） 接受任意 CSS box-shadow 值
         type: variable-text
         default: ''
+    - 
+        id: Miscellaneous-dark
+        title: Miscellaneous
+        title.zh: 杂项
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: card-highlight-dark
+        title: Highlight active card
+        title.zh: 高亮当前活动卡片
+        description: Only applicable for card layout
+        description.zh: 仅限卡片式布局
+        type: class-toggle
+    - 
+        id: workspace-divider-transparent-dark
+        title: Visually remove divider effect in workspace
+        title.zh: 在视觉上移除工作区的分隔线效果
+        description: For default layout
+        description.zh: 针对默认布局
+        type: class-toggle
+	- 
+		id: link-external-color
+		title: External link color
+        title.zh: 外部链接颜色
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	- 
+		id: link-external-color-hover
+		title: External link color (hover)
+        title.zh: 外部链接颜色（鼠标悬停时）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
 
 */
 
@@ -3291,8 +3459,8 @@ body.activated-file-tab-style-dark .setting-item[data-id=border-radius-activated
 body.activated-file-tab-style-dark .setting-item[data-id=color-to-file-icon-dark],
 body.activated-file-tab-style-dark .setting-item[data-id=background-activated-file-dark],
 body.activated-file-tab-style-dark .setting-item[data-id=shadow-activated-file-dark],
-body:not(.accent-color-custom-light) .setting-item[data-id=accent-light],
-body:not(.accent-color-custom-dark) .setting-item[data-id=accent-dark],
+body:not(.accent-color-custom-light) .setting-item:is([data-id=accent-light], [data-id=accent-advanced-light], [data-id=color-accent-hsl-light], [data-id=color-accent-light], [data-id=color-accent-1-light], [data-id=color-accent-2-light], [data-id=color-accent-3-light]),
+body:not(.accent-color-custom-dark) .setting-item:is([data-id=accent-dark], [data-id=accent-advanced-dark], [data-id=color-accent-hsl-dark], [data-id=color-accent-dark], [data-id=color-accent-1-dark], [data-id=color-accent-2-dark], [data-id=color-accent-3-dark]),
 body:not(.table-width-customized) .setting-item[data-id=table-width],
 body.file-icon-remove .setting-item:is([data-id=colorful-folder], [data-id=file-icon-color-select]),
 body:not(.new-tab-image-customize) .setting-item[data-id=new-tab-image],
@@ -3307,18 +3475,6 @@ body {
     --accent-h: 232;
     --accent-s: 80%;
     --accent-l: 64%;
-}
-
-.theme-light.accent-color-custom-light {
-    --accent-h: var(--accent-light-h) !important;
-    --accent-s: var(--accent-light-s) !important;
-    --accent-l: var(--accent-light-l) !important;
-}
-
-.theme-dark.accent-color-custom-dark {
-    --accent-h: var(--accent-dark-h) !important;
-    --accent-s: var(--accent-dark-s) !important;
-    --accent-l: var(--accent-dark-l) !important;
 }
 
 .theme-light {
@@ -3371,6 +3527,13 @@ body {
     --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 2.5%));
     --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 5%));
     --color-accent-3: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)));
+    --color-accent-hsl-light: var(--accent-h),
+        var(--accent-s),
+        var(--accent-l);
+    --color-accent-light: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1-light: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 2.5%));
+    --color-accent-2-light: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 5%));
+    --color-accent-3-light: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)));
     --background-modifier-border: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)), 0.2);
     --background-modifier-border-hover: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)), 0.25);
     --background-modifier-border-focus: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.9*var(--accent-l)), 0.3);
@@ -3400,6 +3563,17 @@ body {
         0px 30px 90px rgba(0, 0, 0, 0.2);
 }
 
+.theme-light.accent-color-custom-light {
+    --accent-h: var(--accent-light-h) !important;
+    --accent-s: var(--accent-light-s) !important;
+    --accent-l: var(--accent-light-l) !important;
+    --color-accent-hsl: var(--color-accent-hsl-light) !important;
+    --color-accent: var(--color-accent-light) !important;
+    --color-accent-1: var(--color-accent-1-light) !important;
+    --color-accent-2: var(--color-accent-2-light) !important;
+    --color-accent-3: var(--color-accent-3-light) !important;
+}
+
 .theme-light.theme-light-background-adapt {
     --color-accent-3: hsla(var(--accent-h), calc(0.4*var(--accent-s)), calc(0.81*var(--accent-l)));
     --background-primary: hsl(calc(var(--accent-h)),
@@ -3420,15 +3594,6 @@ body {
     --interactive-normal: var(--color-base-00);
     --interactive-hover: var(--color-base-10);
     --background-modifier-hover: hsla(var(--accent-h), 6%, 64%, 0.225);
-}
-
-.theme-dark:not(.accent-color-restore) {
-    --color-accent-hsl: var(--accent-h),
-        calc(var(--accent-s)*0.8),
-        calc(var(--accent-l) * 1.125);
-    --color-accent: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc(var(--accent-l) * 1.125));
-    --color-accent-1: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) - 3.8%));
-    --color-accent-2: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) + 3.8%));
 }
 
 .theme-dark {
@@ -3480,6 +3645,13 @@ body {
     --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
     --color-accent-2: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 3.8%));
     --color-accent-3: hsla(var(--accent-h), calc(0.45*var(--accent-s)), calc(1.15*var(--accent-l)));
+    --color-accent-hsl-dark: var(--accent-h),
+        var(--accent-s),
+        var(--accent-l);
+    --color-accent-dark: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1-dark: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
+    --color-accent-2-dark: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 3.8%));
+    --color-accent-3-dark: hsla(var(--accent-h), calc(0.45*var(--accent-s)), calc(1.15*var(--accent-l)));
     --background-modifier-border: hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.2);
     --background-modifier-border-hover: hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.25);
     --background-modifier-border-focus: hsla(var(--accent-h), calc(0.3*var(--accent-s)), calc(1.1*var(--accent-l)), 0.3);
@@ -3512,6 +3684,25 @@ body {
         0px 30px 90px rgba(0, 0, 0, 0.2);
 }
 
+.theme-dark:not(.accent-color-restore) {
+    --color-accent-hsl: var(--accent-h),
+        calc(var(--accent-s)*0.8),
+        calc(var(--accent-l) * 1.125);
+    --color-accent: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc(var(--accent-l) * 1.125));
+    --color-accent-1: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) - 3.8%));
+    --color-accent-2: hsl(var(--accent-h), calc(var(--accent-s)*0.8), calc((var(--accent-l) * 1.125) + 3.8%));
+}
+
+.theme-dark.accent-color-custom-dark {
+    --accent-h: var(--accent-dark-h) !important;
+    --accent-s: var(--accent-dark-s) !important;
+    --accent-l: var(--accent-dark-l) !important;
+    --color-accent-hsl: var(--color-accent-hsl-dark) !important;
+    --color-accent: var(--color-accent-dark) !important;
+    --color-accent-1: var(--color-accent-1-dark) !important;
+    --color-accent-2: var(--color-accent-2-dark) !important;
+    --color-accent-3: var(--color-accent-3-dark) !important;
+}
 
 .theme-dark.theme-dark-background-darker {
     --background-primary: hsl(var(--accent-h), calc(var(--accent-s) / 4), calc(var(--accent-l) / 5));
@@ -4083,6 +4274,15 @@ body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-root-split-backg
 
 /* ====== Layout ===== */
 /* default Layout*/
+body {
+    --card-shadow-light: 0px 0px 8px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.2);
+    --card-shadow-dark: 0px 0px 0px 1px var(--background-modifier-border);
+    --card-border-radius-light: 8px;
+    --card-border-radius-dark: 8px;
+    --card-shadow-border-radius-light: calc(var(--card-border-radius-light) - 1px);
+    --card-shadow-border-radius-dark: calc(var(--card-border-radius-dark) - 1px);
+}
+
 body.is-frameless:not(.is-hidden-frameless).is-fullscreen {
     padding-top: 0;
 }
@@ -4125,12 +4325,14 @@ body:not(.is-mobile).theme-dark .mod-top-right-space .workspace-tab-container {
     border-top-right-radius: var(--card-border-radius-dark, 8px);
 }
 
-body:not(.is-mobile) .workspace-split.mod-left-split {
+body:not(.is-mobile) .workspace-split.mod-left-split,
+body:not(.is-mobile) .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
     border-bottom-left-radius: var(--card-border-radius-light, 8px);
     overflow: hidden;
 }
 
-body:not(.is-mobile).theme-dark .workspace-split.mod-left-split {
+body:not(.is-mobile).theme-dark .workspace-split.mod-left-split,
+body:not(.is-mobile).theme-dark .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
     border-bottom-left-radius: var(--card-border-radius-dark, 8px);
 }
 
@@ -4145,28 +4347,11 @@ body:not(.is-mobile).theme-dark .workspace-split.mod-right-split {
     border-bottom-right-radius: var(--card-border-radius-dark, 8px);
 }
 
-body:not(.is-mobile) .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
-    border-bottom-left-radius: var(--card-border-radius-light, 8px);
-    overflow: hidden;
-}
-
-body:not(.is-mobile).theme-dark .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
-    border-bottom-left-radius: var(--card-border-radius-dark, 8px);
-}
-
 .workspace-window .mod-top-left-space .workspace-tab-container,
 .workspace-window .mod-top-left-space .workspace-tab-container .workspace-leaf-content {
     border-top-left-radius: 0px !important;
 }
 
-body {
-    --card-shadow-light: 0px 0px 8px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.2);
-    --card-shadow-dark: 0px 0px 0px 1px var(--background-modifier-border);
-    --card-border-radius-light: 8px;
-    --card-border-radius-dark: 8px;
-    --card-shadow-border-radius-light: calc(var(--card-border-radius-light) - 1px);
-    --card-shadow-border-radius-dark: calc(var(--card-border-radius-dark) - 1px);
-}
 
 body:not(.is-mobile) .workspace::before {
     content: " ";
@@ -4206,7 +4391,7 @@ body:not(.is-mobile) .workspace-ribbon {
 }
 
 .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
-    box-shadow: inset 0px 1px 0px var(--divider-color);
+    box-shadow: inset 0px 1px 0px var(--workspace-divider-color);
 }
 
 body.theme-light.card-layout-open-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
@@ -4258,9 +4443,6 @@ body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tab-header-co
     background-color: transparent !important;
 }
 
-body:not(.is-mobile).card-layout-open-light.theme-light .workspace-leaf-resize-handle {
-    border-color: transparent;
-}
 
 body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container {
     border-top: unset;
@@ -4299,12 +4481,15 @@ body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tab-header-cont
     background-color: transparent !important;
 }
 
-body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-leaf-resize-handle {
-    border-color: transparent;
-}
-
 body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container {
     border-top: unset;
+}
+
+/* card highlight */
+body:not(.is-mobile).card-highlight-light.card-layout-open-light.theme-light .mod-root:has(.workspace-tabs+.workspace-tabs) .workspace-tabs.mod-active .workspace-tab-container,
+body:not(.is-mobile).card-highlight-dark.card-layout-open-dark.theme-dark .mod-root:has(.workspace-tabs+.workspace-tabs) .workspace-tabs.mod-active .workspace-tab-container {
+    outline-offset: -2px;
+    outline: 2px solid var(--color-accent-3);
 }
 
 /* scrollbar */
@@ -4364,7 +4549,7 @@ body.is-mobile:not(.native-scrollbars) ::-webkit-scrollbar-thumb:hover {
     border-width: 0px 0px 0px 0px;
 }
 
-body:not(.native-scrollbars) .workspace-leaf-content:is([data-type="surfing-view"], [data-type="graph"], [data-type="localgraph"]) ::-webkit-scrollbar,
+body:not(.native-scrollbars) .workspace-leaf-content:is([data-type="surfing-view"], [data-type="graph"], [data-type="localgraph"], [data-type="pdf"]) ::-webkit-scrollbar,
 body:not(.native-scrollbars).scrollbar-hide ::-webkit-scrollbar {
     display: none;
 }
@@ -4563,8 +4748,7 @@ body {
     --color-activated-tab-header-light: var(--text-normal);
     --color-activated-tab-header-dark: var(--text-normal);
     --background-activated-tab-header-light: var(--background-primary);
-    --shadow-activated-tab-header-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2);
-    --shadow-activated-tab-header-light-alt: var(--shadow-activated-tab-header-light), 0 0 0 1px var(--background-modifier-border);
+    --shadow-activated-tab-header-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2), 0 0 0 1px var(--background-modifier-border);
     --background-activated-tab-header-dark: var(--background-modifier-active-hover);
     --shadow-activated-tab-header-dark: inset 0 0 0 1px var(--background-modifier-border);
 }
@@ -4592,21 +4776,13 @@ body:not(.is-mobile).theme-dark .workspace-tab-header .workspace-tab-header-inne
     border-radius: var(--border-radius-activated-tab-header-dark);
 }
 
-body:not(.is-mobile) .workspace-tab-header.is-active .workspace-tab-header-inner {
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
     background: var(--background-activated-tab-header-light);
     box-shadow: var(--shadow-activated-tab-header-light);
     border-radius: var(--border-radius-activated-tab-header-light);
 }
 
-body:not(.is-mobile).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-header.is-active .workspace-tab-header-inner {
-    box-shadow: var(--shadow-activated-tab-header-light-alt);
-}
-
-body:not(.is-mobile).theme-light.card-layout-open-light .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
-    box-shadow: var(--shadow-activated-tab-header-light) !important;
-}
-
-body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-header-inner {
+body:not(.is-mobile).theme-dark .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active .workspace-tab-header-inner {
     box-shadow: var(--shadow-activated-tab-header-dark);
     background: var(--background-activated-tab-header-dark);
     border-radius: var(--border-radius-activated-tab-header-dark);
@@ -4619,17 +4795,38 @@ body:not(.is-mobile).theme-dark .workspace-tab-header.is-active .workspace-tab-h
     box-shadow: inset 0 0 0 1px var(--background-modifier-border);
 }
 
+/* divider */
+body {
+    --workspace-divider-color: var(--divider-color);
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light,
+body:not(.is-mobile).card-layout-open-dark.theme-dark,
+body.workspace-divider-transparent-light.theme-light,
+body.workspace-divider-transparent-dark.theme-dark {
+    --workspace-divider-color: transparent;
+}
+
+.workspace-leaf-resize-handle {
+    border-color: var(--workspace-divider-color);
+}
+
+
 /* ====== divider vertical height ===== */
-.is-hidden-frameless .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+.is-hidden-frameless .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 .is-hidden-frameless .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 .is-hidden-frameless .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) - var(--header-height) - 4px);
 }
 
-.workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+.workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) - 4px);
+}
+
+.workspace-split.mod-vertical:not(:has(.mod-top))>*>.workspace-leaf-resize-handle {
+    height: 100% !important;
 }
 
 /* ====== autohide ===== */
@@ -4671,7 +4868,6 @@ body:not(.is-mobile).tab-autohide .workspace-tab-header-container:hover {
     transition: height var(--anim-in), opacity var(--anim-in);
 }
 
-
 body:not(.is-mobile).tab-autohide .workspace-tab-header-container-inner {
     transform: translateY(-22px);
     opacity: 0;
@@ -4685,63 +4881,55 @@ body:not(.is-mobile).tab-autohide:has(.mod-top>.workspace-tab-header-container:h
     transition: transform var(--anim-in), opacity var(--anim-in);
 }
 
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
-    box-shadow: inset 0px 1px 0px transparent;
-    transition: box-shadow var(--anim-out);
-}
-
-body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container>.workspace-leaf {
-    box-shadow: inset 0px 1px 0px var(--divider-color);
-    transition: box-shadow var(--anim-in);
-}
-
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
 body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
     box-shadow: inset 0px 1px 0px transparent;
     transition: box-shadow var(--anim-out);
 }
 
+body:not(.is-mobile).tab-autohide:not(.card-layout-open-light).theme-light :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container>.workspace-leaf,
 body:not(.is-mobile).tab-autohide:not(.card-layout-open-dark).theme-dark :has(.workspace-tab-header-container:hover) .workspace-tabs:not(.mod-top):hover .workspace-tab-container>.workspace-leaf {
-    box-shadow: inset 0px 1px 0px var(--divider-color);
+    box-shadow: inset 0px 1px 0px var(--workspace-divider-color);
     transition: box-shadow var(--anim-in);
 }
 
 
 /*tab autohide mod-top*/
 
-body:not(.is-mobile).tab-autohide .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) + 24px);
     transition: height var(--anim-out);
 }
 
-body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover) .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover) .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover) .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover) .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     transition: height var(--anim-in);
 }
 
-body:not(.is-mobile).tab-autohide:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) - 4px);
     transition: height var(--anim-in);
 }
 
-body:not(.is-mobile).tab-autohide.is-hidden-frameless .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide.is-hidden-frameless .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.is-hidden-frameless .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.is-hidden-frameless .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) - 16px);
     transition: height var(--anim-out);
 }
 
-body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover).is-hidden-frameless .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover).is-hidden-frameless .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover).is-hidden-frameless .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.status-bar-autohide:has(.status-bar:hover).is-hidden-frameless .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     transition: height var(--anim-in);
 }
 
-body:not(.is-mobile).tab-autohide.is-hidden-frameless:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-vertical.mod-root>*>.workspace-leaf-resize-handle,
+body:not(.is-mobile).tab-autohide.is-hidden-frameless:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.is-hidden-frameless:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 body:not(.is-mobile).tab-autohide.is-hidden-frameless:has(.mod-top>.workspace-tab-header-container:hover, .titlebar-button-container:hover) .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
     height: calc(var(--divider-vertical-height) - var(--header-height) - 4px);
@@ -5646,11 +5834,6 @@ body.activated-file-tab-style-dark.theme-dark {
     --shadow-activated-file-dark: var(--shadow-activated-tab-header-dark) !important;
 }
 
-body.activated-file-tab-style-light.theme-light.mod-right-split-background-primary-light .mod-right-split,
-body.activated-file-tab-style-light.theme-light.mod-left-split-background-primary-light .mod-left-split {
-    --shadow-activated-file-light: var(--shadow-activated-tab-header-light-alt) !important;
-}
-
 body.activated-file-tab-style-light.color-to-tab-icon-light.theme-light .nav-file-title.is-active .nav-file-title-content::before {
     --file-icon-color: var(--color-activated-file-light) !important;
 }
@@ -6089,8 +6272,8 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
     --input-shadow-hover: var(--input-shadow-hover-light);
 
     --input-radius-light: 5px;
-    --input-shadow-light: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 1px 2px rgba(0, 0, 0, 0.04), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.04);
-    --input-shadow-hover-light: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 1px 2px rgba(0, 0, 0, 0.05), inset 0px -4px 8px rgba(0, 0, 0, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(255, 255, 255, 0.25), inset 0px 1px 0px rgba(255, 255, 255, 0.5), inset 0px -2px 2px rgba(0, 0, 0, 0.05);
+    --input-shadow-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.24), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
+    --input-shadow-hover-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.24), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
 }
 
 .theme-dark {
@@ -6126,8 +6309,8 @@ body:not(.setting-item-title-icon-remove):not(.is-phone) .vertical-tab-header-gr
     --input-shadow-hover: var(--input-shadow-hover-dark);
 
     --input-radius-dark: 5px;
-    --input-shadow-dark: inset 0px 0px 0px 1px var(--background-modifier-border), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25);
-    --input-shadow-hover-dark: inset 0px 0px 0px 1px var(--background-modifier-border-hover), 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px -4px 8px rgba(0, 0, 0, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.4), inset 0px 4px 8px rgba(255, 255, 255, 0.05), inset 0px -2px 2px rgba(0, 0, 0, 0.1), inset 0px 2px 2px rgba(255, 255, 255, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.25);
+    --input-shadow-dark: 0px 4px 8px -4px rgba(0, 0, 0, 0.32), 0px 1px 2px rgba(0, 0, 0, 0.32), 0px 0px 0px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px 1px rgba(0, 0, 0, 0.12), inset 0px 1px 0.75px rgba(255, 255, 255, 0.16), inset 0px -2px 0.75px rgba(0, 0, 0, 0.16);
+    --input-shadow-hover-dark: 0px 4px 8px -4px rgba(0, 0, 0, 0.32), 0px 1px 2px rgba(0, 0, 0, 0.32), 0px 0px 0px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px 1px rgba(0, 0, 0, 0.12), inset 0px 1px 0.75px rgba(255, 255, 255, 0.16), inset 0px -2px 0.75px rgba(0, 0, 0, 0.16);
 }
 
 .theme-light.is-mobile,
@@ -8504,8 +8687,8 @@ body:not(.is-mobile) .workspace-leaf-content[data-type="style-settings"] .view-c
 }
 
 
-.setting-item.style-settings-heading:is([data-id=Extended-colors-light], [data-id=Global-background-header-light], [data-id=Foreground-header-light], [data-id=interactive-color-light])+.style-settings-container .setting-item .setting-item-control div.theme-dark,
-.setting-item.style-settings-heading:is([data-id=Extended-colors-dark], [data-id=Global-background-header-dark], [data-id=Foreground-header-dark], [data-id=interactive-color-dark])+.style-settings-container .setting-item .setting-item-control div.theme-light {
+.setting-item.style-settings-heading:is([data-id=Extended-colors-light], [data-id=Global-background-header-light], [data-id=Foreground-header-light], [data-id=interactive-color-light], [data-id=Miscellaneous-light])+.style-settings-container .setting-item .setting-item-control div.theme-dark,
+.setting-item.style-settings-heading:is([data-id=Extended-colors-dark], [data-id=Global-background-header-dark], [data-id=Foreground-header-dark], [data-id=interactive-color-dark], [data-id=Miscellaneous-dark])+.style-settings-container .setting-item .setting-item-control div.theme-light {
     display: none;
 }
 
