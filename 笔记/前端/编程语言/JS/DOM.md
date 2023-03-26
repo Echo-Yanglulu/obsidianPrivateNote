@@ -1,7 +1,13 @@
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
-
-文档对象模型。一种标准：定义了JS处理HTML使用的API。是与==语言无关==的HTML处理接口。
-	1. 提供了JS处理DOM的方法，与JS无关？
+# 概述
+内容
+	1. 理解DOM的构成
+	2. 节点类型
+	3. 浏览器兼容性
+	4. MutationObserver接口
+文档对象模型。
+	1. 一种标准：定义了JS处理HTML使用的API。是与==语言无关==的HTML处理接口。
+	2. 提供了JS处理DOM的方法，与JS无关？
 
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
 DOM对象是[[宿主对象]]。

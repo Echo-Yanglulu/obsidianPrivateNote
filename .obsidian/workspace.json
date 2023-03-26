@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端检测.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -356,7 +356,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -382,7 +383,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -409,7 +410,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -819,25 +820,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e85da53958190f2e",
+  "active": "d45ea6007daf1bbd",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0326-231930-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-232233-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0326-232130-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-232127-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-232124-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0326-232021-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/客户端检测.md",
+    "笔记/_gsdata_/2023-0326-231930-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-231830-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-231730-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-231630-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231530-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231430-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231330-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231230-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231130-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-231030-DESKTOP-YLL-Job1.log",
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/行为/健身/部位/背部.md",
-    "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/工具/通用概念/恐惧.md",
     "笔记/学习方法/自己的学习行为.md",
