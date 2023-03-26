@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/宿主对象.md"
+                    "file": "笔记/前端/编程语言/JS/客户端检测.md"
                   }
                 }
               }
@@ -38,28 +38,6 @@
             "type": "tabs",
             "dimension": 71.8432510885341,
             "children": [
-              {
-                "id": "48c40bbeb9dd014b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
               {
                 "id": "e85da53958190f2e",
                 "type": "leaf",
@@ -378,8 +356,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -405,7 +382,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/宿主对象.md",
+                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -432,7 +409,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/宿主对象.md",
+                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -842,24 +819,24 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f474ce2b14c936a5",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0326-163522-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-163816-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/内心/未命名.canvas",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/宿主对象.md",
+    "笔记/_gsdata_/2023-0326-163722-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-163622-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0326-163522-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-163422-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-163322-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-163222-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-163122-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0326-163022-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-162922-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0326-162822-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0326-162722-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/宿主对象.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/行为/健身/部位/背部.md",
-    "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/工具/通用概念/恐惧.md",
