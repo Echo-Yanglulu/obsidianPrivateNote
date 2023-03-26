@@ -4,6 +4,7 @@
 	1. 提供了JS处理DOM的方法，与JS无关？
 
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
+DOM对象是[[宿主对象]]。
 # 属性
 clientWidth：元素的**content+padding**。
 clientHeight：某个元素的content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
