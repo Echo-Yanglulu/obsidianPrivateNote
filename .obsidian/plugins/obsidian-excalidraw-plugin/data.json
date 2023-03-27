@@ -17,6 +17,7 @@
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": true,
   "width": "400",
+  "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "matchTheme": false,
   "matchThemeAlways": false,
@@ -20731,7 +20732,7 @@
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "1.8.20",
+  "previousRelease": "1.8.21",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
