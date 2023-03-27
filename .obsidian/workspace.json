@@ -315,13 +315,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":11},\"to\":{\"line\":76,\"ch\":11}},\"scroll\":54.044040210627095}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md",
+                    "file": "笔记/前端/编程语言/JS/作用域.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -820,26 +826,26 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "35a37a7f091b5bb5",
+  "active": "9a6b5f4afc0f8944",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0328-071121-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0328-071018-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/_gsdata_/2023-0328-071000-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/作用域.md",
+    "笔记/_gsdata_/2023-0328-070957-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-070854-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-070830-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0328-070809-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-070706-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-070642-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-070557-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/_gsdata_/2023-0328-070457-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-070357-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-070257-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-070157-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/关键字.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/客户端检测.md",
-    "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/高阶函数.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/前端/编程语言/JS/命名空间.md",
