@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/作用域.md"
+                    "file": "笔记/前端/编程语言/JS/闭包.md"
                   }
                 }
               }
@@ -317,6 +317,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "作用域",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/作用域.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":51},\"to\":{\"line\":7,\"ch\":51}},\"scroll\":0}"
+                    },
+                    {
                       "title": "函数",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -327,7 +333,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/作用域.md",
+                    "file": "笔记/前端/编程语言/JS/函数.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -389,7 +395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/作用域.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -416,7 +422,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/作用域.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -826,22 +832,23 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "630f42655b3cc1ff",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0328-071427-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/闭包.md",
+    "笔记/_gsdata_/2023-0328-071645-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/作用域.md",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/_gsdata_/2023-0328-071639-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-071636-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0328-071533-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-071530-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-071427-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-071403-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-071333-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0328-071321-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-071221-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-071121-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-071018-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/函数.md",
-    "笔记/_gsdata_/2023-0328-071000-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/_gsdata_/2023-0328-070957-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/关键字.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
@@ -853,9 +860,7 @@
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
-    "笔记/行为/健身/部位/背部.md",
     "笔记/工具/通用概念/恐惧.md",
-    "笔记/学习方法/自己的学习行为.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
