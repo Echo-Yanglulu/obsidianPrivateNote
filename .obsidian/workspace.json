@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/作用域.md"
+                    "file": "笔记/前端/编程语言/JS/函数.md"
                   }
                 }
               }
@@ -395,7 +395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/作用域.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -422,7 +422,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/作用域.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -832,21 +832,21 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "bc5eae207f25c1cb",
+  "active": "9a6b5f4afc0f8944",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/_gsdata_/2023-0328-072906-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/_gsdata_/2023-0328-073139-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0328-073115-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-073106-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-073103-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/作用域.md",
+    "笔记/_gsdata_/2023-0328-073000-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0328-072906-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-072833-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-072827-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072824-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072721-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072718-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072615-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072551-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0328-072515-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/函数.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/关键字.md",
