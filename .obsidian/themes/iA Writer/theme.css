@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "iA Writer Duo";
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Regular.eot");
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV.ttf") format("ttf supports variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV.ttf") format("ttf-variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Regular.woff2") format("woff2"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Regular.woff") format("woff"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iA Writer Duo";
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Italic.eot");
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf") format("ttf supports variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf") format("ttf-variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Italic.woff2") format("woff2"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Italic.woff") format("woff"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iA Writer Duo";
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Bold.eot");
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV.ttf") format("ttf supports variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV.ttf") format("ttf-variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Bold.woff2") format("woff2"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-Bold.woff") format("woff"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iA Writer Duo";
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-BoldItalic.eot");
+    src: url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf") format("ttf supports variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf") format("ttf-variations"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-BoldItalic.woff2") format("woff2"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Webfonts/iAWriterDuoS-BoldItalic.woff") format("woff"),
+        url("https://mrowa44.github.io/roam-ia-writer/fonts/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+}
+
+body {
+  --h1-size: var(--font-text-size); /* 20 px */
+  --h2-size: var(--font-text-size); /* 20 px */
+  --h3-size: var(--font-text-size); /* 20 px */
+  --h4-size: var(--font-text-size); /* 20 px */
+  --h5-size: var(--font-text-size); /* 20 px */
+  --h6-size: var(--font-text-size); /* 20 px */
+  --vault-name-font-weight: 600;
+
+  --file-line-width: min(850px, 95vw);
+  --file-margins: 64px 32px 32px 32px;
+
+  --h1-color: var(--text-normal);
+  --link-color: var(--text-normal);
+  --text-faint: var(--text-muted);
+  --callout-title-color: var(--text-normal);
+  --link-unresolved-color: var(--text-normal);
+  --link-external-color: var(--text-normal);
+  --link-external-color-hover: var(--color-accent);
+  --checkbox-color: var(--text-muted);
+  --checkbox-border-color: var(--text-muted);
+  --list-marker-color: var(--text-muted);
+  --tab-text-color: var(--text-normal);
+  --tab-text-color-focused: var(--text-normal);
+  --tab-text-color-focused-active: var(--text-normal);
+  --tab-text-color-active: var(--text-normal);
+  --nav-item-color: var(--text-normal);
+  --nav-item-background-active: transparent;
+  --nav-item-background-hover: transparent;
+  --link-unresolved-opacity: 1;
+
+  /* --primary: #18BEEC; */
+}
+
+.theme-light,
+.theme-dark {
+  /* --font-text: "iA Writer Duo"; */
+  --font-text: "iA Writer Duo", var(--font-text-override), "iA Writer Duo", var(--font-interface);
+  --link-decoration: underline;
+  --link-unresolved-decoration-color: var(--text-muted);
+  --link-external-decoration-color: var(--text-muted);
+  --checklist-done-decoration: line-through;
+  --checkbox-color: transparent;
+  --checkbox-color-hover: transparent;
+  --checkbox-marker-color: transparent;
+}
+
+.theme-light {
+  --background-primary: #F7F7F7;
+  --background-secondary: #FCFCFC;
+  --text-normal: #1A1A1A;
+  --text-muted: #B5B3B1;
+  --text-highlight-bg: #FCEA95;
+  --text-highlight-border: 4px solid #FFD700;
+}
+
+.theme-dark {
+  --background-primary: #1A1A1A;
+  --background-secondary: #141414;
+  --text-normal: #CCC;
+  --text-muted: #707070;
+  --text-highlight-bg: #494113;
+  --text-highlight-border: 4px solid #D4B000;
+}
+
+.inline-title {
+  margin-bottom: 20px;
+}
+
+.markdown-source-view.mod-cm6 .cm-content {
+  caret-color: var(--color-accent);
+}
+
+.cm-s-obsidian span.cm-hmd-internal-link:hover,
+.markdown-source-view.mod-cm6 .is-unresolved .cm-underline,
+.markdown-source-view.mod-cm6 .cm-underline,
+.cm-s-obsidian span.cm-url,
+.cm-underline {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--text-muted);
+}
+.cm-highlight {
+  border-bottom: var(--text-highlight-border);
+}
+
+.nav-file-title.is-active {
+  border-left: 5px solid var(--color-accent);
+  border-radius: 0;
+  margin-left: -10px;
+  padding-left: calc(var(--size-4-2) + 5px);
+}
+
+input[type=checkbox] {
+  border: 0;
+}
+input[type=checkbox]:checked::after,
+input[type=checkbox]:not(:checked)::after {
+  -webkit-mask-image: none;
+  font-size: var(--font-text-size);
+  width: 40px;
+  font-family: var(--font-text);
+  white-space: nowrap;
+  top: -4px;
+  left: -10px;
+  position: absolute;
+  display: block;
+}
+input[type=checkbox]:not(:checked)::after {
+  content: "[  ]";
+  color: var(--text-normal);
+}
+input[type=checkbox]:checked::after {
+  content: "[x]";
+  color: var(--text-muted);
+}
+.markdown-source-view.mod-cm6 .task-list-item-checkbox {
+  margin-left: 10px;
+}
+
+
+.nav-buttons-container {
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+
+.markdown-source-view.mod-cm6 .cm-highlight .is-unresolved {
+  color: var(--text-normal);
+}
+
+.theme-dark .cm-s-obsidian .cm-hmd-frontmatter.cm-atom {
+  color: var(--color-accent);
+}
