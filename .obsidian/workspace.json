@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端检测.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/表达式.md"
                   }
                 }
               }
@@ -367,9 +367,49 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "214fe9caad1fac53",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":3},\"to\":{\"line\":38,\"ch\":3}},\"scroll\":17.139742319127848}"
+                    },
+                    {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":149,\"ch\":7},\"to\":{\"line\":149,\"ch\":7}},\"scroll\":77.3931216931217}"
+                    },
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":18},\"to\":{\"line\":74,\"ch\":18}},\"scroll\":47.1184}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/JS.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -395,7 +435,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/表达式.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -422,7 +462,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端检测.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/表达式.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -832,9 +872,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bd5ff300df2b3029",
+  "active": "681650d428951ff3",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/函数.md",
+    "笔记/工具/通用概念/恐惧.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/_gsdata_/2023-0328-074006-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -853,14 +898,11 @@
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/关键字.md",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/高阶函数.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
-    "笔记/工具/通用概念/恐惧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
@@ -869,7 +911,6 @@
     "笔记/前端/工程化/SSR.md",
     "笔记/内心/歧路.md",
     "笔记/内心/人性的优点.md",
-    "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",

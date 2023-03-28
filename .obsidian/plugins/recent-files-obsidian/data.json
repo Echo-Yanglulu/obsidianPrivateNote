@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "客户端检测",
-      "path": "笔记/前端/编程语言/JS/客户端检测.md"
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "普通对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
     },
     {
       "basename": "函数",
       "path": "笔记/前端/编程语言/JS/函数.md"
+    },
+    {
+      "basename": "恐惧",
+      "path": "笔记/工具/通用概念/恐惧.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "笔记/前端/编程语言/JS/DOM.md"
+    },
+    {
+      "basename": "客户端检测",
+      "path": "笔记/前端/编程语言/JS/客户端检测.md"
     },
     {
       "basename": "闭包",
@@ -29,10 +49,6 @@
       "path": "笔记/学习方法/自己的学习行为.md"
     },
     {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
       "basename": "未命名",
       "path": "笔记/内心/未命名.canvas"
     },
@@ -41,20 +57,12 @@
       "path": "笔记/前端/工程化/构建/webpack.config.js.md"
     },
     {
-      "basename": "恐惧",
-      "path": "笔记/工具/通用概念/恐惧.md"
-    },
-    {
       "basename": "深夜加油站遇见苏格拉底",
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
       "basename": "CSS模块化",
       "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     },
     {
       "basename": "浏览器",
@@ -165,10 +173,6 @@
       "path": "笔记/前端/工程化/JS模块化.md"
     },
     {
-      "basename": "普通对象",
-      "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
-    },
-    {
       "basename": "标识符",
       "path": "笔记/前端/编程语言/JS/基本概念/标识符.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "JSON",
       "path": "笔记/前端/编程语言/JS/JSON.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "笔记/前端/编程语言/HTML/HTML.md"
     }
   ],
   "omittedPaths": [],
