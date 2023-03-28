@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md"
+                    "file": "笔记/前端/编程语言/JS/闭包.md"
                   }
                 }
               }
@@ -395,7 +395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -422,7 +422,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -832,8 +832,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "fa1da4f78c9e18aa",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/_gsdata_/2023-0328-074006-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -846,7 +847,6 @@
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/_gsdata_/2023-0328-073736-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073712-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/函数.md",
     "笔记/_gsdata_/2023-0328-073703-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/行为/健身/部位/背部.md",
