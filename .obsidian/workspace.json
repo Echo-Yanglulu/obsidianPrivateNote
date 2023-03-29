@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
+                    "file": "笔记/前端/编程语言/JS/作用域.md"
                   }
                 }
               }
@@ -481,7 +481,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/作用域.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -508,7 +508,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/作用域.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -918,8 +918,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "10030b0695c53c20",
+  "active": "7ba4bcf5296fcbf8",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/库、框架/UI库/react.md",
@@ -927,7 +928,6 @@
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/面向对象.md",
     "笔记/前端/编程语言/JS/编程范式.md",
