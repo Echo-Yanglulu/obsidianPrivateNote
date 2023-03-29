@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
+                    "file": "笔记/前端/编程语言/JS/闭包.md"
                   }
                 }
               }
@@ -455,7 +455,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -481,7 +481,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -508,7 +508,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -649,8 +649,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -918,15 +917,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "10030b0695c53c20",
+  "active": "214fe9caad1fac53",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/this关键字.md",
+    "笔记/前端/编程语言/JS/闭包.md",
+    "笔记/前端/编程语言/JS/this.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/基础知识/编译原理/AST.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/JS引擎.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
-    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/编程语言/JS/函数.md",
@@ -952,11 +953,9 @@
     "笔记/行为/健身/部位/背部.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/关键字.md",
-    "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/高阶函数.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/内心/未命名.canvas",
-    "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
