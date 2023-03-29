@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
+                    "file": "笔记/前端/编程语言/JS/函数.md"
                   }
                 }
               }
@@ -382,6 +382,18 @@
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.074754901960784}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":4.801533275337103}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":3},\"to\":{\"line\":38,\"ch\":3}},\"scroll\":17.139742319127848}"
                     },
                     {
@@ -401,7 +413,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS.md",
+                    "file": "笔记/前端/编程语言/JS/函数.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -457,7 +469,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -484,7 +496,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -893,8 +905,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ee0e050075212c42",
+  "active": "214fe9caad1fac53",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/作用域.md",
@@ -902,7 +915,6 @@
     "笔记/前端/编程语言/JS/面向对象编程.md",
     "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/前端/编程语言/JS/客户端检测.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/工具/通用概念/恐惧.md",
