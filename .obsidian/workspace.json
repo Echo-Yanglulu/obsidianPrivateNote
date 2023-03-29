@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/闭包.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -475,7 +475,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -502,7 +502,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -911,10 +911,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "214fe9caad1fac53",
+  "active": "e64219dde47bb75c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/闭包.md",
+    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -948,8 +950,6 @@
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
