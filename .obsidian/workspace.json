@@ -379,6 +379,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":39},\"to\":{\"line\":76,\"ch\":39}},\"scroll\":47.0931}"
+                    },
+                    {
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -413,7 +419,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md",
+                    "file": "笔记/前端/编程语言/JS/闭包.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -905,9 +911,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "90d8d638fe0064ba",
+  "active": "214fe9caad1fac53",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/函数.md",
+    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -927,7 +934,6 @@
     "笔记/_gsdata_/2023-0328-073842-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073839-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/命名空间.md",
-    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/_gsdata_/2023-0328-073736-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073712-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073703-DESKTOP-YLL-Job1.log",
