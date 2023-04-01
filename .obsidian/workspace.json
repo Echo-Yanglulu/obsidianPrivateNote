@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Excalidraw/Untitled Diagram.svg"
+                    "file": "笔记/前端/编程语言/JS/函数.md"
                   }
                 }
               }
@@ -372,6 +372,25 @@
                 }
               },
               {
+                "id": "c720c4f426034e90",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md"
+                  }
+                }
+              },
+              {
                 "id": "6dc19d428873a0c3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -486,7 +505,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -512,7 +531,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Excalidraw/Untitled Diagram.svg",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -539,7 +558,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Excalidraw/Untitled Diagram.svg",
+                        "file": "笔记/前端/编程语言/JS/函数.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -974,9 +993,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "100387f9ce9da5aa",
+  "active": "214c223dbc260e83",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
     "笔记/前端/编程语言/JS/函数.md",
+    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.svg",
     "Excalidraw/Untitled Diagram.svg",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -1011,7 +1032,6 @@
     "笔记/行为/健身/部位/背部.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/关键字.md",
-    "笔记/前端/编程语言/JS/高阶函数.md",
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
@@ -1021,7 +1041,6 @@
     "笔记/_gsdata_/_saved_/工具/通用概念/自我.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/核心思维.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/提问.svg",
-    "笔记/_gsdata_/_saved_/工具/通用概念/反思.svg",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
 }
