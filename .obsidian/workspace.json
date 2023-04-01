@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md"
+                    "file": "Excalidraw/Untitled Diagram.svg"
                   }
                 }
               }
@@ -481,7 +481,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "Excalidraw/Untitled Diagram.svg",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -508,7 +508,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/函数.md",
+                        "file": "Excalidraw/Untitled Diagram.svg",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -641,12 +641,20 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "File Tree",
+                  "icon": "sheets-in-box",
+                  "state": "{\"type\":\"file-tree-view\",\"state\":{}}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "file-tree-view",
-              "state": {}
+              "type": "diagram-edit",
+              "state": {
+                "file": "Excalidraw/Untitled Diagram.svg"
+              }
             }
           }
         ],
@@ -918,11 +926,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a6b5f4afc0f8944",
+  "active": "4e42712896590409",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/函数.md",
+    "Excalidraw/Untitled Diagram.svg",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
-    "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/this关键字.md",
     "笔记/前端/编程语言/JS/this.md",
@@ -955,7 +964,6 @@
     "笔记/学习方法/自己的学习行为.md",
     "笔记/前端/编程语言/JS/关键字.md",
     "笔记/前端/编程语言/JS/高阶函数.md",
-    "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
@@ -966,7 +974,6 @@
     "笔记/_gsdata_/_saved_/工具/通用概念/核心思维.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/提问.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/反思.svg",
-    "笔记/_gsdata_/_saved_/工具/思考/图形/VN图示例.svg",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
 }
