@@ -341,6 +341,37 @@
                 }
               },
               {
+                "id": "100387f9ce9da5aa",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":18},\"to\":{\"line\":74,\"ch\":18}},\"scroll\":59.8156}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Untitled Diagram",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"Excalidraw/Untitled Diagram.svg\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "diagram-edit",
+                  "state": {
+                    "file": "Excalidraw/Untitled Diagram.svg"
+                  }
+                }
+              },
+              {
                 "id": "6dc19d428873a0c3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -455,7 +486,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -656,9 +687,26 @@
                 "file": "Excalidraw/Untitled Diagram.svg"
               }
             }
+          },
+          {
+            "id": "2a89c20d4e9479cb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -926,7 +974,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e42712896590409",
+  "active": "100387f9ce9da5aa",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/函数.md",
     "Excalidraw/Untitled Diagram.svg",
