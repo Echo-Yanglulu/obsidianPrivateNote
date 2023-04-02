@@ -284,5 +284,35 @@
       ],
       "key": "S"
     }
+  ],
+  "obisidian-note-linker:open-note-linker": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "obisidian-note-linker:open-note-linker-note": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "obisidian-note-linker:open-note-linker-vault": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
   ]
 }
