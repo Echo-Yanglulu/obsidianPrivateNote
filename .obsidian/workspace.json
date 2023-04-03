@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/工具/通用概念/事物.md"
                   }
                 }
               }
@@ -179,6 +179,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "未命名",
+                      "icon": "lucide-layout-dashboard",
+                      "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"笔记/内心/未命名.canvas\",\"viewState\":{\"x\":227,\"y\":176,\"zoom\":0}}}",
+                      "eState": "{}"
+                    },
+                    {
                       "title": "JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -217,14 +223,12 @@
                   ]
                 },
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/未命名.canvas",
-                    "viewState": {
-                      "x": 227,
-                      "y": 176,
-                      "zoom": 0
-                    }
+                    "file": "笔记/工具/通用概念/事物.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
                   }
                 }
               },
@@ -498,7 +502,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -524,7 +528,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/通用概念/事物.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -551,7 +555,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/通用概念/事物.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -959,14 +963,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "214fe9caad1fac53",
+  "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/客户端检测.md",
+    "笔记/工具/通用概念/DOCTORS模型.md",
+    "笔记/工具/通用概念/定义.md",
+    "笔记/工具/通用概念/事物.md",
+    "笔记/内心/未命名.canvas",
+    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
+    "笔记/工具/通用概念/恐惧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/内心/心灵.md",
     "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/工具/通用概念/恐惧.md",
-    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
     "Excalidraw/Untitled Diagram.svg",
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -993,13 +1001,9 @@
     "笔记/_gsdata_/2023-0328-073900-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073842-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073839-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/命名空间.md",
     "笔记/_gsdata_/2023-0328-073736-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073712-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0328-073703-DESKTOP-YLL-Job1.log",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/内心/未命名.canvas",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
