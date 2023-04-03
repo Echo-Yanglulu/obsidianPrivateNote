@@ -730,7 +730,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -991,9 +992,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "13f516c45139776d",
