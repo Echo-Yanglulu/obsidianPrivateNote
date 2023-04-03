@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/西方文明简史/问题.md"
+                    "file": "笔记/西方文明简史/Untitled Diagram.svg"
                   }
                 }
               }
@@ -42,8 +42,14 @@
                 "id": "e85da53958190f2e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "AMDGF模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/AMDGF模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -533,7 +539,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/西方文明简史/问题.md",
+                        "file": "笔记/西方文明简史/Untitled Diagram.svg",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -560,7 +566,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/西方文明简史/问题.md",
+                        "file": "笔记/西方文明简史/Untitled Diagram.svg",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -968,8 +974,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e85da53958190f2e",
+  "active": "a876d7f1c7fb198e",
   "lastOpenFiles": [
+    "笔记/西方文明简史/AMDGF模型.md",
+    "笔记/西方文明简史/Untitled Diagram.svg",
+    "笔记/西方文明简史/问题.md",
+    "笔记/工具/通用概念/问题解决.md",
     "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/DOCTORS模型.md",
@@ -995,10 +1005,6 @@
     "笔记/前端/编程语言/JS/面向对象编程.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/基本概念/面向对象.md",
-    "笔记/前端/编程语言/JS/编程范式.md",
     "笔记/_gsdata_/2023-0328-074006-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0328-074003-DESKTOP-YLL-Job1.log",
@@ -1016,7 +1022,6 @@
     "笔记/_gsdata_/_saved_/工具/通用概念/自我的层级.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/自我.svg",
     "笔记/_gsdata_/_saved_/工具/通用概念/核心思维.svg",
-    "笔记/_gsdata_/_saved_/工具/通用概念/提问.svg",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
 }
