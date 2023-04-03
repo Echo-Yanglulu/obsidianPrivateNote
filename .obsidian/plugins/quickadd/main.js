@@ -11874,12 +11874,13 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     }
     this.addTaskSetting();
     this.addPrependSetting();
+    this.addAppendLinkSetting();
+    this.addInsertAfterSetting();
     if (!this.choice.captureToActiveFile) {
-      this.addAppendLinkSetting();
-      this.addInsertAfterSetting();
       this.addOpenFileSetting();
-      if (this.choice.openFile)
+      if (this.choice.openFile) {
         this.addOpenFileInNewTabSetting();
+      }
     }
     this.addFormatSetting();
   }
@@ -12007,22 +12008,22 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
       considerSubsectionsSetting.setName("Consider subsections").setDesc(
         "Enabling this will insert the text at the end of the section & its subsections, rather than just at the end of the target section.A section is defined by a heading, and its subsections are all the headings inside that section."
       ).addToggle(
-        (toggle) => toggle.setValue(this.choice.insertAfter?.considerSubsections).onChange(
-          (value) => {
-            if (!value) {
-              this.choice.insertAfter.considerSubsections = false;
-              return;
-            }
-            const targetIsHeading = this.choice.insertAfter.after.startsWith("#");
-            if (targetIsHeading) {
-              this.choice.insertAfter.considerSubsections = value;
-            } else {
-              this.choice.insertAfter.considerSubsections = false;
-              log.logError("'Consider subsections' can only be enabled if the insert after line starts with a # (heading).");
-              this.display();
-            }
+        (toggle) => toggle.setValue(this.choice.insertAfter?.considerSubsections).onChange((value) => {
+          if (!value) {
+            this.choice.insertAfter.considerSubsections = false;
+            return;
           }
-        )
+          const targetIsHeading = this.choice.insertAfter.after.startsWith("#");
+          if (targetIsHeading) {
+            this.choice.insertAfter.considerSubsections = value;
+          } else {
+            this.choice.insertAfter.considerSubsections = false;
+            log.logError(
+              "'Consider subsections' can only be enabled if the insert after line starts with a # (heading)."
+            );
+            this.display();
+          }
+        })
       );
       const createLineIfNotFound = new import_obsidian22.Setting(this.contentEl);
       createLineIfNotFound.setName("Create line if not found").setDesc("Creates the 'insert after' line if it is not found.").addToggle((toggle) => {
@@ -14934,6 +14935,9 @@ function getEndOfSection(lines, targetLine, shouldConsiderSubsections = false) {
     (str) => str.trim() !== ""
   );
   if (lastNonEmptyLineInSectionIdx !== null) {
+    if (lastNonEmptyLineInSectionIdx < targetLine) {
+      return targetLine;
+    }
     if (lastNonEmptyLineInSectionIdx + 1 === lastLineInBodyIdx) {
       return endOfSectionLineIdx;
     }
@@ -15798,15 +15802,7 @@ var CaptureChoiceEngine = class extends QuickAddChoiceEngine {
   }
   async run() {
     try {
-      if (this.choice?.captureToActiveFile) {
-        await this.captureToActiveFile();
-        return;
-      }
-      const captureTo = this.choice.captureTo;
-      invariant(captureTo, () => {
-        return `Invalid capture to for ${this.choice.name}. ${captureTo.length === 0 ? "Capture path is empty." : `Capture path is not valid: ${captureTo}`}`;
-      });
-      const filePath = await this.formatFilePath(captureTo);
+      const filePath = await this.getFormattedPathToCaptureTo();
       const content = this.getCaptureContent();
       let getFileAndAddContentFn;
       if (await this.fileExists(filePath)) {
@@ -15854,6 +15850,21 @@ var CaptureChoiceEngine = class extends QuickAddChoiceEngine {
       content = `- [ ] ${content}
 `;
     return content;
+  }
+  async getFormattedPathToCaptureTo() {
+    if (this.choice.captureToActiveFile) {
+      const activeFile = this.app.workspace.getActiveFile();
+      invariant(
+        activeFile,
+        `Cannot capture to active file - no active file.`
+      );
+      return activeFile.path;
+    }
+    const captureTo = this.choice.captureTo;
+    invariant(captureTo, () => {
+      return `Invalid capture to for ${this.choice.name}. ${captureTo.length === 0 ? "Capture path is empty." : `Capture path is not valid: ${captureTo}`}`;
+    });
+    return await this.formatFilePath(captureTo);
   }
   async onFileExists(filePath, content) {
     const file = this.getFileByPath(filePath);
@@ -15918,33 +15929,6 @@ This is in order to prevent data loss.`
       this.choice.name
     );
     return this.normalizeMarkdownFilePath("", formattedCaptureTo);
-  }
-  async captureToActiveFile() {
-    const activeFile = this.app.workspace.getActiveFile();
-    if (!activeFile) {
-      log.logError("Cannot capture to active file - no active file.");
-      return;
-    }
-    let content = this.getCaptureContent();
-    content = await this.formatter.formatContent(content, this.choice);
-    if (this.choice.format.enabled) {
-      content = await templaterParseTemplate(
-        this.app,
-        content,
-        activeFile
-      );
-    }
-    if (!content)
-      return;
-    if (this.choice.prepend) {
-      const fileContent = await this.app.vault.cachedRead(
-        activeFile
-      );
-      const newFileContent = `${fileContent}${content}`;
-      await this.app.vault.modify(activeFile, newFileContent);
-    } else {
-      appendToCurrentLine(content, this.app);
-    }
   }
 };
 
