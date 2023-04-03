@@ -1,1 +1,1 @@
-![[笔记/西方文明简史/Untitled Diagram.svg]]
+![[AMDGF模型.svg]] 
