@@ -798,40 +798,6 @@
             }
           },
           {
-            "id": "77aa0d0fd472e159",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "dc0948b6ee3e08de",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
             "id": "da38c84078073193",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -983,7 +949,6 @@
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-journey-plugin:Find Journey": false,
-      "juggl:Juggl global graph": false,
       "smart-random-note:Open Random Note from Search": false,
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
