@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/本质.md"
+                    "file": "笔记/学习方法/自己的思考.md"
                   }
                 }
               }
@@ -323,6 +323,28 @@
                 }
               },
               {
+                "id": "13f516c45139776d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习方法/自己的思考.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "9a6b5f4afc0f8944",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -513,7 +535,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -539,7 +562,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/本质.md",
+                        "file": "笔记/学习方法/自己的思考.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -566,7 +589,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/本质.md",
+                        "file": "笔记/学习方法/自己的思考.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -707,8 +730,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -974,8 +996,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "d9f43cd8209433f6",
+  "active": "13f516c45139776d",
   "lastOpenFiles": [
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/自己的思考.md",
     "笔记/西方文明简史/问题.md",
     "笔记/工具/通用概念/本质.md",
     "笔记/西方文明简史/AMDGF模型.md",
@@ -1004,7 +1028,6 @@
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/基础知识/编译原理/AST.md",
     "笔记/前端/编程语言/JS/JS引擎.md",
-    "笔记/前端/编程语言/JS/作用域.md",
     "笔记/_gsdata_/2023-0328-074006-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0328-074003-DESKTOP-YLL-Job1.log",
