@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/本质.md"
+                    "file": "笔记/西方文明简史/问题.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "客户端检测",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/客户端检测.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":2},\"to\":{\"line\":10,\"ch\":2}}}"
                     },
                     {
                       "title": "浏览器",
@@ -161,7 +167,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端检测.md",
+                    "file": "笔记/西方文明简史/问题.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -501,8 +507,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -528,7 +533,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/本质.md",
+                        "file": "笔记/西方文明简史/问题.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -555,7 +560,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/本质.md",
+                        "file": "笔记/西方文明简史/问题.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -963,18 +968,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "db2d75be7cef2371",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/DOCTORS模型.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/工具/通用概念/表象.md",
+    "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/工具/通用概念/事物.md",
+    "笔记/工具/通用概念/DOCTORS模型.md",
+    "笔记/工具/通用概念/表象.md",
+    "笔记/工具/通用概念/本质.md",
     "笔记/工具/通用概念/定义.md",
     "笔记/内心/未命名.canvas",
     "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
     "笔记/工具/通用概念/恐惧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/编程语言/JS/客户端检测.md",
     "笔记/内心/心灵.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "Excalidraw/Untitled Diagram.svg",
