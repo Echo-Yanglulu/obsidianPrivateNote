@@ -893,23 +893,6 @@
             }
           },
           {
-            "id": "8f75fcebbd6bd3be",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
             "id": "cb975962c28e962a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -955,7 +938,6 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
