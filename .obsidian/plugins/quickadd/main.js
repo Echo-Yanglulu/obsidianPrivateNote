@@ -4446,7 +4446,7 @@ function create_each_block2(key_1, ctx) {
   const if_block_creators = [create_if_block4, create_else_block];
   const if_blocks = [];
   function select_block_type(ctx2, dirty) {
-    if (ctx2[23].type !== "Multi" /* Multi */)
+    if (ctx2[23].type !== "Multi")
       return 0;
     return 1;
   }
@@ -4713,20 +4713,12 @@ function create_fragment10(ctx) {
   let t0;
   let select;
   let option0;
-  let t1_value = "Template" /* Template */ + "";
-  let t1;
   let option0_value_value;
   let option1;
-  let t2_value = "Capture" /* Capture */ + "";
-  let t2;
   let option1_value_value;
   let option2;
-  let t3_value = "Macro" /* Macro */ + "";
-  let t3;
   let option2_value_value;
   let option3;
-  let t4_value = "Multi" /* Multi */ + "";
-  let t4;
   let option3_value_value;
   let t5;
   let button;
@@ -4739,25 +4731,25 @@ function create_fragment10(ctx) {
       t0 = space();
       select = element("select");
       option0 = element("option");
-      t1 = text(t1_value);
+      option0.textContent = `${"Template"}`;
       option1 = element("option");
-      t2 = text(t2_value);
+      option1.textContent = `${"Capture"}`;
       option2 = element("option");
-      t3 = text(t3_value);
+      option2.textContent = `${"Macro"}`;
       option3 = element("option");
-      t4 = text(t4_value);
+      option3.textContent = `${"Multi"}`;
       t5 = space();
       button = element("button");
       button.textContent = "Add Choice";
       attr(input, "type", "text");
       attr(input, "placeholder", "Name");
-      option0.__value = option0_value_value = "Template" /* Template */;
+      option0.__value = option0_value_value = "Template";
       option0.value = option0.__value;
-      option1.__value = option1_value_value = "Capture" /* Capture */;
+      option1.__value = option1_value_value = "Capture";
       option1.value = option1.__value;
-      option2.__value = option2_value_value = "Macro" /* Macro */;
+      option2.__value = option2_value_value = "Macro";
       option2.value = option2.__value;
-      option3.__value = option3_value_value = "Multi" /* Multi */;
+      option3.__value = option3_value_value = "Multi";
       option3.value = option3.__value;
       attr(select, "id", "addChoiceTypeSelector");
       attr(select, "class", "svelte-1newuee");
@@ -4773,13 +4765,9 @@ function create_fragment10(ctx) {
       append(div, t0);
       append(div, select);
       append(select, option0);
-      append(option0, t1);
       append(select, option1);
-      append(option1, t2);
       append(select, option2);
-      append(option2, t3);
       append(select, option3);
-      append(option3, t4);
       select_option(select, ctx[1]);
       append(div, t5);
       append(div, button);
@@ -4901,7 +4889,7 @@ var Choice = class {
 // src/types/choices/TemplateChoice.ts
 var TemplateChoice = class extends Choice {
   constructor(name) {
-    super(name, "Template" /* Template */);
+    super(name, "Template");
     this.templatePath = "";
     this.fileNameFormat = { enabled: false, format: "" };
     this.folder = {
@@ -4930,7 +4918,7 @@ var TemplateChoice = class extends Choice {
 // src/types/choices/MacroChoice.ts
 var MacroChoice = class extends Choice {
   constructor(name) {
-    super(name, "Macro" /* Macro */);
+    super(name, "Macro");
     this.macroId = "";
   }
 };
@@ -4938,7 +4926,7 @@ var MacroChoice = class extends Choice {
 // src/types/choices/CaptureChoice.ts
 var CaptureChoice = class extends Choice {
   constructor(name) {
-    super(name, "Capture" /* Capture */);
+    super(name, "Capture");
     this.appendLink = false;
     this.captureTo = "";
     this.captureToActiveFile = false;
@@ -4974,7 +4962,7 @@ var CaptureChoice = class extends Choice {
 // src/types/choices/MultiChoice.ts
 var MultiChoice = class extends Choice {
   constructor(name) {
-    super(name, "Multi" /* Multi */);
+    super(name, "Multi");
     this.choices = [];
   }
   addChoice(choice) {
@@ -8939,10 +8927,10 @@ function excludeKeys(sourceObj, except) {
   return obj;
 }
 function getChoiceType(choice) {
-  const isTemplate = (choice2) => choice2.type === "Template" /* Template */;
-  const isMacro = (choice2) => choice2.type === "Macro" /* Macro */;
-  const isCapture = (choice2) => choice2.type === "Capture" /* Capture */;
-  const isMulti = (choice2) => choice2.type === "Multi" /* Multi */;
+  const isTemplate = (choice2) => choice2.type === "Template";
+  const isMacro = (choice2) => choice2.type === "Macro";
+  const isCapture = (choice2) => choice2.type === "Capture";
+  const isMulti = (choice2) => choice2.type === "Multi";
   return isTemplate(choice) || isMacro(choice) || isCapture(choice) || isMulti(choice);
 }
 
@@ -13434,12 +13422,12 @@ function instance16($$self, $$props, $$invalidate) {
   }
   function getChoiceBuilder(choice) {
     switch (choice.type) {
-      case "Template" /* Template */:
+      case "Template":
         return new TemplateChoiceBuilder(app2, choice, plugin);
-      case "Capture" /* Capture */:
+      case "Capture":
         return new CaptureChoiceBuilder(app2, choice, plugin);
-      case "Macro" /* Macro */:
-      case "Multi" /* Multi */:
+      case "Macro":
+      case "Multi":
       default:
         break;
     }
@@ -13604,6 +13592,20 @@ var NestedChoiceCommand2 = class extends Command {
 };
 
 // src/gui/MacroGUIs/MacroBuilder.ts
+function getChoicesAsList(nestedChoices) {
+  const arr = [];
+  const recursive = (choices) => {
+    choices.forEach((choice) => {
+      if (choice.type === "Multi") {
+        recursive(choice.choices);
+      } else {
+        arr.push(choice);
+      }
+    });
+  };
+  recursive(nestedChoices);
+  return arr;
+}
 var MacroBuilder = class extends import_obsidian25.Modal {
   constructor(app2, plugin, macro, choices) {
     super(app2);
@@ -13612,7 +13614,7 @@ var MacroBuilder = class extends import_obsidian25.Modal {
     this.choices = [];
     this.macro = macro;
     this.svelteElements = [];
-    this.choices = choices;
+    this.choices = getChoicesAsList(choices);
     this.plugin = plugin;
     this.waitForClose = new Promise(
       (resolve) => this.resolvePromise = resolve
@@ -14151,28 +14153,11 @@ var MacrosManager = class extends import_obsidian28.Modal {
         configureButton.setClass("mod-cta");
         configureButton.buttonEl.style.marginRight = "0";
         configureButton.setButtonText("Configure").onClick(async (evt) => {
-          const getReachableChoices = (choices) => {
-            const reachableChoices2 = [];
-            choices.forEach((choice) => {
-              if (choice.type === "Multi" /* Multi */)
-                reachableChoices2.push(
-                  ...getReachableChoices(
-                    choice.choices
-                  )
-                );
-              if (choice.type !== "Multi" /* Multi */)
-                reachableChoices2.push(choice);
-            });
-            return reachableChoices2;
-          };
-          const reachableChoices = getReachableChoices(
-            this.choices
-          );
           const newMacro = await new MacroBuilder(
             this.app,
             this.plugin,
             macro,
-            reachableChoices
+            this.choices
           ).waitForClose;
           if (newMacro) {
             this.updateMacro(newMacro);
@@ -14323,6 +14308,27 @@ function create_fragment17(ctx) {
     }
   };
 }
+function deleteChoiceHelper(id, value) {
+  if (value.type === "Multi") {
+    value.choices = value.choices.filter((v) => deleteChoiceHelper(id, v));
+  }
+  return value.id !== id;
+}
+function updateChoiceHelper(oldChoice, newChoice) {
+  if (oldChoice.id === newChoice.id) {
+    oldChoice = { ...oldChoice, ...newChoice };
+    return oldChoice;
+  }
+  if (oldChoice.type === "Multi") {
+    const multiChoice = oldChoice;
+    const multiChoiceChoices = multiChoice.choices.map((c) => updateChoiceHelper(c, newChoice));
+    return {
+      ...multiChoice,
+      choices: multiChoiceChoices
+    };
+  }
+  return oldChoice;
+}
 function instance17($$self, $$props, $$invalidate) {
   let { choices = [] } = $$props;
   let { macros = [] } = $$props;
@@ -14342,19 +14348,19 @@ function instance17($$self, $$props, $$invalidate) {
   function addChoiceToList(event) {
     const { name, type } = event.detail;
     switch (type) {
-      case "Template" /* Template */:
+      case "Template":
         const templateChoice = new TemplateChoice(name);
         $$invalidate(0, choices = [...choices, templateChoice]);
         break;
-      case "Capture" /* Capture */:
+      case "Capture":
         const captureChoice = new CaptureChoice(name);
         $$invalidate(0, choices = [...choices, captureChoice]);
         break;
-      case "Macro" /* Macro */:
+      case "Macro":
         const macroChoice = new MacroChoice(name);
         $$invalidate(0, choices = [...choices, macroChoice]);
         break;
-      case "Multi" /* Multi */:
+      case "Multi":
         const multiChoice = new MultiChoice(name);
         $$invalidate(0, choices = [...choices, multiChoice]);
         break;
@@ -14363,8 +14369,8 @@ function instance17($$self, $$props, $$invalidate) {
   }
   async function deleteChoice(e) {
     const choice = e.detail.choice;
-    const hasOwnMacro = choice.type === "Macro" /* Macro */ && macros.some((macro) => macro.name === choice.name);
-    const isMulti = choice.type === "Multi" /* Multi */;
+    const hasOwnMacro = choice.type === "Macro" && macros.some((macro) => macro.name === choice.name);
+    const isMulti = choice.type === "Multi";
     const userConfirmed = await GenericYesNoPrompt.Prompt(app2, `Confirm deletion of choice`, `Please confirm that you wish to delete '${choice.name}'.
             ${isMulti ? "Deleting this choice will delete all (" + choice.choices.length + ") choices inside it!" : ""}
             ${hasOwnMacro ? "Deleting this choice will delete the macro associated with it!" : ""}
@@ -14379,16 +14385,10 @@ function instance17($$self, $$props, $$invalidate) {
     plugin.removeCommandForChoice(choice);
     saveChoices(choices);
   }
-  function deleteChoiceHelper(id, value) {
-    if (value.type === "Multi" /* Multi */) {
-      value.choices = value.choices.filter((v) => deleteChoiceHelper(id, v));
-    }
-    return value.id !== id;
-  }
   async function configureChoice(e) {
     const { choice: oldChoice } = e.detail;
     let updatedChoice;
-    if (oldChoice.type === "Multi" /* Multi */) {
+    if (oldChoice.type === "Multi") {
       updatedChoice = oldChoice;
       const name = await GenericInputPrompt.Prompt(app2, `Rename ${oldChoice.name}`, "", oldChoice.name);
       if (!name)
@@ -14429,50 +14429,35 @@ function instance17($$self, $$props, $$invalidate) {
       throw new Error("Invalid choice type");
     let newChoice;
     switch (choice.type) {
-      case "Template" /* Template */:
+      case "Template":
         newChoice = new TemplateChoice(`${choice.name} (copy)`);
         break;
-      case "Capture" /* Capture */:
+      case "Capture":
         newChoice = new CaptureChoice(`${choice.name} (copy)`);
         break;
-      case "Macro" /* Macro */:
+      case "Macro":
         newChoice = new MacroChoice(`${choice.name} (copy)`);
         break;
-      case "Multi" /* Multi */:
+      case "Multi":
         newChoice = new MultiChoice(`${choice.name} (copy)`);
         break;
     }
-    if (choice.type !== "Multi" /* Multi */) {
+    if (choice.type !== "Multi") {
       Object.assign(newChoice, excludeKeys(choice, ["id", "name"]));
     } else {
       newChoice.choices = choice.choices.map((c) => duplicateChoice(c));
     }
     return newChoice;
   }
-  function updateChoiceHelper(oldChoice, newChoice) {
-    if (oldChoice.id === newChoice.id) {
-      oldChoice = { ...oldChoice, ...newChoice };
-      return oldChoice;
-    }
-    if (oldChoice.type === "Multi" /* Multi */) {
-      const multiChoice = oldChoice;
-      const multiChoiceChoices = multiChoice.choices.map((c) => updateChoiceHelper(c, newChoice));
-      return {
-        ...multiChoice,
-        choices: multiChoiceChoices
-      };
-    }
-    return oldChoice;
-  }
   function getChoiceBuilder(choice) {
     switch (choice.type) {
-      case "Template" /* Template */:
+      case "Template":
         return new TemplateChoiceBuilder(app2, choice, plugin);
-      case "Capture" /* Capture */:
+      case "Capture":
         return new CaptureChoiceBuilder(app2, choice, plugin);
-      case "Macro" /* Macro */:
+      case "Macro":
         return new MacroChoiceBuilder(app2, choice, macros, settingsStore.getState().choices);
-      case "Multi" /* Multi */:
+      case "Multi":
       default:
         break;
     }
@@ -15819,8 +15804,12 @@ var CaptureChoiceEngine = class extends QuickAddChoiceEngine {
         );
         return;
       }
-      const { file, content: newFileContent } = await getFileAndAddContentFn(filePath, content);
-      await this.app.vault.modify(file, newFileContent);
+      const { file, newFileContent, captureContent } = await getFileAndAddContentFn(filePath, content);
+      if (this.choice.captureToActiveFile && !this.choice.prepend) {
+        appendToCurrentLine(captureContent, this.app);
+      } else {
+        await this.app.vault.modify(file, newFileContent);
+      }
       if (this.choice.appendLink) {
         const markdownLink = this.app.fileManager.generateMarkdownLink(
           file,
@@ -15894,9 +15883,9 @@ This is in order to prevent data loss.`
       );
       newFileContent = res.joinedResults();
     }
-    return { file, content: newFileContent };
+    return { file, newFileContent, captureContent: formatted };
   }
-  async onCreateFileIfItDoesntExist(filePath, content) {
+  async onCreateFileIfItDoesntExist(filePath, captureContent) {
     let fileContent = "";
     if (this.choice.createFileIfItDoesntExist.createWithTemplate) {
       const singleTemplateEngine = new SingleTemplateEngine(
@@ -15916,12 +15905,12 @@ This is in order to prevent data loss.`
       file
     );
     const newFileContent = await this.formatter.formatContentWithFile(
-      content,
+      captureContent,
       this.choice,
       updatedFileContent,
       file
     );
-    return { file, content: newFileContent };
+    return { file, newFileContent, captureContent };
   }
   async formatFilePath(captureTo) {
     const formattedCaptureTo = await this.formatter.formatFileName(
@@ -15961,7 +15950,7 @@ var ChoiceSuggester = class extends import_obsidian33.FuzzySuggestModal {
     return this.choices;
   }
   async onChooseItem(item, evt) {
-    if (item.type === "Multi" /* Multi */)
+    if (item.type === "Multi")
       this.onChooseMultiType(item);
     else
       await this.choiceExecutor.execute(item);
@@ -15983,22 +15972,22 @@ var ChoiceExecutor = class {
   }
   async execute(choice) {
     switch (choice.type) {
-      case "Template" /* Template */: {
+      case "Template": {
         const templateChoice = choice;
         await this.onChooseTemplateType(templateChoice);
         break;
       }
-      case "Capture" /* Capture */: {
+      case "Capture": {
         const captureChoice = choice;
         await this.onChooseCaptureType(captureChoice);
         break;
       }
-      case "Macro" /* Macro */: {
+      case "Macro": {
         const macroChoice = choice;
         await this.onChooseMacroType(macroChoice);
         break;
       }
-      case "Multi" /* Multi */: {
+      case "Multi": {
         const multiChoice = choice;
         this.onChooseMultiType(multiChoice);
         break;
@@ -16047,7 +16036,7 @@ var migrateToMacroIDFromEmbeddedMacro_default = {
   description: "Migrate to macro ID from embedded macro in macro choices.",
   migrate: async (plugin) => {
     function convertMacroChoiceMacroToIdHelper(choice) {
-      if (choice.type === "Multi" /* Multi */) {
+      if (choice.type === "Multi") {
         let multiChoice = choice;
         const multiChoices = multiChoice.choices.map(
           convertMacroChoiceMacroToIdHelper
@@ -16055,7 +16044,7 @@ var migrateToMacroIDFromEmbeddedMacro_default = {
         multiChoice = { ...multiChoice, choices: multiChoices };
         return multiChoice;
       }
-      if (choice.type !== "Macro" /* Macro */)
+      if (choice.type !== "Macro")
         return choice;
       const macroChoice = choice;
       if (macroChoice.macro) {
@@ -16112,7 +16101,7 @@ function isMultiChoice(choice) {
   if (choice === null || typeof choice !== "object" || !("type" in choice) || !("choices" in choice)) {
     return false;
   }
-  return choice.type === "Multi" /* Multi */ && choice.choices !== void 0;
+  return choice.type === "Multi" && choice.choices !== void 0;
 }
 
 // src/migrations/isNestedChoiceCommand.ts
@@ -16173,7 +16162,7 @@ var incrementFileNameSettingMoveToDefaultBehavior_default = incrementFileNameSet
 
 // src/migrations/isCaptureChoice.ts
 function isCaptureChoice(choice) {
-  return choice.type === "Capture" /* Capture */;
+  return choice.type === "Capture";
 }
 
 // src/migrations/mutualExclusionInsertAfterAndWriteToBottomOfFile.ts
@@ -16437,7 +16426,7 @@ var QuickAdd = class extends import_obsidian35.Plugin {
     choices.forEach((choice) => this.addCommandForChoice(choice));
   }
   addCommandForChoice(choice) {
-    if (choice.type === "Multi" /* Multi */) {
+    if (choice.type === "Multi") {
       this.addCommandsForChoices(choice.choices);
     }
     if (choice.command) {
@@ -16469,7 +16458,7 @@ var QuickAdd = class extends import_obsidian35.Plugin {
       if (choice[by] === targetPropertyValue) {
         return choice;
       }
-      if (choice.type === "Multi" /* Multi */) {
+      if (choice.type === "Multi") {
         const subChoice = this.getChoice(
           by,
           targetPropertyValue,
