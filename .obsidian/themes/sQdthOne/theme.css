@@ -1,62 +1,3 @@
-/* ----- Plugins -----*/
-/*Style Settings*/
-/* @settings
-name: sQdthOne Accents
-id: sQdthOne-theme-settings
-settings:
-  -
-    id: sQdthOne-theme-accents
-    title: Theme Modifiers
-    description: Select your preferred theme adjustment
-    type: class-select
-    allowEmpty: false
-    default: style-default
-    options:
-      -
-        label: Default
-        value: style-default
-      -
-        label: Custom
-        value: style-custom
-        description: Save your own color combination.
-      -
-        label: Colorless
-        value: style-colorless
-      -
-        label: Solar
-        value: style-solar
-      -
-        label: Ocean
-        value: style-ocean
-*/
-/* @settings */
-.theme-dark.style-custom {
-  
-}
-.theme-light.style-custom {
-  
-}
-.theme-dark.style-colorless {
-  
-}
-.theme-light.style-colorless {
-  
-}
-.theme-dark.style-ocean {
-  
-}
-.theme-light.style-ocean {
-  
-}
-/*Frontmatter/Metadata/Yaml*/
-/*Reading Mode*/
-.frontmatter-container {} 
-/*Source Mode*/
-.CodeMirror-line .cm-s-obsidian .cm-hmd-frontmatter {} 
-/*Frontmatter Tag*/
-/*Reading Mode*/
-.frontmatter-container .frontmatter-alias {} 
-
 /* Animations */
 @keyframes rainbow {
   0% { background-position-x: 0% }
@@ -205,9 +146,10 @@ settings:
   --color-hovered: var(--color-purple);
   --color-stop: var(--color-red);
   --color-caution: var(--color-yellow);
-  --color-interactable: var(--color-pink);
-  --color-alternate: var(--color-blue);
+  --color-interactable: var(--color-blue);
+  --color-alternate: var(--color-pink);
   --color-content: var(--color-teal);
+  --color-confirmed: var(--color-green);
   --color-text-normal: var(--teal1);
   --color-text-muted: var(--teal3);
   --color-text-faint: var(--teal5);
@@ -253,6 +195,8 @@ settings:
   --text-selection:             var(--color-white);
   --tab-text-color-focused-active-current: var(--color-selected);
   --tab-text-color-active: var(--color-hovered);
+  --titlebar-background:        var(--color-base-3);
+  --titlebar-background-focused:var(--color-base-2);
 }
 
 .theme-light,
@@ -276,6 +220,13 @@ settings:
   --color-base-4: var(--day4);
   --color-base-5: var(--day5);
   --color-selected: var(--color-orange);
+  --color-hovered: var(--color-purple);
+  --color-stop: var(--color-red);
+  --color-caution: var(--color-yellow);
+  --color-interactable: var(--color-blue);
+  --color-alternate: var(--color-pink);
+  --color-content: var(--color-teal);
+  --color-confirmed: var(--color-green);
   --color-text-normal: var(--night1);
   --color-text-muted: var(--night3);
   --color-text-faint: var(--night5);
@@ -319,6 +270,30 @@ settings:
 	--background-secondary:       var(--color-base-2);
 	--background-secondary-alt:   var(--color-base-3);
   --text-selection:             var(--color-yellow);
+  --tab-text-color-focused-active-current: var(--color-selected);
+  --tab-text-color-active: var(--color-hovered);
+  --titlebar-background:        var(--color-base-3);
+  --titlebar-background-focused:var(--color-base-2);
+}
+
+.theme-dark.style-custom {
+  
+}
+.theme-light.style-custom {
+  
+}
+.theme-dark.style-colorless {
+  
+}
+.theme-light.style-colorless {
+  
+}
+.theme-dark.style-solar {
+
+}
+
+.theme-light.style-solar {
+
 }
 
 /*Box Sizing Reset - this makes it easier to set any ::before and ::after pseudo-elements' dimensions,
@@ -356,7 +331,7 @@ box-sizing: border-box;
 /*All Popup Windows: Settings*/
 .modal {
   color: var(--color-text-normal);
-  background-color: var(--color-base-3);
+  background-color: var(--color-base-2);
 }
 
 /*Command Palette & Quick Switcher*/
@@ -376,6 +351,10 @@ box-sizing: border-box;
   background-color: var(--color-base-3);
 }
 
+.mod-warning {
+  font-weight: var(--weight-maxbold);
+}
+
 /*Toggles*/
 .checkbox-container {
   background-color: var(--color-interactable);
@@ -384,33 +363,52 @@ box-sizing: border-box;
   background-color: var(--color-hovered);
 }
 .checkbox-container.is-enabled {
-  background-color: var(--color-selected);
+  background-color: var(--color-confirmed);
 }
 .checkbox-container::after {
-  background-color: var(--color-base-0);
+  background-color: var(--color-base-1);
 }
 
-/*Setting Dropdown*/
-.dropdown, button:not(.clickable-icon), .dropdown option {
-  color: var(--color-text-normal);
+/*Dropdown*/
+.dropdown, .dropdown option {
+  color: var(--color-interactable);
   background-color: var(--color-base-3);
+  font-weight: var(--weight-bold);
 }
 
-/* Setting Dropdown Hover */
+/*Dropdown Hover*/
 .dropdown:hover, button:not(.clickable-icon):hover{
   color: var(--color-text-highlight);
-  background-color: var(--color-text-italic);
+  background-color: var(--color-hovered);
+  font-weight: var(--weight-bold);
 }
 
-/* Sied Pannel Buttons */
-.sidebar-toggle-button.mod-right,
-.sidebar-toggle-button.mod-left {
-  padding: 6px;
+/*Sliders*/
+input[type='range'] {
+  width: 100px;
+  -webkit-appearance: none;
+  background-color: var(--color-alternate);
+  border-radius: 3px;
+  height: 3px;
+  padding: 0;
+}
+
+/*Text Inputs*/
+textarea, input[type='text'], 
+input[type='search'], input[type='email'], 
+input[type='password'], input[type='number'] {
+  background: var(--color-base-2);
+}
+
+/*Choices*/
+.choices__inner,
+.choices__list--dropdown {
+  background: var(--color-base-3) !important;
 }
 
 /* ------Community Content--- */
 .community-item .suggestion-highlight {
-  color: var(--color-stop);
+  color: var(--color-text-highlight);
 }
 
 .community-item:hover {
@@ -467,9 +465,10 @@ box-sizing: border-box;
   border-style:solid;
   border-radius: 5px;
   border-color: transparent;
+  font-weight: var(--weight-maxbold);
 }
 
-/* Nav Title */
+/* Nav Title / Vault Name */
 .nav-folder-title:hover,
 .nav-folder.mod-root > .nav-folder-title:hover {
   background-image: repeating-linear-gradient(90deg, 
@@ -481,13 +480,14 @@ box-sizing: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 12s linear infinite;
+  font-weight: var(--weight-maxbold);
 }
 
 /* Active file/folder */
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
   color: var(--color-selected);
-  background-color: var(--color-base-1);
+  background-color: var(--color-base-0);
 }
 
 /* File Navigator Folder Names */
@@ -500,7 +500,7 @@ box-sizing: border-box;
 :not(.is-grabbing) .nav-file-title:hover,
 :not(.is-grabbing) .nav-folder-title:hover,
 .tree-item-self.is-clickable:hover {
-  background-image: linear-gradient(var(--color-base-0), var(--color-base-0));
+  background-image: linear-gradient(var(--color-base-1), var(--color-base-1));
   background-color: var(--color-base-2);
   background-size: 1000% 100%;
   -webkit-text-fill-color: var(--color-hovered);
@@ -581,7 +581,7 @@ button,
 /*Default Buttons Hover*/
 button:hover,
 .clickable-icon:hover {
-  background-color: var(--color-base-0);
+  background-color: var(--color-base-1);
   color: var(--color-hovered);
   border-style: solid;
   border-radius: 5px;
@@ -590,11 +590,17 @@ button:hover,
   padding: 3px;
 }
 
+/* Sied Pannel Expand/CollapseButtons */
+.sidebar-toggle-button.mod-right,
+.sidebar-toggle-button.mod-left {
+  padding: 6px;
+}
+
 /*Ribbon Buttons*/
 .side-dock-ribon-action, 
 .mod-right-split .workspace-tab-header .workspace-tab-header-inner-icon,
 .mod-left-split .workspace-tab-header .workspace-tab-header-inner-icon {
-  color: var(--color-interactable);
+  color: var(--color-alternate);
   border-style:solid;
   border-radius: 5px;
   border-color: transparent;
@@ -615,7 +621,7 @@ button:hover,
 /*Ribbon Buttons Active/Focused*/
 .mod-right-split .workspace-tab-header.is-active .workspace-tab-header-inner-icon,
 .mod-left-split .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
-  color: var(--color-selected);
+  color: var(--color-selected) !important;
   border-style:solid;
   border-radius: 5px;
   border-color: transparent;
@@ -672,7 +678,7 @@ button:hover,
 
 /*Graph Settings Reset Button on Hover*/
 .graph-controls:not(.is-close) .graph-controls-button.mod-reset:hover {
-  background-color: var(--color-base-0);
+  background-color: var(--color-base-1);
   color: var(--color-hovered);
   border: transparent;
 }
@@ -718,16 +724,44 @@ button:hover,
 }
 
 /*Settings Buttons*/
-button.mod-cta {
+button.mod-cta, 
+button:not(.clickable-icon) {
+  background-color: var(--color-base-3);
   color: var(--color-interactable);
   border-style:solid;
   border-radius: 5px;
   border-color: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: var(--weight-bold);
 }
 
 /*Settings Buttons Hover*/
-button.mod-cta:hover {
-  background-color: var(--color-base-0);
+button.mod-cta:hover,
+button:not(.clickable-icon):hover {
+  background-color: var(--color-hovered);
+  color: var(--color-text-highlight);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: none;
+  font-weight: var(--weight-bold);
+}
+
+/*Secondary Settings Buttons*/
+.setting-item-control .clickable-icon {
+  background-color: transparent;
+  color: var(--color-interactable);
+  border-style:solid;
+  border-radius: 5px;
+  border-color: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/*Secondary Settings Buttons Hover*/
+.setting-item-control .clickable-icon:hover {
+  background-color: var(--color-base-2);
   color: var(--color-hovered);
   border-style: solid;
   border-radius: 5px;
@@ -746,7 +780,7 @@ button.mod-warning {
 /*Warning Buttons Hover*/
 button.mod-warning:hover {
   background-color: var(--color-caution);
-  color: var(--color-text-bold);
+  color: var(--color-black);
   border-style: solid;
   border-radius: 5px;
   border-color: transparent;
@@ -810,14 +844,28 @@ button.mod-warning:hover {
 }
 
 /*----Workspace----*/
+.workspace-tab-header-inner {
+  padding: 0 0;
+}
 /*Note Title Bar*/
 .workspace-leaf .view-header {
   background-color: var(--color-base-1);
 }
 
-/*Breadcrumbs*/
-.view-header-title-container,
-.view-header-title {}
+/*Breadcrumb File Name*/
+.view-header-title {
+  color: var(--color-selected);
+}
+
+/*Breadcrumb Parent Name*/
+.view-header-title-parent {
+  color: var(--text-faint);
+}
+
+/*Breadcrumb Seperator*/
+.view-header-breadcrumb-separator {
+  color: var(--color-content);
+}
 
 /* Ribbons */
 .workspace-ribbon {
@@ -840,7 +888,7 @@ button.mod-warning:hover {
 /* Tab Background On Hover */
 .workspace-tab-header:not(.is-active):hover 
 .workspace-tab-header-inner {
-  background-color: var(--color-base-0);
+  background-color: var(--color-base-1);
 }
 
 /*Tab Header Hover*/
@@ -854,7 +902,7 @@ button.mod-warning:hover {
 /*Focused Active Tab Header Title*/
 .is-focused .mod-active .workspace-tab-header
 .is-active .workspace-tab-header-inner-title {
-  color: var(--color-selected);
+  color: var(--color-selected) !important;
 }
 
 /*Focused Inactive Tab Header*/
@@ -960,12 +1008,18 @@ del {
     9px 9px rgba(0,0,0,0.05)
 }
 
+/*Hide Title in Edit Mode*/
+title, 
 .cm-editor .inline-title {
   font-size: 0;
 }
 
+h1,
+.markdown-rendered h1,
+.HyperMD-header-1,
+.HyperMD-list-line .cm-header-1,
 .cm-header-1.cm-header-1,
-.markdown-preview-section.markdown-preview-section h1 {
+.markdown-preview-section h1 {
 	color: var(--color-text-h1);
 	font-size: var(--size-text-h1);
 	font-family: var(--font-headings);
@@ -981,6 +1035,10 @@ del {
     9px 9px rgba(0,0,0,0.05)
 }
 
+h2,
+.markdown-rendered h2,
+.HyperMD-header-2,
+.HyperMD-list-line .cm-header-2,
 .cm-header-2,
 .markdown-preview-section h2 {
 	color: var(--color-text-h2);
@@ -988,6 +1046,10 @@ del {
 	font-family: var(--font-headings);
 }
 
+h3,
+.markdown-rendered h3,
+.HyperMD-header-3,
+.HyperMD-list-line .cm-header-3,
 .cm-header-3,
 .markdown-preview-section h3 {
 	color: var(--color-text-h3);
@@ -995,6 +1057,10 @@ del {
 	font-family: var(--font-headings);
 }
 
+h4,
+.markdown-rendered h4,
+.HyperMD-header-4,
+.HyperMD-list-line .cm-header-4,
 .cm-header-4,
 .markdown-preview-section h4 {
 	color: var(--color-text-h4);
@@ -1002,6 +1068,10 @@ del {
 	font-family: var(--font-headings);
 }
 
+h5,
+.markdown-rendered h5,
+.HyperMD-header-5,
+.HyperMD-list-line .cm-header-5,
 .cm-header-5,
 .markdown-preview-section h5 {
 	color: var(--color-text-h5);
@@ -1009,6 +1079,10 @@ del {
 	font-family: var(--font-headings);
 }
 
+h6,
+.markdown-rendered h6,
+.HyperMD-header-6,
+.HyperMD-list-line .cm-header-6,
 .cm-header-6,
 .markdown-preview-section h6 {
 	color: var(--color-text-h6);
@@ -1032,7 +1106,7 @@ body {
   --text-faint: var(--color-text-faint); /*Link brackets color & Gutter Numbers*/
   --text-highlight-bg: var(--color-text-highlight-background); /*Search Matches*/
   --text-highlight-bg-active: var(--color-text-highlight-active-background); /*Active Search Match (Preview Mode)*/
-  --scrollbar-active-thumb-bg: var(--color-text-bold); /*Scrollbar Dragged Color*/
+  --scrollbar-active-thumb-bg: var(--color-hovered); /*Scrollbar Dragged Color*/
   --interactive-normal: var(--color-base-3); /*Button Color*/
   --interactive-hover: var(--color-hovered); /*Button Hovered Color*/
   --interactive-accent: var(--text-accent); /*Workspace Note Title Underline*/
@@ -1133,7 +1207,7 @@ hr {
 /* Check Lists */
 input.task-list-item-checkbox {
   border-style: solid;
-  border-color: var(--color-interactable);
+  border-color: var(--color-alternate);
   border-width: 1px;
   border-radius: 5px;
   background-color: transparent;
@@ -1157,11 +1231,14 @@ input.task-list-item-checkbox:checked:hover {
 }
 input.task-list-item-checkbox:checked {
   border-style: double;
-  border-color: var(--color-selected);
+  border-color: var(--color-confirmed);
   border-width: 9px;
   border-radius: 5px;
   background-color: transparent;
   transition: 250ms;
+}
+input.task-list-item-checkbox::after {
+  background-color: transparent !important;
 }
 
 
@@ -1396,9 +1473,7 @@ specific definitions */
 /*Graph Menu*/
 .graph-controls {} 
 
-
-
-/* Cursor */
+/*-----Cursor----*/
 .cm-cursorLayer .cm-cursor {
 /* border-left: ... */
 }
@@ -1408,8 +1483,181 @@ specific definitions */
 /* deactivate built-in animation from CodeMirror */
 animation-name: none !important; /* important needed */
 }
-
 .cm-cursorLayer .cm-cursor {
 animation-duration: 2200ms;
 animation-name: phase-blink;
+}
+
+/* ----- Plugins -----*/
+/*--Style Settings--*/
+/* @settings
+name: sQdthOne Accents
+id: sQdthOne-theme-settings
+settings:
+  -
+    id: sQdthOne-theme-accents
+    title: Theme Modifiers
+    description: Select your preferred theme adjustment
+    type: class-select
+    allowEmpty: false
+    default: style-default
+    options:
+      -
+        label: Default
+        value: style-default
+      -
+        label: Custom
+        value: style-custom
+        description: Save your own color combination.
+      -
+        label: Colorless
+        value: style-colorless
+      -
+        label: Solar
+        value: style-solar
+*/
+/* @settings */
+
+/*--Frontmatter/Metadata/Yaml--*/
+/*Reading Mode*/
+.frontmatter-container {} 
+/*Source Mode*/
+.CodeMirror-line .cm-s-obsidian .cm-hmd-frontmatter {} 
+/*Frontmatter Tag*/
+/*Reading Mode*/
+.frontmatter-container .frontmatter-alias {} 
+
+/*--Calendar--*/
+/*Vertical Cell Outlines */
+#calendar-container td {
+	width: 12.5%;
+	border: none;
+	padding: 0px 0px 0px 0px !important;
+	line-height: 22px;
+}
+
+/*Horizontal Cell Outlines */
+#calendar-container tr {
+	width: 12.5%;
+  border: none;
+	padding: 0px 0px 0px 0px !important;
+	line-height: 22px;
+}
+
+/*Vertical Margin Adjust*/
+#calendar-container .calendar{
+	margin: -6px 0;
+}
+
+/*Today Button*/
+#calendar-container .reset-button {
+	font-size: 20px !important;
+	padding: auto;
+	line-height: 1;
+	text-align: center;
+	color: var(--color-interactable);
+}
+
+/*Today Button Hover*/
+#calendar-container .reset-button:hover {
+  font-weight: var(--weight-maxbold);
+	background-image: repeating-linear-gradient(90deg, 
+  var(--color-pink) 5%, var(--color-red) 15%, var(--color-orange) 25%, 
+  var(--color-yellow) 35%, var(--color-green) 45%, var(--color-teal) 55%, 
+  var(--color-blue) 65%, var(--color-cyan) 75%, var(--color-purple) 85%, 
+  var(--color-pink) 95%);
+  background-size: 1000% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 12s linear infinite;
+}
+
+/*Previous/Next Month Button*/
+.arrow.svelte-156w7na svg.svelte-156w7na {
+  color: var(--color-alternate) !important;
+}
+
+/*Previous/Next Month Button Hover*/
+.arrow.svelte-156w7na svg.svelte-156w7na:hover {
+  color: var(--color-hovered) !important;
+}
+
+/*Day*/
+#calendar-container .day {
+  color: var(--color-text-normal);
+  font-size: var(--size-text-p);
+}
+
+/*Day With Note Active*/
+.active.svelte-q3wqg9:not(:hover) {
+  background-color: var(--color-selected) !important;
+  border-radius: 50px;
+}
+
+/*Day Hover*/
+#calendar-container .day:hover{
+	background-color: var(--color-hovered);
+  color: var(--color-text-highlight);
+  transition: var(--anim-duration-slow);
+}
+
+/*Weekday Abbreviation Lables*/
+#calendar-container th {
+	padding: 6px 3px;
+	border: none;
+	background-color: var(--color-base-3);
+  font-size: var(--size-text-h6);
+}
+
+/*Week Numbers*/
+td.svelte-egt0yd {
+  font-size: var(--size-text-h6);
+}
+
+/* Week*/
+#calendar-container .week-num {
+  border-right: 2px solid var(--color-confirmed);
+	background-color: var(--color-base-3);
+  color: var(--color-text-normal);
+  border-radius: 0 !important;
+}
+
+/*Week With Note Active*/
+.active.svelte-egt0yd {
+  background-color: var(--color-selected) !important;
+  border-radius: 50px;
+}
+
+/* Week Hover*/
+#calendar-container .week-num:hover {
+	background-color: var(--color-hovered) !important;
+}
+
+/*Dot Container*/
+#calendar-container .dot-container {
+	margin-top: -2px;
+	margin-bottom: -1px;
+}
+
+/*Dot*/
+#calendar-container .dot {
+	fill: var(--color-text-faint);
+}
+
+/* Month*/
+#calendar-container .month {
+	font-size: 30px;
+	line-height: 1;
+	color: var(--color-text-bold);
+  font-weight: var(--weight-bold);
+  font-style: italic;
+}
+
+/* Year*/
+#calendar-container .year {
+	font-size: 30px;
+	line-height: 1;
+	color: var(--color-text-italic);
+  font-weight: var(--weight-maxbold);
+  font-style: italic;
 }

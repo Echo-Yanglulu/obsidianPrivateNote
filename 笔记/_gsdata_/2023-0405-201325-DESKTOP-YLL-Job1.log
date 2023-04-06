@@ -1,0 +1,13 @@
+2023-04-05 20:13:26: Expanded 'file:///%GSDISK%/笔记/obsidianPrivateNote/笔记' to 'file:///D:/笔记/obsidianPrivateNote/笔记'
+2023-04-05 20:13:26: Expanded 'file:///%GSDISK%/icloud/iCloudDrive/iCloud~md~obsidian/笔记' to 'file:///D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记'
+2023-04-05 20:13:26: -- 分析开始 On File Change Incremental
+2023-04-05 20:13:26: Do Not Propagate Deletions: 1-way deletions reverted: 26
+2023-04-05 20:13:26: 变更：5， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 2136
+2023-04-05 20:13:26: Left to Right: Copy File: 5 
+2023-04-05 20:13:26: == 同步开始由 On File Change Incremental
+2023-04-05 20:13:26: 新建复制 'D:/笔记/obsidianPrivateNote/笔记/前端/编程语言/JS/JS.md' -> 'D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记/前端/编程语言/JS/JS.md' (1,080)
+2023-04-05 20:13:26: 新建复制 'D:/笔记/obsidianPrivateNote/笔记/前端/编程语言/JS/闭包.md' -> 'D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记/前端/编程语言/JS/闭包.md' (2,303)
+2023-04-05 20:13:26: 新建复制 'D:/笔记/obsidianPrivateNote/笔记/工具/通用概念/提问.md' -> 'D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记/工具/通用概念/提问.md' (3,233)
+2023-04-05 20:13:26: 新建复制 'D:/笔记/obsidianPrivateNote/笔记/工具/通用概念/本质.md' -> 'D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记/工具/通用概念/本质.md' (3,535)
+2023-04-05 20:13:26: 覆盖复制 'D:/笔记/obsidianPrivateNote/笔记/西方文明简史/问题.md' -> 'D:/icloud/iCloudDrive/iCloud~md~obsidian/笔记/西方文明简史/问题.md' (1,466)
+2023-04-05 20:13:26: == 同步完成. 历时: 00:00:00, 速度: 0.00/s, 完成: 5, 错误: 0
