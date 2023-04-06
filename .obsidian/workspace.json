@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -286,6 +286,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":9},\"to\":{\"line\":8,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}}}"
                     }
                   ]
@@ -293,7 +305,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/部位/胸部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -536,7 +548,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -562,7 +574,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -589,7 +601,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -943,10 +955,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "214fe9caad1fac53",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/环境思维.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/背部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/学习方法/概念/环境思维.md",
     "笔记/_gsdata_/2023-0405-230913-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0405-230813-DESKTOP-YLL-Job1.log",
@@ -983,8 +997,6 @@
     "笔记/前端/编程语言/JS/函数.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.svg",
-    "笔记/前端/编程语言/JS/this关键字.md",
-    "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
     "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
