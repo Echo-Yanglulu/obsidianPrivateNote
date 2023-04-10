@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -313,28 +313,6 @@
                 }
               },
               {
-                "id": "e56cdc3385e758d0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/自己的学习行为.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "13f516c45139776d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -357,169 +335,6 @@
                 }
               },
               {
-                "id": "9a6b5f4afc0f8944",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "变量",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":71,\"ch\":10},\"to\":{\"line\":71,\"ch\":10}},\"scroll\":40.0273}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":95,\"ch\":36},\"to\":{\"line\":95,\"ch\":36}},\"scroll\":67.65870098039215}"
-                    },
-                    {
-                      "title": "作用域",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/作用域.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":51},\"to\":{\"line\":7,\"ch\":51}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":11},\"to\":{\"line\":76,\"ch\":11}},\"scroll\":54.044040210627095}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/函数.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c720c4f426034e90",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md"
-                  }
-                }
-              },
-              {
-                "id": "6dc19d428873a0c3",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "CSS模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/恐惧.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "214fe9caad1fac53",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "心灵",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/心灵.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "闭包",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/闭包.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":62},\"to\":{\"line\":6,\"ch\":62}}}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":39},\"to\":{\"line\":76,\"ch\":39}},\"scroll\":47.0931}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":13.074754901960784}"
-                    },
-                    {
-                      "title": "JS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":4.801533275337103}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":3},\"to\":{\"line\":38,\"ch\":3}},\"scroll\":17.139742319127848}"
-                    },
-                    {
-                      "title": "普通对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":149,\"ch\":7},\"to\":{\"line\":149,\"ch\":7}},\"scroll\":77.3931216931217}"
-                    },
-                    {
-                      "title": "函数",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":18},\"to\":{\"line\":74,\"ch\":18}},\"scroll\":47.1184}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "10030b0695c53c20",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -528,6 +343,24 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":7},\"to\":{\"line\":16,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "人",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "变量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}}}"
                     },
                     {
                       "title": "面向对象编程",
@@ -540,7 +373,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                    "file": "笔记/工具/通用概念/心流.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -548,7 +381,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -574,7 +407,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -601,7 +434,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -743,7 +576,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -955,8 +788,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "214fe9caad1fac53",
+  "active": "d45ea6007daf1bbd",
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/学习方法/自己的思考.md",
+    "笔记/前端/编程语言/JS/函数.md",
+    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
+    "笔记/工具/通用概念/恐惧.md",
+    "笔记/工具/通用概念/心流.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/_gsdata_/2023-0409-002308-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0409-002208-DESKTOP-YLL-Job1.log",
@@ -967,17 +812,10 @@
     "笔记/_gsdata_/2023-0409-001708-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0409-001608-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0409-001508-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0409-001408-DESKTOP-YLL-Job1.log",
     "笔记/西方文明简史/问题.md",
-    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/恐惧.md",
-    "笔记/学习方法/自己的学习行为.md",
-    "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/学习方法/概念/环境思维.md",
-    "笔记/学习方法/自己的思考.md",
     "笔记/前端/编程语言/JS/基本概念/属性名.md",
     "笔记/前端/编程语言/编译.md",
     "笔记/工具/通用概念/本质.md",
@@ -989,12 +827,7 @@
     "笔记/工具/通用概念/提问.md",
     "笔记/西方文明简史/主题.md",
     "笔记/工具/通用概念/问题解决.md",
-    "笔记/前端/编程语言/JS/客户端检测.md",
-    "笔记/工具/通用概念/表象.md",
-    "笔记/工具/通用概念/定义.md",
     "笔记/内心/未命名.canvas",
-    "笔记/内心/心灵.md",
-    "笔记/前端/编程语言/JS/闭包.md",
     "Excalidraw/Untitled Diagram.svg",
     "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.svg",
     "笔记/前端/编程语言/JS/核心JS.svg",
