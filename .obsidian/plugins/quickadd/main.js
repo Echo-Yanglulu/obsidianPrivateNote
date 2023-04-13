@@ -5002,9 +5002,10 @@ var GenericYesNoPrompt = class extends import_obsidian4.Modal {
     const buttonsDiv = this.contentEl.createDiv({
       cls: "yesNoPromptButtonContainer"
     });
-    new import_obsidian4.ButtonComponent(buttonsDiv).setButtonText("No").onClick(() => this.submit(false));
+    const noButton = new import_obsidian4.ButtonComponent(buttonsDiv).setButtonText("No").onClick(() => this.submit(false));
     const yesButton = new import_obsidian4.ButtonComponent(buttonsDiv).setButtonText("Yes").onClick(() => this.submit(true)).setWarning();
     yesButton.buttonEl.focus();
+    addArrowKeyNavigation([noButton.buttonEl, yesButton.buttonEl]);
   }
   submit(input) {
     this.input = input;
@@ -5019,6 +5020,18 @@ var GenericYesNoPrompt = class extends import_obsidian4.Modal {
       this.resolvePromise(this.input);
   }
 };
+function addArrowKeyNavigation(buttons) {
+  buttons.forEach((button) => {
+    button.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
+        const currentIndex = buttons.indexOf(button);
+        const nextIndex = (currentIndex + (event.key === "ArrowRight" ? 1 : -1) + buttons.length) % buttons.length;
+        buttons[nextIndex].focus();
+        event.preventDefault();
+      }
+    });
+  });
+}
 
 // src/gui/choiceList/ChoiceView.svelte
 var import_obsidian29 = require("obsidian");
@@ -8937,39 +8950,46 @@ function isFolder(path) {
 function getMarkdownFilesInFolder(folderPath) {
   return app.vault.getMarkdownFiles().filter((f) => f.path.startsWith(folderPath));
 }
+function getFrontmatterTags(fileCache) {
+  const frontmatter = fileCache.frontmatter;
+  if (!frontmatter)
+    return [];
+  const frontMatterValues = Object.entries(frontmatter);
+  if (!frontMatterValues.length)
+    return [];
+  const tagPairs = frontMatterValues.filter(([key, value]) => {
+    const lowercaseKey = key.toLowerCase();
+    return lowercaseKey === "tags" || lowercaseKey === "tag";
+  });
+  if (!tagPairs)
+    return [];
+  const tags = tagPairs.flatMap(([key, value]) => {
+    if (typeof value === "string") {
+      return value.split(/,|\s+/).map((v) => v.trim());
+    } else if (Array.isArray(value)) {
+      return value;
+    }
+  }).filter((v) => !!v);
+  return tags;
+}
+function getFileTags(file) {
+  const fileCache = app.metadataCache.getFileCache(file);
+  if (!fileCache)
+    return [];
+  const tagsInFile = [];
+  if (fileCache.frontmatter) {
+    tagsInFile.push(...getFrontmatterTags(fileCache));
+  }
+  if (fileCache.tags && Array.isArray(fileCache.tags)) {
+    tagsInFile.push(...fileCache.tags.map((v) => v.tag.replace(/^\#/, "")));
+  }
+  return tagsInFile;
+}
 function getMarkdownFilesWithTag(tag) {
-  const hasTags = (fileCache) => fileCache.tags !== void 0 && Array.isArray(fileCache.tags);
-  const hasFrontmatterTags = (fileCache) => {
-    return fileCache.frontmatter !== void 0 && fileCache.frontmatter.tags !== void 0 && typeof fileCache.frontmatter.tags === "string" && fileCache.frontmatter.tags.length > 0;
-  };
-  const hasFrontmatterTag = (fileCache) => {
-    return fileCache.frontmatter !== void 0 && fileCache.frontmatter.tag !== void 0 && typeof fileCache.frontmatter.tag === "string" && fileCache.frontmatter.tag.length > 0;
-  };
+  const targetTag = tag.replace(/^\#/, "");
   return app.vault.getMarkdownFiles().filter((f) => {
-    const fileCache = app.metadataCache.getFileCache(f);
-    if (!fileCache)
-      return false;
-    if (hasTags(fileCache)) {
-      const tagInTags = fileCache.tags.find((item) => item.tag === tag);
-      if (tagInTags) {
-        return true;
-      }
-    }
-    if (hasFrontmatterTags(fileCache)) {
-      const tagWithoutHash = tag.replace(/^\#/, "");
-      const tagInFrontmatterTags = fileCache.frontmatter.tags.split(" ").find((item) => item === tagWithoutHash);
-      if (tagInFrontmatterTags) {
-        return true;
-      }
-    }
-    if (hasFrontmatterTag(fileCache)) {
-      const tagWithoutHash = tag.replace(/^\#/, "");
-      const tagInFrontmatterTag = fileCache.frontmatter.tag.split(" ").find((item) => item === tagWithoutHash);
-      if (tagInFrontmatterTag) {
-        return true;
-      }
-    }
-    return false;
+    const fileTags = getFileTags(f);
+    return fileTags.includes(targetTag);
   });
 }
 
@@ -12085,6 +12105,7 @@ var CaptureChoiceBuilder = class extends ChoiceBuilder {
     formatInput.inputEl.style.width = "100%";
     formatInput.inputEl.style.marginBottom = "8px";
     formatInput.inputEl.style.height = "10rem";
+    formatInput.inputEl.style.minHeight = "10rem";
     formatInput.setValue(this.choice.format.format).setDisabled(!this.choice.format.enabled).onChange(async (value) => {
       this.choice.format.format = value;
       formatDisplay.innerText = await displayFormatter.format(value);
@@ -15931,7 +15952,7 @@ var CaptureChoiceEngine = class extends QuickAddChoiceEngine {
       !!targetFilePath && targetFilePath.length > 0,
       `No file selected for capture.`
     );
-    const filePath = targetFilePath.startsWith(`${folderPathSlash}/`) ? targetFilePath : `${folderPathSlash}/${targetFilePath}`;
+    const filePath = targetFilePath.startsWith(`${folderPathSlash}`) ? targetFilePath : `${folderPathSlash}/${targetFilePath}`;
     return await this.formatFilePath(filePath);
   }
   async selectFileWithTag(tag) {
