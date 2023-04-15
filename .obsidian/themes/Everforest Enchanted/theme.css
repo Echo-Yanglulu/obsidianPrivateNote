@@ -171,7 +171,7 @@ body:is(.theme-dark, .theme-light) {
   --bg4:         #E8E5D5;
   --bg5:         #BEC5B2;
   
-  --bg-visual:   #F0F2D4;
+  --bg-visual:   #ded8db; /* Changed for visibility */
   --bg-red:      #FFE7DE;
   --bg-green:    #F3F5D9;
   --bg-blue:     #ECF5ED;
@@ -282,7 +282,7 @@ del {
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-formatting + .cm-inline-code),
 .markdown-preview-view code {
   font-size: 0.9em;
-  background-color: var(--code-background) !important;
+  background-color: var(--code-background);
   padding: 0.1em 0.25em;
   border-radius: var(--radius-s)
 }
@@ -296,7 +296,21 @@ del {
   color: inherit;
 }
 .cm-s-obsidian pre.HyperMD-codeblock {
-  background-color: var(--code-background)
+  background-color: var(--code-background);
+}
+pre {
+  border: 1px solid var(--code-header);
+}
+.HyperMD-codeblock {
+  border-color: var(--code-header);
+  border-style: solid;
+  border-width: 0 1px 0;
+}
+.HyperMD-codeblock-begin {
+  border-width: 1px 1px 0;
+}
+.HyperMD-codeblock-end {
+  border-width: 0 1px 1px;
 }
 
 /* Disable Wrap on Language Blocks */
@@ -304,9 +318,9 @@ del {
 	white-space: pre;
 }
 
-/* Codeblock Language Labels */
+/* Codeblock top bars */
 pre[class^="language-"] {
-  padding-top: calc(var(--size-4-4) + 1em * var(--line-height-normal));
+  padding-top: calc(var(--size-4-2) + var(--code-size) * var(--line-height-normal));
 }
 pre[class^="language-"]::before {
   content: "";
@@ -314,16 +328,36 @@ pre[class^="language-"]::before {
   top: 0;
   right: 0;
   left: 0;
-  height: calc(var(--size-4-4) + .625em * var(--line-height-normal));
+  height: calc(var(--code-size) * var(--line-height-normal));
   background-color: var(--code-header);  
 }
+.HyperMD-codeblock-begin-bg:not(:has(>.code-block-flair > *)):has(>.code-block-flair)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--code-header);
+  border-radius: 4px 4px 0 0;
+}
+
+/* Codeblock language labels */
 pre[class^="language-"]::after {
   content: attr(class);
   position: absolute;
-  top: calc(var(--size-4-4) - .5rem);
-  right: var(--size-4-4);
-  font-size: .75rem;
-  color: var(--text-muted);
+  top: 0;
+  right: 6px;
+  padding: 0 4px;
+  height: calc(0.875rem * var(--line-height-normal));
+  display: flex;
+  place-items: center;
+  font-size: var(--font-ui-smaller);
+}
+.markdown-source-view.mod-cm6 .code-block-flair:not(:has(>svg)) {
+  top: 0;
+  padding: 0 4px;
+  height: calc(0.875rem * var(--line-height-normal));
+  display: flex;
+  place-items: center;
+  font-family: var(--font-monospace);
 }
 .markdown-rendered pre[class^="language-"] button.copy-code-button {
   top: calc(var(--size-4-4) + .75em * var(--line-height-normal));
@@ -592,13 +626,15 @@ a.tag {
 /** Callouts **/
 
 .callout {
+  --callout-content-padding: var(--size-4-2) var(--size-4-4);
   mix-blend-mode: normal !important;
   padding: 0;
   border: none;
   border-left: 0.125rem solid rgba(var(--callout-color), 0.7);
+  border-radius: 4px;
 }
 .callout, .cm-callout {
-  box-shadow: 2px 2px 3px #0004 !important;
+  box-shadow: 2px 2px 3px #0004;
 }
 .callout-title {
   --bg-clr: rgba(var(--callout-color), 0.3);
@@ -621,10 +657,10 @@ a.tag {
   cursor: pointer;
 }
 .callout-content {
-  padding: .75em !important;
   background-color: rgba(var(--bg-dim-rgb), 0.3);
   border-right: 1px solid rgba(var(--callout-color), 0.3);
   border-bottom: 1px solid rgba(var(--callout-color), 0.3);
+  border-radius: 0 0 4px 4px;
 }
 .callout-content > * {
   margin: 0;
@@ -674,6 +710,28 @@ a.tag {
 img {
   display: block;
   margin-inline: auto;
+}
+
+/* Makes multiple images on the same line appear in a flex grid */
+.cm-line:not(.cm-active):has(.image-embed ~ .image-embed),
+p:has(.image-embed ~ .image-embed) {
+  display: flex;
+  gap: 0.5rem;
+}
+.cm-line:not(.cm-active):has(.image-embed ~ .image-embed) :is(.cm-widgetBuffer,span) {
+  display: none !important;
+}
+/* Makes a highlighted line shrink the image */
+:root:root .cm-line.cm-active > .image-embed {
+  width: 100px;
+  display: inline-block;
+}
+/* Centers the image if it is modified */
+:root:root .cm-line:not(.cm-active) > .image-embed,
+p > .image-embed {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
 }
 
 /*
