@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/工具/思考/基本概念/思维.md"
                   }
                 }
               }
@@ -401,9 +401,71 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "be1d629c34ba8124",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "臣服",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/臣服.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
+                    },
+                    {
+                      "title": "当下",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/抗拒.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8a9e3c74e77c9e2b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "人的行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.337314415708812}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/人的属性.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -429,7 +491,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -456,7 +518,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -598,7 +660,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -810,8 +872,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "c80d18d952b290fe",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/行为/人的行为.md",
+    "笔记/工具/通用概念/当下.md",
+    "笔记/工具/通用概念/抗拒.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/臣服.md",
     "笔记/_gsdata_/2023-0412-233446-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0412-233422-DESKTOP-YLL-Job1.log",
@@ -822,7 +890,6 @@
     "笔记/_gsdata_/2023-0412-233240-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0412-233137-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0412-233110-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0412-233107-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/心流.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/部位/胸部.md",
@@ -831,8 +898,6 @@
     "笔记/前端/编程语言/JS/函数.md",
     "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.md",
     "笔记/工具/通用概念/恐惧.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/人.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/西方文明简史/问题.md",
@@ -846,9 +911,6 @@
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/DOCTORS模型.md",
-    "笔记/工具/通用概念/目的.md",
-    "笔记/工具/通用概念/提问.md",
-    "笔记/西方文明简史/主题.md",
     "笔记/内心/未命名.canvas",
     "Excalidraw/Untitled Diagram.svg",
     "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.svg",
