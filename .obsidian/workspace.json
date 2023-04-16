@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维形式.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -389,13 +389,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":386,\"ch\":11},\"to\":{\"line\":386,\"ch\":11}},\"scroll\":359.6512219959267}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/内心/活在当下指南.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -465,7 +471,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -491,7 +497,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维形式.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -518,7 +524,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思维形式.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -872,17 +878,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "742cb7b922f5fe15",
+  "active": "18a820d70d0ed9f8",
   "lastOpenFiles": [
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/思考/基本概念/思维内容.md",
-    "笔记/工具/思考/基本概念/感觉.md",
-    "笔记/西方文明简史/客观事实.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/抗拒.md",
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/思考/思维形式.md",
+    "笔记/工具/思考/基本概念/感觉.md",
+    "笔记/工具/思考/基本概念/思维内容.md",
+    "笔记/西方文明简史/客观事实.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/当下.md",
-    "笔记/工具/通用概念/抗拒.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/臣服.md",
     "笔记/_gsdata_/2023-0412-233446-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -909,7 +916,6 @@
     "笔记/行为/健身/部位/背部.md",
     "笔记/学习方法/概念/环境思维.md",
     "笔记/前端/编程语言/JS/基本概念/属性名.md",
-    "笔记/前端/编程语言/编译.md",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
     "Excalidraw/Untitled Diagram.svg",
