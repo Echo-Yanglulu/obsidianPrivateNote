@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -475,9 +475,26 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "7c7ee69003014296",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -503,7 +520,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -530,7 +547,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -884,8 +901,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be1d629c34ba8124",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/抗拒.md",
     "笔记/内心/活在当下指南.md",
     "笔记/西方文明简史/主观事实.md",
@@ -897,8 +916,6 @@
     "笔记/工具/通用概念/感受.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习方法/概念/感知.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/思维形式.md",
     "笔记/工具/思考/基本概念/感觉.md",
