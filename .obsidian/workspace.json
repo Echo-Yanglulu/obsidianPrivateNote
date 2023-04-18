@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -286,6 +286,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":12},\"to\":{\"line\":101,\"ch\":12}},\"scroll\":70.8397}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":9},\"to\":{\"line\":8,\"ch\":9}}}"
                     },
                     {
@@ -305,7 +317,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -520,7 +532,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -547,7 +559,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -903,8 +915,9 @@
   },
   "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/行为/健身/孤立动作.md",
+    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/孤立动作.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/抗拒.md",
@@ -938,7 +951,6 @@
     "笔记/工具/通用概念/心流.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/学习方法/自己的思考.md",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
     "Excalidraw/Untitled Diagram.svg",
