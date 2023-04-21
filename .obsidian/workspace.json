@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/内心.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -516,7 +516,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -542,7 +543,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/内心.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -569,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/内心.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -710,8 +711,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -923,13 +923,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e85da53958190f2e",
+  "active": "18a820d70d0ed9f8",
   "lastOpenFiles": [
-    "笔记/内心/正念的奇迹.md",
+    "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
+    "笔记/内心/正念的奇迹.md",
     "笔记/内心/当下的力量.md",
     "笔记/工具/通用概念/人的属性.md",
-    "笔记/工具/通用概念/当下.md",
     "笔记/内心/悉达多.md",
     "笔记/西方文明简史/问题.md",
     "笔记/前端/编程语言/JS/DOM.md",
