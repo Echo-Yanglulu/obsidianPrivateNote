@@ -23,7 +23,7 @@
 *? 5. Cursor
 *? 6. Extra Fixes
 *?   - Callouts
-*?   - Image Formatting 
+*?   - Image Formatting
 *?   - Misc.
 *?
  **---------------------**/
@@ -35,9 +35,7 @@
 
 body:is(.theme-dark, .theme-light) {
 
-  /** Fonts **/
-
-  --font-monospace: "Fira Code", "Source Code Pro", monospace;
+  /** Miscellaneous **/
 
   --checkbox-size: 1.125em;
 
@@ -66,7 +64,7 @@ body:is(.theme-dark, .theme-light) {
   --text-accent:              var(--header-blue);
   --text-accent-hover:        var(--header-purple);
 
-  --code-header: #0002;
+  --code-header: #0004;
   --code-background: var(--bg-dim);
   --code-normal: var(--text-muted);
   --code-inline: var(--fg-blue);
@@ -105,6 +103,7 @@ body:is(.theme-dark, .theme-light) {
   --h2-weight: 500;
   --h3-weight: 500;
   --h4-weight: 500;
+  --h5-weight: 500;
   --h6-weight: 500;
 }
 
@@ -115,7 +114,7 @@ body:is(.theme-dark, .theme-light) {
 
 /** Dark Theme (Soft) **/
 
-.theme-dark {
+:root .theme-dark {
   --bg-dim-rgb: 41, 49, 54;
   --bg-dim:      #293136;
   --bg0:         #333C43;
@@ -156,12 +155,14 @@ body:is(.theme-dark, .theme-light) {
   --statusline0: #A7C080;
   --statusline1: #D3C6AA;
   --statusline2: #E67E80;
+  
+  --background-embed: rgb(73 93 96 / 30%);
 }
 
 
 /** Light Theme (Hard) **/
 
-.theme-light {
+:root .theme-light {
   --bg-dim-rgb: 242, 239, 223;
   --bg-dim:      #F2EFDF;
   --bg0:         #FFFBEF;
@@ -202,6 +203,8 @@ body:is(.theme-dark, .theme-light) {
   --statusline0: #93B259;
   --statusline1: #708089;
   --statusline2: #E66868;
+
+  --background-embed: rgb(232 229 203 / 30%);
 }
 
 
@@ -213,7 +216,7 @@ body:is(.theme-dark, .theme-light) {
 
 /* Title Bar */
 .workspace-leaf .view-header {
-  box-shadow: 0 0 8px -4px var(--divider-color); 
+  box-shadow: 0 0 8px -4px var(--divider-color);
 }
 
 /* Title Text */
@@ -224,7 +227,7 @@ body:is(.theme-dark, .theme-light) {
 /* Gutters */
 .markdown-source-view.mod-cm6 .cm-gutters {
   z-index: -1 !important;
-  margin-inline-start: calc(0px - var(--file-folding-offset) - 12px); 
+  margin-inline-start: calc(0px - var(--file-folding-offset) - 12px);
   pointer-events: none;
 }
 .markdown-source-view.mod-cm6 .cm-content {
@@ -233,6 +236,9 @@ body:is(.theme-dark, .theme-light) {
 .markdown-preview-view {
   padding-block: var(--file-margins);
   padding-right: 10px;
+}
+.cm-gutter .cm-active {
+  color: var(--text-normal);
 }
 
 /* Collapse Indicator */
@@ -329,7 +335,7 @@ pre[class^="language-"]::before {
   right: 0;
   left: 0;
   height: calc(var(--code-size) * var(--line-height-normal));
-  background-color: var(--code-header);  
+  background-color: var(--code-header);
 }
 .HyperMD-codeblock-begin-bg:not(:has(>.code-block-flair > *)):has(>.code-block-flair)::before {
   content: "";
@@ -360,7 +366,7 @@ pre[class^="language-"]::after {
   font-family: var(--font-monospace);
 }
 .markdown-rendered pre[class^="language-"] button.copy-code-button {
-  top: calc(var(--size-4-4) + .75em * var(--line-height-normal));
+  top: calc(6px + var(--code-size) * var(--line-height-normal));
 }
 
 pre.language-c::after { content: "C" }
@@ -559,6 +565,21 @@ a.tag {
   margin-bottom: 0.125em;
 }
 
+/*
+  This snippet adds modification in the [[markdown link# modification|caption]] format
+*/
+
+/* Clean embed (no background, padding, borders) */
+.markdown-embed[alt~="clean"] {
+  --blockquote-background-color: transparent;
+  border: none;
+  padding: 0;
+}
+/* Removes the first title  */
+.markdown-embed[alt~="no-title"] .markdown-preview-section > .mod-header + div:has(h1,h2,h3,h4,h5,h6) {
+  display: none;
+}
+
 
 /** YAML **/
 
@@ -737,16 +758,16 @@ img {
 }
 
 /* Makes multiple images on the same line appear in a flex grid */
-.cm-line:not(.cm-active):has(.image-embed ~ .image-embed),
-p:has(.image-embed ~ .image-embed) {
+.cm-line:not(.cm-active):has(.image-embed ~ .image-embed, img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)),
+p:has(.image-embed ~ .image-embed, img ~ img) {
   display: flex;
   gap: 0.5rem;
 }
-.cm-line:not(.cm-active):has(.image-embed ~ .image-embed) :is(.cm-widgetBuffer,span) {
+.cm-line:not(.cm-active):has(.image-embed ~ .image-embed, img:not(.cm-widgetBuffer) ~ img:not(.cm-widgetBuffer)) :is(.cm-widgetBuffer,span) {
   display: none !important;
 }
 /* Makes a highlighted line shrink the image */
-:root:root .cm-line.cm-active > .image-embed {
+:root:root .cm-line.cm-active > :is(.image-embed, img) {
   width: 100px;
   display: inline-block;
 }
@@ -759,46 +780,69 @@ p > .image-embed {
 }
 
 /*
-  This snippet adds modification in the [[link# modification|caption]] format
+  This snippet adds modification in the ![[image link# modification|caption]] format
   Excalidraw is not supported as it has its own format of using alt text set max width in pixels
 */
 
 /* Sizing */
 .image-embed > img:not([width]),
-img[src^="http"]:not([width]) {
+span > img[src^="http"]:not([width]) {
   display: block;
   width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
   margin-right: auto;
 }
-.image-embed[src~="1/4"] > img,
+.image-embed[src~="1/4"],
 img[src^="http"][alt~="1/4"] {
   --img-width: 25;
 }
-.image-embed[src~="1/3"] > img,
+.image-embed[src~="1/3"],
 img[src^="http"][alt~="1/3"] {
   --img-width: 33.3;
 }
-.image-embed[src~="1/2"] > img,
+.image-embed[src~="1/2"],
 img[src^="http"][alt~="1/2"] {
   --img-width: 50;
 }
-.image-embed[src~="2/3"] > img,
+.image-embed[src~="2/3"],
 img[src^="http"][alt~="2/3"] {
   --img-width: 66.6;
 }
-.image-embed[src~="3/4"] > img,
+.image-embed[src~="3/4"],
 img[src^="http"][alt~="3/4"] {
   --img-width: 75;
 }
 
 /* Alignment */
 .image-embed[src~="left"] > img,
+.markdown-source-view.mod-cm6 .cm-content img[src^="http"][alt~="left"],
 img[src^="http"][alt~="left"] {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 .image-embed[src~="right"] > img,
-.app-container.app-container  img[src^="http"][alt~="right"] {
-  margin-left: calc((100% - var(--img-width) / 100 * min(100%, var(--file-line-width)))) !important;
+.markdown-source-view.mod-cm6 .cm-content img[src^="http"][alt~="right"],
+img[src^="http"][alt~="right"] {
+  margin-right: 0 !important;
+}
+/* External images */
+.markdown-source-view.mod-cm6 .cm-content > img {
+  margin-inline: auto !important;
+}
+
+/* Floats */
+.markdown-reading-view .image-embed[src~="float"] > img:not([width]) {
+  width: calc(var(--img-width, 100) / 100 * var(--file-line-width));
+  margin: 0 !important;
+}
+.markdown-reading-view .image-embed[src~="float"] {
+  clear: both;
+}
+.markdown-reading-view .image-embed[src~="float"][src~="left"] {
+  float: left;
+  margin-right: 2%;
+}
+.markdown-reading-view .image-embed[src~="float"][src~="right"] {
+  float: right;
+  margin-left: 2%;
 }
 
 /* Image Alt Text Other Modifications */
@@ -829,22 +873,29 @@ img[src^="http"][alt~="blur"] {
 }
 .image-embed[src~="blur"] > img:hover,
 img[src^="http"][alt~="blur"]:hover {
-  filter: blur(0); 
+  filter: blur(0);
 }
 
 /* Alt text as caption under image */
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])::after {
+body:not(.no-image-alttext-caption)  .image-embed:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])::after {
   display: block;
   content: attr(alt);
   color: var(--text-muted);
   margin-block: 0.25em;
+  margin-inline: auto;
   text-align: center;
 }
+body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])::after {
+  width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
+}
+body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])::after {
+  width: calc(var(--img-width, 100) / 100 * var(--file-line-width));
+}
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])[src~="left"]::after {
-  text-align: left;
+  margin-inline: 0 auto;
 }
 body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])[src~="right"]::after {
-  text-align: right;
+  margin-inline: auto 0;
 }
 
 
