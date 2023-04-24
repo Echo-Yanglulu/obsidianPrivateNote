@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/责任.md"
+                    "file": "笔记/工具/思考/思维概念/逻辑.md"
                   }
                 }
               }
@@ -543,13 +543,37 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "自由技艺",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自由技艺.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":28},\"to\":{\"line\":6,\"ch\":28}}}"
+                    },
+                    {
+                      "title": "自己的学习行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":26},\"to\":{\"line\":25,\"ch\":26}}}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/学习.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "自己的观点",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/自己的观点.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/自己的观点.md",
+                    "file": "笔记/工具/思考/思维概念/逻辑.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -557,7 +581,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -583,7 +607,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/责任.md",
+                        "file": "笔记/工具/思考/思维概念/逻辑.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -610,7 +634,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/责任.md",
+                        "file": "笔记/工具/思考/思维概念/逻辑.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -964,15 +988,19 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ec81a0a13e2026d2",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/责任.md",
+    "笔记/学习方法/自由技艺.md",
+    "笔记/学习方法/自己的学习行为.md",
+    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/工具/通用概念/学习.md",
+    "笔记/行为/自己的观点.md",
+    "笔记/工具/通用概念/当下.md",
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/责任.md",
     "笔记/内心/欲望.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/当下.md",
-    "笔记/行为/自己的观点.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/学习方法/自己的思考.md",
     "笔记/内心/活在当下指南.md",
@@ -999,10 +1027,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/孤立动作.md",
-    "笔记/工具/通用概念/抗拒.md",
-    "笔记/西方文明简史/主观事实.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/西方文明简史/客观事实.md",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
     "Excalidraw/Untitled Diagram.svg",
