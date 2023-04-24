@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -283,6 +283,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
                       "title": "背部",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -335,7 +341,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/拉伸.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -529,7 +535,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -555,7 +561,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -582,7 +588,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -936,8 +942,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "18a820d70d0ed9f8",
   "lastOpenFiles": [
+    "笔记/行为/健身/拉伸.md",
+    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -955,7 +963,6 @@
     "笔记/_gsdata_/2023-0423-231248-DESKTOP-YLL-Job1.log",
     "笔记/内心/内心.md",
     "笔记/内心/陷阱.md",
-    "笔记/行为/健身/健身.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/正念的奇迹.md",
     "笔记/内心/当下的力量.md",
@@ -963,7 +970,6 @@
     "笔记/内心/悉达多.md",
     "笔记/西方文明简史/问题.md",
     "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/行为/健身/拉伸.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/孤立动作.md",
     "笔记/工具/通用概念/抗拒.md",
