@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md"
+                    "file": "笔记/行为/自己的观点.md"
                   }
                 }
               }
@@ -533,9 +533,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "25b2876f3728e46d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/行为/自己的观点.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -561,7 +583,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/行为/自己的观点.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -588,7 +610,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/行为/自己的观点.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -942,15 +964,16 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
+    "笔记/学习方法/自己的思考.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/内心/活在当下指南.md",
     "笔记/行为/健身/拉伸.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
-    "笔记/内心/活在当下指南.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/匹夫.md",
-    "笔记/学习方法/自己的思考.md",
     "笔记/_gsdata_/2023-0423-232048-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0423-231948-DESKTOP-YLL-Job1.log",
@@ -966,7 +989,6 @@
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/正念的奇迹.md",
     "笔记/内心/当下的力量.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/内心/悉达多.md",
     "笔记/西方文明简史/问题.md",
     "笔记/前端/编程语言/JS/DOM.md",
