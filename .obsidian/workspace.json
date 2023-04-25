@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md"
+                    "file": "笔记/学习方法/概念/内涵.md"
                   }
                 }
               }
@@ -538,8 +538,14 @@
                 "id": "25b2876f3728e46d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "本质",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":22},\"to\":{\"line\":13,\"ch\":22}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -637,7 +643,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md",
+                        "file": "笔记/学习方法/概念/内涵.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -664,7 +670,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md",
+                        "file": "笔记/学习方法/概念/内涵.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1019,15 +1025,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25b2876f3728e46d",
+  "active": "0f26364a12aa604b",
   "lastOpenFiles": [
-    "笔记/工具/思考/思维形式.md",
     "笔记/学习方法/概念/概念.md",
+    "笔记/学习方法/概念/外延.md",
+    "笔记/工具/思考/思维形式.md",
+    "笔记/工具/思考/基本概念/思维内容.md",
+    "笔记/工具/通用概念/词语.md",
+    "笔记/工具/哲学/逻辑学/逻辑方法.md",
+    "笔记/工具/通用概念/本质.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/本质属性.md",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
-    "笔记/工具/哲学/逻辑学/逻辑方法.md",
     "笔记/工具/哲学/逻辑学/未命名.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/学习方法/概念/知识.md",
@@ -1043,10 +1053,6 @@
     "笔记/工具/文学/方法.md",
     "笔记/工具/文学/手段.md",
     "笔记/工具/通用概念/规律.md",
-    "笔记/工具/思考/思维概念/三段论.md",
-    "笔记/工具/思考/基本概念/思维内容.md",
-    "笔记/工具/通用概念/关系.md",
-    "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/_gsdata_/2023-0423-232048-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
