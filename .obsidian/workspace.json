@@ -545,6 +545,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":13},\"to\":{\"line\":6,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":12},\"to\":{\"line\":18,\"ch\":12}},\"scroll\":0.6403940886699507}"
+                    },
+                    {
                       "title": "逻辑",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -591,7 +603,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/学习方法/概念/概念.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1007,13 +1019,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9227aec48bac7038",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/学习方法/概念/本质属性.md",
+    "笔记/工具/思考/思维形式.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/学习方法/概念/本质属性.md",
+    "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/哲学/逻辑学/逻辑方法.md",
     "笔记/工具/哲学/逻辑学/未命名.md",
     "笔记/工具/思考/思维概念/推理.md",
@@ -1032,7 +1045,6 @@
     "笔记/工具/通用概念/规律.md",
     "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/基本概念/思维内容.md",
-    "笔记/工具/思考/思维形式.md",
     "笔记/工具/通用概念/关系.md",
     "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
