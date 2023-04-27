@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/人的属性.md"
+                    "file": "笔记/工具/通用概念/当下.md"
                   }
                 }
               }
@@ -617,7 +617,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -643,7 +643,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/人的属性.md",
+                        "file": "笔记/工具/通用概念/当下.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -670,7 +670,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/人的属性.md",
+                        "file": "笔记/工具/通用概念/当下.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -795,17 +795,8 @@
             }
           },
           {
-            "id": "2a89c20d4e9479cb",
+            "id": "860bd6c0b479df49",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -1015,23 +1006,25 @@
       "smart-random-note:Open Random Note from Search": false,
       "workbench-obsidian:Workbench": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "8a9e3c74e77c9e2b",
+  "active": "7c7ee69003014296",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/生命之书.md",
+    "笔记/工具/通用概念/当下.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/原则.md",
     "笔记/内心/内心.md",
     "笔记/学习方法/框架思维/因果律.md",
     "笔记/工具/通用概念/事件.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/当下.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/通用概念/天赋.md",
     "笔记/_gsdata_/2023-0425-233723-DESKTOP-YLL-Job1.log",
@@ -1060,8 +1053,6 @@
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/学习方法/概念/知识.md",
     "笔记/工具/思考/思维概念/论证.md",
-    "笔记/工具/思考/思维概念/溯因.md",
-    "笔记/工具/思考/思维概念/归纳.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
