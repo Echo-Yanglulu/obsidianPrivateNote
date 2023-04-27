@@ -821,7 +821,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1028,9 +1028,9 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "18a820d70d0ed9f8",
