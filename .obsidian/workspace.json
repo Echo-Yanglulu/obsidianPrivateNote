@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/当下.md"
+                    "file": "笔记/工具/通用概念/生命之书.md"
                   }
                 }
               }
@@ -521,13 +521,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "当下",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/当下.md",
+                    "file": "笔记/工具/通用概念/生命之书.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -643,7 +649,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/当下.md",
+                        "file": "笔记/工具/通用概念/生命之书.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -670,7 +676,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/当下.md",
+                        "file": "笔记/工具/通用概念/生命之书.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1017,8 +1023,8 @@
   },
   "active": "7c7ee69003014296",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/生命之书.md",
     "笔记/工具/通用概念/当下.md",
+    "笔记/工具/通用概念/生命之书.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/内心/内心.md",
