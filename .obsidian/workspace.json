@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/当下.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -427,6 +427,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "当下",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":11},\"to\":{\"line\":1,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
                       "title": "活在当下指南",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -443,7 +449,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/当下.md",
+                    "file": "笔记/内心/活在当下指南.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -655,7 +661,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/当下.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -682,7 +688,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/当下.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1029,8 +1035,8 @@
   },
   "active": "18a820d70d0ed9f8",
   "lastOpenFiles": [
-    "笔记/内心/欲望.md",
     "笔记/工具/通用概念/当下.md",
+    "笔记/内心/欲望.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/生命之书.md",
     "笔记/工具/通用概念/人的属性.md",
