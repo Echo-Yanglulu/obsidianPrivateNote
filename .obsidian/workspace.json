@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md"
+                    "file": "笔记/内心/欲望.md"
                   }
                 }
               }
@@ -427,6 +427,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":16},\"to\":{\"line\":98,\"ch\":16}},\"scroll\":64.1136590229312}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -437,7 +443,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md",
+                    "file": "笔记/工具/通用概念/当下.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -649,7 +655,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/内心/欲望.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -676,7 +682,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/内心/欲望.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1021,14 +1027,16 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "72a256b8af3053c8",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/当下.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/生命之书.md",
-    "笔记/内心/活在当下指南.md",
-    "笔记/内心/快乐.md",
-    "笔记/工具/通用概念/当下.md",
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/内心/欲望.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/工具/通用概念/心流.md",
+    "笔记/内心/快乐.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/内心/内心.md",
     "笔记/学习方法/框架思维/因果律.md",
@@ -1057,8 +1065,6 @@
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/本质属性.md",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
-    "笔记/工具/哲学/逻辑学/未命名.md",
-    "笔记/工具/思考/思维概念/推理.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
