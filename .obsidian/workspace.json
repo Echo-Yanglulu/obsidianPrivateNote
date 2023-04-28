@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -286,6 +286,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "拉伸",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":52},\"to\":{\"line\":2,\"ch\":52}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}},\"scroll\":0}"
                     },
                     {
@@ -341,7 +353,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/拉伸.md",
+                    "file": "笔记/行为/健身/部位/胸部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -635,7 +647,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -661,7 +673,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -688,7 +700,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1033,22 +1045,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0428-090243-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-090601-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0428-090525-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-090443-DESKTOP-YLL-Job1.log",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/拉伸.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/_gsdata_/2023-0428-090343-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-090243-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-090143-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-090043-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-085943-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-085843-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-085740-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-085716-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-085613-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-085610-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/工具/通用概念/生命之书.md",
     "笔记/工具/通用概念/人的属性.md",
-    "笔记/内心/活在当下指南.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/当下.md",
@@ -1069,8 +1083,6 @@
     "笔记/学习方法/概念/外延.md",
     "笔记/工具/思考/基本概念/思维内容.md",
     "笔记/工具/哲学/逻辑学/逻辑方法.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
