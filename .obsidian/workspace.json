@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -286,6 +286,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":6},\"to\":{\"line\":75,\"ch\":6}},\"scroll\":51.794117647058826}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
                     },
                     {
@@ -353,7 +365,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -673,7 +685,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -700,7 +712,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -710,8 +722,37 @@
                         "unlinkedCollapsed": false
                       }
                     }
+                  },
+                  {
+                    "id": "ee1db8c11ded0281",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":7},\"to\":{\"line\":4,\"ch\":7}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -1047,18 +1088,19 @@
   },
   "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0428-091446-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/_gsdata_/2023-0428-091746-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/_gsdata_/2023-0428-091701-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-091631-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-091552-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0428-091549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0428-091446-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-091443-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0428-091340-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091337-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091334-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091231-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091201-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091116-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0428-091034-DESKTOP-YLL-Job1.log",
-    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/拉伸.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/生命之书.md",
@@ -1081,8 +1123,6 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/思维形式.md",
     "笔记/学习方法/概念/外延.md",
-    "笔记/工具/思考/基本概念/思维内容.md",
-    "笔记/工具/哲学/逻辑学/逻辑方法.md",
     "笔记/前端/assets/Plutchik-wheel.svg",
     "笔记/西方文明简史/AMDGF模型.svg",
     "笔记/内心/未命名.canvas",
