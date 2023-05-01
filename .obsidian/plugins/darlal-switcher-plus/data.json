@@ -62,12 +62,12 @@
   ],
   "enableMatchPriorityAdjustments": true,
   "matchPriorityAdjustments": {
-    "isOpenInEditor": 0,
+    "isOpenInEditor": 0.3,
     "isStarred": 0,
-    "isRecent": 0,
-    "file": 0,
+    "isRecent": 0.4,
+    "file": 0.55,
     "alias": 0,
-    "h1": 0
+    "h1": 0.5
   },
   "quickFilters": {
     "resetKey": "0",
