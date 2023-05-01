@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/内心/活在当下指南.md"
+                  }
                 }
               }
             ]
@@ -767,6 +769,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -793,6 +796,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -967,23 +971,6 @@
             }
           },
           {
-            "id": "675b99dc67621673",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {}
-            }
-          },
-          {
             "id": "bbfe783a7b6ff6fa",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1069,7 +1056,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1146,7 +1133,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "675b99dc67621673",
+  "active": "e01f91357d424a7d",
   "lastOpenFiles": [
     "笔记/内心/活在当下指南.md",
     "笔记/内心/快乐.md",
