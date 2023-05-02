@@ -748,7 +748,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.630769230769232,
+            "dimension": 15.630769230769234,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -938,7 +938,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1128,10 +1128,10 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "e01f91357d424a7d",
