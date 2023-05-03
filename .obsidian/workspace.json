@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/内心/活在当下指南.md"
+                  }
                 }
               }
             ]
@@ -789,6 +791,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -815,6 +818,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1169,20 +1173,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f228e16b95d44e75",
+  "active": "6eae1c0cdb118e26",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0503-113804-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-114104-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0503-114004-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0503-113904-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-113804-DESKTOP-YLL-Job1.log",
     "笔记/内心/活在当下指南.md",
     "笔记/_gsdata_/2023-0503-113701-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-113637-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/2023-0503-113610-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-113510-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-113410-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-113310-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-113210-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-113110-DESKTOP-YLL-Job1.log",
     "笔记/内心/心智.md",
     "笔记/内心/迷思.md",
     "笔记/工具/通用概念/经验.md",
