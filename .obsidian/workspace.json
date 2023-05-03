@@ -461,6 +461,28 @@
                 }
               },
               {
+                "id": "6eae1c0cdb118e26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/活在当下指南.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "10030b0695c53c20",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -706,17 +728,17 @@
                 "id": "e01f91357d424a7d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "心智",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/心智.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":39},\"to\":{\"line\":8,\"ch\":39}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":26},\"to\":{\"line\":43,\"ch\":26}},\"scroll\":7.6324}"
                     },
                     {
                       "title": "当下",
@@ -735,7 +757,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md",
+                    "file": "笔记/内心/心智.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -743,7 +765,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -936,9 +958,26 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "ac45321a494cbeed",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1134,22 +1173,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e01f91357d424a7d",
+  "active": "6eae1c0cdb118e26",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0502-234628-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-112310-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/内心/心智.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/_gsdata_/2023-0503-112210-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0503-112106-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-112103-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0502-234628-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0502-234528-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0502-234428-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0502-234328-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0502-234228-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0502-234128-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0502-234028-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0502-233928-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0502-233828-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0502-233728-DESKTOP-YLL-Job1.log",
     "笔记/内心/迷思.md",
-    "笔记/内心/活在当下指南.md",
-    "笔记/内心/心智.md",
     "笔记/工具/通用概念/经验.md",
     "笔记/内心/快乐.md",
     "笔记/工具/通用概念/当下.md",
