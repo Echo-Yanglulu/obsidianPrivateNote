@@ -469,6 +469,24 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "内心",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":5},\"to\":{\"line\":55,\"ch\":5}},\"scroll\":14.992647058823529}"
+                    },
+                    {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":0}"
                     }
                   ]
                 },
@@ -892,23 +910,6 @@
             }
           },
           {
-            "id": "f228e16b95d44e75",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "69a2e6fc80af00cf",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -977,7 +978,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1175,25 +1176,26 @@
   },
   "active": "6eae1c0cdb118e26",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0503-114704-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-115010-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/内心.md",
+    "笔记/_gsdata_/2023-0503-114943-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/内心/活在当下指南.md",
+    "笔记/_gsdata_/2023-0503-114904-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-114804-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0503-114704-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-114604-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-114504-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-114404-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0503-114304-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-114204-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-114104-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-114004-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0503-113904-DESKTOP-YLL-Job1.log",
-    "笔记/内心/活在当下指南.md",
     "笔记/内心/心智.md",
     "笔记/内心/迷思.md",
     "笔记/工具/通用概念/经验.md",
     "笔记/内心/快乐.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/工具/通用概念/生命之书.md",
-    "笔记/内心/内心.md",
     "笔记/内心/接地气.md",
     "笔记/行为/人的行为.md",
     "笔记/行为/健身/部位/背部.md",
@@ -1201,7 +1203,6 @@
     "笔记/工具/通用概念/人的属性.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/通用概念/心流.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/手臂.md",
     "笔记/行为/健身/部位/肩部.md",
