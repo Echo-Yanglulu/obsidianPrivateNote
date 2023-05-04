@@ -9,6 +9,7 @@
 *?   - Light
 *? 2. General UI
 *?   - Workspace
+*?   - Menus
 *? 4. Markdown
 *?   - Emphasis
 *?   - Code
@@ -40,6 +41,8 @@ body:is(.theme-dark, .theme-light) {
   --checkbox-size: 1.125em;
 
   --list-indent: 24px;
+
+  --shadow-l: 0 4px 14px -2px hsla(0,0%,0%,40%);
 
   /** Backgrounds **/
 
@@ -77,7 +80,6 @@ body:is(.theme-dark, .theme-light) {
   --table-row-background-hover: var(--bg4);
   
   --interactive-before: var(--bg4);
-  --interactive-hover: var(--fg-aqua);
   --interactive-accent: var(--header-aqua);
   --interactive-accent-hover: var(--header-blue);
   
@@ -253,6 +255,16 @@ div ul.has-list-bullet ul.has-list-bullet .collapse-indicator {
 }
 .markdown-rendered .list-collapse-indicator {
   padding-right: 1rem;
+}
+
+
+/** Menus **/
+
+/* Checkboxes and dropdowns */
+select:hover,
+select:focus-within,
+button:hover {
+  transition: background-color var(--anim-duration-superfast), color var(--anim-duration-fast);
 }
 
 
@@ -481,13 +493,14 @@ input.task-list-item-checkbox:checked
 }
 
 .checkbox-container {
-    background-color: var(--interactive-before);
+  background-color: var(--interactive-before);
+  transition: background-color var(--anim-duration-moderate);
 }
 .checkbox-container:after {
-    background-color: var(--interactive-accent);
+  background-color: var(--interactive-accent);
 }
 .checkbox-container.is-enabled:after {
-    background-color: var(--bg3);
+  background-color: var(--bg3);
 }
 
 
