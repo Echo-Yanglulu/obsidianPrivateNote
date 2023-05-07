@@ -664,17 +664,179 @@
                 "id": "25b2876f3728e46d",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "本质",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/本质.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":22},\"to\":{\"line\":13,\"ch\":22}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":3},\"to\":{\"line\":52,\"ch\":3}},\"scroll\":28.792892156862745}"
+                    },
+                    {
+                      "title": "假言判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/假言判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":72,\"ch\":51},\"to\":{\"line\":72,\"ch\":51}},\"scroll\":47.01225490196079}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":3},\"to\":{\"line\":51,\"ch\":3}},\"scroll\":27.77328431372549}"
+                    },
+                    {
+                      "title": "选言判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/选言判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":27},\"to\":{\"line\":32,\"ch\":27}},\"scroll\":6.588235294117647}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":3},\"to\":{\"line\":50,\"ch\":3}},\"scroll\":33.4203431372549}"
+                    },
+                    {
+                      "title": "联言判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/联言判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":12},\"to\":{\"line\":38,\"ch\":12}},\"scroll\":10.509803921568627}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":9},\"to\":{\"line\":49,\"ch\":9}},\"scroll\":32.400735294117645}"
+                    },
+                    {
+                      "title": "联言判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/联言判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":18},\"to\":{\"line\":0,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":12},\"to\":{\"line\":49,\"ch\":12}},\"scroll\":30.126225490196077}"
+                    },
+                    {
+                      "title": "规范判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/规范判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":24},\"to\":{\"line\":61,\"ch\":24}},\"scroll\":30.933823529411764}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":13},\"to\":{\"line\":36,\"ch\":13}},\"scroll\":27.381127450980394}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":0},\"to\":{\"line\":82,\"ch\":0}},\"scroll\":61.4485}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":25},\"to\":{\"line\":178,\"ch\":25}},\"scroll\":84.60171568627452}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":11},\"to\":{\"line\":52,\"ch\":11}},\"scroll\":19.600490196078432}"
+                    },
+                    {
+                      "title": "模态判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/模态判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":12},\"to\":{\"line\":48,\"ch\":12}},\"scroll\":32.377450980392155}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":12},\"to\":{\"line\":46,\"ch\":12}},\"scroll\":21.550311665182548}"
+                    },
+                    {
+                      "title": "关系判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/关系判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":36},\"to\":{\"line\":32,\"ch\":36}},\"scroll\":6.208333333333333}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":12},\"to\":{\"line\":45,\"ch\":12}},\"scroll\":28.00857843137255}"
+                    },
+                    {
+                      "title": "关系判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/关系判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":3},\"to\":{\"line\":44,\"ch\":3}},\"scroll\":26.988970588235293}"
+                    },
+                    {
+                      "title": "性质判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/性质判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":107,\"ch\":20},\"to\":{\"line\":107,\"ch\":20}},\"scroll\":85.13467336683416}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":12},\"to\":{\"line\":47,\"ch\":12}},\"scroll\":12.580882352941176}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":12},\"to\":{\"line\":44,\"ch\":12}},\"scroll\":17.3825}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":24},\"to\":{\"line\":24,\"ch\":24}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":0},\"to\":{\"line\":42,\"ch\":0}},\"scroll\":17.382498872350023}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":10},\"to\":{\"line\":28,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "逻辑方法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑方法.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":49},\"to\":{\"line\":4,\"ch\":49}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":223,\"ch\":9},\"to\":{\"line\":223,\"ch\":9}},\"scroll\":195.29779411764707}"
                     },
                     {
                       "title": "思维",
@@ -776,6 +938,28 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/内心/心智.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8064de033e6e8268",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/思考/思维形式.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1079,7 +1263,7 @@
             }
           },
           {
-            "id": "ce27e667895bb5ae",
+            "id": "06dedd5ad6d89288",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1160,7 +1344,6 @@
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-journey-plugin:Find Journey": false,
       "smart-random-note:Open Random Note from Search": false,
       "workbench-obsidian:Workbench": false,
@@ -1170,6 +1353,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-spaced-repetition:复习卡片": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
     }
@@ -1177,52 +1361,52 @@
   "active": "be1d629c34ba8124",
   "lastOpenFiles": [
     "笔记/内心/活在当下指南.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/_gsdata_/2023-0503-222105-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0503-222005-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221905-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221805-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221705-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221605-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221505-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0503-221405-DESKTOP-YLL-Job1.log",
-    "笔记/工具/心理学/情绪/情绪.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/内心/满足.md",
-    "笔记/内心/内心.md",
-    "笔记/内心/心智.md",
-    "笔记/内心/迷思.md",
-    "笔记/工具/通用概念/经验.md",
-    "笔记/内心/快乐.md",
-    "笔记/工具/通用概念/当下.md",
-    "笔记/工具/通用概念/生命之书.md",
-    "笔记/内心/接地气.md",
-    "笔记/行为/人的行为.md",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/原则.md",
+    "笔记/工具/通用概念/人生十二法则.md",
+    "笔记/工具/通用概念/原则-达利欧.md",
+    "笔记/工具/通用概念/感受.md",
+    "笔记/行为/人的行为.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习方法/概念/概念.md",
-    "笔记/工具/通用概念/心流.md",
-    "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/手臂.md",
-    "笔记/行为/健身/部位/肩部.md",
-    "笔记/行为/健身/通用动作.md",
-    "笔记/行为/健身/法则.md",
-    "笔记/学习方法/自己的思考.md",
-    "笔记/前端/assets/Plutchik-wheel.svg",
-    "笔记/西方文明简史/AMDGF模型.svg",
+    "笔记/工具/思考/判断.md",
+    "笔记/工具/思考/假言判断.md",
+    "笔记/前端/assets/Image00025.jpg",
+    "笔记/工具/思考/充要条件.md",
+    "笔记/前端/assets/Image00024.jpg",
+    "笔记/工具/思考/必要条件.md",
+    "笔记/前端/assets/Image00023.jpg",
+    "笔记/工具/思考/充分条件.md",
+    "笔记/工具/思考/选言判断.md",
+    "笔记/工具/思考/连词.md",
+    "笔记/工具/思考/联言判断.md",
+    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/学习方法/语法.md",
+    "笔记/工具/思考/规范判断.md",
+    "笔记/前端/assets/Image00017.jpg",
+    "笔记/前端/assets/Image00016 1.jpg",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/图形/概念图.md",
+    "笔记/西方文明简史/概念.svg",
+    "笔记/工具/思考/负判断.md",
+    "笔记/工具/思考/模态判断.md",
+    "笔记/前端/assets/Image00016.jpg",
+    "笔记/工具/通用概念/事件.md",
+    "笔记/前端/assets/Image00015.jpg",
+    "笔记/前端/assets/Image00014.jpg",
+    "笔记/前端/assets/Image00013.jpg",
+    "笔记/_gsdata_/2023-0505-103435-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0505-103411-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103338-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103314-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103244-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103214-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103144-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103114-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0505-103041-DESKTOP-YLL-Job1.log",
     "笔记/内心/未命名.canvas",
-    "Excalidraw/Untitled Diagram.svg",
-    "Excalidraw/Drawing 2023-04-01 22.52.11.excalidraw.svg",
-    "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/_gsdata_/_saved_/工具/思考/img/Scientific-method-2022-07-10-14_17_58.png",
-    "笔记/_gsdata_/_saved_/工具/思考/img/Mermaid Type.png",
-    "笔记/_gsdata_/_saved_/西方文明简史/概念.svg",
-    "笔记/_gsdata_/_saved_/工具/通用概念/自我的层级.svg",
-    "笔记/_gsdata_/_saved_/工具/通用概念/自我.svg",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
 }

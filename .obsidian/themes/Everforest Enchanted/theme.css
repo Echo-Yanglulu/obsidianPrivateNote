@@ -87,6 +87,10 @@ body:is(.theme-dark, .theme-light) {
 
   --heading-formatting: ;
 
+  --tag-color: var(--header-blue);
+  --tag-background: hsla(var(--tag-color-hsl), 0.1);
+  --tag-background-hover: hsla(var(--tag-color-hsl), 0.2);
+
   --h1-color: var(--header-red);
   --h2-color: var(--header-orange);
   --h3-color: var(--header-yellow);
@@ -159,6 +163,7 @@ body:is(.theme-dark, .theme-light) {
   --statusline2: #E67E80;
   
   --background-embed: rgb(73 93 96 / 30%);
+  --tag-color-hsl: 254, 80%, 68%;
 }
 
 
@@ -207,6 +212,7 @@ body:is(.theme-dark, .theme-light) {
   --statusline2: #E66868;
 
   --background-embed: rgb(232 229 203 / 30%);
+  --tag-color-hsl: 254, 80%, 68%;
 }
 
 
@@ -264,7 +270,24 @@ div ul.has-list-bullet ul.has-list-bullet .collapse-indicator {
 select:hover,
 select:focus-within,
 button:hover {
-  transition: background-color var(--anim-duration-superfast), color var(--anim-duration-fast);
+  transition: background-color var(--anim-duration-superfast) ease-out;
+}
+
+/* Modal transitions */
+.modal-container {
+  animation: modal-in var(--anim-duration-superfast) forwards;
+}
+.modal,
+.prompt {
+  animation: menu-in var(--anim-duration-superfast) forwards;
+}
+@keyframes menu-in {
+  0% {translate: 0 4px}
+  100% {translate: 0 0}
+}
+@keyframes modal-in {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 
@@ -448,10 +471,17 @@ a.external-link:hover {
 }
 
 /* Unresolved Links */
-a.is-unresolved,
+:root:root a.is-unresolved,
 .markdown-source-view.mod-cm6 span.is-unresolved > span.cm-underline {
-  --link-unresolved-decoration-style: wavy;
-  text-decoration-thickness: 0.0625em;
+  --link-unresolved-decoration-style: dashed;
+  text-decoration-color: var(--bg-red);
+}
+:root:root a.is-unresolved:hover,
+.markdown-source-view.mod-cm6 span.is-unresolved > span.cm-underline:hover {
+  text-decoration-color: var(--fg-red);
+}
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+  text-decoration: none;
 }
 
 
@@ -556,6 +586,7 @@ a.tag {
 
 .markdown-embed {
   padding-inline: 10px;
+  padding-block: 0.25rem;
 }
 
 /*Embed Titles*/
@@ -568,18 +599,18 @@ a.tag {
   background-color: var(--blockquote-background-color);
 }
 
-/* Embed First h1 */
-.markdown-embed-content .markdown-preview-section h1:first-of-type {
-  margin-top: 0.5rem;
+/* Embed First Header */
+.markdown-embed-content .markdown-preview-section .mod-header + div :is(h1,h2,h3,h4,h5,h6) {
+  margin-top: 0;
 }
 
 /* Embed Last p */
-.markdown-embed-content .markdown-preview-section p:last-of-type {
-  margin-bottom: 0.125em;
+.markdown-embed-content .markdown-preview-section > div:last-child p {
+  margin-bottom: 0;
 }
 
 /*
-  This snippet adds modification in the [[markdown link# modification|caption]] format
+  This snippet adds modification in the [[markdown link|modification]] format
 */
 
 /* Clean embed (no background, padding, borders) */
@@ -923,7 +954,6 @@ body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".jpg"
 }
 .wide-width {
 	--file-line-width: 1000px;
-
 }
 
 /* Numbered Lists to Columns in Read Mode */
@@ -965,13 +995,11 @@ border-right: none !important;
   font-weight: bolder;
   letter-spacing: 8px;
 }
-
 .dashboard h1 {
   border-bottom-style: dotted !important;
   border-width: 1px !important;
   padding-bottom: 3px !important;
 }
-
 .dashboard div > ul:not(.dataview) {
   list-style: none;
   display: grid;
@@ -979,7 +1007,6 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: .5rem;
 padding-left: 0;
 }
-
 .dashboard div > ul:not(.dataview) > li {
 outline: 1px solid #fff2;
 padding: .5rem .25rem;
@@ -1055,9 +1082,9 @@ hr.page-break {
   background-color: unset;
 }
 hr.page-break::before {
-    content: 'Page Break';
+  content: 'Page Break';
   font-size: .75em;
-    margin-inline: auto;
+  margin-inline: auto;
 }
 @media print {
   hr.page-break {
@@ -1067,7 +1094,6 @@ hr.page-break::before {
 }
 
 /* Fix gutter number vertical cutoff */
-
 .ͼ1 .cm-lineNumbers .cm-gutterElement {
   line-height: normal !important;
 }
@@ -1078,7 +1104,6 @@ ol > li > p {
 }
 
 /* Make Backlinks padding more consistent */
-
 .markdown-preview-view .embedded-backlinks {
   margin-top: 100px;
 }
