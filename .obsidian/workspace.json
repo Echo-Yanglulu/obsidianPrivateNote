@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -292,6 +292,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":18},\"to\":{\"line\":8,\"ch\":18}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
                     },
                     {
@@ -431,7 +443,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -967,7 +979,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -993,7 +1005,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1020,7 +1032,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1358,8 +1370,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be1d629c34ba8124",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/内心/内心.md",
+    "笔记/工具/通用概念/事物.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/原则.md",
@@ -1367,8 +1385,6 @@
     "笔记/工具/通用概念/原则-达利欧.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/行为/人的行为.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/判断.md",
     "笔记/工具/思考/假言判断.md",
     "笔记/前端/assets/Image00025.jpg",
@@ -1387,12 +1403,8 @@
     "笔记/前端/assets/Image00016 1.jpg",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/图形/概念图.md",
     "笔记/西方文明简史/概念.svg",
-    "笔记/工具/思考/负判断.md",
-    "笔记/工具/思考/模态判断.md",
     "笔记/前端/assets/Image00016.jpg",
-    "笔记/工具/通用概念/事件.md",
     "笔记/前端/assets/Image00015.jpg",
     "笔记/前端/assets/Image00014.jpg",
     "笔记/前端/assets/Image00013.jpg",
