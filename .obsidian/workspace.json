@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/负判断.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -292,6 +292,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":7},\"to\":{\"line\":17,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
                     },
                     {
@@ -443,7 +455,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -991,7 +1003,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1017,7 +1029,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/负判断.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1044,7 +1056,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/负判断.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1382,25 +1394,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25b2876f3728e46d",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-135228-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-135534-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0508-135528-DESKTOP-YLL-Job1.log",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/工具/思考/负判断.md",
+    "笔记/_gsdata_/2023-0508-135428-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-135328-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-135228-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-135128-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-135028-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-134928-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-134828-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-134728-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-134628-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-134528-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-134428-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-134328-DESKTOP-YLL-Job1.log",
     "笔记/前端/assets/Pasted image 20230508113032.png",
     "笔记/工具/思考/判断.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/自己的思考.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/事物.md",
@@ -1423,7 +1436,6 @@
     "笔记/工具/思考/连词.md",
     "笔记/工具/思考/联言判断.md",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/学习方法/语法.md",
     "笔记/前端/assets/Image00017.jpg",
     "笔记/前端/assets/Image00016 1.jpg",
     "笔记/西方文明简史/概念.svg",
