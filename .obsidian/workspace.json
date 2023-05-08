@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/直接推理.md"
+                    "file": "笔记/工具/思考/性质判断.md"
                   }
                 }
               }
@@ -734,6 +734,18 @@
                       "title": "推理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":13},\"to\":{\"line\":30,\"ch\":13}},\"scroll\":8.247549019607844}"
+                    },
+                    {
+                      "title": "直接推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接推理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":9},\"to\":{\"line\":36,\"ch\":9}},\"scroll\":1.2279411764705883}"
                     },
                     {
@@ -1011,7 +1023,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/直接推理.md",
+                    "file": "笔记/工具/思考/判断.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1107,7 +1119,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/直接推理.md",
+                        "file": "笔记/工具/思考/性质判断.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1134,7 +1146,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/直接推理.md",
+                        "file": "笔记/工具/思考/性质判断.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1472,26 +1484,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25b2876f3728e46d",
+  "active": "30e9fd2bd5e0c606",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-214347-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214650-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0508-214323-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214238-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214550-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214450-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0508-214235-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/直接推理.md",
+    "笔记/_gsdata_/2023-0508-214347-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214323-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214238-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214235-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-214132-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-214120-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214020-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213920-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213820-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/思维概念/演绎.md",
     "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/思维概念/归纳.md",
     "笔记/工具/思考/思维形式.md",
-    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/关系判断.md",
     "笔记/工具/思考/模态判断.md",
     "笔记/西方文明简史/客观事实.md",
