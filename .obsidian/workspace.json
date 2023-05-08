@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/负判断.md"
+                    "file": "笔记/工具/思考/判断.md"
                   }
                 }
               }
@@ -731,6 +731,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "负判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/负判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":17},\"to\":{\"line\":45,\"ch\":17}},\"scroll\":5.1495}"
+                    },
+                    {
                       "title": "判断",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -969,7 +975,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/负判断.md",
+                    "file": "笔记/工具/思考/判断.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1065,7 +1071,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/负判断.md",
+                        "file": "笔记/工具/思考/判断.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1092,7 +1098,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/负判断.md",
+                        "file": "笔记/工具/思考/判断.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1432,22 +1438,22 @@
   },
   "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-173628-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-173937-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/工具/思考/负判断.md",
+    "笔记/_gsdata_/2023-0508-173852-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-173849-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-173746-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-173722-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-173628-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-173540-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-173525-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-173522-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0508-173419-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-173355-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-173252-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-173216-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-173213-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/行为/人的行为.md",
     "笔记/行为/健身/拉伸.md",
-    "笔记/工具/思考/负判断.md",
     "笔记/学习方法/自己的思考.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
