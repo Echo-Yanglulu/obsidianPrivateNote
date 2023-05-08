@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/推理.md"
+                    "file": "笔记/工具/思考/思维概念/直接推理.md"
                   }
                 }
               }
@@ -731,6 +731,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":9},\"to\":{\"line\":36,\"ch\":9}},\"scroll\":1.2279411764705883}"
+                    },
+                    {
                       "title": "思维形式",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维形式.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1005,7 +1011,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/推理.md",
+                    "file": "笔记/工具/思考/思维概念/直接推理.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1101,7 +1107,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/推理.md",
+                        "file": "笔记/工具/思考/思维概念/直接推理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1128,7 +1134,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/推理.md",
+                        "file": "笔记/工具/思考/思维概念/直接推理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1468,20 +1474,21 @@
   },
   "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-214020-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214347-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0508-213920-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214323-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214238-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0508-214235-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/思维概念/直接推理.md",
+    "笔记/_gsdata_/2023-0508-214132-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214120-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214020-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-213920-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-213820-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213720-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213620-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213520-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213420-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213320-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-213220-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/思维概念/演绎.md",
     "笔记/工具/思考/思维概念/三段论.md",
-    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/归纳.md",
     "笔记/工具/思考/思维形式.md",
     "笔记/工具/思考/判断.md",
@@ -1503,7 +1510,6 @@
     "笔记/学习方法/自己的思考.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/assets/Pasted image 20230508113032.png",
     "笔记/前端/assets/Image00025.jpg",
     "笔记/前端/assets/Image00024.jpg",
