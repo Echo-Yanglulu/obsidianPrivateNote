@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md"
+                    "file": "笔记/工具/思考/负判断.md"
                   }
                 }
               }
@@ -686,6 +686,18 @@
                       "title": "判断",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":11},\"to\":{\"line\":53,\"ch\":11}},\"scroll\":28.7929}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":131,\"ch\":12},\"to\":{\"line\":131,\"ch\":12}},\"scroll\":130.8762}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":3},\"to\":{\"line\":52,\"ch\":3}},\"scroll\":28.792892156862745}"
                     },
                     {
@@ -909,7 +921,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/工具/思考/负判断.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -979,7 +991,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -1005,7 +1017,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/工具/思考/负判断.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1032,7 +1044,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/工具/思考/负判断.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1370,24 +1382,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-112709-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-112942-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0508-112939-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0508-112836-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/判断.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/学习方法/自己的思考.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/_gsdata_/2023-0508-112809-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-112709-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-112609-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-112509-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-112409-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-112309-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-112209-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0508-112109-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-112009-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-111909-DESKTOP-YLL-Job1.log",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/事物.md",
-    "笔记/学习方法/概念/概念.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -1396,7 +1411,6 @@
     "笔记/工具/通用概念/原则-达利欧.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/行为/人的行为.md",
-    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/假言判断.md",
     "笔记/前端/assets/Image00025.jpg",
     "笔记/工具/思考/充要条件.md",
@@ -1409,10 +1423,8 @@
     "笔记/工具/思考/联言判断.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/学习方法/语法.md",
-    "笔记/工具/思考/规范判断.md",
     "笔记/前端/assets/Image00017.jpg",
     "笔记/前端/assets/Image00016 1.jpg",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/西方文明简史/概念.svg",
     "笔记/前端/assets/Image00016.jpg",
     "笔记/前端/assets/Image00015.jpg",
