@@ -731,6 +731,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":12},\"to\":{\"line\":46,\"ch\":12}},\"scroll\":20.1672}"
+                    },
+                    {
                       "title": "推理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1023,7 +1029,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/判断.md",
+                    "file": "笔记/工具/思考/性质判断.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1484,22 +1490,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "30e9fd2bd5e0c606",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0508-214650-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214932-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0508-214550-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214450-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214929-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/工具/思考/判断.md",
+    "笔记/工具/思考/性质判断.md",
+    "笔记/_gsdata_/2023-0508-214826-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214750-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214650-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214550-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0508-214450-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/直接推理.md",
     "笔记/_gsdata_/2023-0508-214347-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-214323-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214238-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214235-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214132-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-214120-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/思维概念/演绎.md",
     "笔记/工具/思考/思维概念/三段论.md",
     "笔记/工具/思考/思维概念/归纳.md",
@@ -1507,7 +1514,6 @@
     "笔记/工具/思考/关系判断.md",
     "笔记/工具/思考/模态判断.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/工具/思考/性质判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/内涵.md",
