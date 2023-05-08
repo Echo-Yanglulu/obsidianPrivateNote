@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/模态判断.md"
+                    "file": "笔记/工具/思考/思维概念/推理.md"
                   }
                 }
               }
@@ -731,6 +731,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":12},\"to\":{\"line\":46,\"ch\":12}},\"scroll\":20.16722408026756}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -993,7 +999,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/判断.md",
+                    "file": "笔记/工具/思考/思维形式.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1089,7 +1095,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/模态判断.md",
+                        "file": "笔记/工具/思考/思维概念/推理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1116,7 +1122,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/模态判断.md",
+                        "file": "笔记/工具/思考/思维概念/推理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1454,20 +1460,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9dfa9d3fa94b0f52",
+  "active": "4813128a23d72265",
   "lastOpenFiles": [
-    "笔记/工具/思考/关系判断.md",
-    "笔记/_gsdata_/2023-0508-184640-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/工具/思考/思维形式.md",
+    "笔记/_gsdata_/2023-0508-184931-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/工具/思考/判断.md",
+    "笔记/工具/思考/关系判断.md",
+    "笔记/_gsdata_/2023-0508-184907-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/模态判断.md",
+    "笔记/_gsdata_/2023-0508-184825-DESKTOP-YLL-Job1.log",
+    "笔记/西方文明简史/客观事实.md",
+    "笔记/_gsdata_/2023-0508-184734-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0508-184640-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-184634-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-184531-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0508-184428-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-184404-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-184337-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-184334-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0508-184231-DESKTOP-YLL-Job1.log",
-    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/性质判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/概念.md",
@@ -1475,7 +1484,6 @@
     "笔记/前端/编程语言/JS/语句.md",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/哲学/逻辑学/性质.md",
-    "笔记/工具/思考/思维形式.md",
     "笔记/工具/思考/负判断.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/勇气.md",
@@ -1490,8 +1498,6 @@
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/事物.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/内心/活在当下指南.md",
-    "笔记/工具/通用概念/原则.md",
     "笔记/前端/assets/Image00025.jpg",
     "笔记/前端/assets/Image00024.jpg",
     "笔记/前端/assets/Image00023.jpg",
