@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/假言推理.md"
+                    "file": "笔记/工具/思考/思维概念/二难推理.md"
                   }
                 }
               }
@@ -1114,6 +1114,18 @@
                       "title": "推理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":14},\"to\":{\"line\":33,\"ch\":14}},\"scroll\":12.578125}"
+                    },
+                    {
+                      "title": "假言推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/假言推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":77},\"to\":{\"line\":34,\"ch\":77}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":11.83578431372549}"
                     },
                     {
@@ -1175,7 +1187,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/假言推理.md",
+                    "file": "笔记/工具/思考/思维概念/二难推理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1237,7 +1249,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/假言推理.md",
+                        "file": "笔记/工具/思考/思维概念/二难推理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1264,7 +1276,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/假言推理.md",
+                        "file": "笔记/工具/思考/思维概念/二难推理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1605,10 +1617,11 @@
   },
   "active": "8064de033e6e8268",
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/思维概念/二难推理.md",
+    "笔记/工具/思考/思维概念/假言推理.md",
     "笔记/前端/assets/Pasted image 20230510192541.png",
     "笔记/前端/assets/Pasted image 20230510191524.png",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思维概念/假言推理.md",
     "笔记/工具/思考/思维概念/选言推理.md",
     "笔记/工具/思考/判断.md",
     "笔记/工具/思考/规范判断.md",
@@ -1639,7 +1652,6 @@
     "笔记/_gsdata_/2023-0509-231115-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0509-231039-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0509-231003-DESKTOP-YLL-Job1.log",
-    "笔记/前端/assets/Pasted image 20230509180855.png",
     "笔记/工具/思考/思维概念/公理.md",
     "笔记/内心/心智.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
