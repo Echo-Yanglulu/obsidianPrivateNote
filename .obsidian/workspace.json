@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 16.49230769230769,
+            "dimension": 12.823949955317248,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 67.87692307692308,
+            "dimension": 71.53708668453976,
             "children": [
               {
                 "id": "e85da53958190f2e",
@@ -1169,6 +1169,34 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "294bbda120b9be81",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":16.2475}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/思考/判断.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
             "currentTab": 12
@@ -1176,7 +1204,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.630769230769234,
+            "dimension": 15.638963360142984,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1370,7 +1398,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1564,15 +1593,18 @@
   },
   "active": "8064de033e6e8268",
   "lastOpenFiles": [
-    "笔记/工具/思考/选言判断.md",
+    "笔记/工具/思考/判断.md",
+    "笔记/工具/思考/规范判断.md",
+    "笔记/工具/思考/模态判断.md",
+    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/选言推理.md",
+    "笔记/工具/思考/选言判断.md",
     "笔记/前端/assets/Pasted image 20230510174222.png",
     "笔记/前端/assets/Pasted image 20230510174215.png",
     "笔记/前端/assets/Pasted image 20230510173909.png",
     "笔记/前端/assets/Pasted image 20230510173900.png",
     "笔记/前端/assets/Pasted image 20230510171611.png",
     "笔记/前端/assets/Pasted image 20230510171602.png",
-    "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/思维概念/联言推理.md",
     "笔记/工具/思考/联言判断.md",
     "笔记/学习方法/概念/综合.md",
@@ -1607,8 +1639,6 @@
     "笔记/工具/思考/思维概念/直接推理.md",
     "笔记/工具/思考/思维概念/溯因.md",
     "笔记/工具/思考/思维形式.md",
-    "笔记/内心/活在当下指南.md",
-    "笔记/工具/心理学/情绪/情绪.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
