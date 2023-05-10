@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/选言推理.md"
+                    "file": "笔记/工具/思考/思维概念/假言推理.md"
                   }
                 }
               }
@@ -1114,6 +1114,18 @@
                       "title": "推理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":11.83578431372549}"
+                    },
+                    {
+                      "title": "选言推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/选言推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":80},\"to\":{\"line\":27,\"ch\":80}},\"scroll\":8.830310880829016}"
+                    },
+                    {
+                      "title": "推理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":16.247549019607842}"
                     },
                     {
@@ -1163,7 +1175,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思维概念/选言推理.md",
+                    "file": "笔记/工具/思考/思维概念/假言推理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1225,7 +1237,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/选言推理.md",
+                        "file": "笔记/工具/思考/思维概念/假言推理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1252,7 +1264,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思维概念/选言推理.md",
+                        "file": "笔记/工具/思考/思维概念/假言推理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1593,11 +1605,12 @@
   },
   "active": "8064de033e6e8268",
   "lastOpenFiles": [
+    "笔记/工具/思考/思维概念/推理.md",
+    "笔记/工具/思考/思维概念/假言推理.md",
+    "笔记/工具/思考/思维概念/选言推理.md",
     "笔记/工具/思考/判断.md",
     "笔记/工具/思考/规范判断.md",
     "笔记/工具/思考/模态判断.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思维概念/选言推理.md",
     "笔记/工具/思考/选言判断.md",
     "笔记/前端/assets/Pasted image 20230510174222.png",
     "笔记/前端/assets/Pasted image 20230510174215.png",
@@ -1638,7 +1651,6 @@
     "笔记/工具/思考/性质判断.md",
     "笔记/工具/思考/思维概念/直接推理.md",
     "笔记/工具/思考/思维概念/溯因.md",
-    "笔记/工具/思考/思维形式.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
