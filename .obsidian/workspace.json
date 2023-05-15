@@ -1668,46 +1668,6 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "756b23a94f628d20",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "主观事实",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/主观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":26},\"to\":{\"line\":11,\"ch\":26}}}"
-                    },
-                    {
-                      "title": "思维",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":5},\"to\":{\"line\":8,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "客观事实",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/客观事实.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习方法/概念/事实.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
             "currentTab": 13
@@ -1905,7 +1865,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2103,20 +2063,21 @@
   },
   "active": "294bbda120b9be81",
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/语法/语法.md",
     "笔记/工具/语法/语言.md",
+    "笔记/工具/哲学/逻辑学/自然语言.md",
+    "笔记/工具/通用概念/语言.md",
+    "笔记/工具/语法/语法.md",
     "笔记/工具/哲学/逻辑学/形式逻辑.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/学习方法/概念/事实.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习方法/语法.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/工具/哲学/Untitled Diagram.svg",
     "笔记/内心/心智.md",
     "笔记/内心/内心.md",
     "笔记/工具/哲学/逻辑学/Untitled Diagram.svg",
-    "笔记/工具/哲学/逻辑学/自然语言.md",
-    "笔记/工具/思考/思维概念/论证.md",
     "笔记/工具/修辞/修辞.md",
     "笔记/工具/修辞",
     "笔记/工具/语法",
@@ -2132,7 +2093,6 @@
     "笔记/工具/通用概念/非形式谬误.md",
     "笔记/工具/通用概念/双重标准.md",
     "笔记/工具/思考/思维概念/悖论.md",
-    "笔记/工具/通用概念/诡辩.md",
     "笔记/_gsdata_/2023-0514-191157-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
