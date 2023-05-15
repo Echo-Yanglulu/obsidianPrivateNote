@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/语法/语法.md"
+                    "file": "笔记/工具/通用概念/语言.md"
                   }
                 }
               }
@@ -1556,6 +1556,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "自然语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/自然语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":9},\"to\":{\"line\":3,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "形式逻辑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/形式逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}}}"
+                    },
+                    {
                       "title": "语言",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1662,7 +1680,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/语法/语法.md",
+                    "file": "笔记/工具/通用概念/语言.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1696,7 +1714,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/语法/语法.md",
+                        "file": "笔记/工具/通用概念/语言.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1723,7 +1741,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/语法/语法.md",
+                        "file": "笔记/工具/通用概念/语言.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2063,11 +2081,11 @@
   },
   "active": "294bbda120b9be81",
   "lastOpenFiles": [
-    "笔记/工具/语法/语言.md",
     "笔记/工具/哲学/逻辑学/自然语言.md",
     "笔记/工具/通用概念/语言.md",
-    "笔记/工具/语法/语法.md",
     "笔记/工具/哲学/逻辑学/形式逻辑.md",
+    "笔记/工具/语法/语法.md",
+    "笔记/工具/语法/语言.md",
     "笔记/工具/思考/思维概念/论证.md",
     "笔记/学习方法/概念/事实.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
