@@ -7,7 +7,6 @@
   "symbolListCommand": "@",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
-  "starredListCommand": "'",
   "commandListCommand": ">",
   "relatedItemsListCommand": "~",
   "strictHeadingsOnly": true,
@@ -63,11 +62,11 @@
   "enableMatchPriorityAdjustments": true,
   "matchPriorityAdjustments": {
     "isOpenInEditor": 0.3,
-    "isStarred": 0,
     "isRecent": 0.4,
     "file": 0.55,
     "alias": 0,
-    "h1": 0.5
+    "h1": 0.5,
+    "isBookmarked": 0
   },
   "quickFilters": {
     "resetKey": "0",
@@ -170,11 +169,34 @@
         "label": "disk location",
         "isActive": false,
         "isAvailable": true
+      },
+      {
+        "id": "bookmarks-file",
+        "mode": 32,
+        "label": "files",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-folder",
+        "mode": 32,
+        "label": "folders",
+        "isActive": false,
+        "isAvailable": true
+      },
+      {
+        "id": "bookmarks-search",
+        "mode": 32,
+        "label": "searches",
+        "isActive": false,
+        "isAvailable": true
       }
     ],
     "shouldResetActiveFacets": false,
     "shouldShowFacetInstructions": true
   },
   "preserveCommandPaletteLastInput": false,
-  "preserveQuickSwitcherLastInput": false
+  "preserveQuickSwitcherLastInput": false,
+  "version": "1.0.0",
+  "bookmarksListCommand": "'"
 }

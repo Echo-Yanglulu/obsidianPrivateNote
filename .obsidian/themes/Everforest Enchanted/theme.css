@@ -105,6 +105,13 @@ body:is(.theme-dark, .theme-light) {
   --h5-size: 1.125rem;
   --h6-size: 1.000rem;
 
+  --h1-line-height: 1.5;
+  --h2-line-height: 1.5;
+  --h3-line-height: 1.5;
+  --h4-line-height: 1.5;
+  --h5-line-height: 1.5;
+  --h6-line-height: 1.5;
+
   --h1-weight: 500;
   --h2-weight: 500;
   --h3-weight: 500;
@@ -524,7 +531,7 @@ input.task-list-item-checkbox:checked
 
 .checkbox-container {
   background-color: var(--interactive-before);
-  transition: background-color var(--anim-duration-moderate);
+  transition: background-color var(--anim-duration-moderate) cubic-bezier(0, 0.5, 0, 1);
 }
 .checkbox-container:after {
   background-color: var(--interactive-accent);
@@ -562,7 +569,6 @@ input.task-list-item-checkbox:checked
 
 .markdown-rendered table {
   background-color: var(--bg1);
-  margin-block: 0;
 }
 
 /* Fix Borders From Dataview */
@@ -579,6 +585,14 @@ input.task-list-item-checkbox:checked
 .cm-s-obsidian span.cm-hashtag,
 a.tag {
   font-weight: 500;
+}
+
+/* Remove spacing between h1 + tag */
+div:has(+div>p>.tag)>h1 {
+  margin-bottom: 0;
+}
+div:has(h1)+div p:has(.tag) {
+  margin-top: 0;
 }
 
 
@@ -731,10 +745,10 @@ a.tag {
   border-radius: 0 0 4px 4px;
   background-color: rgba(var(--bg-dim-rgb), 0.3);
 }
-.callout-content > p:first-child {
+.callout-content > *:first-child {
   margin-top: 0;
 }
-.callout-content > p:last-child {
+.callout-content > *:last-child {
   margin-bottom: 0;
 }
 
