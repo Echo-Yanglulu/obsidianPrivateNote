@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/语言.md"
+                    "file": "笔记/工具/语法/句子.md"
                   }
                 }
               }
@@ -42,17 +42,53 @@
                 "id": "e85da53958190f2e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "接地气",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/接地气.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":41},\"to\":{\"line\":0,\"ch\":41}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "人",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":383,\"ch\":14},\"to\":{\"line\":383,\"ch\":14}},\"scroll\":358.6728}"
+                    },
+                    {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "人",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":16},\"to\":{\"line\":11,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "人性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/心理学/人性/人性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "内心",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}},\"scroll\":0}"
                     },
                     {
                       "title": "问题",
@@ -179,7 +215,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/内心.md",
+                    "file": "笔记/工具/通用概念/人的属性.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -287,6 +323,36 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":117,\"ch\":10},\"to\":{\"line\":117,\"ch\":10}},\"scroll\":28.922794117647058}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":5},\"to\":{\"line\":20,\"ch\":5}}}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":6},\"to\":{\"line\":16,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":21},\"to\":{\"line\":10,\"ch\":21}}}"
                     },
                     {
                       "title": "健身",
@@ -539,7 +605,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -569,132 +635,6 @@
                 }
               },
               {
-                "id": "6eae1c0cdb118e26",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "内心",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/内心.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":5},\"to\":{\"line\":55,\"ch\":5}},\"scroll\":14.992647058823529}"
-                    },
-                    {
-                      "title": "活在当下指南",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":14},\"to\":{\"line\":16,\"ch\":14}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/活在当下指南.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "be1d629c34ba8124",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "抗拒",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/抗拒.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "臣服",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/臣服.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "当下",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "10030b0695c53c20",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "人的属性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":7},\"to\":{\"line\":16,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "人",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "变量",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":12},\"to\":{\"line\":8,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "面向对象编程",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/面向对象编程.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":10},\"to\":{\"line\":0,\"ch\":10}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/心流.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "18a820d70d0ed9f8",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -703,6 +643,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "人的行为",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "活在当下指南",
@@ -733,7 +679,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/人的行为.md",
+                    "file": "笔记/工具/通用概念/人.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -744,24 +690,24 @@
                 "id": "8a9e3c74e77c9e2b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "人的行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/人的行为.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.337314415708812}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":4},\"to\":{\"line\":18,\"ch\":4}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/人的属性.md",
+                    "file": "笔记/工具/通用概念/勇气.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -777,6 +723,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":3},\"to\":{\"line\":41,\"ch\":3}},\"scroll\":20.28125}"
+                    },
+                    {
+                      "title": "性质判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/性质判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "判断",
@@ -1077,471 +1035,10 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/性质判断.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "e01f91357d424a7d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "活在当下指南",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":26},\"to\":{\"line\":43,\"ch\":26}},\"scroll\":7.6324}"
-                    },
-                    {
-                      "title": "当下",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
-                    },
-                    {
-                      "title": "生命之书",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生命之书.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/心智.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8064de033e6e8268",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Untitled Diagram",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"diagram\",\"state\":{\"file\":\"笔记/工具/哲学/Untitled Diagram.svg\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "形式逻辑",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/形式逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "自然语言",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/自然语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":21},\"to\":{\"line\":1,\"ch\":21}}}"
-                    },
-                    {
-                      "title": "形式逻辑",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/形式逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":2},\"to\":{\"line\":2,\"ch\":2}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":11},\"to\":{\"line\":44,\"ch\":11}},\"scroll\":6.0969060128429655}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":9},\"to\":{\"line\":84,\"ch\":9}},\"scroll\":68.81611208406305}"
-                    },
-                    {
-                      "title": "非形式谬误",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/非形式谬误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "谬误",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/谬误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "非形式谬误",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/非形式谬误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":8},\"to\":{\"line\":23,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "双重标准",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/双重标准.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":87},\"to\":{\"line\":8,\"ch\":87}}}"
-                    },
-                    {
-                      "title": "非形式谬误",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/非形式谬误.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":14},\"to\":{\"line\":19,\"ch\":14}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":9},\"to\":{\"line\":84,\"ch\":9}},\"scroll\":61.542920847268675}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":4},\"to\":{\"line\":80,\"ch\":4}},\"scroll\":57.34007352941177}"
-                    },
-                    {
-                      "title": "间接反驳",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/间接反驳.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":22},\"to\":{\"line\":11,\"ch\":22}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":13},\"to\":{\"line\":79,\"ch\":13}},\"scroll\":57.34007352941177}"
-                    },
-                    {
-                      "title": "间接反驳",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/间接反驳.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":60},\"to\":{\"line\":0,\"ch\":60}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":13},\"to\":{\"line\":78,\"ch\":13}},\"scroll\":49.423817863397545}"
-                    },
-                    {
-                      "title": "直接反驳",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接反驳.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":9},\"to\":{\"line\":62,\"ch\":9}},\"scroll\":45.844133099824866}"
-                    },
-                    {
-                      "title": "直接反驳",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接反驳.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":94},\"to\":{\"line\":7,\"ch\":94}}}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":13},\"to\":{\"line\":78,\"ch\":13}},\"scroll\":60.049019607843135}"
-                    },
-                    {
-                      "title": "间接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/间接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":11},\"to\":{\"line\":3,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "选言证法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/选言证法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "间接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/间接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":11},\"to\":{\"line\":3,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "反证法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/反证法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":19},\"to\":{\"line\":8,\"ch\":19}}}"
-                    },
-                    {
-                      "title": "间接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/间接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":11},\"to\":{\"line\":3,\"ch\":11}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":5},\"to\":{\"line\":20,\"ch\":5}},\"scroll\":0.5614035087719298}"
-                    },
-                    {
-                      "title": "直接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":14},\"to\":{\"line\":5,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "完全归纳证法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/完全归纳证法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":20},\"to\":{\"line\":8,\"ch\":20}}}"
-                    },
-                    {
-                      "title": "直接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":14},\"to\":{\"line\":5,\"ch\":14}}}"
-                    },
-                    {
-                      "title": "假言证法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/假言证法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}}}"
-                    },
-                    {
-                      "title": "直接论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":17},\"to\":{\"line\":15,\"ch\":17}}}"
-                    },
-                    {
-                      "title": "证明",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/证明.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":25},\"to\":{\"line\":5,\"ch\":25}}}"
-                    },
-                    {
-                      "title": "论证",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/论证.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":2},\"to\":{\"line\":7,\"ch\":2}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":9},\"to\":{\"line\":84,\"ch\":9}},\"scroll\":64.94760312151617}"
-                    },
-                    {
-                      "title": "逻辑规律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑规律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":25},\"to\":{\"line\":9,\"ch\":25}}}"
-                    },
-                    {
-                      "title": "排中律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/排中律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "基本原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "矛盾律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/矛盾律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":42},\"to\":{\"line\":19,\"ch\":42}}}"
-                    },
-                    {
-                      "title": "基本原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "同一律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/同一律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":61},\"to\":{\"line\":26,\"ch\":61}}}"
-                    },
-                    {
-                      "title": "基本原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/基本原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "同一律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/同一律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":5},\"to\":{\"line\":23,\"ch\":5}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "逻辑规律",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑规律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":24},\"to\":{\"line\":12,\"ch\":24}}}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":35},\"to\":{\"line\":43,\"ch\":35}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "类比",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/类比.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":36},\"to\":{\"line\":39,\"ch\":36}},\"scroll\":21.509648605376253}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":10},\"to\":{\"line\":41,\"ch\":10}},\"scroll\":21.78063725490196}"
-                    },
-                    {
-                      "title": "溯因",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/溯因.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":16},\"to\":{\"line\":85,\"ch\":16}},\"scroll\":64.7691046386192}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":12},\"to\":{\"line\":42,\"ch\":12}},\"scroll\":14.099777034559644}"
-                    },
-                    {
-                      "title": "归纳",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/归纳.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":72},\"to\":{\"line\":79,\"ch\":72}},\"scroll\":44.361519607843135}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":27},\"to\":{\"line\":39,\"ch\":27}},\"scroll\":17.188725490196077}"
-                    },
-                    {
-                      "title": "演绎",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/演绎.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "二难推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/二难推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":21},\"to\":{\"line\":0,\"ch\":21}}}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":14},\"to\":{\"line\":33,\"ch\":14}},\"scroll\":12.578125}"
-                    },
-                    {
-                      "title": "假言推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/假言推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":77},\"to\":{\"line\":34,\"ch\":77}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":11.83578431372549}"
-                    },
-                    {
-                      "title": "选言推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/选言推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":80},\"to\":{\"line\":27,\"ch\":80}},\"scroll\":8.830310880829016}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":16.247549019607842}"
-                    },
-                    {
-                      "title": "三段论",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/三段论.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":8},\"to\":{\"line\":87,\"ch\":8}},\"scroll\":76.87254901960785}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":13},\"to\":{\"line\":31,\"ch\":13}},\"scroll\":8.247549019607844}"
-                    },
-                    {
-                      "title": "直接推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":31},\"to\":{\"line\":46,\"ch\":31}},\"scroll\":14.5221}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":13},\"to\":{\"line\":31,\"ch\":13}},\"scroll\":16.090686274509803}"
-                    },
-                    {
-                      "title": "直接推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/直接推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":85},\"to\":{\"line\":38,\"ch\":85}},\"scroll\":14.522058823529411}"
-                    },
-                    {
-                      "title": "推理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/推理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":14},\"to\":{\"line\":30,\"ch\":14}},\"scroll\":19.061306532663316}"
-                    },
-                    {
-                      "title": "思维形式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维形式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":21},\"to\":{\"line\":15,\"ch\":21}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "diagram-edit",
-                  "state": {
-                    "file": "笔记/工具/哲学/Untitled Diagram.svg"
                   }
                 }
               },
@@ -1554,6 +1051,126 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":33},\"to\":{\"line\":47,\"ch\":33}},\"scroll\":23.764705882352942}"
+                    },
+                    {
+                      "title": "词组",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词组.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":163,\"ch\":41},\"to\":{\"line\":163,\"ch\":41}},\"scroll\":154.34039324777137}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":31},\"to\":{\"line\":44,\"ch\":31}},\"scroll\":23.75735294117647}"
+                    },
+                    {
+                      "title": "词组",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词组.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":10},\"to\":{\"line\":36,\"ch\":10}},\"scroll\":22.087}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":21},\"to\":{\"line\":50,\"ch\":21}},\"scroll\":23.764705882352942}"
+                    },
+                    {
+                      "title": "词",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":31},\"to\":{\"line\":11,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "词",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":26},\"to\":{\"line\":2,\"ch\":26}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":162,\"ch\":34},\"to\":{\"line\":162,\"ch\":34}},\"scroll\":148.7011217948718}"
+                    },
+                    {
+                      "title": "词",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":29},\"to\":{\"line\":17,\"ch\":29}}}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":0},\"to\":{\"line\":45,\"ch\":0}},\"scroll\":28.627450980392158}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":22},\"to\":{\"line\":19,\"ch\":22}},\"scroll\":7.372549019607844}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":4},\"to\":{\"line\":46,\"ch\":4}},\"scroll\":20.764705882352942}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":14},\"to\":{\"line\":17,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":6},\"to\":{\"line\":43,\"ch\":6}},\"scroll\":21.54901960784314}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":34},\"to\":{\"line\":44,\"ch\":34}},\"scroll\":21.54901960784314}"
+                    },
+                    {
+                      "title": "语素",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语素.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":36},\"to\":{\"line\":4,\"ch\":36}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":6},\"to\":{\"line\":42,\"ch\":6}},\"scroll\":10.254901960784313}"
+                    },
+                    {
+                      "title": "语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":15},\"to\":{\"line\":15,\"ch\":15}}}"
                     },
                     {
                       "title": "自然语言",
@@ -1680,7 +1297,59 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/语言.md",
+                    "file": "笔记/工具/语法/句子.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d11f1fca946c0036",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "词",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":55},\"to\":{\"line\":10,\"ch\":55}}}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":25},\"to\":{\"line\":39,\"ch\":25}},\"scroll\":23.098039215686274}"
+                    },
+                    {
+                      "title": "词",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":24},\"to\":{\"line\":32,\"ch\":24}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":17.55392156862745}"
+                    },
+                    {
+                      "title": "意识",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/意识/意识.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/普遍性.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1688,7 +1357,7 @@
                 }
               }
             ],
-            "currentTab": 13
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1714,7 +1383,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/语言.md",
+                        "file": "笔记/工具/语法/句子.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1741,7 +1410,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/语言.md",
+                        "file": "笔记/工具/语法/句子.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1882,8 +1551,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2054,15 +1722,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "random-note:开始漫游笔记": false,
-      "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "obsidian-journey-plugin:Find Journey": false,
@@ -2079,54 +1744,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "294bbda120b9be81",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/自然语言.md",
-    "笔记/工具/通用概念/语言.md",
-    "笔记/工具/哲学/逻辑学/形式逻辑.md",
-    "笔记/工具/语法/语法.md",
-    "笔记/工具/语法/语言.md",
-    "笔记/工具/思考/思维概念/论证.md",
-    "笔记/学习方法/概念/事实.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/学习方法/语法.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/工具/语法/词组.md",
+    "笔记/工具/语法/句子.md",
+    "笔记/工具/语法/词.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/哲学/Untitled Diagram.svg",
-    "笔记/内心/心智.md",
-    "笔记/内心/内心.md",
-    "笔记/工具/哲学/逻辑学/Untitled Diagram.svg",
-    "笔记/工具/修辞/修辞.md",
-    "笔记/工具/修辞",
-    "笔记/工具/语法",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/工具/思考/思维概念/演绎.md",
-    "笔记/工具/思考/思维概念/假言推理.md",
-    "笔记/工具/通用概念/谬误.md",
-    "笔记/工具/通用概念/形式谬误.md",
-    "笔记/工具/思考/思维概念/间接反驳.md",
-    "笔记/工具/思考/思维概念/直接反驳.md",
-    "笔记/工具/思考/思维概念/直接论证.md",
-    "笔记/工具/思考/思维概念/间接论证.md",
-    "笔记/工具/通用概念/非形式谬误.md",
-    "笔记/工具/通用概念/双重标准.md",
-    "笔记/工具/思考/思维概念/悖论.md",
-    "笔记/_gsdata_/2023-0514-191157-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/工具/通用概念/普遍性.md",
+    "笔记/工具/语法/语调.md",
+    "笔记/工具/语法/声调.md",
+    "笔记/工具/语法/语法.md",
+    "笔记/工具/语法/语气词.md",
+    "笔记/工具/意识/意识.md",
+    "笔记/工具/语法/名词.md",
+    "笔记/工具/语法/动词.md",
+    "笔记/工具/语法/主语.md",
+    "笔记/工具/语法/谓语.md",
+    "笔记/工具/思考/宾语.md",
+    "笔记/工具/语法/定语.md",
+    "笔记/工具/语法/状语.md",
+    "笔记/学习方法/概念/意义.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/完美.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/工具/通用概念/决定.md",
+    "笔记/行为/人的行为.md",
+    "笔记/学习方法/概念/事实.md",
+    "笔记/前端/assets/Pasted image 20230519173022.png",
+    "笔记/前端/assets/Pasted image 20230519172931.png",
+    "笔记/前端/assets/Pasted image 20230519172906.png",
+    "笔记/_gsdata_/2023-0518-182320-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0514-191057-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0514-190957-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0514-190857-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0514-190757-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0514-190657-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182253-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0518-182244-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182241-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182138-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182132-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182129-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0518-182026-DESKTOP-YLL-Job1.log",
+    "笔记/工具/哲学/Untitled Diagram.svg",
+    "笔记/工具/哲学/逻辑学/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230514143101.png",
     "笔记/前端/assets/Pasted image 20230512122533.png",
     "笔记/前端/assets/Pasted image 20230512104708.png",
     "笔记/前端/assets/Pasted image 20230512102437.png",
     "笔记/前端/assets/Pasted image 20230511184307.png",
-    "笔记/前端/assets/Pasted image 20230511161435.png",
-    "笔记/前端/assets/Pasted image 20230511160935.png",
-    "笔记/前端/assets/Pasted image 20230510234115.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
