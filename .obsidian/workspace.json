@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.833990363556723,
+            "dimension": 14.515408664582402,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/语法/句子.md"
+                    "file": "笔记/工具/通用概念/人的属性.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 70.91546211125711,
+            "dimension": 60.29477445288075,
             "children": [
               {
                 "id": "e85da53958190f2e",
@@ -1315,6 +1315,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "生活",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":8},\"to\":{\"line\":5,\"ch\":8}}}"
+                    },
+                    {
+                      "title": "普遍性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/普遍性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":127},\"to\":{\"line\":3,\"ch\":127}}}"
+                    },
+                    {
                       "title": "词",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1349,7 +1361,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/普遍性.md",
+                    "file": "笔记/工具/通用概念/人.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1357,12 +1369,12 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 16.250547525186157,
+            "dimension": 25.189816882536846,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1383,7 +1395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/语法/句子.md",
+                        "file": "笔记/工具/通用概念/人的属性.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1410,7 +1422,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/语法/句子.md",
+                        "file": "笔记/工具/通用概念/人的属性.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1745,10 +1757,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac45321a494cbeed",
+  "active": "86eec184b06808ab",
   "lastOpenFiles": [
-    "笔记/工具/语法/谓语.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/行为/人的行为.md",
+    "笔记/内心/内心.md",
+    "笔记/工具/通用概念/生活.md",
+    "笔记/工具/通用概念/普遍性.md",
     "笔记/工具/语法/句子.md",
+    "笔记/工具/哲学/逻辑学/形式逻辑.md",
+    "笔记/工具/语法/谓语.md",
     "笔记/工具/语法/主语.md",
     "笔记/工具/语法/话题.md",
     "笔记/工具/语法/插说.md",
@@ -1762,17 +1780,11 @@
     "笔记/工具/语法/词组.md",
     "笔记/工具/语法/语素.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/工具/通用概念/普遍性.md",
     "笔记/工具/语法/声调.md",
     "笔记/工具/语法/语法.md",
     "笔记/工具/语法/语气词.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/语法/名词.md",
-    "笔记/工具/语法/动词.md",
-    "笔记/工具/思考/宾语.md",
-    "笔记/工具/语法/定语.md",
-    "笔记/工具/语法/状语.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/前端/assets/Pasted image 20230519173022.png",
     "笔记/前端/assets/Pasted image 20230519172931.png",
     "笔记/前端/assets/Pasted image 20230519172906.png",
