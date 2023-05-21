@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "笔记/工具/语法/句子.md"
                   }
                 }
               }
@@ -1303,103 +1303,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "d11f1fca946c0036",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "原则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":11},\"to\":{\"line\":22,\"ch\":11}},\"scroll\":4.925925925925926}"
-                    },
-                    {
-                      "title": "鹿智者的法则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "原则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":11},\"to\":{\"line\":23,\"ch\":11}},\"scroll\":14.2218}"
-                    },
-                    {
-                      "title": "人的属性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":7},\"to\":{\"line\":21,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "人",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "生活",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":8},\"to\":{\"line\":5,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "普遍性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/普遍性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":127},\"to\":{\"line\":3,\"ch\":127}}}"
-                    },
-                    {
-                      "title": "词",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":55},\"to\":{\"line\":10,\"ch\":55}}}"
-                    },
-                    {
-                      "title": "语法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":25},\"to\":{\"line\":39,\"ch\":25}},\"scroll\":23.098039215686274}"
-                    },
-                    {
-                      "title": "词",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":24},\"to\":{\"line\":32,\"ch\":24}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "语法",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":17.55392156862745}"
-                    },
-                    {
-                      "title": "意识",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/意识/意识.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 9
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1425,7 +1331,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/工具/语法/句子.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1452,7 +1358,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/工具/语法/句子.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1787,10 +1693,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d11f1fca946c0036",
+  "active": "294bbda120b9be81",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/原则.md",
+    "笔记/工具/通用概念/2023-05-21.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
+    "笔记/工具/通用概念/原则.md",
     "笔记/工具/语法/句子.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/人.md",
@@ -1814,7 +1721,6 @@
     "笔记/工具/语法/语素.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/语法/声调.md",
-    "笔记/工具/语法/语法.md",
     "笔记/前端/assets/Pasted image 20230519173022.png",
     "笔记/前端/assets/Pasted image 20230519172931.png",
     "笔记/前端/assets/Pasted image 20230519172906.png",

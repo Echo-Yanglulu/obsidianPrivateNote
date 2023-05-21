@@ -1,0 +1,9 @@
+{
+  "createdPrepend": "创建时间: ",
+  "createdTimestampFormat": "YYYY-MM-DD H:mm:ss",
+  "createdEnabled": true,
+  "lastModifiedEnabled": true,
+  "lastModifiedPrepend": "上次修改: ",
+  "lastModifiedTimestampFormat": "YYYY-MM-DD H:mm:ss",
+  "refreshIntervalSeconds": 2
+}
