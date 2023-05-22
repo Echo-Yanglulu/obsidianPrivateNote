@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/学习方法/概念/概念.md"
                   }
                 }
               }
@@ -725,6 +725,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
                       "title": "判断",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1035,7 +1041,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/学习方法/概念/概念.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1359,7 +1365,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1386,7 +1392,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1723,19 +1729,23 @@
   },
   "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑形式.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/_gsdata_/2023-0522-170503-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0522-170748-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0522-170718-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/思维形式.md",
+    "笔记/工具/哲学/逻辑学/逻辑形式.md",
+    "笔记/_gsdata_/2023-0522-170651-DESKTOP-YLL-Job1.log",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/_gsdata_/2023-0522-170627-DESKTOP-YLL-Job1.log",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/_gsdata_/2023-0522-170551-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/基本概念/思维内容.md",
+    "笔记/_gsdata_/2023-0522-170503-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/_gsdata_/2023-0522-170403-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0522-170303-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0522-170200-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0522-170057-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0522-165957-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0522-165857-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0522-165757-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/本质.md",
     "笔记/学习方法/概念/事实.md",
     "笔记/工具/语法/句子.md",
@@ -1755,10 +1765,6 @@
     "笔记/工具/哲学/逻辑学/形式逻辑.md",
     "笔记/工具/语法/话题.md",
     "笔记/工具/语法/词.md",
-    "笔记/工具/通用概念/词语.md",
-    "笔记/工具/语法/非主谓句.md",
-    "笔记/工具/语法/语调意义.md",
-    "笔记/工具/语法/语调.md",
     "笔记/前端/assets/Pasted image 20230519173022.png",
     "笔记/前端/assets/Pasted image 20230519172931.png",
     "笔记/前端/assets/Pasted image 20230519172906.png",
