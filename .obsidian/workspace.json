@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/学习方法/概念/概念.md"
                   }
                 }
               }
@@ -725,6 +725,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":7},\"to\":{\"line\":40,\"ch\":7}},\"scroll\":9.307692307692308}"
+                    },
+                    {
                       "title": "概念",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1047,8 +1053,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
-                    "mode": "source",
+                    "file": "笔记/学习方法/概念/概念.md",
+                    "mode": "preview",
                     "backlinks": true,
                     "source": false
                   }
@@ -1371,7 +1377,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1398,7 +1404,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/概念/概念.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1735,9 +1741,9 @@
   },
   "active": "25b2876f3728e46d",
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/言语.md",
     "笔记/工具/通用概念/语言.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/内心/方式.md",
     "笔记/工具/文学/方法.md",
     "笔记/工具/通用概念/方法.md",
