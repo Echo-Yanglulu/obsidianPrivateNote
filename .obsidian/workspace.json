@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "笔记/工具/思考/基本概念/思维.md"
                   }
                 }
               }
@@ -725,6 +725,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":10},\"to\":{\"line\":10,\"ch\":10}}}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1041,7 +1047,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1339,7 +1345,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1365,7 +1371,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1392,7 +1398,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1722,13 +1728,16 @@
       "obsidian-spaced-repetition:复习卡片": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "fe7e7a8b0d686dc5",
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/_gsdata_/2023-0523-001954-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
@@ -1739,13 +1748,9 @@
     "笔记/_gsdata_/2023-0523-001739-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0523-001724-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0523-001721-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0523-001618-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/原则.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
-    "笔记/学习方法/概念/概念.md",
     "笔记/工具/思考/思维形式.md",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/基本概念/思维内容.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/本质.md",
