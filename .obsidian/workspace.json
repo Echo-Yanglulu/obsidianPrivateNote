@@ -1552,7 +1552,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -1740,9 +1740,9 @@
       "obsidian-spaced-repetition:复习卡片": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "63e6cb6f221a3591",
