@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "笔记/西方文明简史/自由.md"
                   }
                 }
               }
@@ -621,13 +621,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "自己的思考",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的思考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/自己的思考.md",
+                    "file": "笔记/西方文明简史/自由.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1357,7 +1363,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1383,7 +1389,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/西方文明简史/自由.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1410,7 +1416,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/西方文明简史/自由.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1745,14 +1751,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "13f516c45139776d",
   "lastOpenFiles": [
+    "笔记/学习方法/自己的思考.md",
+    "笔记/西方文明简史/自由.md",
+    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/语言.md",
     "笔记/工具/通用概念/观念.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/_gsdata_/2023-0523-185217-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0523-185114-DESKTOP-YLL-Job1.log",
@@ -1781,8 +1789,6 @@
     "笔记/工具/思考/基本概念/思维内容.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/前端/assets/Pasted image 20230519173022.png",
     "笔记/前端/assets/Pasted image 20230519172931.png",
     "笔记/前端/assets/Pasted image 20230519172906.png",
