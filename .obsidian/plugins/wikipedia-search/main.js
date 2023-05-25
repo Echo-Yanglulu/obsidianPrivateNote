@@ -8,6 +8,7 @@ var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __export = (target, all) => {
   for (var name in all)
     __defProp(target, name, { get: all[name], enumerable: true });
@@ -21,6 +22,10 @@ var __copyProps = (to, from, except, desc) => {
   return to;
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
+};
 
 // src/main.ts
 var main_exports = {};
@@ -28,10 +33,10 @@ __export(main_exports, {
   default: () => WikipediaSearch
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/search.ts
-var import_obsidian = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/languages.ts
 var languages = {
@@ -372,10 +377,66 @@ var languages = {
   zu: "isiZulu"
 };
 
+// src/wikipediaAPI.ts
+var import_obsidian = require("obsidian");
+async function getArticles(query, languageCode) {
+  var _a;
+  const response = (_a = await (0, import_obsidian.requestUrl)(getAPIBaseURL(languageCode) + `&action=opensearch&profile=fuzzy&search=${query}`).catch(
+    (e) => {
+      console.error(e);
+      return null;
+    }
+  )) == null ? void 0 : _a.json;
+  if (!response)
+    return null;
+  return response[1].map((title, index) => ({ title, url: response[3][index] }));
+}
+async function getArticleDescriptions(titles, languageCode) {
+  var _a;
+  const response = (_a = await (0, import_obsidian.requestUrl)(
+    getAPIBaseURL(languageCode) + `&action=query&prop=description&titles=${encodeURIComponent(titles.join("|"))}`
+  ).catch((e) => {
+    console.error(e);
+    return null;
+  })) == null ? void 0 : _a.json;
+  if (!response)
+    return null;
+  if (!response.query)
+    return [];
+  return Object.values(response.query.pages).sort((a, b) => titles.indexOf(a.title) - titles.indexOf(b.title)).map((page) => {
+    var _a2;
+    return (_a2 = page.description) != null ? _a2 : null;
+  });
+}
+async function getArticleExtracts(titles, languageCode) {
+  var _a;
+  const response = (_a = await (0, import_obsidian.requestUrl)(
+    getAPIBaseURL(languageCode) + `&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${encodeURIComponent(
+      titles.join("|")
+    )}`
+  ).catch((e) => {
+    console.error(e);
+    return null;
+  })) == null ? void 0 : _a.json;
+  if (!response)
+    return null;
+  if (!response.query)
+    return [];
+  return Object.values(response.query.pages).sort((a, b) => titles.indexOf(a.title) - titles.indexOf(b.title)).map((page) => {
+    var _a2;
+    return (_a2 = page.extract) != null ? _a2 : null;
+  });
+}
+function getAPIBaseURL(languageCode) {
+  return `https://${languageCode}.wikipedia.org/w/api.php?format=json`;
+}
+
 // src/search.ts
-var SearchModal = class extends import_obsidian.SuggestModal {
+var SearchModal = class extends import_obsidian2.SuggestModal {
   constructor(app, plugin, editor) {
     super(app);
+    __publicField(this, "plugin");
+    __publicField(this, "editor");
     this.plugin = plugin;
     this.editor = editor;
     this.setPlaceholder("Search Wikipedia...");
@@ -405,14 +466,22 @@ var SearchModal = class extends import_obsidian.SuggestModal {
       return [];
     }
     this.emptyStateText = "No results found.";
-    const searchResponses = await searchWikipediaArticles(query, languageCode);
-    const descriptions = await getWikipediaArticleDescription(
+    const searchResponses = await getArticles(query, languageCode);
+    const descriptions = await getArticleDescriptions(
       (_c = searchResponses == null ? void 0 : searchResponses.map((a) => a.title)) != null ? _c : [],
       languageCode
     );
     if (!searchResponses || !descriptions) {
       this.emptyStateText = "An error occurred... Go check the logs and open a bug report!";
       return [];
+    }
+    if (this.plugin.settings.autoInsertSingleResponseQueries && searchResponses.length === 1) {
+      this.close();
+      this.onChooseSuggestion({
+        title: searchResponses[0].title,
+        url: searchResponses[0].url,
+        description: descriptions[0]
+      });
     }
     return searchResponses.map((article, index) => ({
       title: article.title,
@@ -428,82 +497,40 @@ var SearchModal = class extends import_obsidian.SuggestModal {
   }
   async onChooseSuggestion(article) {
     var _a, _b;
-    let extract = null;
-    if (this.plugin.settings.format.includes("{extract}")) {
-      extract = (_b = (_a = await getWikipediaArticleExtracts([article.title], this.plugin.settings.language)) == null ? void 0 : _a[0]) != null ? _b : null;
-    }
-    const link = this.plugin.settings.format.replace("{title}", this.editor.getSelection() || article.title).replace("{url}", article.url).replace("{extract}", extract != null ? extract : "[Could not fetch the extract...]");
-    this.editor.replaceSelection(link);
+    const cursorPosition = this.editor.getCursor();
+    let extract = this.plugin.settings.format.includes("{extract}") ? (_b = (_a = await getArticleExtracts([article.title], this.plugin.settings.language)) == null ? void 0 : _a[0]) != null ? _b : null : null;
+    const selection = this.editor.getSelection();
+    const insert = this.plugin.settings.format.replaceAll(
+      "{title}",
+      this.plugin.settings.alwaysUseArticleTitle || selection === "" ? article.title : selection
+    ).replaceAll("{url}", article.url).replaceAll("{extract}", extract != null ? extract : "[Could not fetch the extract...]");
+    this.editor.replaceSelection(insert);
+    if (this.plugin.settings.placeCursorInfrontOfInsert)
+      this.editor.setCursor(cursorPosition);
   }
 };
-async function searchWikipediaArticles(query, languageCode) {
-  var _a;
-  const response = (_a = await (0, import_obsidian.requestUrl)(
-    getWikipediaBaseURL(languageCode) + `&action=opensearch&profile=fuzzy&search=${query}`
-  ).catch((e) => {
-    console.error(e);
-    return null;
-  })) == null ? void 0 : _a.json;
-  if (!response)
-    return null;
-  return response[1].map((title, index) => ({ title, url: response[3][index] }));
-}
-async function getWikipediaArticleDescription(titles, languageCode) {
-  var _a;
-  const response = (_a = await (0, import_obsidian.requestUrl)(
-    getWikipediaBaseURL(languageCode) + `&action=query&prop=description&titles=${encodeURIComponent(titles.join("|"))}`
-  ).catch((e) => {
-    console.error(e);
-    return null;
-  })) == null ? void 0 : _a.json;
-  if (!response)
-    return null;
-  if (!response.query)
-    return [];
-  return Object.values(response.query.pages).sort((a, b) => titles.indexOf(a.title) - titles.indexOf(b.title)).map((page) => {
-    var _a2;
-    return (_a2 = page.description) != null ? _a2 : null;
-  });
-}
-async function getWikipediaArticleExtracts(titles, languageCode) {
-  var _a;
-  const response = (_a = await (0, import_obsidian.requestUrl)(
-    getWikipediaBaseURL(languageCode) + `&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${encodeURIComponent(
-      titles.join("|")
-    )}`
-  ).catch((e) => {
-    console.error(e);
-    return null;
-  })) == null ? void 0 : _a.json;
-  if (!response)
-    return null;
-  if (!response.query)
-    return [];
-  return Object.values(response.query.pages).sort((a, b) => titles.indexOf(a.title) - titles.indexOf(b.title)).map((page) => {
-    var _a2;
-    return (_a2 = page.extract) != null ? _a2 : null;
-  });
-}
-function getWikipediaBaseURL(languageCode) {
-  return `https://${languageCode}.wikipedia.org/w/api.php?format=json`;
-}
 
 // src/settings.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var DEFAULT_SETTINGS = {
   language: "en",
-  format: "[{title}]({url})"
+  format: "[{title}]({url})",
+  placeCursorInfrontOfInsert: false,
+  autoInsertSingleResponseQueries: false,
+  alwaysUseArticleTitle: false
 };
-var WikipediaSearchSettingTab = class extends import_obsidian2.PluginSettingTab {
+var WikipediaSearchSettingTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
+    __publicField(this, "plugin");
     this.plugin = plugin;
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h1", { text: "Wikipedia Search Settings" });
-    new import_obsidian2.Setting(containerEl).setName("Language").setDesc("Default Wikipedia to search in. (type to search)").addDropdown(
+    containerEl.createEl("h2", { text: "General" });
+    new import_obsidian3.Setting(containerEl).setName("Language").setDesc("Default Wikipedia to search in. (type to search)").addDropdown(
       (dropdown) => dropdown.addOptions(
         Object.entries(languages).reduce(
           (pre, lang) => ({
@@ -515,14 +542,37 @@ var WikipediaSearchSettingTab = class extends import_obsidian2.PluginSettingTab 
       ).setValue(this.plugin.settings.language).onChange(async (value) => {
         this.plugin.settings.language = value;
         await this.plugin.saveSettings();
-        new import_obsidian2.Notice(`Language set to ${languages[value]} (${value})!`);
+        new import_obsidian3.Notice(`Language set to ${languages[value]} (${value})!`);
       })
     );
-    new import_obsidian2.Setting(containerEl).setName("Format").setDesc(
-      "Format of the insert. (all '{title}', '{url}' and '{extract}' will be replaced with the selection/the articles title, URL and extract respectively)"
+    new import_obsidian3.Setting(containerEl).setName("Format").setDesc(
+      "Format of the insert. (all occurrences of '{title}', '{url}' and '{extract}' will be replaced with the selection/articles title, URL and extract respectively)"
     ).addTextArea(
       (text) => text.setPlaceholder("Format").setValue(this.plugin.settings.format).onChange(async (value) => {
         this.plugin.settings.format = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    containerEl.createEl("h2", { text: "Workflow Optimizations" });
+    new import_obsidian3.Setting(containerEl).setName("Cursor Placement").setDesc("Whether or not the cursor is placed infront of the insert instead of after it.").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.placeCursorInfrontOfInsert).onChange(async (value) => {
+        this.plugin.settings.placeCursorInfrontOfInsert = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Auto-Select Single Response Queries").setDesc(
+      "When hyperlinking: Whether or not to automatically select the response to a query when there is only one article to choose from."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.autoInsertSingleResponseQueries).onChange(async (value) => {
+        this.plugin.settings.autoInsertSingleResponseQueries = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Use Article Title Instead Of Selection").setDesc(
+      "When hyperlinking: Whether or not to use the articles title instead of the selected text for '{title}' parameter."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.alwaysUseArticleTitle).onChange(async (value) => {
+        this.plugin.settings.alwaysUseArticleTitle = value;
         await this.plugin.saveSettings();
       })
     );
@@ -530,7 +580,11 @@ var WikipediaSearchSettingTab = class extends import_obsidian2.PluginSettingTab 
 };
 
 // src/main.ts
-var WikipediaSearch = class extends import_obsidian3.Plugin {
+var WikipediaSearch = class extends import_obsidian4.Plugin {
+  constructor() {
+    super(...arguments);
+    __publicField(this, "settings");
+  }
   async onload() {
     console.log("loading wikipedia-search plugin");
     await this.loadSettings();
