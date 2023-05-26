@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "概念",
+      "path": "笔记/学习方法/概念/概念.md"
+    },
+    {
+      "basename": "理解",
+      "path": "笔记/学习方法/概念/理解.md"
+    },
+    {
+      "basename": "深夜加油站遇见苏格拉底",
+      "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
+    },
+    {
+      "basename": "理性",
+      "path": "笔记/工具/通用概念/理性.md"
+    },
+    {
+      "basename": "句子",
+      "path": "笔记/工具/语法/句子.md"
+    },
+    {
+      "basename": "勇气",
+      "path": "笔记/工具/通用概念/勇气.md"
+    },
+    {
       "basename": "鹿智者的法则",
       "path": "笔记/工具/通用概念/鹿智者的法则.md"
     },
@@ -13,26 +37,6 @@
       "path": "笔记/工具/通用概念/心灵能力.md"
     },
     {
-      "basename": "理性",
-      "path": "笔记/工具/通用概念/理性.md"
-    },
-    {
-      "basename": "理解",
-      "path": "笔记/学习方法/概念/理解.md"
-    },
-    {
-      "basename": "概念",
-      "path": "笔记/学习方法/概念/概念.md"
-    },
-    {
-      "basename": "勇气",
-      "path": "笔记/工具/通用概念/勇气.md"
-    },
-    {
-      "basename": "深夜加油站遇见苏格拉底",
-      "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
-    },
-    {
       "basename": "自由",
       "path": "笔记/西方文明简史/自由.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "意识",
       "path": "笔记/工具/意识/意识.md"
-    },
-    {
-      "basename": "句子",
-      "path": "笔记/工具/语法/句子.md"
     },
     {
       "basename": "人",
@@ -201,7 +201,9 @@
       "path": "笔记/工具/语法/动词.md"
     }
   ],
-  "omittedPaths": [],
+  "omittedPaths": [
+    ""
+  ],
   "maxLength": null,
-  "openType": "tab"
+  "openType": "window"
 }
