@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md"
+                    "file": "笔记/工具/思考/判断.md"
                   }
                 }
               }
@@ -737,6 +737,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5084745762711864}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":47},\"to\":{\"line\":2,\"ch\":47}},\"scroll\":0}"
+                    },
+                    {
                       "title": "理解",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/理解.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -1077,7 +1089,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/工具/思考/判断.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1401,7 +1413,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md",
+                        "file": "笔记/工具/思考/判断.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1428,7 +1440,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/概念/概念.md",
+                        "file": "笔记/工具/思考/判断.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1763,25 +1775,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac45321a494cbeed",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0526-160859-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0526-161159-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0526-161059-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0526-160959-DESKTOP-YLL-Job1.log",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/_gsdata_/2023-0526-160859-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-160756-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-160732-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-160702-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-160659-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-160556-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0526-160502-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0526-160429-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0526-160329-DESKTOP-YLL-Job1.log",
     "笔记/工具/语法/形容词.md",
-    "笔记/学习方法/概念/概念.md",
     "笔记/学习方法/概念/理解.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/2023-05-21.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/通用概念/理性.md",
     "笔记/工具/通用概念/心灵能力.md",
     "笔记/学习方法/自己的思考.md",
