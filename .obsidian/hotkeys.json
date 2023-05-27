@@ -342,5 +342,32 @@
       ],
       "key": "F"
     }
-  ]
+  ],
+  "colored-text:add-text": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "colored-text:change-color-backwards": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "colored-text:get-color-input": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "graph:open": []
 }
