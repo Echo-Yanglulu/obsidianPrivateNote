@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "笔记/内心/欲望.md"
                   }
                 }
               }
@@ -1385,9 +1385,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "a86e2789749eb6f0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/欲望.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 9
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -1413,7 +1435,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/内心/欲望.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1440,7 +1462,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/内心/欲望.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1582,7 +1604,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -1775,8 +1797,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "989de35848378ae3",
+  "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/_gsdata_/2023-0526-223829-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0526-223729-DESKTOP-YLL-Job1.log",
@@ -1787,7 +1810,6 @@
     "笔记/_gsdata_/2023-0526-223229-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-223129-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0526-223029-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0526-222929-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/概念/概念.md",
@@ -1800,7 +1822,6 @@
     "笔记/学习方法/自己的思考.md",
     "笔记/工具/语法/句子.md",
     "笔记/工具/通用概念/勇气.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/工具/通用概念/意志.md",
     "笔记/工具/通用概念/伦理学.md",
     "笔记/工具/意识/意识.md",
