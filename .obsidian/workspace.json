@@ -1369,6 +1369,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "鹿智者的法则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "原则",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1379,7 +1385,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                    "file": "笔记/工具/思考/过程.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1797,7 +1803,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "262ed43fceb4fbe7",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
     "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/工具/思考/过程.md",
