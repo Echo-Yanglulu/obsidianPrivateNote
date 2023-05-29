@@ -57,6 +57,7 @@
 	4. isExact：当前组件是否由精确匹配展示
 ### 查询参数
 #### *路由参数*的形式
+【实际最好不用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件
 单个：![[Pasted image 20230529155559.png]] 
 多个：
 	1. 准确![[Pasted image 20230529155825.png]] 
@@ -65,7 +66,7 @@
 接收：props.match.params
 
 #### URL*查询参数*形式
-实际中更多地是使用URL，queryString获取查询参数，不用这种传递。参见[[location]]。
+实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
 ### 总结
 路由级别组件
