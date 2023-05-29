@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
+                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react-router",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":6},\"to\":{\"line\":87,\"ch\":6}},\"scroll\":76.48668981481481}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1501,7 +1507,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1537,7 +1543,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -1563,7 +1569,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1590,7 +1596,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1925,22 +1931,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "acc2ecc8a1858fb5",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0529-214917-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0529-215244-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0529-215153-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "笔记/_gsdata_/2023-0529-215135-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0529-215032-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-215023-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-215020-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-214917-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-214847-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-214744-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-214641-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-214538-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-214514-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-214417-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-214344-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/_gsdata_/2023-0529-214241-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/props.md",
     "笔记/前端/库、框架/UI库/react实战.md",
@@ -1972,7 +1979,6 @@
     "笔记/前端/库、框架/UI库/Flux.md",
     "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/内心/欲望.md",
-    "笔记/工具/思考/过程.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]

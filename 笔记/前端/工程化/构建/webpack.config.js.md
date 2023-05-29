@@ -199,7 +199,8 @@ module.exports = {
 		new htmlWebpackPlugin({
 			title: 'jiowef',
 			template: path.join(__dirname, './src/index.html'),
-			filename: 'index.'
+			filename: 'index.html',
+			publicPath: publicPath
 		})
 	]
 }
