@@ -195,9 +195,11 @@ module.exports = {
 	plugins: [
 		// 压缩js
 		new webpack.optimize.UglifyJsPlugin();
-		// 指定使用的
+		// 指定使用的模块生成html文件
 		new htmlWebpackPlugin({
-			
+			title: 'jiowef',
+			template: path.join(__dirname, './src/index.html'),
+			filename: 'index.'
 		})
 	]
 }
