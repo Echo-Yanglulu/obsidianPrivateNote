@@ -9,5 +9,8 @@
 		2. 也是因为它提供了ＤＯＭ的抽象，也可用于开发Native
 3. 过程
 	1. 在web开发中，v-dom如何渲染为html元素。
-		1. 在class组件中可看到，react通过render方法的
+		1. 在class组件中可看到，react通过render方法生成v-dom，从而绘制出真实的dom
 4. 如何进行diff
+
+## dom更新过程
+通过原生dom api修改
