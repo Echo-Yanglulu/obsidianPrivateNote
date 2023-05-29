@@ -80,6 +80,10 @@
 	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
 	2. 临时维护![[Pasted image 20230529161651.png]] 
 
+# 路由鉴权
+## 背景
+[React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
+项目中是希望*根据登录人*来看下这个人是不是有权限进入*当前页面*。虽然服务端做了进行接口的权限，但是每一个路由加载的时候都要去请求这个接口太浪费了。有时候后端是通过SESSIONID来校验登陆权限的。
 
 # 总结
 基本的路由
@@ -90,4 +94,3 @@
 # 相关链接
 [Site Unreachable](https://react-router.docschina.org/web/example/basic) 
 [Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
-[React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
