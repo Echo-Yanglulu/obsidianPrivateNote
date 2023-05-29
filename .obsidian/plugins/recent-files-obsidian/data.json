@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
       "basename": "react-router",
       "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "react实战",
       "path": "笔记/前端/库、框架/UI库/react实战.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "库、框架",
@@ -195,10 +199,6 @@
     {
       "basename": "词",
       "path": "笔记/工具/语法/词.md"
-    },
-    {
-      "basename": "语法",
-      "path": "笔记/工具/语法/语法.md"
     }
   ],
   "omittedPaths": [
