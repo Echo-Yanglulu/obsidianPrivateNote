@@ -13,4 +13,12 @@
 4. 如何进行diff
 
 ## dom更新过程
-通过原生dom api修改
+1. 调用dom api更新
+	1. 
+2. 通过v-dom更新
+	1. 每次render生成一个新的v-dom
+	2. diff新旧v-dom，确定变更
+	3. 调用dom api更新
+
+表面上看起来好像v-dom更新dom的过程多了几步。
+频繁操作dom会引起页面重绘
