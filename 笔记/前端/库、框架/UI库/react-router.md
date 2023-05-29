@@ -34,7 +34,7 @@ Route组件
 		1. 不会重新发送请求
 		2. 完成了一个由前端控制路由的SPA
 ## Route
-使用时react会自动为绑定组件注入三个属性
+使用时react会自动为绑定的*路由级别*组件注入三个属性
 ### history
 会自动使用浏览器的history对象，实现在历史记录中导航。
 go
@@ -45,8 +45,17 @@ length：历史记录的长度
 当前应用的地址
 pathname
 ### match
+如何匹配URL
+path
+URL
+params
+isExact
 # 总结
 基本的路由
 	1. 组成
 		1. 映射关系【静态】
 		2. 导航工具【动态】
+
+# 相关链接
+[Site Unreachable](https://react-router.docschina.org/web/example/basic) 
+[Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
