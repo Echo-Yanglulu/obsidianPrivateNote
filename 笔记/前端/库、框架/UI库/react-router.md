@@ -33,7 +33,18 @@ Route组件
 	2. 使用Link组件。以局部更新的方式渲染所需组件
 		1. 不会重新发送请求
 		2. 完成了一个由前端控制路由的SPA
-
+## Route
+使用时react会自动为绑定组件注入三个属性
+### history
+会自动使用浏览器的history对象，实现在历史记录中导航。
+go
+goBack
+goForward
+length：历史记录的长度
+### location
+当前应用的地址
+pathname
+### match
 # 总结
 基本的路由
 	1. 组成
