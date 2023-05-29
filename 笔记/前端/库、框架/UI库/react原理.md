@@ -11,6 +11,8 @@
 	1. 在web开发中，v-dom如何渲染为html元素。
 		1. 在class组件中可看到，react通过render方法生成v-dom，从而绘制出真实的dom
 4. 如何进行diff
+	1. 修改state，调用render方法调用产生一个v-dom
+	2. 通过对比新旧v-dom确定需要更新的内容
 
 ## dom更新过程
 1. 调用dom api更新
