@@ -50,6 +50,10 @@ path
 URL
 params
 isExact
+### 总结
+路由级别组件
+	1. 类似于条件渲染，只是条件是路由参数
+	2. 传递属性：
 # 总结
 基本的路由
 	1. 组成
@@ -59,3 +63,4 @@ isExact
 # 相关链接
 [Site Unreachable](https://react-router.docschina.org/web/example/basic) 
 [Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
+[React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
