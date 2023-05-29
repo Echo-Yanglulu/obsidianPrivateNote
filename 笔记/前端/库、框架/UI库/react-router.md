@@ -51,7 +51,10 @@ URL
 params
 isExact
 ### 查询参数
-:id
+单个：![[Pasted image 20230529155559.png]] 
+多个：![[Pasted image 20230529155825.png]] 
+顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
+接收：props.match.params
 ### 总结
 路由级别组件
 	1. 类似于条件渲染，只是条件是路由参数
