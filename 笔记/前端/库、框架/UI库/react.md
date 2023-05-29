@@ -6,7 +6,7 @@ UI框架：搭建数据驱动的web和移动端UI
 	3. 提供了在JS中书写HTML标记的JSX语法，
 # 基础
 [[组件]] 
-[[JSX]] 
+[[JSX]]：创建react组件的方式之一。
 [[props]] 
 [[state]] 
 effect
