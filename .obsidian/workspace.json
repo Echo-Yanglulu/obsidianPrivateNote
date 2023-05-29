@@ -1424,17 +1424,17 @@
                 "id": "f3c650ca3ef69b7a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Flux",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/Flux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":28},\"to\":{\"line\":18,\"ch\":28}},\"scroll\":0}"
                     },
                     {
                       "title": "库、框架",
@@ -1453,7 +1453,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1849,24 +1849,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c194a7a68a9082e4",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0529-150357-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/History.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/_gsdata_/2023-0529-150700-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0529-150657-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-150554-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/assets/Pasted image 20230529150508.png",
+    "笔记/_gsdata_/2023-0529-150506-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-150500-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-150357-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-150333-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-150233-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-150218-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0529-150215-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-150112-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-150045-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-145945-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-145845-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/思考/记忆/路由.md",
     "笔记/前端/库、框架/UI库/state.md",
     "笔记/前端/库、框架/UI库/props.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/Flux.md",
     "笔记/前端/库、框架/库、框架.md",
@@ -1896,7 +1897,6 @@
     "笔记/前端/assets/Pasted image 20230512122533.png",
     "笔记/前端/assets/Pasted image 20230512104708.png",
     "笔记/前端/assets/Pasted image 20230512102437.png",
-    "笔记/前端/assets/Pasted image 20230511184307.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]

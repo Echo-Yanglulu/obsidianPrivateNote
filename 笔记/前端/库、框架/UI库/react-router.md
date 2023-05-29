@@ -2,8 +2,14 @@
 
 [[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
 
-react-router库与react-router-dom的区别是什么？
+## react-router库与react-router-dom的区别是什么？
 前者只提供了路由的核心功能，后者基于前者（不含？）提供了在浏览器环境下运行所需的一些功能。
 后者依赖于前者，所以只需安装后者即可。
 
 基于浏览器做路由管理的话，也只需要安装一个后者即可。
+前者提供的组件：
+Route组件
+后者提供的组件：![[Pasted image 20230529150508.png]] 
+1. 后者提供的两个Router组件有什么区别？
+	1. BrowserRouter是基于[[History]] API，格式与通常使用的URL保持一致
+	2. HashRouter使用的是锚点技术。在URL中
