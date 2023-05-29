@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/JSX.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":31},\"to\":{\"line\":28,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
                       "title": "react-router",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1495,7 +1501,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1551,7 +1557,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/JSX.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1578,7 +1584,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/JSX.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1913,22 +1919,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d965d9f89ce8951d",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0529-213720-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-214035-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0529-214011-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-213911-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-213844-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/_gsdata_/2023-0529-213823-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/JSX.md",
+    "笔记/_gsdata_/2023-0529-213720-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-213617-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-213514-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-213450-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-213359-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/props.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/_gsdata_/2023-0529-213308-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-213205-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-213102-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-212959-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/前端.md",
@@ -1960,7 +1967,6 @@
     "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/内心/欲望.md",
     "笔记/工具/思考/过程.md",
-    "笔记/工具/思考/关系判断.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
