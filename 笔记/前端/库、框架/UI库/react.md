@@ -14,6 +14,9 @@ ref
 # 策略
 组合而非继承
 # 相关
+react应用[^1]的创建
 React的补充框架：[[Flux]] 
 状态管理工具：[[mobx]] 
 [[路由]]管理工具：[[react-router]] 
+
+[^1]: 使用react这个UI框架作为项目UI的。
