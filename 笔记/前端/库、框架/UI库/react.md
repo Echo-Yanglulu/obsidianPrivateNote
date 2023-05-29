@@ -11,6 +11,8 @@ UI框架：搭建数据驱动的web和移动端UI
 [[state]] 
 effect
 ref
+# 原理
+[[react原理]] 
 # 策略
 组合而非继承
 # 相关
