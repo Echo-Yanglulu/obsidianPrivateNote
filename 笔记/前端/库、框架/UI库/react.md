@@ -15,3 +15,5 @@ ref
 组合而非继承
 # 相关
 React的补充框架：[[Flux]] 
+状态管理工具：[[mobx]] 
+路由管理工具：[[react-router]] 
