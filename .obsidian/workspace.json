@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":31},\"to\":{\"line\":28,\"ch\":31}},\"scroll\":5.333333333333333}"
+                    },
+                    {
                       "title": "库、框架",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1483,7 +1489,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1901,22 +1907,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "95272bb202aae03a",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0529-210035-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0529-210011-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-205935-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0529-205847-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/_gsdata_/2023-0529-205759-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/_gsdata_/2023-0529-205735-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/前端.md",
     "笔记/_gsdata_/2023-0529-205641-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-205538-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-205435-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-205332-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-205229-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-205126-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-205023-DESKTOP-YLL-Job1.log",
     "笔记/前端/assets/Pasted image 20230529175821.png",
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/库、框架/库、框架.md",
@@ -1927,7 +1935,6 @@
     "笔记/前端/库、框架/UI库/antd.md",
     "笔记/前端/assets/Pasted image 20230529164915.png",
     "笔记/前端/库、框架/UI库/create-react-app.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/工程化/SPA.md",
     "笔记/前端/assets/Pasted image 20230529161651.png",
     "笔记/前端/assets/Pasted image 20230529161450.png",
