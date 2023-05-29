@@ -2,7 +2,6 @@
 *!  Obsidian Everforest
 *?
 *? 1. Variables
-*?   - Fonts
 *?   - Implementation
 *? 2. Themes
 *?   - Dark
@@ -23,9 +22,13 @@
 *?   - Graph
 *? 5. Mobile
 *? 6. Cursor
-*? 7. Extra Fixes
+*? 7. Style Settings
+*?   - Custom Stacked Panes
+*?   - Custom Background Image
+*? 8. Extra Fixes
 *?   - Callouts
 *?   - Image Formatting
+*?   - CSS Classes
 *?   - Misc.
 *?
  **---------------------**/
@@ -43,9 +46,11 @@
 
   --list-indent: 24px;
 
-  --file-folding-offset: 12px;
+  --file-folding-offset: 22px;
 
   --shadow-l: 0 4px 14px -2px hsla(0,0%,0%,40%);
+
+  --file-line-width: var(--readable-line-length-custom, 700px); /* Adjusted in Style Settings */
 
   /** Backgrounds **/
 
@@ -56,6 +61,7 @@
   --blockquote-background-color: var(--background-embed);
 
   --background-primary:       var(--bg0);
+  --background-primary-rgb:   var(--bg0-rgb);
   --background-primary-alt:   var(--bg0);
   --background-secondary:     var(--bg0);
   --background-secondary-alt: var(--bg0);
@@ -103,12 +109,12 @@
   --h5-color: var(--header-blue);
   --h6-color: var(--header-purple);
 
-  --h1-size: 2.125rem;
-  --h2-size: 1.625rem;
-  --h3-size: 1.375rem;
-  --h4-size: 1.250rem;
-  --h5-size: 1.125rem;
-  --h6-size: 1.000rem;
+  --h1-size: 2.125em;
+  --h2-size: 1.625em;
+  --h3-size: 1.375em;
+  --h4-size: 1.250em;
+  --h5-size: 1.125em;
+  --h6-size: 1.000em;
 
   --h1-line-height: 1.5;
   --h2-line-height: 1.5;
@@ -196,7 +202,8 @@
   --statusline1: #D3C6AA;
   --statusline2: #E67E80;
 
-  --background-embed-transparent: rgb(73 93 96 / 30%);
+  --bg0-rgb: 51, 60, 67;
+  --background-embed-transparent: rgba(62, 75, 80, 0.7);
   --tag-color-hsl: 254, 80%, 68%;
 }
 
@@ -245,7 +252,8 @@
   --statusline1: #708089;
   --statusline2: #E66868;
 
-  --background-embed-transparent: rgb(232 229 203 / 30%);
+  --bg0-rgb: 255, 251, 239;
+  --background-embed-transparent: rgb(238 236 213 / 70%); /* Using bg2 */
   --tag-color-hsl: 254, 80%, 68%;
 }
 
@@ -268,7 +276,6 @@
 
 /* Gutters */
 .markdown-source-view.mod-cm6 .cm-gutters {
-  z-index: -1 !important;
   pointer-events: none;
 }
 .cm-gutter .cm-active {
@@ -313,6 +320,14 @@ div ul.has-list-bullet ul.has-list-bullet .collapse-indicator {
 /* Hide extra tab dividers */
 .workspace-tab-header:has(+.is-active) > .workspace-tab-header-inner::after {
   visibility: hidden;
+}
+
+/* Change outliner navigation highlight */
+.is-flashing {
+  background-color: transparent !important;
+  color: inherit;
+  border-radius: 0;
+  box-shadow: 0 4px 0 var(--text-highlight-bg);
 }
 
 
@@ -383,13 +398,12 @@ del {
 /* Inline code */
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-formatting + .cm-inline-code),
 .markdown-rendered code {
-  font-size: 0.9em;
   background-color: var(--code-background);
   padding: 0.1em 0.25em;
   border-radius: var(--radius-s)
 }
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting),
-.markdown-rendered :is(table, p) code {
+.markdown-rendered :is(table, p, li) code {
   color: var(--code-inline);
 }
 
@@ -445,18 +459,19 @@ pre[class^="language-"]::after {
   top: 0;
   right: 6px;
   padding: 0 4px;
-  height: calc(0.875rem * var(--line-height-normal));
+  height: calc(1em * var(--line-height-normal));
   display: flex;
   place-items: center;
-  font-size: var(--font-ui-smaller);
+  font-size: 0.875em;
 }
 .markdown-source-view.mod-cm6 .code-block-flair:not(:has(>svg)) {
   top: 0;
   padding: 0 4px;
-  height: calc(0.875rem * var(--line-height-normal));
+  height: calc(1em * var(--line-height-normal));
   display: flex;
   place-items: center;
   font-family: var(--font-monospace);
+  font-size: 1em;
 }
 .markdown-rendered pre[class^="language-"] button.copy-code-button {
   top: calc(6px + var(--code-size) * var(--line-height-normal));
@@ -593,6 +608,7 @@ input.task-list-item-checkbox:checked
 
 .markdown-preview-view blockquote {
   padding-block: 0.25em;
+  padding-left: 17px;
 }
 
 /* Make blockquotes work in source view */
@@ -623,9 +639,7 @@ input.task-list-item-checkbox:checked
 
 /** Tables **/
 
-.markdown-rendered table {
-  background-color: var(--bg1);
-}
+.markdown-rendered table {}
 
 /* Fix margins in source mode */
 .markdown-source-view table {
@@ -723,6 +737,7 @@ div:has(h1)+div p:has(.tag) {
 
 /**** Graph ****/
 
+
 .graph-view.color-circle,
 .graph-view.color-fill-highlight {
   color: var(--text-muted);
@@ -747,6 +762,7 @@ div:has(h1)+div p:has(.tag) {
 
 /**** Mobile ****/
 
+
 /* Add shadow to mobile navbar */
 .mobile-navbar {
   box-shadow: 0 0 8px -4px var(--divider-color);
@@ -759,6 +775,7 @@ div:has(h1)+div p:has(.tag) {
 
 
 /**** Cursor ****/
+
 
 .cm-cursorLayer .cm-cursor {}
 
@@ -774,6 +791,249 @@ div:has(h1)+div p:has(.tag) {
   animation-duration: 1200ms;
   animation-timing-function: steps(1);
   animation-name: cm-blink;
+}
+
+
+
+/**** Style Settings ****/
+
+
+/* @settings
+
+name: Everforest Enchanted
+id: everforest-enchanted-theme
+settings:
+-
+  id: test-main-description
+  title: Welcome!
+  description: |
+    Use these settings to adjust basic extra settings or various extra elements of the theme. Visit the [GitHub Repo](https://github.com/FireIsGood/obsidian-everforest-enchanted) for more information.
+  type: info-text
+  markdown: true
+-
+  id: readable-line-length-custom
+  title: Readable line length value
+  description: Set the text size in px!
+  type: variable-number
+  default: 700
+  format: px
+-
+  id: custom-stacked-panes
+  title: Custom Stacked Panes
+  type: heading
+  level: 1
+  collapsed: true
+-
+  id: custom-stacked-panes-description
+  title: Info
+  description: |
+    Custom stacked panes. These will convert the sizes of stacked panes from pixels to a percentage of the screen based on the cound. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more infomation.
+  type: info-text
+  markdown: true
+-
+  id: custom-stacked-panes-enabled
+  title: Enable Custom Stacked Panes
+  description: Changes stacked panes to fit a certian number on screen instead of using pixel values
+  type: class-toggle
+-
+  id: custom-stacked-panes-count
+  title: Pane Count
+  description: The number of panes to show up at once
+  type: variable-number-slider
+  default: 2
+  min: 1
+  max: 5
+  step: 1
+-
+  id: background-image
+  title: Custom Background Image
+  type: heading
+  level: 1
+  collapsed: true
+-
+  id: background-image-description
+  title: Info
+  description: |
+    Background images are easiest with an external URL. If you want to use local images for offline access, you'll have to use a snippet. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_background_image.md) for more infomation.
+  type: info-text
+  markdown: true
+-
+  id: background-image-enabled
+  title: Background Image
+  description: Enables the background image
+  type: class-toggle
+-
+  id: background-image-dark-url
+  title: Dark Mode Background URL
+  description: Set an online background image.
+  type: variable-text
+  default: url("http://")
+-
+  id: background-image-light-url
+  title: Light Mode Background URL
+  description: Set an online background image.
+  type: variable-text
+  default: url("http://")
+-
+  id: background-image-position
+  title: Backgorund Position
+  description: Change where the image is centered
+  type: variable-select
+  default: center
+  options:
+    -
+      label: Center
+      value: center
+    -
+      label: Top
+      value: top
+    -
+      label: Bottom
+      value: bottom
+    -
+      label: Left
+      value: left
+    -
+      label: Right
+      value: right
+    -
+      label: Top Left
+      value: top left
+    -
+      label: Top Right
+      value: top right
+    -
+      label: Bottom Left
+      value: bottom left
+    -
+      label: Bottom Right
+      value: bottom right
+-
+  id: pane-opacity
+  title: Pane Opacity
+  description: How opaque page backgrounds are
+  type: variable-number-slider
+  default: 0.85
+  min: 0
+  max: 1
+  step: 0.05
+-
+  id: ui-opacity
+  title: UI Opacity
+  description: How opaque UI backgrounds are
+  type: variable-number-slider
+  default: 0.85
+  min: 0
+  max: 1
+  step: 0.05
+-
+  id: tab-opacity
+  title: Tab Opacity
+  description: How opaque STACKED TAB backgrounds are
+  type: variable-number-slider
+  default: 0.85
+  min: 0
+  max: 1
+  step: 0.05
+-
+  id: background-image-fun
+  title: Fun Settings
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: background-image-pane-view
+  title: Pane view
+  description: Changes pages to be panes on a transparent background. BEST USED WITH UI OPACITY 0!
+  type: class-toggle
+
+*/
+
+/** Custom Stacked Panes **/
+
+.custom-stacked-panes-enabled .mod-vertical .mod-stacked .workspace-leaf {
+  max-width: calc((100% / var(--custom-stacked-panes-count, 2)) - 2.5rem) !important;
+  width: 100% !important;
+}
+
+/** Custom Background Image **/
+
+.theme-dark {--background-image-url: var(--background-image-dark-url)}
+.theme-light {--background-image-url: var(--background-image-light-url)}
+
+body.background-image-enabled {
+  --background-transparent: rgba(var(--background-primary-rgb), var(--pane-opacity, 0.85));
+  --background-partially-transparent: rgba(var(--background-primary-rgb), var(--ui-opacity, 0.85));
+  --background-tabs-transparent: rgba(var(--background-primary-rgb), var(--tab-opacity, 0.85));
+}
+
+/* Apply the background image */
+.background-image-enabled .horizontal-main-container {
+  background-color: var(--background-primary);
+  background-image: var(--background-image-url);
+  background-position: var(--background-image-position);
+  background-size: cover;
+}
+
+/* Make panes transparent */
+.workspace-tab-container::-webkit-scrollbar-track,
+.background-image-enabled :is(.mod-root .view-content, .view-header) {
+  background-color: var(--background-transparent) !important;
+}
+
+/* Make workspace UI elements transparent */
+.background-image-enabled :is(
+  .mod-root .workspace-tab-header-container,
+  .workspace-ribbon,
+  .workspace-split,
+  .graph-controls,
+  .popover),
+.workspace-ribbon::before {
+  background-color: var(--background-partially-transparent) !important;
+}
+
+/* Make stacked tab headers transparent */
+.background-image-enabled .workspace-tab-container .workspace-tab-header:not(.mod-active),
+.background-image-enabled .workspace-tab-container .workspace-tab-header.mod-active {
+  background-color: var(--background-tabs-transparent) !important;
+}
+
+/* Remove other backgrounds */
+.background-image-enabled :is(
+  .titlebar-button-container,
+  .mod-vertical .workspace-tab-header,
+  .document-search-container,
+  .workspace-leaf,
+  .horizontal-main-container > .workspace,
+  .pdf-sidebar-container,
+  .pdf-container,
+  .pdf-toolbar),
+.background-image-enabled .workspace-split:not(.mod-root) .workspace-tab-header-container,
+.background-image-enabled .workspace-split:not(.mod-left-split, .mod-right-split) {
+  background-color: transparent !important;
+}
+
+/* Remove tabs weird gradients and exterior curves */
+.background-image-enabled .workspace-tab-header.is-active::before,
+.background-image-enabled .workspace-tab-header.is-active::after,
+.background-image-enabled .view-header-title-container:not(.mod-at-end):after {
+  display: none;
+}
+
+/* Pane view */
+.background-image-pane-view .view-content:has(.markdown-reading-view) {
+  background-color: transparent !important;
+}
+.background-image-pane-view .view-content .cm-sizer,
+.background-image-pane-view .view-content > .markdown-reading-view > .markdown-rendered > .markdown-preview-sizer {
+  box-sizing: content-box;
+  padding-inline: 2rem;
+  padding-top: 2rem;
+  border-radius: 1rem;
+  background-color: var(--background-transparent) !important;
+}
+:root .background-image-pane-view .view-header  {
+  background-color: var(--background-partially-transparent) !important;
 }
 
 
