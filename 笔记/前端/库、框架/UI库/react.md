@@ -14,9 +14,13 @@ ref
 # 策略
 组合而非继承
 # 相关
-react应用[^1]的创建
-React的补充框架：[[Flux]] 
-状态管理工具：[[mobx]] 
-[[路由]]管理工具：[[react-router]] 
+1. react应用[^1]的创建【脚手架】
+	1. umi
+	2. [[create-react-app]] 
+2. UI框架
+	1. [[antd]] 
+3. 状态管理工具：[[mobx]] 
+4. [[路由]]管理工具：[[react-router]] 
+5. React的补充框架：[[Flux]] 
 
-[^1]: 使用react这个UI框架作为项目UI的。
+[^1]: 使用react这个UI框架作为项目UI的生成工具的应用。
