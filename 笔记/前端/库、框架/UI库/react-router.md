@@ -51,13 +51,16 @@ URL
 params
 isExact
 ### 查询参数
-是*路由参数*的形式，不是URL中*查询参数*的形式【实际中更多地是使用URL，queryString获取查询参数，不用这种传递。参见[[location】
+#### *路由参数*的形式
 单个：![[Pasted image 20230529155559.png]] 
 多个：
 	1. 准确![[Pasted image 20230529155825.png]] 
 	2. 模糊。接收时未传递的是undefined![[Pasted image 20230529160359.png]] 
 顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
 接收：props.match.params
+
+#### URL*查询参数*形式
+实际中更多地是使用URL，queryString获取查询参数，不用这种传递。参见[[location]]。
 ### 总结
 路由级别组件
 	1. 类似于条件渲染，只是条件是路由参数
