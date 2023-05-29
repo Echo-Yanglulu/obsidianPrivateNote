@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -1489,9 +1489,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "8e3bccf50c0e3aed",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/前端.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1517,7 +1539,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1544,7 +1566,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1879,22 +1901,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0529-175921-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-180239-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0529-175857-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-180136-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-180112-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-180018-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/_gsdata_/2023-0529-175921-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-175857-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/assets/Pasted image 20230529175821.png",
     "笔记/_gsdata_/2023-0529-175815-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-175736-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-175715-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-175615-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-175515-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-175415-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-175312-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/CSS预处理器.md",
