@@ -195,9 +195,14 @@ module.exports = {
 	plugins: [
 		// 压缩js
 		new webpack.optimize.UglifyJsPlugin();
+		// 指定使用的
+		new htmlWebpackPlugin({
+			
+		})
 	]
 }
 ```
+
 #### 三方插件
 需引入
 ```javascript
