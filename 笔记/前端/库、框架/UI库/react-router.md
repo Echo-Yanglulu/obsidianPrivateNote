@@ -11,5 +11,7 @@
 Route组件
 后者提供的组件：![[Pasted image 20230529150508.png]] 
 1. 后者提供的两个Router组件有什么区别？
-	1. BrowserRouter是基于[[History]] API，格式与通常使用的URL保持一致
-	2. HashRouter使用的是锚点技术。在URL中
+	1. BrowserRouter是基于[[History]] API，格式与通常使用的URL保持一致。![[Pasted image 20230529150852.png]] 
+	2. HashRouter使用的是锚点技术。在URL中加#锚点作为路由。![[Pasted image 20230529150904.png]] 
+	3. 如何选择路由模式？
+		1. hash是最简单的。不需要服务器作额外的判断。如果使用的是静态路径服务，可用该模式，因为#后面的内容不会被服务器端所解析。
