@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/CSS预处理器.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -1434,7 +1434,7 @@
                       "title": "库、框架",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":8},\"to\":{\"line\":11,\"ch\":8}},\"scroll\":0}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":8},\"to\":{\"line\":11,\"ch\":8}},\"scroll\":5.333333333333333}"
                     },
                     {
                       "title": "react",
@@ -1483,7 +1483,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/CSS预处理器.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1517,7 +1517,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/CSS预处理器.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1544,7 +1544,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/CSS预处理器.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1881,23 +1881,24 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0529-173803-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0529-173700-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0529-173636-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/redux.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/工程化/CSS预处理器.md",
     "笔记/_gsdata_/2023-0529-173539-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0529-173515-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-173415-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-173312-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-173254-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/_gsdata_/2023-0529-173251-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/CSS预处理器.md",
-    "笔记/_gsdata_/2023-0529-173148-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/LESS.md",
     "笔记/前端/库、框架/CSS样式/样式库.md",
-    "笔记/_gsdata_/2023-0529-173121-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/_gsdata_/2023-0529-173057-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/antd.md",
     "笔记/前端/assets/Pasted image 20230529164915.png",
@@ -1926,7 +1927,6 @@
     "笔记/工具/思考/过程.md",
     "笔记/工具/思考/关系判断.md",
     "笔记/工具/思考/判断.md",
-    "笔记/工具/通用概念/目标.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]

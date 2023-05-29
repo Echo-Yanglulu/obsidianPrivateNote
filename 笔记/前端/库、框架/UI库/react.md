@@ -21,7 +21,9 @@ ref
 	2. [[create-react-app]] 
 2. UI框架[^2]
 	1. [[antd]] 
-3. 状态管理工具：[[mobx]] 
+3. 状态管理工具
+	1. [[mobx]] 
+	2. [[redux]] 
 4. [[路由]]管理工具：[[react-router]] 
 5. React的补充框架：[[Flux]] 
 
