@@ -18,9 +18,14 @@
 1. 在store文件中定义
 	1. @observable装饰器：添加可观察状态
 	2. @action：直接修改状态的[[Function]]。
-2. 将全局的store注入当前组件/关联当前组件与store：在组件上方添加`@observer`
-3. 注入全局变量：`@indect(homeInfo)`
-4. 从
+2. 组件文件
+	1. 将全局的store注入当前组件/关联当前组件与store：在组件上方添加`@observer`
+	2. 注入全局变量：`@indect(homeInfo)`
+	3. 从props中解构出所需全局状态
+3. 项目入口文件
+	1. `import { Provider } from 'mobx-react'`
+	2. 
+	3. 使用该组件包裹App组件 `<Provider {...store} > <App /> </Provider`
 ## 构建复杂应用
 1. store单例：有一个全局的状态集合。
 2. 状态跨组件：通过Provider
