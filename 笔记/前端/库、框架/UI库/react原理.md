@@ -5,7 +5,6 @@
 2. 嵌套循环。react-dom在渲染html节点时采用这种方式。
 	1. 为何使用这种方式？因为html的dom结构本身就是一种嵌套。
 
-## 具体源码
 看vscode
 # virtual dom
 1. v-dom是什么
@@ -45,14 +44,13 @@
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
-# React Fiber
 # 协调
 将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程叫做**协调**。是react中最重要、最核心的部分。
 有两种协调方式
 ## Stack协调
 v15使用的协调方式
 ## Fiber协调
-v16使用的协调方式
+v16的[[react]]使用的协调方式
 	1. 是一次重大的创新，解决了Stack协调中遇到的一些问题。
 		1. 渲染过程不可阻断
 		2. 更新过程如果耗时较长，会难以响应用户行为【造成卡顿】
@@ -61,5 +59,8 @@ v16使用的协调方式
 		4. 更清晰的错误处理
 		5. 适时重启渲染
 		6. 父子组件间切换时布局更新
+
+### Fiber的数据结构
+![[Pasted image 20230530115739.png]] 
 
 [^1]: 如setState
