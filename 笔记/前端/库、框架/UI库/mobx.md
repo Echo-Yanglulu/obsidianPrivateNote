@@ -23,9 +23,9 @@
 	2. 注入全局变量：`@indect(homeInfo)`
 	3. 从props中解构出所需全局状态
 3. 项目入口文件
-	1. `import { Provider } from 'mobx-react'`
-	2. 
-	3. 使用该组件包裹App组件 `<Provider {...store} > <App /> </Provider`
+	1. `import { Provider } from 'mobx-react'` 
+	2. `import store form './modules'` 
+	3. 使用该组件包裹App组件 `<Provider {...store} > <App /> </Provider` 
 ## 构建复杂应用
 1. store单例：有一个全局的状态集合。
 2. 状态跨组件：通过Provider
