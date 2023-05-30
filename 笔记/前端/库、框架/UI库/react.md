@@ -76,7 +76,7 @@ class ErrorBoundary extends React.Component {
 4. 状态管理工具
 	1. [[mobx]]：响应式状态管理工具
 	2. [[redux]]：
-	3. 比较
+	3. [[状态管理工具比较|比较]] 
 		1. 如何知道状态改变
 			1. redux通过对比。mobx可观察
 		2. 流程
