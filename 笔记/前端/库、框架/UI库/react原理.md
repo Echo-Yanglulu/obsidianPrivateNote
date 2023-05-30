@@ -45,7 +45,7 @@
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
 # 协调
-将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程叫做**协调**。是react中最重要、最核心的部分。
+定义：将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程。是react中最重要、最核心的部分。
 有两种协调方式
 ## Stack协调
 v15使用的协调方式
@@ -62,8 +62,7 @@ v16的[[react]]使用的协调方式
 
 ### Fiber的数据结构
 ![[Pasted image 20230530115739.png]] 
-15的版本是对象，16中是使用**Fiber节点**对html的dom结构进行映射。
-	1. 该节点就是一个链表
+15的版本中v-dom是*对象*，16中是使用**Fiber节点**对html的dom结构进行映射【v-dom是Fiber节点，本质是*链表*】
 
 
 [^1]: 如setState
