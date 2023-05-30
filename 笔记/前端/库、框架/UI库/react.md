@@ -12,7 +12,7 @@ UI框架：搭建数据驱动的web和移动端UI
 effect
 ref
 # 特性
-1. fragments
+1. fragments：减少嵌套
 2. portals
 3. StrictMode
 # 策略
