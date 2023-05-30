@@ -14,7 +14,13 @@ ref
 # 特性
 1. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
 2. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
-3. StrictMode
+3. StrictMode：提示有潜在问题的组件【建议在老项目中使用，有助于形成规范】
+	1. 功能
+		1. 检测是否存在即将废弃的生命周期函数
+		2. 检测是否使用string ref和findDOMNode、老版context api
+		3. 检测是否多次调用不可预测的副作用
+	2. 特点
+		1. 会让render多运行一次
 # 策略
 组合而非继承
 # 原理
