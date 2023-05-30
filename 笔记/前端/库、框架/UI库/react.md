@@ -20,7 +20,8 @@ ref
 		2. 检测是否使用string ref和findDOMNode、老版context api
 		3. 检测是否多次调用不可预测的副作用
 	2. 特点
-		1. 会让render多运行一次
+		1. 会让render多运行一次。【实际开发中不用奇怪】
+4. concurrent mode【同时，并行】
 # 策略
 组合而非继承
 # 原理
