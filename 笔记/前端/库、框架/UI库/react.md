@@ -11,6 +11,10 @@ UI框架：搭建数据驱动的web和移动端UI
 [[state]] 
 effect
 ref
+# 特性
+1. fragments
+2. portals
+3. StrictMode
 # 策略
 组合而非继承
 # 原理
