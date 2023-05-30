@@ -41,4 +41,7 @@
 表面上看起来好像v-dom更新dom的过程多了几步。
 频繁操作dom会引起页面重绘
 
+# Shadow DOM
+定义：是一种浏览器技术，可在web components中用于限制变量和CSS。
+
 [^1]: 如setState
