@@ -59,10 +59,14 @@ v16的[[react]]使用的协调方式
 		4. 更清晰的错误处理
 		5. 适时重启渲染
 		6. 父子组件间切换时布局更新
-
+### 协调的过程
+1. render阶段
+	1. 执行组件的返回UI[^2]，确定需要更新的内容。
+2. commit阶段
 ### Fiber的数据结构
 ![[Pasted image 20230530115739.png]] 
 15的版本中v-dom是*对象*，16中是使用**Fiber节点**对html的dom结构进行映射【v-dom是Fiber节点，本质是*链表*】
 
 
 [^1]: 如setState
+[^2]: class组件是render，函数组件是return
