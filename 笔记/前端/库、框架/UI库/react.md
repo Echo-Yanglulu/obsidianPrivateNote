@@ -13,7 +13,6 @@ effect
 ref
 # 特性
 1. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
-2. portals：改变一个组件的位置
 3. StrictMode
 # 策略
 组合而非继承
@@ -56,13 +55,15 @@ class ErrorBoundary extends React.Component {
 1. react应用[^1]的创建【脚手架】[^3]
 	1. umi
 	2. [[create-react-app]] 
-2. UI框架[^2]
+2. DOM管理
+	1. [[ReactDOM]] 
+3. UI框架[^2]
 	1. [[antd]] 
-3. 状态管理工具
+4. 状态管理工具
 	1. [[mobx]] 
 	2. [[redux]] 
-4. [[路由]]管理工具：[[react-router]] 
-5. React的补充框架：[[Flux]] 
+5. [[路由]]管理工具：[[react-router]] 
+6. React的补充框架：[[Flux]] 
 
 [^1]: 使用react这个UI框架作为项目UI的生成工具的应用。
 [^2]: 快速生成项目所需UI。一般不会让用JSX一点一点地创建组件。
