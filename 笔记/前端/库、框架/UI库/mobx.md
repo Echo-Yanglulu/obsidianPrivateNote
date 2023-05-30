@@ -15,8 +15,11 @@
 核心是Object.defineProperty
 可观察数组不是JS数组，而是继承自对象，所以与普通的[[Array]]的某些行为不同
 # 应用
-1. @observable装饰品：添加可观察状态
-
+1. 在store文件中定义
+	1. @observable装饰器：添加可观察状态
+	2. @action：直接修改状态的[[Function]]。
+2. 将全局的store注入当前组件
+	1. 
 ## 构建复杂应用
 1. store单例：有一个全局的状态集合。
 2. 状态跨组件：通过Provider
