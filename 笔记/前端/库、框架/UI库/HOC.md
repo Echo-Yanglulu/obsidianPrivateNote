@@ -14,3 +14,4 @@ function HocAvatar(Component) {
 export default HocAvatar(Avatar);
 ```
 
+接收组件，增加属性后返回？
