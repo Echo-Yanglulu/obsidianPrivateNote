@@ -69,11 +69,10 @@
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
 ### 总结
-路由级别组件
-	1. 类似于条件渲染，只是条件是路由参数
-	2. 传递属性 ![[Pasted image 20230529155319.png]] 
-		1. render属性。为避免三个路由属性被覆盖，需传入参数
-	3. 传递查询参数【因为是路由级别】。
+路由级别组件[^1]
+	1. 传递属性 ![[Pasted image 20230529155319.png]] 
+		2. render属性。为避免三个路由属性被覆盖，需传入参数
+	2. 传递查询参数【因为是路由级别】。
 
 ## 路由匹配调整：Redirect
 场景
@@ -97,8 +96,12 @@ react-router-config：避免了原有的“平铺式”写法，有利于后期�
 基本的路由
 	1. 组成
 		1. 映射关系【静态】
+			2. Route, Redirect
 		2. 导航工具【动态】
+			1. Link, NavLink
 
 # 相关链接
 [Site Unreachable](https://react-router.docschina.org/web/example/basic) 
 [Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
+
+[^1]: 类似于条件渲染，只是条件是路由参数

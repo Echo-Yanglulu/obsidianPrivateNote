@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":31},\"to\":{\"line\":28,\"ch\":31}}}"
+                    },
+                    {
                       "title": "react-router",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1507,7 +1513,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1569,7 +1575,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1596,7 +1602,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1933,6 +1939,9 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/create-react-app.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/_gsdata_/2023-0530-000358-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -1946,8 +1955,6 @@
     "笔记/_gsdata_/2023-0529-235558-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/JSX.md",
@@ -1962,7 +1969,6 @@
     "笔记/前端/库、框架/CSS样式/样式库.md",
     "笔记/前端/库、框架/UI库/antd.md",
     "笔记/前端/assets/Pasted image 20230529164915.png",
-    "笔记/前端/库、框架/UI库/create-react-app.md",
     "笔记/前端/工程化/SPA.md",
     "笔记/前端/assets/Pasted image 20230529161651.png",
     "笔记/前端/assets/Pasted image 20230529161450.png",
