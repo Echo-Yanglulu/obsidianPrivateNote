@@ -1,7 +1,6 @@
 # 概述
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
-定义：是HTML与XML文档的编程模型
-	提供了对**文档的结构**化表示，并定义了一种方式，从程序中对该结构进行访问。
+定义：是HTML与XML**文档的编程模型**。提供了对文档的结构化**表示**，并定义了一种方式，从程序中对该结构进行**访问**。【先生成对文档的结构化的表示，再提供方式对该表示进行访问】
 内容
 	1. 理解DOM的构成
 	2. 节点类型
