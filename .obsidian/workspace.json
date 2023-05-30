@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/库、框架/UI库/组件.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":10},\"to\":{\"line\":50,\"ch\":10}},\"scroll\":34.63789473684211}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1513,7 +1519,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1575,7 +1581,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1602,7 +1608,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/组件.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1937,18 +1943,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "7113f97335846a5a",
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230530125123.png",
+    "笔记/前端/assets/Pasted image 20230530125007.png",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230530122950.png",
     "笔记/前端/assets/Pasted image 20230530121713.png",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230530122112.png",
     "笔记/前端/assets/Pasted image 20230530121401.png",
     "笔记/前端/assets/Pasted image 20230530121223.png",
     "笔记/前端/assets/Pasted image 20230530115739.png",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/assets/Pasted image 20230529155319.png",
     "笔记/前端/库、框架/UI库/create-react-app.md",
@@ -1978,13 +1987,10 @@
     "笔记/前端/库、框架/UI库/antd.md",
     "笔记/前端/assets/Pasted image 20230529164915.png",
     "笔记/前端/工程化/SPA.md",
-    "笔记/前端/assets/Pasted image 20230529161651.png",
-    "笔记/前端/assets/Pasted image 20230529161450.png",
     "笔记/前端/编程语言/JS/location.md",
     "笔记/工具/思考/记忆/路由.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/库、框架/UI库/state.md",
-    "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
