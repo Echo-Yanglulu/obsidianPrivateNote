@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Function.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -1555,6 +1555,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.640603886119006}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":12},\"to\":{\"line\":16,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "webpack.config.js",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":189,\"ch\":9},\"to\":{\"line\":189,\"ch\":9}},\"scroll\":167.7963}"
+                    },
+                    {
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1565,7 +1589,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1573,7 +1597,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1599,7 +1623,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Function.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1626,7 +1650,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Function.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1768,7 +1792,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -1961,10 +1985,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0c5f4ca151c59691",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Set.md",
+    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
+    "笔记/前端/编程语言/JS/基本概念/Map.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/编程语言/JS/基本概念/Date.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
+    "笔记/前端/编程语言/JS/数组.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/基本概念/BigInt.md",
+    "笔记/前端/编程语言/JS/基本概念/Symbol.md",
+    "笔记/前端/编程语言/JS/基本概念/String.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/库、框架/UI库/副作用.md",
@@ -1973,7 +2014,6 @@
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
     "笔记/前端/assets/Pasted image 20230530125123.png",
@@ -1983,11 +2023,6 @@
     "笔记/前端/assets/Pasted image 20230530122112.png",
     "笔记/前端/assets/Pasted image 20230530121401.png",
     "笔记/前端/assets/Pasted image 20230530121223.png",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/库、框架/UI库/ReactDOM.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/库、框架/UI库/create-react-app.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/_gsdata_/2023-0530-000358-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0530-000258-DESKTOP-YLL-Job1.log",
@@ -1998,17 +2033,6 @@
     "笔记/_gsdata_/2023-0529-235758-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-235658-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0529-235558-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/构建/webpack.config.js.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/前端/库、框架/UI库/props.md",
-    "笔记/前端/库、框架/UI库/react实战.md",
-    "笔记/前端/库、框架/UI库/redux.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/工程化/CSS预处理器.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/工程化/LESS.md",
-    "笔记/前端/库、框架/CSS样式/样式库.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]

@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/基本概念/Function.md"
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "组件",
       "path": "笔记/前端/库、框架/UI库/组件.md"
     },
     {
+      "basename": "JS",
+      "path": "笔记/前端/编程语言/JS/JS.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
       "basename": "函数组件",
       "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "Function",
+      "path": "笔记/前端/编程语言/JS/基本概念/Function.md"
     },
     {
       "basename": "HOC",
@@ -31,14 +51,6 @@
     {
       "basename": "人的属性",
       "path": "笔记/工具/通用概念/人的属性.md"
-    },
-    {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "react实战",
@@ -187,18 +199,6 @@
     {
       "basename": "形式逻辑",
       "path": "笔记/工具/哲学/逻辑学/形式逻辑.md"
-    },
-    {
-      "basename": "谓语",
-      "path": "笔记/工具/语法/谓语.md"
-    },
-    {
-      "basename": "主语",
-      "path": "笔记/工具/语法/主语.md"
-    },
-    {
-      "basename": "插说",
-      "path": "笔记/工具/语法/插说.md"
     }
   ],
   "omittedPaths": [
