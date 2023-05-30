@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/redux.md"
+                    "file": "笔记/前端/库、框架/UI库/mobx.md"
                   }
                 }
               }
@@ -1647,7 +1647,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/redux.md",
+                        "file": "笔记/前端/库、框架/UI库/mobx.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1674,7 +1674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/redux.md",
+                        "file": "笔记/前端/库、框架/UI库/mobx.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2009,8 +2009,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a10a22b8b575a1",
+  "active": "fed0177d0445be6b",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
@@ -2036,7 +2037,6 @@
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
