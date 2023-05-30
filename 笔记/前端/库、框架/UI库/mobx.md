@@ -18,8 +18,9 @@
 1. 在store文件中定义
 	1. @observable装饰器：添加可观察状态
 	2. @action：直接修改状态的[[Function]]。
-2. 将全局的store注入当前组件
-	1. 
+2. 将全局的store注入当前组件/关联当前组件与store：在组件上方添加`@observer`
+3. 注入全局变量：`@indect(homeInfo)`
+4. 从
 ## 构建复杂应用
 1. store单例：有一个全局的状态集合。
 2. 状态跨组件：通过Provider
