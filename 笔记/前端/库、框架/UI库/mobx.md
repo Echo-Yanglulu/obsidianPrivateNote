@@ -9,7 +9,11 @@
 3. 数据是突变的
 4. 流程 ![[Pasted image 20230530215849.png]] 
 # 版本
-
+## mobx 5
+内部实现可观察对象的核心是ES6的[[Proxy]]。
+## mobx 4
+核心是Object.defineProperty
+可观察数组不是JS数组，而是
 # 应用
 1. @observable装饰品：添加可观察状态
 
