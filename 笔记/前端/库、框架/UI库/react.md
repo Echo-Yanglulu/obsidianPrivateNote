@@ -12,8 +12,8 @@ UI框架：搭建数据驱动的web和移动端UI
 effect
 ref
 # 特性
-1. fragments：减少嵌套
-2. portals
+1. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
+2. portals：改变一个组件的位置
 3. StrictMode
 # 策略
 组合而非继承
