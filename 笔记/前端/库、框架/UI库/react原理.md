@@ -9,7 +9,7 @@
 看vscode
 # virtual dom
 1. v-dom是什么
-	1. 官方定义：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将其同步渲染为真实DOM。
+	1. 官方定义：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将该映射同步渲染为真实DOM。
 	2. 基于浏览器API，由第三方库实现
 2. 特性
 	1. 抽象性【它对UI的抽象。使跨平台使用成为可能，一处学习，随处使用】
@@ -47,6 +47,10 @@
 
 # React Fiber
 # 协调
-将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程叫做**协调**。
+将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程叫做**协调**。是react中最重要、最核心的部分。
+
+方式
+	1. Stack协调。v15使用的协调方式
+	2. Fiber协调。v16使用的协调方式
 
 [^1]: 如setState
