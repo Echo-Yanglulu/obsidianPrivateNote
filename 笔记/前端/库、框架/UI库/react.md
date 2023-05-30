@@ -9,7 +9,7 @@ UI框架：搭建数据驱动的web和移动端UI
 [[JSX]]：创建react组件的方式之一。
 [[props]] 
 [[state]] 
-effect
+[[context]] 
 ref
 # 特性
 1. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。

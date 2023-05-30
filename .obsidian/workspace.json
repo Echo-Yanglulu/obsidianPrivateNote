@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/状态管理工具比较.md"
+                    "file": "笔记/前端/库、框架/UI库/context.md"
                   }
                 }
               }
@@ -1424,17 +1424,23 @@
                 "id": "f3c650ca3ef69b7a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "mobx",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/mobx.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":4},\"to\":{\"line\":54,\"ch\":4}},\"scroll\":33.997894736842106}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":83,\"ch\":31},\"to\":{\"line\":83,\"ch\":31}},\"scroll\":60.46362433862434}"
                     },
                     {
                       "title": "组件",
@@ -1647,7 +1653,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/状态管理工具比较.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1674,7 +1680,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/状态管理工具比较.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2009,11 +2015,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f2ace589d79e2b1c",
+  "active": "eba0c837a3e8f01f",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230530230551.png",
-    "笔记/前端/库、框架/UI库/状态管理工具比较.md",
     "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/context.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/库、框架/UI库/状态管理工具比较.md",
+    "笔记/前端/assets/Pasted image 20230530230551.png",
     "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/Proxy.md",
     "笔记/前端/assets/Pasted image 20230530215849.png",
@@ -2037,7 +2045,6 @@
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/BigInt.md",
-    "笔记/前端/编程语言/JS/基本概念/Symbol.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
@@ -2046,7 +2053,6 @@
     "笔记/前端/assets/Pasted image 20230530122950.png",
     "笔记/前端/assets/Pasted image 20230530121713.png",
     "笔记/前端/assets/Pasted image 20230530122112.png",
-    "笔记/前端/assets/Pasted image 20230530121401.png",
     "笔记/_gsdata_/2023-0530-000358-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0530-000258-DESKTOP-YLL-Job1.log",
