@@ -9,7 +9,8 @@
 看vscode
 # virtual dom
 1. v-dom是什么
-	1. 官方定义：一个编程概念，被保存在内存中的*对UI的映射*，并通过某些库（如React-DOM）渲染为真实的DOM
+	1. 官方定义：一个编程概念，被保存在内存中的*对UI的映射*，并通过某些库（如React-DOM）将 渲染为真实的DOM
+	2. 基于浏览器API，由第三方库实现
 2. 特性
 	1. 抽象性【它对UI的抽象。使跨平台使用成为可能，一处学习，随处使用】
 		1. V-dom提供了对HTML DOM的抽象，所以在web开发中通常不用调用[[DOM]] api
@@ -42,6 +43,9 @@
 频繁操作dom会引起页面重绘
 
 # Shadow DOM
-定义：是一种浏览器技术，可在web components中用于限制变量和CSS。
+定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
+
+# React Fiber
+
 
 [^1]: 如setState
