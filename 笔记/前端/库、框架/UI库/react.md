@@ -24,7 +24,7 @@ ref
 4. concurrent mode【同时，并行】：让react应用更好地*响应交互*、根据用户的*硬件设备*与*网络性能*进行部分调节。
 
 ## 总结
-Fiber
+Fiber让应用更好地更新，concurrentMode让应用在体验上更好
 # 策略
 组合而非继承
 # 原理
