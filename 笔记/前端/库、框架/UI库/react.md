@@ -74,8 +74,8 @@ class ErrorBoundary extends React.Component {
 3. UI框架[^2]
 	1. [[antd]] 
 4. 状态管理工具
-	1. [[mobx]] 
-	2. [[redux]]：响应式状态管理工具
+	1. [[mobx]]：响应式状态管理工具
+	2. [[redux]]：
 5. [[路由]]管理工具：[[react-router]] 
 6. React的补充框架：[[Flux]] 
 
