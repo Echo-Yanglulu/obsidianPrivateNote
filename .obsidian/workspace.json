@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Function.md"
                   }
                 }
               }
@@ -1629,7 +1629,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Function.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1656,7 +1656,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Function.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1991,17 +1991,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "71356bbca9c420c3",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/编程语言/JS/基本概念/Function.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
+    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Set.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Date.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.md",
     "笔记/前端/编程语言/JS/数组.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
@@ -2014,7 +2015,6 @@
     "笔记/前端/前端.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
-    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/HOC.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/库、框架/UI库/class组件.md",
