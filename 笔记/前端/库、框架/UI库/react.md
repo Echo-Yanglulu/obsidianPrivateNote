@@ -17,6 +17,11 @@ ref
 [[react原理]] 
 # 实战
 [[react实战]] 
+# 异常捕获
+通常使用try/catch在*可能出错*的地方。或使用window.onerror绑定。
+但react本身的[[react原理#Fiber协调|fiber协调]]带来了一个异常捕获的优化【组件错误、全局异常】
+![[Pasted image 20230530144452.png]] 
+
 # 相关
 1. react应用[^1]的创建【脚手架】[^3]
 	1. umi
