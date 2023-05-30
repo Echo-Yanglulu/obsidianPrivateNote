@@ -79,6 +79,8 @@ class ErrorBoundary extends React.Component {
 	3. 比较
 		1. 如何知道状态改变
 			1. redux通过对比。mobx可观察
+		2. 流程
+			1. 
 5. [[路由]]管理工具：[[react-router]] 
 6. React的补充框架：[[Flux]] 
 
