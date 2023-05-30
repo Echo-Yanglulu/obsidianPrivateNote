@@ -21,7 +21,33 @@ ref
 通常使用try/catch在*可能出错*的地方。或使用window.onerror绑定。
 但react本身的[[react原理#Fiber协调|fiber协调]]带来了一个异常捕获的优化【组件错误、全局异常】
 ![[Pasted image 20230530144452.png]] 
+```js
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
 
+  componentDidCatch(error, info) {
+    // Display fallback UI
+    this.setState({ hasError: true });
+    // You can also log the error to an error reporting service
+    logErrorToMyService(error, info);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      // You can render any custom fallback UI
+      return <h1>Something went wrong.</h1>;
+    }
+    return this.props.children;
+  }
+}
+
+<ErrorBoundary>
+  <MyWidget />
+</ErrorBoundary>
+```
 # 相关
 1. react应用[^1]的创建【脚手架】[^3]
 	1. umi
