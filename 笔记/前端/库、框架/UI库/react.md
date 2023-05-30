@@ -13,6 +13,7 @@ effect
 ref
 # 特性
 1. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
+2. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
 3. StrictMode
 # 策略
 组合而非继承
