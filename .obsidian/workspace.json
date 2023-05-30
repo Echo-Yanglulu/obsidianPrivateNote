@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/mobx.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -1424,8 +1424,14 @@
                 "id": "f3c650ca3ef69b7a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "mobx",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/mobx.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1641,7 +1647,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/mobx.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1668,7 +1674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/mobx.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2003,10 +2009,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f7387ac106f1d70a",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/mobx.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/库、框架/UI库/concurrent mode.md",
     "笔记/前端/库、框架/UI库/react-router.md",
