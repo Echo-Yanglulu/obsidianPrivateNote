@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/前端/库、框架/UI库/mobx.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":20},\"to\":{\"line\":78,\"ch\":20}},\"scroll\":61.48478835978836}"
+                    },
+                    {
                       "title": "react原理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1567,7 +1573,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/mobx.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1653,7 +1659,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/mobx.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1680,7 +1686,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/mobx.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2015,9 +2021,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1b39ae2a7a81d7af",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/工具/通用概念/人的属性.md",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/react原理.md",
@@ -2029,7 +2036,6 @@
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/库、框架/UI库/concurrent mode.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/值.md",
