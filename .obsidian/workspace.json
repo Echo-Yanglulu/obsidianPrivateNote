@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/mobx.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1431,6 +1431,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "HTML",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/HTML/HTML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "mobx",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/mobx.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":26},\"to\":{\"line\":3,\"ch\":26}}}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1573,7 +1597,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/mobx.md",
+                    "file": "笔记/前端/编程语言/JS/浏览器.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1659,7 +1683,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/mobx.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1686,7 +1710,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/mobx.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1828,7 +1852,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2023,6 +2047,12 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -2030,7 +2060,6 @@
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/状态管理工具比较.md",
     "笔记/前端/assets/Pasted image 20230530230551.png",
-    "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/Proxy.md",
     "笔记/前端/assets/Pasted image 20230530215849.png",
     "笔记/前端/库、框架/UI库/redux.md",
@@ -2046,11 +2075,6 @@
     "笔记/前端/编程语言/JS/基本概念/Set.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/基本概念/Date.md",
-    "笔记/前端/编程语言/JS/数组.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
