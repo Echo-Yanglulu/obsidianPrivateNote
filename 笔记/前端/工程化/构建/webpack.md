@@ -65,7 +65,7 @@ filename：支持变量，即文件名作为打包文件名。hash：对文件�
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
 ### loader
 定义
-	1.  一个**函数**，用于转换[^2]==JS/JSON之外==的其他**文件**，得到==JS模块==。（默认只可编译JS、JSON模块）。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
+	1.  一个**函数**，用于将==JS/JSON之外==的其他**文件**转换[^2]为JS[[模块]]。（默认只可编译JS、JSON模块）。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
 
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules。
 ### 原理
