@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":11},\"to\":{\"line\":13,\"ch\":9}}}"
+                    },
+                    {
                       "title": "HTML",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/HTML/HTML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1597,7 +1603,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1689,7 +1695,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1716,7 +1722,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1858,7 +1864,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2051,15 +2057,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "221d76d20d473ccb",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/mobx.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
@@ -2080,7 +2087,6 @@
     "笔记/前端/编程语言/JS/基本概念/Function.md",
     "笔记/前端/编程语言/JS/基本概念/Set.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
-    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
