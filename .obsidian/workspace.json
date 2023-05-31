@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "笔记/前端/库、框架/UI库/副作用.md"
                   }
                 }
               }
@@ -1615,6 +1615,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":8},\"to\":{\"line\":10,\"ch\":8}}}"
+                    },
+                    {
                       "title": "JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1649,7 +1655,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/库、框架/UI库/副作用.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1657,7 +1663,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1683,7 +1689,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1710,7 +1716,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2045,10 +2051,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
@@ -2068,7 +2075,6 @@
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/值.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
