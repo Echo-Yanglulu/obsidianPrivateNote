@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+                    "file": "笔记/前端/工程化/缓存.md"
                   }
                 }
               }
@@ -1431,6 +1431,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                    },
+                    {
                       "title": "计算机基础",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1615,7 +1621,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                    "file": "笔记/前端/工程化/缓存.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1707,7 +1713,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/工程化/缓存.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1734,7 +1740,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/工程化/缓存.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2071,6 +2077,7 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -2098,7 +2105,6 @@
     "笔记/前端/库、框架/UI库/concurrent mode.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/JS/值.md",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
     "笔记/前端/assets/Pasted image 20230530130553.png",
