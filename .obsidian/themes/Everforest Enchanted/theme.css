@@ -282,18 +282,21 @@
   color: var(--text-normal);
 }
 
-/* Make gutters not affect the content flow */
-.cm-contentContainer {
+/* Make gutters not affect the content flow for unstacked tabs */
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-contentContainer,
+body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-contentContainer {
   display: grid !important;
 }
-.cm-gutters,
-.cm-content {
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width :is(.cm-gutters,.cm-content),
+body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width :is(.cm-gutters,.cm-content) {
   grid-area: 1 / -1;
 }
-.cm-content {
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-content,
+body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-content {
   width: unset !important;
 }
-.cm-gutters {
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-gutters,
+body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-gutters {
   justify-self: left;
   translate: -100% 0;
 }
@@ -650,11 +653,25 @@ div:has(>table) {
   overflow: unset !important;
 }
 /* Fix borders from Dataview */
-.markdown-rendered .table-view-table > tbody > tr > td + td {
+.table-view-table > thead > tr > th {
+  border-left: var(--table-header-border-width) solid var(--table-header-border-color);
+  border-top: var(--table-header-border-width) solid var(--table-header-border-color);
+  border-right: var(--table-header-border-width) solid var(--table-header-border-color);
+}
+:root .table-view-table thead > tr > th {
+  border-width: var(--table-border-width) 0 3px var(--table-border-width);
+}
+:root .table-view-table thead > tr > th:last-child {
+  border-right-width: var(--table-border-width);
+}
+:root .table-view-table tbody > tr + tr > td {
+  border-top: var(--table-border-width) solid var(--table-border-color);
+}
+:root .table-view-table tbody > tr > td {
   border-left: var(--table-border-width) solid var(--table-border-color);
 }
-.markdown-rendered .table-view-table > tbody > tr + tr {
-  border-top: var(--table-border-width) solid var(--table-border-color);
+:root .table-view-table tbody > tr > td:last-child {
+  border-right: var(--table-border-width) solid var(--table-border-color);
 }
 
 
@@ -813,9 +830,39 @@ settings:
 -
   id: readable-line-length-custom
   title: Readable line length value
-  description: Set the text size in px!
+  description: Sets a custom readable line width in pixels
   type: variable-number
   default: 700
+  format: px
+-
+  id: stacked-panes-gutter-disable-float
+  title: Disable stacked tabs floating gutters
+  description: Disables gutters from being floated left of content in stacked tabs. This makes gutters shift over the content in stacked tabs. Use this if your panes are too thin to show gutters.
+  type: class-toggle
+-
+  id: extra-appearance-settings
+  title: Extra Appearance Settings
+  type: heading
+  level: 1
+  collapsed: true
+-
+  id: extra-appearance-settings-description
+  title: Info
+  description: |
+    Various extra styles to change the asesthetic of certian elements.
+  type: info-text
+  markdown: true
+-
+  id: rounded-tables
+  title: Rounded Tables
+  description: Adds a rounded effect to table corners
+  type: class-toggle
+-
+  id: rounded-tables-radius
+  title: Rounded Tables Radius
+  description: The corner radius of rounded tables. You may need to reload tabs to see the effect.
+  type: variable-number
+  default: 8
   format: px
 -
   id: custom-stacked-panes
@@ -948,6 +995,29 @@ settings:
   type: class-toggle
 
 */
+
+/** Extra Appearance Settings **/
+
+/* Rounded tables */
+.rounded-tables table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.rounded-tables th:first-of-type {
+  border-top-left-radius: var(--rounded-tables-radius, 8px);
+}
+.rounded-tables th:last-of-type {
+  border-top-right-radius: var(--rounded-tables-radius, 8px);
+}
+.rounded-tables tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: var(--rounded-tables-radius, 8px);
+}
+.rounded-tables tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: var(--rounded-tables-radius, 8px);
+}
+.rounded-tables :is(td, th) {
+  border-width: 0 var(--table-border-width) var(--table-border-width) 0;
+}
 
 /** Custom Stacked Panes **/
 
