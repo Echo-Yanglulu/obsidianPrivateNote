@@ -1645,6 +1645,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":14},\"to\":{\"line\":19,\"ch\":14}}}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2108,6 +2120,7 @@
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/编程语言/JS/基本概念/Function.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/库、框架.md",
@@ -2132,7 +2145,6 @@
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/库、框架/UI库/mobx.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/assets/Pasted image 20230530230551.png",
     "笔记/前端/assets/Pasted image 20230530215849.png",
     "笔记/前端/assets/Pasted image 20230530144452.png",
