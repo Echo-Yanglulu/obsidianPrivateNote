@@ -3,9 +3,12 @@ body {
   --background-primary: var(--color-base-00);
   --background-primary-alt: var(--color-base-00);
   --background-secondary: var(--color-base-00);
-  --background-modifier-border: var(--color-base-40);
-  --background-modifier-border-hover: var(--color-base-20);
+  --background-modifier-border: var(--color-base-60);
+  --background-modifier-border-hover: var(--color-base-40);
   --background-modifier-border-focus: var(--color-base-40);
+  --interactive-hover: var(--color-base-00);
+
+  /* Normalize title bar colors */
   --tab-container-background: var(--color-base-00);
   --titlebar-background: var(--color-base-00);
   --titlebar-background-focused: var(--color-base-00);
@@ -34,9 +37,20 @@ body {
   --h4-color: var(--header-color);
   --h5-color: var(--header-color);
   --h6-color: var(--header-color);
+
+  /* Inline title fun */
+.inline-title {
+  font-size: calc(26px + (72 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1;
+  font-family: 'Archivo', 'Archivo SemiBold', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: -webkit-radial-gradient(#bb9af7, #f7768e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
 }
 
-body:not(.native-scrollbars) ::-webkit-scrollbar {
+/* Remove scrollbar */
+body:not(.native-scrollbars), ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
@@ -47,7 +61,7 @@ body:not(.native-scrollbars) ::-webkit-scrollbar {
   --bold-color: #bb9af7;
   --italic-color: #9aa5ce;
   --text-highlight-bg: #9ece6a66;
-  --text-faint: #565f8966;
+  --text-faint: #565f8988;
 }
 
 .theme-light  {
@@ -56,5 +70,5 @@ body:not(.native-scrollbars) ::-webkit-scrollbar {
   --bold-color: #5a4a78;
   --italic-color: #343b58;
   --text-highlight-bg: #485e3066;
-  --text-faint: #9699a366;
+  --text-faint: #9699a388;
 }
