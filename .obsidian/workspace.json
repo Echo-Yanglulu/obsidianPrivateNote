@@ -1648,6 +1648,30 @@
                       "title": "组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":14},\"to\":{\"line\":22,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":22},\"to\":{\"line\":18,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":14},\"to\":{\"line\":22,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":11},\"to\":{\"line\":51,\"ch\":11}},\"scroll\":44.5654}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":14},\"to\":{\"line\":22,\"ch\":14}},\"scroll\":0}"
                     },
                     {
@@ -2186,10 +2210,10 @@
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/工具/通用概念/状态.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/库、框架/UI库/HOC.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
