@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/缓存.md"
+                    "file": "笔记/前端/库、框架/UI库/组件.md"
                   }
                 }
               }
@@ -1645,6 +1645,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "库、框架",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":15},\"to\":{\"line\":39,\"ch\":15}},\"scroll\":2.5185185185185186}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "副作用",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/副作用.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}}}"
+                    },
+                    {
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1685,7 +1709,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/副作用.md",
+                    "file": "笔记/前端/库、框架/UI库/组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1693,7 +1717,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1719,7 +1743,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/缓存.md",
+                        "file": "笔记/前端/库、框架/UI库/组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1746,7 +1770,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/缓存.md",
+                        "file": "笔记/前端/库、框架/UI库/组件.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1888,7 +1912,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2081,35 +2105,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/前端/工程化/静态资源.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/UI库/UI库.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/设计模式/设计模式.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/工程化/缓存.md",
+    "笔记/前端/工程化/静态资源.md",
     "笔记/内心/欲望.md",
     "笔记/行为/健身/手臂.md",
     "笔记/行为/健身/健身.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/库、框架/UI库/mobx.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/工具/通用概念/人的属性.md",
-    "笔记/前端/库、框架/UI库/context.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/库、框架/UI库/状态管理工具比较.md",
     "笔记/前端/assets/Pasted image 20230530230551.png",
-    "笔记/前端/库、框架/UI库/Proxy.md",
     "笔记/前端/assets/Pasted image 20230530215849.png",
     "笔记/前端/assets/Pasted image 20230530144452.png",
     "笔记/前端/assets/Pasted image 20230530132316.png",
