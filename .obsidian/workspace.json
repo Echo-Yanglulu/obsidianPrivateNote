@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/组件.md"
+                    "file": "笔记/前端/库、框架/UI库/副作用.md"
                   }
                 }
               }
@@ -1645,6 +1645,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":7},\"to\":{\"line\":24,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1769,7 +1775,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/组件.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1803,7 +1809,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/组件.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1830,7 +1836,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/组件.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2165,13 +2171,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "9ba734d820c6cf53",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/工具/通用概念/状态.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/库、框架/UI库/HOC.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
