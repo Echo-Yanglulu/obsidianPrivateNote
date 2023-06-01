@@ -16,9 +16,9 @@ ref
 2. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
 3. StrictMode：提示有潜在问题的组件【建议在老项目中使用，有助于形成规范】
 	1. 功能
-		1. 检测是否存在即将废弃的生命周期函数
-		2. 检测是否使用string ref和findDOMNode、老版context api
-		3. 检测是否多次调用不可预测的副作用
+		1. 检测是否存在*即将废弃*的生命周期函数；
+		2. 检测是否使用*string ref*和findDOMNode、老版context api；
+		3. 检测是否*多次调用不可预测的副作用*。
 	2. 特点
 		1. 会让render多运行一次。【实际开发中不用奇怪】
 4. [[concurrent mode]]【同时，并行】：让react应用更好地*响应交互*、根据用户的*硬件设备*与*网络性能*进行部分调节。
