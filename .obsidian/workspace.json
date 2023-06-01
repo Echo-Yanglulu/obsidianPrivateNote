@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/UI库/副作用.md"
                   }
                 }
               }
@@ -1648,6 +1648,18 @@
                       "title": "组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":14},\"to\":{\"line\":17,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":24},\"to\":{\"line\":20,\"ch\":24}}}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":14},\"to\":{\"line\":22,\"ch\":14}},\"scroll\":0}"
                     },
                     {
@@ -1823,7 +1835,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1857,7 +1869,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1884,7 +1896,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/副作用.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2219,10 +2231,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "8e37f7f593b16137",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/工具/通用概念/状态.md",
