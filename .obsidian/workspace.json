@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/西方文明简史/自由.md"
+                    "file": "笔记/学习方法/自己的思考.md"
                   }
                 }
               }
@@ -632,6 +632,18 @@
                       "title": "自己的思考",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的思考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "自由",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/自由.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}}}"
+                    },
+                    {
+                      "title": "自己的思考",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的思考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}}}"
                     }
                   ]
@@ -639,7 +651,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/西方文明简史/自由.md",
+                    "file": "笔记/工具/思考/思考.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -2083,7 +2095,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/西方文明简史/自由.md",
+                        "file": "笔记/学习方法/自己的思考.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2110,7 +2122,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/西方文明简史/自由.md",
+                        "file": "笔记/学习方法/自己的思考.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2445,8 +2457,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "13f516c45139776d",
+  "active": "b3d68aa3ddcaac1b",
   "lastOpenFiles": [
+    "笔记/工具/思考/思考.md",
+    "笔记/学习方法/自己的思考.md",
+    "笔记/西方文明简史/自由.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2482,9 +2497,6 @@
     "笔记/前端/assets/Pasted image 20230602141816.png",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
-    "笔记/工具/思考/关系判断.md",
-    "笔记/前端/工程化/缓存.md",
-    "笔记/内心/觉悟.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230530230551.png",
     "笔记/前端/assets/Pasted image 20230530215849.png",
