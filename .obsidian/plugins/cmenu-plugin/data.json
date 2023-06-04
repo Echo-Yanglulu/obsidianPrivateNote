@@ -2,11 +2,6 @@
   "aestheticStyle": "glass",
   "menuCommands": [
     {
-      "id": "cmenu-plugin:editor:toggle-strikethrough",
-      "name": "cMenu: Toggle strikethrough",
-      "icon": "strikethrough-glyph"
-    },
-    {
       "id": "cmenu-plugin:superscript",
       "name": "cMenu: Toggle superscript",
       "icon": "superscript-glyph"
@@ -50,14 +45,14 @@
       ]
     },
     {
-      "id": "obsidian-minimal-settings:toggle-minimal-gruvbox-dark",
-      "name": "Minimal Theme Settings: Switch dark color scheme to Gruvbox (dark)",
-      "icon": "broken-link"
-    },
-    {
       "id": "theme-picker:open-theme-picker",
       "name": "Theme Picker: Open Theme Picker",
       "icon": "heading-glyph"
+    },
+    {
+      "id": "workspace:export-pdf",
+      "name": "导出为 PDF",
+      "icon": "note-glyph"
     }
   ],
   "appendMethod": "body",

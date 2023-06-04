@@ -66,12 +66,14 @@ class ErrorBoundary extends React.Component {
 </ErrorBoundary>
 ```
 # 相关
-1. react应用[^1]的创建【脚手架】[^3]
-	1. umi
-	2. [[create-react-app]] 
+1. react应用[^1] 
+	1. 创建【脚手架】[^3]
+		1. umi
+		2. [[create-react-app]] 
+	2. 构建
 2. DOM管理
 	1. [[ReactDOM]] 
-3. UI框架[^2]
+3. UI框架[^2] 
 	1. [[antd]] 
 4. 状态管理工具
 	1. [[mobx]]：响应式状态管理工具

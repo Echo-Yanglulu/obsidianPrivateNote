@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -657,6 +657,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":34},\"to\":{\"line\":34,\"ch\":34}},\"scroll\":37.1099537037037}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":30.173684210526314}"
+                    },
+                    {
                       "title": "人",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -741,6 +753,60 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":4},\"to\":{\"line\":24,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":6},\"to\":{\"line\":8,\"ch\":6}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":11},\"to\":{\"line\":24,\"ch\":11}},\"scroll\":1.4444444444444444}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":12},\"to\":{\"line\":11,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":11},\"to\":{\"line\":24,\"ch\":11}},\"scroll\":6.222222222222222}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "关系判断",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/关系判断.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
                     },
                     {
                       "title": "判断",
@@ -1101,7 +1167,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/关系判断.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1645,6 +1711,84 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":15},\"to\":{\"line\":26,\"ch\":15}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":7},\"to\":{\"line\":60,\"ch\":7}},\"scroll\":44.547334058759525}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":31},\"to\":{\"line\":77,\"ch\":31}},\"scroll\":29.7893549842129}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":23},\"to\":{\"line\":52,\"ch\":23}},\"scroll\":166.95038979447202}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":12},\"to\":{\"line\":3,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":19},\"to\":{\"line\":54,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
                       "title": "组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1853,9 +1997,43 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "506196fad33456e0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "库、框架",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 12
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1881,7 +2059,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1908,7 +2086,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -2236,42 +2414,54 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "18a820d70d0ed9f8",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/通用概念/状态.md",
-    "笔记/前端/assets/Pasted image 20230601130853.png",
-    "笔记/前端/库、框架/UI库/HOC.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/库、框架/UI库/UI库.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/工程化/缓存.md",
-    "笔记/前端/工程化/静态资源.md",
-    "笔记/内心/欲望.md",
-    "笔记/行为/健身/手臂.md",
-    "笔记/行为/健身/健身.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/计算机基础.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/内心/行动.md",
+    "笔记/前端/编程语言/CSS/CSS模块化.md",
+    "笔记/前端/编程语言/CSS/CSS Module.md",
+    "笔记/前端/编程语言/CSS/styled-component.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
-    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/工具/通用概念/恐惧.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/_gsdata_/2023-0602-181649-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0602-181546-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-181443-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-181340-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-181237-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-181134-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-181031-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-180928-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0602-180825-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/状态管理工具比较.md",
+    "笔记/前端/库、框架/UI库/create-react-app.md",
+    "笔记/前端/库、框架/UI库/customize-cra.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/CSS in JS.md",
+    "笔记/前端/编程语言/CSS/classnames.md",
+    "笔记/前端/工程化/模块化.md",
+    "笔记/前端/assets/Pasted image 20230602142156.png",
+    "笔记/前端/assets/Pasted image 20230602141816.png",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/前端.md",
+    "笔记/工具/思考/关系判断.md",
+    "笔记/前端/工程化/缓存.md",
+    "笔记/内心/觉悟.md",
+    "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230530230551.png",
     "笔记/前端/assets/Pasted image 20230530215849.png",
     "笔记/前端/assets/Pasted image 20230530144452.png",
@@ -2279,18 +2469,6 @@
     "笔记/前端/assets/Pasted image 20230530130553.png",
     "笔记/前端/assets/Pasted image 20230530125123.png",
     "笔记/前端/assets/Pasted image 20230530125007.png",
-    "笔记/前端/assets/Pasted image 20230530122950.png",
-    "笔记/前端/assets/Pasted image 20230530121713.png",
-    "笔记/_gsdata_/2023-0530-000358-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0530-000258-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0530-000158-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0530-000058-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-235958-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-235858-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-235758-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-235658-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0529-235558-DESKTOP-YLL-Job1.log",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
