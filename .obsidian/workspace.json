@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -2131,7 +2131,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2158,7 +2158,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2493,8 +2493,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25b2876f3728e46d",
+  "active": "7db7fc8ac5ef3306",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/_gsdata_/2023-0604-231718-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
@@ -2504,16 +2506,13 @@
     "笔记/_gsdata_/2023-0604-231412-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-231409-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-231406-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/context.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/语法/句子.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/库、框架/UI库/state.md",
     "笔记/前端/库、框架/UI库/props.md",
     "笔记/_gsdata_/2023-0604-231303-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0604-231209-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/React元素.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/函数组件.md",

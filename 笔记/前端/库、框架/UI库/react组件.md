@@ -20,6 +20,7 @@
 ## props
 ## state
 ## [[context]] 
+## ref
 
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
