@@ -54,7 +54,31 @@ module.exports = {
 ```
 # 全局作用域
 如何声明一个全局规则？
+```css
+.title {
+  color: red;
+}
 
+:global(.title) {
+  color: green;
+}
+```
+
+```js
+import React from 'react';
+import styles from './App.css';
+
+export default () => {
+  return (
+  // 使用时直接传入字符串
+    <h1 className="title">
+      Hello World
+    </h1>
+  );
+};
+```
+1. 不被编译为hash字符串
+2. 
 # 形式
 ## 定义
 在CSS模块化中使用组合
