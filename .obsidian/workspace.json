@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -1470,8 +1470,14 @@
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "state",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/state.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2125,7 +2131,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2152,7 +2158,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2293,8 +2299,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2487,25 +2492,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6d3a78770fa013c7",
+  "active": "25b2876f3728e46d",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0604-231033-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/context.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/工具/语法/句子.md",
+    "笔记/工具/思考/过程.md",
+    "笔记/前端/库、框架/UI库/state.md",
+    "笔记/前端/库、框架/UI库/props.md",
+    "笔记/_gsdata_/2023-0604-231303-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/_gsdata_/2023-0604-231209-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/React元素.md",
+    "笔记/_gsdata_/2023-0604-231133-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/JSX.md",
+    "笔记/_gsdata_/2023-0604-231033-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-231015-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/思考/思考.md",
     "笔记/_gsdata_/2023-0604-230915-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-230815-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-230715-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0604-230615-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0604-230512-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/当下.md",
-    "笔记/_gsdata_/2023-0604-230449-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0604-230418-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/行为/健身/手臂.md",
@@ -2519,12 +2530,6 @@
     "笔记/工具/思考/策略思维.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/逻辑思维.md",
-    "笔记/工具/思考/盲点思维.md",
-    "笔记/西方文明简史/存在.md",
-    "笔记/工具/思考/维度思维.md",
-    "笔记/工具/思考/变化思维.md",
-    "笔记/工具/思考/流动思维.md",
-    "笔记/工具/思考/失败思维.md",
     "笔记/前端/assets/Pasted image 20230602142156.png",
     "笔记/前端/assets/Pasted image 20230602141816.png",
     "笔记/前端/assets/Pasted image 20230601130853.png",

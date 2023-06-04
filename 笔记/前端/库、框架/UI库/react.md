@@ -5,10 +5,8 @@ UI框架：搭建数据驱动的web和移动端UI
 	2. 使用单向数据流，是声明性的，基于组件的，
 	3. 提供了在JS中书写HTML标记的JSX语法，
 # 基础
+[[React元素]] 
 [[组件]] 
-[[JSX]]：创建react组件的方式之一。
-[[props]] 
-[[state]] 
 [[context]] 
 ref
 # 特性

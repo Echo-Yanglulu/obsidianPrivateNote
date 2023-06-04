@@ -5,8 +5,20 @@
       "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
+      "basename": "组件",
+      "path": "笔记/前端/库、框架/UI库/组件.md"
+    },
+    {
       "basename": "react组件",
       "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "句子",
+      "path": "笔记/工具/语法/句子.md"
+    },
+    {
+      "basename": "过程",
+      "path": "笔记/工具/思考/过程.md"
     },
     {
       "basename": "函数组件",
@@ -67,10 +79,6 @@
     {
       "basename": "CSS模块化",
       "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
-    },
-    {
-      "basename": "组件",
-      "path": "笔记/前端/库、框架/UI库/组件.md"
     },
     {
       "basename": "styled-component",
@@ -191,14 +199,6 @@
     {
       "basename": "react-router",
       "path": "笔记/前端/库、框架/UI库/react-router.md"
-    },
-    {
-      "basename": "react实战",
-      "path": "笔记/前端/库、框架/UI库/react实战.md"
-    },
-    {
-      "basename": "CSS预处理器",
-      "path": "笔记/前端/工程化/CSS预处理器.md"
     }
   ],
   "omittedPaths": [

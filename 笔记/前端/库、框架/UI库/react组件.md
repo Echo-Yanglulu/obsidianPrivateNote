@@ -2,7 +2,9 @@
 1. 数据类型
 	1. [[class组件]] 
 	2. [[函数组件]] 
-2. 
+2. 创建方式
+	1. [[JSX]] 
+	2. React.createElement()
 # 样式
 由于react中[[JSX]]的写法，给组件添加样式的方法有很多
 	1. 行内
@@ -14,6 +16,11 @@
 3. portals：渲染子节点到不同DOM子树中
 4. String/Number：在DOM中被渲染为文本节点
 5. Boolean/null：不渲染。
+# 通用概念
+## props
+## state
+## [[context]] 
+
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
 | --- | --- | --- | --- | --- |
