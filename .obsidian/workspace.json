@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -765,6 +765,24 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":3},\"to\":{\"line\":2,\"ch\":3}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":14},\"to\":{\"line\":77,\"ch\":14}},\"scroll\":55.49695534506089}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":39},\"to\":{\"line\":14,\"ch\":39}}}"
                     },
                     {
                       "title": "react组件",
@@ -2081,7 +2099,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -2107,7 +2125,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/思考.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2134,9 +2152,9 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/思考.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
-                        "extraContext": true,
+                        "extraContext": false,
                         "sortOrder": "byModifiedTime",
                         "showSearch": false,
                         "searchQuery": "",
@@ -2469,22 +2487,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "13f516c45139776d",
+  "active": "6d3a78770fa013c7",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0604-230715-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0604-231033-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/_gsdata_/2023-0604-231015-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/_gsdata_/2023-0604-230915-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0604-230815-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0604-230715-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-230615-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-230512-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/当下.md",
     "笔记/_gsdata_/2023-0604-230449-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0604-230418-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0604-230336-DESKTOP-YLL-Job1.log",
-    "笔记/工具/思考/思考.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/_gsdata_/2023-0604-230251-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/勇气.md",
-    "笔记/_gsdata_/2023-0604-230200-DESKTOP-YLL-Job1.log",
     "笔记/行为/健身/手臂.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
@@ -2502,11 +2525,6 @@
     "笔记/工具/思考/变化思维.md",
     "笔记/工具/思考/流动思维.md",
     "笔记/工具/思考/失败思维.md",
-    "笔记/学习方法/自己的思考.md",
-    "笔记/工作/工作.md",
-    "笔记/西方文明简史/自由.md",
-    "笔记/前端/编程语言/CSS/CSS Module.md",
-    "笔记/_gsdata_/2023-0602-181649-DESKTOP-YLL-Job1.log",
     "笔记/前端/assets/Pasted image 20230602142156.png",
     "笔记/前端/assets/Pasted image 20230602141816.png",
     "笔记/前端/assets/Pasted image 20230601130853.png",
