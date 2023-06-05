@@ -7,8 +7,11 @@ git flow采用了[[FDD]]，
 		2. development-开发主干分支
 	2. 短期分支
 		1. feature-功能分支
-		2. hotfix-补丁分支
+			2. 从development创建
+		2. hotfix-补丁分支[^1]
+			1. 从master创建
 		3. release-预发分支
+			1. 从development创建
 
 1. master：只能从其他分支合并，不能直接修改。合并到master的分支只能来自release或hotfix分支。
 2. develop：*基于master的tag建立*，用于暂时保存开发完成尚未发布的feature分支内容、及其他短期分支内容
@@ -20,3 +23,5 @@ git flow采用了[[FDD]]，
 修改git commit 使用的插件：npm i -g cz-customizable，修改原有的cz-conventional-changelog插件为cz-customizable 
 ![[Pasted image 20220828182346.png]]
 可使angular 规范展示中文message。
+
+[^1]: 生产发现的BUG
