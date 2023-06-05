@@ -1,10 +1,10 @@
 # git flow规范
 阅读GIT文档
 git flow采用了[[FDD]]，
-特点
-	1. 存在长期分支
-		1. master-主分支
-		2. develop-开发主干分支
+分类
+	1. 长期分支
+		1. master/production-主分支
+		2. development-开发主干分支
 	2. 短期分支
 		1. feature-功能分支
 		2. hotfix-补丁分支
