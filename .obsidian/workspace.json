@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -1783,6 +1783,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":9},\"to\":{\"line\":30,\"ch\":9}},\"scroll\":16.761733832046332}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":9},\"to\":{\"line\":12,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}}}"
+                    },
+                    {
                       "title": "react组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2063,7 +2087,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2129,7 +2153,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -2155,7 +2179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2182,7 +2206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2517,19 +2541,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-141410-DESKTOP-YLL-Job1.log",
+    "笔记/前端/assets/Pasted image 20230605141647.png",
+    "笔记/_gsdata_/2023-0605-141643-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/_gsdata_/2023-0605-141558-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/编程语言/CSS/CSS Module.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/_gsdata_/2023-0605-141510-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-141410-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-141309-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-141206-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-141103-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-141000-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-140857-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-140757-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-140654-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-140551-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-140451-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/assets/Pasted image 20230605111246.png",
     "笔记/前端/assets/Pasted image 20230605110858.png",
@@ -2541,11 +2571,8 @@
     "笔记/前端/assets/Pasted image 20230605105547.png",
     "笔记/前端/assets/Pasted image 20230605104640.png",
     "笔记/前端/assets/Pasted image 20230605104456.png",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS Reset.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2556,15 +2583,12 @@
     "笔记/前端/库、框架/UI库/props.md",
     "笔记/前端/库、框架/UI库/React元素.md",
     "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/通用概念/当下.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/行为/健身/手臂.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/操作系统/操作系统.md",
-    "笔记/内心/欲望.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
