@@ -8,7 +8,7 @@ git flow采用了[[FDD]]，
 	2. 短期分支
 		1. feature-功能分支
 			2. 从development创建
-		2. hotfix-补丁分支[^1]
+		2. hotfix-补丁分支[^1] 
 			1. 从master创建
 		3. release-预发分支
 			1. 从development创建
