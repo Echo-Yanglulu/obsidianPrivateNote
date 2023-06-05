@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md"
+                    "file": "笔记/前端/工程化/规范/代码规范.md"
                   }
                 }
               }
@@ -233,6 +233,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":16},\"to\":{\"line\":18,\"ch\":16}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "npm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -291,7 +303,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md",
+                    "file": "笔记/前端/工程化/规范/代码规范.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -2287,7 +2299,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/工程化/规范/代码规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2314,7 +2326,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/工程化/规范/代码规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2456,7 +2468,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -2651,19 +2663,22 @@
   },
   "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-162107-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/工程化/npm.md",
+    "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/_gsdata_/2023-0605-162407-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/_gsdata_/2023-0605-162307-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0605-162207-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-162107-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-162007-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-161907-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-161807-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-161707-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-161604-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-161540-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-161443-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-161440-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-161337-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/node/package.json.md",
-    "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/开发依赖.md",
     "笔记/前端/工程化/依赖.md",
     "笔记/前端/工程化/基本概念/CLI.md",
@@ -2676,7 +2691,6 @@
     "笔记/工具/语法/句子.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/工程化/缓存.md",
-    "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
     "Excalidraw/Scripts/Downloaded/Reverse arrows.md",
     "笔记/前端/设计模式/OO设计模式.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
@@ -2685,9 +2699,7 @@
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/规范/代码规范.md",
-    "笔记/前端/工程化/规范/CSS规范.md",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
     "笔记/前端/assets/Pasted image 20230605143434.png",
