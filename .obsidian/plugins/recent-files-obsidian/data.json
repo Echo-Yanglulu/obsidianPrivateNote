@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
     },
     {
-      "basename": "CSS模块化",
-      "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
-    },
-    {
       "basename": "布局",
       "path": "笔记/前端/编程语言/CSS/布局.md"
+    },
+    {
+      "basename": "CSS模块化",
+      "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
     },
     {
       "basename": "编程语言",
@@ -195,10 +199,6 @@
     {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
     }
   ],
   "omittedPaths": [
