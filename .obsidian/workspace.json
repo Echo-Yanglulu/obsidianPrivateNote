@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/代码规范.md"
+                    "file": "笔记/前端/工程化/规范/规范.md"
                   }
                 }
               }
@@ -233,6 +233,36 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "版本规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":22},\"to\":{\"line\":34,\"ch\":22}},\"scroll\":22.33483455882353}"
+                    },
+                    {
+                      "title": "规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":11},\"to\":{\"line\":11,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "版本规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":17},\"to\":{\"line\":7,\"ch\":17}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":11},\"to\":{\"line\":11,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "代码规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/代码规范.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":11},\"to\":{\"line\":44,\"ch\":11}},\"scroll\":18.638312187620144}"
+                    },
+                    {
                       "title": "ESLint",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/ESLint/ESLint.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -327,7 +357,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/代码规范.md",
+                    "file": "笔记/前端/工程化/规范/规范.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -2323,7 +2353,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/代码规范.md",
+                        "file": "笔记/前端/工程化/规范/规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2350,7 +2380,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/代码规范.md",
+                        "file": "笔记/前端/工程化/规范/规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2687,22 +2717,23 @@
   },
   "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-163337-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/git工程规范.md",
+    "笔记/_gsdata_/2023-0605-163622-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/_gsdata_/2023-0605-163552-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-163549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-163546-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/代码规范.md",
+    "笔记/_gsdata_/2023-0605-163443-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-163440-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/_gsdata_/2023-0605-163337-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/规范/ESLint/ESLint.md",
     "笔记/_gsdata_/2023-0605-163237-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-163137-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-163034-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-163031-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-163028-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/规范/代码规范.md",
     "笔记/前端/工程化/规范/Stylelint.md",
-    "笔记/_gsdata_/2023-0605-162925-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-162840-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/规范/规范.md",
-    "笔记/_gsdata_/2023-0605-162804-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/工程化/npm.md",
@@ -2722,7 +2753,6 @@
     "笔记/工具/语法/句子.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/工程化/缓存.md",
-    "Excalidraw/Scripts/Downloaded/Reverse arrows.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",

@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/规范/版本规范.md"
+    },
+    {
       "basename": "代码规范",
       "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
       "basename": "ESLint",
       "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "JS",
@@ -195,10 +199,6 @@
     {
       "basename": "副作用",
       "path": "笔记/前端/库、框架/UI库/副作用.md"
-    },
-    {
-      "basename": "健身",
-      "path": "笔记/行为/健身/健身.md"
     }
   ],
   "omittedPaths": [
