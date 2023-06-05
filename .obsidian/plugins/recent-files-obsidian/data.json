@@ -1,6 +1,78 @@
 {
   "recentFiles": [
     {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "事物",
+      "path": "笔记/工具/通用概念/事物.md"
+    },
+    {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "手臂",
+      "path": "笔记/行为/健身/手臂.md"
+    },
+    {
+      "basename": "勇气",
+      "path": "笔记/工具/通用概念/勇气.md"
+    },
+    {
+      "basename": "布局",
+      "path": "笔记/前端/编程语言/CSS/布局.md"
+    },
+    {
+      "basename": "句子",
+      "path": "笔记/工具/语法/句子.md"
+    },
+    {
+      "basename": "过程",
+      "path": "笔记/工具/思考/过程.md"
+    },
+    {
+      "basename": "缓存",
+      "path": "笔记/前端/工程化/缓存.md"
+    },
+    {
+      "basename": "Set Link Alias",
+      "path": "Excalidraw/Scripts/Downloaded/Set Link Alias.md"
+    },
+    {
+      "basename": "Reverse arrows",
+      "path": "Excalidraw/Scripts/Downloaded/Reverse arrows.md"
+    },
+    {
+      "basename": "OO设计模式",
+      "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "Expand rectangles horizontally keep text centered",
+      "path": "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md"
+    },
+    {
+      "basename": "Box Each Selected Groups",
+      "path": "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md"
+    },
+    {
+      "basename": "Prettier",
+      "path": "笔记/前端/工程化/工具/Prettier.md"
+    },
+    {
+      "basename": "计算机基础",
+      "path": "笔记/前端/基础知识/计算机基础.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
       "basename": "代码规范",
       "path": "笔记/前端/工程化/规范/代码规范.md"
     },
@@ -13,16 +85,8 @@
       "path": "笔记/前端/工程化/工程设计/工程设计.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
-      "basename": "布局",
-      "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "CSS模块化",
@@ -31,10 +95,6 @@
     {
       "basename": "编程语言",
       "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "函数组件",
@@ -59,30 +119,6 @@
     {
       "basename": "react组件",
       "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "句子",
-      "path": "笔记/工具/语法/句子.md"
-    },
-    {
-      "basename": "过程",
-      "path": "笔记/工具/思考/过程.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
-    },
-    {
-      "basename": "勇气",
-      "path": "笔记/工具/通用概念/勇气.md"
-    },
-    {
-      "basename": "手臂",
-      "path": "笔记/行为/健身/手臂.md"
-    },
-    {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
     },
     {
       "basename": "欲望",
@@ -133,10 +169,6 @@
       "path": "笔记/工具/思考/关系判断.md"
     },
     {
-      "basename": "缓存",
-      "path": "笔记/前端/工程化/缓存.md"
-    },
-    {
       "basename": "库、框架",
       "path": "笔记/前端/库、框架/库、框架.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "模块",
       "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "HTML",
-      "path": "笔记/前端/编程语言/HTML/HTML.md"
-    },
-    {
-      "basename": "mobx",
-      "path": "笔记/前端/库、框架/UI库/mobx.md"
-    },
-    {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
-    },
-    {
-      "basename": "ReactDOM",
-      "path": "笔记/前端/库、框架/UI库/ReactDOM.md"
-    },
-    {
-      "basename": "值",
-      "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "纯函数",
-      "path": "笔记/前端/库、框架/UI库/纯函数.md"
     }
   ],
   "omittedPaths": [

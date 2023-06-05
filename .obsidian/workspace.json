@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/node/node.md"
+                    "file": "笔记/前端/工程化/npm.md"
                   }
                 }
               }
@@ -233,6 +233,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":10},\"to\":{\"line\":14,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "事物",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
+                    },
+                    {
                       "title": "未命名",
                       "icon": "lucide-layout-dashboard",
                       "state": "{\"type\":\"canvas\",\"state\":{\"file\":\"笔记/内心/未命名.canvas\",\"viewState\":{\"x\":227,\"y\":176,\"zoom\":0}}}",
@@ -279,7 +291,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/事物.md",
+                    "file": "笔记/前端/工程化/npm.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -1541,6 +1553,66 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Reverse arrows",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}},\"scroll\":147.52586817859674}"
+                    },
+                    {
+                      "title": "Expand rectangles horizontally keep text centered",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Box Each Selected Groups",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "Prettier",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":26},\"to\":{\"line\":4,\"ch\":26}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Reverse arrows",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":54},\"to\":{\"line\":14,\"ch\":54}}}"
+                    },
+                    {
+                      "title": "Prettier",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":60},\"to\":{\"line\":4,\"ch\":60}}}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":43},\"to\":{\"line\":13,\"ch\":43}}}"
+                    },
+                    {
+                      "title": "计算机基础",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
+                    },
+                    {
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1557,7 +1629,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机基础.md",
+                    "file": "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2189,7 +2261,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -2215,7 +2287,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/node/node.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2242,7 +2314,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/node/node.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2306,11 +2378,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "欲望",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -2577,54 +2649,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "45661fb8c3a1a0f9",
+  "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-160319-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/前端.md",
+    "笔记/工具/通用概念/事物.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/行为/健身/手臂.md",
+    "笔记/工具/通用概念/勇气.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/工具/语法/句子.md",
+    "笔记/工具/思考/过程.md",
+    "笔记/前端/工程化/缓存.md",
+    "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
+    "笔记/_gsdata_/2023-0605-160531-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "Excalidraw/Scripts/Downloaded/Reverse arrows.md",
+    "笔记/_gsdata_/2023-0605-160507-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/设计模式/OO设计模式.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md",
+    "笔记/前端/工程化/工具/Prettier.md",
+    "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
+    "笔记/_gsdata_/2023-0605-160437-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-160413-DESKTOP-YLL-Job1.log",
+    "笔记/前端/基础知识/计算机基础.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/_gsdata_/2023-0605-160319-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-160216-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-160113-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-160010-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-155910-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-155810-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-155707-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-155643-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-155616-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/前端/工程化/规范/代码规范.md",
     "笔记/前端/工程化/规范/CSS规范.md",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/前端/工程化/工程设计/工程设计范式.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/规范/git工程规范.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/assets/Pasted image 20230605143517.png",
     "笔记/前端/assets/Pasted image 20230605143434.png",
-    "笔记/前端/编程语言/CSS/布局.md",
-    "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/编程语言/CSS/CSS组件化.md",
     "笔记/前端/assets/Pasted image 20230605141909.png",
     "笔记/前端/assets/Pasted image 20230605141647.png",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/CSS/CSS Module.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230605111246.png",
     "笔记/前端/assets/Pasted image 20230605110858.png",
     "笔记/前端/assets/Pasted image 20230605110710.png",
     "笔记/前端/assets/Pasted image 20230605110314.png",
-    "笔记/前端/assets/Pasted image 20230605110310.png",
-    "笔记/前端/编程语言/CSS/CSS Reset.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
-    "笔记/前端/库、框架/UI库/context.md",
-    "笔记/工具/语法/句子.md",
-    "笔记/工具/思考/过程.md",
-    "笔记/前端/库、框架/UI库/state.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
