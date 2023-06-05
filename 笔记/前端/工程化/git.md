@@ -13,7 +13,6 @@ git hook：提升协同代码质量
 # 命令
 代码所处位置：工作区，暂存区。
 通过git status查看两个区的工作状态
-![[Pasted image 20230605170218.png]] 
 命令行：. 代表当前目录
 
 1. git config

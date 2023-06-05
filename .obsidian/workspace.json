@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/node/git命令.md"
+                    "file": "笔记/前端/工程化/git.md"
                   }
                 }
               }
@@ -226,17 +226,17 @@
                 "id": "a7880ee379446c00",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
                     {
-                      "state": "{}",
+                      "title": "git命令",
+                      "icon": "blocks",
+                      "state": "{\"type\":\"mindmapview\",\"state\":{\"file\":\"笔记/前端/工程化/node/git命令.md\"}}",
                       "eState": "{}"
                     },
                     {
-                      "title": "git",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":15.227497096399535}"
+                      "state": "{}",
+                      "eState": "{}"
                     },
                     {
                       "title": "版本控制",
@@ -373,9 +373,12 @@
                   ]
                 },
                 "state": {
-                  "type": "mindmapview",
+                  "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/node/git命令.md"
+                    "file": "笔记/前端/工程化/git.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
                   }
                 }
               },
@@ -2368,7 +2371,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/node/git命令.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2395,7 +2398,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/node/git命令.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2731,19 +2734,18 @@
   },
   "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-170920-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/node/git命令.md",
+    "笔记/_gsdata_/2023-0605-171159-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0605-171132-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-171102-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-171017-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170953-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170920-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-170835-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-170732-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170702-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170629-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170556-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170520-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170517-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-170414-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/node/git命令.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
     "笔记/前端/工程化/git flow.md",
