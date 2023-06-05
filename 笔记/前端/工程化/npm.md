@@ -65,6 +65,9 @@ npm
 		在文件夹中生成一个[[package.json]]文件
 	run 运行脚本
 	install 安装依赖
+		1. --save-dev：安装并加入devDependencies
+		2. --save：安装并加入dependencies
+		3. 无参数：只安装，不修改package.json【可以自己安装一些小工具，不会上传到项目文件夹中，因为这样操作只修改node_modules文件夹，而该文件夹一般被git忽略】
 	update 升级依赖
 	set 设置环境变量，如：npm set init-author-name 'Your name'
 	info 查看某个包的信息，如：npm info lodash
