@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
+    },
+    {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "组件",
       "path": "笔记/前端/库、框架/UI库/组件.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
     },
     {
       "basename": "句子",
@@ -43,10 +55,6 @@
     {
       "basename": "计算机基础",
       "path": "笔记/前端/基础知识/计算机基础.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "欲望",
@@ -157,10 +165,6 @@
       "path": "笔记/前端/编程语言/HTML/HTML.md"
     },
     {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
-    },
-    {
       "basename": "mobx",
       "path": "笔记/前端/库、框架/UI库/mobx.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HOC",
       "path": "笔记/前端/库、框架/UI库/HOC.md"
-    },
-    {
-      "basename": "react-router",
-      "path": "笔记/前端/库、框架/UI库/react-router.md"
     }
   ],
   "omittedPaths": [
