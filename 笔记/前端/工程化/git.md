@@ -14,42 +14,44 @@ git hook：提升协同代码质量
 代码所处位置：工作区，暂存区。
 通过git status查看两个区的工作状态
 命令行：. 代表当前目录
-
-1. git config
+[[git命令]] 
+1. git  \<command> -h 多查文档
+2. git config
 	1. --local 设置git 配置：仅对当前仓库/项目有效
-	2. --global 对当前用户的所有仓库有效
-	3. --system 对所有用户的仓库有效
+	2. --global 对*当前用户*的所有仓库有效
+		1. user.name
+	3. --system 对使用整个系统的*所有用户*的仓库有效
 	4. --list --local 查看local的git配置
 	5. 同时设置了global与local时，当前仓库认为Local优先级最高
-2. git add
+3. git add
 	1. \. :添加【当前路径】文件到暂存区（还没有被commit：正式进入版本历史）
 	2. filename 添加该文件
 	3. portfolio
 	4. 文件名 文件夹
 	5. -u 把所有更新的文件提交到暂存区
-3. git commit
+4. git commit
 	1. --amend 修改提交信息
 	2. --amend -m '' 修改提交信息为
-4. git checkout 
+5. git checkout 
 	1.  -b a b 基于分支/提交记录b创建分支a。
-5. git rm   删除
-6. git merge 合并
-7. git rebase 变基
+6. git rm   删除
+7. git merge 合并
+8. git rebase 变基
 	1. -i  + [[hash值]] ，可合并该hash之后（**不含**）的提交。
-8. gi reset
+9. gi reset
 	1. 无命令：取消暂存
 	2. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
-9. git branch
+10. git branch
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
-10. git remote
+11. git remote
 	1. 无命令：查看连接的远程仓库
 	2. -v  查看本地与远程的仓库
 	3. add origin
 		1. add github git@github.com:gitajodif/git_learning.git  添加某个常用仓库并命名
-11. git list
-12. git diff 比较两个提交的差异
+12. git list
+13. git diff 比较两个提交的差异
 	1. HEAD HEAD~2/HEAD^^
-13. gitk 查看diff
+14. gitk 查看diff
 	1. 每个终点，都代表当前仓库有至少一个分支
 git status => gst
 # git hook
