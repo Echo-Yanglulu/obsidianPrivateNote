@@ -60,7 +60,7 @@ cascading style sheet：层叠样式表
 		4. rgb
 		5. rgba
 1. overflow（内容超出）
-	1. auto：自动滚动条（默认）：超出则有，否则没有
+	1. auto：自动滚动条：超出则有，否则没有【默认值】
 	2. scroll：有滚动条(win)，（mac下auto与scroll效果相同）
 	3. hidden：无滚动条，超出隐藏
 	4. visible：无滚动条，超出展示
