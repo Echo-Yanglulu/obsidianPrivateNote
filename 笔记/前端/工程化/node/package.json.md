@@ -8,7 +8,7 @@
 # version
 版本号
 [[]]
-# dependencies:
+# dependencies
 离开该依赖项则项目无法正常**运行**（运行依赖）
 ## 版本号
 
