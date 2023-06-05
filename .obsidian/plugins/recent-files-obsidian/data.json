@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
+      "basename": "代码规范",
+      "path": "笔记/前端/工程化/规范/代码规范.md"
+    },
+    {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Function",
       "path": "笔记/前端/编程语言/JS/基本概念/Function.md"
-    },
-    {
-      "basename": "JS",
-      "path": "笔记/前端/编程语言/JS/JS.md"
     }
   ],
   "omittedPaths": [
