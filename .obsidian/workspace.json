@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md"
+                    "file": "笔记/前端/工程化/node/未命名思维导图.md"
                   }
                 }
               }
@@ -233,6 +233,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "git",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":15.227497096399535}"
+                    },
+                    {
                       "title": "版本控制",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -367,12 +373,9 @@
                   ]
                 },
                 "state": {
-                  "type": "markdown",
+                  "type": "mindmapview",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
+                    "file": "笔记/前端/工程化/node/未命名思维导图.md"
                   }
                 }
               },
@@ -2365,7 +2368,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/工程化/node/未命名思维导图.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2392,7 +2395,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/工程化/node/未命名思维导图.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2533,8 +2536,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2729,22 +2731,25 @@
   },
   "active": "a7880ee379446c00",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-165950-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170347-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/工程化/node/未命名思维导图.md",
+    "笔记/前端/工程化/Untitled Diagram.svg",
+    "笔记/_gsdata_/2023-0605-170244-DESKTOP-YLL-Job1.log",
+    "笔记/前端/assets/Pasted image 20230605170218.png",
+    "笔记/_gsdata_/2023-0605-170217-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170153-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170150-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-170050-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-165950-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-165850-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-165747-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-165720-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/git flow.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/规范/git工程规范.md",
-    "笔记/_gsdata_/2023-0605-165638-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/前端/assets/Pasted image 20230605165639.png",
     "笔记/前端/assets/Pasted image 20230605165556.png",
-    "笔记/_gsdata_/2023-0605-165535-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-165511-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-165417-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-165353-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/规范/FDD.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/版本控制/基本概念.md",
@@ -2766,15 +2771,12 @@
     "笔记/前端/工程化/依赖.md",
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/前端.md",
-    "笔记/工具/通用概念/事物.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
     "笔记/前端/assets/Pasted image 20230605143434.png",
     "笔记/前端/assets/Pasted image 20230605141909.png",
     "笔记/前端/assets/Pasted image 20230605141647.png",
-    "笔记/前端/assets/Pasted image 20230605111246.png",
-    "笔记/前端/assets/Pasted image 20230605110858.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
