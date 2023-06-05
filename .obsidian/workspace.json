@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md"
+                    "file": "笔记/工具/通用概念/勇气.md"
                   }
                 }
               }
@@ -47,6 +47,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "生活",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/生活.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "人",
@@ -215,7 +227,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/人的属性.md",
+                    "file": "笔记/工具/通用概念/勇气.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2344,8 +2356,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -2371,7 +2382,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/工具/通用概念/勇气.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2398,7 +2409,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/工具/通用概念/勇气.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2539,7 +2550,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2732,21 +2744,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a7880ee379446c00",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-173017-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0605-172917-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-173344-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/工具/通用概念/生活.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/_gsdata_/2023-0605-173317-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-173217-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-173117-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-173017-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-172917-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-172817-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-172717-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-172617-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-172517-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-172417-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-172317-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-172217-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/node/git命令.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
     "笔记/前端/工程化/git flow.md",
@@ -2772,8 +2786,6 @@
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/开发依赖.md",
     "笔记/前端/工程化/依赖.md",
-    "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
