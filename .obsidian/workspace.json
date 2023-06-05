@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/布局.md"
+                    "file": "笔记/前端/编程语言/CSS/CSS模块化.md"
                   }
                 }
               }
@@ -1783,6 +1783,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":7},\"to\":{\"line\":100,\"ch\":7}},\"scroll\":70.79843672456576}"
+                    },
+                    {
                       "title": "CSS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2087,7 +2093,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/布局.md",
+                    "file": "笔记/前端/编程语言/CSS/CSS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2179,7 +2185,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS模块化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2206,7 +2212,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS模块化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2541,28 +2547,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "8610c0f2b3dca9d0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-142013-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-142334-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0605-141949-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/_gsdata_/2023-0605-142258-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/CSS组件化.md",
+    "笔记/_gsdata_/2023-0605-142255-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/CSS/CSS模块化.md",
+    "笔记/_gsdata_/2023-0605-142152-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/_gsdata_/2023-0605-142116-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-142013-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-141949-DESKTOP-YLL-Job1.log",
     "笔记/前端/assets/Pasted image 20230605141909.png",
     "笔记/_gsdata_/2023-0605-141849-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-141825-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-141749-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-141746-DESKTOP-YLL-Job1.log",
     "笔记/前端/assets/Pasted image 20230605141647.png",
-    "笔记/_gsdata_/2023-0605-141643-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/_gsdata_/2023-0605-141558-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/_gsdata_/2023-0605-141510-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/assets/Pasted image 20230605111246.png",
     "笔记/前端/assets/Pasted image 20230605110858.png",
     "笔记/前端/assets/Pasted image 20230605110710.png",
@@ -2572,7 +2580,6 @@
     "笔记/前端/assets/Pasted image 20230605105658.png",
     "笔记/前端/assets/Pasted image 20230605105547.png",
     "笔记/前端/编程语言/CSS/CSS Reset.md",
-    "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2588,7 +2595,6 @@
     "笔记/工具/通用概念/勇气.md",
     "笔记/行为/健身/手臂.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/基础知识/操作系统/操作系统.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
