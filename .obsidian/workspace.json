@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/代码规范.md"
+                    "file": "笔记/前端/工程化/规范/规范.md"
                   }
                 }
               }
@@ -1783,6 +1783,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":8},\"to\":{\"line\":10,\"ch\":8}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "代码规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/代码规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":0},\"to\":{\"line\":41,\"ch\":0}},\"scroll\":20.24585982552122}"
+                    },
+                    {
                       "title": "CSS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2111,7 +2123,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/代码规范.md",
+                    "file": "笔记/前端/工程化/工程化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2203,7 +2215,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/代码规范.md",
+                        "file": "笔记/前端/工程化/规范/规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2230,7 +2242,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/代码规范.md",
+                        "file": "笔记/前端/工程化/规范/规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2565,23 +2577,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "d4a996e3ba083fe9",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0605-151240-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0605-151516-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/工程化/工程设计/工程设计.md",
+    "笔记/前端/工程化/工程设计/工程设计范式.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/_gsdata_/2023-0605-151428-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/_gsdata_/2023-0605-151355-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/代码规范.md",
+    "笔记/_gsdata_/2023-0605-151346-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/_gsdata_/2023-0605-151343-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/git工程规范.md",
+    "笔记/_gsdata_/2023-0605-151240-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-151216-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0605-151213-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/规范/代码规范.md",
     "笔记/_gsdata_/2023-0605-151110-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-151107-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/规范/git工程规范.md",
-    "笔记/_gsdata_/2023-0605-151104-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-151001-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-150928-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0605-150925-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/规范/CSS规范.md",
     "笔记/前端/assets/Pasted image 20230605143517.png",
     "笔记/前端/assets/Pasted image 20230605143434.png",
@@ -2609,10 +2625,6 @@
     "笔记/工具/语法/句子.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/库、框架/UI库/state.md",
-    "笔记/前端/库、框架/UI库/props.md",
-    "笔记/前端/库、框架/UI库/React元素.md",
-    "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/工具/思考/思考.md",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]

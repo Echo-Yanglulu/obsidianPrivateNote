@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "规范",
+      "path": "笔记/前端/工程化/规范/规范.md"
+    },
+    {
+      "basename": "工程设计",
+      "path": "笔记/前端/工程化/工程设计/工程设计.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
       "basename": "代码规范",
       "path": "笔记/前端/工程化/规范/代码规范.md"
     },
     {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     },
     {
       "basename": "布局",
@@ -121,10 +129,6 @@
       "path": "笔记/前端/工程化/模块化.md"
     },
     {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
       "basename": "关系判断",
       "path": "笔记/工具/思考/关系判断.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "纯函数",
       "path": "笔记/前端/库、框架/UI库/纯函数.md"
-    },
-    {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/基本概念/Function.md"
     }
   ],
   "omittedPaths": [
