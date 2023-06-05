@@ -1,4 +1,4 @@
-高度可配置的JS静态代码检查工具，已成为==JS代码检查==的事实标准。
+高度可配置的JS代码静态检查工具，已成为==JS代码检查==的事实标准。
 # 特性
 1. 完全可插拔，一切行为通过配置产生
 2. rule之间相互独立
@@ -31,7 +31,6 @@ webpack/rollup/gulp/grunt/vite ，
 ![[编写自己的ESLint规范.png]]
 meta对象：信息
 create方法：接收context对象，返回包含遍历规则的对象。
-
 demo解析：
 	1. MemberExpression[^1]：一种[[检查时机]]接收的是[[AST]] 中的节点（需要了解它的规范）。在eslint遍历AST时，如果遇到MemberExpression ，将调用这个方法[^2]
 	2. 如果遇到该类型节点，就调用eslint上下文提供的report方法提示报错信息。

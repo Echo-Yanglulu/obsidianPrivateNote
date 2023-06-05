@@ -1,7 +1,4 @@
----
-时间: 20220827
----
-生态最丰富的样式代码检查方案（css, less, sass, stylus）
+生态最丰富的CSS代码检查方案（css, less, sass, stylus）
 
 特点：
 	1. 社区活跃，生态丰富
