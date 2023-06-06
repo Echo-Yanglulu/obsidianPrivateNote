@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/工程化/git.md"
                   }
                 }
               }
@@ -2309,6 +2309,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "版本控制",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":10},\"to\":{\"line\":23,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "CSS Module",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":30},\"to\":{\"line\":8,\"ch\":30}}}"
+                    },
+                    {
                       "title": "CSS模块化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2349,7 +2361,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS Module.md",
+                    "file": "笔记/前端/工程化/git.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2357,7 +2369,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -2383,7 +2395,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2410,7 +2422,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2552,7 +2564,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2745,21 +2757,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "18a820d70d0ed9f8",
+  "active": "506196fad33456e0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0606-085136-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0606-085439-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0606-085415-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0606-085324-DESKTOP-YLL-Job1.log",
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/编程语言/CSS/CSS Module.md",
+    "笔记/_gsdata_/2023-0606-085236-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/缓存.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/_gsdata_/2023-0606-085136-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0606-085036-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0606-084936-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0606-084836-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0606-084736-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0606-084636-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0606-084536-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0606-084436-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0606-084333-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0606-084330-DESKTOP-YLL-Job1.log",
     "笔记/内心/匹夫.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/觉悟.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/工具/通用概念/生活.md",
@@ -2773,7 +2789,6 @@
     "笔记/前端/assets/Pasted image 20230605165639.png",
     "笔记/前端/assets/Pasted image 20230605165556.png",
     "笔记/前端/工程化/规范/FDD.md",
-    "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/版本控制/基本概念.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
@@ -2784,9 +2799,6 @@
     "笔记/前端/工程化/规范/Stylelint.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/工程化/npm.md",
-    "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
-    "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
