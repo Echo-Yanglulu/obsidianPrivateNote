@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -1963,6 +1963,18 @@
                       "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":1,\"ch\":10}}}"
                     },
                     {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":10},\"to\":{\"line\":6,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "计算机基础",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":1,\"ch\":10}}}"
+                    },
+                    {
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2339,7 +2351,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2443,7 +2455,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2470,7 +2482,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2808,6 +2820,7 @@
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
     "笔记/前端/基础知识/计算机基础.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/工程化/缓存.md",
@@ -2846,7 +2859,6 @@
     "笔记/前端/工程化/规范/FDD.md",
     "笔记/前端/版本控制/基本概念.md",
     "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
