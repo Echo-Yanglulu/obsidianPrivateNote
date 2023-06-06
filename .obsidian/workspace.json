@@ -1957,6 +1957,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":9},\"to\":{\"line\":12,\"ch\":9}},\"scroll\":6.552983081032948}"
+                    },
+                    {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                    },
+                    {
                       "title": "计算机基础",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2831,9 +2843,11 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/前端/库、框架/UI库/网络抓取.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/前端.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/行为/健身/部位/胸部.md",
@@ -2869,8 +2883,6 @@
     "笔记/前端/assets/Pasted image 20230605165639.png",
     "笔记/前端/assets/Pasted image 20230605165556.png",
     "笔记/前端/工程化/规范/FDD.md",
-    "笔记/前端/版本控制/基本概念.md",
-    "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",

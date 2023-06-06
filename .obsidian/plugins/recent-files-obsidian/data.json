@@ -5,6 +5,14 @@
       "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
     },
     {
+      "basename": "网络请求",
+      "path": "笔记/前端/编程语言/JS/网络请求.md"
+    },
+    {
+      "basename": "网络抓取",
+      "path": "笔记/前端/库、框架/UI库/网络抓取.md"
+    },
+    {
       "basename": "计算机基础",
       "path": "笔记/前端/基础知识/计算机基础.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "styled-component",
       "path": "笔记/前端/编程语言/CSS/styled-component.md"
-    },
-    {
-      "basename": "活在当下指南",
-      "path": "笔记/内心/活在当下指南.md"
-    },
-    {
-      "basename": "create-react-app",
-      "path": "笔记/前端/库、框架/UI库/create-react-app.md"
     }
   ],
   "omittedPaths": [
