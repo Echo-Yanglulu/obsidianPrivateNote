@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
                   }
                 }
               }
@@ -1957,6 +1957,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "计算机基础",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":10},\"to\":{\"line\":1,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":38},\"to\":{\"line\":8,\"ch\":38}}}"
+                    },
+                    {
                       "title": "react组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2321,7 +2339,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2399,7 +2417,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -2425,7 +2443,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2452,7 +2470,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2594,7 +2612,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2787,11 +2805,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机基础.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/工程化/缓存.md",
+    "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/手臂.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/_gsdata_/2023-0606-151823-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -2810,7 +2832,6 @@
     "笔记/前端/工程化/git.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
-    "笔记/前端/工程化/缓存.md",
     "笔记/内心/匹夫.md",
     "笔记/内心/觉悟.md",
     "笔记/工具/通用概念/生活.md",
@@ -2826,9 +2847,6 @@
     "笔记/前端/版本控制/基本概念.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/规范/release-it.md",
-    "笔记/前端/工程化/规范/代码规范.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
