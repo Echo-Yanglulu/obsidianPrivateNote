@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/工程化/工程化.md"
                   }
                 }
               }
@@ -1749,6 +1749,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":12},\"to\":{\"line\":10,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":137,\"ch\":13},\"to\":{\"line\":137,\"ch\":13}},\"scroll\":120.08796296296296}"
+                    },
+                    {
                       "title": "JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2047,7 +2059,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/工程化/工程化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2587,7 +2599,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2614,7 +2626,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2951,12 +2963,12 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/测试.md",
