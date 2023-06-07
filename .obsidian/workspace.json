@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/JS.md"
                   }
                 }
               }
@@ -1749,6 +1749,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":94.41666666666667}"
+                    },
+                    {
                       "title": "JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2035,7 +2041,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2575,7 +2581,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/JS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2602,7 +2608,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2937,10 +2943,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "ac45321a494cbeed",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
