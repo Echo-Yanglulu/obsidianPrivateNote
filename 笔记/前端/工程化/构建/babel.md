@@ -25,11 +25,25 @@ babel会为[[ES规范]]的前4个阶段提供专门的preset。但babel 7已不�
 	2. 反向执行
 在配置中体现为module.rules字段
 ```js
-module: {
-	rules:[
-		{test: '/\.txt$', use: 'raw-loader'}
-	]
-}
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
+          },
+          { loader: 'sass-loader' },
+        ],
+      },
+    ],
+  },
+};
 ```
 ## plugin（最基础的工具）
 作为前端**工程化构建工具**之一，也是**插件化**的。
