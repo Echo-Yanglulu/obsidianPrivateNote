@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/勇气.md"
+                    "file": "笔记/工具/通用概念/生活.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "勇气",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/勇气.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":26},\"to\":{\"line\":16,\"ch\":26}}}"
                     },
                     {
                       "title": "生活",
@@ -227,7 +233,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/勇气.md",
+                    "file": "笔记/工具/通用概念/生活.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2440,7 +2446,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/勇气.md",
+                        "file": "笔记/工具/通用概念/生活.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2467,7 +2473,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/勇气.md",
+                        "file": "笔记/工具/通用概念/生活.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2609,7 +2615,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2804,6 +2810,7 @@
   },
   "active": "e85da53958190f2e",
   "lastOpenFiles": [
+    "笔记/工具/通用概念/勇气.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/拉伸.md",
@@ -2830,7 +2837,6 @@
     "笔记/前端/工程化/质量/E2E测试.md",
     "笔记/前端/工程化/质量/功能测试.md",
     "笔记/前端/工程化/mock.md",
-    "笔记/前端/工程化/质量/BDD.md",
     "笔记/_gsdata_/2023-0606-151823-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0606-151723-DESKTOP-YLL-Job1.log",
