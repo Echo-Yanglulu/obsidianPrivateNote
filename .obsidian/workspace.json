@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/时间.md"
+                    "file": "笔记/前端/编程语言/编程语言.md"
                   }
                 }
               }
@@ -2373,6 +2373,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "git",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":4},\"to\":{\"line\":12,\"ch\":4}}}"
+                    },
+                    {
                       "title": "版本控制",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2425,7 +2437,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md",
+                    "file": "笔记/前端/编程语言/编程语言.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2433,7 +2445,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -2459,7 +2471,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/时间.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2486,7 +2498,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/时间.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2628,7 +2640,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2821,27 +2833,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2fda5d051146f692",
+  "active": "506196fad33456e0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0607-151640-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0607-151537-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-151958-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/YAML.md",
+    "笔记/_gsdata_/2023-0607-151904-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/_gsdata_/2023-0607-151843-DESKTOP-YLL-Job1.log",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/时间.md",
+    "笔记/_gsdata_/2023-0607-151743-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-151640-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-151537-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-151434-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-151331-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-151228-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-151125-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-151022-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-150919-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-150816-DESKTOP-YLL-Job1.log",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/时间.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/挣扎.md",
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/生活.md",
     "笔记/工具/通用概念/勇气.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/拉伸.md",
     "笔记/行为/健身/健身.md",
@@ -2851,14 +2867,10 @@
     "笔记/前端/工程化/构建/Browserify.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/测试.md",
     "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
