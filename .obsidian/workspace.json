@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+                    "file": "笔记/前端/工程化/构建/构建.md"
                   }
                 }
               }
@@ -1979,6 +1979,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":11},\"to\":{\"line\":25,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":11},\"to\":{\"line\":15,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":12},\"to\":{\"line\":9,\"ch\":12}}}"
+                    },
+                    {
                       "title": "网络请求",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2397,7 +2415,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                    "file": "笔记/前端/工程化/构建/构建.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2431,7 +2449,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2458,7 +2476,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2795,6 +2813,9 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/心流.md",
@@ -2803,7 +2824,6 @@
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/context.md",
     "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/_gsdata_/2023-0607-170011-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0607-165908-DESKTOP-YLL-Job1.log",
@@ -2815,7 +2835,6 @@
     "笔记/_gsdata_/2023-0607-165250-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-165226-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端工作.md",
-    "笔记/前端/前端.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/BFC.md",
@@ -2830,7 +2849,6 @@
     "笔记/前端/工程化/git.md",
     "笔记/工具/通用概念/时间.md",
     "笔记/内心/挣扎.md",
-    "笔记/内心/内心.md",
     "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
