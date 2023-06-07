@@ -9,6 +9,7 @@
 *? 2. General UI
 *?   - Workspace
 *?   - Menus
+*?   - Canvas
 *? 4. Markdown
 *?   - Emphasis
 *?   - Code
@@ -44,7 +45,7 @@
 
   --checkbox-size: 14px;
 
-  --list-indent: 24px;
+  --list-indent: var(--list-indent-custom, 24px); /* Adjusted in Style Settings */
   --list-spacing: 0;
   --list-bullet-size: 6px;
 
@@ -107,6 +108,9 @@
   --tag-background-hover: hsla(var(--tag-color-hsl), 0.2);
 
   --checkbox-color: var(--fg-blue);
+
+  --canvas-background: transparent;
+  --canvas-dot-pattern: var(--color-base-50);
 
   /** Headers **/
 
@@ -366,6 +370,16 @@ button:hover {
 @keyframes modal-in {
   0% {opacity: 0}
   100% {opacity: 1}
+}
+
+
+/** Canvas **/
+
+/* Custom dot pattern size (style settings) */
+.canvas-background > pattern > circle {
+  cx: var(--canvas-dot-size, 0.7);
+  cy: var(--canvas-dot-size, 0.7);
+  r: var(--canvas-dot-size, 0.7);
 }
 
 
@@ -647,7 +661,9 @@ input.task-list-item-checkbox:checked
 
 /** Tables **/
 
-.markdown-rendered table {}
+.markdown-rendered table {
+  --line-height-tight: 1.375;
+}
 
 /* Fix margins in source mode */
 .markdown-source-view table {
@@ -827,6 +843,7 @@ div:has(h1)+div p:has(.tag) {
 
 name: Everforest Enchanted
 id: everforest-enchanted-theme
+collapsed: false
 settings:
 -
   id: test-main-description
@@ -836,8 +853,15 @@ settings:
   type: info-text
   markdown: true
 -
+  id: workspace-settings
+  title: Editor
+  description: Line length, floating gutters
+  type: heading
+  level: 1
+  collapsed: true
+-
   id: readable-line-length-custom
-  title: Readable line length value
+  title: Line length
   description: Sets a custom readable line width in pixels
   type: variable-number
   default: 700
@@ -845,44 +869,59 @@ settings:
 -
   id: stacked-panes-gutter-disable-float
   title: Disable stacked tabs floating gutters
-  description: Disables gutters from being floated left of content in stacked tabs. This makes gutters shift over the content in stacked tabs. Use this if your panes are too thin to show gutters.
+  description: Disables custom gutter floating in the stacked tab mode. This makes gutters shift over the content in stacked tabs. Use this if your panes are too thin to show gutters.
   type: class-toggle
 -
-  id: extra-appearance-settings
-  title: Extra Appearance Settings
+  id: element-settings
+  title: Elements
+  description: Lists, tables, canvas
   type: heading
   level: 1
   collapsed: true
 -
-  id: extra-appearance-settings-description
-  title: Info
-  description: |
-    Various extra styles to change the asesthetic of certian elements.
-  type: info-text
-  markdown: true
+  id: list-indent-custom
+  title: Lists - List indent size
+  description: The size of list item indents. The default theme uses 32 px.
+  type: variable-number
+  default: 24
+  format: px
 -
   id: rounded-tables
-  title: Rounded Tables
+  title: Tables - Rounded corners
   description: Adds a rounded effect to table corners
   type: class-toggle
 -
   id: rounded-tables-radius
-  title: Rounded Tables Radius
+  title: Tables - Rounded corners radius
   description: The corner radius of rounded tables. You may need to reload tabs to see the effect.
   type: variable-number
   default: 8
   format: px
 -
-  id: custom-stacked-panes
-  title: Custom Stacked Panes
+  id: canvas-dot-size
+  title: Canvas - Background dot size
+  description: The size of dots on the canvas. It starts breaking past 10.
+  type: variable-number
+  default: 0.7
+  format: px
+-
+  id: extra-appearance-settings
+  title: Extras
+  description: Stacked pane count, background image
   type: heading
   level: 1
+  collapsed: true
+-
+  id: custom-stacked-panes
+  title: Stacked Pane Count
+  type: heading
+  level: 2
   collapsed: true
 -
   id: custom-stacked-panes-description
   title: Info
   description: |
-    Custom stacked panes. These will convert the sizes of stacked panes from pixels to a percentage of the screen based on the cound. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more infomation.
+    This setting turns stacked panes from a pixel width to a number visible on screen at once. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more infomation.
   type: info-text
   markdown: true
 -
@@ -901,15 +940,15 @@ settings:
   step: 1
 -
   id: background-image
-  title: Custom Background Image
+  title: Background Image
   type: heading
-  level: 1
+  level: 2
   collapsed: true
 -
   id: background-image-description
   title: Info
   description: |
-    Background images are easiest with an external URL. If you want to use local images for offline access, you'll have to use a snippet. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_background_image.md) for more infomation.
+    Adds background images. This is easiest to do with an external URL. If you want to use local images for offline access, you'll have to use a snippet. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_background_image.md) for more infomation.
   type: info-text
   markdown: true
 -
@@ -994,7 +1033,7 @@ settings:
   id: background-image-fun
   title: Fun Settings
   type: heading
-  level: 2
+  level: 3
   collapsed: true
 -
   id: background-image-pane-view
@@ -1005,14 +1044,22 @@ settings:
 */
 
 /* Improve style setting appearance */
+[data-type="style-settings"] .view-content > div:last-child {
+  padding-bottom: 400px;
+}
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading {
   margin-bottom: 0;
 }
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading + .style-settings-container {
-  margin-top: 3px;
+  margin-top: 2px;
   padding-top: 16px;
   padding-left: 25px;
   border-left: 1px dashed var(--background-modifier-border);
+  border-bottom: 1px dashed var(--background-modifier-border);
+}
+.view-content .style-settings-container :is(.setting-item-control:has(input), input[type="text"]) {
+  width: 100%;
+  place-content: flex-start;
 }
 
 /** Extra Appearance Settings **/
