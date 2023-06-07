@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/质量/单元测试.md"
+                    "file": "笔记/前端/工程化/质量/test case.md"
                   }
                 }
               }
@@ -1749,6 +1749,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "单元测试",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/单元测试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":10},\"to\":{\"line\":11,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
                       "title": "BDD",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/BDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1993,7 +1999,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/质量/单元测试.md",
+                    "file": "笔记/前端/工程化/质量/测试.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2533,7 +2539,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/单元测试.md",
+                        "file": "笔记/前端/工程化/质量/test case.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2560,7 +2566,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/单元测试.md",
+                        "file": "笔记/前端/工程化/质量/test case.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2895,13 +2901,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "7c59ccaaf8aebf7f",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/Jest.md",
+    "笔记/前端/工程化/质量/测试.md",
+    "笔记/前端/工程化/质量/性能测试.md",
+    "笔记/前端/工程化/质量/E2E测试.md",
+    "笔记/前端/工程化/质量/功能测试.md",
+    "笔记/前端/工程化/质量/单元测试.md",
+    "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/质量/BDD.md",
     "笔记/前端/工程化/质量/TDD.md",
-    "笔记/前端/工程化/质量/单元测试.md",
-    "笔记/前端/工程化/质量/测试.md",
-    "笔记/前端/工程化/质量/E2E测试.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
@@ -2929,10 +2939,6 @@
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/版本控制/版本控制.md",
-    "笔记/前端/编程语言/CSS/CSS Module.md",
-    "笔记/内心/匹夫.md",
-    "笔记/内心/觉悟.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
     "笔记/前端/assets/Pasted image 20230605165639.png",
