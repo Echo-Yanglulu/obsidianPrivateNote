@@ -1742,17 +1742,23 @@
                 "id": "f3c650ca3ef69b7a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "TDD",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/TDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":2},\"to\":{\"line\":33,\"ch\":2}},\"scroll\":23.94026898734177}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "BDD",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/BDD.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":7},\"to\":{\"line\":10,\"ch\":7}},\"scroll\":23.9403}"
+                    },
+                    {
+                      "title": "单元测试",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/单元测试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":6},\"to\":{\"line\":19,\"ch\":6}},\"scroll\":0}"
                     },
                     {
                       "title": "测试",
@@ -2891,6 +2897,7 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/BDD.md",
     "笔记/前端/工程化/质量/TDD.md",
     "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/工程化/质量/测试.md",
@@ -2926,7 +2933,6 @@
     "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/内心/匹夫.md",
     "笔记/内心/觉悟.md",
-    "笔记/工具/通用概念/生活.md",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
     "笔记/前端/assets/Pasted image 20230605165639.png",
