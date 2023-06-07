@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "工程化",
+      "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
+    },
+    {
       "basename": "测试",
       "path": "笔记/前端/工程化/质量/测试.md"
     },
@@ -19,18 +31,6 @@
     {
       "basename": "TDD",
       "path": "笔记/前端/工程化/质量/TDD.md"
-    },
-    {
-      "basename": "质量",
-      "path": "笔记/前端/工程化/质量/质量.md"
-    },
-    {
-      "basename": "工程化",
-      "path": "笔记/前端/工程化/工程化.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "缓存",

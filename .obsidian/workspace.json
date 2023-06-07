@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/质量/单元测试.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -1749,6 +1749,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":4},\"to\":{\"line\":26,\"ch\":4}},\"scroll\":4.851851851851852}"
+                    },
+                    {
+                      "title": "质量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/质量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":16},\"to\":{\"line\":1,\"ch\":16}}}"
+                    },
+                    {
+                      "title": "测试",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/测试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "单元测试",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/单元测试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1999,7 +2017,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/质量/测试.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2539,7 +2557,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/单元测试.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2566,7 +2584,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/单元测试.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2901,21 +2919,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "76fa72440604b7e7",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230607090002.png",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/测试.md",
+    "笔记/前端/工程化/质量/单元测试.md",
+    "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/质量/Jest.md",
     "笔记/前端/工程化/质量/test case.md",
     "笔记/前端/工程化/质量/性能测试.md",
     "笔记/前端/工程化/质量/E2E测试.md",
     "笔记/前端/工程化/质量/功能测试.md",
-    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/质量/BDD.md",
     "笔记/前端/工程化/质量/TDD.md",
-    "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -2948,7 +2966,6 @@
     "笔记/前端/assets/Pasted image 20230605143517.png",
     "笔记/前端/assets/Pasted image 20230605143434.png",
     "笔记/前端/assets/Pasted image 20230605141909.png",
-    "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
