@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/缓存.md"
+                    "file": "笔记/前端/工程化/质量/单元测试.md"
                   }
                 }
               }
@@ -1749,6 +1749,36 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "测试",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/测试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":5},\"to\":{\"line\":8,\"ch\":5}}}"
+                    },
+                    {
+                      "title": "质量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/质量/质量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":16},\"to\":{\"line\":1,\"ch\":16}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":22},\"to\":{\"line\":9,\"ch\":22}},\"scroll\":9.925925925925926}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "缓存",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/缓存.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}}}"
+                    },
+                    {
                       "title": "计算机网络",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1939,7 +1969,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/缓存.md",
+                    "file": "笔记/前端/工程化/质量/单元测试.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2479,7 +2509,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/缓存.md",
+                        "file": "笔记/前端/工程化/质量/单元测试.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2506,7 +2536,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/缓存.md",
+                        "file": "笔记/前端/工程化/质量/单元测试.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2648,7 +2678,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2843,15 +2873,18 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/工程化/质量/测试.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/缓存.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/库、框架/UI库/网络抓取.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/前端.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/工程化/缓存.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/手臂.md",
     "笔记/工具/通用概念/勇气.md",
@@ -2868,7 +2901,6 @@
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/内心/匹夫.md",
@@ -2879,10 +2911,8 @@
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
     "笔记/前端/工程化/git flow.md",
-    "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/assets/Pasted image 20230605165639.png",
     "笔记/前端/assets/Pasted image 20230605165556.png",
-    "笔记/前端/工程化/规范/FDD.md",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
     "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/前端/assets/Pasted image 20230605143517.png",
