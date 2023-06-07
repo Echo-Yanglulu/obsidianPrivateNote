@@ -7,3 +7,7 @@
 ## 安装
 node版本
 	1. npm install scss-loader node-sass -D
+		1. 安装node-sass时需要先安装二进制包，可能卡顿
+		2. 在项目目录的.npmrc文件下修改![[Pasted image 20230607223258.png]]
+
+在[[webpack]]中使用![[Pasted image 20230607223442.png]]
