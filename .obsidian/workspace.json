@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/库、框架/UI库/context.md"
                   }
                 }
               }
@@ -1497,6 +1497,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Set Link Alias",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Set Link Alias.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
                       "title": "Reverse arrows",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1573,7 +1579,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
+                    "file": "笔记/前端/库、框架/UI库/react组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2469,7 +2475,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2495,7 +2501,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2522,7 +2528,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2857,8 +2863,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "506196fad33456e0",
+  "active": "e66f48c370bce869",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/context.md",
+    "Excalidraw/Scripts/Downloaded/Set Link Alias.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/_gsdata_/2023-0607-170011-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0607-165908-DESKTOP-YLL-Job1.log",
@@ -2869,7 +2880,6 @@
     "笔记/_gsdata_/2023-0607-165353-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-165250-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-165226-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-165147-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端工作.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/CSS/CSS.md",
@@ -2884,8 +2894,6 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/YAML.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/时间.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/挣扎.md",
@@ -2893,8 +2901,6 @@
     "笔记/工具/通用概念/生活.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/行为/健身/拉伸.md",
-    "笔记/行为/健身/健身.md",
     "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
