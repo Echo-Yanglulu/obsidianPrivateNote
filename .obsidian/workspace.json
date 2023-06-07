@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -2373,6 +2373,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":10},\"to\":{\"line\":31,\"ch\":10}},\"scroll\":16.037782996146436}"
+                    },
+                    {
                       "title": "编程语言",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2443,7 +2449,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2477,7 +2483,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2504,7 +2510,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2841,23 +2847,23 @@
   },
   "active": "506196fad33456e0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0607-152828-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153128-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/_gsdata_/2023-0607-153028-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-152928-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-152828-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-152725-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-152701-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/响应式布局.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/_gsdata_/2023-0607-152613-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/_gsdata_/2023-0607-152549-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-152449-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-152446-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-152343-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/视觉格式化基础.md",
-    "笔记/_gsdata_/2023-0607-152246-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/CSS组件化.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/编程语言/CSS/CSS常见问题.md",
