@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
       "basename": "构建",
       "path": "笔记/前端/工程化/构建/构建.md"
     },
@@ -11,6 +15,10 @@
     {
       "basename": "CSS预处理器",
       "path": "笔记/前端/工程化/CSS预处理器.md"
+    },
+    {
+      "basename": "CSS模块化",
+      "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
     },
     {
       "basename": "Sass",
@@ -51,10 +59,6 @@
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "笔记/前端/编程语言/CSS/CSS.md"
     },
     {
       "basename": "属性值与单位",
@@ -195,10 +199,6 @@
     {
       "basename": "代码规范",
       "path": "笔记/前端/工程化/规范/代码规范.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "笔记/前端/工程化/规范/ESLint/ESLint.md"
     }
   ],
   "omittedPaths": [
