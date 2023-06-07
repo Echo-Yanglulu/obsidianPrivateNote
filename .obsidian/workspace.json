@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md"
+                    "file": "笔记/前端/工程化/构建/打包工具.md"
                   }
                 }
               }
@@ -2449,7 +2449,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/打包工具.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2476,7 +2476,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/打包工具.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2617,8 +2617,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2811,8 +2810,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "231c1b69c3d25663",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/构建/打包工具.md",
+    "笔记/前端/工程化/构建/Browserify.md",
+    "笔记/前端/工程化/构建/Uglyfy.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
@@ -2845,10 +2848,6 @@
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/编程语言/CSS/CSS常见问题.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/编程语言/YAML.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/工具/通用概念/时间.md",
-    "笔记/内心/挣扎.md",
     "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
