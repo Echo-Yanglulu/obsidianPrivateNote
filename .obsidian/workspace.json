@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2373,6 +2373,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":130,\"ch\":0},\"to\":{\"line\":130,\"ch\":0}},\"scroll\":102.90393518518519}"
+                    },
+                    {
                       "title": "CSS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2449,7 +2455,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2483,7 +2489,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2510,7 +2516,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2847,18 +2853,20 @@
   },
   "active": "506196fad33456e0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0607-153443-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0607-153440-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153731-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0607-153728-DESKTOP-YLL-Job1.log",
+    "笔记/前端/前端.md",
+    "笔记/前端/前端工作.md",
+    "笔记/_gsdata_/2023-0607-153625-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153546-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153443-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0607-153440-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-153337-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0607-153258-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-153234-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-153231-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-153128-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/_gsdata_/2023-0607-153028-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0607-152928-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/布局.md",
@@ -2869,7 +2877,6 @@
     "笔记/前端/编程语言/CSS/CSS常见问题.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/编程语言/YAML.md",
-    "笔记/前端/前端.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -2882,7 +2889,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/拉伸.md",
     "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/部位/胸部.md",
     "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/前端/工程化/Untitled Diagram.svg",
     "笔记/前端/assets/Pasted image 20230605170218.png",
