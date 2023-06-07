@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -1749,6 +1749,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "打包工具",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/打包工具.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":29},\"to\":{\"line\":9,\"ch\":29}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":12},\"to\":{\"line\":33,\"ch\":12}},\"scroll\":14.566840277777779}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":27},\"to\":{\"line\":28,\"ch\":27}},\"scroll\":4.8519}"
+                    },
+                    {
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2059,7 +2077,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2599,7 +2617,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2626,7 +2644,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2963,13 +2981,16 @@
   },
   "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/打包工具.md",
+    "笔记/前端/工程化/构建/Browserify.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据格式.md",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/测试.md",
     "笔记/前端/工程化/质量/单元测试.md",
@@ -2987,9 +3008,6 @@
     "笔记/前端/工程化/git.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/库、框架/UI库/网络抓取.md",
-    "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/_gsdata_/2023-0606-151823-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0606-151723-DESKTOP-YLL-Job1.log",
