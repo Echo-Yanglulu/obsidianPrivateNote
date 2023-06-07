@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/行为/健身/拉伸.md"
                   }
                 }
               }
@@ -433,6 +433,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":75.90104166666667}"
+                    },
+                    {
                       "title": "手臂",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -725,7 +737,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/拉伸.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2591,7 +2603,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -2617,7 +2629,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/健身/拉伸.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2644,7 +2656,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/行为/健身/拉伸.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2786,7 +2798,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -2979,8 +2991,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/打包工具.md",
     "笔记/前端/工程化/构建/Browserify.md",
     "笔记/前端/工程化/构建/构建.md",
@@ -3005,9 +3020,6 @@
     "笔记/前端/工程化/质量/TDD.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/_gsdata_/2023-0606-151823-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0606-151723-DESKTOP-YLL-Job1.log",
