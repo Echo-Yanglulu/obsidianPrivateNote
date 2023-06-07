@@ -19,9 +19,11 @@ babel会为[[ES规范]]的前4个阶段提供专门的preset。但babel 7已不�
 ## loader
 定义：在`import`或`load`模块时，将非JS/JSON模块进行源码转换，添加到依赖图中
 	1. 从不同语言转换为JS,或将内联图像转换为data URL
+	2. 可在js文件中`import`css。
 机制
-	1. 反向执行
-在配置中体现为modules字段
+	1. 对某种类型的模块/文件使用某些loader
+	2. 反向执行
+在配置中体现为module.rules字段
 ```js
 module: {
 	rules:[
