@@ -17,7 +17,10 @@
 特性，一般是==一个对象或方法，可通过基础语法实现==。如includes方法，Promise对象。
 babel会为[[ES规范]]的前4个阶段提供专门的preset。但babel 7已不再添加这些不稳定的preset，而是单独引入plugin。
 ## loader
-定义：将JS/JSON以外的文件处理、转换为有效模块，添加到依赖图中
+定义：在`import`或`load`模块时，将非JS/JSON模块进行源码转换，添加到依赖图中
+	1. 从不同语言转换为JS,或将内联图像转换为data URL
+机制
+	1. 反向执行
 在配置中体现为modules字段
 ```js
 module: {
