@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/构建/babel.md"
+    },
+    {
       "basename": "构建",
       "path": "笔记/前端/工程化/构建/构建.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "版本规范",
       "path": "笔记/前端/工程化/规范/版本规范.md"
-    },
-    {
-      "basename": "代码规范",
-      "path": "笔记/前端/工程化/规范/代码规范.md"
     }
   ],
   "omittedPaths": [

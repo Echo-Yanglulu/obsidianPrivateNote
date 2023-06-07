@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md"
+                    "file": "笔记/前端/工程化/构建/babel.md"
                   }
                 }
               }
@@ -1979,6 +1979,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":27},\"to\":{\"line\":12,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2415,7 +2421,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md",
+                    "file": "笔记/前端/工程化/构建/babel.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2449,7 +2455,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/babel.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2476,7 +2482,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/babel.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2812,10 +2818,11 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/工程化/CSS预处理器.md",
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
