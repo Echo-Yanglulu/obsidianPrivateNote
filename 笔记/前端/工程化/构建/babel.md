@@ -22,7 +22,7 @@ babel会为[[ES规范]]的前4个阶段提供专门的preset。但babel 7已不�
 ```js
 module: {
 	rules:[
-		{test: '/\.txt$', use: 'raw='}
+		{test: '/\.txt$', use: 'raw-loader'}
 	]
 }
 ```
