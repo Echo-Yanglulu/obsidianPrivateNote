@@ -49,6 +49,10 @@ tabable插件体系
 
 ## 重要的对象与实现
 # 基本概念
+## bundle
+从入口文件开始，将它依赖的所有相关模块综合处理后得到的JS文件
+## chunk
+从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
 ## entry
 webpack是静态模块打包工具，需要**一个或多个JS文件**作为项目依赖关系的起点。
 ### 单入口
@@ -93,6 +97,12 @@ module.exports = {
 5. runtime: 运行时 chunk 的名字。
 	1. 如果设置了，就会创建一个新的运行时 chunk。在 webpack 5.43.0 之后可将其设为 false 以避免一个新的运行时 chunk。
 6. publicPath: 当由入口生成的输出文件在浏览器中被引用时，为它们指定一个*公共 URL 地址*。请查看 output.publicPath。
+注意
+	1. `runtime` 和 `dependOn` 不应在同一个入口上同时使用，所以如下配置无效，并且会抛出错误
+	2. runtime 不能指向已存在的入口名称，例如下面配置会抛出一个错误
+	3. dependOn 不能是循环引用的，下面的例子也会出现错误
+### 应用场景
+
 ## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
@@ -257,10 +267,6 @@ module.exports = class DemoPlugin {
 ![[Pasted image 20220731001611.png]]
 ## hook
 各个插件注册在hook上，由webpack在相应时机调用
-## bundle
-从入口文件开始，将它依赖的所有相关模块综合处理后得到的JS文件
-## chunk
-从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
 ## 注释
 ```javascript
 import('./lazy').then(lazy => {
