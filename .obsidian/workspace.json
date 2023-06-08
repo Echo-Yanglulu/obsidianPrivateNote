@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/babel.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1979,6 +1979,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":14},\"to\":{\"line\":132,\"ch\":14}},\"scroll\":110.33157894736843}"
+                    },
+                    {
+                      "title": "babel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":15},\"to\":{\"line\":18,\"ch\":15}},\"scroll\":12.806833558863328}"
+                    },
+                    {
                       "title": "构建",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2421,7 +2433,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/babel.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2455,7 +2467,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/babel.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2482,7 +2494,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/babel.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2624,7 +2636,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2819,9 +2831,11 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/前端/前端.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/工程化/构建/构建.md",
-    "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/工程化/CSS预处理器.md",
@@ -2840,7 +2854,6 @@
     "笔记/前端/工程化/构建/Browserify.md",
     "笔记/前端/工程化/构建/Uglyfy.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/心流.md",
@@ -2864,7 +2877,6 @@
     "笔记/前端/assets/Pasted image 20230605165639.png",
     "笔记/前端/assets/Pasted image 20230605165556.png",
     "笔记/前端/工程化/assets/工程化工具-代码格式-Prettier.png",
-    "笔记/前端/assets/Pasted image 20230605153610.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
