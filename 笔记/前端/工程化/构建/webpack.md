@@ -61,14 +61,19 @@ webpack开始这**一个或多个JS文件**开始遍历整个项目的依赖，�
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
 filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3]
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
-## loader
+## loader【文件及其内容的层面】
 一想到loader这个概念，马上想起它的定义、原理、分类、配置
 定义
 	1.  一个**函数**，用于在`import`或`load`==JS/JSON之外==的其他模块时，将源码转换[^2]为JS[[模块]]，并添加到依赖图中（默认只可编译JS、JSON模块）
 		1. 从不同语言转换为JS,或将内联图像转换为data URL
 		2. 可在js文件中`import`css。
-	2. 对文件进行预处理
-		1. 语法转换
+	2. 对（存在依赖关系的？）文件进行预处理
+		1. 文件
+			1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
+			2. ref-loader 用于手动建立文件之间的依赖关系
+		2. JSON
+			1. cson-loader 加载并转换 CSON 文件
+		3. 语法转换
 			1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
 			2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
 			3. `buble-loader` 使用 Bublé 加载 ES2015+ 代码并将其转换为 ES5
@@ -77,7 +82,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			6. `coffee-loader` 像加载 JavaScript 一样加载 CoffeeScript
 			7. `fengari-loader` 使用 fengari 加载 Lua 代码
 			8. `elm-webpack-loader` 像加载 JavaScript 一样加载 Elm
-		2. 模板
+		4. 模板
 			1. `html-loader` 将 *HTML* 导出为字符串，需要传入静态资源的引用路径
 			2. `pug-loader` 加载 Pug 和 Jade 模板并返回一个函数
 			3. `markdown-loader` 将 *Markdown* 编译为 HTML
@@ -87,14 +92,14 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			7. `markup-inline-loader` 将 SVG/MathML 文件内嵌到 HTML 中。在将图标字体或 CSS 动画应用于 SVG 时，此功能非常实用。
 			8. `twig-loader` 编译 Twig 模板并返回一个函数
 			9. `remark-loader` 通过 remark 加载 markdown，且支持解析内容中的图片
-		3. 样式
+		5. 样式
 			1. `style-loader` 将模块导出的内容作为样式并添加到 DOM 中
 			2. `css-loader` 加载 CSS 文件并解析 import 的 CSS 文件，最终返回 CSS 代码
 			3. `less-loader` 加载并编译 LESS 文件
 			4. `sass-loader` 加载并编译 SASS/SCSS 文件
 			5. `postcss-loader` 使用 PostCSS 加载并转换 CSS/SSS 文件
 			6. `stylus-loader` 加载并编译 Stylus 文件
-		4. 框架
+		6. 框架
 			1. `vue-loader` 加载并编译 Vue 组件
 			2. `angular2-template-loader` 加载并编译 Angular 组件
 ### 特性
@@ -180,7 +185,7 @@ module.rules字段：List类型
 	1. 将代码插入style标签中。
 	2. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
-## plugin
+## plugin【loader无法解决的其他事】
 本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
 module.exports = class DemoPlugin {
