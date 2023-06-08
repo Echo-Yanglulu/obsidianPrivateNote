@@ -128,7 +128,9 @@ module.exports = function (input) {
 与同步的区别：返回值用callback传递出去。
 ### 配置
 #### 配置文件
-test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules。
+test：用正则识别文件类型
+use：用字符串/对象选择使用loader 处理该格式文件。通过module字段的rules。
+exclude：匹配时排除某些文件夹
 执行顺序：反向。
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
