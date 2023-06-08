@@ -45,11 +45,12 @@
 	5. this较为复杂
 
 # 组件通讯方式
+根据传递方向，可分为3个
 1. 父向子
 	1. 单层：props
 	2. 多层：context
 2. 子向父
-	1. setState下传
+	1. 通过props，下传setState
 3. 兄弟组件
 	1. state传递一个，setState传递另一个
 # 逻辑复用
