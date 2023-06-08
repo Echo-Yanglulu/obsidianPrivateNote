@@ -163,7 +163,7 @@ module.exports = function (input) {
 ### 配置
 #### 配置文件
 module.rules字段：List类型
-	1. test：选择文件类型
+	1. test：选择需要处理的文件类型
 	2. use：对应loader
 	3. exclude：匹配时排除某些文件夹
 执行顺序：反向。
@@ -203,7 +203,7 @@ module.exports = class DemoPlugin {
 如：
 	1. htmlWebpackPlugin
 		1. 为项目/应用程序生成html文件
-		2. 自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
+		2. 将所有通过loader生成的JS bundle自动注入。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ### 常用plugin
 
