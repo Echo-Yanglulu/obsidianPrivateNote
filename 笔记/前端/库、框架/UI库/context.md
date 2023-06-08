@@ -7,9 +7,14 @@
 	3. 还在学习react
 # 新context api
 台前工作的context api
+## 目的
+传递内容
+	1. 主题
+	2. 支付
+	3. 用户信息
 ## 原理
 context的传递：在渲染过程中执行
-	1. 如果class组件没有更新，会导致传递失败[^1] 
+	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
 # 使用
 在需要共享数据的最小公约数父组件定义
@@ -19,7 +24,5 @@ context的传递：在渲染过程中执行
 		1. 要添加contextTypes属性
 
 # 注意
-1. class组件
-	1. 如果SCU返回false，阻止渲染，子组件也无法更新
 
 [^1]: 子组件无法获取最新的context
