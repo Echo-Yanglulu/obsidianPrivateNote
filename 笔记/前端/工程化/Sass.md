@@ -12,6 +12,10 @@ node版本
 
 在[[webpack]]中使用![[Pasted image 20230607223442.png]]
 # 使用
+## 变量
+```scss
+$baseColor: ''
+```
 ## 混入
 提取声明
 ```scss
