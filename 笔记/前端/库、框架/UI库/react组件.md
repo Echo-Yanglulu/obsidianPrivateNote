@@ -17,11 +17,16 @@
 4. String/Number：在DOM中被渲染为文本节点
 5. Boolean/null：不渲染。
 # 通用概念
-## props
 ## state
+## props
 ## [[context]] 
 ## ref
-
+## 比较
+props与context
+	1. 相同
+		1. 功能：都是一种传递数据的通道
+	2. 不同
+		1. 功能的范围：是否能跨层级
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
 | --- | --- | --- | --- | --- |
@@ -50,9 +55,9 @@
 	1. 单层：props
 	2. 多层：context
 2. 子向父
-	1. 通过props，下传setState
+	1. 父向子通过props下传setState
 3. 兄弟组件
-	1. state传递一个，setState传递另一个
+	1. 父向子通过props，state传递一个，setState传递另一个
 # 逻辑复用
 在没有 hook之前，开发逻辑组件通常是使用class组件，但两种常用方式都存在问题。
 ## class组件
