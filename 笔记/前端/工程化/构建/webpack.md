@@ -236,10 +236,10 @@ webpackChunkName: 'lazy-name'
 ```javascript
 import(/* webpackChunkName: "image", webpackInclude: /\.(png|jpg|gif)/ */ './assets/img');
 ```
-prefetch 和 preload 可以用于提前加载图片、 样式等资源的功能
-	1. prefetch 优先级低于 preload。
-	2. preload 会并行或者**加载完主文件之后立即加载**；
-	3. prefetch 则会在**主文件之后、 空闲时在加载**。 
+prefetch 和 preload 可以用于提前加载资源[^17]的功能
+	1. preload 会并行，或**主文件加载完后，立即加载**；
+	2. prefetch：**主文件加载完后，进行闲时加载**。 
+	3. prefetch 优先级低于 preload。
 # 配置
 [[webpack.config.js]] 
 ## 基础配置
@@ -441,3 +441,4 @@ plugins: [
 [^14]: 在这两个实例上的多个hook上注册逻辑，webpack在相应时机触发hook，调用注册的逻辑
 [^15]: 在UTF-8中，字符数就是字节数
 [^16]: 构建与打包相关需求：统计打包大小。
+[^17]: 图片、 样式等
