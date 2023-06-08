@@ -57,16 +57,26 @@ webpack开始这**一个或多个JS文件**开始遍历整个项目的依赖，�
 具体配置
 ![[Pasted image 20220730201026.png]]
 ## output
-最终打包结束后，得到的JS bundle 文件放置的**文件夹**
+最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
 filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3]
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
 ## loader
 一想到loader这个概念，马上想起它的定义、原理、分类、配置
 定义
-	1.  一个**函数**，用于将==JS/JSON之外==的其他**文件**转换[^2]为JS[[模块]]。（默认只可编译JS、JSON模块）。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
+	1.  一个**函数**，用于将==JS/JSON之外==的其他**文件**转换[^2]为JS[[模块]]。（默认只可编译JS、JSON模块）
+	2. 在`import`或`load`模块时，将非JS/JSON模块进行源码转换，添加到依赖图中
+		1. 从不同语言转换为JS,或将内联图像转换为data URL
+		2. 可在js文件中`import`css。
 
 test用正则识别文件类型，use用字符串选择使用loader 处理该格式文件。通过module字段的rules。
+### 特性
+1. 支持链式调用
+2. 可同步或异步
+3. 运行在[[node]]中，可执行任何操作
+4. 可通过options对象配置
+5. [[babel#plugin（最基础的工具）|插件]]能为loader带来更多特性【插件可对loader进行扩展】
+6. 能产生额外的意外文件
 ### 原理
 #### 洋葱模型
 ![[Pasted image 20220806153852.png]]
