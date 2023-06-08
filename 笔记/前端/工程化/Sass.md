@@ -14,3 +14,19 @@ node版本
 # 使用
 ## 混入
 提取声明
+```scss
+// 定义
+@mixin flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// 使用
+.center{
+  @include flex; 
+}
+
+// 函数形式的 
+
+
+```
