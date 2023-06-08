@@ -69,7 +69,24 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 		2. 可在js文件中`import`css。
 	2. 对非JS/JSON模块进行预处理
 		1. 语法转换
+			1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
+			2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
+			3. `buble-loader` 使用 Bublé 加载 ES2015+ 代码并将其转换为 ES5
+			4. `traceur-loader` 使用 Traceur 加载 ES2015+ 代码并将其转换为 ES5
+			5. `ts-loader` 像加载 JavaScript 一样加载 TypeScript 2.0+
+			6. `coffee-loader` 像加载 JavaScript 一样加载 CoffeeScript
+			7. fengari-loader 使用 fengari 加载 Lua 代码
+			8. `elm-webpack-loader` 像加载 JavaScript 一样加载 Elm
 		2. 模板
+			1. `html-loader` 将 *HTML* 导出为字符串，需要传入静态资源的引用路径
+			2. `pug-loader` 加载 Pug 和 Jade 模板并返回一个函数
+			3. `markdown-loader` 将 *Markdown* 编译为 HTML
+			4. `react-markdown-loader` 使用 markdown-parse 解析器将 Markdown 编译为 React 组件
+			5. `posthtml-loader` 使用 PostHTML 加载并转换 HTML 文件
+			6. `handlebars-loader` 将 Handlebars 文件编译为 HTML
+			7. `markup-inline-loader` 将 SVG/MathML 文件内嵌到 HTML 中。在将图标字体或 CSS 动画应用于 SVG 时，此功能非常实用。
+			8. `twig-loader` 编译 Twig 模板并返回一个函数
+			9. `remark-loader` 通过 remark 加载 markdown，且支持解析内容中的图片
 		3. 样式
 		4. 框架
 
