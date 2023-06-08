@@ -158,9 +158,9 @@ module.exports = function (input) {
 ### 配置
 #### 配置文件
 module.rules字段：List类型
-test：用正则识别文件类型
-use：用字符串/对象选择使用loader 处理该格式文件。通过module字段的rules。
-exclude：匹配时排除某些文件夹
+	1. test：选择文件类型
+	2. use：对应loader
+	3. exclude：匹配时排除某些文件夹
 执行顺序：反向。
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
@@ -168,6 +168,9 @@ exclude：匹配时排除某些文件夹
 在使用import语句建立模块依赖时指定loader
 1. 使用`!`分开多个Loader：`import Styles from 'style-loader!css-loader?modules!./styles.css';`
 	1. 这里css-loader使用了[[CSS Module]]。
+2. 使用 **! 前缀**：禁用所有已配置的 normal loader(普通 loader)
+3. 使用 **!! 前缀**：禁用所有已配置的 loader（preLoader, loader, postLoader）
+4. 使用 **-! 前缀**：禁用所有已配置的 preLoader 和 loader，但是不禁用 postLoaders
 ### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
 css-loader ：处理如import的样式引入语法。将代码插入style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
