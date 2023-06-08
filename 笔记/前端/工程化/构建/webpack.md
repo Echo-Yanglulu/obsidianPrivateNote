@@ -54,25 +54,34 @@ webpack是静态模块打包工具，需要**一个或多个JS文件**作为项�
 多入口的场景
 	1. 多个SPA或一个MPA，需要为每个入口命名。
 	2. 代码分离
-### 配置
 ### 单个
 ```js
-module.exports = {
-  entry: './path/to/my/entry/file.js',
-};
-```
-### 多个
-```js
+// 标准
 module.exports = {
   entry: {
     main: './path/to/my/entry/file.js',
   },
 };
+// 简写
+module.exports = {
+  entry: './path/to/my/entry/file.js',
+};
+
 // 想要一次注入多个依赖文件，并且将它们的依赖关系绘制在一个 "chunk" 中时
 module.exports = {
   entry: ['./src/file_1.js', './src/file_2.js'],
   output: {
     filename: 'bundle.js',
+  },
+};
+```
+### 多个
+```js
+// 比较繁琐，却是定义入口时可扩展性最高的方式
+module.exports = {
+  entry: {
+    app: './src/app.js',
+    adminApp: './src/adminApp.js',
   },
 };
 ```
