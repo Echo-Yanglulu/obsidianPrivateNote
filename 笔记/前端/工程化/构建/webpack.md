@@ -128,14 +128,15 @@ module.exports = function (input) {
 }
 ```
 与同步的区别：返回值用callback传递出去。
-### 使用
+### 配置
+#### 配置文件
+执行顺序：反向：所以期望最后执行的放在最前。如style-loader。
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
-#### 执行顺序
-反向：所以期望最后执行的放在最前。如style-loader。
-#### 常用loader 
+#### 内联配置
+### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
-css-loader ：处理如import的样式引入语法。将代码插入到style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
+css-loader ：处理如import的样式引入语法。将代码插入style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
 style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ## plugin
 本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]

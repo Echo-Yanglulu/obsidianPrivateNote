@@ -16,33 +16,6 @@
 ## feature
 特性，一般是一个**对象或方法**，**可通过基础语法实现**。如includes方法，Promise对象。
 babel会为[[ES规范]]的前4个阶段提供专门的preset。但babel 7已不再添加这些不稳定的preset，而是单独引入plugin。
-## loader【处理模块】
-
-### 配置【如何使用】
-#### 配置文件
-```js
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: [
-          { loader: 'style-loader' },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-            },
-          },
-          { loader: 'sass-loader' },
-        ],
-      },
-    ],
-  },
-};
-```
-#### 内联
-
 ## plugin（最基础的工具）
 作为前端**工程化构建工具**之一，也是**插件化**的。
 在配置时，plugin的==名称可缩写==，所以如果发现某个插件找不到依赖，可能是插件名被缩写
