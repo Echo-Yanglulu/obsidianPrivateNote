@@ -88,11 +88,11 @@ module.exports = {
 ### 入口描述对象
 1. dependOn: 当前入口所依赖的入口[^18]。
 2. filename: 指定要输出的文件名称。
-3. import: 启动时需加载的模块。
+3. import: *启动时*需加载的模块。
 4. library: 指定 library 选项，为当前 entry 构建一个 library。
 5. runtime: 运行时 chunk 的名字。
 	1. 如果设置了，就会创建一个新的运行时 chunk。在 webpack 5.43.0 之后可将其设为 false 以避免一个新的运行时 chunk。
-6. publicPath: 当该入口的输出文件在浏览器中被引用时，为它们指定一个公共 URL 地址。请查看 output.publicPath。
+6. publicPath: 当由入口生成的输出文件在浏览器中被引用时，为它们指定一个*公共 URL 地址*。请查看 output.publicPath。
 ## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
