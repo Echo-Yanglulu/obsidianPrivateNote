@@ -175,9 +175,11 @@ module.rules字段：List类型
 4. 使用 **-! 前缀**：禁用所有已配置的 *preLoader 和 loader*，但是不禁用 postLoaders
 	1. `import Styles from '-!style-loader!css-loader?modules!./styles.css';` 
 ### 常用loader 
-postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
-css-loader ：处理如import的样式引入语法。将代码插入style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
-style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
+1. postcss-loader：sass, less之类的语法编译为CSS。同sass-loader 。
+2. css-loader ：处理如import的样式引入语法。
+	1. 将代码插入style标签中。
+	2. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
+3. style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ## plugin
 本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
