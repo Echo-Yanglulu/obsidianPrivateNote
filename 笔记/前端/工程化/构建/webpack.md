@@ -164,6 +164,7 @@ exclude：匹配时排除某些文件夹
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
 #### 内联配置
+在使用import语句建立模块依赖时指定loader
 ### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
 css-loader ：处理如import的样式引入语法。将代码插入style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
