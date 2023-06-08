@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/CICD.md"
                   }
                 }
               }
@@ -2499,6 +2499,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":10},\"to\":{\"line\":91,\"ch\":10}},\"scroll\":62.41885187810064}"
+                    },
+                    {
                       "title": "webpack.config.js",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2515,7 +2521,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/工程化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2549,7 +2555,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/CICD.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2576,7 +2582,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/CICD.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2911,16 +2917,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6515dafe6301ad5",
+  "active": "78ceba58875e4581",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/CSS Module.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/部署：发布策略.md",
+    "笔记/前端/工程化/多环境发布.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/工程化/Sass.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/CSS预处理器.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/PostCSS.md",
@@ -2941,8 +2949,6 @@
     "笔记/前端/assets/Pasted image 20230607223258.png",
     "笔记/前端/工程化/构建/打包工具.md",
     "笔记/前端/工程化/构建/Browserify.md",
-    "笔记/前端/工程化/构建/Uglyfy.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/_gsdata_/2023-0607-170011-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0607-165908-DESKTOP-YLL-Job1.log",
