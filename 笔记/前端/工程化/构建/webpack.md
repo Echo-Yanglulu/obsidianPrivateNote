@@ -48,21 +48,21 @@ tabable插件体系
 	1. bundle文件
 
 ## 重要的对象与实现
-# 概念
-## 事物
-### entry
+# 基本概念
+## entry
 webpack开始这**一个或多个JS文件**开始遍历整个项目的依赖，是分析整个**项目依赖关系**的起点，。
 多入口的场景
 	1. 如果是多个SPA或MPA，需要为每个入口命名。
 	2. 代码分离
 具体配置
 ![[Pasted image 20220730201026.png]]
-### output
+## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹**
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
 filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3]
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
-### loader
+## loader
+一想到loader这个概念，马上想起它的定义、原理、
 定义
 	1.  一个**函数**，用于将==JS/JSON之外==的其他**文件**转换[^2]为JS[[模块]]。（默认只可编译JS、JSON模块）。因为webpack是基于node.js开发的，node天然支持js，如果有高级语法则需要使用babel-loader。
 
@@ -121,13 +121,13 @@ module.exports = function (input) {
 ### 使用
 ![[Pasted image 20220731000757.png]]
 ![[Pasted image 20220804222709.png]]
-### 执行顺序
+#### 执行顺序
 反向：所以期望最后执行的放在最前。如style-loader。
-### 常用loader 
+#### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
 css-loader ：处理如import的样式引入语法。将代码插入到style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
 style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
-### plugin
+## plugin
 本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
 module.exports = class DemoPlugin {
@@ -146,8 +146,8 @@ module.exports = class DemoPlugin {
 如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ### 常用plugin
-#### 
-### mode
+
+## mode
 指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
 环境
 	1. 开发环境
@@ -158,9 +158,9 @@ module.exports = class DemoPlugin {
 	2. 配置一些优化项的默认值。
 
 ![[Pasted image 20220731001611.png]]
-### hook
+## hook
 各个插件注册在hook上，由webpack在相应时机调用
-### bundle
+## bundle
 从入口文件开始，将它依赖的所有相关模块综合处理后得到的JS文件
 ### chunk
 从非入口文件开始，将它依赖的所有相关文件综合处理后得到的JS文件。一般由于代码分割、动态加载。
