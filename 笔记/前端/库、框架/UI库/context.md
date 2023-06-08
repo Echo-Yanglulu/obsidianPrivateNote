@@ -9,8 +9,8 @@
 台前工作的context api
 ## 原理
 context的传递：在渲染过程中执行
-	1. 如果组件没有更新，则传递失败
-	2. pureComponent或其他自定义优化可能传递失败
+	1. 如果class组件没有更新，会导致传递失败
+		1. shouldComponentUpdate返回false，或pureComponent或其他自定义优化避免了更新
 # 使用
 在需要共享数据的最小公约数父组件定义
 子组件中
