@@ -5,6 +5,8 @@
 2. 创建方式
 	1. [[JSX]] 
 	2. React.createElement()
+# 原理
+## 组件批处理
 # 样式
 由于react中[[JSX]]的写法，给组件添加样式的方法有很多
 	1. 行内
@@ -17,10 +19,13 @@
 4. String/Number：在DOM中被渲染为文本节点
 5. Boolean/null：不渲染。
 # 通用概念
-## state
-## props
-## [[context]] 
-## ref
+1. 更新时会导致组件更新
+	1. state【数据】
+	2. props【传递数据的通道】
+	3. [[context]] 【传递数据的通道】
+2. 不会更新 
+
+ref【索引】
 ## 比较
 props与context
 	1. 相同
