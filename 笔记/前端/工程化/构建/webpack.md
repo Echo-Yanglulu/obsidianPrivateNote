@@ -232,11 +232,14 @@ webpackChunkName: 'lazy-name'
 		2. lazy-once ： 生成一个可以满足所有 import() 调用的单个可延迟加载 chunk， 此 chunk 将在第一次 import() 调用时获取， 随后的 import() 调用将使用相同的网络响应； 注意， 这种模式仅在部分动态语句中有意义， 例如import( ./locales/${language}.json )， 其中可能含有多个被请求的模块路径
 		3. eager ： 不会生成额外的 chunk， 所有模块都被当前 chunk 引入， 并且没有额外的网络请求。 仍然会返回Promise， 但是是 resolved 状态。 和静态导入相对比， 在调用 import() 完成之前， 该模块不会被执行。
 		4. weak ： 尝试加载模块， 如果该模块函数已经以其他方式加载（即， 另一个 chunk 导入过此模块， 或包含模块的脚本被加载） 。 仍然会返回 Promise， 但是只有在客户端上已经有该 chunk 时才成功解析。 如果该模块不可用， Promise 将会是 rejected 状态， 并且网络请求永远不会执行。 当需要的 chunks 始终在（嵌入在页面中的）初始请求中手动提供， 而不是在应用程序导航在最初没有提供的模块导入的情况触发， 这对于 Server 端渲染（[[SSR]]， Server-Side Render） 是非常有用的。
-通过上面的神奇注释， import() 不再是简单的 JavaScript 异步加载器， 还是任意模块资源的加载器， 举例说明：如果我们页面用到的图片都放在 src/assets/img 文件夹下， 你们可以通过下面方式将用到的图片打包到一起：
+通过上面的注释， import() 不再是简单的 JavaScript 异步加载器， 还是任意模块资源的加载器， 举例说明：如果我们页面用到的图片都放在 src/assets/img 文件夹下， 可以通过下面方式将用到的图片打包到一起：
 ```javascript
 import(/* webpackChunkName: "image", webpackInclude: /\.(png|jpg|gif)/ */ './assets/img');
 ```
-prefetch 优先级低于 preload。preload 会并行或者**加载完主文件之后立即加载**； prefetch 则会在**主文件之后、 空闲时在加载**。 prefetch 和 preload 可以用于提前加载图片、 样式等资源的功能
+prefetch 和 preload 可以用于提前加载图片、 样式等资源的功能
+	1. prefetch 优先级低于 preload。
+	2. preload 会并行或者**加载完主文件之后立即加载**；
+	3. prefetch 则会在**主文件之后、 空闲时在加载**。 
 # 配置
 [[webpack.config.js]] 
 ## 基础配置
