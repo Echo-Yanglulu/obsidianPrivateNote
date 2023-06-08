@@ -67,7 +67,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 	1.  一个**函数**，用于在`import`或`load`==JS/JSON之外==的其他模块时，将源码转换[^2]为JS[[模块]]，并添加到依赖图中（默认只可编译JS、JSON模块）
 		1. 从不同语言转换为JS,或将内联图像转换为data URL
 		2. 可在js文件中`import`css。
-	2. 对非JS/JSON模块进行预处理
+	2. 对模块进行预处理
 		1. 语法转换
 			1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
 			2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
@@ -75,7 +75,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			4. `traceur-loader` 使用 Traceur 加载 ES2015+ 代码并将其转换为 ES5
 			5. `ts-loader` 像加载 JavaScript 一样加载 TypeScript 2.0+
 			6. `coffee-loader` 像加载 JavaScript 一样加载 CoffeeScript
-			7. fengari-loader 使用 fengari 加载 Lua 代码
+			7. `fengari-loader` 使用 fengari 加载 Lua 代码
 			8. `elm-webpack-loader` 像加载 JavaScript 一样加载 Elm
 		2. 模板
 			1. `html-loader` 将 *HTML* 导出为字符串，需要传入静态资源的引用路径
@@ -88,8 +88,15 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			8. `twig-loader` 编译 Twig 模板并返回一个函数
 			9. `remark-loader` 通过 remark 加载 markdown，且支持解析内容中的图片
 		3. 样式
+			1. `style-loader` 将模块导出的内容作为样式并添加到 DOM 中
+			2. `css-loader` 加载 CSS 文件并解析 import 的 CSS 文件，最终返回 CSS 代码
+			3. `less-loader` 加载并编译 LESS 文件
+			4. `sass-loader` 加载并编译 SASS/SCSS 文件
+			5. `postcss-loader` 使用 PostCSS 加载并转换 CSS/SSS 文件
+			6. `stylus-loader` 加载并编译 Stylus 文件
 		4. 框架
-
+			1. `vue-loader` 加载并编译 Vue 组件
+			2. `angular2-template-loader` 加载并编译 Angular 组件
 ### 特性
 1. 支持链式调用
 2. 可同步或异步
