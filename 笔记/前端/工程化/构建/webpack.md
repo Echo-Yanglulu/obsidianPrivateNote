@@ -168,9 +168,12 @@ module.rules字段：List类型
 在使用import语句建立模块依赖时指定loader
 1. 使用`!`分开多个Loader：`import Styles from 'style-loader!css-loader?modules!./styles.css';`
 	1. 这里css-loader使用了[[CSS Module]]。
-2. 使用 **! 前缀**：禁用所有已配置的 normal loader(普通 loader)
-3. 使用 **!! 前缀**：禁用所有已配置的 loader（preLoader, loader, postLoader）
-4. 使用 **-! 前缀**：禁用所有已配置的 preLoader 和 loader，但是不禁用 postLoaders
+2. 使用 **! 前缀**：禁用所有已配置的 *loader*(普通 loader)
+	1. `import Styles from '!style-loader!css-loader?modules!./styles.css';` 
+3. 使用 **!! 前缀**：禁用所有已配置的 *loader*（preLoader, loader, postLoader）【集合名词】
+	1. `import Styles from '!!style-loader!css-loader?modules!./styles.css';` 
+4. 使用 **-! 前缀**：禁用所有已配置的 *preLoader 和 loader*，但是不禁用 postLoaders
+	1. `import Styles from '-!style-loader!css-loader?modules!./styles.css';` 
 ### 常用loader 
 postcss-loader：转译sass, less之类的样式语法为CSS。同sass-loader 。
 css-loader ：处理如import的样式引入语法。将代码插入style标签中。或使用插件将部分代码导出为css文件后通过link标签引入页面。
