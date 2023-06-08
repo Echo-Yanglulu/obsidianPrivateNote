@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/工程化/发布.md"
                   }
                 }
               }
@@ -2555,7 +2555,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/发布.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2582,7 +2582,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/发布.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2917,12 +2917,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6515dafe6301ad5",
+  "active": "1b4c163225622d71",
   "lastOpenFiles": [
     "笔记/前端/工程化/CICD.md",
-    "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/规范/git工程规范.md",
+    "笔记/前端/工程化/发布.md",
+    "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/规范/git工程规范.md",
+    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/多环境发布.md",
     "笔记/前端/工程化/部署：发布策略.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -2945,8 +2947,6 @@
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
-    "笔记/前端/编程语言/CSS/styled-component.md",
-    "笔记/前端/编程语言/CSS/CSS组件化.md",
     "笔记/前端/assets/Pasted image 20230607223442.png",
     "笔记/前端/assets/Pasted image 20230607223258.png",
     "笔记/_gsdata_/2023-0607-170011-DESKTOP-YLL-Job1.log",
