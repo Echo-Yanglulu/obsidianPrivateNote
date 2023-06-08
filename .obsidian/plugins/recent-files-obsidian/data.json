@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Sass",
+      "path": "笔记/前端/工程化/Sass.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "过程",
+      "path": "笔记/工具/思考/过程.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "react组件",
       "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "函数组件",
@@ -47,10 +55,6 @@
     {
       "basename": "CSS模块化",
       "path": "笔记/前端/编程语言/CSS/CSS模块化.md"
-    },
-    {
-      "basename": "Sass",
-      "path": "笔记/前端/工程化/Sass.md"
     },
     {
       "basename": "工程化",
@@ -195,10 +199,6 @@
     {
       "basename": "git工程规范",
       "path": "笔记/前端/工程化/规范/git工程规范.md"
-    },
-    {
-      "basename": "规范",
-      "path": "笔记/前端/工程化/规范/规范.md"
     }
   ],
   "omittedPaths": [
