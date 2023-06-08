@@ -15,18 +15,23 @@ node版本
 ## 混入
 提取声明
 ```scss
-// 定义
+// 变量形式的定义与使用
 @mixin flex{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-// 使用
 .center{
   @include flex; 
 }
 
-// 函数形式的 
-
-
+// 函数形式的定义与使用
+@mixin flex($position){
+  display: flex;
+  justify-content: $position;
+  align-items: $position;
+}
+.center{
+  @include flex(start); 
+}
 ```
