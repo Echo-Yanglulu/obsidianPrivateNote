@@ -35,3 +35,4 @@ node版本
   @include flex(start); 
 }
 ```
+简化媒体查询
