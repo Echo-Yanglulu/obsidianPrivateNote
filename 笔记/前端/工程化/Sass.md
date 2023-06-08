@@ -14,7 +14,10 @@ node版本
 # 使用
 ## 变量
 ```scss
-$baseColor: ''
+$baseColor: blue;
+.item{
+	color: $baseColor;
+}
 ```
 ## 混入
 提取声明
