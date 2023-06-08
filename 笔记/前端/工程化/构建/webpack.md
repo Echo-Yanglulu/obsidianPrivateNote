@@ -186,7 +186,7 @@ module.rules字段：List类型
 	2. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
 ## plugin【loader无法解决的其他事】
-本质：==一个实现了apply方法的类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
+本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
 module.exports = class DemoPlugin {
 	constructor(options){
@@ -200,8 +200,10 @@ module.exports = class DemoPlugin {
 	}
 }
 ```
-更高级的**构建、打包**功能，资源处理（这两个不是一个意思？）。
-如：使用htmlWebpackPlugin为项目/应用程序生成html文件，并自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
+如：
+	1. htmlWebpackPlugin
+		1. 为项目/应用程序生成html文件
+		2. 自动注入所有通过loader生成的JS bundle。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ### 常用plugin
 
