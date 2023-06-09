@@ -57,6 +57,8 @@ tabable插件体系
 chunk真包含bundle。bundle是个体
 	1. chunk是*集合概念*。作为打包结果，一个chunk可能包含一个或多个bundle[^20] 
 	2. bundle是*普遍概念*（一类对象）：每个由入口文件、动态加载、代码分割生成的js文件，都是一个bundle。
+
+只有chunk，每个最终js文件都是一个chunk。
 ## entry
 webpack是静态模块打包工具，需要一个或多个入口文件[^19]，作为项目依赖关系分析的起点。
 ### 单入口
