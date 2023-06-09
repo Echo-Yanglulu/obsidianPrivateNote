@@ -96,9 +96,14 @@ module.exports = {
 	2. runtime 不能指向已存在的入口名称，例如下面配置会抛出一个错误
 	3. dependOn 不能是循环引用的，下面的例子也会出现错误
 ### 应用场景
+为何需要
 1. 分离应用（app）和三方库（vendor）的入口。
 	1. 在小于4的版本中拆分入口
-	2. 在＞4的版本中，
+	2. 在＞4的版本中
+		1. 不要使用*非执行起点*作为entry
+		2. 应使用`optimization.splitChunks` 将vendor与app分开。
+2. MPA
+	1. 
 ## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
