@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -2553,7 +2553,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2579,7 +2579,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2606,7 +2606,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2748,7 +2748,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2941,12 +2941,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.svg",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端工作.md",
     "笔记/内心/活在当下指南.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -2966,9 +2968,7 @@
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/CSS/CSS Module.md",
-    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
