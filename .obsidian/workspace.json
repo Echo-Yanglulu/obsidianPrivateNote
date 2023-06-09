@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "2023-06-09.md"
                   }
                 }
               }
@@ -1532,17 +1532,17 @@
                 "id": "a86e2789749eb6f0",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "ignore",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/ignore.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":104},\"to\":{\"line\":19,\"ch\":104}},\"scroll\":13.346643518518519}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":20},\"to\":{\"line\":55,\"ch\":20}},\"scroll\":35.99421296296296}"
                     },
                     {
                       "title": "构建",
@@ -1669,7 +1669,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "2023-06-09.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2591,7 +2591,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "2023-06-09.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2618,7 +2618,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "2023-06-09.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2760,7 +2760,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -2955,19 +2955,19 @@
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
+    "2023-06-09.md",
+    "笔记/_gsdata_/2023-0609-160118-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0609-160018-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-155915-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-155851-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-155815-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-155736-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0609-155636-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-155533-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-155509-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-155451-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/学习方法/概念/概念.md",
-    "笔记/前端/工程化/构建/webpack.md",
-    "笔记/_gsdata_/2023-0609-155348-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-155324-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-155239-DESKTOP-YLL-Job1.log",
     "笔记/工具/语法/句子.md",
     "笔记/前端/工程化/构建/SplitChunksPlugin.md",
     "笔记/前端/工程化/规范/ignore.md",
