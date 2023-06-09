@@ -415,8 +415,10 @@ import { Rol, Col } from 'react-bootstrap';
 var reactBootstrap = require('react-bootstrap')
 var Rol = reactBootstrap.Rol;
 var Col = reactBootstrap.Col;
-// babel引入了所有的组件，
+// 关于模块的导入，babel在转换源码时，会转换为：引入所有的组件
+// 使用插件修改babel在转换模块引入时的规则
 ```
+`babel-p`
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。

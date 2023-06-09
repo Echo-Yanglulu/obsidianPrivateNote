@@ -2,7 +2,10 @@
 插件化[^18]的语法转义工具，是一个monorepo ，包含了很多子项目。其中有些工具在开发plugin时可用
 ![[Pasted image 20220730172031.png]]
 # 功能
-一种特殊的[[编译器]]，因为==源语言与目标语言都是JS==：把高版本的JS转换为低版本的JS[^1] 
+一种特殊的[[编译器]]，因为==源语言与目标语言都是JS==，是把*高版本*的JS转换为*低版本*的JS[^1] 
+	1. 语法转换
+	2. polyfill
+	3. 修改源码
 ![[Pasted image 20220724175108.png]] 
 对转义ES标准语法，及JSX等非标准语法都有灵活的支持。
 
@@ -14,14 +17,13 @@
 转为语义一致的，低版本浏览器可理解的ES代码。
 如
 	箭头函数转为匿名函数
-## polyfill[^2]
+## polyfill[^2] 
 目的：==让老环境支持新的API，feature==，
 
 和语法转换有什么区别？
 理解：
 	1. 语法转换是*原来就有*这个API/功能但新版本中出现了*新写法*，是支持*原来没有*的API。
 	2. 语法转换是针对语法，polyfill是针对API。
-
 如
 	promise API，可以使用ES5实现
 	proxy无法使用ES5实现，就无法被polyfill，所以无法被老环境支持
@@ -29,10 +31,8 @@
 1. 7.4之前只需引入@babel/polyfill[^10]
 2. 7.4之后需要引入两个包: core-js/stable[^11]，regenerator-runtime/runtime[^12]。
 3. 通过**preset-env**的useBuiltlns 与targets智能配置。（一般是==core-js 与useBuiltlns 结合使用==）
-
 两种方式等价，但方式2利于babel进行进一步优化。
 需要注意：因为polyfill 的代码会进入运行时，所以要以运行依赖安装二者。建议core-js/stable包与3的useBuiltlns同时使用(为啥要用两次polyfill 配置？)
-
 ## 修改源码
 # 原理
 共性：将代码转换成token流，再转换成AST。
