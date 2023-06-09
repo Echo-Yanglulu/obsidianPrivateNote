@@ -56,9 +56,8 @@ tabable插件体系
 是最终输出的一个或多个打包文件
 #### chunk与bundle的区别
 chunk与bundle是真包含关系。
-	1. bundle是*普遍概念*（一类对象）：所有由入口文件、动态加载、代码分割生成的每个js文件。
-	2. chunk是*集合概念*，里面的个体是bundle。作为打包结果，一个bundle可能包含一个或多个chunk[^20] 
-	3. 多数情况下一个chunk对应一个bundle。如果devtool配置成'source-map'，
+	1. chunk是*集合概念*。作为打包结果，一个chunk可能包含一个或多个bundle[^20] 
+	2. bundle是*普遍概念*（一类对象）：所有由入口文件、动态加载、代码分割生成的每个js文件。
 ## entry
 webpack是静态模块打包工具，需要一个或多个入口文件[^19]，作为项目依赖关系分析的起点。
 ### 单入口
@@ -519,4 +518,4 @@ plugins: [
 [^17]: 图片、 样式等
 [^18]: 它们必须在该入口被加载前被加载。
 [^19]: JS文件
-[^20]: 如把devtool配置成'source-map'，在生成chunk的js文件之外，还会生成用于调试的map文件。
+[^20]: 如把devtool配置成'source-map'，在根据来源生成的bundle之外，还会生成用于调试的map文件也属于bundle。
