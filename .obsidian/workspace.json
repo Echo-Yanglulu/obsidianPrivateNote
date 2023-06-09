@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/规范/ignore.md"
                   }
                 }
               }
@@ -1533,6 +1533,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":110,\"ch\":22},\"to\":{\"line\":110,\"ch\":22}},\"scroll\":101.82665872434018}"
+                    },
+                    {
                       "title": "构建",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1657,7 +1663,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/规范/ignore.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2579,7 +2585,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/规范/ignore.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2606,7 +2612,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/规范/ignore.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2670,7 +2676,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "loader",
+                "query": "vendor",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -2748,7 +2754,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2943,19 +2949,20 @@
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0609-125349-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/vendor.md",
+    "笔记/前端/工程化/规范/ignore.md",
+    "笔记/_gsdata_/2023-0609-125643-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0609-125619-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/_gsdata_/2023-0609-125549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-125449-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-125349-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-125249-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-125149-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-125049-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124949-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124849-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124749-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124649-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124549-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-124449-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/构建/webpack.svg",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端工作.md",
@@ -2979,7 +2986,6 @@
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/编程语言/CSS/CSS Module.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
