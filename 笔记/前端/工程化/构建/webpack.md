@@ -211,6 +211,7 @@ module.exports = function (input) {
 与同步的区别：返回值用callback传递出去。
 ### 配置
 #### 配置文件
+因为是*模块*的*处理规则*，所以配置字段又嵌套了一层。
 module.rules字段：List类型
 	1. test：选择需要处理的文件类型
 	2. use：对应loader
@@ -255,7 +256,7 @@ module.exports = class DemoPlugin {
 		2. 将所有通过loader生成的JS bundle自动注入。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
 ### 常用plugin
-
+#### [[SplitChunksPlugin]] 
 ## mode
 指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
 环境
