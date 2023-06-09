@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -2553,6 +2553,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "发布",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/发布.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":9},\"to\":{\"line\":12,\"ch\":9}}}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2581,7 +2587,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/发布.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2589,7 +2595,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -2615,7 +2621,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2642,7 +2648,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2977,29 +2983,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3c650ca3ef69b7a",
+  "active": "d6515dafe6301ad5",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0609-162515-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0609-162427-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0609-162424-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-162321-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-162318-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/发布.md",
+    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
-    "笔记/前端/工程化/发布.md",
     "笔记/_gsdata_/2023-0609-162215-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/_gsdata_/2023-0609-162151-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0609-162148-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-162045-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-162036-DESKTOP-YLL-Job1.log",
     "Day Planners/2023-06-09.md",
-    "笔记/_gsdata_/2023-0609-161936-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-161836-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-161736-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/时间.md",
-    "笔记/前端/工程化/构建/构建.md",
     "2023-06-09.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/语法/句子.md",
@@ -3015,7 +3022,6 @@
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/基础知识/调试.md",
     "笔记/前端/基础知识/Chrome Devtools.md",
-    "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
