@@ -418,7 +418,13 @@ var Col = reactBootstrap.Col;
 // 关于模块的导入，babel在转换源码时，会转换为：引入所有的组件
 // 使用插件修改babel在转换模块引入时的规则
 ```
-`babel-p`
+`babel-plugin-transform-imports`插件后，代码转换
+```js
+import Rol from 'react-bootstrap/lib/Rol'
+```
+## 优化三方依赖
+### lodash
+babel-plugin-lodash插件：减少无用的Lodash内容
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
