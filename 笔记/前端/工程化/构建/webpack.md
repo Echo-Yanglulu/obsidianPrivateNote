@@ -425,6 +425,16 @@ import Rol from 'react-bootstrap/lib/Rol'
 ## 优化三方依赖
 ### lodash
 babel-plugin-lodash插件：减少无用的Lodash内容
+```js
+// 源码
+import _ from 'lodash';
+import {add} from 'lodash/fp';
+
+const addOne = add(1)
+_.map([1,2,3], addOne)
+// babel编译后后
+
+```
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
