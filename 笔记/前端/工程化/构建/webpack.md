@@ -200,7 +200,6 @@ loaderApi.pitch = function loader(request){
 ```Javascript
 module.exports = input => input + input;
 ```
-
 #### 异步loader 
 ```JavaScript
 module.exports = function (input) {
@@ -211,8 +210,7 @@ module.exports = function (input) {
 与同步的区别：返回值用callback传递出去。
 ### 配置
 #### 配置文件
-因为是*模块*的*处理规则*，所以配置字段又嵌套了一层。
-module.rules字段：List类型
+因为是*模块*的*处理规则*，所以配置字段又嵌套了一层：module.rules字段
 	1. test：选择需要处理的文件类型
 	2. use：对应loader
 	3. exclude：匹配时排除某些文件夹
