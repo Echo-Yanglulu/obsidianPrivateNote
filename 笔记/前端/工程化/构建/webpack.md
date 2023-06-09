@@ -366,11 +366,11 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 			2. 人工手动维护入口的增删。
 	2. 防止重复：使用splitChunksPlugin去重与分离chunk（防止对某个资源进行重复打包）
 		1. 曾经是插件，在webpack4中成了官方的优化项。
-		2. 这个bundle就是上面两个入口生成的两个bundle的公共依赖（多入口与防止重复结合使用）![[Pasted image 20220806075243.png]]
+		2. 这个bundle就是上面两个入口生成的两个bundle的公共依赖（多入口与防止重复结合使用）![[Pasted image 20220806075243.png]] 
 		3. 更多插件特性需要查看该插件文档
 	3. 动态导入[^10]：在代码中使用动态加载模块的语法。
-		1. import()[^8]
-			1. 可利用注释为分离出来的chunk命名。这样就能在chunkFilename 中使用[lodash]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
+		1. import()[^8] 
+			1. 可利用注释，为分离出来的chunk命名。这样就能在chunkFilename 中使用[[lodash]]方式来定义这个**chunk**名对应的**规则**![[Pasted image 20220806080410.png]]
 		2. require.ensure[^9]
 
 ## 配置实战
