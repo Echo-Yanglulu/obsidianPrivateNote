@@ -104,6 +104,7 @@ module.exports = {
 		2. 应使用`optimization.splitChunks` 将vendor与app分开。
 2. MPA
 	1. 在MPA中，server会重新拉取一个[[HTML]]文档，所有依赖的资源重新下载
+	2. 使用`optimization.splitChunks`为多个页面之间共享的app代码创建bundle，复用多个入口之间的大量代码。
 ## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
