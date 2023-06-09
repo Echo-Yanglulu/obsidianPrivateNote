@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-09.md"
+                    "file": "笔记/前端/工程化/构建/构建.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "2023-06-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":9}},\"scroll\":25.0611}"
                     },
                     {
                       "title": "webpack",
@@ -191,7 +197,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-09.md",
+                    "file": "笔记/前端/工程化/构建/构建.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2662,7 +2668,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-09.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2689,7 +2695,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-09.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3026,21 +3032,21 @@
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0609-232525-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-232801-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "Day Planners/2023-06-09.md",
+    "笔记/前端/工程化/Sass.md",
+    "笔记/_gsdata_/2023-0609-232725-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-232625-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-232525-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-232425-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-232325-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-232225-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-232125-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-232025-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-231925-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-231825-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-231725-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-231625-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/Sass.md",
     "笔记/前端/工程化/CSS预处理器.md",
     "笔记/前端/工程化/PostCSS.md",
-    "Day Planners/2023-06-09.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/微服务.md",
