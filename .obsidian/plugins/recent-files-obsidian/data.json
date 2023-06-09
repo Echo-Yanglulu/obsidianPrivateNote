@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "概念",
+      "path": "笔记/学习方法/概念/概念.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "句子",
+      "path": "笔记/工具/语法/句子.md"
     },
     {
       "basename": "ignore",
@@ -191,14 +199,6 @@
     {
       "basename": "网络抓取",
       "path": "笔记/前端/库、框架/UI库/网络抓取.md"
-    },
-    {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
-    },
-    {
-      "basename": "手臂",
-      "path": "笔记/行为/健身/手臂.md"
     }
   ],
   "omittedPaths": [
