@@ -399,8 +399,15 @@ eject之后的脚本分析：
 ## 工程化实践
 可以通过 import('path/to/module') 的方式引入一个模块， import() 返回的是一个 Promise 对象
 # 优化
-1. code splitting：把各个模块的重复部分打包为一份公共代码，各个模块的不同部分有自己独有的代码
+## code splitting
+把各个模块的重复部分打包为一份公共代码，各个模块的不同部分有自己独有的代码
 	1. 首行加载公共代码，再按需加载访问的页面所需代码。
+## 减少bundle大小
+![[Pasted image 20230609162616.png]] 
+使用各种loader、插件时注意：去除代码中的空格、换行符、制表符
+## tree-shaking
+针对：在一个模块中被导出，却没有被使用（引入+调用）
+必须使用[[js模块化
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
