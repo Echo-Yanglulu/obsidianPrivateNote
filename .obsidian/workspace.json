@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/工程化.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":11},\"to\":{\"line\":48,\"ch\":11}},\"scroll\":32.6724537037037}"
                     },
                     {
                       "title": "2023-06-09",
@@ -185,7 +191,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "Day Planners/2023-06-09.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2165,6 +2171,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":11},\"to\":{\"line\":15,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":26},\"to\":{\"line\":6,\"ch\":26}}}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2541,7 +2559,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md",
+                    "file": "笔记/前端/工程化/工程化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2606,7 +2624,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -2632,7 +2651,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2659,7 +2678,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2994,31 +3013,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a86e2789749eb6f0",
+  "active": "f3c650ca3ef69b7a",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0609-171024-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-171315-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0609-171251-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/_gsdata_/2023-0609-171206-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/技术选型.md",
+    "笔记/_gsdata_/2023-0609-171142-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-171124-DESKTOP-YLL-Job1.log",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "Day Planners/2023-06-09.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/_gsdata_/2023-0609-171024-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-170924-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-170824-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-170724-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0609-170624-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-170524-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-170424-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-170324-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-170224-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/函数库/lodash.md",
-    "笔记/前端/工程化/构建/webpack.md",
-    "Day Planners/2023-06-09.md",
     "笔记/前端/assets/Pasted image 20230609164802.png",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230609162616.png",
     "笔记/前端/工程化/发布.md",
-    "笔记/前端/工程化/构建/构建.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/前端.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/前端工作.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -3033,8 +3054,6 @@
     "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
