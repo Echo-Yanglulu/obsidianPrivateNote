@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -447,6 +447,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":343,\"ch\":39},\"to\":{\"line\":343,\"ch\":39}},\"scroll\":322.5386}"
+                    },
+                    {
                       "title": "2023-06-09",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -559,7 +565,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "Day Planners/2023-06-10.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2685,7 +2691,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -2711,7 +2717,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2738,7 +2744,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3073,21 +3079,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "506196fad33456e0",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
+    "Day Planners/2023-06-10.md",
+    "Day Planners/2023-06-09.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/_gsdata_/2023-0609-234548-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0609-234542-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/2023-0609-234539-DESKTOP-YLL-Job1.log",
-    "Day Planners/2023-06-09.md",
     "笔记/_gsdata_/2023-0609-234334-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-234328-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-234325-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-234222-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-234158-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-234113-DESKTOP-YLL-Job1.log",
-    "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/时间.md",
     "笔记/前端/工程化/Sass.md",
     "笔记/前端/工程化/PostCSS.md",
@@ -3099,7 +3106,6 @@
     "笔记/前端/工程化/微前端.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端工作.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230609172006.png",
     "笔记/前端/工程化/技术选型.md",
     "笔记/前端/工程化/工程设计/工程设计.md",
