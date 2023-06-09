@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "Day Planners/2023-06-09.md"
                   }
                 }
               }
@@ -447,6 +447,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -535,7 +541,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "Day Planners/2023-06-09.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2687,7 +2693,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Day Planners/2023-06-09.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2714,7 +2720,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Day Planners/2023-06-09.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3051,20 +3057,20 @@
   },
   "active": "506196fad33456e0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0609-233749-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0609-233649-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-234028-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0609-233925-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-233901-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-233828-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-233749-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-233649-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-233546-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-233540-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-233537-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-233434-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-233422-DESKTOP-YLL-Job1.log",
     "Day Planners/2023-06-09.md",
-    "笔记/_gsdata_/2023-0609-233155-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/时间.md",
     "笔记/前端/工程化/Sass.md",
-    "笔记/_gsdata_/2023-0609-233113-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/PostCSS.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/CSS预处理器.md",
