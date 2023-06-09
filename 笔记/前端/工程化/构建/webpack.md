@@ -408,8 +408,15 @@ eject之后的脚本分析：
 ## tree-shaking
 针对：在一个模块中被导出，却没有被使用（引入+调用）
 必须使用[[JS模块化#ES Module|es module]]的语法才能去除
-## babel打包优化
-
+## [[babel]]打包优化
+```js
+import { Rol, Col } from 'react-bootstrap';
+// 两个组件的导入，babel在打包时进行处理，会处理为
+var reactBootstrap = require('react-bootstrap')
+var Rol = reactBootstrap.Rol;
+var Col = reactBootstrap.Col;
+// babel引入了所有的组件，
+```
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
