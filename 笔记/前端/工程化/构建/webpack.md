@@ -357,7 +357,6 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 	3. 由应用自己做出局部的判断。
 	4. ![[Pasted image 20220805223240.png]]
 ### 代码分离
-原因：
 目的：得到多个bundle，灵活定制加载策略（按需加载，并行加载），从而提升整个应用的加载速度。
 方式：
 	1. 入口起点：使用entry 配置手动分离
@@ -432,9 +431,16 @@ import {add} from 'lodash/fp';
 
 const addOne = add(1)
 _.map([1,2,3], addOne)
-// babel编译后后
+// 使用插件的babel编译后
+import _map from 'lodash/map';
+import _add from 'lodash/fp/add';
 
+const addOne = _add(1)
+_map([1,2,3], addOne)
 ```
+## 作用域提升
+![[Pasted image 20230609164802.png]] 
+
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
