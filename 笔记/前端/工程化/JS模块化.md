@@ -1,9 +1,5 @@
 # 方案
 JS模块化方案
-## [[ES Module]] 
-AMD与CommonJS都没有统一浏览器与客户端的模块化规范
-可通过[[babel]]或[[TS]]提前体验（为啥，因为都有编译器？）
-node.js可通过在.mjs文件中node --experimental-modules some-esm-file.mjs添加-experimental-modules：true启用该语法。
 ## [[CommonJS]] 
 该规范
 	1. 主要是服务端使用

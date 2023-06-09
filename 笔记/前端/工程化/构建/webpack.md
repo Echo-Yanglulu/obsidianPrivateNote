@@ -407,7 +407,9 @@ eject之后的脚本分析：
 使用各种loader、插件时注意：去除代码中的空格、换行符、制表符
 ## tree-shaking
 针对：在一个模块中被导出，却没有被使用（引入+调用）
-必须使用[[js模块化
+必须使用[[JS模块化#ES Module|es module]]的语法才能去除
+## babel打包优化
+
 # 工具开发
 ## loader（理解原理即可，社区loader已经足够丰富）
 使用[loaderUtils ](https://www.npmjs.com/package/loader-utils)[^11]，如：将源码中所有的world字符串，替换为配置中name字段的值。
