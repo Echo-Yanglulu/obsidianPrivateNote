@@ -11,7 +11,7 @@
     "burySiblingCards": false,
     "showContextInCards": true,
     "flashcardHeightPercentage": 80,
-    "flashcardWidthPercentage": 40,
+    "flashcardWidthPercentage": 85,
     "randomizeCardOrder": true,
     "convertHighlightsToClozes": true,
     "convertBoldTextToClozes": true,
@@ -27,10 +27,10 @@
     ],
     "noteFoldersToIgnore": [],
     "openRandomNote": false,
-    "autoNextNote": false,
+    "autoNextNote": true,
     "disableFileMenuReviewOptions": false,
-    "maxNDaysNotesReviewQueue": 365,
-    "initiallyExpandAllSubdecksInTree": false,
+    "maxNDaysNotesReviewQueue": 730,
+    "initiallyExpandAllSubdecksInTree": true,
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,
     "easyBonus": 1.3,
@@ -41,7 +41,7 @@
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2023-05-16",
+  "buryDate": "2023-06-09",
   "buryList": [],
   "historyDeck": "flashcards"
 }

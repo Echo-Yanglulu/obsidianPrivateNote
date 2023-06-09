@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-09.md"
+                    "file": "笔记/内心/活在当下指南.md"
                   }
                 }
               }
@@ -38,6 +38,154 @@
             "type": "tabs",
             "dimension": 64.62706565430996,
             "children": [
+              {
+                "id": "a86e2789749eb6f0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":20},\"to\":{\"line\":55,\"ch\":20}},\"scroll\":27.68901145523971}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":34},\"to\":{\"line\":65,\"ch\":34}},\"scroll\":48.036458333333336}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":11},\"to\":{\"line\":25,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":9},\"to\":{\"line\":129,\"ch\":9}},\"scroll\":110.80621693121694}"
+                    },
+                    {
+                      "title": "webpack.config.js",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":8},\"to\":{\"line\":126,\"ch\":8}},\"scroll\":112.6474}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":25},\"to\":{\"line\":6,\"ch\":25}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":29},\"to\":{\"line\":159,\"ch\":29}},\"scroll\":94.44082446808511}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":15},\"to\":{\"line\":21,\"ch\":15}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Set Link Alias",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Set Link Alias.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Reverse arrows",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}},\"scroll\":147.52586817859674}"
+                    },
+                    {
+                      "title": "Expand rectangles horizontally keep text centered",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "Box Each Selected Groups",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "Prettier",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":26},\"to\":{\"line\":4,\"ch\":26}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Reverse arrows",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":54},\"to\":{\"line\":14,\"ch\":54}}}"
+                    },
+                    {
+                      "title": "Prettier",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":60},\"to\":{\"line\":4,\"ch\":60}}}"
+                    },
+                    {
+                      "title": "OO设计模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":43},\"to\":{\"line\":13,\"ch\":43}}}"
+                    },
+                    {
+                      "title": "计算机基础",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "欲望",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/欲望.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Day Planners/2023-06-09.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
               {
                 "id": "e85da53958190f2e",
                 "type": "leaf",
@@ -1529,154 +1677,6 @@
                 }
               },
               {
-                "id": "a86e2789749eb6f0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":20},\"to\":{\"line\":55,\"ch\":20}},\"scroll\":27.68901145523971}"
-                    },
-                    {
-                      "title": "构建",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":65,\"ch\":34},\"to\":{\"line\":65,\"ch\":34}},\"scroll\":48.036458333333336}"
-                    },
-                    {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":11},\"to\":{\"line\":25,\"ch\":11}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":9},\"to\":{\"line\":129,\"ch\":9}},\"scroll\":110.80621693121694}"
-                    },
-                    {
-                      "title": "webpack.config.js",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":8},\"to\":{\"line\":126,\"ch\":8}},\"scroll\":112.6474}"
-                    },
-                    {
-                      "title": "react组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":25},\"to\":{\"line\":6,\"ch\":25}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "函数组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":29},\"to\":{\"line\":159,\"ch\":29}},\"scroll\":94.44082446808511}"
-                    },
-                    {
-                      "title": "react组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":15},\"to\":{\"line\":21,\"ch\":15}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Set Link Alias",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Set Link Alias.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "Reverse arrows",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "OO设计模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}},\"scroll\":147.52586817859674}"
-                    },
-                    {
-                      "title": "Expand rectangles horizontally keep text centered",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "Box Each Selected Groups",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Box Each Selected Groups.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "OO设计模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}}}"
-                    },
-                    {
-                      "title": "Prettier",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":26},\"to\":{\"line\":4,\"ch\":26}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Reverse arrows",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Excalidraw/Scripts/Downloaded/Reverse arrows.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":54},\"to\":{\"line\":14,\"ch\":54}}}"
-                    },
-                    {
-                      "title": "Prettier",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/Prettier.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":60},\"to\":{\"line\":4,\"ch\":60}}}"
-                    },
-                    {
-                      "title": "OO设计模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":43},\"to\":{\"line\":13,\"ch\":43}}}"
-                    },
-                    {
-                      "title": "计算机基础",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":9},\"to\":{\"line\":5,\"ch\":9}}}"
-                    },
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":13},\"to\":{\"line\":9,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "欲望",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/欲望.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/2023-06-09.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "f3c650ca3ef69b7a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -2565,7 +2565,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -2591,7 +2591,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-09.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2618,7 +2618,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-09.md",
+                        "file": "笔记/内心/活在当下指南.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2952,13 +2952,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a86e2789749eb6f0",
+  "active": "e85da53958190f2e",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/时间.md",
-    "笔记/_gsdata_/2023-0609-160718-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-161018-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
     "Day Planners/2023-06-09.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/_gsdata_/2023-0609-160918-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0609-160818-DESKTOP-YLL-Job1.log",
+    "笔记/工具/通用概念/时间.md",
+    "笔记/_gsdata_/2023-0609-160718-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-160618-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/_gsdata_/2023-0609-160518-DESKTOP-YLL-Job1.log",
@@ -2967,8 +2971,6 @@
     "2023-06-09.md",
     "笔记/_gsdata_/2023-0609-160318-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0609-160218-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-160118-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0609-160018-DESKTOP-YLL-Job1.log",
     "笔记/学习方法/概念/概念.md",
     "笔记/工具/语法/句子.md",
     "笔记/前端/工程化/构建/SplitChunksPlugin.md",
@@ -2978,7 +2980,6 @@
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/前端工作.md",
-    "笔记/内心/活在当下指南.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
@@ -2990,7 +2991,6 @@
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/质量/监控与异常上报.md",
     "笔记/前端/工程化/质量/测试.md",
-    "笔记/前端/工程化/发布.md",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
