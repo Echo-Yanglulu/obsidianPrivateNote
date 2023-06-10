@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/前端/编程语言/CSS/盒模型.md"
                   }
                 }
               }
@@ -2643,6 +2643,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":8},\"to\":{\"line\":28,\"ch\":8}},\"scroll\":15.716315789473684}"
+                    },
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":17},\"to\":{\"line\":25,\"ch\":17}},\"scroll\":8.642939814814815}"
+                    },
+                    {
                       "title": "babel",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2689,7 +2701,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "file": "笔记/前端/编程语言/CSS/盒模型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2723,7 +2735,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2750,7 +2762,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3087,12 +3099,13 @@
   },
   "active": "d6515dafe6301ad5",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230605103007.png",
     "笔记/前端/编程语言/CSS/布局.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/内心/活在当下指南.md",
     "Day Planners/2023-06-10.md",
     "Day Planners/2023-06-09.md",
@@ -3126,7 +3139,6 @@
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230609162616.png",
-    "笔记/前端/工程化/发布.md",
     "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
