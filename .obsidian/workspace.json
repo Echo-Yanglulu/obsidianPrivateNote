@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/继承.md"
+                    "file": "笔记/前端/编程语言/CSS/BFC.md"
                   }
                 }
               }
@@ -1746,17 +1746,17 @@
                 "id": "8e3bccf50c0e3aed",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":52},\"to\":{\"line\":46,\"ch\":52}},\"scroll\":35.645833333333336}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":18},\"to\":{\"line\":106,\"ch\":18}},\"scroll\":87.19965277777777}"
                     },
                     {
                       "title": "前端",
@@ -2213,7 +2213,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2741,7 +2741,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/继承.md",
+                        "file": "笔记/前端/编程语言/CSS/BFC.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2768,7 +2768,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/继承.md",
+                        "file": "笔记/前端/编程语言/CSS/BFC.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3103,24 +3103,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "455d7216162e08e1",
+  "active": "0fd4a3cf48665429",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0610-140127-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0610-140345-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0610-140320-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/BFC.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/_gsdata_/2023-0610-140228-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/继承.md",
+    "笔记/_gsdata_/2023-0610-140127-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-140024-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-135921-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-135818-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-135715-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-135612-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-135509-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-135406-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-135303-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-135200-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/CSS/继承.md",
-    "笔记/前端/前端工作.md",
     "Day Planners/2023-06-10.md",
-    "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
