@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
                   }
                 }
               }
@@ -1386,17 +1386,17 @@
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "state",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/state.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "过程",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/过程.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":53},\"to\":{\"line\":16,\"ch\":53}}}"
                     },
                     {
                       "title": "鹿智者的法则",
@@ -1415,7 +1415,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/过程.md",
+                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2419,7 +2419,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -2445,7 +2445,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2472,7 +2472,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2807,8 +2807,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8a9e3c74e77c9e2b",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
+    "笔记/工具/思考/思考.md",
+    "笔记/工具/通用概念/鹿智者的法则.md",
+    "笔记/工具/思考/过程.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "Day Planners/2023-06-10.md",
     "笔记/前端/前端工作.md",
@@ -2823,10 +2827,8 @@
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/继承.md",
     "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/工具/通用概念/勇气.md",
-    "笔记/工具/思考/思考.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/拉伸.md",
@@ -2843,9 +2845,7 @@
     "笔记/_gsdata_/2023-0610-144852-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/工程化/构建/babel.md",
-    "笔记/工具/思考/过程.md",
     "笔记/前端/assets/Pasted image 20230605103007.png",
-    "笔记/工具/通用概念/时间.md",
     "笔记/前端/assets/Pasted image 20230609172006.png",
     "笔记/前端/assets/Pasted image 20230609164802.png",
     "笔记/前端/assets/Pasted image 20230609162616.png",
