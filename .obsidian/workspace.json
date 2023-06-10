@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/盒模型.md"
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
                   }
                 }
               }
@@ -2465,6 +2465,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "盒模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/盒模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":8},\"to\":{\"line\":7,\"ch\":8}},\"scroll\":0}"
+                    },
+                    {
                       "title": "CSS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2523,7 +2529,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/盒模型.md",
+                    "file": "笔记/前端/编程语言/CSS/CSS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2557,7 +2563,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
+                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2584,7 +2590,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
+                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2919,9 +2925,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6515dafe6301ad5",
+  "active": "cae15a2f6a096c10",
   "lastOpenFiles": [
     "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/继承.md",
@@ -2945,9 +2953,7 @@
     "笔记/_gsdata_/2023-0610-145055-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-144955-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-144852-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/工具/思考/过程.md",
     "笔记/前端/assets/Pasted image 20230605103007.png",
