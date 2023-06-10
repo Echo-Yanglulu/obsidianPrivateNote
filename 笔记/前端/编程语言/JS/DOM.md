@@ -13,10 +13,10 @@
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
 DOM对象是[[宿主对象]]。
 # 属性
-clientWidth：元素的**content+padding**。
-clientHeight：某个元素的content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
+clientWidth：元素**content+padding**。
+clientHeight：元素content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
 	document.documentElement.clientWidth：页面的宽高
-clientLeft：元素左border宽度
+clientLeft：左border宽度
 scrollHeight：元素的content + padding，包含滚动部分。
 	1. 超出内容没有滚动：等于clientHeight
 	2. 超出内容有滚动：==滚动内容高度== + ==padding==
