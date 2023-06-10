@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md"
+                    "file": "笔记/前端/编程语言/CSS/继承.md"
                   }
                 }
               }
@@ -2741,7 +2741,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/前端/编程语言/CSS/继承.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2768,7 +2768,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/前端/编程语言/CSS/继承.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3103,23 +3103,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "455d7216162e08e1",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0610-134027-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0610-134003-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/_gsdata_/2023-0610-133927-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/CSS/继承.md",
+    "笔记/_gsdata_/2023-0610-133903-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0610-133833-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0610-133809-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0610-133730-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-133706-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-133603-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-133539-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0610-133524-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-133521-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-133418-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-133415-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "Day Planners/2023-06-10.md",
     "笔记/前端/编程语言/CSS/BFC.md",
-    "笔记/_gsdata_/2023-0610-133315-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0610-133215-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
@@ -3142,7 +3143,6 @@
     "笔记/前端/工程化/技术选型.md",
     "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/前端.md",
     "笔记/前端/assets/Pasted image 20230609164802.png",
     "笔记/前端/assets/Pasted image 20230609162616.png",
     "笔记/前端/工程化/构建/webpack.svg",
