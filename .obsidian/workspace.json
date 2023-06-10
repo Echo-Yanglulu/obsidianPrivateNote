@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/布局.md"
+                    "file": "笔记/前端/编程语言/CSS/BFC.md"
                   }
                 }
               }
@@ -2709,7 +2709,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2735,7 +2735,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/CSS/BFC.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2762,7 +2762,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/CSS/BFC.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3097,13 +3097,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f2855409b53ec119",
+  "active": "605b28ee459561e8",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/BFC.md",
-    "笔记/前端/编程语言/CSS/布局.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/CSS/BFC.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/工具/思考/过程.md",
