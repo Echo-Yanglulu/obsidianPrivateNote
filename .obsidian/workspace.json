@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS属性.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -2465,6 +2465,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":12},\"to\":{\"line\":28,\"ch\":12}},\"scroll\":16.34950936663693}"
+                    },
+                    {
                       "title": "盒模型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/盒模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2529,7 +2535,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2563,7 +2569,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2590,7 +2596,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2925,7 +2931,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d5d04cd60b3784bc",
+  "active": "d6515dafe6301ad5",
   "lastOpenFiles": [
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
