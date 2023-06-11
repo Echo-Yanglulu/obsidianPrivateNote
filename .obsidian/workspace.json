@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/响应式布局.md"
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
                   }
                 }
               }
@@ -2350,6 +2350,18 @@
                       "title": "CSS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":0},\"to\":{\"line\":32,\"ch\":0}},\"scroll\":16.696342551293487}"
+                    },
+                    {
+                      "title": "响应式布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/响应式布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":27},\"to\":{\"line\":8,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":0},\"to\":{\"line\":30,\"ch\":0}},\"scroll\":16.382337198929527}"
                     },
                     {
@@ -2453,7 +2465,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/响应式布局.md",
+                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2487,7 +2499,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/响应式布局.md",
+                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2514,7 +2526,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/响应式布局.md",
+                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2851,8 +2863,9 @@
   },
   "active": "d6515dafe6301ad5",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/响应式布局.md",
+    "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
@@ -2896,7 +2909,6 @@
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
     "笔记/前端/assets/Pasted image 20230607223258.png",
-    "笔记/前端/assets/Pasted image 20230607090002.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
