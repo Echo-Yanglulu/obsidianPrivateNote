@@ -30,9 +30,11 @@
 
 # 异步中API的分类
 ## 宏任务
-
+定义：
+组成：定时器，ajax，DOM事件，promise中的主任务
 ## 微任务
-
+定义：
+组成：promise.then()
 ## event-loop与dom渲染
 
 ## 执行顺序
