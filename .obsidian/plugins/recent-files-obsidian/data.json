@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "event-loop",
+      "path": "笔记/前端/编程语言/JS/event-loop.md"
+    },
+    {
       "basename": "异步JS",
       "path": "笔记/前端/编程语言/JS/异步JS.md"
+    },
+    {
+      "basename": "async",
+      "path": "笔记/前端/编程语言/JS/async.md"
     },
     {
       "basename": "JS",
@@ -191,14 +199,6 @@
     {
       "basename": "ignore",
       "path": "笔记/前端/工程化/规范/ignore.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "变量",
-      "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
     }
   ],
   "omittedPaths": [

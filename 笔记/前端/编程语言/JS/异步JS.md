@@ -11,11 +11,11 @@
 [[event-loop]] 
 [[宏任务]] 
 [[Promise]] 
-async
+[[async]] 
 # 有序异步任务
 解决方案
 	1. 回调嵌套/地狱
-	2. Promise API
-	3. async函数
-	4. genarator
+	2. [[Promise]] 
+	3. [[async]] 
+	4. [[生成器]] 
 	5. iterable
