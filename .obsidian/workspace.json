@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/编程语言/JS/概述.md"
                   }
                 }
               }
@@ -2519,6 +2519,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":10},\"to\":{\"line\":19,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "async",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/async.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2643,7 +2655,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "笔记/前端/编程语言/JS/概述.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2677,7 +2689,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/概述.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2704,7 +2716,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/概述.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3041,19 +3053,20 @@
   },
   "active": "d8c5b910bab5752f",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-165646-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-165928-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0611-165543-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165452-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165428-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165340-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165331-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165328-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165225-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-165222-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/async.md",
+    "笔记/_gsdata_/2023-0611-165919-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165916-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/_gsdata_/2023-0611-165813-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165755-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165752-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165649-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165646-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165543-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/async.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -3063,7 +3076,6 @@
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/JS原理.md",
     "笔记/前端/编程语言/JS/基本概念/生成器.md",
