@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/event-loop.md"
+                    "file": "笔记/前端/工程化/构建/Promise.md"
                   }
                 }
               }
@@ -1445,6 +1445,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":128,\"ch\":32},\"to\":{\"line\":128,\"ch\":32}},\"scroll\":103.88425925925925}"
+                    },
+                    {
                       "title": "2023-06-10",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1911,7 +1917,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/工程化/构建/Promise.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2597,7 +2603,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -2623,7 +2629,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2650,7 +2656,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2984,10 +2990,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d8c5b910bab5752f",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS.md",
@@ -3002,7 +3009,6 @@
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/CSS Reset.md",
     "笔记/前端/编程语言/JS/浏览器.md",
