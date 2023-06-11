@@ -4,7 +4,11 @@
 	2. 调用resolved改变状态为resolved并传参。调用rejected改变状态为rejected并传参 
 		1. 状态的改变不可逆的
 		2. 状态变为resolved时，执行then内代码
-		3. 状态变为rejected时，执行then或catch内码
+			1. 后续then中正常返回，则得到一个resolved状态的promise
+			1. 后续then中返回异常，则得到一个rejected状态的promise
+		3. 状态变为rejected时，执行then第二个函数或catch内代码
+			4. 内部return正常则返回resolved状态的promise
+			5. 内部return异常则返回rejected状态的promise
 	3. 可直接创建一个落定的Promise对象
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
