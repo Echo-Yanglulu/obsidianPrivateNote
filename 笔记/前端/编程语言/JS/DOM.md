@@ -17,9 +17,9 @@ clientWidth：**content+padding**。
 clientHeight：content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
 	document.documentElement.clientWidth：页面的宽高
 clientLeft：左border宽度
-scrollHeight：content + padding，*包含滚动部分*。
-	1. 超出内容没有滚动：等于clientHeight
-	2. 超出内容有滚动：==滚动内容高度== + ==padding== 
+scrollHeight：clientWidth，*含滚动部分*。
+	1. 没有滚动：等于clientHeight
+	2. 有滚动：==滚动内容高度== + ==padding== 
 	3. 如果设置scroll为auto，content高为手动设置的高度
 	4. 如果设置scroll为scroll，content高缩小
 
