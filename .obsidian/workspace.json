@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/概述.md"
+                    "file": "笔记/前端/编程语言/JS/核心JS.svg"
                   }
                 }
               }
@@ -2605,7 +2605,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/概述.md",
+                        "file": "笔记/前端/编程语言/JS/核心JS.svg",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2632,7 +2632,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/概述.md",
+                        "file": "笔记/前端/编程语言/JS/核心JS.svg",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2966,10 +2966,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d8c5b910bab5752f",
+  "active": "6503e28d0a42fa5d",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/核心JS.svg",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/JS原理.md",
     "笔记/前端/编程语言/JS/异步JS.md",
@@ -2993,7 +2994,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/screen.md",
-    "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/_gsdata_/2023-0610-145346-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -3013,7 +3013,6 @@
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/前端/assets/Pasted image 20230607223442.png",
-    "笔记/前端/assets/Pasted image 20230607223258.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
