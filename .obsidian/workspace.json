@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/async.md"
+                    "file": "笔记/前端/编程语言/JS/异步JS.md"
                   }
                 }
               }
@@ -1445,6 +1445,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "async",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/async.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}}}"
+                    },
+                    {
                       "title": "异步JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1941,7 +1947,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/async.md",
+                    "file": "笔记/前端/编程语言/JS/异步JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2653,7 +2659,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/async.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2680,7 +2686,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/async.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3017,19 +3023,19 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-144546-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-144807-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0611-144740-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-144713-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-144710-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/async.md",
+    "笔记/_gsdata_/2023-0611-144607-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-144549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-144546-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-144443-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/_gsdata_/2023-0611-144419-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-144319-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-144216-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-144204-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-144201-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-144058-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/async.md",
-    "笔记/_gsdata_/2023-0611-144034-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",

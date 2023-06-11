@@ -18,3 +18,6 @@
 		1. promise也是基于回调函数，它是用看起来同步的方式写异步
 	4. [[生成器]] 
 	5. iterable
+
+使用async与promise的区别
+	1. 都需要定义promise，不同的是Promise落定之后的处理逻辑换了一种书写方式
