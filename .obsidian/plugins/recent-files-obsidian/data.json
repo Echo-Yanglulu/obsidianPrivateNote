@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "布局",
+      "path": "笔记/前端/编程语言/CSS/布局.md"
+    },
+    {
+      "basename": "BFC",
+      "path": "笔记/前端/编程语言/CSS/BFC.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
+      "basename": "CSS Reset",
+      "path": "笔记/前端/编程语言/CSS/CSS Reset.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "BOM",
+      "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "属性值与单位",
       "path": "笔记/前端/编程语言/CSS/属性值与单位.md"
-    },
-    {
-      "basename": "BOM",
-      "path": "笔记/前端/编程语言/JS/BOM.md"
     },
     {
       "basename": "window",
@@ -21,16 +41,8 @@
       "path": "笔记/前端/编程语言/JS/DOM.md"
     },
     {
-      "basename": "CSS",
-      "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
       "basename": "响应式布局",
       "path": "笔记/前端/编程语言/CSS/响应式布局.md"
-    },
-    {
-      "basename": "布局",
-      "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "CSS属性",
@@ -107,10 +119,6 @@
     {
       "basename": "继承",
       "path": "笔记/前端/编程语言/CSS/继承.md"
-    },
-    {
-      "basename": "BFC",
-      "path": "笔记/前端/编程语言/CSS/BFC.md"
     },
     {
       "basename": "babel",
@@ -191,14 +199,6 @@
     {
       "basename": "质量",
       "path": "笔记/前端/工程化/质量/质量.md"
-    },
-    {
-      "basename": "调试",
-      "path": "笔记/前端/基础知识/调试.md"
-    },
-    {
-      "basename": "工具",
-      "path": "笔记/前端/工程化/工具/工具.md"
     }
   ],
   "omittedPaths": [
