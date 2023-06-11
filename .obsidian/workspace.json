@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/Promise.md"
+                    "file": "笔记/前端/编程语言/JS/异步JS.md"
                   }
                 }
               }
@@ -1445,6 +1445,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "async",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/async.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":10},\"to\":{\"line\":12,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "Promise",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/Promise.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":26},\"to\":{\"line\":13,\"ch\":26}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1917,7 +1935,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/Promise.md",
+                    "file": "笔记/前端/编程语言/JS/异步JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2629,7 +2647,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2656,7 +2674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2993,20 +3011,22 @@
   },
   "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-143928-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-144216-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0611-144204-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-144201-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-144058-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/async.md",
+    "笔记/_gsdata_/2023-0611-144034-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/_gsdata_/2023-0611-144031-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/_gsdata_/2023-0611-143928-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-143913-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-143813-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143713-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143613-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143513-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143413-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143313-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-143213-DESKTOP-YLL-Job1.log",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/编程语言/JS/JS.md",
@@ -3014,8 +3034,6 @@
     "笔记/前端/编程语言/JS/JS原理.md",
     "笔记/前端/编程语言/JS/基本概念/生成器.md",
     "笔记/前端/编程语言/JS/genarator.md",
-    "笔记/前端/编程语言/JS/async.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",

@@ -10,12 +10,11 @@
 
 [[event-loop]] 
 [[宏任务]] 
-[[Promise]] 
-[[async]] 
 # 有序异步任务
 解决方案
 	1. 回调嵌套/地狱
 	2. [[Promise]] 
 	3. [[async]] 
+		1. promise也是基于回调函数，它是用看起来同步的方式写异步
 	4. [[生成器]] 
 	5. iterable
