@@ -20,7 +20,7 @@
 	5. iterable
 
 使用async与promise的区别
-	1. 都需要定义promise，不同的是Promise落定之后的处理逻辑换了一种书写方式
+	1. 都需要定义promise，不同的是Promise状态改变之后的处理逻辑换了一种书写方式
 	2. 前者
 		1. await相当于then。
 			2. 后面是promise对象，会解包，拿出解决值。
