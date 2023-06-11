@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/共情.md"
+                    "file": "Day Planners/2023-06-11.md"
                   }
                 }
               }
@@ -625,6 +625,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":12},\"to\":{\"line\":12,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
                       "title": "勇气",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/勇气.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -641,7 +647,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "Day Planners/2023-06-11.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -2725,7 +2731,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/共情.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2752,7 +2758,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/共情.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2894,7 +2900,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -3087,22 +3093,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3742ff2499f88ed6",
+  "active": "8a9e3c74e77c9e2b",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-232229-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0611-232220-DESKTOP-YLL-Job1.log",
-    "笔记/内心/简洁.md",
-    "笔记/_gsdata_/2023-0611-232117-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-232014-DESKTOP-YLL-Job1.log",
-    "笔记/工具/通用概念/共情.md",
-    "笔记/_gsdata_/2023-0611-231911-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-231811-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-231708-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-231644-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-231641-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "Day Planners/2023-06-11.md",
+    "笔记/_gsdata_/2023-0611-232459-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-232435-DESKTOP-YLL-Job1.log",
+    "笔记/内心/简洁.md",
+    "笔记/工具/通用概念/共情.md",
+    "笔记/_gsdata_/2023-0611-232359-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0611-232335-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0611-232332-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-232229-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-232220-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-232117-DESKTOP-YLL-Job1.log",
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/内心/欲望.md",
     "笔记/内心/觉悟.md",
