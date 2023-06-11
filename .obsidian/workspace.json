@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "Day Planners/2023-06-11.md"
                   }
                 }
               }
@@ -1393,6 +1393,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "鹿智者的法则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "过程",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/过程.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1415,7 +1421,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                    "file": "Day Planners/2023-06-11.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2445,7 +2451,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2472,7 +2478,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
