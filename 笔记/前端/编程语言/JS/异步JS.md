@@ -22,6 +22,8 @@
 使用async与promise的区别
 	1. 都需要定义promise，不同的是Promise落定之后的处理逻辑换了一种书写方式
 	2. 前者
-		2. await相当于then。因为会对后面的promise对象解包，拿出解决值。
-		3. 返回值会被包装为一个promise对象， 
-		4. 捕获异常需要使用try...catch...
+		1. await相当于then。
+			2. 后面是promise对象，会解包，拿出解决值。
+			3. 后面是普通值，拿出该值
+		2. 返回值会被包装为一个解决的promise对象， 
+		3. 捕获异常需要使用try...catch...
