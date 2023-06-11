@@ -8,10 +8,10 @@
 		2. 网络请求
 		3. 发送接收数据
 
-event-loop
-宏任务/微任务
-Promise
-as
+[[event-loop]] 
+[[宏任务]] 
+[[Promise]] 
+async
 # 有序异步任务
 解决方案
 	1. 回调嵌套/地狱
