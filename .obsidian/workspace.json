@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/编程语言/JS/async.md"
                   }
                 }
               }
@@ -2659,7 +2659,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2686,7 +2686,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3021,22 +3021,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "0d1abf9020c7fa28",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-145731-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0611-145707-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-150049-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/assets/Pasted image 20230611145956.png",
+    "笔记/_gsdata_/2023-0611-145946-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/_gsdata_/2023-0611-145910-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-145834-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-145731-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-145707-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-145704-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-145601-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-145546-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-145543-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-145440-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-145434-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-145431-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/async.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/概述.md",
@@ -3068,7 +3069,6 @@
     "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/assets/Pasted image 20230607233538.png",
     "笔记/前端/assets/Pasted image 20230607231654.png",
-    "笔记/前端/assets/Pasted image 20230607223442.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
