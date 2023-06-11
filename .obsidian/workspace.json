@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/编程语言/JS/async.md"
                   }
                 }
               }
@@ -2519,6 +2519,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":16},\"to\":{\"line\":15,\"ch\":16}}}"
+                    },
+                    {
                       "title": "event-loop",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/event-loop.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2631,7 +2637,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "笔记/前端/编程语言/JS/async.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2665,7 +2671,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2692,7 +2698,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3029,22 +3035,22 @@
   },
   "active": "d8c5b910bab5752f",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0611-164743-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-165013-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/_gsdata_/2023-0611-164943-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-164843-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0611-164743-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-164643-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-164543-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-164443-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-164343-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0611-164243-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-164143-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-164043-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0611-163940-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/async.md",
     "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/前端/工程化/构建/Promise.md",

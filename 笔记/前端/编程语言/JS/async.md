@@ -1,7 +1,8 @@
 
 
 使用[[Promise]]定义一个pending任务并定义好resolve与reject，
-
+每次await，语句下方都是一次回调的包裹
+	1.  
 返回值被包裹为一个Promise对象
 
 await该promise
