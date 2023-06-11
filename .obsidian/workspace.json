@@ -2797,7 +2797,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2990,7 +2991,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "ac45321a494cbeed",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",
