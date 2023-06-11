@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-11.md"
+                    "file": "笔记/学习方法/概念/技术.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "2023-06-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":9},\"to\":{\"line\":4,\"ch\":9}}}"
                     },
                     {
                       "title": "构建",
@@ -215,7 +221,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-09.md",
+                    "file": "笔记/学习方法/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1386,17 +1392,17 @@
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-11",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "鹿智者的法则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "过程",
@@ -1421,7 +1427,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-11.md",
+                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2424,8 +2430,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 6
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -2451,7 +2456,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-11.md",
+                        "file": "笔记/学习方法/概念/技术.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2478,7 +2483,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-11.md",
+                        "file": "笔记/学习方法/概念/技术.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2813,18 +2818,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "3d095ba969f8820d",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/共情.md",
-    "Day Planners/2023-06-11.md",
+    "笔记/学习方法/整体性学习.md",
+    "Day Planners/2023-06-09.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
+    "Day Planners/2023-06-11.md",
+    "笔记/工具/通用概念/共情.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/过程.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "Day Planners/2023-06-10.md",
     "笔记/前端/前端工作.md",
-    "Day Planners/2023-06-09.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/工具/思考/记忆/属性.md",
@@ -2847,7 +2853,6 @@
     "笔记/_gsdata_/2023-0610-145240-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-145216-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-145140-DESKTOP-YLL-Job1.log",
-    "笔记/内心/活在当下指南.md",
     "笔记/_gsdata_/2023-0610-145055-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-144955-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0610-144852-DESKTOP-YLL-Job1.log",
