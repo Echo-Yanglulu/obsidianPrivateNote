@@ -6,9 +6,9 @@
 		2. 状态变为resolved时，执行then内代码
 			1. 后续then中正常返回，则得到一个resolved状态的promise
 			1. 后续then中返回异常，则得到一个rejected状态的promise
-		3. 状态变为rejected时，执行then第二个函数或catch内代码
-			4. 内部return正常则返回resolved状态的promise
-			5. 内部return异常则返回rejected状态的promise
+		3. 状态变为rejected时，执行then第二个函数或catch内代码【在错误处理中，如果返回正常，则得到一个解决的promise 】
+			4. 执行时内部没有异常，则返回resolved状态的promise
+			5. 执行时内部抛出异常，则返回rejected状态的promise
 	3. 可直接创建一个落定的Promise对象
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
