@@ -30,10 +30,10 @@
 # 异步中API的分类
 ## 宏任务
 定义：
-组成：定时器，ajax，DOM事件，promise中的主任务
+包含：定时器，ajax，DOM事件，promise中的主任务
 ## 微任务
-定义：
-组成：promise.then()
+定义：有一个专门的微任务队列。因为宏任务是浏览器规定的，微任务是ES6语法规定的。
+包含：promise.then()
 
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。为什么？
