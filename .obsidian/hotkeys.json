@@ -376,7 +376,18 @@
         "Mod",
         "Shift"
       ],
+      "key": "M"
+    }
+  ],
+  "repeat-plugin:open-repeat-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
       "key": "R"
     }
-  ]
+  ],
+  "hotkeysplus-obsidian:toggle-bullet-number": [],
+  "various-complements:reload-custom-dictionaries": []
 }
