@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "Day Planners/2023-06-12.md"
                   }
                 }
               }
@@ -625,6 +625,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":29},\"to\":{\"line\":26,\"ch\":29}},\"scroll\":12.4676}"
+                    },
+                    {
                       "title": "2023-06-11",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
@@ -653,7 +659,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "Day Planners/2023-06-12.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -2737,7 +2743,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "Day Planners/2023-06-12.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2764,7 +2770,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "Day Planners/2023-06-12.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3101,8 +3107,9 @@
   },
   "active": "8a9e3c74e77c9e2b",
   "lastOpenFiles": [
-    "笔记/工具/思考/思考.md",
     "笔记/前端/编程语言/JS/异步JS.md",
+    "Day Planners/2023-06-12.md",
+    "笔记/工具/思考/思考.md",
     "笔记/_gsdata_/2023-0611-233605-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0611-233502-DESKTOP-YLL-Job1.log",
@@ -3138,7 +3145,6 @@
     "笔记/前端/编程语言/JS/基本概念/生成器.md",
     "笔记/前端/编程语言/JS/genarator.md",
     "笔记/工具/通用概念/事件.md",
-    "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/前端/assets/Pasted image 20230605103007.png",
     "笔记/前端/assets/Pasted image 20230609172006.png",
