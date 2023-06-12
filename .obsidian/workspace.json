@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-12.md"
+                    "file": "笔记/前端/编程语言/JS/异步JS.md"
                   }
                 }
               }
@@ -1937,78 +1937,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "82482837516d0ca4",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "'图片链接'",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/'图片链接'.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2023-06-12",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":28},\"to\":{\"line\":1,\"ch\":28}}}"
-                    },
-                    {
-                      "title": "2023-06-12",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "自己的学习行为",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的学习行为.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":165,\"ch\":10},\"to\":{\"line\":165,\"ch\":10}},\"scroll\":148.9537037037037}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/2023-06-12.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6bfd087dbced92f7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -2034,7 +1965,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-12.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2061,7 +1992,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-12.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2090,6 +2021,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
+        "dimension": 67.62114537444934,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -2125,30 +2057,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vendor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "69a2e6fc80af00cf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "recent-files",
-              "state": {}
             }
           },
           {
@@ -2199,6 +2114,31 @@
             },
             "state": {
               "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "178d954c018b7c28",
+        "type": "tabs",
+        "dimension": 32.378854625550666,
+        "children": [
+          {
+            "id": "69a2e6fc80af00cf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
               "state": {}
             }
           }
@@ -2396,13 +2336,14 @@
       "vantage-obsidian:Vantage - Advanced search builder": false
     }
   },
-  "active": "82482837516d0ca4",
+  "active": "d8c5b910bab5752f",
   "lastOpenFiles": [
-    "笔记/前端/'图片链接'.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/工程化/CI到部署的过程.svg",
     "Day Planners/2023-06-12.md",
+    "笔记/前端/'图片链接'.md",
     "笔记/前端/''.md",
     "未命名.canvas",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/canvas",
     "笔记/新建文件夹",
     "Day Planners/daily/2023-06-12.md",
@@ -2426,7 +2367,6 @@
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/思考/记忆/整合.md",
-    "笔记/工具/思考/记忆/检索.md",
     "Day Planners/yearly",
     "Day Planners/新建文件夹",
     "Day Planners/quarterly",
@@ -2444,7 +2384,6 @@
     "笔记/前端/assets/Pasted image 20230609162616.png",
     "笔记/前端/工程化/构建/webpack.svg",
     "笔记/前端/assets/Pasted image 20230607233538.png",
-    "笔记/前端/assets/Pasted image 20230607231654.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
