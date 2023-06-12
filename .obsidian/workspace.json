@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-12.md"
+                    "file": "笔记/内心/心魔.md"
                   }
                 }
               }
@@ -614,17 +614,17 @@
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-11",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "鹿智者的法则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":0},\"to\":{\"line\":13,\"ch\":0}}}"
                     },
                     {
                       "title": "过程",
@@ -649,7 +649,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1984,7 +1984,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -2010,7 +2010,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-12.md",
+                        "file": "笔记/内心/心魔.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2037,7 +2037,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-12.md",
+                        "file": "笔记/内心/心魔.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2179,7 +2179,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2373,8 +2373,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "82482837516d0ca4",
+  "active": "ff372fe225cc934f",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/人生.md",
+    "笔记/工具/通用概念/鹿智者的法则.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "Day Planners/2023-06-12.md",
     "笔记/工具/思考/记忆/记忆.md",
     "Day Planners/daily/2023-06-12.md",
     "笔记/工具/思考/效率.md",
@@ -2384,15 +2389,12 @@
     "笔记/工具/思考/记忆/检索.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/async.md",
     "Day Planners/2023-06-11.md",
-    "Day Planners/2023-06-12.md",
     "Day Planners/2023-06-10.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/工具/思考/思考.md",
     "Day Planners/yearly",
     "Day Planners/新建文件夹",
@@ -2401,13 +2403,11 @@
     "Day Planners/monthly",
     "Day Planners/weekly",
     "Day Planners/daily",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/学习方法/概念/知识的结构.md",
     "笔记/工具/语法/语法.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/内心/心魔.md",
-    "笔记/工具/思考/幻象.md",
     "笔记/_gsdata_/2023-0611-233605-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0611-233502-DESKTOP-YLL-Job1.log",
