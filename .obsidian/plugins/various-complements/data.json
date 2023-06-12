@@ -1,5 +1,5 @@
 {
-  "strategy": "default",
+  "strategy": "english-only",
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "partial",
   "fuzzyMatch": true,
