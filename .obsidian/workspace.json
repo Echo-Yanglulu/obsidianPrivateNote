@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/event-loop.md"
+                    "file": "笔记/前端/编程语言/JS/async.md"
                   }
                 }
               }
@@ -47,6 +47,42 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "2023-06-11",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "2023-06-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-06-10",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-06-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-06-11",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "整体性学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":14},\"to\":{\"line\":57,\"ch\":14}},\"scroll\":33.8247}"
                     },
                     {
                       "title": "2023-06-09",
@@ -221,7 +257,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
+                    "file": "笔记/前端/编程语言/JS/异步JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1896,8 +1932,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -1923,7 +1958,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1950,7 +1985,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/编程语言/JS/async.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2287,12 +2322,16 @@
       "aosr:Aosr": false
     }
   },
-  "active": "8e3bccf50c0e3aed",
+  "active": "ea5d5c365cb8239c",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
+    "Day Planners/2023-06-11.md",
     "Day Planners/2023-06-12.md",
+    "Day Planners/2023-06-10.md",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
+    "笔记/前端/工程化/构建/Promise.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
     "Day Planners/daily/2023-06-12.md",
     "笔记/工具/思考/思考.md",
@@ -2305,18 +2344,15 @@
     "Day Planners/daily",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/CSS/布局.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/知识的结构.md",
     "笔记/工具/语法/语法.md",
     "笔记/学习方法/概念/概念.md",
     "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
     "笔记/工具/通用概念/爱.md",
-    "Day Planners/2023-06-11.md",
     "笔记/_gsdata_/2023-0611-233605-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0611-233502-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/内心/简洁.md",
     "笔记/工具/通用概念/共情.md",
     "笔记/工具/心理学/情绪/情绪.md",
@@ -2324,7 +2360,6 @@
     "笔记/内心/觉悟.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/前端.md",
     "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/assets/Pasted image 20230611101902.png",
