@@ -1,17 +1,16 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [
+  "editorMenu": [],
+  "fileMenu": [
     {
       "id": "workspace:split-horizontal",
       "icon": "lucide-separator-horizontal",
       "name": "上下分屏",
-      "mode": "desktop",
-      "color": "#ee1717"
+      "mode": "any"
     }
   ],
-  "fileMenu": [],
   "leftRibbon": [
     {
       "id": "workspace:split-horizontal",
@@ -23,15 +22,7 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [
-    {
-      "id": "workspace:split-horizontal",
-      "icon": "lucide-separator-horizontal",
-      "name": "上下分屏",
-      "mode": "any",
-      "color": "#e60505"
-    }
-  ],
+  "pageHeader": [],
   "macros": [],
   "explorer": [],
   "hide": {
