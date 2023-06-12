@@ -369,5 +369,14 @@
       "key": "G"
     }
   ],
-  "graph:open": []
+  "graph:open": [],
+  "repeat-plugin:setup-repeat-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ]
 }
