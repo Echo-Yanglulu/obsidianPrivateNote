@@ -1,14 +1,18 @@
 {
+  "version": "1.0.0",
   "onOpenPreferNewTab": true,
   "alwaysNewTabForSymbols": false,
   "useActiveTabForSymbolsOnMobile": false,
   "symbolsInLineOrder": true,
   "editorListCommand": "edt ",
   "symbolListCommand": "@",
+  "symbolListActiveEditorCommand": "$ ",
   "workspaceListCommand": "+",
   "headingsListCommand": "#",
+  "bookmarksListCommand": "'",
   "commandListCommand": ">",
   "relatedItemsListCommand": "~",
+  "relatedItemsListActiveEditorCommand": "^ ",
   "strictHeadingsOnly": true,
   "searchAllHeadings": true,
   "headingsSearchDebounceMilli": 250,
@@ -126,28 +130,28 @@
         "mode": 4,
         "label": "file cards",
         "isActive": false,
-        "isAvailable": true
+        "isAvailable": false
       },
       {
         "id": "canvas-node-text",
         "mode": 4,
         "label": "text cards",
         "isActive": false,
-        "isAvailable": true
+        "isAvailable": false
       },
       {
         "id": "canvas-node-link",
         "mode": 4,
         "label": "link cards",
         "isActive": false,
-        "isAvailable": true
+        "isAvailable": false
       },
       {
         "id": "canvas-node-group",
         "mode": 4,
         "label": "groups",
         "isActive": false,
-        "isAvailable": true
+        "isAvailable": false
       },
       {
         "id": "backlink",
@@ -197,6 +201,7 @@
   },
   "preserveCommandPaletteLastInput": false,
   "preserveQuickSwitcherLastInput": false,
-  "version": "1.0.0",
-  "bookmarksListCommand": "'"
+  "shouldCloseModalOnBackspace": false,
+  "maxRecentFileSuggestionsOnInit": 25,
+  "orderEditorListByAccessTime": true
 }

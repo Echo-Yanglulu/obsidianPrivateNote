@@ -53,6 +53,11 @@
       "id": "workspace:export-pdf",
       "name": "导出为 PDF",
       "icon": "note-glyph"
+    },
+    {
+      "id": "darlal-switcher-plus:switcher-plus:open-symbols-active",
+      "name": "Quick Switcher++: Open Symbols for the active editor",
+      "icon": "lucide-dollar-sign"
     }
   ],
   "appendMethod": "body",
