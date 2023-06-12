@@ -1,5 +1,5 @@
 {
-  "strategy": "english-only",
+  "strategy": "default",
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "partial",
   "fuzzyMatch": true,
@@ -13,7 +13,7 @@
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": true,
+  "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "useCommonPrefixCompletionOfSuggestion": false,
   "patternsToSuppressTrigger": [
