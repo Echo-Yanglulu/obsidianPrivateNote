@@ -1,5 +1,7 @@
 {
   "snapToObjects": true,
   "snapToGrid": true,
-  "defaultWheelBehavior": "zoom"
+  "defaultWheelBehavior": "zoom",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "笔记/canvas"
 }

@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"3200f6986139d4c5","x":-479,"y":65,"width":400,"height":400,"type":"file","file":"笔记/内心/生命.md"},
-		{"id":"1129b65ceb3a1f9b","x":-158,"y":-202,"width":250,"height":60,"type":"text","text":"dfg "}
-	],
-	"edges":[
-		{"id":"8f3a10db8987178e","fromNode":"1129b65ceb3a1f9b","fromSide":"bottom","toNode":"3200f6986139d4c5","toSide":"top"}
-	]
-}
