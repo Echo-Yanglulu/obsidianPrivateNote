@@ -1413,23 +1413,6 @@
                 }
               },
               {
-                "id": "79f00bdf337a74d9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "repeating-notes-due-view",
-                  "state": {}
-                }
-              },
-              {
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -3126,7 +3109,8 @@
       "periodic-notes:Open today": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "repeat-plugin:Repeat due notes": false
+      "repeat-plugin:Repeat due notes": false,
+      "aosr:Aosr": false
     }
   },
   "active": "294bbda120b9be81",
