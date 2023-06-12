@@ -389,5 +389,14 @@
     }
   ],
   "hotkeysplus-obsidian:toggle-bullet-number": [],
-  "various-complements:reload-custom-dictionaries": []
+  "various-complements:reload-custom-dictionaries": [],
+  "darlal-switcher-plus:switcher-plus:open-symbols": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ]
 }
