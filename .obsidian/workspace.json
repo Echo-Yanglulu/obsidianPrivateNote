@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/学习方法/整体性学习.md"
                   }
                 }
               }
@@ -1143,6 +1143,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":11},\"to\":{\"line\":7,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "概念",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/概念.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":79,\"ch\":10},\"to\":{\"line\":79,\"ch\":10}},\"scroll\":34.745370370370374}"
+                    },
+                    {
                       "title": "句子",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/句子.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1393,7 +1405,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/概念.md",
+                    "file": "笔记/学习方法/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2711,7 +2723,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -2737,7 +2749,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2764,7 +2776,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -3099,10 +3111,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8a9e3c74e77c9e2b",
+  "active": "294bbda120b9be81",
   "lastOpenFiles": [
-    "笔记/内心/心魔.md",
+    "笔记/工具/语法/语法.md",
+    "笔记/学习方法/概念/概念.md",
+    "笔记/前端/编程语言/CSS/布局.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
     "笔记/工具/通用概念/爱.md",
     "Day Planners/2023-06-11.md",
@@ -3134,11 +3149,8 @@
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/async.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/编程语言/JS/JS解释器.md",
-    "笔记/前端/编程语言/JS/JS原理.md",
     "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/前端/assets/Pasted image 20230605103007.png",
     "笔记/前端/assets/Pasted image 20230609172006.png",
