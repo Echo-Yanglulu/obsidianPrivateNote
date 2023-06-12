@@ -58,6 +58,12 @@
       "id": "darlal-switcher-plus:switcher-plus:open-symbols-active",
       "name": "Quick Switcher++: Open Symbols for the active editor",
       "icon": "lucide-dollar-sign"
+    },
+    {
+      "id": "obsidian-memos:show-memos-in-popover",
+      "name": "Obsidian Memos: Show Memos in Popover",
+      "hotkeys": [],
+      "icon": "calendar-glyph"
     }
   ],
   "appendMethod": "body",

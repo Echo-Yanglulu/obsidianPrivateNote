@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/工程化/构建/Promise.md"
                   }
                 }
               }
@@ -572,41 +572,6 @@
                     "backlinks": false,
                     "source": false
                   }
-                }
-              },
-              {
-                "id": "13f516c45139776d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "自己的思考",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的思考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "自由",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/西方文明简史/自由.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}}}"
-                    },
-                    {
-                      "title": "自己的思考",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/自己的思考.md\",\"mode\":\"source\",\"backlinks\":true,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":11},\"to\":{\"line\":6,\"ch\":11}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "memos_view",
-                  "state": {}
                 }
               },
               {
@@ -1920,7 +1885,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1946,7 +1911,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1973,7 +1938,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2310,8 +2275,10 @@
       "aosr:Aosr": false
     }
   },
-  "active": "13f516c45139776d",
+  "active": "8e3bccf50c0e3aed",
   "lastOpenFiles": [
+    "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
     "Day Planners/2023-06-12.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
     "Day Planners/daily/2023-06-12.md",
@@ -2333,7 +2300,6 @@
     "笔记/工具/思考/幻象.md",
     "笔记/工具/通用概念/爱.md",
     "Day Planners/2023-06-11.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/_gsdata_/2023-0611-233605-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0611-233502-DESKTOP-YLL-Job1.log",
@@ -2347,7 +2313,6 @@
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/前端.md",
-    "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/前端/编程语言/JS/核心JS.svg",
     "笔记/前端/assets/Pasted image 20230611101902.png",
