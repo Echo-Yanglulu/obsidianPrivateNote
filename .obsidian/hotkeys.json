@@ -35,8 +35,8 @@
   "editor:toggle-numbered-list": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "O"
     }
@@ -100,8 +100,8 @@
   "hotkey-helper:open-plugins": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "P"
     }
@@ -117,8 +117,8 @@
   "obsidian-wordnet-plugin:open-wordnet-suggestor": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "S"
     }
@@ -126,8 +126,8 @@
   "editor:toggle-strikethrough": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "D"
     }
@@ -144,8 +144,8 @@
   "obsidian-sidebar-toggler:show-left-sidebar": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "T"
@@ -154,8 +154,8 @@
   "obsidian-sidebar-toggler:hide-left-sidebar": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "C"
@@ -174,8 +174,8 @@
   "obsidian-admonition:insert-admonition": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "A"
     }
@@ -183,8 +183,8 @@
   "obsidian-admonition:insert-callout": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "C"
     }
@@ -192,8 +192,8 @@
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "U"
     }
@@ -228,8 +228,8 @@
   "buttons:button-maker": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "B"
@@ -238,8 +238,8 @@
   "outline:open": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "T"
     }
@@ -267,8 +267,8 @@
   "editor:insert-callout": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "I"
     }
@@ -327,8 +327,8 @@
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
-        "Alt",
         "Mod",
+        "Alt",
         "Shift"
       ],
       "key": "S"
@@ -337,8 +337,8 @@
   "obsidian-footnotes:insert-autonumbered-footnote": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Mod",
+        "Alt"
       ],
       "key": "F"
     }

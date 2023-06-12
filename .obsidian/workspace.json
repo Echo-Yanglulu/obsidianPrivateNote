@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
+                    "file": "笔记/内心/生命.md"
                   }
                 }
               }
@@ -1949,6 +1949,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "2023-06-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":25},\"to\":{\"line\":1,\"ch\":25}}}"
+                    },
+                    {
+                      "title": "2023-06-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":28},\"to\":{\"line\":1,\"ch\":28}}}"
+                    },
+                    {
+                      "title": "2023-06-12",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "记忆",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1963,12 +1981,14 @@
                   ]
                 },
                 "state": {
-                  "type": "markdown",
+                  "type": "canvas",
                   "state": {
-                    "file": "Day Planners/2023-06-12.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "未命名.canvas",
+                    "viewState": {
+                      "x": -72,
+                      "y": 189,
+                      "zoom": 0
+                    }
                   }
                 }
               },
@@ -1990,7 +2010,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -2016,7 +2036,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                        "file": "笔记/内心/生命.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2043,7 +2063,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                        "file": "笔记/内心/生命.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2367,7 +2387,6 @@
       "obsidian-journey-plugin:Find Journey": false,
       "smart-random-note:Open Random Note from Search": false,
       "workbench-obsidian:Workbench": false,
-      "vantage-obsidian:Vantage - Advanced search builder": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
@@ -2376,11 +2395,15 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "repeat-plugin:Repeat due notes": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "vantage-obsidian:Vantage - Advanced search builder": false
     }
   },
-  "active": "d6515dafe6301ad5",
+  "active": "82482837516d0ca4",
   "lastOpenFiles": [
+    "Day Planners/2023-06-12.md",
+    "未命名.canvas",
+    "Day Planners/daily/2023-06-12.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/工程化/微服务.md",
     "笔记/前端/编程语言/JS/event-loop.md",
@@ -2397,16 +2420,13 @@
     "笔记/内心/人生.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/前端/编程语言/JS/异步JS.md",
-    "Day Planners/2023-06-12.md",
     "笔记/工具/思考/记忆/记忆.md",
-    "Day Planners/daily/2023-06-12.md",
     "笔记/工具/思考/效率.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/思考/记忆/整合.md",
     "笔记/工具/思考/记忆/检索.md",
     "笔记/学习方法/自己的学习行为.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
     "Day Planners/yearly",
     "Day Planners/新建文件夹",
     "Day Planners/quarterly",
