@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "Day Planners/2023-06-11.md"
                   }
                 }
               }
@@ -1770,17 +1770,17 @@
                 "id": "d8c5b910bab5752f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "event-loop",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/event-loop.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":32},\"to\":{\"line\":11,\"ch\":32}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":29},\"to\":{\"line\":24,\"ch\":29}}}"
                     },
                     {
                       "title": "event-loop",
@@ -1931,7 +1931,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "Day Planners/2023-06-11.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1965,7 +1965,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1992,7 +1992,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "Day Planners/2023-06-11.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2333,7 +2333,8 @@
       "repeat-plugin:Repeat due notes": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false,
-      "vantage-obsidian:Vantage - Advanced search builder": false
+      "vantage-obsidian:Vantage - Advanced search builder": false,
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "d8c5b910bab5752f",
