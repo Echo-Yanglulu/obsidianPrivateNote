@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-11.md"
+                    "file": "Day Planners/2023-06-12.md"
                   }
                 }
               }
@@ -1777,6 +1777,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "2023-06-11",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-11.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "异步JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1931,7 +1937,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-11.md",
+                    "file": "Day Planners/2023-06-12.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1965,7 +1971,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-11.md",
+                        "file": "Day Planners/2023-06-12.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1992,7 +1998,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-11.md",
+                        "file": "Day Planners/2023-06-12.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2331,10 +2337,11 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "repeat-plugin:Repeat due notes": false,
+      "vantage-obsidian:Vantage - Advanced search builder": false,
+      "workspaces:管理工作区布局": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false,
-      "vantage-obsidian:Vantage - Advanced search builder": false,
-      "workspaces:管理工作区布局": false
+      "cmdr:上下分屏": false
     }
   },
   "active": "d8c5b910bab5752f",
