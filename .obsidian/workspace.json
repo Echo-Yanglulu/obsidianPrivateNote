@@ -1628,8 +1628,14 @@
                 "id": "d6515dafe6301ad5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "Keyboard Shortcuts",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"keyboard-shortcuts-visualization\",\"state\":{}}",
+                      "eState": "{}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2375,6 +2381,7 @@
   },
   "active": "d6515dafe6301ad5",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/工程化/微服务.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -2400,7 +2407,6 @@
     "笔记/工具/思考/记忆/检索.md",
     "笔记/学习方法/自己的学习行为.md",
     "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/前端/编程语言/JS/async.md",
     "Day Planners/yearly",
     "Day Planners/新建文件夹",
     "Day Planners/quarterly",
