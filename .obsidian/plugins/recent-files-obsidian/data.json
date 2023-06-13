@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "版本规范",
+      "path": "笔记/前端/工程化/规范/版本规范.md"
+    },
+    {
+      "basename": "package.json",
+      "path": "笔记/前端/工程化/node/package.json.md"
+    },
+    {
+      "basename": "node项目",
+      "path": "笔记/前端/工程化/node/node项目.md"
+    },
+    {
+      "basename": "node",
+      "path": "笔记/前端/工程化/node/node.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
+    },
+    {
+      "basename": "包管理器",
+      "path": "笔记/前端/工程化/包管理器.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "CSS Reset",
       "path": "笔记/前端/编程语言/CSS/CSS Reset.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
-      "basename": "BOM",
-      "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
-      "basename": "window",
-      "path": "笔记/前端/编程语言/JS/window.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "响应式布局",
-      "path": "笔记/前端/编程语言/CSS/响应式布局.md"
-    },
-    {
-      "basename": "技术",
-      "path": "笔记/学习方法/概念/技术.md"
     }
   ],
   "omittedPaths": [
