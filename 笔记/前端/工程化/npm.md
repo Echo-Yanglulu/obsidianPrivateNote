@@ -33,6 +33,7 @@
 	1. [[开发依赖]] 
 	2. [[运行依赖]] 
 # 脚本
+## 组成
 npm script：运行在[[package.json]]文件中写入的脚本
 	1. 内部变量(在npm run 的脚本中存在)
 		$npm_package_[name/version/config_var1]  package.json文件中name字段的值
@@ -53,8 +54,7 @@ npm script：运行在[[package.json]]文件中写入的脚本
 		自定义钩子
 			案例：
 				自动化发版（自动增加版本号）
-
-
+## 命令
 npm
 	init 初始化工程（一个npm项目？）
 		在文件夹中生成一个[[package.json]]文件
