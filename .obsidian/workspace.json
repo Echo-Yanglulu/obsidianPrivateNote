@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -667,6 +667,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":133,\"ch\":0},\"to\":{\"line\":133,\"ch\":0}},\"scroll\":110.34421052631579}"
+                    },
+                    {
                       "title": "工程化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -683,7 +689,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -717,7 +723,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1290,7 +1296,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1638,8 +1644,11 @@
   },
   "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
-    "笔记/前端/包管理.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/前端.md",
+    "笔记/前端/包管理.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
@@ -1660,10 +1669,7 @@
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/daily/2023-06-13.md",
-    "笔记/前端/编程语言/JS/event-loop.md",
     "Day Planners/2023-06-12.md",
-    "笔记/内心/人生.md",
-    "笔记/内心/死亡.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/canvas",
