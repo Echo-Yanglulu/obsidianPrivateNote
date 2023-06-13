@@ -34,7 +34,7 @@
 	2. [[运行依赖]] 
 # 脚本
 ## 组成
-npm script：运行在[[package.json]]文件中写入的脚本
+npm script：运行在[[package.json]]文件中的脚本
 	1. 内部变量(在npm run 的脚本中存在)
 		$npm_package_[name/version/config_var1]  package.json文件中name字段的值
 	2. 参数传递（--）
@@ -63,7 +63,9 @@ npm
 		1. 包名 --save-dev：安装并加入devDependencies
 		2. 包名 --save：安装并加入dependencies
 		3. 包名 无参数：只安装，不修改package.json【可以自己安装好用的一些小工具，不会上传到项目文件夹中，因为*这样操作只修改node_modules文件夹*，而该文件夹一般被git忽略】
-		4. 无参数。即`npm i`：安装package.json中所有的开发依赖和运行依赖
+		4. 无参数。即`npm i` 
+			1. 安装package.json中所有的开发依赖和运行依赖
+			2. 配置开发环境？？【知乎看到的，没看懂】
 		5. `npm i --production`：仅安装运行依赖
 	update 升级依赖
 	set 设置环境变量，如：npm set init-author-name 'Your name'
