@@ -42,8 +42,14 @@
                 "id": "a86e2789749eb6f0",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-13",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/沟通/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1765,19 +1771,19 @@
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0613-202849-DESKTOP-YLL-Job1.log",
+    "笔记/沟通/2023-06-13.md",
+    "笔记/沟通/沟通.md",
+    "笔记/_gsdata_/2023-0613-203101-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0613-202813-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-203058-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0613-202955-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-202952-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-202849-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-202813-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-202725-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-202722-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-202619-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-202616-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-202512-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-202509-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-202406-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/沟通/沟通.md",
     "笔记/工具/通用概念/策略.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/学习方法/整体性学习.md",
