@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md"
+                    "file": "笔记/沟通/沟通.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "整体性学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":22},\"to\":{\"line\":18,\"ch\":22}},\"scroll\":0}"
                     },
                     {
                       "title": "异步JS",
@@ -263,7 +269,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
+                    "file": "笔记/沟通/沟通.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -838,7 +844,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/整体性学习.md",
+                        "file": "笔记/沟通/沟通.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1411,7 +1417,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/整体性学习.md",
+                        "file": "笔记/沟通/沟通.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1537,7 +1543,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "178d954c018b7c28",
@@ -1759,19 +1765,20 @@
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0613-194500-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-194824-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0613-194736-DESKTOP-YLL-Job1.log",
+    "笔记/学习方法/整体性学习.md",
+    "笔记/沟通/沟通.md",
+    "笔记/_gsdata_/2023-0613-194703-DESKTOP-YLL-Job1.log",
+    "笔记/沟通",
+    "笔记/_gsdata_/2023-0613-194700-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-194600-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-194500-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-194400-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-194300-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-194200-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-194057-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-194042-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-194039-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-193936-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-193933-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/工具/语法/语法.md",
@@ -1794,7 +1801,6 @@
     "笔记/前端/前端.md",
     "笔记/前端/包管理.md",
     "笔记/前端/版本控制/版本控制.md",
-    "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
