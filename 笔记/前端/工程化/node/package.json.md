@@ -22,7 +22,12 @@
 		2. config：脚本运行时的配置参数
 	5. 文件与目录
 		1. 
-	6. 许可
+	6. 第三方配置
+		1. eslintConfig
+		2. [[babel]] 
+		3. unpkg：使用该字段可以让 npm 上所有的文件都开启 cdn 服务，该 CND 服务由 unpkg 提供
+		4. lint-staged：一个在 Git 暂存文件上运行 linters 的工具，配置后每次修改一个文件即可给所有文件执行一次 lint 检查，通常配合 gitHooks 一起使用。
+	7. 许可
 # name
 项目名称
 发布到npmjs.com为以该字段命名
@@ -39,9 +44,13 @@
 # devDependencies:
 开发依赖：对项目进行**开发**或修改时必须用到的包
 # license
-版权许可
-
-存在于所有node程序、node库
-
+1. 版权许可
+2. 软件的开源协议，开源协议表述了其他人获得代码后拥有的权利，可以对代码进行何种操作，何种操作又是被禁止的
+## MIT 
+只要用户在项目副本中包含了版权声明和许可声明，他们就可以拿你的代码做任何想做的事情，你也无需承担任何责任。
+## Apache 
+类似于 MIT ，同时还包含了贡献者向用户提供专利授权相关的条款。
+## GPL 
+修改项目代码的用户再次分发源码或二进制代码时，必须公布他的相关修改。
 # 参考
-1. [Fetching Title#6aqu](https://blog.csdn.net/qq_34703156/article/details/121401990)
+1. [package.json 最全详解\_HURRICANE\_FAST的博客-CSDN博客](https://blog.csdn.net/qq_34703156/article/details/121401990) 
