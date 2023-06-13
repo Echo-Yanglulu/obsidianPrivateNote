@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -655,9 +655,43 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "99c519eec5ec0ffb",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":4},\"to\":{\"line\":22,\"ch\":4}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":0},\"to\":{\"line\":132,\"ch\":0}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/前端.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -683,7 +717,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1256,7 +1290,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1602,10 +1636,21 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/组件化.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/工程化/规范/git工程规范.md",
+    "笔记/前端/工程化/脚本/脚本.md",
+    "笔记/前端/工程化/脚手架/脚手架.md",
+    "笔记/前端/工程化/工具/工具.md",
     "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/daily/2023-06-13.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "Day Planners/2023-06-12.md",
@@ -1623,17 +1668,6 @@
     "笔记/新建文件夹",
     "Day Planners/daily/2023-06-12.md",
     "笔记/内心/生命.md",
-    "笔记/工具/思考/幻象.md",
-    "笔记/工具/通用概念/调控/控制.md",
-    "笔记/内心/期待.md",
-    "笔记/内心/经历.md",
-    "笔记/内心/心魔.md",
-    "笔记/工作/工作.md",
-    "笔记/工具/通用概念/时间.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/思考/效率.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
     "Day Planners/yearly",
     "Day Planners/新建文件夹",
     "Day Planners/quarterly",

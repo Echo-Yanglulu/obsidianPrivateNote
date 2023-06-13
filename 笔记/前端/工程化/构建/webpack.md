@@ -55,7 +55,7 @@ tabable插件体系
 是最终输出的一个或多个打包文件
 #### chunk与bundle的区别
 chunk真包含bundle。bundle是个体
-	1. chunk是*集合概念*。作为打包结果，一个chunk可能包含一个或多个bundle[^20] 
+	1. chunk是*集合概念*。作为打包结果，**一个chunk可能包含一个或多个bundle**[^20] 
 	2. bundle是*普遍概念*（一类对象）：每个由入口文件、动态加载、代码分割生成的js文件，都是一个bundle。
 
 只有chunk，每个最终js文件都是一个chunk。
