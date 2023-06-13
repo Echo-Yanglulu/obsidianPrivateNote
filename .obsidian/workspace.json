@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/沟通/同理心.md"
+                    "file": "笔记/沟通/沟通.md"
                   }
                 }
               }
@@ -850,7 +850,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/沟通/同理心.md",
+                        "file": "笔记/沟通/沟通.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1423,7 +1423,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/沟通/同理心.md",
+                        "file": "笔记/沟通/沟通.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1769,20 +1769,22 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "4703fcb536f93b6b",
+  "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/沟通/同理心.md",
-    "笔记/沟通/沟通.md",
-    "笔记/_gsdata_/2023-0613-205841-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-210150-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0613-210050-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-210047-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-210044-DESKTOP-YLL-Job1.log",
+    "笔记/沟通/同理心.md",
+    "笔记/工具/通用概念/感受.md",
+    "笔记/_gsdata_/2023-0613-205941-DESKTOP-YLL-Job1.log",
+    "笔记/沟通/沟通.md",
+    "笔记/_gsdata_/2023-0613-205841-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-205744-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-205641-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-205617-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-205523-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-205520-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-205417-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-205332-DESKTOP-YLL-Job1.log",
     "笔记/沟通/2023-06-13.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/通用概念/策略.md",
@@ -1805,8 +1807,6 @@
     "笔记/前端/工程化/node/node框架.md",
     "笔记/前端/工程化/包管理器.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/JS/event-loop.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
