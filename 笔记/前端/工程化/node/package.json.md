@@ -11,11 +11,18 @@
 		5. 主页
 		6. 仓库
 		7. bugs：项目的bug提交地址
-	3. 
-	4. [[开发依赖]] 
-	5. [[运行依赖]] 
-	6. [[脚本]] 
-	7. 许可
+	3. 依赖配置
+		1. [[开发依赖]] 
+		2. [[运行依赖]] 
+		3. optionalDependencies
+		4. bundledDependencies
+		5. engines
+	4. 脚本配置
+		1. [[脚本]] 
+		2. config：脚本运行时的配置参数
+	5. 文件与目录
+		1. 
+	6. 许可
 # name
 项目名称
 发布到npmjs.com为以该字段命名
@@ -35,3 +42,6 @@
 版权许可
 
 存在于所有node程序、node库
+
+# 参考
+1. [Fetching Title#6aqu](https://blog.csdn.net/qq_34703156/article/details/121401990)
