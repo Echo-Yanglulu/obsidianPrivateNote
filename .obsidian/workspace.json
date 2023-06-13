@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md"
+                    "file": "笔记/前端/工程化/npm.md"
                   }
                 }
               }
@@ -667,6 +667,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "版本规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":25},\"to\":{\"line\":12,\"ch\":25}},\"scroll\":0}"
+                    },
+                    {
                       "title": "package.json",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -737,7 +743,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md",
+                    "file": "笔记/前端/工程化/npm.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -771,7 +777,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1344,7 +1350,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1692,6 +1698,7 @@
   },
   "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
+    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/node/node项目.md",
     "笔记/前端/工程化/node/node.md",
@@ -1715,7 +1722,6 @@
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
