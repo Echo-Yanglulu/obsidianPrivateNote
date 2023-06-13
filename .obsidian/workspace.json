@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/学习方法/整体性学习.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":29},\"to\":{\"line\":24,\"ch\":29}}}"
                     },
                     {
                       "title": "2023-06-11",
@@ -257,7 +263,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "笔记/学习方法/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -776,17 +782,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "整体性学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":80,\"ch\":8},\"to\":{\"line\":80,\"ch\":8}},\"scroll\":74.94039351851852}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":10},\"to\":{\"line\":12,\"ch\":10}},\"scroll\":0}"
                     },
                     {
                       "title": "2023-06-13",
@@ -799,15 +805,14 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                    "file": "笔记/工具/语法/语法.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -833,7 +838,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1406,7 +1411,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1752,24 +1757,28 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0613-193936-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0613-193933-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/构建/Promise.md",
     "笔记/学习方法/整体性学习.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/工具/语法/语法.md",
+    "笔记/_gsdata_/2023-0613-193830-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-193827-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-193824-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-193721-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-193657-DESKTOP-YLL-Job1.log",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/内心/简洁.md",
     "笔记/_gsdata_/2023-0613-193554-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/_gsdata_/2023-0613-193518-DESKTOP-YLL-Job1.log",
     "Day Planners/daily/2023-06-13.md",
-    "笔记/_gsdata_/2023-0613-193451-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/_gsdata_/2023-0613-193427-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-193342-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0613-193248-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-193148-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-193045-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
@@ -1786,10 +1795,6 @@
     "笔记/前端/包管理.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/计算机组成/计算机组成.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",

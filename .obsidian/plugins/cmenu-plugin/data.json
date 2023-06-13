@@ -64,6 +64,11 @@
       "name": "Obsidian Memos: Show Memos in Popover",
       "hotkeys": [],
       "icon": "calendar-glyph"
+    },
+    {
+      "id": "obsidian-spaced-repetition:srs-review-flashcards",
+      "name": "Spaced Repetition: 复习所有笔记中的卡片",
+      "icon": "remix-ClapperboardFill"
     }
   ],
   "appendMethod": "body",
