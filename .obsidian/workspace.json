@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "Day Planners/daily/2023-06-13.md"
                   }
                 }
               }
@@ -771,9 +771,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "a25b7d2264118fac",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Day Planners/daily/2023-06-13.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -799,7 +821,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "Day Planners/daily/2023-06-13.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1372,7 +1394,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "Day Planners/daily/2023-06-13.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1718,7 +1740,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
     "笔记/前端/工程化/npm.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
