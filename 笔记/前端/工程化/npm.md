@@ -1,8 +1,7 @@
 # 概述
 ## 定义
-1. 是[[node]] 的[[包管理器||包管理器/包管理工具]]。用于
-**安装**存放于大型中心仓库上的三方包、**管理**[[node项目]] 中的依赖项。
-2. 世界上最大的软件注册表，包含超过60W个包（即package、代码模块）
+1. 是[[node]] 的[[包管理器||包管理器/包管理工具]]。用于**安装**存放于大型中心仓库上的三方包、**管理**[[node项目]] 中的依赖项。
+2. 世界上最大的软件注册表，包含超过60W个包（即package、代码模块）。
 ## 特性
 1. 在npm仓库中发布的包可指定为项目依赖，通过CLI本地安装。
 2. 包含服务端与客户端JS库
@@ -82,7 +81,7 @@ npm
 	help 查看所有命令
 # 设置
 1. 镜像
-	1. npm config set registry https://registry.npm.taobao.org
+	1. npm config set registry https://registry.npm.taobao.org 
 脚本实战
 编写一个脚本：输出the package is xxx@x.x.x：包名与版本
 答：使用内部变量
