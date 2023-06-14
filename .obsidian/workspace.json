@@ -777,6 +777,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":16},\"to\":{\"line\":13,\"ch\":16}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":32},\"to\":{\"line\":129,\"ch\":32}},\"scroll\":62.0206193890073}"
                     }
                   ]
                 },
@@ -1402,8 +1414,7 @@
                       "state": {}
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "9284dcaae748ddfc",
@@ -1772,6 +1783,8 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/工程化/npm.md",
     "笔记/沟通/沟通.md",
     "Day Planners/2023-06-14.md",
@@ -1790,7 +1803,6 @@
     "笔记/沟通/同理心.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/沟通/2023-06-13.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/通用概念/策略.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/学习方法/整体性学习.md",
@@ -1807,7 +1819,6 @@
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/node框架.md",
     "笔记/前端/工程化/包管理器.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
