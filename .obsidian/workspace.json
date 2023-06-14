@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 50.61349693251533,
+            "dimension": 50.61349693251534,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -45,9 +45,9 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-06-13",
+                      "title": "2023-06-14",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/沟通/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
@@ -1549,7 +1549,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1763,14 +1763,16 @@
       "repeat-plugin:Repeat due notes": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
       "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false,
       "cmdr:上下分屏": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-memos:Memos": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
+    "Day Planners/2023-06-14.md",
+    "笔记/沟通/沟通.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
@@ -1782,10 +1784,8 @@
     "笔记/_gsdata_/2023-0613-232035-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-231932-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-231908-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-231838-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/沟通/沟通.md",
     "笔记/沟通/同理心.md",
     "笔记/工具/通用概念/感受.md",
     "笔记/沟通/2023-06-13.md",
