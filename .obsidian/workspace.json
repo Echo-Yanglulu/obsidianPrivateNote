@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/工程化/git.md"
                   }
                 }
               }
@@ -860,23 +860,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":5},\"to\":{\"line\":9,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "逻辑学家",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/逻辑学家.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "整体性学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":19},\"to\":{\"line\":84,\"ch\":19}},\"scroll\":41.1212789415656}"
                     },
                     {
                       "title": "心法",
@@ -913,7 +907,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/整体性学习.md",
+                    "file": "笔记/前端/工程化/git.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -971,7 +965,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -997,7 +991,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1024,7 +1018,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1353,15 +1347,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/学习方法/整体性学习.md",
     "笔记/前端/前端工作.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "Day Planners/daily/2023-06-14.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/一元.md",
@@ -1380,7 +1375,6 @@
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块化编程.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
-    "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
