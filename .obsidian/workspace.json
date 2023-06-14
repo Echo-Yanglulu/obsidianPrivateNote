@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/解构赋值.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -927,6 +927,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "解构赋值",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/解构赋值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}}}"
+                    },
+                    {
                       "title": "模块化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -937,7 +943,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -971,7 +977,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -998,7 +1004,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1345,6 +1351,7 @@
   },
   "active": "613a1c0f4863e6e9",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块化编程.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
@@ -1370,7 +1377,6 @@
     "笔记/学习方法/逻辑学家.md",
     "笔记/学习方法/概念/知识的结构.md",
     "笔记/学习方法/概念/高速公路.md",
-    "笔记/学习方法/概念/心法.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",

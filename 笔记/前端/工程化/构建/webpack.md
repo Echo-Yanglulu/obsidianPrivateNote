@@ -245,6 +245,19 @@ module.exports = function (input) {
 	1. 将代码插入style标签中。
 	2. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
+4. style-loader: 将 css 添加到DOM的内联样式标签 style 里
+css-loader :允许将 css 文件通过 require 的方式引入，并返回 css 代码
+less-loader: 处理 less
+sass-loader: 处理 sass
+postcss-loader: 用 postcss 来处理 CSS
+file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
+url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
+babel-loader: 用 babel 来转换 ES6 文件到 ES
+
+作者：晓得迷路了
+链接：https://juejin.cn/post/7244174211957211196
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ## plugin【loader无法解决的其他事】
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
@@ -267,6 +280,7 @@ module.exports = class DemoPlugin {
 ![[Pasted image 20220731001033.png]]
 ### 常用plugin
 #### [[SplitChunksPlugin]] 
+
 ## mode
 指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
 环境
