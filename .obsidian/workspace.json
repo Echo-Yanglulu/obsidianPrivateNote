@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/学习方法/概念/心法.md"
                   }
                 }
               }
@@ -813,6 +813,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "心法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/心法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}}}"
+                    },
+                    {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}}}"
+                    },
+                    {
                       "title": "逻辑学",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -829,7 +841,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/语法/语法.md",
+                    "file": "笔记/学习方法/概念/心法.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -837,7 +849,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -863,7 +875,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/学习方法/概念/心法.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1435,7 +1447,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/学习方法/概念/心法.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1781,10 +1793,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/工作/心法.md",
+    "笔记/工具/语法/语法.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/工程化/npm.md",
     "笔记/沟通/沟通.md",
     "Day Planners/2023-06-14.md",
@@ -1809,7 +1823,6 @@
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/工具/语法/语法.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/内心/简洁.md",
     "Day Planners/daily/2023-06-13.md",
@@ -1818,7 +1831,6 @@
     "笔记/前端/工程化/node/node项目.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/node框架.md",
-    "笔记/前端/工程化/包管理器.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
