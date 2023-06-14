@@ -1,5 +1,5 @@
 {
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
   "blue-topaz-theme@@background-image-settings-markdown-page-random": true,
   "blue-topaz-theme@@layout-style-options": "layout-style-options-rectangle",
   "blue-topaz-theme@@h1-text-align-settings": "h1-text-align-start",
@@ -50,5 +50,10 @@
   "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-curves",
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
   "blue-topaz-theme@@bt-status-on": false,
-  "blue-topaz-theme@@scrollbar-style-option": "remove-scrollbars"
+  "blue-topaz-theme@@scrollbar-style-option": "native-scrollbars",
+  "blue-topaz-theme@@view-button-front": false,
+  "blue-topaz-theme@@tab-title-bar-position": false,
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "blue-topaz-theme@@toggle-header-bottom-line": false,
+  "blue-topaz-theme@@full-width-backlinks": false
 }

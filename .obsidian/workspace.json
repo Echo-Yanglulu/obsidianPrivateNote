@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1001,13 +1001,8 @@
                   ]
                 },
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/git.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                  "type": "memos_view",
+                  "state": {}
                 }
               }
             ],
@@ -1037,7 +1032,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1064,7 +1059,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1412,6 +1407,8 @@
   },
   "active": "613a1c0f4863e6e9",
   "lastOpenFiles": [
+    "Day Planners/daily/2023-06-14.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端工作.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
@@ -1436,8 +1433,6 @@
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/整体性学习.md",
-    "笔记/学习方法/概念/技术.md",
-    "笔记/学习方法/概念/压缩.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
