@@ -46,7 +46,7 @@
   "blue-topaz-theme@@background-image-settings-command-palette-switch": true,
   "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": true,
   "blue-topaz-theme@@toggle-bg-panel-page": true,
-  "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-light-cloud",
+  "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-light-random",
   "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-curves",
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
   "blue-topaz-theme@@bt-status-on": false,
@@ -59,5 +59,7 @@
   "blue-topaz-theme@@background-notebook-liked-switch": true,
   "blue-topaz-theme@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-grid-notebook-2",
   "blue-topaz-theme@@transparent-setting-panel": false,
-  "blue-topaz-theme@@toggle-split-note-background": false
+  "blue-topaz-theme@@toggle-split-note-background": false,
+  "blue-topaz-theme@@bg-color-notebook@@dark": "#F4ECD8",
+  "blue-topaz-theme@@grid-notebook-line-color-1@@light": "#F1F1F1"
 }

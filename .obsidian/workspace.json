@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 68.02143814202769,
+            "dimension": 72.84502009825815,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -976,7 +976,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 19.160339437248773,
+            "dimension": 14.336757481018312,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1002,44 +1002,8 @@
                         "unlinkedCollapsed": false
                       }
                     }
-                  },
-                  {
-                    "id": "613a1c0f4863e6e9",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        },
-                        {
-                          "title": "webpack",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":2},\"to\":{\"line\":82,\"ch\":2}},\"scroll\":72.7226}"
-                        },
-                        {
-                          "title": "解构赋值",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/解构赋值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}}}"
-                        },
-                        {
-                          "title": "模块化",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":33},\"to\":{\"line\":8,\"ch\":33}}}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "memos_view",
-                      "state": {}
-                    }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "9284dcaae748ddfc",
