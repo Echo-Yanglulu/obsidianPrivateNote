@@ -245,14 +245,13 @@ module.exports = function (input) {
 	1. 将代码插入style标签中。
 	2. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终的样式内容，包裹为JS，让JS在运行过程中把样式插入页面的style标签。
-4. style-loader: 将 css 添加到DOM的内联样式标签 style 里
-css-loader :允许将 css 文件通过 require 的方式引入，并返回 css 代码
-less-loader: 处理 less
-sass-loader: 处理 sass
-postcss-loader: 用 postcss 来处理 CSS
-file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
-url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
-babel-loader: 用 babel 来转换 ES6 文件到 ES
+4. css-loader :允许将 css 文件通过 require 的方式引入，并返回 css 代码
+5. less-loader: 处理 [[LESS]] 
+6. sass-loader: 处理 [[Sass]]
+7. postcss-loader: 用 postcss 来处理 CSS
+8. file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
+9. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
+10. babel-loader:  ES6 文件到 ES
 
 作者：晓得迷路了
 链接：https://juejin.cn/post/7244174211957211196
