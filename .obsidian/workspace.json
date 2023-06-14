@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.460920053595355,
+            "dimension": 17.791411042944784,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md"
+                    "file": "笔记/沟通/沟通.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 55.962483251451545,
+            "dimension": 50.61349693251533,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -824,13 +824,12 @@
                   }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 31.576596694953103,
+            "dimension": 31.595092024539877,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -851,7 +850,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/沟通/沟通.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1424,7 +1423,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/沟通/沟通.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1770,11 +1769,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "99c519eec5ec0ffb",
+  "active": "a86e2789749eb6f0",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0613-232435-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/工程化/npm.md",
+    "笔记/_gsdata_/2023-0613-232435-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-232335-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-232235-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-232135-DESKTOP-YLL-Job1.log",
@@ -1782,10 +1783,8 @@
     "笔记/_gsdata_/2023-0613-231932-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-231908-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0613-231838-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-231744-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/npm.md",
     "笔记/沟通/沟通.md",
     "笔记/沟通/同理心.md",
     "笔记/工具/通用概念/感受.md",
