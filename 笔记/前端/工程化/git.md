@@ -1,15 +1,11 @@
-git flow：git工作流，提升项目迭代效率
-	1. 规范：[[git工程规范]] 
-git commit：通过创建提交，提高review效率
-git hook：提升协同代码质量
 # 工作流
 [[git flow]] 
-创建git仓库：
-1. 已有项目代码
+规范：[[git工程规范]] 
+创建git仓库
+1. 已有
 	1. git init
-2. 对新建项目
+2. 新建
 	1. git init 项目名
-
 # 命令
 代码所处位置：工作区，暂存区。
 通过git status查看两个区的工作状态
@@ -78,6 +74,7 @@ git hook：提升协同代码质量
 git status => gst
 # git hook
 git 仓库中特定事件触发后被调用的脚本。
+	1. 提升协同代码质量
 # 常用操作
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
