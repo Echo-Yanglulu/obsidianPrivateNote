@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/自己的观点.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -291,6 +291,36 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":7},\"to\":{\"line\":13,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "腹部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":7},\"to\":{\"line\":3,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":7},\"to\":{\"line\":13,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "力量训练",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}}}"
                     },
                     {
                       "title": "健身",
@@ -621,7 +651,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md",
+                    "file": "笔记/行为/健身/部位/胸部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -678,8 +708,14 @@
                 "id": "99c519eec5ec0ffb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-14",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -957,7 +993,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -983,7 +1019,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/自己的观点.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1010,7 +1046,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/自己的观点.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1135,7 +1171,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1355,10 +1392,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "99c519eec5ec0ffb",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
-    "笔记/前端/工程化/npm.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腹部.md",
+    "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/行为/自己的观点.md",
+    "Day Planners/2023-06-14.md",
+    "笔记/前端/工程化/npm.md",
     "笔记/沟通/沟通.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -1378,11 +1420,6 @@
     "笔记/学习方法/概念/布鲁姆分类法.md",
     "笔记/学习方法/概念/费曼技巧.md",
     "笔记/学习方法/概念/知识.md",
-    "笔记/工具/思考/记忆/联系.md",
-    "笔记/学习方法/概念/信息结构.md",
-    "笔记/工具/思考/图形/概念图.md",
-    "笔记/工具/思考/思维概念/推理.md",
-    "笔记/学习方法/概念/事实.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
