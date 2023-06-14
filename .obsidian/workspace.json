@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -893,9 +893,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "1059ac7f5554b1c1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/前端工作.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -921,7 +943,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1493,7 +1515,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1838,10 +1860,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37b682b4b2faf9d1",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/技术.md",
     "笔记/学习方法/概念/压缩.md",
