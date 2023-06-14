@@ -12,13 +12,11 @@
 命令行：. 代表当前目录
 [[git命令]] 
 1. git  \<command> -h 多查文档
-2. git config
-	1. --local 设置git 配置：仅对当前仓库/项目有效
+2. git config【同时设置时，local优先级最高】
+	1. --local 设置git 配置：仅对*当前项目*有效
 	2. --global 对*当前用户*的所有仓库有效
-		1. user.name
 	3. --system 对使用当前系统的*所有用户*的仓库有效
 	4. --list --local 查看local的git配置
-	5. 同时设置了global与local时，当前仓库认为Local优先级最高
 3. git status：对状态的跟踪
 	1. 文件状态
 		1. 未跟踪
