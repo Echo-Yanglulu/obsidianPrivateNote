@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/工具/哲学/逻辑学/逻辑规律.md"
                   }
                 }
               }
@@ -870,8 +870,14 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "逻辑规律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑规律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":32},\"to\":{\"line\":6,\"ch\":32}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -915,7 +921,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑规律.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1487,7 +1493,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑规律.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1832,11 +1838,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37b682b4b2faf9d1",
+  "active": "ad14590b765a5f08",
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/工具/思考/同一律.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/逻辑学家.md",
     "笔记/学习方法/概念/知识的结构.md",
