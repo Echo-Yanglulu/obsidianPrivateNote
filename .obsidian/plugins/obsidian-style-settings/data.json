@@ -12,7 +12,7 @@
   "blue-topaz-theme@@table-style-options": "table-style-three",
   "blue-topaz-theme@@show-border-table": true,
   "blue-topaz-theme@@style-options-for-admonition-plugin": true,
-  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-sea-and-sky",
+  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-default",
   "blue-topaz-theme@@h1-toggle-underline": false,
   "blue-topaz-theme@@rainbow-ordered-list": true,
   "blue-topaz-theme@@rainbow-checkbox": true,
@@ -42,7 +42,7 @@
   "floating-toc-styles@@enable-heading-nowrap": true,
   "floating-toc-styles@@floating-toc-remove-heading-indicator": true,
   "floating-toc-styles@@toggle-floating-toc-header-color": false,
-  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.3,
+  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.05,
   "blue-topaz-theme@@background-image-settings-command-palette-switch": true,
   "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": true,
   "blue-topaz-theme@@toggle-bg-panel-page": true,
@@ -55,5 +55,9 @@
   "blue-topaz-theme@@tab-title-bar-position": false,
   "blue-topaz-theme@@toggle-divider-lines": false,
   "blue-topaz-theme@@toggle-header-bottom-line": false,
-  "blue-topaz-theme@@full-width-backlinks": false
+  "blue-topaz-theme@@full-width-backlinks": false,
+  "blue-topaz-theme@@background-notebook-liked-switch": true,
+  "blue-topaz-theme@@notebook-liked-markdown-page-options": "notebook-liked-markdown-page-grid-notebook-2",
+  "blue-topaz-theme@@transparent-setting-panel": false,
+  "blue-topaz-theme@@toggle-split-note-background": false
 }

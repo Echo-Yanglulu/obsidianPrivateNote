@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 16.703885663242517,
+            "dimension": 12.818222420723538,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 64.13577489950872,
+            "dimension": 68.02143814202769,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -969,44 +969,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "613a1c0f4863e6e9",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":2},\"to\":{\"line\":82,\"ch\":2}},\"scroll\":72.7226}"
-                    },
-                    {
-                      "title": "解构赋值",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/解构赋值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "模块化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":33},\"to\":{\"line\":8,\"ch\":33}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "memos_view",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -1032,13 +997,49 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
                     }
+                  },
+                  {
+                    "id": "613a1c0f4863e6e9",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "webpack",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":2},\"to\":{\"line\":82,\"ch\":2}},\"scroll\":72.7226}"
+                        },
+                        {
+                          "title": "解构赋值",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/解构赋值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":6},\"to\":{\"line\":13,\"ch\":6}}}"
+                        },
+                        {
+                          "title": "模块化",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":33},\"to\":{\"line\":8,\"ch\":33}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "memos_view",
+                      "state": {}
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "9284dcaae748ddfc",
@@ -1059,7 +1060,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1293,23 +1294,6 @@
             }
           },
           {
-            "id": "b04ecbe9c2ddeb65",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "06dedd5ad6d89288",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1327,7 +1311,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1405,12 +1389,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "613a1c0f4863e6e9",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
     "Day Planners/daily/2023-06-14.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/前端工作.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/心魔.md",
@@ -1432,7 +1417,6 @@
     "笔记/前端/编程语言/JS/基本概念/模块化编程.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
-    "笔记/学习方法/整体性学习.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
