@@ -42,5 +42,13 @@
   "floating-toc-styles@@enable-heading-nowrap": true,
   "floating-toc-styles@@floating-toc-remove-heading-indicator": true,
   "floating-toc-styles@@toggle-floating-toc-header-color": false,
-  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.3
+  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.3,
+  "blue-topaz-theme@@background-image-settings-command-palette-switch": true,
+  "blue-topaz-theme@@background-image-settings-command-palette-same-as-workplace": true,
+  "blue-topaz-theme@@toggle-bg-panel-page": true,
+  "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-light-cloud",
+  "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-curves",
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "blue-topaz-theme@@bt-status-on": false,
+  "blue-topaz-theme@@scrollbar-style-option": "remove-scrollbars"
 }
