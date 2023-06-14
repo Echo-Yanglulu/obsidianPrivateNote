@@ -60,6 +60,18 @@ git hook：提升协同代码质量
 	1. HEAD HEAD~2/HEAD^^
 15. gitk 查看diff
 	1. 每个终点，都代表当前仓库有至少一个分支
+## 别名
+系统中的.gitconfig文件
+```js
+[alias]
+    co = checkout		//输入git co => git checkout
+    st = status			//输入git st => git status
+    cm = commit -m		//输入git cm => git commit -m
+    br = branch			//输入git br => git branch 
+    dif = diff			//输入git dif => git diff 
+    pl = pull			//输入git pl => git pull
+    ps = push			//输入git ps => git push
+```
 git status => gst
 # git hook
 git 仓库中特定事件触发后被调用的脚本。

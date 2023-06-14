@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/工程化/git.md"
                   }
                 }
               }
@@ -981,6 +981,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":2},\"to\":{\"line\":82,\"ch\":2}},\"scroll\":72.7226}"
+                    },
+                    {
                       "title": "解构赋值",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/解构赋值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -997,7 +1003,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/git.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1005,7 +1011,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1031,7 +1037,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1058,7 +1064,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1404,10 +1410,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35cb2ba420ff4cfd",
+  "active": "613a1c0f4863e6e9",
   "lastOpenFiles": [
-    "笔记/内心/心魔.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/前端工作.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/一元.md",
     "笔记/内心/开悟.md",
@@ -1421,13 +1430,10 @@
     "Day Planners/2023-06-14.md",
     "笔记/前端/工程化/npm.md",
     "笔记/沟通/沟通.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块化编程.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑规律.md",
     "笔记/学习方法/整体性学习.md",
     "笔记/学习方法/概念/技术.md",
