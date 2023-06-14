@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -291,6 +291,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
                     },
                     {
                       "title": "健身",
@@ -651,7 +663,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1019,7 +1031,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1046,7 +1058,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1395,8 +1407,8 @@
   "active": "35e75a6fb5297186",
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/部位/腹部.md",
     "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/部位/腹部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/自己的观点.md",
     "Day Planners/2023-06-14.md",
