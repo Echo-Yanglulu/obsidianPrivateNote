@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 17.791411042944784,
+            "dimension": 16.695880806310253,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习方法/概念/心法.md"
+                    "file": "笔记/学习方法/整体性学习.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 50.61349693251534,
+            "dimension": 51.70902716914987,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -815,6 +815,12 @@
                     {
                       "title": "心法",
                       "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习方法/概念/心法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":4},\"to\":{\"line\":12,\"ch\":4}}}"
+                    },
+                    {
+                      "title": "心法",
+                      "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工作/心法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":4},\"to\":{\"line\":5,\"ch\":4}}}"
                     },
@@ -841,7 +847,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习方法/概念/心法.md",
+                    "file": "笔记/学习方法/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -875,7 +881,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习方法/概念/心法.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1447,7 +1453,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习方法/概念/心法.md",
+                        "file": "笔记/学习方法/整体性学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1795,6 +1801,7 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/学习方法/概念/心法.md",
     "笔记/工作/心法.md",
     "笔记/工具/语法/语法.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -1830,7 +1837,6 @@
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/工程化/node/node项目.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/node/node框架.md",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
