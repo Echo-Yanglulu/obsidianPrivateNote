@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md"
+                    "file": "Day Planners/2023-06-15.md"
                   }
                 }
               }
@@ -291,6 +291,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "npm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "package.json",
@@ -681,7 +687,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md",
+                    "file": "Day Planners/2023-06-15.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1009,7 +1015,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "Day Planners/2023-06-15.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1036,7 +1042,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "Day Planners/2023-06-15.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
