@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机基础.md"
+                    "file": "笔记/前端/编程语言/编程语言.md"
                   }
                 }
               }
@@ -1046,6 +1046,18 @@
                       "title": "前端",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":12},\"to\":{\"line\":11,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "计算机基础",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":12},\"to\":{\"line\":13,\"ch\":12}},\"scroll\":0}"
                     },
                     {
@@ -1059,7 +1071,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机基础.md",
+                    "file": "笔记/前端/编程语言/编程语言.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1093,7 +1105,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机基础.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1120,7 +1132,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机基础.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",

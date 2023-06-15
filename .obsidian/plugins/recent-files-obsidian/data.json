@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
+      "basename": "编程语言",
+      "path": "笔记/前端/编程语言/编程语言.md"
     },
     {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "计算机基础",
+      "path": "笔记/前端/基础知识/计算机基础.md"
     },
     {
       "basename": "逻辑学",
@@ -195,10 +199,6 @@
     {
       "basename": "node",
       "path": "笔记/前端/工程化/node/node.md"
-    },
-    {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
     }
   ],
   "omittedPaths": [
