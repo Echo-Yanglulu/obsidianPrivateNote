@@ -33,12 +33,12 @@
 依赖
 	1. [[开发依赖]] 
 	2. [[运行依赖]] 
-如果存在[[package-lock.json]]文件，则根据该文件下载对应版本的依赖。不存在则根据[]
+如果存在[[package-lock.json]]文件，则根据该文件下载对应版本的依赖。不存在则根据[[package.json]]文件下载对应版本的依赖。
 # 脚本
 ## 组成
-npm script：运行在[[package.json]]文件中的脚本
+npm script：运行在[[package.json]]中定义的脚本
 	1. 内部变量(在npm run 的脚本中存在)
-		$npm_package_[name/version/config_var1]  package.json文件中name字段的值
+		$npm_package_[name/version/config_var1]  package.json中name字段的值
 	2. 参数传递（--）
 		如何向npm二次包装过的命令传参？答：通过--透传参数
 	3. 脚本钩子（事件触发时，定义的钩子逻辑触发）
