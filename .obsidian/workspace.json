@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -863,6 +863,54 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "语法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "2023-06-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "意义",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/意义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "心法",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/心法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "逻辑规律",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑规律.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":9},\"to\":{\"line\":0,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "2023-06-09",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-09.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":18},\"to\":{\"line\":2,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":16},\"to\":{\"line\":39,\"ch\":16}},\"scroll\":26.33912037037037}"
+                    },
+                    {
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -891,7 +939,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/学习/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -993,13 +1041,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":15},\"to\":{\"line\":16,\"ch\":15}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/前端.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1007,7 +1061,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1033,7 +1087,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1060,7 +1114,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1125,11 +1179,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "第二个非",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -1186,7 +1240,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "178d954c018b7c28",
@@ -1389,8 +1443,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/学习/整体性学习.md",
+    "笔记/工具/语法/语法.md",
+    "Day Planners/2023-06-09.md",
+    "笔记/学习/概念/意义.md",
+    "笔记/学习/概念/心法.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/哲学/逻辑学/逻辑规律.md",
+    "笔记/行为/健身/部位/背部.md",
     "笔记/前端/assets/Pasted image 20230615220738.png",
     "笔记/前端/assets/Pasted image 20230615203059.png",
     "笔记/前端/assets/Pasted image 20230615203014.png",
@@ -1410,15 +1474,6 @@
     "笔记/前端/工程化/规范/npmrc.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/基本概念/CLI.md",
-    "笔记/前端/工程化/基本概念/npm cli.md",
-    "笔记/前端/工程化/脚本/node cli.md",
-    "笔记/前端/工程化/node/package.json.md",
-    "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/package-lock.json.md",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/node/git命令.md",
-    "笔记/前端/工程化/git flow.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
@@ -1437,7 +1492,6 @@
     "笔记/前端/assets/Pasted image 20230605103007.png",
     "笔记/前端/assets/Pasted image 20230609172006.png",
     "笔记/前端/assets/Pasted image 20230609164802.png",
-    "笔记/前端/assets/Pasted image 20230609162616.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
