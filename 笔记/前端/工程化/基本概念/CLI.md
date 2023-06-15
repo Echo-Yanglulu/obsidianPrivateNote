@@ -1,8 +1,9 @@
 command-line interface
 
-命令的本质是一个（具有发起系统调用能力）**程序**，编写shell脚本是在编写这些程序的执行。
+命令的本质是一个（具有发起系统调用能力的）**程序**，编写shell脚本是在编写这些程序的执行。
 
-[[node cli]]
+[[node cli]] 
+[[npm cli]] 
 
 # 原理
 从基础API到commander这个库

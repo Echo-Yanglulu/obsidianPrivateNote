@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md"
+                    "file": "笔记/前端/工程化/规范/npmrc.md"
                   }
                 }
               }
@@ -1009,7 +1009,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/工程化/规范/npmrc.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1036,7 +1036,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/工程化/规范/npmrc.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1365,12 +1365,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "b439cc103b7e0c93",
   "lastOpenFiles": [
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
+    "笔记/前端/工程化/基本概念/npm cli.md",
+    "笔记/前端/工程化/脚本/node cli.md",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/package-lock.json.md",
-    "笔记/前端/工程化/npm.md",
     "笔记/行为/健身/部位/背部.md",
     "Day Planners/2023-06-15.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1390,9 +1393,6 @@
     "笔记/内心/期待.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
-    "笔记/行为/健身/部位/腹部.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/行为/自己的观点.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
