@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md"
+                    "file": "笔记/前端/工程化/package-lock.json.md"
                   }
                 }
               }
@@ -291,6 +291,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "package.json",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":8},\"to\":{\"line\":9,\"ch\":8}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "版本规范",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":32},\"to\":{\"line\":11,\"ch\":32}},\"scroll\":0}"
                     },
                     {
                       "title": "背部",
@@ -669,7 +681,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md",
+                    "file": "笔记/前端/工程化/npm.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -997,7 +1009,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/package-lock.json.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1024,7 +1036,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/package-lock.json.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1353,8 +1365,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "6251e54295b4d8be",
   "lastOpenFiles": [
+    "笔记/前端/工程化/package-lock.json.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/node/package.json.md",
+    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/行为/健身/部位/背部.md",
     "Day Planners/2023-06-15.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1377,10 +1393,6 @@
     "笔记/行为/健身/部位/腹部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/自己的观点.md",
-    "Day Planners/2023-06-14.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/沟通/沟通.md",
-    "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
