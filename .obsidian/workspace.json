@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/构建.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -1153,7 +1153,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1180,7 +1180,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1508,12 +1508,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd9960c3b7e13f3c",
+  "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/构建/构建.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/package-lock.json.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/库/vite.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/构建/Browserify.md",
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/工程化/包管理器.md",
@@ -1533,9 +1536,6 @@
     "笔记/学习/概念/临界知识.md",
     "笔记/学习/概念/系统思考.md",
     "笔记/学习/概念/二八法则.md",
-    "笔记/学习/概念/结果思维.md",
-    "笔记/学习/概念/趋势思维.md",
-    "笔记/工具/通用概念/趋势.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",

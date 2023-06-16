@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "package-lock.json",
+      "path": "笔记/前端/工程化/package-lock.json.md"
     },
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
-      "basename": "package-lock.json",
-      "path": "笔记/前端/工程化/package-lock.json.md"
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
     },
     {
       "basename": "npm",
@@ -19,10 +23,6 @@
     {
       "basename": "工具",
       "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     },
     {
       "basename": "包管理器",
