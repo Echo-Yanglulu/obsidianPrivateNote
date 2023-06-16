@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/CICD.md"
+                    "file": "笔记/前端/工程化/规范/commit message规范.md"
                   }
                 }
               }
@@ -1159,7 +1159,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/CICD.md",
+                        "file": "笔记/前端/工程化/规范/commit message规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1186,7 +1186,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/CICD.md",
+                        "file": "笔记/前端/工程化/规范/commit message规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1505,12 +1505,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b21daad64a454c21",
+  "active": "406905cac7e3734a",
   "lastOpenFiles": [
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/前端/工程化/CICD.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/规范/commit message规范.md",
     "笔记/前端/工程化/规范/commitizen.md",
-    "笔记/前端/工程化/CICD.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/模块化.md",
@@ -1521,7 +1522,6 @@
     "笔记/前端/工程化/质量/监控与异常上报.md",
     "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/基础知识/调试.md",
     "笔记/前端/工程化/工程设计/工程设计.md",
