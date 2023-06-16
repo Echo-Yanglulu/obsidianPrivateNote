@@ -9,7 +9,7 @@ commit分析
 angular规范
 	任何类型项目都可使用，不只局限于angular。使用这个规范去提交commit message时，类似release-it的第三方工具就会根据cm内容判断更新内容，决定需要更新的版本号。
 ![[Pasted image 20220828171333.png]]
-1. type
+1. type：**修改类型**
 	1. feat
 	2. fix
 	3. build: 构建系统/外部依赖变化。如build[gulp]
@@ -20,20 +20,20 @@ angular规范
 	8. test：测试用例新增/修改。
 	9. ci：CI配置文件/脚本变化。如ci[travis]
 	10. chore：其他修改（构建流程，依赖管理）
-2. scope：影响范围
+2. scope：**影响范围**
 	1. route, component, utils, build
-3. subject/description：概述，建议符合50/72 formatting
+3. subject/description：**概述**，建议符合50/72 formatting
 4. body：具体修改内容，**补充描述**，
 	1. 可多行，语法符合上述50/72
 	2. 修改的原因与目的
-5. footer：备注。通常是用于重大更新提示。
+5. footer：备注。通常是用于**重大更新**提示。
 	1. 以BREAKING CHANGE：开头
 	2. 修复BUG的链接。
 规范的commit message，可触发隐藏操作
 	1. 自动生成changelog 
 	2. sem-ver版本升级
-		1. fix开头会自动升级patch
-		2. feat开头会自动升级minor
-		3. Footer 中包含BREAKING CHANGE 会自动升级major。
+		1. fix开头则自动升级patch
+		2. feat开头则自动升级minor
+		3. Footer 中包含BREAKING CHANGE 则自动升级major。
 
-记不住？用CLI工具：[[commitizen]]
+记不住？用CLI工具：[[commitizen]] 
