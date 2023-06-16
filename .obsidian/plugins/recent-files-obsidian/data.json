@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "包管理",
+      "path": "笔记/前端/包管理.md"
+    },
+    {
+      "basename": "工具",
+      "path": "笔记/前端/工程化/工具/工具.md"
+    },
+    {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "质量",
+      "path": "笔记/前端/工程化/质量/质量.md"
     },
     {
       "basename": "前端",
@@ -187,18 +199,6 @@
     {
       "basename": "费曼技巧",
       "path": "笔记/学习/概念/费曼技巧.md"
-    },
-    {
-      "basename": "知识的结构",
-      "path": "笔记/学习/概念/知识的结构.md"
-    },
-    {
-      "basename": "心法",
-      "path": "笔记/工作/心法.md"
-    },
-    {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
     }
   ],
   "omittedPaths": [
