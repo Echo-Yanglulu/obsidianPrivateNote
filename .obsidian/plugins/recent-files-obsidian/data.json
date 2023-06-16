@@ -5,6 +5,10 @@
       "path": "笔记/前端/工程化/工程化.md"
     },
     {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
+    },
+    {
       "basename": "模块化",
       "path": "笔记/前端/工程化/模块化.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "package-lock.json",
       "path": "笔记/前端/工程化/package-lock.json.md"
-    },
-    {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
     },
     {
       "basename": "逻辑学",
