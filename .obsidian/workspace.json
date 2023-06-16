@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/工程化/质量/质量.md"
                   }
                 }
               }
@@ -1171,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/质量/质量.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/质量/质量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,11 +1517,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37b682b4b2faf9d1",
+  "active": "a70c89eb085c44d2",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/调试.md",
+    "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/前端/工程化/脚本/脚本.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/包管理器.md",
     "笔记/前端/工程化/package-lock.json.md",
@@ -1533,18 +1536,15 @@
     "笔记/前端/工程化/构建/Browserify.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/node/package.json.md",
-    "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/前端/包管理.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
     "笔记/前端/工程化/node/node框架.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/监控与异常上报.md",
     "笔记/前端/工程化/发布.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习/整体性学习.md",
     "笔记/学习/学习.md",
-    "笔记/学习/概念/临界知识.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
