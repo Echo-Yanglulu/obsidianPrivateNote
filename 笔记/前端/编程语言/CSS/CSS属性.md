@@ -10,6 +10,8 @@
 	5. table-cell
 
 background-clip
+![[Pasted image 20230616150834.png]] 
+
 
 line-height
 	1. 取值规则

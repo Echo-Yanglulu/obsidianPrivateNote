@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性简写.md"
+                    "file": "笔记/前端/编程语言/CSS/CSS.md"
                   }
                 }
               }
@@ -1171,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性简写.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性简写.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,10 +1517,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cea2d9198c5801a0",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
+    "笔记/前端/assets/Pasted image 20230616150834.png",
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/工程化/工程化.md",
@@ -1543,8 +1545,6 @@
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/基础知识/调试.md",
     "笔记/前端/工程化/工程设计/工程设计.md",
-    "笔记/前端/工程化/工程设计/工程设计范式.md",
-    "笔记/前端/工程化/脚本/脚本.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
@@ -1565,7 +1565,6 @@
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/前端/编程语言/JS/核心JS.svg",
-    "笔记/前端/assets/Pasted image 20230611101902.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
