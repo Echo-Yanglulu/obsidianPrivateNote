@@ -433,8 +433,8 @@ function getAPIBaseURL(languageCode) {
 
 // src/search.ts
 var SearchModal = class extends import_obsidian2.SuggestModal {
-  constructor(app, plugin, editor) {
-    super(app);
+  constructor(app2, plugin, editor) {
+    super(app2);
     __publicField(this, "plugin");
     __publicField(this, "editor");
     this.plugin = plugin;
@@ -444,6 +444,12 @@ var SearchModal = class extends import_obsidian2.SuggestModal {
   onOpen() {
     this.inputEl.value = this.editor.getSelection();
     super.updateSuggestions();
+  }
+  renderSuggestion(article, el) {
+    el.createEl("div", { text: article.title });
+    el.createEl("small", {
+      text: article.description || article.url.slice(8)
+    });
   }
   async getSuggestions(query) {
     var _a, _b, _c;
@@ -480,53 +486,80 @@ var SearchModal = class extends import_obsidian2.SuggestModal {
       this.onChooseSuggestion({
         title: searchResponses[0].title,
         url: searchResponses[0].url,
-        description: descriptions[0]
+        description: descriptions[0],
+        languageCode
       });
     }
     return searchResponses.map((article, index) => ({
       title: article.title,
       url: article.url,
-      description: descriptions[index]
+      description: descriptions[index],
+      languageCode
     }));
   }
-  renderSuggestion(article, el) {
-    el.createEl("div", { text: article.title });
-    el.createEl("small", {
-      text: article.description || article.url.slice(8)
-    });
-  }
   async onChooseSuggestion(article) {
-    var _a, _b;
-    const cursorPosition = this.editor.getCursor();
-    let extract = this.plugin.settings.format.includes("{extract}") ? (_b = (_a = await getArticleExtracts([article.title], this.plugin.settings.language)) == null ? void 0 : _a[0]) != null ? _b : null : null;
-    const selection = this.editor.getSelection();
-    const insert = this.plugin.settings.format.replaceAll(
-      "{title}",
-      this.plugin.settings.alwaysUseArticleTitle || selection === "" ? article.title : selection
-    ).replaceAll("{url}", article.url).replaceAll("{extract}", extract != null ? extract : "[Could not fetch the extract...]");
-    this.editor.replaceSelection(insert);
-    if (this.plugin.settings.placeCursorInfrontOfInsert)
-      this.editor.setCursor(cursorPosition);
+    if (this.plugin.settings.additionalTemplatesEnabled) {
+      new TemplateModal(app, this.plugin, this.editor, article).open();
+    } else {
+      insert(this.editor, this.plugin.settings, article, this.plugin.settings.defaultTemplate);
+    }
   }
 };
+var TemplateModal = class extends import_obsidian2.SuggestModal {
+  constructor(app2, plugin, editor, article) {
+    super(app2);
+    __publicField(this, "plugin");
+    __publicField(this, "editor");
+    __publicField(this, "article");
+    this.plugin = plugin;
+    this.editor = editor;
+    this.article = article;
+    this.setPlaceholder("Pick a template...");
+  }
+  renderSuggestion(template, el) {
+    el.createEl("div", { text: template.name });
+    el.createEl("small", {
+      text: template.templateString
+    });
+  }
+  async getSuggestions(query) {
+    return [{ name: "Default", templateString: this.plugin.settings.defaultTemplate }].concat(this.plugin.settings.templates).filter((template) => template.name.toLowerCase().includes(query.toLowerCase()));
+  }
+  async onChooseSuggestion(template) {
+    insert(this.editor, this.plugin.settings, this.article, template.templateString);
+  }
+};
+async function insert(editor, settings, article, templateString) {
+  var _a, _b;
+  const cursorPosition = editor.getCursor();
+  let extract = templateString.includes("{extract}") ? (_b = (_a = await getArticleExtracts([article.title], settings.language)) == null ? void 0 : _a[0]) != null ? _b : null : null;
+  const selection = editor.getSelection();
+  const insert2 = templateString.replaceAll("{title}", settings.alwaysUseArticleTitle || selection === "" ? article.title : selection).replaceAll("{url}", article.url).replaceAll("{language}", languages[article.languageCode]).replaceAll("{languageCode}", article.languageCode).replaceAll("{extract}", extract != null ? extract : "[Could not fetch the extract...]");
+  editor.replaceSelection(insert2);
+  if (settings.placeCursorInfrontOfInsert)
+    editor.setCursor(cursorPosition);
+}
 
 // src/settings.ts
 var import_obsidian3 = require("obsidian");
 var DEFAULT_SETTINGS = {
   language: "en",
-  format: "[{title}]({url})",
+  defaultTemplate: "[{title}]({url})",
   placeCursorInfrontOfInsert: false,
   autoInsertSingleResponseQueries: false,
-  alwaysUseArticleTitle: false
+  alwaysUseArticleTitle: false,
+  additionalTemplatesEnabled: false,
+  templates: []
 };
 var WikipediaSearchSettingTab = class extends import_obsidian3.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
+  constructor(app2, plugin) {
+    super(app2, plugin);
     __publicField(this, "plugin");
     this.plugin = plugin;
   }
   display() {
     const { containerEl } = this;
+    const settings = this.plugin.settings;
     containerEl.empty();
     containerEl.createEl("h1", { text: "Wikipedia Search Settings" });
     containerEl.createEl("h2", { text: "General" });
@@ -539,43 +572,99 @@ var WikipediaSearchSettingTab = class extends import_obsidian3.PluginSettingTab 
           }),
           {}
         )
-      ).setValue(this.plugin.settings.language).onChange(async (value) => {
-        this.plugin.settings.language = value;
+      ).setValue(settings.language).onChange(async (value) => {
+        settings.language = value;
         await this.plugin.saveSettings();
         new import_obsidian3.Notice(`Language set to ${languages[value]} (${value})!`);
       })
     );
-    new import_obsidian3.Setting(containerEl).setName("Format").setDesc(
-      "Format of the insert. (all occurrences of '{title}', '{url}' and '{extract}' will be replaced with the selection/articles title, URL and extract respectively)"
+    new import_obsidian3.Setting(containerEl).setName(`${settings.additionalTemplatesEnabled ? "Default " : ""}Template`).setDesc(
+      "Template for the insert. (all occurrences of '{title}', '{url}', '{language}', '{languageCode}' and '{extract}' will be replaced with the selection/articles title, URL, language, language code and extract respectively)"
     ).addTextArea(
-      (text) => text.setPlaceholder("Format").setValue(this.plugin.settings.format).onChange(async (value) => {
-        this.plugin.settings.format = value;
+      (text) => text.setPlaceholder("Template").setValue(settings.defaultTemplate).onChange(async (value) => {
+        settings.defaultTemplate = value;
         await this.plugin.saveSettings();
       })
     );
+    if (settings.additionalTemplatesEnabled) {
+      containerEl.createEl("h2", { text: "Additional Templates" });
+      new import_obsidian3.Setting(containerEl).setName("Add Template").setDesc("Adds a new template option to choose from.").addButton(
+        (button) => button.setIcon("plus").onClick(async () => {
+          if (settings.templates.length == 20)
+            return new import_obsidian3.Notice(
+              "Easy buddy... I need to stop you right there. You can only have up to 20 additional templates. It's for your own good!"
+            );
+          settings.templates.push({
+            name: `Template #${settings.templates.length + 1}`,
+            templateString: DEFAULT_SETTINGS.defaultTemplate
+          });
+          await this.plugin.saveSettings();
+          this.display();
+        })
+      );
+      for (const [i, val] of settings.templates.entries()) {
+        new import_obsidian3.Setting(containerEl).setName(`Additional Template Nr. ${i + 1}`).setDesc("Set the templates name and template for the insert.").addText(
+          (text) => text.setValue(val.name).setPlaceholder("Name").onChange(async (value) => {
+            settings.templates[i].name = value;
+            await this.plugin.saveSettings();
+          })
+        ).addTextArea(
+          (text) => text.setPlaceholder("Template").setValue(val.templateString).onChange(async (value) => {
+            settings.templates[i].templateString = value;
+            await this.plugin.saveSettings();
+          })
+        ).addButton(
+          (button) => button.setIcon("minus").onClick(async () => {
+            settings.templates.splice(i, 1);
+            await this.plugin.saveSettings();
+            this.display();
+          })
+        );
+      }
+    }
     containerEl.createEl("h2", { text: "Workflow Optimizations" });
+    new import_obsidian3.Setting(containerEl).setName("Use Additional Templates").setDesc("Enable additional templating options for the insert.").addToggle(
+      (toggle) => toggle.setValue(settings.additionalTemplatesEnabled).onChange(async (value) => {
+        settings.additionalTemplatesEnabled = value;
+        await this.plugin.saveSettings();
+        this.display();
+      })
+    );
     new import_obsidian3.Setting(containerEl).setName("Cursor Placement").setDesc("Whether or not the cursor is placed infront of the insert instead of after it.").addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.placeCursorInfrontOfInsert).onChange(async (value) => {
-        this.plugin.settings.placeCursorInfrontOfInsert = value;
+      (toggle) => toggle.setValue(settings.placeCursorInfrontOfInsert).onChange(async (value) => {
+        settings.placeCursorInfrontOfInsert = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian3.Setting(containerEl).setName("Auto-Select Single Response Queries").setDesc(
       "When hyperlinking: Whether or not to automatically select the response to a query when there is only one article to choose from."
     ).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.autoInsertSingleResponseQueries).onChange(async (value) => {
-        this.plugin.settings.autoInsertSingleResponseQueries = value;
+      (toggle) => toggle.setValue(settings.autoInsertSingleResponseQueries).onChange(async (value) => {
+        settings.autoInsertSingleResponseQueries = value;
         await this.plugin.saveSettings();
       })
     );
     new import_obsidian3.Setting(containerEl).setName("Use Article Title Instead Of Selection").setDesc(
       "When hyperlinking: Whether or not to use the articles title instead of the selected text for '{title}' parameter."
     ).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.alwaysUseArticleTitle).onChange(async (value) => {
-        this.plugin.settings.alwaysUseArticleTitle = value;
+      (toggle) => toggle.setValue(settings.alwaysUseArticleTitle).onChange(async (value) => {
+        settings.alwaysUseArticleTitle = value;
         await this.plugin.saveSettings();
       })
     );
+    containerEl.createEl("br");
+    containerEl.createEl("hr");
+    containerEl.createEl("h2", { text: "Feedback, Bug Reports and Feature Requests \u{1F33F}" });
+    const feedbackParagraph = containerEl.createEl("p");
+    feedbackParagraph.setText(
+      "If you have any kind feedback, please let me know! I want to make this plugin as useful as possible for everyone. I love to hear about your ideas for new features and all the bugs you found. Don't be shy! Just create an issue "
+    );
+    feedbackParagraph.createEl("a", {
+      text: "on GitHub",
+      href: "https://github.com/StrangeGirlMurph/obsidian-wikipedia-search"
+    });
+    feedbackParagraph.appendText(" and I'll get back to you ASAP ~ Murphy :)");
+    containerEl.appendChild(feedbackParagraph);
   }
 };
 
