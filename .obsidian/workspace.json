@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/package-lock.json.md"
+                    "file": "笔记/前端/工程化/脚本/脚本.md"
                   }
                 }
               }
@@ -1050,11 +1050,13 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 3,
                   "stack": [
                     {
-                      "state": "{}",
-                      "eState": "{}"
+                      "title": "npm",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":13},\"to\":{\"line\":34,\"ch\":13}},\"scroll\":0}"
                     },
                     {
                       "title": "包管理器",
@@ -1069,10 +1071,8 @@
                       "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":9},\"to\":{\"line\":1,\"ch\":9}}}"
                     },
                     {
-                      "title": "工程化",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":12},\"to\":{\"line\":31,\"ch\":12}},\"scroll\":13.8148}"
+                      "state": "{}",
+                      "eState": "{}"
                     },
                     {
                       "title": "前端",
@@ -1091,7 +1091,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md",
+                    "file": "笔记/前端/工程化/工程化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1171,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/脚本/脚本.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/脚本/脚本.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,15 +1517,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ff8479d6cf7a4840",
+  "active": "525d5698cc0b4a3b",
   "lastOpenFiles": [
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/包管理器.md",
-    "笔记/前端/工程化/工具/工具.md",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/工具/工具.md",
+    "笔记/前端/工程化/包管理器.md",
+    "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/package-lock.json.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/开发流程.md",
-    "笔记/前端/工程化/package-lock.json.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/库/vite.md",
     "笔记/前端/工程化/ES Module.md",
