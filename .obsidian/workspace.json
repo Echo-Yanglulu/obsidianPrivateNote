@@ -1461,9 +1461,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "30780fbec2a5d874",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1511,8 +1519,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 613.5,
-    "collapsed": true
+    "width": 613.5
   },
   "left-ribbon": {
     "hiddenItems": {
