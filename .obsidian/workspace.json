@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -291,6 +291,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":60,\"ch\":14},\"to\":{\"line\":60,\"ch\":14}},\"scroll\":55.722160970231535}"
                     },
                     {
                       "title": "2023-06-15",
@@ -693,7 +705,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1145,7 +1157,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -1171,7 +1183,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1210,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,11 +1529,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1059ac7f5554b1c1",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习/学习.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/沟通/沟通.md",
+    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/编程语言/编程语言.md",
@@ -1541,10 +1558,6 @@
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/监控与异常上报.md",
     "笔记/前端/工程化/质量/Code Review.md",
-    "笔记/前端/工程化/规范/规范.md",
-    "笔记/前端/版本控制/版本控制.md",
-    "笔记/前端/基础知识/调试.md",
-    "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
