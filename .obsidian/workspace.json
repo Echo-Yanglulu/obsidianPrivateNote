@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/质量/质量.md"
+                    "file": "笔记/前端/工程化/质量/监控与异常上报.md"
                   }
                 }
               }
@@ -1171,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/质量.md",
+                        "file": "笔记/前端/工程化/质量/监控与异常上报.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/质量/质量.md",
+                        "file": "笔记/前端/工程化/质量/监控与异常上报.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,10 +1517,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a70c89eb085c44d2",
+  "active": "b109614af5d5b9b1",
   "lastOpenFiles": [
-    "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/质量/质量.md",
+    "笔记/前端/工程化/质量/监控与异常上报.md",
+    "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/版本控制/版本控制.md",
@@ -1544,7 +1545,6 @@
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/包管理.md",
     "笔记/前端/工程化/脚手架/脚手架.md",
-    "笔记/前端/工程化/node/node框架.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
