@@ -151,16 +151,6 @@
       "key": "T"
     }
   ],
-  "obsidian-sidebar-toggler:hide-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Alt",
-        "Shift"
-      ],
-      "key": "C"
-    }
-  ],
   "random-note": [
     {
       "modifiers": [
@@ -403,6 +393,16 @@
     {
       "modifiers": [],
       "key": "F12"
+    }
+  ],
+  "plugin-manager:toggle-calendar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }
