@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
     },
     {
       "basename": "工程化",
       "path": "笔记/前端/工程化/工程化.md"
+    },
+    {
+      "basename": "package-lock.json",
+      "path": "笔记/前端/工程化/package-lock.json.md"
+    },
+    {
+      "basename": "npm",
+      "path": "笔记/前端/工程化/npm.md"
     },
     {
       "basename": "工具",
@@ -141,10 +149,6 @@
       "path": "笔记/前端/工程化/规范/版本规范.md"
     },
     {
-      "basename": "package-lock.json",
-      "path": "笔记/前端/工程化/package-lock.json.md"
-    },
-    {
       "basename": "git flow",
       "path": "笔记/前端/工程化/git flow.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "学习的阶段",
       "path": "笔记/学习/概念/学习的阶段.md"
-    },
-    {
-      "basename": "费曼技巧",
-      "path": "笔记/学习/概念/费曼技巧.md"
     }
   ],
   "omittedPaths": [
