@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/模块化.md"
+                    "file": "笔记/前端/工程化/工程化.md"
                   }
                 }
               }
@@ -1171,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/模块化.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1198,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/模块化.md",
+                        "file": "笔记/前端/工程化/工程化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1517,13 +1517,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aad997ba9f0d4b32",
+  "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/学习/框架思维/构建.md",
-    "笔记/前端/工程化/模块化.md",
+    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/组件化.md",
+    "笔记/学习/框架思维/构建.md",
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/质量/质量.md",
     "笔记/前端/工程化/质量/监控与异常上报.md",
     "笔记/前端/工程化/质量/Code Review.md",
@@ -1541,7 +1542,6 @@
     "笔记/前端/工程化/package-lock.json.md",
     "笔记/前端/前端.md",
     "笔记/前端/工程化/开发流程.md",
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/库/vite.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/构建/Browserify.md",
