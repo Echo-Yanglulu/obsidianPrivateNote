@@ -9,6 +9,8 @@
 	4. table
 	5. table-cell
 
+background-clip
+
 line-height
 	1. 取值规则
 		1. 固定值

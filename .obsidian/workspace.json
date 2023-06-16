@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/编程语言/CSS/属性简写.md"
                   }
                 }
               }
@@ -1090,11 +1090,23 @@
                 "id": "1059ac7f5554b1c1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "盒模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/盒模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":11},\"to\":{\"line\":16,\"ch\":11}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "编程语言",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":11},\"to\":{\"line\":14,\"ch\":11}}}"
                     },
                     {
                       "title": "前端",
@@ -1125,7 +1137,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/编程语言.md",
+                    "file": "笔记/前端/编程语言/CSS/CSS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1133,7 +1145,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1159,7 +1171,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/编程语言/CSS/属性简写.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1186,7 +1198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/编程语言/CSS/属性简写.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1505,8 +1517,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37b682b4b2faf9d1",
+  "active": "cea2d9198c5801a0",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/CSS/CSS属性.md",
+    "笔记/前端/编程语言/CSS/盒模型.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/CICD.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/规范/release-it.md",
@@ -1514,7 +1531,6 @@
     "笔记/前端/工程化/规范/commit message规范.md",
     "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/前端/工程化/规范/commitizen.md",
-    "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/组件化.md",
@@ -1529,10 +1545,6 @@
     "笔记/前端/工程化/工程设计/工程设计.md",
     "笔记/前端/工程化/工程设计/工程设计范式.md",
     "笔记/前端/工程化/脚本/脚本.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/工程化/工具/工具.md",
-    "笔记/前端/工程化/包管理器.md",
-    "笔记/前端/工程化/package-lock.json.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
