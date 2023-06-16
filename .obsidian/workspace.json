@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/工具/思考/记忆/注意力.md"
                   }
                 }
               }
@@ -291,6 +291,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":148,\"ch\":8},\"to\":{\"line\":148,\"ch\":8}},\"scroll\":116.35532407407408}"
                     },
                     {
                       "title": "健身",
@@ -705,7 +711,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1183,7 +1189,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/工具/思考/记忆/注意力.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1210,7 +1216,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/工具/思考/记忆/注意力.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1529,9 +1535,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "347942735f420d0f",
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
+    "笔记/工具/思考/记忆/注意力.md",
+    "笔记/行为/健身/部位/背部.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1556,8 +1564,6 @@
     "笔记/学习/框架思维/构建.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/质量/质量.md",
-    "笔记/前端/工程化/质量/监控与异常上报.md",
-    "笔记/前端/工程化/质量/Code Review.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
