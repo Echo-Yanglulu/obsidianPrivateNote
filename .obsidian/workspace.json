@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.818222420723538,
+            "dimension": 12.835660580021482,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/工具/思考/记忆/记忆.md"
+                  }
                 }
               }
             ]
@@ -34,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 59.892809289861546,
+            "dimension": 72.07303974221267,
             "children": [
               {
                 "id": "a86e2789749eb6f0",
@@ -835,152 +837,6 @@
                 }
               },
               {
-                "id": "4d969b89f5e85cf6",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/daily/2023-06-13.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1485f6a2ef339451",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/沟通/2023-06-13.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1a3753814baa61b2",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/2023-06-13.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2f77a17ce34f29e1",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/daily/2023-06-13.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d04d66abdece376c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "2023-06-13",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-12",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-13",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-14",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-13",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "2023-06-13",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/沟通/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Day Planners/daily/2023-06-17.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1319,12 +1175,12 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 27.288968289414917,
+            "dimension": 15.091299677765843,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1345,6 +1201,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1371,6 +1228,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1619,26 +1477,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "30780fbec2a5d874",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "oz-calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1686,7 +1527,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 613.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1715,15 +1556,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "30780fbec2a5d874",
+  "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
-    "Day Planners/daily/2023-06-17.md",
+    "笔记/工具/思考/记忆/间隔重复.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习/概念/感知.md",
     "Day Planners/daily/2023-06-13.md",
-    "Day Planners/daily/2023-06-12.md",
-    "Day Planners/daily/2023-06-14.md",
     "笔记/沟通/2023-06-13.md",
     "Day Planners/2023-06-13.md",
-    "笔记/工具/思考/记忆/记忆.md",
+    "Day Planners/daily/2023-06-17.md",
+    "Day Planners/daily/2023-06-12.md",
+    "Day Planners/daily/2023-06-14.md",
     "笔记/学习/学习.md",
     "笔记/学习/整体性学习.md",
     "笔记/行为/健身/健身.md",
@@ -1742,8 +1585,6 @@
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/规范/release-it.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/规范/commit message规范.md",
-    "笔记/前端/工程化/规范/git工程规范.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
