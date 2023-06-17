@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习/整体性学习.md"
                   }
                 }
               }
@@ -722,17 +722,17 @@
                 "id": "99c519eec5ec0ffb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-17",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":5},\"to\":{\"line\":13,\"ch\":5}},\"scroll\":12.405092592592593}"
                     },
                     {
                       "title": "学习",
@@ -829,7 +829,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习/整体性学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1201,7 +1201,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/整体性学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1228,7 +1228,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/整体性学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1558,6 +1558,9 @@
   },
   "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
+    "笔记/学习/概念/信息结构.md",
+    "笔记/学习/整体性学习.md",
+    "笔记/学习/概念/内在化.md",
     "笔记/工具/思考/记忆/记忆.md",
     "Day Planners/2023-06-17.md",
     "笔记/工具/思考/记忆/间隔重复.md",
@@ -1569,7 +1572,6 @@
     "Day Planners/daily/2023-06-12.md",
     "Day Planners/daily/2023-06-14.md",
     "笔记/学习/学习.md",
-    "笔记/学习/整体性学习.md",
     "笔记/行为/健身/健身.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/行为/健身/部位/背部.md",
@@ -1583,8 +1585,6 @@
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/CICD.md",
-    "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/前端/工程化/规范/release-it.md",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
