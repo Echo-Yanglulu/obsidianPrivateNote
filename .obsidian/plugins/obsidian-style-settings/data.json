@@ -24,7 +24,7 @@
   "blue-topaz-theme@@style-options-for-buttons-plugin": true,
   "blue-topaz-theme@@dialogue-style": "dialogue-style-chat",
   "blue-topaz-theme@@style-options-for-kanban-plugin-dynamic": "style-options-for-kanban-plugin-dynamic-neon-one",
-  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-one",
+  "blue-topaz-theme@@list-style-change-options": "rainbow-lines-reading",
   "blue-topaz-theme@@font-family-change-to-default": true,
   "blue-topaz-theme@@hide-titlebar-text": false,
   "blue-topaz-theme@@hide-vault-name": true,
@@ -69,7 +69,7 @@
   "blue-topaz-theme@@retain-header-color": false,
   "blue-topaz-theme@@print-h2-color@@light": "#F29455",
   "blue-topaz-theme@@h2-toggle-underline": true,
-  "blue-topaz-theme@@header-2-background": true,
+  "blue-topaz-theme@@header-2-background": false,
   "blue-topaz-theme@@h2-toggle-short-underline": false,
   "blue-topaz-theme@@header-1-background": true,
   "blue-topaz-theme@@h1-bg-color@@light": "#E7D7AA",
@@ -79,5 +79,9 @@
   "blue-topaz-theme@@h3-toggle-short-underline": false,
   "blue-topaz-theme@@table-format-options": "wrapped-table",
   "blue-topaz-theme@@colorful-p-kanban": false,
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-dracula"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-dracula",
+  "blue-topaz-theme@@colorful-unordered-list": false,
+  "blue-topaz-theme@@unordered-list-style-options": "default-list-marker",
+  "blue-topaz-theme@@colorful-ordered-list": true,
+  "blue-topaz-theme@@ordered-list-style-options": "default-ol-list-marker"
 }
