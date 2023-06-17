@@ -65,8 +65,17 @@
   "blue-topaz-theme@@toggle-fixed-pattern": false,
   "blue-topaz-theme@@accent-strong@@light": "#EE4612",
   "blue-topaz-theme@@accent-em@@light": "#42DCEA",
-  "blue-topaz-theme@@funny-header-anim": true,
+  "blue-topaz-theme@@funny-header-anim": false,
   "blue-topaz-theme@@retain-header-color": false,
   "blue-topaz-theme@@print-h2-color@@light": "#F29455",
-  "blue-topaz-theme@@h2-toggle-underline": true
+  "blue-topaz-theme@@h2-toggle-underline": true,
+  "blue-topaz-theme@@header-2-background": true,
+  "blue-topaz-theme@@h2-toggle-short-underline": false,
+  "blue-topaz-theme@@header-1-background": true,
+  "blue-topaz-theme@@h1-bg-color@@light": "#E7D7AA",
+  "blue-topaz-theme@@h1-toggle-short-underline": false,
+  "blue-topaz-theme@@print-h3-color@@light": "#E7C943",
+  "blue-topaz-theme@@h3-toggle-underline": true,
+  "blue-topaz-theme@@h3-toggle-short-underline": false,
+  "blue-topaz-theme@@table-format-options": "wrapped-table"
 }
