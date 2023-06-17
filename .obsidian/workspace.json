@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -1080,17 +1080,17 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "构建",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":5},\"to\":{\"line\":55,\"ch\":5}},\"scroll\":53.8953}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "工程化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":11},\"to\":{\"line\":16,\"ch\":11}},\"scroll\":0}"
                     },
                     {
                       "title": "前端",
@@ -1109,7 +1109,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/工程化.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1201,7 +1201,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1228,7 +1228,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工程化.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1558,8 +1558,8 @@
   },
   "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工程化.md",
+    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/工程化/组件化.md",
     "笔记/学习/整体性学习.md",
