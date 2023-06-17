@@ -173,7 +173,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 ### 原理
 #### 洋葱模型
 ![[Pasted image 20220806153852.png]]
-执行时，从开始调用每个loader的pitch方法，再反向调用loader函数本身。即：在pitch阶段正序执行loader的pitch方法，在execute阶段倒序执行loader本身。
+执行时，从开始调用每个loader的pitch方法，再反向调用loader函数本身。即：在pitch阶段*正序*执行loader的pitch方法，在execute阶段**倒序**执行loader本身。
 #### pitch函数
 ```javascript
 const loaderUtils = require("loader-utils");
