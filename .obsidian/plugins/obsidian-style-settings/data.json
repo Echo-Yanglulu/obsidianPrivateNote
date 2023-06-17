@@ -13,7 +13,7 @@
   "blue-topaz-theme@@show-border-table": true,
   "blue-topaz-theme@@style-options-for-admonition-plugin": true,
   "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-default",
-  "blue-topaz-theme@@h1-toggle-underline": false,
+  "blue-topaz-theme@@h1-toggle-underline": true,
   "blue-topaz-theme@@rainbow-ordered-list": true,
   "blue-topaz-theme@@rainbow-checkbox": true,
   "blue-topaz-theme@@unmuted-collapsed-folder": true,
@@ -62,5 +62,11 @@
   "blue-topaz-theme@@toggle-split-note-background": false,
   "blue-topaz-theme@@bg-color-notebook@@dark": "#F4ECD8",
   "blue-topaz-theme@@grid-notebook-line-color-1@@light": "#F1F1F1",
-  "blue-topaz-theme@@toggle-fixed-pattern": false
+  "blue-topaz-theme@@toggle-fixed-pattern": false,
+  "blue-topaz-theme@@accent-strong@@light": "#EE4612",
+  "blue-topaz-theme@@accent-em@@light": "#42DCEA",
+  "blue-topaz-theme@@funny-header-anim": true,
+  "blue-topaz-theme@@retain-header-color": false,
+  "blue-topaz-theme@@print-h2-color@@light": "#F29455",
+  "blue-topaz-theme@@h2-toggle-underline": true
 }
