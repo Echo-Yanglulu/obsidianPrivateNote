@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "Day Planners/2023-06-17.md"
                   }
                 }
               }
@@ -1195,17 +1195,17 @@
                     "id": "76f5b32ce3580f79",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 1,
+                      "pos": 0,
                       "stack": [
-                        {
-                          "title": "2023-06-13",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}},\"scroll\":0}"
-                        },
                         {
                           "state": "{}",
                           "eState": "{}"
+                        },
+                        {
+                          "title": "深夜加油站遇见苏格拉底",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                         },
                         {
                           "title": "鹿智者的法则",
@@ -1236,7 +1236,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Day Planners/2023-06-17.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1272,7 +1272,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Day Planners/2023-06-17.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1299,7 +1299,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Day Planners/2023-06-17.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1425,7 +1425,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
