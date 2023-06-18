@@ -4,10 +4,10 @@
     "flashcardGoodText": "记得大概",
     "flashcardHardText": "印象模糊",
     "flashcardTags": [
-      "#flashcards"
+      "#fc"
     ],
     "convertFoldersToDecks": false,
-    "cardCommentOnSameLine": false,
+    "cardCommentOnSameLine": true,
     "burySiblingCards": false,
     "showContextInCards": true,
     "flashcardHeightPercentage": 80,
@@ -41,7 +41,7 @@
     "singlelineCardSeparator": "::",
     "singlelineReversedCardSeparator": ":::"
   },
-  "buryDate": "2023-06-09",
+  "buryDate": "2023-06-18",
   "buryList": [],
   "historyDeck": "flashcards"
 }

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/前端.md"
                   }
                 }
               }
@@ -41,7 +41,7 @@
               {
                 "id": "e67a4c566e0eea1a",
                 "type": "tabs",
-                "dimension": 57.035928143712574,
+                "dimension": 66.21722846441948,
                 "children": [
                   {
                     "id": "a86e2789749eb6f0",
@@ -1215,7 +1215,7 @@
               {
                 "id": "d60fafc685429517",
                 "type": "tabs",
-                "dimension": 42.964071856287426,
+                "dimension": 33.78277153558052,
                 "children": [
                   {
                     "id": "76f5b32ce3580f79",
@@ -1270,23 +1270,6 @@
                     }
                   },
                   {
-                    "id": "6e8779c8a4d8d356",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "empty",
-                      "state": {}
-                    }
-                  },
-                  {
                     "id": "4849eedbde1baa11",
                     "type": "leaf",
                     "pane-relief:history-v1": {
@@ -1301,6 +1284,40 @@
                     "state": {
                       "type": "repeating-notes-due-view",
                       "state": {}
+                    }
+                  },
+                  {
+                    "id": "47e837406345e57e",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "计算机基础",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}}}"
+                        },
+                        {
+                          "title": "编程语言",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/编程语言.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/前端/前端.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
                     }
                   }
                 ],
@@ -1333,7 +1350,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/前端.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1360,7 +1377,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/前端.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1425,7 +1442,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flshcard",
+                "query": "tag:#flashcards",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1486,7 +1503,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "178d954c018b7c28",
@@ -1688,24 +1705,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "47e837406345e57e",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机基础.md",
+    "笔记/前端/编程语言/编程语言.md",
+    "笔记/_gsdata_/2023-0618-184644-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/学习/学习.md",
+    "笔记/_gsdata_/2023-0618-184559-DESKTOP-YLL-Job1.log",
+    "Day Planners/2023-06-17.md",
+    "笔记/_gsdata_/2023-0618-184456-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-184441-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-184438-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/daily/2023-06-18.md",
-    "笔记/学习/学习.md",
     "笔记/学习/整体性学习.md",
     "笔记/学习/概念/比喻.md",
     "笔记/_gsdata_/2023-0618-184335-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0618-184311-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/2023-0618-184308-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-184205-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/提问.md",
-    "笔记/_gsdata_/2023-0618-184102-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-184050-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-184047-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-183944-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/策略.md",
     "笔记/学习/自由技艺.md",
     "笔记/学习/沟通.md",
@@ -1723,9 +1743,6 @@
     "笔记/内心/欲望.md",
     "笔记/学习/概念/拓展.md",
     "笔记/工具/通用概念/心理.md",
-    "Day Planners/2023-06-17.md",
-    "笔记/行为/健身/放松，热身.md",
-    "Day Planners/daily/2023-06-13.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
