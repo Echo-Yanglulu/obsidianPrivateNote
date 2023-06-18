@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -1157,8 +1157,20 @@
                     "id": "37b682b4b2faf9d1",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 2,
                       "stack": [
+                        {
+                          "title": "版本规范",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":5},\"to\":{\"line\":5,\"ch\":5}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "版本控制",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":46},\"to\":{\"line\":14,\"ch\":46}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1252,7 +1264,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 6
               },
               {
                 "id": "d60fafc685429517",
@@ -1305,7 +1317,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1332,7 +1344,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1660,22 +1672,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0618-222316-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-222653-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/前端/工程化/规范/release-it.md",
+    "笔记/_gsdata_/2023-0618-222629-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0618-222550-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-222547-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-222444-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/学习/学习.md",
+    "笔记/_gsdata_/2023-0618-222418-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-222316-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-222213-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-222110-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-222008-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221906-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221803-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221700-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221600-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221500-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-221400-DESKTOP-YLL-Job1.log",
-    "笔记/行为/健身/健身.md",
     "笔记/学习/整体性学习.md",
-    "笔记/学习/学习.md",
     "笔记/学习/概念/图表.md",
     "笔记/学习/概念/知识.md",
     "笔记/工具/思考/记忆/内视觉.md",
@@ -1694,10 +1710,6 @@
     "笔记/学习/概念/布鲁姆分类法.md",
     "Day Planners/daily/2023-06-18.md",
     "Day Planners/2023-06-18.md",
-    "Day Planners/2023-06-17.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/学习/概念/比喻.md",
-    "笔记/工具/通用概念/提问.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
