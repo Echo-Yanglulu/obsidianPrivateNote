@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/工具/心理学/情绪/情绪.md"
+                  }
                 }
               }
             ]
@@ -1311,6 +1313,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/工具/心理学/情绪/情绪.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1337,6 +1340,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/工具/心理学/情绪/情绪.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1663,8 +1667,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f59515532fe6ff4b",
+  "active": "e8859a1f016b4631",
   "lastOpenFiles": [
+    "笔记/内心/欲望.md",
     "笔记/内心/人生.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
@@ -1690,7 +1695,6 @@
     "笔记/学习/概念/随意信息.md",
     "笔记/学习/概念/过程信息.md",
     "笔记/学习/概念/抽象信息.md",
-    "笔记/学习/概念/具体信息.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
