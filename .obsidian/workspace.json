@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "Day Planners/2023-06-19.md"
+                  }
                 }
               }
             ]
@@ -1288,8 +1290,13 @@
                       ]
                     },
                     "state": {
-                      "type": "empty",
-                      "state": {}
+                      "type": "markdown",
+                      "state": {
+                        "file": "Day Planners/2023-06-19.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
                     }
                   }
                 ]
@@ -1321,6 +1328,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "Day Planners/2023-06-19.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1347,6 +1355,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "Day Planners/2023-06-19.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1472,7 +1481,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1676,6 +1685,7 @@
   },
   "active": "814fcc2cd13e3b36",
   "lastOpenFiles": [
+    "Day Planners/2023-06-19.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/_gsdata_/2023-0618-234914-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
