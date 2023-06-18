@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/原因.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -909,6 +909,12 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "整体性学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":11},\"to\":{\"line\":50,\"ch\":11}},\"scroll\":39.839}"
+                        },
+                        {
                           "title": "语法",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -985,7 +991,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/学习/整体性学习.md",
+                        "file": "笔记/学习/学习.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1191,7 +1197,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 4
               },
               {
                 "id": "d60fafc685429517",
@@ -1313,7 +1319,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/原因.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1340,7 +1346,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/原因.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1667,20 +1673,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37fb741facd8f20b",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/目的.md",
-    "笔记/工具/通用概念/原因.md",
+    "笔记/学习/整体性学习.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "Day Planners/2023-06-18.md",
+    "笔记/_gsdata_/2023-0618-172121-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0618-172115-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-172109-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0618-172006-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-172000-DESKTOP-YLL-Job1.log",
     "笔记/内心/人生.md",
+    "笔记/工具/通用概念/原因.md",
+    "笔记/工具/通用概念/目的.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/心智.md",
     "笔记/内心/欲望.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
-    "Day Planners/2023-06-18.md",
-    "笔记/学习/整体性学习.md",
     "笔记/学习/概念/拓展.md",
     "笔记/工具/通用概念/心理.md",
     "Day Planners/2023-06-17.md",
@@ -1694,7 +1707,6 @@
     "笔记/前端/工程化/工程化.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/模块化.md",
-    "笔记/前端/工程化/组件化.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
@@ -1704,14 +1716,7 @@
     "笔记/前端/assets/Pasted image 20230615203059.png",
     "笔记/前端/assets/Pasted image 20230615203014.png",
     "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0613-232435-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-232335-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-232235-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-232135-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-232035-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-231932-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
