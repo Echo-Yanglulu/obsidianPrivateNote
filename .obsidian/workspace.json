@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -1278,7 +1276,7 @@
                 "dimension": 33.78277153558052,
                 "children": [
                   {
-                    "id": "4849eedbde1baa11",
+                    "id": "814fcc2cd13e3b36",
                     "type": "leaf",
                     "pane-relief:history-v1": {
                       "pos": 0,
@@ -1290,7 +1288,7 @@
                       ]
                     },
                     "state": {
-                      "type": "repeating-notes-due-view",
+                      "type": "empty",
                       "state": {}
                     }
                   }
@@ -1323,7 +1321,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1350,7 +1347,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1678,19 +1674,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "814fcc2cd13e3b36",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0618-234732-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "笔记/_gsdata_/2023-0618-234914-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0618-234832-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-234732-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-234632-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-234532-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-234432-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-234332-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-234229-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-234129-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-234029-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-233929-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/原因.md",
     "笔记/前端/工程化/package-lock.json.md",
     "笔记/行为/健身/健身.md",
@@ -1698,7 +1694,6 @@
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/版本控制/版本控制.md",
-    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/规范/release-it.md",
     "笔记/学习/学习.md",
     "笔记/学习/整体性学习.md",
