@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "Day Planners/daily/2023-06-18.md"
                   }
                 }
               }
@@ -733,6 +733,18 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "2023-06-17",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "2023-06-18",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-18.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":5},\"to\":{\"line\":4,\"ch\":5}}}"
+                        },
+                        {
                           "title": "整体性学习",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -839,7 +851,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Day Planners/2023-06-18.md",
+                        "file": "Day Planners/daily/2023-06-18.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1197,7 +1209,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 2
               },
               {
                 "id": "d60fafc685429517",
@@ -1319,7 +1331,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "Day Planners/daily/2023-06-18.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1346,7 +1358,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "Day Planners/daily/2023-06-18.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1596,7 +1608,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1673,18 +1686,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "99c519eec5ec0ffb",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0618-172509-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0618-172436-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "Day Planners/daily/2023-06-17.md",
+    "Day Planners/daily/2023-06-18.md",
+    "Day Planners/2023-06-18.md",
+    "笔记/学习/学习.md",
+    "笔记/_gsdata_/2023-0618-172342-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-172239-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-172227-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-172224-DESKTOP-YLL-Job1.log",
     "笔记/学习/整体性学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "Day Planners/2023-06-18.md",
     "笔记/_gsdata_/2023-0618-172121-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0618-172115-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-172109-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0618-172006-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-172000-DESKTOP-YLL-Job1.log",
     "笔记/内心/人生.md",
     "笔记/工具/通用概念/原因.md",
     "笔记/工具/通用概念/目的.md",
@@ -1704,19 +1724,13 @@
     "笔记/工具/通用概念/爱.md",
     "笔记/内心/经历.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/工程化/工程化.md",
-    "笔记/前端/工程化/构建/构建.md",
-    "笔记/前端/工程化/模块化.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
-    "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
     "笔记/前端/assets/Pasted image 20230615223230.png",
     "笔记/前端/assets/Pasted image 20230615220738.png",
     "笔记/前端/assets/Pasted image 20230615203059.png",
     "笔记/前端/assets/Pasted image 20230615203014.png",
-    "笔记/_gsdata_/2023-0613-232535-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0613-232435-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
     "笔记/前端/assets/Pasted image 20230611145956.png",
