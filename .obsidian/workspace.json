@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/内心/人生.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -1313,7 +1311,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/人生.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1340,7 +1337,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/人生.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1667,8 +1663,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "470181cfa0f22e45",
+  "active": "f59515532fe6ff4b",
   "lastOpenFiles": [
+    "笔记/内心/人生.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
     "Day Planners/2023-06-18.md",
@@ -1694,7 +1691,6 @@
     "笔记/学习/概念/过程信息.md",
     "笔记/学习/概念/抽象信息.md",
     "笔记/学习/概念/具体信息.md",
-    "笔记/学习/概念/信息结构.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/mindmap/运动补剂.xmind",
     "笔记/前端/assets/Pasted image 20230615223811.png",
