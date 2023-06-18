@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "package-lock.json",
+      "path": "笔记/前端/工程化/package-lock.json.md"
+    },
+    {
+      "basename": "原因",
+      "path": "笔记/工具/通用概念/原因.md"
+    },
+    {
+      "basename": "健身",
+      "path": "笔记/行为/健身/健身.md"
+    },
+    {
+      "basename": "构建",
+      "path": "笔记/前端/工程化/构建/构建.md"
+    },
+    {
+      "basename": "普通对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "版本规范",
       "path": "笔记/前端/工程化/规范/版本规范.md"
-    },
-    {
-      "basename": "健身",
-      "path": "笔记/行为/健身/健身.md"
     },
     {
       "basename": "学习",
@@ -71,10 +87,6 @@
     {
       "basename": "人生",
       "path": "笔记/内心/人生.md"
-    },
-    {
-      "basename": "原因",
-      "path": "笔记/工具/通用概念/原因.md"
     },
     {
       "basename": "当下",
@@ -169,10 +181,6 @@
       "path": "笔记/前端/工程化/规范/commit message规范.md"
     },
     {
-      "basename": "构建",
-      "path": "笔记/前端/工程化/构建/构建.md"
-    },
-    {
       "basename": "质量",
       "path": "笔记/前端/工程化/质量/质量.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "工具",
       "path": "笔记/前端/工程化/工具/工具.md"
-    },
-    {
-      "basename": "包管理器",
-      "path": "笔记/前端/工程化/包管理器.md"
-    },
-    {
-      "basename": "npm",
-      "path": "笔记/前端/工程化/npm.md"
     }
   ],
   "omittedPaths": [
