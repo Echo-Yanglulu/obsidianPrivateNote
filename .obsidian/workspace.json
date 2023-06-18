@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -922,6 +922,18 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "整体性学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.5423728813559322}"
+                        },
+                        {
                           "title": "前端",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1234,7 +1246,7 @@
                     }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               },
               {
                 "id": "d60fafc685429517",
@@ -1287,7 +1299,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1314,7 +1326,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1642,21 +1654,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0618-213454-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/lock.gsl",
-    "笔记/学习/整体性学习.md",
     "笔记/学习/学习.md",
+    "笔记/学习/整体性学习.md",
+    "笔记/学习/概念/图表.md",
+    "笔记/_gsdata_/2023-0618-213745-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0618-213706-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0618-213703-DESKTOP-YLL-Job1.log",
+    "笔记/学习/概念/知识.md",
+    "笔记/_gsdata_/2023-0618-213600-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-213557-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-213454-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-213427-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0618-213418-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-213318-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-213218-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-213118-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-213018-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-212918-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-212818-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/记忆/内视觉.md",
     "笔记/前端/编程语言/CSS/视觉格式化基础.md",
     "笔记/学习/概念/理解.md",
@@ -1679,7 +1692,6 @@
     "笔记/工具/通用概念/提问.md",
     "笔记/工具/通用概念/策略.md",
     "笔记/学习/沟通.md",
-    "笔记/沟通/沟通.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
