@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/package-lock.json.md"
+                    "file": "笔记/前端/工程化/规范/版本规范.md"
                   }
                 }
               }
@@ -1061,7 +1061,7 @@
                           "title": "原因",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/原因.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":2},\"to\":{\"line\":27,\"ch\":2}},\"scroll\":17.1103}"
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":7},\"to\":{\"line\":15,\"ch\":7}},\"scroll\":17.1103}"
                         },
                         {
                           "title": "健身",
@@ -1152,7 +1152,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1323,7 +1323,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1350,7 +1350,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1476,7 +1476,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "178d954c018b7c28",
@@ -1680,22 +1680,23 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0618-224150-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224511-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0618-224129-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224508-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224405-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224402-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224259-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/原因.md",
+    "笔记/_gsdata_/2023-0618-224235-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/package-lock.json.md",
+    "笔记/_gsdata_/2023-0618-224150-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0618-224129-DESKTOP-YLL-Job1.log",
     "笔记/行为/健身/健身.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/_gsdata_/2023-0618-224026-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-224002-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/_gsdata_/2023-0618-223917-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-223817-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-223717-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-223617-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0618-223517-DESKTOP-YLL-Job1.log",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/工程化/规范/release-it.md",
@@ -1715,7 +1716,6 @@
     "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
