@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/人的属性.md"
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
                   }
                 }
               }
@@ -1169,17 +1169,17 @@
                     "id": "37b682b4b2faf9d1",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 1,
+                      "pos": 0,
                       "stack": [
-                        {
-                          "title": "普通对象",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":28},\"to\":{\"line\":43,\"ch\":28}},\"scroll\":25.46527777777778}"
-                        },
                         {
                           "state": "{}",
                           "eState": "{}"
+                        },
+                        {
+                          "title": "构建",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":9},\"to\":{\"line\":38,\"ch\":9}},\"scroll\":31.431642778390298}"
                         },
                         {
                           "title": "webpack",
@@ -1210,7 +1210,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/构建.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1288,7 +1288,7 @@
                     }
                   }
                 ],
-                "currentTab": 3
+                "currentTab": 6
               },
               {
                 "id": "d60fafc685429517",
@@ -1495,7 +1495,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/人的属性.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1522,7 +1522,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/人的属性.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1850,27 +1850,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cfd1d67869fb60b2",
+  "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0619-152531-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0619-152840-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0619-152737-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/_gsdata_/2023-0619-152713-DESKTOP-YLL-Job1.log",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/爱.md",
+    "笔记/工具/通用概念/观念.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/_gsdata_/2023-0619-152634-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0619-152531-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0619-152431-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0619-152331-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0619-152231-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0619-152131-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-152031-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-151931-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-151831-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-151731-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-151630-DESKTOP-YLL-Job1.log",
-    "笔记/工具/通用概念/观念.md",
     "笔记/工具/通用概念/语言.md",
     "笔记/工具/哲学/逻辑学/自然语言.md",
     "笔记/学习/概念/概念.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/了解.md",
-    "笔记/工具/通用概念/爱.md",
     "笔记/工具/通用概念/照顾.md",
     "笔记/工具/通用概念/尊重.md",
     "笔记/工具/科学/价值观.md",
@@ -1881,13 +1883,11 @@
     "笔记/内心/经历.md",
     "笔记/工具/通用概念/决定.md",
     "笔记/学习/概念/布鲁姆分类法.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/知觉学习.md",
     "笔记/学习/概念/弱点.md",
     "笔记/学习/概念/应用.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
