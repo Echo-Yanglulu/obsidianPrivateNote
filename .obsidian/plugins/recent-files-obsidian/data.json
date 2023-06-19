@@ -5,6 +5,18 @@
       "path": "Day Planners/2023-06-18.md"
     },
     {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "笔记/前端/编程语言/CSS/CSS.md"
+    },
+    {
       "basename": "学习",
       "path": "笔记/学习/学习.md"
     },
@@ -177,10 +189,6 @@
       "path": "笔记/沟通/沟通.md"
     },
     {
-      "basename": "CSS",
-      "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
       "basename": "盒模型",
       "path": "笔记/前端/编程语言/CSS/盒模型.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "release-it",
       "path": "笔记/前端/工程化/规范/release-it.md"
-    },
-    {
-      "basename": "git工程规范",
-      "path": "笔记/前端/工程化/规范/git工程规范.md"
-    },
-    {
-      "basename": "commit message规范",
-      "path": "笔记/前端/工程化/规范/commit message规范.md"
     }
   ],
   "omittedPaths": [
