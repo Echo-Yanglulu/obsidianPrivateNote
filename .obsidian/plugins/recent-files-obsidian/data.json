@@ -5,6 +5,10 @@
       "path": "笔记/学习/学习.md"
     },
     {
+      "basename": "布鲁姆分类法",
+      "path": "笔记/学习/概念/布鲁姆分类法.md"
+    },
+    {
       "basename": "弱点",
       "path": "笔记/学习/概念/弱点.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "盒模型",
       "path": "笔记/前端/编程语言/CSS/盒模型.md"
-    },
-    {
-      "basename": "CICD",
-      "path": "笔记/前端/工程化/CICD.md"
     }
   ],
   "omittedPaths": [
