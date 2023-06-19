@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/语法/语法.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -915,17 +915,17 @@
                     "id": "8d08a01a6be7967f",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "语法",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/语法/语法.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}},\"scroll\":0}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
-                        },
-                        {
-                          "title": "学习",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":15},\"to\":{\"line\":16,\"ch\":15}}}"
                         },
                         {
                           "title": "整体性学习",
@@ -1046,7 +1046,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/工具/语法/语法.md",
+                        "file": "笔记/学习/学习.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1340,7 +1340,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/语法/语法.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1367,7 +1367,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/语法/语法.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1697,8 +1697,8 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/词汇.md",
     "笔记/工具/语法/语法.md",
+    "笔记/工具/通用概念/词汇.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-06-18.md",
     "Day Planners/2023-06-19.md",
