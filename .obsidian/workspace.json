@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-19.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -41,7 +41,7 @@
               {
                 "id": "e67a4c566e0eea1a",
                 "type": "tabs",
-                "dimension": 73.03370786516854,
+                "dimension": 62.621722846441955,
                 "children": [
                   {
                     "id": "8d08a01a6be7967f",
@@ -1057,17 +1057,17 @@
                     "id": "a25b7d2264118fac",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "2023-06-19",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
-                        },
-                        {
-                          "title": "版本规范",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                         },
                         {
                           "title": "原因",
@@ -1164,7 +1164,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Day Planners/2023-06-19.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1293,13 +1293,12 @@
                       }
                     }
                   }
-                ],
-                "currentTab": 5
+                ]
               },
               {
                 "id": "d60fafc685429517",
                 "type": "tabs",
-                "dimension": 26.96629213483146,
+                "dimension": 37.37827715355805,
                 "children": [
                   {
                     "id": "814fcc2cd13e3b36",
@@ -1471,8 +1470,7 @@
                       }
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               }
             ],
             "direction": "horizontal"
@@ -1501,7 +1499,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-19.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1528,7 +1526,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-19.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1856,8 +1854,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "Day Planners/daily/2023-06-18.md",
+    "Day Planners/2023-06-18.md",
+    "Day Planners/daily/2023-06-17.md",
+    "笔记/前端/工程化/规范/版本规范.md",
+    "Day Planners/2023-06-19.md",
     "笔记/_gsdata_/2023-0619-190100-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0619-190000-DESKTOP-YLL-Job1.log",
@@ -1868,14 +1872,12 @@
     "笔记/_gsdata_/2023-0619-185500-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/2023-0619-185400-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0619-185300-DESKTOP-YLL-Job1.log",
     "笔记/学习/学习.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/工程化/构建/构建.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/爱.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -1890,10 +1892,6 @@
     "笔记/工具/通用概念/三观.md",
     "笔记/工具/通用概念/世界观.md",
     "笔记/工具/通用概念/人生观.md",
-    "笔记/工具/通用概念/格局.md",
-    "笔记/内心/经历.md",
-    "笔记/工具/通用概念/决定.md",
-    "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
