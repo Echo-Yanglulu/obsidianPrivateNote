@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/package-lock.json.md"
+                    "file": "笔记/前端/工程化/node/package.json.md"
                   }
                 }
               }
@@ -1076,6 +1076,12 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "package-lock.json",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/package-lock.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":22},\"to\":{\"line\":5,\"ch\":22}},\"scroll\":0}"
+                        },
+                        {
                           "title": "版本规范",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1176,7 +1182,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/node/package.json.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1392,7 +1398,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/node/package.json.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1419,7 +1425,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/package-lock.json.md",
+                        "file": "笔记/前端/工程化/node/package.json.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1749,20 +1755,21 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0620-215628-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215916-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/_gsdata_/2023-0620-215540-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215904-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215901-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215758-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215755-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/工程化/package-lock.json.md",
+    "笔记/_gsdata_/2023-0620-215652-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215628-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215540-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-215537-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-215434-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-215352-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/学习/学习.md",
-    "笔记/_gsdata_/2023-0620-215316-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-215216-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-215116-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-215014-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
     "Day Planners/2023-06-20.md",
@@ -1784,7 +1791,6 @@
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/了解.md",
     "笔记/工具/通用概念/照顾.md",
-    "笔记/工具/通用概念/尊重.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",

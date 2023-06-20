@@ -17,6 +17,9 @@
 		3. optionalDependencies
 		4. bundledDependencies
 		5. engines
+		6. *如何更新一个依赖包*？
+			1. [[node]]<5时：直接改package.json里面的版本，然后再npm install
+			2. 重新下载某个版本的包。npm install xxx@x.x.x  然后[[package-lock.json]]也能随之更新
 	4. 脚本配置
 		1. [[脚本]] 
 		2. config：脚本运行时的配置参数
