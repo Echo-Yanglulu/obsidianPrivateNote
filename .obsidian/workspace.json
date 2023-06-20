@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/工程化/规范/版本规范.md"
                   }
                 }
               }
@@ -1305,7 +1305,8 @@
                       }
                     }
                   }
-                ]
+                ],
+                "currentTab": 5
               },
               {
                 "id": "d60fafc685429517",
@@ -1391,7 +1392,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1418,7 +1419,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/规范/版本规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1746,23 +1747,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0620-215014-DESKTOP-YLL-Job1.log",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/学习/学习.md",
+    "笔记/_gsdata_/2023-0620-215316-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0620-215216-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215116-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215014-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-214912-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-214906-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
     "Day Planners/2023-06-20.md",
-    "笔记/学习/学习.md",
     "笔记/mindmap/学习.xmind",
     "笔记/学习.xmind",
-    "学习.xmind",
-    "笔记/mindmap/js.xmind",
-    "笔记/js.xmind",
-    "js.xmind",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/行为/健身/部位/腿部.md",
     "Day Planners/daily/2023-06-18.md",
@@ -1772,7 +1773,6 @@
     "Day Planners/2023-06-19.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/工具/通用概念/爱.md",
     "笔记/工具/通用概念/观念.md",
