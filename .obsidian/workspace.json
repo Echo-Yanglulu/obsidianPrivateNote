@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/版本规范.md"
+                    "file": "笔记/前端/工程化/package-lock.json.md"
                   }
                 }
               }
@@ -1069,17 +1069,17 @@
                     "id": "a25b7d2264118fac",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 1,
+                      "pos": 0,
                       "stack": [
-                        {
-                          "title": "2023-06-19",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
                         {
                           "state": "{}",
                           "eState": "{}"
+                        },
+                        {
+                          "title": "版本规范",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":52},\"to\":{\"line\":25,\"ch\":52}},\"scroll\":9.69675925925926}"
                         },
                         {
                           "title": "原因",
@@ -1176,7 +1176,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/package-lock.json.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1392,7 +1392,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/package-lock.json.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1419,7 +1419,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/版本规范.md",
+                        "file": "笔记/前端/工程化/package-lock.json.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1749,27 +1749,28 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/_gsdata_/2023-0620-215628-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0620-215540-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0620-215537-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215434-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0620-215352-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/学习/学习.md",
     "笔记/_gsdata_/2023-0620-215316-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0620-215216-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-215116-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-215014-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-214912-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-214906-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
     "Day Planners/2023-06-20.md",
-    "笔记/mindmap/学习.xmind",
-    "笔记/学习.xmind",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/行为/健身/部位/腿部.md",
     "Day Planners/daily/2023-06-18.md",
     "笔记/行为/健身/健身.md",
     "Day Planners/daily/2023-06-17.md",
-    "笔记/前端/工程化/规范/版本规范.md",
     "Day Planners/2023-06-19.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
