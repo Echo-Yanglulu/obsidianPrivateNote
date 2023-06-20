@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -875,8 +875,14 @@
                     "id": "99c519eec5ec0ffb",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "2023-06-20",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1299,8 +1305,7 @@
                       }
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               },
               {
                 "id": "d60fafc685429517",
@@ -1507,7 +1512,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1534,7 +1539,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1862,13 +1867,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
     "笔记/行为/健身/部位/腿部.md",
+    "Day Planners/daily/2023-06-18.md",
+    "Day Planners/2023-06-20.md",
     "Day Planners/2023-06-18.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "Day Planners/daily/2023-06-18.md",
     "笔记/行为/健身/健身.md",
     "Day Planners/daily/2023-06-17.md",
     "笔记/前端/工程化/规范/版本规范.md",
@@ -1885,7 +1892,6 @@
     "笔记/_gsdata_/2023-0619-185400-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/工具/通用概念/爱.md",
@@ -1899,7 +1905,6 @@
     "笔记/工具/通用概念/照顾.md",
     "笔记/工具/通用概念/尊重.md",
     "笔记/工具/科学/价值观.md",
-    "笔记/工具/通用概念/三观.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
