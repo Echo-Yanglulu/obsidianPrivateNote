@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-20.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -47,17 +47,17 @@
                     "id": "8d08a01a6be7967f",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "2023-06-20",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
-                        },
-                        {
-                          "title": "学习",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                         },
                         {
                           "title": "整体性学习",
@@ -178,7 +178,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Day Planners/2023-06-20.md",
+                        "file": "笔记/学习/学习.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1512,7 +1512,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-20.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1539,7 +1539,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-20.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1869,11 +1869,11 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "Day Planners/2023-06-20.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
     "笔记/行为/健身/部位/腿部.md",
     "Day Planners/daily/2023-06-18.md",
-    "Day Planners/2023-06-20.md",
     "Day Planners/2023-06-18.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
