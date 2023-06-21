@@ -6,14 +6,7 @@
 ![[核心JS.svg]] 
 
 # 相关
-[JS](obsidian://open?vault=obsidianPrivateNote&file=%E7%AC%94%E8%AE%B0%2Fmindmap%2Fjs.xmind)：浏览器有[[BOM]]，进行[[客户端检测]]。
-	1. 当[[事件]]发生，发起[[网络请求]]以[[异步JS|异步]]获取[[JSON]]、[[模块]]、[[库、框架]]、[[表单脚本]]，通过[[DOM]]映射文档结构。
-	2. 响应的数据需要进行[[客户端存储]]。
-	3. 请求可能经过[[代理]]处理，
-	4. 耗时任务[^1]可使用[[工作者线程]]，异步可通过[[迭代器]]与[[生成器]] 
-	5. 浏览器为增强功能，定义了许多[[JS API]] 
-	6. 任何过程都可能出错，需要[[错误处理]] 
-	7. 
+[JS](obsidian://open?vault=obsidianPrivateNote&file=%E7%AC%94%E8%AE%B0%2Fmindmap%2Fjs.xmind)：
 # 语法
 # [[词法结构]] 
 # 数据

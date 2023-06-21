@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/Blob API.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器规范.md"
                   }
                 }
               }
@@ -1310,7 +1310,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Blob API.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1337,7 +1337,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Blob API.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器规范.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1664,24 +1664,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "27f0c4293cab6c99",
+  "active": "36fd5e0176f3e4ad",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS API.md",
-    "笔记/前端/编程语言/JS/File API.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/_gsdata_/2023-0621-132644-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/_gsdata_/2023-0621-132941-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0621-132917-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/代理.md",
+    "笔记/_gsdata_/2023-0621-132833-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/表单脚本.md",
+    "笔记/前端/编程语言/JS/错误处理.md",
+    "笔记/前端/编程语言/JS/JS API.md",
+    "笔记/_gsdata_/2023-0621-132750-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-132747-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/Encoding API.md",
+    "笔记/前端/编程语言/JS/Blob API.md",
+    "笔记/前端/编程语言/JS/File API.md",
+    "笔记/_gsdata_/2023-0621-132644-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-132641-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/浏览器API.md",
     "笔记/_gsdata_/2023-0621-132538-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
-    "笔记/_gsdata_/2023-0621-132459-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-132456-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-132353-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-132350-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/代理.md",
-    "笔记/_gsdata_/2023-0621-132247-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/基本概念/词法结构.md",
     "笔记/前端/编程语言/JS/基本概念/解释型语言.md",
@@ -1694,14 +1702,6 @@
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/沟通/沟通.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "Day Planners/daily/2023-06-17.md",
-    "Day Planners/daily/2023-06-18.md",
-    "Day Planners/2023-06-21.md",
-    "笔记/前端/工程化/package-lock.json.md",
-    "笔记/前端/工程化/规范/版本规范.md",
-    "笔记/学习/学习.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",

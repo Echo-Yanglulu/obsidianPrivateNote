@@ -6,4 +6,4 @@ postMessage跨上下文消息
 [[File API]] 
 [[媒体元素]] 
 [[Streams API]] 
-加密
+[[Geolocation API]] 
