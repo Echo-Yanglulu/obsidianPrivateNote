@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/模块.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1322,7 +1322,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1349,7 +1349,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/模块.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1676,24 +1676,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "447069fe2af9c461",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-140244-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/工作者线程.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/_gsdata_/2023-0621-140535-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0621-140511-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-140414-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/_gsdata_/2023-0621-140350-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-140347-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-140244-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/TS/TS.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/_gsdata_/2023-0621-140159-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-140156-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-140053-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
-    "笔记/_gsdata_/2023-0621-140041-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-140038-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-135935-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-135932-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-135929-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/JS事件.md",
@@ -1702,7 +1703,6 @@
     "笔记/前端/编程语言/JS/错误处理.md",
     "笔记/前端/编程语言/JS/JS API.md",
     "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/编程语言/JS/工作者线程.md",
     "笔记/前端/编程语言/JS/代理.md",
     "笔记/前端/编程语言/JS/反射.md",
     "笔记/前端/编程语言/JS/元编程.md",
