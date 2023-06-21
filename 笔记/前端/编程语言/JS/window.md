@@ -1,6 +1,5 @@
 # 概述
-ECMA-262没有规定直接访问Global对象的方式，但浏览器将window对象实现为**Global对象的代理**。
-	1. 所有全局作用域中声明的变量和函数都变成了window的属性
+
 ## 属性分类
 1. 特殊值
 	1. undefined	特殊值undefined

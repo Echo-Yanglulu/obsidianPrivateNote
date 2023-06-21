@@ -9,5 +9,6 @@ parseFloat()
 
 ## eval
 
-
 ## [[window]] 对象
+ECMA-262没有规定直接访问Global对象的方式，但浏览器将window对象*实现*为**Global对象的代理**。
+	1. 所有全局作用域中声明的变量和函数都变成了window的属性
