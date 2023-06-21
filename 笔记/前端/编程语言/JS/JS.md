@@ -5,10 +5,8 @@
 
 ![[核心JS.svg]] 
 
-# 特性
-1. [[异步]]加载的[[解释型语言]]。
-	1. 异步加载是什么意思？在某个条件满足时加载?
-	2. 模块实现有不同的形态
+# 相关
+[JS](obsidian://open?vault=obsidianPrivateNote&file=%E7%AC%94%E8%AE%B0%2Fmindmap%2Fjs.xmind)
 # 语法
 # [[词法结构]] 
 # 数据
