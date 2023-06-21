@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/ES Module.md"
+                    "file": "笔记/前端/编程语言/JS/JS.md"
                   }
                 }
               }
@@ -1116,6 +1116,24 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "模块",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/模块.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":2},\"to\":{\"line\":24,\"ch\":2}},\"scroll\":8.148148148148149}"
+                        },
+                        {
+                          "title": "JS模块化",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":3},\"to\":{\"line\":34,\"ch\":3}},\"scroll\":18.037037037037038}"
+                        },
+                        {
+                          "title": "ES Module",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":0},\"to\":{\"line\":18,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
                           "title": "JS模块化",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1198,7 +1216,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/编程语言/JS/JS.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1292,7 +1310,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/编程语言/JS/JS.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1319,7 +1337,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/编程语言/JS/JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1649,19 +1667,19 @@
   },
   "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-131140-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/_gsdata_/2023-0621-131440-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0621-131340-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-131240-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-131140-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-131040-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-130940-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-130840-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-130739-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-130636-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-130536-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-130436-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-130336-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-130236-DESKTOP-YLL-Job1.log",
-    "笔记/前端/工程化/JS模块化.md",
-    "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/基本概念/模块模式.md",
     "笔记/前端/编程语言/JS/异步.md",
     "笔记/前端/编程语言/JS/JS.md",
