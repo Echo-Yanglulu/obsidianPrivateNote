@@ -54,7 +54,7 @@ parseFloat：暂时未看
 | null |  |  |  |
 | undefined |  |  |  |
 | 对象 | 调用valueOf方法，返回值按上述规则转换。如果转换得到NaN则重新调用toString，再按字符串规则 |  |  |
-# 属性方法
+# 属性方法/原始值的包装类型
 ## Number
 1. 常量
 	1. NaN
