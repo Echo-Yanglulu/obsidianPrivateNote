@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/window.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
                   }
                 }
               }
@@ -1347,7 +1347,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/window.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1374,7 +1374,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/window.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1701,21 +1701,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28a903226a50110e",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-200248-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-200616-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0621-200552-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/前端/编程语言/JS/window.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0621-200549-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-200446-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/History.md",
+    "笔记/_gsdata_/2023-0621-200410-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-200355-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-200352-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-200248-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-200224-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-200133-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-200045-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-200042-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-195939-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-195936-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-195833-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-195830-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
     "笔记/前端/工程化/规范/ESLint/globals.md",
@@ -1738,7 +1739,6 @@
     "Day Planners/2023-06-20.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/CSS/公有值.md",
-    "笔记/工具/文学/方法.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
