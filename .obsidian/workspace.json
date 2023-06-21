@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/node/package.json.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -872,148 +872,6 @@
                     }
                   },
                   {
-                    "id": "99c519eec5ec0ffb",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 1,
-                      "stack": [
-                        {
-                          "title": "2023-06-20",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        },
-                        {
-                          "title": "2023-06-17",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "2023-06-18",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-18.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":5},\"to\":{\"line\":4,\"ch\":5}}}"
-                        },
-                        {
-                          "title": "整体性学习",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/整体性学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":17},\"to\":{\"line\":48,\"ch\":17}},\"scroll\":39.8743}"
-                        },
-                        {
-                          "title": "记忆",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":5},\"to\":{\"line\":13,\"ch\":5}},\"scroll\":12.405092592592593}"
-                        },
-                        {
-                          "title": "学习",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":168,\"ch\":10},\"to\":{\"line\":168,\"ch\":10}},\"scroll\":147.33217592592592}"
-                        },
-                        {
-                          "title": "自己的观点",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/自己的观点.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":10},\"to\":{\"line\":2,\"ch\":10}}}"
-                        },
-                        {
-                          "title": "npm",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":62},\"to\":{\"line\":12,\"ch\":62}}}"
-                        },
-                        {
-                          "title": "版本规范",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/规范/版本规范.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":25},\"to\":{\"line\":12,\"ch\":25}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "package.json",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":3},\"to\":{\"line\":8,\"ch\":3}}}"
-                        },
-                        {
-                          "title": "node项目",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node项目.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":20},\"to\":{\"line\":3,\"ch\":20}}}"
-                        },
-                        {
-                          "title": "node",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":11},\"to\":{\"line\":20,\"ch\":11}}}"
-                        },
-                        {
-                          "title": "node项目",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/node项目.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":20},\"to\":{\"line\":3,\"ch\":20}}}"
-                        },
-                        {
-                          "title": "npm",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/npm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                        },
-                        {
-                          "title": "包管理器",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/包管理器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":9},\"to\":{\"line\":24,\"ch\":9}}}"
-                        },
-                        {
-                          "title": "package.json",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/node/package.json.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":9},\"to\":{\"line\":7,\"ch\":9}},\"scroll\":0}"
-                        },
-                        {
-                          "title": "前端工作",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":12},\"to\":{\"line\":124,\"ch\":12}},\"scroll\":110.55894736842106}"
-                        },
-                        {
-                          "title": "前端",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":133,\"ch\":0},\"to\":{\"line\":133,\"ch\":0}},\"scroll\":110.34421052631579}"
-                        },
-                        {
-                          "title": "工程化",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工程化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":4},\"to\":{\"line\":22,\"ch\":4}}}"
-                        },
-                        {
-                          "title": "前端",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":0},\"to\":{\"line\":132,\"ch\":0}},\"scroll\":0}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "Day Planners/daily/2023-06-18.md",
-                        "mode": "source",
-                        "backlinks": false,
-                        "source": false
-                      }
-                    }
-                  },
-                  {
                     "id": "63e6cb6f221a3591",
                     "type": "leaf",
                     "pane-relief:history-v1": {
@@ -1069,8 +927,14 @@
                     "id": "a25b7d2264118fac",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "2023-06-21",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1312,7 +1176,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 2
               },
               {
                 "id": "d60fafc685429517",
@@ -1398,7 +1262,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/node/package.json.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -1425,7 +1289,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/node/package.json.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1551,7 +1415,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1753,8 +1617,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "Day Planners/daily/2023-06-17.md",
+    "Day Planners/daily/2023-06-18.md",
+    "笔记/前端/工程化/node/package.json.md",
+    "Day Planners/2023-06-21.md",
     "笔记/_gsdata_/2023-0620-234532-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0620-234505-DESKTOP-YLL-Job1.log",
@@ -1765,7 +1633,6 @@
     "笔记/_gsdata_/2023-0620-233959-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-233859-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0620-233759-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0620-233659-DESKTOP-YLL-Job1.log",
     "笔记/前端/工程化/package-lock.json.md",
     "笔记/前端/工程化/规范/版本规范.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
@@ -1775,9 +1642,7 @@
     "Day Planners/2023-06-20.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/行为/健身/部位/腿部.md",
-    "Day Planners/daily/2023-06-18.md",
     "笔记/行为/健身/健身.md",
-    "Day Planners/daily/2023-06-17.md",
     "Day Planners/2023-06-19.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/内心.md",
@@ -1790,7 +1655,6 @@
     "笔记/学习/概念/概念.md",
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/了解.md",
-    "笔记/工具/通用概念/照顾.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
