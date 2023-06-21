@@ -20,9 +20,10 @@
 		4. Math.fround()：数值最接近的单精度（32位）浮点值表示【ES使用双精度浮点值表示整数和浮点数】
 3. 随机：Math.random()[^1] 
 	1. 一组整数中随机选择一个
-		1. number = Math.floor(Math.random() * total_number_of_choices + first_possible_value)
-		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2]
-		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);
+		1. number = Math.floor(Math.random() * **total_number_of_choices** + **first_possible_value**)
+		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2] 
+		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);[^3] 
 
 [^1]: 0~1范围内的随机数，其中包含0但不包含1
 [^2]: 如果不+1，是0-9
+[^3]: 可选总数（total_number_of_choices）是9，最小可能的值（first_possible_value）是2
