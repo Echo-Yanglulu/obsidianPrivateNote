@@ -24,28 +24,28 @@
 		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2] 
 		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);[^3] 
 4. 其他[^4] 
-	1. Math.abs(x)	返回x的绝对值
+	1. Math.abs(x)	返回x的**绝对值**
 	2. Math.exp(x)	返回Math.E的x次幂
 	3. Math.expm1(x)	等于Math.exp(x) - 1
-	4. Math.log(x)	返回x的自然对数
+	4. Math.log(x)	返回x的**自然对数**
 	5. Math.log1p(x)	等于1 + Math.log(x)
-	6. Math.pow(x, power)	返回x的power次幂
-	7. Math.hypot(...nums)	返回nums中每个数平方和的平方根
-	8. Math.clz32(x)	返回32位整数x的前置零的数量
-	9. Math.sign(x)	返回表示x符号的1、0、-0或-1
-	10. Math.trunc(x)	返回x的<u>整数部分</u>，删除所有小数
-	11. Math.sqrt(x)	返回x的<u>平方根</u>
-	12. Math.cbrt(x)	返回x的立方根
-	13. Math.acos(x)	返回x的反余弦
-	14. Math.acosh(x)	返回x的反双曲余弦
-	15. Math.asin(x)	返回x的反正弦
-	16. Math.asinh(x)	返回x的反双曲正弦
-	17. Math.atan(x)	返回x的反正切
-	18. Math.atanh(x)	返回x的反双曲正切
-	19. Math.atan2(y, x)	返回y/x的反正切
-	20. Math.cos(x)	返回x的余弦
-	21. Math.sin(x)	返回x的正弦
-	22. Math.tan(x)	返回x的正切
+	6. Math.pow(x, power)	返回**x的power次幂**
+	7. Math.hypot(...nums)	返回nums中**每个数平方和的平方根**
+	8. Math.clz32(x)	返回32位整数x的**前置零**的数量
+	9. Math.sign(x)	返回表示x**符号**的1、0、-0或-1
+	10. Math.trunc(x)	返回x的**整数部分**，删除所有小数
+	11. Math.sqrt(x)	返回x的**平方根**
+	12. Math.cbrt(x)	返回x的**立方根**
+	13. Math.acos(x)	返回x的**反余弦**
+	14. Math.acosh(x)	返回x的**反双曲余弦**
+	15. Math.asin(x)	返回x的**反正弦**
+	16. Math.asinh(x)	返回x的**反双曲正弦**
+	17. Math.atan(x)	返回x的**反正切**
+	18. Math.atanh(x)	返回x的**反双曲正切**
+	19. Math.atan2(y, x)	返回y/x的**反正切**
+	20. Math.cos(x)	返回x的**余弦**
+	21. Math.sin(x)	返回x的**正弦**
+	22. Math.tan(x)	返回x的**正切**
 # 应用
 ```js
 function selectFrom(lowerValue, upperValue) {

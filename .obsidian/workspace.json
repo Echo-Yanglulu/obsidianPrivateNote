@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -1114,6 +1114,18 @@
                       "title": "单例内置对象",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":15},\"to\":{\"line\":5,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "Math",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Math.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":38},\"to\":{\"line\":35,\"ch\":38}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
                     },
                     {
@@ -1253,7 +1265,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1287,7 +1299,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1314,7 +1326,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1643,20 +1655,20 @@
   },
   "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-223530-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-223730-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Math.md",
+    "笔记/_gsdata_/2023-0621-223706-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-223639-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-223636-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-223633-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-223530-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-223527-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-223424-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-223345-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-223254-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-223154-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-223054-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-222954-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-222854-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/编程语言/JS/基本概念/Math.md",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
