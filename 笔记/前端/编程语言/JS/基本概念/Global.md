@@ -5,10 +5,14 @@ isNaN()
 isFinite()
 parseInt()
 parseFloat()
-## [[URL]]编码方法
+## [[URL]]编码
 encodeURI()和encodeURIComponent()方法用于编码统一资源标识符（URI），以便传给浏览器。
-	1. 有效的URI不能包含某些字符，比如空格
-	2. 使用URI编码方法来编码URI可以让浏览器能够理解它们，同时又以特殊的UTF-8编码替换掉所有无效字符
+目的：使用URI编码方法来*编码*URI可以让*浏览器能够理解*它们，同时又以特殊的UTF-8编码*替换*掉所有无效字符
+	1. 有效的URI：不能包含某些字符，比如空格
+### ecnodeURI()
+对整个URI进行编码
+### encodeURIComponent()
+对编码URI中单独的组件
 ## eval()
 最后一个方法，也是整个ECMAScript语言中最强大的方法
 本质：一个完整的ECMAScript解释器，它接收一个参数，一个要执行的ECMAScript（JavaScript）字符串。
