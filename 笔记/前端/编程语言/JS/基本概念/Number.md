@@ -17,8 +17,7 @@
 十进制
 [[八进制]]： 0o
 十六进制：0x
-
-八进制与十六进制格式在<u>数学操作</u>中被视为十进制
+	八进制与十六进制格式在<u>数学操作</u>中被视为十进制
 由于JS*保存*数值的方式，实际可能存在+0与-0。（什么方式？）
 # 可表示范围
 由于内存限制，不保存所有数值。
@@ -28,13 +27,14 @@ ES可表示的最大数值：Number.MAX_VALUE。多数浏览器中是1.979693134
 是否超出范围？通过<u>isFinite()</u>判断
 	如果超出：自动*转换*为一个`Infinity`（不能用于计算）
 
-分子非0，分母为0或正负0，返回Infinity或-Infinity
+分子非0，分母为0或正负0：返回Infinity或-Infinity
 # 表示
 ## 普通字符串
 ''，""
 ## [[模板字符串]] 
 \`\`
-# NaN
+# [[特殊值]] 
+## NaN
 NaN：本来要返回数值的==操作失败==，而不是抛出错误。
 	1.  0, -0, +0相除
 	2. 涉及NaN的操作（使用操作符？）始终返回NaN
@@ -56,7 +56,6 @@ parseFloat：暂时未看
 | null |  |  |  |
 | undefined |  |  |  |
 | 对象 | 调用valueOf方法，返回值按上述规则转换。如果转换得到NaN则重新调用toString，再按字符串规则 |  |  |
-
 # 属性方法
 ## Number
 1. 常量
@@ -64,20 +63,18 @@ parseFloat：暂时未看
 	2. MAX_SAFE_INTEGER 2\*\*53-1(可表示的最大数值)
 	3. MAX_VALUE
 	4. Infinity
-2. 检测
+2. 特定值检测
 	1. isNaN()
 	2. isSafeInteger()
 	3. isInteger()
-	4. isFinite()
-3. 转换
+	4. isFinite()：在可表示范围内
+3. 类型转换
 	1. parseInt()
 	2. parseFloat()
-4. 精度
+4. 精度转换
 	1. toFixed()
 	2. toPrecision()
 	3. toExponential()
-
-
 ## Math
 trunc()：取整数部分
 floor
