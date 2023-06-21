@@ -5,3 +5,10 @@ isNaN()
 isFinite()
 parseInt()
 parseFloat()
+## [[URL]]编码方法
+
+## eval
+
+## 属性
+
+## [[window]] 
