@@ -8,7 +8,7 @@
 	7. Math.SQRT1_2：1/2的平方根
 	8. Math.SQRT2：2的平方根
 
-执行数学计算的方法
+数学计算的方法
 1. 最值
 	1. min()和max()方法用于确定一组数值中的最小值和最大值。任意多个参数
 	2. 可以避免使用额外的循环和if语句来确定一组数值的最大最小值。
@@ -18,5 +18,11 @@
 		2. Math.floor()
 		3. Math.round()
 		4. Math.fround()：数值最接近的单精度（32位）浮点值表示【ES使用双精度浮点值表示整数和浮点数】
-3. 随机：Math.random()
-	1. 0~1范围内的随机数，其中包含0但不包含1
+3. 随机：Math.random()[^1] 
+	1. 一组整数中随机选择一个
+		1. number = Math.floor(Math.random() * total_number_of_choices + first_possible_value)
+		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2]
+		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);
+
+[^1]: 0~1范围内的随机数，其中包含0但不包含1
+[^2]: 如果不+1，是0-9
