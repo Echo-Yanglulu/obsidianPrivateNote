@@ -34,6 +34,8 @@ function selectFrom(lowerValue, upperValue) {
 let num = selectFrom(2,10);
 console.log(num);  // 2~10范围内的值，其中包含2和10
 ```
+如果是为了加密而需要生成随机数（传给生成器的输入需要较高的不确定性），那么建议使用[[window]].crypto.getRandomValues()
+
 
 [^1]: 0~1范围内的随机数，其中包含0但不包含1
 [^2]: 如果不+1，是0-9
