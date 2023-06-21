@@ -1,3 +1,10 @@
+# 概述
+
+## 组成
+1. 特殊值
+2. 原生引用类型的构造函数
+3. [[d]]
+# 属性
 innerHeight: 见面文档显示区
 与document.documentElement.clientHeight[^1]有什么区别？
 
