@@ -1,1 +1,0 @@
-[API - Mozilla | MDN](https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions/API?spm=a21iq3.home.0.0.54b42764PcwehE) 
