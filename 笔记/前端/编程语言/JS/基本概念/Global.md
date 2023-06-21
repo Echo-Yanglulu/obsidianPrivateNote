@@ -16,6 +16,9 @@ encodeURI()和encodeURIComponent()方法用于编码统一资源标识符（URI�
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURI(uri));  // "http://www.wrox.com/illegal%20value.js#start"
 // 空格被替换为%20
+
+let uri = "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.js%23start";
+decodeURI(uri)   // http%3A%2F%2Fwww.wrox.com%2Fillegal value.js%23start
 ```
 ### encodeURIComponent()
 对编码URI中单独的组件
@@ -24,6 +27,8 @@ console.log(encodeURI(uri));  // "http://www.wrox.com/illegal%20value.js#start"
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURIComponent(uri));   // "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.js%23start"
 // 所有非字母字符都替换成了相应的编码形式。
+let uri = "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.js%23start";
+decodeURIComponent(uri)  
 ```
 ## eval()
 最后一个方法，也是整个ECMAScript语言中最强大的方法
