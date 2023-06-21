@@ -11,8 +11,20 @@ encodeURI()和encodeURIComponent()方法用于编码统一资源标识符（URI�
 	1. 有效的URI：不能包含某些字符，比如空格
 ### ecnodeURI()
 对整个URI进行编码
+	1. 不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
+```js
+let uri = "http://www.wrox.com/illegal value.js#start";
+console.log(encodeURI(uri));  // "http://www.wrox.com/illegal%20value.js#start"
+// 空格被替换为%20
+```
 ### encodeURIComponent()
 对编码URI中单独的组件
+	1. 会编码它发现的所有非标准字符
+```js
+let uri = "http://www.wrox.com/illegal value.js#start";
+console.log(encodeURIComponent(uri));   // "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.js%23start"
+// 所有非字母字符都替换成了相应的编码形式。
+```
 ## eval()
 最后一个方法，也是整个ECMAScript语言中最强大的方法
 本质：一个完整的ECMAScript解释器，它接收一个参数，一个要执行的ECMAScript（JavaScript）字符串。
