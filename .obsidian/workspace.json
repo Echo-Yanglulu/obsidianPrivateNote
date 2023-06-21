@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
                   }
                 }
               }
@@ -1111,6 +1111,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Global",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":35},\"to\":{\"line\":34,\"ch\":35}},\"scroll\":0}"
+                    },
+                    {
                       "title": "单例内置对象",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1241,7 +1247,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1275,7 +1281,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1302,7 +1308,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1631,20 +1637,20 @@
   },
   "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-205652-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-205952-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0621-205852-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-205752-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-205652-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-205552-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-205449-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-205349-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-205249-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-205149-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-205049-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-204949-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-204849-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/语句.md",
     "笔记/前端/工程化/History.md",
