@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md"
+                    "file": "笔记/工具/思考/幻象.md"
                   }
                 }
               }
@@ -41,7 +41,7 @@
               {
                 "id": "e67a4c566e0eea1a",
                 "type": "tabs",
-                "dimension": 74.15730337078652,
+                "dimension": 48.164794007490634,
                 "children": [
                   {
                     "id": "8d08a01a6be7967f",
@@ -1236,12 +1236,12 @@
                     }
                   }
                 ],
-                "currentTab": 6
+                "currentTab": 3
               },
               {
                 "id": "d60fafc685429517",
                 "type": "tabs",
-                "dimension": 25.84269662921348,
+                "dimension": 51.83520599250936,
                 "children": [
                   {
                     "id": "814fcc2cd13e3b36",
@@ -1280,20 +1280,27 @@
                         {
                           "state": "{}",
                           "eState": "{}"
+                        },
+                        {
+                          "title": "2023-06-20",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                         }
                       ]
                     },
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Day Planners/2023-06-20.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
                       }
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -1322,7 +1329,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1349,7 +1356,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1676,25 +1683,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9fa066dac412e20",
+  "active": "012d5b6779799051",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-151421-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-151721-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "Day Planners/2023-06-20.md",
+    "笔记/_gsdata_/2023-0621-151621-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/_gsdata_/2023-0621-151521-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-151421-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-151321-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-151221-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-151121-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-151021-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-150921-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-150821-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-150721-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-150621-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-150521-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/String.md",
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/CSS/公有值.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/工具/文学/方法.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/JS API.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/错误处理.md",
@@ -1712,8 +1721,6 @@
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/编程语言/TS/TS.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/JS事件.md",
-    "笔记/工具/通用概念/事件.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
