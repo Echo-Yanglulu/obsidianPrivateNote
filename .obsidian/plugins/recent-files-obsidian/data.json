@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "模块模式",
-      "path": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
+      "basename": "JS模块化",
+      "path": "笔记/前端/工程化/JS模块化.md"
     },
     {
       "basename": "模块",
       "path": "笔记/前端/编程语言/JS/基本概念/模块.md"
+    },
+    {
+      "basename": "模块模式",
+      "path": "笔记/前端/编程语言/JS/基本概念/模块模式.md"
     },
     {
       "basename": "异步",
@@ -191,14 +199,6 @@
     {
       "basename": "版本控制",
       "path": "笔记/前端/版本控制/版本控制.md"
-    },
-    {
-      "basename": "图表",
-      "path": "笔记/学习/概念/图表.md"
-    },
-    {
-      "basename": "前端",
-      "path": "笔记/前端/前端.md"
     }
   ],
   "omittedPaths": [
