@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
                   }
                 }
               }
@@ -1116,6 +1116,12 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "单例内置对象",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}},\"scroll\":0}"
+                        },
+                        {
                           "title": "数据类型",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1240,7 +1246,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -1341,7 +1347,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1368,7 +1374,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1697,20 +1703,23 @@
   },
   "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-194733-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/_gsdata_/2023-0621-195115-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/基本概念/Math.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0621-195039-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-195036-DESKTOP-YLL-Job1.log",
+    "笔记/前端/工程化/规范/ESLint/globals.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/_gsdata_/2023-0621-194933-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-194836-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-194733-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-194633-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-194533-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-194433-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-194333-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-194230-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-194206-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-194124-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0621-194121-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/Date.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
@@ -1729,10 +1738,6 @@
     "笔记/前端/编程语言/CSS/公有值.md",
     "笔记/工具/文学/方法.md",
     "笔记/前端/编程语言/JS/JS API.md",
-    "笔记/前端/编程语言/JS/浏览器规范.md",
-    "笔记/前端/编程语言/JS/错误处理.md",
-    "笔记/前端/编程语言/JS/表单脚本.md",
-    "笔记/前端/编程语言/JS/浏览器调试.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
