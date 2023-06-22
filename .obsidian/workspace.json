@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
+                    "file": "Day Planners/2023-06-22.md"
                   }
                 }
               }
@@ -1111,6 +1111,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Math",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Math.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "window",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1301,7 +1307,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                    "file": "Day Planners/2023-06-22.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1335,7 +1341,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                        "file": "Day Planners/2023-06-22.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1362,7 +1368,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                        "file": "Day Planners/2023-06-22.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1689,8 +1695,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bd5ff300df2b3029",
+  "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
+    "Day Planners/2023-06-22.md",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/前端/编程语言/JS/window.md",
@@ -1707,7 +1715,6 @@
     "笔记/_gsdata_/2023-0621-233808-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233707-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233604-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-233504-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
     "笔记/前端/编程语言/JS/语句.md",
@@ -1721,7 +1728,6 @@
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/沟通/沟通.md",
-    "笔记/学习/学习.md",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/内心/束缚.md",
     "笔记/内心/心智.md",
