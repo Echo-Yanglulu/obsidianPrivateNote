@@ -404,5 +404,16 @@
       ],
       "key": "C"
     }
+  ],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "simple-note-review:start-review": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }
