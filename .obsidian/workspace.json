@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "Day Planners/2023-06-22.md"
                   }
                 }
               }
@@ -929,6 +929,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "react组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1053,7 +1059,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "file": "Day Planners/2023-06-22.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1371,7 +1377,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "Day Planners/2023-06-22.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1398,7 +1404,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "Day Planners/2023-06-22.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1523,7 +1529,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1738,10 +1745,10 @@
       "workspaces:管理工作区布局": false,
       "cmdr:上下分屏": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "simple-note-review:Simple Note Review: Open Sidebar View": false,
-      "simple-note-review:Simple Note Review: Start Reviewing": false
+      "simple-note-review:Simple Note Review: Start Reviewing": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "a25b7d2264118fac",
