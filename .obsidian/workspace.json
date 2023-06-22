@@ -1111,6 +1111,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "window",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":0},\"to\":{\"line\":29,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Global",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":33},\"to\":{\"line\":46,\"ch\":33}},\"scroll\":15.872685185185185}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":13},\"to\":{\"line\":7,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "Math",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Math.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":35},\"to\":{\"line\":29,\"ch\":35}},\"scroll\":0}"
+                    },
+                    {
                       "title": "单例内置对象",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1464,7 +1488,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1665,24 +1689,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1059ac7f5554b1c1",
+  "active": "bd5ff300df2b3029",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0621-233853-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/_gsdata_/2023-0621-233808-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/window.md",
+    "笔记/_gsdata_/2023-0621-234241-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0621-234214-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Math.md",
+    "Day Planners/2023-06-21.md",
+    "笔记/_gsdata_/2023-0621-234120-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0621-233853-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/_gsdata_/2023-0621-233808-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233707-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233604-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233504-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-233404-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-233304-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-233204-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0621-233104-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/基本概念/Math.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-18.md",
     "笔记/前端/编程语言/JS/语句.md",
@@ -1702,7 +1727,6 @@
     "笔记/内心/心智.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/欲望.md",
-    "Day Planners/2023-06-20.md",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
     "笔记/前端/assets/Pasted image 20230615223647.png",
