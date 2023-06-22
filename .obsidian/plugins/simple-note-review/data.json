@@ -1,8 +1,38 @@
 {
   "reviewedFieldName": "reviewed",
   "reviewFrequencyFieldName": "review-frequency",
-  "noteSets": [],
-  "currentNoteSet": null,
+  "noteSets": [
+    {
+      "id": 1,
+      "displayName": "前端",
+      "description": "matches notes that:  are inside any of these folders (including nested folders): 前端",
+      "stats": {
+        "totalCount": 1170,
+        "notRewiewedCount": 1170,
+        "reviewedLastSevenDaysCount": 0,
+        "reviewedLastThirtyDaysCount": 0
+      },
+      "name": "前端",
+      "folders": [
+        "前端"
+      ]
+    }
+  ],
+  "currentNoteSet": {
+    "id": 1,
+    "displayName": "前端",
+    "description": "matches notes that:  are inside any of these folders (including nested folders): 前端",
+    "stats": {
+      "totalCount": 1170,
+      "notRewiewedCount": 1170,
+      "reviewedLastSevenDaysCount": 0,
+      "reviewedLastThirtyDaysCount": 0
+    },
+    "name": "前端",
+    "folders": [
+      "前端"
+    ]
+  },
   "openNextNoteAfterReviewing": true,
   "openRandomNote": false,
   "useReviewFrequency": true,

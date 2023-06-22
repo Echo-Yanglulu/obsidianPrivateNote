@@ -925,14 +925,38 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-06-22",
+                      "title": "shiprock.jpg",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assets/img/shiprock.jpg.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "shiprock.jpg",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assets/img/shiprock.jpg.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "shiprock.jpg",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"assets/img/shiprock.jpg.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":38},\"to\":{\"line\":9,\"ch\":38}},\"scroll\":0}"
                     },
                     {
                       "title": "react组件",
@@ -1529,8 +1553,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "178d954c018b7c28",
@@ -1655,7 +1678,7 @@
             }
           },
           {
-            "id": "493182c7a3ddf6a3",
+            "id": "c9c2f4b719c40e07",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -1753,9 +1776,11 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "assets/img/shiprock.jpg.md",
+    "assets/img/shiprock.jpg",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "Day Planners/2023-06-22.md",
     "笔记/前端/工程化/SSR.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/工程化/node/package.json.md",
@@ -1782,10 +1807,8 @@
     "笔记/_gsdata_/lock.gsl",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/_gsdata_/2023-0621-234241-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/_gsdata_/2023-0621-234214-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
-    "Day Planners/2023-06-21.md",
     "笔记/_gsdata_/2023-0621-234120-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233853-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0621-233808-DESKTOP-YLL-Job1.log",
@@ -1799,7 +1822,6 @@
     "笔记/前端/assets/Pasted image 20230615203014.png",
     "笔记/前端/工程化/CI到部署的过程.svg",
     "未命名.canvas",
-    "笔记/前端/assets/Pasted image 20230611145956.png",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
   ]
