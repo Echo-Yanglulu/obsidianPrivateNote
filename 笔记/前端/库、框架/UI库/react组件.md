@@ -7,6 +7,8 @@
 	2. React.createElement()
 # 原理
 ## 组件批处理
+# 属性
+透传props：<div {...props} ><\/div>
 # 样式
 由于react中[[JSX]]的写法，给组件添加样式的方法有很多
 	1. 行内
