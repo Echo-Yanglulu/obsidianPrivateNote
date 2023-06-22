@@ -406,7 +406,27 @@
     }
   ],
   "obsidian-excalidraw-plugin:toggle-lock": [],
-  "simple-note-review:start-review": [
+  "simple-note-review:set-review-frequency-high": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "simple-note-review:set-review-frequency-normal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "simple-note-review:open-toolbar": [
     {
       "modifiers": [
         "Alt",
