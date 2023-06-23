@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/压缩.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -45,9 +45,9 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-06-20",
+                      "title": "2023-06-23",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-20.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
@@ -1400,7 +1400,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/压缩.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1427,7 +1427,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/压缩.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1552,7 +1552,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "178d954c018b7c28",
@@ -1754,8 +1755,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "520191869beceef7",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "Day Planners/2023-06-23.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/比喻.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -1784,7 +1786,6 @@
     "笔记/前端/基础知识/计算机网络/网络层.md",
     "笔记/前端/基础知识/计算机网络/传输层.md",
     "笔记/前端/基础知识/计算机网络/应用层.md",
-    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0621-234241-DESKTOP-YLL-Job1.log",
