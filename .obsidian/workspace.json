@@ -1676,9 +1676,26 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "771cf8c4f7d45df0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1755,7 +1772,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "771cf8c4f7d45df0",
   "lastOpenFiles": [
     "Day Planners/2023-06-24.md",
     "笔记/学习/学习.md",
