@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1094,17 +1094,17 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "JS引擎",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS引擎.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "变量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":17.94487320837927}"
                     },
                     {
                       "title": "浏览器",
@@ -1153,7 +1153,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                    "file": "笔记/前端/编程语言/JS/浏览器.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1374,7 +1374,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1400,7 +1401,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1427,7 +1428,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1772,10 +1773,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "771cf8c4f7d45df0",
+  "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "Day Planners/2023-06-24.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
+    "Day Planners/2023-06-24.md",
     "Day Planners/2023-06-23.md",
     "笔记/学习/概念/比喻.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -1783,7 +1787,6 @@
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/记忆宫殿.md",
     "笔记/学习/概念/费曼技巧.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "assets/img/shiprock.jpg.md",
     "assets/img/shiprock.jpg",
     "Day Planners/2023-06-22.md",
@@ -1801,8 +1804,6 @@
     "笔记/前端/基础知识/计算机网络/TCP/IP协议群.md",
     "笔记/前端/基础知识/计算机网络/TCP",
     "笔记/前端/基础知识/计算机网络/链路层.md",
-    "笔记/前端/基础知识/计算机网络/网络层.md",
-    "笔记/前端/基础知识/计算机网络/传输层.md",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0621-234241-DESKTOP-YLL-Job1.log",
