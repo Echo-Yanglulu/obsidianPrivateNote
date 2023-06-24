@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/库、框架/UI库/context.md"
                   }
                 }
               }
@@ -922,17 +922,23 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-24",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":32},\"to\":{\"line\":10,\"ch\":32}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":383,\"ch\":28},\"to\":{\"line\":383,\"ch\":28}},\"scroll\":365.0462962962963}"
                     },
                     {
                       "title": "shiprock.jpg",
@@ -1407,7 +1413,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1434,7 +1440,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/库、框架/UI库/context.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1762,8 +1768,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "b311ced162252648",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/context.md",
     "Day Planners/2023-06-24.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/浏览器.md",
@@ -1772,7 +1781,6 @@
     "笔记/学习/学习.md",
     "Day Planners/2023-06-23.md",
     "笔记/学习/概念/比喻.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/记忆宫殿.md",
@@ -1781,7 +1789,6 @@
     "assets/img/shiprock.jpg",
     "Day Planners/2023-06-22.md",
     "笔记/前端/工程化/SSR.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/编程语言/JS/JS引擎.md",
@@ -1792,7 +1799,6 @@
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/基础知识/计算机网络/TCP/IP协议群.md",
     "笔记/前端/基础知识/计算机网络/TCP",
-    "笔记/前端/基础知识/计算机网络/链路层.md",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0621-234241-DESKTOP-YLL-Job1.log",
