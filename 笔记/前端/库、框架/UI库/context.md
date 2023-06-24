@@ -18,7 +18,7 @@ context的传递：在渲染过程中执行
 	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
 获取
-	1. 某个context在多层父级中被使用时，从*最近父级*获取
+	1. 多次嵌套使用某个context，覆盖：从*最近父级*获取
 	2. 如果没有找到provider，则使用*默认值* 
 # 使用
 1. 定义
