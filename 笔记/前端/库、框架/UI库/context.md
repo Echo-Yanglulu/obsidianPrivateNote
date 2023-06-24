@@ -17,6 +17,8 @@
 context的传递：在渲染过程中执行
 	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
+获取
+	1. 多个使用者从最近的父级获取
 # 使用
 1. 定义
 	1. 在需要共享数据的最小公约数父组件
@@ -42,8 +44,10 @@ context的传递：在渲染过程中执行
 ### 主题
 ## 技术
 ### 子组件多次复用，需要同时接收某个值
-一个Tab切换组件中的所有Button组件
-如果多次嵌套的
+场景：一个Tab切换组件中的所有Button组件
+优化
+	1. 如果Provider多次嵌套[^2]且value存在依赖关系，在传递value属性时可直接添加，这样每次向下传递都会根据依赖关系计算一次：`<LevelContext.Provider value={level + 1}>` 
 # 注意
 
 [^1]: 子组件无法获取最新的context
+[^2]: 使用该provider的组件多次嵌套
