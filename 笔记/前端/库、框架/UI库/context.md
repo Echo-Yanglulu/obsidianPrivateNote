@@ -21,10 +21,15 @@ context的传递：在渲染过程中执行
 1. 定义
 	1. 在需要共享数据的最小公约数父组件
 	2. 在一个单独的context.js文件中定义
-子组件中
+		1. `import { createContext } from 'react';` 
+		2. `export const LevelContext = createContext(1);` 
+2. 使用组件
 	1. class组件
 	2. 函数组件
-		1. 要添加contextTypes属性
+		1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
+		2. 引入使用api：`import { useContext } from 'react';` 
+		3. 组件内使用：`const level = useContext(LevelContext);` 
+		4. 要添加contextTypes属性
 
 # 注意
 
