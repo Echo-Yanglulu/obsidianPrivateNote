@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "Day Planners/2023-06-24.md"
                   }
                 }
               }
@@ -1101,6 +1101,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "变量",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1153,7 +1159,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md",
+                    "file": "Day Planners/2023-06-24.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1401,7 +1407,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "Day Planners/2023-06-24.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1428,7 +1434,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "Day Planners/2023-06-24.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
