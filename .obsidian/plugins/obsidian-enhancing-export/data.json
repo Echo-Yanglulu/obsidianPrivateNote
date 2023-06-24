@@ -43,13 +43,56 @@
     },
     {
       "name": "OPML"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "Bibliography"
     }
   ],
   "defaultExportDirectoryMode": "Custom",
-  "openExportedFile": true,
+  "openExportedFile": false,
+  "env": {
+    "darwin": {
+      "PATH": "/usr/local/bin:/Library/TeX/texbin:${PATH}",
+      "HOME": "${HOME}"
+    },
+    "aix": {
+      "HOME": "${HOME}"
+    },
+    "android": {
+      "HOME": "${HOME}"
+    },
+    "freebsd": {
+      "HOME": "${HOME}"
+    },
+    "haiku": {
+      "HOME": "${HOME}"
+    },
+    "linux": {
+      "HOME": "${HOME}"
+    },
+    "openbsd": {
+      "HOME": "${HOME}"
+    },
+    "sunos": {
+      "HOME": "${HOME}"
+    },
+    "win32": {
+      "HOME": "${HOME}"
+    },
+    "cygwin": {
+      "HOME": "${HOME}"
+    },
+    "netbsd": {
+      "HOME": "${HOME}"
+    }
+  },
   "version": "1.1.8",
   "lastEditName": "Html",
   "customDefaultExportDirectory": {
     "win32": "C:\\Users\\11510\\Desktop"
-  }
+  },
+  "openExportedFileLocation": true
 }
