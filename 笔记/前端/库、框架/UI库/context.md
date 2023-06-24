@@ -18,7 +18,9 @@ context的传递：在渲染过程中执行
 	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
 # 使用
-在需要共享数据的最小公约数父组件定义
+1. 定义
+	1. 在需要共享数据的最小公约数父组件
+	2. 在一个单独的context.js文件中定义
 子组件中
 	1. class组件
 	2. 函数组件
