@@ -35,19 +35,20 @@ context的传递：在渲染过程中执行
 				1. 不需解构，取出的就是值
 		2. 提供
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
-			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>`
-		3. 要添加contextTypes属性
+			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
 # 应用：适应周围环境的组件
 ## 业务
-在封装组件内使用context提供的值，修改主题
-多次复用时，都可收到该值
 ### 主题
-在需要根据主题调整外观的组件中 
+在需要根据主题调整外观的组件中使用context
 ### 路由
+大多数路由解决方案在其内部使用 context 来保存当前路由。这就是每个链接“知道”它是否处于活动状态的方式。如果你创建自己的路由库，你可能也会这么做。
 ### 用户信息
+许多组件可能需要知道当前登录的用户信息。
+
+某些应用还允许你同时操作多个账户（例如，以不同用户的身份发表评论）。在这些情况下，将 UI 的一部分包裹到具有不同账户数据的 provider 中会很方便。
 ### 状态管理
 ## 技术
-### 子组件多次复用，需要同时接收某个值
+### 子组件多次复用，需要同时接收某个值【\】
 场景：一个Tab切换组件中的所有Button组件
 优化
 	1. 如果Provider多次嵌套[^2]且==value存在依赖关系==，在传递value属性时可直接添加，这样每次向下传递都会根据依赖关系计算一次：`<LevelContext.Provider value={level + 1}>` 
