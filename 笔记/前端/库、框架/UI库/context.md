@@ -31,9 +31,13 @@ context的传递：在渲染过程中执行
 		3. 组件内使用：`const level = useContext(LevelContext);` 
 		4. 要添加contextTypes属性
 # 应用
-## 主题
+## 业务
 在封装组件内使用context提供的值，修改主题
-## 子组件多次复用时
+多次复用时，都可收到该值
+### 主题
+## 技术
+### 子组件多次复用，需要同时接收某个值
+一个tab切换中的所有button
 # 注意
 
 [^1]: 子组件无法获取最新的context
