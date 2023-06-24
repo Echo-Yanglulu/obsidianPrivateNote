@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-24.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1094,17 +1094,17 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-24",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "浏览器",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "变量",
@@ -1159,7 +1159,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-24.md",
+                    "file": "笔记/前端/编程语言/JS/浏览器.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1407,7 +1407,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-24.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1434,7 +1434,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-24.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1764,11 +1764,11 @@
   },
   "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
+    "Day Planners/2023-06-24.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
-    "Day Planners/2023-06-24.md",
     "Day Planners/2023-06-23.md",
     "笔记/学习/概念/比喻.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
