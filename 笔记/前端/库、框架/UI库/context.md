@@ -18,7 +18,7 @@ context的传递：在渲染过程中执行
 	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
 获取
-	1. 多个使用者从最近的父级获取
+	1. 某个context在多层父级中被使用时，从最近父级获取
 # 使用
 1. 定义
 	1. 在需要共享数据的最小公约数父组件
@@ -37,16 +37,20 @@ context的传递：在渲染过程中执行
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>`
 		3. 要添加contextTypes属性
-# 应用
+# 应用：适应周围环境的组件
 ## 业务
 在封装组件内使用context提供的值，修改主题
 多次复用时，都可收到该值
 ### 主题
+在需要根据主题调整外观的组件中 
+### 路由
+### 用户信息
+### 状态管理
 ## 技术
 ### 子组件多次复用，需要同时接收某个值
 场景：一个Tab切换组件中的所有Button组件
 优化
-	1. 如果Provider多次嵌套[^2]且value存在依赖关系，在传递value属性时可直接添加，这样每次向下传递都会根据依赖关系计算一次：`<LevelContext.Provider value={level + 1}>` 
+	1. 如果Provider多次嵌套[^2]且==value存在依赖关系==，在传递value属性时可直接添加，这样每次向下传递都会根据依赖关系计算一次：`<LevelContext.Provider value={level + 1}>` 
 # 注意
 
 [^1]: 子组件无法获取最新的context
