@@ -29,7 +29,11 @@ context的传递：在渲染过程中执行
 		1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 		2. 引入使用api：`import { useContext } from 'react';` 
 		3. 组件内使用：`const level = useContext(LevelContext);` 
-		4. 要添加contextTypes属性
+			1. 不需要解构，取出的就是值
+		4. 提供
+			1. `import { LevelContext } from './LevelContext.js';` 
+			2. `<LevelContext.Provider value={level}>{children}</LevelContext.Provider>`
+		5. 要添加contextTypes属性
 # 应用
 ## 业务
 在封装组件内使用context提供的值，修改主题
@@ -37,7 +41,7 @@ context的传递：在渲染过程中执行
 ### 主题
 ## 技术
 ### 子组件多次复用，需要同时接收某个值
-一个tab切换中的所有button
+一个Tab切换组件中的所有Button组件
 # 注意
 
 [^1]: 子组件无法获取最新的context
