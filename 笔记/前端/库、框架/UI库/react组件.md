@@ -45,6 +45,9 @@ props与context
 	1. 包裹函数组件后，组件被调用时会同时传入两个参数
 	2. ref转发【DOM节点】给或[[函数组件#useImperativeHandle|useImperativeHandle]] 【DOM节点的**部分**数据】
 		1. 获得深层元素，需要多次通过forwardRef下传。
+应用：子元素
+	1. 滚动到节点、将焦点放在节点上、触发动画
+	2. 使用子元素的部分数据
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
 | --- | --- | --- | --- | --- |
