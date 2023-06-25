@@ -26,7 +26,7 @@
 	2. props【传递数据的通道】
 	3. [[context]] 【传递数据的通道】
 2. 不会更新组件
-	1. ref【索引】
+	1. ref【引用子元素】
 ## 比较
 props与context
 	1. 相同
@@ -46,7 +46,7 @@ props与context
 	2. ref转发【DOM节点】给或[[函数组件#useImperativeHandle|useImperativeHandle]] 【DOM节点的**部分**数据】
 		1. 获得深层元素，需要多次通过forwardRef下传。
 应用：子元素
-	1. 滚动到节点、将焦点放在节点上、触发动画
+	1. 整个子元素：滚动到节点、将焦点放在节点上、触发动画
 	2. 使用子元素的部分数据
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
