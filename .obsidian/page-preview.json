@@ -1,5 +1,10 @@
 {
   "tag-wrangler:tag-pane": false,
   "editor": false,
-  "recent-files": false
+  "recent-files": false,
+  "pane-relief:history-menu": false,
+  "git-view": false,
+  "bookmarks": false,
+  "graph": false,
+  "file-explorer": false
 }
