@@ -33,6 +33,10 @@ props与context
 		1. 功能：都是一种传递数据的通道
 	2. 不同
 		1. 功能的范围：是否能跨层级
+# API
+## forwardRef
+功能：将子组件暴露父组件
+使用：`const MyInput = forwardRef(function MyInput(props, ref) {return ()});`
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
 | --- | --- | --- | --- | --- |
