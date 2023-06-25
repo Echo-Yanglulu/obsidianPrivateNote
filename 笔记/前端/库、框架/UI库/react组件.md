@@ -36,9 +36,13 @@ props与context
 # API
 ## forwardRef
 功能：将子组件暴露父组件
+结构
+	1. 参数
+		1. props：父组件传递过来的参数。
+		2. ref：父组件传递的 ref 属性。组件调用时没有传递ref则传入null
+	2. 返回值：一个可以在 JSX 中渲染的、**可以接收ref属性**的[[函数组件]] 
 使用：`const MyInput = forwardRef(function MyInput(props, ref) {return ()});` 
 	1. 包裹函数组件后，组件被调用时会同时传入两个参数
-		1. 组件调用时没有传递ref则传入null
 	2. ref转发给或[[函数组件#useImperativeHandle|useImperativeHandle]] 
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
