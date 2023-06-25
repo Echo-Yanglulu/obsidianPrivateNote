@@ -43,7 +43,7 @@ props与context
 	2. 返回值：一个可以在 JSX 中渲染的、**可以接收ref属性**的[[函数组件]] 
 使用：`const MyInput = forwardRef(function MyInput(props, ref) {return ()});` 
 	1. 包裹函数组件后，组件被调用时会同时传入两个参数
-	2. ref转发给或[[函数组件#useImperativeHandle|useImperativeHandle]] 
+	2. ref转发【DOM节点】给或[[函数组件#useImperativeHandle|useImperativeHandle]] 【DOM节点的**部分**数据】
 		1. 获得深层元素，需要多次通过forwardRef下传。
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
