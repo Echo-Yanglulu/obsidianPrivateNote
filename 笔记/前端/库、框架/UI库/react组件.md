@@ -61,7 +61,8 @@ props与context
 	1. 单层：props
 	2. 多层：context
 2. 子向父
-	1. 父向子通过props下传setState
+	1. 手动：父向子通过props下传setState
+	2. 自动：[[函数组件#useImperativeHandle|useImperativeHandle]] 
 3. 兄弟组件
 	1. 父向子通过props，state传递一个，setState传递另一个
 # 逻辑复用
