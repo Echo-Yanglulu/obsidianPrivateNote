@@ -24,14 +24,13 @@
 	16. URIError	URIError的构造函数
 3. [[document]] 
 4. [[navigator]] 
-5. [[location]] 
 6. [[screen]] 
+5. [[location]] 
 7. [[History]] 
 
 # 属性
 innerHeight: 见面文档显示区
 与document.documentElement.clientHeight[^1]有什么区别？
-
 
 显示器高度：screen.height
 浏览器软件高度：window.outerHeight【全屏时等于显示器高度】

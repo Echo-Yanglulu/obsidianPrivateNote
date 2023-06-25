@@ -42,6 +42,6 @@ decodeURIComponent(uri)
 Global对象有很多属性
 	1. 特殊值
 	2. 原生引用类型的构造函数
-## 访问：[[window]] 对象
-ECMA-262没有规定直接**访问Global**对象的方式，但浏览器将window对象*实现*为**Global对象的代理**。
+# 访问
+ECMA-262没有规定直接**访问Global**对象的方式，Global对象在大多数ECMAScript实现中无法直接访问。但浏览器将[[window]]对象*实现*为**Global对象的代理**。
 	1. 所有全局作用域中声明的变量和函数都变成了window的属性
