@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/内心/当下的力量.md"
                   }
                 }
               }
@@ -870,17 +870,35 @@
                 "id": "63e6cb6f221a3591",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "心理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/心理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":5},\"to\":{\"line\":11,\"ch\":5}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "当下",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "当下",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/当下.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":12},\"to\":{\"line\":15,\"ch\":12}},\"scroll\":4.904079382579933}"
                     },
                     {
                       "title": "鹿智者的法则",
@@ -911,7 +929,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/内心/当下的力量.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1495,7 +1513,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1522,7 +1540,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/内心/当下的力量.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1550,7 +1568,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/内心/当下的力量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1879,11 +1897,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
+    "笔记/工具/意识/意识.md",
+    "笔记/工具/意识/觉醒.md",
+    "笔记/内心/当下的力量.md",
+    "笔记/工具/通用概念/当下.md",
+    "笔记/内心/活在当下指南.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "Day Planners/2023-06-25.md",
     "笔记/前端/库、框架/UI库/react组件.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/组件.md",
@@ -1896,19 +1920,13 @@
     "Day Planners/2023-06-24.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-06-23.md",
     "笔记/学习/概念/比喻.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/记忆宫殿.md",
-    "笔记/学习/概念/费曼技巧.md",
-    "assets/img/shiprock.jpg.md",
     "assets/img/shiprock.jpg",
-    "Day Planners/2023-06-22.md",
-    "笔记/前端/工程化/SSR.md",
     "笔记/前端/assets/Pasted image 20230601130853.png",
-    "笔记/前端/工程化/node/package.json.md",
     "笔记/前端/基础知识/计算机网络/TCP",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
