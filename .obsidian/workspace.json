@@ -922,8 +922,14 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-25",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1770,8 +1776,9 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/context.md",
+    "Day Planners/2023-06-25.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "Day Planners/2023-06-24.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
@@ -1797,7 +1804,6 @@
     "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
-    "笔记/前端/基础知识/计算机网络/TCP/IP协议群.md",
     "笔记/前端/基础知识/计算机网络/TCP",
     "笔记/_gsdata_/2023-0621-234305-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
