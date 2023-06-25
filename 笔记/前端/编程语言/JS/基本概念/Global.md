@@ -20,7 +20,7 @@ decodeURI(uri)
 ```
 ### encodeURIComponent()
 对编码URI中单独的组件
-	1. 会编码它发现的所有非标准字符
+	1. 会编码它发现的所有非标准字符【包括URL组件也属于】
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURIComponent(uri));   
