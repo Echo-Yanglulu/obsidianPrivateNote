@@ -54,6 +54,12 @@ context的传递：在渲染过程中执行
 优化
 	1. 如果Provider多次嵌套[^2]且==value存在依赖关系==，在传递value属性时可直接添加，这样每次向下传递都会根据依赖关系计算一次：`<LevelContext.Provider value={level + 1}>` 
 # 注意
+与props的比较
+	1. 跨层级
+	2. 覆盖、默认值
+	3. 当一个组件复用多次时，想同时向该组件传递参数
+		1. 使用props要手动传递多次
+		2. 使用context只需在组件内接收
 
 [^1]: 子组件无法获取最新的context
 [^2]: 使用该provider的组件多次嵌套
