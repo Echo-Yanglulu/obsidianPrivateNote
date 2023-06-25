@@ -932,6 +932,18 @@
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":406,\"ch\":34},\"to\":{\"line\":406,\"ch\":34}},\"scroll\":386.84722222222223}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":398,\"ch\":8},\"to\":{\"line\":398,\"ch\":8}},\"scroll\":379.7532679738562}"
                     },
                     {
@@ -1427,6 +1439,7 @@
               {
                 "id": "be29d87c4ad60f93",
                 "type": "tabs",
+                "dimension": 62.11453744493392,
                 "children": [
                   {
                     "id": "1e28e91b1787e92c",
@@ -1454,6 +1467,7 @@
               {
                 "id": "9284dcaae748ddfc",
                 "type": "tabs",
+                "dimension": 37.88546255506608,
                 "children": [
                   {
                     "id": "37fb741facd8f20b",
@@ -1765,7 +1779,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1801,6 +1816,7 @@
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/window.md",
@@ -1809,7 +1825,6 @@
     "笔记/前端/库、框架/UI库/2023-06-25.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-06-25.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "Day Planners/2023-06-24.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
