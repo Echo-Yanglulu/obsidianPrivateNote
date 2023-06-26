@@ -37,7 +37,7 @@ props与context
 	2. 不同
 		1. 功能的范围：是否能跨层级
 # 功能
-## 组件的提示框的DOM结构移动到全局
+## 组件内提示框的DOM结构移到全局
 createPortal(children, domNode, key?)
 	1. children：React 可以渲染的任何内容、这些内容构成的数组
 	2. domNode：某个 DOM 节点，例如由 document.getElementById() 返回的节点。节点必须已经存在。
@@ -45,7 +45,8 @@ createPortal(children, domNode, key?)
 
 功能：组件可以在页面其余部分上方或外部显示模态对话框和提示框
 特点
-	1. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
+	1. 由[[ReactDOM]]提供
+	2. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
 ## 子组件暴露父组件
 相关API：forwardRef
 功能：将子组件暴露父组件
