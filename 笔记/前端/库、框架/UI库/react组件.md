@@ -37,6 +37,11 @@ props与context
 	2. 不同
 		1. 功能的范围：是否能跨层级
 # 功能
+## 创建节点
+createRoot 
+	1. react-dom/client提供
+## 回调UI
+<Suspense>
 ## 组件内提示框的DOM结构移到全局
 createPortal(children, domNode, key?)
 	1. children：React 可以渲染的任何内容、这些内容构成的数组
