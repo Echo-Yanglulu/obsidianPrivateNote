@@ -532,7 +532,7 @@ var TemplateModal = class extends import_obsidian2.SuggestModal {
 async function insert(editor, settings, article, templateString) {
   var _a, _b;
   const cursorPosition = editor.getCursor();
-  let extract = templateString.includes("{extract}") ? (_b = (_a = await getArticleExtracts([article.title], settings.language)) == null ? void 0 : _a[0]) != null ? _b : null : null;
+  let extract = templateString.includes("{extract}") ? (_b = (_a = await getArticleExtracts([article.title], article.languageCode)) == null ? void 0 : _a[0]) != null ? _b : null : null;
   const selection = editor.getSelection();
   const insert2 = templateString.replaceAll("{title}", settings.alwaysUseArticleTitle || selection === "" ? article.title : selection).replaceAll("{url}", article.url).replaceAll("{language}", languages[article.languageCode]).replaceAll("{languageCode}", article.languageCode).replaceAll("{extract}", extract != null ? extract : "[Could not fetch the extract...]");
   editor.replaceSelection(insert2);
