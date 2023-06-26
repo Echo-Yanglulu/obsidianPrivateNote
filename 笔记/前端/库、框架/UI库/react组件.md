@@ -37,7 +37,11 @@ props与context
 	2. 不同
 		1. 功能的范围：是否能跨层级
 # 功能
-## 组件内的全局提示框对应的DOM结构移动到全局
+## 组件的提示框的DOM结构移动到全局
+createPortal(children, domNode, key?)
+	1. children：React 可以渲染的任何内容、这些内容构成的数组
+	2. domNode：某个 DOM 节点，例如由 document.getElementById() 返回的节点。节点必须已经存在。
+	3. 返回一个 React 节点，该节点可以包含在 JSX 中或从 React 组件中返回
 组件可以在页面其余部分上方或外部显示模态对话框和提示框
 ## 子组件暴露父组件
 相关API：forwardRef
