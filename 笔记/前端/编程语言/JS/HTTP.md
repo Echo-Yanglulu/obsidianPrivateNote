@@ -1,5 +1,5 @@
 # 概述
-
+超文本传输协议（HyperText Transfer Protocol）
 # 缓存
 一般用于保存[[静态资源]]：==常见文档==
 当强制缓存不可用（本地对比Expires）时尝试协商缓存（请求对比ETag || Last-Modified），如果协商返回304就使用缓存，否则重新请求。
