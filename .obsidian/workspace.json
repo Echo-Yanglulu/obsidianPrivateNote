@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-26.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
                   }
                 }
               }
@@ -1238,17 +1238,17 @@
                 "id": "37b682b4b2faf9d1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-26",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "HTTP状态码",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP状态码.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "HTTP",
@@ -1345,7 +1345,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-26.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1634,7 +1634,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-26.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1662,7 +1662,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-26.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1992,6 +1992,7 @@
   },
   "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
+    "Day Planners/2023-06-26.md",
     "笔记/_gsdata_/2023-0626-151547-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0626-151517-DESKTOP-YLL-Job1.log",
@@ -2002,7 +2003,6 @@
     "笔记/_gsdata_/2023-0626-151317-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-151247-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-151217-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-151147-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/工程化/缓存.md",
@@ -2017,7 +2017,6 @@
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "Day Planners/2023-06-26.md",
     "笔记/前端/编程语言/JS/最佳实践.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
