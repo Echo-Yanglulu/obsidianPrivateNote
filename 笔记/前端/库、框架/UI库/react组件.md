@@ -53,7 +53,9 @@ flushSync(callback)
 	1. 由[[ReactDOM]]提供
 	2. 严重破坏性能，如果可以，尽量避免使用
 ## 子组件暴露父组件
-相关API：forwardRef
+相关API
+	函数组件：forwardRef
+	类组件：c
 功能：将子组件暴露父组件
 结构
 	1. 参数
