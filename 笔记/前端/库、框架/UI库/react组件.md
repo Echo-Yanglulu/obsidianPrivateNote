@@ -42,26 +42,30 @@ createRoot
 	1. react-dom/client提供
 ## 回调UI
 Suspense
-## 开发中发现组件错误
+## 开发时发现组件错误
 由react提供
 特点
 	1. *开发环境*有特殊行为
 		1. 组件*重新渲染*一次，查找渲染之外的原因导致的错误
 		2. 组件*重新运行effect*一次，查找缺少effect清理导致的错误
 		3. 组件是否使用了*废弃API* 
-## 测量组件树的性能
+## 分析组件树性能
 ```js
 <Profiler id="App" onRender={onRender}>
   <App />
 </Profiler>
+function onRender(id, phase, actualDuration, baseDuration, startTime, commitTime) {
+  // Aggregate or log render timings...
+}
+id: 如果使用了多个分析器，可用于确定分析的是哪个
 ```
-## 组件内提示框的DOM结构移到全局
+## DOM结构移动
 createPortal(children, domNode, key?)
 	1. children：React 可以渲染的任何内容、这些内容构成的数组
 	2. domNode：某个 DOM 节点，例如由 document.getElementById() 返回的节点。节点必须已经存在。
 	3. 返回一个 React 节点，该节点可以包含在 JSX 中或从 React 组件中返回
 
-功能：组件可以在页面其余部分上方或外部显示模态对话框和提示框
+功能：在DOM结构中，将组件内的模态对话框和提示框等全局展示的组件展示在DOM的外层
 特点
 	1. 由[[ReactDOM]]提供
 	2. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
