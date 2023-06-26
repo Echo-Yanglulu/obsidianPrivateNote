@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 17.615467239527387,
+            "dimension": 15.145005370569281,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 67.29323308270676,
+            "dimension": 69.76369495166487,
             "children": [
               {
                 "id": "8d08a01a6be7967f",
@@ -1245,6 +1245,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "HTTP",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":7},\"to\":{\"line\":45,\"ch\":7}},\"scroll\":9.289351851851851}"
+                    },
+                    {
                       "title": "计算机网络",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1333,7 +1339,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1600,7 +1606,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.09129967776584,
+            "dimension": 15.091299677765843,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1622,7 +1628,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1650,7 +1656,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1980,19 +1986,19 @@
   },
   "active": "37b682b4b2faf9d1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0626-150352-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0626-150632-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0626-150629-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0626-150526-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0626-150523-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/HTTP.md",
+    "笔记/_gsdata_/2023-0626-150422-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0626-150352-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-150322-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-150252-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-150222-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-150152-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-150122-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-150052-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-150022-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-145952-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0626-145922-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
-    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/工程化/缓存.md",
     "笔记/前端/工程化/静态资源.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
