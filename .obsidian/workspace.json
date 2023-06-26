@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-26.md"
+                    "file": "笔记/前端/编程语言/JS/工具函数.md"
                   }
                 }
               }
@@ -940,17 +940,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-26",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-26.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "函数组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":378,\"ch\":26},\"to\":{\"line\":378,\"ch\":26}},\"scroll\":365.0197}"
                     },
                     {
                       "title": "react组件",
@@ -1227,7 +1227,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-26.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1535,9 +1535,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "4096e9c1a181fdc1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":11},\"to\":{\"line\":32,\"ch\":11}},\"scroll\":17.247524752475247}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/最佳实践.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1564,7 +1592,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-26.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1592,7 +1620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-26.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1910,7 +1938,6 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "repeat-plugin:Repeat due notes": false,
       "vantage-obsidian:Vantage - Advanced search builder": false,
@@ -1918,11 +1945,17 @@
       "cmdr:上下分屏": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "a8749fd438a3eace",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/工具函数.md",
+    "笔记/前端/编程语言/JS/最佳实践.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "Day Planners/2023-06-26.md",
     "笔记/_gsdata_/2023-0626-001606-DESKTOP-YLL-Job1.log",
@@ -1946,19 +1979,14 @@
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/库、框架/UI库/2023-06-25 1.md",
     "笔记/前端/库、框架/UI库/2023-06-25.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-06-24.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "Day Planners/2023-06-23.md",
-    "笔记/学习/概念/比喻.md",
-    "笔记/工具/思考/思维概念/联想.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
