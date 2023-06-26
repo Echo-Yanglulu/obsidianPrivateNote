@@ -52,10 +52,10 @@ flushSync(callback)
 特性
 	1. 由[[ReactDOM]]提供
 	2. 严重破坏性能，如果可以，尽量避免使用
-## 子组件暴露父组件
+## 父组件获取子组件
 相关API
 	函数组件：forwardRef
-	类组件：createRef
+	类组件：createRef、findDOMNode[^2]
 功能：将子组件暴露父组件
 结构
 	1. 参数
@@ -157,3 +157,4 @@ export function HooksAvatar() {
 有啥区别？不还是套了一层？
 
 [^1]: 受开发者控制的组件
+[^2]: 类组件中使用它获取元素，然后focus，但后续维护不方便，比如想给需要find的元素添加一层div，就无法找到了。所以使用函数组件是优先的选择。
