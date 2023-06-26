@@ -69,11 +69,19 @@ createPortal(children, domNode, key?)
 特点
 	1. 由[[ReactDOM]]提供
 	2. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
-## 强制react同步更新
-flushSync(callback)
-特性
-	1. 由[[ReactDOM]]提供
-	2. 严重破坏性能，如果可以，尽量避免使用
+## 减少嵌套层级
+\<Fragment> 
+不可简写
+```js
+function Blog() {
+  return posts.map(post =>
+    <Fragment key={post.id}>
+      <PostTitle title={post.title} />
+      <PostBody body={post.body} />
+    </Fragment>
+  );
+}
+```
 ## 父组件获取子组件
 相关API
 	函数组件：forwardRef
@@ -91,6 +99,11 @@ flushSync(callback)
 应用：子元素
 	1. 整个子元素：滚动到节点、将焦点放在节点上、触发动画
 	2. 使用子元素的部分数据
+## 强制react同步更新
+flushSync(callback)
+特性
+	1. 由[[ReactDOM]]提供
+	2. 严重破坏性能，如果可以，尽量避免使用
 # class与function对比
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
 | --- | --- | --- | --- | --- |
