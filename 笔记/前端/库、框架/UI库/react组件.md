@@ -42,7 +42,10 @@ createPortal(children, domNode, key?)
 	1. children：React 可以渲染的任何内容、这些内容构成的数组
 	2. domNode：某个 DOM 节点，例如由 document.getElementById() 返回的节点。节点必须已经存在。
 	3. 返回一个 React 节点，该节点可以包含在 JSX 中或从 React 组件中返回
-组件可以在页面其余部分上方或外部显示模态对话框和提示框
+
+功能：组件可以在页面其余部分上方或外部显示模态对话框和提示框
+特点
+	1. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
 ## 子组件暴露父组件
 相关API：forwardRef
 功能：将子组件暴露父组件
