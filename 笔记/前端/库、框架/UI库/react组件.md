@@ -55,7 +55,7 @@ flushSync(callback)
 ## 子组件暴露父组件
 相关API
 	函数组件：forwardRef
-	类组件：c
+	类组件：createRef
 功能：将子组件暴露父组件
 结构
 	1. 参数
