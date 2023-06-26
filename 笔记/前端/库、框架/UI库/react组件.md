@@ -123,8 +123,8 @@ flushSync(callback)
 			1. 复用时需要重写组件结构、他人难以理解。
 			2. 使用devtools时嵌套层级深
 	3. *热重载*不稳定
-	4. *构建时*class组件不能被很好地*压缩* 
-	5. this较为复杂
+	4. 构建时class组件不能被很好地*压缩* 
+	5. [[this]]较为复杂
 # 组件通讯
 根据传递方向，可分为3个
 1. 父向子
@@ -132,7 +132,9 @@ flushSync(callback)
 	2. 多层：context
 2. 子向父
 	1. 手动：父向子通过props下传setState
-	2. 自动：[[函数组件#useImperativeHandle|useImperativeHandle]] 
+	2. 自动：
+		1. 传递数据：[[函数组件#useImperativeHandle|useImperativeHandle]] 
+		2. 传递元素：ref
 3. 兄弟组件
 	1. 父向子通过props，state传递一个，setState传递另一个
 # 逻辑复用
