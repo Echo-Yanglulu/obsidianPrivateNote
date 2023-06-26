@@ -42,13 +42,19 @@ createRoot
 	1. react-dom/client提供
 ## 回调UI
 Suspense
-## 开发中发现组件常见错误
-
+## 开发中发现组件错误
+由react提供
 特点
 	1. *开发环境*有特殊行为
 		1. 组件*重新渲染*一次，查找渲染之外的原因导致的错误
 		2. 组件*重新运行effect*一次，查找缺少effect清理导致的错误
 		3. 组件是否使用了*废弃API* 
+## 测量组件树的性能
+```js
+<Profiler id="App" onRender={onRender}>
+  <App />
+</Profiler>
+```
 ## 组件内提示框的DOM结构移到全局
 createPortal(children, domNode, key?)
 	1. children：React 可以渲染的任何内容、这些内容构成的数组
