@@ -947,6 +947,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":638,\"ch\":28},\"to\":{\"line\":638,\"ch\":28}},\"scroll\":616.2418981481482}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":66,\"ch\":0},\"to\":{\"line\":66,\"ch\":0}},\"scroll\":0.13125512715340443}"
+                    },
+                    {
                       "title": "组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2004,10 +2016,10 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
-    "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "Day Planners/2023-06-26.md",
     "笔记/_gsdata_/2023-0626-151547-DESKTOP-YLL-Job1.log",
