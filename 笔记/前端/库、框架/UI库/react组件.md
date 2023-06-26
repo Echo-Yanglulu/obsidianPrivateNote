@@ -47,6 +47,11 @@ createPortal(children, domNode, key?)
 特点
 	1. 由[[ReactDOM]]提供
 	2. 事件传播遵循 React 树而不是 DOM 树。虽然在DOM树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
+## 强制react同步更新
+flushSync(callback)
+特性
+	1. 由[[ReactDOM]]提供
+	2. 严重破坏性能，如果可以，尽量避免使用
 ## 子组件暴露父组件
 相关API：forwardRef
 功能：将子组件暴露父组件
