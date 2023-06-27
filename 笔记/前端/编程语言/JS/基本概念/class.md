@@ -1,5 +1,6 @@
 # 概述
 [[面向对象编程]] 
+本质是个函数。typeof People // 'funciton'
 ## 可见性
 private - 该属性/方法不能被其他类、子类访问
 public + 任何类访问
