@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -1722,7 +1722,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1750,7 +1750,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2070,11 +2070,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14d273e1bbb6ac5a",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
@@ -2097,7 +2098,6 @@
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/错误处理.md",
     "笔记/_gsdata_/2023-0626-151547-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0626-151517-DESKTOP-YLL-Job1.log",
