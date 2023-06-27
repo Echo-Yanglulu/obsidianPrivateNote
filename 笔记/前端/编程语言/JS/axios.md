@@ -16,7 +16,26 @@
 	7. 客户端支持防御[[XSRF]] 
 
 # 使用
-## 配置
+## 创建实例
+axios.create(\[config])
+```js
+const instance = axios.create({
+  baseURL: 'https://some-domain.com/api/',
+  timeout: 1000,
+  headers: {'X-Custom-Header': 'foobar'}
+});
+```
+### 实例方法
+request(config)
+get(url[, config])
+axios#delete(url[, config])
+axios#head(url[, config])
+axios#options(url[, config])
+axios#post(url[, data[, config]])
+axios#put(url[, data[, config]])
+axios#patch(url[, data[, config]])
+axios#getUri([config])
+## 发送请求
 axios(options)：发起请求，返回[[Promise]] 
 axios(url\[, config])
 	1. 不传config是默认的get方法
