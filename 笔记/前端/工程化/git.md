@@ -38,7 +38,7 @@
 7. git rm   删除
 8. git merge 合并
 9. git rebase 变基
-	1. -i  + [[hash值]] ，可合并该hash之后（**不含**）的提交。
+	1. -i  + [[hash值]] ，可**合并**该hash之后（不含）的提交。
 	2. 分支名
 		1. 将当前分支与目标分支对比，找到公共的commit，将当前分支的该commit之后的**commit移动**到目标分支
 		2. 此时目标分支仍指向旧有提交，需要更新使其指向最新节点。`git rebase bugFix`
