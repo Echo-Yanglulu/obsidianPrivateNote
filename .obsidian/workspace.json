@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/XSRF.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1689,7 +1689,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1716,7 +1716,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/XSRF.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1744,7 +1744,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/XSRF.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2065,10 +2065,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4096e9c1a181fdc1",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/axios.md",
+    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/XSRF.md",
+    "笔记/前端/编程语言/JS/axios.md",
     "Day Planners/2023-06-27.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/内心/活在当下指南.md",
@@ -2078,8 +2081,6 @@
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/错误处理.md",
     "笔记/前端/编程语言/JS/FormData.md",
-    "笔记/前端/编程语言/JS/XSRF.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/网络请求库.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/node事件.md",
@@ -2102,7 +2103,6 @@
     "笔记/_gsdata_/2023-0626-151217-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
-    "笔记/前端/工程化/缓存.md",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
