@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/event-loop.md"
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
                   }
                 }
               }
@@ -1697,10 +1697,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "class",
+                      "title": "Keyboard Shortcuts",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/class.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":0}"
+                      "state": "{\"type\":\"keyboard-shortcuts-visualization\",\"state\":{}}",
+                      "eState": "{}"
                     },
                     {
                       "state": "{}",
@@ -1731,7 +1731,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1758,7 +1758,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1786,7 +1786,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/event-loop.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2106,21 +2106,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a07eaa20cd452b29",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0627-224706-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
+    "笔记/前端/前端工作.md",
+    "笔记/_gsdata_/2023-0627-225006-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-224936-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
+    "笔记/_gsdata_/2023-0627-224906-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-224836-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-224806-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-224736-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-224706-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-224636-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-224606-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224536-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224506-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224436-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224403-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224336-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224330-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-224327-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/概述.md",
@@ -2143,7 +2144,6 @@
     "笔记/前端/编程语言/JS/基本概念/原型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
