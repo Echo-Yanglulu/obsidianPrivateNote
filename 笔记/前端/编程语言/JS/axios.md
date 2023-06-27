@@ -192,7 +192,34 @@ controller.abort()
 ## CancelToken
 v0.22.0 开始已被弃用
 # 请求体编码
-
+默认情况下，axios将 JavaScript 对象序列化为 [[JSON]]。
+要以application/x-www-form-urlencoded格式发送数据，您可以使用以下选项之一
+## [[浏览器]] 
+### 使用URLSearchParams API
+```js
+const params = new URLSearchParams();
+params.append('param1', 'value1');
+params.append('param2', 'value2');
+axios.post('/foo', params);
+```
+### 使用qs库
+```js
+const qs = require('qs');
+axios.post('/foo', qs.stringify({ 'bar': 123 }));
+```
+### 使用es6
+```js
+import qs from 'qs';
+const data = { 'bar': 123 };
+const options = {
+  method: 'POST',
+  headers: { 'content-type': 'application/x-www-form-urlencoded' },
+  data: qs.stringify(data),
+  url,
+};
+axios(options);
+```
+## [[node]] 
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
