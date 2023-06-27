@@ -101,6 +101,43 @@ const instance = axios.create({
 instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 ## 配置的优先级
 在lib/defaults.js中找到的库默认值<实例的 defaults 属性<请求的 config 参数
+# 拦截器
+请求或响应被 then 或 catch 处理前拦截它们
+## 添加
+use
+```js
+// 添加请求拦截器
+axios.interceptors.request.use(function (config) {
+    // 在发送请求之前做些什么
+    return config;
+  }, function (error) {
+    // 对请求错误做些什么
+    return Promise.reject(error);
+  });
+
+// 添加响应拦截器
+axios.interceptors.response.use(function (response) {
+    // 2xx 范围内的状态码都会触发该函数。
+    // 对响应数据做点什么
+    return response;
+  }, function (error) {
+    // 超出 2xx 范围的状态码都会触发该函数。
+    // 对响应错误做点什么
+    return Promise.reject(error);
+  });
+```
+## 移除
+eject
+```js
+const myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+axios.interceptors.request.eject(myInterceptor);
+```
+## 给实例添加拦截器
+给*实例*添加拦截器和直接给*从库引入的对象*添加拦截器有什么区别？
+```js
+const instance = axios.create();
+instance.interceptors.request.use(function () {/*...*/});
+```
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',

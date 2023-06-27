@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md"
+                    "file": "笔记/前端/编程语言/JS/axios.md"
                   }
                 }
               }
@@ -1631,6 +1631,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "最佳实践",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/最佳实践.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1647,7 +1653,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md",
+                    "file": "笔记/前端/编程语言/JS/axios.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1682,7 +1688,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/编程语言/JS/axios.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1710,7 +1716,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/编程语言/JS/axios.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2040,11 +2046,11 @@
   },
   "active": "4096e9c1a181fdc1",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/FormData.md",
     "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
+    "笔记/前端/编程语言/JS/FormData.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/axios.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/XSRF.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/网络请求库.md",
