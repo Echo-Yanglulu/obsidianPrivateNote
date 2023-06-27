@@ -74,7 +74,7 @@ axios.patch(url\[, data\[, config]])
   }],
 ## transformResponse
   // `transformResponse` 在传递给 then/catch 前，允许修改响应数据
-  transformResponse: [function (data) {
+  transformResponse: \[function (data) {
     // 对接收的 data 进行任意转换处理
 
     return data;
@@ -95,7 +95,7 @@ axios.patch(url\[, data\[, config]])
     return Qs.stringify(params, {arrayFormat: 'brackets'})
   },
 ## data
-  // `data` 是作为请求体被发送的数据
+作为请求体被发送的数据
   // 仅适用 'PUT', 'POST', 'DELETE 和 'PATCH' 请求方法
   // 在没有设置 `transformRequest` 时，则必须是以下类型之一:
   // - string, plain object, ArrayBuffer, ArrayBufferView, URLSearchParams
@@ -200,11 +200,11 @@ axios.patch(url\[, data\[, config]])
       password: 'rapunz3l'
     }
   },
-
+## cancelToken
   // see https://axios-http.com/zh/docs/cancellation
   cancelToken: new CancelToken(function (cancel) {
   }),
-
+## decompress
   // `decompress` indicates whether or not the response body should be decompressed 
   // automatically. If set to `true` will also remove the 'content-encoding' header 
   // from the responses objects of all decompressed responses
