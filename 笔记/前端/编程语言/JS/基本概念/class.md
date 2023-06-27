@@ -1,6 +1,9 @@
 # 概述
 [[面向对象编程]] 
 本质是个函数。typeof People // 'funciton'
+类的构造函数的prototype属性指向[[原型对象]] 
+实例的__proto__属性指向[[原型对象]] 
+实例化时，构造函数将prototype属性赋值给实例的__proto__
 ## 可见性
 private - 该属性/方法不能被其他类、子类访问
 public + 任何类访问
