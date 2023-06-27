@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/class.md"
+                    "file": "笔记/前端/编程语言/编程语言.md"
                   }
                 }
               }
@@ -1701,6 +1701,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "class",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/class.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":27},\"to\":{\"line\":3,\"ch\":27}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1711,7 +1717,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/class.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1746,7 +1752,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/class.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1774,7 +1780,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/class.md",
+                        "file": "笔记/前端/编程语言/编程语言.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2094,11 +2100,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "f993cedbd2d70e7a",
   "lastOpenFiles": [
-    "笔记/前端/工程化/规范/ESLint/extends.md",
-    "笔记/前端/编程语言/JS/基本概念/class.md",
+    "笔记/前端/前端.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/class.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/面向对象编程.md",
+    "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
@@ -2120,9 +2129,6 @@
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/Function.md",
     "笔记/前端/编程语言/JS/数组.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/库、框架/UI库/纯函数.md",
-    "笔记/前端/编程语言/JS/location.md",
     "笔记/_gsdata_/2023-0626-151547-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0626-151517-DESKTOP-YLL-Job1.log",
