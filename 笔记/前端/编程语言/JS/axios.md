@@ -175,7 +175,9 @@ axios.get('/user/12345')
   });
 ```
 # 取消请求
+## AbortController
 从 v0.22.0 开始，Axios 支持以 fetch API 方式—— `AbortController` 取消请求：
+AbortController构造函数，将上面的signal属性配置到请求配置中，然后通过abort取消
 ```js
 const controller = new AbortController();
 
@@ -187,6 +189,10 @@ axios.get('/foo/bar', {
 // 取消请求
 controller.abort()
 ```
+## CancelToken
+v0.22.0 开始已被弃用
+# 请求体编码
+
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
