@@ -105,13 +105,13 @@ instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
   ## [[URL]] 
   url: '/user',
   // `url` 是用于请求的服务器 URL
-## method
-  // `method` 是创建请求时使用的方法
-  method: 'get', // 默认值
 ## baseURL
   // `baseURL` 将自动加在 `url` 前面，除非 `url` 是一个绝对 URL。
   // 它可以通过设置一个 `baseURL` 便于为 axios 实例的方法传递相对 URL
   baseURL: 'https://some-domain.com/api/',
+## method
+  // `method` 是创建请求时使用的方法
+  method: 'get', // 默认值
 ## transformRequest
   // `transformRequest` 允许在向服务器发送前，修改请求数据
   // 它只能用于 'PUT', 'POST' 和 'PATCH' 这几个请求方法
