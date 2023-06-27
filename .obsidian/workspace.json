@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/内存.md"
                   }
                 }
               }
@@ -1722,7 +1722,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/内存.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1750,7 +1750,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/内存.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2071,10 +2071,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "8824c0c8b95555f1",
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
+    "笔记/前端/编程语言/JS/值.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/XSRF.md",
@@ -2097,7 +2099,6 @@
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
-    "Day Planners/2023-06-26.md",
     "笔记/_gsdata_/2023-0626-151547-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0626-151517-DESKTOP-YLL-Job1.log",
@@ -2108,7 +2109,6 @@
     "笔记/_gsdata_/2023-0626-151317-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-151247-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0626-151217-DESKTOP-YLL-Job1.log",
-    "笔记/前端/编程语言/JS/HTTP.md",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
