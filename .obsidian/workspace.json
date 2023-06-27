@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/XSRF.md"
                   }
                 }
               }
@@ -1631,6 +1631,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "axios",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/axios.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":22},\"to\":{\"line\":14,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
                       "title": "网络请求",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1653,7 +1659,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/axios.md",
+                    "file": "笔记/前端/编程语言/JS/XSRF.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1683,7 +1689,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1710,7 +1716,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/XSRF.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1738,7 +1744,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/XSRF.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2059,16 +2065,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "4096e9c1a181fdc1",
   "lastOpenFiles": [
-    "Day Planners/2023-06-27.md",
+    "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/前端工作.md",
+    "Day Planners/2023-06-27.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/内心/活在当下指南.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/错误处理.md",
     "笔记/前端/编程语言/JS/FormData.md",
