@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md"
+                    "file": "笔记/前端/工程化/构建/Promise.md"
                   }
                 }
               }
@@ -1682,7 +1682,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1710,7 +1710,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2038,12 +2038,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4096e9c1a181fdc1",
+  "active": "dc5ea63032c0f3c8",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/axios.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/网络请求库.md",
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/工程化/node/node事件.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/最佳实践.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2075,7 +2076,6 @@
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
     "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/工具函数.md",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
