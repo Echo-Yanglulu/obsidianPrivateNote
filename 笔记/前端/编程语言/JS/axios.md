@@ -85,6 +85,22 @@ axios.get('/user/12345')
     console.log(response.config);
   });
 ```
+# 默认配置
+默认配置将作用于每个请求头
+## 全局
+axios.defaults.baseURL = 'https://api.example.com';
+axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+## 自定义
+// 创建实例时配置默认值
+const instance = axios.create({
+  baseURL: 'https://api.example.com'
+});
+
+// 创建实例后修改默认值
+instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
+## 配置的优先级
+在lib/defaults.js中找到的库默认值<实例的 defaults 属性<请求的 config 参数
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
