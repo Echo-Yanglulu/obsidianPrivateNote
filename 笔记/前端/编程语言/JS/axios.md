@@ -17,15 +17,16 @@
 
 # 使用
 ## 配置
-axios(options)：返回[[Promise]] 
+axios(options)：发起请求，返回[[Promise]] 
 axios(url\[, config])
 	1. 不传config是默认的get方法
 ## 仅使用模块上的方法
+直接使用方法时，不必配置请求方法method、链接url、负载data。
 axios.request(config)
 axios.get(url\[, config])
 axios.delete(url\[, config])
 axios.head(url\[, config])
-axios.options(url[, config])
-axios.post(url[, data[, config]])
-axios.put(url[, data[, config]])
-axios.patch(url[, data[, config]])
+axios.options(url\[, config])
+axios.post(url\[, data\[, config]])
+axios.put(url\[, data\[, config]])
+axios.patch(url\[, data\[, config]])
