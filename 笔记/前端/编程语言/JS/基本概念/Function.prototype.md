@@ -1,5 +1,5 @@
-apply(this, paramsArray)
+apply(this, Array)
 
-bind(this, )
+bind(this, p1, p2)
 
 call(this, params1, params2, ...)
