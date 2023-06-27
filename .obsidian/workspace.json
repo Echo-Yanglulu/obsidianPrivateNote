@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md"
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
                   }
                 }
               }
@@ -947,6 +947,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":25},\"to\":{\"line\":26,\"ch\":25}},\"scroll\":5.368246968026461}"
+                    },
+                    {
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1263,7 +1269,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1670,7 +1676,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1698,7 +1704,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2028,10 +2034,10 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "Day Planners/2023-06-27.md",
     "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
