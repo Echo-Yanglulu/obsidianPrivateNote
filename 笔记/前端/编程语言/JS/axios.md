@@ -1,7 +1,7 @@
 [起步 | Axios 中文文档 | Axios 中文网](https://www.axios-http.cn/docs/intro) 
 [axios中文文档|axios中文网 | axios](http://axios-js.com/zh-cn/docs/) 
 # 概述
-定义：一个基于 [[promise]] 的[[网络请求库]]，作用于node.js 和浏览器中。
+定义：一个基于 [[promise]] 的[[网络请求库]]。
 	1. 在服务端使用原生[[node|node.js]]的http模块
 	2. 在客户端则使用[[网络请求#XHR对象|XMLHttpRequests]] 
 特性
@@ -12,9 +12,8 @@
 	3. *拦截*请求和响应
 	4. *取消*请求
 	5. *转换*请求和响应数据
-	6. *自动转换*[[JSON]]数据
-	7. 客户端支持防御[[XSRF]] 
-
+		1. *自动转换*为[[JSON]]数据
+	6. 客户端支持防御[[XSRF]] 
 # 使用
 ## 创建实例
 axios.create(\[config])
@@ -220,6 +219,7 @@ const options = {
 axios(options);
 ```
 ## [[node]] 
+使用 querystring 模块
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
