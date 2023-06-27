@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -940,17 +940,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":844,\"ch\":66},\"to\":{\"line\":844,\"ch\":66}},\"scroll\":798.87210584344}"
                     },
                     {
                       "title": "react组件",
@@ -1263,7 +1263,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "file": "笔记/前端/库、框架/UI库/react组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1670,7 +1670,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1698,7 +1698,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2028,8 +2028,8 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "Day Planners/2023-06-27.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "Day Planners/2023-06-27.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/this.md",
