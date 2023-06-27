@@ -5,12 +5,17 @@
 	1. 在服务端使用原生[[node|node.js]]的http模块
 	2. 在客户端则使用[[网络请求#XHR对象|XMLHttpRequests]] 
 特性
-	1. isomorphic。即同一套代码可以运行在浏览器和node.js中
-	2. 从客户端创建[[网络请求#XHR对象|XMLHttpRequests]] 
-	3. 从 node.js 创建[[http]]请求
-	4. 支持 Promise API
-	5. 拦截请求和响应
-	6. 转换请求和响应数据
-	7. 取消请求
-	8. 自动转换[[JSON]]数据
-	9. 客户端支持防御XSRF
+	1. 基于[[Promise]] 
+	2. isomorphic。即同一套代码可以运行在浏览器和node.js中
+		2. 从客户端创建[[网络请求#XHR对象|XMLHttpRequests]] 
+		3. 从 node.js 创建[[http]]请求
+	3. 拦截请求和响应
+	4. 取消请求
+	5. 转换请求和响应数据
+	6. 自动转换[[JSON]]数据
+	7. 客户端支持防御XSRF
+
+# 使用
+## 配置
+axios(options)
+## 直接使用模块上的方法
