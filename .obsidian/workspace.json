@@ -940,8 +940,14 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-27",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2022,8 +2028,9 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/副作用.md",
+    "Day Planners/2023-06-27.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/UI库/组件.md",
@@ -2057,7 +2064,6 @@
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "Day Planners/2023-06-25.md",
     "笔记/内心/当下的力量.md",
-    "笔记/工具/意识/意识.md",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
