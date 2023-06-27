@@ -40,6 +40,23 @@ getUri(\[config])
 axios(options)：发起请求，返回[[Promise]] 
 axios(url\[, config])
 	1. 不传config是默认的get方法
+
+## 并发请求
+axios.all
+```js
+function getUserAccount() {
+  return axios.get('/user/12345');
+}
+
+function getUserPermissions() {
+  return axios.get('/user/12345/permissions');
+}
+
+axios.all([getUserAccount(), getUserPermissions()])
+  .then(axios.spread(function (acct, perms) {
+    // 两个请求现在都执行完成
+  }));
+```
 ## 仅使用模块上的方法
 直接使用方法时，不必配置请求方法method、链接url、负载data。
 axios.request(config)
