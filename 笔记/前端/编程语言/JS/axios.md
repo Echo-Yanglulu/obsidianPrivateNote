@@ -51,6 +51,8 @@ axios.options(url\[, config])
 axios.post(url\[, data\[, config]])
 axios.put(url\[, data\[, config]])
 axios.patch(url\[, data\[, config]])
+# 响应结构
+
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
