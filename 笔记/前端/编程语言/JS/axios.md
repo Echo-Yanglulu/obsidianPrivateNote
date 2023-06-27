@@ -138,6 +138,55 @@ axios.interceptors.request.eject(myInterceptor);
 const instance = axios.create();
 instance.interceptors.request.use(function () {/*...*/});
 ```
+# [[错误处理]] 
+```js
+axios.get('/user/12345')
+  .catch(function (error) {
+    if (error.response) {
+      // 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围
+      console.log(error.response.data);
+      console.log(error.response.status);
+      console.log(error.response.headers);
+    } else if (error.request) {
+      // 请求已经成功发起，但没有收到响应
+      // `error.request` 在浏览器中是 XMLHttpRequest 的实例，
+      // 而在node.js中是 http.ClientRequest 的实例
+      console.log(error.request);
+    } else {
+      // 发送请求时出了点问题
+      console.log('Error', error.message);
+    }
+    console.log(error.config);
+  });
+```
+## 自定义抛出错误的 HTTP code
+```js
+axios.get('/user/12345', {
+  validateStatus: function (status) {
+    return status < 500; // 处理状态码小于500的情况
+  }
+})
+```
+## 获取更多关于HTTP错误的信息
+```js
+axios.get('/user/12345')
+  .catch(function (error) {
+    console.log(error.toJSON());
+  });
+```
+# 取消请求
+从 v0.22.0 开始，Axios 支持以 fetch API 方式—— `AbortController` 取消请求：
+```js
+const controller = new AbortController();
+
+axios.get('/foo/bar', {
+   signal: controller.signal
+}).then(function(response) {
+   //...
+});
+// 取消请求
+controller.abort()
+```
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
