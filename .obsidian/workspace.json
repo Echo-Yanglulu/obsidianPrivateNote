@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
+                    "file": "笔记/前端/编程语言/JS/Function.md"
                   }
                 }
               }
@@ -1722,7 +1722,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/编程语言/JS/Function.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1750,7 +1750,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/编程语言/JS/Function.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1874,8 +1874,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2071,13 +2070,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2a5d17f596932423",
+  "active": "d61b60e30c1d0c99",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Function.md",
+    "笔记/前端/编程语言/JS/Function.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/数组.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/函数.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
