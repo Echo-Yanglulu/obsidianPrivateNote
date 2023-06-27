@@ -1,6 +1,6 @@
 # 概述
 状态
-	1. 三种状态pending, resolved, rejected
+	1. 三种状态pending, fulfilled, rejected
 	2. 调用resolved：改变状态为resolved并传参。调用rejected：改变状态为rejected并传参 
 		1. 状态改变是不可逆的
 		2. 状态变为resolved时，执行then内代码
@@ -12,6 +12,7 @@
 	3. 可直接创建一个落定的Promise对象
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
+每次链式调用，都会返回一个落定的promise，如果有异常，则落定为rejected状态，否则是fulfilled状态
 # API
 
 # 手写
