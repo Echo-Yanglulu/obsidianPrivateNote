@@ -53,6 +53,38 @@ axios.put(url\[, data\[, config]])
 axios.patch(url\[, data\[, config]])
 # 响应结构
 
+ `status` 来自服务器响应的 [[HTTP状态码]] 
+  status: 200,
+
+ `statusText` 来自服务器响应的*HTTP状态信息*
+  statusText: 'OK',
+
+ `headers` 是服务器*响应头*
+	1.  所有的 header 名称都是小写，而且可以使用方括号语法访问。例如: `response.headers['content-type']`
+  headers: {},
+
+ `data` 由服务器提供的*响应*
+  data: {},
+  
+ `config` 是 `axios` *请求的配置信息*
+  config: {},
+
+ `request` 是生成此响应的请求
+	1. 在node.js中它是最后一个ClientRequest实例 (in redirects)
+	2. 在浏览器中则是 XMLHttpRequest 实例
+  request: {}
+
+获取
+```js
+axios.get('/user/12345')
+  .then(function (response) {
+    console.log(response.data);
+    console.log(response.status);
+    console.log(response.statusText);
+    console.log(response.headers);
+    console.log(response.config);
+  });
+```
 # 发送请求时的配置
   ## [[URL]] 
   url: '/user',
