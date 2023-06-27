@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -940,8 +940,14 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-06-27",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1624,17 +1630,17 @@
                 "id": "4096e9c1a181fdc1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Object.prototype",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.prototype.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":38},\"to\":{\"line\":19,\"ch\":38}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "普通对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/普通对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":22},\"to\":{\"line\":24,\"ch\":22}}}"
                     },
                     {
                       "title": "数据类型",
@@ -1683,7 +1689,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1731,7 +1737,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1758,7 +1764,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1786,7 +1792,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1910,7 +1916,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -1923,7 +1930,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 28.98876404494382,
+        "dimension": 28.988764044943817,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -2106,22 +2113,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "4096e9c1a181fdc1",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0627-231321-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-231754-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0627-231718-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0627-231630-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0627-231627-DESKTOP-YLL-Job1.log",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "Day Planners/2023-06-27.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/_gsdata_/2023-0627-231321-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-231251-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-231221-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-231151-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0627-231121-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-231051-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
-    "笔记/_gsdata_/2023-0627-231021-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-230951-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0627-230921-DESKTOP-YLL-Job1.log",
     "笔记/内心/当下的力量.md",
     "笔记/行为/健身/部位/腿部.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/异步JS.md",
@@ -2136,14 +2148,9 @@
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/编程语言/JS/基本概念/普通对象.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
-    "笔记/前端/编程语言/JS/面向对象编程.md",
-    "笔记/前端/工程化/规范/ESLint/extends.md",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
