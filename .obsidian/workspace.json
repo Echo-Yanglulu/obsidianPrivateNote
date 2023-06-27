@@ -1694,24 +1694,24 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":12},\"to\":{\"line\":158,\"ch\":12}},\"scroll\":4.765205091937765}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":147,\"ch\":21},\"to\":{\"line\":147,\"ch\":21}},\"scroll\":117.89305402425579}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/class.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2094,7 +2094,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "72bf083a817e1ebb",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
