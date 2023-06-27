@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "axios",
-      "path": "笔记/前端/编程语言/JS/axios.md"
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
     },
     {
-      "basename": "网络请求",
-      "path": "笔记/前端/编程语言/JS/网络请求.md"
+      "basename": "Global",
+      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
     },
     {
       "basename": "HTTP状态码",
       "path": "笔记/前端/编程语言/JS/HTTP状态码.md"
     },
     {
-      "basename": "Global",
-      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "axios",
+      "path": "笔记/前端/编程语言/JS/axios.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
       "basename": "网络请求库",
@@ -27,10 +35,6 @@
     {
       "basename": "最佳实践",
       "path": "笔记/前端/编程语言/JS/最佳实践.md"
-    },
-    {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "react组件",
@@ -195,10 +199,6 @@
     {
       "basename": "束缚",
       "path": "笔记/内心/束缚.md"
-    },
-    {
-      "basename": "幻象",
-      "path": "笔记/工具/思考/幻象.md"
     }
   ],
   "omittedPaths": [
