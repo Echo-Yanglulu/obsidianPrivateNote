@@ -12,6 +12,8 @@
 	3. 可直接创建一个落定的Promise对象
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
+特性
+	1. 状态的变化不可逆
 每次链式调用，都会返回一个落定的promise，如果有异常，则落定为rejected状态，否则是fulfilled状态
 # API
 

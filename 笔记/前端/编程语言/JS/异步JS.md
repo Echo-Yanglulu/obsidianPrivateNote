@@ -35,7 +35,7 @@
 包含：同步脚本，定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
 ## 微任务
 定义：有一个专门的微任务队列。
-包含：process.nextTick(node 独有)、Promise.then()、MutationObserver、Object.observe
+包含：process.nextTick(node 独有)、Promise.then()、async/await、MutationObserver、Object.observe
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。为什么？
 
