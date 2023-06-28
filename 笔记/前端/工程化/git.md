@@ -119,7 +119,7 @@ git 仓库中特定事件触发后被调用的脚本。
 		1. 之后的提交还在，但不在暂存区
 	2. git revert 提交：生成一个*撤销一次提交*的新改动
 		1. git revert HEAD：撤销此次提交
-		2. 创建新提交：提交内容是对上次提交的撤销
+	3. 区别：revert可push
 
 # 最佳实践
 1. commit offen, perfect later[^1].
