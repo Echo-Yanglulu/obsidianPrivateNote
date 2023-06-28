@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/Function.md"
+                    "file": "笔记/前端/编程语言/JS/闭包.md"
                   }
                 }
               }
@@ -1630,17 +1630,17 @@
                 "id": "4096e9c1a181fdc1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":16},\"to\":{\"line\":45,\"ch\":16}},\"scroll\":25.68421052631579}"
                     },
                     {
                       "title": "普通对象",
@@ -1695,7 +1695,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/Function.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1770,7 +1770,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Function.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1798,7 +1798,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Function.md",
+                        "file": "笔记/前端/编程语言/JS/闭包.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2119,8 +2119,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "70dfb299d7c66e98",
+  "active": "7fe7a153765941e7",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "Day Planners/2023-06-28.md",
@@ -2153,7 +2154,6 @@
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
-    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
