@@ -32,7 +32,7 @@
 宏任务是浏览器规定的，微任务是ES6语法规定的。
 ## 宏任务
 定义：
-包含：定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
+包含：同步脚本，定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
 ## 微任务
 定义：有一个专门的微任务队列。
 包含：process.nextTick(node 独有)、Promise.then()、Object.observe、MutationObserver
@@ -40,9 +40,10 @@
 微任务的执行先于宏任务。为什么？
 
 执行一段添加DOM的JS操作后（调用栈清空后），浏览器开始渲染DOM，然后再开始轮询任务队列
-	1. 微任务执行
-	2. DOM渲染
-	3. 宏任务执行
+	1. 调用栈清空
+	2. 微任务执行
+	3. DOM渲染
+	4. 宏任务执行
 因为，**微任务在DOM渲染前执行，宏任务在DOM渲染后执行**，所以，微任务的执行先于宏任务。为何先微任务？
 	1. 从[[event-loop]]出发，理解为何微任务先执行
 ## 执行顺序
