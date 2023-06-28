@@ -45,17 +45,18 @@
 10. gi reset
 	1. 无命令：取消暂存
 	2. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
-11. git branch
+11. git revert
+12. git branch
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
-12. git remote
+13. git remote
 	1. 无命令：查看连接的远程仓库
 	2. -v  查看本地与远程的仓库
 	3. add origin
 		1. add github git@github.com:gitajodif/git_learning.git  添加某个常用仓库并命名
-13. git list
-14. git diff 比较两个提交的差异
+14. git list
+15. git diff 比较两个提交的差异
 	1. HEAD HEAD~2/HEAD^^
-15. gitk 查看diff
+16. gitk 查看diff
 	1. 每个终点，都代表当前仓库有至少一个分支
 ## 别名
 系统中的.gitconfig文件
@@ -88,6 +89,9 @@ git 仓库中特定事件触发后被调用的脚本。
 	1. git rebase -i 最旧的commit hash值
 5. 把非连续的多个commit合并为1个
 6. diff当前HEAD与暂存区
+7. 回滚
+	1. git reset
+	2. git revert
 
 # 最佳实践
 1. commit offen, perfect later[^1].
