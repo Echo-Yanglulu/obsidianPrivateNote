@@ -1,5 +1,5 @@
 # 概述
-HEAD：当前提交
+HEAD：当前所在的提交记录
 HEAD~1：上一个提交
 # 工作流
 [[git flow]] 
@@ -92,7 +92,11 @@ git 仓库中特定事件触发后被调用的脚本。
 	1. git rebase -i 最旧的commit hash值
 5. 把非连续的多个commit合并为1个
 6. diff当前HEAD与暂存区
-7. 回滚/撤销
+7. 在提交树上移动
+8. 合并
+	1. merge
+	2. rebase
+9. 回滚/撤销
 	1. git reset hash：让当前分支指向某个commit
 		1. 该提交之后的提交还在，但不在暂存区
 	2. git revert：改动内容为*撤销某次提交*，
