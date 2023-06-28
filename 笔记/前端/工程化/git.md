@@ -1,3 +1,5 @@
+# 概述
+HEAD~1：向上移动一次
 # 工作流
 [[git flow]] 
 规范：[[git工程规范]] 
@@ -89,8 +91,8 @@ git 仓库中特定事件触发后被调用的脚本。
 	1. git rebase -i 最旧的commit hash值
 5. 把非连续的多个commit合并为1个
 6. diff当前HEAD与暂存区
-7. 回滚
-	1. git reset
+7. 回滚、撤销
+	1. git reset hash：让当前分支指向某个commit
 	2. git revert
 
 # 最佳实践
