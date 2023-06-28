@@ -35,7 +35,7 @@
 包含：同步脚本，定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
 ## 微任务
 定义：有一个专门的微任务队列。
-包含：process.nextTick(node 独有)、Promise.then()、Object.observe、MutationObserver
+包含：process.nextTick(node 独有)、Promise.then()、MutationObserver、Object.observe
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。为什么？
 
@@ -43,7 +43,7 @@
 	1. 调用栈清空
 	2. 微任务执行【存在专用的微任务队列】
 	3. 尝试[[DOM]]渲染
-	4. 触发event-loop。轮询回调队列【专用于对宏任务排队】
+	4. 触发event-loop。轮询回调队列【专用于对宏任务队列】
 因为，**微任务在DOM渲染前执行，宏任务在DOM渲染后执行**，所以，微任务的执行先于宏任务。为何先微任务？
 	1. 从[[event-loop]]出发，理解为何微任务先执行
 ## 执行顺序
