@@ -128,7 +128,7 @@ git 仓库中特定事件触发后被调用的脚本。
 		3. 合并
 9. 本地栈式提交
 10. 添加标签
-	1. git tag tag1 
+	1. git tag tag1 C1。不添加提交，则指向HEAD
 11. 合并
 	1. merge
 	2. rebase
