@@ -1862,7 +1862,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "困扰",
+                "query": "闭包",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1923,7 +1923,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2119,9 +2119,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fe7a153765941e7",
+  "active": "95ce1f5b49d8aae4",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/作用域.md",
+    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/Function.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "Day Planners/2023-06-28.md",
@@ -2152,11 +2155,8 @@
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/高级语言.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
