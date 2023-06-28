@@ -93,7 +93,9 @@ git 仓库中特定事件触发后被调用的脚本。
 6. diff当前HEAD与暂存区
 7. 回滚、撤销
 	1. git reset hash：让当前分支指向某个commit
-	2. git revert
+		1. 该提交之后的提交还在，但不在暂存区
+	2. git revert：撤销某次提交
+		1. git revert HEAD：撤销此次提交
 
 # 最佳实践
 1. commit offen, perfect later[^1].
