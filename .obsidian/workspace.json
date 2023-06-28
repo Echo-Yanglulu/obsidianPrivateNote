@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/闭包.md"
+                    "file": "笔记/前端/编程语言/JS/异步JS.md"
                   }
                 }
               }
@@ -1743,7 +1743,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1770,7 +1770,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1798,7 +1798,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2119,8 +2119,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1a664d953d560253",
+  "active": "2a36e5ae117cee5e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/async.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/作用域.md",
@@ -2148,15 +2151,12 @@
     "笔记/内心/当下的力量.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/高级语言.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
