@@ -91,6 +91,7 @@ git status => gst
 # git hook
 git 仓库中特定事件触发后被调用的脚本。
 	1. 提升协同代码质量
+
 # 常用操作
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
@@ -111,11 +112,12 @@ git 仓库中特定事件触发后被调用的脚本。
 	1. merge
 	2. rebase
 9. 回滚/撤销
-	1. git reset hash：让当前分支指向某个commit
-		1. 该提交之后的提交还在，但不在暂存区
-	2. git revert：改动内容为*撤销某次提交*，
+	1. git reset 提交：让当前分支指向某个commit
+		1. 之后的提交还在，但不在暂存区
+	2. git revert 提交：生成一个*撤销某次提交*的新改动
 		1. git revert HEAD：撤销此次提交
 		2. 创建新提交：提交内容是对上次提交的撤销
+
 # 最佳实践
 1. commit offen, perfect later[^1].
 	1. 用git rebase -i合并多次提交。通过最后的合并，隐藏香肠的丑陋制做过程。
@@ -136,3 +138,4 @@ git 仓库中特定事件触发后被调用的脚本。
 [^2]: git 图会生成很多开叉
 [^3]: 适用于多个使用一个分支的情况：把没有push的提交作为最新提交，拉取的提交作为历史提交。
 [^4]: fast-forward是git merge 的默认行为。即如果合并到master分支时master没有其他提交，则master会直接指向当前分支。导致master记录太多。相同情况使用no-ff则会为此次合并在master生成一个新的提交记录。便于单独查看master的提交记录。
+
