@@ -95,8 +95,9 @@ git 仓库中特定事件触发后被调用的脚本。
 7. 回滚/撤销
 	1. git reset hash：让当前分支指向某个commit
 		1. 该提交之后的提交还在，但不在暂存区
-	2. git revert：生成一次新改动改动内容为*撤销某次提交*，
+	2. git revert：改动内容为*撤销某次提交*，
 		1. git revert HEAD：撤销此次提交
+		2. 创建新提交：提交内容是对上次提交的撤销
 # 最佳实践
 1. commit offen, perfect later[^1].
 	1. 用git rebase -i合并多次提交。通过最后的合并，隐藏香肠的丑陋制做过程。
