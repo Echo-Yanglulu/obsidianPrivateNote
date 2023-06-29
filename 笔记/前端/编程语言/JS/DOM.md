@@ -56,9 +56,15 @@ name：伪数组
 tagName：伪数组
 className：伪数组
 querySelectorAll(标签名)
-## 获取属性
-p.style.className
+## 设置属性
+### property
+修改不会作用到标签
+p.style.width = '23px'
+p.className='red' // 因为class是关键字
 p.nodeName
 p.nodeType
+### attribute
+修改会作为到标签
+p.setAttribute('date-name', 'mooc')
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
