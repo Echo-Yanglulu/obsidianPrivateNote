@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
                   }
                 }
               }
@@ -975,6 +975,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":19},\"to\":{\"line\":11,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
                       "title": "Global",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1183,7 +1189,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1840,7 +1846,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1868,7 +1874,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2191,8 +2197,10 @@
   },
   "active": "1059ac7f5554b1c1",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS API.md",
     "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/编程语言/JS/SVG.md",
+    "笔记/前端/编程语言/JS/JS API.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/学习/记忆宫殿.md",
@@ -2216,8 +2224,6 @@
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/工具/思考/记忆/间隔重复.md",
-    "笔记/工具/心理学/情绪/情绪.md",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
