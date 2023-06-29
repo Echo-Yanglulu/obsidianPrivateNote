@@ -43,6 +43,7 @@ HEAD~1：上一个提交
 2. 远程分支在本地仓库的引用
 	1. 只读
 	2. git fetch：远程仓库中的分支同步更新到本地仓库中的远程分支
+	3. git pull：git fetch + git merge 。能不能把merge改成rebase？
 3. 远程分支
 ### 操作
 创建
@@ -53,6 +54,8 @@ HEAD~1：上一个提交
 ## HEAD
 定义：当前浏览的提交
 分离HEAD：当前浏览的提交不是最新提交
+# 自定义命令
+实现git fetch + git rebase
 # 工作流
 [[git flow]] 
 规范：[[git工程规范]] 
