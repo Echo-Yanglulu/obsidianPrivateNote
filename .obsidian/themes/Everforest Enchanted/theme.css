@@ -296,19 +296,19 @@
 }
 
 /* Make gutters not affect the content flow for unstacked tabs */
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-contentContainer,
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-contentContainer,
 body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-contentContainer {
   display: grid !important;
 }
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width :is(.cm-gutters,.cm-content),
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) :is(.cm-gutters,.cm-content),
 body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width :is(.cm-gutters,.cm-content) {
   grid-area: 1 / -1;
 }
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-content,
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-content,
 body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-content {
   width: unset !important;
 }
-.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width .cm-gutters,
+.workspace-tabs:not(.mod-stacked) .mod-cm6.is-readable-line-width:not(.full-width) .cm-gutters,
 body:not(.stacked-panes-gutter-disable-float) .workspace-tabs.mod-stacked .mod-cm6.is-readable-line-width .cm-gutters {
   justify-self: left;
   translate: -100% 0;
@@ -454,8 +454,9 @@ del {
   padding: 0.1em 0.25em;
   border-radius: var(--radius-s)
 }
+/* Fix other elements' inline code */
 .cm-s-obsidian span.cm-inline-code:not(.cm-formatting),
-.markdown-rendered :is(table, p, li) code {
+.markdown-rendered :is(table, p, li, .callout-title-inner) code {
   color: var(--code-inline);
 }
 
@@ -565,6 +566,7 @@ pre.language-regex::after { content: "Regex" }
 pre.language-lua::after { content: "Lua" }
 pre.language-haskell::after { content: "Haskell" }
 pre.language-vim::after { content: "vimrc" }
+pre.language-rust::after { content: "Rust" }
 
 
 /** Links **/
@@ -882,7 +884,7 @@ settings:
 -
   id: workspace-settings
   title: Editor
-  description: Line length, floating gutters
+  description: Line length, floating gutters, highlighted active folders
   type: heading
   level: 1
   collapsed: true
@@ -894,9 +896,21 @@ settings:
   default: 700
   format: px
 -
+  id: wide-width-readable-line-length-custom
+  title: Wide Line length
+  description: Sets a custom readable line width for the CSS class "wide-width" in pixels
+  type: variable-number
+  default: 1000
+  format: px
+-
   id: stacked-panes-gutter-disable-float
   title: Disable stacked tabs floating gutters
   description: Disables custom gutter floating in the stacked tab mode. This makes gutters shift over the content in stacked tabs. Use this if your panes are too thin to show gutters.
+  type: class-toggle
+-
+  id: highlighted-folders
+  title: Enable highlighted active folders
+  description: Adds a background on opened folders.
   type: class-toggle
 -
   id: element-settings
@@ -1112,6 +1126,12 @@ settings:
   border-width: 0 var(--table-border-width) var(--table-border-width) 0;
 }
 
+/* Highlighted folders */
+body.highlighted-folders .nav-folder:not(.is-collapsed, .mod-root) {
+  border-radius: var(--radius-s);
+  background-color: rgba(var(--mono-rgb-100), 0.05);
+}
+
 /** Custom Stacked Panes **/
 
 .custom-stacked-panes-enabled .mod-vertical .mod-stacked .workspace-leaf {
@@ -1231,7 +1251,7 @@ body.background-image-enabled {
 .callout-title {
   padding: 0.5rem 0.75rem;
   gap: 0.5rem;
-  border-radius: 4px 4px 0 0;
+  border-radius: 2px 2px 0 0;
   background-color: rgba(var(--callout-color), 0.2);
 }
 .callout.is-collapsible .callout-title {
@@ -1241,19 +1261,18 @@ body.background-image-enabled {
   color: rgb(var(--callout-color));
 }
 .callout-title-inner {
+  color: color-mix(in srgb, rgb(var(--callout-color)) 70%, var(--color-base-100));
+  filter: contrast(2);
 }
-.theme-dark :is(.callout-icon svg.svg-icon, .callout-title-inner) {
-  filter: brightness(1.4);
-}
-.theme-light :is(.callout-icon svg.svg-icon, .callout-title-inner) {
-  filter: brightness(0.7);
+.callout-title-inner > * {
+  filter: contrast(0.5);
 }
 .callout-fold {
   margin-left: auto;
 }
 .callout-content {
   border-top: var(--callout-border-dashed);
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 2px 2px;
   background-color: rgba(var(--bg-dim-rgb), 0.3);
 }
 .callout-content > *:first-child {
@@ -1474,7 +1493,7 @@ body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"
 	--file-line-width: 100%;
 }
 .wide-width {
-	--file-line-width: 1000px;
+	--file-line-width: var(--wide-width-readable-line-length-custom, 1000px);
 }
 
 /* Numbered lists to columns in read mode */
