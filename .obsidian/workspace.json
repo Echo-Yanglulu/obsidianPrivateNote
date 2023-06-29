@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/概述.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1864,7 +1864,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/概述.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1892,7 +1892,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/概述.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2213,9 +2213,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "70d3d605b0f5c13b",
+  "active": "09863fb3427c8e39",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/编程语言/JS/语句.md",
     "笔记/前端/基础知识/调试.md",
     "笔记/前端/编程语言/JS/JS调试.md",
@@ -2226,14 +2230,10 @@
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/生成器.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器调试.md",
-    "笔记/前端/编程语言/JS/浏览器规范.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/SVG.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/学习/记忆宫殿.md",
-    "笔记/前端/编程语言/JS/概述.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "Day Planners/2023-06-29.md",
