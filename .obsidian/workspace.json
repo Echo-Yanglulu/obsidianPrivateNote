@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/学习/概念/获取.md"
                   }
                 }
               }
@@ -1875,7 +1875,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/概念/获取.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1903,7 +1903,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/概念/获取.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2224,10 +2224,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "408682fa5b00ad3c",
   "lastOpenFiles": [
-    "笔记/行为/人的行为.md",
     "笔记/学习/学习.md",
+    "笔记/工具/通用概念/提问.md",
+    "笔记/行为/人的行为.md",
     "笔记/反思/反思.md",
     "笔记/学习/概念/压缩.md",
     "笔记/学习/概念/测试.md",
@@ -2253,7 +2254,6 @@
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/location.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
