@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/工具/思考/记忆/检索.md"
                   }
                 }
               }
@@ -1781,7 +1781,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/工具/思考/记忆/检索.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1809,7 +1809,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/工具/思考/记忆/检索.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2130,10 +2130,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "588346c1da3b59bb",
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/检索.md",
+    "笔记/工具/思考/记忆/编码.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-06-29.md",
@@ -2158,7 +2159,6 @@
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/基础知识/编译原理/编译器.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
