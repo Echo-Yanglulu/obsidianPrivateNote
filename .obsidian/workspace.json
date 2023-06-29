@@ -1169,10 +1169,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-06-28",
+                      "title": "2023-06-13",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/daily/2023-06-13.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":8}}}"
                     },
                     {
                       "state": "{}",
@@ -2133,11 +2133,12 @@
   },
   "active": "4096e9c1a181fdc1",
   "lastOpenFiles": [
+    "Day Planners/daily/2023-06-13.md",
+    "笔记/前端/工程化/git.md",
+    "Day Planners/2023-06-28.md",
     "笔记/学习/学习.md",
     "笔记/工具/思考/记忆/记忆.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/assets/Pasted image 20230628184345.png",
-    "Day Planners/2023-06-28.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -2169,7 +2170,6 @@
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "Day Planners/2023-06-27.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/内心/当下的力量.md",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
