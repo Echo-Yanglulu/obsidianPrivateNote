@@ -41,7 +41,7 @@ sendBeacon()：异步传输一些小数据
 serviceWorker：返回用来与ServiceWorker实例交互的ServiceWorkerContainer
 share()：返回当前平台的原生共享机制
 storage：返回暴露Storage API的StorageManager对象
-userAgent：返回浏览器的**用户代理字符串**
+userAgent：返回浏览器的**用户代理字符串**[^1] 
 vendor：返回**浏览器的厂商**名称
 vendorSub：返回浏览器厂商的更多信息
 vibrate()：触发设备振动
@@ -63,3 +63,5 @@ navigator.registerProtocolHandler(协议，处理该协议的URL，应用名)
 	3. 某种协议
 		1. mailto
 		2. ftp
+
+[^1]: 常用。简称UA：某个浏览器的UA是什么
