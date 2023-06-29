@@ -1,6 +1,6 @@
 # 概述
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
-定义：是HTML与XML**文档的编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。【生成对文档的结构化的表示，然后提供方式对该表示进行访问】
+定义：是[[HTML]]与[[XML]]**文档的编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。【生成对文档的结构化的表示，然后提供方式对该表示进行访问】
 概要
 	1. 介绍 DOM，即文档对象模型，主要是 DOM Level 1 定义的 API。
 	2. 简单讨论 XML 及其与 DOM 的关系，
