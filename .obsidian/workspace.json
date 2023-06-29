@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-24",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-24.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":22},\"to\":{\"line\":11,\"ch\":22}}}"
                     },
                     {
                       "title": "整体性学习",
@@ -173,7 +173,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2130,13 +2130,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bb7e0d08a24e4287",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
     "笔记/学习/学习.md",
+    "Day Planners/2023-06-29.md",
     "笔记/学习/概念/费曼技巧.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/node/git命令.md",
-    "Day Planners/2023-06-29.md",
     "Day Planners/daily/2023-06-13.md",
     "Day Planners/2023-06-28.md",
     "笔记/工具/思考/记忆/记忆.md",
