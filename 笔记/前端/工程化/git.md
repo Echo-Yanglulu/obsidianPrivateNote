@@ -45,7 +45,7 @@ git status
 2. 远程分支在本地仓库的引用
 	1. 只读
 	2. git fetch：远程仓库中的分支同步更新到本地仓库中的远程分支
-	3. git pull：git fetch + git merge 。能不能把merge改成rebase？
+	3. git pull：git fetch + git merge 。能不能把merge改成rebase？git pull --rebase
 3. 远程分支
 ### 操作
 > 本地
