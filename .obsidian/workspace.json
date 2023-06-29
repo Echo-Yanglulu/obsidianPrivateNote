@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md"
+                    "file": "笔记/前端/基础知识/调试.md"
                   }
                 }
               }
@@ -975,6 +975,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}}}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":19},\"to\":{\"line\":11,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "宿主环境",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/宿主环境.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}}}"
+                    },
+                    {
                       "title": "浏览器",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1189,7 +1207,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+                    "file": "笔记/前端/编程语言/JS/JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1846,7 +1864,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+                        "file": "笔记/前端/基础知识/调试.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1874,7 +1892,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+                        "file": "笔记/前端/基础知识/调试.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2195,19 +2213,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1059ac7f5554b1c1",
+  "active": "c84086b41cee0142",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器规范.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/JS工具.md",
+    "笔记/前端/编程语言/JS/JS API.md",
+    "笔记/前端/编程语言/JS/元编程.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
+    "笔记/前端/工程化/node/node.md",
+    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
+    "笔记/前端/编程语言/JS/基本概念/生成器.md",
     "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器调试.md",
+    "笔记/前端/编程语言/JS/浏览器规范.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/SVG.md",
-    "笔记/前端/编程语言/JS/JS API.md",
-    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/学习/记忆宫殿.md",
     "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "Day Planners/2023-06-29.md",
@@ -2218,12 +2241,7 @@
     "笔记/学习/概念/比喻.md",
     "笔记/学习/概念/压缩.md",
     "笔记/学习/概念/费曼技巧.md",
-    "笔记/学习/概念/理解.md",
-    "笔记/工具/思考/记忆/检索.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
-    "笔记/学习/概念/概念.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
