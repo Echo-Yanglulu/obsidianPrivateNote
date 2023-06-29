@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS事件.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器.md"
                   }
                 }
               }
@@ -1810,7 +1810,7 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":174,\"ch\":14},\"to\":{\"line\":174,\"ch\":14}},\"scroll\":141.66666666666666}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":174,\"ch\":14},\"to\":{\"line\":174,\"ch\":14}},\"scroll\":157.12421052631578}"
                     },
                     {
                       "title": "class",
@@ -1842,7 +1842,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.091299677765841,
+            "dimension": 15.091299677765843,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1864,7 +1864,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS事件.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1892,7 +1892,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS事件.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2213,11 +2213,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "ac5b754fd148996a",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/react合成事件.md",
     "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器事件.md",
+    "笔记/前端/工程化/node/node事件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/react合成事件.md",
     "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/History.md",
@@ -2235,12 +2239,8 @@
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2.md",
     "笔记/前端/编程语言/JS/DOM 3.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/HTML/iframe.md",
-    "笔记/前端/编程语言/JS/XML.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
