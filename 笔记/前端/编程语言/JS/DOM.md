@@ -50,21 +50,24 @@ offsetWidth：3个
 # 方法
 window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
-## 获取DOM节点
+## DOM节点
+### 获取
 id
 name：伪数组
 tagName：伪数组
 className：伪数组
 querySelectorAll(标签名)
-## 设置属性
-### property
-修改的是JS获取到的元素，不会作用到标签
+### 设置属性
+两种方式
+1. property
+修改的是JS获取到的元素的**对象的属性**，*不会作用到标签*
 p.style.width = '23px'
 p.className='red' // 因为class是关键字
 p.nodeName
 p.nodeType
-### attribute
-修改会作用到标签
+2. attribute
+修改HTML**标签的属性**，会作用到标签
 p.setAttribute('date-name', 'mooc')
+都可能引起DOM重新渲染。尽量使用property。
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
