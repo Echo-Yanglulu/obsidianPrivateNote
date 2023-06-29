@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -184,24 +184,24 @@
                 "id": "56f086595700fd4f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "检索",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/检索.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":75,\"ch\":0},\"to\":{\"line\":75,\"ch\":0}},\"scroll\":37.58796296296296}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/检索.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1800,7 +1800,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -1827,7 +1828,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1855,7 +1856,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2176,11 +2177,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "56f086595700fd4f",
   "lastOpenFiles": [
-    "笔记/学习/记忆宫殿.md",
     "笔记/工具/思考/记忆/检索.md",
     "笔记/学习/学习.md",
+    "笔记/学习/记忆宫殿.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/学习/概念/概念.md",
     "笔记/前端/工程化/git.md",
