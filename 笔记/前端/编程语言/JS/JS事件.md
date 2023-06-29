@@ -9,4 +9,4 @@
 ## 事件绑定
 addEventListener
 # 相关
-react合成事件
+[[react合成事件]] 
