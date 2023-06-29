@@ -56,6 +56,9 @@ name：伪数组
 tagName：伪数组
 className：伪数组
 querySelectorAll(标签名)
-
+## 获取属性
+p.style.className
+p.nodeName
+p.nodeType
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
