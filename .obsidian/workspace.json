@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/检索.md"
+                    "file": "笔记/学习/概念/概念.md"
                   }
                 }
               }
@@ -1194,17 +1194,17 @@
                 "id": "4096e9c1a181fdc1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "git",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":6},\"to\":{\"line\":14,\"ch\":6}}}"
                     },
                     {
                       "title": "Function",
@@ -1271,7 +1271,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md",
+                    "file": "笔记/学习/概念/概念.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1795,7 +1795,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -1822,7 +1822,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/检索.md",
+                        "file": "笔记/学习/概念/概念.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1850,7 +1850,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/检索.md",
+                        "file": "笔记/学习/概念/概念.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2170,14 +2170,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "56f086595700fd4f",
+  "active": "4096e9c1a181fdc1",
   "lastOpenFiles": [
+    "笔记/前端/工程化/git.md",
+    "笔记/工具/思考/记忆/检索.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/费曼技巧.md",
     "笔记/学习/概念/理解.md",
-    "笔记/工具/思考/记忆/检索.md",
-    "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/前端工作.md",
