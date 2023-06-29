@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/JS事件.md"
                   }
                 }
               }
@@ -1800,23 +1800,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "History",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/History.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":44},\"to\":{\"line\":14,\"ch\":44}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "BOM",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/BOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":37},\"to\":{\"line\":129,\"ch\":37}},\"scroll\":108.67236467236467}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":174,\"ch\":14},\"to\":{\"line\":174,\"ch\":14}},\"scroll\":141.66666666666666}"
                     },
                     {
                       "title": "class",
@@ -1835,7 +1829,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/JS事件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1870,7 +1864,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/JS事件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1898,7 +1892,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/JS事件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2221,9 +2215,9 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/事件.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/工具/通用概念/事件.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/location.md",
