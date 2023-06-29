@@ -52,6 +52,10 @@ window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
 ## 获取DOM节点
 id
-tagName
+name：伪数组
+tagName：伪数组
+className：伪数组
+querySelectorAll(标签名)
+
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
