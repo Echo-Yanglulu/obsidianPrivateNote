@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":5},\"to\":{\"line\":7,\"ch\":5}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":22},\"to\":{\"line\":11,\"ch\":22}}}"
                     },
                     {
                       "title": "整体性学习",
@@ -173,7 +173,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1793,7 +1793,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1821,7 +1821,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2143,8 +2143,8 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/检索.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/检索.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
