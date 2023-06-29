@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "excalibrain.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -45,10 +45,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-06-29",
+                      "title": "软技能",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/软技能.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -1875,7 +1875,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "excalibrain.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1903,7 +1903,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "excalibrain.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2224,12 +2224,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d3887a0912a7a6e",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
-    "README.md",
-    "excalibrain.md",
-    "静态分析.md",
+    "笔记/学习/概念/测试.md",
     "笔记/学习/学习.md",
+    "笔记/学习/软技能.md",
+    "excalibrain.md",
+    "README.md",
+    "静态分析.md",
     "笔记/工具/通用概念/策略.md",
     "笔记/学习/概念/获取.md",
     "笔记/内心/当下的力量.md",
@@ -2252,8 +2254,6 @@
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/学习/概念/记笔记.md",
-    "笔记/前端/编程语言/JS/screen.md",
-    "笔记/前端/编程语言/JS/navigator.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
