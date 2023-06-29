@@ -64,6 +64,10 @@ createElement
 appendChild
 ### 移动
 先获取，再插入，节点不是复制，而是移动
+### 关系
+1. 父元素：parentNode
+2. 子元素列表：childNodes
+	1. 含元素节点、文本节点
 ### 设置属性
 两种方式
 	都可能引起DOM重新渲染。尽量使用property。
