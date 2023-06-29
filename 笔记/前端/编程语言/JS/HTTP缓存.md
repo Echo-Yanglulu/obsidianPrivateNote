@@ -24,7 +24,7 @@
 	1. 由服务端判断，是否需要
 		1. 客户端与服务端现在存的资源一样，提示304
 		2. 不一样，返回最新资源，提示200、
-	2. 初次请求，返回**资源、Last-Modified或Etag**
+	2. 初次请求，返回**资源、Last-Modified或Etag** 
 	3. 二次请求，**请求头带着if-modified-since或if-none-match** 
 		1. 资源未更新：返回304
 		2. 资源已更新：200，资源，新Last-Modified或Etag
