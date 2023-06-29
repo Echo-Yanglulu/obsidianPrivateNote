@@ -7,8 +7,8 @@
 
 # 相关
 [JS](obsidian://open?vault=obsidianPrivateNote&file=%E7%AC%94%E8%AE%B0%2Fmindmap%2Fjs.xmind)：
-# 语法
 # [[词法结构]] 
+# 语法
 # 数据
 [[值|值/数据]]，[[数据类型|类型/数据类型]]，[[变量]] 
 ## [[数据格式]] 
