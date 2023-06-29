@@ -16,6 +16,8 @@
 
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
 DOM对象是[[宿主对象]]。
+## 基本概念
+节点
 # 属性
 clientWidth：**content+padding**。
 clientHeight：content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
@@ -51,19 +53,20 @@ offsetWidth：3个
 window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
 ## DOM节点
+### 新增
+createElement
+### 插入
+appendChild
+### 删除
+removeChild
+### 移动
+先获取，再插入，节点不是复制，而是移动
 ### 获取
 id
 name：伪数组
 tagName：伪数组
 className：伪数组
 querySelectorAll(标签名)
-### 新增
-createElement
-### 删除
-### 插入
-appendChild
-### 移动
-先获取，再插入，节点不是复制，而是移动
 ### 关系
 1. 父元素：parentNode
 2. 子元素列表：childNodes
@@ -80,5 +83,9 @@ appendChild
 1. attribute
 	修改HTML**标签的属性**，会作用到标签
 	p.setAttribute('date-name', 'mooc')
+# 性能
+原因：DOM操作非常“昂贵”
+方案
+	1. 
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
