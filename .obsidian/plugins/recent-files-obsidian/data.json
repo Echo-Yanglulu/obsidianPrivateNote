@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "BOM",
+      "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
+      "basename": "History",
+      "path": "笔记/前端/工程化/History.md"
+    },
+    {
+      "basename": "location",
+      "path": "笔记/前端/编程语言/JS/location.md"
+    },
+    {
       "basename": "学习",
       "path": "笔记/学习/学习.md"
     },
@@ -13,24 +29,12 @@
       "path": "笔记/学习/概念/理解.md"
     },
     {
-      "basename": "location",
-      "path": "笔记/前端/编程语言/JS/location.md"
-    },
-    {
-      "basename": "BOM",
-      "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
       "basename": "screen",
       "path": "笔记/前端/编程语言/JS/screen.md"
     },
     {
       "basename": "navigator",
       "path": "笔记/前端/编程语言/JS/navigator.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "window",
@@ -195,10 +199,6 @@
     {
       "basename": "原型对象",
       "path": "笔记/前端/编程语言/JS/基本概念/原型对象.md"
-    },
-    {
-      "basename": "编程语言",
-      "path": "笔记/前端/编程语言/编程语言.md"
     }
   ],
   "omittedPaths": [

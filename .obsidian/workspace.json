@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1800,23 +1800,23 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
                     {
-                      "state": "{}",
-                      "eState": "{}"
+                      "title": "History",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/History.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":44},\"to\":{\"line\":14,\"ch\":44}},\"scroll\":0}"
                     },
                     {
                       "title": "BOM",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/BOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":167,\"ch\":15},\"to\":{\"line\":167,\"ch\":15}},\"scroll\":145.4212962962963}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":37},\"to\":{\"line\":129,\"ch\":37}},\"scroll\":108.67236467236467}"
                     },
                     {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":171,\"ch\":13},\"to\":{\"line\":171,\"ch\":13}},\"scroll\":140.4814814814815}"
+                      "state": "{}",
+                      "eState": "{}"
                     },
                     {
                       "title": "class",
@@ -1835,14 +1835,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/location.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -1869,7 +1870,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1897,7 +1898,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2218,18 +2219,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/学习/概念/获取.md",
+    "笔记/工具/通用概念/事件.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/工程化/History.md",
+    "笔记/前端/编程语言/JS/location.md",
     "笔记/学习/学习.md",
+    "笔记/学习/概念/获取.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/学习/概念/记笔记.md",
-    "笔记/前端/编程语言/JS/location.md",
-    "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/navigator.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -2243,9 +2247,6 @@
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/浏览器规范.md",
-    "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/语句.md",
-    "笔记/前端/基础知识/调试.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
