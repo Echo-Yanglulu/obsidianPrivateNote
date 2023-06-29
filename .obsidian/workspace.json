@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/BOM.md"
                   }
                 }
               }
@@ -1800,17 +1800,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "DOM",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":12},\"to\":{\"line\":82,\"ch\":12}},\"scroll\":57.49725526075023}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":8},\"to\":{\"line\":164,\"ch\":8}},\"scroll\":146.37927232635062}"
                     },
                     {
                       "title": "class",
@@ -1829,7 +1829,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1864,7 +1864,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1892,7 +1892,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2215,9 +2215,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2.md",
@@ -2240,7 +2241,6 @@
     "笔记/前端/工程化/node/node.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/生成器.md",
-    "笔记/前端/编程语言/JS/浏览器调试.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
