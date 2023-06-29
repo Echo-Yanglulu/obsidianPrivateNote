@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/检索.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -1372,17 +1372,29 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-06-27",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-06-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":814,\"ch\":16},\"to\":{\"line\":814,\"ch\":16}},\"scroll\":789.4572}"
                     },
                     {
                       "title": "react组件",
@@ -1707,7 +1719,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "file": "笔记/前端/库、框架/UI库/react组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1754,7 +1766,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1781,7 +1794,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/检索.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1809,7 +1822,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/检索.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2129,11 +2142,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0cb86963c78a6aad",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/间隔重复.md",
-    "笔记/工具/思考/记忆/检索.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/检索.md",
+    "笔记/工具/思考/记忆/间隔重复.md",
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/工具/思考/记忆/主动回忆.md",
     "笔记/工具/思考/记忆/编码.md",
@@ -2148,7 +2164,6 @@
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -2156,8 +2171,6 @@
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/async.md",
-    "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/前端/编程语言/JS/作用域.md",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",

@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "检索",
-      "path": "笔记/工具/思考/记忆/检索.md"
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "组件",
+      "path": "笔记/前端/库、框架/UI库/组件.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "记忆",
       "path": "笔记/工具/思考/记忆/记忆.md"
+    },
+    {
+      "basename": "检索",
+      "path": "笔记/工具/思考/记忆/检索.md"
     },
     {
       "basename": "情绪",
@@ -39,10 +55,6 @@
     {
       "basename": "HTTP状态码",
       "path": "笔记/前端/编程语言/JS/HTTP状态码.md"
-    },
-    {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "前端工作",
@@ -173,14 +185,6 @@
       "path": "笔记/前端/编程语言/JS/最佳实践.md"
     },
     {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "组件",
-      "path": "笔记/前端/库、框架/UI库/组件.md"
-    },
-    {
       "basename": "2023-06-26",
       "path": "Day Planners/2023-06-26.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "缓存",
       "path": "笔记/前端/工程化/缓存.md"
-    },
-    {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
     }
   ],
   "omittedPaths": [
