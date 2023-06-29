@@ -22,8 +22,8 @@ URL信息
 	5. host：域名+端口
 		1. hostname：域名
 		2. port
-	6. pathname
-	7. search：查询参数：?
-	8. hash
+	6. pathname：路径。端口后，查询参数前
+	7. search：查询参数。?name=abc&password=admin
+	8. hash：哈希。#home
 
 查询参数：?开头，单个键值对内部用=连接，键值对之间用&连接。
