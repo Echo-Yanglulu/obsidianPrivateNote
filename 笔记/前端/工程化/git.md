@@ -43,46 +43,47 @@ HEAD~1：上一个提交
 	2. --global 对*当前用户*的所有仓库有效
 	3. --system 对使用当前系统的*所有用户*的仓库有效
 	4. --list --local 查看local的git配置
-3. git status：对状态的跟踪
+3. git clone 在本地创建一个远程仓库的拷贝
+4. git status：对状态的跟踪
 	1. 文件状态
 		1. 未跟踪
 		2. 已跟踪
 			1. 工作目录
 			2. 暂存区
 			3. 提交
-4. git add
+5. git add
 	1. \. :添加【当前路径】文件到暂存区（还没有被commit：正式进入版本历史）、并跟踪文件
 	2. filename 添加该文件
 	3. portfolio
 	4. 文件名 文件夹
 	5. -u 把所有更新的文件提交到暂存区
-5. git commit
+6. git commit
 	1. --amend 修改提交信息
 	2. --amend -m '' 修改提交信息为
-6. git checkout 
+7. git checkout 
 	1.  -b a b 基于分支/提交记录b创建分支a。
-7. git rm   删除
-8. git merge 合并
-9. git rebase 变基
+8. git rm   删除
+9. git merge 合并
+10. git rebase 变基
 	1. -i  + [[hash值]] ，可**合并**该hash之后（不含）的提交。
 	2. 分支名
 		1. 将当前分支与目标分支对比，找到公共的commit，将当前分支的该commit之后的**commit移动**到目标分支
 		2. 此时目标分支仍指向旧有提交，需要更新使其指向最新节点。`git rebase bugFix`
-10. gi reset
+11. gi reset
 	1. 无命令：取消暂存
 	2. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
-11. git revert
-12. git branch
+12. git revert
+13. git branch
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
-13. git remote
+14. git remote
 	1. 无命令：查看连接的远程仓库
 	2. -v  查看本地与远程的仓库
 	3. add origin
 		1. add github git@github.com:gitajodif/git_learning.git  添加某个常用仓库并命名
-14. git list
-15. git diff 比较两个提交的差异
+15. git list
+16. git diff 比较两个提交的差异
 	1. HEAD HEAD~2/HEAD^^
-16. gitk 查看diff
+17. gitk 查看diff
 	1. 每个终点，都代表当前仓库有至少一个分支
 ## 别名
 系统中的.gitconfig文件
