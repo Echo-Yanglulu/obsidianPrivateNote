@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器事件.md"
                   }
                 }
               }
@@ -1807,6 +1807,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "JS事件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":14},\"to\":{\"line\":6,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1829,7 +1835,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JS事件.md",
+                    "file": "笔记/前端/编程语言/JS/浏览器事件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1864,7 +1870,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器事件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1892,7 +1898,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JS.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器事件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2213,11 +2219,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cd57a871e8496b4f",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/词法结构.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/前端/编程语言/JS/JS.md",
+    "笔记/前端/编程语言/JS/基本概念/词法结构.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器事件.md",
     "笔记/前端/工程化/node/node事件.md",
