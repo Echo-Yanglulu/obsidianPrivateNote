@@ -73,7 +73,7 @@ querySelectorAll(标签名)
 	1. 含元素节点、文本节点
 ### 设置属性
 两种方式
-	都可能引起DOM重新渲染。尽量使用property。
+	都可能引起*DOM重新渲染*。尽量使用property。
 1. property
 	修改的是JS获取到的元素的**对象的属性**，*不会作用到标签*
 	p.style.width = '23px'
