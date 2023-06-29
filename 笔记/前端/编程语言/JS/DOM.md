@@ -87,9 +87,9 @@ querySelectorAll(标签名)
 原因：DOM操作非常“昂贵”
 方案
 	1. 对DOM查询做缓存[^1]
-		1. 适用：多次获取DOM
+		1. 适用：多次*获取*DOM
 	2. 批处理：将频繁操作组合为一次操作
-		1. 适用：多次插入DOM。应当多次创建，通过createDocumentFragment一次插入
+		1. 适用：多次*插入*DOM。应：多次创建，通过createDocumentFragment（）一次插入
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
 
