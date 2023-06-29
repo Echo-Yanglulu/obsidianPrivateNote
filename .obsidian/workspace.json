@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/navigator.md"
+                    "file": "笔记/前端/编程语言/JS/location.md"
                   }
                 }
               }
@@ -1810,7 +1810,7 @@
                       "title": "BOM",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/BOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":16},\"to\":{\"line\":15,\"ch\":16}},\"scroll\":0}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":167,\"ch\":15},\"to\":{\"line\":167,\"ch\":15}},\"scroll\":145.4212962962963}"
                     },
                     {
                       "title": "前端工作",
@@ -1835,7 +1835,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/navigator.md",
+                    "file": "笔记/前端/编程语言/JS/location.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1870,7 +1870,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/navigator.md",
+                        "file": "笔记/前端/编程语言/JS/location.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1898,7 +1898,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/navigator.md",
+                        "file": "笔记/前端/编程语言/JS/location.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2222,6 +2222,8 @@
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/编程语言/JS/screen.md",
+    "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/window.md",
@@ -2245,8 +2247,6 @@
     "笔记/前端/编程语言/JS/元编程.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
     "笔记/前端/工程化/node/node.md",
-    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
-    "笔记/前端/编程语言/JS/基本概念/生成器.md",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/_gsdata_/2023-0627-232306-DESKTOP-YLL-Job1.log",

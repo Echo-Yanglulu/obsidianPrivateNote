@@ -15,15 +15,15 @@
 特性
 	1. 是window的属性，也是document的属性
 URL信息
-	1. href
-	2. protocal
+	1. href：整个网址
+	2. protocal：协议
 	3. username
 	4. password
-	5. host
-		1. hostname
+	5. host：域名+端口
+		1. hostname：域名
 		2. port
 	6. pathname
-	7. search
+	7. search：查询参数：?
 	8. hash
 
 查询参数：?开头，单个键值对内部用=连接，键值对之间用&连接。

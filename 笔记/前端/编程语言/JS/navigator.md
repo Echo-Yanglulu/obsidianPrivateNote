@@ -42,6 +42,7 @@ serviceWorker：返回用来与ServiceWorker实例交互的ServiceWorkerContaine
 share()：返回当前平台的原生共享机制
 storage：返回暴露Storage API的StorageManager对象
 userAgent：返回浏览器的**用户代理字符串**[^1] 
+	1. `const isChrome = navigator.userAgent.indexOf('Chrome')` 
 vendor：返回**浏览器的厂商**名称
 vendorSub：返回浏览器厂商的更多信息
 vibrate()：触发设备振动
