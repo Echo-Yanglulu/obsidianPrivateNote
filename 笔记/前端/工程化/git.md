@@ -48,9 +48,14 @@ git status
 	3. git pull：git fetch + git merge 。能不能把merge改成rebase？
 3. 远程分支
 ### 操作
+> 本地
+
 创建
 合并
 删除
+> 远程
+
+更新
 推送
 ## 标签
 定义：指向某个提交
