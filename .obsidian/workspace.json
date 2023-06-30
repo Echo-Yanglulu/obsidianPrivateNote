@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-06-30.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/操作符.md"
                   }
                 }
               }
@@ -1832,7 +1832,7 @@
                       "title": "同源策略",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":23},\"to\":{\"line\":32,\"ch\":23}},\"scroll\":49.7781}"
                     },
                     {
                       "title": "网络请求",
@@ -1899,7 +1899,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-06-30.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1934,7 +1934,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-06-30.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/操作符.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1962,7 +1962,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-06-30.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/操作符.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2266,18 +2266,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "0768c14f57a89797",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "Day Planners/2023-06-30.md",
     "笔记/学习/学习.md",
     "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/JSONP.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/AJAX.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/深拷贝.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
