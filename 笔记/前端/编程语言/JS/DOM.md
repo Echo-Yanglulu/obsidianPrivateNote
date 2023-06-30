@@ -66,6 +66,7 @@ id
 name：伪数组
 tagName：伪数组
 className：伪数组
+querySelector()
 querySelectorAll(标签名)
 ### 关系
 1. 父元素：parentNode
