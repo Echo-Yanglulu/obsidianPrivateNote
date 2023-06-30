@@ -1829,6 +1829,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":23},\"to\":{\"line\":61,\"ch\":23}},\"scroll\":47.745325022261795}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1887,7 +1893,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md",
+                    "file": "笔记/前端/同源策略.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2254,10 +2260,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "057f2f2e065bc739",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/同源策略.md",
+    "笔记/前端/JSONP.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
@@ -2281,7 +2288,6 @@
     "笔记/学习/概念/PQ4R.md",
     "笔记/学习/概念/应用.md",
     "笔记/学习/概念/分析.md",
-    "笔记/学习/概念/获取.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
