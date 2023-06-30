@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "综合",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/综合.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":37},\"to\":{\"line\":8,\"ch\":37}}}"
                     },
                     {
                       "title": "学习",
@@ -173,7 +179,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/综合.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1939,7 +1945,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1967,7 +1973,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2271,15 +2277,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f00ebb72e1496aff",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
-    "笔记/学习/概念/综合.md",
-    "笔记/学习/概念/布鲁姆分类法.md",
+    "笔记/_gsdata_/2023-0630-234720-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/lock.gsl",
+    "笔记/工具/通用概念/创造.md",
+    "笔记/_gsdata_/2023-0630-234650-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0630-234617-DESKTOP-YLL-Job1.log",
     "笔记/学习/学习.md",
+    "笔记/_gsdata_/2023-0630-234532-DESKTOP-YLL-Job1.log",
+    "笔记/学习/概念/综合.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/工具/思考/记忆/整合.md",
     "笔记/学习/概念/分析.md",
     "笔记/_gsdata_/2023-0630-234450-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0630-234447-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/思维概念/联言推理.md",
     "笔记/工具/思考/思考.md",
@@ -2289,9 +2301,6 @@
     "笔记/_gsdata_/2023-0630-234341-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0630-234302-DESKTOP-YLL-Job1.log",
     "笔记/学习/概念/拓展.md",
-    "笔记/_gsdata_/2023-0630-234232-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0630-234159-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0630-234108-DESKTOP-YLL-Job1.log",
     "笔记/工具/思考/记忆/检索.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/PQ4R.md",
@@ -2306,9 +2315,6 @@
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/JSONP.md",
-    "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",
