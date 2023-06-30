@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/同源策略.md"
                   }
                 }
               }
@@ -1822,17 +1822,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "网络请求",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":23},\"to\":{\"line\":61,\"ch\":23}},\"scroll\":51.0394}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":176,\"ch\":8},\"to\":{\"line\":176,\"ch\":8}},\"scroll\":152.6122685185185}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -1887,7 +1887,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1922,7 +1922,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/同源策略.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1950,7 +1950,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/同源策略.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2254,9 +2254,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "057f2f2e065bc739",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/同源策略.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
@@ -2281,7 +2282,6 @@
     "笔记/学习/概念/应用.md",
     "笔记/学习/概念/分析.md",
     "笔记/学习/概念/获取.md",
-    "笔记/工具/通用概念/提问.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
