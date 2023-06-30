@@ -181,6 +181,28 @@
                 }
               },
               {
+                "id": "6f09210d54642c95",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习/概念/PQ4R.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "56f086595700fd4f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1848,7 +1870,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -2224,9 +2247,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "92c75b1daf798574",
+  "active": "6f09210d54642c95",
   "lastOpenFiles": [
     "笔记/学习/学习.md",
+    "笔记/学习/概念/PQ4R.md",
     "笔记/学习/概念/应用.md",
     "笔记/学习/概念/分析.md",
     "笔记/学习/概念/获取.md",
@@ -2236,7 +2260,6 @@
     "笔记/学习/认知效率.md",
     "笔记/学习/技术效率.md",
     "Day Planners/2023-06-30.md",
-    "笔记/学习/概念/PQ4R.md",
     "笔记/学习/概念/拓展.md",
     "笔记/工具/通用概念/评估.md",
     "笔记/学习/概念/理解.md",
