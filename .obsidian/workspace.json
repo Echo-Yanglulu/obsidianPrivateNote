@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md"
                   }
                 }
               }
@@ -1898,7 +1898,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1926,7 +1926,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/普通对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2249,10 +2249,11 @@
   },
   "active": "189b71d39cb5acd9",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
+    "笔记/前端/编程语言/JS/基本概念/标识符.md",
     "笔记/前端/编程语言/JS/基本概念/普通对象.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/前端工作.md",
     "笔记/学习/学习.md",
@@ -2274,7 +2275,6 @@
     "笔记/学习/概念/压缩.md",
     "笔记/学习/概念/测试.md",
     "笔记/学习/软技能.md",
-    "excalibrain.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/mindmap/记忆宫殿具体图像 (2).html",
