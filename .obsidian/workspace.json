@@ -1829,6 +1829,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":18},\"to\":{\"line\":178,\"ch\":18}},\"scroll\":157.51967592592592}"
+                    },
+                    {
                       "title": "浏览器事件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1863,7 +1869,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2247,11 +2253,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6b8ae966e12ab31a",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
