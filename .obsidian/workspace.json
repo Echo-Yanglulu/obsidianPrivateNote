@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -939,6 +939,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "活在当下指南",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":271,\"ch\":18},\"to\":{\"line\":271,\"ch\":18}},\"scroll\":257.85185185185185}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1003,7 +1009,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/活在当下指南.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1616,7 +1622,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1644,7 +1650,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/活在当下指南.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1948,23 +1954,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac45321a494cbeed",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
-    "笔记/工具/思考/幻象.md",
-    "笔记/_gsdata_/2023-0701-221730-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0701-222121-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/_gsdata_/2023-0701-222051-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0701-222021-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0701-221951-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0701-221918-DESKTOP-YLL-Job1.log",
+    "笔记/工具/思考/幻象.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/开悟.md",
+    "笔记/_gsdata_/2023-0701-221836-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/_insync_v4.gsl",
+    "笔记/_gsdata_/2023-0701-221833-DESKTOP-YLL-Job1.log",
+    "笔记/内心/活在当下指南.md",
+    "笔记/_gsdata_/2023-0701-221730-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-221727-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/时间.md",
-    "笔记/_gsdata_/2023-0701-221624-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0701-221621-DESKTOP-YLL-Job1.log",
-    "笔记/内心/活在当下指南.md",
-    "笔记/_gsdata_/2023-0701-221518-DESKTOP-YLL-Job1.log",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/_gsdata_/2023-0701-221421-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0701-221351-DESKTOP-YLL-Job1.log",
     "笔记/内心/当下的力量.md",
-    "笔记/_gsdata_/2023-0701-221321-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/学习/记忆宫殿.md",
     "笔记/前端/前端工作.md",
@@ -1984,7 +1992,6 @@
     "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/AJAX.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/assets/Pasted image 20230701142649.png",
     "笔记/前端/assets/Pasted image 20230701140146.png",
     "笔记/前端/assets/Pasted image 20230701135610.png",
