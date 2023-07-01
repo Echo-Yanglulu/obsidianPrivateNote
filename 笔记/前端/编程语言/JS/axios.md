@@ -40,7 +40,6 @@ getUri(\[config])
 axios(options)：发起请求，返回[[Promise]] 
 axios(url\[, config])
 	1. 不传config是默认的get方法
-
 ## 并发请求
 axios.all
 ```js
