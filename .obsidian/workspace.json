@@ -42,8 +42,14 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-01",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2279,6 +2285,8 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "Day Planners/2023-07-01.md",
+    "笔记/学习/学习.md",
     "笔记/_gsdata_/2023-0701-001659-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-001629-DESKTOP-YLL-Job1.log",
@@ -2289,9 +2297,7 @@
     "笔记/_gsdata_/2023-0701-001359-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-001329-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-001259-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0701-001229-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/创造.md",
-    "笔记/学习/学习.md",
     "笔记/学习/概念/综合.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习/概念/布鲁姆分类法.md",
