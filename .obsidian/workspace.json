@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/JSONP.md"
+                    "file": "笔记/前端/编程语言/JS/网络请求.md"
                   }
                 }
               }
@@ -1844,7 +1844,7 @@
                       "title": "同源策略",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":17},\"to\":{\"line\":34,\"ch\":17}},\"scroll\":4.534210526315789}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":4.534210526315789}"
                     },
                     {
                       "title": "前端工作",
@@ -1923,7 +1923,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/JSONP.md",
+                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1958,7 +1958,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/JSONP.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1986,7 +1986,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/JSONP.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2292,11 +2292,14 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/HTTP.md",
+    "笔记/前端/编程语言/JS/HTTP Header.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/JSONP.md",
     "笔记/前端/assets/Pasted image 20230701135610.png",
     "笔记/前端/assets/Pasted image 20230701135323.png",
     "笔记/前端/assets/Pasted image 20230701135228.png",
-    "笔记/前端/同源策略.md",
-    "笔记/前端/JSONP.md",
     "笔记/前端/assets/Pasted image 20230701134826.png",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/服务端.md",
@@ -2329,15 +2332,12 @@
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/工具/思考/记忆/整合.md",
-    "笔记/学习/概念/分析.md",
-    "笔记/工具/思考/思维概念/联言推理.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/前端/assets/Pasted image 20230627160445.png",
     "assets/img/shiprock.jpg",
     "笔记/前端/assets/Pasted image 20230601130853.png",
-    "笔记/前端/assets/Pasted image 20230616150834.png",
     "未命名.canvas",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"

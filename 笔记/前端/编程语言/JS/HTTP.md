@@ -21,6 +21,7 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 ## web的结构组件
 # [[URL]]与资源
 # HTTP报文
+[[HTTP Header]] 
 # 连接管理
 # HTTP结构
 ## web服务器
