@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端存储.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1847,6 +1847,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "客户端存储",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/客户端存储.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":21},\"to\":{\"line\":38,\"ch\":21}},\"scroll\":14.20486111111111}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1977,7 +1983,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端存储.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2012,7 +2018,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2040,7 +2046,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2346,9 +2352,9 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/编程语言/JS/概述.md",
-    "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/编程语言/JS/网络请求.md",
