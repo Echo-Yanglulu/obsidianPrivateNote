@@ -30,4 +30,5 @@ ajax(url)
 ```
 
 # 常用工具、插件
-[[jQuery]]对aja
+[[jQuery]]对ajax的实现，没有使用promise，有点过时。
+![[Pasted image 20230701142649.png]] 

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/AJAX.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md"
                   }
                 }
               }
@@ -1841,6 +1841,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "AJAX",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/AJAX.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":34},\"to\":{\"line\":33,\"ch\":3}},\"scroll\":0.6271186440677966}"
+                    },
+                    {
                       "title": "网络请求",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1947,7 +1953,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/AJAX.md",
+                    "file": "笔记/前端/编程语言/JS/网络请求.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1982,7 +1988,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/AJAX.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2010,7 +2016,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/AJAX.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2314,16 +2320,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "ad9ccd3af732d880",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/同源策略.md",
-    "笔记/前端/工程化/CDN.md",
     "笔记/前端/AJAX.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/assets/Pasted image 20230701142649.png",
+    "笔记/前端/工程化/CDN.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230701140146.png",
-    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/assets/Pasted image 20230701135610.png",
     "笔记/前端/assets/Pasted image 20230701135323.png",
@@ -2356,12 +2363,10 @@
     "笔记/_gsdata_/2023-0701-095720-DESKTOP-YLL-Job1.log",
     "笔记/工具/通用概念/创造.md",
     "笔记/学习/概念/综合.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",
     "笔记/前端/assets/Pasted image 20230627160445.png",
-    "assets/img/shiprock.jpg",
     "未命名.canvas",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
