@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/客户端存储.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md"
                   }
                 }
               }
@@ -1471,6 +1471,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "概述",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/概述.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":12},\"to\":{\"line\":11,\"ch\":12}}}"
+                    },
+                    {
                       "title": "JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1823,7 +1829,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/概述.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1979,7 +1985,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2006,7 +2012,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2034,7 +2040,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/客户端存储.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2338,8 +2344,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/概述.md",
+    "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/编程语言/JS/网络请求.md",
@@ -2370,7 +2378,6 @@
     "笔记/工具/哲学/逻辑学/假说.md",
     "笔记/工具/通用概念/客观.md",
     "笔记/工具/通用概念/主观.md",
-    "Day Planners/2023-07-01.md",
     "笔记/_gsdata_/2023-0701-100124-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-100049-DESKTOP-YLL-Job1.log",
@@ -2381,7 +2388,6 @@
     "笔记/_gsdata_/2023-0701-095820-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-095750-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-095720-DESKTOP-YLL-Job1.log",
-    "笔记/工具/通用概念/创造.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",

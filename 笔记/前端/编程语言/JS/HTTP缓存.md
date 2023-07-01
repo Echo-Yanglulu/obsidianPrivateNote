@@ -4,8 +4,8 @@
 
 强制缓存、协商缓存，是不是又可以称为本地缓存和服务端缓存？
 ## 强制缓存(CCE)
-1. Cache-Control
-2. Expires(老字段，已被CC代替)
+1. Expires(老字段，已被CC代替)
+2. Cache-Control
 流程
 	1. **初次请求**时，返回**资源、Cache-Control**：max-age=3153600【单位是秒】
 		2. no-cache：不使用强制缓存，让服务端处理
