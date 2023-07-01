@@ -23,6 +23,7 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 # HTTP报文
 [[HTTP Header]] 
 [[HTTP Method]] 
+body
 # 连接管理
 # HTTP结构
 ## web服务器
