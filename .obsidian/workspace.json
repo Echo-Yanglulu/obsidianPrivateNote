@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/同源策略.md"
+                    "file": "笔记/前端/JSONP.md"
                   }
                 }
               }
@@ -1841,6 +1841,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "同源策略",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":17},\"to\":{\"line\":34,\"ch\":17}},\"scroll\":4.534210526315789}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1917,7 +1923,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/同源策略.md",
+                    "file": "笔记/前端/JSONP.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1952,7 +1958,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/JSONP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1980,7 +1986,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/JSONP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2286,9 +2292,11 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230701135323.png",
+    "笔记/前端/assets/Pasted image 20230701135228.png",
+    "笔记/前端/同源策略.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/assets/Pasted image 20230701134826.png",
-    "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/服务端.md",
     "笔记/前端/前端工作.md",
@@ -2322,7 +2330,6 @@
     "笔记/工具/思考/记忆/整合.md",
     "笔记/学习/概念/分析.md",
     "笔记/工具/思考/思维概念/联言推理.md",
-    "笔记/工具/思考/思考.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",
@@ -2331,7 +2338,6 @@
     "笔记/前端/assets/Pasted image 20230601130853.png",
     "笔记/前端/assets/Pasted image 20230616150834.png",
     "笔记/前端/assets/Pasted image 20230615223811.png",
-    "笔记/前端/assets/Pasted image 20230615223647.png",
     "未命名.canvas",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
