@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md"
+                    "file": "笔记/前端/AJAX.md"
                   }
                 }
               }
@@ -1841,6 +1841,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":10},\"to\":{\"line\":2,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "同源策略",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":14},\"to\":{\"line\":24,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1935,7 +1947,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/同源策略.md",
+                    "file": "笔记/前端/AJAX.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1970,7 +1982,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/AJAX.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1998,7 +2010,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/网络请求.md",
+                        "file": "笔记/前端/AJAX.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2302,13 +2314,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dfb12c537dfd39ba",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/同源策略.md",
+    "笔记/前端/工程化/CDN.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/assets/Pasted image 20230701140146.png",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
@@ -2344,7 +2357,6 @@
     "笔记/工具/通用概念/创造.md",
     "笔记/学习/概念/综合.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/学习/概念/布鲁姆分类法.md",
     "笔记/前端/assets/Pasted image 20230629231055.png",
     "笔记/前端/assets/Pasted image 20230629230752.png",
     "笔记/前端/assets/Pasted image 20230628184345.png",
