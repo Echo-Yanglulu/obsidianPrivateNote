@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/规范/规范.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
                   }
                 }
               }
@@ -1729,6 +1729,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":167,\"ch\":18},\"to\":{\"line\":167,\"ch\":18}},\"scroll\":143.06947368421052}"
+                    },
+                    {
                       "title": "HTTP状态码",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP状态码.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1877,7 +1883,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1912,7 +1918,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/规范.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1940,7 +1946,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/规范/规范.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2244,11 +2250,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "02b259749c131b20",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/规范/规范.md",
+    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/学习/记忆宫殿.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
