@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/AJAX.md"
+                    "file": "笔记/前端/JSONP.md"
                   }
                 }
               }
@@ -1841,6 +1841,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":179,\"ch\":22},\"to\":{\"line\":179,\"ch\":22}},\"scroll\":160.7136842105263}"
+                    },
+                    {
                       "title": "网络请求",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1929,7 +1935,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/同源策略.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1964,7 +1970,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/AJAX.md",
+                        "file": "笔记/前端/JSONP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1992,7 +1998,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/AJAX.md",
+                        "file": "笔记/前端/JSONP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2296,12 +2302,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7f6fcfc058d68d14",
+  "active": "6d0ed0cf18f41818",
   "lastOpenFiles": [
+    "笔记/前端/同源策略.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/assets/Pasted image 20230701140146.png",
-    "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/JSONP.md",
