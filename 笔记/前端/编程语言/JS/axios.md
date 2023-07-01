@@ -6,7 +6,7 @@
 	2. 在客户端则使用[[网络请求#XHR对象|XMLHttpRequests]] 
 特性
 	1. 基于[[Promise]] 
-	2. isomorphic。即同一套代码可以运行在浏览器和node.js中
+	2. 跨端。即同一套代码可以运行在浏览器和node.js中
 		2. 从客户端创建[[网络请求#XHR对象|XMLHttpRequests]] 
 		3. 从 node.js 创建[[http]]请求
 	3. *拦截*请求和响应
