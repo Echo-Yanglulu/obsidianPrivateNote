@@ -5,6 +5,10 @@
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
+      "basename": "习惯",
+      "path": "笔记/行为/习惯.md"
+    },
+    {
       "basename": "HTTP Header",
       "path": "笔记/前端/编程语言/JS/HTTP Header.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "Object",
-      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     }
   ],
   "omittedPaths": [
