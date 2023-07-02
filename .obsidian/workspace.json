@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP Header.md"
                   }
                 }
               }
@@ -1409,6 +1409,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":168,\"ch\":22},\"to\":{\"line\":168,\"ch\":22}},\"scroll\":142.71885336273428}"
+                    },
+                    {
                       "title": "HTTP Header",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP Header.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1605,7 +1611,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP Header.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1640,7 +1646,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1668,7 +1674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1951,7 +1957,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a4d9ca6d479df2ad",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
