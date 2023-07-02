@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -41,6 +41,7 @@
               {
                 "id": "e67a4c566e0eea1a",
                 "type": "tabs",
+                "dimension": 26.21145374449339,
                 "children": [
                   {
                     "id": "8d08a01a6be7967f",
@@ -1413,6 +1414,12 @@
                           "eState": "{}"
                         },
                         {
+                          "title": "前端工作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":164,\"ch\":27},\"to\":{\"line\":164,\"ch\":27}},\"scroll\":158.54368421052632}"
+                        },
+                        {
                           "title": "RESTful API",
                           "icon": "lucide-file",
                           "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/RESTful API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1597,18 +1604,20 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
                       }
                     }
                   }
-                ]
+                ],
+                "currentTab": 7
               },
               {
                 "id": "0260bc26b23a382d",
                 "type": "tabs",
+                "dimension": 73.7885462555066,
                 "children": [
                   {
                     "id": "fb61ff5522c10412",
@@ -1734,7 +1743,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1762,7 +1771,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2066,16 +2075,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "fb61ff5522c10412",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/HTTP Header.md",
+    "笔记/前端/前端工作.md",
+    "笔记/学习/学习.md",
     "笔记/写作/修辞.md",
     "笔记/工具/修辞/修辞.md",
-    "笔记/学习/学习.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/Nginx.md",
-    "笔记/前端/前端工作.md",
     "Day Planners/2023-07-02.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
@@ -2103,7 +2113,6 @@
     "笔记/内心/活在当下指南.md",
     "笔记/内心/当下的力量.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/学习/记忆宫殿.md",
     "笔记/前端/assets/Pasted image 20230701142649.png",
     "笔记/前端/assets/Pasted image 20230701140146.png",
     "笔记/前端/assets/Pasted image 20230701135610.png",
