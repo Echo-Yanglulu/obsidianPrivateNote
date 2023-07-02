@@ -18,6 +18,7 @@
 - content-length：返回数据的*大小*（字节）
 - content-encoding：返回数据的*压缩算法*，如gzip
 - set-cookie：服务端需要更改cookie时添加的响应头
+# 自定义Header
 
 
 [^1]: 浏览器会支持某些压缩算法，对响应进行解压
