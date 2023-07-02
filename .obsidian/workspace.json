@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/工程化/前后端分离.md"
                   }
                 }
               }
@@ -1605,7 +1605,7 @@
                     }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 6
               },
               {
                 "id": "0260bc26b23a382d",
@@ -1615,8 +1615,14 @@
                     "id": "fb61ff5522c10412",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "前后端分离",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/前后端分离.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":8},\"to\":{\"line\":30,\"ch\":8}},\"scroll\":24.87384259259259}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1729,7 +1735,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/前后端分离.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1757,7 +1763,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/工程化/前后端分离.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1821,7 +1827,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "为同时",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1882,7 +1888,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -2061,8 +2067,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fb61ff5522c10412",
+  "active": "6cbce3f28f564c36",
   "lastOpenFiles": [
+    "笔记/前端/工程化/Nginx.md",
+    "笔记/前端/工程化/前后端分离.md",
+    "笔记/前端/编程语言/JS/HTTP缓存.md",
+    "笔记/前端/前端工作.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-07-02.md",
     "笔记/学习/学习.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
@@ -2075,7 +2086,6 @@
     "笔记/_gsdata_/2023-0701-232346-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232316-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232246-DESKTOP-YLL-Job1.log",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
     "笔记/行为/健身/健身.md",
     "笔记/工具/思考/幻象.md",
@@ -2093,12 +2103,8 @@
     "笔记/内心/当下的力量.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/学习/记忆宫殿.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/工程化/RESTful API.md",
-    "笔记/前端/工程化/API.md",
     "笔记/前端/assets/Pasted image 20230701142649.png",
     "笔记/前端/assets/Pasted image 20230701140146.png",
     "笔记/前端/assets/Pasted image 20230701135610.png",
