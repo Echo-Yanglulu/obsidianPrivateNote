@@ -1402,8 +1402,14 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-02",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1964,13 +1970,14 @@
       "workspaces:管理工作区布局": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "Day Planners/2023-07-02.md",
     "笔记/前端/工程化/静态资源.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/assets/Pasted image 20230702160830.png",
@@ -2006,7 +2013,6 @@
     "笔记/工具/通用概念/选择.md",
     "笔记/内心/帮助.md",
     "笔记/内心/圆满.md",
-    "笔记/行为/习惯.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
