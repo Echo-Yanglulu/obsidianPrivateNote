@@ -5,8 +5,16 @@
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
-      "basename": "束缚",
-      "path": "笔记/内心/束缚.md"
+      "basename": "了解",
+      "path": "笔记/工具/通用概念/了解.md"
+    },
+    {
+      "basename": "领悟",
+      "path": "笔记/内心/领悟.md"
+    },
+    {
+      "basename": "顿悟",
+      "path": "笔记/内心/顿悟.md"
     },
     {
       "basename": "幻象",
@@ -15,6 +23,10 @@
     {
       "basename": "恐惧",
       "path": "笔记/工具/通用概念/恐惧.md"
+    },
+    {
+      "basename": "束缚",
+      "path": "笔记/内心/束缚.md"
     },
     {
       "basename": "HTTP Header",
@@ -187,18 +199,6 @@
     {
       "basename": "操作符",
       "path": "笔记/前端/编程语言/JS/基本概念/操作符.md"
-    },
-    {
-      "basename": "值",
-      "path": "笔记/前端/编程语言/JS/值.md"
-    },
-    {
-      "basename": "Object.prototype",
-      "path": "笔记/前端/编程语言/JS/基本概念/Object.prototype.md"
-    },
-    {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/Function.md"
     }
   ],
   "omittedPaths": [
