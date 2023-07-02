@@ -121,7 +121,7 @@ module.exports = {
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
 filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3] 
-	1. 如果使用了hash，应避免作为模板文件的html页面被缓存
+	1. 如果使用了hash【尽量使用contenthash】，应避免作为模板文件的html页面被缓存
 	2. 如果白屏。可能是代理服务器的缓存，或浏览器的缓存。
 		1. 客户端禁止缓存html：![[Pasted image 20230702160830.png]] 
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
