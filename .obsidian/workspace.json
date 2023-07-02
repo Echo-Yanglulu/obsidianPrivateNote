@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md"
+                    "file": "笔记/前端/工程化/工具/HTTPS.md"
                   }
                 }
               }
@@ -1033,6 +1033,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "HTTP缓存",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP缓存.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":2},\"to\":{\"line\":46,\"ch\":2}},\"scroll\":41.28125}"
+                    },
+                    {
                       "title": "概述",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/概述.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1391,7 +1397,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1402,17 +1408,23 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-02",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "HTTP",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":15},\"to\":{\"line\":40,\"ch\":15}},\"scroll\":22.7001414427157}"
+                    },
+                    {
+                      "title": "HTTP缓存",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP缓存.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":59,\"ch\":18},\"to\":{\"line\":59,\"ch\":18}},\"scroll\":0}"
                     },
                     {
                       "title": "前端工作",
@@ -1629,7 +1641,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
+                    "file": "笔记/前端/工程化/工具/HTTPS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1664,7 +1676,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
+                        "file": "笔记/前端/工程化/工具/HTTPS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1692,7 +1704,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
+                        "file": "笔记/前端/工程化/工具/HTTPS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1977,10 +1989,12 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/HTTP缓存.md",
+    "笔记/前端/工程化/工具/HTTPS.md",
+    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/编程语言/JS/HTTP缓存.md",
-    "笔记/前端/前端工作.md",
     "Day Planners/2023-07-02.md",
     "笔记/前端/工程化/静态资源.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -2000,7 +2014,6 @@
     "笔记/Palace/7迪斯科门前街道.png",
     "笔记/Palace/6后院隔壁上面的屋子.png",
     "笔记/Palace/5后院隔壁的屋顶.png",
-    "笔记/Palace/4后院.png",
     "笔记/工具/思考/幻象.md",
     "笔记/工作/工作.md",
     "笔记/工具/通用概念/时间.md",
@@ -2012,7 +2025,6 @@
     "笔记/内心/心灵.md",
     "笔记/工具/思考/思维概念/实例.md",
     "笔记/工具/通用概念/选择.md",
-    "笔记/内心/帮助.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
