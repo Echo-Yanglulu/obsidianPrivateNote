@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP Header.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md"
                   }
                 }
               }
@@ -1412,6 +1412,18 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":20},\"to\":{\"line\":170,\"ch\":20}},\"scroll\":144.53142227122382}"
+                    },
+                    {
+                      "title": "HTTP Header",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP Header.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":15},\"to\":{\"line\":22,\"ch\":15}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":168,\"ch\":22},\"to\":{\"line\":168,\"ch\":22}},\"scroll\":142.71885336273428}"
                     },
                     {
@@ -1611,7 +1623,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP Header.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1646,7 +1658,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1674,7 +1686,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1959,10 +1971,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230702155044.png",
     "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
+    "笔记/前端/assets/Pasted image 20230702155044.png",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/规范/规范.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/JSONP.md",
@@ -1977,7 +1989,6 @@
     "笔记/Palace/5后院隔壁的屋顶.png",
     "笔记/Palace/4后院.png",
     "笔记/Palace/3大厅.png",
-    "笔记/Palace/2厕所.png",
     "笔记/工具/思考/幻象.md",
     "笔记/工作/工作.md",
     "笔记/工具/通用概念/时间.md",

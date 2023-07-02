@@ -11,7 +11,8 @@
 - User-Agent：浏览器信息（简称UA）
 - Content-type：此次请求所发送的数据【如果有发送】的格式。
 	- application/json
-- if-modified--
+- if-modified-since
+- if-none-match
 
 # Response
 - Content-type：此次请求所发送的数据【如果有发送】的*格式*。
@@ -19,6 +20,8 @@
 - content-length：返回数据的*大小*（字节）
 - content-encoding：返回数据的*压缩算法*，如gzip
 - set-cookie：服务端需要更改cookie时添加的响应头
+- last-modified
+- etag
 # 自定义Header
 原因：有些API、接口，希望你在头部加一些他们的密钥/某个值
 方法：![[Pasted image 20230702155044.png]] 
