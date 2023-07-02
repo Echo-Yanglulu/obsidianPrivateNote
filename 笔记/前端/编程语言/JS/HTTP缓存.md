@@ -13,7 +13,7 @@
 2. 服务端缓存
 	1. 协商缓存
 ### 强制缓存(CCE)
- 
+客户端的缓存策略：由客户端缓存
 1. Expires(老字段，已被Cache-Control代替)
 2. Cache-Control
 流程
@@ -45,7 +45,7 @@
 	2. 初次请求，返回**资源、Last-Modified或Etag** 
 	3. 二次请求，**请求头带着if-modified-since或if-none-match** 
 		1. 资源未更新：返回304
-		2. 资源已更新：200，资源，新Last-Modified或Etag
+		2. 资源已更新：返回200、资源、新Last-Modified或Etag
 服务器会告诉浏览器，请求的资源已经多久没有更改过。浏览器发现这段时间内请求过这个资源，就直接使用缓存资源。
 # 刷新
 不同的刷新操作方式，对缓存的影响
