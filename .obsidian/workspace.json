@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/幻象.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -936,8 +936,14 @@
                     "id": "63e6cb6f221a3591",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "2023-07-02",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
@@ -1723,7 +1729,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1751,7 +1757,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1876,7 +1882,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2055,8 +2061,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "32f19c769f8c3a0f",
+  "active": "63e6cb6f221a3591",
   "lastOpenFiles": [
+    "Day Planners/2023-07-02.md",
+    "笔记/学习/学习.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
@@ -2067,7 +2075,6 @@
     "笔记/_gsdata_/2023-0701-232346-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232316-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232246-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0701-232216-DESKTOP-YLL-Job1.log",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
     "笔记/行为/健身/健身.md",
@@ -2092,7 +2099,6 @@
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/工程化/API.md",
-    "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/assets/Pasted image 20230701142649.png",
     "笔记/前端/assets/Pasted image 20230701140146.png",
     "笔记/前端/assets/Pasted image 20230701135610.png",
