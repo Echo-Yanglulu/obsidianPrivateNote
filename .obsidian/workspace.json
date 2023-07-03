@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/理财.md"
+                    "file": "笔记/前端/linux.md"
                   }
                 }
               }
@@ -1033,6 +1033,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":217,\"ch\":11},\"to\":{\"line\":217,\"ch\":11}},\"scroll\":194.36052921719957}"
+                    },
+                    {
                       "title": "webpack",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1457,7 +1463,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/linux.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1743,7 +1749,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -1770,7 +1776,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/理财.md",
+                        "file": "笔记/前端/linux.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1798,7 +1804,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/理财.md",
+                        "file": "笔记/前端/linux.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2081,11 +2087,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0714f41b75104fee",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/学习/概念/理财.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/linux.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -2118,7 +2125,6 @@
     "笔记/Palace/9迪斯科西边广场.png",
     "笔记/Palace/8迪斯科厨房.png",
     "笔记/Palace/7迪斯科门前街道.png",
-    "笔记/Palace/6后院隔壁上面的屋子.png",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
