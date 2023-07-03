@@ -79,7 +79,8 @@ module.exports = {
 // 简写
 module.exports = {
   entry: './path/to/my/entry/file.js',
-  entry: path.join(__dir)
+  // 当前目录
+  entry: path.join(__dirname,'src','index.js' )
 };
 
 // 想要一次注入多个依赖文件，并且将它们的依赖关系绘制在一个 "chunk" 中时
@@ -128,9 +129,11 @@ module.exports = {
 ### 配置
 
 ## output
-最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
+最终打包结束后，打包结果的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
-filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3] 
+1. path: 输出文件的保存目录
+	1. `path:`
+2. filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3] 
 	1. 如果使用了hash【尽量使用contenthash】，应避免作为模板文件的html页面被缓存
 	2. 如果白屏。可能是代理服务器的缓存，或浏览器的缓存。
 		1. 客户端禁止缓存html：![[Pasted image 20230702160830.png]] 
