@@ -11,7 +11,7 @@ webpack中，一切**文件**都是[[模块]]（图片，CSS）
 1. [[babel]] 
 	1. 安装插件@babe/core, @babel/preset-env, babel-loader
 	2. 新增文件.babelrc
-	3. 设置插件loader
+	3. 设置loader规则
 ### chunk
 根据自定义的规则，由module生成的文件。一个chunk可来自多个module
 ### bundle

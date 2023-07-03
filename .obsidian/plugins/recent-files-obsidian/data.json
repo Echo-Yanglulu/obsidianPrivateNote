@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
       "basename": "webpack.config.js",
       "path": "笔记/前端/工程化/构建/webpack.config.js.md"
     },
@@ -9,16 +21,8 @@
       "path": "Day Planners/2023-07-03.md"
     },
     {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
       "basename": "babel",
       "path": "笔记/前端/工程化/构建/babel.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "抓包工具",
@@ -195,10 +199,6 @@
     {
       "basename": "规范",
       "path": "笔记/前端/工程化/规范/规范.md"
-    },
-    {
-      "basename": "JS事件",
-      "path": "笔记/前端/编程语言/JS/JS事件.md"
     }
   ],
   "omittedPaths": [

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
+                    "file": "笔记/前端/工程化/ES Module.md"
                   }
                 }
               }
@@ -1026,17 +1026,29 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-03",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-03.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":208,\"ch\":17},\"to\":{\"line\":208,\"ch\":17}},\"scroll\":189.52806414662084}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":354,\"ch\":0},\"to\":{\"line\":354,\"ch\":0}},\"scroll\":337.51851851851853}"
+                    },
+                    {
+                      "title": "webpack.config.js",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":41},\"to\":{\"line\":11,\"ch\":41}}}"
                     },
                     {
                       "title": "webpack",
@@ -1427,7 +1439,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                    "file": "笔记/前端/工程化/ES Module.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1718,7 +1730,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1746,7 +1758,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2031,12 +2043,14 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "Day Planners/2023-07-03.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "Day Planners/2023-07-03.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/工程化/构建/webpack实战.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/开发依赖.md",
     "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/工程化/git.md",
@@ -2056,8 +2070,6 @@
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/工程化/工具/HTTPS.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/assets/Pasted image 20230702160830.png",
     "笔记/前端/assets/Pasted image 20230702155044.png",
