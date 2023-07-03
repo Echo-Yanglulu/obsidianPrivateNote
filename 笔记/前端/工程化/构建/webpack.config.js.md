@@ -5,6 +5,13 @@
 ### module
 模块化编程中，**功能**离散的chunk是模块。
 webpack中，一切**文件**都是[[模块]]（图片，CSS）
+
+配置：不同的模块使用期望的loader处理
+语法转换的是babel/core，所以需要新增.babelrc文件，设置"preset": \[]
+1. [[babel]] 
+	1. 安装插件@babe/core, @babel/preset-env, babel-loader
+	2. 新增文件.babelrc
+	3. 设置插件loader
 ### chunk
 根据自定义的规则，由module生成的文件。一个chunk可来自多个module
 ### bundle
