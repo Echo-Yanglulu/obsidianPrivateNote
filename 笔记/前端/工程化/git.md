@@ -92,12 +92,7 @@ HEAD~1：上一个提交
 通过git status查看两个区的工作状态
 命令行：. 代表当前目录
 [[git命令]] 
-1. git  \<command> -h 多查文档
-2. git config【同时设置时，local优先级最高】
-	1. --local 设置git 配置：仅对*当前项目*有效
-	2. --global 对*当前用户*的所有仓库有效
-	3. --system 对使用当前系统的*所有用户*的仓库有效
-	4. --list --local 查看local的git配置
+
 3. git clone 在本地创建一个远程仓库的拷贝
 4. git status：对文件状态的跟踪
 5. git add
@@ -112,12 +107,7 @@ HEAD~1：上一个提交
 7. git checkout 切出
 	1.  -b a b 基于分支/提交记录b创建分支a。
 8. git rm   删除
-9. git merge 合并
-10. git rebase 变基
-	1. -i  + [[hash值]] ，可**合并**该hash之后（不含）的提交。
-	2. 分支名
-		1. 将当前分支与目标分支对比，找到公共的commit，将当前分支的该commit之后的**commit移动**到目标分支
-		2. 此时目标分支仍指向旧有提交，需要更新使其指向最新节点。`git rebase bugFix`
+
 11. gi reset
 	1. 无命令：取消暂存
 	2. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
@@ -152,6 +142,15 @@ git status => gst
 git 仓库中特定事件触发后被调用的脚本。
 	1. 提升协同代码质量
 # 常用操作
+## 配置
+1. git  \<command> -h 多查文档
+2. git config【同时设置时，local优先级最高】
+	1. --local 设置git 配置：仅对*当前项目*有效
+	2. --global 对*当前用户*的所有仓库有效
+	3. --system 对使用当前系统的*所有用户*的仓库有效
+	4. --list --local 查看local的git配置
+
+## 文件
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
 	2. git mv readme readme.md  修改暂存区中某个文件的文件名
@@ -161,29 +160,34 @@ git 仓库中特定事件触发后被调用的脚本。
 	3. --oneline 每次每次仅使用一行展示
 	4. --graph
 	5. --all
-3. 查看【HEAD相对于暂存区】的具体修改内容：git diff
+3. 查看*工作区相对于最新提交*的具体修改内容：git diff
 	1. 文件名：只查看某个文件的修改内容
-4. 修改提交信息：git rebase -i
-5. 合并多个提交
+## 提交
+1. 修改提交信息：git rebase -i
+2. 合并多个提交
 	1. git rebase -i 最旧的commit hash值
-6. 在提交树上移动
+3. 在提交树上移动
 	1. 已经作出一个提交，又做出一个提交。被告知上上个提交有问题。
 		1. 问题提交移动到最前，修改完成后移动回去。
 		2. 新建分支指向问题提交的上个提交，再cherry-pick并修改，再cherry-pick后续没有问题的提交
-8. 复制提交树
+4. 复制提交树
 	1. 把提交复制到当前提交后面 git cherry-pick C1 C2 C5：复制三次提交
 		1. 不能是HEAD上游的提交
 	2. git rebase -i HEAD~4 ：列出最近4个
 		1. 调整顺序：以列表的上一个提交为起点，复制调整顺序后的4个提交![[Pasted image 20230628184345.png]]
 		2. 删除[^5]，
 		3. 合并
-9. 本地栈式提交
-10. 添加标签
+5. 本地栈式提交
+6. 添加标签
 	1. git tag tag1 C1。不添加提交，则指向HEAD
-11. 合并
+7. 合并
 	1. merge
 	2. rebase
-12. 回滚/撤销
+		1. 	1. -i  + [[hash值]] ，可**合并**该hash之后（不含）的提交。
+		2. 分支名
+			1. 将当前分支与目标分支对比，找到公共的commit，将当前分支的该commit之后的**commit移动**到目标分支
+			2. 此时目标分支仍指向旧有提交，需要更新使其指向最新节点。`git rebase bugFix` 
+8. 回滚/撤销
 	1. git reset 提交：让当前分支指向某个commit
 		1. 之后的提交还在，但不在暂存区
 	2. git revert 提交：生成一个*撤销一次提交*的新改动
