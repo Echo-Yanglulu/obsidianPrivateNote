@@ -22,13 +22,18 @@
 			1. 上级：cd ../
 	6. 文件
 		1. 新增：touch d.js
-		2. 新增并打开[^4]：vi d.js
+		3. 修改文件名：mv index.html index-test.html
+		2. 修改内容/新增并打开[^4] ：vi d.js
 			1. 左下角：--INSERT-- 输入模式。`esc`退出输入模式
 			2. :w   写入
 			3. :q   退出
-		3. 修改文件名：mv index.html index-test.html
 		4. 移动：mv 文件名 ../文件名。移动到上级文件夹
-		5. 查看
+		5. 查看：
+			1. 整体：cat package.json
+			2. 头部几行：head 文件名
+			3. 尾部：tail
+		6. 查找文件内容
+			1. grep "babel" package.json：在文件中查找内容。
 	7. 拷贝：cp
 		1. cp a.js a1.js：新增了一个a1.js文件
 	8. 删除 rm【没有回收站！】
