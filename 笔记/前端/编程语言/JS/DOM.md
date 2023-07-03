@@ -24,7 +24,7 @@ DOM对象是[[宿主对象]]。
 screen.height：显示器高度
 window.outerHeight：浏览器软件高度【全屏时等于显示器高度】
 window.innerHeight：浏览器可视区高度
-	与document.documentElement.clientHeight[^1]有什么区别？
+	与document.documentElement.clientHeight[^2]有什么区别？
 document.body.clientHeight：body高度
 clientHeight、clientLeft 、scrollHeight、scrollY：元素内content+padding
 offsetHeight 、offsetTop：元素边框content+padding+border
@@ -105,3 +105,4 @@ querySelectorAll(标签名)
 # [[DOM 2]]与[[DOM 3]] 
 
 [^1]: 保存在变量里，不要每次用都获取一次DOM节点
+[^2]: 某个元素的content+padding

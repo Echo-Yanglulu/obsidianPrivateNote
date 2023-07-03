@@ -34,7 +34,3 @@
 5. [[location]] 
 7. [[History]] 
 
-
-
-
-[^1]: 某个元素的content+padding
