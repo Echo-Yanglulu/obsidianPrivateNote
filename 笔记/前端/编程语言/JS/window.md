@@ -28,21 +28,13 @@
 	14. SyntaxError	SyntaxError的构造函数
 	15. TypeError	TypeError的构造函数
 	16. URIError	URIError的构造函数
-3. [[document]] 
+3. [[DOM|document]] 
 4. [[navigator]] 
 6. [[screen]] 
 5. [[location]] 
 7. [[History]] 
 
-innerHeight: 见面文档显示区
-与document.documentElement.clientHeight[^1]有什么区别？
 
-显示器高度：screen.height
-浏览器软件高度：window.outerHeight【全屏时等于显示器高度】
-浏览器可视区高度：window.innerHeight
-[[DOM]]部分
-body高度：document.body.clientHeight
-元素内content+padding：clientHeight、clientLeft 、scrollHeight、scrollY
-元素边框content+padding+border：offsetHeight 、offsetTop
+
 
 [^1]: 某个元素的content+padding

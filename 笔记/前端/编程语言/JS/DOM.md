@@ -21,6 +21,14 @@ DOM对象是[[宿主对象]]。
 ## 基本概念
 节点
 # 属性
+显示器高度：screen.height
+浏览器软件高度：window.outerHeight【全屏时等于显示器高度】
+window.innerHeight：浏览器可视区高度
+	与document.documentElement.clientHeight[^1]有什么区别？
+document.body.clientHeight：body高度
+clientHeight、clientLeft 、scrollHeight、scrollY：元素内content+padding
+offsetHeight 、offsetTop：元素边框content+padding+border：
+
 clientWidth：**content+padding**。
 clientHeight：content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
 	document.documentElement.clientWidth：页面的宽高
