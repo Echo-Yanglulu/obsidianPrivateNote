@@ -1033,6 +1033,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":174,\"ch\":19},\"to\":{\"line\":174,\"ch\":19}},\"scroll\":152.8798235942668}"
+                    },
+                    {
                       "title": "linux",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/linux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1469,7 +1475,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2093,11 +2099,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2929fb1dfd226992",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/location.md",
-    "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/编程语言/JS/浏览器事件.md",
     "笔记/前端/编程语言/JS/JS事件.md",
     "笔记/前端/工程化/运行环境.md",
