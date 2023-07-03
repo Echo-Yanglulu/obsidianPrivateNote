@@ -1,7 +1,7 @@
 # 概述
 
 # Request
-- Accept：浏览器可接收的数据格式
+- Accept：浏览器可接收的数据*格式*
 - Accept-Encoding：浏览器可接收的压缩算法，如gzip。[^1] 
 - Accept-Language：浏览器可接收的语言，如zh-CN
 - Connection：[[TCP]]连接
