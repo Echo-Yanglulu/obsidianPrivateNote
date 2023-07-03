@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
                   }
                 }
               }
@@ -1661,7 +1661,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -1688,7 +1688,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1716,7 +1716,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1780,7 +1780,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "栈",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -1841,7 +1841,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -1999,12 +1999,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "9becfb9080aee427",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
-    "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/工程化/工具/HTTPS.md",
     "Day Planners/2023-07-03.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/服务端.md",
@@ -2035,8 +2037,6 @@
     "笔记/工作/工作.md",
     "笔记/工具/通用概念/时间.md",
     "笔记/学习/概念/事实.md",
-    "笔记/内心/行动.md",
-    "笔记/西方文明简史/自由.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
