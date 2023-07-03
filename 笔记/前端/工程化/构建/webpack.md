@@ -360,10 +360,11 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 		1. loader反向执行：把sass-loader放在css-loader 之后，才能将处理后的css交给css-loader ，否则依赖倒置会导致出错。
 ### 资源处理
 使用plugin
-	1. 想把**CSS**抽离出来，成为单独的文件，而不是通过JS插入HTML![[Pasted image 20220801233153.png]]
+	1. 处理**HTML**资源。如果要操作HTML，一般使用HtmlWebpackPlugin 插件
+		1. 使用自定义的html文件作为模板
+		2. 不用Loader，直接实例化一个该插件即可。可使用EJS语法定制HTML内容。比如不用手动去写标签的属性值。
+	2. 想把**CSS**抽离出来，成为单独的文件，而不是通过JS插入HTML![[Pasted image 20220801233153.png]]
 		1. 它还提供了一个loader用于CSS文件的提取。webpack 的plugin与loader非常丰富。
-	2. 处理**HTML**资源。如果要操作HTML，一般使用HtmlWebpackPlugin 插件
-		1. 不用Loader，直接实例化一个该插件即可。可使用EJS语法定制HTML内容。比如不用手动去写标签的属性值。
 	3. 处理**JS**资源
 		1. 使用了ES高级语法→用babel-loader加载JS文件。如果不单独配置，这个loader会使用项目的.babelrc.json作为默认配置![[Pasted image 20220805192120.png]]
 	4. 开发中的**静态资源**
@@ -374,11 +375,11 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 ### devServer
 背景：不能每次修改代码，就==全量打包编译==一次。所以在调试状态下，可利用webpack提供的开发工具，
 在代码发生变化后需要自动编译，三种方式：
-	1. webpack watch mode[^5]
+	1. webpack watch mode[^5] 
 		1. 监听：如果文件更新，就重新编译
-	2. webapck-dev-server[^6]
+	2. webapck-dev-server[^6] 
 		1. 编译后刷新浏览器。
-	3. webpack-dev-middleware[^7]
+	3. webpack-dev-middleware[^7] 
 
 ![[Pasted image 20220805222427.png]]
 ### HMR
