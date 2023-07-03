@@ -15,7 +15,8 @@
 定义：是一个*现代JS应用*的*静态模块*打包工具。
 	1. 以一个或多个入口模块为起点，创建一个依赖关系图；
 	2. 将项目所需的每个模块组合产出为一个或多个bundle。
-ujyq
+意义：
+	1. [[开发依赖]] 
 ## 组成
 webpack
 webpack-cli
@@ -78,6 +79,7 @@ module.exports = {
 // 简写
 module.exports = {
   entry: './path/to/my/entry/file.js',
+  entry: path.join(__dir)
 };
 
 // 想要一次注入多个依赖文件，并且将它们的依赖关系绘制在一个 "chunk" 中时
@@ -123,6 +125,8 @@ module.exports = {
 2. MPA
 	1. 在MPA中，server会重新拉取一个[[HTML]]文档，所有依赖的资源重新下载
 	2. 使用`optimization.splitChunks`为多个页面之间共享的app代码创建bundle，复用多个入口之间的大量代码。
+### 配置
+
 ## output
 最终打包结束后，得到的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
@@ -294,13 +298,13 @@ module.exports = class DemoPlugin {
 #### [[SplitChunksPlugin]] 
 
 ## mode
-指定当前**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
+指定**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
 环境
 	1. 开发环境
 	2. 生产环境
 	3. 不指定环境
 优化项
-	1.添加一些针对环境的优化plugin
+	1.添加一些*针对环境的优化*plugin
 	2. 配置一些优化项的默认值。
 
 ![[Pasted image 20220731001611.png]]

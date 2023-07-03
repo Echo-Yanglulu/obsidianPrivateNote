@@ -1026,17 +1026,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "抓包工具",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/抓包工具.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":207,\"ch\":33},\"to\":{\"line\":207,\"ch\":33}},\"scroll\":189.71073732441067}"
                     },
                     {
                       "title": "HTTP缓存",
@@ -1403,7 +1403,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2005,9 +2005,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "881a97d99be1751c",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/开发依赖.md",
     "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/基础知识/调试.md",
@@ -2031,8 +2033,6 @@
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/HTML/HTML.md",
-    "Day Planners/2023-07-03.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/assets/Pasted image 20230702160830.png",
     "笔记/前端/assets/Pasted image 20230702155044.png",
