@@ -1,6 +1,12 @@
 # 概述
-
-## 属性分类
+1. 意义是BOM的*核心*：浏览器的实例
+2. 在浏览器中有两个*身份*
+	1. ES中的**[[Global]]对象** 
+		1. 很多浏览器API和构造函数都以window对象的属性的形式暴露。
+			1. 网页中定义的所有变量都以window作为其Global对象，都可访问其上定义的parseInt()等全局方法
+		2. 由于浏览器实现不同，不同浏览器的window对象的属性可能差异很大
+	2. 浏览器窗口的**JS接口** 
+# 属性
 1. 特殊值
 	1. undefined	特殊值undefined
 	2. NaN	特殊值NaN
@@ -28,7 +34,6 @@
 5. [[location]] 
 7. [[History]] 
 
-# 属性
 innerHeight: 见面文档显示区
 与document.documentElement.clientHeight[^1]有什么区别？
 
