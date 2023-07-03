@@ -16,6 +16,33 @@ var newValue = window.oldValue;
 // 对象属性读取和变量读取是机制不同
 ```
 [[笔记/前端/编程语言/JS/JS|JS]]中有许多对象暴露在全局作用域中。
+1. 特殊值
+	1. undefined	特殊值undefined
+	2. NaN	特殊值NaN
+	3. Infinity	特殊值Infinity
+2. 原生引用类型的构造函数
+	1. Function	Function的构造函数
+	2. Boolean	Boolean的构造函数
+	3. String	String的构造函数
+	4. Number	Number的构造函数
+	5. Symbol	Symbol的伪构造函数
+	6. Array	Array的构造函数
+	7. Object	Object的构造函数
+	8. Date	Date的构造函数
+	9. RegExp	RegExp的构造函数
+	10. Error	Error的构造函数
+	11. EvalError	EvalError的构造函数
+	12. RangeError	RangeError的构造函数
+	13. ReferenceError	ReferenceError的构造函数
+	14. SyntaxError	SyntaxError的构造函数
+	15. TypeError	TypeError的构造函数
+	16. URIError	URIError的构造函数
+3. [[DOM|document]] 
+4. [[navigator]] 
+6. [[screen]] 
+5. [[location]] 
+7. [[History]] 
+
 # 作为JS接口
 ## 窗口层级
 top：最上层窗口（浏览器窗口本身）
@@ -146,31 +173,3 @@ setInterval()
 find()
 ### 打印
 print()
-# 属性
-1. 特殊值
-	1. undefined	特殊值undefined
-	2. NaN	特殊值NaN
-	3. Infinity	特殊值Infinity
-2. 原生引用类型的构造函数
-	1. Function	Function的构造函数
-	2. Boolean	Boolean的构造函数
-	3. String	String的构造函数
-	4. Number	Number的构造函数
-	5. Symbol	Symbol的伪构造函数
-	6. Array	Array的构造函数
-	7. Object	Object的构造函数
-	8. Date	Date的构造函数
-	9. RegExp	RegExp的构造函数
-	10. Error	Error的构造函数
-	11. EvalError	EvalError的构造函数
-	12. RangeError	RangeError的构造函数
-	13. ReferenceError	ReferenceError的构造函数
-	14. SyntaxError	SyntaxError的构造函数
-	15. TypeError	TypeError的构造函数
-	16. URIError	URIError的构造函数
-3. [[DOM|document]] 
-4. [[navigator]] 
-6. [[screen]] 
-5. [[location]] 
-7. [[History]] 
-
