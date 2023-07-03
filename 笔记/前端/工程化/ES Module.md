@@ -87,13 +87,11 @@ export * from './foo.js';
 	2. 如果别名是default，则等同于默认导出
 ``` javascript
 // 命名单个导出
-export let num = 1  // 原始类型初始化
-export const foo = 'foo', bar = 'bar';
+export const foo = 'foo', bar = 'bar'; // 原始类型初始化
 export function* foo() {}  // 对象初始化
 export function foo() {}
 export class Foo {}
-export { name1, name2, …, nameN };// 导出列表
-export {a: 1, b: function(){}} 
+export {a: 1, b: function(){}}  // 导出列表
 export { str as helloStr } from './b'// 引入外部模块，**别名导出**
 
 // 子句命名导出
@@ -118,11 +116,11 @@ export default class {}
 // 解构导出并重命名
 export const { name1, name2: bar } = o;
 
-// 导出模块合集
+// 导出转移合集
 export * from …; // does not set the default export
-export * as name1 from …; // Draft ECMAScript® 2O21
+export * as name1 from …; // 导入一个默认导出作为导出，并重命名
 export { name1, name2, …, nameN } from …;
-export { import1 as name1, import2 as name2, …, nameN } from …;
+export { import1 as name1, import2 as name2, …, nameN } from …; // 导入多个导出作为一个导出，并重命名
 export { default } from …;
 
 // 会导致错误的不同形式：
