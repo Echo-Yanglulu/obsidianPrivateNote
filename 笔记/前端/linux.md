@@ -17,10 +17,14 @@
 	4. 清屏：clear
 	5. 文件夹
 		1. 创建：mkdir abc
-		2. 删除： rm -rf abc[^3] 
+		2. 删除：rm -rf abc[^3] 
 		3. 进入：cd
-	6. 文件
+			1. 上级：cd ../
+	6. 文件：mv
 		1. 修改文件名：mv index.html index-test.html
+		2. 移动 文件名 ../文件名。移动到上级文件夹
+	7. 拷贝：cp
+		1. cp a.js a1.js：新增了一个
 
 [^1]: 假如用户名是work，IP是192.168.10.21
 [^2]: 在linux中，.开头的都是隐藏文件
