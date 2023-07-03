@@ -1026,8 +1026,14 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-04",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-04.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1971,7 +1977,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -2131,8 +2137,9 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DNS.md",
+    "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/工程化/工具/内网穿透.md",
     "笔记/前端/编程语言/JS/浏览器.md",
@@ -2157,7 +2164,6 @@
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/assets/Pasted image 20230702160830.png",
