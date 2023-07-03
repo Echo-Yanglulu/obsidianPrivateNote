@@ -6,6 +6,10 @@ mac自带git命令，windows去官网下载
 	2. coding.net：服务在国内，项目数量有限，可私密
 	3. 码云等
 	4. 大公司一般会搭建自己的内网git服务。一般使用[[gitlab]] 
+## 配置
+[[HTTPS]]协议的仓库链接：需要登录
+git协议的仓库链接：不需要登录，但需要提供SSH key
+	搜索 windows ssh key
 # 概念
 HEAD~1：上一个提交
 1. 分区
