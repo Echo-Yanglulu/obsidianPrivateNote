@@ -1026,8 +1026,14 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "版本控制",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/版本控制/版本控制.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":16},\"to\":{\"line\":8,\"ch\":16}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2001,8 +2007,10 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/版本控制/版本控制.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/异步JS.md",
@@ -2027,9 +2035,7 @@
     "笔记/前端/工程化/静态资源.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/assets/Pasted image 20230702160830.png",
-    "笔记/前端/工程化/缓存.md",
     "笔记/前端/assets/Pasted image 20230702155044.png",
-    "笔记/前端/工程化/规范/规范.md",
     "笔记/Palace/11西边港口.png",
     "笔记/Palace/10迪斯科后，广场旁边书店.png",
     "笔记/Palace/9迪斯科西边广场.png",
