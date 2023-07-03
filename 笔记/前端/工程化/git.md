@@ -105,7 +105,7 @@ HEAD~1：上一个提交
 6. git commit
 	1. --amend 修改提交信息
 	2. --amend -m '' 修改提交信息为
-7. git checkout 
+7. git checkout 切出
 	1.  -b a b 基于分支/提交记录b创建分支a。
 8. git rm   删除
 9. git merge 合并
@@ -118,7 +118,7 @@ HEAD~1：上一个提交
 	1. 无命令：取消暂存
 	2. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
 12. git revert
-13. git branch
+13. git branch 分支
 	1. -d 分支名 删除分支。如果该分支有不需要但没有合并的代码，可用-D
 14. git remote
 	1. 无命令：查看连接的远程仓库
@@ -157,15 +157,14 @@ git 仓库中特定事件触发后被调用的脚本。
 	3. --oneline 每次每次仅使用一行展示
 	4. --graph
 	5. --all
-3. 修改过往commit的提交信息：git rebase -i
-4. 把连续多个commit合并为1个
+3. 修改提交信息：git rebase -i
+4. 合并多个提交
 	1. git rebase -i 最旧的commit hash值
-5. 把非连续的多个commit合并为1个
-6. diff当前HEAD与暂存区
 7. 在提交树上移动
 	1. 已经作出一个提交，又做出一个提交。被告知上上个提交有问题。
 		1. 问题提交移动到最前，修改完成后移动回去。
 		2. 新建分支指向问题提交的上个提交，再cherry-pick并修改，再cherry-pick后续没有问题的提交
+6. diff当前HEAD与暂存区
 8. 复制提交树
 	1. 把提交复制到当前提交后面 git cherry-pick C1 C2 C5：复制三次提交
 		1. 不能是HEAD上游的提交
