@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1408,17 +1408,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "HTML",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/HTML/HTML.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":18},\"to\":{\"line\":18,\"ch\":18}},\"scroll\":0}"
                     },
                     {
                       "title": "HTTPS",
@@ -1653,7 +1653,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器.md",
+                    "file": "笔记/前端/工程化/工具/HTTPS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1688,7 +1688,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1716,7 +1716,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1999,14 +1999,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9becfb9080aee427",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/工程化/工具/HTTPS.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/工程化/工具/HTTPS.md",
     "Day Planners/2023-07-03.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/服务端.md",
