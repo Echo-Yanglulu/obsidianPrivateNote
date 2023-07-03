@@ -92,12 +92,9 @@ export const foo = 'foo', bar = 'bar'; // 原始类型初始化
 export function* foo() {}  // 对象初始化
 export function foo() {}
 export class Foo {}
-export {a: 1, b: function(){}}  // 导出列表
+// 子句：命名嵌套导出
+export { a: 1, b: function(){} }  // 导出列表
 export { str as helloStr } from './b'// 引入外部模块，**别名导出**
-
-// 命名嵌套导出
-export { foo };
-export { foo, bar };
 export { foo as myFoo, bar };
 
 // 默认导出：直接导入即可
@@ -111,7 +108,7 @@ export default class {}
 // 解构导出并重命名
 export const { name1, name2: bar } = o;
 
-// 导出转移合集
+// 转移导出
 export * from …; // does not set the default export
 export * as name1 from …; // 导入一个默认导出作为导出，并重命名
 export { name1, name2, …, nameN } from …;
@@ -120,7 +117,7 @@ export { default } from …;
 
 // 会导致错误的不同形式：
 
-// 1.行内默认导出中不能出现变量声明
+// 1.默认导出中不能出现变量声明
 export default const foo = 'bar';
 
 // 2.只有标识符可以出现在export子句中
