@@ -158,7 +158,8 @@ git 仓库中特定事件触发后被调用的脚本。
 	2. --amend -m '' 修改提交信息为
 2. 修改提交信息：git rebase -i
 3. 查看提交：checkout 切出
-	1. -b a b 基于分支/提交记录b创建分支a。
+	1. -b a分支 b分支 基于分支/提交记录b创建分支a。
+	2. . 撤销所有修改
 4. 合并提交
 	1. git rebase -i 最旧的commit hash值【不含】
 5. 在提交树上移动
@@ -191,6 +192,8 @@ git 仓库中特定事件触发后被调用的脚本。
 		1. git revert HEAD：撤销此次提交
 	3. 区别：revert可push
 ## 分支
+1. 推送 git push
+	1. origin master
 # 最佳实践
 1. commit offen, perfect later[^1].
 	1. 用git rebase -i合并多次提交。通过最后的合并，隐藏香肠的丑陋制做过程。
@@ -206,6 +209,7 @@ git 仓库中特定事件触发后被调用的脚本。
 5. 随时更新远程分支
 	1. 拉取：不要使用git pull[^2]，而是使用git pull --rabase[^3]。
 	2. 合并：使用git merge --no-ff[^4]，可为当前分支创建简洁的提交记录，便于快速查看版本历史
+
 
 [^1]: 用rebase -i
 [^2]: git 图会生成很多开叉
