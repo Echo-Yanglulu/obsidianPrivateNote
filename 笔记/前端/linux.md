@@ -24,7 +24,7 @@
 		1. 修改文件名：mv index.html index-test.html
 		2. 移动 文件名 ../文件名。移动到上级文件夹
 	7. 拷贝：cp
-		1. cp a.js a1.js：新增了一个
+		1. cp a.js a1.js：新增了一个a1.js文件
 
 [^1]: 假如用户名是work，IP是192.168.10.21
 [^2]: 在linux中，.开头的都是隐藏文件
