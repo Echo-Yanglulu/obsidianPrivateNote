@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md"
+                    "file": "笔记/前端/基础知识/调试.md"
                   }
                 }
               }
@@ -1031,17 +1031,17 @@
                     "id": "a25b7d2264118fac",
                     "type": "leaf",
                     "pane-relief:history-v1": {
-                      "pos": 0,
+                      "pos": 1,
                       "stack": [
+                        {
+                          "title": "git",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":103,\"ch\":14},\"to\":{\"line\":103,\"ch\":14}},\"scroll\":87.31201764057332}"
+                        },
                         {
                           "state": "{}",
                           "eState": "{}"
-                        },
-                        {
-                          "title": "前端工作",
-                          "icon": "lucide-file",
-                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                          "eState": "{\"cursor\":{\"from\":{\"line\":202,\"ch\":25},\"to\":{\"line\":202,\"ch\":25}},\"scroll\":189.38270935069633}"
                         },
                         {
                           "title": "HTTP缓存",
@@ -1408,7 +1408,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/前端工作.md",
                         "mode": "source",
                         "backlinks": false,
                         "source": false
@@ -2097,7 +2097,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/基础知识/调试.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2125,7 +2125,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/基础知识/调试.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2408,7 +2408,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4b586ffca48f50ec",
+  "active": "8890aad096d3228d",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/git.md",
