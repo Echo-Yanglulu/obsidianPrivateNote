@@ -31,11 +31,17 @@ HEAD~1：上一个提交
 6. 查找提交
 	1. 绝对引用：每次提交所特有的hash值
 	2. 相对引用：相对地指向提交
-		1. ^^^：向上三次；~3：向上3次
-		2. git checkout main^：指向main最新提交的上次提交
+		1. ^^^：向上三次；
+			1. git checkout main^：指向main最新提交的上次提交
+		2. ~3：向上3次
 ## 仓库
 ## 分区
-git status
+1. 文件状态
+	1. 未跟踪
+	2. 已跟踪
+		1. 工作区
+		2. 暂存区
+		3. 提交树
 ## 提交
 定义：包含所有改动内容
 创建
@@ -69,13 +75,6 @@ git status
 推送
 	1. git push：推送到远程仓库，并更新保存在本地的远程分支
 	2. 失败：远程分支存在本地没有的提交
-## 标签
-定义：指向某个提交
-## HEAD
-定义：当前浏览的提交
-分离HEAD：当前浏览的提交不是最新提交
-# 自定义命令
-实现git fetch + git rebase
 # 工作流
 [[git flow]] 
 规范：[[git工程规范]] 
@@ -96,15 +95,9 @@ git status
 	3. --system 对使用当前系统的*所有用户*的仓库有效
 	4. --list --local 查看local的git配置
 3. git clone 在本地创建一个远程仓库的拷贝
-4. git status：对状态的跟踪
-	1. 文件状态
-		1. 未跟踪
-		2. 已跟踪
-			1. 工作目录
-			2. 暂存区
-			3. 提交
+4. git status：对文件状态的跟踪
 5. git add
-	1. \. :添加【当前路径】文件到暂存区（还没有被commit：正式进入版本历史）、并跟踪文件
+	1. \. :添加【当前路径】文件到*暂存区*（还没有被commit：正式进入版本历史）、并跟踪文件
 	2. filename 添加该文件
 	3. portfolio
 	4. 文件名 文件夹
@@ -150,10 +143,10 @@ git status
     ps = push			//输入git ps => git push
 ```
 git status => gst
+# 自定义命令
 # git hook
 git 仓库中特定事件触发后被调用的脚本。
 	1. 提升协同代码质量
-
 # 常用操作
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
