@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.835660580021482,
+            "dimension": 12.83566058002148,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -1408,8 +1408,14 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-03",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-03.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1654,7 +1660,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.091299677765843,
+            "dimension": 15.091299677765841,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1989,8 +1995,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/服务端.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/工程化/工具/HTTPS.md",
+    "Day Planners/2023-07-03.md",
+    "笔记/前端/服务端.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/编程语言/JS/HTTP.md",
@@ -2023,8 +2031,6 @@
     "笔记/西方文明简史/自由.md",
     "笔记/内心/内心.md",
     "笔记/工具/通用概念/当下.md",
-    "笔记/内心/心灵.md",
-    "笔记/工具/思考/思维概念/实例.md",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
