@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "linux",
-      "path": "笔记/前端/linux.md"
+      "basename": "理财",
+      "path": "笔记/学习/概念/理财.md"
+    },
+    {
+      "basename": "深夜加油站遇见苏格拉底",
+      "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "HTTPS",
+      "path": "笔记/前端/工程化/工具/HTTPS.md"
+    },
+    {
+      "basename": "linux",
+      "path": "笔记/前端/linux.md"
     },
     {
       "basename": "webpack",
@@ -53,10 +65,6 @@
       "path": "笔记/前端/编程语言/JS/异步JS.md"
     },
     {
-      "basename": "HTTPS",
-      "path": "笔记/前端/工程化/工具/HTTPS.md"
-    },
-    {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
     },
@@ -91,10 +99,6 @@
     {
       "basename": "JSONP",
       "path": "笔记/前端/JSONP.md"
-    },
-    {
-      "basename": "深夜加油站遇见苏格拉底",
-      "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
       "basename": "幻象",
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP Method",
       "path": "笔记/前端/编程语言/JS/HTTP Method.md"
-    },
-    {
-      "basename": "HTTP状态码",
-      "path": "笔记/前端/编程语言/JS/HTTP状态码.md"
     }
   ],
   "omittedPaths": [
