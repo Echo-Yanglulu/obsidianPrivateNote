@@ -545,6 +545,7 @@ plugins: [
 3. 将所有不同类型的资源进行统一管理，进行整体的分析与优化
 
 # webpack-cli
+[命令行接口（CLI） | webpack 中文文档](https://webpack.docschina.org/api/cli/) 
 ## 为何
 在命令行中**运行**webpack（配置文件或命令行是用来**传参**的）。
 还有其他方式用来运行webpack吗？GUI？
@@ -562,7 +563,6 @@ plugins: [
 10. -color
 11. -hot 开启[[HMR]] 
 12. -profile： 详细输出每个环节的用时
-13. [命令行接口（CLI） | webpack 中文文档](https://webpack.docschina.org/api/cli/)
 # 小结
 从入口文件开始，加载并处理各种格式的文件，最终生成bundle 文件。
 所有配置都是为了JS，CSS，HTML，静态资源
