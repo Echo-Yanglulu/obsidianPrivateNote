@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/BOM.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1782,7 +1782,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1810,7 +1810,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2093,9 +2093,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8a9f26c5eb2889aa",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/浏览器事件.md",
+    "笔记/前端/编程语言/JS/JS事件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/运行环境.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/基础知识/调试.md",
@@ -2120,9 +2123,6 @@
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/assets/Pasted image 20230702160830.png",
     "笔记/前端/assets/Pasted image 20230702155044.png",

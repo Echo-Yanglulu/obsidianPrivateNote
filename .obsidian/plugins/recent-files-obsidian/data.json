@@ -5,6 +5,10 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "浏览器事件",
+      "path": "笔记/前端/编程语言/JS/浏览器事件.md"
+    },
+    {
       "basename": "运行环境",
       "path": "笔记/前端/工程化/运行环境.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "记忆宫殿",
       "path": "笔记/学习/记忆宫殿.md"
-    },
-    {
-      "basename": "RESTful API",
-      "path": "笔记/前端/工程化/RESTful API.md"
     }
   ],
   "omittedPaths": [
