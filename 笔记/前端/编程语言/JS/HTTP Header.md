@@ -2,15 +2,15 @@
 
 # Request
 - Accept：浏览器可接收的数据*格式*
-- Accept-Encoding：浏览器可接收的压缩算法，如gzip。[^1] 
-- Accept-Language：浏览器可接收的语言，如zh-CN
+- Content-type：此次请求所发送的数据【如果有发送】的*格式*。
+	- application/json
+- Accept-Language：浏览器可接收的*语言*，如zh-CN
+- Accept-Encoding：浏览器可接收的*压缩算法*，如gzip。[^1] 
+- User-Agent：浏览器信息（简称UA）
 - Connection：[[TCP]]连接
 	1. keep-alive 建立一次重复使用。不重复地断开重连
-- cookie：每次请求同域的资源时，浏览器都会携带
 - Host：请求的域名
-- User-Agent：浏览器信息（简称UA）
-- Content-type：此次请求所发送的数据【如果有发送】的格式。
-	- application/json
+- cookie：每次请求*同域*的资源时，浏览器都会携带
 - if-modified-since
 - if-none-match
 
