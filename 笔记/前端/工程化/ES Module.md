@@ -67,38 +67,6 @@ export * from './foo.js';
 ```
 # 工作者模块
 
-# 模块导入
-方式
-	1. 命名导入
-	2. 默认导入
-特性
-	1. 导入变量对模块而言只读
-		1. 无法直接修改导入的值
-		2. 已导出的属性也不能修改
-环境：同样必须出现在模块顶级
-```javascript
-import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
-import defaultExport from "module-name"; // 默认导出，重命名
-import { export } from "module-name"; // 显式/命名导出
-import {
-  reallyReallyLongModuleMemberName as shortName,
-  anotherLongModuleName as short
-} from '/modules/my-module.js'; // 多个重命名
-import { foo , bar } from "module-name/path/to/specific/un-exported/file";
-import { export1 , export2 } from "module-name"; // 多个
-import { export as alias } from "module-name"; // 重命名
-import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
-import defaultExport, { export [ , [...] ] } from "module-name";
-import defaultExport, * as name from "module-name"; // 默认与命名同时导入（默认必须在前）
-(async () => {
-  if (somethingIsTrue) {
-    const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
-  }
-})(); // 动态导入默认导出时，必须以default字段重命名
-import "module-name"; // 运行模块中的全局代码，不导入任何导出
-var promise = import("module-name");//这是一个处于第三阶段的提案。
-```
-
 # 模块导出
 方式（不同的导出方式对应不同的导入方式）
 	1. 命名导出
@@ -134,16 +102,13 @@ export { foo };
 export { foo, bar };
 export { foo as myFoo, bar };
 
-// 导出单个特性
+// 导出单个特性：会成为一个对象。导入时记得解构
 export let name1, name2, …, nameN; // also var, const
 export let name1 = …, name2 = …, …, nameN; // also var, const
 export function FunctionName(){...}
 export class ClassName {...}
 
-// 默认导出
-export default 'foo';
-export default 123;
-export default /[a-z]*/;
+// 默认导出：直接导入即可
 export default { foo: 'foo' };
 export { foo, bar as default };
 export default foo
@@ -172,6 +137,38 @@ export { 123 as foo }
 
 // 3.别名只能在export子句中出现
 export const foo = 'foo' as myFoo;
+```
+
+# 模块导入
+方式
+	1. 命名导入
+	2. 默认导入
+特性
+	1. 导入变量对模块而言只读
+		1. 无法直接修改导入的值
+		2. 已导出的属性也不能修改
+环境：同样必须出现在模块顶级
+```javascript
+import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
+import defaultExport from "module-name"; // 默认导出，重命名
+import { export } from "module-name"; // 显式/命名导出
+import {
+  reallyReallyLongModuleMemberName as shortName,
+  anotherLongModuleName as short
+} from '/modules/my-module.js'; // 多个重命名
+import { foo , bar } from "module-name/path/to/specific/un-exported/file";
+import { export1 , export2 } from "module-name"; // 多个
+import { export as alias } from "module-name"; // 重命名
+import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
+import defaultExport, { export [ , [...] ] } from "module-name";
+import defaultExport, * as name from "module-name"; // 默认与命名同时导入（默认必须在前）
+(async () => {
+  if (somethingIsTrue) {
+    const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
+  }
+})(); // 动态导入默认导出时，必须以default字段重命名
+import "module-name"; // 运行模块中的全局代码，不导入任何导出
+var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
 
 # 向后兼容
