@@ -151,7 +151,7 @@ git 仓库中特定事件触发后被调用的脚本。
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
 	2. git mv readme readme.md  修改暂存区中某个文件的文件名
-2. 查看版本历史：git log 配置项configOption
+2. 查看版本历史：git log configOption
 	1. git log 没有任何参数：只有版本历史
 	2. -n3 最近3次提交
 	3. --oneline 每次每次仅使用一行展示
