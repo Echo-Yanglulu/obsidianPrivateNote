@@ -550,7 +550,7 @@ plugins: [
 1. 构建过程添加进度条：webpack --progress --colors
 2. 平时只有简单的错误提示，查看错误详情：webpack --display-error-details；
 3. 缓存未改变的编译内容（未改动的模块，会被放入内存，不再每次编译），开启监听模式：webpack --watch；
-4. webpack -d开发环境打包 -p生产环境打包
+4. 打包：webpack -d开发环境打包 -p生产环境打包
 5. -config 指定一个路径，存放webpack的配置文件
 6. -mode 指定打包环境
 7. -json 输出打包结果到json文件
