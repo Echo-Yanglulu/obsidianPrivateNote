@@ -132,7 +132,7 @@ module.exports = {
 最终打包结束后，打包结果的JS bundle 文件放置的**文件夹** 
 ![[Pasted image 20220801225838.png]]![[Pasted image 20220801231703.png]]
 1. path: 输出文件的保存目录
-	1. `path:`
+	1. `path: path.join(__dirname, 'dist')`：打包结果放入dist文件夹
 2. filename：支持变量，即文件名作为打包文件名。hash：对文件使用散列算法得出的字符串[^3] 
 	1. 如果使用了hash【尽量使用contenthash】，应避免作为模板文件的html页面被缓存
 	2. 如果白屏。可能是代理服务器的缓存，或浏览器的缓存。
@@ -540,13 +540,13 @@ plugins: [
 1. 也是**插件化**[^1]的
 2. 相对gulp等传统工具，对构建的流程与资源有了更高级的抽象
 3. 将所有不同类型的资源进行统一管理，进行整体的分析与优化
-# 小工具
-## webpack-cli
-### 为何
+
+# webpack-cli
+## 为何
 在命令行中**运行**webpack（配置文件或命令行是用来**传参**的）。
 还有其他方式用来运行webpack吗？GUI？
 	不能，一种运行方式，两种传参方式。
-### 功能
+## 功能
 1. 构建过程添加进度条：webpack --progress --colors
 2. 平时只有简单的错误提示，查看错误详情：webpack --display-error-details；
 3. 缓存未改变的编译内容（未改动的模块，会被放入内存，不再每次编译），开启监听模式：webpack --watch；
