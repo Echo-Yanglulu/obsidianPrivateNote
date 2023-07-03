@@ -1,4 +1,8 @@
 # 概述
+## 环境
+mac自带git命令，windows去官网下载
+git服务端常见的有[[github]]，coding.net，码云等
+# 基础
 HEAD：指向当前分支上最新的提交记录
 	通常指向分支名
 HEAD~1：上一个提交
