@@ -86,9 +86,8 @@ export * from './foo.js';
 	1. 必须在大括号语法中
 	2. 如果别名是default，则等同于默认导出
 ``` javascript
-// 命名导出（每个都会作为唯一的命名导出对象的一个属性）
+// 命名单个导出
 export let num = 1  // 原始类型初始化
-export const baz = 'baz';
 export const foo = 'foo', bar = 'bar';
 export function* foo() {}  // 对象初始化
 export function foo() {}
@@ -102,7 +101,7 @@ export { foo };
 export { foo, bar };
 export { foo as myFoo, bar };
 
-// 导出单个特性：会成为一个对象。导入时记得解构
+// 导出单个特性：会成为一个对象。导入时可直接解构
 export let name1, name2, …, nameN; // also var, const
 export let name1 = …, name2 = …, …, nameN; // also var, const
 export function FunctionName(){...}
@@ -112,8 +111,7 @@ export class ClassName {...}
 export default { foo: 'foo' };
 export { foo, bar as default };
 export default foo
-export default function () {} // 默认导出：变量命名无效
-export default function foo() {}
+export default function foo() {} // 默认导出：变量命名无效
 export default function*() {}
 export default class {}
 
