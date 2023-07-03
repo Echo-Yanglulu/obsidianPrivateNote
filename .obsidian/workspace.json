@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
                   }
                 }
               }
@@ -1026,17 +1026,29 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-03",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-03.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":355,\"ch\":0},\"to\":{\"line\":355,\"ch\":0}},\"scroll\":340.59606481481484}"
+                    },
+                    {
+                      "title": "babel",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":99,\"ch\":5},\"to\":{\"line\":99,\"ch\":5}},\"scroll\":79.60491993801652}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":450,\"ch\":16},\"to\":{\"line\":450,\"ch\":16}},\"scroll\":442.77314814814815}"
                     },
                     {
                       "title": "前端工作",
@@ -1409,7 +1421,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1700,7 +1712,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1728,7 +1740,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2013,9 +2025,10 @@
   },
   "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/工程化/构建/webpack实战.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "Day Planners/2023-07-03.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/开发依赖.md",
@@ -2048,7 +2061,6 @@
     "笔记/Palace/8迪斯科厨房.png",
     "笔记/Palace/7迪斯科门前街道.png",
     "笔记/Palace/6后院隔壁上面的屋子.png",
-    "笔记/Palace/5后院隔壁的屋顶.png",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
