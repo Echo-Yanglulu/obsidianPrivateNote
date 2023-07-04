@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/BFC.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1026,17 +1026,17 @@
                 "id": "a25b7d2264118fac",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
                     },
                     {
                       "title": "浏览器",
@@ -1511,7 +1511,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2136,17 +2136,23 @@
                 "id": "c283810bef530241",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
+                    {
+                      "title": "浮动",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/浮动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "BFC",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/BFC.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":17},\"to\":{\"line\":116,\"ch\":17}},\"scroll\":91.75578703703704}"
                     },
                     {
                       "title": "异常捕获",
@@ -2189,7 +2195,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/BFC.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2224,7 +2230,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/BFC.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2252,7 +2258,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/BFC.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2316,7 +2322,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "防抖",
+                "query": "清除浮动",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2540,6 +2546,11 @@
   },
   "active": "c283810bef530241",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/BFC.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/学习/概念/理财.md",
+    "笔记/前端/编程语言/CSS/浮动.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
@@ -2547,7 +2558,6 @@
     "笔记/前端/编程语言/JS/异常捕获.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/学习/概念/理财.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/正则表达式.md",
@@ -2562,10 +2572,6 @@
     "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/document.md",
-    "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/前端/编程语言/JS/垃圾回收机制.md",
-    "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
