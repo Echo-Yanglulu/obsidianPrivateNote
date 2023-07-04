@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/XSRF.md"
+                    "file": "笔记/前端/编程语言/JS/浏览器原理.md"
                   }
                 }
               }
@@ -1529,6 +1529,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":4},\"to\":{\"line\":28,\"ch\":4}},\"scroll\":13.45755237045204}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":221,\"ch\":12},\"to\":{\"line\":221,\"ch\":12}},\"scroll\":197.52701212789415}"
+                    },
+                    {
+                      "title": "前端安全",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "XSRF",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/XSRF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":21},\"to\":{\"line\":13,\"ch\":21}}}"
+                    },
+                    {
                       "title": "前端安全",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1827,7 +1851,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/XSRF.md",
+                    "file": "笔记/前端/编程语言/JS/浏览器原理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1912,7 +1936,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/XSRF.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1940,7 +1964,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/XSRF.md",
+                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2066,6 +2090,29 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "d1616fa1c8050a1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69a2e6fc80af00cf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2175,26 +2222,8 @@
                 "useHierarchy": false
               }
             }
-          },
-          {
-            "id": "69a2e6fc80af00cf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -2223,10 +2252,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "e06cd8634f0d46cc",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/前端安全.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/前端安全.md",
+    "笔记/前端/编程语言/JS/XSRF.md",
     "笔记/前端/工程化/XSS.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
@@ -2241,7 +2272,6 @@
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/HTML/HTML.md",
@@ -2253,7 +2283,6 @@
     "笔记/前端/工程化/构建/ES规范.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "Day Planners/2023-07-04.md",
-    "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
