@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2143,6 +2143,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Array",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":6},\"to\":{\"line\":73,\"ch\":6}},\"scroll\":55.99421296296296}"
+                    },
+                    {
                       "title": "Function",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Function.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2153,7 +2159,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2161,7 +2167,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2188,7 +2194,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2216,7 +2222,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2504,11 +2510,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/学习/概念/理财.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/正则表达式.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机基础.md",
@@ -2530,8 +2538,6 @@
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
