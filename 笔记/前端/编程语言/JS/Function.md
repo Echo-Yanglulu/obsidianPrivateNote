@@ -100,7 +100,9 @@ JS不会对入参做类型检查，但会做[[数据类型||类型]]转换。
 本质：[[类数组对象]]，
 特性
 	1. 是内部机制。参数收集不会影响它的存在
-	2. arguments.callee：指向这个对象所在函数的指针
+	2. 可写。
+	3. arguments.callee：指向这个arguments对象*所在函数*的指针
+	4. arguments.length：传入的参数个数
 ### this
 ### caller
 ## 分类
