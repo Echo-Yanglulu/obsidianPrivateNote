@@ -5,6 +5,10 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
       "basename": "变量",
       "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "实例",
       "path": "笔记/工具/思考/思维概念/实例.md"
-    },
-    {
-      "basename": "习惯",
-      "path": "笔记/行为/习惯.md"
     }
   ],
   "omittedPaths": [
