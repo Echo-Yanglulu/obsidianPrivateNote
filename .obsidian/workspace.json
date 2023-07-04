@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1529,6 +1529,36 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "变量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":8},\"to\":{\"line\":53,\"ch\":8}},\"scroll\":27.412348401323044}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":139,\"ch\":24},\"to\":{\"line\":139,\"ch\":24}},\"scroll\":113.70121278941565}"
+                    },
+                    {
+                      "title": "性能优化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":220,\"ch\":12},\"to\":{\"line\":220,\"ch\":12}},\"scroll\":197.527}"
+                    },
+                    {
+                      "title": "浏览器原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
                       "title": "浏览器",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1851,7 +1881,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1936,7 +1966,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1964,7 +1994,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2125,7 +2155,7 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 28.988764044943817,
+        "dimension": 44.49438202247191,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -2201,7 +2231,7 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 71.01123595505618,
+        "dimension": 55.50561797752809,
         "children": [
           {
             "id": "e06cd8634f0d46cc",
@@ -2252,18 +2282,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e06cd8634f0d46cc",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/JS/XSRF.md",
     "笔记/前端/工程化/XSS.md",
     "笔记/前端/编程语言/JS/工具函数.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/Function.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/懒加载.md",
@@ -2282,7 +2313,6 @@
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/工程化/构建/ES规范.md",
     "笔记/前端/工程化/工具/HTTPS.md",
-    "Day Planners/2023-07-04.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
