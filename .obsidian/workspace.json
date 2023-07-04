@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/异步JS.md"
                   }
                 }
               }
@@ -1529,6 +1529,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":147,\"ch\":28},\"to\":{\"line\":147,\"ch\":28}},\"scroll\":128.13736842105263}"
+                    },
+                    {
                       "title": "HTTPS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/HTTPS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1773,7 +1779,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/异步JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1830,7 +1836,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1858,7 +1864,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/异步JS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2143,9 +2149,11 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/ES规范.md",
+    "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/event-loop.md",
     "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/DNS.md",
@@ -2168,8 +2176,6 @@
     "笔记/前端/linux.md",
     "笔记/学习/概念/理财.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/前端/assets/Pasted image 20230702160830.png",

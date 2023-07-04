@@ -32,7 +32,7 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 		3. 捕获异常需要使用try...catch... 
 
 # 异步中API的分类
-宏任务是浏览器规定的，微任务是ES6语法规定的。
+宏任务是[[浏览器]]规定的，微任务是[[ES规范]]语法规定的。ES6
 ## 宏任务
 定义：
 包含：同步脚本，定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
