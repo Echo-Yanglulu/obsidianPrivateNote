@@ -34,11 +34,10 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 # 异步中API的分类
 宏任务是[[浏览器]]规定的，微任务是[[ES规范]]语法规定的。ES6
 ## 宏任务
-定义：
-包含：同步脚本，定时器，ajax，DOM事件，promise中的主任务，setImmediate(node 独有)，requestAnimationFrame(浏览器独有)，IO，UI render（浏览器独有）
+包含：整体script脚本，定时器【setImmediate(node 独有)】，ajax，DOM事件，requestAnimationFrame(浏览器独有)，UI render（浏览器独有），IO
 ## 微任务
 定义：有一个专门的微任务队列。
-包含：process.nextTick(node 独有)、Promise.then()、async/await、MutationObserver、Object.observe
+包含：process.nextTick(node 独有)、Promise.then()、async/await、Object.observe、MutationObserver
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。为什么？
 
