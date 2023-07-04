@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1525,14 +1525,20 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "构造函数",
+                      "title": "深比较",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/构造函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":10},\"to\":{\"line\":9,\"ch\":10}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/深比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}}}"
                     },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "Object",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":30},\"to\":{\"line\":27,\"ch\":30}},\"scroll\":5.956018518518518}"
                     },
                     {
                       "title": "前端工作",
@@ -1691,9 +1697,9 @@
                       "eState": "{\"cursor\":{\"from\":{\"line\":146,\"ch\":24},\"to\":{\"line\":146,\"ch\":24}},\"scroll\":128.6251}"
                     },
                     {
-                      "title": "深度比较",
+                      "title": "深比较",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/深度比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/深比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":3},\"to\":{\"line\":27,\"ch\":3}},\"scroll\":0}"
                     },
                     {
@@ -2079,7 +2085,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2164,7 +2170,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2192,7 +2198,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2482,9 +2488,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/深比较.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/同源策略.md",
@@ -2506,7 +2513,6 @@
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/深度比较.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
