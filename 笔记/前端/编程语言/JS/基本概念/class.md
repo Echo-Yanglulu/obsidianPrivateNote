@@ -11,7 +11,7 @@ protected # 同类或子类访问
 package/default ~ 可被处于同一个package中的类使用
 多数情况，属性是private或protected，方法是public
 ## 分类
-[[mixin]]
+[[mixin]] 
 ## 类之间的关系
 ### 继承
 UML：空心单向箭头

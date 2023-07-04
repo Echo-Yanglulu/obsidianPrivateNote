@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/String.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2272,8 +2272,20 @@
                 "id": "5de4d222495fdfc6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
+                    {
+                      "title": "class",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/class.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":41},\"to\":{\"line\":44,\"ch\":41}},\"scroll\":32.366209262435675}"
+                    },
+                    {
+                      "title": "JS继承",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/JS继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2330,7 +2342,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2358,7 +2370,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2644,8 +2656,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "911b63749a101ac8",
+  "active": "5de4d222495fdfc6",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+    "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/Function.md",
@@ -2669,10 +2683,8 @@
     "笔记/学习/概念/理财.md",
     "笔记/前端/编程语言/CSS/浮动.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/编程语言/CSS/继承.md",
     "笔记/前端/编程语言/JS/异常捕获.md",
-    "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
