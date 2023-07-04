@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
+                    "file": "笔记/前端/工程化/XSS.md"
                   }
                 }
               }
@@ -1529,6 +1529,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "工具函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/工具函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":22},\"to\":{\"line\":21,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
                       "title": "性能优化",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1809,7 +1815,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/工具函数.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1867,7 +1873,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -1894,7 +1900,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/工程化/XSS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1922,7 +1928,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/工程化/XSS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2205,11 +2211,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c283810bef530241",
+  "active": "33858c8e956a4d93",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/Function.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/前端安全.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/工具函数.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
@@ -2218,14 +2227,12 @@
     "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/CDN.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/工程化/运行环境.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/异步JS.md",
@@ -2235,7 +2242,6 @@
     "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/工程化/工具/内网穿透.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",

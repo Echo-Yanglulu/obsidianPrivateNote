@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "XSS",
+      "path": "笔记/前端/工程化/XSS.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "工具函数",
+      "path": "笔记/前端/编程语言/JS/工具函数.md"
+    },
+    {
+      "basename": "浏览器原理",
+      "path": "笔记/前端/编程语言/JS/浏览器原理.md"
+    },
+    {
       "basename": "Array",
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
@@ -9,24 +25,12 @@
       "path": "笔记/前端/编程语言/JS/Function.md"
     },
     {
-      "basename": "浏览器原理",
-      "path": "笔记/前端/编程语言/JS/浏览器原理.md"
-    },
-    {
-      "basename": "工具函数",
-      "path": "笔记/前端/编程语言/JS/工具函数.md"
-    },
-    {
       "basename": "性能优化",
       "path": "笔记/前端/性能优化.md"
     },
     {
       "basename": "SSR",
       "path": "笔记/前端/工程化/SSR.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "window",
@@ -195,10 +199,6 @@
     {
       "basename": "领悟",
       "path": "笔记/内心/领悟.md"
-    },
-    {
-      "basename": "顿悟",
-      "path": "笔记/内心/顿悟.md"
     }
   ],
   "omittedPaths": [
