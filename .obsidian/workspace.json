@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/Function.md"
+                  }
                 }
               }
             ]
@@ -1849,8 +1851,13 @@
                   ]
                 },
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/Function.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
                 }
               }
             ],
@@ -1881,6 +1888,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/前端/编程语言/JS/Function.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1908,6 +1916,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/前端/编程语言/JS/Function.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
