@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
                   }
                 }
               }
@@ -1529,6 +1529,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":139,\"ch\":24},\"to\":{\"line\":139,\"ch\":24}},\"scroll\":128.6318}"
+                    },
+                    {
+                      "title": "变量",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":10},\"to\":{\"line\":34,\"ch\":10}},\"scroll\":10.62962962962963}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":141,\"ch\":26},\"to\":{\"line\":141,\"ch\":26}},\"scroll\":128.63175303197355}"
+                    },
+                    {
                       "title": "变量",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1881,7 +1899,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1966,7 +1984,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1994,7 +2012,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2284,13 +2302,13 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/框架.md",
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/设计模式/设计模式.md",
-    "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/浏览器.md",
