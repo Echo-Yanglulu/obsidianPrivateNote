@@ -49,7 +49,7 @@ forEach
 some
 every
 filter
-map
+map：返回新数组
 reduce
 reduceRight
 
