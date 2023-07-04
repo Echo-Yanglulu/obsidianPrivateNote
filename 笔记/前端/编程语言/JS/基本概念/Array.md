@@ -45,11 +45,11 @@ Array.of
 Array.isArray
 ## 实例方法
 ### 遍历
-forEach
 some
 every
 filter
 map：返回新数组
+forEach
 reduce
 reduceRight
 
@@ -59,7 +59,7 @@ pop：尾删，返回删除元素
 unshift：头增，返回增加后长度
 shift：头删，返回删除元素
 slice：复制
-splice：增删
+splice(索引，删除个数，增加的元素)：增删
 fill
 concat：数组后追加数组，返回新数组【数组融合】
 
@@ -88,6 +88,7 @@ indexOf
 
 ### 问题
 1. 哪些会修改原数组？
+	1. push, pop, shift, unshift
 2. 哪些是[[纯函数]]？
 
 [^1]: 数组对象上一组属性的集合
