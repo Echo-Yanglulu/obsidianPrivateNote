@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/工程化/构建/Promise.md"
                   }
                 }
               }
@@ -1522,17 +1522,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "event-loop",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/event-loop.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}},\"scroll\":2.956}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "异步JS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":7},\"to\":{\"line\":37,\"ch\":7}},\"scroll\":1.1296296296296295}"
                     },
                     {
                       "title": "前端工作",
@@ -1785,7 +1785,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md",
+                    "file": "笔记/前端/工程化/构建/Promise.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1842,7 +1842,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1870,7 +1870,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/工程化/构建/Promise.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2155,8 +2155,8 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/异步JS.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/工程化/构建/ES规范.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/工具/HTTPS.md",

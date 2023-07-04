@@ -14,7 +14,9 @@
 		1. Promise.reject()创建拒绝 
 特性
 	1. 状态的变化不可逆
-每次链式调用，都会返回一个落定的promise，如果有异常，则落定为rejected状态，否则是fulfilled状态
+	2. 每次链式调用
+		1. **有异常**则当前返回rejected状态的promise对象。
+		2. 否则返回fulfilled状态的promise对象
 # API
 
 # 手写
