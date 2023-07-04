@@ -6,7 +6,11 @@
     },
     {
       "basename": "CSRF",
-      "path": "笔记/前端/CSRF.md"
+      "path": "笔记/前端/编程语言/JS/CSRF.md"
+    },
+    {
+      "basename": "前端安全",
+      "path": "笔记/前端/编程语言/JS/前端安全.md"
     },
     {
       "basename": "HTTP Method",
@@ -67,14 +71,6 @@
     {
       "basename": "浏览器",
       "path": "笔记/前端/编程语言/JS/浏览器.md"
-    },
-    {
-      "basename": "前端安全",
-      "path": "笔记/前端/编程语言/JS/前端安全.md"
-    },
-    {
-      "basename": "XSRF",
-      "path": "笔记/前端/编程语言/JS/XSRF.md"
     },
     {
       "basename": "XSS",
