@@ -40,13 +40,11 @@ new Array()
 2. 
 # 方法
 ## 静态方法
-
 Array.from
 Array.of
 Array.isArray
 ## 实例方法
-35个
-
+遍历
 forEach
 some
 every
@@ -68,7 +66,7 @@ from
 of
 copyWithin
 
-变形
+修改
 flat
 flatMap
 sort
