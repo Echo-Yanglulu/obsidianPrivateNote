@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md"
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
                   }
                 }
               }
@@ -1529,6 +1529,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":171,\"ch\":12},\"to\":{\"line\":171,\"ch\":12}},\"scroll\":139.135611907387}"
+                    },
+                    {
+                      "title": "Number",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":7},\"to\":{\"line\":51,\"ch\":7}},\"scroll\":44.18759506506676}"
+                    },
+                    {
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1965,7 +1977,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2050,7 +2062,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2078,7 +2090,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2368,8 +2380,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/库、框架/UI库/副作用.md",
@@ -2395,8 +2409,6 @@
     "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/CDN.md",
-    "笔记/前端/编程语言/JS/闭包.md",
-    "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
