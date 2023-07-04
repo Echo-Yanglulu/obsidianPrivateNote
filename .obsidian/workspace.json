@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/XSS.md"
+                    "file": "笔记/前端/编程语言/JS/XSRF.md"
                   }
                 }
               }
@@ -1529,6 +1529,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端安全",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":223,\"ch\":4},\"to\":{\"line\":223,\"ch\":4}},\"scroll\":191.9367}"
+                    },
+                    {
                       "title": "工具函数",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/工具函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1815,7 +1827,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/XSRF.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1900,7 +1912,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/XSS.md",
+                        "file": "笔记/前端/编程语言/JS/XSRF.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1928,7 +1940,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/XSS.md",
+                        "file": "笔记/前端/编程语言/JS/XSRF.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2211,10 +2223,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "33858c8e956a4d93",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/XSS.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -2241,7 +2254,6 @@
     "笔记/前端/工程化/工具/HTTPS.md",
     "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/DNS.md",
-    "笔记/前端/工程化/工具/内网穿透.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",

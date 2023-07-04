@@ -12,4 +12,4 @@
 	3. 前端后端都做替换，不会出错。前端在显示时做替换，后面在存储时替换
 
 方案
-	1. 使用三方库：xss
+	1. 使用三方库：[安装与使用 - 根据白名单过滤HTML(防止XSS攻击)](https://jsxss.com/zh/starter/quickstart.html) 
