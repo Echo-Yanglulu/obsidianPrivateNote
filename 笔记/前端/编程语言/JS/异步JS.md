@@ -40,9 +40,7 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 定义：有一个专门的微任务队列。
 包含：Promise.then()、async/await、MutationObserver、process.nextTick(node 独有)、Object.observe（已废弃）
 ## 机制
-1. 微任务执行先于宏任务
-	1. 为什么？
-		1. 在[[event-loop]]中，
+宏任务->微任务->UI渲染（宏任务）
 # 相关问题
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。
