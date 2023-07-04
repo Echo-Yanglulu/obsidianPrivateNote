@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/深比较.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2279,6 +2279,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "深比较",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/深比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":31},\"to\":{\"line\":21,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2289,7 +2295,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/深比较.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2324,7 +2330,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/深比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2352,7 +2358,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/深比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2640,6 +2646,7 @@
   },
   "active": "5de4d222495fdfc6",
   "lastOpenFiles": [
+    "笔记/前端/深比较.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/深拷贝.md",
     "笔记/前端/编程语言/CSS/布局.md",
@@ -2666,7 +2673,6 @@
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/正则表达式.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
