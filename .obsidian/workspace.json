@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/性能优化.md"
+                    "file": "笔记/前端/编程语言/JS/工具函数.md"
                   }
                 }
               }
@@ -1529,6 +1529,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "性能优化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":33,\"ch\":0},\"to\":{\"line\":33,\"ch\":0}},\"scroll\":28.484319625543296}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1803,7 +1809,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/性能优化.md",
+                    "file": "笔记/前端/编程语言/JS/工具函数.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1860,7 +1866,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1888,7 +1894,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2173,9 +2179,11 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/性能优化.md",
+    "笔记/前端/assets/Pasted image 20230704124525.png",
+    "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/懒加载.md",
     "笔记/前端/assets/Pasted image 20230704124054.png",
-    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/CDN.md",
@@ -2206,8 +2214,6 @@
     "笔记/前端/assets/Pasted image 20230702155044.png",
     "笔记/Palace/11西边港口.png",
     "笔记/Palace/10迪斯科后，广场旁边书店.png",
-    "笔记/Palace/9迪斯科西边广场.png",
-    "笔记/Palace/8迪斯科厨房.png",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
