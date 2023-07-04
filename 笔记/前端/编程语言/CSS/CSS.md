@@ -52,7 +52,7 @@ cascading style sheet：层叠样式表
 结合模块化与组件化为团队制定合理的CSS[[规范]]。
 [[CSS Reset]] 
 模式库
-[[CSS预处理器]]
+[[CSS预处理器]] 
 
 # 思想
 ## 原则
