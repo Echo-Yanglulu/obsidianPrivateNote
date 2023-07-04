@@ -17,11 +17,6 @@
       "icon": "quote-glyph"
     },
     {
-      "id": "obsidian-wordnet-plugin:open-wordnet-suggestor",
-      "name": "Obsidian42 - WordNet Dictionary: Look up a word",
-      "icon": "enter"
-    },
-    {
       "id": "obsidian-theme-design-utilities:toggle-dark-light-mode",
       "name": "Theme Design Utilities: Toggle between Dark and Light Mode",
       "icon": "dice-glyph"
@@ -55,20 +50,10 @@
       "icon": "note-glyph"
     },
     {
-      "id": "darlal-switcher-plus:switcher-plus:open-symbols-active",
-      "name": "Quick Switcher++: Open Symbols for the active editor",
-      "icon": "lucide-dollar-sign"
-    },
-    {
       "id": "obsidian-memos:show-memos-in-popover",
       "name": "Obsidian Memos: Show Memos in Popover",
       "hotkeys": [],
       "icon": "calendar-glyph"
-    },
-    {
-      "id": "obsidian-spaced-repetition:srs-review-flashcards",
-      "name": "Spaced Repetition: 复习所有笔记中的卡片",
-      "icon": "remix-ClapperboardFill"
     }
   ],
   "appendMethod": "body",

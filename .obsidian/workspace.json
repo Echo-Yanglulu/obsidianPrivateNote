@@ -2413,7 +2413,6 @@
       {
         "id": "c6a1cba0558ba019",
         "type": "tabs",
-        "dimension": 44.49438202247191,
         "children": [
           {
             "id": "f59515532fe6ff4b",
@@ -2489,7 +2488,6 @@
       {
         "id": "01b984a51df1d6b1",
         "type": "tabs",
-        "dimension": 55.50561797752809,
         "children": [
           {
             "id": "e06cd8634f0d46cc",
@@ -2531,13 +2529,13 @@
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
       "workspaces:管理工作区布局": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
   "active": "c283810bef530241",
