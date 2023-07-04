@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md"
+                    "file": "笔记/前端/编程语言/JS/event-loop.md"
                   }
                 }
               }
@@ -1824,7 +1824,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/编程语言/JS/event-loop.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1852,7 +1852,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/编程语言/JS/event-loop.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2135,10 +2135,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a25b7d2264118fac",
+  "active": "fc9f00cb3e947caf",
   "lastOpenFiles": [
-    "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
+    "Day Planners/2023-07-04.md",
     "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/工程化/工具/内网穿透.md",
