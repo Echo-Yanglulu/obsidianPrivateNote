@@ -53,6 +53,7 @@ map
 reduce
 reduceRight
 
+增删
 push尾增，返回长度
 unshift
 pop删尾，返回删除元素
@@ -78,8 +79,7 @@ join（自定义连接符号）
 entries
 values
 
-isArray
-find
+find：查找符合条件的第一个元素
 findIndex
 findLast
 findLastIndex
