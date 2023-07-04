@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "计算机网络",
-      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
-    },
-    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "CSRF",
+      "path": "笔记/前端/CSRF.md"
+    },
+    {
+      "basename": "HTTP Method",
+      "path": "笔记/前端/编程语言/JS/HTTP Method.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "笔记/前端/编程语言/JS/HTTP.md"
+    },
+    {
       "basename": "网络请求",
       "path": "笔记/前端/编程语言/JS/网络请求.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
     },
     {
       "basename": "Number",
@@ -181,24 +193,12 @@
       "path": "笔记/前端/编程语言/JS/HTTP缓存.md"
     },
     {
-      "basename": "HTTP",
-      "path": "笔记/前端/编程语言/JS/HTTP.md"
-    },
-    {
       "basename": "2023-07-02",
       "path": "Day Planners/2023-07-02.md"
     },
     {
       "basename": "静态资源",
       "path": "笔记/前端/工程化/静态资源.md"
-    },
-    {
-      "basename": "HTTP Header",
-      "path": "笔记/前端/编程语言/JS/HTTP Header.md"
-    },
-    {
-      "basename": "JSONP",
-      "path": "笔记/前端/JSONP.md"
     }
   ],
   "omittedPaths": [
