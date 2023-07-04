@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/性能优化.md"
+                    "file": "笔记/前端/懒加载.md"
                   }
                 }
               }
@@ -1860,7 +1860,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/懒加载.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1888,7 +1888,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/懒加载.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2171,11 +2171,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "562b9c247c21ad30",
   "lastOpenFiles": [
+    "笔记/前端/懒加载.md",
+    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/SSR.md",
     "笔记/前端/工程化/前后端分离.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/CDN.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/前端工作.md",
@@ -2198,7 +2199,6 @@
     "笔记/前端/工程化/工具/内网穿透.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
     "笔记/前端/assets/Pasted image 20230702212718.png",
