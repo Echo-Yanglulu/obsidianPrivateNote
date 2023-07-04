@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -2146,6 +2146,18 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":15},\"to\":{\"line\":124,\"ch\":15}},\"scroll\":103.33847850055126}"
+                    },
+                    {
+                      "title": "属性值与单位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":7},\"to\":{\"line\":92,\"ch\":7}},\"scroll\":64.38194444444444}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":16},\"to\":{\"line\":134,\"ch\":16}},\"scroll\":103.161}"
                     },
                     {
@@ -2249,8 +2261,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
-                    "mode": "preview",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
@@ -2284,7 +2296,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2312,7 +2324,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
