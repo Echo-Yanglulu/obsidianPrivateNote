@@ -1522,17 +1522,17 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "event-loop",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/event-loop.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":13},\"to\":{\"line\":13,\"ch\":13}},\"scroll\":2.956}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "异步JS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":5},\"to\":{\"line\":35,\"ch\":5}},\"scroll\":18.76388888888889}"
                     },
                     {
                       "title": "前端工作",
@@ -1785,7 +1785,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/event-loop.md",
+                    "file": "笔记/前端/编程语言/JS/异步JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2153,7 +2153,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "2db3c55753112812",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/event-loop.md",
