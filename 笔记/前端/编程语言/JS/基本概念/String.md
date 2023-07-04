@@ -43,6 +43,8 @@ console.log(taggedResult);     // "foobar"
 ```
 # 属性
 调用length属性会返回16位Unicode字符的个数
+# 方法
+1. trim
 # 转换
 转换为字符串类型像转换为布尔类型一样常用。
 

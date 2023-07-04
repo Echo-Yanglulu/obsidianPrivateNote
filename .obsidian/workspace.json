@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/String.md"
                   }
                 }
               }
@@ -2330,7 +2330,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2358,7 +2358,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2644,11 +2644,14 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "189b35c913412a54",
+  "active": "911b63749a101ac8",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/String.md",
+    "笔记/前端/编程语言/JS/Function.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/深比较.md",
     "笔记/前端/编程语言/JS/基本概念/深拷贝.md",
     "笔记/前端/编程语言/CSS/布局.md",
@@ -2670,9 +2673,6 @@
     "笔记/前端/编程语言/CSS/继承.md",
     "笔记/前端/编程语言/JS/异常捕获.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
