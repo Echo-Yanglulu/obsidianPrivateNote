@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/操作符.md"
+                    "file": "笔记/前端/JSONP.md"
                   }
                 }
               }
@@ -1532,6 +1532,18 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":203,\"ch\":21},\"to\":{\"line\":203,\"ch\":21}},\"scroll\":171.2877618522602}"
+                    },
+                    {
+                      "title": "操作符",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/操作符.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":10},\"to\":{\"line\":24,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":141,\"ch\":26},\"to\":{\"line\":141,\"ch\":26}},\"scroll\":115.2050716648291}"
                     },
                     {
@@ -2037,7 +2049,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/操作符.md",
+                    "file": "笔记/前端/JSONP.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2122,7 +2134,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/操作符.md",
+                        "file": "笔记/前端/JSONP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2150,7 +2162,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/操作符.md",
+                        "file": "笔记/前端/JSONP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2441,6 +2453,8 @@
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/document.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/垃圾回收机制.md",
@@ -2464,8 +2478,6 @@
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/工程化/框架.md",
-    "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/设计模式/设计模式.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
