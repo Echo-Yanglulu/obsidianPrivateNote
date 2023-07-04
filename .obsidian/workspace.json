@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/JSON.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md"
                   }
                 }
               }
@@ -2272,23 +2272,17 @@
                 "id": "5de4d222495fdfc6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "class",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/class.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":41},\"to\":{\"line\":44,\"ch\":41}},\"scroll\":32.366209262435675}"
-                    },
-                    {
-                      "title": "JS继承",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/JS继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":200,\"ch\":12},\"to\":{\"line\":200,\"ch\":12}},\"scroll\":175.15766262403528}"
                     },
                     {
                       "title": "深比较",
@@ -2307,7 +2301,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2342,7 +2336,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JSON.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2370,7 +2364,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/JSON.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2656,9 +2650,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "9aa11a3202d48c8e",
+  "active": "5de4d222495fdfc6",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
@@ -2684,7 +2679,6 @@
     "笔记/前端/编程语言/CSS/CSS常见问题.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/定位.md",
-    "笔记/前端/编程语言/CSS/伪元素.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
