@@ -61,7 +61,7 @@ shift：头删，返回删除元素
 slice：复制
 splice：增删
 fill
-concat
+concat：数组后追加数组，返回新数组【数组融合】
 
 from
 of
