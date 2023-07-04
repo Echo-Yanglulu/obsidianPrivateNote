@@ -31,13 +31,16 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 		2. 返回值会被包装为一个解决的promise对象， 
 		3. 捕获异常需要使用try...catch... 
 
-# 异步中API的分类
+# 异步API
 宏任务是[[浏览器]]规定的，微任务是[[ES规范]]语法规定的。
-## 宏任务
-包含：整体script脚本，定时器【setImmediate(node 独有)】，ajax，DOM事件，requestAnimationFrame(浏览器独有)，UI render（浏览器独有），IO
-## 微任务
+## 分类
+### 宏任务
+包含：定时器【setImmediate(node 独有)】，ajax，DOM事件，requestAnimationFrame(浏览器独有)，UI render（浏览器独有），IO
+### 微任务
 定义：有一个专门的微任务队列。
-包含：process.nextTick(node 独有)、Promise.then()、async/await、Object.observe、MutationObserver
+包含：Promise.then()、async/await、Object.observe、MutationObserver、process.nextTick(node 独有)
+## 机制
+微任务执行先于宏任务
 # 相关问题
 ## [[event-loop]]与dom渲染
 微任务的执行先于宏任务。为什么？
