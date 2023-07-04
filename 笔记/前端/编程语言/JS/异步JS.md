@@ -38,7 +38,7 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 包含：定时器【setImmediate(node 独有)】，ajax，DOM事件，requestAnimationFrame(浏览器独有)，UI render（浏览器独有），IO
 ### 微任务
 定义：有一个专门的微任务队列。
-包含：Promise.then()、async/await、Object.observe、MutationObserver、process.nextTick(node 独有)
+包含：Promise.then()、async/await、MutationObserver、process.nextTick(node 独有)、Object.observe（已废弃）
 ## 机制
 1. 微任务执行先于宏任务
 	1. 为什么？
