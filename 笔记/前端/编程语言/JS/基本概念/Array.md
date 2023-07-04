@@ -44,7 +44,7 @@ Array.from
 Array.of
 Array.isArray
 ## 实例方法
-遍历
+### 遍历
 forEach
 some
 every
@@ -53,13 +53,13 @@ map
 reduce
 reduceRight
 
-增删
-push尾增，返回长度
-unshift
-pop删尾，返回删除元素
-shift删头，返回删除元素
-slice复制
-splice增删
+### 增删
+push：尾增，返回增加后长度
+pop：尾删，返回删除元素
+unshift：头增，返回增加后长度
+shift：头删，返回删除元素
+slice：复制
+splice：增删
 fill
 concat
 
@@ -67,7 +67,7 @@ from
 of
 copyWithin
 
-修改
+### 修改
 flat
 flatMap
 sort
@@ -78,12 +78,16 @@ join（自定义连接符号）
 
 entries
 values
-
+### 查找
 find：查找符合条件的第一个元素
 findIndex
 findLast
 findLastIndex
 at
 indexOf
+
+### 问题
+1. 哪些会修改原数组？
+2. 哪些是[[纯函数]]？
 
 [^1]: 数组对象上一组属性的集合
