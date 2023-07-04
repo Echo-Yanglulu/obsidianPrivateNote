@@ -2136,23 +2136,17 @@
                 "id": "c283810bef530241",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "浮动",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/浮动.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "BFC",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/BFC.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":10},\"to\":{\"line\":109,\"ch\":10}},\"scroll\":85.33796296296296}"
                     },
                     {
                       "title": "异常捕获",
@@ -2195,7 +2189,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2544,7 +2538,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "f194ecd3a429cb7e",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/布局.md",
