@@ -34,7 +34,8 @@
 	7. Math.hypot(...nums)	返回nums中**每个数平方和的平方根**
 	8. Math.clz32(x)	返回32位整数x的**前置零**的数量
 	9. Math.sign(x)	返回表示x**符号**的1、-1、0、-0、NaN：正数，负数，正零，负零，NaN
-	10. Math.trunc(x)	返回x的**整数部分**，删除所有小数  `Math.trunc(-5.05) // -5`
+	10. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
+		1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
 	11. Math.sqrt(x)	返回x的**平方根** 
 	12. Math.cbrt(x)	返回x的**立方根** 
 	13. Math.tan(x)	       返回x的**正切**
