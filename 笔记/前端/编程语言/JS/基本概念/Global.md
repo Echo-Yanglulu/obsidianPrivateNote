@@ -11,9 +11,9 @@ Global对象有很多属性
 # 方法
 isNaN()、isFinite()、parseInt()、parseFloat()
 ## [[URL]]编码
-目的：编码URI以得到，浏览器能够理解**有效URI**[^1]，同时又以特殊的UTF-8编码*替换*掉所有无效字符
+目的：为了得到浏览器能够理解**有效URI**[^1]，需要对URI进行编码，同时又以特殊的UTF-8编码*替换*掉所有无效字符
 ### ecnodeURI()
-对整个URI进行编码
+编码URI
 	1. 不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
@@ -25,8 +25,8 @@ decodeURI(uri)
 // http%3A%2F%2Fwww.wrox.com%2Fillegal value.js%23start
 ```
 ### encodeURIComponent()
-对编码URI中单独的组件
-	1. 会编码它发现的所有**非标准字符**【包括URL组件也属于】
+编码URI的组件
+	1. 会编码它发现的所有**非标准字符**【包括URL组件】
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURIComponent(uri));   
@@ -37,6 +37,7 @@ decodeURIComponent(uri)
 // http:// www.wrox.com/illegal value.js#start
 // 输出了没有包含任何转义的字符串。（这个字符串不是有效的URL。）
 ```
+何时需要
 ## eval()
 最后一个方法，也是整个ECMAScript语言中最强大的方法
 本质：一个完整的ECMAScript解释器，它接收一个参数，一个要执行的ECMAScript（JavaScript）字符串。
