@@ -14,7 +14,7 @@
 ### 强制缓存(CCE)
 客户端的缓存策略：由客户端缓存
 1. Expires(老字段，已被Cache-Control代替)
-2. Cache-Control
+2. Cache-Control【可直接控制客户端缓存和服务端缓存】
 流程
 	1. **初次请求**时，返回**资源、Cache-Control** 
 		1. max-age=3153600【单位是秒】
@@ -36,8 +36,7 @@
 ### 协商缓存(LME)
 **服务端的缓存策略**：由服务端缓存
 1. 使用Last-Modified：时间，只精确到秒
-2. 
-3. 使用ETag：字符串
+2. 使用ETag：字符串
 流程
 	1. 初次请求，返回**资源、Last-Modified或Etag** 
 	2. 二次请求，**请求头带着if-modified-since或if-none-match** 
