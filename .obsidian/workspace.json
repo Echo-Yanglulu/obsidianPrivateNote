@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/布局.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
                   }
                 }
               }
@@ -2279,9 +2279,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "4f70034eb483876c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 9
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -2308,7 +2330,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2336,7 +2358,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/布局.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2625,10 +2647,10 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "c283810bef530241",
+  "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "dashboards/未命名看板.md",
     "笔记/前端/编程语言/CSS/布局.md",
+    "dashboards/未命名看板.md",
     "dashboards/Untitled.table",
     "笔记/行为/自己的观点.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
