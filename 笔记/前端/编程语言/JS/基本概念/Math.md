@@ -1,4 +1,5 @@
-属性：数学中的一些**特殊值**
+# 属性
+数学中的一些**特殊值**
 	1. Math.E：自然对数的基数e的值
 	2. Math.LN10：10为底的自然对数
 	3. Math.LN2：2为底的自然对数
@@ -7,7 +8,7 @@
 	6. Math.PI：π的值
 	7. Math.SQRT1_2：1/2的平方根
 	8. Math.SQRT2：2的平方根
-方法
+# 方法
 1. 最值
 	1. min()和max()方法用于确定一组数值中的最小值和最大值。任意多个参数
 	2. 可以避免使用额外的循环和if语句来确定一组数值的最大最小值。
@@ -31,19 +32,19 @@
 	6. Math.pow(x, power)	返回**x的power次幂**
 	7. Math.hypot(...nums)	返回nums中**每个数平方和的平方根**
 	8. Math.clz32(x)	返回32位整数x的**前置零**的数量
-	9. Math.sign(x)	返回表示x**符号**的1、0、-0或-1
+	9. Math.sign(x)	返回表示x**符号**的1、-1、0、-0、NaN：正数，负数，正零，负零，NaN
 	10. Math.trunc(x)	返回x的**整数部分**，删除所有小数
 	11. Math.sqrt(x)	返回x的**平方根** 
 	12. Math.cbrt(x)	返回x的**立方根** 
-	13. Math.sin(x)	       返回x的**正弦**
-	14. Math.asin(x)	返回x的**反正弦** 
-	15. Math.asinh(x)	返回x的**反双曲正弦**
-	16. Math.cos(x)	返回x的**余弦**
-	17. Math.acos(x)	返回x的**反余弦** 
-	18. Math.acosh(x)	返回x的**反双曲余弦**
-	19. Math.tan(x)	       返回x的**正切**
-	20. Math.atan(x)	返回x的**反正切**
-	21. Math.atanh(x)	返回x的**反双曲正切**
+	13. Math.tan(x)	       返回x的**正切**
+	14. Math.atan(x)	返回x的**反正切**
+	15. Math.atanh(x)	返回x的**反双曲正切** 
+	16. Math.sin(x)	       返回x的**正弦**
+	17. Math.asin(x)	返回x的**反正弦** 
+	18. Math.asinh(x)	返回x的**反双曲正弦**
+	19. Math.cos(x)	返回x的**余弦**
+	20. Math.acos(x)	返回x的**反余弦** 
+	21. Math.acosh(x)	返回x的**反双曲余弦**
 	22. Math.atan2(y, x)	返回y/x的**反正切**
 # 应用
 ```js
