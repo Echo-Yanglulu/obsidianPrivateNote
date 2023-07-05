@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
                   }
                 }
               }
@@ -2294,6 +2294,18 @@
                       "title": "单例内置对象",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "Global",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":33},\"to\":{\"line\":5,\"ch\":33}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
                     }
                   ]
@@ -2301,7 +2313,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2336,7 +2348,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2364,7 +2376,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2656,6 +2668,7 @@
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "dashboards/未命名看板.md",
     "dashboards/Untitled.table",
@@ -2683,7 +2696,6 @@
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
