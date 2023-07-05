@@ -11,9 +11,8 @@ Global对象有很多属性
 # 方法
 isNaN()、isFinite()、parseInt()、parseFloat()
 ## [[URL]]编码
-encodeURI()和encodeURIComponent()方法用于编码统一资源标识符（URI），以便传给浏览器。
-目的：使用URI编码方法来*编码*URI可以让*浏览器能够理解*它们，同时又以特殊的UTF-8编码*替换*掉所有无效字符
-	1. 有效的URI：不能包含某些字符，比如空格
+功能：编码统一资源标识符（URI），得到**有效URI**，以便**传给浏览器**。
+目的：使用URI编码方法来*编码*URI，得到有效URI[^1]，以让*浏览器能够理解*它们，同时又以特殊的UTF-8编码*替换*掉所有无效字符
 ### ecnodeURI()
 对整个URI进行编码
 	1. 不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
@@ -28,7 +27,7 @@ decodeURI(uri)
 ```
 ### encodeURIComponent()
 对编码URI中单独的组件
-	1. 会编码它发现的所有非标准字符【包括URL组件也属于】
+	1. 会编码它发现的所有**非标准字符**【包括URL组件也属于】
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURIComponent(uri));   
@@ -47,3 +46,4 @@ decodeURIComponent(uri)
 	2. 通过eval()执行的代码属于该调用所在上下文，被执行的代码与上下文拥有*相同的作用域链*。这意味着定义在包含上下文中的变量可以在eval()调用内部被引用，`let msg = "hello world";eval("console.log(msg)");  // "hello world"`【**eval不形成新的作用域链**】
 		1. 在eval中声明了一个变量，可在下方使用
 
+[^1]: 不能包含某些字符，比如空格
