@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/BOM.md"
+                    "file": "笔记/前端/编程语言/JS/navigator.md"
                   }
                 }
               }
@@ -2414,7 +2414,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/编程语言/JS/navigator.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2442,7 +2442,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/编程语言/JS/navigator.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2731,10 +2731,12 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "531f23c2e1fce702",
+  "active": "44b0ad2e09e4eb98",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/工程化/History.md",
+    "笔记/前端/编程语言/JS/window.md",
+    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/linux.md",
@@ -2757,8 +2759,6 @@
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/编程语言/JS/浏览器事件.md",
-    "笔记/前端/编程语言/JS/JS事件.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
