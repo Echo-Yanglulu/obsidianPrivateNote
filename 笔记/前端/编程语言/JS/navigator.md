@@ -6,8 +6,8 @@ netscape navigator 2最早引入浏览器，已成为客户端标识浏览器的
 
 appName：浏览器**全名** 
 appVersion：浏览器**版本**。通常与实际的浏览器版本不一致
-appCodeName：即使在非Mozilla浏览器中也会返回"Mozilla"
 buildId：浏览器的**构建编号**
+appCodeName：即使在非Mozilla浏览器中也会返回"Mozilla"
 getVRDisplays()：数组，包含可用的每个**VRDisplay实例** 
 activeVrDisplays：返回数组，包含ispresenting属性为true的**VRDisplay实例**
 battery：返回暴露Battery Status API的**BatteryManager对象** 
