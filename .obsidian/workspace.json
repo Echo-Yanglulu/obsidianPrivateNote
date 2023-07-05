@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2284,17 +2284,17 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":99,\"ch\":18},\"to\":{\"line\":99,\"ch\":18}},\"scroll\":73.79331046312178}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":192,\"ch\":11},\"to\":{\"line\":192,\"ch\":11}},\"scroll\":171.55567805953694}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -2355,7 +2355,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2390,7 +2390,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2418,7 +2418,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2709,6 +2709,7 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/同源策略.md",
@@ -2736,7 +2737,6 @@
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",

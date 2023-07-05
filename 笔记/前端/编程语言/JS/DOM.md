@@ -73,8 +73,8 @@ removeChild
 先获取，再插入，节点不是复制，而是移动
 ### 获取
 id
-name：伪数组
 tagName：伪数组
+name：伪数组
 className：伪数组
 querySelector()
 querySelectorAll(标签名)
@@ -97,10 +97,10 @@ querySelectorAll(标签名)
 # 性能
 原因：DOM操作非常“昂贵”
 方案
-	1. 对DOM查询做缓存[^1]
+	1. 对DOM查询做缓存[^1] 
 		1. 适用：多次*获取*DOM
 	2. 批处理：将频繁操作组合为一次操作
-		1. 适用：多次*插入*DOM。应：多次创建，通过createDocumentFragment（）一次插入
+		1. 适用：多次*插入*DOM。应：多次创建，通过`createDocumentFragment()`一次插入
 # [[DOM扩展]] 
 # [[DOM 2]]与[[DOM 3]] 
 
