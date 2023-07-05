@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "dashboards/未命名看板.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -2143,6 +2143,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "未命名看板",
+                      "icon": "lucide-trello",
+                      "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"dashboards/未命名看板.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2267,52 +2279,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "5de4d222495fdfc6",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "Function.prototype",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Function.prototype.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":200,\"ch\":12},\"to\":{\"line\":200,\"ch\":12}},\"scroll\":175.15766262403528}"
-                    },
-                    {
-                      "title": "深比较",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/深比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":31},\"to\":{\"line\":21,\"ch\":31}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":146,\"ch\":15},\"to\":{\"line\":146,\"ch\":15}},\"scroll\":124.80705622932746}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "dashboards/未命名看板.md"
-                  }
-                }
               }
             ],
-            "currentTab": 10
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2339,7 +2308,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "dashboards/未命名看板.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2367,7 +2336,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "dashboards/未命名看板.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2396,6 +2365,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
+        "dimension": 50.936329588014985,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -2497,6 +2467,7 @@
       {
         "id": "d1616fa1c8050a1e",
         "type": "tabs",
+        "dimension": 49.063670411985015,
         "children": [
           {
             "id": "69a2e6fc80af00cf",
@@ -2628,7 +2599,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 376.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2653,10 +2625,12 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "5de4d222495fdfc6",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
-    "笔记/行为/自己的观点.md",
     "dashboards/未命名看板.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "dashboards/Untitled.table",
+    "笔记/行为/自己的观点.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "dashboards",
     "Day Planners/2023-07-05.md",
@@ -2677,12 +2651,10 @@
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/深比较.md",
     "笔记/前端/编程语言/JS/基本概念/深拷贝.md",
-    "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
@@ -2700,7 +2672,6 @@
     "笔记/_gsdata_/2023-0701-232446-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232416-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0701-232346-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0701-232316-DESKTOP-YLL-Job1.log",
     "未命名.canvas",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
