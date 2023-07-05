@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/babel.md"
+                    "file": "笔记/前端/工程化/ES Module.md"
                   }
                 }
               }
@@ -2284,23 +2284,29 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Chrome Devtools",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/Chrome Devtools.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "调试",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/调试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":11},\"to\":{\"line\":34,\"ch\":11}},\"scroll\":11.590959206174201}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "构建",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":11},\"to\":{\"line\":67,\"ch\":11}},\"scroll\":48.323196605374825}"
+                    },
+                    {
+                      "title": "JS模块化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/JS模块化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":3},\"to\":{\"line\":34,\"ch\":3}},\"scroll\":11.62962962962963}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":230,\"ch\":17},\"to\":{\"line\":230,\"ch\":17}},\"scroll\":211.76728763489479}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -2396,7 +2402,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/babel.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2424,7 +2430,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/babel.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2713,11 +2719,14 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "a2817cf38eccbf25",
+  "active": "85a1d758bf4dc7ea",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/JS模块化.md",
+    "笔记/前端/工程化/构建/babel.md",
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/基础知识/调试.md",
     "笔记/前端/工程化/git.md",
@@ -2738,9 +2747,6 @@
     "笔记/前端/AJAX.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
-    "笔记/前端/工程化/RESTful API.md",
-    "笔记/前端/编程语言/JS/HTTP Method.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
