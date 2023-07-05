@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "RESTful API",
-      "path": "笔记/前端/工程化/RESTful API.md"
+      "basename": "HTTP缓存",
+      "path": "笔记/前端/编程语言/JS/HTTP缓存.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "RESTful API",
+      "path": "笔记/前端/工程化/RESTful API.md"
     },
     {
       "basename": "HTTP Method",
@@ -195,10 +199,6 @@
     {
       "basename": "CSRF",
       "path": "笔记/前端/编程语言/JS/CSRF.md"
-    },
-    {
-      "basename": "前端安全",
-      "path": "笔记/前端/编程语言/JS/前端安全.md"
     }
   ],
   "omittedPaths": [
