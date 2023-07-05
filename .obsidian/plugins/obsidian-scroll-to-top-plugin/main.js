@@ -51,7 +51,8 @@ var injectSurfingComponent = (top = true) => {
     var _a;
     const workspaceLeafElem = item.parentElement.parentElement.parentElement;
     const display = (_a = workspaceLeafElem.style) == null ? void 0 : _a.display;
-    return display != "none";
+    const modActive = workspaceLeafElem.classList.contains("mod-active");
+    return display != "none" && modActive;
   });
   if (webView) {
     if (top) {
