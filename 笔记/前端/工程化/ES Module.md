@@ -140,22 +140,22 @@ export const foo = 'foo' as myFoo;
 ```javascript
 // 所有导出（包含命名与默认），重命名
 import * as name from "module-name"; 
-// 默认导出，重命名
+// 默认与命名同时、分开导入（默认必须在前）
+import defaultExport, * as name from "module-name"; 
+// 默认导出重命名
 import defaultExport from "module-name"; 
-// 普通导出
+// 命名导出
 import { export } from "module-name"; 
-// 多个重命名
+import { foo , bar } from "module-name/path/to/specific/un-exported/file";
+// 命名导出重命名
 import {
   reallyReallyLongModuleMemberName as shortName,
   anotherLongModuleName as short
 } from '/modules/my-module.js'; 
-import { foo , bar } from "module-name/path/to/specific/un-exported/file";
-import { export1 , export2 } from "module-name"; // 多个
-import { export as alias } from "module-name"; // 重命名
-import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
+// 命名导出收集
+import { export1 , export2 as alias2 , [...] } from "module-name"; 
 import defaultExport, { export [ , [...] ] } from "module-name";
-// 默认与普通同时导入（默认必须在前）
-import defaultExport, * as name from "module-name"; 
+
 // 动态导入默认导出时，必须以default字段重命名
 (async () => {
   if (somethingIsTrue) {

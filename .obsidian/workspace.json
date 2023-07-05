@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/ES Module.md"
+                    "file": "笔记/前端/linux.md"
                   }
                 }
               }
@@ -2291,6 +2291,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":230,\"ch\":17},\"to\":{\"line\":230,\"ch\":17}},\"scroll\":211.3822270452764}"
+                    },
+                    {
                       "title": "构建",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/构建.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2367,7 +2373,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/linux.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2402,7 +2408,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/linux.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2430,7 +2436,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/ES Module.md",
+                        "file": "笔记/前端/linux.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2719,11 +2725,11 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "85a1d758bf4dc7ea",
+  "active": "4f70034eb483876c",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/构建/webpack.md",
