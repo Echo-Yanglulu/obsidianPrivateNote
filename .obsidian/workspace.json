@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/调试.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2284,7 +2284,7 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 2,
                   "stack": [
                     {
                       "title": "Chrome Devtools",
@@ -2293,14 +2293,14 @@
                       "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":0}"
                     },
                     {
-                      "state": "{}",
-                      "eState": "{}"
+                      "title": "调试",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/调试.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":11},\"to\":{\"line\":34,\"ch\":11}},\"scroll\":11.590959206174201}"
                     },
                     {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":225,\"ch\":10},\"to\":{\"line\":225,\"ch\":10}},\"scroll\":211.87182733465968}"
+                      "state": "{}",
+                      "eState": "{}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -2361,7 +2361,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/调试.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2396,7 +2396,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/调试.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2424,7 +2424,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/调试.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2715,10 +2715,11 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/Chrome Devtools.md",
-    "笔记/前端/基础知识/调试.md",
-    "笔记/前端/编程语言/JS/浏览器调试.md",
+    "笔记/前端/同源策略.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/基础知识/调试.md",
+    "笔记/前端/基础知识/Chrome Devtools.md",
+    "笔记/前端/编程语言/JS/浏览器调试.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/浏览器.md",
@@ -2727,7 +2728,6 @@
     "笔记/前端/编程语言/JS/JS事件.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/AJAX.md",
