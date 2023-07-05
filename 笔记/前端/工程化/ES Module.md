@@ -138,24 +138,30 @@ export const foo = 'foo' as myFoo;
 		2. 已导出的属性也不能修改
 环境：同样必须出现在模块顶级
 ```javascript
-import * as name from "module-name"; // 所有导出（包含命名与默认），并绑定在All
-import defaultExport from "module-name"; // 默认导出，重命名
-import { export } from "module-name"; // 显式/命名导出
+// 所有导出（包含命名与默认），重命名
+import * as name from "module-name"; 
+// 默认导出，重命名
+import defaultExport from "module-name"; 
+// 普通导出
+import { export } from "module-name"; 
+// 多个重命名
 import {
   reallyReallyLongModuleMemberName as shortName,
   anotherLongModuleName as short
-} from '/modules/my-module.js'; // 多个重命名
+} from '/modules/my-module.js'; 
 import { foo , bar } from "module-name/path/to/specific/un-exported/file";
 import { export1 , export2 } from "module-name"; // 多个
 import { export as alias } from "module-name"; // 重命名
 import { export1 , export2 as alias2 , [...] } from "module-name"; // 收集
 import defaultExport, { export [ , [...] ] } from "module-name";
-import defaultExport, * as name from "module-name"; // 默认与命名同时导入（默认必须在前）
+// 默认与普通同时导入（默认必须在前）
+import defaultExport, * as name from "module-name"; 
+// 动态导入默认导出时，必须以default字段重命名
 (async () => {
   if (somethingIsTrue) {
     const { default: myDefault, foo, bar } = await import('/modules/my-module.js');
   }
-})(); // 动态导入默认导出时，必须以default字段重命名
+})(); 
 import "module-name"; // 运行模块中的全局代码，不导入任何导出
 var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
