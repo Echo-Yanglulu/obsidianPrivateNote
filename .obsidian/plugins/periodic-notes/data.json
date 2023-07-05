@@ -1,33 +1,30 @@
 {
   "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "folder": "Day Planners/daily",
-    "enabled": true
+    "format": "",
+    "template": "",
+    "folder": ""
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "Day Planners/weekly",
-    "enabled": true
+    "folder": ""
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "Day Planners/monthly",
-    "enabled": true
+    "folder": ""
   },
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": "Day Planners/quarterly",
-    "enabled": true
+    "folder": ""
   },
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "Day Planners/yearly",
-    "enabled": true
+    "folder": ""
   }
 }
