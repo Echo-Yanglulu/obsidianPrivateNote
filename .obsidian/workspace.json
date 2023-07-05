@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/同源策略.md"
                   }
                 }
               }
@@ -2284,17 +2284,17 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "HTTPS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/工具/HTTPS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":6},\"to\":{\"line\":47,\"ch\":6}},\"scroll\":14.912037037037036}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":208,\"ch\":16},\"to\":{\"line\":208,\"ch\":16}},\"scroll\":189.21442495126706}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -2355,7 +2355,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/同源策略.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2390,7 +2390,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/同源策略.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2418,7 +2418,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/同源策略.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2709,8 +2709,8 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
