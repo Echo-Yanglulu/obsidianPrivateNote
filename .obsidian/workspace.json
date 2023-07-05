@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/同源策略.md"
+                    "file": "笔记/前端/JSONP.md"
                   }
                 }
               }
@@ -2291,6 +2291,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "同源策略",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":14},\"to\":{\"line\":34,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2355,7 +2361,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/同源策略.md",
+                    "file": "笔记/前端/JSONP.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2390,7 +2396,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/JSONP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2418,7 +2424,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/JSONP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2709,6 +2715,7 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
+    "笔记/前端/同源策略.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/AJAX.md",
@@ -2736,7 +2743,6 @@
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/调控/控制.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
