@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/学习/游戏式学习.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-01",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":115,\"ch\":13},\"to\":{\"line\":115,\"ch\":13}},\"scroll\":91.05266203703704}"
                     },
                     {
                       "title": "综合",
@@ -185,7 +185,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/学习/游戏式学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2425,7 +2425,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/游戏式学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2453,7 +2453,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/游戏式学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2744,6 +2744,8 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
+    "笔记/学习/游戏式学习.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/学习/概念/理财.md",
@@ -2751,7 +2753,6 @@
     "笔记/前端/编程语言/JS/基本概念/操作符.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "Day Planners/2023-07-05.md",
-    "笔记/学习/学习.md",
     "笔记/学习/概念/内涵.md",
     "笔记/学习/概念/概念.md",
     "笔记/学习/记忆宫殿.md",
@@ -2769,7 +2770,6 @@
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/工具/抓包工具.md",
-    "笔记/前端/基础知识/调试.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
