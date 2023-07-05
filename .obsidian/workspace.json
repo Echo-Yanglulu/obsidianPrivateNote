@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/工程化/工具/HTTPS.md"
                   }
                 }
               }
@@ -2284,17 +2284,17 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "HTTP缓存",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP缓存.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":50},\"to\":{\"line\":41,\"ch\":50}},\"scroll\":19.078703703703702}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":188,\"ch\":14},\"to\":{\"line\":188,\"ch\":14}},\"scroll\":153.11576626240353}"
                     },
                     {
                       "title": "HTTP状态码",
@@ -2355,7 +2355,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/工程化/工具/HTTPS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2390,7 +2390,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/工具/HTTPS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2418,7 +2418,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/工具/HTTPS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2709,8 +2709,8 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
