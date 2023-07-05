@@ -2272,8 +2272,14 @@
                 "id": "5de4d222495fdfc6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-05",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2489,7 +2495,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -2644,19 +2650,20 @@
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "5de4d222495fdfc6",
   "lastOpenFiles": [
+    "Day Planners/2023-07-05.md",
+    "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
@@ -2678,7 +2685,6 @@
     "笔记/前端/编程语言/CSS/属性简写.md",
     "笔记/前端/编程语言/CSS/CSS常见问题.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
-    "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/assets/Pasted image 20230704124525.png",
     "笔记/前端/assets/Pasted image 20230704124330.png",
     "笔记/前端/assets/Pasted image 20230704124054.png",
