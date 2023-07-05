@@ -221,10 +221,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "检索",
+                      "title": "2023-07-05",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/检索.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -2727,12 +2727,14 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Memos": false,
-      "notion-like-tables:Create new dashboard": false
+      "notion-like-tables:Create new dashboard": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "35cb2ba420ff4cfd",
+  "active": "56f086595700fd4f",
   "lastOpenFiles": [
+    "Day Planners/2023-07-05.md",
+    "笔记/学习/学习.md",
     "笔记/学习/概念/内涵.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/概念.md",
@@ -2757,8 +2759,6 @@
     "笔记/前端/同源策略.md",
     "笔记/前端/基础知识/Chrome Devtools.md",
     "笔记/前端/编程语言/JS/浏览器调试.md",
-    "笔记/前端/性能优化.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
