@@ -5,6 +5,10 @@
       "path": "笔记/学习/学习.md"
     },
     {
+      "basename": "费曼技巧",
+      "path": "笔记/学习/概念/费曼技巧.md"
+    },
+    {
       "basename": "游戏式学习",
       "path": "笔记/学习/游戏式学习.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "属性简写",
       "path": "笔记/前端/编程语言/CSS/属性简写.md"
-    },
-    {
-      "basename": "CSS常见问题",
-      "path": "笔记/前端/编程语言/CSS/CSS常见问题.md"
     }
   ],
   "omittedPaths": [
