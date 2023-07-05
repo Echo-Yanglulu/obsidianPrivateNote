@@ -129,9 +129,9 @@ git 仓库中特定事件触发后被调用的脚本。
 ## 配置
 1. git  \<command> -h 多查文档
 2. git config【同时设置时，local优先级最高】
-	1. --local 设置git 配置：仅对*当前项目*有效
+	1. --system 对使用当前系统的*所有用户*的仓库有效
 	2. --global 对*当前用户*的所有仓库有效
-	3. --system 对使用当前系统的*所有用户*的仓库有效
+	3. --local 设置git 配置：仅对*当前项目*有效
 	4. --list --local 查看local的git配置
 
 ## 文件

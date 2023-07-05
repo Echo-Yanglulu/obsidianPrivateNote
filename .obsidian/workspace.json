@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/工程化/构建/构建.md"
                   }
                 }
               }
@@ -2396,7 +2396,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2424,7 +2424,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/构建/构建.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2713,12 +2713,14 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "4f70034eb483876c",
+  "active": "b9d44a50ec3ea445",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/同源策略.md",
+    "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/基础知识/调试.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/编程语言/JS/HTTP.md",
+    "笔记/前端/同源策略.md",
     "笔记/前端/基础知识/Chrome Devtools.md",
     "笔记/前端/编程语言/JS/浏览器调试.md",
     "笔记/前端/性能优化.md",
@@ -2739,8 +2741,6 @@
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/CSS/布局.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
