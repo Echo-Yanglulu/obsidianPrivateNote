@@ -1,11 +1,8 @@
 # 概述
-前提：前提：客户端启用JS，则存在该对象
+前提：客户端启用JS，则存在该对象
 用途：客户端标识浏览器的标准
 ## 起源
 netscape navigator 2最早引入浏览器，已成为客户端标识浏览器的标准。（这里的客户端是指什么？PC？）
-只要浏览器启用JS，该对象就一定存在。
-属性/方法
-说明
 
 appName：浏览器**全名** 
 appVersion：浏览器**版本**。通常与实际的浏览器版本不一致
@@ -39,16 +36,16 @@ product：返回**产品名称**（通常是"Gecko"）
 productSub：返回**产品的额外信息**（通常是Gecko的版本）
 registerProtocolHandler()：将一个网站注册为**特定协议的处理程序**
 requestMediaKeySystemAccess()：返回一个期约，解决为MediaKeySystemAccess对象
-sendBeacon()：异步传输一些小数据
+sendBeacon()：**异步传输**一些小数据
 serviceWorker：返回用来与ServiceWorker实例交互的ServiceWorkerContainer
-share()：返回当前平台的原生共享机制
-storage：返回暴露Storage API的StorageManager对象
+share()：返回当前平台的**原生共享机制** 
+storage：返回暴露Storage API的**StorageManager对象** 
 userAgent：返回浏览器的**用户代理字符串**[^1] 
 	1. `const isChrome = navigator.userAgent.indexOf('Chrome')` 
 vendor：返回**浏览器的厂商**名称
-vendorSub：返回浏览器厂商的更多信息
-vibrate()：触发设备振动
-webdriver：返回浏览器当前是否被自动化程序控制
+vendorSub：返回**浏览器厂商**的更多信息
+vibrate()：触发**设备振动** 
+webdriver：返回浏览器当前是否**被自动化程序控制** 
 
 该对象的属性通常用于确定**浏览器的类型**（？）
 # 插件检测
