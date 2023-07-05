@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -2143,6 +2143,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":20},\"to\":{\"line\":12,\"ch\":20}}}"
+                    },
+                    {
                       "title": "未命名看板",
                       "icon": "lucide-trello",
                       "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"dashboards/未命名看板.md\"}}",
@@ -2273,7 +2279,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/布局.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2387,7 +2393,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2414,7 +2420,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2442,7 +2448,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2731,12 +2737,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "56f086595700fd4f",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "Day Planners/2023-07-05.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/内涵.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/概念.md",
     "笔记/学习/记忆宫殿.md",
     "笔记/前端/前端工作.md",
@@ -2758,7 +2765,6 @@
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/同源策略.md",
     "笔记/前端/基础知识/Chrome Devtools.md",
-    "笔记/前端/编程语言/JS/浏览器调试.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
