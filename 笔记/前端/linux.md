@@ -24,7 +24,7 @@
 		1. 新增：touch d.js
 		2. 修改
 			1. 文件名：mv index.html index-test.html
-			2. 内容/新增并打开[^4] ：vi d.js
+			2. 内容/新增并打开[^4] ：vi d.js【vi 文件名】
 				1. 左下角：--INSERT-- 输入模式。
 				2. `i`：进入编辑模式
 				3. `esc`退出输入模式
@@ -36,8 +36,9 @@
 			1. 整体：cat package.json
 			2. 头部几行：head 文件名
 			3. 尾部：tail
-		4. 查找文件内容
-			1. grep "babel" package.json：在文件中查找内容。
+		4. 查找
+			1. 文件内容
+				1. grep "babel" package.json：在文件中查找内容。
 	4. 拷贝：cp
 		1. cp a.js a1.js：新增了一个a1.js文件
 	5. 删除 rm【没有回收站！】
