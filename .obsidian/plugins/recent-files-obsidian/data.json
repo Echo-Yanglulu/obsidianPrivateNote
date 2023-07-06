@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "前端安全",
+      "path": "笔记/前端/编程语言/JS/前端安全.md"
+    },
+    {
+      "basename": "CSS属性",
+      "path": "笔记/前端/编程语言/CSS/CSS属性.md"
+    },
+    {
+      "basename": "属性值与单位",
+      "path": "笔记/前端/编程语言/CSS/属性值与单位.md"
+    },
+    {
+      "basename": "继承",
+      "path": "笔记/前端/编程语言/CSS/继承.md"
+    },
+    {
       "basename": "布局",
       "path": "笔记/前端/编程语言/CSS/布局.md"
     },
@@ -13,20 +33,12 @@
       "path": "笔记/前端/工程化/构建/Promise.md"
     },
     {
-      "basename": "前端安全",
-      "path": "笔记/前端/编程语言/JS/前端安全.md"
-    },
-    {
       "basename": "XSS",
       "path": "笔记/前端/工程化/XSS.md"
     },
     {
       "basename": "CSRF",
       "path": "笔记/前端/编程语言/JS/CSRF.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "Array",
@@ -187,18 +199,6 @@
     {
       "basename": "同源策略",
       "path": "笔记/前端/同源策略.md"
-    },
-    {
-      "basename": "JSONP",
-      "path": "笔记/前端/JSONP.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "笔记/前端/工程化/工具/HTTPS.md"
-    },
-    {
-      "basename": "HTTP缓存",
-      "path": "笔记/前端/编程语言/JS/HTTP缓存.md"
     }
   ],
   "omittedPaths": [
