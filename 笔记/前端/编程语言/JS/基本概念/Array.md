@@ -52,7 +52,23 @@ map：返回新数组
 forEach
 reduce：求和
 ```js
-// 应用场景：对元素做 
+// 应用场景：对元素做更复杂的操作
+// 1. 统计每个元素出现的次数，
+let names = ['小猪课堂', '张三', '李四', '王五', '小猪课堂']
+let countedNames = names.reduce(function (allNames, name) {
+  // 判断当前数组元素是否出现过
+  if (name in allNames) {
+    allNames[name]++
+  } else {
+    allNames[name] = 1
+  }
+  return allNames
+}, {})
+console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
+// 2. 把每个元素打平
+// 3. 求和
+
+// 核心：每项的操作，受前面所有元素的影响
 ```
 reduceRight
 ### 转换
