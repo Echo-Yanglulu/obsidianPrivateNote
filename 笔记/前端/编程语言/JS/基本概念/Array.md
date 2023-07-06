@@ -50,7 +50,7 @@ every：是否所有符合条件
 filter：找到符合条件的元素
 map：返回新数组
 forEach
-reduce：求和
+reduce
 ```js
 // 应用场景：对元素做更复杂的操作
 // 核心：每个元素的操作，都受前面所有元素操作的影响
@@ -66,8 +66,8 @@ let countedNames = names.reduce(function (allNames, name) {
   return allNames
 }, {})
 console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
-// 2. 把每个元素打平
-// 3. 求和，字符串累加
+// 2. 把二维数组打平，成为一维
+// 3. 求和，字符串累加，数值累乘
 
 
 ```
