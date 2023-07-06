@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -45,10 +45,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "拓展",
+                      "title": "2023-07-06",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/拓展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":24},\"to\":{\"line\":6,\"ch\":24}},\"scroll\":1.8819444444444444}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-06.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -1033,6 +1033,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Object",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":122,\"ch\":9},\"to\":{\"line\":122,\"ch\":9}},\"scroll\":106.66493055555556}"
+                    },
+                    {
                       "title": "布局",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1517,7 +1523,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2482,7 +2488,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -2509,7 +2516,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2537,7 +2544,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2662,8 +2669,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -2826,8 +2832,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "a25b7d2264118fac",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/webapck.md",
+    "笔记/学习/学习.md",
+    "Day Planners/2023-07-06.md",
     "笔记/学习/概念/拓展.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/JSX.md",
@@ -2850,11 +2860,7 @@
     "笔记/前端/工程化/XSS.md",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/JS解释器.md",
-    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",
