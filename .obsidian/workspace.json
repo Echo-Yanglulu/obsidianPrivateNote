@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/URL.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2303,6 +2303,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "URL",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/URL.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":23},\"to\":{\"line\":9,\"ch\":23}},\"scroll\":0}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2397,7 +2403,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/URL.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2432,7 +2438,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/URL.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2460,7 +2466,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/URL.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2751,6 +2757,7 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/异常捕获.md",
@@ -2776,7 +2783,6 @@
     "Day Planners/2023-07-05.md",
     "笔记/学习/概念/内涵.md",
     "笔记/学习/概念/概念.md",
-    "笔记/学习/记忆宫殿.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
