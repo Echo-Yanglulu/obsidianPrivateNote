@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/拓展.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "拓展",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/拓展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":24},\"to\":{\"line\":6,\"ch\":24}},\"scroll\":1.8819444444444444}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":139,\"ch\":11},\"to\":{\"line\":139,\"ch\":11}},\"scroll\":109.44675925925925}"
                     },
                     {
                       "title": "综合",
@@ -185,7 +185,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/拓展.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2509,7 +2509,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/拓展.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2537,7 +2537,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/拓展.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2828,6 +2828,7 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/学习/概念/拓展.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2854,7 +2855,6 @@
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",
