@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "CSRF",
+      "path": "笔记/前端/编程语言/JS/CSRF.md"
+    },
+    {
+      "basename": "前端安全",
+      "path": "笔记/前端/编程语言/JS/前端安全.md"
+    },
+    {
+      "basename": "XSS",
+      "path": "笔记/前端/工程化/XSS.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
       "basename": "Object",
       "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     },
@@ -17,10 +37,6 @@
       "path": "笔记/学习/概念/理财.md"
     },
     {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
       "basename": "Promise",
       "path": "笔记/前端/工程化/构建/Promise.md"
     },
@@ -31,10 +47,6 @@
     {
       "basename": "JS解释器",
       "path": "笔记/前端/编程语言/JS/JS解释器.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "Map",
@@ -187,18 +199,6 @@
     {
       "basename": "HTTP缓存",
       "path": "笔记/前端/编程语言/JS/HTTP缓存.md"
-    },
-    {
-      "basename": "RESTful API",
-      "path": "笔记/前端/工程化/RESTful API.md"
-    },
-    {
-      "basename": "HTTP Method",
-      "path": "笔记/前端/编程语言/JS/HTTP Method.md"
-    },
-    {
-      "basename": "HTTP状态码",
-      "path": "笔记/前端/编程语言/JS/HTTP状态码.md"
     }
   ],
   "omittedPaths": [
