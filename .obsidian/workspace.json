@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/CSRF.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -2125,13 +2125,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "理财",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理财.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":33},\"to\":{\"line\":4,\"ch\":33}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/理财.md",
+                    "file": "笔记/前端/编程语言/CSS/布局.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2302,17 +2308,17 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "XSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/XSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端安全",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}},\"scroll\":0}"
                     },
                     {
                       "title": "前端工作",
@@ -2421,7 +2427,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/CSRF.md",
+                    "file": "笔记/前端/编程语言/JS/前端安全.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2429,7 +2435,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2456,7 +2462,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/CSRF.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2484,7 +2490,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/CSRF.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2549,7 +2555,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line-hei",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2773,17 +2779,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f70034eb483876c",
+  "active": "0714f41b75104fee",
   "lastOpenFiles": [
+    "笔记/学习/概念/理财.md",
+    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/工程化/XSS.md",
+    "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/学习/概念/理财.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
@@ -2804,7 +2811,6 @@
     "笔记/学习/概念/感官.md",
     "笔记/学习/概念/拓展.md",
     "笔记/学习/学习.md",
-    "笔记/学习/概念/理解.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
