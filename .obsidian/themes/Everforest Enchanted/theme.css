@@ -882,35 +882,53 @@ settings:
   type: info-text
   markdown: true
 -
-  id: workspace-settings
+  id: editor-settings
   title: Editor
-  description: Line length, floating gutters, highlighted active folders
+  description: Line length, line numbers, folders
   type: heading
   level: 1
   collapsed: true
 -
+  id: folder-settings
+  title: Folders
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: highlighted-folders
+  title: Enable highlighted active folders
+  description: Adds a background on opened folders.
+  type: class-toggle
+-
+  id: line-length-settings
+  title: Line Length
+  type: heading
+  level: 2
+  collapsed: true
+-
   id: readable-line-length-custom
   title: Line length
-  description: Sets a custom readable line width in pixels
+  description: Sets a custom readable line width in pixels.
   type: variable-number
   default: 700
   format: px
 -
   id: wide-width-readable-line-length-custom
   title: Wide Line length
-  description: Sets a custom readable line width for the CSS class "wide-width" in pixels
+  description: Sets a custom readable line width for the CSS class "wide-width" in pixels.
   type: variable-number
   default: 1000
   format: px
 -
-  id: stacked-panes-gutter-disable-float
-  title: Disable stacked tabs floating gutters
-  description: Disables custom gutter floating in the stacked tab mode. This makes gutters shift over the content in stacked tabs. Use this if your panes are too thin to show gutters.
-  type: class-toggle
+  id: gutter-settings
+  title: Line Numbers
+  type: heading
+  level: 2
+  collapsed: true
 -
-  id: highlighted-folders
-  title: Enable highlighted active folders
-  description: Adds a background on opened folders.
+  id: stacked-panes-gutter-disable-float
+  title: Disable stacked tabs floating line numbers
+  description: Disables custom line number floating in the stacked tab mode. This makes the line numbers shift over the content in stacked tabs. Use this if your panes are too thin to show them.
   type: class-toggle
 -
   id: element-settings
@@ -920,6 +938,36 @@ settings:
   level: 1
   collapsed: true
 -
+  id: canvas-settings
+  title: Canvas
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: canvas-dot-size
+  title: Canvas - Background dot size
+  description: The size of dots on the canvas. It starts breaking past 10.
+  type: variable-number
+  default: 0.7
+  format: px
+-
+  id: link-settings
+  title: Links
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: external-link-remove-icon
+  title: Links - Remove external link icon
+  description: Removes the link icon from external links.
+  type: class-toggle
+-
+  id: list-settings
+  title: Lists
+  type: heading
+  level: 2
+  collapsed: true
+-
   id: list-indent-custom
   title: Lists - List indent size
   description: The size of list item indents. The default theme uses 32 px.
@@ -927,9 +975,25 @@ settings:
   default: 24
   format: px
 -
+  id: table-settings
+  title: Tables
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: centered-tables
+  title: Tables - Center alignment
+  description: Aligns tables to the center.
+  type: class-toggle
+-
+  id: full-width-tables
+  title: Tables - Full width
+  description: Makes tables fit the full width.
+  type: class-toggle
+-
   id: rounded-tables
   title: Tables - Rounded corners
-  description: Adds a rounded effect to table corners
+  description: Adds a rounded effect to table corners.
   type: class-toggle
 -
   id: rounded-tables-radius
@@ -937,13 +1001,6 @@ settings:
   description: The corner radius of rounded tables. You may need to reload tabs to see the effect.
   type: variable-number
   default: 8
-  format: px
--
-  id: canvas-dot-size
-  title: Canvas - Background dot size
-  description: The size of dots on the canvas. It starts breaking past 10.
-  type: variable-number
-  default: 0.7
   format: px
 -
   id: extra-appearance-settings
@@ -962,18 +1019,18 @@ settings:
   id: custom-stacked-panes-description
   title: Info
   description: |
-    This setting turns stacked panes from a pixel width to a number visible on screen at once. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more infomation.
+    This setting turns stacked panes from a pixel width to a number visible on screen at once. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_stacked_panes.md) for more information.
   type: info-text
   markdown: true
 -
   id: custom-stacked-panes-enabled
   title: Enable Custom Stacked Panes
-  description: Changes stacked panes to fit a certian number on screen instead of using pixel values
+  description: Changes stacked panes to fit a certain number on screen instead of using pixel values.
   type: class-toggle
 -
   id: custom-stacked-panes-count
   title: Pane Count
-  description: The number of panes to show up at once
+  description: The number of panes to show up at once.
   type: variable-number-slider
   default: 2
   min: 1
@@ -989,13 +1046,13 @@ settings:
   id: background-image-description
   title: Info
   description: |
-    Adds background images. This is easiest to do with an external URL. If you want to use local images for offline access, you'll have to use a snippet. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_background_image.md) for more infomation.
+    Adds background images. This is easiest to do with an external URL. If you want to use local images for offline access, you'll have to use a snippet. Check the [GitHub Repo documentation](https://github.com/FireIsGood/obsidian-everforest-enchanted/blob/main/custom_background_image.md) for more information.
   type: info-text
   markdown: true
 -
   id: background-image-enabled
   title: Background Image
-  description: Enables the background image
+  description: Enables the background image.
   type: class-toggle
 -
   id: background-image-dark-url
@@ -1011,8 +1068,8 @@ settings:
   default: url("http://")
 -
   id: background-image-position
-  title: Backgorund Position
-  description: Change where the image is centered
+  title: Background Position
+  description: Change where the image is centered.
   type: variable-select
   default: center
   options:
@@ -1046,7 +1103,7 @@ settings:
 -
   id: pane-opacity
   title: Pane Opacity
-  description: How opaque page backgrounds are
+  description: How opaque page backgrounds are.
   type: variable-number-slider
   default: 0.85
   min: 0
@@ -1055,7 +1112,7 @@ settings:
 -
   id: ui-opacity
   title: UI Opacity
-  description: How opaque UI backgrounds are
+  description: How opaque UI backgrounds are.
   type: variable-number-slider
   default: 0.85
   min: 0
@@ -1064,7 +1121,7 @@ settings:
 -
   id: tab-opacity
   title: Tab Opacity
-  description: How opaque STACKED TAB backgrounds are
+  description: How opaque STACKED TAB backgrounds are.
   type: variable-number-slider
   default: 0.85
   min: 0
@@ -1085,7 +1142,8 @@ settings:
 */
 
 /* Improve style setting appearance */
-[data-type="style-settings"] .view-content > div:last-child {
+[data-type="style-settings"] .view-content > div:last-child,
+.vertical-tab-content > div:last-child {
   padding-bottom: 400px;
 }
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading {
@@ -1103,7 +1161,34 @@ settings:
   place-content: flex-start;
 }
 
-/** Extra Appearance Settings **/
+/** Editor Settings **/
+
+/* Highlighted folders */
+body.highlighted-folders .nav-folder:not(.is-collapsed, .mod-root) {
+  border-radius: var(--radius-s);
+  background-color: rgba(var(--mono-rgb-100), 0.05);
+}
+
+/** Element Settings **/
+
+/* External links */
+.external-link-remove-icon .cm-formatting.external-link {
+    display: none;
+}
+.external-link-remove-icon a.external-link {
+    background-image: none;
+    padding-right: unset;
+}
+
+/* Centered tables */
+.centered-tables table {
+  margin-inline: auto;
+}
+
+/* Full width tables */
+.full-width-tables table {
+  width: 100%;
+}
 
 /* Rounded tables */
 .rounded-tables table {
@@ -1124,12 +1209,6 @@ settings:
 }
 .rounded-tables :is(td, th) {
   border-width: 0 var(--table-border-width) var(--table-border-width) 0;
-}
-
-/* Highlighted folders */
-body.highlighted-folders .nav-folder:not(.is-collapsed, .mod-root) {
-  border-radius: var(--radius-s);
-  background-color: rgba(var(--mono-rgb-100), 0.05);
 }
 
 /** Custom Stacked Panes **/
