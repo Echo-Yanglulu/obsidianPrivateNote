@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/学习/概念/理解.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-06",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-06.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":135,\"ch\":12},\"to\":{\"line\":135,\"ch\":12}},\"scroll\":113.63120176405734}"
                     },
                     {
                       "title": "综合",
@@ -185,7 +185,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/学习/概念/理解.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2425,7 +2425,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/概念/理解.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2453,7 +2453,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/概念/理解.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2744,10 +2744,10 @@
   },
   "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/意义.md",
-    "笔记/学习/学习.md",
     "Day Planners/2023-07-06.md",
     "笔记/学习/概念/拓展.md",
     "笔记/学习/概念/费曼技巧.md",
