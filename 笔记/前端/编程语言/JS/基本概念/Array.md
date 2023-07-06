@@ -52,7 +52,7 @@ map：返回新数组
 forEach
 reduce：求和
 ```js
-
+// 应用场景：对元素做 
 ```
 reduceRight
 ### 转换
