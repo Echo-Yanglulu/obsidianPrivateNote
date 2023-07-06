@@ -50,13 +50,19 @@ every
 filter
 map：返回新数组
 forEach
-reduce
-reduceRight
+reduce：求和
+```js
 
+```
+reduceRight
 ### 转换
 把其他类型转换为数组
-from：[[类数组对象]]
-of
+1. from：[[类数组对象]] 
+2. of：参数列表
+转为其他类型
+1. toString（默认以逗号为连接符号）
+2. toLocaleString
+3. join（自定义连接符号）
 ### 增删
 push：尾增，返回增加后长度
 pop：尾删，返回删除元素
@@ -76,9 +82,6 @@ flat
 flatMap
 sort
 reverse
-toString（默认以逗号为连接符号）
-toLocaleString
-join（自定义连接符号）
 
 entries
 values
