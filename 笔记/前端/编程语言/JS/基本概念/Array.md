@@ -53,23 +53,23 @@ forEach
 reduce
 reduceRight
 
+### 转换
+把其他类型转换为数组
+from：[[类数组对象]]
+of
 ### 增删
 push：尾增，返回增加后长度
 pop：尾删，返回删除元素
 unshift：头增，返回增加后长度
 shift：头删，返回删除元素
-
 splice(索引，删除个数，增加的元素)：
 	1. 从某个索引开始，同时增删元素
 	2. 返回值：被删除元素组成的数组
 fill
+copyWithin
 
 slice：截取。浅拷贝部分元素，组成新数组
 concat：融合。数组后追加数组，返回新数组
-
-from
-of
-copyWithin
 
 ### 修改
 flat
