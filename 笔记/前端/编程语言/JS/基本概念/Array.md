@@ -45,15 +45,16 @@ Array.of
 Array.isArray
 ## 实例方法
 ### 遍历
-some
-every
-filter
+some：是否某个符合条件
+every：是否所有符合条件
+filter：找到符合条件的元素
 map：返回新数组
 forEach
 reduce：求和
 ```js
 // 应用场景：对元素做更复杂的操作
-// 1. 统计每个元素出现的次数，
+// 核心：每个元素的操作，都受前面所有元素操作的影响
+// 1. 统计：每个/某个元素出现的次数；
 let names = ['小猪课堂', '张三', '李四', '王五', '小猪课堂']
 let countedNames = names.reduce(function (allNames, name) {
   // 判断当前数组元素是否出现过
@@ -66,9 +67,9 @@ let countedNames = names.reduce(function (allNames, name) {
 }, {})
 console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
 // 2. 把每个元素打平
-// 3. 求和
+// 3. 求和，字符串累加
 
-// 核心：每项的操作，受前面所有元素的影响
+
 ```
 reduceRight
 ### 转换
