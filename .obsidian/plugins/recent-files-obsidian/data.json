@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JSON",
-      "path": "笔记/前端/编程语言/JS/JSON.md"
+      "basename": "URL",
+      "path": "笔记/前端/编程语言/JS/URL.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "JSON",
+      "path": "笔记/前端/编程语言/JS/JSON.md"
     },
     {
       "basename": "异常捕获",
@@ -195,10 +199,6 @@
     {
       "basename": "Function.prototype",
       "path": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md"
-    },
-    {
-      "basename": "闭包",
-      "path": "笔记/前端/编程语言/JS/闭包.md"
     }
   ],
   "omittedPaths": [
