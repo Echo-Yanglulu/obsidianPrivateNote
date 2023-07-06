@@ -103,6 +103,7 @@ module.exports = {
     adminApp: './src/adminApp.js',
   },
 };
+console.log(module)
 ```
 多入口的场景
 	1. 多个SPA或一个MPA，需要为每个入口命名。
