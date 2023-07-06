@@ -68,7 +68,7 @@ chunk是个集合概念。包含多个文件。
 #### chunk与bundle的区别
 chunk真包含bundle。bundle是个体
 	1. chunk是个抽象概念、*集合概念*。作为打包结果，**一个chunk可能包含一个或多个bundle**[^20] 
-	2. bundle是具体概念、*普遍概念*：每个由入口文件、动态加载、代码分割生成的js文件、每个map文件，都是一个bundle。
+	2. bundle是具体概念、*普遍概念*：chunk内的每个文件，都是一个bundle。
 ## entry
 webpack是静态模块打包工具，需要一个或多个入口文件[^19]，作为项目依赖关系分析的起点。
 ### 单入口
