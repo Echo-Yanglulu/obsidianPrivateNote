@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/requestAnimationFrame.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Map.md"
                   }
                 }
               }
@@ -2296,8 +2296,14 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "性能优化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":4},\"to\":{\"line\":20,\"ch\":4}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2438,7 +2444,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/requestAnimationFrame.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Map.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2466,7 +2472,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/requestAnimationFrame.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Map.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2755,14 +2761,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7b02b05ac6b4e614",
+  "active": "b224a2d52dc81b5d",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/Set.md",
+    "笔记/前端/编程语言/JS/基本概念/Map.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/requestAnimationFrame.md",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",
     "笔记/前端/assets/Pasted image 20230706150426.png",
-    "笔记/前端/requestAnimationFrame.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/URL.md",
@@ -2784,8 +2793,6 @@
     "笔记/工具/文学/如何阅读一本文学书.md",
     "笔记/学习/游戏式学习.md",
     "笔记/学习/概念/理财.md",
-    "笔记/前端/编程语言/JS/基本概念/操作符.md",
-    "Day Planners/2023-07-05.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
@@ -2794,7 +2801,6 @@
     "笔记/前端/assets/Pasted image 20230704124054.png",
     "笔记/前端/assets/Pasted image 20230703190504.png",
     "笔记/前端/assets/Pasted image 20230703154317.png",
-    "笔记/前端/assets/Pasted image 20230702212718.png",
     "笔记/_gsdata_/2023-0701-232646-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/lock.gsl",
     "笔记/_gsdata_/2023-0701-232616-DESKTOP-YLL-Job1.log",
