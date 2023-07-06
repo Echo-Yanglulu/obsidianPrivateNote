@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "8d08a01a6be7967f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "理解",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":24},\"to\":{\"line\":12,\"ch\":24}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":135,\"ch\":12},\"to\":{\"line\":135,\"ch\":12}},\"scroll\":113.63120176405734}"
                     },
                     {
                       "title": "综合",
@@ -185,7 +185,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/理解.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2398,8 +2398,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -2426,7 +2425,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2454,7 +2453,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2743,13 +2742,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "56f086595700fd4f",
+  "active": "8d08a01a6be7967f",
   "lastOpenFiles": [
+    "笔记/学习/概念/理解.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/抗拒.md",
-    "笔记/学习/概念/理解.md",
     "笔记/学习/学习.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/意义.md",
     "Day Planners/2023-07-06.md",
     "笔记/学习/概念/拓展.md",
