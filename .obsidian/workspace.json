@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/前端/编程语言/JS/异常捕获.md"
                   }
                 }
               }
@@ -2303,6 +2303,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":178,\"ch\":26},\"to\":{\"line\":178,\"ch\":26}},\"scroll\":156.47188533627343}"
+                    },
+                    {
                       "title": "linux",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/linux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2391,7 +2397,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/异常捕获.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2399,7 +2405,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -2426,7 +2432,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/前端/编程语言/JS/异常捕获.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2454,7 +2460,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/前端/编程语言/JS/异常捕获.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2519,7 +2525,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "有钱",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -2743,11 +2749,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "989de35848378ae3",
+  "active": "4f70034eb483876c",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/意识/意识.md",
     "笔记/学习/概念/感官.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/拓展.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/理解.md",
@@ -2768,7 +2775,6 @@
     "笔记/学习/概念/内涵.md",
     "笔记/学习/概念/概念.md",
     "笔记/学习/记忆宫殿.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "dashboards/Untitled.table",
