@@ -85,14 +85,12 @@ querySelectorAll(标签名)
 ### 设置属性
 两种方式
 	都可能引起*DOM重新渲染*。尽量使用property。
-1. property
-	修改的是JS获取到的元素的**对象的属性**，*不会作用到标签*
+1. property：修改的是JS获取到的元素的对象的属性，不会作用到标签
 	p.style.width = '23px'
 	p.className='red' // 因为class是关键字
 	p.nodeName
 	p.nodeType
-1. attribute
-	修改HTML**标签的属性**，会作用到标签
+1. attribute：修改HTML标签的属性，会作用到标签
 	p.setAttribute('date-name', 'mooc')
 # 性能
 原因：DOM操作非常“昂贵”
