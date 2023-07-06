@@ -21,122 +21,151 @@
 
 # 手写
 ```js
-// 定义三种状态的常量
-const PROMISE_STATUS_PENDING = "pending";
-const PROMISE_STATUS_FULFILLED = "fulfilled";
-const PROMISE_STATUS_REJECTED = "rejected";
+class MyPromise {
+    state = 'pending' // 状态，'pending' 'fulfilled' 'rejected'
+    value = undefined // 成功后的值
+    reason = undefined // 失败后的原因
 
-class MYPromise {
-  constructor(executor) {
-    this.status = PROMISE_STATUS_PENDING;
-    this.value = undefined;
-    this.reason = undefined;
-    // 为了支持promise多次使用，将成功和失败的回调保存到[]中
-    this.onFulfilledFns = [];
-    this.onRejectedFns = [];
+    resolveCallbacks = [] // pending 状态下，存储成功的回调
+    rejectCallbacks = [] // pending 状态下，存储失败的回调
 
-    const resolve = (value) => {
-      if (this.status === PROMISE_STATUS_PENDING) {
-        // 放到微任务，确保可以拿到onFulfilled
-        queueMicrotask(() => {
-          if (this.status !== PROMISE_STATUS_PENDING) return;
-          this.status = PROMISE_STATUS_FULFILLED;
-          this.value = value;
-          this.onFulfilledFns.forEach((fn) => fn(value));
-        });
-      }
-    };
+    constructor(fn) {
+        const resolveHandler = (value) => {
+            // 加 setTimeout ，参考 https://coding.imooc.com/learn/questiondetail/257287.html (2022.01.21)
+            setTimeout(() => {
+                if (this.state === 'pending') {
+                    this.state = 'fulfilled'
+                    this.value = value
+                    this.resolveCallbacks.forEach(fn => fn(value))
+                }
+            })
+        }
 
-    const reject = (reason) => {
-      if (this.status === PROMISE_STATUS_PENDING) {
-        // 放到微任务，确保可以拿到onRejected
-        queueMicrotask(() => {
-          if (this.status !== PROMISE_STATUS_PENDING) return;
-          this.status = PROMISE_STATUS_REJECTED;
-          this.reason = reason;
-          this.onRejectedFns.forEach((fn) => fn(reason));
-        });
-      }
-    };
+        const rejectHandler = (reason) => {
+            // 加 setTimeout ，参考 https://coding.imooc.com/learn/questiondetail/257287.html (2022.01.21)
+            setTimeout(() => {
+                if (this.state === 'pending') {
+                    this.state = 'rejected'
+                    this.reason = reason
+                    this.rejectCallbacks.forEach(fn => fn(reason))
+                }
+            })
+        }
 
-    try {
-      executor(resolve, reject); // 执行回调函数
-    } catch (err) {
-      reject(err);
+        try {
+            fn(resolveHandler, rejectHandler)
+        } catch (err) {
+            rejectHandler(err)
+        }
     }
-  }
 
-  then(onFulfilled, onRejected) {
-    // 如果onRejected没有传入,就将抛异常给catch
-    onRejected =
-      onRejected ||
-      ((err) => {
-        throw err;
-      });
+    then(fn1, fn2) {
+        fn1 = typeof fn1 === 'function' ? fn1 : (v) => v
+        fn2 = typeof fn2 === 'function' ? fn2 : (e) => e
 
-    // 如果是fulfilled执行完then方法,会到catch中,但是为了避免断层(因为catch中onfulfilled是undefined)
-    onFulfilled =
-      onFulfilled ||
-      ((value) => {
-        return value;
-      });
+        if (this.state === 'pending') {
+            const p1 = new MyPromise((resolve, reject) => {
+                this.resolveCallbacks.push(() => {
+                    try {
+                        const newValue = fn1(this.value)
+                        resolve(newValue)
+                    } catch (err) {
+                        reject(err)
+                    }
+                })
 
-    // 返回promise为了能够达到链式调用与值穿透
-    return new MYPromise((resolve, reject) => {
-      // 异步使用promise的判断
-      if (this.status === PROMISE_STATUS_FULFILLED) {
-        try {
-          const value = onFulfilled(this.value); // 拿到返回值
-          resolve(value); // 传递到下一个promise中，下同
-        } catch (error) {
-          reject(error);
-        }
-      }
-      if (this.status === PROMISE_STATUS_REJECTED) {
-        try {
-          const reason = onRejected(this.reason);
-          reject(reason);
-        } catch (error) {
-          reject(error);
-        }
-      }
-      //  同步使用promise的判断：成功的回调和失败的回调保存到数组中
-      if (this.status === PROMISE_STATUS_PENDING) {
-        // 通过push回调函数的方式，实现同步promise的值穿透及链式调用
-        if (onFulfilled) {
-          this.onFulfilledFns.push(() => {
-            try {
-              const value = onFulfilled(this.value);
-              resolve(value);
-            } catch (error) {
-              reject(error);
-            }
-          });
+                this.rejectCallbacks.push(() => {
+                    try {
+                        const newReason = fn2(this.reason)
+                        reject(newReason)
+                    } catch (err) {
+                        reject(err)
+                    }
+                })
+            })
+            return p1
         }
 
-        if (onRejected) {
-          this.onRejectedFns.push(() => {
-            try {
-              const reason = onRejected(this.reason);
-              reject(reason);
-            } catch (error) {
-              reject(error);
-            }
-          });
+        if (this.state === 'fulfilled') {
+            const p1 = new MyPromise((resolve, reject) => {
+                try {
+                    const newValue = fn1(this.value)
+                    resolve(newValue)
+                } catch (err) {
+                    reject(err)
+                }
+            })
+            return p1
         }
-      }
-    });
-  }
 
-  catch(onRejected) {
-    const reason = this.then(undefined, onRejected);
-    return reason;
-  }
+        if (this.state === 'rejected') {
+            const p1 = new MyPromise((resolve, reject) => {
+                try {
+                    const newReason = fn2(this.reason)
+                    reject(newReason)
+                } catch (err) {
+                    reject(err)
+                }
+            })
+            return p1
+        }
+    }
 
-  finally(onFinally) {
-    this.then(onFinally, onFinally);
-  }
+    // 就是 then 的一个语法糖，简单模式
+    catch(fn) {
+        return this.then(null, fn)
+    }
 }
+
+MyPromise.resolve = function (value) {
+    return new MyPromise((resolve, reject) => resolve(value))
+}
+MyPromise.reject = function (reason) {
+    return new MyPromise((resolve, reject) => reject(reason))
+}
+
+MyPromise.all = function (promiseList = []) {
+    const p1 = new MyPromise((resolve, reject) => {
+        const result = [] // 存储 promiseList 所有的结果
+        const length = promiseList.length
+        let resolvedCount = 0
+
+        promiseList.forEach(p => {
+            p.then(data => {
+                result.push(data)
+
+                // resolvedCount 必须在 then 里面做 ++
+                // 不能用 index
+                resolvedCount++
+                if (resolvedCount === length) {
+                    // 已经遍历到了最后一个 promise
+                    resolve(result)
+                }
+            }).catch(err => {
+                reject(err)
+            })
+        })
+    })
+    return p1
+}
+
+MyPromise.race = function (promiseList = []) {
+    let resolved = false // 标记
+    const p1 = new Promise((resolve, reject) => {
+        promiseList.forEach(p => {
+            p.then(data => {
+                if (!resolved) {
+                    resolve(data)
+                    resolved = true
+                }
+            }).catch((err) => {
+                reject(err)
+            })
+        })
+    })
+    return p1
+}
+
 
 ```
 # 应用

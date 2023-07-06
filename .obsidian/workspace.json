@@ -2136,17 +2136,17 @@
                 "id": "c283810bef530241",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "操作符",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/操作符.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":32},\"to\":{\"line\":13,\"ch\":32}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":11},\"to\":{\"line\":36,\"ch\":11}},\"scroll\":38.665620094191524}"
                     },
                     {
                       "title": "布局",
@@ -2285,7 +2285,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/工程化/构建/Promise.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2769,8 +2769,10 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/JS解释器.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/JS解释器.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
@@ -2782,7 +2784,6 @@
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",
     "笔记/前端/assets/Pasted image 20230706150426.png",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/编程语言/JS/JSON.md",
@@ -2798,7 +2799,6 @@
     "笔记/工具/通用概念/抗拒.md",
     "笔记/学习/概念/意义.md",
     "Day Planners/2023-07-06.md",
-    "笔记/学习/概念/费曼技巧.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",

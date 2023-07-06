@@ -5,6 +5,14 @@
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
+      "basename": "Promise",
+      "path": "笔记/前端/工程化/构建/Promise.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
       "basename": "JS解释器",
       "path": "笔记/前端/编程语言/JS/JS解释器.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "性能优化",
       "path": "笔记/前端/性能优化.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "布局",
@@ -195,10 +199,6 @@
     {
       "basename": "Math",
       "path": "笔记/前端/编程语言/JS/基本概念/Math.md"
-    },
-    {
-      "basename": "Global",
-      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
     }
   ],
   "omittedPaths": [
