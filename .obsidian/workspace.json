@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/库、框架.md"
                   }
                 }
               }
@@ -2333,6 +2333,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":255,\"ch\":15},\"to\":{\"line\":255,\"ch\":15}},\"scroll\":233.03021442495125}"
+                    },
+                    {
                       "title": "前端安全",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2445,7 +2451,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/库、框架.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2480,7 +2486,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/库、框架.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2508,7 +2514,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/库、框架.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2799,8 +2805,8 @@
   },
   "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/浏览器事件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/浏览器事件.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
