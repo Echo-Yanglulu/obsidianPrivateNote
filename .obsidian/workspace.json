@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/UI库/JSX.md"
                   }
                 }
               }
@@ -2127,6 +2127,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}},\"scroll\":5.585648148148148}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2167,7 +2173,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/JSX.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2504,7 +2510,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/JSX.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2532,7 +2538,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/JSX.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2823,9 +2829,9 @@
   },
   "active": "0714f41b75104fee",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/编程语言/CSS/CSS属性.md",
