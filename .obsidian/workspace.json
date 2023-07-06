@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/库、框架.md"
+                    "file": "笔记/前端/编程语言/CSS/CSS属性.md"
                   }
                 }
               }
@@ -2127,6 +2127,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "CSS属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":12.224719785575049}"
+                    },
+                    {
                       "title": "属性值与单位",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2155,7 +2161,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS属性.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2326,17 +2332,17 @@
                 "id": "4f70034eb483876c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "UI库",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/UI库.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "库、框架",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":17},\"to\":{\"line\":41,\"ch\":17}},\"scroll\":12.606789250353607}"
                     },
                     {
                       "title": "前端工作",
@@ -2457,7 +2463,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/库、框架.md",
+                    "file": "笔记/前端/库、框架/React与Vue的比较.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2465,7 +2471,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2492,7 +2498,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/库、框架.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2520,7 +2526,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/库、框架.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2809,20 +2815,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f70034eb483876c",
+  "active": "5c8674e081527c35",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/UI库.md",
-    "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/CSS属性.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/前端/编程语言/JS/浏览器事件.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/继承.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/学习/概念/理财.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/工程化/XSS.md",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -2840,7 +2847,6 @@
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",
     "笔记/前端/assets/Pasted image 20230706150426.png",
-    "笔记/前端/编程语言/JS/URL.md",
     "dashboards/Untitled.table",
     "dashboards",
     "笔记/前端/assets/Pasted image 20230605141647.png",
