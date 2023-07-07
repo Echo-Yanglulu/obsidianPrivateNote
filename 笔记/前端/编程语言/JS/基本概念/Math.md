@@ -6,8 +6,8 @@
 	4. Math.LOG2E：以2为底e的对数
 	5. Math.LOG10E：以10为底e的对数
 	6. Math.PI：π的值
-	7. Math.SQRT1_2：1/2的平方根
-	8. Math.SQRT2：2的平方根
+	7. Math.SQRT2：2的平方根
+	8. Math.SQRT1_2：1/2的平方根
 # 方法
 1. 最值
 	1. min()和max()方法用于确定一组数值中的最小值和最大值。任意多个参数
@@ -18,13 +18,14 @@
 		2. Math.floor()
 		3. Math.round()
 			1. `Math.fround(-5.05) // -5.050000190734863`
-		4. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
-			1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
+	2. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
+		1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
 3. 随机：Math.random()[^1] 
 	1. 一组整数中随机选择一个
 		1. number = Math.floor(Math.random() * **total_number_of_choices** + **first_possible_value**)
 		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2] 
 		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);[^3] 
+	2. 如果是为了加密而需要生成随机数（传给生成器的输入需要较高的不确定性），那么建议使用[[window]].crypto.getRandomValues()
 4. 计算
 	1. Math.sqrt(x)	返回x的**平方根** 
 	2. Math.cbrt(x)	返回x的**立方根** 
@@ -59,7 +60,6 @@ function selectFrom(lowerValue, upperValue) {
 let num = selectFrom(2,10);
 console.log(num);  // 2~10范围内的值，其中包含2和10
 ```
-如果是为了加密而需要生成随机数（传给生成器的输入需要较高的不确定性），那么建议使用[[window]].crypto.getRandomValues()
 
 
 [^1]: 0~1范围内的随机数，其中包含0但不包含1
