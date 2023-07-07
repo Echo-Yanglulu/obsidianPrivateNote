@@ -133,7 +133,6 @@ git 仓库中特定事件触发后被调用的脚本。
 	2. --global 对*当前用户*的所有仓库有效
 	3. --local 设置git 配置：仅对*当前项目*有效
 	4. --list --local 查看local的git配置
-
 ## 文件
 1. 文件重命名
 	1. 修改mv readme readme.md。把修改后的文件添加到暂存区git add readme.md。移除原文件git rm readme
