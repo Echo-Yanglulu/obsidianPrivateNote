@@ -19,6 +19,7 @@
 		3. Math.round()
 		4. Math.fround()：数值最接近的单精度（32位）浮点值表示【ES使用双精度浮点值表示整数和浮点数】
 			1. `Math.fround(-5.05) // -5.050000190734863`
+		5. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
 3. 随机：Math.random()[^1] 
 	1. 一组整数中随机选择一个
 		1. number = Math.floor(Math.random() * **total_number_of_choices** + **first_possible_value**)
@@ -34,20 +35,19 @@
 	7. Math.hypot(...nums)	返回nums中**每个数平方和的平方根**
 	8. Math.clz32(x)	返回32位整数x的**前置零**的数量
 	9. Math.sign(x)	返回表示x**符号**的1、-1、0、-0、NaN：正数，负数，正零，负零，NaN
-	10. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
 		1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
-	11. Math.sqrt(x)	返回x的**平方根** 
-	12. Math.cbrt(x)	返回x的**立方根** 
-	13. Math.tan(x)	       返回x的**正切**
-	14. Math.atan(x)	返回x的**反正切**
-	15. Math.atanh(x)	返回x的**反双曲正切** 
-	16. Math.sin(x)	       返回x的**正弦**
-	17. Math.asin(x)	返回x的**反正弦** 
-	18. Math.asinh(x)	返回x的**反双曲正弦**
-	19. Math.cos(x)	返回x的**余弦**
-	20. Math.acos(x)	返回x的**反余弦** 
-	21. Math.acosh(x)	返回x的**反双曲余弦**
-	22. Math.atan2(y, x)	返回y/x的**反正切**
+	10. Math.sqrt(x)	返回x的**平方根** 
+	11. Math.cbrt(x)	返回x的**立方根** 
+	12. Math.tan(x)	       返回x的**正切**
+	13. Math.atan(x)	返回x的**反正切**
+	14. Math.atanh(x)	返回x的**反双曲正切** 
+	15. Math.sin(x)	       返回x的**正弦**
+	16. Math.asin(x)	返回x的**反正弦** 
+	17. Math.asinh(x)	返回x的**反双曲正弦**
+	18. Math.cos(x)	返回x的**余弦**
+	19. Math.acos(x)	返回x的**反余弦** 
+	20. Math.acosh(x)	返回x的**反双曲余弦**
+	21. Math.atan2(y, x)	返回y/x的**反正切**
 # 应用
 ```js
 function selectFrom(lowerValue, upperValue) {

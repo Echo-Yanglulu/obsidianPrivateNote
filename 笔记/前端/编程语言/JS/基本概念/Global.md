@@ -39,10 +39,10 @@ decodeURIComponent(uri)
 ```
 *何时需要编码URL组件*？何时不需要？
 ## eval()
-最后一个方法，也是整个ECMAScript语言中最强大的方法
+意义：整个ECMAScript语言中最强大的方法
 本质：**一个完整的ECMAScript解释器**，它接收一个参数，一个要执行的ECMAScript（JavaScript）字符串。
 机制
-	1. 解释插入，不形成新的作用域链。
+	1. 解释并插入，不形成新的作用域链。
 		1. 将参数解释为实际的ECMAScript[[语句]]，然后插入到该位置
 		2. 通过eval()执行的代码属于该调用所在上下文，被执行的代码与上下文拥有*相同的作用域链*。这意味着定义在包含上下文中的变量可以在eval()调用内部被引用，`let msg = "hello world";eval("console.log(msg)");  // "hello world"` 
 		3. 在eval中声明了一个变量，可在下方使用

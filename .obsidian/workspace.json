@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
                   }
                 }
               }
@@ -2024,14 +2024,14 @@
                       "title": "单例内置对象",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2066,7 +2066,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2094,7 +2094,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2403,6 +2403,7 @@
   "active": "43492bcd22e5f996",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/基本概念/宿主环境.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/工程化/构建/webpack.md",
@@ -2427,7 +2428,6 @@
     "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/JSONP.md",
-    "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
