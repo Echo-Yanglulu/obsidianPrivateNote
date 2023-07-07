@@ -150,9 +150,10 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 		2. 可在js文件中`import`css。
 	2. 自己的定义：处理依赖关系时，可**非JS/[[JSON]]模块**的**加载与内容处理**。
 		1. 加载
-			1. cson/ts/CoffeeScript
+			1. cson/ts/CoffeeScript/[[HTML]] 
 		2. 处理内容
-			1. less
+			1. 编译：less，sass，stylus，vue组件，markdown
+			2. 语法转换：es6
 1. 功能
 	1. 文件预处理
 		1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
