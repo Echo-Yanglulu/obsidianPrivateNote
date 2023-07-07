@@ -20,16 +20,17 @@ ref
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
 ## 事件
+相关：[[浏览器事件]] 
 1. 为什么需要bind [[this]]。因为默认是undefined
 2. event参数
 3. 传递自定义参数
 本质：是个构造函数，不是原生的事件对象。
 特性
-	1. 可通过event.nativeEvent访问原生事件对象
+	1. **event.nativeEvent**：访问原生事件对象
 		1. event.nativeEvent.target：绑定在原生的DOM元素上
 		2. event.nativeEvent.currentTarget
 			1. react17之前是绑定在document元素上
-	2. e.currentTarget并不指向绑定元素
+	2. event.currentTarget并不指向绑定元素
 
 # API
 ## 基本特性
