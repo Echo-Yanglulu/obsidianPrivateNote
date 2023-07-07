@@ -146,14 +146,14 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 ==一想到loader这个概念，马上想起它的定义、原理、分类、配置== 
 1.定义：
 	1. 一个**函数**，用于在`import`或`load`==JS/JSON之外==的其他模块时，将源码转换[^2]为JS[[模块]]，并添加到依赖图中（默认只可编译JS、JSON模块）
-		1. 从不同语言转换为JS,或将内联图像转换为data URL
-		2. 可在js文件中`import`css。
-	2. 自己的定义：处理依赖关系时，可**非JS/[[JSON]]模块**的**加载与内容处理**。
+	2. 自己：处理依赖关系时，可**非JS/[[JSON]]模块**的**加载与内容处理**。
 		1. 加载
 			1. cson/ts/CoffeeScript/[[HTML]] 
 		2. 处理内容
 			1. 编译：less，sass，stylus，vue组件，markdown
 			2. 语法转换：es6
+			3. 从不同语言转换为JS,或将内联图像转换为data URL
+			4. 在js文件中`import`css。
 1. 功能
 	1. 文件预处理
 		1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
