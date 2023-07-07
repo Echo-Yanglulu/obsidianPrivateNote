@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/闭包.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1624,17 +1624,23 @@
                 "id": "0714f41b75104fee",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
+                    {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":31},\"to\":{\"line\":77,\"ch\":31}},\"scroll\":60.29105263157895}"
+                    },
+                    {
+                      "title": "同源策略",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":4},\"to\":{\"line\":25,\"ch\":4}},\"scroll\":5.1696}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":216,\"ch\":16},\"to\":{\"line\":216,\"ch\":16}},\"scroll\":195.55789473684212}"
                     },
                     {
                       "title": "react",
@@ -1683,7 +1689,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/闭包.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2020,7 +2026,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2048,7 +2054,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2339,8 +2345,12 @@
   },
   "active": "0714f41b75104fee",
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
+    "笔记/前端/同源策略.md",
     "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/JSONP.md",
+    "笔记/前端/编程语言/JS/闭包.md",
+    "笔记/前端/编程语言/JS/垃圾回收机制.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/编程语言/JS/BOM.md",
@@ -2362,10 +2372,6 @@
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
-    "笔记/前端/编程语言/CSS/CSS属性.md",
-    "笔记/前端/库、框架/库、框架.md",
-    "笔记/前端/库、框架/UI库/UI库.md",
-    "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
     "笔记/前端/assets/Pasted image 20230706150430.png",

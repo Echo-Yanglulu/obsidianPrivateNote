@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "闭包",
-      "path": "笔记/前端/编程语言/JS/闭包.md"
-    },
-    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "同源策略",
+      "path": "笔记/前端/同源策略.md"
+    },
+    {
       "basename": "网络请求",
       "path": "笔记/前端/编程语言/JS/网络请求.md"
+    },
+    {
+      "basename": "JSONP",
+      "path": "笔记/前端/JSONP.md"
+    },
+    {
+      "basename": "闭包",
+      "path": "笔记/前端/编程语言/JS/闭包.md"
+    },
+    {
+      "basename": "垃圾回收机制",
+      "path": "笔记/前端/编程语言/JS/垃圾回收机制.md"
     },
     {
       "basename": "AJAX",
@@ -187,18 +199,6 @@
     {
       "basename": "记忆宫殿",
       "path": "笔记/学习/记忆宫殿.md"
-    },
-    {
-      "basename": "navigator",
-      "path": "笔记/前端/编程语言/JS/navigator.md"
-    },
-    {
-      "basename": "BOM",
-      "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
-      "basename": "linux",
-      "path": "笔记/前端/linux.md"
     }
   ],
   "omittedPaths": [
