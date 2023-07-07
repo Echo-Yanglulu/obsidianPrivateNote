@@ -5,6 +5,14 @@
       "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
     },
     {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "值",
+      "path": "笔记/前端/编程语言/JS/值.md"
+    },
+    {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
     },
@@ -169,10 +177,6 @@
       "path": "笔记/前端/编程语言/JS/CSRF.md"
     },
     {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
       "basename": "JS解释器",
       "path": "笔记/前端/编程语言/JS/JS解释器.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "异常捕获",
       "path": "笔记/前端/编程语言/JS/异常捕获.md"
-    },
-    {
-      "basename": "意识",
-      "path": "笔记/工具/意识/意识.md"
     }
   ],
   "omittedPaths": [
