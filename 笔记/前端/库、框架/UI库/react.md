@@ -12,7 +12,6 @@ UI框架：搭建数据驱动的web和移动端UI
 	[[JSX]] 
 [[context]] 
 ref
-
 ## 条件渲染
 二元与、或
 三元
@@ -23,6 +22,7 @@ ref
 ## 事件
 1. 为什么需要bind
 2. event参数
+3. 传递自定义参数
 # 特性
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
