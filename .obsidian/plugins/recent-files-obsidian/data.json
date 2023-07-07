@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Global",
+      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
+    },
+    {
+      "basename": "单例内置对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
+    },
+    {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "笔记/前端/工程化/构建/Promise.md"
+    },
+    {
       "basename": "记忆",
       "path": "笔记/工具/思考/记忆/记忆.md"
     },
@@ -17,16 +37,8 @@
       "path": "Day Planners/2023-07-07.md"
     },
     {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
       "basename": "腿部",
       "path": "笔记/行为/健身/部位/腿部.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
     },
     {
       "basename": "React与Vue的比较",
@@ -75,10 +87,6 @@
     {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "笔记/前端/工程化/构建/Promise.md"
     },
     {
       "basename": "学习",
@@ -191,14 +199,6 @@
     {
       "basename": "费曼技巧",
       "path": "笔记/学习/概念/费曼技巧.md"
-    },
-    {
-      "basename": "游戏式学习",
-      "path": "笔记/学习/游戏式学习.md"
-    },
-    {
-      "basename": "操作符",
-      "path": "笔记/前端/编程语言/JS/基本概念/操作符.md"
     }
   ],
   "omittedPaths": [
