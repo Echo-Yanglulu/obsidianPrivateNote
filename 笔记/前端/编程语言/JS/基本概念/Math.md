@@ -17,37 +17,38 @@
 		1. Math.ceil()
 		2. Math.floor()
 		3. Math.round()
-		4. Math.fround()：数值最接近的单精度（32位）浮点值表示【ES使用双精度浮点值表示整数和浮点数】
 			1. `Math.fround(-5.05) // -5.050000190734863`
-		5. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
+		4. Math.trunc(x)	返回x的**整数部分**，删除所有小数  
+			1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
 3. 随机：Math.random()[^1] 
 	1. 一组整数中随机选择一个
 		1. number = Math.floor(Math.random() * **total_number_of_choices** + **first_possible_value**)
 		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2] 
 		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);[^3] 
-4. 其他[^4] 
-	1. Math.log(x)	返回x的**自然对数**
-	2. Math.exp(x)	返回Math.E的**x次幂** 
-	3. Math.abs(x)	返回x的**绝对值**
-	4. Math.expm1(x)	等于Math.exp(x) - 1
-	5. Math.log1p(x)	等于1 + Math.log(x)
-	6. Math.pow(x, power)	返回**x的power次幂**
-	7. Math.hypot(...nums)	返回nums中**每个数平方和的平方根**
-	8. Math.clz32(x)	返回32位整数x的**前置零**的数量
-	9. Math.sign(x)	返回表示x**符号**的1、-1、0、-0、NaN：正数，负数，正零，负零，NaN
-		1. `Math.trunc(-5.05) // -5` 如果是floor，结果是-6
-	10. Math.sqrt(x)	返回x的**平方根** 
-	11. Math.cbrt(x)	返回x的**立方根** 
-	12. Math.tan(x)	       返回x的**正切**
-	13. Math.atan(x)	返回x的**反正切**
-	14. Math.atanh(x)	返回x的**反双曲正切** 
-	15. Math.sin(x)	       返回x的**正弦**
-	16. Math.asin(x)	返回x的**反正弦** 
-	17. Math.asinh(x)	返回x的**反双曲正弦**
-	18. Math.cos(x)	返回x的**余弦**
-	19. Math.acos(x)	返回x的**反余弦** 
-	20. Math.acosh(x)	返回x的**反双曲余弦**
-	21. Math.atan2(y, x)	返回y/x的**反正切**
+4. 计算
+	1. Math.sqrt(x)	返回x的**平方根** 
+	2. Math.cbrt(x)	返回x的**立方根** 
+	3. Math.tan(x)	       返回x的**正切**
+	4. Math.atan(x)	返回x的**反正切**
+	5. Math.atanh(x)	返回x的**反双曲正切** 
+	6. Math.sin(x)	       返回x的**正弦**
+	7. Math.asin(x)	返回x的**反正弦** 
+	8. Math.asinh(x)	返回x的**反双曲正弦**
+	9. Math.cos(x)	返回x的**余弦**
+	10. Math.acos(x)	返回x的**反余弦** 
+	11. Math.acosh(x)	返回x的**反双曲余弦**
+	12. Math.atan2(y, x)	返回y/x的**反正切**
+	13. Math.log(x)	返回x的**自然对数** 
+	14. Math.exp(x)	返回Math.E的**x次幂** 
+	15. Math.abs(x)	返回x的**绝对值** 
+	16. Math.expm1(x)	等于Math.exp(x) - 1
+	17. Math.log1p(x)	等于1 + Math.log(x)
+	18. Math.pow(x, power)	返回**x的power次幂** 
+	19. Math.hypot(...nums)	返回nums中**每个数平方和的平方根** 
+5. 其他[^4] 
+	1. Math.sign(x)	返回表示x**符号**的1、-1、0、-0、NaN：正数，负数，正零，负零，NaN
+	2. Math.fround()：数值最接近的单精度（32位）浮点值表示【ES使用*双精度浮点值*表示整数和浮点数】
+	3. Math.clz32(x)	返回32位整数x的**前置零**的数量
 # 应用
 ```js
 function selectFrom(lowerValue, upperValue) {
