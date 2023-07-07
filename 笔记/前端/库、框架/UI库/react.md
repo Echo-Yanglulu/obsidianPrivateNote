@@ -18,8 +18,8 @@ ref
 三元
 ## 列表渲染
 方式
-	1. map方法
-	2. 组件为元素的数组
+	1. 组件为元素的数组。
+		1. map方法：需要key
 # 特性
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
