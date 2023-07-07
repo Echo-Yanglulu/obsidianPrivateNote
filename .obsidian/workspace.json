@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -1033,6 +1033,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":155,\"ch\":24},\"to\":{\"line\":155,\"ch\":24}},\"scroll\":142.5387}"
+                    },
+                    {
                       "title": "RegExp",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/RegExp.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1613,7 +1619,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1993,7 +1999,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -2020,7 +2026,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2048,7 +2054,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2337,12 +2343,13 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "0714f41b75104fee",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/构建/grunt.md",
     "笔记/前端/基础知识/调试.md",
@@ -2362,7 +2369,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-07-07.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
