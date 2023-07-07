@@ -31,7 +31,7 @@ ref
 			1. react17之前是绑定在document元素上
 	2. e.currentTarget并不指向绑定元素
 
-# 特性
+# API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
 	1. 否则会被作为字符串渲染。<等被用于渲染，而不是解析为标签。

@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -2038,7 +2036,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2066,7 +2063,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2297,9 +2293,26 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "5d6c4213ed688f7b",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -2329,8 +2342,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5,
-    "collapsed": true
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2352,15 +2364,16 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new dashboard": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "5d6c4213ed688f7b",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react.md",
     "Day Planners/2023-07-07.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/行为/健身/部位/腿部.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/前端工作.md",
