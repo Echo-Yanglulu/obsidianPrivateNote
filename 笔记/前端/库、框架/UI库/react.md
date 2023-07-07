@@ -23,6 +23,11 @@ ref
 1. 为什么需要bind [[this]]。因为默认是undefined
 2. event参数
 3. 传递自定义参数
+本质：是个构造函数，不是原生的事件对象。
+特性
+	1. 可通过e.nativeEvent访问原生事件对象
+	2. e.currentTarget并不指向绑定元素
+
 # 特性
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
