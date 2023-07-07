@@ -25,7 +25,10 @@ ref
 3. 传递自定义参数
 本质：是个构造函数，不是原生的事件对象。
 特性
-	1. 可通过e.nativeEvent访问原生事件对象
+	1. 可通过event.nativeEvent访问原生事件对象
+		1. event.nativeEvent.target：绑定在原生的DOM元素上
+		2. event.nativeEvent.currentTarget
+			1. react17之前是绑定在document元素上
 	2. e.currentTarget并不指向绑定元素
 
 # 特性
