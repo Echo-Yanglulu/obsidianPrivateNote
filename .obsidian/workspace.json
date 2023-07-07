@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -1624,17 +1624,23 @@
                 "id": "0714f41b75104fee",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "JSX",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/JSX.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":206,\"ch\":21},\"to\":{\"line\":206,\"ch\":21}},\"scroll\":179.37052631578948}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
                     },
                     {
                       "title": "前端工作",
@@ -1677,7 +1683,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1986,7 +1992,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -2013,7 +2020,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2041,7 +2048,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2326,14 +2333,19 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "notion-like-tables:Create new dashboard": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "8d08a01a6be7967f",
+  "active": "0714f41b75104fee",
   "lastOpenFiles": [
-    "Day Planners/2023-07-07.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/学习/学习.md",
+    "Day Planners/2023-07-07.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -2341,19 +2353,14 @@
     "笔记/前端/编程语言/JS/基本概念/webapck.md",
     "Day Planners/2023-07-06.md",
     "笔记/学习/概念/拓展.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/编程语言/CSS/CSS属性.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/库、框架/UI库/UI库.md",
     "笔记/前端/编程语言/JS/浏览器事件.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/继承.md",
