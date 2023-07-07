@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
                   }
                 }
               }
@@ -2078,7 +2078,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2106,7 +2106,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2412,8 +2412,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f9211097a7f98a2d",
+  "active": "43492bcd22e5f996",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/词法结构.md",
@@ -2439,7 +2440,6 @@
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/构建/grunt.md",
     "笔记/前端/基础知识/调试.md",
-    "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
