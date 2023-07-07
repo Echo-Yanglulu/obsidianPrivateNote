@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md"
+                    "file": "笔记/前端/工程化/ES Module.md"
                   }
                 }
               }
@@ -1624,23 +1624,17 @@
                 "id": "0714f41b75104fee",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "网络请求",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":31},\"to\":{\"line\":77,\"ch\":31}},\"scroll\":60.29105263157895}"
-                    },
-                    {
-                      "title": "同源策略",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/同源策略.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":4},\"to\":{\"line\":25,\"ch\":4}},\"scroll\":5.1696}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":242,\"ch\":17},\"to\":{\"line\":242,\"ch\":17}},\"scroll\":223.9959010974481}"
                     },
                     {
                       "title": "react",
@@ -1689,7 +1683,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/工程化/ES Module.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2026,7 +2020,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2054,7 +2048,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/git.md",
+                        "file": "笔记/前端/工程化/ES Module.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2343,9 +2337,15 @@
       "notion-like-tables:Create new dashboard": false
     }
   },
-  "active": "1bd6ebc0c7938f92",
+  "active": "0714f41b75104fee",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/构建/grunt.md",
+    "笔记/前端/基础知识/调试.md",
+    "笔记/前端/工程化/工具/抓包工具.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/版本控制/版本控制.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/同源策略.md",
@@ -2363,14 +2363,8 @@
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/学习/学习.md",
     "Day Planners/2023-07-07.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/webapck.md",
-    "Day Planners/2023-07-06.md",
-    "笔记/学习/概念/拓展.md",
-    "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
