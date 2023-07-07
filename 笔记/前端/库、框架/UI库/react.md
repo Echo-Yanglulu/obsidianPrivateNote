@@ -19,7 +19,10 @@ ref
 ## 列表渲染
 方式
 	1. 组件为元素的数组。
-		1. map方法：需要key
+		1. map方法：每个元素需要key
+## 事件
+1. 为什么需要bind
+2. event参数
 # 特性
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串

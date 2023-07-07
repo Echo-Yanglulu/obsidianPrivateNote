@@ -52,7 +52,7 @@ map：对每个元素进行批处理
 forEach
 reduce
 ```js
-// 应用场景：每个元素的操作，都受前面所有元素的影响
+// 应用场景：每个元素的操作，与前面元素有关
 // 1. 统计：每个/某个元素出现的次数；
 let names = ['小猪课堂', '张三', '李四', '王五', '小猪课堂']
 let countedNames = names.reduce(function (allNames, name) {
