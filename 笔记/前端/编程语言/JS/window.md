@@ -76,8 +76,11 @@ if (typeof pageWidth != "number") {
 }
 ```
 2. document.documentElement.clientWidth：视口大小
-### 应用
-
+### 其它
+1. 浏览器窗口尺寸通常无法满足完整显示整个页面，为此用户可以通过滚动在*有限的视口*中查看文档
+	1. 文档相对于视口滚动距离：window.pageXoffset/window.scrollX
+	2. 滚动文档：scroll()、scrollTo()和scrollBy()
+		1. 正常滚动与平滑滚动
 ## 窗口位置
 window对象的位置
 ### 读取
