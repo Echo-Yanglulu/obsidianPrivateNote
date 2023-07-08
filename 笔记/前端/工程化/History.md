@@ -19,15 +19,17 @@
 状态管理API：开发者可**改变浏览器URL而不加载新页面** 
 history.pushState([[Object]]，[[String]]，[[URL]])
 	1. 参数
-		1. 状态信息
+		1. 状态信息。应该只包含*可以被序列化*的信息。因此，DOM元素之类并不适合放到状态对象里保存
 		2. 状态信息的标题
 		3. 相对URL，可选
+			1. 要确保通过pushState()创建的每个“假”URL背后都对应着服务器上一个真实的物理URL
 	2. 功能
 		1. 状态信息就会被推到历史记录
 			1. 单击“后退”按钮，就会触发[[window]]对象上的popstate事件
 				1. 事件对象有一个state属性
 				2. 基于这个状态，应该把页面**手动重置**为状态对象所表示的状态
 		2. 浏览器地址栏改变为新的URL
+history.replaceState([[Object]]，[[String]]，[[URL]])
 history.state：获取当前的状态对象
 
 单击浏览器的后退时，触发popstate事件。事件对象的state属性包含传入的state对象。
