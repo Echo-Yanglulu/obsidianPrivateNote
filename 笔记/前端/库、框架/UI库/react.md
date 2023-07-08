@@ -18,6 +18,10 @@ htmlFor代替label标签的for属性
 ### 类型检查
 prop-types库
 ```js
+import PropTypes from 'prop-types'
+List.propTypes = {
+	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
+}
 ```
 ## 条件渲染
 二元与、或
