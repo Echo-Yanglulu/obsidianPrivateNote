@@ -2,9 +2,12 @@
 	1. 每个[[window]]都有自己的history对象
 	2. 出于安全，不暴露[[URL]]，但可通过它进行前进后退。(开发者无法通过该API获取用户的访问记录，只能作跳转)
 # 导航
-history.go([[Number]])
-history.back
-history.forward
+1. history.go([[Number]])
+	1. 在旧版本的一些浏览器中，go()方法的参数也可以是一个字符串
+2. history.back
+3. history.forward
+4. length：历史记录中有多个条目
+	1. 测试这个值是否为1，可以确定用户浏览器的起点是不是你的页面
 # 历史状态管理
 起源：web应用开发中最难的环节之一：历史记录管理。
 	因为每次点击不再刷新页面，
