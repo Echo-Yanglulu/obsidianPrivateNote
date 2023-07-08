@@ -47,10 +47,12 @@ onload：页面的全部资源[^1]加载已结束，
 # 作为JS接口
 ## 窗口大小
 不同浏览器中确定**浏览器窗口大小**没有想象中那么容易。所有现代浏览器都支持4个属性
-1. innerWidth
-	1. 浏览器窗口的**页面视口的大小**（视口区域、展示页面的区域的宽高）
-	2. 视口：包含滚动条
-	3. 缩放系数不为100%（存在缩放）时，等于逻辑像素
+outerWidth：浏览器应用窗口大小
+innerWidth：视口大小
+### 页面视口的大小
+innerWidth
+	1. 视口：包含滚动条
+	2. 缩放系数不为100%（存在缩放）时，等于逻辑像素
 ```js
 let pageWidth = window.innerWidth,  // 可见视口
     pageHeight = window.innerHeight;
@@ -66,11 +68,11 @@ if (typeof pageWidth != "number") {
   }
 }
 ```
-1. outerWidth
-	1. **浏览器窗口自身的大小**（整个浏览器应用的宽高）
-		1. 稳定性：不论是在window中调用还是在iframe中调用
-	2. 即使存在缩放，也等于屏幕的物理像素
-调整：resize()， resizeTo(), resizeBy()
+### 浏览器应用的大小
+outerWidth
+1. 整个浏览器应用的宽高
+2. 即使存在缩放，也等于屏幕的物理像素
+3. 调整：resize()， resizeTo(), resizeBy()
 
 窗口大小的调整与窗口位置的调整一样：可能因为浏览器的不同而被禁用、调整方法只能应用到最上层的window对象。
 
