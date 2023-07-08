@@ -20,7 +20,11 @@ ref
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
 ## [[合成事件]] 
-
+## 组件
+受控组件
+非受控组件
+使用value：input, textarea, select
+使用checked：checkbox, radio
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
