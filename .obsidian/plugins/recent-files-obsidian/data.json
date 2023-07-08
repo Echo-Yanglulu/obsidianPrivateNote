@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "screen",
+      "path": "笔记/前端/编程语言/JS/screen.md"
+    },
+    {
+      "basename": "BOM",
+      "path": "笔记/前端/编程语言/JS/BOM.md"
+    },
+    {
       "basename": "navigator",
       "path": "笔记/前端/编程语言/JS/navigator.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "媒体类型",
       "path": "笔记/前端/编程语言/JS/媒体类型.md"
-    },
-    {
-      "basename": "BOM",
-      "path": "笔记/前端/编程语言/JS/BOM.md"
     },
     {
       "basename": "location",
@@ -195,10 +199,6 @@
     {
       "basename": "JSX",
       "path": "笔记/前端/库、框架/UI库/JSX.md"
-    },
-    {
-      "basename": "CSS属性",
-      "path": "笔记/前端/编程语言/CSS/CSS属性.md"
     }
   ],
   "omittedPaths": [
