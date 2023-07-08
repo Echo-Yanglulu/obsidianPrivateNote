@@ -5,6 +5,14 @@
       "path": "笔记/前端/编程语言/JS/navigator.md"
     },
     {
+      "basename": "MIME类型",
+      "path": "笔记/前端/编程语言/JS/MIME类型.md"
+    },
+    {
+      "basename": "媒体类型",
+      "path": "笔记/前端/编程语言/JS/媒体类型.md"
+    },
+    {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "CSS属性",
       "path": "笔记/前端/编程语言/CSS/CSS属性.md"
-    },
-    {
-      "basename": "库、框架",
-      "path": "笔记/前端/库、框架/库、框架.md"
-    },
-    {
-      "basename": "UI库",
-      "path": "笔记/前端/库、框架/UI库/UI库.md"
     }
   ],
   "omittedPaths": [

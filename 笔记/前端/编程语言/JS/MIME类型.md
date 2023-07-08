@@ -1,6 +1,5 @@
 # 概述
-媒体类型（通常称为 Multipurpose Internet Mail Extensions 或 MIME 类型），用来表示**文档、文件或字节流**的*性质*和*格式*的一种**标准**。
-
+[[媒体类型]]（通常称为 Multipurpose Internet Mail Extensions 或 MIME 类型），用来表示**文档、文件或字节流**的*性质*和*格式*的一种**标准**。
 # 语法
 1. 形式：type/subtype
 	1. type：可分为多个子类的**独立类型** 
@@ -30,3 +29,11 @@ text/plain
 text/css
 text/html
 text/javascript
+图片类型
+音频与视频类型
+# 设置正确的 MIME 类型的重要性
+背景
+	1. 很多 web 服务器使用默认的 application/octet-stream 来发送未知类型。
+
+# MIME 嗅探
+# 其他传送文件类型的方法
