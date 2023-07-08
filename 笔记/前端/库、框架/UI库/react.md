@@ -25,7 +25,7 @@ htmlFor代替label标签的for属性
 		1. map方法：每个元素需要key
 ## [[合成事件]] 
 ## 组件
-1. 受控组件：由开发去控制数据的保存与修改。使用state控制组件的值，再定义onChange修改state
+1. 受控组件：组件值的保存与修改都使用state控制。
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件
