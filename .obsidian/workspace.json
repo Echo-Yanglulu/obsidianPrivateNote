@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/React与Vue的比较.md"
                   }
                 }
               }
@@ -608,6 +608,236 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0714f41b75104fee",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":241,\"ch\":33},\"to\":{\"line\":241,\"ch\":33}},\"scroll\":225.39157894736843}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":258,\"ch\":13},\"to\":{\"line\":258,\"ch\":13}},\"scroll\":231.5237045203969}"
+                    },
+                    {
+                      "title": "CSS属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":12.224719785575049}"
+                    },
+                    {
+                      "title": "属性值与单位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":0},\"to\":{\"line\":91,\"ch\":0}},\"scroll\":68.62037037037037}"
+                    },
+                    {
+                      "title": "继承",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":90,\"ch\":11},\"to\":{\"line\":90,\"ch\":11}},\"scroll\":70.13888888888889}"
+                    },
+                    {
+                      "title": "理财",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理财.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":33},\"to\":{\"line\":4,\"ch\":33}},\"scroll\":0}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c283810bef530241",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":11},\"to\":{\"line\":36,\"ch\":11}},\"scroll\":38.665620094191524}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":20},\"to\":{\"line\":12,\"ch\":20}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "未命名看板",
+                      "icon": "lucide-trello",
+                      "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"dashboards/未命名看板.md\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":15},\"to\":{\"line\":124,\"ch\":15}},\"scroll\":103.33847850055126}"
+                    },
+                    {
+                      "title": "属性值与单位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":7},\"to\":{\"line\":92,\"ch\":7}},\"scroll\":64.38194444444444}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":16},\"to\":{\"line\":134,\"ch\":16}},\"scroll\":103.161}"
+                    },
+                    {
+                      "title": "属性值与单位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":6},\"to\":{\"line\":15,\"ch\":6}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "CSS",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":14},\"to\":{\"line\":25,\"ch\":14}},\"scroll\":16.032656555772995}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":10},\"to\":{\"line\":134,\"ch\":10}},\"scroll\":103.16097023153253}"
+                    },
+                    {
+                      "title": "定位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/定位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":9},\"to\":{\"line\":27,\"ch\":9}},\"scroll\":3.874115983026874}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":13},\"to\":{\"line\":129,\"ch\":13}},\"scroll\":106.7122381477398}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":58},\"to\":{\"line\":86,\"ch\":58}},\"scroll\":81.2489}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":18},\"to\":{\"line\":125,\"ch\":18}},\"scroll\":92.71875}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":13},\"to\":{\"line\":85,\"ch\":13}},\"scroll\":81.24894729535885}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":10},\"to\":{\"line\":109,\"ch\":10}},\"scroll\":85.33796296296296}"
+                    },
+                    {
+                      "title": "异常捕获",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异常捕获.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":175,\"ch\":26},\"to\":{\"line\":175,\"ch\":26}},\"scroll\":146.87541345093715}"
+                    },
+                    {
+                      "title": "JS继承",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/JS继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":151,\"ch\":23},\"to\":{\"line\":151,\"ch\":23}},\"scroll\":115.2811466372657}"
+                    },
+                    {
+                      "title": "Array",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":6},\"to\":{\"line\":73,\"ch\":6}},\"scroll\":55.99421296296296}"
+                    },
+                    {
+                      "title": "Function",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Function.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":12},\"to\":{\"line\":98,\"ch\":12}},\"scroll\":75.60970231532525}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/构建/Promise.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1218,236 +1448,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/库、框架/UI库/react.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0714f41b75104fee",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":241,\"ch\":33},\"to\":{\"line\":241,\"ch\":33}},\"scroll\":225.39157894736843}"
-                    },
-                    {
-                      "title": "react",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":258,\"ch\":13},\"to\":{\"line\":258,\"ch\":13}},\"scroll\":231.5237045203969}"
-                    },
-                    {
-                      "title": "CSS属性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":8},\"to\":{\"line\":16,\"ch\":8}},\"scroll\":12.224719785575049}"
-                    },
-                    {
-                      "title": "属性值与单位",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":91,\"ch\":0},\"to\":{\"line\":91,\"ch\":0}},\"scroll\":68.62037037037037}"
-                    },
-                    {
-                      "title": "继承",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":4},\"to\":{\"line\":10,\"ch\":4}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":90,\"ch\":11},\"to\":{\"line\":90,\"ch\":11}},\"scroll\":70.13888888888889}"
-                    },
-                    {
-                      "title": "理财",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理财.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":33},\"to\":{\"line\":4,\"ch\":33}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c283810bef530241",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":11},\"to\":{\"line\":36,\"ch\":11}},\"scroll\":38.665620094191524}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":20},\"to\":{\"line\":12,\"ch\":20}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "未命名看板",
-                      "icon": "lucide-trello",
-                      "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"dashboards/未命名看板.md\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":15},\"to\":{\"line\":124,\"ch\":15}},\"scroll\":103.33847850055126}"
-                    },
-                    {
-                      "title": "属性值与单位",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":92,\"ch\":7},\"to\":{\"line\":92,\"ch\":7}},\"scroll\":64.38194444444444}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":16},\"to\":{\"line\":134,\"ch\":16}},\"scroll\":103.161}"
-                    },
-                    {
-                      "title": "属性值与单位",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":6},\"to\":{\"line\":15,\"ch\":6}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "CSS",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/CSS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":14},\"to\":{\"line\":25,\"ch\":14}},\"scroll\":16.032656555772995}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":10},\"to\":{\"line\":134,\"ch\":10}},\"scroll\":103.16097023153253}"
-                    },
-                    {
-                      "title": "定位",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/定位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":9},\"to\":{\"line\":27,\"ch\":9}},\"scroll\":3.874115983026874}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":13},\"to\":{\"line\":129,\"ch\":13}},\"scroll\":106.7122381477398}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":58},\"to\":{\"line\":86,\"ch\":58}},\"scroll\":81.2489}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":18},\"to\":{\"line\":125,\"ch\":18}},\"scroll\":92.71875}"
-                    },
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":13},\"to\":{\"line\":85,\"ch\":13}},\"scroll\":81.24894729535885}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":10},\"to\":{\"line\":109,\"ch\":10}},\"scroll\":85.33796296296296}"
-                    },
-                    {
-                      "title": "异常捕获",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异常捕获.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":3},\"to\":{\"line\":7,\"ch\":3}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":175,\"ch\":26},\"to\":{\"line\":175,\"ch\":26}},\"scroll\":146.87541345093715}"
-                    },
-                    {
-                      "title": "JS继承",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/JS继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":12},\"to\":{\"line\":6,\"ch\":12}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":151,\"ch\":23},\"to\":{\"line\":151,\"ch\":23}},\"scroll\":115.2811466372657}"
-                    },
-                    {
-                      "title": "Array",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":6},\"to\":{\"line\":73,\"ch\":6}},\"scroll\":55.99421296296296}"
-                    },
-                    {
-                      "title": "Function",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Function.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":98,\"ch\":12},\"to\":{\"line\":98,\"ch\":12}},\"scroll\":75.60970231532525}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/构建/Promise.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2187,7 +2187,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2214,7 +2214,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2242,7 +2242,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2548,23 +2548,24 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "4f70034eb483876c",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0708-222923-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-223235-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/_gsdata_/2023-0708-223138-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-223129-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-223126-DESKTOP-YLL-Job1.log",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/_gsdata_/2023-0708-223023-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-222923-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-222902-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-222802-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-222702-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-222602-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-222502-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-222359-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-222335-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-222247-DESKTOP-YLL-Job1.log",
     "笔记/前端/库、框架/UI库/合成事件.md",
     "笔记/前端/assets/Pasted image 20230708221039.png",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/前端安全.md",
@@ -2586,7 +2587,6 @@
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/事实.md",
     "笔记/西方文明简史/客观事实.md",
-    "笔记/工具/通用概念/观念.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",

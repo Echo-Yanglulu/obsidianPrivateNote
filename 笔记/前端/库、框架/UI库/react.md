@@ -8,8 +8,6 @@ UI框架：搭建数据驱动的web和移动端UI
 组合而非继承
 # 基础
 [[React元素]] 
-[[组件]] 
-	[[JSX]] 
 [[context]] 
 ref
 ## 属性
@@ -24,11 +22,13 @@ htmlFor代替label标签的for属性
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
 ## [[合成事件]] 
-## 组件
+## [[组件]] 
 1. 受控组件：组件值的保存与修改都使用state控制。
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件
+
+[[JSX]] 
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
