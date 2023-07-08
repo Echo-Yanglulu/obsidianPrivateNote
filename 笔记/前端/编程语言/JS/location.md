@@ -12,15 +12,18 @@
 		7. search：查询参数。?name=abc&password=admin
 			1. URLSearchParams对象，get, set, delete
 		8. hash：哈希。#home
+		9. origin：源。https://www.rox.com
 	3. **导航功能** 
 		1. 导航
 			2. replace(URL)
 		2. 导航并新增历史记录
-			3. location.assign, location.href=，window.location = ,
-			4. 修改当前URL：hostname, port, pathname, search, hash属性赋值
-			5. 修改hash之外的值：页面重新加载新URL
+			3. location.assign,
+			4. location.href=，
+			5. window.location = ,
+			6. 修改当前URL：hostname, port, pathname, search, hash属性赋值
+			7. 修改hash之外的值：页面重新加载新URL
 		3. location.reload()：无参数，智能使用缓存。传true：强制使用服务器资源
-特性
+特点
 	1. 是window的属性，也是document的属性
 URL信息
 
