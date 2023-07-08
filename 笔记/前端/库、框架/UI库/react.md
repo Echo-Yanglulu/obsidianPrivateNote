@@ -6,6 +6,7 @@ UI框架：搭建数据驱动的web和移动端UI
 	3. 提供了在JS中书写HTML标记的JSX语法，
 # 策略
 组合而非继承
+状态提升
 # 基础
 [[React元素]] 
 [[context]] 
@@ -23,6 +24,11 @@ List.propTypes = {
 	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
 }
 ```
+## state
+setState
+	1. 不可变值 
+	2. 可能是异步更新
+	3. 可能被合并
 ## 条件渲染
 二元与、或
 三元

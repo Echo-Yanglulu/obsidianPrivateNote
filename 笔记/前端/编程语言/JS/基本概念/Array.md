@@ -89,7 +89,7 @@ fill
 copyWithin
 
 slice：截取。浅拷贝部分元素，组成新数组
-concat：融合。数组后追加，返回新数组
+concat：融合。数组后追加**数组/值**，返回新数组
 
 ### 修改
 flat
