@@ -5,13 +5,16 @@
 		2. protocal：协议
 		3. username
 		4. password
-		5. host：域名+端口
-			1. hostname：域名
+		5. host
+			1. hostname
 			2. port
 		6. pathname：路径。端口后，查询参数前
 		7. search：查询参数。?name=abc&password=admin
 			1. URLSearchParams对象，get, set, delete
-		8. hash：哈希。#home。只有**修改**它不会导致重新加载URL。
+		8. hash：哈希。#home。
+			1. 修改
+				1. 只有**修改**它不会导致重新加载URL。
+				2. 新增历史记录：hostname、port、pathname、search、hash
 		9. origin：源。https://www.rox.com。**只读** 
 	3. **导航功能** 
 		1. 导航
