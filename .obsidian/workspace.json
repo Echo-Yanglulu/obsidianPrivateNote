@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-07-08.md"
+                    "file": "笔记/前端/编程语言/JS/this.md"
                   }
                 }
               }
@@ -2014,17 +2014,17 @@
                 "id": "43492bcd22e5f996",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-08",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-08.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "变量",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/变量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "JS",
@@ -2049,7 +2049,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-07-08.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2060,17 +2060,17 @@
                 "id": "81d632bc056c62c9",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "值",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/值.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":9},\"to\":{\"line\":13,\"ch\":9}}}"
                     },
                     {
                       "title": "值",
@@ -2083,7 +2083,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/this.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2091,7 +2091,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -2118,7 +2118,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-07-08.md",
+                        "file": "笔记/前端/编程语言/JS/this.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2146,7 +2146,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-07-08.md",
+                        "file": "笔记/前端/编程语言/JS/this.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2452,14 +2452,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "43492bcd22e5f996",
+  "active": "81d632bc056c62c9",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "Day Planners/2023-07-08.md",
     "笔记/前端/编程语言/JS/基本概念/标识符.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/Function.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/值.md",
     "笔记/前端/编程语言/JS/垃圾回收机制.md",
     "笔记/前端/编程语言/JS/JS.md",
