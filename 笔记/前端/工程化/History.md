@@ -17,9 +17,15 @@
 
 ### HTML5为history对象增加了状态管理特性
 状态管理API：开发者可改变浏览器URL而不加载新页面
-history.pushState(state对象，state的标题，可选的相对URL)
-	1. 功能
+history.pushState([[Object]]，[[String]]，[[URL]])
+	1. 参数
+		1. 状态信息
+		2. 状态信息的标题
+		3. 相对URL，可选
+	2. 功能
 		1. 状态信息就会被推到历史记录
+			1. 单击“后退”按钮，就会触发window对象上的popstate事件
+				1. 事件对象有一个state属性
 		2. 浏览器地址栏改变为新的URL
 结果
 	1. 状态信息被推送的历史记录中
