@@ -27,7 +27,7 @@ List.propTypes = {
 ## state
 setState
 	1. 不可变值
-		1. 修改state时。如果是引用类型，
+		1. 修改state时。如果是引用类型， 
 	2. 可能是异步更新
 	3. 可能被合并
 ## 条件渲染
