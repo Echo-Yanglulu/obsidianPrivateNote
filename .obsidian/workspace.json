@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/History.md"
+                    "file": "笔记/前端/编程语言/JS/BOM.md"
                   }
                 }
               }
@@ -2135,6 +2135,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "History",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/History.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":37,\"ch\":31},\"to\":{\"line\":37,\"ch\":31}},\"scroll\":0}"
+                    },
+                    {
                       "title": "BOM",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/BOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2151,7 +2157,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/History.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2186,7 +2192,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/History.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2214,7 +2220,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/History.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2522,17 +2528,18 @@
   },
   "active": "92c6fc3c62e569c6",
   "lastOpenFiles": [
-    "笔记/_gsdata_/2023-0708-203743-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-204049-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
+    "笔记/前端/工程化/History.md",
+    "笔记/_gsdata_/2023-0708-204025-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-203943-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-203843-DESKTOP-YLL-Job1.log",
+    "笔记/_gsdata_/2023-0708-203743-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-203643-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-203543-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-203443-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-203343-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-203243-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-203143-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-203043-DESKTOP-YLL-Job1.log",
-    "笔记/_gsdata_/2023-0708-202943-DESKTOP-YLL-Job1.log",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/navigator.md",
@@ -2544,7 +2551,6 @@
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/学习/学习.md",

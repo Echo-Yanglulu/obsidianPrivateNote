@@ -29,12 +29,10 @@ history.pushState([[Object]]，[[String]]，[[URL]])
 	2. 功能
 		1. 状态信息就会被推到历史记录
 			1. 单击“后退”按钮，就会触发[[window]]对象上的popstate事件
-				1. 事件对象有一个state属性
+				1. 事件对象有一个state属性：传入的state对象
 				2. 基于这个状态，应该把页面**手动重置**为状态对象所表示的状态
 		2. 浏览器地址栏改变为新的URL
 history.replaceState([[Object]]，[[String]]，[[URL]])
 history.state：获取当前的状态对象
-
-单击浏览器的后退时，触发popstate事件。事件对象的state属性包含传入的state对象。
 
 history.replace()只存在结果2，会覆盖当前状态
