@@ -21,33 +21,33 @@ var newValue = window.oldValue;
 	2. NaN	特殊值NaN
 	3. Infinity	特殊值Infinity
 2. 原生引用类型的构造函数
-	1. Function	Function的构造函数
-	2. Boolean	Boolean的构造函数
-	3. String	String的构造函数
-	4. Number	Number的构造函数
-	5. Symbol	Symbol的伪构造函数
-	6. Array	Array的构造函数
-	7. Object	Object的构造函数
+	1. Boolean	Boolean的构造函数
+	2. String	String的构造函数
+	3. Number	Number的构造函数
+	4. Symbol	Symbol的伪构造函数
+	5. Array	Array的构造函数
+	6. Object	Object的构造函数
+	7. Function	Function的构造函数
 	8. Date	Date的构造函数
-	9. RegExp	RegExp的构造函数
-	10. Error	Error的构造函数
-	11. EvalError	EvalError的构造函数
-	12. RangeError	RangeError的构造函数
-	13. ReferenceError	ReferenceError的构造函数
-	14. SyntaxError	SyntaxError的构造函数
-	15. TypeError	TypeError的构造函数
-	16. URIError	URIError的构造函数
+	9. [[RegExp]]	RegExp的构造函数
+	10. [[Error]]	Error的构造函数
+		1. EvalError	EvalError的构造函数
+		2. RangeError	RangeError的构造函数
+		3. ReferenceError	ReferenceError的构造函数
+		4. SyntaxError	SyntaxError的构造函数
+		5. TypeError	TypeError的构造函数
+		6. URIError	URIError的构造函数
 3. [[DOM|document]] 
 4. [[navigator]] 
-6. [[screen]] 
-5. [[location]] 
+5. [[screen]] 
+6. [[location]] 
 7. [[History]] 
 ## 事件
 onload：页面的全部资源[^1]加载已结束，
 # 作为JS接口
 ## 窗口层级
-top：最上层窗口（浏览器窗口本身）
-parent对象：当前窗口的父窗口。
+最上层窗口（浏览器窗口本身）：top
+当前窗口的父窗口：parent对象
 	如果当前窗口就是最上层窗口，parent为top
 self对象：终极window属性，始终指向window。
 	实际上self和window对象是同一个对象，暴露它只是为了和top, parent保持一致
