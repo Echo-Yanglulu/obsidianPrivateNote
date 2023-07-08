@@ -50,8 +50,11 @@ webdriver：返回浏览器当前是否**被自动化程序控制**
 该对象的属性通常用于确定**浏览器的类型**（？）
 # 插件检测
 目的：检测浏览器是否安装了某个插件
-
-除IE10以下版本的浏览器，可通过plugins属性读取，该属性值为一个List，
+方式：除IE10以下版本的浏览器，可通过plugins属性读取，该属性值为一个List
+	1. name：插件名称。
+	2. description：插件介绍。
+	3. filename：插件的文件名。
+	4. length：由当前插件处理的[[MIME类型]]数量。
 # 注册事件处理程序
 navigator.registerProtocolHandler(协议，处理该协议的URL，应用名)
 
