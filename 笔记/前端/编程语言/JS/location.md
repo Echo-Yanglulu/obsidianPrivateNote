@@ -11,17 +11,16 @@
 		6. pathname：路径。端口后，查询参数前
 		7. search：查询参数。?name=abc&password=admin
 			1. URLSearchParams对象，get, set, delete
-		8. hash：哈希。#home
-		9. origin：源。https://www.rox.com
+		8. hash：哈希。#home。只有**修改**它不会导致重新加载URL。
+		9. origin：源。https://www.rox.com。**只读** 
 	3. **导航功能** 
 		1. 导航
 			2. replace(URL)
-		2. 导航并新增历史记录
-			3. location.assign,
-			4. location.href=，
-			5. window.location = ,
-			6. 修改当前URL：hostname, port, pathname, search, hash属性赋值
-			7. 修改hash之外的值：页面重新加载新URL
+		2. 导航并新增*历史记录* 
+			1. location.assign,
+				1. **location.href**[^1]=，window.location = ,本质也是以新URL调用assign
+			2. 修改当前URL：hostname, port, pathname, search, hash属性赋值
+			3. 修改hash之外的值：页面重新加载新URL
 		3. location.reload()：无参数，智能使用缓存。传true：强制使用服务器资源
 特点
 	1. 是window的属性，也是document的属性
@@ -29,3 +28,5 @@ URL信息
 
 
 查询参数：?开头，单个键值对内部用=连接，键值对之间用&连接。
+
+[^1]: 最常见
