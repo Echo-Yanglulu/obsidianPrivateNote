@@ -12,6 +12,10 @@ UI框架：搭建数据驱动的web和移动端UI
 	[[JSX]] 
 [[context]] 
 ref
+## 属性
+className代替class
+htmlFor代替label标签的for属性
+事件名：驼峰
 ## 条件渲染
 二元与、或
 三元
