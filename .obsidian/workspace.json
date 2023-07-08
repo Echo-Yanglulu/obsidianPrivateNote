@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/location.md"
+                    "file": "笔记/前端/工程化/History.md"
                   }
                 }
               }
@@ -2133,13 +2133,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "location",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/location.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":18},\"to\":{\"line\":16,\"ch\":18}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/location.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2174,7 +2180,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/location.md",
+                        "file": "笔记/前端/工程化/History.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2202,7 +2208,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/location.md",
+                        "file": "笔记/前端/工程化/History.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2508,10 +2514,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "92c6fc3c62e569c6",
+  "active": "547e7eb55e0afdfe",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/URL.md",
+    "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/location.md",
+    "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/理解.md",
@@ -2535,7 +2542,6 @@
     "笔记/前端/编程语言/JS/垃圾回收机制.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/词法结构.md",
-    "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",

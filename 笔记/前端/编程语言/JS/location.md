@@ -13,12 +13,12 @@
 			1. URLSearchParams对象，get, set, delete
 		8. hash：哈希。#home
 	3. **导航功能** 
-		1. 导航并新增历史记录
-			1. location.assign, window.location = , **location.href** 
-			2. 修改当前URL：hostname, port, pathname, search, hash属性赋值
-			3. 页面重新加载新URL：修改hash之外的值
-		2. 导航，不增加记录
-			1. replace(URL)
+		1. 导航
+			2. replace(URL)
+		2. 导航并新增历史记录
+			3. location.assign, location.href=，window.location = ,
+			4. 修改当前URL：hostname, port, pathname, search, hash属性赋值
+			5. 修改hash之外的值：页面重新加载新URL
 		3. location.reload()：无参数，智能使用缓存。传true：强制使用服务器资源
 特性
 	1. 是window的属性，也是document的属性
