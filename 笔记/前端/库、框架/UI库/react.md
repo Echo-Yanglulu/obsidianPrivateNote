@@ -11,9 +11,14 @@ UI框架：搭建数据驱动的web和移动端UI
 [[context]] 
 ref
 ## 属性
+### 调整
 className代替class
 htmlFor代替label标签的for属性
 事件名：驼峰
+### 类型检查
+prop-types库
+```js
+```
 ## 条件渲染
 二元与、或
 三元
