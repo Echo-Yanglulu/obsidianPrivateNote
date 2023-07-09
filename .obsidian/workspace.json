@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/同源策略.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2256,7 +2256,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2284,7 +2284,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2590,11 +2590,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "16360f58d552d492",
+  "active": "ef8c805e44e454ee",
   "lastOpenFiles": [
-    "笔记/前端/JSONP.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/Nginx反向代理.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/postMessage.md",
+    "笔记/前端/assets/Pasted image 20230709220719.png",
+    "笔记/前端/JSONP.md",
     "笔记/前端/assets/Pasted image 20230709215559.png",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/前端工作.md",
@@ -2636,7 +2638,6 @@
     "笔记/前端/assets/Pasted image 20230706150426.png",
     "笔记/前端/assets/Pasted image 20230605141647.png",
     "笔记/前端/assets/Pasted image 20230704124525.png",
-    "笔记/前端/assets/Pasted image 20230704124330.png",
     "未命名.canvas",
     "笔记/内心/未命名.canvas",
     "笔记/_gsdata_/_saved_/内心/未命名.canvas"
