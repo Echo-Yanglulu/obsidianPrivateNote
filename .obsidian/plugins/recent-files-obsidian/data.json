@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "组件",
       "path": "笔记/前端/库、框架/UI库/组件.md"
-    },
-    {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
     },
     {
       "basename": "React与Vue的比较",
@@ -195,10 +199,6 @@
     {
       "basename": "垃圾回收机制",
       "path": "笔记/前端/编程语言/JS/垃圾回收机制.md"
-    },
-    {
-      "basename": "AJAX",
-      "path": "笔记/前端/AJAX.md"
     }
   ],
   "omittedPaths": [

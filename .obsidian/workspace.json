@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
                   }
                 }
               }
@@ -855,6 +855,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":182,\"ch\":0},\"to\":{\"line\":182,\"ch\":0}},\"scroll\":163.3924}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":10},\"to\":{\"line\":13,\"ch\":10}}}"
+                    },
+                    {
                       "title": "组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1465,7 +1477,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2238,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2266,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2574,11 +2586,11 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/UI库/class组件.md",
