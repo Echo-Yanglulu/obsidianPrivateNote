@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
       "basename": "DOM事件",
       "path": "笔记/前端/编程语言/JS/DOM事件.md"
     },
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
+      "basename": "JS事件",
+      "path": "笔记/前端/编程语言/JS/JS事件.md"
     },
     {
       "basename": "同源策略",
@@ -195,10 +199,6 @@
     {
       "basename": "Global",
       "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
     }
   ],
   "omittedPaths": [
