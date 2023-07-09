@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/盒模型.md"
+                    "file": "笔记/前端/编程语言/CSS/布局.md"
                   }
                 }
               }
@@ -2250,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2278,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/盒模型.md",
+                        "file": "笔记/前端/编程语言/CSS/布局.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2584,9 +2584,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "049f44d33de1adf3",
+  "active": "a4cf283347e225a3",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
@@ -2621,8 +2623,6 @@
     "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/编程语言/JS/媒体类型.md",
     "笔记/前端/编程语言/JS/location.md",
-    "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/编程语言/JS/Error.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
