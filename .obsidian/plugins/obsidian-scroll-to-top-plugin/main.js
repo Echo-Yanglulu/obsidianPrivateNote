@@ -61,7 +61,8 @@ var scrollToTopSetting = {
   scrollTopTooltipText: "Scroll to top",
   scrollBottomTooltipText: "Scroll to bottom",
   scrollCursorTooltipText: "Scroll to cursor position",
-  enableSurfingPlugin: false
+  enableSurfingPlugin: false,
+  resizeButton: 1
 };
 var ScrollToTopSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -128,6 +129,20 @@ var ScrollToTopSettingTab = class extends import_obsidian.PluginSettingTab {
         this.plugin.settings.enableSurfingPlugin = value2;
         await this.plugin.saveSettings();
         this.rebuildButton();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Resize buttons").setDesc("Change size of buttons.").addSlider((slider) => {
+      slider.setLimits(0.7, 1.4, 0.1).setValue(this.plugin.settings.resizeButton).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.resizeButton = value;
+        await this.plugin.saveSettings();
+        this.rebuildButton();
+      });
+    }).addExtraButton((btn) => {
+      btn.setIcon("reset").setTooltip("Reset to default").onClick(async () => {
+        this.plugin.settings.resizeButton = scrollToTopSetting.resizeButton;
+        await this.plugin.saveSettings();
+        this.rebuildButton();
+        this.display();
       });
     });
     new import_obsidian.Setting(containerEl).setName("tooltip config for top button").setDesc("Change tooltip text of scroll to top button.").addText((value) => {
@@ -280,6 +295,7 @@ var ScrollToTopPlugin = class extends import_obsidian2.Plugin {
     let topWidget = createEl("div");
     topWidget.setAttribute("class", `div-${config.className}`);
     topWidget.setAttribute("id", config.id);
+    document.documentElement.style.setProperty("--size-ratio", this.settings.resizeButton.toString());
     let button = new import_obsidian2.ButtonComponent(topWidget);
     button.setIcon(config.icon).setClass("buttonItem").onClick(fn);
     if (config.tooltipConfig.showTooltip) {
