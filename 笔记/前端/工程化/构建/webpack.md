@@ -441,28 +441,8 @@ eject之后的脚本分析：
 
 ## 工程化实践
 可以通过 import('path/to/module') 的方式引入一个模块， import() 返回的是一个 Promise 对象
-# 优化
-## 缩小文件查找范围
-优化loader，resolve.modules, resolve.alias, resolve.mainFields, resolve.extensions, module.noPease
-## 使用DllPlugin
-将基础模块抽离，打包到**动态链接库**。如果需要使用基础模块，到动态链接库中查找。
-## 使用HappyPack
-单线程变多线程
-## 多进程代码压缩
-ParallelUglifyPlugin
-## [[静态资源]]使用CDN
-## 缓存
-打包结果使用contenthash
-## code splitting
-提取公共代码
-把各个模块的重复部分打包为一份公共代码，各个模块的不同部分有自己独有的代码
-	1. 首行加载公共代码，再按需加载访问的页面所需代码。
-## 减少bundle大小
-![[Pasted image 20230609162616.png]] 
-使用各种loader、插件时注意：去除代码中的空格、换行符、制表符
-## tree-shaking
-针对：在一个模块中被导出，却没有被使用（引入+调用）
-必须使用[[JS模块化#ES Module|es module]]的语法才能去除
+# 优化：13种
+
 ## [[babel]]打包优化
 ```js
 import { Rol, Col } from 'react-bootstrap';
@@ -477,6 +457,30 @@ var Col = reactBootstrap.Col;
 ```js
 import Rol from 'react-bootstrap/lib/Rol'
 ```
+
+## 缩小文件查找范围
+优化loader，resolve.modules, resolve.alias, resolve.mainFields, resolve.extensions, module.noPease
+## 使用DllPlugin
+将基础模块抽离，打包到**动态链接库**。如果需要使用基础模块，到动态链接库中查找。
+## 使用HappyPack
+单线程变多线程
+## 多进程代码压缩
+ParallelUglifyPlugin
+## [[静态资源]]使用CDN
+## 缓存
+打包结果使用contenthash
+## 使用prepack
+编译代码时提前计算结果，放到编译后的结果中，而不是在代码运行时才求值。
+## code splitting
+提取公共代码
+把各个模块的重复部分打包为一份公共代码，各个模块的不同部分有自己独有的代码
+	1. 首行加载公共代码，再按需加载访问的页面所需代码。
+## 减少bundle大小
+![[Pasted image 20230609162616.png]] 
+使用各种loader、插件时注意：去除代码中的空格、换行符、制表符
+## tree-shaking
+针对：在一个模块中被导出，却没有被使用（引入+调用）
+必须使用[[JS模块化#ES Module|es module]]的语法才能去除
 ## 优化三方依赖
 ### lodash
 babel-plugin-lodash插件：减少无用的Lodash内容
