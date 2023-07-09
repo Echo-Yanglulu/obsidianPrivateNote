@@ -87,10 +87,8 @@ splice(索引，删除个数，增加的元素)：
 	2. 返回值：被删除元素组成的数组
 fill
 copyWithin
-
 slice：截取。浅拷贝部分元素，组成新数组
 concat：融合。数组后追加**数组/值**，返回新数组
-
 ### 修改
 flat
 flatMap
@@ -108,8 +106,8 @@ at
 indexOf
 
 ### 问题
-1. 哪些会修改原数组？
-	1. push, pop, shift, unshift
+1. 哪些会修改原数组？7个
+	1. push, pop, shift, unshift，sort，reverse，splice
 2. 哪些是[[纯函数]]？
 
 [^1]: 数组对象上一组属性的集合
