@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/同源策略.md"
+                    "file": "笔记/前端/Nginx反射代理.md"
                   }
                 }
               }
@@ -2250,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/Nginx反射代理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2278,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/Nginx反射代理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2584,8 +2584,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "accaa6e8b6684230",
+  "active": "032e346c0c7772df",
   "lastOpenFiles": [
+    "笔记/前端/Nginx反射代理.md",
+    "笔记/前端/同源策略.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
@@ -2610,8 +2612,6 @@
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/深比较.md",
-    "笔记/前端/编程语言/JS/基本概念/深拷贝.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
