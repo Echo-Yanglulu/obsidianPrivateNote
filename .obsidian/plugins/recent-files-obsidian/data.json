@@ -5,6 +5,10 @@
       "path": "笔记/前端/编程语言/JS/DOM.md"
     },
     {
+      "basename": "DOM 2与DOM 3",
+      "path": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "作用域",
       "path": "笔记/前端/编程语言/JS/作用域.md"
-    },
-    {
-      "basename": "值",
-      "path": "笔记/前端/编程语言/JS/值.md"
     }
   ],
   "omittedPaths": [

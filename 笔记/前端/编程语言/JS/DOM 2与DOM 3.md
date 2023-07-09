@@ -14,4 +14,4 @@ DOM2和DOM3是按照模块化的思路来制定标准的，每个模块之间有
 - DOM Style：定义以编程方式访问和修改CSS样式的接口。
 - DOM Traversal and Range：新增遍历DOM文档及选择文档内容的接口。
 - DOM HTML：在DOM1 HTML部分的基础上，增加属性、方法和新接口。
-- DOM Mutation Observers：定义基于DOM变化触发回调的接口。这个模块是DOM4级模块，用于取代Mutation Events。
+- DOM Mutation Observers：定义基于DOM变化触发回调的接口。这个模块是DOM4级模块，用于取代Mutation Events。在[[DOM#MutationObserver接口]]中已介绍过
