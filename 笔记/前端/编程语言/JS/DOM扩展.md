@@ -26,9 +26,18 @@ Element Traversal API为DOM元素添加了5个属性
 - childElementCount，返回*子元素数量*（不包含文本节点和注释）；
 - firstElementChild，指向*第一个Element类型的子元素*（Element版firstChild）；
 - lastElementChild，指向*最后一个Element类型的子元素*（Element版lastChild）；
-- previousElementSibling，指向前一个Element类型的同胞元素（Element版previousSibling）；
-- nextElementSibling，指向后一个Element类型的同胞元素（Element版nextSibling）。
+- previousElementSibling，指向*前一个Element类型的同胞元素*（Element版previousSibling）；
+- nextElementSibling，指向*后一个Element类型的同胞元素*（Element版nextSibling）。
+## 兼容
+IE9及以上版本及现代浏览器都支持。所有DOM元素都会有这些属性，为遍历DOM元素提供便利。开发者就不用担心空白文本节点的问题
 # HTML5
+## 背景
+HTML5代表着与以前的HTML截然不同的方向
+	1. 所有以前的HTML规范中，从未出现过*描述JavaScript接口*的情形，HTML就是一个纯标记语言
+	2. HTML5规范却包含了与*标记相关*的大量JavaScript API定义
+		1. 有的API与DOM重合，定义了浏览器应该提供的DOM扩展
+## CSS类扩展
+
 
 # 专有扩展
 
