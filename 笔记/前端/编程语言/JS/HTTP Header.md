@@ -4,6 +4,8 @@
 - Accept：浏览器可接收的数据*格式*
 - Accept-Language：浏览器可接收的*语言*，如zh-CN
 - Accept-Encoding：浏览器可接收的*压缩算法*，如gzip。[^1] 
+- Authorization：
+- Accept-Charset
 - Content-type：此次请求所发送的数据【如果有发送】的*格式*。
 	- application/json
 - Connection：[[TCP]]连接

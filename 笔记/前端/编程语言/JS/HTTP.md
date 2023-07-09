@@ -25,7 +25,9 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 # HTTP报文
 组成
 1. 请求行
-	1. 
+	1. 请求方法：GET, POST, PUT, DELETE, OPTIONS, HEAD
+	2. 请求资源名
+	3. HTTP协议版本
 2. 请求头
 3. 请求正文
 [[HTTP Header]] 
