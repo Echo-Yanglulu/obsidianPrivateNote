@@ -16,6 +16,9 @@ ref
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件
+	1. ref
+	2. defaultValue/ defaultCechked
+	3. 手动操作DOM
 [[JSX]] 
 
 ## 属性
