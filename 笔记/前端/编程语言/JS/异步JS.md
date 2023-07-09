@@ -36,7 +36,7 @@ JS是单线程的，比较耗时的任务不能借助多线程完成，所以使
 MDN：同步脚本也是宏任务。
 ## 分类
 ### 宏任务
-包含：script，定时器【setImmediate(node 独有)】，ajax，DOM事件，requestAnimationFrame(浏览器独有)，UI render（浏览器独有），IO
+包含：script，定时器【setImmediate(node 独有)】，ajax，DOM事件，[[requestAnimationFrame]](浏览器独有)，UI render（浏览器独有），IO
 ### 微任务
 定义：有一个专门的微任务队列。
 包含：Promise.then()、async/await、MutationObserver、process.nextTick(node 独有)、Object.observe（已废弃）
