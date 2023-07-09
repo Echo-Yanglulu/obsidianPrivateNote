@@ -488,13 +488,12 @@ babel-plugin-lodash插件：减少无用的Lodash内容
 // 源码
 import _ from 'lodash';
 import {add} from 'lodash/fp';
-
 const addOne = add(1)
 _.map([1,2,3], addOne)
+
 // 使用插件的babel编译后
 import _map from 'lodash/map';
 import _add from 'lodash/fp/add';
-
 const addOne = _add(1)
 _map([1,2,3], addOne)
 ```
