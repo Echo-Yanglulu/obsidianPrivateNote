@@ -87,7 +87,11 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ```
 浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
 ### nodeName与nodeValue
-值完全取决于节点类型。使用
+值完全取决于节点类型。使用之前先检测类型
+	1. 元素节点：name是标签名，value是null
+### 节点关系
+### 操纵节点
+### 其他方法
 ## Document类型
 
 ## Element类型
