@@ -34,7 +34,7 @@ List.propTypes = {
 		2. **多次调用合并（批处理）**：只有传入函数时不会合并调用
 			1. 合并。每次都传入对象时，类似Object.assign。
 			2. 不合并。多次传递函数时，可获取上次函数修改的结果
-		3. **state修改更新逻辑**[^5]：只在两种情况下是同步修改
+		3. **state修改逻辑**[^5]：只在两种情况下是同步修改
 			1. 异步更新。在setState后读取state，是原值
 				1. 可通过this.setState({},fn)的第二个参数拿到最新
 			2. 同步更新。在定时器、[[DOM事件]]中，是同步的【别忘了取消DOM事件的订阅】
@@ -55,8 +55,9 @@ List.propTypes = {
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件
-
 [[JSX]] 
+## 生命周期
+
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
