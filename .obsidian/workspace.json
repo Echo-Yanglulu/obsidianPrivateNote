@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/class组件.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -2220,7 +2220,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2248,7 +2248,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2554,13 +2554,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d7ce188347d5a7a8",
+  "active": "984b37460779354e",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/库、框架/UI库/class组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/DOM事件.md",
     "笔记/前端/编程语言/JS/JS事件.md",
     "笔记/前端/编程语言/JS/Function.md",
@@ -2592,7 +2593,6 @@
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/作用域.md",
-    "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",

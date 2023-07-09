@@ -11,6 +11,13 @@ UI框架：搭建数据驱动的web和移动端UI
 [[React元素]] 
 [[context]] 
 ref
+## [[组件]] 
+1. 受控组件：组件值的保存与修改都使用state控制。
+	1. 使用value属性：input, textarea, select
+	2. 使用checked属性：checkbox, radio
+2. 非受控组件
+[[JSX]] 
+## 表单
 ## 属性
 ### 调整
 className代替class
@@ -50,12 +57,7 @@ List.propTypes = {
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
 ## [[合成事件]] 
-## [[组件]] 
-1. 受控组件：组件值的保存与修改都使用state控制。
-	1. 使用value属性：input, textarea, select
-	2. 使用checked属性：checkbox, radio
-2. 非受控组件
-[[JSX]] 
+
 ## 生命周期
 
 # API
