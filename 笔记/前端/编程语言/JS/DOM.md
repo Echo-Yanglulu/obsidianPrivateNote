@@ -24,12 +24,17 @@
 
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
 DOM对象是[[宿主对象]]。
+
+要理解DOM，最关键的一点是知道影响其性能的问题所在。
+	1. DOM操作在JavaScript代码中是代价比较高的，NodeList对象尤其需要注意
+		1. NodeList对象**实时更新**，这意味着每次访问它都会执行一次新的查询
 # 节点层级
 
 # DOM编程
 
 # MutationObserver接口
-
+背景：为代替性能不好的MutationEvent而问世，
+功能：可以有效精准地监控DOM变化，而且API也相对简单
 # 基本概念
 节点
 # 属性
@@ -112,7 +117,7 @@ querySelectorAll(标签名)
 	2. 批处理：将频繁操作组合为一次操作
 		1. 多次*插入*DOM。应：多次创建，通过`createDocumentFragment()`一次插入
 # [[DOM扩展]] 
-# [[DOM 2]]与[[DOM 3]] 
+# [[DOM 2与DOM 3]] 
 
 [^1]: 保存在变量里，不要每次用都获取一次DOM节点
 [^2]: 某个元素的content+padding
