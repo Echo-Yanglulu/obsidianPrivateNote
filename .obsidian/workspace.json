@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md"
+                    "file": "笔记/前端/编程语言/JS/工具函数.md"
                   }
                 }
               }
@@ -2250,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2278,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2584,10 +2584,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0796f56b0ad787c8",
+  "active": "466fef1f6ca2b104",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
@@ -2611,7 +2612,6 @@
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/BFC.md",
-    "笔记/前端/编程语言/CSS/盒模型.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
