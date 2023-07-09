@@ -2198,8 +2198,14 @@
                 "id": "ef8c805e44e454ee",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-10",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2598,8 +2604,9 @@
   },
   "active": "ef8c805e44e454ee",
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
+    "Day Planners/2023-07-10.md",
     "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230709233103.png",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
