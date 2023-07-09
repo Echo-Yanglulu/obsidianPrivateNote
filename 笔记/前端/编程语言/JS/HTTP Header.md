@@ -6,11 +6,11 @@
 - Accept-Encoding：浏览器可接收的*压缩算法*，如gzip。[^1] 
 - Content-type：此次请求所发送的数据【如果有发送】的*格式*。
 	- application/json
-- User-Agent：浏览器信息（简称UA）
 - Connection：[[TCP]]连接
 	1. keep-alive 建立一次重复使用。不重复地断开重连
-- Host：请求的域名
 - cookie：每次请求*同域*的资源时，浏览器都会携带
+- Host：请求的域名
+- User-Agent：浏览器信息（简称UA）
 - if-modified-since
 - if-none-match
 
