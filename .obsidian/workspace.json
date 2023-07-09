@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/工具/HTTPS.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP.md"
                   }
                 }
               }
@@ -2256,7 +2256,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/工具/HTTPS.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2284,7 +2284,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/工具/HTTPS.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2590,9 +2590,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a1f58fcf86e19e63",
+  "active": "4c3857efbd122f4c",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/TCP.md",
@@ -2617,7 +2618,6 @@
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
