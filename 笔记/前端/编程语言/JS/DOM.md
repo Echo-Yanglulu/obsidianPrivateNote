@@ -26,15 +26,31 @@ DOM对象是[[宿主对象]]。
 	1. DOM操作在JavaScript代码中是代价比较高的，NodeList对象尤其需要注意
 		1. NodeList对象**实时更新**，这意味着每次访问它都会执行一次新的查询
 # 节点层级
+背景：任何HTML或XML文档都可以用DOM表示为一个由**节点**构成的**层级结构** 
+
 Node类型
 Document类型
 Element类型
 Text类型
+Comment类型
+CDATASection类型
+DocumentType类型
+DocumentFragment类型
+Attr类型
 # DOM编程
+动态脚本
+动态样式
+操作表格
+使用NodeList
 
 # MutationObserver接口
 背景：为代替性能不好的MutationEvent而问世，
 功能：可以有效精准地监控DOM变化，而且API也相对简单
+
+基本用法
+MutationObserverInit与观察范围
+异步回调与记录队列
+性能、内存与垃圾回收
 # 基本概念
 节点
 # 属性
