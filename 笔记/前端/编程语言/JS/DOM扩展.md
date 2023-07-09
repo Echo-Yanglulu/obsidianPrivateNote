@@ -37,7 +37,23 @@ HTML5代表着与以前的HTML截然不同的方向
 	2. HTML5规范却包含了与*标记相关*的大量JavaScript API定义
 		1. 有的API与DOM重合，定义了浏览器应该提供的DOM扩展
 ## CSS类扩展
-
-
+getElementsByClassName()
+classList属性
+## 焦点管理
+## HTMLDocument扩展
+## 字符集属性
+## 自定义数据属性
+## 插入标记
+innerHTML属性
+旧IE中的innerHTML
+outerHTML属性
+insertAdjacentHTML()与insertAdjacentText()
+内存与性能问题
+跨站点脚本
+scrollIntoView()
 # 专有扩展
-
+children属性
+contains()方法
+插入标记
+滚动
+scrollIntoView()是唯一一个所有浏览器都支持的方法，所以只用它就可以了。
