@@ -32,29 +32,54 @@ DOM对象是[[宿主对象]]。
 		2. 都*拥有*自己不同的特性、数据和方法
 		3. 与其他类型有某种*关系* 
 			1. 这些关系构成了层级，让标记可以表示为一个以特定节点为根的树形结构。
-Node类型
-Document类型
-Element类型
-Text类型
-Comment类型
-CDATASection类型
-DocumentType类型
-DocumentFragment类型
-Attr类型
+## 实例
+```html
+<html>
+  <head>
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+  </body>
+</html>
+```
+表示为
+## Node类型
+
+## Document类型
+
+## Element类型
+
+## Text类型
+
+## Comment类型
+
+## CDATASection类型
+
+## DocumentType类型
+
+## DocumentFragment类型
+
+## Attr类型
+
 # DOM编程
-动态脚本
-动态样式
-操作表格
-使用NodeList
+
+## 动态脚本
+
+## 动态样式
+
+## 操作表格
+
+## 使用NodeList
 
 # MutationObserver接口
 背景：为代替性能不好的MutationEvent而问世，
 功能：可以有效精准地监控DOM变化，而且API也相对简单
 
-基本用法
-MutationObserverInit与观察范围
-异步回调与记录队列
-性能、内存与垃圾回收
+## 基本用法
+## MutationObserverInit与观察范围
+## 异步回调与记录队列
+## 性能、内存与垃圾回收
 # 基本概念
 节点
 # 属性
