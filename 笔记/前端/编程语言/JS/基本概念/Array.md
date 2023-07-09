@@ -92,9 +92,8 @@ concat：融合。数组后追加**数组/值**，返回新数组
 ### 修改
 flat
 flatMap
-sort
+sort。升序return a-b
 reverse
-
 entries
 values
 ### 查找
