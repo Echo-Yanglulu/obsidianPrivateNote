@@ -61,12 +61,33 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 	HTML元素表示为元素节点
 	属性表示为属性节点
 ## Node类型
-DOM Level 1描述了名为Node的接口
+背景：DOM Level 1描述了名为`Node`的接口
 	1. 所有DOM节点类型都必须实现
 	2. 在JavaScript中被实现为Node类型，在除IE之外的所有浏览器中都可以直接访问这个类型
 	3. JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
-每个节点都有nodeType属性，表示该节点的**节点类型** 
-	由定义在Node类型上的12个数值常量表示
+### nodeType
+每个节点都有nodeType属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
+- Node.ELEMENT_NODE（1）
+- Node.ATTRIBUTE_NODE（2）
+- Node.TEXT_NODE（3）
+- Node.CDATA_SECTION_NODE（4）
+- Node.ENTITY_REFERENCE_NODE（5）
+- Node.ENTITY_NODE（6）
+- Node.PROCESSING_INSTRUCTION_NODE（7）
+- Node.COMMENT_NODE（8）
+- Node.DOCUMENT_NODE（9）
+- Node.DOCUMENT_TYPE_NODE（10）
+- Node.DOCUMENT_FRAGMENT_NODE（11）
+- Node.NOTATION_NODE（12）
+通过与这些常量比较来**确定节点类型** 
+```js
+if (someNode.nodeType == Node.ELEMENT_NODE){
+  alert("Node is an element.");
+}
+```
+浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
+### nodeName与nodeValue
+值完全取决于节点类型。使用
 ## Document类型
 
 ## Element类型
