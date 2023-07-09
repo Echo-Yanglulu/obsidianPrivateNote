@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -1415,7 +1415,7 @@
                     {
                       "title": "浏览器事件",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":34},\"to\":{\"line\":18,\"ch\":0}}}"
                     },
                     {
@@ -2193,7 +2193,7 @@
                 }
               }
             ],
-            "currentTab": 14
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2220,7 +2220,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2248,7 +2248,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2554,10 +2554,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ef8c805e44e454ee",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/编程语言/JS/DOM事件.md",
+    "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "Day Planners/2023-07-09.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
@@ -2569,9 +2573,7 @@
     "笔记/_gsdata_/2023-0708-232211-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-232111-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/2023-0708-232011-DESKTOP-YLL-Job1.log",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/库、框架/UI库/合成事件.md",
     "笔记/前端/assets/Pasted image 20230708221039.png",
@@ -2591,8 +2593,6 @@
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/学习/学习.md",
-    "笔记/学习/概念/理解.md",
     "笔记/前端/assets/Pasted image 20230706165259.png",
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/assets/Pasted image 20230706150432.png",
