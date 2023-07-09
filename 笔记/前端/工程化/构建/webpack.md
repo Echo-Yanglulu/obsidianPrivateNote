@@ -443,10 +443,18 @@ eject之后的脚本分析：
 可以通过 import('path/to/module') 的方式引入一个模块， import() 返回的是一个 Promise 对象
 # 优化
 ## 缩小文件查找范围
-优化loader，resolve.modules, resolve.alias, resolve.mainFields, resolve.extensions, 
+优化loader，resolve.modules, resolve.alias, resolve.mainFields, resolve.extensions, module.noPease
+## 使用DllPlugin
+将基础模块抽离，打包到**动态链接库**。如果需要使用基础模块，到动态链接库中查找。
+## 使用HappyPack
+单线程变多线程
+## 多进程代码压缩
+ParallelUglifyPlugin
+## [[静态资源]]使用CDN
 ## 缓存
 打包结果使用contenthash
 ## code splitting
+提取公共代码
 把各个模块的重复部分打包为一份公共代码，各个模块的不同部分有自己独有的代码
 	1. 首行加载公共代码，再按需加载访问的页面所需代码。
 ## 减少bundle大小
