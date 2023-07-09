@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/闭包.md"
+                    "file": "笔记/前端/编程语言/JS/网络请求.md"
                   }
                 }
               }
@@ -2256,7 +2256,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2284,7 +2284,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/闭包.md",
+                        "file": "笔记/前端/编程语言/JS/网络请求.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2590,12 +2590,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "29663b11b6801ce9",
+  "active": "932160b53838d17b",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/编程语言/JS/TCP.md",
-    "笔记/前端/基础知识/计算机网络/传输层.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/JSONP.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/TCP.md",
+    "笔记/前端/编程语言/JS/HTTP.md",
+    "笔记/前端/编程语言/JS/闭包.md",
+    "笔记/前端/基础知识/计算机网络/传输层.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
@@ -2603,7 +2606,6 @@
     "笔记/前端/编程语言/JS/DOM事件.md",
     "笔记/前端/编程语言/JS/JS事件.md",
     "笔记/前端/工程化/node/node事件.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/Nginx反向代理.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
@@ -2616,8 +2618,6 @@
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/编程语言/JS/基本概念/Function.prototype.md",
     "笔记/前端/编程语言/JS/Function.md",
-    "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/编程语言/JS/作用域.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
