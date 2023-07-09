@@ -1,6 +1,11 @@
 # 概述
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
 定义：是[[HTML]]与[[XML]]**文档的编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。【生成对文档的结构化的表示，然后提供方式对该表示进行访问】
+功能
+	1. 表示由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分
+	2. DOM现在是真正跨平台、语言无关的表示和操作网页的方式
+意义
+	1. DOM Level 1：提供了基本文档结构和查询的接口
 特性
 	1. 树形结构
 概要
