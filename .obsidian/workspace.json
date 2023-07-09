@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md"
+                    "file": "笔记/前端/编程语言/JS/DNS.md"
                   }
                 }
               }
@@ -2250,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/编程语言/JS/DNS.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2278,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/编程语言/JS/DNS.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2584,8 +2584,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bb4eec015db3722f",
+  "active": "9ff1f944ee044d37",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/DOM事件.md",
     "笔记/前端/编程语言/JS/JS事件.md",
@@ -2610,8 +2612,6 @@
     "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
-    "笔记/前端/编程语言/JS/基本概念/class.md",
-    "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
