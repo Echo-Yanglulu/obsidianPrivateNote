@@ -23,9 +23,16 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 ## web的结构组件
 # [[URL]]与资源
 # HTTP报文
+组成
+1. 请求行
+	1. 
+2. 请求头
+3. 请求正文
 [[HTTP Header]] 
 [[HTTP Method]] 
 body
+发送HTTP请求的过程
+	1. 构建HTTP请求报文，通过TCP发送到服务端指定端口
 # 连接管理
 # HTTP结构
 ## web服务器
