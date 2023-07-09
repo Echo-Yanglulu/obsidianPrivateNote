@@ -12,10 +12,9 @@
 background-clip
 ![[Pasted image 20230616150834.png]] 
 
-
 line-height
 	1. 取值规则
-		1. 固定值：px
+		1. 值：px
 		2. 比例：相对于自身font-size的比例【会被继承】
 		3. 百分比：相对于自身font-size的比例【不被继承】
 	2. 继承规则
