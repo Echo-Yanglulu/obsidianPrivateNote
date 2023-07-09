@@ -24,12 +24,17 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 # [[URL]]与资源
 # HTTP报文
 组成
-1. 请求行
-	1. 请求方法：GET, POST, PUT, DELETE, OPTIONS, HEAD
-	2. 请求资源名
-	3. HTTP协议版本
-2. 请求头
-3. 请求正文
+1. 请求
+	1. 请求行
+		1. 请求方法：GET, POST, PUT, DELETE, OPTIONS, HEAD
+		2. 请求资源的[[URI]] 
+		3. HTTP协议版本
+	2. 请求头
+	3. 请求正文
+2. 响应
+	1. HTTP协议版本
+	2. [[HTTP状态码]] 
+	3. [[MIME类型]] 
 [[HTTP Header]] 
 [[HTTP Method]] 
 body
