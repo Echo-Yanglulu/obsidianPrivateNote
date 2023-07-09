@@ -9,7 +9,7 @@ UI框架：搭建数据驱动的web和移动端UI
 状态提升
 # 基础
 [[React元素]] 
-[[context]] 
+
 ref
 ## [[组件]] 
 1. 受控组件：组件值的保存与修改都使用state控制。
@@ -17,7 +17,7 @@ ref
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件
 [[JSX]] 
-## 表单
+
 ## 属性
 ### 调整
 className代替class
@@ -31,10 +31,11 @@ List.propTypes = {
 	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
 }
 ```
+
 ## state
 特性
 	1. react17
-		1. **不可变值** 
+		1. **state是不可变值** 
 			1. 修改state时。
 				1. 如果是原始类型，即使先修改，再setState可以生效，也有性能问题。
 				2. 如果是引用类型， 不可修改原值或内部属性/元素。而是**创建一个新值**再赋值。
@@ -49,6 +50,9 @@ List.propTypes = {
 		1. 自动批处理
 			1. 在组件事件中，默认异步更新、合并调用
 			2. 在DOM事件、定时器中，也是异步更新、合并调用
+
+## [[合成事件]] 
+
 ## 条件渲染
 二元与、或
 三元
@@ -56,7 +60,8 @@ List.propTypes = {
 方式
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
-## [[合成事件]] 
+
+## 表单
 
 ## 生命周期
 
@@ -65,7 +70,6 @@ List.propTypes = {
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
 	1. 否则会被作为字符串渲染。<等被用于渲染，而不是解析为标签。
 2. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
-3. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
 4. StrictMode：提示有潜在问题的组件【建议在老项目中使用，有助于形成规范】
 	1. 功能
 		1. 检测是否存在*即将废弃*的生命周期函数；
@@ -78,6 +82,9 @@ List.propTypes = {
 		1. 如在一个页面上同时存在复杂动画和输入框。该模式会优先响应用户的输入，
 	2. 使用
 ## 高级特性
+非受控组件
+异步组件
+3. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
 ## 总结
 Fiber让应用更好地更新，concurrentMode让应用在体验上更好
 # 原理
