@@ -19,7 +19,7 @@
 目的：检测某个元素会不会被querySelector()或querySelectorAll()方法返回
 # 元素遍历
 ## 背景
-IE9之前的版本不会*把元素间的空格当成空白节点*，而其他浏览器则会。这样就导致了childNodes和firstChild等属性上的差异。
+IE9之前的版本不会把**元素间的空格**当成空白节点，而其他浏览器则会。这样就导致了childNodes和firstChild等属性上的差异。
 为了弥补这个差异，同时不影响DOM规范，W3C通过新的Element Traversal规范定义了一组新属性。
 
 Element Traversal API为DOM元素添加了5个属性
@@ -44,16 +44,18 @@ classList属性
 ## 字符集属性
 ## 自定义数据属性
 ## 插入标记
-innerHTML属性
-旧IE中的innerHTML
-outerHTML属性
-insertAdjacentHTML()与insertAdjacentText()
-内存与性能问题
-跨站点脚本
-scrollIntoView()
+### innerHTML属性
+### 旧IE中的innerHTML
+### outerHTML属性
+### insertAdjacentHTML()与insertAdjacentText()
+### 内存与性能问题
+### 跨站点脚本
+## scrollIntoView()
 # 专有扩展
-children属性
-contains()方法
-插入标记
-滚动
+## children属性
+## contains()方法
+## 插入标记
+### innerText属性
+### outerText属性
+## 滚动
 scrollIntoView()是唯一一个所有浏览器都支持的方法，所以只用它就可以了。
