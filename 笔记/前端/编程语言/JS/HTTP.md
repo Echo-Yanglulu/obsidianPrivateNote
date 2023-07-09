@@ -34,7 +34,7 @@ Web 应用程序[^1]是如何使用 HTTP 进行通信的？
 [[HTTP Method]] 
 body
 发送HTTP请求的过程
-	1. 构建HTTP请求报文，通过TCP发送到服务端指定端口
+	1. 构建HTTP请求报文，通过[[TCP]]发送到服务端指定端口
 # 连接管理
 # HTTP结构
 ## web服务器
