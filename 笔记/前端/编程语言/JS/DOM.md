@@ -6,6 +6,7 @@
 	2. DOM现在是真正跨平台、语言无关的表示和操作网页的方式
 意义
 	1. DOM Level 1：提供了基本文档结构和查询的接口
+	2. DOM与浏览器中的HTML网页相关，并且在JavaScript中提供了DOM API
 特性
 	1. 树形结构
 概要
@@ -23,7 +24,13 @@
 
 浏览器解析HTML文档时，在内存中将每个元素表示为DOM。树状结构，每个元素都由一个节点表示
 DOM对象是[[宿主对象]]。
-## 基本概念
+# 节点层级
+
+# DOM编程
+
+# MutationObserver接口
+
+# 基本概念
 节点
 # 属性
 screen.height：显示器高度
@@ -31,11 +38,11 @@ window.outerHeight：浏览器软件高度【全屏时等于显示器高度】
 window.innerHeight：浏览器可视区高度
 	与document.documentElement.clientHeight[^2]有什么区别？
 document.body.clientHeight：body高度
+
 clientHeight、clientLeft 、scrollHeight、scrollY：元素内content+padding
 offsetHeight 、offsetTop：元素边框content+padding+border
-
 clientWidth：**content+padding**。
-clientHeight：content + padding。不含滚动条（不含滚动部分？？只是展示出来的部分？）
+clientHeight：content + padding。不含滚动条
 	document.documentElement.clientWidth：页面的宽高
 clientLeft：左border宽度
 scrollHeight：clientWidth，*含滚动部分*。
