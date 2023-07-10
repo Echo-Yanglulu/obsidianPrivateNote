@@ -71,7 +71,11 @@ List.propTypes = {
 		1. map方法：每个元素需要key
 ## 表单
 
-## [[class组件#生命周期|生命周期]]   
+## [[class组件#生命周期|生命周期]]  
+## 机制
+1. 父组件更新，子组件默认也更新
+	1. class 组件可使用 scu 或 pu。
+	2. [[函数组件]] 使用监听
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
