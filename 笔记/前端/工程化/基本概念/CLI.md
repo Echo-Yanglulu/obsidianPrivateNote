@@ -54,7 +54,6 @@ CLI关心的核心问题，是**参数处理**。（git merge testBranch）如�
 3. 如何获取模板？
 	1. git clone， 使用[[execa]] 或[[shelljs]] 调用
 4. 如果根据模板与参数生成工程？
-5. 
 
 用React开发CLI应用
 	[[ink]]
