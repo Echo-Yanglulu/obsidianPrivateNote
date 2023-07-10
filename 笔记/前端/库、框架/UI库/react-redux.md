@@ -11,3 +11,7 @@ export default function (){
 	</Provider>
 }
 ```
+在需要使用 store 的组件中 
+```js
+
+```
