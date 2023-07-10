@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/JSON.md"
                   }
                 }
               }
@@ -2261,9 +2261,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "de0e5567dd72438e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/JSON.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 15
+            "currentTab": 16
           },
           {
             "id": "86193a5d16fa87de",
@@ -2290,7 +2312,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/JSON.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2318,7 +2340,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/JSON.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2624,8 +2646,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "7d49dd56b47a18b0",
+  "active": "de0e5567dd72438e",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/基本概念/CLI.md",
@@ -2655,7 +2678,6 @@
     "笔记/前端/基础知识/计算机网络/传输层.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
