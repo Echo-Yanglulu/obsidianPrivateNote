@@ -848,8 +848,14 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-10",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-10.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2580,12 +2586,13 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new dashboard": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
     }
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "Day Planners/2023-07-10.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/UI库/组件.md",
@@ -2612,7 +2619,6 @@
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/assets/Pasted image 20230710091228.png",
     "笔记/前端/assets/Pasted image 20230709233103.png",
     "笔记/前端/assets/Pasted image 20230709220719.png",
