@@ -8,10 +8,18 @@
 	D -->|用户操作| A
 ```
 和 [[vuex]] 作用相同，但学习成本更高
+## 组成
+dispatch
+action
+reducer：[[纯函数]] 
+store
+## 流程
+触发 action
+使用 reducer 更新 
 # 基础
-1. 单向数据流
+##  单向数据流
 2. [[react-redux]]：react 应用连接 redux
-3. 异步 action
+
 ## 如何异步更新 action？
 1. 从 redux 库同时引入 createStore 与 applyMiddleWare
 2. 引用三方库提供中间件
