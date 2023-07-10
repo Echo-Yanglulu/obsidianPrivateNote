@@ -66,7 +66,8 @@ npm
 	install 安装依赖
 		1. 包名 --save-dev：安装并加入devDependencies
 		2. 包名 --save：安装并加入dependencies
-		3. 包名 无参数：只安装，不修改package.json【可以自己安装好用的一些小工具，不会上传到项目文件夹中，因为*这样操作只修改node_modules文件夹*，而该文件夹一般被git忽略】
+		3. 包名 无参数：只安装，不修改package.json【可以自己安装好用的一些小工具，不影响项目，因为*该操作只修改node_modules文件夹*，而该文件夹一般被git忽略】
+			1. 无参数将作为开发依赖，添加到dependencies.
 		4. 无参数。即`npm i` 
 			1. 如果有[[package-lock.json]]文件，安装该文件规定的版本
 			2. 否则安装[[package.json]]中所有的开发依赖和运行依赖
