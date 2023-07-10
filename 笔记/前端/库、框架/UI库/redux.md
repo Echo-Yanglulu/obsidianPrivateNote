@@ -9,10 +9,14 @@
 ```
 和 [[vuex]] 作用相同，但学习成本更高
 ## 组成
-1. dispatch
-2. action：[[Object]] 
-3. reducer：[[纯函数]] 把 action 与 state 联结
-4. store
+###  dispatch
+###  action：[[Object]] 
+###  reducer
+特性
+	1.  [[纯函数]] 把 action 与 state 联结
+1. 接收 state 与 action，返回 state
+###  store
+
 ## 流程
 触发 action
 使用 reducer 更新 state
