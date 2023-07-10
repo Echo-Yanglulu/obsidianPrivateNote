@@ -10,7 +10,7 @@
 和 [[vuex]] 作用相同，但学习成本更高
 ## 组成
 ###  dispatch
-工具函数，传递 action 给 reducer
+工具函数，将 action 传递给 reducer
 ###  action
 特性
 	1. 一个 [[Object]] 
@@ -19,12 +19,11 @@
 一个大型应用不只一个，可开发一个总的 reducer 管理所有 reducer
 特性
 	1.  [[纯函数]] 
-	2. 接收 state 与 action，返回 state
+	2. 接收 state 与 action 两个对象，根据 action 决定处理逻辑，返回 state 对象
 ###  store
 
 ## 流程
-触发 action
-使用 reducer 更新 state
+ 根据 action 种类与传参触发 reducer 的更新逻辑，生成新 state，反映到 view
 # 基础
 ##  单向数据流
 2. [[react-redux]]：react 应用连接 redux
