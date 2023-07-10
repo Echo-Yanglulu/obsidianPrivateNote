@@ -40,7 +40,7 @@ context的传递：在渲染过程中执行
 		2. 使用
 			1. `const theme = this.context`
 	2. 函数组件
-		1. 提供
+		1. 提供者
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
 		2. 使用
