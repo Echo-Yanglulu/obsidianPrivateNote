@@ -42,7 +42,7 @@ context的传递：在渲染过程中执行
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
 # 应用：适应周围环境的组件
-## 业务
+## 场景
 ### 主题
 在需要根据主题调整外观的组件中使用context
 ### 路由

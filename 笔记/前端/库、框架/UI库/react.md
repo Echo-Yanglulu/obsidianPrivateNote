@@ -93,7 +93,8 @@ List.propTypes = {
 ## 高级特性
 1. 非受控组件
 2. 异步组件
-3. [[ReactDOM#^73f348|protal]]：移动组件在DOM结构中的位置
+3. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
+	1. 事件流的机制不会改变
 4. [[context]] 
 5. [[性能优化]] 
 6. 逻辑复用：高阶组件、HOC
