@@ -9,13 +9,13 @@
 ```
 和 [[vuex]] 作用相同，但学习成本更高
 ## 组成
-dispatch
-action
-reducer：[[纯函数]] 
-store
+1. dispatch
+2. action：[[Object]] 
+3. reducer：[[纯函数]] 把 action 与 state 联结
+4. store
 ## 流程
 触发 action
-使用 reducer 更新 
+使用 reducer 更新 state
 # 基础
 ##  单向数据流
 2. [[react-redux]]：react 应用连接 redux
