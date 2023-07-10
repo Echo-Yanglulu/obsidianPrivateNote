@@ -42,6 +42,7 @@ decodeURIComponent(uri)
 // 输出了没有包含任何转义的字符串。（这个字符串不是有效的URL。）
 ```
 *何时需要编码URL组件*？何时不需要？
+![[Pasted image 20230710091228.png]]
 ## eval()
 意义：整个ECMAScript语言中最强大的方法
 本质：**一个完整的ECMAScript解释器**，它接收一个参数，一个要执行的ECMAScript（JavaScript）字符串。
