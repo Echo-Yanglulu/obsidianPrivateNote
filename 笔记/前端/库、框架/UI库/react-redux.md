@@ -16,4 +16,16 @@ export default function (){
 ```js
 import { connect } from 'react-redux'
 import { addTodo } from '../actions'
+
+// 取出props中的dispatch
+let AddTodo = ({ dispatch }) => {
+	// 在事件处理函数触发对应action
+	handleSubmit = (e) => {
+		dispatch(addTodo(e.target.value))
+	}
+	reuturn <div></div>
+}
+
+// 将dispatch方法注入组件
+AddTodo = connect()(AddTodo)
 ```
