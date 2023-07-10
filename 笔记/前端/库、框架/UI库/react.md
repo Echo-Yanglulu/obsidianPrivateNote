@@ -95,8 +95,10 @@ List.propTypes = {
 	1. 场景：文件上传，富文本编辑器，必须手动操作 [[DOM]] 
 2. 异步组件
 	1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
+	2. Suspense
 3. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
 	1. 事件流的机制不会改变
+	2. 场景：兼容性、父组件是 [[BFC]] 、父组件
 4. [[context]] 
 5. [[性能优化]] 
 6. 逻辑复用：高阶组件、HOC
