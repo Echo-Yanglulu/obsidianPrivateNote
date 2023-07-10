@@ -93,7 +93,43 @@ export default HocAvatar(Avatar);
 案例
 ```js
 // 获取鼠标位置
+import React from 'react';
+const withMouse = (Component) => {
+  class HOCMP extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        x: 0,
+        y: 0,
+      }
+    }
 
+    handleMouse = (event) => {
+      this.setState({
+        x: event.clientX,
+        y: event.clientY
+      })
+    }
+
+    render() {
+      return (
+        <div onMouseMove={this.handleMouse}>
+          <Component {...this.props} mouse={this.state} />
+        </div>
+      )
+    }
+  }
+  return HOCMP;
+};
+
+const App = (props) => {
+  const {x, y} = props.mouse
+  return <div>
+    positions is {x}, {y}
+  </div>
+}
+
+export default withMouse(APP)
 ```
 
 ### renderProps
