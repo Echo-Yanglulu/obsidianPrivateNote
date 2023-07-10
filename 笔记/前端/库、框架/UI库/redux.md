@@ -1,4 +1,5 @@
 # 概述
+和 [[vuex]] 作用相同，但学习成本更高
 应用流转图
 ```mermaid
 	graph LR
@@ -7,7 +8,7 @@
 	C -->|反馈| D(view)
 	D -->|用户操作| A
 ```
-和 [[vuex]] 作用相同，但学习成本更高
+带有中间件的数据流图 ![[Pasted image 20230710220731.png]]
 ## 组成
 ###  dispatch
 工具函数，将 action 传递给 reducer
@@ -44,4 +45,5 @@ reducer
 action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函数，均无法改造。对 dispatch 做改造：在其中插入自己的逻辑
 # 相关
 [[react-redux]]：react 应用连接 redux
-带有中间件的数据流图![[Pasted image 20230710220731.png]] 
+[核心概念 · Redux](https://www.redux.org.cn/docs/introduction/CoreConcepts.html) 
+ 
