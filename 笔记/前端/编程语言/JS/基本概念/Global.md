@@ -16,7 +16,7 @@ isNaN()、isFinite()、parseInt()、parseFloat()
 	2. 同时以特殊的UTF-8编码替换掉所有*无效字符* 
 ### ecnodeURI()
 编码URI
-	1. 不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
+	1. 假定任何*保留字符*都有特殊意义，所有不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURI(uri));  
@@ -29,7 +29,8 @@ decodeURI(uri)
 ```
 ### encodeURIComponent()
 字面意思：编码URI的组件
-	1. 会编码它发现的所有**非标准字符**【包括URL组件】
+	1. 假定任何*保留字符*都代表普通文本，所以必须编码它们
+	2. 会编码它发现的所有**非标准字符**【包括URL组件】
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURIComponent(uri));   
