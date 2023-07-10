@@ -46,11 +46,11 @@ context的传递：在渲染过程中执行
 		2. 使用
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 			2. 使用
-				1. 通过 hook
+				1.  hook
 					1. `import { useContext } from 'react';` 
 					2. `const level = useContext(LevelContext);` 
 						1. 不需解构，取出的就是值
-				2. 使用 Consumer
+				2.  Consumer
 					1. \<LevelContext. Consumer>{value => (\<p></p>)}</LevelContext. Consumer>
 # 应用：适应周围环境的组件
 ## 场景
