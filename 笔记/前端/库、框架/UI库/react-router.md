@@ -34,12 +34,13 @@ B 端应用可选择1，C 端应用可选择2
 		1. 不会重新发送请求
 		2. 完成了一个由前端控制路由的SPA
 ### 编程式导航
-路由属性中的history
+1. 路由属性中的 history
 	1. push
 	2. replace
 		1. 场景
 			1. 登录之后，点击浏览器的返回按钮不应再返回登录页面
 			2. 填写表单并跳转后不应返回到表单填写页面，重新填写
+2. 库中的 useHistory API ![[Pasted image 20230710222914.png]] 
 ## 路由匹配：Route
 ### 匹配规则
 1. 默认：模糊匹配。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个组件】
@@ -69,7 +70,9 @@ B 端应用可选择1，C 端应用可选择2
 	1. 准确![[Pasted image 20230529155825.png]] 
 	2. 模糊。接收时未传递的是undefined![[Pasted image 20230529160359.png]]
 顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
-接收：props.match.params
+接收
+	1. props.match.params
+	2. 库中的 useParams ![[Pasted image 20230710222733.png]] 
 #### 查询参数
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
