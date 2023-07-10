@@ -143,7 +143,7 @@ class组件内只封装了逻辑部分
 export default function App(){
 	return (
 		<div className="app">
-		// 在
+		// 在Avatar中处理逻辑与状态，调用接收的函数并传入状态
 			<Avatar name="study">
 				{name => <User name={name} />}
 			</Avatar>
