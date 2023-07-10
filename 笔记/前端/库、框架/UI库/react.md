@@ -92,7 +92,9 @@ List.propTypes = {
 	2. 使用
 ## 高级特性
 1. 非受控组件
+	1. 场景：文件上传，富文本编辑器，必须手动操作 [[DOM]] 
 2. 异步组件
+	1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
 3. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
 	1. 事件流的机制不会改变
 4. [[context]] 
