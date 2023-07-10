@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -1501,6 +1501,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":4},\"to\":{\"line\":9,\"ch\":4}},\"scroll\":0}"
+                    },
+                    {
                       "title": "react组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1943,7 +1955,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2211,7 +2223,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -2238,7 +2250,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2266,7 +2278,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2572,17 +2584,19 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/HOC.md",
     "笔记/前端/immutable.js.md",
     "笔记/前端/assets/Pasted image 20230710142407.png",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/编程语言/JS/基本概念/Array.prototype.md",
     "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/库、框架/UI库/class组件.md",
@@ -2599,7 +2613,6 @@
     "笔记/前端/编程语言/JS/基本概念/变量.md",
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/工程化/npm.md",
     "笔记/前端/assets/Pasted image 20230710091228.png",
     "笔记/前端/assets/Pasted image 20230709233103.png",
     "笔记/前端/assets/Pasted image 20230709220719.png",

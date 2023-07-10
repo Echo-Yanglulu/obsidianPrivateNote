@@ -35,6 +35,79 @@ props与context
 		1. 功能：都是一种传递数据的通道
 	2. 不同
 		1. 功能的范围：是否能跨层级
+
+# 组件通讯
+根据传递方向，可分为3个
+1. 父向子
+	1. 单层：props
+	2. 多层：context
+2. 子向父
+	1. 手动：父向子通过props下传setState
+	2. 自动：
+		1. 传递数据：[[函数组件#useImperativeHandle|useImperativeHandle]] 
+		2. 传递元素：ref
+3. 兄弟组件
+	1. 父向子通过props，state传递一个，setState传递另一个
+
+# 逻辑复用
+在没有 hook之前，开发逻辑组件通常是使用class组件，但两种常用方式都存在问题。
+
+## 函数组件
+```js
+import React, { useState } from "react";
+
+export function HooksAvatar() {
+  const [name, setName] = useState("云课堂");
+  return <>{name}</>;
+}
+```
+有啥区别？不还是套了一层？
+
+[^1]: 受开发者控制的组件
+[^2]: 类组件中使用它获取元素，然后focus，但后续维护不方便，比如想给需要find的元素添加一层div，就无法找到了。所以使用函数组件是优先的选择。
+
+## class组件
+### HOC
+封装了逻辑，
+	1. 定义：接收组件，逻辑处理，返回组件
+	2. 复用：调用时传入UI组件
+问题
+	1. 增加嵌套层级
+```js
+import React, { Component } from "react";
+
+class Avatar extends Component {
+  render() {
+    return <div>{this.props.name}</div>;
+  }
+}
+
+// 这是增加了一个层级吗
+function HocAvatar(Component) {
+  return () => <Component name="云课堂" />;
+}
+export default HocAvatar(Avatar);
+```
+
+### renderProps
+class组件内只封装了逻辑部分
+	1. 定义：内部接收并调用一个返回UI的函数，将内部逻辑添加到传入的UI上。
+	2. 复用：调用时（通过属性或内容）传入UI（一个返回UI的函数）。
+问题
+	1. 如果嵌套内容复杂，就会使结构看起来很复杂。
+	2. props难以梳理
+```js
+export default function App(){
+	return (
+		<div className="app">
+			<Avatar name="study">
+				{name => <User name={name} />}
+			</Avatar>
+		</div>
+	)
+}
+```
+
 # 功能
 ## 创建节点
 createRoot 
@@ -105,77 +178,6 @@ flushSync(callback)
 	2. 严重破坏性能，如果可以，尽量避免使用
 ## 懒加载
 React.lazy引入组件。在需要展示时时候再导入。但此时可能没有组件展示，需要结合Suspense展示fallback组件
-# 组件通讯
-根据传递方向，可分为3个
-1. 父向子
-	1. 单层：props
-	2. 多层：context
-2. 子向父
-	1. 手动：父向子通过props下传setState
-	2. 自动：
-		1. 传递数据：[[函数组件#useImperativeHandle|useImperativeHandle]] 
-		2. 传递元素：ref
-3. 兄弟组件
-	1. 父向子通过props，state传递一个，setState传递另一个
-# 逻辑复用
-在没有 hook之前，开发逻辑组件通常是使用class组件，但两种常用方式都存在问题。
-
-## 函数组件
-```js
-import React, { useState } from "react";
-
-export function HooksAvatar() {
-  const [name, setName] = useState("云课堂");
-  return <>{name}</>;
-}
-```
-有啥区别？不还是套了一层？
-
-[^1]: 受开发者控制的组件
-[^2]: 类组件中使用它获取元素，然后focus，但后续维护不方便，比如想给需要find的元素添加一层div，就无法找到了。所以使用函数组件是优先的选择。
-
-## class组件
-### HOC
-封装了逻辑，
-	1. 定义：接收组件，逻辑处理，返回组件
-	2. 复用：调用时传入UI组件
-问题
-	1. 增加嵌套层级
-```js
-import React, { Component } from "react";
-
-class Avatar extends Component {
-  render() {
-    return <div>{this.props.name}</div>;
-  }
-}
-
-// 这是增加了一个层级吗
-function HocAvatar(Component) {
-  return () => <Component name="云课堂" />;
-}
-export default HocAvatar(Avatar);
-```
-
-### renderProps
-class组件内只封装了逻辑部分
-	1. 定义：内部接收并调用一个返回UI的函数，将内部逻辑添加到传入的UI上。
-	2. 复用：调用时（通过属性或内容）传入UI（一个返回UI的函数）。
-问题
-	1. 如果嵌套内容复杂，就会使结构看起来很复杂。
-	2. props难以梳理
-```js
-export default function App(){
-	return (
-		<div className="app">
-			<Avatar name="study">
-				{name => <User name={name} />}
-			</Avatar>
-		</div>
-	)
-}
-```
-
 # [[函数组件]]与类组件对比
 
 | 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
