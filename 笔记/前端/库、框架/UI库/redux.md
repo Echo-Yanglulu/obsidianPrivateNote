@@ -42,3 +42,4 @@ action
 reducer
 ## redux 中间件
 原理
+action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函数，均无法改造。对 dispatch 做改造：在其中插入自己的逻辑
