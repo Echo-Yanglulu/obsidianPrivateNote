@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "context",
@@ -195,10 +199,6 @@
     {
       "basename": "URL",
       "path": "笔记/前端/编程语言/JS/URL.md"
-    },
-    {
-      "basename": "this",
-      "path": "笔记/前端/编程语言/JS/this.md"
     }
   ],
   "omittedPaths": [
