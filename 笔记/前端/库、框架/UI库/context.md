@@ -21,7 +21,7 @@ context的传递：在渲染过程中执行
 	1. 如果当前class组件没有更新，会导致接收失败[^1] 
 		1. shouldComponentUpdate返回false，或pureComponent，或其他自定义优化避免了更新
 获取
-	1. **多次嵌套**使用某个context，覆盖：从*最近父级*获取
+	1. **多次嵌套**：使用某个 context，覆盖：从*最近父级*获取
 	2. 如果没有找到provider，则使用*默认值* 
 	3. 所有使用该值的组件都将重新渲染
 # 使用
@@ -34,7 +34,9 @@ context的传递：在渲染过程中执行
 	1. class组件
 		1. 提供
 			1. 引入定义
-			2. 绑定：`ThemeButton.contextType = ThemeContext` 
+			2. 绑定 this 属性
+				1. `ThemeButton.contextType = ThemeContext` 
+				2.  `static contextType = ThemeContext` 
 		2. 使用
 			1. `const theme = this.context`
 	2. 函数组件
@@ -43,9 +45,10 @@ context的传递：在渲染过程中执行
 			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
 		2. 使用
 			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
-			2. 引入使用api：`import { useContext } from 'react';` 
-			3. 取出：`const level = useContext(LevelContext);` 
-				1. 不需解构，取出的就是值
+			2. 通过 hook
+				1. `import { useContext } from 'react';` 
+				2. `const level = useContext(LevelContext);` 
+					1. 不需解构，取出的就是值
 # 应用：适应周围环境的组件
 ## 场景
 这些场景，使用 props 太繁琐，使用 [[redux]] 又小题大做（没有那么复杂）
