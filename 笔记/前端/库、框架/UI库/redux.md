@@ -12,10 +12,9 @@
 1. 单向数据流
 2. [[react-redux]]：react 应用连接 redux
 3. 异步 action
-4. [[中间件]] 
 ## 如何异步更新 action？
 1. 从 redux 库同时引入 createStore 与 applyMiddleWare
-2. 引用三方库
+2. 引用三方库提供中间件
 	1. redux-thunk
 	2. redux-promise
 	3. redux-saga
@@ -25,4 +24,5 @@ store
 state
 action
 reducer
-
+## redux 中间件
+原理
