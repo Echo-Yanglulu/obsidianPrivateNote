@@ -21,14 +21,13 @@
 	1.  [[纯函数]] 
 	2. 接收 state 与 action 两个对象，根据 action 决定处理逻辑，返回 state 对象
 ###  store
-
 ## 流程
  根据 action 种类与传参触发 reducer 的更新逻辑，生成新 state，反映到 view
 # 基础
 ##  单向数据流
-2. [[react-redux]]：react 应用连接 redux
 
-## 如何异步更新 action？
+
+## 异步action
 1. 从 redux 库同时引入 createStore 与 applyMiddleWare
 2. 引用三方库提供中间件
 	1. redux-thunk
@@ -43,3 +42,6 @@ reducer
 ## redux 中间件
 原理
 action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函数，均无法改造。对 dispatch 做改造：在其中插入自己的逻辑
+# 相关
+[[react-redux]]：react 应用连接 redux
+带有中间件的数据流图![[Pasted image 20230710220731.png]] 
