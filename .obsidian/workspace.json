@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 }
               }
@@ -2159,6 +2159,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "Array.prototype",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.prototype.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "定位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/定位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
+                    },
+                    {
                       "title": "布局",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2169,7 +2181,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/定位.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2177,7 +2189,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -2204,7 +2216,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2232,7 +2244,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2538,11 +2550,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "b22f7f396d653a6b",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Array.prototype.md",
+    "笔记/前端/编程语言/CSS/定位.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/编程语言/CSS/BFC.md",
@@ -2552,7 +2566,6 @@
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -2565,7 +2578,6 @@
     "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/assets/Pasted image 20230710091228.png",
     "笔记/前端/assets/Pasted image 20230709233103.png",
     "笔记/前端/assets/Pasted image 20230709220719.png",

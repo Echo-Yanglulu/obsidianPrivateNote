@@ -85,8 +85,8 @@ shift：头删，返回删除元素
 splice(索引，删除个数，增加的元素)：
 	1. 从某个索引开始，同时增删元素
 	2. 返回值：被删除元素组成的数组
-fill
-copyWithin
+fill：新值填充
+copyWithin：旧值填充
 slice：截取。浅拷贝部分元素，组成新数组
 concat：融合。数组后追加**数组/值**，返回新数组
 ### 修改
@@ -106,7 +106,7 @@ indexOf
 
 ### 问题
 1. 哪些会修改原数组？7个
-	1. push, pop, shift, unshift，sort，reverse，splice
+	1. push, pop, shift, unshift，splice，sort，reverse，
 2. 哪些是[[纯函数]]？
 
 [^1]: 数组对象上一组属性的集合

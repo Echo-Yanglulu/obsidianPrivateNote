@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
+      "basename": "Array.prototype",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.prototype.md"
+    },
+    {
+      "basename": "定位",
+      "path": "笔记/前端/编程语言/CSS/定位.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
@@ -29,20 +41,12 @@
       "path": "笔记/前端/工程化/构建/Promise.md"
     },
     {
-      "basename": "定位",
-      "path": "笔记/前端/编程语言/CSS/定位.md"
-    },
-    {
       "basename": "布局",
       "path": "笔记/前端/编程语言/CSS/布局.md"
     },
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "函数组件",
@@ -195,10 +199,6 @@
     {
       "basename": "window",
       "path": "笔记/前端/编程语言/JS/window.md"
-    },
-    {
-      "basename": "URL",
-      "path": "笔记/前端/编程语言/JS/URL.md"
     }
   ],
   "omittedPaths": [
