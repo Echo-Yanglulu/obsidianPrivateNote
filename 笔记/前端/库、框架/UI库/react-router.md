@@ -1,7 +1,9 @@
 # 概述
 ## 路由模式
-hash 模式（默认）。如 http://abc.com/#user/10
-H5 [[History]] 模式。如 http://abc.com/user/20
+1. hash 模式（默认）。如 http://abc.com/#user/10
+2. H5 [[History]] 模式。如 http://abc.com/user/20
+B 端应用可选择1，C 端应用可选择2
+
 # 安装与导入
 [[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
 ## react-router库与react-router-dom的区别是什么？
@@ -59,8 +61,8 @@ H5 [[History]] 模式。如 http://abc.com/user/20
 	2. URL
 	3. params
 	4. isExact：当前组件是否由精确匹配展示
-### 查询参数
-#### *路由参数*的形式
+### 参数
+#### 路由参数
 【实际最好不用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件
 单个：![[Pasted image 20230529155559.png]] 
 多个：
@@ -68,12 +70,11 @@ H5 [[History]] 模式。如 http://abc.com/user/20
 	2. 模糊。接收时未传递的是undefined![[Pasted image 20230529160359.png]] 
 顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
 接收：props.match.params
-
-#### URL*查询参数*形式
+#### 查询参数
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
 ### 总结
-路由级别组件[^1]
+路由级别组件[^1] 
 	1. 传递属性：为避免三个路由属性被覆盖，需传入参数。 ![[Pasted image 20230529155319.png]] 
 	2. 传递查询参数【因为是路由级别】。
 
