@@ -10,8 +10,10 @@ export default function (){
 	<App />
 	</Provider>
 }
+// 创建、提供、reducer
 ```
 在需要使用 store 的组件中 
 ```js
-
+import { connect } from 'react-redux'
+import { addTodo } from '../actions'
 ```
