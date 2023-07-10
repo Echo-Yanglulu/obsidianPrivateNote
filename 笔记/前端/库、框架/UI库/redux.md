@@ -8,7 +8,7 @@
 	D -->|用户操作| A
 ```
 和 [[vuex]] 作用相同，但学习成本更高
-# 基本
+# 基础
 1. 单向数据流
 2. [[react-redux]]：react 应用连接 redux
 3. 异步 action
@@ -18,3 +18,4 @@ store
 state
 action
 reducer
+
