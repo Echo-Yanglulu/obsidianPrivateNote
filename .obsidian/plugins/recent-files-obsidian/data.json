@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "React与Vue的比较",
-      "path": "笔记/前端/库、框架/React与Vue的比较.md"
-    },
-    {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
+      "basename": "immutable.js",
+      "path": "笔记/前端/immutable.js.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "笔记/前端/工程化/构建/Promise.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
       "basename": "Array",
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
+      "basename": "this",
+      "path": "笔记/前端/编程语言/JS/this.md"
+    },
+    {
+      "basename": "React与Vue的比较",
+      "path": "笔记/前端/库、框架/React与Vue的比较.md"
     },
     {
       "basename": "Array.prototype",
@@ -31,14 +47,6 @@
     {
       "basename": "context",
       "path": "笔记/前端/库、框架/UI库/context.md"
-    },
-    {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "笔记/前端/工程化/构建/Promise.md"
     },
     {
       "basename": "布局",
@@ -191,14 +199,6 @@
     {
       "basename": "媒体类型",
       "path": "笔记/前端/编程语言/JS/媒体类型.md"
-    },
-    {
-      "basename": "location",
-      "path": "笔记/前端/编程语言/JS/location.md"
-    },
-    {
-      "basename": "window",
-      "path": "笔记/前端/编程语言/JS/window.md"
     }
   ],
   "omittedPaths": [
