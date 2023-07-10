@@ -2169,6 +2169,34 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "b22f7f396d653a6b",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":29},\"to\":{\"line\":8,\"ch\":29}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/CSS/定位.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
             "currentTab": 8
@@ -2534,12 +2562,14 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/编程语言/CSS/定位.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/工程化/中间件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -2560,8 +2590,6 @@
     "笔记/前端/编程语言/JS/DOM 3.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/Nginx反向代理.md",
-    "笔记/前端/编程语言/JS/CSRF.md",
-    "笔记/前端/同源策略.md",
     "笔记/前端/assets/Pasted image 20230709220719.png",
     "笔记/前端/assets/Pasted image 20230709215559.png",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
