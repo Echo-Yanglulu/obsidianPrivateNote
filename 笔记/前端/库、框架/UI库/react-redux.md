@@ -14,7 +14,9 @@ export default function (){
 ```
 在需要使用 store 的组件中 
 ```js
+// 注入dispatch的工具
 import { connect } from 'react-redux'
+// 需要触发的action
 import { addTodo } from '../actions'
 
 // 取出props中的dispatch
@@ -28,4 +30,5 @@ let AddTodo = ({ dispatch }) => {
 
 // 将dispatch方法注入组件
 AddTodo = connect()(AddTodo)
+export default AddTodo
 ```
