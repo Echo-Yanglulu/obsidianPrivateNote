@@ -10,11 +10,16 @@
 和 [[vuex]] 作用相同，但学习成本更高
 ## 组成
 ###  dispatch
-###  action：[[Object]] 
-###  reducer
+工具函数，传递 action 给 reducer
+###  action
 特性
-	1.  [[纯函数]] 把 action 与 state 联结
-1. 接收 state 与 action，返回 state
+	1. 一个 [[Object]] 
+	2. 带有 type，需要传递的 value 值
+###  reducer
+一个大型应用不只一个，可开发一个总的 reducer 管理所有 reducer
+特性
+	1.  [[纯函数]] 
+	2. 接收 state 与 action，返回 state
 ###  store
 
 ## 流程
