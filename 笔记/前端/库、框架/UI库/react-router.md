@@ -1,3 +1,7 @@
+# 概述
+## 路由模式
+hash 模式（默认）。如 http://abc.com/#user/10
+H5 [[History]] 模式。如 http://abc.com/user/20
 # 安装与导入
 [[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
 ## react-router库与react-router-dom的区别是什么？
