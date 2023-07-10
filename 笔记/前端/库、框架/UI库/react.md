@@ -69,11 +69,9 @@ List.propTypes = {
 方式
 	1. 组件为元素的数组。
 		1. map方法：每个元素需要key
-
 ## 表单
 
-## 生命周期
-
+## [[class组件#生命周期|生命周期]]   
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
@@ -101,6 +99,9 @@ List.propTypes = {
 	2. 场景：兼容性、父组件是 [[BFC]] 、父组件的 z-index
 4. [[context]] 
 5. [[性能优化]] 
+	1. SCU
+	2. React. memo, PureComponent
+	3. immutable. js：拥抱不可变值
 6. 逻辑复用：高阶组件、HOC
 ## 总结
 Fiber让应用更好地更新，concurrentMode让应用在体验上更好
