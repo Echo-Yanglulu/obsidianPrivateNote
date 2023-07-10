@@ -43,7 +43,8 @@ context的传递：在渲染过程中执行
 			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
 # 应用：适应周围环境的组件
 ## 场景
-### 主题
+这些场景，使用 props 太繁琐，使用 [[redux]] 又小题大做（没有那么复杂）
+### 主题、语言
 在需要根据主题调整外观的组件中使用context
 ### 路由
 大多数路由解决方案在其内部使用 context 来保存当前路由。这就是每个链接“知道”它是否处于活动状态的方式。如果你创建自己的路由库，你可能也会这么做。
