@@ -85,8 +85,15 @@ class Avatar extends Component {
 // 这是增加了一个层级吗
 function HocAvatar(Component) {
   return () => <Component name="云课堂" />;
+  // 或者
+  return <Component {...this.props} />
 }
 export default HocAvatar(Avatar);
+```
+案例
+```js
+// 获取鼠标位置
+
 ```
 
 ### renderProps
