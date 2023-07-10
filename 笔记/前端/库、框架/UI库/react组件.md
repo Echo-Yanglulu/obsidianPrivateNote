@@ -135,7 +135,7 @@ export default withMouse(APP)
 ### renderProps
 class组件内只封装了逻辑部分
 	1. 定义：内部接收并调用一个返回UI的函数，将内部逻辑添加到传入的UI上。
-	2. 复用：调用时（通过属性或内容）传入UI（一个返回UI的函数）。
+	2. 复用：调用时（通过属性或 children）传入一个返回 UI 的函数。
 问题
 	1. 如果嵌套内容复杂，就会使结构看起来很复杂。
 	2. props难以梳理
@@ -143,6 +143,7 @@ class组件内只封装了逻辑部分
 export default function App(){
 	return (
 		<div className="app">
+		// 在
 			<Avatar name="study">
 				{name => <User name={name} />}
 			</Avatar>
