@@ -9,6 +9,7 @@
 	D -->|用户操作| A
 ```
 带有中间件的数据流图 ![[Pasted image 20230710220731.png]]
+
 ## 组成
 ###  dispatch
 工具函数，将 action 传递给 reducer
