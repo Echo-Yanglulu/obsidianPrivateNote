@@ -12,13 +12,19 @@ UI框架：搭建数据驱动的web和移动端UI
 
 ref
 ## [[组件]] 
-1. 受控组件：组件值的保存与修改都使用state控制。
+1. 受控组件：由开发者通过绑定 onchange 事件，手动地管理*表单值的改变*，*表单值的获取*读取对应 state 即可
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
-2. 非受控组件
+2. 非受控组件: 由 react 管理元素的输入值的改变。不需要定义回调，但表单值的获取需要通过 ref 属性
 	1. ref
 	2. defaultValue/ defaultCechked
-	3. 手动操作DOM
+	3. 手动操作 DOM
+3. 使用
+		1. 优先使用受控组件，符合 [[react]] 设计原则
+		2. 必须操作 DOM 时，再使用非受控
+			1. 文件上传
+			2. 富文本编辑器
+			3. 手动操作 [[DOM]] 
 [[JSX]] 
 
 ## 属性
