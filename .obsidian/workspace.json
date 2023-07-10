@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/npm.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -2239,37 +2239,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "700fdecbd701f6ee",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "单例内置对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/npm.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 15
+            "currentTab": 14
           },
           {
             "id": "86193a5d16fa87de",
@@ -2296,7 +2268,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2324,7 +2296,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/npm.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2630,10 +2602,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "700fdecbd701f6ee",
+  "active": "ef8c805e44e454ee",
   "lastOpenFiles": [
-    "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/工程化/npm.md",
+    "笔记/前端/工程化/基本概念/CLI.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
