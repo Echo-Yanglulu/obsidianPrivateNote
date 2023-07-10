@@ -96,8 +96,6 @@ B 端应用可选择1，C 端应用可选择2
 	4. 管理员管理页
 	5. 业务内容页
 
-# 相关库
-react-router-config：避免了原有的“平铺式”写法，有利于后期维护
 # 总结
 基本的路由
 	1. 组成
@@ -106,8 +104,12 @@ react-router-config：避免了原有的“平铺式”写法，有利于后期�
 		2. 导航工具【动态】
 			1. Link, NavLink
 
-# 相关链接
-[Site Unreachable](https://react-router.docschina.org/web/example/basic) 
-[Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
 
 [^1]: 类似于条件渲染，只是条件是路由参数
+
+# 相关
+## 库
+react-router-config：避免了原有的“平铺式”写法，有利于后期维护
+## 链接
+[Site Unreachable](https://react-router.docschina.org/web/example/basic) 
+[Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
