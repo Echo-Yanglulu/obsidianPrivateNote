@@ -76,6 +76,7 @@ List.propTypes = {
 1. 父组件更新，子组件默认也更新
 	1. class 组件可使用 scu 或 pu。
 	2. [[函数组件]] 使用监听
+	3. 都可使用 React.memo
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
