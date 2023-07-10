@@ -44,7 +44,8 @@
 
   /** Miscellaneous **/
 
-  --checkbox-size: 14px;
+  --checkbox-size: calc(var(--font-text-size) - 2px);
+  --checkbox-radius: 25%;
 
   --list-indent: var(--list-indent-custom, 24px); /* Adjusted in Style Settings */
   --list-spacing: 0;
@@ -637,10 +638,12 @@ ol::before {
 input.task-list-item-checkbox:hover {
   border-color: var(--header-blue);
 }
-input.task-list-item-checkbox:checked
-{
-  box-shadow: inset 0 0 0 1px var(--background-primary);
+input.task-list-item-checkbox:checked {
+  box-shadow: inset 0 0 0 calc(0.0625 * var(--font-text-size)) var(--background-primary);
   transition: box-shadow 0s;
+}
+input.task-list-item-checkbox:checked::after {
+  -webkit-mask-size: calc(50% + 1px);
 }
 
 .checkbox-container {
@@ -1143,7 +1146,7 @@ settings:
 
 /* Improve style setting appearance */
 [data-type="style-settings"] .view-content > div:last-child,
-.vertical-tab-content > div:last-child {
+.vertical-tab-content > div:has(.style-settings-heading):last-child {
   padding-bottom: 400px;
 }
 [data-id="everforest-enchanted-theme"] + .style-settings-container .setting-item-heading {
@@ -1544,23 +1547,23 @@ img[src^="http"][alt~="blur"]:hover {
 }
 
 /* Alt text as caption under image */
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"])::after {
+body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"])::after {
   display: block;
   content: attr(alt);
   color: var(--text-muted);
   margin-inline: auto;
   text-align: center;
 }
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [width])::after {
+body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [width])::after {
   width: calc(var(--img-width, 100) / 100 * min(100%, var(--file-line-width)));
 }
-body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [width])::after {
+body:not(.no-image-alttext-caption) .markdown-reading-view .image-embed[src~="float"]:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [width])::after {
   width: calc(var(--img-width, 100) / 100 * var(--file-line-width));
 }
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [width])[src~="left"]::after {
+body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [width])[src~="left"]::after {
   margin-inline: 0 auto;
 }
-body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [width])[src~="right"]::after {
+body:not(.no-image-alttext-caption) .image-embed:not([alt*=".png"], [alt*=".gif"], [alt*=".jpg"], [alt*=".jpeg"], [alt*=".tiff"], [alt*=".avif"], [alt*=".webp"], [width])[src~="right"]::after {
   margin-inline: auto 0;
 }
 
