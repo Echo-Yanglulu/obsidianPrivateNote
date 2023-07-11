@@ -68,7 +68,7 @@
 	1. 在执行一个函数之前，初始化`isBatchingUpdates = true`
 	2. 执行函数
 	3. 设置 `isBatchingUpdates = false`
-	4. 所以，当异步的定时器执行时，同步代码已经将isBatchingUpdates赋值为false
+	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
 3. transaction（事务）机制
 # 组件渲染过程
 # Shadow DOM
