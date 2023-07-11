@@ -55,6 +55,7 @@
 本质就是它编译为什么
 # [[react合成事件]] 
 # setState 与 batchUpdate
+
 # 组件渲染过程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react合成事件.md"
+                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
                 }
               }
@@ -2008,23 +2008,23 @@
                 "id": "aeb9f10613144712",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "函数式编程",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/函数式编程.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":8},\"to\":{\"line\":8,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "编程范式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/编程范式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":10},\"to\":{\"line\":3,\"ch\":10}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react合成事件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react合成事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":29.91936891257694}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":55,\"ch\":16},\"to\":{\"line\":55,\"ch\":16}},\"scroll\":32.114736842105266}"
                     },
                     {
                       "title": "react",
@@ -2338,7 +2338,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2366,7 +2366,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2672,12 +2672,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f145ccb929d427a0",
+  "active": "aeb9f10613144712",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/事务机制.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
-    "笔记/前端/assets/Pasted image 20230711152133.png",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/工程化/微前端.md",
+    "笔记/前端/库、框架/UI库/事务机制.md",
+    "笔记/前端/assets/Pasted image 20230711152133.png",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
@@ -2704,7 +2705,6 @@
     "笔记/前端/assets/Pasted image 20230710205953.png",
     "笔记/前端/库、框架/UI库/react-redux.md",
     "笔记/前端/工程化/中间件.md",
-    "笔记/前端/库、框架/UI库/vuex.md",
     "笔记/前端/assets/Pasted image 20230710142407.png",
     "笔记/前端/assets/Pasted image 20230710091228.png",
     "笔记/前端/assets/Pasted image 20230709233103.png",
