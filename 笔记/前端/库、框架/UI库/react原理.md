@@ -79,8 +79,11 @@
 		1. 创建时注入初始化逻辑、结束前逻辑
 		2. 执行：初始化逻辑、函数、结束逻辑
 	2. 应用
-		1. batchUpdate的流程也符合
-# 组件渲染过程
+		1. batchUpdate的流程也是transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
+# 组件渲染和更新过程
+1. [[JSX]] 如何渲染为页面
+2. setState后如何更新页面
+3. 面试会考察全流程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
