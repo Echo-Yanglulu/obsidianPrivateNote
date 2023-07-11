@@ -135,6 +135,9 @@ Attr类型构造函数和原型在所有浏览器中都可以直接访问。技�
 	4. parentNode值为null；
 	5. 在HTML中不支持子节点；
 	6. 在XML中子节点可以是Text或EntityReference。
+
+属性节点尽管是节点，却不被认为是DOM文档树的一部分。Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法操作属性。
+Attr对象上有3个属性
 ## Text类型
 Text节点由Text类型表示，包含按字面解释的纯文本，也可能包含转义后的HTML字符，但不含HTML代码。
 特征
@@ -156,7 +159,7 @@ Text节点由Text类型表示，包含按字面解释的纯文本，也可能包
 ## DocumentFragment类型
 
 # DOM编程
-
+很多时候，操作DOM是很*直观*的。通过HTML代码能实现的，也一样能通过JavaScript实现。但有时候，DOM也*没有看起来那么简单*。浏览器能力的参差不齐和各种问题，也会导致DOM的某些方面会复杂一些。
 ## 动态脚本
 
 ## 动态样式
@@ -170,20 +173,19 @@ Text节点由Text类型表示，包含按字面解释的纯文本，也可能包
 功能：可以有效精准地**监控DOM变化**，而且API也相对简单
 
 ## 基本用法
-### observe ()方法
-### 回调与MutationRecord
-### disconnect ()方法
-### 复用MutationObserver
-### 重用MutationObserver
+observe ()方法
+回调与MutationRecord
+disconnect ()方法
+复用MutationObserver
+重用MutationObserver
 ## MutationObserverInit与观察范围
-### 观察属性
-### 观察字符数据
-### 观察子节点
-### 观察子树
+观察属性
+观察字符数据
+观察子节点
+观察子树
 ## 异步回调与记录队列
 记录队列
 takeRecords ()方法
-
 ## 性能、内存与垃圾回收
 MutationObserver的引用
 MutationRecord的引用
