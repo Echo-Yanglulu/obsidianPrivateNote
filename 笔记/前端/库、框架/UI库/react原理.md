@@ -43,6 +43,7 @@
 频繁操作dom会引起页面重绘
 # [[JSX]] 本质
 # [[react合成事件]] 
+# setState 与 batchUpdate
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
