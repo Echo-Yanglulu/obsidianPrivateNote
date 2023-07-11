@@ -64,7 +64,8 @@
 ##  原理
 1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
-		1. 将组件保存在dirtyComponent
+		1. 将状态改变的组件保存在dirtyComponents中
+		2. 对其中的组件进行更新与渲染
 	2. 哪些能命中bU机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
 			1. 生命周期
 			2. react中注册的事件处理函数
@@ -85,8 +86,15 @@
 1. [[JSX]] 如何渲染为页面
 	1. 执行生成vnode
 	2. patch（elem, vnode）和patch（vnode, newVnode）
-2. setState后如何更新页面
-3. 面试会考察全流程
+2. 组件渲染过程
+	1. *接收*props, state
+	2. render*生成vnode* 
+	3. patch (elem, vnode)
+3. 组件更新过程
+	1. setState (newState)
+	2. 
+4. setState后如何更新页面。更新的两个阶段
+5. 面试会考察全流程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
