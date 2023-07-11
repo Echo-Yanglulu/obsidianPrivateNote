@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/JSX.md"
+                    "file": "笔记/前端/库、框架/UI库/react合成事件.md"
                   }
                 }
               }
@@ -2338,7 +2338,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/JSX.md",
+                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2366,7 +2366,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/JSX.md",
+                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2672,9 +2672,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bb47cb8172265ca9",
+  "active": "f145ccb929d427a0",
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -2688,7 +2689,6 @@
     "Day Planners/2023-07-11.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/编程语言/JS/react合成事件.md",
-    "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/context.md",

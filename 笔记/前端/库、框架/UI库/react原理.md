@@ -52,6 +52,7 @@
 表面上看起来好像v-dom更新dom的过程多了几步。
 频繁操作dom会引起页面重绘
 # [[JSX]] 本质
+本质就是它编译为什么
 # [[react合成事件]] 
 # setState 与 batchUpdate
 # 组件渲染过程
