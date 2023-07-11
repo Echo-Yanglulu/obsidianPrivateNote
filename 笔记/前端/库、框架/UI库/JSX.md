@@ -9,5 +9,5 @@ JavaScript [[XML]] ，通过[[babel]] 转换为JS的函数调用表达式，返�
 # 原理
 编译为 React. createElement ()的调用。
 	1. [[String]] ：标签名
-	2. null 或对象：属性
-	3. \[子元素]或
+	2. null 或[[Object]] ：属性对象
+	3. \[子元素]或子元素列表
