@@ -64,9 +64,11 @@
 ##  原理
 1. setState主流程![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
-2. batchUpdate机制
-	1. 在执行一个函数之前，定义isBatchingUpdates = true
-	2. 为什么异步处理batchUpdate机制，同步不处于？
+2. batchUpdate机制![[Pasted image 20230711155421.png]] 
+	1. 在执行一个函数之前，初始化`isBatchingUpdates = true`
+	2. 执行函数
+	3. 设置 `isBatchingUpdates = false`
+	4. 所以，当异步的定时器执行时，同步代码已经将isBatchingUpdates赋值为false
 3. transaction（事务）机制
 # 组件渲染过程
 # Shadow DOM
