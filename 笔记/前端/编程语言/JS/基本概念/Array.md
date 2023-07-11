@@ -107,7 +107,7 @@ at
 indexOf
 
 ### 问题
-1. 哪些会修改原数组？7个
+1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop, shift, unshift，splice，sort，reverse，
 2. 哪些是[[纯函数]]？
 

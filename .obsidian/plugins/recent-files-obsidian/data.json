@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "React与Vue的比较",
-      "path": "笔记/前端/库、框架/React与Vue的比较.md"
-    },
-    {
       "basename": "react原理",
       "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
       "basename": "函数式编程",
       "path": "笔记/前端/编程语言/JS/函数式编程.md"
+    },
+    {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
+      "basename": "this",
+      "path": "笔记/前端/编程语言/JS/this.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "React与Vue的比较",
+      "path": "笔记/前端/库、框架/React与Vue的比较.md"
     },
     {
       "basename": "编程范式",
@@ -27,22 +47,6 @@
     {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
-      "basename": "this",
-      "path": "笔记/前端/编程语言/JS/this.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
-    },
-    {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "redux",
@@ -195,10 +199,6 @@
     {
       "basename": "2023-07-09",
       "path": "Day Planners/2023-07-09.md"
-    },
-    {
-      "basename": "react合成事件",
-      "path": "笔记/前端/库、框架/UI库/react合成事件.md"
     }
   ],
   "omittedPaths": [

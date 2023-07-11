@@ -15,10 +15,14 @@
 	1. 抽象性【它对UI的抽象。使跨平台使用成为可能，一处学习，随处使用】
 		1. V-dom提供了对HTML DOM的抽象，所以在web开发中通常不用调用[[DOM]] api
 		2. 也是因为它提供了DOM的抽象，也可用于开发Native
-3. 过程
+3. 重点
+	1. h 函数
+	2. vnode 数据结构
+	3. pathc 函数
+4. 过程
 	1. 在web开发中，v-dom如何渲染为html元素。
 		1. 在class组件中可看到，react通过render方法生成v-dom，从而绘制出真实的dom
-4. 如何进行diff
+5. 如何进行diff
 	1. 过程
 		1. 修改state，调用render方法调用产生一个v-dom
 		2. 通过对比新旧v-dom确定需要更新的内容
