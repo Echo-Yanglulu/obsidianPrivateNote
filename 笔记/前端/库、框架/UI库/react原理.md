@@ -89,10 +89,14 @@
 2. 组件渲染过程
 	1. *接收*props, state
 	2. render*生成vnode* 
-	3. patch (elem, vnode)
+	3. *更新*：patch (elem, vnode)
 3. 组件更新过程
-	1. setState (newState)
-	2. 
+	1. setState (newState)，生成dirtyCompoentns（可能有子组件）
+	2. 接收新props, state
+	3. render生成newVnode
+	4. 更新：patch (vnode, newVnode)【可分为两个阶段】
+		1. 协调阶段 - 执行diff算法，纯JS计算
+		2. commit阶段 - 将diff结果渲染为DOM
 4. setState后如何更新页面。更新的两个阶段
 5. 面试会考察全流程
 # Shadow DOM
