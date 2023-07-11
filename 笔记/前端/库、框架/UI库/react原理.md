@@ -62,7 +62,8 @@
 2. 合并
 	1. 传入对象时合并，传入函数时不合并。
 ##  原理
-1. setState主流程
+1. setState主流程![[Pasted image 20230711154720.png]] 
+	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
 2. batchUpdate机制
 3. transaction（事务）机制
 # 组件渲染过程
