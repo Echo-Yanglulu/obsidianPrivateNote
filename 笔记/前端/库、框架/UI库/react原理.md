@@ -74,7 +74,10 @@
 	2. 执行函数
 	3. 设置 `isBatchingUpdates = false`
 	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
-3. transaction（事务）机制
+3. transaction事务机制 ![[Pasted image 20230711161656.png]] 
+	1. 过程
+		1. 创建时注入初始化逻辑、结束前逻辑
+	2. 执行：初始化逻辑、函数、结束逻辑
 # 组件渲染过程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
