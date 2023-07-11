@@ -62,10 +62,10 @@
 2. 合并
 	1. 传入对象时合并，传入函数时不合并。
 ##  原理
-1. setState主流程![[Pasted image 20230711154720.png]] 
+1. setState主流程。核心：是否处于 ![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
-2. batchUpdate机制![[Pasted image 20230711155421.png]] 
-	1. 在执行一个函数之前，初始化`isBatchingUpdates = true`
+2. batchUpdate机制。核心：isBatchingUpdates![[Pasted image 20230711155421.png]] 
+	1. 在执行一个事件处理函数之前，初始化 `isBatchingUpdates = true`
 	2. 执行函数
 	3. 设置 `isBatchingUpdates = false`
 	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
