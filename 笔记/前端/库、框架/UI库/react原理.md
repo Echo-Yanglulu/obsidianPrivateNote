@@ -64,6 +64,7 @@
 ##  原理
 1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
+		1. 将组件保存在dirtyComponent
 	2. 哪些能命中bU机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
 			1. 生命周期
 			2. react中注册的事件处理函数
@@ -82,6 +83,8 @@
 		1. batchUpdate的流程也是transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
 # 组件渲染和更新过程
 1. [[JSX]] 如何渲染为页面
+	1. 执行生成vnode
+	2. patch（elem, vnode）和patch（vnode, newVnode）
 2. setState后如何更新页面
 3. 面试会考察全流程
 # Shadow DOM
