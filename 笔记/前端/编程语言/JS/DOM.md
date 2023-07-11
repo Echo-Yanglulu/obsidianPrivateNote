@@ -117,10 +117,36 @@ DOM兼容性检测
 	3. nodeValue值为null；
 	4. parentNode值为Document或Element对象；
 	5. 子节点可以是Element、Text、Comment、ProcessingInstruction、CDATASection、EntityReference类型。
+
+HTML元素
+取得属性
+设置属性
+attributes 属性
+创建元素
+元素后代
+
 ## Attr类型
-
+元素数据在DOM中通过Attr类型表示
+Attr类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，属性是存在于元素attributes属性中的节点
+特征
+	1. nodeType等于2；
+	2. nodeName值为属性名；
+	3. nodeValue值为属性值；
+	4. parentNode值为null；
+	5. 在HTML中不支持子节点；
+	6. 在XML中子节点可以是Text或EntityReference。
 ## Text类型
+Text节点由Text类型表示，包含按字面解释的纯文本，也可能包含转义后的HTML字符，但不含HTML代码。
+特征
+	1. nodeType等于3；
+	2. nodeName值为" #text "；
+	3. nodeValue值为节点中包含的文本；
+	4. parentNode值为Element对象；
+	5. 不支持子节点。
 
+创建
+规范化
+拆分
 ## Comment类型
 
 ## CDATASection类型
