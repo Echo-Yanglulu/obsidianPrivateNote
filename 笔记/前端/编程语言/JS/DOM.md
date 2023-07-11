@@ -94,9 +94,29 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ### 操纵节点
 ### 其他方法
 ## Document类型
+意义：JavaScript中表示文档节点的类型。浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。document是window对象的属性，因此是一个全局对象。
+特征
+	1. nodeType等于9；
+	2. nodeName值为" #document "；
+	3. nodeValue值为null；
+	4. parentNode值为null；
+	5. ownerDocument值为null；
+	6. 子节点可以是DocumentType（最多一个）、Element（最多一个）、ProcessingInstruction或Comment类型。
+应用：可以表示HTML页面或其他XML文档，但最常用的还是通过HTMLDocument的实例取得document对象。document对象可用于获取关于页面的信息以及操纵其外观和底层结构。
 文档子节点
+文档信息
+定位元素
+特殊集合
+DOM兼容性检测
 ## Element类型
-
+背景：除了Document类型，Web开发中最常用的类型。
+功能：Element表示XML或HTML元素，对外暴露出访问元素标签名、子节点和属性的能力
+特征
+	1. nodeType等于1；
+	2. nodeName值为元素的标签名；
+	3. nodeValue值为null；
+	4. parentNode值为Document或Element对象；
+	5. 子节点可以是Element、Text、Comment、ProcessingInstruction、CDATASection、EntityReference类型。
 ## Attr类型
 
 ## Text类型
