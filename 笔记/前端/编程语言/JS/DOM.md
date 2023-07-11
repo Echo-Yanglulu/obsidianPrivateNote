@@ -1,9 +1,9 @@
 # 概述
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
-定义：是[[HTML]]与[[XML]]文档的**编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。【生成对文档的结构化的表示，然后提供方式对该表示进行访问】
+定义：DOM是 [[HTML]] 与 [[XML]] 文档的**编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。
 功能
 	1. 表示由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分
-	3. DOM Level 1：提供了基本文档结构和查询的接口
+	3. DOM Level 1：提供了基本*文档结构*和*查询*的接口
 意义
 	1. DOM与浏览器中的HTML网页相关，并且在JavaScript中提供了DOM API
 	2. DOM现在是真正*跨平台*、*语言无关*的表示和操作网页的方式
@@ -63,8 +63,8 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 ## Node类型
 背景：DOM Level 1描述了名为`Node`的接口
 	1. 所有DOM节点类型都必须实现
-	2. 在JavaScript中被实现为Node类型，在除IE之外的所有浏览器中都可以直接访问这个类型
-	3. JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
+	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
+	3. 子类：JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
 ### nodeType
 每个节点都有nodeType属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
 - Node.ELEMENT_NODE（1）
