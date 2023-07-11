@@ -14,16 +14,19 @@
 			1. event.nativeEvent.target：触发事件的元素
 			2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
 	2. 事件绑定
-		1. react17之前，事件绑定**document 元素** 
-		2. react 17之后，事件绑定在**root 组件** 
-			1. docuemnt 只有一个，root 组件可有多个。
+		1. react17之前，原生事件绑定**document 元素** 
+		2. react 17之后，原生事件绑定在**root 组件** 
+			1. document 只有一个，root 组件可有多个。
 			2. 有利于多个 react 版本共存，如[[微前端]]。
 	3. 与 [[vue]] 事件不同，与 DOM事件也不同
 	4. 兼容性
 
 ## 绑定
 ![[Pasted image 20230708221039.png]]
-
+## 机制
+### 17之前
+![[Pasted image 20230711152133.png]] 
+react节点统一绑定在document上，冒泡到该元素之后，
 # 传参
 1. 传递事件对象：处理函数**最后添加event**，即可传递合成的事件对象。
 
