@@ -64,7 +64,7 @@
 2. 原理
 	1. setState主流程
 	2. batchUpdate机制
-	3. transa
+	3. transaction（事务）机制
 # 组件渲染过程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
