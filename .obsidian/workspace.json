@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -2315,9 +2315,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "71f0afcd5d0019d3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 16
           },
           {
             "id": "86193a5d16fa87de",
@@ -2344,7 +2366,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2372,7 +2394,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2678,10 +2700,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "71f0afcd5d0019d3",
   "lastOpenFiles": [
-    "笔记/前端/vue性能优化.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/vue性能优化.md",
     "笔记/前端/MVVM.md",
     "笔记/前端/库、框架/库、框架.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
@@ -2711,7 +2734,6 @@
     "笔记/前端/编程语言/JS/函数式编程.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/assets/Pasted image 20230710220731.png",
     "笔记/前端/assets/Pasted image 20230710222914.png",
     "笔记/前端/assets/Pasted image 20230710222733.png",
