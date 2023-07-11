@@ -1,0 +1,3 @@
+渲染过程中，同时touch data，触发Data中的getter，收集为watcher的依赖
+
+更新过程中，修改data会触发setter，setter会notify watcher

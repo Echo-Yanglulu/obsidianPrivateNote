@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/React与Vue的比较.md"
+                    "file": "笔记/前端/库、框架/UI库/vue原理.md"
                   }
                 }
               }
@@ -2338,7 +2338,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/库、框架/UI库/vue原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2366,7 +2366,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/库、框架/UI库/vue原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2672,10 +2672,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f70034eb483876c",
+  "active": "b63a4568d91f43c5",
   "lastOpenFiles": [
-    "笔记/前端/assets/vue组件的渲染与更新过程.png",
+    "笔记/前端/库、框架/UI库/vue.md",
+    "笔记/前端/库、框架/UI库/vue原理.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/assets/Pasted image 20230711161656.png",
@@ -2707,7 +2709,6 @@
     "笔记/前端/assets/Pasted image 20230710222733.png",
     "笔记/前端/工程化/History.md",
     "笔记/前端/assets/Pasted image 20230710205953.png",
-    "笔记/前端/库、框架/UI库/react-redux.md",
     "笔记/前端/assets/Pasted image 20230710142407.png",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
