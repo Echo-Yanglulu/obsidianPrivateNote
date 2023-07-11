@@ -100,7 +100,7 @@ List.propTypes = {
 	1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
 	2. Suspense
 3. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
-	1. 事件流的机制不会改变
+	1. 组件的事件流不会改变
 	2. 场景：兼容性、父组件是 [[BFC]] 、父组件的 z-index
 4. [[context]] 
 5. [[性能优化]] 
