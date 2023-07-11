@@ -7,8 +7,9 @@
 本质：是个构造函数，不是原生的事件对象。
 特性
 	1. 事件对象
-		1. 不是原生的，是合成的，但实现了 DOM 事件的所有能力
-				1. event.currentTarget 并不指向绑定元素
+		1. 是合成的，但实现了 DOM 事件的所有能力
+				1. 阻止冒泡、阻止默认行为 
+				2. 除了event.currentTarget 并不指向绑定元素
 		2. 原生事件对象：event.nativeEvent
 			1. event.nativeEvent.target：触发事件的元素
 			2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
