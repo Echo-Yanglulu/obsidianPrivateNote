@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/React与Vue的比较.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -2015,6 +2015,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":95,\"ch\":20},\"to\":{\"line\":95,\"ch\":20}},\"scroll\":78.18341085271318}"
+                    },
+                    {
                       "title": "react合成事件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react合成事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -2043,7 +2049,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2311,7 +2317,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -2338,7 +2344,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2366,7 +2372,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2672,12 +2678,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f70034eb483876c",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/懒加载.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
-    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/库、框架/UI库/JSX.md",
@@ -2701,12 +2709,10 @@
     "笔记/前端/编程语言/JS/编程范式.md",
     "Day Planners/2023-07-11.md",
     "笔记/前端/编程语言/JS/react合成事件.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/assets/Pasted image 20230710220731.png",
     "笔记/前端/库、框架/UI库/HOC.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/assets/Pasted image 20230710222914.png",
     "笔记/前端/assets/Pasted image 20230710222733.png",
     "笔记/前端/assets/Pasted image 20230710205953.png",

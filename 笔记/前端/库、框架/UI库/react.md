@@ -13,7 +13,7 @@ UI框架：搭建数据驱动的web和移动端UI
 
 ref
 ## [[组件]] 
-1. 受控组件：由开发者通过绑定 onchange 事件，手动地管理*表单值的改变*，*表单值的获取*读取对应 state 即可
+1. 受控组件：由开发者通过state和 onchange 事件，手动地管理*表单值*的获取与更新
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件: 由 react 管理元素的输入值的改变。不需要定义回调，但表单值的获取需要通过 ref 属性
