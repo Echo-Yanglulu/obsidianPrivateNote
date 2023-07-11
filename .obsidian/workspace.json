@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md"
+                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
                 }
               }
@@ -2013,13 +2013,25 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":114,\"ch\":12},\"to\":{\"line\":114,\"ch\":12}},\"scroll\":91.67368421052632}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":10},\"to\":{\"line\":8,\"ch\":10}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md",
+                    "file": "笔记/前端/库、框架/UI库/react原理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2292,7 +2304,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -2320,7 +2332,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react组件.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2628,11 +2640,16 @@
   },
   "active": "aeb9f10613144712",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react合成事件.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/编程语言/JS/react合成事件.md",
+    "笔记/前端/库、框架/UI库/JSX.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/context.md",
     "Day Planners/2023-07-11.md",
@@ -2640,7 +2657,6 @@
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/assets/Pasted image 20230710220731.png",
     "笔记/前端/库、框架/UI库/HOC.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/assets/Pasted image 20230710222914.png",
     "笔记/前端/assets/Pasted image 20230710222733.png",
@@ -2655,10 +2671,6 @@
     "笔记/前端/immutable.js.md",
     "笔记/前端/assets/Pasted image 20230710142407.png",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.prototype.md",
-    "笔记/前端/编程语言/CSS/定位.md",
-    "笔记/前端/库、框架/UI库/class组件.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230710091228.png",
     "笔记/前端/assets/Pasted image 20230709233103.png",
     "笔记/前端/assets/Pasted image 20230709220719.png",

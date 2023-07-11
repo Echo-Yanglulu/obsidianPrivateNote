@@ -5,7 +5,8 @@
 2. 嵌套循环。react-dom在渲染html节点时采用这种方式。
 	1. 为何使用这种方式？因为html的dom结构本身就是一种嵌套。
 
-看vscode
+看 vscode
+# [[函数式编程]] 
 # virtual dom
 1. v-dom是什么
 	1. 官方定义：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将该映射同步渲染为真实DOM。
@@ -40,7 +41,8 @@
 
 表面上看起来好像v-dom更新dom的过程多了几步。
 频繁操作dom会引起页面重绘
-
+# [[JSX]] 本质
+# [[react合成事件]] 
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
