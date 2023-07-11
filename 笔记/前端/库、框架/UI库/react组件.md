@@ -6,6 +6,8 @@
 	1. [[JSX]] 
 	2. React.createElement()
 # 原理
+关注重点，而不是细节
+*使用相关*的原理，如 v-dom, jsx, setState
 ## 组件批处理
 # 属性
 透传props：<div {...props} ><\/div>
