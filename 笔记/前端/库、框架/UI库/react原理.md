@@ -62,8 +62,12 @@
 2. 合并
 	1. 传入对象时合并，传入函数时不合并。
 ##  原理
-1. setState主流程。核心：是否处于 ![[Pasted image 20230711154720.png]] 
+1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
+	2. 哪些能命中bU机制？
+		1. 生命周期
+		2. react中注册的事件处理函数
+		3. react可以“管理”的入口
 2. batchUpdate机制。核心：isBatchingUpdates![[Pasted image 20230711155421.png]] 
 	1. 在执行一个事件处理函数之前，初始化 `isBatchingUpdates = true`
 	2. 执行函数
