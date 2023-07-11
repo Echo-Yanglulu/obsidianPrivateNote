@@ -44,8 +44,7 @@ componentWillUnmount
 	1. 清除一些订阅、真实DOM事件、定时器
 
 # 父子组件生命周期执行顺序
-父子组件初始化
-
+## 父子组件初始化
 父组件 constructor
 父组件 getDerivedStateFromProps
 父组件 render
@@ -55,16 +54,13 @@ componentWillUnmount
 子组件 componentDidMount
 父组件 componentDidMount
 
-子组件修改自身state
-
+## 子组件修改自身state
 子组件 getDerivedStateFromProps
 子组件 shouldComponentUpdate
 子组件 render
 子组件 getSnapShotBeforeUpdate
 子组件 componentDidUpdate
-
-父组件修改props
-
+## 父组件修改props
 父组件 getDerivedStateFromProps
 父组件 shouldComponentUpdate
 父组件 render
@@ -75,17 +71,12 @@ componentWillUnmount
 父组件 getSnapShotBeforeUpdate
 子组件 componentDidUpdate
 父组件 componentDidUpdate
-
-卸载子组件
-
+## 卸载子组件
 父组件 getDerivedStateFromProps
 父组件 shouldComponentUpdate
 父组件 render
 父组件 getSnapShotBeforeUpdate
 子组件 componentWillUnmount
 父组件 componentDidUpdate
-
-作者：Dax 1
-链接： https://juejin.cn/post/7138999568166830088
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# 相关
+[详解react生命周期和在父子组件中的执行顺序 - 掘金](https://juejin.cn/post/7138999568166830088#heading-16) 
