@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "React与Vue的比较",
+      "path": "笔记/前端/库、框架/React与Vue的比较.md"
+    },
+    {
+      "basename": "vue组件的渲染与更新过程",
+      "path": "笔记/前端/assets/vue组件的渲染与更新过程.png"
+    },
+    {
       "basename": "react原理",
       "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "react组件",
       "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "React与Vue的比较",
-      "path": "笔记/前端/库、框架/React与Vue的比较.md"
     },
     {
       "basename": "编程范式",
@@ -195,10 +199,6 @@
     {
       "basename": "CSS属性",
       "path": "笔记/前端/编程语言/CSS/CSS属性.md"
-    },
-    {
-      "basename": "class组件",
-      "path": "笔记/前端/库、框架/UI库/class组件.md"
     }
   ],
   "omittedPaths": [
