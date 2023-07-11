@@ -45,7 +45,7 @@ DOM对象是[[宿主对象]]。
   </body>
 </html>
 ```
-表示为层级结构，则为![[Pasted image 20230709233103.png]]
+用DOM，表示为一个由节点表示为层级结构，则为 ![[Pasted image 20230709233103.png]]
 > 文档根节点>子节点（文档元素）
 > document节点>在html中是html元素，在xml中不定
 
@@ -65,6 +65,7 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 	1. 必要：所有DOM节点类型都必须实现
 	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
 	3. 子类：JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
+分类：文档、元素、属性、文本、2 C、2 D
 ### nodeType
 每个节点都有nodeType属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
 - Node.ELEMENT_NODE（1）
@@ -96,6 +97,8 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 
 ## Element类型
 
+## Attr类型
+
 ## Text类型
 
 ## Comment类型
@@ -105,8 +108,6 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ## DocumentType类型
 
 ## DocumentFragment类型
-
-## Attr类型
 
 # DOM编程
 
