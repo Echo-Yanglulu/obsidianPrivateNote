@@ -164,7 +164,9 @@ class ErrorBoundary extends React.Component {
 		2. 流程
 			1. 
 5. [[路由]]管理工具：[[react-router]] 
-6. React的补充框架：[[Flux]] 
+6. React 的补充框架：[[Flux]] 
+7. 对比
+	1. [[React与Vue的比较]] 
 
 [^1]: 使用react这个UI框架作为项目UI的生成工具的应用。
 [^2]: 快速生成项目所需UI。一般不会让用JSX一点一点地创建组件。
