@@ -7,7 +7,7 @@
 
 看 vscode
 # [[函数式编程]] 
-# virtual dom
+# virtual dom 与 diff
 1. v-dom是什么
 	1. 官方定义：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将该映射同步渲染为真实DOM。
 	2. 基于浏览器API，由第三方库实现
@@ -44,6 +44,7 @@
 # [[JSX]] 本质
 # [[react合成事件]] 
 # setState 与 batchUpdate
+# 组件渲染过程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
