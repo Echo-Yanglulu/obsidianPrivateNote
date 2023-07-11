@@ -64,10 +64,11 @@
 ##  原理
 1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
 	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
-	2. 哪些能命中bU机制？
-		1. 生命周期
-		2. react中注册的事件处理函数
-		3. react可以“管理”的入口
+	2. 哪些能命中bU机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
+			1. 生命周期
+			2. react中注册的事件处理函数
+	3. 哪些不能命中bU机制？react管理不到的入口
+		1. 定时器，自定义的DOM事件
 2. batchUpdate机制。核心：isBatchingUpdates![[Pasted image 20230711155421.png]] 
 	1. 在执行一个事件处理函数之前，初始化 `isBatchingUpdates = true`
 	2. 执行函数
