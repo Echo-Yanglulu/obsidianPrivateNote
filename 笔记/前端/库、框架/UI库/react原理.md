@@ -55,7 +55,16 @@
 本质就是它编译为什么
 # [[react合成事件]] 
 # setState 与 batchUpdate
-
+1. 现象
+	1. 同步
+		1. 17之前，有时同步，有时异步
+		2. 17之后，定时器与DOM事件中也是同步[^4]
+	2. 合并
+		1. 传入对象时合并，传入函数时不合并。
+2. 原理
+	1. setState主流程
+	2. batchUpdate机制
+	3. transa
 # 组件渲染过程
 # Shadow DOM
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
@@ -109,3 +118,4 @@ react也使用了这种方式进行任务间的切换。 ![[Pasted image 2023053
 [^1]: 如setState
 [^2]: class组件是render，函数组件是return
 [^3]: 此阶段用户可感知到
+[^4]: 组件的事件不是同步的，是原生的DOM事件
