@@ -103,7 +103,7 @@
 定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
 
 # 协调
-定义：将[[react原理#virtual dom|virtual dom]]同步渲染为真实[[DOM]]的过程。是react中最重要、最核心的部分。
+定义：在更新过程中，将 [[react原理#virtual dom|virtual dom]] 同步渲染为真实 [[DOM]] 的过程。是react中最重要、最核心的部分。
 有两种协调方式
 背景：组件足够复杂时，更新时的计算、渲染的压力都比较大。如果同时再有DOM操作需要（动画，鼠标拖拽），可能卡顿
 解决方案
