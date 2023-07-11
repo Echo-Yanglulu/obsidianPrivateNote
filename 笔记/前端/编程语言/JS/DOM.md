@@ -94,7 +94,7 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ### 操纵节点
 ### 其他方法
 ## Document类型
-
+文档子节点
 ## Element类型
 
 ## Attr类型
@@ -121,12 +121,26 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 
 # MutationObserver接口
 背景：为代替性能不好的MutationEvent而问世，
-功能：可以有效精准地监控DOM变化，而且API也相对简单
+功能：可以有效精准地**监控DOM变化**，而且API也相对简单
 
 ## 基本用法
+### observe ()方法
+### 回调与MutationRecord
+### disconnect ()方法
+### 复用MutationObserver
+### 重用MutationObserver
 ## MutationObserverInit与观察范围
+### 观察属性
+### 观察字符数据
+### 观察子节点
+### 观察子树
 ## 异步回调与记录队列
+记录队列
+takeRecords ()方法
+
 ## 性能、内存与垃圾回收
+MutationObserver的引用
+MutationRecord的引用
 # 基本概念
 节点
 # 属性
