@@ -6,16 +6,19 @@
 3. 传递自定义参数
 本质：是个构造函数，不是原生的事件对象。
 特性
-	1. 合成事件对象，但实现了DOM事件的所有能力
-		2. event.currentTarget并不指向绑定元素
-	2. 原生事件对象：event.nativeEvent
-		1. event.nativeEvent.target：触发事件的元素
-		2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
-			1. react17之前，原生事件绑定**document元素** 
-			2. react17之后，事件绑定在**root组件** 
-				1. docuemnt只有一个，root组件可有多个。
-				2. 有利于多个react版本共存，如[[微前端]]。
-	3. 兼容性
+	1. 事件对象
+		1. 不是原生的，是合成的，但实现了 DOM 事件的所有能力
+				1. event.currentTarget 并不指向绑定元素
+		2. 原生事件对象：event.nativeEvent
+			1. event.nativeEvent.target：触发事件的元素
+			2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
+	2. 事件绑定
+		1. react17之前，事件绑定**document 元素** 
+		2. react 17之后，事件绑定在**root 组件** 
+			1. docuemnt 只有一个，root 组件可有多个。
+			2. 有利于多个 react 版本共存，如[[微前端]]。
+	3. 与 [[vue]] 事件不同，与 DOM 事件也不同
+	4. 兼容性
 
 ## 绑定
 ![[Pasted image 20230708221039.png]]
