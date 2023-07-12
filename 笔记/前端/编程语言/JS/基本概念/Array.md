@@ -124,6 +124,14 @@ const res = arr.filter((item, index) => {
   return index === arr.indexOf(item);
 });
 
+// 3. forEach
+const a = []
+arr.forEach(function(item, index) {
+  if(!a.includes(item)){
+    a.push(item)
+  }
+})
+
 ```
 
 
