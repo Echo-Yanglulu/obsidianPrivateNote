@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/前端/编程语言/JS/DOM扩展.md"
                   }
                 }
               }
@@ -217,6 +217,50 @@
                 }
               },
               {
+                "id": "9e24fbaa290999fc",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM扩展.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8604c73fee7f6d1f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "af76d0c9fdf15dfb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -239,7 +283,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 7
           },
           {
             "id": "86193a5d16fa87de",
@@ -266,7 +310,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/DOM扩展.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -294,7 +338,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/DOM扩展.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -599,10 +643,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "71f0afcd5d0019d3",
+  "active": "9e24fbaa290999fc",
   "lastOpenFiles": [
-    "Day Planners/2023-07-12.md",
+    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/DOM扩展.md",
+    "Day Planners/2023-07-12.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
     "笔记/前端/工程化/构建/Promise.md",
@@ -631,8 +677,6 @@
     "笔记/工具/通用概念/自恋.md",
     "笔记/工具/时间管理.md",
     "笔记/学习/错误.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/学习/超级学习.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/Pasted image 20230711180808.png",
     "笔记/前端/assets/Pasted image 20230711161656.png",
