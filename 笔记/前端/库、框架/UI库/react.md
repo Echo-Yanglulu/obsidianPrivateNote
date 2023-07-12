@@ -112,6 +112,7 @@ List.propTypes = {
 	2. React. memo, PureComponent
 	3. immutable. js：拥抱不可变值
 6. 逻辑复用：高阶组件、HOC
+7. componentDidCatch
 ## 总结
 Fiber让应用更好地更新，concurrentMode让应用在体验上更好
 # 原理

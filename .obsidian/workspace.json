@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/class组件.md"
                   }
                 }
               }
@@ -1673,13 +1673,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":3.2437}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1860,7 +1866,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/class组件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1888,7 +1894,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/class组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2194,10 +2200,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "81a0edf90b757d48",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -2215,13 +2225,9 @@
     "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "Day Planners/2023-07-12.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
-    "笔记/前端/编程语言/JS/DOM扩展.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/前端/vue性能优化.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/Pasted image 20230711180808.png",
     "笔记/前端/assets/Pasted image 20230711161656.png",

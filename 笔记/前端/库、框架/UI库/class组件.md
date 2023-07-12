@@ -42,7 +42,8 @@
 ## 卸载阶段
 componentWillUnmount
 	1. 清除一些订阅、真实DOM事件、定时器
-
+## 始终存在
+componentDidCatch (error, info)
 # 父子组件生命周期执行顺序
 ## 父子组件初始化
 父组件 constructor
