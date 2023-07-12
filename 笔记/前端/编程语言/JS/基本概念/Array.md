@@ -42,7 +42,7 @@ new Array()
 ## 静态方法
 Array.from
 Array.of
-Array.isArray
+Array.isArray()：传递的值是否是一个 [[Array]] 
 ## 实例方法
 ### 遍历
 some：是否某个符合条件
@@ -92,20 +92,26 @@ reduceRight
 	1. 如果是数组，先打平再推入
 	2. 如果是其它值，直接推入
 ### 修改
-flat
-flatMap
-sort。升序return a-b
-reverse
-entries
-values
+1. flat：根据深度，把元素拼接到新数组
+2. flatMap
+	1. 等价于先map，再flat(1)。但更高效
+	2. 场景：map时需要返回数组。
+3. sort。升序return a-b
+4. reverse
+5. entries：返回一个新的数组[[迭代器]]对象，其中包含数组中每个索引的键
+6. values
+7. join：将所有字符转换为字符串，使用符号拼接
+	1. 只有一个元素，不使用分隔符
 ### 查找
-find：符合条件的第一个值。`const res = array.find(element => element > 10);` 
-findIndex：符合条件的第一个值的索引
-findLast
-findLastIndex
-at
-indexOf
-includes
+1. find：符合条件第一个元素的**值**。`const res = array.find(element => element > 10); // 12` 
+2. findIndex：符合条件第一个元素的**索引**。
+3. findLast：反向迭代数组。符合条件的第一个元素的值。
+4. findLastIndex
+5. includes：存在某个值
+6. every：全都符合条件
+7. some：部分符合条件
+8. indexOf(值，起点)：某个值第一次出现时的索引
+9. at
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop, shift, unshift，splice，sort，reverse，
@@ -131,7 +137,15 @@ arr.forEach(function(item, index) {
     a.push(item)
   }
 })
-
+// 4. reduce
+const arr = [1,2,3,1,2,2]
+const a = []
+arr.reduce((acc, val, indexedDB) => {
+  if(!acc.includes(val)){
+    acc.push(val)
+  }
+  return acc
+}, a)
 ```
 
 
