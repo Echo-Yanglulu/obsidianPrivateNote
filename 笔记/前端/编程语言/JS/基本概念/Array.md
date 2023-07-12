@@ -99,13 +99,13 @@ reverse
 entries
 values
 ### 查找
-find：查找符合条件的第一个元素
-findIndex
+find：符合条件的第一个值。`const res = array.find(element => element > 10);` 
+findIndex：符合条件的第一个值的索引
 findLast
 findLastIndex
 at
 indexOf
-
+includes
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop, shift, unshift，splice，sort，reverse，
