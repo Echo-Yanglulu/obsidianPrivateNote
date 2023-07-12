@@ -89,5 +89,9 @@ componentDidCatch (error, info)
 父组件 getSnapShotBeforeUpdate
 子组件 componentWillUnmount
 父组件 componentDidUpdate
+# 错误捕获
+## ErrorBoundary 
+定义：一个组件，当渲染出错时，不展示崩溃页面，展示该组件。
+意义：是页面崩溃后的展示UI。
 # 相关
 [详解react生命周期和在父子组件中的执行顺序 - 掘金](https://juejin.cn/post/7138999568166830088#heading-16) 
