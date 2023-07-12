@@ -1,3 +1,7 @@
+# 概述
+## 实例方法
+[[this]].forceUpdate (callback?)
+[[this]].setState (nextState, callback?)
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
@@ -36,7 +40,7 @@
 	1. getDefivedStateFromProps：派生state
 	2. shouldComponentUpdate()：组件是否进行更新
 	3. render：组件渲染模板
-	4. getSnapshotBeforeUpdate()：返回一个DOM更新之前的快照
+	4. getSnapshotBeforeUpdate(prevProps, prevState)：返回一个DOM更新之前的快照
 		1. 获取更新前的UI
 	5. componentDidUpdate(prevProps, prevState, snapshot)：DOM更新后调用
 ## 卸载阶段
