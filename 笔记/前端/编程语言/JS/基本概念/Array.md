@@ -110,5 +110,21 @@ indexOf
 1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop, shift, unshift，splice，sort，reverse，
 2. 哪些是[[纯函数]]？
+# 相关
+## 去重
+```js
+// 1. 使用Set
+const arr = [1,2,3,1,2,2]
+ new Set(arr)
+ set 结构转换成 数组 有两种方式 [...new Set(arr)]和 Array.from(new Set(arr))
+ //  [1, 2, 3]
+
+// 2. filter
+const arr = [1,2,3,1,2,2]
+arr.filter((el,index)=> arr.indexOf(el)
+
+```
+
+
 
 [^1]: 数组对象上一组属性的集合
