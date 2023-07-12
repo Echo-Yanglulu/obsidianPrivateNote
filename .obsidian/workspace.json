@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/class组件.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1857,7 +1857,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1884,7 +1884,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1912,7 +1912,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2218,10 +2218,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "26f48007529a6a7e",
+  "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/assets/类组件错误边界.png",
     "笔记/前端/库、框架/UI库/class组件.md",
+    "笔记/前端/assets/类组件根据props重置state.png",
+    "笔记/前端/assets/类组件错误边界.png",
     "笔记/前端/assets/类组件属性的数据类型.png",
     "笔记/前端/assets/类组件默认属性值.png",
     "笔记/前端/assets/类组件中context用法.png",

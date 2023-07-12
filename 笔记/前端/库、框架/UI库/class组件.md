@@ -4,12 +4,13 @@
 2.  [[this]].forceUpdate(callback?)
 3. this. [[context]]。需要先将创建好的context赋值给静态属性 `static contextType` 
 ## [[静态属性]] 
-1. `static propTypes`：配置属性数据类型。[[类组件属性的数据类型.png]] 
-2. `static defaultProps` ：配置属性默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
+1. `static propTypes`：属性数据类型。[[类组件属性的数据类型.png]] 
+2. `static defaultProps` ：属性默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
 3. `static contextType` ：context值配置到实例上。[[类组件中context用法.png]] 
 4. `static getDerivedStateFromError(error)`：子组件在渲染期间抛出错误时调用
 5. `static getDerivedStateFromProps(props, state)` 
 	1. 场景：state始终依赖于props的场景
+		1. 当用户ID改变时，重置邮箱。[[类组件根据props重置state.png]] 
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
