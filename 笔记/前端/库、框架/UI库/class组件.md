@@ -8,7 +8,8 @@
 2. `static defaultProps` ：配置属性默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
 3. `static contextType` ：context值配置到实例上。[[类组件中context用法.png]] 
 4. `static getDerivedStateFromError(error)`：子组件在渲染期间抛出错误时调用
-5. 
+5. `static getDerivedStateFromProps(props, state)` 
+	1. 场景：state始终依赖于props的场景
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
