@@ -1,7 +1,11 @@
 # 概述
 ## 实例方法
-[[this]].forceUpdate (callback?)
 [[this]].setState (nextState, callback?)
+[[this]].forceUpdate (callback?)
+this. [[context]] 
+
+## [[静态属性]] 
+
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
@@ -34,11 +38,11 @@
 		3. 计时器、订阅
 ## 更新阶段
 进入条件
-	1. props或state改变
+	1. props、state、context改变
 	2. 调用forceUpdate
 内部执行
 	1. getDefivedStateFromProps：派生state
-	2. shouldComponentUpdate()：组件是否进行更新
+	2. shouldComponentUpdate(nextProps, nextState, nextContext)：组件是否进行更新
 	3. render：组件渲染模板
 	4. getSnapshotBeforeUpdate(prevProps, prevState)：返回一个DOM更新之前的快照
 		1. 获取更新前的UI
