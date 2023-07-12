@@ -24,17 +24,25 @@ Node的变化
 Document的变化
 Element的变化
 NamedNodeMap的变化
-
 ## 其他变化
 DocumentType的变化
 Document的变化
 Node的变化
 内嵌窗格的变化
 # 样式
-存取元素样式
-操作样式表
-元素尺寸
-
+## 存取元素样式
+## 操作样式表
+## 元素尺寸
 # 遍历
-
+## NodeIterator
+## TreeWalker
 # 范围
+## DOM范围
+## 简单选择
+## 复杂选择
+## 操作范围
+## 范围插入
+## 范围折叠
+## 范围比较
+## 复制范围
+## 清理
