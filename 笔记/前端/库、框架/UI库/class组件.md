@@ -3,10 +3,9 @@
 1.  [[this]].setState(nextState, callback?)
 2.  [[this]].forceUpdate(callback?)
 3. this. [[context]]。需要先将创建好的context赋值给静态属性 `static contextType` 
-
 ## [[静态属性]] 
-1. `static defaultProps` ：配置class组件属性的默认值
-2. `static contextType` ：配置实例
+1. `static defaultProps` ：配置class组件属性的默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
+2. `static contextType` ：context值配置到实例上。[[类组件中context用法.png]] 
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
