@@ -1,11 +1,12 @@
 # 概述
 ## 实例方法
-[[this]].setState (nextState, callback?)
-[[this]].forceUpdate (callback?)
-this. [[context]] 
+1.  [[this]].setState(nextState, callback?)
+2.  [[this]].forceUpdate(callback?)
+3. this. [[context]]。需要先将创建好的context赋值给静态属性 `static contextType` 
 
 ## [[静态属性]] 
-
+1. `static defaultProps` ：配置class组件属性的默认值
+2. `static contextType` ：配置实例
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
