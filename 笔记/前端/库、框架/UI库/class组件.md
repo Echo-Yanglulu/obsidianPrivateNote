@@ -8,6 +8,7 @@
 2. `static defaultProps` ：配置属性默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
 3. `static contextType` ：context值配置到实例上。[[类组件中context用法.png]] 
 4. `static getDerivedStateFromError(error)`：子组件在渲染期间抛出错误时调用
+5. 
 # 生命周期
 旧有生命周期![[Pasted image 20230530125123.png]]
 
@@ -93,5 +94,7 @@ componentDidCatch (error, info)
 ## ErrorBoundary 
 定义：一个组件，当渲染出错时，不展示崩溃页面，展示该组件。
 意义：是页面崩溃后的展示UI。
+作用：捕获渲染期间的错误，进行记录日志等，并展示替代UI
+[[类组件错误边界.png]] 
 # 相关
 [详解react生命周期和在父子组件中的执行顺序 - 掘金](https://juejin.cn/post/7138999568166830088#heading-16) 
