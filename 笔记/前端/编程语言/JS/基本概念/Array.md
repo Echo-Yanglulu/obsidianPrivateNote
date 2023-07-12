@@ -115,13 +115,14 @@ indexOf
 ```js
 // 1. 使用Set
 const arr = [1,2,3,1,2,2]
- new Set(arr)
- set 结构转换成 数组 有两种方式 [...new Set(arr)]和 Array.from(new Set(arr))
- //  [1, 2, 3]
+[...new Set(arr)]和 Array.from(new Set(arr))
+//  [1, 2, 3]
 
 // 2. filter
 const arr = [1,2,3,1,2,2]
-arr.filter((el,index)=> arr.indexOf(el)
+const res = arr.filter((item, index) => {
+  return index === arr.indexOf(item);
+});
 
 ```
 
