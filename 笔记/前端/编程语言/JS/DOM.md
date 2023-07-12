@@ -49,9 +49,10 @@ DOM对象是[[宿主对象]]。
 > 文档根节点>子节点（文档元素）
 > document节点>在html中是html元素，在xml中不定
 
-document节点表示每个**文档的根节点** 
-	根节点的唯一子节点是html元素，我们称之为**文档元素**：documentElement。或称“**根元素**”
-文档元素
+document节点表示每个**文档根节点** 
+根节点的*唯一*子节点，我们称之为*文档元素*或*根元素*：documentElement。
+	1. 在html中，根元素是html元素
+**文档元素** 
 	1. 层级：文档最外层的元素，所有其他元素都存在于这个元素之内
 	2. 数量：每个文档只能有一个
 	3. 实现
@@ -88,8 +89,9 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ```
 浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
 ### nodeName与nodeValue
+含义：保存有关节点的信息
 值完全取决于节点类型。使用之前先检测类型
-	1. 元素节点：name是标签名，value是null
+	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
 ### 操纵节点
 ### 其他方法
