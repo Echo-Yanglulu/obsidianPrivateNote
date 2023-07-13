@@ -60,8 +60,8 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
 	3. 子类：JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
 分类：文档、元素、属性、文本、2 C、2 D
-### nodeType
-每个节点都有nodeType属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
+### 节点类型
+每个节点都有`nodeType`属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
 - Node.ELEMENT_NODE（1）
 - Node.ATTRIBUTE_NODE（2）
 - Node.TEXT_NODE（3）
@@ -87,6 +87,7 @@ nodeName与nodeValue
 	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
 文档中的所有节点都与其他节点有关系
+每个节点都有一个childNodes属性，其中包含一个 [[NodeList]] 的实例
 ### 节点操纵
 ### 其他方法
 ## Document类型
