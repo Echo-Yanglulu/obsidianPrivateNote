@@ -2,11 +2,12 @@
 定义：是完整的 React 路由解决方案
 功能
 	1. 保持 UI 与 URL 同步。拥有简单的 API 与强大的功能例如代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理。你第一个念头想到的应该是 URL，而不是事后再想起。
+## 环境
+支持所有的浏览器和环境中运行 React
 ## 路由模式
 1. hash 模式（默认）。如 http://abc.com/#user/10
 2. H5 [[History]] 模式。如 http://abc.com/user/20
-B 端应用可选择1，C 端应用可选择2
-
+B 端应用可选择hash模式，C 端应用可选择History模式
 # 安装与导入
 [[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
 ## react-router库与react-router-dom的区别是什么？
