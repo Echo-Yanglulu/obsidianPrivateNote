@@ -98,23 +98,21 @@ reduceRight
 	2. 场景：map时需要返回数组。
 3. sort。升序return a-b
 4. reverse
-5. entries：返回一个新的数组[[迭代器]]对象，其中包含数组中每个索引的键
-6. values
 7. join：将所有字符转换为字符串，使用符号拼接
 	1. 只有一个元素，不使用分隔符
 ### 查找
-1. indexOf(值，起点)：*某个值*第一次出现的**索引** 
-2. findIndex：*符合条件的值*第一次出现的**索引**。
+1. find：*符合条件*的第一个**值**。`const res = array.find(element => element > 10); // 12` 
+2. findLast：反向迭代数组。*符合条件*的第一个**值**。
+3. indexOf(值，起点)：*某个值*第一次出现的**索引** 
+4. findIndex：*符合条件的值*第一次出现的**索引**。
 5. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
-4. find：*符合条件*的第一个**值**。`const res = array.find(element => element > 10); // 12` 
-3. findLast：反向迭代数组。*符合条件*的第一个**值**。
 6. includes：存在某个值
-7. every：全都值符合条件
+7. every：全部值符合条件
 8. some：部分值符合条件
 9. at
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个
-	1. push, pop, shift, unshift，splice，sort，reverse，
+	1. push, pop,unshift，shift, splice，sort，reverse，
 2. 哪些是[[纯函数]]？
 # 相关
 ## 去重
