@@ -14,11 +14,11 @@
 			1. event.nativeEvent.target：触发事件的元素
 			2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
 	2. 事件*绑定* 
-		1. react17之前，事件全部绑定**document 元素** 
+		1. react17之前，事件全部绑定**document节点** 
 		2. react 17之后，事件全部绑定在**root 组件** 
 			1. document 只有一个，root 组件可有多个。
 			2. 有利于多个 react 版本共存，如[[微前端]]。
-	3. 与 [[vue]] 事件不同，与 DOM事件也不同
+	3. 与 [[vue]] 事件不同，与 [[DOM]]事件也不同
 	4. 兼容性
 ## 目的
 为何要开发“合成事件机制”？
