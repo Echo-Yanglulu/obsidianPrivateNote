@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -125,13 +125,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":371,\"ch\":21},\"to\":{\"line\":371,\"ch\":21}},\"scroll\":315.91069459757443}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -356,7 +362,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -384,7 +390,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -691,11 +697,12 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/副作用.md",
@@ -722,7 +729,6 @@
     "笔记/前端/assets/类组件属性的数据类型.png",
     "笔记/前端/assets/类组件默认属性值.png",
     "笔记/前端/assets/类组件中context用法.png",
-    "笔记/前端/编程语言/JS/基本概念/静态属性.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/Pasted image 20230711180808.png",
     "笔记/前端/assets/Pasted image 20230711161656.png",
