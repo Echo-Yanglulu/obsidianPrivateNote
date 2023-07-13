@@ -50,19 +50,19 @@
 本质就是它编译为什么
 是react.createElement函数调用的语法糖。
 # [[react合成事件]] 
-# setState 与 batchUpdate
+# setState 与 batchUpdate原理
 ##  现象
 1. 同步
 	1. 17之前，有时同步，有时异步
 	2. 17之后，定时器与DOM事件中也是同步[^4]
 2. 合并
 	1. 传入对象时合并，传入函数时不合并。
-##  原理
+##  [[this]].setState原理
 1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
-	1. 如果命中了异步的setState，即，处于batchUpdate，走左边分支
-		1. 将状态改变的组件保存在dirtyComponents中
-		2. 对其中的组件进行更新与渲染
-	2. 哪些能命中bU机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
+	1. 如果命中了**异步**的setState，即处于batchUpdate，走左边分支
+		1. 将状态改变的组件*保存*在dirtyComponents中
+		2. 对其中的组件进行*更新与渲染* 
+	2. 哪些能命中batchUpdate机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
 			1. 生命周期
 			2. react中注册的事件处理函数
 	3. 哪些不能命中bU机制？react管理不到的入口
@@ -75,7 +75,7 @@
 3. transaction事务机制 ![[Pasted image 20230711161656.png]] 
 	1. 过程
 		1. 创建时注入初始化逻辑、结束前逻辑
-		2. 执行：初始化逻辑、函数、结束逻辑
+		2. 执行：初始化逻辑、目标函数、结束逻辑
 	2. 应用
 		1. batchUpdate的流程也是transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
 # 组件渲染和更新过程
