@@ -25,8 +25,8 @@ DOM对象是[[宿主对象]]。
 	1. 节点**类型** 
 		1. 含义：*对应*文档中不同的信息或标记
 		2. 属性：*拥有*自己不同的特性、数据和方法
-		3. 与其他类型有某种*关系* 
-			1. 这些关系构成了*层级*，让**标记表示为一个以特定节点为根的树形结构**。
+		3. 与其他类型存在某种*关系* 
+			1. 这些关系构成了*层级*，让**标记表示为一个以特定节点为根的树形结构**。【具体是什么层级结构？】
 	2. DOM中有12种节点类型
 		1. 都继承自一种基础类型
 ## 实例
@@ -81,18 +81,19 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 }
 ```
 浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
-### nodeName与nodeValue
-含义：保存有关节点的信息
+### 节点信息
+nodeName与nodeValue
 值完全取决于节点类型。使用之前先检测类型
 	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
-### 操纵节点
+文档中的所有节点都与其他节点有关系
+### 节点操纵
 ### 其他方法
 ## Document类型
 意义：JavaScript中表示文档节点的类型。浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。document是window对象的属性，因此是一个全局对象。
 特征
 	1. nodeType等于9；
-	2. nodeName值为" #document "；
+	2. nodeName值为" document "；
 	3. nodeValue值为null；
 	4. parentNode值为null；
 	5. ownerDocument值为null；

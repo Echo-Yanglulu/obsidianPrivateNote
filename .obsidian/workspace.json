@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -303,34 +303,6 @@
                 }
               },
               {
-                "id": "af76d0c9fdf15dfb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "定位",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/定位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "fdcbcfb671806f74",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -359,7 +331,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -386,7 +358,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -414,7 +386,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -719,8 +691,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "af76d0c9fdf15dfb",
+  "active": "71f0afcd5d0019d3",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/DOM扩展.md",
+    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/库、框架/UI库/react原理.md",
@@ -741,13 +716,10 @@
     "Day Planners/2023-07-13.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/宿主对象.md",
-    "笔记/前端/编程语言/JS/DOM扩展.md",
-    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/前端/编程语言/JS/XML.md",
     "Day Planners/2023-07-12.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
-    "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
