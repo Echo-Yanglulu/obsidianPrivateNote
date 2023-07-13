@@ -97,9 +97,16 @@ nodeName与nodeValue
 		2. 没有子节点：指向null
 		3. 等同：someNode.childNodes\[0]
 	3. `hasChildNodes()`：是在存在子节点
-	4. `parentNode` 属性： 其DOM树中的父元素
-	5. `ownerDocument` 属性：文档节点。所有节点都被创建它们的文档所拥有
+	4. `parentNode` ： 其DOM树中的父元素
+	5. `ownerDocument` ：文档节点。所有节点都被创建它们的文档所拥有
 ### 节点操纵
+背景：所有关系指针都是**只读**的，所以DOM又提供了一些操纵节点的方法
+1. appendChild()：在childNodes列表**末尾添加**节点
+	1. 返回新添加的节点
+	2. 文档中*已存在节点*传给appendChild()，则这个节点会从之前的位置被转移到新位置
+2. insertBefore(要插入的节点，参照节点)：在childNodes列表**特定位置添加**节点
+	1. 如果参照节点是null，则insertBefore()与appendChild()效果相同
+3. `replaceChild(要插入的节点，要替换的节点)`：
 ### 其他方法
 ## Document类型
 意义：JavaScript中表示文档节点的类型。浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。document是window对象的属性，因此是一个全局对象。
