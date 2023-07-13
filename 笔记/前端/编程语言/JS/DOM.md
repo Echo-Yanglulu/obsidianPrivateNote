@@ -151,6 +151,13 @@ document作为HTMLDocument的实例，还有一些标准Document对象上所没�
 	3. domain：页面的域名。可写，但不能设置为当前URL中不包含的值
 	4. referrer：链接到当前页面的那个页面的URL。如果没有来源就是空字符串
 ### 定位元素
+Document类型提供的两个方法，获取某个或某组元素的引用
+1. getElementById()
+	1. 不匹配则返回null
+	2. 多个则返回第一个
+2. getElementsByTagName()
+	1. 返回包含零个或多个元素的NodeList
+	2. HTML文档中，取得页面中所有的\<img>元素并返回包含它们的 [[HTMLCollection]] 对象
 ### 特殊集合
 ### DOM兼容性检测
 ## Element类型
