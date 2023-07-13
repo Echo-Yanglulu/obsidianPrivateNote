@@ -67,20 +67,23 @@
 			2. react中注册的事件处理函数
 	3. 哪些不能命中bU机制？react管理不到的入口
 		1. 定时器，自定义的DOM事件
-2. batchUpdate机制。核心：isBatchingUpdates![[Pasted image 20230711155421.png]] 
-	1. 在执行一个事件处理函数之前，初始化 `isBatchingUpdates = true`
-	2. 执行函数
-	3. 设置 `isBatchingUpdates = false`
+##  batchUpdate机制
+是否批量更新state
+核心：isBatchingUpdates ![[Pasted image 20230711155421.png]] 
+	1. 在执行事件处理函数前，初始化 `isBatchingUpdates = true`
+	2. 执行函数（生命周期函数、组件注册的事件回调）
+	3. 设置 `isBatchingUpdates = false` 
 	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
-3. transaction事务机制 ![[Pasted image 20230711161656.png]] 
+## transaction事务机制 
+![[Pasted image 20230711161656.png]] 
 	1. 过程
-		1. 创建时注入初始化逻辑、结束前逻辑
-		2. 执行：初始化逻辑、目标函数、结束逻辑
+		1. 组件创建时注入初始化逻辑、结束逻辑
+		2. 调用时执行初始化逻辑、目标函数、结束逻辑
 	2. 应用
-		1. batchUpdate的流程也是transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
+		1. batchUpdate的流程也属于transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
 # 组件渲染和更新过程
 1. [[JSX]] 如何渲染为页面
-	1. 执行生成vnode
+	1. 执行render生成vnode
 	2. patch（elem, vnode）和patch（vnode, newVnode）
 2. 组件渲染过程
 	1. *接收*props, state
