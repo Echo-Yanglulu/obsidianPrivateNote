@@ -115,10 +115,16 @@ nodeName与nodeValue
 		2. 只复制HTML属性，不复制JS属性。如事件处理程序
 		3. true：复制节点及整个DOM树
 		4. false：只复制该节点，忽略内容
-	2. `normalize()`：处理文档子树中的文本节点
+	2. `normalize()`：处理文档子树中的文本节点。
+		1. 检测这个节点的所有后代
+			1. 出现并不包含文本的文本节点。发现空文本节点，则将其删除
+			2. 文本节点之间互为同胞关系。两个同胞节点是相邻的，则将其合并为一个文本节点
 ### 其他方法
 ## Document类型
-意义：JavaScript中表示文档节点的类型。浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。document是window对象的属性，因此是一个全局对象。
+意义
+	1. 是JavaScript中表示文档节点的类型。
+	2. 浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。
+	3. document是window对象的属性，因此是一个全局对象。
 特征
 	1. nodeType等于9；
 	2. nodeName值为" document "；
