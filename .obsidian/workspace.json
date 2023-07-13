@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/库、框架/UI库/react合成事件.md"
                   }
                 }
               }
@@ -127,6 +127,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":16},\"to\":{\"line\":51,\"ch\":16}},\"scroll\":30.54465270121279}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":374,\"ch\":18},\"to\":{\"line\":374,\"ch\":18}},\"scroll\":317.5468577728776}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":118,\"ch\":15},\"to\":{\"line\":118,\"ch\":15}},\"scroll\":91.85667034178611}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -137,7 +155,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "笔记/前端/库、框架/UI库/react合成事件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -362,7 +380,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -390,7 +408,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -697,13 +715,13 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230711155421.png",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/assets/Pasted image 20230711155421.png",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/JSX.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/库、框架/UI库/react-redux.md",
     "笔记/前端/库、框架/UI库/react-router.md",
