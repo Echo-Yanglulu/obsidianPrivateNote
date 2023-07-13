@@ -232,20 +232,20 @@ var require_react_development = __commonJS({
         {
           Object.freeze(emptyObject);
         }
-        function Component(props, context, updater) {
+        function Component2(props, context, updater) {
           this.props = props;
           this.context = context;
           this.refs = emptyObject;
           this.updater = updater || ReactNoopUpdateQueue;
         }
-        Component.prototype.isReactComponent = {};
-        Component.prototype.setState = function(partialState, callback) {
+        Component2.prototype.isReactComponent = {};
+        Component2.prototype.setState = function(partialState, callback) {
           if (typeof partialState !== "object" && typeof partialState !== "function" && partialState != null) {
             throw new Error("setState(...): takes an object of state variables to update or a function which returns an object of state variables.");
           }
           this.updater.enqueueSetState(this, partialState, callback, "setState");
         };
-        Component.prototype.forceUpdate = function(callback) {
+        Component2.prototype.forceUpdate = function(callback) {
           this.updater.enqueueForceUpdate(this, callback, "forceUpdate");
         };
         {
@@ -254,7 +254,7 @@ var require_react_development = __commonJS({
             replaceState: ["replaceState", "Refactor your code to use setState instead (see https://github.com/facebook/react/issues/3236)."]
           };
           var defineDeprecationWarning = function(methodName, info) {
-            Object.defineProperty(Component.prototype, methodName, {
+            Object.defineProperty(Component2.prototype, methodName, {
               get: function() {
                 warn("%s(...) is deprecated in plain JavaScript React classes. %s", info[0], info[1]);
                 return void 0;
@@ -269,7 +269,7 @@ var require_react_development = __commonJS({
         }
         function ComponentDummy() {
         }
-        ComponentDummy.prototype = Component.prototype;
+        ComponentDummy.prototype = Component2.prototype;
         function PureComponent(props, context, updater) {
           this.props = props;
           this.context = context;
@@ -278,7 +278,7 @@ var require_react_development = __commonJS({
         }
         var pureComponentPrototype = PureComponent.prototype = new ComponentDummy();
         pureComponentPrototype.constructor = PureComponent;
-        assign(pureComponentPrototype, Component.prototype);
+        assign(pureComponentPrototype, Component2.prototype);
         pureComponentPrototype.isPureReactComponent = true;
         function createRef() {
           var refObject = {
@@ -1319,8 +1319,8 @@ var require_react_development = __commonJS({
             return describeNativeComponentFrame(fn2, false);
           }
         }
-        function shouldConstruct(Component2) {
-          var prototype = Component2.prototype;
+        function shouldConstruct(Component3) {
+          var prototype = Component3.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -1824,7 +1824,7 @@ var require_react_development = __commonJS({
           only: onlyChild
         };
         exports.Children = Children;
-        exports.Component = Component;
+        exports.Component = Component2;
         exports.Fragment = REACT_FRAGMENT_TYPE;
         exports.Profiler = REACT_PROFILER_TYPE;
         exports.PureComponent = PureComponent;
@@ -2350,9 +2350,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React50 = require_react();
+        var React52 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React50.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3308,8 +3308,8 @@ var require_react_dom_development = __commonJS({
             return describeNativeComponentFrame(fn2, false);
           }
         }
-        function shouldConstruct(Component) {
-          var prototype = Component.prototype;
+        function shouldConstruct(Component2) {
+          var prototype = Component2.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -3873,7 +3873,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React50.Children.forEach(props.children, function(child) {
+                React52.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -10462,9 +10462,9 @@ var require_react_dom_development = __commonJS({
         var contextStackCursor = createCursor(emptyContextObject);
         var didPerformWorkStackCursor = createCursor(false);
         var previousContext = emptyContextObject;
-        function getUnmaskedContext(workInProgress2, Component, didPushOwnContextIfProvider) {
+        function getUnmaskedContext(workInProgress2, Component2, didPushOwnContextIfProvider) {
           {
-            if (didPushOwnContextIfProvider && isContextProvider(Component)) {
+            if (didPushOwnContextIfProvider && isContextProvider(Component2)) {
               return previousContext;
             }
             return contextStackCursor.current;
@@ -10601,8 +10601,8 @@ var require_react_dom_development = __commonJS({
                 case HostRoot:
                   return node.stateNode.context;
                 case ClassComponent: {
-                  var Component = node.type;
-                  if (isContextProvider(Component)) {
+                  var Component2 = node.type;
+                  if (isContextProvider(Component2)) {
                     return node.stateNode.__reactInternalMemoizedMergedChildContext;
                   }
                   break;
@@ -11358,10 +11358,10 @@ var require_react_dom_development = __commonJS({
             pendingLegacyContextWarning = /* @__PURE__ */ new Map();
           };
         }
-        function resolveDefaultProps(Component, baseProps) {
-          if (Component && Component.defaultProps) {
+        function resolveDefaultProps(Component2, baseProps) {
+          if (Component2 && Component2.defaultProps) {
             var props = assign({}, baseProps);
-            var defaultProps = Component.defaultProps;
+            var defaultProps = Component2.defaultProps;
             for (var propName in defaultProps) {
               if (props[propName] === void 0) {
                 props[propName] = defaultProps[propName];
@@ -12034,7 +12034,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React50.Component().refs;
+        var emptyRefsObject = new React52.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -13613,7 +13613,7 @@ var require_react_dom_development = __commonJS({
           }
           return true;
         }
-        function renderWithHooks(current2, workInProgress2, Component, props, secondArg, nextRenderLanes) {
+        function renderWithHooks(current2, workInProgress2, Component2, props, secondArg, nextRenderLanes) {
           renderLanes = nextRenderLanes;
           currentlyRenderingFiber$1 = workInProgress2;
           {
@@ -13633,7 +13633,7 @@ var require_react_dom_development = __commonJS({
               ReactCurrentDispatcher$1.current = HooksDispatcherOnMountInDEV;
             }
           }
-          var children = Component(props, secondArg);
+          var children = Component2(props, secondArg);
           if (didScheduleRenderPhaseUpdateDuringThisPass) {
             var numberOfReRenders = 0;
             do {
@@ -13653,7 +13653,7 @@ var require_react_dom_development = __commonJS({
                 hookTypesUpdateIndexDev = -1;
               }
               ReactCurrentDispatcher$1.current = HooksDispatcherOnRerenderInDEV;
-              children = Component(props, secondArg);
+              children = Component2(props, secondArg);
             } while (didScheduleRenderPhaseUpdateDuringThisPass);
           }
           ReactCurrentDispatcher$1.current = ContextOnlyDispatcher;
@@ -15752,21 +15752,21 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = reconcileChildFibers(workInProgress2, current2.child, null, renderLanes2);
           workInProgress2.child = reconcileChildFibers(workInProgress2, null, nextChildren, renderLanes2);
         }
-        function updateForwardRef(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateForwardRef(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
-          var render2 = Component.render;
+          var render2 = Component2.render;
           var ref = workInProgress2.ref;
           var nextChildren;
           var hasId;
@@ -15804,10 +15804,10 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateMemoComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateMemoComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           if (current2 === null) {
-            var type = Component.type;
-            if (isSimpleFunctionComponent(type) && Component.compare === null && Component.defaultProps === void 0) {
+            var type = Component2.type;
+            if (isSimpleFunctionComponent(type) && Component2.compare === null && Component2.defaultProps === void 0) {
               var resolvedType = type;
               {
                 resolvedType = resolveFunctionForHotReloading(type);
@@ -15830,14 +15830,14 @@ var require_react_dom_development = __commonJS({
                 );
               }
             }
-            var child = createFiberFromTypeAndProps(Component.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
+            var child = createFiberFromTypeAndProps(Component2.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
             child.ref = workInProgress2.ref;
             child.return = workInProgress2;
             workInProgress2.child = child;
             return child;
           }
           {
-            var _type = Component.type;
+            var _type = Component2.type;
             var _innerPropTypes = _type.propTypes;
             if (_innerPropTypes) {
               checkPropTypes(
@@ -15852,7 +15852,7 @@ var require_react_dom_development = __commonJS({
           var hasScheduledUpdateOrContext = checkScheduledUpdateOrContext(current2, renderLanes2);
           if (!hasScheduledUpdateOrContext) {
             var prevProps = currentChild.memoizedProps;
-            var compare = Component.compare;
+            var compare = Component2.compare;
             compare = compare !== null ? compare : shallowEqual2;
             if (compare(prevProps, nextProps) && current2.ref === workInProgress2.ref) {
               return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
@@ -15865,7 +15865,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = newChild;
           return newChild;
         }
-        function updateSimpleMemoComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateSimpleMemoComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
               var outerMemoType = workInProgress2.elementType;
@@ -15903,7 +15903,7 @@ var require_react_dom_development = __commonJS({
               }
             }
           }
-          return updateFunctionComponent(current2, workInProgress2, Component, nextProps, renderLanes2);
+          return updateFunctionComponent(current2, workInProgress2, Component2, nextProps, renderLanes2);
         }
         function updateOffscreenComponent(current2, workInProgress2, renderLanes2) {
           var nextProps = workInProgress2.pendingProps;
@@ -15993,23 +15993,23 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function updateFunctionComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateFunctionComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component, true);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component2, true);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           var nextChildren;
@@ -16021,12 +16021,12 @@ var require_react_dom_development = __commonJS({
           {
             ReactCurrentOwner$1.current = workInProgress2;
             setIsRendering(true);
-            nextChildren = renderWithHooks(current2, workInProgress2, Component, nextProps, context, renderLanes2);
+            nextChildren = renderWithHooks(current2, workInProgress2, Component2, nextProps, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             if (workInProgress2.mode & StrictLegacyMode) {
               setIsStrictModeForDevtools(true);
               try {
-                nextChildren = renderWithHooks(current2, workInProgress2, Component, nextProps, context, renderLanes2);
+                nextChildren = renderWithHooks(current2, workInProgress2, Component2, nextProps, context, renderLanes2);
                 hasId = checkDidRenderIdHook();
               } finally {
                 setIsStrictModeForDevtools(false);
@@ -16048,7 +16048,7 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateClassComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateClassComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             switch (shouldError(workInProgress2)) {
               case false: {
@@ -16071,19 +16071,19 @@ var require_react_dom_development = __commonJS({
               }
             }
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
           var hasContext;
-          if (isContextProvider(Component)) {
+          if (isContextProvider(Component2)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
@@ -16094,15 +16094,15 @@ var require_react_dom_development = __commonJS({
           var shouldUpdate;
           if (instance === null) {
             resetSuspendedCurrentOnMountInLegacyMode(current2, workInProgress2);
-            constructClassInstance(workInProgress2, Component, nextProps);
-            mountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
+            constructClassInstance(workInProgress2, Component2, nextProps);
+            mountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
             shouldUpdate = true;
           } else if (current2 === null) {
-            shouldUpdate = resumeMountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
+            shouldUpdate = resumeMountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
           } else {
-            shouldUpdate = updateClassInstance(current2, workInProgress2, Component, nextProps, renderLanes2);
+            shouldUpdate = updateClassInstance(current2, workInProgress2, Component2, nextProps, renderLanes2);
           }
-          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component, shouldUpdate, hasContext, renderLanes2);
+          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component2, shouldUpdate, hasContext, renderLanes2);
           {
             var inst = workInProgress2.stateNode;
             if (shouldUpdate && inst.props !== nextProps) {
@@ -16114,19 +16114,19 @@ var require_react_dom_development = __commonJS({
           }
           return nextUnitOfWork;
         }
-        function finishClassComponent(current2, workInProgress2, Component, shouldUpdate, hasContext, renderLanes2) {
+        function finishClassComponent(current2, workInProgress2, Component2, shouldUpdate, hasContext, renderLanes2) {
           markRef(current2, workInProgress2);
           var didCaptureError = (workInProgress2.flags & DidCapture) !== NoFlags;
           if (!shouldUpdate && !didCaptureError) {
             if (hasContext) {
-              invalidateContextProvider(workInProgress2, Component, false);
+              invalidateContextProvider(workInProgress2, Component2, false);
             }
             return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
           }
           var instance = workInProgress2.stateNode;
           ReactCurrentOwner$1.current = workInProgress2;
           var nextChildren;
-          if (didCaptureError && typeof Component.getDerivedStateFromError !== "function") {
+          if (didCaptureError && typeof Component2.getDerivedStateFromError !== "function") {
             nextChildren = null;
             {
               stopProfilerTimerIfRunning();
@@ -16160,7 +16160,7 @@ var require_react_dom_development = __commonJS({
           }
           workInProgress2.memoizedState = instance.state;
           if (hasContext) {
-            invalidateContextProvider(workInProgress2, Component, true);
+            invalidateContextProvider(workInProgress2, Component2, true);
           }
           return workInProgress2.child;
         }
@@ -16260,44 +16260,44 @@ var require_react_dom_development = __commonJS({
           var lazyComponent = elementType;
           var payload = lazyComponent._payload;
           var init2 = lazyComponent._init;
-          var Component = init2(payload);
-          workInProgress2.type = Component;
-          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component);
-          var resolvedProps = resolveDefaultProps(Component, props);
+          var Component2 = init2(payload);
+          workInProgress2.type = Component2;
+          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component2);
+          var resolvedProps = resolveDefaultProps(Component2, props);
           var child;
           switch (resolvedTag) {
             case FunctionComponent: {
               {
-                validateFunctionComponentInDev(workInProgress2, Component);
-                workInProgress2.type = Component = resolveFunctionForHotReloading(Component);
+                validateFunctionComponentInDev(workInProgress2, Component2);
+                workInProgress2.type = Component2 = resolveFunctionForHotReloading(Component2);
               }
-              child = updateFunctionComponent(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateFunctionComponent(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case ClassComponent: {
               {
-                workInProgress2.type = Component = resolveClassForHotReloading(Component);
+                workInProgress2.type = Component2 = resolveClassForHotReloading(Component2);
               }
-              child = updateClassComponent(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateClassComponent(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case ForwardRef: {
               {
-                workInProgress2.type = Component = resolveForwardRefForHotReloading(Component);
+                workInProgress2.type = Component2 = resolveForwardRefForHotReloading(Component2);
               }
-              child = updateForwardRef(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateForwardRef(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case MemoComponent: {
               {
                 if (workInProgress2.type !== workInProgress2.elementType) {
-                  var outerPropTypes = Component.propTypes;
+                  var outerPropTypes = Component2.propTypes;
                   if (outerPropTypes) {
                     checkPropTypes(
                       outerPropTypes,
                       resolvedProps,
                       "prop",
-                      getComponentNameFromType(Component)
+                      getComponentNameFromType(Component2)
                     );
                   }
                 }
@@ -16305,8 +16305,8 @@ var require_react_dom_development = __commonJS({
               child = updateMemoComponent(
                 null,
                 workInProgress2,
-                Component,
-                resolveDefaultProps(Component.type, resolvedProps),
+                Component2,
+                resolveDefaultProps(Component2.type, resolvedProps),
                 renderLanes2
               );
               return child;
@@ -16314,33 +16314,33 @@ var require_react_dom_development = __commonJS({
           }
           var hint = "";
           {
-            if (Component !== null && typeof Component === "object" && Component.$$typeof === REACT_LAZY_TYPE) {
+            if (Component2 !== null && typeof Component2 === "object" && Component2.$$typeof === REACT_LAZY_TYPE) {
               hint = " Did you wrap a component in React.lazy() more than once?";
             }
           }
-          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component + ". " + ("Lazy element type must resolve to a class or function." + hint));
+          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component2 + ". " + ("Lazy element type must resolve to a class or function." + hint));
         }
-        function mountIncompleteClassComponent(_current, workInProgress2, Component, nextProps, renderLanes2) {
+        function mountIncompleteClassComponent(_current, workInProgress2, Component2, nextProps, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           workInProgress2.tag = ClassComponent;
           var hasContext;
-          if (isContextProvider(Component)) {
+          if (isContextProvider(Component2)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
             hasContext = false;
           }
           prepareToReadContext(workInProgress2, renderLanes2);
-          constructClassInstance(workInProgress2, Component, nextProps);
-          mountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
-          return finishClassComponent(null, workInProgress2, Component, true, hasContext, renderLanes2);
+          constructClassInstance(workInProgress2, Component2, nextProps);
+          mountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
+          return finishClassComponent(null, workInProgress2, Component2, true, hasContext, renderLanes2);
         }
-        function mountIndeterminateComponent(_current, workInProgress2, Component, renderLanes2) {
+        function mountIndeterminateComponent(_current, workInProgress2, Component2, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           var props = workInProgress2.pendingProps;
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component, false);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component2, false);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           prepareToReadContext(workInProgress2, renderLanes2);
@@ -16350,8 +16350,8 @@ var require_react_dom_development = __commonJS({
             markComponentRenderStarted(workInProgress2);
           }
           {
-            if (Component.prototype && typeof Component.prototype.render === "function") {
-              var componentName = getComponentNameFromType(Component) || "Unknown";
+            if (Component2.prototype && typeof Component2.prototype.render === "function") {
+              var componentName = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutBadClass[componentName]) {
                 error("The <%s /> component appears to have a render method, but doesn't extend React.Component. This is likely to cause errors. Change %s to extend React.Component instead.", componentName, componentName);
                 didWarnAboutBadClass[componentName] = true;
@@ -16362,7 +16362,7 @@ var require_react_dom_development = __commonJS({
             }
             setIsRendering(true);
             ReactCurrentOwner$1.current = workInProgress2;
-            value = renderWithHooks(null, workInProgress2, Component, props, context, renderLanes2);
+            value = renderWithHooks(null, workInProgress2, Component2, props, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             setIsRendering(false);
           }
@@ -16372,7 +16372,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.flags |= PerformedWork;
           {
             if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
-              var _componentName = getComponentNameFromType(Component) || "Unknown";
+              var _componentName = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName, _componentName, _componentName);
                 didWarnAboutModulePatternComponent[_componentName] = true;
@@ -16381,7 +16381,7 @@ var require_react_dom_development = __commonJS({
           }
           if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
             {
-              var _componentName2 = getComponentNameFromType(Component) || "Unknown";
+              var _componentName2 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName2]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName2, _componentName2, _componentName2);
                 didWarnAboutModulePatternComponent[_componentName2] = true;
@@ -16391,7 +16391,7 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = null;
             workInProgress2.updateQueue = null;
             var hasContext = false;
-            if (isContextProvider(Component)) {
+            if (isContextProvider(Component2)) {
               hasContext = true;
               pushContextProvider(workInProgress2);
             } else {
@@ -16400,15 +16400,15 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = value.state !== null && value.state !== void 0 ? value.state : null;
             initializeUpdateQueue(workInProgress2);
             adoptClassInstance(workInProgress2, value);
-            mountClassInstance(workInProgress2, Component, props, renderLanes2);
-            return finishClassComponent(null, workInProgress2, Component, true, hasContext, renderLanes2);
+            mountClassInstance(workInProgress2, Component2, props, renderLanes2);
+            return finishClassComponent(null, workInProgress2, Component2, true, hasContext, renderLanes2);
           } else {
             workInProgress2.tag = FunctionComponent;
             {
               if (workInProgress2.mode & StrictLegacyMode) {
                 setIsStrictModeForDevtools(true);
                 try {
-                  value = renderWithHooks(null, workInProgress2, Component, props, context, renderLanes2);
+                  value = renderWithHooks(null, workInProgress2, Component2, props, context, renderLanes2);
                   hasId = checkDidRenderIdHook();
                 } finally {
                   setIsStrictModeForDevtools(false);
@@ -16420,16 +16420,16 @@ var require_react_dom_development = __commonJS({
             }
             reconcileChildren(null, workInProgress2, value, renderLanes2);
             {
-              validateFunctionComponentInDev(workInProgress2, Component);
+              validateFunctionComponentInDev(workInProgress2, Component2);
             }
             return workInProgress2.child;
           }
         }
-        function validateFunctionComponentInDev(workInProgress2, Component) {
+        function validateFunctionComponentInDev(workInProgress2, Component2) {
           {
-            if (Component) {
-              if (Component.childContextTypes) {
-                error("%s(...): childContextTypes cannot be defined on a function component.", Component.displayName || Component.name || "Component");
+            if (Component2) {
+              if (Component2.childContextTypes) {
+                error("%s(...): childContextTypes cannot be defined on a function component.", Component2.displayName || Component2.name || "Component");
               }
             }
             if (workInProgress2.ref !== null) {
@@ -16448,15 +16448,15 @@ var require_react_dom_development = __commonJS({
                 error("Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?%s", info);
               }
             }
-            if (typeof Component.getDerivedStateFromProps === "function") {
-              var _componentName3 = getComponentNameFromType(Component) || "Unknown";
+            if (typeof Component2.getDerivedStateFromProps === "function") {
+              var _componentName3 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3]) {
                 error("%s: Function components do not support getDerivedStateFromProps.", _componentName3);
                 didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3] = true;
               }
             }
-            if (typeof Component.contextType === "object" && Component.contextType !== null) {
-              var _componentName4 = getComponentNameFromType(Component) || "Unknown";
+            if (typeof Component2.contextType === "object" && Component2.contextType !== null) {
+              var _componentName4 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutContextTypeOnFunctionComponent[_componentName4]) {
                 error("%s: Function components do not support contextType.", _componentName4);
                 didWarnAboutContextTypeOnFunctionComponent[_componentName4] = true;
@@ -17199,8 +17199,8 @@ var require_react_dom_development = __commonJS({
               pushHostContext(workInProgress2);
               break;
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 pushContextProvider(workInProgress2);
               }
               break;
@@ -17324,10 +17324,10 @@ var require_react_dom_development = __commonJS({
               return mountLazyComponent(current2, workInProgress2, elementType, renderLanes2);
             }
             case FunctionComponent: {
-              var Component = workInProgress2.type;
+              var Component2 = workInProgress2.type;
               var unresolvedProps = workInProgress2.pendingProps;
-              var resolvedProps = workInProgress2.elementType === Component ? unresolvedProps : resolveDefaultProps(Component, unresolvedProps);
-              return updateFunctionComponent(current2, workInProgress2, Component, resolvedProps, renderLanes2);
+              var resolvedProps = workInProgress2.elementType === Component2 ? unresolvedProps : resolveDefaultProps(Component2, unresolvedProps);
+              return updateFunctionComponent(current2, workInProgress2, Component2, resolvedProps, renderLanes2);
             }
             case ClassComponent: {
               var _Component = workInProgress2.type;
@@ -17631,8 +17631,8 @@ var require_react_dom_development = __commonJS({
               bubbleProperties(workInProgress2);
               return null;
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 popContext(workInProgress2);
               }
               bubbleProperties(workInProgress2);
@@ -17940,8 +17940,8 @@ var require_react_dom_development = __commonJS({
           popTreeContext(workInProgress2);
           switch (workInProgress2.tag) {
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 popContext(workInProgress2);
               }
               var flags = workInProgress2.flags;
@@ -21593,18 +21593,18 @@ var require_react_dom_development = __commonJS({
         var createFiber = function(tag, pendingProps, key, mode) {
           return new FiberNode(tag, pendingProps, key, mode);
         };
-        function shouldConstruct$1(Component) {
-          var prototype = Component.prototype;
+        function shouldConstruct$1(Component2) {
+          var prototype = Component2.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function isSimpleFunctionComponent(type) {
           return typeof type === "function" && !shouldConstruct$1(type) && type.defaultProps === void 0;
         }
-        function resolveLazyComponentTag(Component) {
-          if (typeof Component === "function") {
-            return shouldConstruct$1(Component) ? ClassComponent : FunctionComponent;
-          } else if (Component !== void 0 && Component !== null) {
-            var $$typeof = Component.$$typeof;
+        function resolveLazyComponentTag(Component2) {
+          if (typeof Component2 === "function") {
+            return shouldConstruct$1(Component2) ? ClassComponent : FunctionComponent;
+          } else if (Component2 !== void 0 && Component2 !== null) {
+            var $$typeof = Component2.$$typeof;
             if ($$typeof === REACT_FORWARD_REF_TYPE) {
               return ForwardRef;
             }
@@ -22038,9 +22038,9 @@ var require_react_dom_development = __commonJS({
           var fiber = get(parentComponent);
           var parentContext = findCurrentUnmaskedContext(fiber);
           if (fiber.tag === ClassComponent) {
-            var Component = fiber.type;
-            if (isContextProvider(Component)) {
-              return processChildContext(fiber, Component, parentContext);
+            var Component2 = fiber.type;
+            if (isContextProvider(Component2)) {
+              return processChildContext(fiber, Component2, parentContext);
             }
           }
           return parentContext;
@@ -22947,6 +22947,1567 @@ var require_client = __commonJS({
       };
     }
     var i2;
+  }
+});
+
+// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
+var require_use_sync_external_store_shim_development = __commonJS({
+  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
+        }
+        var React52 = require_react();
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        function error(format) {
+          {
+            {
+              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                args[_key2 - 1] = arguments[_key2];
+              }
+              printWarning("error", format, args);
+            }
+          }
+        }
+        function printWarning(level, format, args) {
+          {
+            var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+            var stack = ReactDebugCurrentFrame.getStackAddendum();
+            if (stack !== "") {
+              format += "%s";
+              args = args.concat([stack]);
+            }
+            var argsWithFormat = args.map(function(item) {
+              return String(item);
+            });
+            argsWithFormat.unshift("Warning: " + format);
+            Function.prototype.apply.call(console[level], console, argsWithFormat);
+          }
+        }
+        function is(x2, y2) {
+          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
+        }
+        var objectIs = typeof Object.is === "function" ? Object.is : is;
+        var useState2 = React52.useState, useEffect2 = React52.useEffect, useLayoutEffect2 = React52.useLayoutEffect, useDebugValue2 = React52.useDebugValue;
+        var didWarnOld18Alpha = false;
+        var didWarnUncachedGetSnapshot = false;
+        function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
+          {
+            if (!didWarnOld18Alpha) {
+              if (React52.startTransition !== void 0) {
+                didWarnOld18Alpha = true;
+                error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
+              }
+            }
+          }
+          var value = getSnapshot();
+          {
+            if (!didWarnUncachedGetSnapshot) {
+              var cachedValue = getSnapshot();
+              if (!objectIs(value, cachedValue)) {
+                error("The result of getSnapshot should be cached to avoid an infinite loop");
+                didWarnUncachedGetSnapshot = true;
+              }
+            }
+          }
+          var _useState = useState2({
+            inst: {
+              value,
+              getSnapshot
+            }
+          }), inst = _useState[0].inst, forceUpdate = _useState[1];
+          useLayoutEffect2(function() {
+            inst.value = value;
+            inst.getSnapshot = getSnapshot;
+            if (checkIfSnapshotChanged(inst)) {
+              forceUpdate({
+                inst
+              });
+            }
+          }, [subscribe2, value, getSnapshot]);
+          useEffect2(function() {
+            if (checkIfSnapshotChanged(inst)) {
+              forceUpdate({
+                inst
+              });
+            }
+            var handleStoreChange = function() {
+              if (checkIfSnapshotChanged(inst)) {
+                forceUpdate({
+                  inst
+                });
+              }
+            };
+            return subscribe2(handleStoreChange);
+          }, [subscribe2]);
+          useDebugValue2(value);
+          return value;
+        }
+        function checkIfSnapshotChanged(inst) {
+          var latestGetSnapshot = inst.getSnapshot;
+          var prevValue = inst.value;
+          try {
+            var nextValue = latestGetSnapshot();
+            return !objectIs(prevValue, nextValue);
+          } catch (error2) {
+            return true;
+          }
+        }
+        function useSyncExternalStore$1(subscribe2, getSnapshot, getServerSnapshot) {
+          return getSnapshot();
+        }
+        var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+        var isServerEnvironment = !canUseDOM2;
+        var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
+        var useSyncExternalStore$2 = React52.useSyncExternalStore !== void 0 ? React52.useSyncExternalStore : shim;
+        exports.useSyncExternalStore = useSyncExternalStore$2;
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+        }
+      })();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/shim/index.js
+var require_shim = __commonJS({
+  "node_modules/use-sync-external-store/shim/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_use_sync_external_store_shim_development();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js
+var require_with_selector_development = __commonJS({
+  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
+        }
+        var React52 = require_react();
+        var shim = require_shim();
+        function is(x2, y2) {
+          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
+        }
+        var objectIs = typeof Object.is === "function" ? Object.is : is;
+        var useSyncExternalStore3 = shim.useSyncExternalStore;
+        var useRef3 = React52.useRef, useEffect2 = React52.useEffect, useMemo3 = React52.useMemo, useDebugValue2 = React52.useDebugValue;
+        function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
+          var instRef = useRef3(null);
+          var inst;
+          if (instRef.current === null) {
+            inst = {
+              hasValue: false,
+              value: null
+            };
+            instRef.current = inst;
+          } else {
+            inst = instRef.current;
+          }
+          var _useMemo = useMemo3(function() {
+            var hasMemo = false;
+            var memoizedSnapshot;
+            var memoizedSelection;
+            var memoizedSelector = function(nextSnapshot) {
+              if (!hasMemo) {
+                hasMemo = true;
+                memoizedSnapshot = nextSnapshot;
+                var _nextSelection = selector(nextSnapshot);
+                if (isEqual !== void 0) {
+                  if (inst.hasValue) {
+                    var currentSelection = inst.value;
+                    if (isEqual(currentSelection, _nextSelection)) {
+                      memoizedSelection = currentSelection;
+                      return currentSelection;
+                    }
+                  }
+                }
+                memoizedSelection = _nextSelection;
+                return _nextSelection;
+              }
+              var prevSnapshot = memoizedSnapshot;
+              var prevSelection = memoizedSelection;
+              if (objectIs(prevSnapshot, nextSnapshot)) {
+                return prevSelection;
+              }
+              var nextSelection = selector(nextSnapshot);
+              if (isEqual !== void 0 && isEqual(prevSelection, nextSelection)) {
+                return prevSelection;
+              }
+              memoizedSnapshot = nextSnapshot;
+              memoizedSelection = nextSelection;
+              return nextSelection;
+            };
+            var maybeGetServerSnapshot = getServerSnapshot === void 0 ? null : getServerSnapshot;
+            var getSnapshotWithSelector = function() {
+              return memoizedSelector(getSnapshot());
+            };
+            var getServerSnapshotWithSelector = maybeGetServerSnapshot === null ? void 0 : function() {
+              return memoizedSelector(maybeGetServerSnapshot());
+            };
+            return [getSnapshotWithSelector, getServerSnapshotWithSelector];
+          }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
+          var value = useSyncExternalStore3(subscribe2, getSelection, getServerSelection);
+          useEffect2(function() {
+            inst.hasValue = true;
+            inst.value = value;
+          }, [value]);
+          useDebugValue2(value);
+          return value;
+        }
+        exports.useSyncExternalStoreWithSelector = useSyncExternalStoreWithSelector3;
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+        }
+      })();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/shim/with-selector.js
+var require_with_selector = __commonJS({
+  "node_modules/use-sync-external-store/shim/with-selector.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_with_selector_development();
+    }
+  }
+});
+
+// node_modules/react-is/cjs/react-is.development.js
+var require_react_is_development = __commonJS({
+  "node_modules/react-is/cjs/react-is.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var hasSymbol = typeof Symbol === "function" && Symbol.for;
+        var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103;
+        var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106;
+        var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107;
+        var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108;
+        var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114;
+        var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109;
+        var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110;
+        var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111;
+        var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111;
+        var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112;
+        var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113;
+        var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120;
+        var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115;
+        var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116;
+        var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121;
+        var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117;
+        var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118;
+        var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119;
+        function isValidElementType2(type) {
+          return typeof type === "string" || typeof type === "function" || type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+        }
+        function typeOf(object) {
+          if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch ($$typeof) {
+              case REACT_ELEMENT_TYPE:
+                var type = object.type;
+                switch (type) {
+                  case REACT_ASYNC_MODE_TYPE:
+                  case REACT_CONCURRENT_MODE_TYPE:
+                  case REACT_FRAGMENT_TYPE:
+                  case REACT_PROFILER_TYPE:
+                  case REACT_STRICT_MODE_TYPE:
+                  case REACT_SUSPENSE_TYPE:
+                    return type;
+                  default:
+                    var $$typeofType = type && type.$$typeof;
+                    switch ($$typeofType) {
+                      case REACT_CONTEXT_TYPE:
+                      case REACT_FORWARD_REF_TYPE:
+                      case REACT_LAZY_TYPE:
+                      case REACT_MEMO_TYPE:
+                      case REACT_PROVIDER_TYPE:
+                        return $$typeofType;
+                      default:
+                        return $$typeof;
+                    }
+                }
+              case REACT_PORTAL_TYPE:
+                return $$typeof;
+            }
+          }
+          return void 0;
+        }
+        var AsyncMode = REACT_ASYNC_MODE_TYPE;
+        var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+        var ContextConsumer = REACT_CONTEXT_TYPE;
+        var ContextProvider = REACT_PROVIDER_TYPE;
+        var Element = REACT_ELEMENT_TYPE;
+        var ForwardRef = REACT_FORWARD_REF_TYPE;
+        var Fragment2 = REACT_FRAGMENT_TYPE;
+        var Lazy = REACT_LAZY_TYPE;
+        var Memo = REACT_MEMO_TYPE;
+        var Portal = REACT_PORTAL_TYPE;
+        var Profiler = REACT_PROFILER_TYPE;
+        var StrictMode = REACT_STRICT_MODE_TYPE;
+        var Suspense = REACT_SUSPENSE_TYPE;
+        var hasWarnedAboutDeprecatedIsAsyncMode = false;
+        function isAsyncMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+              hasWarnedAboutDeprecatedIsAsyncMode = true;
+              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
+            }
+          }
+          return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+        }
+        function isConcurrentMode(object) {
+          return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+        }
+        function isContextConsumer2(object) {
+          return typeOf(object) === REACT_CONTEXT_TYPE;
+        }
+        function isContextProvider(object) {
+          return typeOf(object) === REACT_PROVIDER_TYPE;
+        }
+        function isElement(object) {
+          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+        }
+        function isForwardRef(object) {
+          return typeOf(object) === REACT_FORWARD_REF_TYPE;
+        }
+        function isFragment(object) {
+          return typeOf(object) === REACT_FRAGMENT_TYPE;
+        }
+        function isLazy(object) {
+          return typeOf(object) === REACT_LAZY_TYPE;
+        }
+        function isMemo(object) {
+          return typeOf(object) === REACT_MEMO_TYPE;
+        }
+        function isPortal(object) {
+          return typeOf(object) === REACT_PORTAL_TYPE;
+        }
+        function isProfiler(object) {
+          return typeOf(object) === REACT_PROFILER_TYPE;
+        }
+        function isStrictMode(object) {
+          return typeOf(object) === REACT_STRICT_MODE_TYPE;
+        }
+        function isSuspense(object) {
+          return typeOf(object) === REACT_SUSPENSE_TYPE;
+        }
+        exports.AsyncMode = AsyncMode;
+        exports.ConcurrentMode = ConcurrentMode;
+        exports.ContextConsumer = ContextConsumer;
+        exports.ContextProvider = ContextProvider;
+        exports.Element = Element;
+        exports.ForwardRef = ForwardRef;
+        exports.Fragment = Fragment2;
+        exports.Lazy = Lazy;
+        exports.Memo = Memo;
+        exports.Portal = Portal;
+        exports.Profiler = Profiler;
+        exports.StrictMode = StrictMode;
+        exports.Suspense = Suspense;
+        exports.isAsyncMode = isAsyncMode;
+        exports.isConcurrentMode = isConcurrentMode;
+        exports.isContextConsumer = isContextConsumer2;
+        exports.isContextProvider = isContextProvider;
+        exports.isElement = isElement;
+        exports.isForwardRef = isForwardRef;
+        exports.isFragment = isFragment;
+        exports.isLazy = isLazy;
+        exports.isMemo = isMemo;
+        exports.isPortal = isPortal;
+        exports.isProfiler = isProfiler;
+        exports.isStrictMode = isStrictMode;
+        exports.isSuspense = isSuspense;
+        exports.isValidElementType = isValidElementType2;
+        exports.typeOf = typeOf;
+      })();
+    }
+  }
+});
+
+// node_modules/react-is/index.js
+var require_react_is = __commonJS({
+  "node_modules/react-is/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_react_is_development();
+    }
+  }
+});
+
+// node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
+var require_hoist_non_react_statics_cjs = __commonJS({
+  "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module2) {
+    "use strict";
+    var reactIs = require_react_is();
+    var REACT_STATICS = {
+      childContextTypes: true,
+      contextType: true,
+      contextTypes: true,
+      defaultProps: true,
+      displayName: true,
+      getDefaultProps: true,
+      getDerivedStateFromError: true,
+      getDerivedStateFromProps: true,
+      mixins: true,
+      propTypes: true,
+      type: true
+    };
+    var KNOWN_STATICS = {
+      name: true,
+      length: true,
+      prototype: true,
+      caller: true,
+      callee: true,
+      arguments: true,
+      arity: true
+    };
+    var FORWARD_REF_STATICS = {
+      "$$typeof": true,
+      render: true,
+      defaultProps: true,
+      displayName: true,
+      propTypes: true
+    };
+    var MEMO_STATICS = {
+      "$$typeof": true,
+      compare: true,
+      defaultProps: true,
+      displayName: true,
+      propTypes: true,
+      type: true
+    };
+    var TYPE_STATICS = {};
+    TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
+    TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
+    function getStatics(component) {
+      if (reactIs.isMemo(component)) {
+        return MEMO_STATICS;
+      }
+      return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
+    }
+    var defineProperty = Object.defineProperty;
+    var getOwnPropertyNames = Object.getOwnPropertyNames;
+    var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+    var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+    var getPrototypeOf = Object.getPrototypeOf;
+    var objectPrototype = Object.prototype;
+    function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+      if (typeof sourceComponent !== "string") {
+        if (objectPrototype) {
+          var inheritedComponent = getPrototypeOf(sourceComponent);
+          if (inheritedComponent && inheritedComponent !== objectPrototype) {
+            hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+          }
+        }
+        var keys = getOwnPropertyNames(sourceComponent);
+        if (getOwnPropertySymbols) {
+          keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+        var targetStatics = getStatics(targetComponent);
+        var sourceStatics = getStatics(sourceComponent);
+        for (var i2 = 0; i2 < keys.length; ++i2) {
+          var key = keys[i2];
+          if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+            var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+            try {
+              defineProperty(targetComponent, key, descriptor);
+            } catch (e) {
+            }
+          }
+        }
+      }
+      return targetComponent;
+    }
+    module2.exports = hoistNonReactStatics;
+  }
+});
+
+// node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js
+var require_react_is_development2 = __commonJS({
+  "node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+        var REACT_SERVER_CONTEXT_TYPE = Symbol.for("react.server_context");
+        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+        var REACT_MEMO_TYPE = Symbol.for("react.memo");
+        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+        var enableScopeAPI = false;
+        var enableCacheElement = false;
+        var enableTransitionTracing = false;
+        var enableLegacyHidden = false;
+        var enableDebugTracing = false;
+        var REACT_MODULE_REFERENCE;
+        {
+          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+        }
+        function isValidElementType2(type) {
+          if (typeof type === "string" || typeof type === "function") {
+            return true;
+          }
+          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
+            return true;
+          }
+          if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
+              return true;
+            }
+          }
+          return false;
+        }
+        function typeOf(object) {
+          if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch ($$typeof) {
+              case REACT_ELEMENT_TYPE:
+                var type = object.type;
+                switch (type) {
+                  case REACT_FRAGMENT_TYPE:
+                  case REACT_PROFILER_TYPE:
+                  case REACT_STRICT_MODE_TYPE:
+                  case REACT_SUSPENSE_TYPE:
+                  case REACT_SUSPENSE_LIST_TYPE:
+                    return type;
+                  default:
+                    var $$typeofType = type && type.$$typeof;
+                    switch ($$typeofType) {
+                      case REACT_SERVER_CONTEXT_TYPE:
+                      case REACT_CONTEXT_TYPE:
+                      case REACT_FORWARD_REF_TYPE:
+                      case REACT_LAZY_TYPE:
+                      case REACT_MEMO_TYPE:
+                      case REACT_PROVIDER_TYPE:
+                        return $$typeofType;
+                      default:
+                        return $$typeof;
+                    }
+                }
+              case REACT_PORTAL_TYPE:
+                return $$typeof;
+            }
+          }
+          return void 0;
+        }
+        var ContextConsumer = REACT_CONTEXT_TYPE;
+        var ContextProvider = REACT_PROVIDER_TYPE;
+        var Element = REACT_ELEMENT_TYPE;
+        var ForwardRef = REACT_FORWARD_REF_TYPE;
+        var Fragment2 = REACT_FRAGMENT_TYPE;
+        var Lazy = REACT_LAZY_TYPE;
+        var Memo = REACT_MEMO_TYPE;
+        var Portal = REACT_PORTAL_TYPE;
+        var Profiler = REACT_PROFILER_TYPE;
+        var StrictMode = REACT_STRICT_MODE_TYPE;
+        var Suspense = REACT_SUSPENSE_TYPE;
+        var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
+        var hasWarnedAboutDeprecatedIsAsyncMode = false;
+        var hasWarnedAboutDeprecatedIsConcurrentMode = false;
+        function isAsyncMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+              hasWarnedAboutDeprecatedIsAsyncMode = true;
+              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 18+.");
+            }
+          }
+          return false;
+        }
+        function isConcurrentMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
+              hasWarnedAboutDeprecatedIsConcurrentMode = true;
+              console["warn"]("The ReactIs.isConcurrentMode() alias has been deprecated, and will be removed in React 18+.");
+            }
+          }
+          return false;
+        }
+        function isContextConsumer2(object) {
+          return typeOf(object) === REACT_CONTEXT_TYPE;
+        }
+        function isContextProvider(object) {
+          return typeOf(object) === REACT_PROVIDER_TYPE;
+        }
+        function isElement(object) {
+          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+        }
+        function isForwardRef(object) {
+          return typeOf(object) === REACT_FORWARD_REF_TYPE;
+        }
+        function isFragment(object) {
+          return typeOf(object) === REACT_FRAGMENT_TYPE;
+        }
+        function isLazy(object) {
+          return typeOf(object) === REACT_LAZY_TYPE;
+        }
+        function isMemo(object) {
+          return typeOf(object) === REACT_MEMO_TYPE;
+        }
+        function isPortal(object) {
+          return typeOf(object) === REACT_PORTAL_TYPE;
+        }
+        function isProfiler(object) {
+          return typeOf(object) === REACT_PROFILER_TYPE;
+        }
+        function isStrictMode(object) {
+          return typeOf(object) === REACT_STRICT_MODE_TYPE;
+        }
+        function isSuspense(object) {
+          return typeOf(object) === REACT_SUSPENSE_TYPE;
+        }
+        function isSuspenseList(object) {
+          return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
+        }
+        exports.ContextConsumer = ContextConsumer;
+        exports.ContextProvider = ContextProvider;
+        exports.Element = Element;
+        exports.ForwardRef = ForwardRef;
+        exports.Fragment = Fragment2;
+        exports.Lazy = Lazy;
+        exports.Memo = Memo;
+        exports.Portal = Portal;
+        exports.Profiler = Profiler;
+        exports.StrictMode = StrictMode;
+        exports.Suspense = Suspense;
+        exports.SuspenseList = SuspenseList;
+        exports.isAsyncMode = isAsyncMode;
+        exports.isConcurrentMode = isConcurrentMode;
+        exports.isContextConsumer = isContextConsumer2;
+        exports.isContextProvider = isContextProvider;
+        exports.isElement = isElement;
+        exports.isForwardRef = isForwardRef;
+        exports.isFragment = isFragment;
+        exports.isLazy = isLazy;
+        exports.isMemo = isMemo;
+        exports.isPortal = isPortal;
+        exports.isProfiler = isProfiler;
+        exports.isStrictMode = isStrictMode;
+        exports.isSuspense = isSuspense;
+        exports.isSuspenseList = isSuspenseList;
+        exports.isValidElementType = isValidElementType2;
+        exports.typeOf = typeOf;
+      })();
+    }
+  }
+});
+
+// node_modules/react-redux/node_modules/react-is/index.js
+var require_react_is2 = __commonJS({
+  "node_modules/react-redux/node_modules/react-is/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_react_is_development2();
+    }
+  }
+});
+
+// node_modules/react/cjs/react-jsx-runtime.development.js
+var require_react_jsx_runtime_development = __commonJS({
+  "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var React52 = require_react();
+        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+        var REACT_MEMO_TYPE = Symbol.for("react.memo");
+        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+        var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
+        var FAUX_ITERATOR_SYMBOL = "@@iterator";
+        function getIteratorFn(maybeIterable) {
+          if (maybeIterable === null || typeof maybeIterable !== "object") {
+            return null;
+          }
+          var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
+          if (typeof maybeIterator === "function") {
+            return maybeIterator;
+          }
+          return null;
+        }
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        function error(format) {
+          {
+            {
+              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                args[_key2 - 1] = arguments[_key2];
+              }
+              printWarning("error", format, args);
+            }
+          }
+        }
+        function printWarning(level, format, args) {
+          {
+            var ReactDebugCurrentFrame2 = ReactSharedInternals.ReactDebugCurrentFrame;
+            var stack = ReactDebugCurrentFrame2.getStackAddendum();
+            if (stack !== "") {
+              format += "%s";
+              args = args.concat([stack]);
+            }
+            var argsWithFormat = args.map(function(item) {
+              return String(item);
+            });
+            argsWithFormat.unshift("Warning: " + format);
+            Function.prototype.apply.call(console[level], console, argsWithFormat);
+          }
+        }
+        var enableScopeAPI = false;
+        var enableCacheElement = false;
+        var enableTransitionTracing = false;
+        var enableLegacyHidden = false;
+        var enableDebugTracing = false;
+        var REACT_MODULE_REFERENCE;
+        {
+          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+        }
+        function isValidElementType2(type) {
+          if (typeof type === "string" || typeof type === "function") {
+            return true;
+          }
+          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
+            return true;
+          }
+          if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
+              return true;
+            }
+          }
+          return false;
+        }
+        function getWrappedName(outerType, innerType, wrapperName) {
+          var displayName = outerType.displayName;
+          if (displayName) {
+            return displayName;
+          }
+          var functionName = innerType.displayName || innerType.name || "";
+          return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
+        }
+        function getContextName(type) {
+          return type.displayName || "Context";
+        }
+        function getComponentNameFromType(type) {
+          if (type == null) {
+            return null;
+          }
+          {
+            if (typeof type.tag === "number") {
+              error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
+            }
+          }
+          if (typeof type === "function") {
+            return type.displayName || type.name || null;
+          }
+          if (typeof type === "string") {
+            return type;
+          }
+          switch (type) {
+            case REACT_FRAGMENT_TYPE:
+              return "Fragment";
+            case REACT_PORTAL_TYPE:
+              return "Portal";
+            case REACT_PROFILER_TYPE:
+              return "Profiler";
+            case REACT_STRICT_MODE_TYPE:
+              return "StrictMode";
+            case REACT_SUSPENSE_TYPE:
+              return "Suspense";
+            case REACT_SUSPENSE_LIST_TYPE:
+              return "SuspenseList";
+          }
+          if (typeof type === "object") {
+            switch (type.$$typeof) {
+              case REACT_CONTEXT_TYPE:
+                var context = type;
+                return getContextName(context) + ".Consumer";
+              case REACT_PROVIDER_TYPE:
+                var provider = type;
+                return getContextName(provider._context) + ".Provider";
+              case REACT_FORWARD_REF_TYPE:
+                return getWrappedName(type, type.render, "ForwardRef");
+              case REACT_MEMO_TYPE:
+                var outerName = type.displayName || null;
+                if (outerName !== null) {
+                  return outerName;
+                }
+                return getComponentNameFromType(type.type) || "Memo";
+              case REACT_LAZY_TYPE: {
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init2 = lazyComponent._init;
+                try {
+                  return getComponentNameFromType(init2(payload));
+                } catch (x2) {
+                  return null;
+                }
+              }
+            }
+          }
+          return null;
+        }
+        var assign = Object.assign;
+        var disabledDepth = 0;
+        var prevLog;
+        var prevInfo;
+        var prevWarn;
+        var prevError;
+        var prevGroup;
+        var prevGroupCollapsed;
+        var prevGroupEnd;
+        function disabledLog() {
+        }
+        disabledLog.__reactDisabledLog = true;
+        function disableLogs() {
+          {
+            if (disabledDepth === 0) {
+              prevLog = console.log;
+              prevInfo = console.info;
+              prevWarn = console.warn;
+              prevError = console.error;
+              prevGroup = console.group;
+              prevGroupCollapsed = console.groupCollapsed;
+              prevGroupEnd = console.groupEnd;
+              var props = {
+                configurable: true,
+                enumerable: true,
+                value: disabledLog,
+                writable: true
+              };
+              Object.defineProperties(console, {
+                info: props,
+                log: props,
+                warn: props,
+                error: props,
+                group: props,
+                groupCollapsed: props,
+                groupEnd: props
+              });
+            }
+            disabledDepth++;
+          }
+        }
+        function reenableLogs() {
+          {
+            disabledDepth--;
+            if (disabledDepth === 0) {
+              var props = {
+                configurable: true,
+                enumerable: true,
+                writable: true
+              };
+              Object.defineProperties(console, {
+                log: assign({}, props, {
+                  value: prevLog
+                }),
+                info: assign({}, props, {
+                  value: prevInfo
+                }),
+                warn: assign({}, props, {
+                  value: prevWarn
+                }),
+                error: assign({}, props, {
+                  value: prevError
+                }),
+                group: assign({}, props, {
+                  value: prevGroup
+                }),
+                groupCollapsed: assign({}, props, {
+                  value: prevGroupCollapsed
+                }),
+                groupEnd: assign({}, props, {
+                  value: prevGroupEnd
+                })
+              });
+            }
+            if (disabledDepth < 0) {
+              error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
+            }
+          }
+        }
+        var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
+        var prefix2;
+        function describeBuiltInComponentFrame(name, source, ownerFn) {
+          {
+            if (prefix2 === void 0) {
+              try {
+                throw Error();
+              } catch (x2) {
+                var match = x2.stack.trim().match(/\n( *(at )?)/);
+                prefix2 = match && match[1] || "";
+              }
+            }
+            return "\n" + prefix2 + name;
+          }
+        }
+        var reentry = false;
+        var componentFrameCache;
+        {
+          var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
+          componentFrameCache = new PossiblyWeakMap();
+        }
+        function describeNativeComponentFrame(fn2, construct) {
+          if (!fn2 || reentry) {
+            return "";
+          }
+          {
+            var frame = componentFrameCache.get(fn2);
+            if (frame !== void 0) {
+              return frame;
+            }
+          }
+          var control;
+          reentry = true;
+          var previousPrepareStackTrace = Error.prepareStackTrace;
+          Error.prepareStackTrace = void 0;
+          var previousDispatcher;
+          {
+            previousDispatcher = ReactCurrentDispatcher.current;
+            ReactCurrentDispatcher.current = null;
+            disableLogs();
+          }
+          try {
+            if (construct) {
+              var Fake = function() {
+                throw Error();
+              };
+              Object.defineProperty(Fake.prototype, "props", {
+                set: function() {
+                  throw Error();
+                }
+              });
+              if (typeof Reflect === "object" && Reflect.construct) {
+                try {
+                  Reflect.construct(Fake, []);
+                } catch (x2) {
+                  control = x2;
+                }
+                Reflect.construct(fn2, [], Fake);
+              } else {
+                try {
+                  Fake.call();
+                } catch (x2) {
+                  control = x2;
+                }
+                fn2.call(Fake.prototype);
+              }
+            } else {
+              try {
+                throw Error();
+              } catch (x2) {
+                control = x2;
+              }
+              fn2();
+            }
+          } catch (sample) {
+            if (sample && control && typeof sample.stack === "string") {
+              var sampleLines = sample.stack.split("\n");
+              var controlLines = control.stack.split("\n");
+              var s2 = sampleLines.length - 1;
+              var c2 = controlLines.length - 1;
+              while (s2 >= 1 && c2 >= 0 && sampleLines[s2] !== controlLines[c2]) {
+                c2--;
+              }
+              for (; s2 >= 1 && c2 >= 0; s2--, c2--) {
+                if (sampleLines[s2] !== controlLines[c2]) {
+                  if (s2 !== 1 || c2 !== 1) {
+                    do {
+                      s2--;
+                      c2--;
+                      if (c2 < 0 || sampleLines[s2] !== controlLines[c2]) {
+                        var _frame = "\n" + sampleLines[s2].replace(" at new ", " at ");
+                        if (fn2.displayName && _frame.includes("<anonymous>")) {
+                          _frame = _frame.replace("<anonymous>", fn2.displayName);
+                        }
+                        {
+                          if (typeof fn2 === "function") {
+                            componentFrameCache.set(fn2, _frame);
+                          }
+                        }
+                        return _frame;
+                      }
+                    } while (s2 >= 1 && c2 >= 0);
+                  }
+                  break;
+                }
+              }
+            }
+          } finally {
+            reentry = false;
+            {
+              ReactCurrentDispatcher.current = previousDispatcher;
+              reenableLogs();
+            }
+            Error.prepareStackTrace = previousPrepareStackTrace;
+          }
+          var name = fn2 ? fn2.displayName || fn2.name : "";
+          var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
+          {
+            if (typeof fn2 === "function") {
+              componentFrameCache.set(fn2, syntheticFrame);
+            }
+          }
+          return syntheticFrame;
+        }
+        function describeFunctionComponentFrame(fn2, source, ownerFn) {
+          {
+            return describeNativeComponentFrame(fn2, false);
+          }
+        }
+        function shouldConstruct(Component2) {
+          var prototype = Component2.prototype;
+          return !!(prototype && prototype.isReactComponent);
+        }
+        function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
+          if (type == null) {
+            return "";
+          }
+          if (typeof type === "function") {
+            {
+              return describeNativeComponentFrame(type, shouldConstruct(type));
+            }
+          }
+          if (typeof type === "string") {
+            return describeBuiltInComponentFrame(type);
+          }
+          switch (type) {
+            case REACT_SUSPENSE_TYPE:
+              return describeBuiltInComponentFrame("Suspense");
+            case REACT_SUSPENSE_LIST_TYPE:
+              return describeBuiltInComponentFrame("SuspenseList");
+          }
+          if (typeof type === "object") {
+            switch (type.$$typeof) {
+              case REACT_FORWARD_REF_TYPE:
+                return describeFunctionComponentFrame(type.render);
+              case REACT_MEMO_TYPE:
+                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
+              case REACT_LAZY_TYPE: {
+                var lazyComponent = type;
+                var payload = lazyComponent._payload;
+                var init2 = lazyComponent._init;
+                try {
+                  return describeUnknownElementTypeFrameInDEV(init2(payload), source, ownerFn);
+                } catch (x2) {
+                }
+              }
+            }
+          }
+          return "";
+        }
+        var hasOwnProperty = Object.prototype.hasOwnProperty;
+        var loggedTypeFailures = {};
+        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+        function setCurrentlyValidatingElement(element) {
+          {
+            if (element) {
+              var owner = element._owner;
+              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+              ReactDebugCurrentFrame.setExtraStackFrame(stack);
+            } else {
+              ReactDebugCurrentFrame.setExtraStackFrame(null);
+            }
+          }
+        }
+        function checkPropTypes(typeSpecs, values, location, componentName, element) {
+          {
+            var has = Function.call.bind(hasOwnProperty);
+            for (var typeSpecName in typeSpecs) {
+              if (has(typeSpecs, typeSpecName)) {
+                var error$1 = void 0;
+                try {
+                  if (typeof typeSpecs[typeSpecName] !== "function") {
+                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
+                    err.name = "Invariant Violation";
+                    throw err;
+                  }
+                  error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                } catch (ex) {
+                  error$1 = ex;
+                }
+                if (error$1 && !(error$1 instanceof Error)) {
+                  setCurrentlyValidatingElement(element);
+                  error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
+                  setCurrentlyValidatingElement(null);
+                }
+                if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
+                  loggedTypeFailures[error$1.message] = true;
+                  setCurrentlyValidatingElement(element);
+                  error("Failed %s type: %s", location, error$1.message);
+                  setCurrentlyValidatingElement(null);
+                }
+              }
+            }
+          }
+        }
+        var isArrayImpl = Array.isArray;
+        function isArray(a2) {
+          return isArrayImpl(a2);
+        }
+        function typeName(value) {
+          {
+            var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
+            var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
+            return type;
+          }
+        }
+        function willCoercionThrow(value) {
+          {
+            try {
+              testStringCoercion(value);
+              return false;
+            } catch (e) {
+              return true;
+            }
+          }
+        }
+        function testStringCoercion(value) {
+          return "" + value;
+        }
+        function checkKeyStringCoercion(value) {
+          {
+            if (willCoercionThrow(value)) {
+              error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
+              return testStringCoercion(value);
+            }
+          }
+        }
+        var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
+        var RESERVED_PROPS = {
+          key: true,
+          ref: true,
+          __self: true,
+          __source: true
+        };
+        var specialPropKeyWarningShown;
+        var specialPropRefWarningShown;
+        var didWarnAboutStringRefs;
+        {
+          didWarnAboutStringRefs = {};
+        }
+        function hasValidRef(config) {
+          {
+            if (hasOwnProperty.call(config, "ref")) {
+              var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
+              if (getter && getter.isReactWarning) {
+                return false;
+              }
+            }
+          }
+          return config.ref !== void 0;
+        }
+        function hasValidKey(config) {
+          {
+            if (hasOwnProperty.call(config, "key")) {
+              var getter = Object.getOwnPropertyDescriptor(config, "key").get;
+              if (getter && getter.isReactWarning) {
+                return false;
+              }
+            }
+          }
+          return config.key !== void 0;
+        }
+        function warnIfStringRefCannotBeAutoConverted(config, self2) {
+          {
+            if (typeof config.ref === "string" && ReactCurrentOwner.current && self2 && ReactCurrentOwner.current.stateNode !== self2) {
+              var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
+              if (!didWarnAboutStringRefs[componentName]) {
+                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
+                didWarnAboutStringRefs[componentName] = true;
+              }
+            }
+          }
+        }
+        function defineKeyPropWarningGetter(props, displayName) {
+          {
+            var warnAboutAccessingKey = function() {
+              if (!specialPropKeyWarningShown) {
+                specialPropKeyWarningShown = true;
+                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+              }
+            };
+            warnAboutAccessingKey.isReactWarning = true;
+            Object.defineProperty(props, "key", {
+              get: warnAboutAccessingKey,
+              configurable: true
+            });
+          }
+        }
+        function defineRefPropWarningGetter(props, displayName) {
+          {
+            var warnAboutAccessingRef = function() {
+              if (!specialPropRefWarningShown) {
+                specialPropRefWarningShown = true;
+                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
+              }
+            };
+            warnAboutAccessingRef.isReactWarning = true;
+            Object.defineProperty(props, "ref", {
+              get: warnAboutAccessingRef,
+              configurable: true
+            });
+          }
+        }
+        var ReactElement = function(type, key, ref, self2, source, owner, props) {
+          var element = {
+            $$typeof: REACT_ELEMENT_TYPE,
+            type,
+            key,
+            ref,
+            props,
+            _owner: owner
+          };
+          {
+            element._store = {};
+            Object.defineProperty(element._store, "validated", {
+              configurable: false,
+              enumerable: false,
+              writable: true,
+              value: false
+            });
+            Object.defineProperty(element, "_self", {
+              configurable: false,
+              enumerable: false,
+              writable: false,
+              value: self2
+            });
+            Object.defineProperty(element, "_source", {
+              configurable: false,
+              enumerable: false,
+              writable: false,
+              value: source
+            });
+            if (Object.freeze) {
+              Object.freeze(element.props);
+              Object.freeze(element);
+            }
+          }
+          return element;
+        };
+        function jsxDEV(type, config, maybeKey, source, self2) {
+          {
+            var propName;
+            var props = {};
+            var key = null;
+            var ref = null;
+            if (maybeKey !== void 0) {
+              {
+                checkKeyStringCoercion(maybeKey);
+              }
+              key = "" + maybeKey;
+            }
+            if (hasValidKey(config)) {
+              {
+                checkKeyStringCoercion(config.key);
+              }
+              key = "" + config.key;
+            }
+            if (hasValidRef(config)) {
+              ref = config.ref;
+              warnIfStringRefCannotBeAutoConverted(config, self2);
+            }
+            for (propName in config) {
+              if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) {
+                props[propName] = config[propName];
+              }
+            }
+            if (type && type.defaultProps) {
+              var defaultProps = type.defaultProps;
+              for (propName in defaultProps) {
+                if (props[propName] === void 0) {
+                  props[propName] = defaultProps[propName];
+                }
+              }
+            }
+            if (key || ref) {
+              var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
+              if (key) {
+                defineKeyPropWarningGetter(props, displayName);
+              }
+              if (ref) {
+                defineRefPropWarningGetter(props, displayName);
+              }
+            }
+            return ReactElement(type, key, ref, self2, source, ReactCurrentOwner.current, props);
+          }
+        }
+        var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
+        var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
+        function setCurrentlyValidatingElement$1(element) {
+          {
+            if (element) {
+              var owner = element._owner;
+              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
+              ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
+            } else {
+              ReactDebugCurrentFrame$1.setExtraStackFrame(null);
+            }
+          }
+        }
+        var propTypesMisspellWarningShown;
+        {
+          propTypesMisspellWarningShown = false;
+        }
+        function isValidElement(object) {
+          {
+            return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+          }
+        }
+        function getDeclarationErrorAddendum() {
+          {
+            if (ReactCurrentOwner$1.current) {
+              var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
+              if (name) {
+                return "\n\nCheck the render method of `" + name + "`.";
+              }
+            }
+            return "";
+          }
+        }
+        function getSourceInfoErrorAddendum(source) {
+          {
+            if (source !== void 0) {
+              var fileName = source.fileName.replace(/^.*[\\\/]/, "");
+              var lineNumber = source.lineNumber;
+              return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
+            }
+            return "";
+          }
+        }
+        var ownerHasKeyUseWarning = {};
+        function getCurrentComponentErrorInfo(parentType) {
+          {
+            var info = getDeclarationErrorAddendum();
+            if (!info) {
+              var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
+              if (parentName) {
+                info = "\n\nCheck the top-level render call using <" + parentName + ">.";
+              }
+            }
+            return info;
+          }
+        }
+        function validateExplicitKey(element, parentType) {
+          {
+            if (!element._store || element._store.validated || element.key != null) {
+              return;
+            }
+            element._store.validated = true;
+            var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
+            if (ownerHasKeyUseWarning[currentComponentErrorInfo]) {
+              return;
+            }
+            ownerHasKeyUseWarning[currentComponentErrorInfo] = true;
+            var childOwner = "";
+            if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) {
+              childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
+            }
+            setCurrentlyValidatingElement$1(element);
+            error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
+            setCurrentlyValidatingElement$1(null);
+          }
+        }
+        function validateChildKeys(node, parentType) {
+          {
+            if (typeof node !== "object") {
+              return;
+            }
+            if (isArray(node)) {
+              for (var i2 = 0; i2 < node.length; i2++) {
+                var child = node[i2];
+                if (isValidElement(child)) {
+                  validateExplicitKey(child, parentType);
+                }
+              }
+            } else if (isValidElement(node)) {
+              if (node._store) {
+                node._store.validated = true;
+              }
+            } else if (node) {
+              var iteratorFn = getIteratorFn(node);
+              if (typeof iteratorFn === "function") {
+                if (iteratorFn !== node.entries) {
+                  var iterator = iteratorFn.call(node);
+                  var step;
+                  while (!(step = iterator.next()).done) {
+                    if (isValidElement(step.value)) {
+                      validateExplicitKey(step.value, parentType);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        function validatePropTypes(element) {
+          {
+            var type = element.type;
+            if (type === null || type === void 0 || typeof type === "string") {
+              return;
+            }
+            var propTypes;
+            if (typeof type === "function") {
+              propTypes = type.propTypes;
+            } else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MEMO_TYPE)) {
+              propTypes = type.propTypes;
+            } else {
+              return;
+            }
+            if (propTypes) {
+              var name = getComponentNameFromType(type);
+              checkPropTypes(propTypes, element.props, "prop", name, element);
+            } else if (type.PropTypes !== void 0 && !propTypesMisspellWarningShown) {
+              propTypesMisspellWarningShown = true;
+              var _name = getComponentNameFromType(type);
+              error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
+            }
+            if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) {
+              error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
+            }
+          }
+        }
+        function validateFragmentProps(fragment) {
+          {
+            var keys = Object.keys(fragment.props);
+            for (var i2 = 0; i2 < keys.length; i2++) {
+              var key = keys[i2];
+              if (key !== "children" && key !== "key") {
+                setCurrentlyValidatingElement$1(fragment);
+                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
+                setCurrentlyValidatingElement$1(null);
+                break;
+              }
+            }
+            if (fragment.ref !== null) {
+              setCurrentlyValidatingElement$1(fragment);
+              error("Invalid attribute `ref` supplied to `React.Fragment`.");
+              setCurrentlyValidatingElement$1(null);
+            }
+          }
+        }
+        function jsxWithValidation(type, props, key, isStaticChildren, source, self2) {
+          {
+            var validType = isValidElementType2(type);
+            if (!validType) {
+              var info = "";
+              if (type === void 0 || typeof type === "object" && type !== null && Object.keys(type).length === 0) {
+                info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
+              }
+              var sourceInfo = getSourceInfoErrorAddendum(source);
+              if (sourceInfo) {
+                info += sourceInfo;
+              } else {
+                info += getDeclarationErrorAddendum();
+              }
+              var typeString;
+              if (type === null) {
+                typeString = "null";
+              } else if (isArray(type)) {
+                typeString = "array";
+              } else if (type !== void 0 && type.$$typeof === REACT_ELEMENT_TYPE) {
+                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
+                info = " Did you accidentally export a JSX literal instead of a component?";
+              } else {
+                typeString = typeof type;
+              }
+              error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
+            }
+            var element = jsxDEV(type, props, key, source, self2);
+            if (element == null) {
+              return element;
+            }
+            if (validType) {
+              var children = props.children;
+              if (children !== void 0) {
+                if (isStaticChildren) {
+                  if (isArray(children)) {
+                    for (var i2 = 0; i2 < children.length; i2++) {
+                      validateChildKeys(children[i2], type);
+                    }
+                    if (Object.freeze) {
+                      Object.freeze(children);
+                    }
+                  } else {
+                    error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
+                  }
+                } else {
+                  validateChildKeys(children, type);
+                }
+              }
+            }
+            if (type === REACT_FRAGMENT_TYPE) {
+              validateFragmentProps(element);
+            } else {
+              validatePropTypes(element);
+            }
+            return element;
+          }
+        }
+        function jsxWithValidationStatic(type, props, key) {
+          {
+            return jsxWithValidation(type, props, key, true);
+          }
+        }
+        function jsxWithValidationDynamic(type, props, key) {
+          {
+            return jsxWithValidation(type, props, key, false);
+          }
+        }
+        var jsx3 = jsxWithValidationDynamic;
+        var jsxs2 = jsxWithValidationStatic;
+        exports.Fragment = REACT_FRAGMENT_TYPE;
+        exports.jsx = jsx3;
+        exports.jsxs = jsxs2;
+      })();
+    }
+  }
+});
+
+// node_modules/react/jsx-runtime.js
+var require_jsx_runtime = __commonJS({
+  "node_modules/react/jsx-runtime.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_react_jsx_runtime_development();
+    }
   }
 });
 
@@ -24255,260 +25816,6 @@ var require_extends = __commonJS({
   }
 });
 
-// node_modules/react-is/cjs/react-is.development.js
-var require_react_is_development = __commonJS({
-  "node_modules/react-is/cjs/react-is.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        var hasSymbol = typeof Symbol === "function" && Symbol.for;
-        var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103;
-        var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106;
-        var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107;
-        var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108;
-        var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114;
-        var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109;
-        var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110;
-        var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111;
-        var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111;
-        var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112;
-        var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113;
-        var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120;
-        var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115;
-        var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116;
-        var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121;
-        var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117;
-        var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118;
-        var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119;
-        function isValidElementType2(type) {
-          return typeof type === "string" || typeof type === "function" || type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
-        }
-        function typeOf(object) {
-          if (typeof object === "object" && object !== null) {
-            var $$typeof = object.$$typeof;
-            switch ($$typeof) {
-              case REACT_ELEMENT_TYPE:
-                var type = object.type;
-                switch (type) {
-                  case REACT_ASYNC_MODE_TYPE:
-                  case REACT_CONCURRENT_MODE_TYPE:
-                  case REACT_FRAGMENT_TYPE:
-                  case REACT_PROFILER_TYPE:
-                  case REACT_STRICT_MODE_TYPE:
-                  case REACT_SUSPENSE_TYPE:
-                    return type;
-                  default:
-                    var $$typeofType = type && type.$$typeof;
-                    switch ($$typeofType) {
-                      case REACT_CONTEXT_TYPE:
-                      case REACT_FORWARD_REF_TYPE:
-                      case REACT_LAZY_TYPE:
-                      case REACT_MEMO_TYPE:
-                      case REACT_PROVIDER_TYPE:
-                        return $$typeofType;
-                      default:
-                        return $$typeof;
-                    }
-                }
-              case REACT_PORTAL_TYPE:
-                return $$typeof;
-            }
-          }
-          return void 0;
-        }
-        var AsyncMode = REACT_ASYNC_MODE_TYPE;
-        var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-        var ContextConsumer = REACT_CONTEXT_TYPE;
-        var ContextProvider = REACT_PROVIDER_TYPE;
-        var Element = REACT_ELEMENT_TYPE;
-        var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment2 = REACT_FRAGMENT_TYPE;
-        var Lazy = REACT_LAZY_TYPE;
-        var Memo = REACT_MEMO_TYPE;
-        var Portal = REACT_PORTAL_TYPE;
-        var Profiler = REACT_PROFILER_TYPE;
-        var StrictMode = REACT_STRICT_MODE_TYPE;
-        var Suspense = REACT_SUSPENSE_TYPE;
-        var hasWarnedAboutDeprecatedIsAsyncMode = false;
-        function isAsyncMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-              hasWarnedAboutDeprecatedIsAsyncMode = true;
-              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
-            }
-          }
-          return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-        }
-        function isConcurrentMode(object) {
-          return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-        }
-        function isContextConsumer2(object) {
-          return typeOf(object) === REACT_CONTEXT_TYPE;
-        }
-        function isContextProvider(object) {
-          return typeOf(object) === REACT_PROVIDER_TYPE;
-        }
-        function isElement(object) {
-          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-        }
-        function isForwardRef(object) {
-          return typeOf(object) === REACT_FORWARD_REF_TYPE;
-        }
-        function isFragment(object) {
-          return typeOf(object) === REACT_FRAGMENT_TYPE;
-        }
-        function isLazy(object) {
-          return typeOf(object) === REACT_LAZY_TYPE;
-        }
-        function isMemo(object) {
-          return typeOf(object) === REACT_MEMO_TYPE;
-        }
-        function isPortal(object) {
-          return typeOf(object) === REACT_PORTAL_TYPE;
-        }
-        function isProfiler(object) {
-          return typeOf(object) === REACT_PROFILER_TYPE;
-        }
-        function isStrictMode(object) {
-          return typeOf(object) === REACT_STRICT_MODE_TYPE;
-        }
-        function isSuspense(object) {
-          return typeOf(object) === REACT_SUSPENSE_TYPE;
-        }
-        exports.AsyncMode = AsyncMode;
-        exports.ConcurrentMode = ConcurrentMode;
-        exports.ContextConsumer = ContextConsumer;
-        exports.ContextProvider = ContextProvider;
-        exports.Element = Element;
-        exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment2;
-        exports.Lazy = Lazy;
-        exports.Memo = Memo;
-        exports.Portal = Portal;
-        exports.Profiler = Profiler;
-        exports.StrictMode = StrictMode;
-        exports.Suspense = Suspense;
-        exports.isAsyncMode = isAsyncMode;
-        exports.isConcurrentMode = isConcurrentMode;
-        exports.isContextConsumer = isContextConsumer2;
-        exports.isContextProvider = isContextProvider;
-        exports.isElement = isElement;
-        exports.isForwardRef = isForwardRef;
-        exports.isFragment = isFragment;
-        exports.isLazy = isLazy;
-        exports.isMemo = isMemo;
-        exports.isPortal = isPortal;
-        exports.isProfiler = isProfiler;
-        exports.isStrictMode = isStrictMode;
-        exports.isSuspense = isSuspense;
-        exports.isValidElementType = isValidElementType2;
-        exports.typeOf = typeOf;
-      })();
-    }
-  }
-});
-
-// node_modules/react-is/index.js
-var require_react_is = __commonJS({
-  "node_modules/react-is/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_react_is_development();
-    }
-  }
-});
-
-// node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
-var require_hoist_non_react_statics_cjs = __commonJS({
-  "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module2) {
-    "use strict";
-    var reactIs = require_react_is();
-    var REACT_STATICS = {
-      childContextTypes: true,
-      contextType: true,
-      contextTypes: true,
-      defaultProps: true,
-      displayName: true,
-      getDefaultProps: true,
-      getDerivedStateFromError: true,
-      getDerivedStateFromProps: true,
-      mixins: true,
-      propTypes: true,
-      type: true
-    };
-    var KNOWN_STATICS = {
-      name: true,
-      length: true,
-      prototype: true,
-      caller: true,
-      callee: true,
-      arguments: true,
-      arity: true
-    };
-    var FORWARD_REF_STATICS = {
-      "$$typeof": true,
-      render: true,
-      defaultProps: true,
-      displayName: true,
-      propTypes: true
-    };
-    var MEMO_STATICS = {
-      "$$typeof": true,
-      compare: true,
-      defaultProps: true,
-      displayName: true,
-      propTypes: true,
-      type: true
-    };
-    var TYPE_STATICS = {};
-    TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
-    TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
-    function getStatics(component) {
-      if (reactIs.isMemo(component)) {
-        return MEMO_STATICS;
-      }
-      return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
-    }
-    var defineProperty = Object.defineProperty;
-    var getOwnPropertyNames = Object.getOwnPropertyNames;
-    var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-    var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-    var getPrototypeOf = Object.getPrototypeOf;
-    var objectPrototype = Object.prototype;
-    function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-      if (typeof sourceComponent !== "string") {
-        if (objectPrototype) {
-          var inheritedComponent = getPrototypeOf(sourceComponent);
-          if (inheritedComponent && inheritedComponent !== objectPrototype) {
-            hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-          }
-        }
-        var keys = getOwnPropertyNames(sourceComponent);
-        if (getOwnPropertySymbols) {
-          keys = keys.concat(getOwnPropertySymbols(sourceComponent));
-        }
-        var targetStatics = getStatics(targetComponent);
-        var sourceStatics = getStatics(sourceComponent);
-        for (var i2 = 0; i2 < keys.length; ++i2) {
-          var key = keys[i2];
-          if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-            var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-            try {
-              defineProperty(targetComponent, key, descriptor);
-            } catch (e) {
-            }
-          }
-        }
-      }
-      return targetComponent;
-    }
-    module2.exports = hoistNonReactStatics;
-  }
-});
-
 // node_modules/@emotion/react/_isolated-hnrs/dist/emotion-react-_isolated-hnrs.cjs.dev.js
 var require_emotion_react_isolated_hnrs_cjs_dev = __commonJS({
   "node_modules/@emotion/react/_isolated-hnrs/dist/emotion-react-_isolated-hnrs.cjs.dev.js"(exports) {
@@ -24982,7 +26289,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
   "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var React50 = require_react();
+    var React52 = require_react();
     function _interopNamespace(e) {
       if (e && e.__esModule)
         return e;
@@ -25003,7 +26310,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React50);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var isBrowser = typeof document !== "undefined";
     var syncFallback = function syncFallback2(create) {
       return create();
@@ -25032,7 +26339,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs = __commonJS({
 var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-element-48d2c2e4.cjs.dev.js"(exports) {
     "use strict";
-    var React50 = require_react();
+    var React52 = require_react();
     var createCache = require_emotion_cache_cjs();
     var _extends2 = require_extends();
     var weakMemoize = require_emotion_weak_memoize_cjs();
@@ -25063,7 +26370,7 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React50);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
     var weakMemoize__default = /* @__PURE__ */ _interopDefault(weakMemoize);
     var isBrowser = typeof document !== "undefined";
@@ -25078,18 +26385,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
     }
     var CacheProvider2 = EmotionCacheContext.Provider;
     var __unsafe_useEmotionCache2 = function useEmotionCache() {
-      return React50.useContext(EmotionCacheContext);
+      return React52.useContext(EmotionCacheContext);
     };
     exports.withEmotionCache = function withEmotionCache2(func) {
-      return /* @__PURE__ */ React50.forwardRef(function(props, ref) {
-        var cache = React50.useContext(EmotionCacheContext);
+      return /* @__PURE__ */ React52.forwardRef(function(props, ref) {
+        var cache = React52.useContext(EmotionCacheContext);
         return func(props, cache, ref);
       });
     };
     if (!isBrowser) {
       exports.withEmotionCache = function withEmotionCache2(func) {
         return function(props) {
-          var cache = React50.useContext(EmotionCacheContext);
+          var cache = React52.useContext(EmotionCacheContext);
           if (cache === null) {
             cache = createCache__default["default"]({
               key: "css"
@@ -25137,18 +26444,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
         value: theme
       }, props.children);
     };
-    function withTheme2(Component) {
-      var componentName = Component.displayName || Component.name || "Component";
+    function withTheme2(Component2) {
+      var componentName = Component2.displayName || Component2.name || "Component";
       var render = function render2(props, ref) {
         var theme = React__namespace.useContext(ThemeContext2);
-        return /* @__PURE__ */ React__namespace.createElement(Component, _extends2({
+        return /* @__PURE__ */ React__namespace.createElement(Component2, _extends2({
           theme,
           ref
         }, props));
       };
       var WithTheme = /* @__PURE__ */ React__namespace.forwardRef(render);
       WithTheme.displayName = "WithTheme(" + componentName + ")";
-      return _isolatedHnrs_dist_emotionReact_isolatedHnrs["default"](WithTheme, Component);
+      return _isolatedHnrs_dist_emotionReact_isolatedHnrs["default"](WithTheme, Component2);
     }
     var getLastPart = function getLastPart2(functionName) {
       var parts = functionName.split(".");
@@ -25274,13 +26581,81 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
   }
 });
 
+// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.dev.js
+var require_emotion_react_jsx_runtime_cjs_dev = __commonJS({
+  "node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.dev.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var ReactJSXRuntime = require_jsx_runtime();
+    var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
+    require_react();
+    require_emotion_cache_cjs();
+    require_extends();
+    require_emotion_weak_memoize_cjs();
+    require_emotion_react_isolated_hnrs_cjs_dev();
+    require_hoist_non_react_statics_cjs();
+    require_emotion_utils_cjs();
+    require_emotion_serialize_cjs();
+    require_emotion_use_insertion_effect_with_fallbacks_cjs();
+    function _interopNamespace(e) {
+      if (e && e.__esModule)
+        return e;
+      var n2 = /* @__PURE__ */ Object.create(null);
+      if (e) {
+        Object.keys(e).forEach(function(k2) {
+          if (k2 !== "default") {
+            var d2 = Object.getOwnPropertyDescriptor(e, k2);
+            Object.defineProperty(n2, k2, d2.get ? d2 : {
+              enumerable: true,
+              get: function() {
+                return e[k2];
+              }
+            });
+          }
+        });
+      }
+      n2["default"] = e;
+      return Object.freeze(n2);
+    }
+    var ReactJSXRuntime__namespace = /* @__PURE__ */ _interopNamespace(ReactJSXRuntime);
+    var Fragment2 = ReactJSXRuntime__namespace.Fragment;
+    function jsx3(type, props, key) {
+      if (!emotionElement.hasOwnProperty.call(props, "css")) {
+        return ReactJSXRuntime__namespace.jsx(type, props, key);
+      }
+      return ReactJSXRuntime__namespace.jsx(emotionElement.Emotion, emotionElement.createEmotionProps(type, props), key);
+    }
+    function jsxs2(type, props, key) {
+      if (!emotionElement.hasOwnProperty.call(props, "css")) {
+        return ReactJSXRuntime__namespace.jsxs(type, props, key);
+      }
+      return ReactJSXRuntime__namespace.jsxs(emotionElement.Emotion, emotionElement.createEmotionProps(type, props), key);
+    }
+    exports.Fragment = Fragment2;
+    exports.jsx = jsx3;
+    exports.jsxs = jsxs2;
+  }
+});
+
+// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.js
+var require_emotion_react_jsx_runtime_cjs = __commonJS({
+  "node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_emotion_react_jsx_runtime_cjs_dev();
+    }
+  }
+});
+
 // node_modules/@emotion/react/dist/emotion-react.cjs.dev.js
 var require_emotion_react_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-react.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
-    var React50 = require_react();
+    var React52 = require_react();
     var utils = require_emotion_utils_cjs();
     var useInsertionEffectWithFallbacks = require_emotion_use_insertion_effect_with_fallbacks_cjs();
     var serialize2 = require_emotion_serialize_cjs();
@@ -25309,7 +26684,7 @@ var require_emotion_react_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React50);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var pkg = {
       name: "@emotion/react",
       version: "11.11.0",
@@ -25709,1941 +27084,6 @@ var require_emotion_react_cjs = __commonJS({
   }
 });
 
-// node_modules/react/cjs/react-jsx-runtime.development.js
-var require_react_jsx_runtime_development = __commonJS({
-  "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        var React50 = require_react();
-        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
-        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
-        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
-        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
-        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
-        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
-        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
-        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
-        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
-        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
-        var REACT_MEMO_TYPE = Symbol.for("react.memo");
-        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
-        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
-        var MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
-        var FAUX_ITERATOR_SYMBOL = "@@iterator";
-        function getIteratorFn(maybeIterable) {
-          if (maybeIterable === null || typeof maybeIterable !== "object") {
-            return null;
-          }
-          var maybeIterator = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL];
-          if (typeof maybeIterator === "function") {
-            return maybeIterator;
-          }
-          return null;
-        }
-        var ReactSharedInternals = React50.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-        function error(format) {
-          {
-            {
-              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-                args[_key2 - 1] = arguments[_key2];
-              }
-              printWarning("error", format, args);
-            }
-          }
-        }
-        function printWarning(level, format, args) {
-          {
-            var ReactDebugCurrentFrame2 = ReactSharedInternals.ReactDebugCurrentFrame;
-            var stack = ReactDebugCurrentFrame2.getStackAddendum();
-            if (stack !== "") {
-              format += "%s";
-              args = args.concat([stack]);
-            }
-            var argsWithFormat = args.map(function(item) {
-              return String(item);
-            });
-            argsWithFormat.unshift("Warning: " + format);
-            Function.prototype.apply.call(console[level], console, argsWithFormat);
-          }
-        }
-        var enableScopeAPI = false;
-        var enableCacheElement = false;
-        var enableTransitionTracing = false;
-        var enableLegacyHidden = false;
-        var enableDebugTracing = false;
-        var REACT_MODULE_REFERENCE;
-        {
-          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
-        }
-        function isValidElementType2(type) {
-          if (typeof type === "string" || typeof type === "function") {
-            return true;
-          }
-          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
-            return true;
-          }
-          if (typeof type === "object" && type !== null) {
-            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
-              return true;
-            }
-          }
-          return false;
-        }
-        function getWrappedName(outerType, innerType, wrapperName) {
-          var displayName = outerType.displayName;
-          if (displayName) {
-            return displayName;
-          }
-          var functionName = innerType.displayName || innerType.name || "";
-          return functionName !== "" ? wrapperName + "(" + functionName + ")" : wrapperName;
-        }
-        function getContextName(type) {
-          return type.displayName || "Context";
-        }
-        function getComponentNameFromType(type) {
-          if (type == null) {
-            return null;
-          }
-          {
-            if (typeof type.tag === "number") {
-              error("Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.");
-            }
-          }
-          if (typeof type === "function") {
-            return type.displayName || type.name || null;
-          }
-          if (typeof type === "string") {
-            return type;
-          }
-          switch (type) {
-            case REACT_FRAGMENT_TYPE:
-              return "Fragment";
-            case REACT_PORTAL_TYPE:
-              return "Portal";
-            case REACT_PROFILER_TYPE:
-              return "Profiler";
-            case REACT_STRICT_MODE_TYPE:
-              return "StrictMode";
-            case REACT_SUSPENSE_TYPE:
-              return "Suspense";
-            case REACT_SUSPENSE_LIST_TYPE:
-              return "SuspenseList";
-          }
-          if (typeof type === "object") {
-            switch (type.$$typeof) {
-              case REACT_CONTEXT_TYPE:
-                var context = type;
-                return getContextName(context) + ".Consumer";
-              case REACT_PROVIDER_TYPE:
-                var provider = type;
-                return getContextName(provider._context) + ".Provider";
-              case REACT_FORWARD_REF_TYPE:
-                return getWrappedName(type, type.render, "ForwardRef");
-              case REACT_MEMO_TYPE:
-                var outerName = type.displayName || null;
-                if (outerName !== null) {
-                  return outerName;
-                }
-                return getComponentNameFromType(type.type) || "Memo";
-              case REACT_LAZY_TYPE: {
-                var lazyComponent = type;
-                var payload = lazyComponent._payload;
-                var init2 = lazyComponent._init;
-                try {
-                  return getComponentNameFromType(init2(payload));
-                } catch (x2) {
-                  return null;
-                }
-              }
-            }
-          }
-          return null;
-        }
-        var assign = Object.assign;
-        var disabledDepth = 0;
-        var prevLog;
-        var prevInfo;
-        var prevWarn;
-        var prevError;
-        var prevGroup;
-        var prevGroupCollapsed;
-        var prevGroupEnd;
-        function disabledLog() {
-        }
-        disabledLog.__reactDisabledLog = true;
-        function disableLogs() {
-          {
-            if (disabledDepth === 0) {
-              prevLog = console.log;
-              prevInfo = console.info;
-              prevWarn = console.warn;
-              prevError = console.error;
-              prevGroup = console.group;
-              prevGroupCollapsed = console.groupCollapsed;
-              prevGroupEnd = console.groupEnd;
-              var props = {
-                configurable: true,
-                enumerable: true,
-                value: disabledLog,
-                writable: true
-              };
-              Object.defineProperties(console, {
-                info: props,
-                log: props,
-                warn: props,
-                error: props,
-                group: props,
-                groupCollapsed: props,
-                groupEnd: props
-              });
-            }
-            disabledDepth++;
-          }
-        }
-        function reenableLogs() {
-          {
-            disabledDepth--;
-            if (disabledDepth === 0) {
-              var props = {
-                configurable: true,
-                enumerable: true,
-                writable: true
-              };
-              Object.defineProperties(console, {
-                log: assign({}, props, {
-                  value: prevLog
-                }),
-                info: assign({}, props, {
-                  value: prevInfo
-                }),
-                warn: assign({}, props, {
-                  value: prevWarn
-                }),
-                error: assign({}, props, {
-                  value: prevError
-                }),
-                group: assign({}, props, {
-                  value: prevGroup
-                }),
-                groupCollapsed: assign({}, props, {
-                  value: prevGroupCollapsed
-                }),
-                groupEnd: assign({}, props, {
-                  value: prevGroupEnd
-                })
-              });
-            }
-            if (disabledDepth < 0) {
-              error("disabledDepth fell below zero. This is a bug in React. Please file an issue.");
-            }
-          }
-        }
-        var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
-        var prefix2;
-        function describeBuiltInComponentFrame(name, source, ownerFn) {
-          {
-            if (prefix2 === void 0) {
-              try {
-                throw Error();
-              } catch (x2) {
-                var match = x2.stack.trim().match(/\n( *(at )?)/);
-                prefix2 = match && match[1] || "";
-              }
-            }
-            return "\n" + prefix2 + name;
-          }
-        }
-        var reentry = false;
-        var componentFrameCache;
-        {
-          var PossiblyWeakMap = typeof WeakMap === "function" ? WeakMap : Map;
-          componentFrameCache = new PossiblyWeakMap();
-        }
-        function describeNativeComponentFrame(fn2, construct) {
-          if (!fn2 || reentry) {
-            return "";
-          }
-          {
-            var frame = componentFrameCache.get(fn2);
-            if (frame !== void 0) {
-              return frame;
-            }
-          }
-          var control;
-          reentry = true;
-          var previousPrepareStackTrace = Error.prepareStackTrace;
-          Error.prepareStackTrace = void 0;
-          var previousDispatcher;
-          {
-            previousDispatcher = ReactCurrentDispatcher.current;
-            ReactCurrentDispatcher.current = null;
-            disableLogs();
-          }
-          try {
-            if (construct) {
-              var Fake = function() {
-                throw Error();
-              };
-              Object.defineProperty(Fake.prototype, "props", {
-                set: function() {
-                  throw Error();
-                }
-              });
-              if (typeof Reflect === "object" && Reflect.construct) {
-                try {
-                  Reflect.construct(Fake, []);
-                } catch (x2) {
-                  control = x2;
-                }
-                Reflect.construct(fn2, [], Fake);
-              } else {
-                try {
-                  Fake.call();
-                } catch (x2) {
-                  control = x2;
-                }
-                fn2.call(Fake.prototype);
-              }
-            } else {
-              try {
-                throw Error();
-              } catch (x2) {
-                control = x2;
-              }
-              fn2();
-            }
-          } catch (sample) {
-            if (sample && control && typeof sample.stack === "string") {
-              var sampleLines = sample.stack.split("\n");
-              var controlLines = control.stack.split("\n");
-              var s2 = sampleLines.length - 1;
-              var c2 = controlLines.length - 1;
-              while (s2 >= 1 && c2 >= 0 && sampleLines[s2] !== controlLines[c2]) {
-                c2--;
-              }
-              for (; s2 >= 1 && c2 >= 0; s2--, c2--) {
-                if (sampleLines[s2] !== controlLines[c2]) {
-                  if (s2 !== 1 || c2 !== 1) {
-                    do {
-                      s2--;
-                      c2--;
-                      if (c2 < 0 || sampleLines[s2] !== controlLines[c2]) {
-                        var _frame = "\n" + sampleLines[s2].replace(" at new ", " at ");
-                        if (fn2.displayName && _frame.includes("<anonymous>")) {
-                          _frame = _frame.replace("<anonymous>", fn2.displayName);
-                        }
-                        {
-                          if (typeof fn2 === "function") {
-                            componentFrameCache.set(fn2, _frame);
-                          }
-                        }
-                        return _frame;
-                      }
-                    } while (s2 >= 1 && c2 >= 0);
-                  }
-                  break;
-                }
-              }
-            }
-          } finally {
-            reentry = false;
-            {
-              ReactCurrentDispatcher.current = previousDispatcher;
-              reenableLogs();
-            }
-            Error.prepareStackTrace = previousPrepareStackTrace;
-          }
-          var name = fn2 ? fn2.displayName || fn2.name : "";
-          var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
-          {
-            if (typeof fn2 === "function") {
-              componentFrameCache.set(fn2, syntheticFrame);
-            }
-          }
-          return syntheticFrame;
-        }
-        function describeFunctionComponentFrame(fn2, source, ownerFn) {
-          {
-            return describeNativeComponentFrame(fn2, false);
-          }
-        }
-        function shouldConstruct(Component) {
-          var prototype = Component.prototype;
-          return !!(prototype && prototype.isReactComponent);
-        }
-        function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
-          if (type == null) {
-            return "";
-          }
-          if (typeof type === "function") {
-            {
-              return describeNativeComponentFrame(type, shouldConstruct(type));
-            }
-          }
-          if (typeof type === "string") {
-            return describeBuiltInComponentFrame(type);
-          }
-          switch (type) {
-            case REACT_SUSPENSE_TYPE:
-              return describeBuiltInComponentFrame("Suspense");
-            case REACT_SUSPENSE_LIST_TYPE:
-              return describeBuiltInComponentFrame("SuspenseList");
-          }
-          if (typeof type === "object") {
-            switch (type.$$typeof) {
-              case REACT_FORWARD_REF_TYPE:
-                return describeFunctionComponentFrame(type.render);
-              case REACT_MEMO_TYPE:
-                return describeUnknownElementTypeFrameInDEV(type.type, source, ownerFn);
-              case REACT_LAZY_TYPE: {
-                var lazyComponent = type;
-                var payload = lazyComponent._payload;
-                var init2 = lazyComponent._init;
-                try {
-                  return describeUnknownElementTypeFrameInDEV(init2(payload), source, ownerFn);
-                } catch (x2) {
-                }
-              }
-            }
-          }
-          return "";
-        }
-        var hasOwnProperty = Object.prototype.hasOwnProperty;
-        var loggedTypeFailures = {};
-        var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
-        function setCurrentlyValidatingElement(element) {
-          {
-            if (element) {
-              var owner = element._owner;
-              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
-              ReactDebugCurrentFrame.setExtraStackFrame(stack);
-            } else {
-              ReactDebugCurrentFrame.setExtraStackFrame(null);
-            }
-          }
-        }
-        function checkPropTypes(typeSpecs, values, location, componentName, element) {
-          {
-            var has = Function.call.bind(hasOwnProperty);
-            for (var typeSpecName in typeSpecs) {
-              if (has(typeSpecs, typeSpecName)) {
-                var error$1 = void 0;
-                try {
-                  if (typeof typeSpecs[typeSpecName] !== "function") {
-                    var err = Error((componentName || "React class") + ": " + location + " type `" + typeSpecName + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof typeSpecs[typeSpecName] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
-                    err.name = "Invariant Violation";
-                    throw err;
-                  }
-                  error$1 = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
-                } catch (ex) {
-                  error$1 = ex;
-                }
-                if (error$1 && !(error$1 instanceof Error)) {
-                  setCurrentlyValidatingElement(element);
-                  error("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", componentName || "React class", location, typeSpecName, typeof error$1);
-                  setCurrentlyValidatingElement(null);
-                }
-                if (error$1 instanceof Error && !(error$1.message in loggedTypeFailures)) {
-                  loggedTypeFailures[error$1.message] = true;
-                  setCurrentlyValidatingElement(element);
-                  error("Failed %s type: %s", location, error$1.message);
-                  setCurrentlyValidatingElement(null);
-                }
-              }
-            }
-          }
-        }
-        var isArrayImpl = Array.isArray;
-        function isArray(a2) {
-          return isArrayImpl(a2);
-        }
-        function typeName(value) {
-          {
-            var hasToStringTag = typeof Symbol === "function" && Symbol.toStringTag;
-            var type = hasToStringTag && value[Symbol.toStringTag] || value.constructor.name || "Object";
-            return type;
-          }
-        }
-        function willCoercionThrow(value) {
-          {
-            try {
-              testStringCoercion(value);
-              return false;
-            } catch (e) {
-              return true;
-            }
-          }
-        }
-        function testStringCoercion(value) {
-          return "" + value;
-        }
-        function checkKeyStringCoercion(value) {
-          {
-            if (willCoercionThrow(value)) {
-              error("The provided key is an unsupported type %s. This value must be coerced to a string before before using it here.", typeName(value));
-              return testStringCoercion(value);
-            }
-          }
-        }
-        var ReactCurrentOwner = ReactSharedInternals.ReactCurrentOwner;
-        var RESERVED_PROPS = {
-          key: true,
-          ref: true,
-          __self: true,
-          __source: true
-        };
-        var specialPropKeyWarningShown;
-        var specialPropRefWarningShown;
-        var didWarnAboutStringRefs;
-        {
-          didWarnAboutStringRefs = {};
-        }
-        function hasValidRef(config) {
-          {
-            if (hasOwnProperty.call(config, "ref")) {
-              var getter = Object.getOwnPropertyDescriptor(config, "ref").get;
-              if (getter && getter.isReactWarning) {
-                return false;
-              }
-            }
-          }
-          return config.ref !== void 0;
-        }
-        function hasValidKey(config) {
-          {
-            if (hasOwnProperty.call(config, "key")) {
-              var getter = Object.getOwnPropertyDescriptor(config, "key").get;
-              if (getter && getter.isReactWarning) {
-                return false;
-              }
-            }
-          }
-          return config.key !== void 0;
-        }
-        function warnIfStringRefCannotBeAutoConverted(config, self2) {
-          {
-            if (typeof config.ref === "string" && ReactCurrentOwner.current && self2 && ReactCurrentOwner.current.stateNode !== self2) {
-              var componentName = getComponentNameFromType(ReactCurrentOwner.current.type);
-              if (!didWarnAboutStringRefs[componentName]) {
-                error('Component "%s" contains the string ref "%s". Support for string refs will be removed in a future major release. This case cannot be automatically converted to an arrow function. We ask you to manually fix this case by using useRef() or createRef() instead. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-string-ref', getComponentNameFromType(ReactCurrentOwner.current.type), config.ref);
-                didWarnAboutStringRefs[componentName] = true;
-              }
-            }
-          }
-        }
-        function defineKeyPropWarningGetter(props, displayName) {
-          {
-            var warnAboutAccessingKey = function() {
-              if (!specialPropKeyWarningShown) {
-                specialPropKeyWarningShown = true;
-                error("%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
-              }
-            };
-            warnAboutAccessingKey.isReactWarning = true;
-            Object.defineProperty(props, "key", {
-              get: warnAboutAccessingKey,
-              configurable: true
-            });
-          }
-        }
-        function defineRefPropWarningGetter(props, displayName) {
-          {
-            var warnAboutAccessingRef = function() {
-              if (!specialPropRefWarningShown) {
-                specialPropRefWarningShown = true;
-                error("%s: `ref` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://reactjs.org/link/special-props)", displayName);
-              }
-            };
-            warnAboutAccessingRef.isReactWarning = true;
-            Object.defineProperty(props, "ref", {
-              get: warnAboutAccessingRef,
-              configurable: true
-            });
-          }
-        }
-        var ReactElement = function(type, key, ref, self2, source, owner, props) {
-          var element = {
-            $$typeof: REACT_ELEMENT_TYPE,
-            type,
-            key,
-            ref,
-            props,
-            _owner: owner
-          };
-          {
-            element._store = {};
-            Object.defineProperty(element._store, "validated", {
-              configurable: false,
-              enumerable: false,
-              writable: true,
-              value: false
-            });
-            Object.defineProperty(element, "_self", {
-              configurable: false,
-              enumerable: false,
-              writable: false,
-              value: self2
-            });
-            Object.defineProperty(element, "_source", {
-              configurable: false,
-              enumerable: false,
-              writable: false,
-              value: source
-            });
-            if (Object.freeze) {
-              Object.freeze(element.props);
-              Object.freeze(element);
-            }
-          }
-          return element;
-        };
-        function jsxDEV(type, config, maybeKey, source, self2) {
-          {
-            var propName;
-            var props = {};
-            var key = null;
-            var ref = null;
-            if (maybeKey !== void 0) {
-              {
-                checkKeyStringCoercion(maybeKey);
-              }
-              key = "" + maybeKey;
-            }
-            if (hasValidKey(config)) {
-              {
-                checkKeyStringCoercion(config.key);
-              }
-              key = "" + config.key;
-            }
-            if (hasValidRef(config)) {
-              ref = config.ref;
-              warnIfStringRefCannotBeAutoConverted(config, self2);
-            }
-            for (propName in config) {
-              if (hasOwnProperty.call(config, propName) && !RESERVED_PROPS.hasOwnProperty(propName)) {
-                props[propName] = config[propName];
-              }
-            }
-            if (type && type.defaultProps) {
-              var defaultProps = type.defaultProps;
-              for (propName in defaultProps) {
-                if (props[propName] === void 0) {
-                  props[propName] = defaultProps[propName];
-                }
-              }
-            }
-            if (key || ref) {
-              var displayName = typeof type === "function" ? type.displayName || type.name || "Unknown" : type;
-              if (key) {
-                defineKeyPropWarningGetter(props, displayName);
-              }
-              if (ref) {
-                defineRefPropWarningGetter(props, displayName);
-              }
-            }
-            return ReactElement(type, key, ref, self2, source, ReactCurrentOwner.current, props);
-          }
-        }
-        var ReactCurrentOwner$1 = ReactSharedInternals.ReactCurrentOwner;
-        var ReactDebugCurrentFrame$1 = ReactSharedInternals.ReactDebugCurrentFrame;
-        function setCurrentlyValidatingElement$1(element) {
-          {
-            if (element) {
-              var owner = element._owner;
-              var stack = describeUnknownElementTypeFrameInDEV(element.type, element._source, owner ? owner.type : null);
-              ReactDebugCurrentFrame$1.setExtraStackFrame(stack);
-            } else {
-              ReactDebugCurrentFrame$1.setExtraStackFrame(null);
-            }
-          }
-        }
-        var propTypesMisspellWarningShown;
-        {
-          propTypesMisspellWarningShown = false;
-        }
-        function isValidElement(object) {
-          {
-            return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-          }
-        }
-        function getDeclarationErrorAddendum() {
-          {
-            if (ReactCurrentOwner$1.current) {
-              var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
-              if (name) {
-                return "\n\nCheck the render method of `" + name + "`.";
-              }
-            }
-            return "";
-          }
-        }
-        function getSourceInfoErrorAddendum(source) {
-          {
-            if (source !== void 0) {
-              var fileName = source.fileName.replace(/^.*[\\\/]/, "");
-              var lineNumber = source.lineNumber;
-              return "\n\nCheck your code at " + fileName + ":" + lineNumber + ".";
-            }
-            return "";
-          }
-        }
-        var ownerHasKeyUseWarning = {};
-        function getCurrentComponentErrorInfo(parentType) {
-          {
-            var info = getDeclarationErrorAddendum();
-            if (!info) {
-              var parentName = typeof parentType === "string" ? parentType : parentType.displayName || parentType.name;
-              if (parentName) {
-                info = "\n\nCheck the top-level render call using <" + parentName + ">.";
-              }
-            }
-            return info;
-          }
-        }
-        function validateExplicitKey(element, parentType) {
-          {
-            if (!element._store || element._store.validated || element.key != null) {
-              return;
-            }
-            element._store.validated = true;
-            var currentComponentErrorInfo = getCurrentComponentErrorInfo(parentType);
-            if (ownerHasKeyUseWarning[currentComponentErrorInfo]) {
-              return;
-            }
-            ownerHasKeyUseWarning[currentComponentErrorInfo] = true;
-            var childOwner = "";
-            if (element && element._owner && element._owner !== ReactCurrentOwner$1.current) {
-              childOwner = " It was passed a child from " + getComponentNameFromType(element._owner.type) + ".";
-            }
-            setCurrentlyValidatingElement$1(element);
-            error('Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.', currentComponentErrorInfo, childOwner);
-            setCurrentlyValidatingElement$1(null);
-          }
-        }
-        function validateChildKeys(node, parentType) {
-          {
-            if (typeof node !== "object") {
-              return;
-            }
-            if (isArray(node)) {
-              for (var i2 = 0; i2 < node.length; i2++) {
-                var child = node[i2];
-                if (isValidElement(child)) {
-                  validateExplicitKey(child, parentType);
-                }
-              }
-            } else if (isValidElement(node)) {
-              if (node._store) {
-                node._store.validated = true;
-              }
-            } else if (node) {
-              var iteratorFn = getIteratorFn(node);
-              if (typeof iteratorFn === "function") {
-                if (iteratorFn !== node.entries) {
-                  var iterator = iteratorFn.call(node);
-                  var step;
-                  while (!(step = iterator.next()).done) {
-                    if (isValidElement(step.value)) {
-                      validateExplicitKey(step.value, parentType);
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-        function validatePropTypes(element) {
-          {
-            var type = element.type;
-            if (type === null || type === void 0 || typeof type === "string") {
-              return;
-            }
-            var propTypes;
-            if (typeof type === "function") {
-              propTypes = type.propTypes;
-            } else if (typeof type === "object" && (type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MEMO_TYPE)) {
-              propTypes = type.propTypes;
-            } else {
-              return;
-            }
-            if (propTypes) {
-              var name = getComponentNameFromType(type);
-              checkPropTypes(propTypes, element.props, "prop", name, element);
-            } else if (type.PropTypes !== void 0 && !propTypesMisspellWarningShown) {
-              propTypesMisspellWarningShown = true;
-              var _name = getComponentNameFromType(type);
-              error("Component %s declared `PropTypes` instead of `propTypes`. Did you misspell the property assignment?", _name || "Unknown");
-            }
-            if (typeof type.getDefaultProps === "function" && !type.getDefaultProps.isReactClassApproved) {
-              error("getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.");
-            }
-          }
-        }
-        function validateFragmentProps(fragment) {
-          {
-            var keys = Object.keys(fragment.props);
-            for (var i2 = 0; i2 < keys.length; i2++) {
-              var key = keys[i2];
-              if (key !== "children" && key !== "key") {
-                setCurrentlyValidatingElement$1(fragment);
-                error("Invalid prop `%s` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.", key);
-                setCurrentlyValidatingElement$1(null);
-                break;
-              }
-            }
-            if (fragment.ref !== null) {
-              setCurrentlyValidatingElement$1(fragment);
-              error("Invalid attribute `ref` supplied to `React.Fragment`.");
-              setCurrentlyValidatingElement$1(null);
-            }
-          }
-        }
-        function jsxWithValidation(type, props, key, isStaticChildren, source, self2) {
-          {
-            var validType = isValidElementType2(type);
-            if (!validType) {
-              var info = "";
-              if (type === void 0 || typeof type === "object" && type !== null && Object.keys(type).length === 0) {
-                info += " You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.";
-              }
-              var sourceInfo = getSourceInfoErrorAddendum(source);
-              if (sourceInfo) {
-                info += sourceInfo;
-              } else {
-                info += getDeclarationErrorAddendum();
-              }
-              var typeString;
-              if (type === null) {
-                typeString = "null";
-              } else if (isArray(type)) {
-                typeString = "array";
-              } else if (type !== void 0 && type.$$typeof === REACT_ELEMENT_TYPE) {
-                typeString = "<" + (getComponentNameFromType(type.type) || "Unknown") + " />";
-                info = " Did you accidentally export a JSX literal instead of a component?";
-              } else {
-                typeString = typeof type;
-              }
-              error("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
-            }
-            var element = jsxDEV(type, props, key, source, self2);
-            if (element == null) {
-              return element;
-            }
-            if (validType) {
-              var children = props.children;
-              if (children !== void 0) {
-                if (isStaticChildren) {
-                  if (isArray(children)) {
-                    for (var i2 = 0; i2 < children.length; i2++) {
-                      validateChildKeys(children[i2], type);
-                    }
-                    if (Object.freeze) {
-                      Object.freeze(children);
-                    }
-                  } else {
-                    error("React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.");
-                  }
-                } else {
-                  validateChildKeys(children, type);
-                }
-              }
-            }
-            if (type === REACT_FRAGMENT_TYPE) {
-              validateFragmentProps(element);
-            } else {
-              validatePropTypes(element);
-            }
-            return element;
-          }
-        }
-        function jsxWithValidationStatic(type, props, key) {
-          {
-            return jsxWithValidation(type, props, key, true);
-          }
-        }
-        function jsxWithValidationDynamic(type, props, key) {
-          {
-            return jsxWithValidation(type, props, key, false);
-          }
-        }
-        var jsx3 = jsxWithValidationDynamic;
-        var jsxs2 = jsxWithValidationStatic;
-        exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx3;
-        exports.jsxs = jsxs2;
-      })();
-    }
-  }
-});
-
-// node_modules/react/jsx-runtime.js
-var require_jsx_runtime = __commonJS({
-  "node_modules/react/jsx-runtime.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_react_jsx_runtime_development();
-    }
-  }
-});
-
-// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.dev.js
-var require_emotion_react_jsx_runtime_cjs_dev = __commonJS({
-  "node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.dev.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var ReactJSXRuntime = require_jsx_runtime();
-    var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
-    require_react();
-    require_emotion_cache_cjs();
-    require_extends();
-    require_emotion_weak_memoize_cjs();
-    require_emotion_react_isolated_hnrs_cjs_dev();
-    require_hoist_non_react_statics_cjs();
-    require_emotion_utils_cjs();
-    require_emotion_serialize_cjs();
-    require_emotion_use_insertion_effect_with_fallbacks_cjs();
-    function _interopNamespace(e) {
-      if (e && e.__esModule)
-        return e;
-      var n2 = /* @__PURE__ */ Object.create(null);
-      if (e) {
-        Object.keys(e).forEach(function(k2) {
-          if (k2 !== "default") {
-            var d2 = Object.getOwnPropertyDescriptor(e, k2);
-            Object.defineProperty(n2, k2, d2.get ? d2 : {
-              enumerable: true,
-              get: function() {
-                return e[k2];
-              }
-            });
-          }
-        });
-      }
-      n2["default"] = e;
-      return Object.freeze(n2);
-    }
-    var ReactJSXRuntime__namespace = /* @__PURE__ */ _interopNamespace(ReactJSXRuntime);
-    var Fragment2 = ReactJSXRuntime__namespace.Fragment;
-    function jsx3(type, props, key) {
-      if (!emotionElement.hasOwnProperty.call(props, "css")) {
-        return ReactJSXRuntime__namespace.jsx(type, props, key);
-      }
-      return ReactJSXRuntime__namespace.jsx(emotionElement.Emotion, emotionElement.createEmotionProps(type, props), key);
-    }
-    function jsxs2(type, props, key) {
-      if (!emotionElement.hasOwnProperty.call(props, "css")) {
-        return ReactJSXRuntime__namespace.jsxs(type, props, key);
-      }
-      return ReactJSXRuntime__namespace.jsxs(emotionElement.Emotion, emotionElement.createEmotionProps(type, props), key);
-    }
-    exports.Fragment = Fragment2;
-    exports.jsx = jsx3;
-    exports.jsxs = jsxs2;
-  }
-});
-
-// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.js
-var require_emotion_react_jsx_runtime_cjs = __commonJS({
-  "node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_emotion_react_jsx_runtime_cjs_dev();
-    }
-  }
-});
-
-// node_modules/papaparse/papaparse.min.js
-var require_papaparse_min = __commonJS({
-  "node_modules/papaparse/papaparse.min.js"(exports, module2) {
-    !function(e, t2) {
-      "function" == typeof define && define.amd ? define([], t2) : "object" == typeof module2 && "undefined" != typeof exports ? module2.exports = t2() : e.Papa = t2();
-    }(exports, function s2() {
-      "use strict";
-      var f3 = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f3 ? f3 : {};
-      var n2 = !f3.document && !!f3.postMessage, o2 = f3.IS_PAPA_WORKER || false, a2 = {}, u2 = 0, b2 = { parse: function(e, t2) {
-        var r3 = (t2 = t2 || {}).dynamicTyping || false;
-        J(r3) && (t2.dynamicTypingFunction = r3, r3 = {});
-        if (t2.dynamicTyping = r3, t2.transform = !!J(t2.transform) && t2.transform, t2.worker && b2.WORKERS_SUPPORTED) {
-          var i2 = function() {
-            if (!b2.WORKERS_SUPPORTED)
-              return false;
-            var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
-            var r4, i3;
-            return t3.onmessage = _3, t3.id = u2++, a2[t3.id] = t3;
-          }();
-          return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
-        }
-        var n3 = null;
-        b2.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e2) {
-          if (65279 === e2.charCodeAt(0))
-            return e2.slice(1);
-          return e2;
-        }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
-        return n3.stream(e);
-      }, unparse: function(e, t2) {
-        var n3 = false, _4 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
-        !function() {
-          if ("object" != typeof t2)
-            return;
-          "string" != typeof t2.delimiter || b2.BAD_DELIMITERS.filter(function(e2) {
-            return -1 !== t2.delimiter.indexOf(e2);
-          }).length || (m3 = t2.delimiter);
-          ("boolean" == typeof t2.quotes || "function" == typeof t2.quotes || Array.isArray(t2.quotes)) && (n3 = t2.quotes);
-          "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
-          "string" == typeof t2.newline && (y3 = t2.newline);
-          "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
-          "boolean" == typeof t2.header && (_4 = t2.header);
-          if (Array.isArray(t2.columns)) {
-            if (0 === t2.columns.length)
-              throw new Error("Option columns is empty");
-            i2 = t2.columns;
-          }
-          void 0 !== t2.escapeChar && (a3 = t2.escapeChar + s3);
-          ("boolean" == typeof t2.escapeFormulae || t2.escapeFormulae instanceof RegExp) && (o3 = t2.escapeFormulae instanceof RegExp ? t2.escapeFormulae : /^[=+\-@\t\r].*$/);
-        }();
-        var u3 = new RegExp(Q2(s3), "g");
-        "string" == typeof e && (e = JSON.parse(e));
-        if (Array.isArray(e)) {
-          if (!e.length || Array.isArray(e[0]))
-            return h3(null, e, r3);
-          if ("object" == typeof e[0])
-            return h3(i2 || Object.keys(e[0]), e, r3);
-        } else if ("object" == typeof e)
-          return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i2), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [e.data])), h3(e.fields || [], e.data || [], r3);
-        throw new Error("Unable to serialize unrecognized input");
-        function h3(e2, t3, r4) {
-          var i3 = "";
-          "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
-          var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
-          if (n4 && _4) {
-            for (var a4 = 0; a4 < e2.length; a4++)
-              0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
-            0 < t3.length && (i3 += y3);
-          }
-          for (var o4 = 0; o4 < t3.length; o4++) {
-            var u4 = n4 ? e2.length : t3[o4].length, h4 = false, f4 = n4 ? 0 === Object.keys(t3[o4]).length : 0 === t3[o4].length;
-            if (r4 && !n4 && (h4 = "greedy" === r4 ? "" === t3[o4].join("").trim() : 1 === t3[o4].length && 0 === t3[o4][0].length), "greedy" === r4 && n4) {
-              for (var d3 = [], l3 = 0; l3 < u4; l3++) {
-                var c3 = s4 ? e2[l3] : l3;
-                d3.push(t3[o4][c3]);
-              }
-              h4 = "" === d3.join("").trim();
-            }
-            if (!h4) {
-              for (var p3 = 0; p3 < u4; p3++) {
-                0 < p3 && !f4 && (i3 += m3);
-                var g3 = n4 && s4 ? e2[p3] : p3;
-                i3 += v3(t3[o4][g3], p3);
-              }
-              o4 < t3.length - 1 && (!r4 || 0 < u4 && !f4) && (i3 += y3);
-            }
-          }
-          return i3;
-        }
-        function v3(e2, t3) {
-          if (null == e2)
-            return "";
-          if (e2.constructor === Date)
-            return JSON.stringify(e2).slice(1, 25);
-          var r4 = false;
-          o3 && "string" == typeof e2 && o3.test(e2) && (e2 = "'" + e2, r4 = true);
-          var i3 = e2.toString().replace(u3, a3);
-          return (r4 = r4 || true === n3 || "function" == typeof n3 && n3(e2, t3) || Array.isArray(n3) && n3[t3] || function(e3, t4) {
-            for (var r5 = 0; r5 < t4.length; r5++)
-              if (-1 < e3.indexOf(t4[r5]))
-                return true;
-            return false;
-          }(i3, b2.BAD_DELIMITERS) || -1 < i3.indexOf(m3) || " " === i3.charAt(0) || " " === i3.charAt(i3.length - 1)) ? s3 + i3 + s3 : i3;
-        }
-      } };
-      if (b2.RECORD_SEP = String.fromCharCode(30), b2.UNIT_SEP = String.fromCharCode(31), b2.BYTE_ORDER_MARK = "\uFEFF", b2.BAD_DELIMITERS = ["\r", "\n", '"', b2.BYTE_ORDER_MARK], b2.WORKERS_SUPPORTED = !n2 && !!f3.Worker, b2.NODE_STREAM_INPUT = 1, b2.LocalChunkSize = 10485760, b2.RemoteChunkSize = 5242880, b2.DefaultDelimiter = ",", b2.Parser = E2, b2.ParserHandle = r2, b2.NetworkStreamer = l2, b2.FileStreamer = c2, b2.StringStreamer = p2, b2.ReadableStreamStreamer = g2, f3.jQuery) {
-        var d2 = f3.jQuery;
-        d2.fn.parse = function(o3) {
-          var r3 = o3.config || {}, u3 = [];
-          return this.each(function(e2) {
-            if (!("INPUT" === d2(this).prop("tagName").toUpperCase() && "file" === d2(this).attr("type").toLowerCase() && f3.FileReader) || !this.files || 0 === this.files.length)
-              return true;
-            for (var t2 = 0; t2 < this.files.length; t2++)
-              u3.push({ file: this.files[t2], inputElem: this, instanceConfig: d2.extend({}, r3) });
-          }), e(), this;
-          function e() {
-            if (0 !== u3.length) {
-              var e2, t2, r4, i2, n3 = u3[0];
-              if (J(o3.before)) {
-                var s3 = o3.before(n3.file, n3.inputElem);
-                if ("object" == typeof s3) {
-                  if ("abort" === s3.action)
-                    return e2 = "AbortError", t2 = n3.file, r4 = n3.inputElem, i2 = s3.reason, void (J(o3.error) && o3.error({ name: e2 }, t2, r4, i2));
-                  if ("skip" === s3.action)
-                    return void h3();
-                  "object" == typeof s3.config && (n3.instanceConfig = d2.extend(n3.instanceConfig, s3.config));
-                } else if ("skip" === s3)
-                  return void h3();
-              }
-              var a3 = n3.instanceConfig.complete;
-              n3.instanceConfig.complete = function(e3) {
-                J(a3) && a3(e3, n3.file, n3.inputElem), h3();
-              }, b2.parse(n3.file, n3.instanceConfig);
-            } else
-              J(o3.complete) && o3.complete();
-          }
-          function h3() {
-            u3.splice(0, 1), e();
-          }
-        };
-      }
-      function h2(e) {
-        this._handle = null, this._finished = false, this._completed = false, this._halted = false, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = true, this._completeResults = { data: [], errors: [], meta: {} }, function(e2) {
-          var t2 = w2(e2);
-          t2.chunkSize = parseInt(t2.chunkSize), e2.step || e2.chunk || (t2.chunkSize = null);
-          this._handle = new r2(t2), (this._handle.streamer = this)._config = t2;
-        }.call(this, e), this.parseChunk = function(e2, t2) {
-          if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
-            var r3 = this._config.beforeFirstChunk(e2);
-            void 0 !== r3 && (e2 = r3);
-          }
-          this.isFirstChunk = false, this._halted = false;
-          var i2 = this._partialLine + e2;
-          this._partialLine = "";
-          var n3 = this._handle.parse(i2, this._baseIndex, !this._finished);
-          if (!this._handle.paused() && !this._handle.aborted()) {
-            var s3 = n3.meta.cursor;
-            this._finished || (this._partialLine = i2.substring(s3 - this._baseIndex), this._baseIndex = s3), n3 && n3.data && (this._rowCount += n3.data.length);
-            var a3 = this._finished || this._config.preview && this._rowCount >= this._config.preview;
-            if (o2)
-              f3.postMessage({ results: n3, workerId: b2.WORKER_ID, finished: a3 });
-            else if (J(this._config.chunk) && !t2) {
-              if (this._config.chunk(n3, this._handle), this._handle.paused() || this._handle.aborted())
-                return void (this._halted = true);
-              n3 = void 0, this._completeResults = void 0;
-            }
-            return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n3.data), this._completeResults.errors = this._completeResults.errors.concat(n3.errors), this._completeResults.meta = n3.meta), this._completed || !a3 || !J(this._config.complete) || n3 && n3.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = true), a3 || n3 && n3.meta.paused || this._nextChunk(), n3;
-          }
-          this._halted = true;
-        }, this._sendError = function(e2) {
-          J(this._config.error) ? this._config.error(e2) : o2 && this._config.error && f3.postMessage({ workerId: b2.WORKER_ID, error: e2, finished: false });
-        };
-      }
-      function l2(e) {
-        var i2;
-        (e = e || {}).chunkSize || (e.chunkSize = b2.RemoteChunkSize), h2.call(this, e), this._nextChunk = n2 ? function() {
-          this._readChunk(), this._chunkLoaded();
-        } : function() {
-          this._readChunk();
-        }, this.stream = function(e2) {
-          this._input = e2, this._nextChunk();
-        }, this._readChunk = function() {
-          if (this._finished)
-            this._chunkLoaded();
-          else {
-            if (i2 = new XMLHttpRequest(), this._config.withCredentials && (i2.withCredentials = this._config.withCredentials), n2 || (i2.onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)), i2.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n2), this._config.downloadRequestHeaders) {
-              var e2 = this._config.downloadRequestHeaders;
-              for (var t2 in e2)
-                i2.setRequestHeader(t2, e2[t2]);
-            }
-            if (this._config.chunkSize) {
-              var r3 = this._start + this._config.chunkSize - 1;
-              i2.setRequestHeader("Range", "bytes=" + this._start + "-" + r3);
-            }
-            try {
-              i2.send(this._config.downloadRequestBody);
-            } catch (e3) {
-              this._chunkError(e3.message);
-            }
-            n2 && 0 === i2.status && this._chunkError();
-          }
-        }, this._chunkLoaded = function() {
-          4 === i2.readyState && (i2.status < 200 || 400 <= i2.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i2.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e2) {
-            var t2 = e2.getResponseHeader("Content-Range");
-            if (null === t2)
-              return -1;
-            return parseInt(t2.substring(t2.lastIndexOf("/") + 1));
-          }(i2), this.parseChunk(i2.responseText)));
-        }, this._chunkError = function(e2) {
-          var t2 = i2.statusText || e2;
-          this._sendError(new Error(t2));
-        };
-      }
-      function c2(e) {
-        var i2, n3;
-        (e = e || {}).chunkSize || (e.chunkSize = b2.LocalChunkSize), h2.call(this, e);
-        var s3 = "undefined" != typeof FileReader;
-        this.stream = function(e2) {
-          this._input = e2, n3 = e2.slice || e2.webkitSlice || e2.mozSlice, s3 ? ((i2 = new FileReader()).onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)) : i2 = new FileReaderSync(), this._nextChunk();
-        }, this._nextChunk = function() {
-          this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
-        }, this._readChunk = function() {
-          var e2 = this._input;
-          if (this._config.chunkSize) {
-            var t2 = Math.min(this._start + this._config.chunkSize, this._input.size);
-            e2 = n3.call(e2, this._start, t2);
-          }
-          var r3 = i2.readAsText(e2, this._config.encoding);
-          s3 || this._chunkLoaded({ target: { result: r3 } });
-        }, this._chunkLoaded = function(e2) {
-          this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e2.target.result);
-        }, this._chunkError = function() {
-          this._sendError(i2.error);
-        };
-      }
-      function p2(e) {
-        var r3;
-        h2.call(this, e = e || {}), this.stream = function(e2) {
-          return r3 = e2, this._nextChunk();
-        }, this._nextChunk = function() {
-          if (!this._finished) {
-            var e2, t2 = this._config.chunkSize;
-            return t2 ? (e2 = r3.substring(0, t2), r3 = r3.substring(t2)) : (e2 = r3, r3 = ""), this._finished = !r3, this.parseChunk(e2);
-          }
-        };
-      }
-      function g2(e) {
-        h2.call(this, e = e || {});
-        var t2 = [], r3 = true, i2 = false;
-        this.pause = function() {
-          h2.prototype.pause.apply(this, arguments), this._input.pause();
-        }, this.resume = function() {
-          h2.prototype.resume.apply(this, arguments), this._input.resume();
-        }, this.stream = function(e2) {
-          this._input = e2, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
-        }, this._checkIsFinished = function() {
-          i2 && 1 === t2.length && (this._finished = true);
-        }, this._nextChunk = function() {
-          this._checkIsFinished(), t2.length ? this.parseChunk(t2.shift()) : r3 = true;
-        }, this._streamData = v2(function(e2) {
-          try {
-            t2.push("string" == typeof e2 ? e2 : e2.toString(this._config.encoding)), r3 && (r3 = false, this._checkIsFinished(), this.parseChunk(t2.shift()));
-          } catch (e3) {
-            this._streamError(e3);
-          }
-        }, this), this._streamError = v2(function(e2) {
-          this._streamCleanUp(), this._sendError(e2);
-        }, this), this._streamEnd = v2(function() {
-          this._streamCleanUp(), i2 = true, this._streamData("");
-        }, this), this._streamCleanUp = v2(function() {
-          this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
-        }, this);
-      }
-      function r2(m3) {
-        var a3, o3, u3, i2 = Math.pow(2, 53), n3 = -i2, s3 = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h3 = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t2 = this, r3 = 0, f4 = 0, d3 = false, e = false, l3 = [], c3 = { data: [], errors: [], meta: {} };
-        if (J(m3.step)) {
-          var p3 = m3.step;
-          m3.step = function(e2) {
-            if (c3 = e2, _4())
-              g3();
-            else {
-              if (g3(), 0 === c3.data.length)
-                return;
-              r3 += e2.data.length, m3.preview && r3 > m3.preview ? o3.abort() : (c3.data = c3.data[0], p3(c3, t2));
-            }
-          };
-        }
-        function y3(e2) {
-          return "greedy" === m3.skipEmptyLines ? "" === e2.join("").trim() : 1 === e2.length && 0 === e2[0].length;
-        }
-        function g3() {
-          return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
-            return !y3(e2);
-          })), _4() && function() {
-            if (!c3)
-              return;
-            function e2(e3, t4) {
-              J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
-            }
-            if (Array.isArray(c3.data[0])) {
-              for (var t3 = 0; _4() && t3 < c3.data.length; t3++)
-                c3.data[t3].forEach(e2);
-              c3.data.splice(0, 1);
-            } else
-              c3.data.forEach(e2);
-          }(), function() {
-            if (!c3 || !m3.header && !m3.dynamicTyping && !m3.transform)
-              return c3;
-            function e2(e3, t4) {
-              var r4, i3 = m3.header ? {} : [];
-              for (r4 = 0; r4 < e3.length; r4++) {
-                var n4 = r4, s4 = e3[r4];
-                m3.header && (n4 = r4 >= l3.length ? "__parsed_extra" : l3[r4]), m3.transform && (s4 = m3.transform(s4, n4)), s4 = v3(n4, s4), "__parsed_extra" === n4 ? (i3[n4] = i3[n4] || [], i3[n4].push(s4)) : i3[n4] = s4;
-              }
-              return m3.header && (r4 > l3.length ? k2("FieldMismatch", "TooManyFields", "Too many fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4) : r4 < l3.length && k2("FieldMismatch", "TooFewFields", "Too few fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4)), i3;
-            }
-            var t3 = 1;
-            !c3.data.length || Array.isArray(c3.data[0]) ? (c3.data = c3.data.map(e2), t3 = c3.data.length) : c3.data = e2(c3.data, 0);
-            m3.header && c3.meta && (c3.meta.fields = l3);
-            return f4 += t3, c3;
-          }();
-        }
-        function _4() {
-          return m3.header && 0 === l3.length;
-        }
-        function v3(e2, t3) {
-          return r4 = e2, m3.dynamicTypingFunction && void 0 === m3.dynamicTyping[r4] && (m3.dynamicTyping[r4] = m3.dynamicTypingFunction(r4)), true === (m3.dynamicTyping[r4] || m3.dynamicTyping) ? "true" === t3 || "TRUE" === t3 || "false" !== t3 && "FALSE" !== t3 && (function(e3) {
-            if (s3.test(e3)) {
-              var t4 = parseFloat(e3);
-              if (n3 < t4 && t4 < i2)
-                return true;
-            }
-            return false;
-          }(t3) ? parseFloat(t3) : h3.test(t3) ? new Date(t3) : "" === t3 ? null : t3) : t3;
-          var r4;
-        }
-        function k2(e2, t3, r4, i3) {
-          var n4 = { type: e2, code: t3, message: r4 };
-          void 0 !== i3 && (n4.row = i3), c3.errors.push(n4);
-        }
-        this.parse = function(e2, t3, r4) {
-          var i3 = m3.quoteChar || '"';
-          if (m3.newline || (m3.newline = function(e3, t4) {
-            e3 = e3.substring(0, 1048576);
-            var r5 = new RegExp(Q2(t4) + "([^]*?)" + Q2(t4), "gm"), i4 = (e3 = e3.replace(r5, "")).split("\r"), n5 = e3.split("\n"), s5 = 1 < n5.length && n5[0].length < i4[0].length;
-            if (1 === i4.length || s5)
-              return "\n";
-            for (var a4 = 0, o4 = 0; o4 < i4.length; o4++)
-              "\n" === i4[o4][0] && a4++;
-            return a4 >= i4.length / 2 ? "\r\n" : "\r";
-          }(e2, i3)), u3 = false, m3.delimiter)
-            J(m3.delimiter) && (m3.delimiter = m3.delimiter(e2), c3.meta.delimiter = m3.delimiter);
-          else {
-            var n4 = function(e3, t4, r5, i4, n5) {
-              var s5, a4, o4, u4;
-              n5 = n5 || [",", "	", "|", ";", b2.RECORD_SEP, b2.UNIT_SEP];
-              for (var h4 = 0; h4 < n5.length; h4++) {
-                var f5 = n5[h4], d4 = 0, l4 = 0, c4 = 0;
-                o4 = void 0;
-                for (var p4 = new E2({ comments: i4, delimiter: f5, newline: t4, preview: 10 }).parse(e3), g4 = 0; g4 < p4.data.length; g4++)
-                  if (r5 && y3(p4.data[g4]))
-                    c4++;
-                  else {
-                    var _5 = p4.data[g4].length;
-                    l4 += _5, void 0 !== o4 ? 0 < _5 && (d4 += Math.abs(_5 - o4), o4 = _5) : o4 = _5;
-                  }
-                0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
-              }
-              return { successful: !!(m3.delimiter = s5), bestDelimiter: s5 };
-            }(e2, m3.newline, m3.skipEmptyLines, m3.comments, m3.delimitersToGuess);
-            n4.successful ? m3.delimiter = n4.bestDelimiter : (u3 = true, m3.delimiter = b2.DefaultDelimiter), c3.meta.delimiter = m3.delimiter;
-          }
-          var s4 = w2(m3);
-          return m3.preview && m3.header && s4.preview++, a3 = e2, o3 = new E2(s4), c3 = o3.parse(a3, t3, r4), g3(), d3 ? { meta: { paused: true } } : c3 || { meta: { paused: false } };
-        }, this.paused = function() {
-          return d3;
-        }, this.pause = function() {
-          d3 = true, o3.abort(), a3 = J(m3.chunk) ? "" : a3.substring(o3.getCharIndex());
-        }, this.resume = function() {
-          t2.streamer._halted ? (d3 = false, t2.streamer.parseChunk(a3, true)) : setTimeout(t2.resume, 3);
-        }, this.aborted = function() {
-          return e;
-        }, this.abort = function() {
-          e = true, o3.abort(), c3.meta.aborted = true, J(m3.complete) && m3.complete(c3), a3 = "";
-        };
-      }
-      function Q2(e) {
-        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      }
-      function E2(j2) {
-        var z2, M2 = (j2 = j2 || {}).delimiter, P2 = j2.newline, U2 = j2.comments, q2 = j2.step, N2 = j2.preview, B2 = j2.fastMode, K = z2 = void 0 === j2.quoteChar || null === j2.quoteChar ? '"' : j2.quoteChar;
-        if (void 0 !== j2.escapeChar && (K = j2.escapeChar), ("string" != typeof M2 || -1 < b2.BAD_DELIMITERS.indexOf(M2)) && (M2 = ","), U2 === M2)
-          throw new Error("Comment character same as delimiter");
-        true === U2 ? U2 = "#" : ("string" != typeof U2 || -1 < b2.BAD_DELIMITERS.indexOf(U2)) && (U2 = false), "\n" !== P2 && "\r" !== P2 && "\r\n" !== P2 && (P2 = "\n");
-        var W2 = 0, H2 = false;
-        this.parse = function(i2, t2, r3) {
-          if ("string" != typeof i2)
-            throw new Error("Input must be a string");
-          var n3 = i2.length, e = M2.length, s3 = P2.length, a3 = U2.length, o3 = J(q2), u3 = [], h3 = [], f4 = [], d3 = W2 = 0;
-          if (!i2)
-            return L2();
-          if (j2.header && !t2) {
-            var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
-            for (var _4 in l3) {
-              var m3 = l3[_4];
-              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _4));
-              var y3 = m3, v3 = p3[m3] || 0;
-              for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
-                y3 = y3 + "_" + v3;
-              c3.push(y3);
-            }
-            if (g3) {
-              var k2 = i2.split(P2);
-              k2[0] = c3.join(M2), i2 = k2.join(P2);
-            }
-          }
-          if (B2 || false !== B2 && -1 === i2.indexOf(z2)) {
-            for (var b3 = i2.split(P2), E3 = 0; E3 < b3.length; E3++) {
-              if (f4 = b3[E3], W2 += f4.length, E3 !== b3.length - 1)
-                W2 += P2.length;
-              else if (r3)
-                return L2();
-              if (!U2 || f4.substring(0, a3) !== U2) {
-                if (o3) {
-                  if (u3 = [], I2(f4.split(M2)), F2(), H2)
-                    return L2();
-                } else
-                  I2(f4.split(M2));
-                if (N2 && N2 <= E3)
-                  return u3 = u3.slice(0, N2), L2(true);
-              }
-            }
-            return L2();
-          }
-          for (var w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2), C = new RegExp(Q2(K) + Q2(z2), "g"), S2 = i2.indexOf(z2, W2); ; )
-            if (i2[W2] !== z2)
-              if (U2 && 0 === f4.length && i2.substring(W2, W2 + a3) === U2) {
-                if (-1 === R2)
-                  return L2();
-                W2 = R2 + s3, R2 = i2.indexOf(P2, W2), w3 = i2.indexOf(M2, W2);
-              } else if (-1 !== w3 && (w3 < R2 || -1 === R2))
-                f4.push(i2.substring(W2, w3)), W2 = w3 + e, w3 = i2.indexOf(M2, W2);
-              else {
-                if (-1 === R2)
-                  break;
-                if (f4.push(i2.substring(W2, R2)), D2(R2 + s3), o3 && (F2(), H2))
-                  return L2();
-                if (N2 && u3.length >= N2)
-                  return L2(true);
-              }
-            else
-              for (S2 = W2, W2++; ; ) {
-                if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
-                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
-                if (S2 === n3 - 1)
-                  return T(i2.substring(W2, S2).replace(C, z2));
-                if (z2 !== K || i2[S2 + 1] !== K) {
-                  if (z2 === K || 0 === S2 || i2[S2 - 1] !== K) {
-                    -1 !== w3 && w3 < S2 + 1 && (w3 = i2.indexOf(M2, S2 + 1)), -1 !== R2 && R2 < S2 + 1 && (R2 = i2.indexOf(P2, S2 + 1));
-                    var O2 = A2(-1 === R2 ? w3 : Math.min(w3, R2));
-                    if (i2.substr(S2 + 1 + O2, e) === M2) {
-                      f4.push(i2.substring(W2, S2).replace(C, z2)), i2[W2 = S2 + 1 + O2 + e] !== z2 && (S2 = i2.indexOf(z2, W2)), w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2);
-                      break;
-                    }
-                    var x2 = A2(R2);
-                    if (i2.substring(S2 + 1 + x2, S2 + 1 + x2 + s3) === P2) {
-                      if (f4.push(i2.substring(W2, S2).replace(C, z2)), D2(S2 + 1 + x2 + s3), w3 = i2.indexOf(M2, W2), S2 = i2.indexOf(z2, W2), o3 && (F2(), H2))
-                        return L2();
-                      if (N2 && u3.length >= N2)
-                        return L2(true);
-                      break;
-                    }
-                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
-                  }
-                } else
-                  S2++;
-              }
-          return T();
-          function I2(e2) {
-            u3.push(e2), d3 = W2;
-          }
-          function A2(e2) {
-            var t3 = 0;
-            if (-1 !== e2) {
-              var r4 = i2.substring(S2 + 1, e2);
-              r4 && "" === r4.trim() && (t3 = r4.length);
-            }
-            return t3;
-          }
-          function T(e2) {
-            return r3 || (void 0 === e2 && (e2 = i2.substring(W2)), f4.push(e2), W2 = n3, I2(f4), o3 && F2()), L2();
-          }
-          function D2(e2) {
-            W2 = e2, I2(f4), f4 = [], R2 = i2.indexOf(P2, W2);
-          }
-          function L2(e2) {
-            return { data: u3, errors: h3, meta: { delimiter: M2, linebreak: P2, aborted: H2, truncated: !!e2, cursor: d3 + (t2 || 0) } };
-          }
-          function F2() {
-            q2(L2()), u3 = [], h3 = [];
-          }
-        }, this.abort = function() {
-          H2 = true;
-        }, this.getCharIndex = function() {
-          return W2;
-        };
-      }
-      function _3(e) {
-        var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
-        if (t2.error)
-          r3.userError(t2.error, t2.file);
-        else if (t2.results && t2.results.data) {
-          var n3 = { abort: function() {
-            i2 = true, m2(t2.workerId, { data: [], errors: [], meta: { aborted: true } });
-          }, pause: y2, resume: y2 };
-          if (J(r3.userStep)) {
-            for (var s3 = 0; s3 < t2.results.data.length && (r3.userStep({ data: t2.results.data[s3], errors: t2.results.errors, meta: t2.results.meta }, n3), !i2); s3++)
-              ;
-            delete t2.results;
-          } else
-            J(r3.userChunk) && (r3.userChunk(t2.results, n3, t2.file), delete t2.results);
-        }
-        t2.finished && !i2 && m2(t2.workerId, t2.results);
-      }
-      function m2(e, t2) {
-        var r3 = a2[e];
-        J(r3.userComplete) && r3.userComplete(t2), r3.terminate(), delete a2[e];
-      }
-      function y2() {
-        throw new Error("Not implemented.");
-      }
-      function w2(e) {
-        if ("object" != typeof e || null === e)
-          return e;
-        var t2 = Array.isArray(e) ? [] : {};
-        for (var r3 in e)
-          t2[r3] = w2(e[r3]);
-        return t2;
-      }
-      function v2(e, t2) {
-        return function() {
-          e.apply(t2, arguments);
-        };
-      }
-      function J(e) {
-        return "function" == typeof e;
-      }
-      return o2 && (f3.onmessage = function(e) {
-        var t2 = e.data;
-        void 0 === b2.WORKER_ID && t2 && (b2.WORKER_ID = t2.workerId);
-        if ("string" == typeof t2.input)
-          f3.postMessage({ workerId: b2.WORKER_ID, results: b2.parse(t2.input, t2.config), finished: true });
-        else if (f3.File && t2.input instanceof File || t2.input instanceof Object) {
-          var r3 = b2.parse(t2.input, t2.config);
-          r3 && f3.postMessage({ workerId: b2.WORKER_ID, results: r3, finished: true });
-        }
-      }), (l2.prototype = Object.create(h2.prototype)).constructor = l2, (c2.prototype = Object.create(h2.prototype)).constructor = c2, (p2.prototype = Object.create(p2.prototype)).constructor = p2, (g2.prototype = Object.create(h2.prototype)).constructor = g2, b2;
-    });
-  }
-});
-
-// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
-var require_use_sync_external_store_shim_development = __commonJS({
-  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-        }
-        var React50 = require_react();
-        var ReactSharedInternals = React50.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-        function error(format) {
-          {
-            {
-              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-                args[_key2 - 1] = arguments[_key2];
-              }
-              printWarning("error", format, args);
-            }
-          }
-        }
-        function printWarning(level, format, args) {
-          {
-            var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
-            var stack = ReactDebugCurrentFrame.getStackAddendum();
-            if (stack !== "") {
-              format += "%s";
-              args = args.concat([stack]);
-            }
-            var argsWithFormat = args.map(function(item) {
-              return String(item);
-            });
-            argsWithFormat.unshift("Warning: " + format);
-            Function.prototype.apply.call(console[level], console, argsWithFormat);
-          }
-        }
-        function is(x2, y2) {
-          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
-        }
-        var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState2 = React50.useState, useEffect2 = React50.useEffect, useLayoutEffect2 = React50.useLayoutEffect, useDebugValue2 = React50.useDebugValue;
-        var didWarnOld18Alpha = false;
-        var didWarnUncachedGetSnapshot = false;
-        function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
-          {
-            if (!didWarnOld18Alpha) {
-              if (React50.startTransition !== void 0) {
-                didWarnOld18Alpha = true;
-                error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
-              }
-            }
-          }
-          var value = getSnapshot();
-          {
-            if (!didWarnUncachedGetSnapshot) {
-              var cachedValue = getSnapshot();
-              if (!objectIs(value, cachedValue)) {
-                error("The result of getSnapshot should be cached to avoid an infinite loop");
-                didWarnUncachedGetSnapshot = true;
-              }
-            }
-          }
-          var _useState = useState2({
-            inst: {
-              value,
-              getSnapshot
-            }
-          }), inst = _useState[0].inst, forceUpdate = _useState[1];
-          useLayoutEffect2(function() {
-            inst.value = value;
-            inst.getSnapshot = getSnapshot;
-            if (checkIfSnapshotChanged(inst)) {
-              forceUpdate({
-                inst
-              });
-            }
-          }, [subscribe2, value, getSnapshot]);
-          useEffect2(function() {
-            if (checkIfSnapshotChanged(inst)) {
-              forceUpdate({
-                inst
-              });
-            }
-            var handleStoreChange = function() {
-              if (checkIfSnapshotChanged(inst)) {
-                forceUpdate({
-                  inst
-                });
-              }
-            };
-            return subscribe2(handleStoreChange);
-          }, [subscribe2]);
-          useDebugValue2(value);
-          return value;
-        }
-        function checkIfSnapshotChanged(inst) {
-          var latestGetSnapshot = inst.getSnapshot;
-          var prevValue = inst.value;
-          try {
-            var nextValue = latestGetSnapshot();
-            return !objectIs(prevValue, nextValue);
-          } catch (error2) {
-            return true;
-          }
-        }
-        function useSyncExternalStore$1(subscribe2, getSnapshot, getServerSnapshot) {
-          return getSnapshot();
-        }
-        var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
-        var isServerEnvironment = !canUseDOM2;
-        var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React50.useSyncExternalStore !== void 0 ? React50.useSyncExternalStore : shim;
-        exports.useSyncExternalStore = useSyncExternalStore$2;
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
-        }
-      })();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/shim/index.js
-var require_shim = __commonJS({
-  "node_modules/use-sync-external-store/shim/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_use_sync_external_store_shim_development();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js
-var require_with_selector_development = __commonJS({
-  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-        }
-        var React50 = require_react();
-        var shim = require_shim();
-        function is(x2, y2) {
-          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
-        }
-        var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef3 = React50.useRef, useEffect2 = React50.useEffect, useMemo3 = React50.useMemo, useDebugValue2 = React50.useDebugValue;
-        function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
-          var instRef = useRef3(null);
-          var inst;
-          if (instRef.current === null) {
-            inst = {
-              hasValue: false,
-              value: null
-            };
-            instRef.current = inst;
-          } else {
-            inst = instRef.current;
-          }
-          var _useMemo = useMemo3(function() {
-            var hasMemo = false;
-            var memoizedSnapshot;
-            var memoizedSelection;
-            var memoizedSelector = function(nextSnapshot) {
-              if (!hasMemo) {
-                hasMemo = true;
-                memoizedSnapshot = nextSnapshot;
-                var _nextSelection = selector(nextSnapshot);
-                if (isEqual !== void 0) {
-                  if (inst.hasValue) {
-                    var currentSelection = inst.value;
-                    if (isEqual(currentSelection, _nextSelection)) {
-                      memoizedSelection = currentSelection;
-                      return currentSelection;
-                    }
-                  }
-                }
-                memoizedSelection = _nextSelection;
-                return _nextSelection;
-              }
-              var prevSnapshot = memoizedSnapshot;
-              var prevSelection = memoizedSelection;
-              if (objectIs(prevSnapshot, nextSnapshot)) {
-                return prevSelection;
-              }
-              var nextSelection = selector(nextSnapshot);
-              if (isEqual !== void 0 && isEqual(prevSelection, nextSelection)) {
-                return prevSelection;
-              }
-              memoizedSnapshot = nextSnapshot;
-              memoizedSelection = nextSelection;
-              return nextSelection;
-            };
-            var maybeGetServerSnapshot = getServerSnapshot === void 0 ? null : getServerSnapshot;
-            var getSnapshotWithSelector = function() {
-              return memoizedSelector(getSnapshot());
-            };
-            var getServerSnapshotWithSelector = maybeGetServerSnapshot === null ? void 0 : function() {
-              return memoizedSelector(maybeGetServerSnapshot());
-            };
-            return [getSnapshotWithSelector, getServerSnapshotWithSelector];
-          }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
-          var value = useSyncExternalStore3(subscribe2, getSelection, getServerSelection);
-          useEffect2(function() {
-            inst.hasValue = true;
-            inst.value = value;
-          }, [value]);
-          useDebugValue2(value);
-          return value;
-        }
-        exports.useSyncExternalStoreWithSelector = useSyncExternalStoreWithSelector3;
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
-        }
-      })();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/shim/with-selector.js
-var require_with_selector = __commonJS({
-  "node_modules/use-sync-external-store/shim/with-selector.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_with_selector_development();
-    }
-  }
-});
-
-// node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js
-var require_react_is_development2 = __commonJS({
-  "node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
-        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
-        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
-        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
-        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
-        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
-        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
-        var REACT_SERVER_CONTEXT_TYPE = Symbol.for("react.server_context");
-        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
-        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
-        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
-        var REACT_MEMO_TYPE = Symbol.for("react.memo");
-        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
-        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
-        var enableScopeAPI = false;
-        var enableCacheElement = false;
-        var enableTransitionTracing = false;
-        var enableLegacyHidden = false;
-        var enableDebugTracing = false;
-        var REACT_MODULE_REFERENCE;
-        {
-          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
-        }
-        function isValidElementType2(type) {
-          if (typeof type === "string" || typeof type === "function") {
-            return true;
-          }
-          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
-            return true;
-          }
-          if (typeof type === "object" && type !== null) {
-            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
-              return true;
-            }
-          }
-          return false;
-        }
-        function typeOf(object) {
-          if (typeof object === "object" && object !== null) {
-            var $$typeof = object.$$typeof;
-            switch ($$typeof) {
-              case REACT_ELEMENT_TYPE:
-                var type = object.type;
-                switch (type) {
-                  case REACT_FRAGMENT_TYPE:
-                  case REACT_PROFILER_TYPE:
-                  case REACT_STRICT_MODE_TYPE:
-                  case REACT_SUSPENSE_TYPE:
-                  case REACT_SUSPENSE_LIST_TYPE:
-                    return type;
-                  default:
-                    var $$typeofType = type && type.$$typeof;
-                    switch ($$typeofType) {
-                      case REACT_SERVER_CONTEXT_TYPE:
-                      case REACT_CONTEXT_TYPE:
-                      case REACT_FORWARD_REF_TYPE:
-                      case REACT_LAZY_TYPE:
-                      case REACT_MEMO_TYPE:
-                      case REACT_PROVIDER_TYPE:
-                        return $$typeofType;
-                      default:
-                        return $$typeof;
-                    }
-                }
-              case REACT_PORTAL_TYPE:
-                return $$typeof;
-            }
-          }
-          return void 0;
-        }
-        var ContextConsumer = REACT_CONTEXT_TYPE;
-        var ContextProvider = REACT_PROVIDER_TYPE;
-        var Element = REACT_ELEMENT_TYPE;
-        var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment2 = REACT_FRAGMENT_TYPE;
-        var Lazy = REACT_LAZY_TYPE;
-        var Memo = REACT_MEMO_TYPE;
-        var Portal = REACT_PORTAL_TYPE;
-        var Profiler = REACT_PROFILER_TYPE;
-        var StrictMode = REACT_STRICT_MODE_TYPE;
-        var Suspense = REACT_SUSPENSE_TYPE;
-        var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
-        var hasWarnedAboutDeprecatedIsAsyncMode = false;
-        var hasWarnedAboutDeprecatedIsConcurrentMode = false;
-        function isAsyncMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-              hasWarnedAboutDeprecatedIsAsyncMode = true;
-              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 18+.");
-            }
-          }
-          return false;
-        }
-        function isConcurrentMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
-              hasWarnedAboutDeprecatedIsConcurrentMode = true;
-              console["warn"]("The ReactIs.isConcurrentMode() alias has been deprecated, and will be removed in React 18+.");
-            }
-          }
-          return false;
-        }
-        function isContextConsumer2(object) {
-          return typeOf(object) === REACT_CONTEXT_TYPE;
-        }
-        function isContextProvider(object) {
-          return typeOf(object) === REACT_PROVIDER_TYPE;
-        }
-        function isElement(object) {
-          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-        }
-        function isForwardRef(object) {
-          return typeOf(object) === REACT_FORWARD_REF_TYPE;
-        }
-        function isFragment(object) {
-          return typeOf(object) === REACT_FRAGMENT_TYPE;
-        }
-        function isLazy(object) {
-          return typeOf(object) === REACT_LAZY_TYPE;
-        }
-        function isMemo(object) {
-          return typeOf(object) === REACT_MEMO_TYPE;
-        }
-        function isPortal(object) {
-          return typeOf(object) === REACT_PORTAL_TYPE;
-        }
-        function isProfiler(object) {
-          return typeOf(object) === REACT_PROFILER_TYPE;
-        }
-        function isStrictMode(object) {
-          return typeOf(object) === REACT_STRICT_MODE_TYPE;
-        }
-        function isSuspense(object) {
-          return typeOf(object) === REACT_SUSPENSE_TYPE;
-        }
-        function isSuspenseList(object) {
-          return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
-        }
-        exports.ContextConsumer = ContextConsumer;
-        exports.ContextProvider = ContextProvider;
-        exports.Element = Element;
-        exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment2;
-        exports.Lazy = Lazy;
-        exports.Memo = Memo;
-        exports.Portal = Portal;
-        exports.Profiler = Profiler;
-        exports.StrictMode = StrictMode;
-        exports.Suspense = Suspense;
-        exports.SuspenseList = SuspenseList;
-        exports.isAsyncMode = isAsyncMode;
-        exports.isConcurrentMode = isConcurrentMode;
-        exports.isContextConsumer = isContextConsumer2;
-        exports.isContextProvider = isContextProvider;
-        exports.isElement = isElement;
-        exports.isForwardRef = isForwardRef;
-        exports.isFragment = isFragment;
-        exports.isLazy = isLazy;
-        exports.isMemo = isMemo;
-        exports.isPortal = isPortal;
-        exports.isProfiler = isProfiler;
-        exports.isStrictMode = isStrictMode;
-        exports.isSuspense = isSuspense;
-        exports.isSuspenseList = isSuspenseList;
-        exports.isValidElementType = isValidElementType2;
-        exports.typeOf = typeOf;
-      })();
-    }
-  }
-});
-
-// node_modules/react-redux/node_modules/react-is/index.js
-var require_react_is2 = __commonJS({
-  "node_modules/react-redux/node_modules/react-is/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_react_is_development2();
-    }
-  }
-});
-
 // node_modules/@babel/runtime/helpers/typeof.js
 var require_typeof = __commonJS({
   "node_modules/@babel/runtime/helpers/typeof.js"(exports, module2) {
@@ -27900,33 +27340,33 @@ var require_useStateManager_7748b351_cjs_dev = __commonJS({
     var _objectSpread = require_objectSpread2();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var React50 = require_react();
+    var React52 = require_react();
     var _excluded = ["defaultInputValue", "defaultMenuIsOpen", "defaultValue", "inputValue", "menuIsOpen", "onChange", "onInputChange", "onMenuClose", "onMenuOpen", "value"];
     function useStateManager(_ref) {
       var _ref$defaultInputValu = _ref.defaultInputValue, defaultInputValue = _ref$defaultInputValu === void 0 ? "" : _ref$defaultInputValu, _ref$defaultMenuIsOpe = _ref.defaultMenuIsOpen, defaultMenuIsOpen = _ref$defaultMenuIsOpe === void 0 ? false : _ref$defaultMenuIsOpe, _ref$defaultValue = _ref.defaultValue, defaultValue = _ref$defaultValue === void 0 ? null : _ref$defaultValue, propsInputValue = _ref.inputValue, propsMenuIsOpen = _ref.menuIsOpen, propsOnChange = _ref.onChange, propsOnInputChange = _ref.onInputChange, propsOnMenuClose = _ref.onMenuClose, propsOnMenuOpen = _ref.onMenuOpen, propsValue = _ref.value, restSelectProps = _objectWithoutProperties(_ref, _excluded);
-      var _useState = React50.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
-      var _useState3 = React50.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
-      var _useState5 = React50.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
-      var onChange = React50.useCallback(function(value2, actionMeta) {
+      var _useState = React52.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
+      var _useState3 = React52.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
+      var _useState5 = React52.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
+      var onChange = React52.useCallback(function(value2, actionMeta) {
         if (typeof propsOnChange === "function") {
           propsOnChange(value2, actionMeta);
         }
         setStateValue(value2);
       }, [propsOnChange]);
-      var onInputChange = React50.useCallback(function(value2, actionMeta) {
+      var onInputChange = React52.useCallback(function(value2, actionMeta) {
         var newValue;
         if (typeof propsOnInputChange === "function") {
           newValue = propsOnInputChange(value2, actionMeta);
         }
         setStateInputValue(newValue !== void 0 ? newValue : value2);
       }, [propsOnInputChange]);
-      var onMenuOpen = React50.useCallback(function() {
+      var onMenuOpen = React52.useCallback(function() {
         if (typeof propsOnMenuOpen === "function") {
           propsOnMenuOpen();
         }
         setStateMenuIsOpen(true);
       }, [propsOnMenuOpen]);
-      var onMenuClose = React50.useCallback(function() {
+      var onMenuClose = React52.useCallback(function() {
         if (typeof propsOnMenuClose === "function") {
           propsOnMenuClose();
         }
@@ -29879,7 +29319,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     var _typeof2 = require_typeof();
     var _taggedTemplateLiteral = require_taggedTemplateLiteral();
     var _defineProperty2 = require_defineProperty();
-    var React50 = require_react();
+    var React52 = require_react();
     var reactDom = require_react_dom();
     var dom = require_floating_ui_dom_umd();
     var useLayoutEffect2 = require_use_isomorphic_layout_effect_browser_cjs();
@@ -30228,13 +29668,13 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         marginTop: spacing.menuGutter
       });
     };
-    var PortalPlacementContext = /* @__PURE__ */ React50.createContext(null);
+    var PortalPlacementContext = /* @__PURE__ */ React52.createContext(null);
     var MenuPlacer = function MenuPlacer2(props) {
       var children = props.children, minMenuHeight = props.minMenuHeight, maxMenuHeight = props.maxMenuHeight, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition, menuShouldScrollIntoView = props.menuShouldScrollIntoView, theme = props.theme;
-      var _ref3 = React50.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
-      var ref = React50.useRef(null);
-      var _useState = React50.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
-      var _useState3 = React50.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
+      var _ref3 = React52.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
+      var ref = React52.useRef(null);
+      var _useState = React52.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
+      var _useState3 = React52.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
       var controlHeight = theme.spacing.controlHeight;
       useLayoutEffect__default["default"](function() {
         var menuEl = ref.current;
@@ -30336,16 +29776,16 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     };
     var MenuPortal = function MenuPortal2(props) {
       var appendTo = props.appendTo, children = props.children, controlElement = props.controlElement, innerProps = props.innerProps, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition;
-      var menuPortalRef = React50.useRef(null);
-      var cleanupRef = React50.useRef(null);
-      var _useState5 = React50.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
-      var portalPlacementContext = React50.useMemo(function() {
+      var menuPortalRef = React52.useRef(null);
+      var cleanupRef = React52.useRef(null);
+      var _useState5 = React52.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
+      var portalPlacementContext = React52.useMemo(function() {
         return {
           setPortalPlacement
         };
       }, []);
-      var _useState7 = React50.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
-      var updateComputedPosition = React50.useCallback(function() {
+      var _useState7 = React52.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
+      var updateComputedPosition = React52.useCallback(function() {
         if (!controlElement)
           return;
         var rect = getBoundingClientObj(controlElement);
@@ -30361,7 +29801,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         updateComputedPosition();
       }, [updateComputedPosition]);
-      var runAutoUpdate = React50.useCallback(function() {
+      var runAutoUpdate = React52.useCallback(function() {
         if (typeof cleanupRef.current === "function") {
           cleanupRef.current();
           cleanupRef.current = null;
@@ -30375,7 +29815,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         runAutoUpdate();
       }, [runAutoUpdate]);
-      var setMenuPortalElement = React50.useCallback(function(menuPortalElement) {
+      var setMenuPortalElement = React52.useCallback(function(menuPortalElement) {
         menuPortalRef.current = menuPortalElement;
         runAutoUpdate();
       }, [runAutoUpdate]);
@@ -31022,7 +30462,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     var _inherits = require_inherits();
     var _createSuper = require_createSuper();
     var _toConsumableArray = require_toConsumableArray();
-    var React50 = require_react();
+    var React52 = require_react();
     var index = require_index_2fe3dc33_cjs_dev();
     var react = require_emotion_react_cjs();
     var memoizeOne = require_memoize_one_cjs();
@@ -31050,7 +30490,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React50);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var memoizeOne__default = /* @__PURE__ */ _interopDefault(memoizeOne);
     function _EMOTION_STRINGIFIED_CSS_ERROR__$2() {
       return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop).";
@@ -31126,10 +30566,10 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       var ariaLiveMessages = selectProps.ariaLiveMessages, getOptionLabel2 = selectProps.getOptionLabel, inputValue = selectProps.inputValue, isMulti = selectProps.isMulti, isOptionDisabled2 = selectProps.isOptionDisabled, isSearchable = selectProps.isSearchable, menuIsOpen = selectProps.menuIsOpen, options = selectProps.options, screenReaderStatus = selectProps.screenReaderStatus, tabSelectsValue = selectProps.tabSelectsValue;
       var ariaLabel = selectProps["aria-label"];
       var ariaLive = selectProps["aria-live"];
-      var messages = React50.useMemo(function() {
+      var messages = React52.useMemo(function() {
         return _objectSpread(_objectSpread({}, defaultAriaLiveMessages), ariaLiveMessages || {});
       }, [ariaLiveMessages]);
-      var ariaSelected = React50.useMemo(function() {
+      var ariaSelected = React52.useMemo(function() {
         var message = "";
         if (ariaSelection && messages.onChange) {
           var option = ariaSelection.option, selectedOptions = ariaSelection.options, removedValue = ariaSelection.removedValue, removedValues = ariaSelection.removedValues, value = ariaSelection.value;
@@ -31149,7 +30589,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return message;
       }, [ariaSelection, messages, isOptionDisabled2, selectValue, getOptionLabel2]);
-      var ariaFocused = React50.useMemo(function() {
+      var ariaFocused = React52.useMemo(function() {
         var focusMsg = "";
         var focused = focusedOption || focusedValue;
         var isSelected = !!(focusedOption && selectValue && selectValue.includes(focusedOption));
@@ -31167,7 +30607,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return focusMsg;
       }, [focusedOption, focusedValue, getOptionLabel2, isOptionDisabled2, messages, focusableOptions, selectValue]);
-      var ariaResults = React50.useMemo(function() {
+      var ariaResults = React52.useMemo(function() {
         var resultsMsg = "";
         if (menuIsOpen && options.length && messages.onFilter) {
           var resultsMessage = screenReaderStatus({
@@ -31180,7 +30620,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return resultsMsg;
       }, [focusableOptions, inputValue, menuIsOpen, messages, options, screenReaderStatus]);
-      var ariaGuidance = React50.useMemo(function() {
+      var ariaGuidance = React52.useMemo(function() {
         var guidanceMsg = "";
         if (messages.guidance) {
           var context = focusedValue ? "value" : menuIsOpen ? "menu" : "input";
@@ -31196,13 +30636,13 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         return guidanceMsg;
       }, [ariaLabel, focusedOption, focusedValue, isMulti, isOptionDisabled2, isSearchable, menuIsOpen, messages, selectValue, tabSelectsValue]);
       var ariaContext = "".concat(ariaFocused, " ").concat(ariaResults, " ").concat(ariaGuidance);
-      var ScreenReaderText = react.jsx(React50.Fragment, null, react.jsx("span", {
+      var ScreenReaderText = react.jsx(React52.Fragment, null, react.jsx("span", {
         id: "aria-selection"
       }, ariaSelected), react.jsx("span", {
         id: "aria-context"
       }, ariaContext));
       var isInitialFocus = (ariaSelection === null || ariaSelection === void 0 ? void 0 : ariaSelection.action) === "initial-input-focus";
-      return react.jsx(React50.Fragment, null, react.jsx(A11yText$1, {
+      return react.jsx(React52.Fragment, null, react.jsx(A11yText$1, {
         id: id2
       }, isInitialFocus && ScreenReaderText), react.jsx(A11yText$1, {
         "aria-live": ariaLive,
@@ -31544,11 +30984,11 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollCapture(_ref3) {
       var isEnabled = _ref3.isEnabled, onBottomArrive = _ref3.onBottomArrive, onBottomLeave = _ref3.onBottomLeave, onTopArrive = _ref3.onTopArrive, onTopLeave = _ref3.onTopLeave;
-      var isBottom = React50.useRef(false);
-      var isTop = React50.useRef(false);
-      var touchStart = React50.useRef(0);
-      var scrollTarget = React50.useRef(null);
-      var handleEventDelta = React50.useCallback(function(event, delta) {
+      var isBottom = React52.useRef(false);
+      var isTop = React52.useRef(false);
+      var touchStart = React52.useRef(0);
+      var scrollTarget = React52.useRef(null);
+      var handleEventDelta = React52.useCallback(function(event, delta) {
         if (scrollTarget.current === null)
           return;
         var _scrollTarget$current = scrollTarget.current, scrollTop = _scrollTarget$current.scrollTop, scrollHeight = _scrollTarget$current.scrollHeight, clientHeight = _scrollTarget$current.clientHeight;
@@ -31585,17 +31025,17 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           cancelScroll(event);
         }
       }, [onBottomArrive, onBottomLeave, onTopArrive, onTopLeave]);
-      var onWheel = React50.useCallback(function(event) {
+      var onWheel = React52.useCallback(function(event) {
         handleEventDelta(event, event.deltaY);
       }, [handleEventDelta]);
-      var onTouchStart = React50.useCallback(function(event) {
+      var onTouchStart = React52.useCallback(function(event) {
         touchStart.current = event.changedTouches[0].clientY;
       }, []);
-      var onTouchMove = React50.useCallback(function(event) {
+      var onTouchMove = React52.useCallback(function(event) {
         var deltaY = touchStart.current - event.changedTouches[0].clientY;
         handleEventDelta(event, deltaY);
       }, [handleEventDelta]);
-      var startListening = React50.useCallback(function(el) {
+      var startListening = React52.useCallback(function(el) {
         if (!el)
           return;
         var notPassive = index.supportsPassiveEvents ? {
@@ -31605,14 +31045,14 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         el.addEventListener("touchstart", onTouchStart, notPassive);
         el.addEventListener("touchmove", onTouchMove, notPassive);
       }, [onTouchMove, onTouchStart, onWheel]);
-      var stopListening = React50.useCallback(function(el) {
+      var stopListening = React52.useCallback(function(el) {
         if (!el)
           return;
         el.removeEventListener("wheel", onWheel, false);
         el.removeEventListener("touchstart", onTouchStart, false);
         el.removeEventListener("touchmove", onTouchMove, false);
       }, [onTouchMove, onTouchStart, onWheel]);
-      React50.useEffect(function() {
+      React52.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -31659,9 +31099,9 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollLock(_ref3) {
       var isEnabled = _ref3.isEnabled, _ref$accountForScroll = _ref3.accountForScrollbars, accountForScrollbars = _ref$accountForScroll === void 0 ? true : _ref$accountForScroll;
-      var originalStyles = React50.useRef({});
-      var scrollTarget = React50.useRef(null);
-      var addScrollLock = React50.useCallback(function(touchScrollTarget) {
+      var originalStyles = React52.useRef({});
+      var scrollTarget = React52.useRef(null);
+      var addScrollLock = React52.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -31695,7 +31135,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         activeScrollLocks += 1;
       }, [accountForScrollbars]);
-      var removeScrollLock = React50.useCallback(function(touchScrollTarget) {
+      var removeScrollLock = React52.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -31717,7 +31157,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           }
         }
       }, [accountForScrollbars]);
-      React50.useEffect(function() {
+      React52.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -31761,7 +31201,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         setScrollCaptureTarget(element);
         setScrollLockTarget(element);
       };
-      return react.jsx(React50.Fragment, null, lockEnabled && react.jsx("div", {
+      return react.jsx(React52.Fragment, null, lockEnabled && react.jsx("div", {
         onClick: blurSelectInput,
         css: _ref2$1
       }), children(targetRef));
@@ -33277,7 +32717,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
       }]);
       return Select2;
-    }(React50.Component);
+    }(React52.Component);
     Select.defaultProps = defaultProps;
     exports.Select = Select;
     exports.createFilter = createFilter;
@@ -33296,7 +32736,7 @@ var require_react_select_cjs_dev = __commonJS({
     Object.defineProperty(exports, "__esModule", { value: true });
     var useStateManager = require_useStateManager_7748b351_cjs_dev();
     var _extends2 = require_extends();
-    var React50 = require_react();
+    var React52 = require_react();
     var Select = require_Select_5041a4f3_cjs_dev();
     var react = require_emotion_react_cjs();
     var createCache = require_emotion_cache_cjs();
@@ -33339,9 +32779,9 @@ var require_react_select_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React50);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
-    var StateManagedSelect = /* @__PURE__ */ React50.forwardRef(function(props, ref) {
+    var StateManagedSelect = /* @__PURE__ */ React52.forwardRef(function(props, ref) {
       var baseSelectProps = useStateManager.useStateManager(props);
       return /* @__PURE__ */ React__namespace.createElement(Select.Select, _extends2({
         ref
@@ -33350,7 +32790,7 @@ var require_react_select_cjs_dev = __commonJS({
     var StateManagedSelect$1 = StateManagedSelect;
     var NonceProvider = function(_ref) {
       var nonce = _ref.nonce, children = _ref.children, cacheKey = _ref.cacheKey;
-      var emotionCache = React50.useMemo(function() {
+      var emotionCache = React52.useMemo(function() {
         return createCache__default["default"]({
           key: cacheKey,
           nonce
@@ -33386,6 +32826,566 @@ var require_react_select_cjs = __commonJS({
 var require_react_select_cjs_default = __commonJS({
   "node_modules/react-select/dist/react-select.cjs.default.js"(exports) {
     exports._default = require_react_select_cjs().default;
+  }
+});
+
+// node_modules/papaparse/papaparse.min.js
+var require_papaparse_min = __commonJS({
+  "node_modules/papaparse/papaparse.min.js"(exports, module2) {
+    !function(e, t2) {
+      "function" == typeof define && define.amd ? define([], t2) : "object" == typeof module2 && "undefined" != typeof exports ? module2.exports = t2() : e.Papa = t2();
+    }(exports, function s2() {
+      "use strict";
+      var f3 = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f3 ? f3 : {};
+      var n2 = !f3.document && !!f3.postMessage, o2 = f3.IS_PAPA_WORKER || false, a2 = {}, u2 = 0, b2 = { parse: function(e, t2) {
+        var r3 = (t2 = t2 || {}).dynamicTyping || false;
+        J(r3) && (t2.dynamicTypingFunction = r3, r3 = {});
+        if (t2.dynamicTyping = r3, t2.transform = !!J(t2.transform) && t2.transform, t2.worker && b2.WORKERS_SUPPORTED) {
+          var i2 = function() {
+            if (!b2.WORKERS_SUPPORTED)
+              return false;
+            var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
+            var r4, i3;
+            return t3.onmessage = _3, t3.id = u2++, a2[t3.id] = t3;
+          }();
+          return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
+        }
+        var n3 = null;
+        b2.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e2) {
+          if (65279 === e2.charCodeAt(0))
+            return e2.slice(1);
+          return e2;
+        }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
+        return n3.stream(e);
+      }, unparse: function(e, t2) {
+        var n3 = false, _4 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
+        !function() {
+          if ("object" != typeof t2)
+            return;
+          "string" != typeof t2.delimiter || b2.BAD_DELIMITERS.filter(function(e2) {
+            return -1 !== t2.delimiter.indexOf(e2);
+          }).length || (m3 = t2.delimiter);
+          ("boolean" == typeof t2.quotes || "function" == typeof t2.quotes || Array.isArray(t2.quotes)) && (n3 = t2.quotes);
+          "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
+          "string" == typeof t2.newline && (y3 = t2.newline);
+          "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
+          "boolean" == typeof t2.header && (_4 = t2.header);
+          if (Array.isArray(t2.columns)) {
+            if (0 === t2.columns.length)
+              throw new Error("Option columns is empty");
+            i2 = t2.columns;
+          }
+          void 0 !== t2.escapeChar && (a3 = t2.escapeChar + s3);
+          ("boolean" == typeof t2.escapeFormulae || t2.escapeFormulae instanceof RegExp) && (o3 = t2.escapeFormulae instanceof RegExp ? t2.escapeFormulae : /^[=+\-@\t\r].*$/);
+        }();
+        var u3 = new RegExp(Q2(s3), "g");
+        "string" == typeof e && (e = JSON.parse(e));
+        if (Array.isArray(e)) {
+          if (!e.length || Array.isArray(e[0]))
+            return h3(null, e, r3);
+          if ("object" == typeof e[0])
+            return h3(i2 || Object.keys(e[0]), e, r3);
+        } else if ("object" == typeof e)
+          return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i2), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [e.data])), h3(e.fields || [], e.data || [], r3);
+        throw new Error("Unable to serialize unrecognized input");
+        function h3(e2, t3, r4) {
+          var i3 = "";
+          "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
+          var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
+          if (n4 && _4) {
+            for (var a4 = 0; a4 < e2.length; a4++)
+              0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
+            0 < t3.length && (i3 += y3);
+          }
+          for (var o4 = 0; o4 < t3.length; o4++) {
+            var u4 = n4 ? e2.length : t3[o4].length, h4 = false, f4 = n4 ? 0 === Object.keys(t3[o4]).length : 0 === t3[o4].length;
+            if (r4 && !n4 && (h4 = "greedy" === r4 ? "" === t3[o4].join("").trim() : 1 === t3[o4].length && 0 === t3[o4][0].length), "greedy" === r4 && n4) {
+              for (var d3 = [], l3 = 0; l3 < u4; l3++) {
+                var c3 = s4 ? e2[l3] : l3;
+                d3.push(t3[o4][c3]);
+              }
+              h4 = "" === d3.join("").trim();
+            }
+            if (!h4) {
+              for (var p3 = 0; p3 < u4; p3++) {
+                0 < p3 && !f4 && (i3 += m3);
+                var g3 = n4 && s4 ? e2[p3] : p3;
+                i3 += v3(t3[o4][g3], p3);
+              }
+              o4 < t3.length - 1 && (!r4 || 0 < u4 && !f4) && (i3 += y3);
+            }
+          }
+          return i3;
+        }
+        function v3(e2, t3) {
+          if (null == e2)
+            return "";
+          if (e2.constructor === Date)
+            return JSON.stringify(e2).slice(1, 25);
+          var r4 = false;
+          o3 && "string" == typeof e2 && o3.test(e2) && (e2 = "'" + e2, r4 = true);
+          var i3 = e2.toString().replace(u3, a3);
+          return (r4 = r4 || true === n3 || "function" == typeof n3 && n3(e2, t3) || Array.isArray(n3) && n3[t3] || function(e3, t4) {
+            for (var r5 = 0; r5 < t4.length; r5++)
+              if (-1 < e3.indexOf(t4[r5]))
+                return true;
+            return false;
+          }(i3, b2.BAD_DELIMITERS) || -1 < i3.indexOf(m3) || " " === i3.charAt(0) || " " === i3.charAt(i3.length - 1)) ? s3 + i3 + s3 : i3;
+        }
+      } };
+      if (b2.RECORD_SEP = String.fromCharCode(30), b2.UNIT_SEP = String.fromCharCode(31), b2.BYTE_ORDER_MARK = "\uFEFF", b2.BAD_DELIMITERS = ["\r", "\n", '"', b2.BYTE_ORDER_MARK], b2.WORKERS_SUPPORTED = !n2 && !!f3.Worker, b2.NODE_STREAM_INPUT = 1, b2.LocalChunkSize = 10485760, b2.RemoteChunkSize = 5242880, b2.DefaultDelimiter = ",", b2.Parser = E2, b2.ParserHandle = r2, b2.NetworkStreamer = l2, b2.FileStreamer = c2, b2.StringStreamer = p2, b2.ReadableStreamStreamer = g2, f3.jQuery) {
+        var d2 = f3.jQuery;
+        d2.fn.parse = function(o3) {
+          var r3 = o3.config || {}, u3 = [];
+          return this.each(function(e2) {
+            if (!("INPUT" === d2(this).prop("tagName").toUpperCase() && "file" === d2(this).attr("type").toLowerCase() && f3.FileReader) || !this.files || 0 === this.files.length)
+              return true;
+            for (var t2 = 0; t2 < this.files.length; t2++)
+              u3.push({ file: this.files[t2], inputElem: this, instanceConfig: d2.extend({}, r3) });
+          }), e(), this;
+          function e() {
+            if (0 !== u3.length) {
+              var e2, t2, r4, i2, n3 = u3[0];
+              if (J(o3.before)) {
+                var s3 = o3.before(n3.file, n3.inputElem);
+                if ("object" == typeof s3) {
+                  if ("abort" === s3.action)
+                    return e2 = "AbortError", t2 = n3.file, r4 = n3.inputElem, i2 = s3.reason, void (J(o3.error) && o3.error({ name: e2 }, t2, r4, i2));
+                  if ("skip" === s3.action)
+                    return void h3();
+                  "object" == typeof s3.config && (n3.instanceConfig = d2.extend(n3.instanceConfig, s3.config));
+                } else if ("skip" === s3)
+                  return void h3();
+              }
+              var a3 = n3.instanceConfig.complete;
+              n3.instanceConfig.complete = function(e3) {
+                J(a3) && a3(e3, n3.file, n3.inputElem), h3();
+              }, b2.parse(n3.file, n3.instanceConfig);
+            } else
+              J(o3.complete) && o3.complete();
+          }
+          function h3() {
+            u3.splice(0, 1), e();
+          }
+        };
+      }
+      function h2(e) {
+        this._handle = null, this._finished = false, this._completed = false, this._halted = false, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = true, this._completeResults = { data: [], errors: [], meta: {} }, function(e2) {
+          var t2 = w2(e2);
+          t2.chunkSize = parseInt(t2.chunkSize), e2.step || e2.chunk || (t2.chunkSize = null);
+          this._handle = new r2(t2), (this._handle.streamer = this)._config = t2;
+        }.call(this, e), this.parseChunk = function(e2, t2) {
+          if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
+            var r3 = this._config.beforeFirstChunk(e2);
+            void 0 !== r3 && (e2 = r3);
+          }
+          this.isFirstChunk = false, this._halted = false;
+          var i2 = this._partialLine + e2;
+          this._partialLine = "";
+          var n3 = this._handle.parse(i2, this._baseIndex, !this._finished);
+          if (!this._handle.paused() && !this._handle.aborted()) {
+            var s3 = n3.meta.cursor;
+            this._finished || (this._partialLine = i2.substring(s3 - this._baseIndex), this._baseIndex = s3), n3 && n3.data && (this._rowCount += n3.data.length);
+            var a3 = this._finished || this._config.preview && this._rowCount >= this._config.preview;
+            if (o2)
+              f3.postMessage({ results: n3, workerId: b2.WORKER_ID, finished: a3 });
+            else if (J(this._config.chunk) && !t2) {
+              if (this._config.chunk(n3, this._handle), this._handle.paused() || this._handle.aborted())
+                return void (this._halted = true);
+              n3 = void 0, this._completeResults = void 0;
+            }
+            return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n3.data), this._completeResults.errors = this._completeResults.errors.concat(n3.errors), this._completeResults.meta = n3.meta), this._completed || !a3 || !J(this._config.complete) || n3 && n3.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = true), a3 || n3 && n3.meta.paused || this._nextChunk(), n3;
+          }
+          this._halted = true;
+        }, this._sendError = function(e2) {
+          J(this._config.error) ? this._config.error(e2) : o2 && this._config.error && f3.postMessage({ workerId: b2.WORKER_ID, error: e2, finished: false });
+        };
+      }
+      function l2(e) {
+        var i2;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.RemoteChunkSize), h2.call(this, e), this._nextChunk = n2 ? function() {
+          this._readChunk(), this._chunkLoaded();
+        } : function() {
+          this._readChunk();
+        }, this.stream = function(e2) {
+          this._input = e2, this._nextChunk();
+        }, this._readChunk = function() {
+          if (this._finished)
+            this._chunkLoaded();
+          else {
+            if (i2 = new XMLHttpRequest(), this._config.withCredentials && (i2.withCredentials = this._config.withCredentials), n2 || (i2.onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)), i2.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n2), this._config.downloadRequestHeaders) {
+              var e2 = this._config.downloadRequestHeaders;
+              for (var t2 in e2)
+                i2.setRequestHeader(t2, e2[t2]);
+            }
+            if (this._config.chunkSize) {
+              var r3 = this._start + this._config.chunkSize - 1;
+              i2.setRequestHeader("Range", "bytes=" + this._start + "-" + r3);
+            }
+            try {
+              i2.send(this._config.downloadRequestBody);
+            } catch (e3) {
+              this._chunkError(e3.message);
+            }
+            n2 && 0 === i2.status && this._chunkError();
+          }
+        }, this._chunkLoaded = function() {
+          4 === i2.readyState && (i2.status < 200 || 400 <= i2.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i2.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e2) {
+            var t2 = e2.getResponseHeader("Content-Range");
+            if (null === t2)
+              return -1;
+            return parseInt(t2.substring(t2.lastIndexOf("/") + 1));
+          }(i2), this.parseChunk(i2.responseText)));
+        }, this._chunkError = function(e2) {
+          var t2 = i2.statusText || e2;
+          this._sendError(new Error(t2));
+        };
+      }
+      function c2(e) {
+        var i2, n3;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.LocalChunkSize), h2.call(this, e);
+        var s3 = "undefined" != typeof FileReader;
+        this.stream = function(e2) {
+          this._input = e2, n3 = e2.slice || e2.webkitSlice || e2.mozSlice, s3 ? ((i2 = new FileReader()).onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)) : i2 = new FileReaderSync(), this._nextChunk();
+        }, this._nextChunk = function() {
+          this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
+        }, this._readChunk = function() {
+          var e2 = this._input;
+          if (this._config.chunkSize) {
+            var t2 = Math.min(this._start + this._config.chunkSize, this._input.size);
+            e2 = n3.call(e2, this._start, t2);
+          }
+          var r3 = i2.readAsText(e2, this._config.encoding);
+          s3 || this._chunkLoaded({ target: { result: r3 } });
+        }, this._chunkLoaded = function(e2) {
+          this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e2.target.result);
+        }, this._chunkError = function() {
+          this._sendError(i2.error);
+        };
+      }
+      function p2(e) {
+        var r3;
+        h2.call(this, e = e || {}), this.stream = function(e2) {
+          return r3 = e2, this._nextChunk();
+        }, this._nextChunk = function() {
+          if (!this._finished) {
+            var e2, t2 = this._config.chunkSize;
+            return t2 ? (e2 = r3.substring(0, t2), r3 = r3.substring(t2)) : (e2 = r3, r3 = ""), this._finished = !r3, this.parseChunk(e2);
+          }
+        };
+      }
+      function g2(e) {
+        h2.call(this, e = e || {});
+        var t2 = [], r3 = true, i2 = false;
+        this.pause = function() {
+          h2.prototype.pause.apply(this, arguments), this._input.pause();
+        }, this.resume = function() {
+          h2.prototype.resume.apply(this, arguments), this._input.resume();
+        }, this.stream = function(e2) {
+          this._input = e2, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
+        }, this._checkIsFinished = function() {
+          i2 && 1 === t2.length && (this._finished = true);
+        }, this._nextChunk = function() {
+          this._checkIsFinished(), t2.length ? this.parseChunk(t2.shift()) : r3 = true;
+        }, this._streamData = v2(function(e2) {
+          try {
+            t2.push("string" == typeof e2 ? e2 : e2.toString(this._config.encoding)), r3 && (r3 = false, this._checkIsFinished(), this.parseChunk(t2.shift()));
+          } catch (e3) {
+            this._streamError(e3);
+          }
+        }, this), this._streamError = v2(function(e2) {
+          this._streamCleanUp(), this._sendError(e2);
+        }, this), this._streamEnd = v2(function() {
+          this._streamCleanUp(), i2 = true, this._streamData("");
+        }, this), this._streamCleanUp = v2(function() {
+          this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
+        }, this);
+      }
+      function r2(m3) {
+        var a3, o3, u3, i2 = Math.pow(2, 53), n3 = -i2, s3 = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h3 = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t2 = this, r3 = 0, f4 = 0, d3 = false, e = false, l3 = [], c3 = { data: [], errors: [], meta: {} };
+        if (J(m3.step)) {
+          var p3 = m3.step;
+          m3.step = function(e2) {
+            if (c3 = e2, _4())
+              g3();
+            else {
+              if (g3(), 0 === c3.data.length)
+                return;
+              r3 += e2.data.length, m3.preview && r3 > m3.preview ? o3.abort() : (c3.data = c3.data[0], p3(c3, t2));
+            }
+          };
+        }
+        function y3(e2) {
+          return "greedy" === m3.skipEmptyLines ? "" === e2.join("").trim() : 1 === e2.length && 0 === e2[0].length;
+        }
+        function g3() {
+          return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
+            return !y3(e2);
+          })), _4() && function() {
+            if (!c3)
+              return;
+            function e2(e3, t4) {
+              J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
+            }
+            if (Array.isArray(c3.data[0])) {
+              for (var t3 = 0; _4() && t3 < c3.data.length; t3++)
+                c3.data[t3].forEach(e2);
+              c3.data.splice(0, 1);
+            } else
+              c3.data.forEach(e2);
+          }(), function() {
+            if (!c3 || !m3.header && !m3.dynamicTyping && !m3.transform)
+              return c3;
+            function e2(e3, t4) {
+              var r4, i3 = m3.header ? {} : [];
+              for (r4 = 0; r4 < e3.length; r4++) {
+                var n4 = r4, s4 = e3[r4];
+                m3.header && (n4 = r4 >= l3.length ? "__parsed_extra" : l3[r4]), m3.transform && (s4 = m3.transform(s4, n4)), s4 = v3(n4, s4), "__parsed_extra" === n4 ? (i3[n4] = i3[n4] || [], i3[n4].push(s4)) : i3[n4] = s4;
+              }
+              return m3.header && (r4 > l3.length ? k2("FieldMismatch", "TooManyFields", "Too many fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4) : r4 < l3.length && k2("FieldMismatch", "TooFewFields", "Too few fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4)), i3;
+            }
+            var t3 = 1;
+            !c3.data.length || Array.isArray(c3.data[0]) ? (c3.data = c3.data.map(e2), t3 = c3.data.length) : c3.data = e2(c3.data, 0);
+            m3.header && c3.meta && (c3.meta.fields = l3);
+            return f4 += t3, c3;
+          }();
+        }
+        function _4() {
+          return m3.header && 0 === l3.length;
+        }
+        function v3(e2, t3) {
+          return r4 = e2, m3.dynamicTypingFunction && void 0 === m3.dynamicTyping[r4] && (m3.dynamicTyping[r4] = m3.dynamicTypingFunction(r4)), true === (m3.dynamicTyping[r4] || m3.dynamicTyping) ? "true" === t3 || "TRUE" === t3 || "false" !== t3 && "FALSE" !== t3 && (function(e3) {
+            if (s3.test(e3)) {
+              var t4 = parseFloat(e3);
+              if (n3 < t4 && t4 < i2)
+                return true;
+            }
+            return false;
+          }(t3) ? parseFloat(t3) : h3.test(t3) ? new Date(t3) : "" === t3 ? null : t3) : t3;
+          var r4;
+        }
+        function k2(e2, t3, r4, i3) {
+          var n4 = { type: e2, code: t3, message: r4 };
+          void 0 !== i3 && (n4.row = i3), c3.errors.push(n4);
+        }
+        this.parse = function(e2, t3, r4) {
+          var i3 = m3.quoteChar || '"';
+          if (m3.newline || (m3.newline = function(e3, t4) {
+            e3 = e3.substring(0, 1048576);
+            var r5 = new RegExp(Q2(t4) + "([^]*?)" + Q2(t4), "gm"), i4 = (e3 = e3.replace(r5, "")).split("\r"), n5 = e3.split("\n"), s5 = 1 < n5.length && n5[0].length < i4[0].length;
+            if (1 === i4.length || s5)
+              return "\n";
+            for (var a4 = 0, o4 = 0; o4 < i4.length; o4++)
+              "\n" === i4[o4][0] && a4++;
+            return a4 >= i4.length / 2 ? "\r\n" : "\r";
+          }(e2, i3)), u3 = false, m3.delimiter)
+            J(m3.delimiter) && (m3.delimiter = m3.delimiter(e2), c3.meta.delimiter = m3.delimiter);
+          else {
+            var n4 = function(e3, t4, r5, i4, n5) {
+              var s5, a4, o4, u4;
+              n5 = n5 || [",", "	", "|", ";", b2.RECORD_SEP, b2.UNIT_SEP];
+              for (var h4 = 0; h4 < n5.length; h4++) {
+                var f5 = n5[h4], d4 = 0, l4 = 0, c4 = 0;
+                o4 = void 0;
+                for (var p4 = new E2({ comments: i4, delimiter: f5, newline: t4, preview: 10 }).parse(e3), g4 = 0; g4 < p4.data.length; g4++)
+                  if (r5 && y3(p4.data[g4]))
+                    c4++;
+                  else {
+                    var _5 = p4.data[g4].length;
+                    l4 += _5, void 0 !== o4 ? 0 < _5 && (d4 += Math.abs(_5 - o4), o4 = _5) : o4 = _5;
+                  }
+                0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
+              }
+              return { successful: !!(m3.delimiter = s5), bestDelimiter: s5 };
+            }(e2, m3.newline, m3.skipEmptyLines, m3.comments, m3.delimitersToGuess);
+            n4.successful ? m3.delimiter = n4.bestDelimiter : (u3 = true, m3.delimiter = b2.DefaultDelimiter), c3.meta.delimiter = m3.delimiter;
+          }
+          var s4 = w2(m3);
+          return m3.preview && m3.header && s4.preview++, a3 = e2, o3 = new E2(s4), c3 = o3.parse(a3, t3, r4), g3(), d3 ? { meta: { paused: true } } : c3 || { meta: { paused: false } };
+        }, this.paused = function() {
+          return d3;
+        }, this.pause = function() {
+          d3 = true, o3.abort(), a3 = J(m3.chunk) ? "" : a3.substring(o3.getCharIndex());
+        }, this.resume = function() {
+          t2.streamer._halted ? (d3 = false, t2.streamer.parseChunk(a3, true)) : setTimeout(t2.resume, 3);
+        }, this.aborted = function() {
+          return e;
+        }, this.abort = function() {
+          e = true, o3.abort(), c3.meta.aborted = true, J(m3.complete) && m3.complete(c3), a3 = "";
+        };
+      }
+      function Q2(e) {
+        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+      function E2(j2) {
+        var z2, M2 = (j2 = j2 || {}).delimiter, P2 = j2.newline, U2 = j2.comments, q2 = j2.step, N2 = j2.preview, B2 = j2.fastMode, K = z2 = void 0 === j2.quoteChar || null === j2.quoteChar ? '"' : j2.quoteChar;
+        if (void 0 !== j2.escapeChar && (K = j2.escapeChar), ("string" != typeof M2 || -1 < b2.BAD_DELIMITERS.indexOf(M2)) && (M2 = ","), U2 === M2)
+          throw new Error("Comment character same as delimiter");
+        true === U2 ? U2 = "#" : ("string" != typeof U2 || -1 < b2.BAD_DELIMITERS.indexOf(U2)) && (U2 = false), "\n" !== P2 && "\r" !== P2 && "\r\n" !== P2 && (P2 = "\n");
+        var W2 = 0, H2 = false;
+        this.parse = function(i2, t2, r3) {
+          if ("string" != typeof i2)
+            throw new Error("Input must be a string");
+          var n3 = i2.length, e = M2.length, s3 = P2.length, a3 = U2.length, o3 = J(q2), u3 = [], h3 = [], f4 = [], d3 = W2 = 0;
+          if (!i2)
+            return L2();
+          if (j2.header && !t2) {
+            var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
+            for (var _4 in l3) {
+              var m3 = l3[_4];
+              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _4));
+              var y3 = m3, v3 = p3[m3] || 0;
+              for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
+                y3 = y3 + "_" + v3;
+              c3.push(y3);
+            }
+            if (g3) {
+              var k2 = i2.split(P2);
+              k2[0] = c3.join(M2), i2 = k2.join(P2);
+            }
+          }
+          if (B2 || false !== B2 && -1 === i2.indexOf(z2)) {
+            for (var b3 = i2.split(P2), E3 = 0; E3 < b3.length; E3++) {
+              if (f4 = b3[E3], W2 += f4.length, E3 !== b3.length - 1)
+                W2 += P2.length;
+              else if (r3)
+                return L2();
+              if (!U2 || f4.substring(0, a3) !== U2) {
+                if (o3) {
+                  if (u3 = [], I2(f4.split(M2)), F2(), H2)
+                    return L2();
+                } else
+                  I2(f4.split(M2));
+                if (N2 && N2 <= E3)
+                  return u3 = u3.slice(0, N2), L2(true);
+              }
+            }
+            return L2();
+          }
+          for (var w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2), C = new RegExp(Q2(K) + Q2(z2), "g"), S2 = i2.indexOf(z2, W2); ; )
+            if (i2[W2] !== z2)
+              if (U2 && 0 === f4.length && i2.substring(W2, W2 + a3) === U2) {
+                if (-1 === R2)
+                  return L2();
+                W2 = R2 + s3, R2 = i2.indexOf(P2, W2), w3 = i2.indexOf(M2, W2);
+              } else if (-1 !== w3 && (w3 < R2 || -1 === R2))
+                f4.push(i2.substring(W2, w3)), W2 = w3 + e, w3 = i2.indexOf(M2, W2);
+              else {
+                if (-1 === R2)
+                  break;
+                if (f4.push(i2.substring(W2, R2)), D2(R2 + s3), o3 && (F2(), H2))
+                  return L2();
+                if (N2 && u3.length >= N2)
+                  return L2(true);
+              }
+            else
+              for (S2 = W2, W2++; ; ) {
+                if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
+                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
+                if (S2 === n3 - 1)
+                  return T(i2.substring(W2, S2).replace(C, z2));
+                if (z2 !== K || i2[S2 + 1] !== K) {
+                  if (z2 === K || 0 === S2 || i2[S2 - 1] !== K) {
+                    -1 !== w3 && w3 < S2 + 1 && (w3 = i2.indexOf(M2, S2 + 1)), -1 !== R2 && R2 < S2 + 1 && (R2 = i2.indexOf(P2, S2 + 1));
+                    var O2 = A2(-1 === R2 ? w3 : Math.min(w3, R2));
+                    if (i2.substr(S2 + 1 + O2, e) === M2) {
+                      f4.push(i2.substring(W2, S2).replace(C, z2)), i2[W2 = S2 + 1 + O2 + e] !== z2 && (S2 = i2.indexOf(z2, W2)), w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2);
+                      break;
+                    }
+                    var x2 = A2(R2);
+                    if (i2.substring(S2 + 1 + x2, S2 + 1 + x2 + s3) === P2) {
+                      if (f4.push(i2.substring(W2, S2).replace(C, z2)), D2(S2 + 1 + x2 + s3), w3 = i2.indexOf(M2, W2), S2 = i2.indexOf(z2, W2), o3 && (F2(), H2))
+                        return L2();
+                      if (N2 && u3.length >= N2)
+                        return L2(true);
+                      break;
+                    }
+                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
+                  }
+                } else
+                  S2++;
+              }
+          return T();
+          function I2(e2) {
+            u3.push(e2), d3 = W2;
+          }
+          function A2(e2) {
+            var t3 = 0;
+            if (-1 !== e2) {
+              var r4 = i2.substring(S2 + 1, e2);
+              r4 && "" === r4.trim() && (t3 = r4.length);
+            }
+            return t3;
+          }
+          function T(e2) {
+            return r3 || (void 0 === e2 && (e2 = i2.substring(W2)), f4.push(e2), W2 = n3, I2(f4), o3 && F2()), L2();
+          }
+          function D2(e2) {
+            W2 = e2, I2(f4), f4 = [], R2 = i2.indexOf(P2, W2);
+          }
+          function L2(e2) {
+            return { data: u3, errors: h3, meta: { delimiter: M2, linebreak: P2, aborted: H2, truncated: !!e2, cursor: d3 + (t2 || 0) } };
+          }
+          function F2() {
+            q2(L2()), u3 = [], h3 = [];
+          }
+        }, this.abort = function() {
+          H2 = true;
+        }, this.getCharIndex = function() {
+          return W2;
+        };
+      }
+      function _3(e) {
+        var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
+        if (t2.error)
+          r3.userError(t2.error, t2.file);
+        else if (t2.results && t2.results.data) {
+          var n3 = { abort: function() {
+            i2 = true, m2(t2.workerId, { data: [], errors: [], meta: { aborted: true } });
+          }, pause: y2, resume: y2 };
+          if (J(r3.userStep)) {
+            for (var s3 = 0; s3 < t2.results.data.length && (r3.userStep({ data: t2.results.data[s3], errors: t2.results.errors, meta: t2.results.meta }, n3), !i2); s3++)
+              ;
+            delete t2.results;
+          } else
+            J(r3.userChunk) && (r3.userChunk(t2.results, n3, t2.file), delete t2.results);
+        }
+        t2.finished && !i2 && m2(t2.workerId, t2.results);
+      }
+      function m2(e, t2) {
+        var r3 = a2[e];
+        J(r3.userComplete) && r3.userComplete(t2), r3.terminate(), delete a2[e];
+      }
+      function y2() {
+        throw new Error("Not implemented.");
+      }
+      function w2(e) {
+        if ("object" != typeof e || null === e)
+          return e;
+        var t2 = Array.isArray(e) ? [] : {};
+        for (var r3 in e)
+          t2[r3] = w2(e[r3]);
+        return t2;
+      }
+      function v2(e, t2) {
+        return function() {
+          e.apply(t2, arguments);
+        };
+      }
+      function J(e) {
+        return "function" == typeof e;
+      }
+      return o2 && (f3.onmessage = function(e) {
+        var t2 = e.data;
+        void 0 === b2.WORKER_ID && t2 && (b2.WORKER_ID = t2.workerId);
+        if ("string" == typeof t2.input)
+          f3.postMessage({ workerId: b2.WORKER_ID, results: b2.parse(t2.input, t2.config), finished: true });
+        else if (f3.File && t2.input instanceof File || t2.input instanceof Object) {
+          var r3 = b2.parse(t2.input, t2.config);
+          r3 && f3.postMessage({ workerId: b2.WORKER_ID, results: r3, finished: true });
+        }
+      }), (l2.prototype = Object.create(h2.prototype)).constructor = l2, (c2.prototype = Object.create(h2.prototype)).constructor = c2, (p2.prototype = Object.create(p2.prototype)).constructor = p2, (g2.prototype = Object.create(h2.prototype)).constructor = g2, b2;
+    });
   }
 });
 
@@ -39414,119 +39414,12 @@ var require_lodash = __commonJS({
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
-  DASHBOARDS_PLUGIN_ID: () => DASHBOARDS_PLUGIN_ID,
+  DATA_LOOM_PLUGIN_ID: () => DATA_LOOM_PLUGIN_ID,
   DEFAULT_SETTINGS: () => DEFAULT_SETTINGS,
-  default: () => DashboardsPlugin
+  default: () => DataLoomPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian13 = require("obsidian");
-
-// src/obsidian/dashboards-settings-tab.ts
-var import_obsidian = require("obsidian");
-var import_obsidian2 = require("obsidian");
-var DashboardsSettingsTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app2, plugin) {
-    super(app2, plugin);
-    this.plugin = plugin;
-  }
-  renderFileSettings(containerEl) {
-    new import_obsidian2.Setting(containerEl).setName("File").setHeading();
-    const attachmentsFolderDesc = new DocumentFragment();
-    attachmentsFolderDesc.createSpan({}, (span) => {
-      span.innerHTML = `Create dashboards in the attachments folder defined in the Obsidian settings.<br><br>This can be changed in <span style="color: var(--text-accent);">Files & Links -> Default location for new attachments</span><br><br>Otherwise, the folder location below will be used.`;
-    });
-    new import_obsidian2.Setting(containerEl).setName("Create new dashboards in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
-      cb.setValue(
-        this.plugin.settings.createAtObsidianAttachmentFolder
-      ).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.createAtObsidianAttachmentFolder = value;
-        yield this.plugin.saveSettings();
-        this.display();
-      }));
-    });
-    const defaultLocationDesc = new DocumentFragment();
-    defaultLocationDesc.createSpan({}, (span) => {
-      span.innerHTML = `Where newly created dashboards are placed. Please don't include a slash at the beginning or end of the value.<br>e.g. <strong>myfolder/subdirectory</strong><br><br>Default location is the vault root folder, if not specified.`;
-    });
-    if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
-      new import_obsidian2.Setting(containerEl).setName("Default location for new dashboards").setDesc(defaultLocationDesc).addText((cb) => {
-        cb.setValue(
-          this.plugin.settings.customFolderForNewFiles
-        ).onChange((value) => __async(this, null, function* () {
-          this.plugin.settings.customFolderForNewFiles = value;
-          yield this.plugin.saveSettings();
-        }));
-      });
-    }
-  }
-  renderExportSettings(containerEl) {
-    const exportRenderMarkdownDesc = new DocumentFragment();
-    exportRenderMarkdownDesc.createSpan({}, (span) => {
-      span.innerHTML = "If enabled, content will be exported as markdown. For example, if enabled, a checkbox cell's content will be exported as <strong>[ ]</strong> or <strong>[x]</strong>. If disabled, the content will be exported as <strong>true</strong> or <strong>false</strong>.";
-    });
-    new import_obsidian2.Setting(containerEl).setName("Export").setHeading();
-    new import_obsidian2.Setting(containerEl).setName("Export content as markdown").setDesc(exportRenderMarkdownDesc).addToggle((cb) => {
-      cb.setValue(this.plugin.settings.exportRenderMarkdown).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.exportRenderMarkdown = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-  }
-  renderEmbeddedDashboardSettings(containerEl) {
-    new import_obsidian2.Setting(containerEl).setName("Embedded Dashboards").setHeading();
-    const defaultEmbedWidthDesc = new DocumentFragment();
-    defaultEmbedWidthDesc.createSpan({}, (span) => {
-      span.innerHTML = "The default embedded dashboard width. Accepts valid HTML width values. Like <strong>100px<strong>, <strong>50%</strong>, etc.";
-    });
-    new import_obsidian2.Setting(containerEl).setName("Default embedded dashboard width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
-      cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.defaultEmbedWidth = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-    const defaultEmbedHeightDesc = new DocumentFragment();
-    defaultEmbedHeightDesc.createSpan({}, (span) => {
-      span.innerHTML = "The default embedded dashboard height. Accepts valid HTML width values. Like <strong>100px</strong>, <strong>50%</strong>, etc.";
-    });
-    new import_obsidian2.Setting(containerEl).setName("Default embedded dashboard height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
-      cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.defaultEmbedHeight = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-    containerEl.createSpan(
-      {},
-      (span) => span.innerHTML = `<strong style="color: var(--text-accent); font-size: 12px;">Please close and reopen your embedded dashboards for these settings to take effect</strong>`
-    );
-  }
-  renderDebugSettings(containerEl) {
-    new import_obsidian2.Setting(containerEl).setName("Debug").setHeading();
-    new import_obsidian2.Setting(containerEl).setName("Debug mode").setDesc(
-      "Turns on console.log for plugin events. This is useful for troubleshooting."
-    ).addToggle((cb) => {
-      cb.setValue(this.plugin.settings.shouldDebug).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.shouldDebug = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    this.renderFileSettings(containerEl);
-    this.renderExportSettings(containerEl);
-    this.renderEmbeddedDashboardSettings(containerEl);
-    this.renderDebugSettings(containerEl);
-  }
-};
+var import_obsidian15 = require("obsidian");
 
 // node_modules/immer/dist/immer.esm.mjs
 function n(n2) {
@@ -41151,15 +41044,14 @@ var store = configureStore({
   }
 });
 
-// src/obsidian/dashboards-view.tsx
-var import_obsidian10 = require("obsidian");
+// src/obsidian/dataloom-view.tsx
+var import_obsidian8 = require("obsidian");
 var import_client2 = __toESM(require_client());
 
 // src/data/constants.ts
-var CURRENT_PLUGIN_VERSION = "7.0.1";
-var DEFAULT_TABLE_NAME = "Untitled";
-var PREVIOUS_FILE_EXTENSION = "table";
-var CURRENT_FILE_EXTENSION = "dashboard";
+var CURRENT_PLUGIN_VERSION = "8.0.0";
+var DEFAULT_LOOM_NAME = "Untitled";
+var CURRENT_FILE_EXTENSION = "loom";
 var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
 var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 
@@ -41273,7 +41165,7 @@ var GeneralFunction = /* @__PURE__ */ ((GeneralFunction2) => {
 })(GeneralFunction || {});
 var GeneralFunction670 = GeneralFunction;
 
-// src/shared/dashboard-state/dashboard-error.ts
+// src/shared/loom-state/loom-error.ts
 var ColumNotFoundError = class extends Error {
   constructor(id2) {
     super(`Column ${id2} was not found`);
@@ -41306,25 +41198,25 @@ var CellNotFoundError = class extends Error {
 var findColorClassName = (isDarkMode, color) => {
   switch (color) {
     case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "Dashboards__light-gray--dark" : "Dashboards__light-gray--light";
+      return isDarkMode ? "DataLoom__light-gray--dark" : "DataLoom__light-gray--light";
     case "gray" /* GRAY */:
-      return isDarkMode ? "Dashboards__gray--dark" : "Dashboards__gray--light";
+      return isDarkMode ? "DataLoom__gray--dark" : "DataLoom__gray--light";
     case "brown" /* BROWN */:
-      return isDarkMode ? "Dashboards__brown--dark" : "Dashboards__brown--light";
+      return isDarkMode ? "DataLoom__brown--dark" : "DataLoom__brown--light";
     case "orange" /* ORANGE */:
-      return isDarkMode ? "Dashboards__orange--dark" : "Dashboards__orange--light";
+      return isDarkMode ? "DataLoom__orange--dark" : "DataLoom__orange--light";
     case "yellow" /* YELLOW */:
-      return isDarkMode ? "Dashboards__yellow--dark" : "Dashboards__yellow--light";
+      return isDarkMode ? "DataLoom__yellow--dark" : "DataLoom__yellow--light";
     case "green" /* GREEN */:
-      return isDarkMode ? "Dashboards__green--dark" : "Dashboards__green--light";
+      return isDarkMode ? "DataLoom__green--dark" : "DataLoom__green--light";
     case "blue" /* BLUE */:
-      return isDarkMode ? "Dashboards__blue--dark" : "Dashboards__blue--light";
+      return isDarkMode ? "DataLoom__blue--dark" : "DataLoom__blue--light";
     case "purple" /* PURPLE */:
-      return isDarkMode ? "Dashboards__purple--dark" : "Dashboards__purple--light";
+      return isDarkMode ? "DataLoom__purple--dark" : "DataLoom__purple--light";
     case "pink" /* PINK */:
-      return isDarkMode ? "Dashboards__pink--dark" : "Dashboards__pink--light";
+      return isDarkMode ? "DataLoom__pink--dark" : "DataLoom__pink--light";
     case "red" /* RED */:
-      return isDarkMode ? "Dashboards__red--dark" : "Dashboards__red--light";
+      return isDarkMode ? "DataLoom__red--dark" : "DataLoom__red--light";
     default:
       return "";
   }
@@ -41543,12 +41435,12 @@ var sha1_default = sha1;
 var v5 = v35("v5", 80, sha1_default);
 var v5_default = v5;
 
-// src/shared/dashboard-state/constants.ts
+// src/shared/loom-state/constants.ts
 var MIN_COLUMN_WIDTH = 40;
 var CHECKBOX_MARKDOWN_CHECKED = "[x]";
 var CHECKBOX_MARKDOWN_UNCHECKED = "[ ]";
 
-// src/data/dashboard-state-factory.ts
+// src/data/loom-state-factory.ts
 var createColumn = (options) => {
   const { cellType = "text" /* TEXT */ } = options || {};
   return {
@@ -41631,7 +41523,7 @@ var createTag = (markdown, options) => {
     color
   };
 };
-var createDashboardState = (numColumns, numRows, options) => {
+var createLoomState = (numColumns, numRows, options) => {
   const { cellType } = options || {};
   const columns = [];
   for (let i2 = 0; i2 < numColumns; i2++)
@@ -41727,11 +41619,11 @@ var isVersionLessThan = (oldVersion, newVersion) => {
   return false;
 };
 
-// src/data/serialize-dashboard-state.ts
-var serializeDashboardState = (dashboardState) => {
-  return JSON.stringify(dashboardState, null, 2);
+// src/data/serialize-loom-state.ts
+var serializeLoomState = (LoomState8) => {
+  return JSON.stringify(LoomState8, null, 2);
 };
-var deserializeDashboardState = (data) => {
+var deserializeLoomState = (data) => {
   const parsedState = JSON.parse(data);
   const untypedVersion = parsedState["pluginVersion"];
   let pluginVersion = "";
@@ -41742,24 +41634,24 @@ var deserializeDashboardState = (data) => {
   }
   let currentState = parsedState;
   if (isVersionLessThan(pluginVersion, "6.1.0")) {
-    const dashboardState2 = currentState;
-    const { columns } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.currencyType = CurrencyType610.UNITED_STATES;
     });
   }
   if (isVersionLessThan(pluginVersion, "6.2.0")) {
-    const dashboardState2 = currentState;
-    const { columns } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.dateFormat = DateFormat620.YYYY_MM_DD;
     });
   }
   if (isVersionLessThan(pluginVersion, "6.3.0")) {
-    const dashboardState2 = currentState;
-    const { columns, rows, cells } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns, rows, cells } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       if (typedColumn["hasAutoWidth"]) {
@@ -41780,9 +41672,9 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.4.0")) {
-    const dashboardState2 = parsedState;
-    const { columns, tags, rows, cells } = dashboardState2.model;
-    const newState = __spreadProps(__spreadValues({}, dashboardState2), {
+    const LoomState9 = parsedState;
+    const { columns, tags, rows, cells } = LoomState9.model;
+    const newState = __spreadProps(__spreadValues({}, LoomState9), {
       model: {
         columns: [],
         headerRows: [],
@@ -41851,8 +41743,8 @@ var deserializeDashboardState = (data) => {
     currentState = newState;
   }
   if (isVersionLessThan(pluginVersion, "6.8.0")) {
-    const dashboardState2 = currentState;
-    const { model } = dashboardState2;
+    const LoomState9 = currentState;
+    const { model } = LoomState9;
     const { bodyCells, columns } = model;
     const invalidState = currentState;
     if (invalidState["bodyRows"]) {
@@ -41875,8 +41767,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.9.1")) {
-    const dashboardState2 = currentState;
-    const { footerCells } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { footerCells } = LoomState9.model;
     footerCells.forEach((cell) => {
       const typedCell = cell;
       if (typedCell["functionType"]) {
@@ -41885,8 +41777,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.10.0")) {
-    const dashboardState2 = currentState;
-    const { columns, tags, bodyCells, bodyRows } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns, tags, bodyCells, bodyRows } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.tags = [];
@@ -41918,7 +41810,7 @@ var deserializeDashboardState = (data) => {
         typedCell.tagIds.push(id2);
       });
     });
-    const unknownModel = dashboardState2.model;
+    const unknownModel = LoomState9.model;
     const typedModel = unknownModel;
     delete typedModel.tags;
     bodyRows.forEach((row) => {
@@ -41929,8 +41821,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.12.3")) {
-    const dashboardState2 = currentState;
-    const { columns, footerCells } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns, footerCells } = LoomState9.model;
     footerCells.forEach((cell) => {
       const column = columns.find(
         (column2) => column2.id === cell.columnId
@@ -41948,8 +41840,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.17.0")) {
-    const dashboardState2 = currentState;
-    const { columns } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.isLocked = false;
@@ -41959,8 +41851,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.18.6")) {
-    const dashboardState2 = currentState;
-    const { columns, bodyRows } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns, bodyRows } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.sortDir = "default" /* NONE */;
@@ -41972,8 +41864,8 @@ var deserializeDashboardState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.19.0")) {
-    const dashboardState2 = currentState;
-    const { columns, bodyCells } = dashboardState2.model;
+    const LoomState9 = currentState;
+    const { columns, bodyCells } = LoomState9.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.calculationType = typedColumn.functionType;
@@ -41985,942 +41877,25 @@ var deserializeDashboardState = (data) => {
       typedCell.isExternalLink = true;
     });
   }
-  const dashboardState = currentState;
-  dashboardState.pluginVersion = CURRENT_PLUGIN_VERSION;
-  return dashboardState;
+  const LoomState8 = currentState;
+  LoomState8.pluginVersion = CURRENT_PLUGIN_VERSION;
+  return LoomState8;
 };
 
 // src/shared/events.ts
 var obsidianEvent = (name) => {
-  return "dashboards-" + name;
+  return "dataloom-" + name;
 };
 var EVENT_COLUMN_ADD = obsidianEvent("add-column");
 var EVENT_COLUMN_DELETE = obsidianEvent("delete-column");
 var EVENT_ROW_ADD = obsidianEvent("add-row");
 var EVENT_ROW_DELETE = obsidianEvent("delete-row");
-var EVENT_REFRESH_DASHBOARDS = obsidianEvent("refresh-dashboards");
+var EVENT_REFRESH_APP = obsidianEvent("refresh-app");
+var EVENT_REFRESH_EDITING_VIEW = obsidianEvent("refresh-editing-view");
 var EVENT_OUTSIDE_CLICK = obsidianEvent("outside-click");
 var EVENT_OUTSIDE_KEYDOWN = obsidianEvent("outside-keydown");
 var EVENT_DOWNLOAD_CSV = obsidianEvent("download-csv");
 var EVENT_DOWNLOAD_MARKDOWN = obsidianEvent("download-markdown");
-
-// src/obsidian/export-modal.tsx
-var import_obsidian7 = require("obsidian");
-var import_client = __toESM(require_client());
-
-// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
-var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
-
-// src/shared/spacing/index.ts
-var getSpacing = (size) => {
-  let spacing = "";
-  if (size === "sm") {
-    spacing = "var(--nlt-spacing--sm)";
-  } else if (size === "md") {
-    spacing = "var(--nlt-spacing--md)";
-  } else if (size === "lg") {
-    spacing = "var(--nlt-spacing--lg)";
-  } else if (size === "xl") {
-    spacing = "var(--nlt-spacing--xl)";
-  } else if (size === "2xl") {
-    spacing = "var(--nlt-spacing--2xl)";
-  } else if (size === "3xl") {
-    spacing = "var(--nlt-spacing--3xl)";
-  } else if (size === "4xl") {
-    spacing = "var(--nlt-spacing--4xl)";
-  }
-  return spacing;
-};
-
-// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.mjs
-var import_emotion_react_jsx_runtime_cjs = __toESM(require_emotion_react_jsx_runtime_cjs(), 1);
-
-// src/react/shared/stack/index.tsx
-function Stack({
-  spacing = "md",
-  justify,
-  align,
-  grow,
-  children,
-  width = "unset",
-  height = "unset",
-  minHeight = "unset",
-  isVertical
-}) {
-  let justifyContent = justify;
-  if (justifyContent === void 0) {
-    if (isVertical)
-      justifyContent = "center";
-    else
-      justifyContent = "flex-start";
-  }
-  let alignItems = align;
-  if (alignItems === void 0) {
-    if (!isVertical)
-      alignItems = "center";
-    else
-      alignItems = "flex-start";
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				display: flex;
-				flex-direction: ${isVertical ? "column" : "row"};
-				flex-grow: ${grow ? 1 : 0};
-				justify-content: ${justifyContent};
-				align-items: ${alignItems};
-				${isVertical ? "row-gap" : "column-gap"}: ${getSpacing(
-      spacing
-    )};
-				width: ${width};
-				height: ${height};
-				min-height: ${minHeight};
-			`,
-    children
-  });
-}
-
-// src/react/export-app/index.tsx
-var import_react14 = __toESM(require_react());
-
-// src/shared/export/types.ts
-var ExportType = /* @__PURE__ */ ((ExportType2) => {
-  ExportType2["UNSELECTED"] = "Select an option";
-  ExportType2["MARKDOWN"] = "Markdown";
-  ExportType2["CSV"] = "CSV";
-  return ExportType2;
-})(ExportType || {});
-
-// src/react/export-app/export-type-select.tsx
-function ExportTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-    isVertical: true,
-    spacing: "xl",
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-        htmlFor: "type-select",
-        children: "File Type"
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
-        id: "type-select",
-        css: import_emotion_react_cjs.css`
-					background-color: var(
-						--background-secondary-alt
-					) !important;
-				`,
-        value,
-        onChange: (e) => onChange(e.target.value),
-        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-          value: type,
-          children: type
-        }, type))
-      })
-    ]
-  });
-}
-
-// src/react/export-app/content-textarea.tsx
-function ContentTextArea({ value }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-    readOnly: true,
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				height: 200px;
-				resize: vertical;
-			`,
-    value
-  });
-}
-
-// node_modules/markdown-table/index.js
-function markdownTable(table, options = {}) {
-  const align = (options.align || []).concat();
-  const stringLength = options.stringLength || defaultStringLength;
-  const alignments = [];
-  const cellMatrix = [];
-  const sizeMatrix = [];
-  const longestCellByColumn = [];
-  let mostCellsPerRow = 0;
-  let rowIndex = -1;
-  while (++rowIndex < table.length) {
-    const row2 = [];
-    const sizes2 = [];
-    let columnIndex2 = -1;
-    if (table[rowIndex].length > mostCellsPerRow) {
-      mostCellsPerRow = table[rowIndex].length;
-    }
-    while (++columnIndex2 < table[rowIndex].length) {
-      const cell = serialize(table[rowIndex][columnIndex2]);
-      if (options.alignDelimiters !== false) {
-        const size = stringLength(cell);
-        sizes2[columnIndex2] = size;
-        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
-          longestCellByColumn[columnIndex2] = size;
-        }
-      }
-      row2.push(cell);
-    }
-    cellMatrix[rowIndex] = row2;
-    sizeMatrix[rowIndex] = sizes2;
-  }
-  let columnIndex = -1;
-  if (typeof align === "object" && "length" in align) {
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = toAlignment(align[columnIndex]);
-    }
-  } else {
-    const code = toAlignment(align);
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = code;
-    }
-  }
-  columnIndex = -1;
-  const row = [];
-  const sizes = [];
-  while (++columnIndex < mostCellsPerRow) {
-    const code = alignments[columnIndex];
-    let before = "";
-    let after = "";
-    if (code === 99) {
-      before = ":";
-      after = ":";
-    } else if (code === 108) {
-      before = ":";
-    } else if (code === 114) {
-      after = ":";
-    }
-    let size = options.alignDelimiters === false ? 1 : Math.max(
-      1,
-      longestCellByColumn[columnIndex] - before.length - after.length
-    );
-    const cell = before + "-".repeat(size) + after;
-    if (options.alignDelimiters !== false) {
-      size = before.length + size + after.length;
-      if (size > longestCellByColumn[columnIndex]) {
-        longestCellByColumn[columnIndex] = size;
-      }
-      sizes[columnIndex] = size;
-    }
-    row[columnIndex] = cell;
-  }
-  cellMatrix.splice(1, 0, row);
-  sizeMatrix.splice(1, 0, sizes);
-  rowIndex = -1;
-  const lines = [];
-  while (++rowIndex < cellMatrix.length) {
-    const row2 = cellMatrix[rowIndex];
-    const sizes2 = sizeMatrix[rowIndex];
-    columnIndex = -1;
-    const line = [];
-    while (++columnIndex < mostCellsPerRow) {
-      const cell = row2[columnIndex] || "";
-      let before = "";
-      let after = "";
-      if (options.alignDelimiters !== false) {
-        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
-        const code = alignments[columnIndex];
-        if (code === 114) {
-          before = " ".repeat(size);
-        } else if (code === 99) {
-          if (size % 2) {
-            before = " ".repeat(size / 2 + 0.5);
-            after = " ".repeat(size / 2 - 0.5);
-          } else {
-            before = " ".repeat(size / 2);
-            after = before;
-          }
-        } else {
-          after = " ".repeat(size);
-        }
-      }
-      if (options.delimiterStart !== false && !columnIndex) {
-        line.push("|");
-      }
-      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
-        line.push(" ");
-      }
-      if (options.alignDelimiters !== false) {
-        line.push(before);
-      }
-      line.push(cell);
-      if (options.alignDelimiters !== false) {
-        line.push(after);
-      }
-      if (options.padding !== false) {
-        line.push(" ");
-      }
-      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
-        line.push("|");
-      }
-    }
-    lines.push(
-      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
-    );
-  }
-  return lines.join("\n");
-}
-function serialize(value) {
-  return value === null || value === void 0 ? "" : String(value);
-}
-function defaultStringLength(value) {
-  return value.length;
-}
-function toAlignment(value) {
-  const code = typeof value === "string" ? value.codePointAt(0) : 0;
-  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
-}
-
-// src/shared/match/regex.ts
-var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
-var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
-var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
-var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
-var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
-var IMAGE_EXTENSION_REGEX = new RegExp(
-  /\.(jpe?g|png|gif|bmp|tiff?|ico|webp)$/i
-);
-var YOUTUBE_LINK_REGEX = new RegExp(
-  /^https?:\/\/(?:www\.)?(?:youtube\.com\/\S+|youtu\.be\/\S+)$/
-);
-var TWITTER_LINK_REGEX = new RegExp(
-  /^https?:\/\/(?:www\.)?twitter\.com\/\S+|\bt\.co\/\S+$/
-);
-
-// src/shared/match/index.ts
-var isNumber = (value) => {
-  return value.match(NUMBER_REGEX) !== null;
-};
-var isNumberInput = (value) => {
-  return value.match(NUMBER_INPUT_REGEX) !== null;
-};
-var isCheckbox = (value) => {
-  return value.match(CHECKBOX_REGEX) !== null;
-};
-var isCheckboxChecked = (value) => {
-  return value.match(CHECKBOX_CHECKED_REGEX) !== null;
-};
-var isImage = (value) => {
-  return value.match(IMAGE_EXTENSION_REGEX) !== null;
-};
-var isYouTubeLink = (value) => {
-  return value.match(YOUTUBE_LINK_REGEX) !== null;
-};
-var isTwitterLink = (value) => {
-  return value.match(TWITTER_LINK_REGEX) !== null;
-};
-var isNumberCalcuation = (value) => {
-  return Object.values(NumberCalculation).includes(
-    value
-  );
-};
-
-// src/shared/cell-content/checkbox-cell-content.ts
-var getCheckboxCellContent = (markdown, renderMarkdown2) => {
-  if (renderMarkdown2)
-    return markdown;
-  if (isCheckboxChecked(markdown))
-    return "true";
-  return "false";
-};
-
-// src/shared/conversion.ts
-var pxToNum = (value) => {
-  return parseFloat(value.split("px")[0]);
-};
-var numToPx = (value) => {
-  return `${value}px`;
-};
-var stringToCurrencyString = (value, type) => {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: type
-  }).format(parseFloat(value));
-};
-
-// src/shared/cell-content/currency-cell-content.ts
-var getCurrencyCellContent = (value, currencyType) => {
-  if (isNumber(value))
-    return stringToCurrencyString(value, currencyType);
-  return "";
-};
-
-// src/shared/date/constants.ts
-var MILLIS_IN_DAY = 1e3 * 60 * 60 * 24;
-var MILLIS_IN_MINUTE = 1e3 * 60;
-
-// src/shared/date/regex.ts
-var YYYY_MM_DD_REGEX = new RegExp(
-  /^(\d{4})\/(0[1-9]|1[0-2])\/(0[1-9]|[1-2]\d|3[0-1])$/
-);
-var MM_DD_YYYY_REGEX = new RegExp(
-  /^(0[1-9]|1[0-2])\/(0[1-9]|[1-2]\d|3[0-1])\/(\d{4})$/
-);
-var DD_MM_YYYY_REGEX = new RegExp(
-  /^(0[1-9]|[1-2]\d|3[0-1])\/(0[1-9]|1[0-2])\/(\d{4})$/
-);
-
-// src/shared/date/utils.ts
-var getDateParts = (date) => {
-  const year = date.getFullYear().toString();
-  const month = ("0" + (date.getMonth() + 1)).slice(-2);
-  const day = ("0" + date.getDate()).slice(-2);
-  const time = date.toLocaleString("en-US", {
-    hour: "numeric",
-    minute: "numeric",
-    hour12: true
-  });
-  return { year, month, day, time };
-};
-var getUTCTimeFromDateParts = (year, month, day) => {
-  return new Date(`${year}-${month}-${day}T00:00:00`).getTime();
-};
-var removeLastComma = (value) => {
-  const commaIndex = value.lastIndexOf(",");
-  return value.substring(0, commaIndex) + value.substring(commaIndex + 1);
-};
-
-// src/shared/date/date-conversion.ts
-var dateStringToUnixTime = (value, dateFormat) => {
-  const parts = value.split("/");
-  switch (dateFormat) {
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return getUTCTimeFromDateParts(parts[2], parts[0], parts[1]);
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return getUTCTimeFromDateParts(parts[2], parts[1], parts[0]);
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return getUTCTimeFromDateParts(parts[0], parts[1], parts[2]);
-    default:
-      throw new Error("Date format not supported.");
-  }
-};
-var unixTimeToDateString = (unixTime, format) => {
-  const date = new Date(unixTime);
-  const { year, month, day } = getDateParts(date);
-  switch (format) {
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return `${month}/${day}/${year}`;
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return `${day}/${month}/${year}`;
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return `${year}/${month}/${day}`;
-    case "full" /* FULL */:
-      return date.toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        year: "numeric"
-      });
-    case "relative" /* RELATIVE */: {
-      const diff = Date.now() - date.getTime();
-      if (diff < MILLIS_IN_DAY) {
-        return "Today";
-      } else if (diff < MILLIS_IN_DAY * 2) {
-        return "Yesterday";
-      } else if (diff < MILLIS_IN_DAY * 7) {
-        return date.toLocaleString("en-US", { weekday: "long" });
-      } else {
-        return date.toLocaleString("en-US", {
-          month: "short",
-          day: "numeric",
-          year: "numeric"
-        });
-      }
-    }
-    default:
-      return "";
-  }
-};
-var unixTimeToDateTimeString = (unixTime, format) => {
-  const date = new Date(unixTime);
-  const { year, month, day, time } = getDateParts(date);
-  switch (format) {
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return `${month}/${day}/${year} ${time}`;
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return `${day}/${month}/${year} ${time}`;
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return `${year}/${month}/${day} ${time}`;
-    case "full" /* FULL */: {
-      const value = date.toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-        hour: "numeric",
-        minute: "numeric",
-        hour12: true
-      });
-      return removeLastComma(value);
-    }
-    case "relative" /* RELATIVE */: {
-      const diff = Date.now() - date.getTime();
-      const time2 = date.toLocaleString("en-US", {
-        hour: "numeric",
-        minute: "numeric",
-        hour12: true
-      });
-      if (diff < MILLIS_IN_DAY) {
-        return "Today " + time2;
-      } else if (diff < MILLIS_IN_DAY * 2) {
-        return "Yesterday " + time2;
-      } else if (diff < MILLIS_IN_DAY * 7) {
-        return date.toLocaleString("en-US", { weekday: "long" }) + " " + time2;
-      } else {
-        const value = date.toLocaleString("en-US", {
-          month: "short",
-          day: "numeric",
-          year: "numeric",
-          hour: "numeric",
-          minute: "numeric",
-          hour12: true
-        });
-        return removeLastComma(value);
-      }
-    }
-    default:
-      return "";
-  }
-};
-var isValidDateFormat = (value, dateFormat) => {
-  switch (dateFormat) {
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return value.match(MM_DD_YYYY_REGEX) !== null;
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return value.match(DD_MM_YYYY_REGEX) !== null;
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return value.match(YYYY_MM_DD_REGEX) !== null;
-    default:
-      return false;
-  }
-};
-
-// src/shared/cell-content/date-cell-content.ts
-var getDateCellContent = (dateTime, format) => {
-  if (dateTime !== null)
-    return unixTimeToDateString(dateTime, format);
-  return "";
-};
-
-// src/shared/render-utils.ts
-var import_react5 = __toESM(require_react());
-
-// src/shared/render/utils.ts
-var replaceNewLinesWithBr = (markdown) => {
-  const lines = markdown.split("\n");
-  let updated = "";
-  lines.forEach((line) => {
-    if (line === "") {
-      updated += "<br>";
-    } else {
-      updated += line + "\n";
-    }
-  });
-  return updated;
-};
-var appendOrReplaceFirstChild = (container, child) => {
-  if (container == null || child === null)
-    return;
-  if (container && !container.firstChild) {
-    container.appendChild(child);
-  } else if (container.firstChild && container.firstChild !== child) {
-    container.replaceChild(child, container.firstChild);
-  }
-};
-var getDynamicSize = (defaultValue, value) => {
-  if (value === void 0)
-    return defaultValue;
-  if (typeof value === "string")
-    return value;
-  const { base, mobile } = value;
-  if (isMobileSize()) {
-    return mobile != null ? mobile : base;
-  } else {
-    return base;
-  }
-};
-var isMobileSize = () => {
-  return window.innerWidth <= 480;
-};
-var hasDarkTheme = () => {
-  var _a;
-  const el = document.querySelector("body");
-  return (_a = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a : false;
-};
-
-// src/react/dashboard-app/mount-provider.tsx
-var import_react4 = __toESM(require_react());
-var MountContext = import_react4.default.createContext(null);
-var useMountState = () => {
-  const value = import_react4.default.useContext(MountContext);
-  if (value === null) {
-    throw new Error(
-      "useMountState() called without a <MountProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function MountProvider({
-  appId,
-  leaf,
-  filePath,
-  isMarkdownView,
-  children
-}) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountContext.Provider, {
-    value: { appId, leaf, filePath, isMarkdownView },
-    children
-  });
-}
-
-// src/shared/render-utils.ts
-var import_obsidian4 = require("obsidian");
-
-// src/shared/render/embed.ts
-var handleLinkClick = (event) => {
-  const targetEl = event.target;
-  const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
-  if (!closestAnchor) {
-    return;
-  }
-  if (closestAnchor.hasClass("internal-link")) {
-    event.preventDefault();
-    const href = closestAnchor.getAttr("href");
-    const newLeaf = event.ctrlKey || event.metaKey;
-    if (href)
-      app.workspace.openLinkText(href, "", newLeaf);
-  }
-};
-
-// src/shared/render-embed.ts
-var import_obsidian3 = require("obsidian");
-var renderText = (leaf, value) => __async(void 0, null, function* () {
-  const div = document.createElement("div");
-  div.style.width = "100%";
-  div.style.height = "100%";
-  try {
-    const view = leaf.view;
-    if (view instanceof import_obsidian3.MarkdownView || view instanceof DashboardsView) {
-      yield import_obsidian3.MarkdownRenderer.renderMarkdown(
-        value,
-        div,
-        view.file.path,
-        view
-      );
-    }
-  } catch (e) {
-    console.error(e);
-  }
-  return div;
-});
-var renderEmbed = (leaf, value) => __async(void 0, null, function* () {
-  return renderText(leaf, value);
-});
-
-// src/shared/render-utils.ts
-var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
-  const div = document.createElement("div");
-  div.style.height = "100%";
-  div.style.width = "100%";
-  const view = leaf == null ? void 0 : leaf.view;
-  if (view instanceof DashboardsView)
-    div.classList.add("markdown-rendered");
-  try {
-    const updated = replaceNewLinesWithBr(markdown);
-    const view2 = leaf == null ? void 0 : leaf.view;
-    if (view2 instanceof import_obsidian4.MarkdownView || view2 instanceof DashboardsView) {
-      yield import_obsidian4.MarkdownRenderer.renderMarkdown(
-        updated,
-        div,
-        view2.file.path,
-        view2
-      );
-      const embeds = div.querySelectorAll(".internal-link");
-      embeds.forEach((embed) => {
-        const el = embed;
-        const href = el.getAttribute("data-href");
-        if (!href)
-          return;
-        const destination = app.metadataCache.getFirstLinkpathDest(
-          href,
-          view2.file.path
-        );
-        if (!destination)
-          embed.classList.add("is-unresolved");
-        el.addEventListener("mouseover", (e) => {
-          e.stopPropagation();
-          app.workspace.trigger("hover-link", {
-            event: e,
-            source: DASHBOARDS_VIEW,
-            hoverParent: view2.containerEl,
-            targetEl: el,
-            linktext: href,
-            sourcePath: el.href
-          });
-        });
-        el.addEventListener("click", handleLinkClick);
-      });
-    }
-  } catch (e) {
-    console.error(e);
-  }
-  return div;
-});
-var useRenderMarkdown = (markdown, options) => {
-  const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
-  const containerRef = import_react5.default.useRef(null);
-  const renderRef = import_react5.default.useRef(null);
-  const { leaf } = useMountState();
-  import_react5.default.useEffect(() => {
-    function updateContainerRef() {
-      return __async(this, null, function* () {
-        let el = null;
-        if (isEmbed) {
-          el = yield renderEmbed(leaf, markdown);
-        } else {
-          el = yield renderMarkdown(leaf, markdown);
-        }
-        if (el) {
-          renderRef.current = el;
-          if (containerRef.current)
-            appendOrReplaceFirstChild(containerRef.current, el);
-        }
-      });
-    }
-    updateContainerRef();
-  }, [markdown, leaf, isExternalLink, isEmbed]);
-  return {
-    containerRef,
-    renderRef
-  };
-};
-var useLeafContainer = () => {
-  const { leaf } = useMountState();
-  return leaf.view.containerEl;
-};
-var isOnMobile = () => {
-  return import_obsidian4.Platform.isMobile;
-};
-var getResourcePath = (filePath) => {
-  return app.vault.adapter.getResourcePath(filePath);
-};
-
-// src/shared/cell-content/embed-cell-content.ts
-var getEmbedCellContent = (value, options) => {
-  const {
-    shouldRenderMarkdown = true,
-    isExternalLink = false,
-    isExport = false
-  } = options != null ? options : {};
-  if (shouldRenderMarkdown) {
-    if (isExternalLink) {
-      if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
-        return `![](${value})`;
-      }
-      if (value !== "")
-        return "Unsupported link";
-    } else {
-      if (value !== "") {
-        if (isExport)
-          return `![[${value}]]`;
-        return `![](${getResourcePath(value)})`;
-      }
-    }
-  }
-  return value;
-};
-
-// src/shared/cell-content/number-cell-content.ts
-var getNumberCellContent = (value) => {
-  if (isNumber(value))
-    return value;
-  return "";
-};
-
-// src/shared/cell-content/text-cell-content.ts
-var getTextCellContent = (markdown, renderMarkdown2) => {
-  if (!renderMarkdown2)
-    return markdown.replace(WIKI_LINK_REGEX, (_match, path) => {
-      return path;
-    });
-  return markdown;
-};
-
-// src/shared/cell-content/time-content.ts
-var getTimeCellContent = (dateTime, format) => {
-  if (dateTime !== null)
-    return unixTimeToDateTimeString(dateTime, format);
-  return "";
-};
-
-// src/shared/cell-content/index.ts
-var getTagCellContent = (column, cell) => {
-  return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
-};
-var getCellContent = (column, row, cell, renderMarkdown2) => {
-  switch (column.type) {
-    case "text" /* TEXT */:
-    case "file" /* FILE */:
-      return getTextCellContent(cell.markdown, renderMarkdown2);
-    case "number" /* NUMBER */:
-      return getNumberCellContent(cell.markdown);
-    case "embed" /* EMBED */:
-      return getEmbedCellContent(cell.markdown, {
-        isExport: true,
-        isExternalLink: cell.isExternalLink,
-        shouldRenderMarkdown: renderMarkdown2
-      });
-    case "checkbox" /* CHECKBOX */:
-      return getCheckboxCellContent(cell.markdown, renderMarkdown2);
-    case "currency" /* CURRENCY */:
-      return getCurrencyCellContent(cell.markdown, column.currencyType);
-    case "tag" /* TAG */:
-    case "multi-tag" /* MULTI_TAG */:
-      return getTagCellContent(column, cell);
-    case "date" /* DATE */:
-      return getDateCellContent(cell.dateTime, column.dateFormat);
-    case "creation-time" /* CREATION_TIME */:
-      return getTimeCellContent(row.creationTime, column.dateFormat);
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return getTimeCellContent(row.lastEditedTime, column.dateFormat);
-    default:
-      throw new Error("Unsupported cell type");
-  }
-};
-
-// src/shared/export/table-state-to-array.tsx
-var serializeHeaderCells = (cells) => {
-  return cells.map((cell) => cell.markdown);
-};
-var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
-  return rows.map((row) => {
-    const rowCells = cells.filter((cell) => cell.rowId === row.id);
-    return rowCells.map((cell) => {
-      const column = columns.find(
-        (column2) => column2.id === cell.columnId
-      );
-      if (!column)
-        throw new ColumNotFoundError(cell.columnId);
-      return getCellContent(column, row, cell, renderMarkdown2);
-    });
-  });
-};
-var dashboardStateToArray = (dashboardState, renderMarkdown2) => {
-  const { headerCells, bodyCells, bodyRows, columns } = dashboardState.model;
-  const serializedHeaderCells = serializeHeaderCells(headerCells);
-  const serializedBodyCells = serializeBodyCells(
-    columns,
-    bodyRows,
-    bodyCells,
-    renderMarkdown2
-  );
-  return [serializedHeaderCells, ...serializedBodyCells];
-};
-
-// src/shared/export/export-to-markdown.tsx
-var exportToMarkdown = (dashboardState, renderMarkdown2) => {
-  const arr = dashboardStateToArray(dashboardState, renderMarkdown2);
-  return markdownTable(arr);
-};
-
-// src/react/export-app/index.tsx
-var import_obsidian6 = require("obsidian");
-
-// src/react/shared/padding/index.tsx
-function Padding({
-  width = "100%",
-  px,
-  py,
-  pt,
-  pb,
-  pl,
-  pr,
-  p: p2,
-  children
-}) {
-  let renderPt = "";
-  let renderPb = "";
-  let renderPl = "";
-  let renderPr = "";
-  if (p2) {
-    renderPt = getSpacing(p2);
-    renderPb = getSpacing(p2);
-    renderPl = getSpacing(p2);
-    renderPr = getSpacing(p2);
-  }
-  if (px) {
-    const spacing = getSpacing(px);
-    renderPl = spacing;
-    renderPr = spacing;
-  } else if (pl || pr) {
-    if (pl) {
-      const spacing = getSpacing(pl);
-      renderPl = spacing;
-    }
-    if (pr) {
-      const spacing = getSpacing(pr);
-      renderPr = spacing;
-    }
-  }
-  if (py) {
-    const spacing = getSpacing(py);
-    renderPt = spacing;
-    renderPb = spacing;
-  } else if (pt || pb) {
-    if (pt) {
-      const spacing = getSpacing(pt);
-      renderPt = spacing;
-    }
-    if (pb) {
-      const spacing = getSpacing(pb);
-      renderPb = spacing;
-    }
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				width: ${width};
-				padding-top: ${renderPt};
-				padding-bottom: ${renderPb};
-				padding-left: ${renderPl};
-				padding-right: ${renderPr};
-			`,
-    children
-  });
-}
-
-// src/shared/export/download-utils.ts
-var import_obsidian5 = require("obsidian");
-var getBlobTypeForExportType = (type) => {
-  switch (type) {
-    case "CSV" /* CSV */:
-      return "text/csv";
-    case "Markdown" /* MARKDOWN */:
-      return "text/markdown";
-    default:
-      throw new Error(`Unknown export type: ${type}`);
-  }
-};
-var getExportFileName = (filePath) => {
-  const replaceExtension = filePath.replace(`.${CURRENT_FILE_EXTENSION}`, "");
-  const replaceSlash = replaceExtension.replace(/\//g, "-");
-  const replaceSpaces = replaceSlash.replace(/ /g, "_");
-  const timestamp = (0, import_obsidian5.moment)().format("YYYY_MM_DD-HH_mm_ss");
-  return replaceSpaces + "-" + timestamp;
-};
-var downloadFile = (fileName, blobType, data) => {
-  const blob = new Blob([data], { type: blobType });
-  const url = window.URL.createObjectURL(blob);
-  const el = document.createElement("a");
-  el.setAttribute("href", url);
-  el.setAttribute("download", fileName);
-  el.style.display = "none";
-  document.body.appendChild(el);
-  el.click();
-  document.body.removeChild(el);
-};
-
-// src/shared/export/export-to-csv.tsx
-var import_papaparse = __toESM(require_papaparse_min());
-var exportToCSV = (dashboardState, renderMarkdown2) => {
-  const arr = dashboardStateToArray(dashboardState, renderMarkdown2);
-  return import_papaparse.default.unparse(arr);
-};
 
 // node_modules/react-redux/es/index.js
 var import_shim = __toESM(require_shim());
@@ -42938,21 +41913,21 @@ var setBatch = (newBatch) => batch = newBatch;
 var getBatch = () => batch;
 
 // node_modules/react-redux/es/hooks/useSelector.js
-var import_react9 = __toESM(require_react());
+var import_react3 = __toESM(require_react());
 
 // node_modules/react-redux/es/hooks/useReduxContext.js
-var import_react8 = __toESM(require_react());
+var import_react2 = __toESM(require_react());
 
 // node_modules/react-redux/es/components/Context.js
-var import_react7 = __toESM(require_react());
-var ReactReduxContext = /* @__PURE__ */ (0, import_react7.createContext)(null);
+var import_react = __toESM(require_react());
+var ReactReduxContext = /* @__PURE__ */ (0, import_react.createContext)(null);
 if (true) {
   ReactReduxContext.displayName = "ReactRedux";
 }
 
 // node_modules/react-redux/es/hooks/useReduxContext.js
 function useReduxContext() {
-  const contextValue = (0, import_react8.useContext)(ReactReduxContext);
+  const contextValue = (0, import_react2.useContext)(ReactReduxContext);
   if (!contextValue) {
     throw new Error("could not find react-redux context value; please ensure the component is wrapped in a <Provider>");
   }
@@ -42971,7 +41946,7 @@ var initializeUseSelector = (fn2) => {
 };
 var refEquality = (a2, b2) => a2 === b2;
 function createSelectorHook(context = ReactReduxContext) {
-  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react9.useContext)(context);
+  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react3.useContext)(context);
   return function useSelector2(selector, equalityFn = refEquality) {
     if (true) {
       if (!selector) {
@@ -42990,7 +41965,7 @@ function createSelectorHook(context = ReactReduxContext) {
       getServerState
     } = useReduxContext2();
     const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store2.getState, getServerState || store2.getState, selector, equalityFn);
-    (0, import_react9.useDebugValue)(selectedState);
+    (0, import_react3.useDebugValue)(selectedState);
     return selectedState;
   };
 }
@@ -42998,7 +41973,7 @@ var useSelector = /* @__PURE__ */ createSelectorHook();
 
 // node_modules/react-redux/es/components/connect.js
 var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
-var import_react11 = __toESM(require_react());
+var import_react5 = __toESM(require_react());
 var import_react_is = __toESM(require_react_is2());
 
 // node_modules/react-redux/es/utils/Subscription.js
@@ -43109,9 +42084,9 @@ function createSubscription(store2, parentSub) {
 }
 
 // node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
-var import_react10 = __toESM(require_react());
+var import_react4 = __toESM(require_react());
 var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
-var useIsomorphicLayoutEffect = canUseDOM ? import_react10.useLayoutEffect : import_react10.useEffect;
+var useIsomorphicLayoutEffect = canUseDOM ? import_react4.useLayoutEffect : import_react4.useEffect;
 
 // node_modules/react-redux/es/components/connect.js
 var useSyncExternalStore = notInitialized;
@@ -43120,14 +42095,14 @@ var initializeConnect = (fn2) => {
 };
 
 // node_modules/react-redux/es/components/Provider.js
-var import_react12 = __toESM(require_react());
+var import_react6 = __toESM(require_react());
 function Provider({
   store: store2,
   context,
   children,
   serverState
 }) {
-  const contextValue = (0, import_react12.useMemo)(() => {
+  const contextValue = (0, import_react6.useMemo)(() => {
     const subscription = createSubscription(store2);
     return {
       store: store2,
@@ -43135,7 +42110,7 @@ function Provider({
       getServerState: serverState ? () => serverState : void 0
     };
   }, [store2, serverState]);
-  const previousState = (0, import_react12.useMemo)(() => store2.getState(), [store2]);
+  const previousState = (0, import_react6.useMemo)(() => store2.getState(), [store2]);
   useIsomorphicLayoutEffect(() => {
     const {
       subscription
@@ -43151,158 +42126,30 @@ function Provider({
     };
   }, [contextValue, previousState]);
   const Context = context || ReactReduxContext;
-  return /* @__PURE__ */ import_react12.default.createElement(Context.Provider, {
+  return /* @__PURE__ */ import_react6.default.createElement(Context.Provider, {
     value: contextValue
   }, children);
 }
 var Provider_default = Provider;
 
 // node_modules/react-redux/es/hooks/useStore.js
-var import_react13 = __toESM(require_react());
+var import_react7 = __toESM(require_react());
 
 // node_modules/react-redux/es/index.js
 initializeUseSelector(import_with_selector.useSyncExternalStoreWithSelector);
 initializeConnect(import_shim.useSyncExternalStore);
 setBatch(import_react_dom.unstable_batchedUpdates);
 
-// src/redux/global/hooks.ts
-var useAppSelector = useSelector;
+// src/shared/dragging/drag-context.tsx
+var import_react8 = __toESM(require_react());
 
-// src/react/export-app/index.tsx
-function ExportApp({ dashboardState, filePath }) {
-  const [exportType, setExportType] = import_react14.default.useState(
-    "Select an option" /* UNSELECTED */
-  );
-  const { exportRenderMarkdown } = useAppSelector(
-    (state) => state.global.settings
-  );
-  const [renderMarkdown2, setRenderMarkdown] = import_react14.default.useState(exportRenderMarkdown);
-  function handleCopyClick(value) {
-    return __async(this, null, function* () {
-      yield navigator.clipboard.writeText(value);
-      new import_obsidian6.Notice("Copied to clipboard");
-    });
-  }
-  function handleDownloadClick() {
-    const fileName = getExportFileName(filePath);
-    const blobType = getBlobTypeForExportType(exportType);
-    downloadFile(fileName, blobType, content);
-  }
-  let content = "";
-  if (exportType === "Markdown" /* MARKDOWN */) {
-    content = exportToMarkdown(dashboardState, renderMarkdown2);
-  } else if (exportType === "CSV" /* CSV */) {
-    content = exportToCSV(dashboardState, renderMarkdown2);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__export-app",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
-      p: "xl",
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("h5", {
-          css: import_emotion_react_cjs.css`
-						margin-top: 0px;
-						margin-bottom: 0px;
-					`,
-          children: "Dashboards Export"
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
-          css: import_emotion_react_cjs.css`
-						margin: 1rem 0;
-					`
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "xl",
-          isVertical: true,
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportTypeSelect, {
-              value: exportType,
-              onChange: setExportType
-            }),
-            exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ContentTextArea, {
-                  value: content
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-                  isVertical: true,
-                  spacing: "sm",
-                  children: [
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-                      htmlFor: "render-markdown",
-                      children: "Render markdown"
-                    }),
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-                      id: "render-markdown",
-                      type: "checkbox",
-                      checked: renderMarkdown2,
-                      onChange: () => setRenderMarkdown(!renderMarkdown2)
-                    })
-                  ]
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-                  children: [
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-                      className: "mod-cta",
-                      onClick: handleDownloadClick,
-                      children: "Download"
-                    }),
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-                      css: import_emotion_react_cjs.css`
-										background-color: var(
-											--background-secondary-alt
-										) !important;
-									`,
-                      onClick: () => handleCopyClick(content),
-                      children: "Copy to clipboard"
-                    })
-                  ]
-                })
-              ]
-            })
-          ]
-        })
-      ]
-    })
-  });
-}
-
-// src/obsidian/export-modal.tsx
-var ExportModal = class extends import_obsidian7.Modal {
-  constructor(app2, filePath) {
-    super(app2);
-    this.app = app2;
-    this.filePath = filePath;
-  }
-  onOpen() {
-    const container = this.containerEl.children[1];
-    const view = app.workspace.getActiveViewOfType(DashboardsView);
-    if (view) {
-      const data = view.getViewData();
-      const state = deserializeDashboardState(data);
-      this.root = (0, import_client.createRoot)(container);
-      this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
-          store,
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
-            dashboardState: state,
-            filePath: this.filePath
-          })
-        })
-      );
-    }
-  }
-  onClose() {
-    if (this.root)
-      this.root.unmount();
-  }
-};
+// node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.mjs
+var import_emotion_react_jsx_runtime_cjs = __toESM(require_emotion_react_jsx_runtime_cjs(), 1);
 
 // src/shared/dragging/drag-context.tsx
-var import_react16 = __toESM(require_react());
-var DragContext = import_react16.default.createContext(null);
+var DragContext = import_react8.default.createContext(null);
 var useDragContext = () => {
-  const value = import_react16.default.useContext(DragContext);
+  const value = import_react8.default.useContext(DragContext);
   if (value === null) {
     throw new Error(
       "useDragContext() called without a <DragProvider /> in the tree."
@@ -43311,8 +42158,8 @@ var useDragContext = () => {
   return value;
 };
 function DragProvider({ children }) {
-  const [dragData, setDragData] = import_react16.default.useState(null);
-  const [touchDropZone, setTouchDropZone] = import_react16.default.useState(
+  const [dragData, setDragData] = import_react8.default.useState(null);
+  const [touchDropZone, setTouchDropZone] = import_react8.default.useState(
     null
   );
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragContext.Provider, {
@@ -43322,7 +42169,7 @@ function DragProvider({ children }) {
 }
 
 // src/shared/menu/menu-context.tsx
-var import_react18 = __toESM(require_react());
+var import_react10 = __toESM(require_react());
 
 // src/shared/menu/focus-visible.ts
 var focusMenuElement = (menuId) => {
@@ -43336,24 +42183,22 @@ var focusMenuElement = (menuId) => {
 };
 var addFocusVisibleClass = (el) => {
   if (el)
-    el.classList.add("Dashboards__focus-visible");
+    el.classList.add("DataLoom__focus-visible");
 };
 var removeFocusVisibleClass = () => {
-  const el = document.querySelector(".Dashboards__focus-visible");
+  const el = document.querySelector(".DataLoom__focus-visible");
   if (el)
-    el.classList.remove("Dashboards__focus-visible");
+    el.classList.remove("DataLoom__focus-visible");
 };
 var getFocusableLayerEl = (appId, topMenu) => {
-  const appEl = document.querySelector(
-    `.Dashboards__app[data-id="${appId}"]`
-  );
+  const appEl = document.querySelector(`.DataLoom__app[data-id="${appId}"]`);
   if (!appEl)
     return null;
   let layerEl = appEl;
   if (topMenu) {
     const { id: id2 } = topMenu;
     const menuEl = document.querySelector(
-      `.Dashboards__menu[data-id="${id2}"]`
+      `.DataLoom__menu[data-id="${id2}"]`
     );
     if (menuEl)
       layerEl = menuEl;
@@ -43372,7 +42217,7 @@ var focusNextElement = (layerEl, focusableEls) => {
       return;
     }
   }
-  const selectedEl = layerEl.querySelector(".Dashboards__selected");
+  const selectedEl = layerEl.querySelector(".DataLoom__selected");
   if (selectedEl) {
     selectedEl.focus();
   } else {
@@ -43381,7 +42226,12 @@ var focusNextElement = (layerEl, focusableEls) => {
 };
 
 // src/shared/logger.ts
-var import_react17 = __toESM(require_react());
+var import_react9 = __toESM(require_react());
+
+// src/redux/global/hooks.ts
+var useAppSelector = useSelector;
+
+// src/shared/logger.ts
 var log = (shouldDebug) => (message, args = {}) => {
   if (shouldDebug) {
     console.log(message);
@@ -43391,7 +42241,7 @@ var log = (shouldDebug) => (message, args = {}) => {
 };
 var useLogger = () => {
   const { shouldDebug } = useAppSelector((state) => state.global.settings);
-  const logger = import_react17.default.useCallback(
+  const logger = import_react9.default.useCallback(
     (message, args) => log(shouldDebug)(message, args),
     [shouldDebug]
   );
@@ -43399,9 +42249,9 @@ var useLogger = () => {
 };
 
 // src/shared/menu/menu-context.tsx
-var MenuContext = import_react18.default.createContext(null);
+var MenuContext = import_react10.default.createContext(null);
 var useMenuState = () => {
-  const value = import_react18.default.useContext(MenuContext);
+  const value = import_react10.default.useContext(MenuContext);
   if (value === null) {
     throw new Error(
       "useMenu() called without a <MenuProvider /> in the tree."
@@ -43410,30 +42260,30 @@ var useMenuState = () => {
   return value;
 };
 function MenuProvider({ children }) {
-  const [currentMenus, setCurrentMenus] = import_react18.default.useState([]);
+  const [currentMenus, setCurrentMenus] = import_react10.default.useState([]);
   const logger = useLogger();
-  const [menuCloseRequest, setMenuCloseRequest] = import_react18.default.useState(null);
-  const isMenuOpen = import_react18.default.useCallback(
+  const [menuCloseRequest, setMenuCloseRequest] = import_react10.default.useState(null);
+  const isMenuOpen = import_react10.default.useCallback(
     (menu) => {
       return currentMenus.find((m2) => m2.id === menu.id) !== void 0;
     },
     [currentMenus]
   );
-  const hasOpenMenu = import_react18.default.useCallback(() => {
+  const hasOpenMenu = import_react10.default.useCallback(() => {
     return currentMenus.length !== 0;
   }, [currentMenus]);
-  const getTopMenu = import_react18.default.useCallback(() => {
+  const getTopMenu = import_react10.default.useCallback(() => {
     if (currentMenus.length === 0)
       return null;
     return currentMenus[currentMenus.length - 1];
   }, [currentMenus]);
-  const canOpenMenu = import_react18.default.useCallback(
+  const canOpenMenu = import_react10.default.useCallback(
     (menu) => {
       return currentMenus.find((m2) => m2.level === menu.level) === void 0 || currentMenus.length === 0;
     },
     [currentMenus]
   );
-  const openMenu = import_react18.default.useCallback(
+  const openMenu = import_react10.default.useCallback(
     (menu) => {
       if (!canOpenMenu(menu))
         return;
@@ -43454,7 +42304,7 @@ function MenuProvider({ children }) {
     setCurrentMenus([]);
     setMenuCloseRequest(null);
   }
-  const closeTopMenu = import_react18.default.useCallback(
+  const closeTopMenu = import_react10.default.useCallback(
     (options) => {
       logger("MenuProvider closeTopMenu");
       const { shouldFocusTrigger = true } = options || {};
@@ -43470,7 +42320,7 @@ function MenuProvider({ children }) {
     },
     [getTopMenu, logger]
   );
-  const requestCloseTopMenu = import_react18.default.useCallback(
+  const requestCloseTopMenu = import_react10.default.useCallback(
     (type) => {
       logger("MenuProvider requestCloseTopMenu");
       const menu = getTopMenu();
@@ -43504,8 +42354,8 @@ function MenuProvider({ children }) {
   });
 }
 
-// src/shared/dashboard-state/dashboard-state-context.tsx
-var import_react19 = __toESM(require_react());
+// src/shared/loom-state/loom-state-context.tsx
+var import_react12 = __toESM(require_react());
 
 // src/shared/commands/command-errors.ts
 var CommandUndoError = class extends Error {
@@ -43527,8 +42377,8 @@ var DeleteCommandArgumentsError = class extends Error {
   }
 };
 
-// src/shared/dashboard-state/dashboard-state-command.ts
-var DashboardStateCommand = class {
+// src/shared/loom-state/loom-state-command.ts
+var LoomStateCommand = class {
   constructor(shouldSortRows = false) {
     this.hasExecuteBeenCalled = false;
     this.hasUndoBeenCalled = false;
@@ -43549,8 +42399,52 @@ var DashboardStateCommand = class {
   }
 };
 
+// src/shared/match/regex.ts
+var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
+var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
+var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
+var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
+var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
+var IMAGE_EXTENSION_REGEX = new RegExp(
+  /\.(jpe?g|png|gif|bmp|tiff?|ico|webp)$/i
+);
+var YOUTUBE_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?(?:youtube\.com\/\S+|youtu\.be\/\S+)$/
+);
+var TWITTER_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?twitter\.com\/\S+|\bt\.co\/\S+$/
+);
+
+// src/shared/match/index.ts
+var isNumber = (value) => {
+  return value.match(NUMBER_REGEX) !== null;
+};
+var isNumberInput = (value) => {
+  return value.match(NUMBER_INPUT_REGEX) !== null;
+};
+var isCheckbox = (value) => {
+  return value.match(CHECKBOX_REGEX) !== null;
+};
+var isCheckboxChecked = (value) => {
+  return value.match(CHECKBOX_CHECKED_REGEX) !== null;
+};
+var isImage = (value) => {
+  return value.match(IMAGE_EXTENSION_REGEX) !== null;
+};
+var isYouTubeLink = (value) => {
+  return value.match(YOUTUBE_LINK_REGEX) !== null;
+};
+var isTwitterLink = (value) => {
+  return value.match(TWITTER_LINK_REGEX) !== null;
+};
+var isNumberCalcuation = (value) => {
+  return Object.values(NumberCalculation).includes(
+    value
+  );
+};
+
 // src/shared/commands/row-sort-command.ts
-var RowSortCommand = class extends DashboardStateCommand {
+var RowSortCommand = class extends LoomStateCommand {
   constructor() {
     super(...arguments);
     this.previousRowSort = [];
@@ -43854,42 +42748,69 @@ var RowSortCommand = class extends DashboardStateCommand {
   }
 };
 
-// src/shared/dashboard-state/dashboard-state-context.tsx
-var DashboardStateContext = import_react19.default.createContext(null);
-var useDashboardState = () => {
-  const value = import_react19.default.useContext(DashboardStateContext);
+// src/react/loom-app/mount-provider.tsx
+var import_react11 = __toESM(require_react());
+var MountContext = import_react11.default.createContext(null);
+var useMountState = () => {
+  const value = import_react11.default.useContext(MountContext);
   if (value === null) {
     throw new Error(
-      "useDashboardState() called without a <DashboardStateProvider /> in the tree."
+      "useMountState() called without a <MountProvider /> in the tree."
     );
   }
   return value;
 };
-function DashboardStateProvider({
+function MountProvider({
+  appId,
+  mountLeaf,
+  loomFile,
+  isMarkdownView,
+  children
+}) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountContext.Provider, {
+    value: { appId, mountLeaf, loomFile, isMarkdownView },
+    children
+  });
+}
+
+// src/shared/loom-state/loom-state-context.tsx
+var LoomStateContext = import_react12.default.createContext(null);
+var useLoomState = () => {
+  const value = import_react12.default.useContext(LoomStateContext);
+  if (value === null) {
+    throw new Error(
+      "useLoomState() called without a <LoomStateProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function LoomStateProvider({
   initialState: initialState2,
   onSaveState,
   children
 }) {
-  const [dashboardState, setDashboardState] = import_react19.default.useState(initialState2);
-  const [searchText, setSearchText] = import_react19.default.useState("");
-  const [isSearchBarVisible, setSearchBarVisible] = import_react19.default.useState(false);
-  const [resizingColumnId, setResizingColumnId] = import_react19.default.useState(null);
-  const [history, setHistory] = import_react19.default.useState([null]);
-  const [position, setPosition] = import_react19.default.useState(0);
+  const [LoomState8, setLoomState] = import_react12.default.useState(initialState2);
+  const [searchText, setSearchText] = import_react12.default.useState("");
+  const [isSearchBarVisible, setSearchBarVisible] = import_react12.default.useState(false);
+  const [resizingColumnId, setResizingColumnId] = import_react12.default.useState(null);
+  const [history, setHistory] = import_react12.default.useState([
+    null
+  ]);
+  const [position, setPosition] = import_react12.default.useState(0);
   const logger = useLogger();
   const { appId } = useMountState();
-  const isMountedRef = import_react19.default.useRef(false);
-  import_react19.default.useEffect(() => {
+  const isMountedRef = import_react12.default.useRef(false);
+  import_react12.default.useEffect(() => {
     if (!isMountedRef.current) {
       isMountedRef.current = true;
       return;
     }
-    onSaveState(appId, dashboardState);
-  }, [appId, dashboardState, onSaveState]);
+    onSaveState(appId, LoomState8);
+  }, [appId, LoomState8, onSaveState]);
   function handleToggleSearchBar() {
     setSearchBarVisible((prevState) => !prevState);
   }
-  const undo = import_react19.default.useCallback(() => {
+  const undo = import_react12.default.useCallback(() => {
     if (position > 0) {
       logger("handleUndoEvent");
       const currentPosition = position - 1;
@@ -43897,15 +42818,15 @@ function DashboardStateProvider({
       const command = history[position];
       if (command !== null) {
         logger(command.constructor.name + ".undo");
-        let newState = command.undo(dashboardState);
+        let newState = command.undo(LoomState8);
         if (command.shouldSortRows) {
           newState = new RowSortCommand().execute(newState);
         }
-        setDashboardState(newState);
+        setLoomState(newState);
       }
     }
-  }, [position, history, dashboardState, logger]);
-  const redo = import_react19.default.useCallback(() => {
+  }, [position, history, LoomState8, logger]);
+  const redo = import_react12.default.useCallback(() => {
     if (position < history.length - 1) {
       logger("handleRedoEvent");
       const currentPosition = position + 1;
@@ -43913,15 +42834,15 @@ function DashboardStateProvider({
       const command = history[currentPosition];
       if (command !== null) {
         logger(command.constructor.name + ".redo");
-        let newState = command.redo(dashboardState);
+        let newState = command.redo(LoomState8);
         if (command.shouldSortRows) {
           newState = new RowSortCommand().execute(newState);
         }
-        setDashboardState(newState);
+        setLoomState(newState);
       }
     }
-  }, [position, history, dashboardState, logger]);
-  const doCommand = import_react19.default.useCallback(
+  }, [position, history, LoomState8, logger]);
+  const doCommand = import_react12.default.useCallback(
     (command) => {
       setHistory((prevState) => {
         if (position < history.length - 1) {
@@ -43932,18 +42853,18 @@ function DashboardStateProvider({
         }
       });
       setPosition((prevState) => prevState + 1);
-      let newState = command.execute(dashboardState);
+      let newState = command.execute(LoomState8);
       if (command.shouldSortRows) {
         newState = new RowSortCommand().execute(newState);
       }
-      setDashboardState(newState);
+      setLoomState(newState);
     },
-    [position, history, dashboardState]
+    [position, history, LoomState8]
   );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DashboardStateContext.Provider, {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateContext.Provider, {
     value: {
-      dashboardState,
-      setDashboardState,
+      LoomState: LoomState8,
+      setLoomState,
       doCommand,
       commandRedo: redo,
       commandUndo: undo,
@@ -43958,11 +42879,11 @@ function DashboardStateProvider({
   });
 }
 
-// src/react/dashboard-app/table/index.tsx
-var import_react23 = __toESM(require_react());
+// src/react/loom-app/table/index.tsx
+var import_react16 = __toESM(require_react());
 
 // node_modules/react-virtuoso/dist/index.mjs
-var import_react20 = __toESM(require_react(), 1);
+var import_react13 = __toESM(require_react(), 1);
 var import_react_dom2 = __toESM(require_react_dom(), 1);
 var PUBLISH = 0;
 var SUBSCRIBE = 1;
@@ -44286,13 +43207,13 @@ function omit(keys, obj) {
   }
   return result;
 }
-var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react20.default.useLayoutEffect : import_react20.default.useEffect;
+var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react13.default.useLayoutEffect : import_react13.default.useEffect;
 function systemToComponent(systemSpec, map2, Root4) {
   const requiredPropNames = Object.keys(map2.required || {});
   const optionalPropNames = Object.keys(map2.optional || {});
   const methodNames = Object.keys(map2.methods || {});
   const eventNames = Object.keys(map2.events || {});
-  const Context = import_react20.default.createContext({});
+  const Context = import_react13.default.createContext({});
   function applyPropsToSystem(system2, props) {
     if (system2["propsReady"]) {
       publish(system2["propsReady"], false);
@@ -44326,12 +43247,12 @@ function systemToComponent(systemSpec, map2, Root4) {
       return handlers;
     }, {});
   }
-  const Component = import_react20.default.forwardRef((propsWithChildren, ref) => {
+  const Component2 = import_react13.default.forwardRef((propsWithChildren, ref) => {
     const _a = propsWithChildren, { children } = _a, props = __objRest(_a, ["children"]);
-    const [system2] = import_react20.default.useState(() => {
+    const [system2] = import_react13.default.useState(() => {
       return tap(init(systemSpec), (system22) => applyPropsToSystem(system22, props));
     });
-    const [handlers] = import_react20.default.useState(curry1to0(buildEventHandlers, system2));
+    const [handlers] = import_react13.default.useState(curry1to0(buildEventHandlers, system2));
     useIsomorphicLayoutEffect$2(() => {
       for (const eventName of eventNames) {
         if (eventName in props) {
@@ -44345,11 +43266,11 @@ function systemToComponent(systemSpec, map2, Root4) {
     useIsomorphicLayoutEffect$2(() => {
       applyPropsToSystem(system2, props);
     });
-    import_react20.default.useImperativeHandle(ref, always(buildMethods(system2)));
-    return import_react20.default.createElement(
+    import_react13.default.useImperativeHandle(ref, always(buildMethods(system2)));
+    return import_react13.default.createElement(
       Context.Provider,
       { value: system2 },
-      Root4 ? import_react20.default.createElement(
+      Root4 ? import_react13.default.createElement(
         Root4,
         omit([...requiredPropNames, ...optionalPropNames, ...eventNames], props),
         children
@@ -44357,12 +43278,12 @@ function systemToComponent(systemSpec, map2, Root4) {
     );
   });
   const usePublisher2 = (key) => {
-    return import_react20.default.useCallback(curry2to1(publish, import_react20.default.useContext(Context)[key]), [key]);
+    return import_react13.default.useCallback(curry2to1(publish, import_react13.default.useContext(Context)[key]), [key]);
   };
   const useEmitterValue2 = (key) => {
-    const system2 = import_react20.default.useContext(Context);
+    const system2 = import_react13.default.useContext(Context);
     const source = system2[key];
-    const [value, setValue] = import_react20.default.useState(curry1to0(getValue, source));
+    const [value, setValue] = import_react13.default.useState(curry1to0(getValue, source));
     useIsomorphicLayoutEffect$2(
       () => subscribe(source, (next) => {
         if (next !== value) {
@@ -44374,18 +43295,18 @@ function systemToComponent(systemSpec, map2, Root4) {
     return value;
   };
   const useEmitter2 = (key, callback) => {
-    const context = import_react20.default.useContext(Context);
+    const context = import_react13.default.useContext(Context);
     const source = context[key];
     useIsomorphicLayoutEffect$2(() => subscribe(source, callback), [callback, source]);
   };
   return {
-    Component,
+    Component: Component2,
     usePublisher: usePublisher2,
     useEmitterValue: useEmitterValue2,
     useEmitter: useEmitter2
   };
 }
-var useIsomorphicLayoutEffect2 = typeof document !== "undefined" ? import_react20.default.useLayoutEffect : import_react20.default.useEffect;
+var useIsomorphicLayoutEffect2 = typeof document !== "undefined" ? import_react13.default.useLayoutEffect : import_react13.default.useEffect;
 var useIsomorphicLayoutEffect$1 = useIsomorphicLayoutEffect2;
 var LogLevel = /* @__PURE__ */ ((LogLevel2) => {
   LogLevel2[LogLevel2["DEBUG"] = 0] = "DEBUG";
@@ -44426,11 +43347,11 @@ var loggerSystem = system(
   { singleton: true }
 );
 function useSizeWithElRef(callback, enabled = true) {
-  const ref = import_react20.default.useRef(null);
+  const ref = import_react13.default.useRef(null);
   let callbackRef = (_el) => {
   };
   if (typeof ResizeObserver !== "undefined") {
-    const observer = import_react20.default.useMemo(() => {
+    const observer = import_react13.default.useMemo(() => {
       return new ResizeObserver((entries) => {
         const element = entries[0].target;
         if (element.offsetParent !== null) {
@@ -44456,7 +43377,7 @@ function useSize(callback, enabled = true) {
   return useSizeWithElRef(callback, enabled).callbackRef;
 }
 function useChangedListContentsSizes(callback, itemSize, enabled, scrollContainerStateCallback, log2, gap, customScrollParent) {
-  const memoedCallback = import_react20.default.useCallback(
+  const memoedCallback = import_react13.default.useCallback(
     (el) => {
       const ranges = getChangedChildSizes(el.children, itemSize, "offsetHeight", log2);
       let scrollableElement = el.parentElement;
@@ -44526,10 +43447,10 @@ function approximatelyEqual(num1, num2) {
   return Math.abs(num1 - num2) < 1.01;
 }
 function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, scrollerElement, scrollerRefCallback = noop, customScrollParent) {
-  const scrollerRef = import_react20.default.useRef(null);
-  const scrollTopTarget = import_react20.default.useRef(null);
-  const timeoutRef = import_react20.default.useRef(null);
-  const handler = import_react20.default.useCallback(
+  const scrollerRef = import_react13.default.useRef(null);
+  const scrollTopTarget = import_react13.default.useRef(null);
+  const timeoutRef = import_react13.default.useRef(null);
+  const handler = import_react13.default.useCallback(
     (ev) => {
       const el = ev.target;
       const windowScroll = el === window || el === document;
@@ -44561,7 +43482,7 @@ function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, s
     },
     [scrollContainerStateCallback, smoothScrollTargetReached]
   );
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     const localRef = customScrollParent ? customScrollParent : scrollerRef.current;
     scrollerRefCallback(customScrollParent ? customScrollParent : scrollerRef.current);
     handler({ target: localRef, suppressFlushSync: true });
@@ -46833,8 +45754,8 @@ var positionStickyCssValue = simpleMemoize(() => {
   return node.style.position === WEBKIT_STICKY ? WEBKIT_STICKY : STICKY;
 });
 function useWindowViewportRectRef(callback, customScrollParent) {
-  const viewportInfo = import_react20.default.useRef(null);
-  const calculateInfo = import_react20.default.useCallback(
+  const viewportInfo = import_react13.default.useRef(null);
+  const calculateInfo = import_react13.default.useCallback(
     (element) => {
       if (element === null || !element.offsetParent) {
         return;
@@ -46861,10 +45782,10 @@ function useWindowViewportRectRef(callback, customScrollParent) {
     [callback, customScrollParent]
   );
   const { callbackRef, ref } = useSizeWithElRef(calculateInfo);
-  const scrollAndResizeEventHandler = import_react20.default.useCallback(() => {
+  const scrollAndResizeEventHandler = import_react13.default.useCallback(() => {
     calculateInfo(ref.current);
   }, [calculateInfo, ref]);
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (customScrollParent) {
       customScrollParent.addEventListener("scroll", scrollAndResizeEventHandler);
       const observer = new ResizeObserver(scrollAndResizeEventHandler);
@@ -46884,8 +45805,8 @@ function useWindowViewportRectRef(callback, customScrollParent) {
   }, [scrollAndResizeEventHandler, customScrollParent]);
   return callbackRef;
 }
-var VirtuosoMockContext = import_react20.default.createContext(void 0);
-var VirtuosoGridMockContext = import_react20.default.createContext(void 0);
+var VirtuosoMockContext = import_react13.default.createContext(void 0);
+var VirtuosoGridMockContext = import_react13.default.createContext(void 0);
 function identity(value) {
   return value;
 }
@@ -46929,10 +45850,10 @@ var listComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$2 = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, listComponentPropsSystem));
-var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react20.default.createElement("div", { style: { height } });
+var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("div", { style: { height } });
 var GROUP_STYLE = { position: positionStickyCssValue(), zIndex: 1, overflowAnchor: "none" };
 var ITEM_STYLE = { overflowAnchor: "none" };
-var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems({ showTopList = false }) {
+var Items$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoItems({ showTopList = false }) {
   const listState = useEmitterValue$2("listState");
   const sizeRanges = usePublisher$2("sizeRanges");
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
@@ -46956,7 +45877,7 @@ var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems
     listGap,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react20.default.useState(0);
+  const [deviation, setDeviation] = import_react13.default.useState(0);
   useEmitter$2("deviation", (value) => {
     if (deviation !== value) {
       setDeviation(value);
@@ -46979,9 +45900,9 @@ var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems
     marginTop: deviation
   }, scrolledToInitialItem ? {} : { visibility: "hidden" });
   if (!showTopList && listState.totalCount === 0 && EmptyPlaceholder) {
-    return import_react20.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react13.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
-  return import_react20.default.createElement(
+  return import_react13.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ListComponent, context)), {
       ref: callbackRef,
@@ -46992,7 +45913,7 @@ var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems
       const index = item.originalIndex;
       const key = computeItemKey(index + listState.firstItemIndex, item.data, context);
       if (isSeeking) {
-        return import_react20.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+        return import_react13.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
           key,
           index: item.index,
           height: item.size,
@@ -47000,7 +45921,7 @@ var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems
         }), item.type === "group" ? {} : { groupIndex: item.groupIndex }));
       }
       if (item.type === "group") {
-        return import_react20.default.createElement(
+        return import_react13.default.createElement(
           GroupComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(GroupComponent, context)), {
             key,
@@ -47012,7 +45933,7 @@ var Items$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems
           groupContent(item.index, context)
         );
       } else {
-        return import_react20.default.createElement(
+        return import_react13.default.createElement(
           ItemComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), {
             key,
@@ -47054,24 +45975,24 @@ function contextPropIfNotDomElement(element, context) {
   }
   return { context };
 }
-var Header$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoHeader() {
+var Header$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoHeader() {
   const Header2 = useEmitterValue$2("HeaderComponent");
   const headerHeight = usePublisher$2("headerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Header2 ? import_react20.default.createElement(headerFooterTag, { ref }, import_react20.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer$1 = /* @__PURE__ */ import_react20.default.memo(function VirtuosoFooter() {
+var Footer$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoFooter() {
   const Footer2 = useEmitterValue$2("FooterComponent");
   const footerHeight = usePublisher$2("footerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Footer2 ? import_react20.default.createElement(headerFooterTag, { ref }, import_react20.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react20.default.memo(function VirtuosoScroller(_a) {
+  const Scroller2 = import_react13.default.memo(function VirtuosoScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("scrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -47086,7 +46007,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
     );
     useEmitter2("scrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react20.default.createElement(
+    return import_react13.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         ref: scrollerRef,
@@ -47101,7 +46022,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
   return Scroller2;
 }
 function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react20.default.memo(function VirtuosoWindowScroller(_a) {
+  const Scroller2 = import_react13.default.memo(function VirtuosoWindowScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("windowScrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -47125,7 +46046,7 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
     }, [scrollerRef, customScrollParent]);
     useEmitter2("windowScrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react20.default.createElement(
+    return import_react13.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         style: __spreadValues(__spreadValues({ position: "relative" }, style), totalListHeight !== 0 ? { height: totalListHeight + deviation } : {}),
@@ -47137,46 +46058,46 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
   return Scroller2;
 }
 var Viewport$2 = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher$2("viewportHeight");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport$2 = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher$2("windowViewportRect");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
 var TopItemListContainer = ({ children }) => {
   const TopItemList = useEmitterValue$2("TopItemListComponent");
   const headerHeight = useEmitterValue$2("headerHeight");
   const style = __spreadProps(__spreadValues({}, topItemListStyle), { marginTop: `${headerHeight}px` });
   const context = useEmitterValue$2("context");
-  return import_react20.default.createElement(TopItemList || "div", { style, context }, children);
+  return import_react13.default.createElement(TopItemList || "div", { style, context }, children);
 };
-var ListRoot = /* @__PURE__ */ import_react20.default.memo(function VirtuosoRoot(props) {
+var ListRoot = /* @__PURE__ */ import_react13.default.memo(function VirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
   const showTopList = useEmitterValue$2("topItemsIndexes").length > 0;
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$2 : Scroller$2;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$2 : Viewport$2;
-  return /* @__PURE__ */ import_react20.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react20.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react20.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react20.default.createElement(TheViewport, null, /* @__PURE__ */ import_react20.default.createElement(Header$1, null), /* @__PURE__ */ import_react20.default.createElement(Items$1, null), /* @__PURE__ */ import_react20.default.createElement(Footer$1, null)));
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react13.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react13.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, /* @__PURE__ */ import_react13.default.createElement(Header$1, null), /* @__PURE__ */ import_react13.default.createElement(Items$1, null), /* @__PURE__ */ import_react13.default.createElement(Footer$1, null)));
 });
 var {
   Component: List,
@@ -47556,7 +46477,7 @@ var gridComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$1 = /* @__PURE__ */ system(([gridSystem2, gridComponentPropsSystem2]) => {
   return __spreadValues(__spreadValues({}, gridSystem2), gridComponentPropsSystem2);
 }, tup(gridSystem, gridComponentPropsSystem));
-var GridItems = /* @__PURE__ */ import_react20.default.memo(function GridItems2() {
+var GridItems = /* @__PURE__ */ import_react13.default.memo(function GridItems2() {
   const gridState = useEmitterValue$1("gridState");
   const listClassName = useEmitterValue$1("listClassName");
   const itemClassName = useEmitterValue$1("itemClassName");
@@ -47583,7 +46504,7 @@ var GridItems = /* @__PURE__ */ import_react20.default.memo(function GridItems2(
       column: resolveGapValue("column-gap", getComputedStyle(el).columnGap, log2)
     });
   });
-  return import_react20.default.createElement(
+  return import_react13.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({
       ref: listRef,
@@ -47594,13 +46515,13 @@ var GridItems = /* @__PURE__ */ import_react20.default.memo(function GridItems2(
     }),
     gridState.items.map((item) => {
       const key = computeItemKey(item.index, item.data, context);
-      return isSeeking ? import_react20.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
+      return isSeeking ? import_react13.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
         key
       }, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         index: item.index,
         height: gridState.itemHeight,
         width: gridState.itemWidth
-      })) : import_react20.default.createElement(
+      })) : import_react13.default.createElement(
         ItemComponent,
         __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), { className: itemClassName, "data-index": item.index, key }),
         itemContent(item.index, item.data, context)
@@ -47608,58 +46529,58 @@ var GridItems = /* @__PURE__ */ import_react20.default.memo(function GridItems2(
     })
   );
 });
-var Header = import_react20.default.memo(function VirtuosoHeader2() {
+var Header = import_react13.default.memo(function VirtuosoHeader2() {
   const Header2 = useEmitterValue$1("HeaderComponent");
   const headerHeight = usePublisher$1("headerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Header2 ? import_react20.default.createElement(headerFooterTag, { ref }, import_react20.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer = import_react20.default.memo(function VirtuosoGridFooter() {
+var Footer = import_react13.default.memo(function VirtuosoGridFooter() {
   const Footer2 = useEmitterValue$1("FooterComponent");
   const footerHeight = usePublisher$1("footerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Footer2 ? import_react20.default.createElement(headerFooterTag, { ref }, import_react20.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 var Viewport$1 = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoGridMockContext);
   const itemDimensions = usePublisher$1("itemDimensions");
   const viewportDimensions = usePublisher$1("viewportDimensions");
   const viewportRef = useSize((el) => {
     viewportDimensions(el.getBoundingClientRect());
   });
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportDimensions({ height: ctx.viewportHeight, width: ctx.viewportWidth });
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
     }
   }, [ctx, viewportDimensions, itemDimensions]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
 };
 var WindowViewport$1 = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoGridMockContext);
   const windowViewportRect = usePublisher$1("windowViewportRect");
   const itemDimensions = usePublisher$1("itemDimensions");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: ctx.viewportWidth });
     }
   }, [ctx, windowViewportRect, itemDimensions]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
 };
-var GridRoot = /* @__PURE__ */ import_react20.default.memo(function GridRoot2(_a) {
+var GridRoot = /* @__PURE__ */ import_react13.default.memo(function GridRoot2(_a) {
   var props = __objRest(_a, []);
   const useWindowScroll = useEmitterValue$1("useWindowScroll");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$1 : Scroller$1;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$1 : Viewport$1;
-  return /* @__PURE__ */ import_react20.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react20.default.createElement(TheViewport, null, /* @__PURE__ */ import_react20.default.createElement(Header, null), /* @__PURE__ */ import_react20.default.createElement(GridItems, null), /* @__PURE__ */ import_react20.default.createElement(Footer, null)));
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, /* @__PURE__ */ import_react13.default.createElement(Header, null), /* @__PURE__ */ import_react13.default.createElement(GridItems, null), /* @__PURE__ */ import_react13.default.createElement(Footer, null)));
 });
 var {
   Component: Grid,
@@ -47714,7 +46635,7 @@ function resolveGapValue(property, value, log2) {
   return parseInt(value != null ? value : "0", 10);
 }
 var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
-  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react20.default.createElement("td", null, "Item $", index));
+  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react13.default.createElement("td", null, "Item $", index));
   const context = statefulStream(null);
   const fixedHeaderContent = statefulStream(null);
   const fixedFooterContent = statefulStream(null);
@@ -47753,9 +46674,9 @@ var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, tableComponentPropsSystem));
-var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react20.default.createElement("tr", null, /* @__PURE__ */ import_react20.default.createElement("td", { style: { height } }));
-var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react20.default.createElement("tr", null, /* @__PURE__ */ import_react20.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
-var Items = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems2() {
+var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("tr", null, /* @__PURE__ */ import_react13.default.createElement("td", { style: { height } }));
+var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("tr", null, /* @__PURE__ */ import_react13.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
+var Items = /* @__PURE__ */ import_react13.default.memo(function VirtuosoItems2() {
   const listState = useEmitterValue("listState");
   const sizeRanges = usePublisher("sizeRanges");
   const useWindowScroll = useEmitterValue("useWindowScroll");
@@ -47776,7 +46697,7 @@ var Items = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems2(
     void 0,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react20.default.useState(0);
+  const [deviation, setDeviation] = import_react13.default.useState(0);
   useEmitter("deviation", (value) => {
     if (deviation !== value) {
       ref.current.style.marginTop = `${value}px`;
@@ -47795,24 +46716,24 @@ var Items = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems2(
   const statefulTotalCount = useEmitterValue("statefulTotalCount");
   const context = useEmitterValue("context");
   if (statefulTotalCount === 0 && EmptyPlaceholder) {
-    return import_react20.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react13.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
   const paddingTop = listState.offsetTop + paddingTopAddition + deviation;
   const paddingBottom = listState.offsetBottom;
-  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react20.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
-  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react20.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
+  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react13.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
+  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react13.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
   const items = listState.items.map((item) => {
     const index = item.originalIndex;
     const key = computeItemKey(index + firstItemIndex, item.data, context);
     if (isSeeking) {
-      return import_react20.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+      return import_react13.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         key,
         index: item.index,
         height: item.size,
         type: item.type || "item"
       }));
     }
-    return import_react20.default.createElement(
+    return import_react13.default.createElement(
       TableRowComponent,
       __spreadProps(__spreadValues({}, contextPropIfNotDomElement(TableRowComponent, context)), {
         key,
@@ -47825,40 +46746,40 @@ var Items = /* @__PURE__ */ import_react20.default.memo(function VirtuosoItems2(
       itemContent(item.index, item.data, context)
     );
   });
-  return import_react20.default.createElement(
+  return import_react13.default.createElement(
     TableBodyComponent,
     __spreadValues({ ref: callbackRef, "data-test-id": "virtuoso-item-list" }, contextPropIfNotDomElement(TableBodyComponent, context)),
     [paddingTopEl, ...items, paddingBottomEl]
   );
 });
 var Viewport = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher("viewportHeight");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport = ({ children }) => {
-  const ctx = import_react20.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher("windowViewportRect");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const customScrollParent = useEmitterValue("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react20.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react20.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
-var TableRoot = /* @__PURE__ */ import_react20.default.memo(function TableVirtuosoRoot(props) {
+var TableRoot = /* @__PURE__ */ import_react13.default.memo(function TableVirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue("useWindowScroll");
   const customScrollParent = useEmitterValue("customScrollParent");
   const fixedHeaderHeight = usePublisher("fixedHeaderHeight");
@@ -47873,7 +46794,7 @@ var TableRoot = /* @__PURE__ */ import_react20.default.memo(function TableVirtuo
   const TheTable = useEmitterValue("TableComponent");
   const TheTHead = useEmitterValue("TableHeadComponent");
   const TheTFoot = useEmitterValue("TableFooterComponent");
-  const theHead = fixedHeaderContent ? import_react20.default.createElement(
+  const theHead = fixedHeaderContent ? import_react13.default.createElement(
     TheTHead,
     __spreadValues({
       key: "TableHead",
@@ -47882,7 +46803,7 @@ var TableRoot = /* @__PURE__ */ import_react20.default.memo(function TableVirtuo
     }, contextPropIfNotDomElement(TheTHead, context)),
     fixedHeaderContent()
   ) : null;
-  const theFoot = fixedFooterContent ? import_react20.default.createElement(
+  const theFoot = fixedFooterContent ? import_react13.default.createElement(
     TheTFoot,
     __spreadValues({
       key: "TableFoot",
@@ -47891,9 +46812,9 @@ var TableRoot = /* @__PURE__ */ import_react20.default.memo(function TableVirtuo
     }, contextPropIfNotDomElement(TheTFoot, context)),
     fixedFooterContent()
   ) : null;
-  return /* @__PURE__ */ import_react20.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react20.default.createElement(TheViewport, null, import_react20.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, import_react13.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
     theHead,
-    /* @__PURE__ */ import_react20.default.createElement(Items, { key: "TableBody" }),
+    /* @__PURE__ */ import_react13.default.createElement(Items, { key: "TableBody" }),
     theFoot
   ])));
 });
@@ -47968,12 +46889,12 @@ var getRowId = (rowEl) => {
   const id2 = td.getAttribute("data-row-id");
   return id2 != null ? id2 : null;
 };
-var dropDrag = (targetRowId, dragData, dashboardState, onDashboardStateChange) => {
+var dropDrag = (targetRowId, dragData, LoomState8, onLoomStateChange) => {
   if (dragData === null)
     throw Error("No drag data found");
   if (dragData.type !== "row")
     return;
-  const { columns } = dashboardState.model;
+  const { columns } = LoomState8.model;
   const isSorted = columns.find((column) => column.sortDir !== "default" /* NONE */);
   if (isSorted) {
     if (!window.confirm(
@@ -47981,7 +46902,7 @@ var dropDrag = (targetRowId, dragData, dashboardState, onDashboardStateChange) =
     ))
       return;
   }
-  onDashboardStateChange((prevState) => {
+  onLoomStateChange((prevState) => {
     const { bodyRows, columns: columns2 } = prevState.model;
     const draggedElIndex = bodyRows.findIndex(
       (row) => row.id === dragData.id
@@ -48009,7 +46930,7 @@ var dropDrag = (targetRowId, dragData, dashboardState, onDashboardStateChange) =
   });
 };
 
-// src/react/dashboard-app/table/table-body-row.tsx
+// src/react/loom-app/table/table-body-row.tsx
 function TableBodyRow(_a) {
   var _b = _a, {
     style,
@@ -48018,7 +46939,7 @@ function TableBodyRow(_a) {
     "style",
     "children"
   ]);
-  const { dashboardState, setDashboardState } = useDashboardState();
+  const { LoomState: LoomState8, setLoomState } = useLoomState();
   const { dragData, setDragData } = useDragContext();
   function handleDragStart(e) {
     const el = e.target;
@@ -48041,7 +46962,7 @@ function TableBodyRow(_a) {
     const targetId = getRowId(target);
     if (!targetId)
       return;
-    dropDrag(targetId, dragData, dashboardState, setDashboardState);
+    dropDrag(targetId, dragData, LoomState8, setLoomState);
   }
   function handleDragOver(e) {
     e.preventDefault();
@@ -48057,7 +46978,10 @@ function TableBodyRow(_a) {
   }));
 }
 
-// src/react/dashboard-app/table/table-header-cell.tsx
+// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
+var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
+
+// src/react/loom-app/table/table-header-cell.tsx
 var cellStyle = import_emotion_react_cjs.css`
 	position: sticky;
 	top: 0;
@@ -48070,7 +46994,7 @@ var cellStyle = import_emotion_react_cjs.css`
 	font-weight: 400;
 	overflow: visible;
 	text-align: start;
-	color: var(--text-normal); //Prevents dimming on hover in embedded table
+	color: var(--text-normal); //Prevents dimming on hover in embedded loom
 
 	&:first-of-type {
 		border-top: 0;
@@ -48090,7 +47014,7 @@ function TableHeaderCell({
   content,
   isDraggable
 }) {
-  const { setDashboardState } = useDashboardState();
+  const { setLoomState } = useLoomState();
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
   function startDrag(el) {
     const columnId2 = getColumnId(el);
@@ -48106,7 +47030,7 @@ function TableHeaderCell({
       throw new Error("No drag data found");
     if (dragData.type !== "column")
       return;
-    setDashboardState((prevState) => {
+    setLoomState((prevState) => {
       const { columns } = prevState.model;
       const draggedElIndex = columns.findIndex(
         (column) => column.id === dragData.id
@@ -48129,13 +47053,13 @@ function TableHeaderCell({
     const child = thEl.firstChild;
     if (!child)
       return;
-    if (child.classList.contains("Dashboards__focusable"))
-      thEl.classList.add("Dashboards__th--drag-over");
+    if (child.classList.contains("DataLoom__focusable"))
+      thEl.classList.add("DataLoom__th--drag-over");
   }
   function removeDragHover() {
-    const el = document.querySelector(".Dashboards__th--drag-over");
+    const el = document.querySelector(".DataLoom__th--drag-over");
     if (el)
-      el.classList.remove("Dashboards__th--drag-over");
+      el.classList.remove("DataLoom__th--drag-over");
   }
   function getColumnId(columnEl) {
     const id2 = columnEl.getAttribute("data-column-id");
@@ -48231,10 +47155,10 @@ function TableHeaderCell({
 }
 
 // src/shared/hooks.ts
-var import_react22 = __toESM(require_react());
+var import_react15 = __toESM(require_react());
 var useForceUpdate = () => {
-  const [time, setTime] = import_react22.default.useState(0);
-  return [time, import_react22.default.useCallback(() => setTime(Date.now()), [])];
+  const [time, setTime] = import_react15.default.useState(0);
+  return [time, import_react15.default.useCallback(() => setTime(Date.now()), [])];
 };
 var useCompare = (value, runOnMount = true) => {
   const prevValue = usePrevious(value);
@@ -48243,14 +47167,14 @@ var useCompare = (value, runOnMount = true) => {
   return prevValue !== value;
 };
 var usePrevious = (value) => {
-  const ref = import_react22.default.useRef();
-  import_react22.default.useEffect(() => {
+  const ref = import_react15.default.useRef();
+  import_react15.default.useEffect(() => {
     ref.current = value;
   });
   return ref.current;
 };
 var useInputSelection = (inputRef, value) => {
-  import_react22.default.useEffect(() => {
+  import_react15.default.useEffect(() => {
     function setSelection() {
       if (inputRef.current) {
         inputRef.current.selectionStart = value.length;
@@ -48261,24 +47185,23 @@ var useInputSelection = (inputRef, value) => {
   }, [inputRef]);
 };
 var useUUID = () => {
-  const [uuid] = import_react22.default.useState(v4_default());
+  const [uuid] = import_react15.default.useState(v4_default());
   return uuid;
 };
 
-// src/react/dashboard-app/table/index.tsx
-function Table2({ headerRows, bodyRows, footerRows }) {
-  const tableRef = import_react23.default.useRef(null);
+// src/react/loom-app/table/index.tsx
+var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bodyRows, footerRows }, ref) {
   const previousRowLength = usePrevious(bodyRows.length);
-  import_react23.default.useEffect(() => {
+  import_react16.default.useEffect(() => {
     var _a;
     if (previousRowLength === void 0)
       return;
     if (previousRowLength < bodyRows.length)
-      (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
+      (_a = ref.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
   }, [previousRowLength, bodyRows.length]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableVirtuoso, {
     tabIndex: -1,
-    ref: tableRef,
+    ref,
     overscan: 10,
     style: {
       width: "100%",
@@ -48306,7 +47229,7 @@ function Table2({ headerRows, bodyRows, footerRows }) {
       children: row.cells.map((cell) => {
         const { id: id2, content } = cell;
         return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
-          className: "Dashboards__footer-td",
+          className: "DataLoom__footer-td",
           css: import_emotion_react_cjs.css`
 										padding: 0px;
 									`,
@@ -48351,13 +47274,13 @@ function Table2({ headerRows, bodyRows, footerRows }) {
 									border-bottom: 0;
 								}
 							`,
-          className: "Dashboards__body-td",
+          className: "DataLoom__body-td",
           children: content
         }, cellId);
       });
     }
   });
-}
+});
 var Components = {
   Table: (_a) => {
     var _b = _a, { style } = _b, props = __objRest(_b, ["style"]);
@@ -48368,7 +47291,7 @@ var Components = {
 				`
     }, props), {
       style,
-      className: "Dashboards__table"
+      className: "DataLoom__table"
     }));
   },
   TableRow: (_c) => {
@@ -48377,14 +47300,14 @@ var Components = {
       style
     }));
   },
-  TableBody: import_react23.default.forwardRef((_e, ref) => {
+  TableBody: import_react16.default.forwardRef((_e, ref) => {
     var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tbody", __spreadProps(__spreadValues({}, props), {
       style,
       ref
     }));
   }),
-  TableFoot: import_react23.default.forwardRef((_g, ref) => {
+  TableFoot: import_react16.default.forwardRef((_g, ref) => {
     var _h = _g, { style } = _h, props = __objRest(_h, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tfoot", __spreadProps(__spreadValues({
       css: import_emotion_react_cjs.css`
@@ -48396,17 +47319,12 @@ var Components = {
 					border-bottom: 1px solid var(--table-border-color);
 				}
 
-				& > tr:first-of-type > td:nth-of-type(1) {
-					border-bottom: 0;
-				}
-
 				& > tr:first-of-type > td:nth-of-type(2) {
 					border-left: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:last-child {
 					border-left: 1px solid var(--table-border-color);
-					border-bottom: 0;
 				}
 			`
     }, props), {
@@ -48415,16 +47333,62 @@ var Components = {
     }));
   })
 };
+var table_default = Table2;
 
 // src/react/shared/icon/index.tsx
-var import_obsidian8 = require("obsidian");
-var import_react25 = __toESM(require_react());
+var import_obsidian = require("obsidian");
+var import_react18 = __toESM(require_react());
+
+// src/shared/render/utils.ts
+var replaceNewLinesWithBr = (markdown) => {
+  const lines = markdown.split("\n");
+  let updated = "";
+  lines.forEach((line) => {
+    if (line === "") {
+      updated += "<br>";
+    } else {
+      updated += line + "\n";
+    }
+  });
+  return updated;
+};
+var appendOrReplaceFirstChild = (container, child) => {
+  if (container == null || child === null)
+    return;
+  if (container && !container.firstChild) {
+    container.appendChild(child);
+  } else if (container.firstChild && container.firstChild !== child) {
+    container.replaceChild(child, container.firstChild);
+  }
+};
+var getDynamicSize = (defaultValue, value) => {
+  if (value === void 0)
+    return defaultValue;
+  if (typeof value === "string")
+    return value;
+  const { base, mobile } = value;
+  if (isMobileSize()) {
+    return mobile != null ? mobile : base;
+  } else {
+    return base;
+  }
+};
+var isMobileSize = () => {
+  return window.innerWidth <= 480;
+};
+var hasDarkTheme = () => {
+  var _a;
+  const el = document.querySelector("body");
+  return (_a = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a : false;
+};
+
+// src/react/shared/icon/index.tsx
 function Icon({
   lucideId,
   size = "md",
   color = "unset"
 }) {
-  const ref = import_react25.default.useRef(null);
+  const ref = import_react18.default.useRef(null);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref: (node) => {
       ref.current = node;
@@ -48442,14 +47406,14 @@ function Icon({
         div.style.width = "1.1rem";
         div.style.height = "1.1rem";
       }
-      (0, import_obsidian8.setIcon)(div, lucideId);
+      (0, import_obsidian.setIcon)(div, lucideId);
       appendOrReplaceFirstChild(node, div);
     }
   });
 }
 
 // src/react/shared/menu-trigger/index.tsx
-var import_react27 = __toESM(require_react());
+var import_react20 = __toESM(require_react());
 
 // src/shared/keyboard-event.ts
 var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
@@ -48476,7 +47440,7 @@ var MenuTrigger = ({
     canOpenMenu,
     hasOpenMenu
   } = useMenuState();
-  const ref = import_react27.default.useRef(null);
+  const ref = import_react20.default.useRef(null);
   const logger = useLogger();
   function handleKeyDown(e) {
     logger("MenuTrigger handleKeyDown");
@@ -48531,7 +47495,7 @@ var MenuTrigger = ({
   }
   const { id: id2 } = menu;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__menu-trigger Dashboards__focusable",
+    className: "DataLoom__menu-trigger DataLoom__focusable",
     ref,
     css: import_emotion_react_cjs.css`
 				width: ${isCell ? "100%" : "unset"};
@@ -48548,13 +47512,78 @@ var MenuTrigger = ({
 };
 var menu_trigger_default = MenuTrigger;
 
+// src/shared/spacing/index.ts
+var getSpacing = (size) => {
+  let spacing = "";
+  if (size === "sm") {
+    spacing = "var(--nlt-spacing--sm)";
+  } else if (size === "md") {
+    spacing = "var(--nlt-spacing--md)";
+  } else if (size === "lg") {
+    spacing = "var(--nlt-spacing--lg)";
+  } else if (size === "xl") {
+    spacing = "var(--nlt-spacing--xl)";
+  } else if (size === "2xl") {
+    spacing = "var(--nlt-spacing--2xl)";
+  } else if (size === "3xl") {
+    spacing = "var(--nlt-spacing--3xl)";
+  } else if (size === "4xl") {
+    spacing = "var(--nlt-spacing--4xl)";
+  }
+  return spacing;
+};
+
+// src/react/shared/stack/index.tsx
+function Stack({
+  spacing = "md",
+  justify,
+  align,
+  grow,
+  children,
+  width = "unset",
+  height = "unset",
+  minHeight = "unset",
+  isHorizontal = false
+}) {
+  let justifyContent = justify;
+  if (justifyContent === void 0) {
+    if (!isHorizontal)
+      justifyContent = "center";
+    else
+      justifyContent = "flex-start";
+  }
+  let alignItems = align;
+  if (alignItems === void 0) {
+    if (isHorizontal)
+      alignItems = "center";
+    else
+      alignItems = "flex-start";
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				display: flex;
+				flex-direction: ${isHorizontal ? "row" : "column"};
+				flex-grow: ${grow ? 1 : 0};
+				justify-content: ${justifyContent};
+				align-items: ${alignItems};
+				${isHorizontal ? "column-gap" : "row-gap"}: ${getSpacing(
+      spacing
+    )};
+				width: ${width};
+				height: ${height};
+				min-height: ${minHeight};
+			`,
+    children
+  });
+}
+
 // src/react/shared/button/index.tsx
 var buttonStyle = import_emotion_react_cjs.css`
 	display: flex;
 	align-items: center;
 	width: max-content !important;
 	height: max-content;
-	padding: 10px !important; /* Prevent tablet styles */
+	padding: 6px !important;
 	white-space: nowrap;
 	color: var(--text-normal);
 	margin-right: 0;
@@ -48575,21 +47604,20 @@ var linkStyle = import_emotion_react_cjs.css`
 		box-shadow: var(--input-shadow) !important;
 	}
 `;
-var iconStyle = import_emotion_react_cjs.css`
+var textStyle = import_emotion_react_cjs.css`
 	background-color: transparent !important;
 	box-shadow: none !important;
-	padding: 6px !important;
 
 	&: hover {
-		box-shadow: var(--input-shadow) !important;
+		background-color: var(--background-modifier-hover) !important;
 	}
 `;
 var smallStyle = import_emotion_react_cjs.css`
 	padding: 2px !important;
 `;
 function Button({
+  variant = "text",
   isFocusable = true,
-  isLink,
   isSmall,
   invertFocusColor,
   children,
@@ -48610,33 +47638,39 @@ function Button({
       onClick == null ? void 0 : onClick();
     }
   }
-  let className = "Dashboards__button";
+  let className = "DataLoom__button";
   if (isFocusable) {
-    className += " Dashboards__focusable";
+    className += " DataLoom__focusable";
     if (invertFocusColor)
-      className += " Dashboards__focusable--inverted";
+      className += " DataLoom__focusable--inverted";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
     tabIndex: isFocusable ? 0 : -1,
     className,
     css: import_emotion_react_cjs.css`
 				${buttonStyle}
-				${isLink ? linkStyle : void 0}
-				${icon !== void 0 ? iconStyle : void 0}
+				${variant == "link" ? linkStyle : void 0}
+				${variant == "text" ? textStyle : void 0}
 				${isSmall ? smallStyle : void 0}
 			`,
     "aria-label": ariaLabel,
     onKeyDown: handleKeyDown,
     onMouseDown,
     onClick: handleClick,
-    children: icon !== void 0 ? icon : children
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      isHorizontal: true,
+      children: [
+        icon && icon,
+        children
+      ]
+    })
   });
 }
 
 // src/react/shared/menu-button/index.tsx
 function MenuButton({
+  variant,
   menu,
-  isLink = false,
   ariaLabel,
   icon,
   children,
@@ -48650,7 +47684,7 @@ function MenuButton({
     onMouseDown,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
       isFocusable: false,
-      isLink,
+      variant,
       icon,
       ariaLabel,
       children
@@ -48658,18 +47692,161 @@ function MenuButton({
   });
 }
 
-// src/react/dashboard-app/row-options/components/RowMenu/index.tsx
-var import_react38 = __toESM(require_react());
+// src/react/loom-app/row-options/components/RowMenu/index.tsx
+var import_react34 = __toESM(require_react());
 
 // src/react/shared/menu/index.tsx
-var import_react31 = __toESM(require_react());
+var import_react26 = __toESM(require_react());
 var import_react_dom3 = __toESM(require_react_dom());
 
+// src/shared/conversion.ts
+var pxToNum = (value) => {
+  return parseFloat(value.split("px")[0]);
+};
+var numToPx = (value) => {
+  return `${value}px`;
+};
+var stringToCurrencyString = (value, type) => {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: type
+  }).format(parseFloat(value));
+};
+
 // src/shared/menu/utils.ts
-var import_react29 = __toESM(require_react());
+var import_react24 = __toESM(require_react());
 
 // src/shared/menu/constants.ts
 var MENU_SHIFT_PADDING = 5;
+
+// src/shared/render-utils.ts
+var import_react23 = __toESM(require_react());
+var import_obsidian3 = require("obsidian");
+
+// src/shared/render/embed.ts
+var handleLinkClick = (event) => {
+  const targetEl = event.target;
+  const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
+  if (!closestAnchor) {
+    return;
+  }
+  if (closestAnchor.hasClass("internal-link")) {
+    event.preventDefault();
+    const href = closestAnchor.getAttr("href");
+    const newLeaf = event.ctrlKey || event.metaKey;
+    if (href)
+      app.workspace.openLinkText(href, "", newLeaf);
+  }
+};
+
+// src/shared/render-embed.ts
+var import_obsidian2 = require("obsidian");
+var renderText = (leaf, value) => __async(void 0, null, function* () {
+  const div = document.createElement("div");
+  div.style.width = "100%";
+  div.style.height = "100%";
+  try {
+    const view = leaf.view;
+    if (view instanceof import_obsidian2.MarkdownView || view instanceof DataLoomView) {
+      yield import_obsidian2.MarkdownRenderer.renderMarkdown(
+        value,
+        div,
+        view.file.path,
+        view
+      );
+    }
+  } catch (e) {
+    console.error(e);
+  }
+  return div;
+});
+var renderEmbed = (leaf, value) => __async(void 0, null, function* () {
+  return renderText(leaf, value);
+});
+
+// src/shared/render-utils.ts
+var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
+  const div = document.createElement("div");
+  div.style.height = "100%";
+  div.style.width = "100%";
+  const view = leaf == null ? void 0 : leaf.view;
+  if (view instanceof DataLoomView)
+    div.classList.add("markdown-rendered");
+  try {
+    const updated = replaceNewLinesWithBr(markdown);
+    const view2 = leaf == null ? void 0 : leaf.view;
+    if (view2 instanceof import_obsidian3.MarkdownView || view2 instanceof DataLoomView) {
+      yield import_obsidian3.MarkdownRenderer.renderMarkdown(
+        updated,
+        div,
+        view2.file.path,
+        view2
+      );
+      const embeds = div.querySelectorAll(".internal-link");
+      embeds.forEach((embed) => {
+        const el = embed;
+        const href = el.getAttribute("data-href");
+        if (!href)
+          return;
+        const destination = app.metadataCache.getFirstLinkpathDest(
+          href,
+          view2.file.path
+        );
+        if (!destination)
+          embed.classList.add("is-unresolved");
+        el.addEventListener("mouseover", (e) => {
+          e.stopPropagation();
+          app.workspace.trigger("hover-link", {
+            event: e,
+            source: DATA_LOOM_VIEW,
+            hoverParent: view2.containerEl,
+            targetEl: el,
+            linktext: href,
+            sourcePath: el.href
+          });
+        });
+        el.addEventListener("click", handleLinkClick);
+      });
+    }
+  } catch (e) {
+    console.error(e);
+  }
+  return div;
+});
+var useRenderMarkdown = (markdown, options) => {
+  const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
+  const containerRef = import_react23.default.useRef(null);
+  const renderRef = import_react23.default.useRef(null);
+  const { mountLeaf } = useMountState();
+  import_react23.default.useEffect(() => {
+    function updateContainerRef() {
+      return __async(this, null, function* () {
+        let el = null;
+        if (isEmbed) {
+          el = yield renderEmbed(mountLeaf, markdown);
+        } else {
+          el = yield renderMarkdown(mountLeaf, markdown);
+        }
+        if (el) {
+          renderRef.current = el;
+          if (containerRef.current)
+            appendOrReplaceFirstChild(containerRef.current, el);
+        }
+      });
+    }
+    updateContainerRef();
+  }, [markdown, mountLeaf, isExternalLink, isEmbed]);
+  return {
+    containerRef,
+    renderRef
+  };
+};
+var isOnMobile = () => {
+  return import_obsidian3.Platform.isMobile;
+};
+var getResourcePath = (filePath) => {
+  return app.vault.adapter.getResourcePath(filePath);
+};
 
 // src/shared/menu/utils.ts
 var isTextSelected = () => {
@@ -48687,8 +47864,9 @@ var getElementPosition = (el) => {
   };
 };
 var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
-  const viewContentEl = useLeafContainer();
-  import_react29.default.useEffect(() => {
+  const { mountLeaf } = useMountState();
+  const viewContentEl = mountLeaf.view.containerEl;
+  import_react24.default.useEffect(() => {
     function shiftMenuIntoView() {
       if (menuRef.current === null)
         return;
@@ -48735,7 +47913,7 @@ var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
   });
 };
 var useMenuTriggerPosition = () => {
-  const ref = import_react29.default.useRef(null);
+  const ref = import_react24.default.useRef(null);
   const position = getElementPosition(ref.current);
   return { triggerRef: ref, triggerPosition: position };
 };
@@ -48760,12 +47938,12 @@ var shiftElementIntoContainer = (container, element) => {
   };
 };
 
-// src/shared/dashboard-state/use-menu-events.ts
-var import_react30 = __toESM(require_react());
+// src/shared/loom-state/use-menu-events.ts
+var import_react25 = __toESM(require_react());
 var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
   const logger = useLogger();
   const { requestCloseTopMenu, closeTopMenu, topMenu } = useMenuState();
-  import_react30.default.useEffect(() => {
+  import_react25.default.useEffect(() => {
     function handleOutsideKeyDown(e) {
       logger("Menu handleOutsideKeyDown");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -48781,7 +47959,7 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
     }
     return () => app.workspace.off(EVENT_OUTSIDE_CLICK, handleOutsideKeyDown);
   }, [isOpen, logger, closeTopMenu, requestCloseTopMenu, id2, topMenu]);
-  import_react30.default.useEffect(() => {
+  import_react25.default.useEffect(() => {
     function handleOutsideClick() {
       logger("Menu handleOutsideClick");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -48799,7 +47977,7 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
 };
 
 // src/react/shared/menu/index.tsx
-var Menu = import_react31.default.forwardRef(function Menu2({
+var Menu = import_react26.default.forwardRef(function Menu2({
   id: id2,
   isOpen,
   hideBorder = false,
@@ -48812,7 +47990,7 @@ var Menu = import_react31.default.forwardRef(function Menu2({
   children
 }, ref) {
   const { topMenu, closeTopMenu, requestCloseTopMenu } = useMenuState();
-  const isTextHighlighted = import_react31.default.useRef(false);
+  const isTextHighlighted = import_react26.default.useRef(false);
   const logger = useLogger();
   useMenuEvents(id2, isOpen, isTextHighlighted.current);
   function handleMouseDown() {
@@ -48842,7 +48020,7 @@ var Menu = import_react31.default.forwardRef(function Menu2({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: isOpen && import_react_dom3.default.createPortal(
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__menu",
+        className: "DataLoom__menu",
         "data-id": id2,
         css: import_emotion_react_cjs.css`
 							width: 0;
@@ -48916,13 +48094,13 @@ var useOverflow = (shouldWrapOverflow) => {
 
 // src/react/shared/text/index.tsx
 function Text({ value, variant, size = "sm", maxWidth }) {
-  let className = "Dashboards__p";
+  let className = "DataLoom__p";
   if (variant === "faint")
-    className += " Dashboards__text-faint";
+    className += " DataLoom__text-faint";
   if (variant === "muted")
-    className += " Dashboards__text-muted";
+    className += " DataLoom__text-muted";
   if (variant === "semibold")
-    className += " Dashboards__text-semibold";
+    className += " DataLoom__text-semibold";
   let fontSize = "";
   if (size === "xs") {
     fontSize = "var(--nlt-font-size--xs)";
@@ -48945,8 +48123,70 @@ function Text({ value, variant, size = "sm", maxWidth }) {
   });
 }
 
+// src/react/shared/padding/index.tsx
+function Padding({
+  width = "100%",
+  px,
+  py,
+  pt,
+  pb,
+  pl,
+  pr,
+  p: p2,
+  children
+}) {
+  let renderPt = "";
+  let renderPb = "";
+  let renderPl = "";
+  let renderPr = "";
+  if (p2) {
+    renderPt = getSpacing(p2);
+    renderPb = getSpacing(p2);
+    renderPl = getSpacing(p2);
+    renderPr = getSpacing(p2);
+  }
+  if (px) {
+    const spacing = getSpacing(px);
+    renderPl = spacing;
+    renderPr = spacing;
+  } else if (pl || pr) {
+    if (pl) {
+      const spacing = getSpacing(pl);
+      renderPl = spacing;
+    }
+    if (pr) {
+      const spacing = getSpacing(pr);
+      renderPr = spacing;
+    }
+  }
+  if (py) {
+    const spacing = getSpacing(py);
+    renderPt = spacing;
+    renderPb = spacing;
+  } else if (pt || pb) {
+    if (pt) {
+      const spacing = getSpacing(pt);
+      renderPt = spacing;
+    }
+    if (pb) {
+      const spacing = getSpacing(pb);
+      renderPb = spacing;
+    }
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				width: ${width};
+				padding-top: ${renderPt};
+				padding-bottom: ${renderPb};
+				padding-left: ${renderPl};
+				padding-right: ${renderPr};
+			`,
+    children
+  });
+}
+
 // src/react/shared/menu-item/index.tsx
-var import_react37 = __toESM(require_react());
+var import_react33 = __toESM(require_react());
 function MenuItem({
   isFocusable = true,
   lucideId,
@@ -48956,8 +48196,8 @@ function MenuItem({
   onClick,
   isSelected = false
 }) {
-  const ref = import_react37.default.useRef(null);
-  import_react37.default.useEffect(() => {
+  const ref = import_react33.default.useRef(null);
+  import_react33.default.useEffect(() => {
     if (!ref.current)
       return;
     if (isSelected) {
@@ -48976,11 +48216,11 @@ function MenuItem({
       onClick == null ? void 0 : onClick();
     }
   }
-  let className = "Dashboards__menu-item Dashboards__selectable";
+  let className = "DataLoom__menu-item DataLoom__selectable";
   if (isSelected)
-    className += " Dashboards__selected";
+    className += " DataLoom__selected";
   if (isFocusable)
-    className += " Dashboards__focusable";
+    className += " DataLoom__focusable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref,
     tabIndex: 0,
@@ -48998,6 +48238,7 @@ function MenuItem({
       justify: "space-between",
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          isHorizontal: true,
           children: [
             lucideId !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
               width: "unset",
@@ -49020,8 +48261,8 @@ function MenuItem({
   });
 }
 
-// src/react/dashboard-app/row-options/components/RowMenu/index.tsx
-var RowMenu = import_react38.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
+// src/react/loom-app/row-options/components/RowMenu/index.tsx
+var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
     id: id2,
     isOpen,
@@ -49029,7 +48270,7 @@ var RowMenu = import_react38.default.forwardRef(function RowMenu2({ id: id2, row
     left,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "Dashboards__row-menu",
+      className: "DataLoom__row-menu",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
         lucideId: "trash-2",
         name: "Delete",
@@ -49041,15 +48282,15 @@ var RowMenu = import_react38.default.forwardRef(function RowMenu2({ id: id2, row
 var RowMenu_default = RowMenu;
 
 // src/shared/menu/hooks.ts
-var import_react39 = __toESM(require_react());
+var import_react35 = __toESM(require_react());
 var useMenu = (level, options) => {
   const { shouldRequestOnClose = false } = options || {};
-  const [menu] = import_react39.default.useState({
+  const [menu] = import_react35.default.useState({
     id: "m" + v4_default(),
     level,
     shouldRequestOnClose
   });
-  const menuRef = import_react39.default.useRef(null);
+  const menuRef = import_react35.default.useRef(null);
   const {
     isMenuOpen,
     openMenu,
@@ -49068,7 +48309,7 @@ var useMenu = (level, options) => {
   };
 };
 
-// src/react/dashboard-app/row-options/index.tsx
+// src/react/loom-app/row-options/index.tsx
 function RowOptions({ rowId, onDeleteClick }) {
   const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(0 /* ONE */);
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
@@ -49076,7 +48317,7 @@ function RowOptions({ rowId, onDeleteClick }) {
     openDirection: "right"
   });
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  const { dashboardState, setDashboardState } = useDashboardState();
+  const { LoomState: LoomState8, setLoomState } = useLoomState();
   function handleDeleteClick(rowId2) {
     onDeleteClick(rowId2);
     closeTopMenu();
@@ -49143,12 +48384,7 @@ function RowOptions({ rowId, onDeleteClick }) {
       const touchY = e.changedTouches[0].clientY;
       const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
       if (isInsideDropZone) {
-        dropDrag(
-          touchDropZone.id,
-          dragData,
-          dashboardState,
-          setDashboardState
-        );
+        dropDrag(touchDropZone.id, dragData, LoomState8, setLoomState);
       }
     }
     endDrag();
@@ -49161,21 +48397,19 @@ function RowOptions({ rowId, onDeleteClick }) {
   function addDragHover(rowEl) {
     const children = rowEl.querySelectorAll("td:not(:last-child)");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.add("Dashboards__tr--drag-over");
+      children[i2].classList.add("DataLoom__tr--drag-over");
     }
   }
   function removeDragHover() {
-    const children = document.querySelectorAll(
-      ".Dashboards__tr--drag-over"
-    );
+    const children = document.querySelectorAll(".DataLoom__tr--drag-over");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.remove("Dashboards__tr--drag-over");
+      children[i2].classList.remove("DataLoom__tr--drag-over");
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__row-options",
+        className: "DataLoom__row-options",
         css: import_emotion_react_cjs.css`
 					width: 100%;
 					height: 100%;
@@ -49214,7 +48448,7 @@ function RowOptions({ rowId, onDeleteClick }) {
   });
 }
 
-// src/react/dashboard-app/option-bar/sort-button.tsx
+// src/react/loom-app/option-bar/sort-button.tsx
 function SortBubble({
   sortDir,
   markdown,
@@ -49231,9 +48465,11 @@ function SortBubble({
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "lg",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "sm",
+          isHorizontal: true,
           children: [
             sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
               lucideId: "arrow-up"
@@ -49267,16 +48503,16 @@ function SortBubble({
 }
 
 // src/react/shared/switch/index.tsx
-function Switch({ id: id2, isChecked, ariaLabel, onToggle }) {
+function Switch({ id: id2, value, ariaLabel, onToggle }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       e.stopPropagation();
-      onToggle(!isChecked);
+      onToggle(!value);
     }
   }
-  let className = "checkbox-container Dashboards__switch Dashboards__focusable";
-  if (isChecked)
+  let className = "checkbox-container DataLoom__switch DataLoom__focusable";
+  if (value)
     className += " is-enabled";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     id: id2,
@@ -49290,7 +48526,7 @@ function Switch({ id: id2, isChecked, ariaLabel, onToggle }) {
 				}
 			`,
     "aria-label": ariaLabel,
-    onClick: () => onToggle(!isChecked),
+    onClick: () => onToggle(!value),
     onKeyDown: handleKeyDown,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       type: "checkbox"
@@ -49323,9 +48559,9 @@ function Wrap({
   });
 }
 
-// src/react/dashboard-app/option-bar/toggle-column-menu.tsx
-var import_react44 = __toESM(require_react());
-var ToggleColumnMenu = import_react44.default.forwardRef(
+// src/react/loom-app/option-bar/toggle-column-menu.tsx
+var import_react40 = __toESM(require_react());
+var ToggleColumnMenu = import_react40.default.forwardRef(
   function ToggleColumnMenu2({ id: id2, top, left, isOpen, columns, onToggle }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       isOpen,
@@ -49334,12 +48570,11 @@ var ToggleColumnMenu = import_react44.default.forwardRef(
       left,
       ref,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__toggle-column-menu",
+        className: "DataLoom__toggle-column-menu",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
           p: "md",
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
             spacing: "md",
-            isVertical: true,
             children: columns.map((column) => {
               const { id: id3, markdown, isVisible } = column;
               return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
@@ -49351,7 +48586,7 @@ var ToggleColumnMenu = import_react44.default.forwardRef(
                     maxWidth: "250px"
                   }),
                   /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-                    isChecked: isVisible,
+                    value: isVisible,
                     onToggle: () => onToggle(id3)
                   })
                 ]
@@ -49365,8 +48600,8 @@ var ToggleColumnMenu = import_react44.default.forwardRef(
 );
 var toggle_column_menu_default = ToggleColumnMenu;
 
-// src/react/dashboard-app/option-bar/toggle-column.tsx
-var import_react45 = __toESM(require_react());
+// src/react/loom-app/option-bar/toggle-column.tsx
+var import_react41 = __toESM(require_react());
 var areEqual = (prevProps, nextProps) => {
   const toggleMatches = prevProps.onToggle == nextProps.onToggle;
   const columnsMatch = JSON.stringify(prevProps.columns) === JSON.stringify(nextProps.columns);
@@ -49383,7 +48618,6 @@ var ToggleColumn = ({ columns, onToggle }) => {
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
-          isLink: true,
           menu,
           children: "Toggle"
         })
@@ -49400,12 +48634,12 @@ var ToggleColumn = ({ columns, onToggle }) => {
     ]
   });
 };
-var toggle_column_default = import_react45.default.memo(ToggleColumn, areEqual);
+var toggle_column_default = import_react41.default.memo(ToggleColumn, areEqual);
 
-// src/react/dashboard-app/option-bar/filter/filter.tsx
-var import_react52 = __toESM(require_react());
+// src/react/loom-app/option-bar/filter/filter.tsx
+var import_react48 = __toESM(require_react());
 
-// src/react/dashboard-app/shared-styles.ts
+// src/react/loom-app/shared-styles.ts
 var selectStyle = import_emotion_react_cjs.css`
 	&:focus {
 		box-shadow: none !important;
@@ -49457,7 +48691,7 @@ var borderInputStyle = import_emotion_react_cjs.css`
 	background-color: var(--background-secondary);
 `;
 
-// src/react/dashboard-app/option-bar/filter/filter-type-select.tsx
+// src/react/loom-app/option-bar/filter/filter-type-select.tsx
 function FilterRowDropdown({
   id: id2,
   cellType,
@@ -49471,7 +48705,7 @@ function FilterRowDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
     tabIndex: 0,
-    className: "Dashboards__focusable",
+    className: "DataLoom__focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 			`,
@@ -49571,7 +48805,7 @@ function FilterRowDropdown({
   });
 }
 
-// src/react/dashboard-app/option-bar/filter/filter-column-select.tsx
+// src/react/loom-app/option-bar/filter/filter-column-select.tsx
 function FilterColumnDropdown({
   id: id2,
   columns,
@@ -49585,7 +48819,7 @@ function FilterColumnDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
     tabIndex: 0,
-    className: "Dashboards__focusable",
+    className: "DataLoom__focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 				max-width: 175px;
@@ -49609,7 +48843,7 @@ function FilterColumnDropdown({
 // node_modules/react-select/dist/react-select.cjs.mjs
 var import_react_select_cjs_default = __toESM(require_react_select_cjs_default(), 1);
 
-// src/react/dashboard-app/option-bar/filter/filter-text-input.tsx
+// src/react/loom-app/option-bar/filter/filter-text-input.tsx
 function FilterTextInput({
   id: id2,
   text,
@@ -49627,7 +48861,7 @@ function FilterTextInput({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       cellType !== "checkbox" /* CHECKBOX */ && cellType !== "tag" /* TAG */ && cellType !== "multi-tag" /* MULTI_TAG */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "Dashboards__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 							${baseInputStyle}
 							width: 150px !important;
@@ -49638,7 +48872,7 @@ function FilterTextInput({
       }),
       cellType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
         tabIndex: 0,
-        className: "Dashboards__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 						${selectStyle}
 					`,
@@ -49661,7 +48895,7 @@ function FilterTextInput({
         ]
       }),
       (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_react_select_cjs_default._default, {
-        className: "react-select Dashboards__focusable",
+        className: "react-select DataLoom__focusable",
         styles: {
           placeholder: (baseStyles) => __spreadProps(__spreadValues({}, baseStyles), {
             fontSize: "var(--font-ui-small)"
@@ -49746,7 +48980,7 @@ function FilterTextInput({
   });
 }
 
-// src/react/dashboard-app/option-bar/filter/filter-row.tsx
+// src/react/loom-app/option-bar/filter/filter-row.tsx
 function FilterRow({
   id: id2,
   columns,
@@ -49792,6 +49026,7 @@ function FilterRow({
         justify: "flex-end",
         align: "center",
         spacing: "lg",
+        isHorizontal: true,
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
             icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -49801,7 +49036,7 @@ function FilterRow({
             onClick: () => onDeleteClick(id2)
           }),
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-            isChecked: isEnabled,
+            value: isEnabled,
             ariaLabel: isEnabled ? "Disable filter rule" : "Enable filter rule",
             onToggle: () => onToggle(id2)
           })
@@ -49811,9 +49046,9 @@ function FilterRow({
   });
 }
 
-// src/react/dashboard-app/option-bar/filter/filter-menu.tsx
-var import_react50 = __toESM(require_react());
-var FilterMenu = import_react50.default.forwardRef(function FilterMenu2({
+// src/react/loom-app/option-bar/filter/filter-menu.tsx
+var import_react46 = __toESM(require_react());
+var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
   id: id2,
   top,
   left,
@@ -49836,7 +49071,7 @@ var FilterMenu = import_react50.default.forwardRef(function FilterMenu2({
     maxHeight: 255,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "Dashboards__filter-menu",
+      className: "DataLoom__filter-menu",
       css: import_emotion_react_cjs.css`
 					width: ${isMobileSize() ? "calc(100vw - 30px)" : "unset"};
 				`,
@@ -49844,7 +49079,6 @@ var FilterMenu = import_react50.default.forwardRef(function FilterMenu2({
         p: "md",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "lg",
-          isVertical: true,
           children: [
             filterRules.map((rule) => {
               const {
@@ -49880,6 +49114,7 @@ var FilterMenu = import_react50.default.forwardRef(function FilterMenu2({
               }, id3);
             }),
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
                   icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -49901,7 +49136,7 @@ var FilterMenu = import_react50.default.forwardRef(function FilterMenu2({
 });
 var filter_menu_default = FilterMenu;
 
-// src/react/dashboard-app/option-bar/filter/filter.tsx
+// src/react/loom-app/option-bar/filter/filter.tsx
 var areEqual2 = (prevProps, nextProps) => {
   const columnsMatch = JSON.stringify(prevProps.columns) === JSON.stringify(nextProps.columns);
   const filterRulesMatch = JSON.stringify(prevProps.filterRules) === JSON.stringify(nextProps.filterRules);
@@ -49924,7 +49159,7 @@ var Filter = ({
     openDirection: "left"
   });
   const previousLength = usePrevious(filterRules.length);
-  import_react52.default.useEffect(() => {
+  import_react48.default.useEffect(() => {
     if (previousLength !== void 0) {
       if (previousLength < filterRules.length) {
         if (menuRef.current) {
@@ -49938,7 +49173,6 @@ var Filter = ({
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
-          isLink: true,
           menu,
           children: "Filter"
         })
@@ -49962,16 +49196,17 @@ var Filter = ({
     ]
   });
 };
-var filter_default = import_react52.default.memo(Filter, areEqual2);
+var filter_default = import_react48.default.memo(Filter, areEqual2);
 
-// src/react/dashboard-app/option-bar/search-bar.tsx
+// src/react/loom-app/option-bar/search-bar.tsx
 function SearchBar() {
-  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useDashboardState();
+  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useLoomState();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "lg",
+    isHorizontal: true,
     children: [
       isSearchBarVisible && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "Dashboards__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 						${baseInputStyle}
 						max-width: 200px;
@@ -49993,24 +49228,7 @@ function SearchBar() {
   });
 }
 
-// src/react/shared/divider/index.tsx
-function Divider({
-  isVertical = false,
-  width = "100%",
-  height = "100%"
-}) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
-    css: import_emotion_react_cjs.css`
-				margin: 0;
-				width: ${!isVertical ? width : "unset"};
-				height: ${isVertical === true ? height : "unset"};
-				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
-				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
-			`
-  });
-}
-
-// src/react/dashboard-app/option-bar/active-filter-bubble.tsx
+// src/react/loom-app/option-bar/active-filter-bubble.tsx
 function ActiveFilterBubble({ numActive }) {
   if (numActive === 0)
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {});
@@ -50030,7 +49248,7 @@ function ActiveFilterBubble({ numActive }) {
   });
 }
 
-// src/shared/dashboard-state/filter-by-rules.ts
+// src/shared/loom-state/filter-by-rules.ts
 var isCellTypeFilterable = (cellType) => {
   switch (cellType) {
     case "text" /* TEXT */:
@@ -50139,7 +49357,664 @@ var doesTextMatch = (markdown, ruleText, filterType) => {
   }
 };
 
-// src/react/dashboard-app/option-bar/index.tsx
+// src/obsidian/export-modal.tsx
+var import_obsidian6 = require("obsidian");
+var import_client = __toESM(require_client());
+
+// src/react/export-app/index.tsx
+var import_react53 = __toESM(require_react());
+
+// src/shared/export/types.ts
+var ExportType = /* @__PURE__ */ ((ExportType2) => {
+  ExportType2["UNSELECTED"] = "Select an option";
+  ExportType2["MARKDOWN"] = "Markdown";
+  ExportType2["CSV"] = "CSV";
+  return ExportType2;
+})(ExportType || {});
+
+// src/react/export-app/export-type-select.tsx
+function ExportTypeSelect({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+    spacing: "xl",
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+        htmlFor: "type-select",
+        children: "File Type"
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
+        id: "type-select",
+        css: import_emotion_react_cjs.css`
+					background-color: var(
+						--background-secondary-alt
+					) !important;
+				`,
+        value,
+        onChange: (e) => onChange(e.target.value),
+        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
+          value: type,
+          children: type
+        }, type))
+      })
+    ]
+  });
+}
+
+// src/react/export-app/content-textarea.tsx
+function ContentTextArea({ value }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+    readOnly: true,
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 200px;
+				resize: vertical;
+			`,
+    value
+  });
+}
+
+// node_modules/markdown-table/index.js
+function markdownTable(table, options = {}) {
+  const align = (options.align || []).concat();
+  const stringLength = options.stringLength || defaultStringLength;
+  const alignments = [];
+  const cellMatrix = [];
+  const sizeMatrix = [];
+  const longestCellByColumn = [];
+  let mostCellsPerRow = 0;
+  let rowIndex = -1;
+  while (++rowIndex < table.length) {
+    const row2 = [];
+    const sizes2 = [];
+    let columnIndex2 = -1;
+    if (table[rowIndex].length > mostCellsPerRow) {
+      mostCellsPerRow = table[rowIndex].length;
+    }
+    while (++columnIndex2 < table[rowIndex].length) {
+      const cell = serialize(table[rowIndex][columnIndex2]);
+      if (options.alignDelimiters !== false) {
+        const size = stringLength(cell);
+        sizes2[columnIndex2] = size;
+        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
+          longestCellByColumn[columnIndex2] = size;
+        }
+      }
+      row2.push(cell);
+    }
+    cellMatrix[rowIndex] = row2;
+    sizeMatrix[rowIndex] = sizes2;
+  }
+  let columnIndex = -1;
+  if (typeof align === "object" && "length" in align) {
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = toAlignment(align[columnIndex]);
+    }
+  } else {
+    const code = toAlignment(align);
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = code;
+    }
+  }
+  columnIndex = -1;
+  const row = [];
+  const sizes = [];
+  while (++columnIndex < mostCellsPerRow) {
+    const code = alignments[columnIndex];
+    let before = "";
+    let after = "";
+    if (code === 99) {
+      before = ":";
+      after = ":";
+    } else if (code === 108) {
+      before = ":";
+    } else if (code === 114) {
+      after = ":";
+    }
+    let size = options.alignDelimiters === false ? 1 : Math.max(
+      1,
+      longestCellByColumn[columnIndex] - before.length - after.length
+    );
+    const cell = before + "-".repeat(size) + after;
+    if (options.alignDelimiters !== false) {
+      size = before.length + size + after.length;
+      if (size > longestCellByColumn[columnIndex]) {
+        longestCellByColumn[columnIndex] = size;
+      }
+      sizes[columnIndex] = size;
+    }
+    row[columnIndex] = cell;
+  }
+  cellMatrix.splice(1, 0, row);
+  sizeMatrix.splice(1, 0, sizes);
+  rowIndex = -1;
+  const lines = [];
+  while (++rowIndex < cellMatrix.length) {
+    const row2 = cellMatrix[rowIndex];
+    const sizes2 = sizeMatrix[rowIndex];
+    columnIndex = -1;
+    const line = [];
+    while (++columnIndex < mostCellsPerRow) {
+      const cell = row2[columnIndex] || "";
+      let before = "";
+      let after = "";
+      if (options.alignDelimiters !== false) {
+        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
+        const code = alignments[columnIndex];
+        if (code === 114) {
+          before = " ".repeat(size);
+        } else if (code === 99) {
+          if (size % 2) {
+            before = " ".repeat(size / 2 + 0.5);
+            after = " ".repeat(size / 2 - 0.5);
+          } else {
+            before = " ".repeat(size / 2);
+            after = before;
+          }
+        } else {
+          after = " ".repeat(size);
+        }
+      }
+      if (options.delimiterStart !== false && !columnIndex) {
+        line.push("|");
+      }
+      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
+        line.push(" ");
+      }
+      if (options.alignDelimiters !== false) {
+        line.push(before);
+      }
+      line.push(cell);
+      if (options.alignDelimiters !== false) {
+        line.push(after);
+      }
+      if (options.padding !== false) {
+        line.push(" ");
+      }
+      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
+        line.push("|");
+      }
+    }
+    lines.push(
+      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
+    );
+  }
+  return lines.join("\n");
+}
+function serialize(value) {
+  return value === null || value === void 0 ? "" : String(value);
+}
+function defaultStringLength(value) {
+  return value.length;
+}
+function toAlignment(value) {
+  const code = typeof value === "string" ? value.codePointAt(0) : 0;
+  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
+}
+
+// src/shared/cell-content/checkbox-cell-content.ts
+var getCheckboxCellContent = (markdown, renderMarkdown2) => {
+  if (renderMarkdown2)
+    return markdown;
+  if (isCheckboxChecked(markdown))
+    return "true";
+  return "false";
+};
+
+// src/shared/cell-content/currency-cell-content.ts
+var getCurrencyCellContent = (value, currencyType) => {
+  if (isNumber(value))
+    return stringToCurrencyString(value, currencyType);
+  return "";
+};
+
+// src/shared/date/constants.ts
+var MILLIS_IN_DAY = 1e3 * 60 * 60 * 24;
+var MILLIS_IN_MINUTE = 1e3 * 60;
+
+// src/shared/date/regex.ts
+var YYYY_MM_DD_REGEX = new RegExp(
+  /^(\d{4})\/(0[1-9]|1[0-2])\/(0[1-9]|[1-2]\d|3[0-1])$/
+);
+var MM_DD_YYYY_REGEX = new RegExp(
+  /^(0[1-9]|1[0-2])\/(0[1-9]|[1-2]\d|3[0-1])\/(\d{4})$/
+);
+var DD_MM_YYYY_REGEX = new RegExp(
+  /^(0[1-9]|[1-2]\d|3[0-1])\/(0[1-9]|1[0-2])\/(\d{4})$/
+);
+
+// src/shared/date/utils.ts
+var getDateParts = (date) => {
+  const year = date.getFullYear().toString();
+  const month = ("0" + (date.getMonth() + 1)).slice(-2);
+  const day = ("0" + date.getDate()).slice(-2);
+  const time = date.toLocaleString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true
+  });
+  return { year, month, day, time };
+};
+var getUTCTimeFromDateParts = (year, month, day) => {
+  return new Date(`${year}-${month}-${day}T00:00:00`).getTime();
+};
+var removeLastComma = (value) => {
+  const commaIndex = value.lastIndexOf(",");
+  return value.substring(0, commaIndex) + value.substring(commaIndex + 1);
+};
+
+// src/shared/date/date-conversion.ts
+var dateStringToUnixTime = (value, dateFormat) => {
+  const parts = value.split("/");
+  switch (dateFormat) {
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return getUTCTimeFromDateParts(parts[2], parts[0], parts[1]);
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return getUTCTimeFromDateParts(parts[2], parts[1], parts[0]);
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return getUTCTimeFromDateParts(parts[0], parts[1], parts[2]);
+    default:
+      throw new Error("Date format not supported.");
+  }
+};
+var unixTimeToDateString = (unixTime, format) => {
+  const date = new Date(unixTime);
+  const { year, month, day } = getDateParts(date);
+  switch (format) {
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return `${month}/${day}/${year}`;
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return `${day}/${month}/${year}`;
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return `${year}/${month}/${day}`;
+    case "full" /* FULL */:
+      return date.toLocaleString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric"
+      });
+    case "relative" /* RELATIVE */: {
+      const diff = Date.now() - date.getTime();
+      if (diff < MILLIS_IN_DAY) {
+        return "Today";
+      } else if (diff < MILLIS_IN_DAY * 2) {
+        return "Yesterday";
+      } else if (diff < MILLIS_IN_DAY * 7) {
+        return date.toLocaleString("en-US", { weekday: "long" });
+      } else {
+        return date.toLocaleString("en-US", {
+          month: "short",
+          day: "numeric",
+          year: "numeric"
+        });
+      }
+    }
+    default:
+      return "";
+  }
+};
+var unixTimeToDateTimeString = (unixTime, format) => {
+  const date = new Date(unixTime);
+  const { year, month, day, time } = getDateParts(date);
+  switch (format) {
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return `${month}/${day}/${year} ${time}`;
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return `${day}/${month}/${year} ${time}`;
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return `${year}/${month}/${day} ${time}`;
+    case "full" /* FULL */: {
+      const value = date.toLocaleString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true
+      });
+      return removeLastComma(value);
+    }
+    case "relative" /* RELATIVE */: {
+      const diff = Date.now() - date.getTime();
+      const time2 = date.toLocaleString("en-US", {
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true
+      });
+      if (diff < MILLIS_IN_DAY) {
+        return "Today " + time2;
+      } else if (diff < MILLIS_IN_DAY * 2) {
+        return "Yesterday " + time2;
+      } else if (diff < MILLIS_IN_DAY * 7) {
+        return date.toLocaleString("en-US", { weekday: "long" }) + " " + time2;
+      } else {
+        const value = date.toLocaleString("en-US", {
+          month: "short",
+          day: "numeric",
+          year: "numeric",
+          hour: "numeric",
+          minute: "numeric",
+          hour12: true
+        });
+        return removeLastComma(value);
+      }
+    }
+    default:
+      return "";
+  }
+};
+var isValidDateFormat = (value, dateFormat) => {
+  switch (dateFormat) {
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return value.match(MM_DD_YYYY_REGEX) !== null;
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return value.match(DD_MM_YYYY_REGEX) !== null;
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return value.match(YYYY_MM_DD_REGEX) !== null;
+    default:
+      return false;
+  }
+};
+
+// src/shared/cell-content/date-cell-content.ts
+var getDateCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateString(dateTime, format);
+  return "";
+};
+
+// src/shared/cell-content/embed-cell-content.ts
+var getEmbedCellContent = (value, options) => {
+  const {
+    shouldRenderMarkdown = true,
+    isExternalLink = false,
+    isExport = false
+  } = options != null ? options : {};
+  if (shouldRenderMarkdown) {
+    if (isExternalLink) {
+      if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
+        return `![](${value})`;
+      }
+      if (value !== "")
+        return "Unsupported link";
+    } else {
+      if (value !== "") {
+        if (isExport)
+          return `![[${value}]]`;
+        return `![](${getResourcePath(value)})`;
+      }
+    }
+  }
+  return value;
+};
+
+// src/shared/cell-content/number-cell-content.ts
+var getNumberCellContent = (value) => {
+  if (isNumber(value))
+    return value;
+  return "";
+};
+
+// src/shared/cell-content/text-cell-content.ts
+var getTextCellContent = (markdown, renderMarkdown2) => {
+  if (!renderMarkdown2)
+    return markdown.replace(WIKI_LINK_REGEX, (_match, path) => {
+      return path;
+    });
+  return markdown;
+};
+
+// src/shared/cell-content/time-content.ts
+var getTimeCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateTimeString(dateTime, format);
+  return "";
+};
+
+// src/shared/cell-content/index.ts
+var getTagCellContent = (column, cell) => {
+  return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
+};
+var getCellContent = (column, row, cell, renderMarkdown2) => {
+  switch (column.type) {
+    case "text" /* TEXT */:
+    case "file" /* FILE */:
+      return getTextCellContent(cell.markdown, renderMarkdown2);
+    case "number" /* NUMBER */:
+      return getNumberCellContent(cell.markdown);
+    case "embed" /* EMBED */:
+      return getEmbedCellContent(cell.markdown, {
+        isExport: true,
+        isExternalLink: cell.isExternalLink,
+        shouldRenderMarkdown: renderMarkdown2
+      });
+    case "checkbox" /* CHECKBOX */:
+      return getCheckboxCellContent(cell.markdown, renderMarkdown2);
+    case "currency" /* CURRENCY */:
+      return getCurrencyCellContent(cell.markdown, column.currencyType);
+    case "tag" /* TAG */:
+    case "multi-tag" /* MULTI_TAG */:
+      return getTagCellContent(column, cell);
+    case "date" /* DATE */:
+      return getDateCellContent(cell.dateTime, column.dateFormat);
+    case "creation-time" /* CREATION_TIME */:
+      return getTimeCellContent(row.creationTime, column.dateFormat);
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return getTimeCellContent(row.lastEditedTime, column.dateFormat);
+    default:
+      throw new Error("Unsupported cell type");
+  }
+};
+
+// src/shared/export/loom-state-to-array.tsx
+var serializeHeaderCells = (cells) => {
+  return cells.map((cell) => cell.markdown);
+};
+var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
+  return rows.map((row) => {
+    const rowCells = cells.filter((cell) => cell.rowId === row.id);
+    return rowCells.map((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      return getCellContent(column, row, cell, renderMarkdown2);
+    });
+  });
+};
+var LoomStateToArray = (LoomState8, renderMarkdown2) => {
+  const { headerCells, bodyCells, bodyRows, columns } = LoomState8.model;
+  const serializedHeaderCells = serializeHeaderCells(headerCells);
+  const serializedBodyCells = serializeBodyCells(
+    columns,
+    bodyRows,
+    bodyCells,
+    renderMarkdown2
+  );
+  return [serializedHeaderCells, ...serializedBodyCells];
+};
+
+// src/shared/export/export-to-markdown.tsx
+var exportToMarkdown = (LoomState8, renderMarkdown2) => {
+  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+  return markdownTable(arr);
+};
+
+// src/react/export-app/index.tsx
+var import_obsidian5 = require("obsidian");
+
+// src/shared/export/download-utils.ts
+var import_obsidian4 = require("obsidian");
+var getBlobTypeForExportType = (type) => {
+  switch (type) {
+    case "CSV" /* CSV */:
+      return "text/csv";
+    case "Markdown" /* MARKDOWN */:
+      return "text/markdown";
+    default:
+      throw new Error(`Unknown export type: ${type}`);
+  }
+};
+var getExportFileName = (filePath) => {
+  const replaceExtension = filePath.replace(`.${CURRENT_FILE_EXTENSION}`, "");
+  const replaceSlash = replaceExtension.replace(/\//g, "-");
+  const replaceSpaces = replaceSlash.replace(/ /g, "_");
+  const timestamp = (0, import_obsidian4.moment)().format("YYYY_MM_DD-HH_mm_ss");
+  return replaceSpaces + "-" + timestamp;
+};
+var downloadFile = (fileName, blobType, data) => {
+  const blob = new Blob([data], { type: blobType });
+  const url = window.URL.createObjectURL(blob);
+  const el = document.createElement("a");
+  el.setAttribute("href", url);
+  el.setAttribute("download", fileName);
+  el.style.display = "none";
+  document.body.appendChild(el);
+  el.click();
+  document.body.removeChild(el);
+};
+
+// src/shared/export/export-to-csv.tsx
+var import_papaparse = __toESM(require_papaparse_min());
+var exportToCSV = (LoomState8, renderMarkdown2) => {
+  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+  return import_papaparse.default.unparse(arr);
+};
+
+// src/react/export-app/index.tsx
+function ExportApp({ LoomState: LoomState8, loomFilePath }) {
+  const [exportType, setExportType] = import_react53.default.useState(
+    "Select an option" /* UNSELECTED */
+  );
+  const { exportRenderMarkdown } = useAppSelector(
+    (state) => state.global.settings
+  );
+  const [renderMarkdown2, setRenderMarkdown] = import_react53.default.useState(exportRenderMarkdown);
+  function handleCopyClick(value) {
+    return __async(this, null, function* () {
+      yield navigator.clipboard.writeText(value);
+      new import_obsidian5.Notice("Copied to clipboard");
+    });
+  }
+  function handleDownloadClick() {
+    const fileName = getExportFileName(loomFilePath);
+    const blobType = getBlobTypeForExportType(exportType);
+    downloadFile(fileName, blobType, content);
+  }
+  let content = "";
+  if (exportType === "Markdown" /* MARKDOWN */) {
+    content = exportToMarkdown(LoomState8, renderMarkdown2);
+  } else if (exportType === "CSV" /* CSV */) {
+    content = exportToCSV(LoomState8, renderMarkdown2);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__export-app",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
+      p: "xl",
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("h5", {
+          css: import_emotion_react_cjs.css`
+						margin-top: 0px;
+						margin-bottom: 0px;
+					`,
+          children: "DataLoom Export"
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+          css: import_emotion_react_cjs.css`
+						margin: 1rem 0;
+					`
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          spacing: "xl",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportTypeSelect, {
+              value: exportType,
+              onChange: setExportType
+            }),
+            exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ContentTextArea, {
+                  value: content
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+                  spacing: "sm",
+                  children: [
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+                      htmlFor: "render-markdown",
+                      children: "Render markdown"
+                    }),
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+                      id: "render-markdown",
+                      type: "checkbox",
+                      checked: renderMarkdown2,
+                      onChange: () => setRenderMarkdown(!renderMarkdown2)
+                    })
+                  ]
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+                  isHorizontal: true,
+                  children: [
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      className: "mod-cta",
+                      onClick: handleDownloadClick,
+                      children: "Download"
+                    }),
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      css: import_emotion_react_cjs.css`
+										background-color: var(
+											--background-secondary-alt
+										) !important;
+									`,
+                      onClick: () => handleCopyClick(content),
+                      children: "Copy to clipboard"
+                    })
+                  ]
+                })
+              ]
+            })
+          ]
+        })
+      ]
+    })
+  });
+}
+
+// src/obsidian/export-modal.tsx
+var ExportModal = class extends import_obsidian6.Modal {
+  constructor(app2, loomFile) {
+    super(app2);
+    this.app = app2;
+    this.loomFile = loomFile;
+  }
+  onOpen() {
+    this.renderApp();
+  }
+  renderApp() {
+    return __async(this, null, function* () {
+      try {
+        const data = yield app.vault.read(this.loomFile);
+        const state = deserializeLoomState(data);
+        this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
+        this.root.render(
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
+            store,
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
+              LoomState: state,
+              loomFilePath: this.loomFile.path
+            })
+          })
+        );
+      } catch (err) {
+        new import_obsidian6.Notice("Error reading loom file data.");
+      }
+    });
+  }
+  onClose() {
+    if (this.root)
+      this.root.unmount();
+  }
+};
+
+// src/react/loom-app/option-bar/index.tsx
 var SortBubbleList = ({
   headerCells,
   columns,
@@ -50147,6 +50022,7 @@ var SortBubbleList = ({
 }) => {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
     spacing: "sm",
+    isHorizontal: true,
     children: headerCells.map((cell, i2) => {
       const column = columns.find((c2) => c2.id === cell.columnId);
       if (!column)
@@ -50175,6 +50051,7 @@ function OptionBar({
   onRuleAddClick,
   onRuleTagsChange
 }) {
+  const { loomFile } = useMountState();
   const sortedCells = headerCells.filter((cell) => {
     const columnId = cell.columnId;
     const column = columns.find((c2) => c2.id === columnId);
@@ -50201,21 +50078,18 @@ function OptionBar({
       return isCellTypeFilterable(type);
     }
   );
-  const sortedColumn = columns.find((c2) => c2.sortDir !== "default" /* NONE */);
+  const { isMarkdownView } = useMountState();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__option-bar",
+    className: "DataLoom__option-bar",
     css: import_emotion_react_cjs.css`
 				width: 100%;
-				padding-left: var(--nlt-spacing--lg);
-				padding-bottom: var(--nlt-spacing--md);
-				padding-top: var(--nlt-spacing--md);
 				border-bottom: 1px solid var(--background-modifier-border);
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-      px: "xl",
+      px: isMarkdownView ? "unset" : "lg",
+      py: "md",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
         spacing: "lg",
-        isVertical: true,
         align: "center",
         minHeight: "40px",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
@@ -50223,15 +50097,12 @@ function OptionBar({
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
               spacing: "md",
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubbleList, {
                   headerCells: sortedCells,
                   columns,
                   onRemoveClick: onSortRemoveClick
-                }),
-                activeRules.length !== 0 && sortedColumn !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {
-                  isVertical: true,
-                  height: "1.5rem"
                 }),
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ActiveFilterBubble, {
                   numActive: activeRules.length
@@ -50241,6 +50112,7 @@ function OptionBar({
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
               spacing: "sm",
               justify: "flex-end",
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SearchBar, {}),
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(filter_default, {
@@ -50257,6 +50129,14 @@ function OptionBar({
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(toggle_column_default, {
                   columns: columnsWithMarkdown,
                   onToggle: onColumnToggle
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "download"
+                  }),
+                  onClick: () => {
+                    new ExportModal(app, loomFile).open();
+                  }
                 })
               ]
             })
@@ -50267,10 +50147,10 @@ function OptionBar({
   });
 }
 
-// src/react/dashboard-app/calculation-cell/calculation-menu.tsx
-var import_react57 = __toESM(require_react());
+// src/react/loom-app/calculation-cell/calculation-menu.tsx
+var import_react56 = __toESM(require_react());
 
-// src/shared/dashboard-state/display-name.ts
+// src/shared/loom-state/display-name.ts
 var getShortDisplayNameForCalculation = (value) => {
   switch (value) {
     case "count-all" /* COUNT_ALL */:
@@ -50463,8 +50343,8 @@ var getDisplayNameForCellType = (type) => {
   }
 };
 
-// src/react/dashboard-app/calculation-cell/calculation-menu.tsx
-var CalculationMenu = import_react57.default.forwardRef(
+// src/react/loom-app/calculation-cell/calculation-menu.tsx
+var CalculationMenu = import_react56.default.forwardRef(
   function CalculationMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       ref,
@@ -50473,7 +50353,7 @@ var CalculationMenu = import_react57.default.forwardRef(
       top,
       left,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        className: "Dashboards__function-menu",
+        className: "DataLoom__function-menu",
         children: [
           Object.values(Calculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
             name: getDisplayNameForCalculation(type),
@@ -50496,7 +50376,7 @@ var CalculationMenu = import_react57.default.forwardRef(
 );
 var calculation_menu_default = CalculationMenu;
 
-// src/react/dashboard-app/calculation-cell/utils.ts
+// src/react/loom-app/calculation-cell/utils.ts
 var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
 var hashString = (value) => {
   return v5_default(value, NAMESPACE);
@@ -50507,7 +50387,7 @@ var round2Digits = (value) => {
   return value;
 };
 
-// src/react/dashboard-app/calculation-cell/calculation.ts
+// src/react/loom-app/calculation-cell/calculation.ts
 var getCalculationContent = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
   return getCalculation(
     bodyRows,
@@ -50647,7 +50527,7 @@ var isCellContentEmpty = (cell, cellType) => {
   }
 };
 
-// src/react/dashboard-app/calculation-cell/arithmetic.ts
+// src/react/loom-app/calculation-cell/arithmetic.ts
 var getAverage = (values) => {
   return getSum(values) / values.length;
 };
@@ -50673,7 +50553,7 @@ var getRange = (values) => {
   return getMaximum(values) - getMinimum(values);
 };
 
-// src/react/dashboard-app/calculation-cell/number-calculation.ts
+// src/react/loom-app/calculation-cell/number-calculation.ts
 var getNumberCalculationContent = (values, cellType, currencyType, calculationType) => {
   const value = getNumberCalculation(values, calculationType).toString();
   if (cellType === "currency" /* CURRENCY */)
@@ -50698,7 +50578,7 @@ var getNumberCalculation = (values, type) => {
   }
 };
 
-// src/react/dashboard-app/calculation-cell/index.tsx
+// src/react/loom-app/calculation-cell/index.tsx
 function CalculationCell({
   columnId,
   columnTags,
@@ -50744,7 +50624,7 @@ function CalculationCell({
         isCell: true,
         menu,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "Dashboards__function-cell Dashboards__selectable",
+          className: "DataLoom__function-cell DataLoom__selectable",
           ref: triggerRef,
           css: import_emotion_react_cjs.css`
 						display: flex;
@@ -50761,6 +50641,7 @@ function CalculationCell({
             }),
             calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
               spacing: "sm",
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
                   value: getShortDisplayNameForCalculationType(
@@ -50791,15 +50672,15 @@ function CalculationCell({
   });
 }
 
-// src/react/dashboard-app/body-cell/index.tsx
+// src/react/loom-app/body-cell/index.tsx
 var import_react90 = __toESM(require_react());
 
-// src/react/dashboard-app/text-cell/index.tsx
+// src/react/loom-app/text-cell/index.tsx
 function TextCell({ markdown, shouldWrapOverflow }) {
   const { containerRef, renderRef } = useRenderMarkdown(markdown);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__text-cell",
+    className: "DataLoom__text-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				height: 100%;
@@ -50838,16 +50719,16 @@ function Tag8({
   onRemoveClick
 }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
-  let tagClass = "Dashboards__tag";
+  let tagClass = "DataLoom__tag";
   tagClass += " " + findColorClassName(isDarkMode, color);
   if (onRemoveClick !== void 0 && id2 === void 0) {
     throw new Error(
       "An id must defined when the onRemoveClick handler is present."
     );
   }
-  let contentClassName = "Dashboards__tag-content";
+  let contentClassName = "DataLoom__tag-content";
   if (maxWidth !== void 0) {
-    contentClassName += " Dashboards__hide-overflow-ellipsis";
+    contentClassName += " DataLoom__hide-overflow-ellipsis";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: tagClass,
@@ -50862,6 +50743,7 @@ function Tag8({
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "sm",
       justify: "center",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
           className: contentClassName
@@ -50886,7 +50768,7 @@ function Tag8({
   });
 }
 
-// src/react/dashboard-app/tag-cell/index.tsx
+// src/react/loom-app/tag-cell/index.tsx
 function TagCell({
   markdown,
   color,
@@ -50894,7 +50776,7 @@ function TagCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__tag-cell",
+    className: "DataLoom__tag-cell",
     css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
       markdown,
@@ -50903,11 +50785,11 @@ function TagCell({
   });
 }
 
-// src/react/dashboard-app/checkbox-cell/index.tsx
+// src/react/loom-app/checkbox-cell/index.tsx
 function CheckboxCell({ value }) {
   const isChecked = isCheckboxChecked(value);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__checkbox-cell",
+    className: "DataLoom__checkbox-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				padding: var(--nlt-cell-spacing);
@@ -50925,11 +50807,11 @@ function CheckboxCell({ value }) {
   });
 }
 
-// src/react/dashboard-app/date-cell/index.tsx
+// src/react/loom-app/date-cell/index.tsx
 function DateCell({ value, format }) {
   const content = getDateCellContent(value, format);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__date-cell",
+    className: "DataLoom__date-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				text-align: left;
@@ -50942,21 +50824,21 @@ function DateCell({ value, format }) {
   });
 }
 
-// src/react/dashboard-app/number-cell/index.tsx
+// src/react/loom-app/number-cell/index.tsx
 function NumberCell({ value, shouldWrapOverflow }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   let valueString = "";
   if (isNumber(value))
     valueString = value;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__number-cell",
+    className: "DataLoom__number-cell",
     css: overflowStyle,
     children: valueString
   });
 }
 
-// src/react/dashboard-app/number-cell-edit/index.tsx
-var import_react63 = __toESM(require_react());
+// src/react/loom-app/number-cell-edit/index.tsx
+var import_react62 = __toESM(require_react());
 function NumberCellEdit({
   menuCloseRequest,
   value,
@@ -50964,13 +50846,13 @@ function NumberCellEdit({
   onMenuClose
 }) {
   const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react63.default.useState(initialValue);
-  const inputRef = import_react63.default.useRef(null);
+  const [localValue, setLocalValue] = import_react62.default.useState(initialValue);
+  const inputRef = import_react62.default.useRef(null);
   useInputSelection(inputRef, localValue);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react63.default.useEffect(() => {
+  import_react62.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (localValue !== value)
         onChange(localValue);
@@ -50990,7 +50872,7 @@ function NumberCellEdit({
     setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__number-cell-edit",
+    className: "DataLoom__number-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       autoFocus: true,
       css: numberInputStyle,
@@ -51000,16 +50882,16 @@ function NumberCellEdit({
       value: localValue,
       onChange: (e) => handleChange(e.target.value),
       onBlur: (e) => {
-        e.target.classList.add("Dashboards__blur--cell");
+        e.target.classList.add("DataLoom__blur--cell");
       }
     })
   });
 }
 
-// src/react/dashboard-app/text-cell-edit/index.tsx
+// src/react/loom-app/text-cell-edit/index.tsx
 var import_react70 = __toESM(require_react());
 
-// src/react/dashboard-app/text-cell-edit/suggest-menu.tsx
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
 var import_react69 = __toESM(require_react());
 
 // src/react/shared/suggest-list/index.tsx
@@ -51017,7 +50899,7 @@ var import_react67 = __toESM(require_react());
 var import_fuzzysort = __toESM(require_fuzzysort());
 
 // src/react/shared/suggest-list/suggest-item.tsx
-var import_react64 = __toESM(require_react());
+var import_react63 = __toESM(require_react());
 
 // src/shared/event-system/event-system.ts
 var EventSystem = class {
@@ -51047,16 +50929,16 @@ var EventSystem = class {
 var nltEventSystem = new EventSystem();
 
 // src/react/shared/suggest-list/suggest-item.tsx
-var SuggestItem = import_react64.default.forwardRef(
+var SuggestItem = import_react63.default.forwardRef(
   function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
-    const handleClick = import_react64.default.useCallback(
+    const handleClick = import_react63.default.useCallback(
       (e) => {
         e.stopPropagation();
         onItemClick(file);
       },
       [file, onItemClick]
     );
-    import_react64.default.useEffect(() => {
+    import_react63.default.useEffect(() => {
       function handleKeyDown(e) {
         if (e.key === "Enter")
           onItemClick(file);
@@ -51082,7 +50964,7 @@ var SuggestItem = import_react64.default.forwardRef(
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
       tabIndex: 0,
       "data-index": index,
-      className: "Dashboards__suggest-item Dashboards__focusable",
+      className: "DataLoom__suggest-item DataLoom__focusable",
       ref,
       css: import_emotion_react_cjs.css`
 					padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
@@ -51119,13 +51001,30 @@ function Input({ value, onChange }) {
 				padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-      className: "Dashboards__focusable",
+      className: "DataLoom__focusable",
       type: "text",
       css: transparentInputStyle,
       autoFocus: true,
       value,
       onChange: (e) => onChange(e.target.value)
     })
+  });
+}
+
+// src/react/shared/divider/index.tsx
+function Divider({
+  isVertical = false,
+  width = "100%",
+  height = "100%"
+}) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+    css: import_emotion_react_cjs.css`
+				margin: 0;
+				width: ${!isVertical ? width : "unset"};
+				height: ${isVertical === true ? height : "unset"};
+				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
+				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
+			`
   });
 }
 
@@ -51202,7 +51101,7 @@ function SuggestList({
       const focusedEl = document.activeElement;
       if (!focusedEl)
         return;
-      if (focusedEl.classList.contains("Dashboards__suggest-item")) {
+      if (focusedEl.classList.contains("DataLoom__suggest-item")) {
         const index = focusedEl.getAttribute("data-index");
         if (!index)
           return;
@@ -51216,7 +51115,7 @@ function SuggestList({
   }, [filteredFiles.length, logger, highlightIndex]);
   const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "Dashboards__suggest-menu",
+    className: "DataLoom__suggest-menu",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 			`,
@@ -51267,7 +51166,7 @@ function SuggestList({
   });
 }
 
-// src/react/dashboard-app/text-cell-edit/suggest-menu.tsx
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
 var SuggestMenu = import_react69.default.forwardRef(
   function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
@@ -51286,10 +51185,10 @@ var SuggestMenu = import_react69.default.forwardRef(
 );
 var suggest_menu_default = SuggestMenu;
 
-// src/react/dashboard-app/text-cell-edit/constants.ts
+// src/react/loom-app/text-cell-edit/constants.ts
 var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
 
-// src/react/dashboard-app/text-cell-edit/utils.ts
+// src/react/loom-app/text-cell-edit/utils.ts
 var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
   let match;
   const regex = structuredClone(DOUBLE_BRACKET_REGEX);
@@ -51388,7 +51287,7 @@ var getWikiLinkText = (path) => {
   return text;
 };
 
-// src/react/dashboard-app/text-cell-edit/index.tsx
+// src/react/loom-app/text-cell-edit/index.tsx
 function TextCellEdit({
   shouldWrapOverflow,
   menuCloseRequest,
@@ -51496,7 +51395,7 @@ function TextCellEdit({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__text-cell-edit",
+        className: "DataLoom__text-cell-edit",
         ref: triggerRef,
         css: import_emotion_react_cjs.css`
 					width: 100%;
@@ -51513,7 +51412,7 @@ function TextCellEdit({
           onKeyDown: handleKeyDown,
           onChange: handleTextareaChange,
           onBlur: (e) => {
-            e.target.classList.add("Dashboards__blur--cell");
+            e.target.classList.add("DataLoom__blur--cell");
           }
         })
       }),
@@ -51530,10 +51429,10 @@ function TextCellEdit({
   });
 }
 
-// src/react/dashboard-app/tag-cell-edit/index.tsx
+// src/react/loom-app/tag-cell-edit/index.tsx
 var import_react79 = __toESM(require_react());
 
-// src/react/dashboard-app/tag-cell-edit/menu-header.tsx
+// src/react/loom-app/tag-cell-edit/menu-header.tsx
 var import_react73 = __toESM(require_react());
 function MenuHeader({
   cellTags,
@@ -51565,7 +51464,7 @@ function MenuHeader({
           onRemoveClick: onRemoveTag
         }, tag.id)),
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-          className: "Dashboards__focusable",
+          className: "DataLoom__focusable",
           css: transparentInputStyle,
           autoFocus: true,
           ref: inputRef,
@@ -51578,7 +51477,7 @@ function MenuHeader({
   });
 }
 
-// src/react/dashboard-app/tag-cell-edit/create-tag.tsx
+// src/react/loom-app/tag-cell-edit/create-tag.tsx
 function CreateTag({ markdown, color, onTagAdd }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
     css: import_emotion_react_cjs.css`
@@ -51588,11 +51487,13 @@ function CreateTag({ markdown, color, onTagAdd }) {
 				padding: 4px 6px;
 				width: 100%;
 				overflow: hidden;
+				box-shadow: none !important;
 			`,
-    className: "Dashboards__focusable Dashboards__selectable",
+    className: "DataLoom__focusable DataLoom__selectable",
     onClick: () => onTagAdd(markdown, color),
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "sm",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
           children: "Create"
@@ -51607,7 +51508,7 @@ function CreateTag({ markdown, color, onTagAdd }) {
   });
 }
 
-// src/react/dashboard-app/tag-color-menu/index.tsx
+// src/react/loom-app/tag-color-menu/index.tsx
 var import_react76 = __toESM(require_react());
 
 // src/shared/stringUtils.ts
@@ -51615,7 +51516,7 @@ var uppercaseFirst = (input) => {
   return input.charAt(0).toUpperCase() + input.slice(1);
 };
 
-// src/react/dashboard-app/tag-color-menu/components/color-item/index.tsx
+// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
 var import_react75 = __toESM(require_react());
 function ColorItem({
   isDarkMode,
@@ -51637,11 +51538,11 @@ function ColorItem({
       onColorClick(color);
     }
   }
-  let containerClass = "Dashboards__color-item Dashboards__focusable Dashboards__selectable";
+  let containerClass = "DataLoom__color-item DataLoom__focusable DataLoom__selectable";
   if (isSelected)
-    containerClass += " Dashboards__selected";
+    containerClass += " DataLoom__selected";
   const colorClass = findColorClassName(isDarkMode, color);
-  let squareClass = "Dashboards__color-item-square";
+  let squareClass = "DataLoom__color-item-square";
   squareClass += " " + colorClass;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     ref,
@@ -51662,7 +51563,7 @@ function ColorItem({
   });
 }
 
-// src/react/dashboard-app/tag-color-menu/index.tsx
+// src/react/loom-app/tag-color-menu/index.tsx
 var TagColorMenu = import_react76.default.forwardRef(
   function TagColorMenu2({
     menuId,
@@ -51681,10 +51582,9 @@ var TagColorMenu = import_react76.default.forwardRef(
       top,
       left,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__tag-color-menu",
+        className: "DataLoom__tag-color-menu",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "sm",
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
               px: "lg",
@@ -51715,7 +51615,7 @@ var TagColorMenu = import_react76.default.forwardRef(
 );
 var tag_color_menu_default = TagColorMenu;
 
-// src/react/dashboard-app/tag-cell-edit/selectable-tag.tsx
+// src/react/loom-app/tag-cell-edit/selectable-tag.tsx
 function SelectableTag({
   id: id2,
   markdown,
@@ -51747,7 +51647,7 @@ function SelectableTag({
   }
   function handleClick(e) {
     const target = e.target;
-    if (target.classList.contains("Dashboards__menu-trigger"))
+    if (target.classList.contains("DataLoom__menu-trigger"))
       return;
     e.stopPropagation();
     onClick(id2);
@@ -51764,7 +51664,7 @@ function SelectableTag({
 					padding: var(--nlt-spacing--sm) var(--nlt-spacing--md);
 					overflow: hidden;
 				`,
-        className: "Dashboards__focusable Dashboards__selectable",
+        className: "DataLoom__focusable DataLoom__selectable",
         onClick: handleClick,
         onKeyDown: handleKeyDown,
         children: [
@@ -51795,7 +51695,7 @@ function SelectableTag({
   });
 }
 
-// src/react/dashboard-app/tag-cell-edit/menu-body.tsx
+// src/react/loom-app/tag-cell-edit/menu-body.tsx
 function MenuBody({
   columnTags,
   inputValue,
@@ -51846,7 +51746,7 @@ function MenuBody({
   });
 }
 
-// src/react/dashboard-app/tag-cell-edit/index.tsx
+// src/react/loom-app/tag-cell-edit/index.tsx
 function TagCellEdit({
   columnTags,
   cellTags,
@@ -51899,7 +51799,7 @@ function TagCellEdit({
     onMenuClose();
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "Dashboards__tag-cell-edit",
+    className: "DataLoom__tag-cell-edit",
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuHeader, {
         inputValue,
@@ -51920,10 +51820,10 @@ function TagCellEdit({
   });
 }
 
-// src/react/dashboard-app/date-cell-edit/index.tsx
+// src/react/loom-app/date-cell-edit/index.tsx
 var import_react81 = __toESM(require_react());
 
-// src/react/dashboard-app/date-cell-edit/date-format-menu.tsx
+// src/react/loom-app/date-cell-edit/date-format-menu.tsx
 var import_react80 = __toESM(require_react());
 var DateFormatMenu = import_react80.default.forwardRef(
   function DateFormatMenu2({ id: id2, top, left, isOpen, value, onChange }, ref) {
@@ -51935,7 +51835,7 @@ var DateFormatMenu = import_react80.default.forwardRef(
       left,
       width: 175,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "Dashboards__date-format-menu",
+        className: "DataLoom__date-format-menu",
         children: Object.values([
           "dd/mm/yyyy" /* DD_MM_YYYY */,
           "mm/dd/yyyy" /* MM_DD_YYYY */,
@@ -51953,7 +51853,7 @@ var DateFormatMenu = import_react80.default.forwardRef(
 );
 var date_format_menu_default = DateFormatMenu;
 
-// src/react/dashboard-app/date-cell-edit/index.tsx
+// src/react/loom-app/date-cell-edit/index.tsx
 function DateCellEdit({
   value,
   menuCloseRequest,
@@ -52031,15 +51931,14 @@ function DateCellEdit({
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
-        className: "Dashboards__date-cell-edit",
+        className: "DataLoom__date-cell-edit",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
               children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
                 tabIndex: 0,
                 type: "text",
-                className: "Dashboards__focusable",
+                className: "DataLoom__focusable",
                 css: import_emotion_react_cjs.css`
 								${borderInputStyle}
 								${isInputInvalid ? "&:focus-visible { outline: 2px solid var(--background-modifier-error) !important; }" : ""}
@@ -52078,11 +51977,11 @@ function DateCellEdit({
   });
 }
 
-// src/react/dashboard-app/multi-tag-cell/index.tsx
+// src/react/loom-app/multi-tag-cell/index.tsx
 function MultiTagCell({ cellTags, shouldWrapOverflow }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__multi-tag-cell",
+    className: "DataLoom__multi-tag-cell",
     css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Wrap, {
       children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
@@ -52093,7 +51992,7 @@ function MultiTagCell({ cellTags, shouldWrapOverflow }) {
   });
 }
 
-// src/react/dashboard-app/last-edited-time-cell/index.tsx
+// src/react/loom-app/last-edited-time-cell/index.tsx
 function LastEditedTimeCell({
   value,
   format,
@@ -52101,13 +52000,13 @@ function LastEditedTimeCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__last-edited-time-cell",
+    className: "DataLoom__last-edited-time-cell",
     css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/react/dashboard-app/creation-time-cell/index.tsx
+// src/react/loom-app/creation-time-cell/index.tsx
 function CreationTimeCell({
   value,
   format,
@@ -52115,13 +52014,13 @@ function CreationTimeCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__creation-time-cell",
+    className: "DataLoom__creation-time-cell",
     css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/react/dashboard-app/currency-cell/index.tsx
+// src/react/loom-app/currency-cell/index.tsx
 function CurrencyCell({
   value,
   currencyType,
@@ -52130,13 +52029,13 @@ function CurrencyCell({
   const content = getCurrencyCellContent(value, currencyType);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__currency-cell",
+    className: "DataLoom__currency-cell",
     css: overflowStyle,
     children: content
   });
 }
 
-// src/react/dashboard-app/currency-cell-edit/index.tsx
+// src/react/loom-app/currency-cell-edit/index.tsx
 var import_react83 = __toESM(require_react());
 function CurrencyCellEdit({
   value,
@@ -52171,7 +52070,7 @@ function CurrencyCellEdit({
     setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__currency-cell-edit",
+    className: "DataLoom__currency-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       autoFocus: true,
       css: numberInputStyle,
@@ -52181,7 +52080,7 @@ function CurrencyCellEdit({
       value: localValue,
       onChange: (e) => handleChange(e.target.value),
       onBlur: (e) => {
-        e.target.classList.add("Dashboards__blur--cell");
+        e.target.classList.add("DataLoom__blur--cell");
       }
     })
   });
@@ -52208,13 +52107,13 @@ var getFileCellContent = (markdown) => {
   }
 };
 
-// src/react/dashboard-app/file-cell/index.tsx
+// src/react/loom-app/file-cell/index.tsx
 function FileCell({ markdown, shouldWrapOverflow }) {
   const content = getFileCellContent(markdown);
   const { containerRef, renderRef } = useRenderMarkdown(content);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__file-cell",
+    className: "DataLoom__file-cell",
     css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
       css: import_emotion_react_cjs.css`
@@ -52231,7 +52130,7 @@ function FileCell({ markdown, shouldWrapOverflow }) {
   });
 }
 
-// src/react/dashboard-app/file-cell-edit/index.tsx
+// src/react/loom-app/file-cell-edit/index.tsx
 function FileCellEdit({ onChange, onMenuClose }) {
   function handleSuggestItemClick(file) {
     if (file) {
@@ -52256,7 +52155,7 @@ function FileCellEdit({ onChange, onMenuClose }) {
     onMenuClose();
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__file-cell-edit",
+    className: "DataLoom__file-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
       showInput: true,
       showClear: true,
@@ -52268,7 +52167,7 @@ function FileCellEdit({ onChange, onMenuClose }) {
   });
 }
 
-// src/react/dashboard-app/embed-cell/embed.tsx
+// src/react/loom-app/embed-cell/embed.tsx
 function Embed({
   isExternalLink,
   content,
@@ -52309,7 +52208,7 @@ function Embed({
   });
 }
 
-// src/react/dashboard-app/embed-cell/index.tsx
+// src/react/loom-app/embed-cell/index.tsx
 function EmbedCell({
   isExternalLink,
   markdown,
@@ -52322,7 +52221,7 @@ function EmbedCell({
     isExternalLink
   });
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__embed-cell",
+    className: "DataLoom__embed-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				height: 100%;
@@ -52338,10 +52237,10 @@ function EmbedCell({
   });
 }
 
-// src/react/dashboard-app/embed-cell-edit/index.tsx
+// src/react/loom-app/embed-cell-edit/index.tsx
 var import_react89 = __toESM(require_react());
 
-// src/react/dashboard-app/embed-cell-edit/external-embed-input.tsx
+// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
 var import_react87 = __toESM(require_react());
 function ExternalEmbedInput({ value, onChange }) {
   const inputRef = import_react87.default.useRef(null);
@@ -52349,7 +52248,7 @@ function ExternalEmbedInput({ value, onChange }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
     autoFocus: true,
     type: "text",
-    className: "Dashboards__focusable",
+    className: "DataLoom__focusable",
     css: import_emotion_react_cjs.css`
 				${borderInputStyle}
 			`,
@@ -52359,7 +52258,7 @@ function ExternalEmbedInput({ value, onChange }) {
   });
 }
 
-// src/react/dashboard-app/embed-cell-edit/internal-embed-suggest.tsx
+// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
 function InternalEmbedSuggest({ onChange }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
     showInput: true,
@@ -52371,7 +52270,7 @@ function InternalEmbedSuggest({ onChange }) {
   });
 }
 
-// src/react/dashboard-app/embed-cell-edit/index.tsx
+// src/react/loom-app/embed-cell-edit/index.tsx
 function EmbedCellEdit({
   menuCloseRequest,
   isExternalLink,
@@ -52408,9 +52307,8 @@ function EmbedCellEdit({
     onMenuClose();
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__embed-cell-edit",
+    className: "DataLoom__embed-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-      isVertical: true,
       width: "100%",
       spacing: "lg",
       children: [
@@ -52419,7 +52317,6 @@ function EmbedCellEdit({
           px: "md",
           pt: "md",
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-            isVertical: true,
             spacing: "sm",
             width: "100%",
             children: [
@@ -52429,7 +52326,7 @@ function EmbedCellEdit({
               }),
               /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
                 id: "external-switch",
-                isChecked: isExternalLink,
+                value: isExternalLink,
                 onToggle: onExternalLinkToggle
               })
             ]
@@ -52453,8 +52350,8 @@ function EmbedCellEdit({
   });
 }
 
-// src/react/dashboard-app/body-cell/index.tsx
-var import_obsidian9 = require("obsidian");
+// src/react/loom-app/body-cell/index.tsx
+var import_obsidian7 = require("obsidian");
 function BodyCell8({
   cellId,
   columnId,
@@ -52495,7 +52392,7 @@ function BodyCell8({
     return __async(this, null, function* () {
       try {
         yield navigator.clipboard.writeText(markdown);
-        new import_obsidian9.Notice("Copied text to clipboard");
+        new import_obsidian7.Notice("Copied text to clipboard");
       } catch (err) {
         console.log(err);
       }
@@ -52590,9 +52487,9 @@ function BodyCell8({
   } else if (columnType === "date" /* DATE */) {
     menuWidth = 175;
   }
-  let className = "Dashboards__body-td-container";
+  let className = "DataLoom__body-td-container";
   if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */) {
-    className += " Dashboards__default-cursor";
+    className += " DataLoom__default-cursor";
   }
   const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
@@ -52740,21 +52637,10 @@ function BodyCell8({
   });
 }
 
-// src/react/dashboard-app/new-row-button/index.tsx
-function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__new-row",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-      onClick: () => onClick(),
-      children: "New row"
-    })
-  });
-}
-
-// src/react/dashboard-app/new-column-button/index.tsx
+// src/react/loom-app/new-column-button/index.tsx
 function NewColumnButton({ onClick }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "Dashboards__new-column",
+    className: "DataLoom__new-column",
     css: import_emotion_react_cjs.css`
 				width: 50px;
 			`,
@@ -52768,7 +52654,7 @@ function NewColumnButton({ onClick }) {
   });
 }
 
-// src/react/dashboard-app/header-cell/index.tsx
+// src/react/loom-app/header-cell/index.tsx
 var import_react98 = __toESM(require_react());
 
 // src/react/shared/icon/utils.tsx
@@ -52800,10 +52686,10 @@ var getIconIdForCellType = (type) => {
   }
 };
 
-// src/react/dashboard-app/header-cell/use-column-resize.ts
+// src/react/loom-app/header-cell/use-column-resize.ts
 var import_react93 = __toESM(require_react());
 var useColumnResize = (columnId, onMove) => {
-  const { setResizingColumnId } = useDashboardState();
+  const { setResizingColumnId } = useLoomState();
   const mouseDownX = (0, import_react93.useRef)(0);
   function handleMouseMove(e) {
     const dist = e.pageX - mouseDownX.current;
@@ -52848,7 +52734,7 @@ var useColumnResize = (columnId, onMove) => {
   return { handleMouseDown, handleTouchStart };
 };
 
-// src/react/dashboard-app/header-cell/resize-container.tsx
+// src/react/loom-app/header-cell/resize-container.tsx
 var containerStyle = import_emotion_react_cjs.css`
 	position: relative;
 `;
@@ -52889,7 +52775,7 @@ function ResizeContainer({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     css: containerStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "Dashboards__resize-handle",
+      className: "DataLoom__resize-handle",
       css: [innerStyle, isDragging && dragStyle],
       onMouseDown: (e) => {
         onMenuClose();
@@ -52905,10 +52791,10 @@ function ResizeContainer({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/index.tsx
+// src/react/loom-app/header-cell-edit/index.tsx
 var import_react96 = __toESM(require_react());
 
-// src/react/dashboard-app/header-cell-edit/submenu.tsx
+// src/react/loom-app/header-cell-edit/submenu.tsx
 function Submenu({ title, children, onBackClick }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
@@ -52916,9 +52802,9 @@ function Submenu({ title, children, onBackClick }) {
         p: "md",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "md",
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
                   icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -52942,7 +52828,7 @@ function Submenu({ title, children, onBackClick }) {
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/option-submenu.tsx
+// src/react/loom-app/header-cell-edit/option-submenu.tsx
 function OptionSubmenu({
   type,
   currencyType,
@@ -52962,7 +52848,6 @@ function OptionSubmenu({
       pb: "lg",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
         spacing: "lg",
-        isVertical: true,
         children: [
           type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
             name: "Aspect Ratio",
@@ -52995,7 +52880,7 @@ function OptionSubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/type-submenu.tsx
+// src/react/loom-app/header-cell-edit/type-submenu.tsx
 function TypeSubmenu({
   title,
   value,
@@ -53014,7 +52899,7 @@ function TypeSubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/base-menu.tsx
+// src/react/loom-app/header-cell-edit/base-menu.tsx
 var import_react95 = __toESM(require_react());
 function BaseMenu({
   shouldWrapOverflow,
@@ -53042,11 +52927,9 @@ function BaseMenu({
   const hasOptions = columnType === "embed" /* EMBED */ || columnType === "date" /* DATE */ || columnType === "currency" /* CURRENCY */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "sm",
-    isVertical: true,
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
         spacing: "sm",
-        isVertical: true,
         width: "100%",
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
@@ -53055,7 +52938,7 @@ function BaseMenu({
             width: "100%",
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
               type: "text",
-              className: "Dashboards__focusable",
+              className: "DataLoom__focusable",
               autoFocus: true,
               css: borderInputStyle,
               ref: inputRef,
@@ -53119,7 +53002,7 @@ function BaseMenu({
                   value: "Wrap content"
                 }),
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-                  isChecked: shouldWrapOverflow,
+                  value: shouldWrapOverflow,
                   onToggle: (value) => onWrapOverflowToggle(columnId, value)
                 })
               ]
@@ -53131,7 +53014,7 @@ function BaseMenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/currency-submenu.tsx
+// src/react/loom-app/header-cell-edit/currency-submenu.tsx
 function CurrencySubmenu({
   title,
   value,
@@ -53149,7 +53032,7 @@ function CurrencySubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/date-format-submenu.tsx
+// src/react/loom-app/header-cell-edit/date-format-submenu.tsx
 function DateFormatSubmenu({
   title,
   value,
@@ -53167,7 +53050,7 @@ function DateFormatSubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/aspect-ratio-submenu.tsx
+// src/react/loom-app/header-cell-edit/aspect-ratio-submenu.tsx
 function AspectRatioSubmenu({
   title,
   value,
@@ -53185,7 +53068,7 @@ function AspectRatioSubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/padding-submenu.tsx
+// src/react/loom-app/header-cell-edit/padding-submenu.tsx
 function PaddingSubmenu({
   title,
   value,
@@ -53203,7 +53086,7 @@ function PaddingSubmenu({
   });
 }
 
-// src/react/dashboard-app/header-cell-edit/index.tsx
+// src/react/loom-app/header-cell-edit/index.tsx
 var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
   isOpen,
   id: id2,
@@ -53308,7 +53191,7 @@ var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
     ref,
     width: 175,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-      className: "Dashboards__header-menu",
+      className: "DataLoom__header-menu",
       css: import_emotion_react_cjs.css`
 					color: var(--text-normal);
 				`,
@@ -53382,7 +53265,7 @@ var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
 });
 var header_cell_edit_default = HeaderMenu;
 
-// src/react/dashboard-app/header-cell/index.tsx
+// src/react/loom-app/header-cell/index.tsx
 function HeaderCell3({
   cellId,
   rowId,
@@ -53431,9 +53314,9 @@ function HeaderCell3({
     closeTopMenu();
   }
   const lucideId = getIconIdForCellType(type);
-  let contentClassName = "Dashboards__th-content";
+  let contentClassName = "DataLoom__th-content";
   if (resizingColumnId == null)
-    contentClassName += " Dashboards__selectable";
+    contentClassName += " DataLoom__selectable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
@@ -53441,7 +53324,7 @@ function HeaderCell3({
         menu,
         shouldRun: resizingColumnId === null,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "Dashboards__th-container",
+          className: "DataLoom__th-container",
           ref: triggerRef,
           css: import_emotion_react_cjs.css`
 						display: flex;
@@ -53467,6 +53350,7 @@ function HeaderCell3({
               children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
                 spacing: "md",
                 align: "flex-start",
+                isHorizontal: true,
                 children: [
                   /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
                     lucideId,
@@ -53524,7 +53408,7 @@ function HeaderCell3({
   });
 }
 
-// src/shared/dashboard-state/filter-state-operations.ts
+// src/shared/loom-state/filter-state-operations.ts
 var addRule = (prevState, columnId) => {
   const { model } = prevState;
   return __spreadProps(__spreadValues({}, prevState), {
@@ -53562,7 +53446,7 @@ var updateRule = (prevState, id2, key, value) => {
   });
 };
 
-// src/shared/dashboard-state/use-filter-rules.ts
+// src/shared/loom-state/use-filter-rules.ts
 var useFilterRules = (onChange) => {
   const logger = useLogger();
   function handleRuleColumnChange(id2, columnId) {
@@ -53615,9 +53499,9 @@ var useFilterRules = (onChange) => {
   };
 };
 
-// src/shared/dashboard-state/filter-by-search.ts
-var filterBodyRowsBySearch = (dashboardState, filteredBodyRows, searchText) => {
-  const { columns, bodyCells, bodyRows } = dashboardState.model;
+// src/shared/loom-state/filter-by-search.ts
+var filterBodyRowsBySearch = (LoomState8, filteredBodyRows, searchText) => {
+  const { columns, bodyCells, bodyRows } = LoomState8.model;
   const columnMap = /* @__PURE__ */ new Map();
   columns.forEach((column) => columnMap.set(column.id, column));
   const rowMap = /* @__PURE__ */ new Map();
@@ -53710,11 +53594,11 @@ var matchLastEditedTimeCell = (lastEditedTime, dateFormat, searchText) => {
   return content.toLowerCase().includes(searchText);
 };
 
-// src/shared/dashboard-state/use-column.ts
+// src/shared/loom-state/use-column.ts
 var import_react100 = __toESM(require_react());
 
 // src/shared/commands/column-add-command.ts
-var ColumnAddCommand = class extends DashboardStateCommand {
+var ColumnAddCommand = class extends LoomStateCommand {
   execute(prevState) {
     super.onExecute();
     const {
@@ -53773,7 +53657,7 @@ var ColumnAddCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/column-delete-command.ts
-var ColumnDeleteCommand = class extends DashboardStateCommand {
+var ColumnDeleteCommand = class extends LoomStateCommand {
   constructor(options) {
     super();
     const { id: id2, last: last2 } = options;
@@ -53877,7 +53761,7 @@ var ColumnDeleteCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/column-update-command.ts
-var ColumnUpdateCommand = class extends DashboardStateCommand {
+var ColumnUpdateCommand = class extends LoomStateCommand {
   constructor(columnId, key, options) {
     const { shouldSortRows = false, value } = options || {};
     super(shouldSortRows);
@@ -53932,7 +53816,7 @@ var ColumnUpdateCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/column-type-update-command.ts
-var ColumnTypeUpdateCommand = class extends DashboardStateCommand {
+var ColumnTypeUpdateCommand = class extends LoomStateCommand {
   constructor(id2, type) {
     super();
     this.deletedFilterRules = [];
@@ -54298,10 +54182,10 @@ var ColumnTypeUpdateCommand = class extends DashboardStateCommand {
   }
 };
 
-// src/shared/dashboard-state/use-column.ts
+// src/shared/loom-state/use-column.ts
 var useColumn = () => {
   const logger = useLogger();
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   function handleNewColumnClick() {
     logger("handleNewColumnClick");
     doCommand(new ColumnAddCommand());
@@ -54471,7 +54355,7 @@ var useColumn = () => {
 };
 
 // src/shared/commands/row-add-command.ts
-var RowAddCommand = class extends DashboardStateCommand {
+var RowAddCommand = class extends LoomStateCommand {
   constructor() {
     super(true);
   }
@@ -54517,7 +54401,7 @@ var RowAddCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/row-delete-command.ts
-var RowDeleteCommand = class extends DashboardStateCommand {
+var RowDeleteCommand = class extends LoomStateCommand {
   constructor(options) {
     super();
     const { id: id2, last: last2 } = options;
@@ -54605,11 +54489,11 @@ var RowDeleteCommand = class extends DashboardStateCommand {
   }
 };
 
-// src/shared/dashboard-state/use-row.ts
+// src/shared/loom-state/use-row.ts
 var import_react101 = __toESM(require_react());
 var useRow = () => {
   const logger = useLogger();
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   const handleRowDeleteClick = import_react101.default.useCallback(
     (rowId) => {
       logger("handleRowDeleteClick", {
@@ -54629,7 +54513,7 @@ var useRow = () => {
   };
 };
 
-// src/shared/dashboard-state/row-state-operations.ts
+// src/shared/loom-state/row-state-operations.ts
 var rowLastEditedTime = (rows, rowId) => {
   const row = rows.find((row2) => row2.id === rowId);
   if (!row)
@@ -54648,7 +54532,7 @@ var rowLastEditedTimeUpdate = (rows, rowId, time = Date.now()) => {
 };
 
 // src/shared/commands/cell-body-update-command.ts
-var CellBodyUpdateCommand = class extends DashboardStateCommand {
+var CellBodyUpdateCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, key, value) {
     super(true);
     this.cellId = cellId;
@@ -54708,7 +54592,7 @@ var CellBodyUpdateCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/cell-header-update-command.ts
-var CellHeaderUpdateCommand = class extends DashboardStateCommand {
+var CellHeaderUpdateCommand = class extends LoomStateCommand {
   constructor(cellId, key, value) {
     super();
     this.cellId = cellId;
@@ -54759,11 +54643,11 @@ var CellHeaderUpdateCommand = class extends DashboardStateCommand {
   }
 };
 
-// src/shared/dashboard-state/use-cell.ts
+// src/shared/loom-state/use-cell.ts
 var import_react102 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   function handleExternalLinkToggle(cellId, rowId, value) {
     logger("handleExternalLinkToggle", {
       cellId,
@@ -54815,7 +54699,7 @@ var useCell = () => {
 };
 
 // src/shared/commands/tag-delete-command.ts
-var TagDeleteCommand = class extends DashboardStateCommand {
+var TagDeleteCommand = class extends LoomStateCommand {
   constructor(columnId, tagId) {
     super(true);
     this.previousCellTagIds = [];
@@ -54901,7 +54785,7 @@ var TagDeleteCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/tag-update-command.ts
-var TagUpdateCommand = class extends DashboardStateCommand {
+var TagUpdateCommand = class extends LoomStateCommand {
   constructor(columnId, tagId, key, value) {
     super(true);
     this.columnId = columnId;
@@ -54968,7 +54852,7 @@ var TagUpdateCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/tag-add-command.ts
-var TagAddCommand = class extends DashboardStateCommand {
+var TagAddCommand = class extends LoomStateCommand {
   constructor(cellId, columnId, rowId, markdown, color, isMultiTag) {
     super(true);
     this.cellId = cellId;
@@ -55089,7 +54973,7 @@ var TagAddCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/tag-cell-remove-command.ts
-var TagCellRemoveCommand = class extends DashboardStateCommand {
+var TagCellRemoveCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagId) {
     super(true);
     this.cellId = cellId;
@@ -55148,7 +55032,7 @@ var TagCellRemoveCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/tag-cell-add-command.ts
-var TagCellAddCommand = class extends DashboardStateCommand {
+var TagCellAddCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagId, isMultiTag) {
     super(true);
     this.cellId = cellId;
@@ -55212,7 +55096,7 @@ var TagCellAddCommand = class extends DashboardStateCommand {
 };
 
 // src/shared/commands/tag-cell-multiple-remove-command.ts
-var TagCellMultipleRemoveCommand = class extends DashboardStateCommand {
+var TagCellMultipleRemoveCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagIds) {
     super(true);
     this.cellId = cellId;
@@ -55269,9 +55153,9 @@ var TagCellMultipleRemoveCommand = class extends DashboardStateCommand {
   }
 };
 
-// src/shared/dashboard-state/use-tag.ts
+// src/shared/loom-state/use-tag.ts
 var useTag = () => {
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   const logFunc = useLogger();
   function handleTagAdd(cellId, columnId, rowId, markdown, color, isMultiTag) {
     logFunc("handleTagAdd", {
@@ -55342,6 +55226,9 @@ var useTag = () => {
     handleTagDeleteClick
   };
 };
+
+// src/react/loom-app/app.tsx
+var import_react109 = __toESM(require_react());
 
 // src/shared/menu/arrow-move-focus.ts
 var moveMenuFocusUp = (focusableEls, currentIndex) => {
@@ -55414,7 +55301,7 @@ var moveFocusDown = (focusableEls, numColumns, numBodyRows, numSortedColumns, cu
   return focusableEls[currentIndex + numColumns + 1];
 };
 
-// src/shared/dashboard-state/use-export-events.ts
+// src/shared/loom-state/use-export-events.ts
 var import_react103 = __toESM(require_react());
 
 // src/shared/event-system/utils.ts
@@ -55422,12 +55309,12 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
   const activeEl = document.activeElement;
   if (!activeEl)
     return false;
-  const appEl = activeEl.closest(".Dashboards__app");
+  const appEl = activeEl.closest(".DataLoom__app");
   if (appEl)
     return appEl.getAttribute("data-id") === appId;
   if (allowOutsideEvents)
     return true;
-  const menuEl = activeEl.closest(".Dashboards__menu");
+  const menuEl = activeEl.closest(".DataLoom__menu");
   if (menuEl) {
     const menuId = menuEl.getAttribute("data-id");
     const menuTrigger = document.querySelector(
@@ -55435,20 +55322,21 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
     );
     if (!menuTrigger)
       return false;
-    const appEl2 = menuTrigger.closest(".Dashboards__app");
+    const appEl2 = menuTrigger.closest(".DataLoom__app");
     if (appEl2)
       return appEl2.getAttribute("data-id") === appId;
   }
   return false;
 };
 
-// src/shared/dashboard-state/use-export-events.ts
+// src/shared/loom-state/use-export-events.ts
 var useExportEvents = (state) => {
-  const { filePath } = useMountState();
+  const { loomFile } = useMountState();
   const { appId } = useMountState();
   const { exportRenderMarkdown } = useAppSelector(
     (state2) => state2.global.settings
   );
+  const filePath = loomFile.path;
   import_react103.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(appId)) {
@@ -55483,11 +55371,11 @@ var useExportEvents = (state) => {
   }, [filePath, state, appId, exportRenderMarkdown]);
 };
 
-// src/shared/dashboard-state/use-row-events.ts
+// src/shared/loom-state/use-row-events.ts
 var import_react104 = __toESM(require_react());
 var useRowEvents = () => {
   const { appId } = useMountState();
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   import_react104.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(appId))
@@ -55506,11 +55394,11 @@ var useRowEvents = () => {
   }, [doCommand, appId]);
 };
 
-// src/shared/dashboard-state/use-column-events.ts
+// src/shared/loom-state/use-column-events.ts
 var import_react105 = __toESM(require_react());
 var useColumnEvents = () => {
   const { appId } = useMountState();
-  const { doCommand } = useDashboardState();
+  const { doCommand } = useLoomState();
   const logger = useLogger();
   import_react105.default.useEffect(() => {
     function handleColumnAddEvent() {
@@ -55534,20 +55422,112 @@ var useColumnEvents = () => {
   }, [doCommand, logger, appId]);
 };
 
-// src/react/dashboard-app/app.tsx
-function App3() {
+// src/react/loom-app/new-row-button/index.tsx
+function NewRowButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+    icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+      lucideId: "plus"
+    }),
+    ariaLabel: "New row",
+    onClick: () => onClick(),
+    children: "New"
+  });
+}
+
+// src/react/loom-app/bottom-bar/index.tsx
+var import_react107 = __toESM(require_react());
+function BottomBar({
+  appId,
+  onNewRowClick,
+  onScrollToTopClick,
+  onScrollToBottomClick
+}) {
+  const ref = import_react107.default.useRef(null);
+  const [spaceBetweenTableAndContainer, setSpaceBetweenTableAndContainer] = import_react107.default.useState(0);
+  import_react107.default.useEffect(() => {
+    let observer = null;
+    if (!ref.current)
+      return;
+    const tableEl = document.querySelector(`[data-id="${appId}"] table`);
+    if (!tableEl)
+      return;
+    const tableContainerEl = tableEl.parentElement;
+    if (!tableContainerEl)
+      return;
+    observer = new ResizeObserver(() => {
+      const containerRect = tableContainerEl.getBoundingClientRect();
+      const tableRect = tableEl.getBoundingClientRect();
+      let diff = containerRect.height - tableRect.height;
+      if (diff < 0)
+        diff = 0;
+      setSpaceBetweenTableAndContainer(diff);
+    });
+    observer.observe(tableEl);
+    return () => {
+      if (tableEl)
+        observer == null ? void 0 : observer.unobserve(tableEl);
+    };
+  }, [ref]);
+  const { isMarkdownView } = useMountState();
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__bottom-bar",
+    css: import_emotion_react_cjs.css`
+				position: relative;
+				height: 60px;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      ref,
+      css: import_emotion_react_cjs.css`
+					position: absolute;
+					top: -${numToPx(spaceBetweenTableAndContainer)};
+					width: 100%;
+				`,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: isMarkdownView ? "unset" : "lg",
+        py: "md",
+        width: "100%",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
+          justify: "space-between",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
+              onClick: onNewRowClick
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
+              spacing: "sm",
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  onClick: onScrollToTopClick,
+                  children: "Top"
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  onClick: onScrollToBottomClick,
+                  children: "Bottom"
+                })
+              ]
+            })
+          ]
+        })
+      })
+    })
+  });
+}
+
+// src/react/loom-app/app.tsx
+function App2() {
   const { appId, isMarkdownView } = useMountState();
   const { topMenu, hasOpenMenu, requestCloseTopMenu } = useMenuState();
   const logger = useLogger();
   const {
-    dashboardState,
+    LoomState: LoomState8,
     resizingColumnId,
     searchText,
     commandRedo,
     commandUndo,
-    setDashboardState
-  } = useDashboardState();
-  useExportEvents(dashboardState);
+    setLoomState
+  } = useLoomState();
+  const tableRef = import_react109.default.useRef(null);
+  useExportEvents(LoomState8);
   useRowEvents();
   useColumnEvents();
   const {
@@ -55559,7 +55539,7 @@ function App3() {
     handleRuleToggle,
     handleRuleTagsChange,
     filterBodyRowsByRules: filterBodyRowsByRules2
-  } = useFilterRules(setDashboardState);
+  } = useFilterRules(setLoomState);
   const {
     handleNewColumnClick,
     handleColumnToggle,
@@ -55595,7 +55575,7 @@ function App3() {
   const firstColumnId = useUUID();
   const lastColumnId = useUUID();
   function handleClick(e) {
-    logger("TableApp handleClick");
+    logger("LoomApp handleClick");
     e.stopPropagation();
     if (hasOpenMenu()) {
       requestCloseTopMenu("click");
@@ -55604,7 +55584,7 @@ function App3() {
     }
   }
   function handleKeyDown(e) {
-    logger("TableApp handleKeyDown");
+    logger("LoomApp handleKeyDown");
     e.stopPropagation();
     if (e.key === "Tab") {
       removeFocusVisibleClass();
@@ -55613,7 +55593,7 @@ function App3() {
       if (!layerEl)
         return;
       const focusableEls = layerEl.querySelectorAll(
-        ".Dashboards__focusable"
+        ".DataLoom__focusable"
       );
       if (focusableEls.length === 0)
         return;
@@ -55629,7 +55609,7 @@ function App3() {
       if (!layerEl)
         return;
       const focusableEls = layerEl.querySelectorAll(
-        ".Dashboards__focusable"
+        ".DataLoom__focusable"
       );
       if (focusableEls.length === 0)
         return;
@@ -55638,11 +55618,11 @@ function App3() {
       let index = -1;
       if (focusedEl)
         index = Array.from(focusableEls).indexOf(focusedEl);
-      const numVisibleColumns = dashboardState.model.columns.filter(
+      const numVisibleColumns = LoomState8.model.columns.filter(
         (column) => column.isVisible
       ).length;
-      const numBodyRows = dashboardState.model.bodyRows.length;
-      const numSortedColumns = dashboardState.model.columns.filter(
+      const numBodyRows = LoomState8.model.bodyRows.length;
+      const numSortedColumns = LoomState8.model.columns.filter(
         (column) => column.sortDir !== "default" /* NONE */
       ).length;
       let elementToFocus = null;
@@ -55687,6 +55667,14 @@ function App3() {
     }
     nltEventSystem.dispatchEvent("keydown", e);
   }
+  function handleScrollToTopClick() {
+    var _a;
+    (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(0);
+  }
+  function handleScrollToBottomClick() {
+    var _a;
+    (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(filteredBodyRows.length - 1);
+  }
   const {
     headerRows,
     footerRows,
@@ -55695,23 +55683,22 @@ function App3() {
     bodyCells,
     footerCells,
     filterRules
-  } = dashboardState.model;
-  let filteredBodyRows = filterBodyRowsByRules2(dashboardState);
+  } = LoomState8.model;
+  let filteredBodyRows = filterBodyRowsByRules2(LoomState8);
   filteredBodyRows = filterBodyRowsBySearch(
-    dashboardState,
+    LoomState8,
     filteredBodyRows,
     searchText
   );
   const visibleColumns = columns.filter((column) => column.isVisible);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     "data-id": appId,
-    className: "Dashboards__app",
+    className: "DataLoom__app",
     css: import_emotion_react_cjs.css`
 				display: flex;
 				flex-direction: column;
 				width: 100%;
 				height: 100%;
-				padding: 10px 0px;
 				border-top: 1px solid var(--background-modifier-border);
 				border-bottom: ${isMarkdownView ? "1px solid var(--background-modifier-border)" : "unset"};
 			`,
@@ -55732,7 +55719,8 @@ function App3() {
         onRuleToggle: handleRuleToggle,
         onRuleTagsChange: handleRuleTagsChange
       }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Table2, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(table_default, {
+        ref: tableRef,
         headerRows: headerRows.map((row) => {
           return {
             id: row.id,
@@ -55928,7 +55916,7 @@ function App3() {
                   return {
                     id: cell.id,
                     content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-                      className: "Dashboards__footer-td-container",
+                      className: "DataLoom__footer-td-container",
                       css: import_emotion_react_cjs.css`
 													width: ${width};
 												`,
@@ -55956,71 +55944,43 @@ function App3() {
           }
           return {
             id: row.id,
-            cells: [
-              {
-                id: firstColumnId,
-                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-              },
-              ...visibleColumns.map((column, i3) => {
-                const cell = footerCells.find(
-                  (cell2) => cell2.rowId === row.id && cell2.columnId === column.id
-                );
-                if (!cell)
-                  throw new CellNotFoundError({
-                    rowId: row.id,
-                    columnId: column.id
-                  });
-                if (i3 === 0) {
-                  return {
-                    id: cell.id,
-                    content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-                      style: { width: column.width },
-                      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
-                        onClick: handleNewRowClick
-                      })
-                    })
-                  };
-                }
-                return {
-                  id: cell.id,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-                };
-              }),
-              {
-                id: lastColumnId,
-                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-              }
-            ]
+            cells: []
           };
         })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BottomBar, {
+        appId,
+        onNewRowClick: handleNewRowClick,
+        onScrollToTopClick: handleScrollToTopClick,
+        onScrollToBottomClick: handleScrollToBottomClick
       })
     ]
   });
 }
 
-// src/react/dashboard-app/index.tsx
-function DashboardApp({
+// src/react/loom-app/index.tsx
+function LoomApp({
   appId,
-  leaf,
+  mountLeaf,
   isMarkdownView,
   store: store2,
-  filePath,
-  dashboardState,
+  loomFile,
+  LoomState: LoomState8,
   onSaveState
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountProvider, {
-    leaf,
+    mountLeaf,
     appId,
     isMarkdownView,
-    filePath,
+    loomFile,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
       store: store2,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DashboardStateProvider, {
-        initialState: dashboardState,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateProvider, {
+        initialState: LoomState8,
         onSaveState,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
-            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(App3, {})
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(App2, {})
           })
         })
       })
@@ -56028,25 +55988,25 @@ function DashboardApp({
   });
 }
 
-// src/obsidian/dashboards-view.tsx
+// src/obsidian/dataloom-view.tsx
 if (false) {
 }
-var DASHBOARDS_VIEW = "dashboards";
-var DashboardsView = class extends import_obsidian10.TextFileView {
+var DATA_LOOM_VIEW = "dataloom";
+var DataLoomView = class extends import_obsidian8.TextFileView {
   constructor(leaf) {
     super(leaf);
     this.handleRefreshEvent = (filePath, sourceAppId, state) => {
       if (this.appId !== sourceAppId && filePath === this.file.path) {
-        const serialized = serializeDashboardState(state);
+        const serialized = serializeLoomState(state);
         this.setViewData(serialized, true);
       }
     };
-    this.handleSaveDashboardState = (appId, state) => {
-      const serialized = serializeDashboardState(state);
+    this.handleSaveLoomState = (appId, state) => {
+      const serialized = serializeLoomState(state);
       this.data = serialized;
       this.requestSave();
       this.app.workspace.trigger(
-        EVENT_REFRESH_DASHBOARDS,
+        EVENT_REFRESH_APP,
         this.file.path,
         appId,
         state
@@ -56063,23 +56023,17 @@ var DashboardsView = class extends import_obsidian10.TextFileView {
       this.root = (0, import_client2.createRoot)(container);
       this.addAction("settings", "Settings", () => {
         this.app.setting.open();
-        this.app.setting.openTabById(DASHBOARDS_PLUGIN_ID);
-      });
-      this.addAction("download", "Export", () => {
-        new ExportModal(this.app, this.file.path).open();
+        this.app.setting.openTabById(DATA_LOOM_PLUGIN_ID);
       });
       this.app.workspace.on(
-        EVENT_REFRESH_DASHBOARDS,
+        EVENT_REFRESH_APP,
         this.handleRefreshEvent
       );
     });
   }
   onClose() {
     return __async(this, null, function* () {
-      this.app.workspace.off(
-        EVENT_REFRESH_DASHBOARDS,
-        this.handleRefreshEvent
-      );
+      this.app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
       if (this.root) {
         this.root.unmount();
         this.root = null;
@@ -56088,7 +56042,7 @@ var DashboardsView = class extends import_obsidian10.TextFileView {
   }
   setViewData(data, clear) {
     this.data = data;
-    const state = deserializeDashboardState(data);
+    const state = deserializeLoomState(data);
     if (clear) {
       setTimeout(() => {
         if (this.root) {
@@ -56109,7 +56063,7 @@ var DashboardsView = class extends import_obsidian10.TextFileView {
     return this.data;
   }
   getViewType() {
-    return DASHBOARDS_VIEW;
+    return DATA_LOOM_VIEW;
   }
   getDisplayText() {
     var _a;
@@ -56123,22 +56077,22 @@ var DashboardsView = class extends import_obsidian10.TextFileView {
   renderApp(appId, state) {
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DashboardApp, {
-          leaf: this.leaf,
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
+          mountLeaf: this.leaf,
           appId,
-          filePath: this.file.path,
+          loomFile: this.file,
           isMarkdownView: false,
           store,
-          dashboardState: state,
-          onSaveState: this.handleSaveDashboardState
+          LoomState: state,
+          onSaveState: this.handleSaveLoomState
         })
       );
     }
   }
 };
 
-// src/data/dashboard-file.ts
-var import_obsidian11 = require("obsidian");
+// src/data/loom-file.ts
+var import_obsidian9 = require("obsidian");
 
 // src/data/utils.ts
 var splitFileExtension = (filePath) => {
@@ -56189,9 +56143,9 @@ var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, func
   }
 });
 
-// src/data/dashboard-file.ts
+// src/data/loom-file.ts
 var getFileName = () => {
-  const fileName = DEFAULT_TABLE_NAME;
+  const fileName = DEFAULT_LOOM_NAME;
   return `${fileName}.${CURRENT_FILE_EXTENSION}`;
 };
 var getFilePath = (folderPath, fileName) => {
@@ -56199,68 +56153,65 @@ var getFilePath = (folderPath, fileName) => {
     return fileName;
   return folderPath + "/" + fileName;
 };
-var createDashboardFile = (options) => __async(void 0, null, function* () {
+var createLoomFile = (options) => __async(void 0, null, function* () {
   try {
     if (options.folderPath !== "") {
       if (app.vault.getAbstractFileByPath(options.folderPath) == null)
         yield createFolder(options.folderPath);
     }
     const fileName = getFileName();
-    const dashboardState = createDashboardState(1, 1);
-    const serialized = serializeDashboardState(dashboardState);
+    const LoomState8 = createLoomState(1, 1);
+    const serialized = serializeLoomState(LoomState8);
     const filePath = getFilePath(options.folderPath, fileName);
     return yield createFile(filePath, serialized);
   } catch (err) {
-    new import_obsidian11.Notice("Could not create dashboard");
+    new import_obsidian9.Notice("Could not create loom file");
     throw err;
   }
 });
 
 // src/obsidian/editing-view-plugin.tsx
 var import_view = require("@codemirror/view");
-var import_obsidian12 = require("obsidian");
 var import_client3 = __toESM(require_client());
 var import_lodash = __toESM(require_lodash());
 
 // src/obsidian/utils.ts
-var getEmbeddedDashboardLinkEls = (el) => {
+var getEmbeddedLoomLinkEls = (el) => {
   const embeddedLinkEls = el.querySelectorAll(".internal-embed");
-  const dashboardLinkEls = [];
+  const loomLinkEls = [];
   for (let i2 = 0; i2 < embeddedLinkEls.length; i2++) {
     const linkEl = embeddedLinkEls[i2];
     const src = linkEl.getAttribute("src");
     if (src == null ? void 0 : src.endsWith(CURRENT_FILE_EXTENSION))
-      dashboardLinkEls.push(linkEl);
+      loomLinkEls.push(linkEl);
   }
-  return dashboardLinkEls;
+  return loomLinkEls;
 };
-var removeEmbeddedLinkChildren = (embeddedLinkEl) => {
-  if (embeddedLinkEl.children.length > 0) {
-    const firstChildEl = embeddedLinkEl.children[0];
-    if (firstChildEl.classList.contains("Dashboards__embedded-container"))
-      return;
-    for (let i2 = 0; i2 < embeddedLinkEl.children.length; i2++) {
-      embeddedLinkEl.removeChild(embeddedLinkEl.children[i2]);
-    }
+var hasLoadedEmbeddedLoom = (linkEl) => {
+  if (linkEl.children.length > 0) {
+    const firstChildEl = linkEl.children[0];
+    if (firstChildEl.classList.contains("DataLoom__embedded-container"))
+      return true;
   }
+  return false;
 };
-var findEmbeddedTableFile = (embeddedLinkEl) => {
+var findEmbeddedLoomFile = (linkEl) => {
   var _a;
-  const src = embeddedLinkEl.getAttribute("src");
-  const dashboardFile = app.vault.getFiles().find((file) => file.path === src);
-  if (dashboardFile === void 0)
+  const src = linkEl.getAttribute("src");
+  const loomFile = app.vault.getFiles().find((file) => file.path === src);
+  if (loomFile === void 0)
     return (_a = app.vault.getFiles().find((file) => file.name === src)) != null ? _a : null;
-  return dashboardFile != null ? dashboardFile : null;
+  return loomFile != null ? loomFile : null;
 };
-var getEmbeddedDashboardWidth = (embeddedLinkEl, defaultWidth) => {
-  const width = embeddedLinkEl.getAttribute("width");
-  if (width === null || width === "1")
+var getEmbeddedLoomWidth = (linkEl, defaultWidth) => {
+  const width = linkEl.getAttribute("width");
+  if (width === null || width === "0")
     return defaultWidth;
   return numToPx(width);
 };
-var getEmbeddedDashboardHeight = (embeddedLinkEl, defaultHeight) => {
-  const height = embeddedLinkEl.getAttribute("height");
-  if (height === null || height === "1")
+var getEmbeddedLoomHeight = (linkEl, defaultHeight) => {
+  const height = linkEl.getAttribute("height");
+  if (height === null || height === "0")
     return defaultHeight;
   return numToPx(height);
 };
@@ -56269,10 +56220,10 @@ var getEmbeddedDashboardHeight = (embeddedLinkEl, defaultHeight) => {
 if (false) {
 }
 var EditingViewPlugin = class {
-  constructor() {
-    this.handleRefreshEvent = (filePath, sourceAppId, state) => {
-      const app2 = this.dashboardApps.find(
-        (app3) => app3.id !== sourceAppId && app3.file.path === filePath
+  constructor(view) {
+    this.handleRefreshEvent = (sourceFilePath, sourceAppId, state) => {
+      const app2 = this.loomApps.find(
+        (app3) => app3.id !== sourceAppId && app3.file.path === sourceFilePath
       );
       if (!app2)
         return;
@@ -56286,109 +56237,384 @@ var EditingViewPlugin = class {
         this.renderApp(id2, leaf, file, app2.root, state);
       }, 0);
     };
-    this.dashboardApps = [];
+    this.editorView = view;
+    this.loomApps = [];
     this.setupEventListeners();
   }
   update() {
-    const activeView = app.workspace.getActiveViewOfType(import_obsidian12.MarkdownView);
-    if (!activeView)
+    const markdownLeaves = app.workspace.getLeavesOfType("markdown");
+    const activeLeaf = markdownLeaves.find(
+      (leaf) => leaf.view.editor.cm === this.editorView
+    );
+    if (!activeLeaf)
       return;
-    const embeddedTableLinkEls = getEmbeddedDashboardLinkEls(
+    const activeView = activeLeaf.view;
+    const embeddedLoomLinkEls = getEmbeddedLoomLinkEls(
       activeView.containerEl
     );
-    for (let i2 = 0; i2 < embeddedTableLinkEls.length; i2++) {
-      const linkEl = embeddedTableLinkEls[i2];
-      removeEmbeddedLinkChildren(linkEl);
-      const file = findEmbeddedTableFile(linkEl);
-      if (!file)
-        continue;
+    for (let i2 = 0; i2 < embeddedLoomLinkEls.length; i2++) {
+      const linkEl = embeddedLoomLinkEls[i2];
       const { defaultEmbedWidth, defaultEmbedHeight } = store.getState().global.settings;
-      const width = getEmbeddedDashboardWidth(linkEl, defaultEmbedWidth);
-      const height = getEmbeddedDashboardHeight(
-        linkEl,
-        defaultEmbedHeight
-      );
+      const width = getEmbeddedLoomWidth(linkEl, defaultEmbedWidth);
+      const height = getEmbeddedLoomHeight(linkEl, defaultEmbedHeight);
       linkEl.style.width = width;
       linkEl.style.height = height;
-      if (this.dashboardApps.find((app2) => app2.file.path === file.path))
+      if (hasLoadedEmbeddedLoom(linkEl))
         continue;
+      linkEl.empty();
+      const file = findEmbeddedLoomFile(linkEl);
+      if (!file)
+        continue;
+      this.loomApps = this.loomApps.filter(
+        (app2) => app2.file.path !== file.path
+      );
       linkEl.style.backgroundColor = "var(--color-primary)";
       linkEl.style.cursor = "unset";
       linkEl.style.margin = "0px";
       linkEl.style.padding = "0px";
-      const dashboardContainerEl = linkEl.createDiv();
-      dashboardContainerEl.className = "Dashboards__embedded-container";
-      dashboardContainerEl.style.height = "100%";
-      dashboardContainerEl.style.width = "100%";
+      const loomContainerEl = linkEl.createDiv();
+      loomContainerEl.className = "DataLoom__embedded-container";
+      loomContainerEl.style.height = "100%";
+      loomContainerEl.style.width = "100%";
+      loomContainerEl.style.padding = "10px 0px";
       const appId = v4_default();
-      this.dashboardApps.push({
+      this.loomApps.push({
         id: appId,
         leaf: activeView.leaf,
-        parentEl: dashboardContainerEl,
+        parentEl: loomContainerEl,
         file
       });
-      this.setupTable(activeView, dashboardContainerEl, file, appId);
+      this.setupLoom(activeView, loomContainerEl, file, appId);
     }
   }
-  setupTable(activeView, dashboardContainerEl, file, appId) {
+  setupLoom(activeView, loomContainerEl, file, appId) {
     return __async(this, null, function* () {
-      dashboardContainerEl.addEventListener("click", (e) => {
+      loomContainerEl.addEventListener("click", (e) => {
         e.stopPropagation();
       });
       const data = yield app.vault.read(file);
-      const dashboardState = deserializeDashboardState(data);
-      const dashboard = this.dashboardApps.find((app2) => app2.id === appId);
-      if (!dashboard)
+      const LoomState8 = deserializeLoomState(data);
+      const loom = this.loomApps.find((app2) => app2.id === appId);
+      if (!loom)
         return;
-      dashboard.root = (0, import_client3.createRoot)(dashboardContainerEl);
-      this.renderApp(
-        appId,
-        activeView.leaf,
-        file,
-        dashboard.root,
-        dashboardState
-      );
+      loom.root = (0, import_client3.createRoot)(loomContainerEl);
+      this.renderApp(appId, activeView.leaf, file, loom.root, LoomState8);
     });
   }
-  handleSave(dashboardFile, appId, state) {
+  handleSave(loomFile, appId, state) {
     return __async(this, null, function* () {
-      const serialized = serializeDashboardState(state);
-      yield app.vault.modify(dashboardFile, serialized);
-      app.workspace.trigger(
-        EVENT_REFRESH_DASHBOARDS,
-        dashboardFile.path,
-        appId,
-        state
-      );
+      const serialized = serializeLoomState(state);
+      yield app.vault.modify(loomFile, serialized);
+      app.workspace.trigger(EVENT_REFRESH_APP, loomFile.path, appId, state);
     });
   }
-  renderApp(id2, leaf, dashboardFile, root, dashboardState) {
+  renderApp(id2, leaf, loomFile, root, LoomState8) {
     const throttleHandleSave = import_lodash.default.throttle(this.handleSave, 2e3);
     root.render(
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DashboardApp, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
         appId: id2,
         isMarkdownView: true,
-        filePath: dashboardFile.path,
-        leaf,
+        loomFile,
+        mountLeaf: leaf,
         store,
-        dashboardState,
-        onSaveState: (appId, state) => throttleHandleSave(dashboardFile, appId, state)
+        LoomState: LoomState8,
+        onSaveState: (appId, state) => throttleHandleSave(loomFile, appId, state)
       })
     );
   }
   setupEventListeners() {
-    app.workspace.on(EVENT_REFRESH_DASHBOARDS, this.handleRefreshEvent);
+    app.workspace.on(EVENT_REFRESH_APP, this.handleRefreshEvent);
+    app.workspace.on(EVENT_REFRESH_EDITING_VIEW, this.update);
   }
   destroy() {
-    this.dashboardApps.forEach((app2) => {
+    this.loomApps.forEach((app2) => {
       var _a;
       return (_a = app2.root) == null ? void 0 : _a.unmount();
     });
-    this.dashboardApps = [];
-    app.workspace.off(EVENT_REFRESH_DASHBOARDS, this.handleRefreshEvent);
+    this.loomApps = [];
+    app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
+    app.workspace.off(EVENT_REFRESH_EDITING_VIEW, this.update);
   }
 };
 var editingViewPlugin = import_view.ViewPlugin.fromClass(EditingViewPlugin);
+
+// src/obsidian/welcome-modal.tsx
+var import_obsidian10 = require("obsidian");
+var WelcomeModal = class extends import_obsidian10.Modal {
+  constructor(app2) {
+    super(app2);
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h2", { text: "Welcome to DataLoom" });
+    contentEl.createDiv({
+      text: "Weave together data from diverse sources into a cohesive table view."
+    });
+    this.renderDivider(contentEl);
+    const titleEl = contentEl.createEl("h5", { text: "Learn how to use" });
+    titleEl.style.marginTop = "0em";
+    titleEl.style.marginBottom = "1em";
+    const cardContainerEl = contentEl.createDiv();
+    cardContainerEl.style.display = "flex";
+    cardContainerEl.style.flexDirection = "column";
+    cardContainerEl.style.rowGap = "1rem";
+    this.renderCard(
+      cardContainerEl,
+      "Quick start",
+      "Learn the basics of creating a loom",
+      "https://dataloom.xyz/getting-started/quick-start",
+      "table"
+    );
+    this.renderCard(
+      cardContainerEl,
+      "Embedded looms",
+      "Learn how to embed a loom into a markdown note",
+      "https://dataloom.xyz/other/embedding-looms",
+      "sticky-note"
+    );
+    this.renderCard(
+      cardContainerEl,
+      "Keyboard focus system",
+      "Learn how to navigate looms with your keyboard",
+      "https://dataloom.xyz/other/keyboard-focus-system",
+      "list-plus"
+    );
+  }
+  renderDivider(contentEl) {
+    const dividerEl = contentEl.createDiv();
+    dividerEl.style.margin = "1.5em 0";
+    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
+  }
+  renderCard(contentEl, title, description, link, iconId) {
+    const cardEl = contentEl.createDiv();
+    cardEl.style.display = "flex";
+    cardEl.style.padding = "1em 1.5em";
+    cardEl.style.columnGap = "1.5em";
+    cardEl.style.alignItems = "center";
+    cardEl.style.border = "1px solid var(--background-modifier-border)";
+    const iconEl = cardEl.createDiv();
+    (0, import_obsidian10.setIcon)(iconEl, iconId);
+    iconEl.firstChild.style.width = "1.5em";
+    iconEl.firstChild.style.height = "1.5em";
+    const cardContainerEl = cardEl.createDiv();
+    const titleEl = cardContainerEl.createEl("h6", { text: title });
+    titleEl.style.margin = "0";
+    const descriptionEl = cardContainerEl.createEl("p", {
+      text: description
+    });
+    descriptionEl.style.marginTop = "0.25em";
+    descriptionEl.style.marginBottom = "0.5em";
+    cardContainerEl.createEl("a", { text: "Get started", href: link });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/obsidian/whats-new-modal.tsx
+var import_obsidian12 = require("obsidian");
+
+// src/data/network.ts
+var import_obsidian11 = require("obsidian");
+var getLastestGithubRelease = () => __async(void 0, null, function* () {
+  try {
+    const response = yield (0, import_obsidian11.requestUrl)({
+      url: "https://api.github.com/repos/trey-wallis/obsidian-dataloom/releases/latest",
+      method: "GET"
+    });
+    const body = response.json;
+    return body;
+  } catch (err) {
+    console.error(err);
+    new import_obsidian11.Notice("Error fetching latest release");
+    return null;
+  }
+});
+
+// src/obsidian/whats-new-modal.tsx
+var WhatsNewModal = class extends import_obsidian12.Modal {
+  constructor(app2) {
+    super(app2);
+  }
+  onOpen() {
+    return __async(this, null, function* () {
+      let { contentEl } = this;
+      contentEl.createEl("h2", { text: "DataLoom - What's New" });
+      this.renderDivider(contentEl);
+      this.renderContent(contentEl);
+    });
+  }
+  renderContent(contentEl) {
+    return __async(this, null, function* () {
+      const data = yield getLastestGithubRelease();
+      const { body, published_at, tag_name } = data;
+      if (data) {
+        const tagEl = contentEl.createEl("h5", {
+          text: `v${tag_name}`
+        });
+        tagEl.style.marginTop = "0.5em";
+        tagEl.style.marginBottom = "0";
+        const date = new Date(published_at);
+        tagEl.innerHTML += ` <span style="font-size: 0.75em; color: var(--text-muted);">(${date.toLocaleDateString()})</span>`;
+        const bodyEl = contentEl.createDiv();
+        const replacedText = this.replaceIssueNumbersWithLinks(body);
+        import_obsidian12.MarkdownRenderer.renderMarkdown(
+          replacedText,
+          bodyEl,
+          "",
+          new import_obsidian12.Component()
+        );
+        bodyEl.querySelectorAll("a").forEach((a2) => {
+          const issueNumber = this.extractIssueNumberFromURL(a2.getText());
+          if (issueNumber) {
+            a2.setText(issueNumber);
+          }
+        });
+        contentEl.createEl("a", {
+          text: "View all releases",
+          href: "https://github.com/trey-wallis/obsidian-dataloom/releases"
+        });
+      } else {
+        contentEl.createDiv({
+          text: "Couldn't fetch latest release from GitHub."
+        });
+      }
+    });
+  }
+  renderDivider(contentEl) {
+    const dividerEl = contentEl.createDiv();
+    dividerEl.style.margin = "1.5em 0";
+    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
+  }
+  replaceIssueNumbersWithLinks(text) {
+    const regex = /#(\d+)/g;
+    const replacedText = text.replace(
+      regex,
+      "https://github.com/trey-wallis/obsidian-dataloom/issues/$1"
+    );
+    return replacedText;
+  }
+  extractIssueNumberFromURL(text) {
+    const regex = /\/(\d+)$/;
+    const matches = text.match(regex);
+    if (matches && matches.length > 1) {
+      return "#" + matches[1];
+    }
+    return null;
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/obsidian/dataloom-settings-tab.ts
+var import_obsidian13 = require("obsidian");
+var import_obsidian14 = require("obsidian");
+var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
+  constructor(app2, plugin) {
+    super(app2, plugin);
+    this.plugin = plugin;
+  }
+  renderFileSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("File").setHeading();
+    const attachmentsFolderDesc = new DocumentFragment();
+    attachmentsFolderDesc.createSpan({}, (span) => {
+      span.innerHTML = `Create looms in the attachments folder defined in the Obsidian settings.<br><br>This can be changed in <span style="color: var(--text-accent);">Files & Links -> Default location for new attachments</span><br><br>Otherwise, the folder location below will be used.`;
+    });
+    new import_obsidian14.Setting(containerEl).setName("Create new looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
+      cb.setValue(
+        this.plugin.settings.createAtObsidianAttachmentFolder
+      ).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.createAtObsidianAttachmentFolder = value;
+        yield this.plugin.saveSettings();
+        this.display();
+      }));
+    });
+    const defaultLocationDesc = new DocumentFragment();
+    defaultLocationDesc.createSpan({}, (span) => {
+      span.innerHTML = `Where newly created looms are placed. Please don't include a slash at the beginning or end of the value.<br>e.g. <strong>myfolder/subdirectory</strong><br><br>Default location is the vault root folder, if not specified.`;
+    });
+    if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
+      new import_obsidian14.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
+        cb.setValue(
+          this.plugin.settings.customFolderForNewFiles
+        ).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.customFolderForNewFiles = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }
+  }
+  renderExportSettings(containerEl) {
+    const exportRenderMarkdownDesc = new DocumentFragment();
+    exportRenderMarkdownDesc.createSpan({}, (span) => {
+      span.innerHTML = "If enabled, content will be exported as markdown. For example, if enabled, a checkbox cell's content will be exported as <strong>[ ]</strong> or <strong>[x]</strong>. If disabled, the content will be exported as <strong>true</strong> or <strong>false</strong>.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Export").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("Export content as markdown").setDesc(exportRenderMarkdownDesc).addToggle((cb) => {
+      cb.setValue(this.plugin.settings.exportRenderMarkdown).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.exportRenderMarkdown = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+  }
+  renderEmbeddedLoomSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("Embedded Looms").setHeading();
+    const defaultEmbedWidthDesc = new DocumentFragment();
+    defaultEmbedWidthDesc.createSpan({}, (span) => {
+      span.innerHTML = "The default embedded loom width. Accepts valid HTML width values. Like <strong>100px<strong>, <strong>50%</strong>, etc.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
+      cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.defaultEmbedWidth = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+    const defaultEmbedHeightDesc = new DocumentFragment();
+    defaultEmbedHeightDesc.createSpan({}, (span) => {
+      span.innerHTML = "The default embedded loom height. Accepts valid HTML width values. Like <strong>100px</strong>, <strong>50%</strong>, etc.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
+      cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.defaultEmbedHeight = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+    containerEl.createSpan(
+      {},
+      (span) => span.innerHTML = `<strong style="color: var(--text-accent); font-size: 12px;">Please close and reopen your embedded looms for these settings to take effect</strong>`
+    );
+  }
+  renderDebugSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("Debug").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("Debug mode").setDesc(
+      "Turns on console.log for plugin events. This is useful for troubleshooting."
+    ).addToggle((cb) => {
+      cb.setValue(this.plugin.settings.shouldDebug).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.shouldDebug = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    this.renderFileSettings(containerEl);
+    this.renderExportSettings(containerEl);
+    this.renderEmbeddedLoomSettings(containerEl);
+    this.renderDebugSettings(containerEl);
+  }
+};
 
 // src/main.ts
 var DEFAULT_SETTINGS = {
@@ -56398,19 +56624,21 @@ var DEFAULT_SETTINGS = {
   exportRenderMarkdown: true,
   defaultEmbedWidth: "100%",
   defaultEmbedHeight: "340px",
-  hasMigratedTo700: false
+  hasMigratedTo800: false,
+  showWelcomeModal: true,
+  pluginVersion: ""
 };
-var DASHBOARDS_PLUGIN_ID = "notion-like-tables";
-var DashboardsPlugin = class extends import_obsidian13.Plugin {
+var DATA_LOOM_PLUGIN_ID = "notion-like-tables";
+var DataLoomPlugin = class extends import_obsidian15.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.registerView(DASHBOARDS_VIEW, (leaf) => new DashboardsView(leaf));
-      this.registerExtensions([CURRENT_FILE_EXTENSION], DASHBOARDS_VIEW);
-      this.addRibbonIcon("table", "Create new dashboard", () => __async(this, null, function* () {
-        yield this.newDashboardFile(null);
+      this.registerView(DATA_LOOM_VIEW, (leaf) => new DataLoomView(leaf));
+      this.registerExtensions([CURRENT_FILE_EXTENSION], DATA_LOOM_VIEW);
+      this.addRibbonIcon("table", "Create new loom", () => __async(this, null, function* () {
+        yield this.newLoomFile(null);
       }));
-      this.addSettingTab(new DashboardsSettingsTab(this.app, this));
+      this.addSettingTab(new DataLoomSettingsTab(this.app, this));
       this.registerEmbeddedView();
       this.registerCommands();
       this.registerEvents();
@@ -56418,30 +56646,42 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       this.app.workspace.onLayoutReady(() => __async(this, null, function* () {
         const isDark = hasDarkTheme();
         store.dispatch(setDarkMode(isDark));
-        yield this.migrateTableFiles();
+        yield this.migrateLoomFiles();
       }));
+      if (this.settings.pluginVersion !== this.manifest.version) {
+        new WhatsNewModal(this.app).open();
+      }
+      if (this.settings.showWelcomeModal) {
+        new WelcomeModal(app).open();
+        this.settings.showWelcomeModal = false;
+        yield this.saveSettings();
+      }
+      this.settings.pluginVersion = this.manifest.version;
+      yield this.saveSettings();
     });
   }
-  migrateTableFiles() {
+  migrateLoomFiles() {
     return __async(this, null, function* () {
-      if (!this.settings.hasMigratedTo700) {
-        const tableFiles = this.app.vault.getFiles().filter((file) => file.extension === PREVIOUS_FILE_EXTENSION);
-        for (let i2 = 0; i2 < tableFiles.length; i2++) {
-          const file = tableFiles[i2];
+      if (!this.settings.hasMigratedTo800) {
+        const loomFiles = this.app.vault.getFiles().filter(
+          (file) => file.extension === "dashboard" || file.extension === "table"
+        );
+        for (let i2 = 0; i2 < loomFiles.length; i2++) {
+          const file = loomFiles[i2];
           const newFilePath = file.path.replace(
-            `.${PREVIOUS_FILE_EXTENSION}`,
+            `.${file.extension}`,
             `.${CURRENT_FILE_EXTENSION}`
           );
           try {
             yield this.app.vault.rename(file, newFilePath);
           } catch (err) {
-            new import_obsidian13.Notice(
+            new import_obsidian15.Notice(
               `Failed renaming ${file.path} to ${newFilePath}`
             );
-            new import_obsidian13.Notice("Please rename this file manually");
+            new import_obsidian15.Notice("Please rename this file manually");
           }
         }
-        this.settings.hasMigratedTo700 = true;
+        this.settings.hasMigratedTo800 = true;
         yield this.saveSettings();
       }
     });
@@ -56449,7 +56689,7 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
   registerEmbeddedView() {
     this.registerEditorExtension(editingViewPlugin);
   }
-  newDashboardFile(contextMenuFolderPath, embedded) {
+  newLoomFile(contextMenuFolderPath, embedded) {
     return __async(this, null, function* () {
       let folderPath = "";
       if (contextMenuFolderPath) {
@@ -56461,13 +56701,13 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       } else {
         folderPath = this.settings.customFolderForNewFiles;
       }
-      const filePath = yield createDashboardFile({
+      const filePath = yield createLoomFile({
         folderPath
       });
       if (embedded)
         return filePath;
       yield app.workspace.getLeaf(true).setViewState({
-        type: DASHBOARDS_VIEW,
+        type: DATA_LOOM_VIEW,
         active: true,
         state: { file: filePath }
       });
@@ -56495,10 +56735,10 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
     );
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian13.TFolder) {
+        if (file instanceof import_obsidian15.TFolder) {
           menu.addItem((item) => {
-            item.setTitle("New dashboard").setIcon("document").onClick(() => __async(this, null, function* () {
-              yield this.newDashboardFile(file.path);
+            item.setTitle("New loom").setIcon("document").onClick(() => __async(this, null, function* () {
+              yield this.newLoomFile(file.path);
             }));
           });
         }
@@ -56507,27 +56747,31 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
     this.app.vault.on(
       "rename",
       (file, oldPath) => __async(this, null, function* () {
-        if (file instanceof import_obsidian13.TFile) {
-          const dashboardFiles = this.app.vault.getFiles().filter(
+        const leafs = app.workspace.getLeavesOfType("markdown");
+        leafs.forEach((leaf) => {
+          leaf.trigger(EVENT_REFRESH_EDITING_VIEW);
+        });
+        if (file instanceof import_obsidian15.TFile) {
+          const loomFiles = this.app.vault.getFiles().filter(
             (file2) => file2.extension === CURRENT_FILE_EXTENSION
           );
-          const dashboardsToUpdate = [];
+          const loomsToUpdate = [];
           let numLinks = 0;
-          for (const dashboardFile of dashboardFiles) {
-            const data = yield file.vault.read(dashboardFile);
-            const state = deserializeDashboardState(data);
+          for (const loomFile of loomFiles) {
+            const data = yield file.vault.read(loomFile);
+            const state = deserializeLoomState(data);
             state.model.bodyCells.forEach((cell) => {
               const regex = structuredClone(WIKI_LINK_REGEX);
               let matches;
               while ((matches = regex.exec(cell.markdown)) !== null) {
                 const path = matches[1];
                 if (oldPath.includes(path)) {
-                  const found = dashboardsToUpdate.find(
-                    (table) => table.file.path === dashboardFile.path
+                  const found = loomsToUpdate.find(
+                    (loom) => loom.file.path === loomFile.path
                   );
                   if (!found) {
-                    dashboardsToUpdate.push({
-                      file: dashboardFile,
+                    loomsToUpdate.push({
+                      file: loomFile,
                       state
                     });
                   }
@@ -56537,15 +56781,15 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
             });
           }
           if (numLinks > 0) {
-            new import_obsidian13.Notice(
-              `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${dashboardsToUpdate.length} Dashboard file${dashboardsToUpdate.length > 1 ? "s" : ""}.`
+            new import_obsidian15.Notice(
+              `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${loomsToUpdate.length} loom file${loomsToUpdate.length > 1 ? "s" : ""}.`
             );
           }
-          for (let i2 = 0; i2 < dashboardsToUpdate.length; i2++) {
-            const { file: tableFile, state } = dashboardsToUpdate[i2];
+          for (let i2 = 0; i2 < loomsToUpdate.length; i2++) {
+            const { file: loomFile, state } = loomsToUpdate[i2];
             if (this.settings.shouldDebug)
               console.log("Updating links in file", {
-                path: tableFile.path
+                path: loomFile.path
               });
             const newState = structuredClone(state);
             newState.model.bodyCells.map((cell) => {
@@ -56565,11 +56809,11 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
               cell.markdown = updatedMarkdown;
             });
             if (JSON.stringify(state) !== JSON.stringify(newState)) {
-              const serializedState = serializeDashboardState(newState);
-              yield file.vault.modify(tableFile, serializedState);
+              const serializedState = serializeLoomState(newState);
+              yield file.vault.modify(loomFile, serializedState);
               app.workspace.trigger(
-                EVENT_REFRESH_DASHBOARDS,
-                tableFile.path,
+                EVENT_REFRESH_APP,
+                loomFile.path,
                 -1,
                 newState
               );
@@ -56581,19 +56825,19 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
   }
   registerCommands() {
     this.addCommand({
-      id: "dashboards-create",
-      name: "Create dashboard",
+      id: "dataloom-create",
+      name: "Create loom",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: () => __async(this, null, function* () {
-        yield this.newDashboardFile(null);
+        yield this.newLoomFile(null);
       })
     });
     this.addCommand({
-      id: "dashboards-create-and-embed",
-      name: "Create dashboard and embed it into current file",
+      id: "dataloom-create-and-embed",
+      name: "Create loom and embed it into current file",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
       editorCallback: (editor) => __async(this, null, function* () {
-        const filePath = yield this.newDashboardFile(null, true);
+        const filePath = yield this.newLoomFile(null, true);
         if (!filePath)
           return;
         const useMarkdownLinks = this.app.vault.getConfig(
@@ -56612,8 +56856,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       name: "Add column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_ADD);
@@ -56628,8 +56872,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       name: "Delete column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_DELETE);
@@ -56644,8 +56888,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       name: "Add row",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking)
             this.app.workspace.trigger(EVENT_ROW_ADD);
@@ -56659,8 +56903,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       name: "Delete row",
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_ROW_DELETE);
@@ -56674,8 +56918,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       id: "nlt-export-markdown",
       name: "Export as markdown",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_MARKDOWN);
@@ -56689,8 +56933,8 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
       id: "nlt-export-csv",
       name: "Export as CSV",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DashboardsView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_CSV);
@@ -56719,7 +56963,7 @@ var DashboardsPlugin = class extends import_obsidian13.Plugin {
   }
   onunload() {
     return __async(this, null, function* () {
-      this.app.workspace.detachLeavesOfType(DASHBOARDS_VIEW);
+      this.app.workspace.detachLeavesOfType(DATA_LOOM_VIEW);
     });
   }
 };
