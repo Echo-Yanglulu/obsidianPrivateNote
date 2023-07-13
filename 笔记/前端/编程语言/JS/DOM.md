@@ -143,7 +143,13 @@ DOM规范规定 `Document节点的子节点` 可以是DocumentType、Element、P
 		1. document.childNodes中始终有\<html>元素，但使用documentElement属性可以更快更直接地访问该元素
 	2. DocumentType：Document类型另一种可能的子节点。
 		1. <!doctype>标签是文档中独立的部分，其信息可以通过doctype属性（在浏览器中是document.doctype）来访问
+		2. 只读
 ### 文档信息
+document作为HTMLDocument的实例，还有一些标准Document对象上所没有的属性（提供浏览器所加载网页的信息）
+	1. title属性：包含\<title>元素中的文本。用于读写页面的标题
+	2. [[URL]]：当前页面的完整URL（地址栏中的URL）
+	3. domain：页面的域名。可写，但不能设置为当前URL中不包含的值
+	4. referrer：链接到当前页面的那个页面的URL。如果没有来源就是空字符串
 ### 定位元素
 ### 特殊集合
 ### DOM兼容性检测
