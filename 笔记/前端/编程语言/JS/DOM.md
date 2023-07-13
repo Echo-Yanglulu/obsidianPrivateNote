@@ -159,8 +159,18 @@ Document类型提供的两个方法，获取某个或某组元素的引用
 	1. 返回包含零个或多个元素的NodeList
 	2. HTML文档中，取得页面中所有的\<img>元素并返回包含它们的 [[HTMLCollection]] 对象
 	3. 取得文档中的所有元素：getElementsByTagName()传入'\*'
-	4. HTML页面，实际上是不区分大小写.XML页面（如XHTML）中使用，
+	4. HTML页面，实际上是不区分大小写。XML页面（如XHTML）中使用，区分大小写
+3. getElementsByName()
+	1. 返回具有给定name属性的所有元素
+	2. 最常用于单选按钮。因为同一字段的单选按钮必须具有相同的name属性才能确保把正确的值发送给服务器
+		1. 多个type=radio，name属性必须相同。
 ### 特殊集合
+document对象上还暴露了几个特殊集合，这些集合也都是HTMLCollection的实例。
+访问文档中公共部分
+	1. document.anchors：包含文档中所有带name属性的\<a>元素
+	2. document.forms包含文档中所有\<form>元素（与document.getElementsByTagName ("form")返回的结果相同）
+	3. document.images包含文档中所有\<img>元素（与document.getElementsByTagName ("img")返回的结果相同）
+	4. document.links包含文档中所有带href属性的\<a>元素
 ### DOM兼容性检测
 ## Element类型
 背景：除了Document类型，Web开发中最常用的类型。
