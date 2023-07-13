@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react合成事件.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
                   }
                 }
               }
@@ -311,13 +311,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "定位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/定位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":17},\"to\":{\"line\":8,\"ch\":17}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/定位.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -353,7 +359,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -380,7 +386,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -408,7 +414,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -713,13 +719,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3e92f5ccb360578e",
+  "active": "af76d0c9fdf15dfb",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/定位.md",
+    "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230711155421.png",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/redux.md",
