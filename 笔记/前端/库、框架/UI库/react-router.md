@@ -1,4 +1,7 @@
 # 概述
+定义：是完整的 React 路由解决方案
+功能
+	1. 保持 UI 与 URL 同步。拥有简单的 API 与强大的功能例如代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理。你第一个念头想到的应该是 URL，而不是事后再想起。
 ## 路由模式
 1. hash 模式（默认）。如 http://abc.com/#user/10
 2. H5 [[History]] 模式。如 http://abc.com/user/20
@@ -75,7 +78,10 @@ B 端应用可选择1，C 端应用可选择2
 	2. 库中的 useParams ![[Pasted image 20230710222733.png]] 
 #### 查询参数
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
-通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
+	1. 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
+	2. 通过react-router-dom的useSearchParams获取
+		1. `const [searchParams] = useSearchParams()`
+		2. `const currentType = searchParams.get('type');` 
 ### 总结
 路由级别组件[^1] 
 	1. 传递属性：为避免三个路由属性被覆盖，需传入参数。 ![[Pasted image 20230529155319.png]] 
@@ -111,5 +117,5 @@ B 端应用可选择1，C 端应用可选择2
 ## 库
 react-router-config：避免了原有的“平铺式”写法，有利于后期维护
 ## 链接
-[Site Unreachable](https://react-router.docschina.org/web/example/basic) 
 [Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
+[React Router v6 官方文档翻译 （一） ---- Installation && Quick Start - 掘金](https://juejin.cn/post/7100479939694034952?searchId=202307131615023EF2ADD9ABAC267EDEB1#heading-2) 
