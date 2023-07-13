@@ -89,15 +89,16 @@ nodeName与nodeValue
 文档中的所有节点都与其他节点有关系
 每个节点都有
 	1.  `childNodes` 属性，其中包含一个 [[NodeList]] 的实例。列表中的每个节点都是同一列表中其他节点的同胞节点
-		1. previousSibling和nextSibling可以在这个列表的节点间*导航*
-		2. 列表中第一个节点的`previousSibling`属性、最后一个节点的`nextSibling`属性是null
-		3. 只有一个节点，则它的previousSibling和nextSibling属性都是null
+		1. `previousSibling`和`nextSibling`可以在这个列表的节点间*导航*
+			1. 列表中第一个节点的 previousSibling 属性、最后一个节点的 nextSibling 属性是null
+			2. 只有一个节点，则它的previousSibling和nextSibling属性都是null
 	2. `firstChild`、`lastChild`。
 		1. 只有一个子节点：指向该子节点
 		2. 没有子节点：指向null
 		3. 等同：someNode.childNodes\[0]
-	4. `hasChildNodes()`：是在存在子节点
-	3. `parentNode` 属性： 其DOM树中的父元素
+	3. `hasChildNodes()`：是在存在子节点
+	4. `parentNode` 属性： 其DOM树中的父元素
+	5. `ownerDocument` 属性：文档节点。所有节点都被创建它们的文档所拥有
 ### 节点操纵
 ### 其他方法
 ## Document类型
