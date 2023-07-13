@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md"
                   }
                 }
               }
@@ -351,9 +351,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "41769f4b65c5ad70",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -380,7 +402,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -408,7 +430,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -713,10 +735,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "71f0afcd5d0019d3",
+  "active": "41769f4b65c5ad70",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/HTMLCollection.md",
     "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/HTMLCollection.md",
     "Day Planners/2023-07-13.md",
     "笔记/前端/编程语言/JS/NodeList.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
