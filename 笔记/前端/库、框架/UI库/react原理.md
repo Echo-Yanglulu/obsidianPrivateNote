@@ -8,19 +8,20 @@
 看 vscode
 # [[函数式编程]] 
 # virtual dom 与 diff
-1. v-dom是什么
+##  v-dom
+1. 定义
 	1. 官方定义：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将该映射同步渲染为真实DOM。
 	2. 基于浏览器API，由第三方库实现
 2. 特性
 	1. 抽象性【它对UI的抽象。使跨平台使用成为可能，一处学习，随处使用】
 		1. V-dom提供了对HTML DOM的抽象，所以在web开发中通常不用调用[[DOM]] api
 		2. 也是因为它提供了DOM的抽象，也可用于开发Native
-3. 实现
-	1. vue 2, vue 3与 react 实现 vdom 时的细节都不同，但*核心概念*与*实现思路*相同
-4. 重点
+3. 重点
 	1. h 函数
 	2. vnode 数据结构
 	3. patch 函数
+4. 实现
+	1. vue 2, vue 3与 react 实现 vdom 时的细节都不同，但*核心概念*与*实现思路*相同
 5. 过程
 	1. 在web开发中，v-dom如何渲染为html元素。
 		1. 在class组件中可看到，react通过render方法生成v-dom，从而绘制出真实的dom

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/redux.md"
+                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
                 }
               }
@@ -120,14 +120,8 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "react-redux",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-redux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -136,14 +130,14 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":369,\"ch\":18},\"to\":{\"line\":369,\"ch\":18}},\"scroll\":308.99779492833517}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":381,\"ch\":0},\"to\":{\"line\":381,\"ch\":0}},\"scroll\":317.4851157662624}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/redux.md",
+                    "file": "笔记/前端/库、框架/UI库/react原理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -368,7 +362,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/redux.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -396,7 +390,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/redux.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -703,9 +697,10 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react-redux.md",
-    "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/库、框架/UI库/redux.md",
+    "笔记/前端/库、框架/UI库/react-redux.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
@@ -714,7 +709,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "Day Planners/2023-07-13.md",
     "笔记/前端/编程语言/JS/网络请求.md",

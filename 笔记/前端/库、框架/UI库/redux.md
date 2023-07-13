@@ -45,4 +45,3 @@ action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函�
 # 相关
 [[react-redux]]：react 应用连接 redux
 [核心概念 · Redux](https://www.redux.org.cn/docs/introduction/CoreConcepts.html) 
- 
