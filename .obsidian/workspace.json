@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/前端/库、框架/UI库/redux.md"
                   }
                 }
               }
@@ -120,8 +120,14 @@
                 "id": "3e92f5ccb360578e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "react-redux",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-redux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -130,14 +136,14 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":348,\"ch\":21},\"to\":{\"line\":348,\"ch\":21}},\"scroll\":288.3627342888644}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":369,\"ch\":18},\"to\":{\"line\":369,\"ch\":18}},\"scroll\":308.99779492833517}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "file": "笔记/前端/库、框架/UI库/redux.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -362,7 +368,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/redux.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -390,7 +396,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/redux.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -697,6 +703,8 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react-redux.md",
+    "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/react.md",
@@ -721,9 +729,7 @@
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/assets/硬编码关联元素.png",
-    "笔记/前端/库、框架/UI库/纯函数.md",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
     "笔记/前端/assets/类组件属性的数据类型.png",

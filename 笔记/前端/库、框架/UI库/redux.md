@@ -1,15 +1,5 @@
 # 概述
 和 [[vuex]] 作用相同，但学习成本更高
-应用流转图
-```mermaid
-	graph LR
-	A(action) -->|触发| B(reducer)
-	B -->|生成| C(store)
-	C -->|反馈| D(view)
-	D -->|用户操作| A
-```
-带有中间件的数据流图 ![[Pasted image 20230710220731.png]]
-
 ## 组成
 ###  dispatch
 工具函数，将 action 传递给 reducer
@@ -27,7 +17,15 @@
  根据 action 种类与传参触发 reducer 的更新逻辑，生成新 state，反映到 view
 # 基础
 ##  单向数据流
-
+应用流转图
+```mermaid
+	graph LR
+	A(action) -->|触发| B(reducer)
+	B -->|生成| C(store)
+	C -->|反馈| D(view)
+	D -->|用户操作| A
+```
+带有中间件的数据流图 ![[Pasted image 20230710220731.png]]
 
 ## 异步action
 1. 从 redux 库同时引入 createStore 与 applyMiddleWare
