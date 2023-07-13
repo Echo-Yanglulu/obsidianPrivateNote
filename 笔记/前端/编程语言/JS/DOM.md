@@ -158,6 +158,8 @@ Document类型提供的两个方法，获取某个或某组元素的引用
 2. getElementsByTagName()
 	1. 返回包含零个或多个元素的NodeList
 	2. HTML文档中，取得页面中所有的\<img>元素并返回包含它们的 [[HTMLCollection]] 对象
+	3. 取得文档中的所有元素：getElementsByTagName()传入'\*'
+	4. HTML页面，实际上是不区分大小写.XML页面（如XHTML）中使用，
 ### 特殊集合
 ### DOM兼容性检测
 ## Element类型
