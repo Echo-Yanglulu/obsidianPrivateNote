@@ -106,7 +106,16 @@ nodeName与nodeValue
 	2. 文档中*已存在节点*传给appendChild()，则这个节点会从之前的位置被转移到新位置
 2. insertBefore(要插入的节点，参照节点)：在childNodes列表**特定位置添加**节点
 	1. 如果参照节点是null，则insertBefore()与appendChild()效果相同
-3. `replaceChild(要插入的节点，要替换的节点)`：
+3. `replaceChild(要插入的节点，要替换的节点)`：替换
+4. `removeChild()`：移除
+	1. 返回被移除的节点
+5. 每个节点都有
+	1.  `cloneNode(Boolean)`：是否深复制某个节点
+		1. 返回的节点归文档所有，是孤儿节点，没有父节点
+		2. 只复制HTML属性，不复制JS属性。如事件处理程序
+		3. true：复制节点及整个DOM树
+		4. false：只复制该节点，忽略内容
+	2. `normalize()`：处理文档子树中的文本节点
 ### 其他方法
 ## Document类型
 意义：JavaScript中表示文档节点的类型。浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。document是window对象的属性，因此是一个全局对象。
