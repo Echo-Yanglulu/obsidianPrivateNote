@@ -96,6 +96,7 @@ nodeName与nodeValue
 		1. 只有一个子节点：指向该子节点
 		2. 没有子节点：指向null
 		3. 等同：someNode.childNodes\[0]
+	4. `hasChildNodes()`：是在存在子节点
 	3. `parentNode` 属性： 其DOM树中的父元素
 ### 节点操纵
 ### 其他方法
