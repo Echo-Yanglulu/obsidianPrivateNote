@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -93,6 +93,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":28},\"to\":{\"line\":19,\"ch\":28}},\"scroll\":4.012641383898869}"
+                    },
+                    {
                       "title": "学习",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -109,7 +115,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -375,7 +381,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -402,7 +408,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -430,7 +436,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -556,7 +562,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -735,13 +741,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "41769f4b65c5ad70",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/HTMLCollection.md",
     "Day Planners/2023-07-13.md",
     "笔记/前端/编程语言/JS/NodeList.md",
-    "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
@@ -763,7 +770,6 @@
     "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/库、框架/UI库/副作用.md",
     "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
