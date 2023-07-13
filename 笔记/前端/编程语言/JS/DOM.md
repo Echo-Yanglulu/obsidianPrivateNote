@@ -87,7 +87,7 @@ nodeName与nodeValue
 	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
 文档中的所有节点都与其他节点有关系
-每个节点都有一个childNodes属性，其中包含一个 [[NodeList]] 的实例
+每个节点都有一个`childNodes`属性，其中包含一个 [[NodeList]] 的实例
 ### 节点操纵
 ### 其他方法
 ## Document类型

@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+    },
+    {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
+    },
+    {
+      "basename": "NodeList",
+      "path": "笔记/前端/编程语言/JS/NodeList.md"
+    },
+    {
+      "basename": "类数组对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/类数组对象.md"
     },
     {
       "basename": "DOM扩展",
@@ -49,10 +65,6 @@
       "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
-    },
-    {
       "basename": "组件",
       "path": "笔记/前端/库、框架/UI库/组件.md"
     },
@@ -95,10 +107,6 @@
     {
       "basename": "JSON",
       "path": "笔记/前端/编程语言/JS/JSON.md"
-    },
-    {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "纯函数",
@@ -191,14 +199,6 @@
     {
       "basename": "布局",
       "path": "笔记/前端/编程语言/CSS/布局.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "变量",
-      "path": "笔记/前端/编程语言/JS/基本概念/变量.md"
     }
   ],
   "omittedPaths": [
