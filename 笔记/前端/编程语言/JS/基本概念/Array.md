@@ -45,12 +45,12 @@ Array.of
 Array.isArray()：传递的值是否是一个 [[Array]] 
 ## 实例方法
 ### 遍历
-some：是否某个符合条件
-every：是否所有符合条件
-filter：找到符合条件的元素
-map：对每个元素进行批处理
-forEach
-reduce
+4. map：对每个元素进行批处理
+5. forEach
+6. reduce
+7. reduceRight
+8. entries：返回一个新的数组[[迭代器]]对象，其中包含数组中每个索引的键
+9. values
 ```js
 // 应用场景：每个元素的操作，与前面元素有关
 // 1. 统计：每个/某个元素出现的次数；
@@ -68,7 +68,6 @@ console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
 // 2. 把二维数组打平，成为一维
 // 3. 求和，字符串累加，数值累乘
 ```
-reduceRight
 ### 转换
 把其他类型转换为数组
 1. from：[[类数组对象]] 
@@ -92,14 +91,16 @@ reduceRight
 	1. 如果是数组，先打平再推入
 	2. 如果是其它值，直接推入
 ### 修改
-1. flat：根据深度，把元素拼接到新数组
-2. flatMap
-	1. 等价于先map，再flat(1)。但更高效
-	2. 场景：map时需要返回数组。
-3. sort。升序return a-b
-4. reverse
-7. join：将所有字符转换为字符串，使用符号拼接
-	1. 只有一个元素，不使用分隔符
+1. 打平
+	1. flat：根据深度，把元素拼接到新数组
+	2. flatMap：等价于先map，再flat(1)。但更高效
+		1. 场景：map时某个元素需要返回数组。
+2. 排序
+	1. sort。升序return a-b
+	2. reverse
+3. 转换
+	1. join：将所有字符转换为字符串，使用符号拼接
+		1. 只有一个元素，不使用分隔符
 ### 查找
 1. find：*符合条件*的第一个**值**。`const res = array.find(element => element > 10); // 12` 
 2. findLast：反向迭代数组。*符合条件*的第一个**值**。
@@ -107,9 +108,10 @@ reduceRight
 4. findIndex：*符合条件的值*第一次出现的**索引**。
 5. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
 6. includes：存在某个值
-7. every：全部值符合条件
-8. some：部分值符合条件
-9. at
+7. every：全部符合条件
+8. some：部分符合条件
+9. filter：找到符合条件的值
+10. at
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop,unshift，shift, splice，sort，reverse，
