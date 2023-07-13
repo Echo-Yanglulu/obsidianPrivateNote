@@ -103,14 +103,14 @@ reduceRight
 7. join：将所有字符转换为字符串，使用符号拼接
 	1. 只有一个元素，不使用分隔符
 ### 查找
-1. find：符合条件第一个元素的**值**。`const res = array.find(element => element > 10); // 12` 
-2. findIndex：符合条件第一个元素的**索引**。
-3. findLast：反向迭代数组。符合条件的第一个元素的值。
-4. findLastIndex
-5. includes：存在某个值
-6. every：全都符合条件
-7. some：部分符合条件
-8. indexOf(值，起点)：某个值第一次出现时的索引
+1. indexOf(值，起点)：*某个值*第一次出现的**索引** 
+2. findIndex：*符合条件的值*第一次出现的**索引**。
+5. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
+4. find：*符合条件*的第一个**值**。`const res = array.find(element => element > 10); // 12` 
+3. findLast：反向迭代数组。*符合条件*的第一个**值**。
+6. includes：存在某个值
+7. every：全都值符合条件
+8. some：部分值符合条件
 9. at
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个

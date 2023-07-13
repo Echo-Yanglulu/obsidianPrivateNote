@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md"
                   }
                 }
               }
@@ -353,7 +353,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 6
           },
           {
             "id": "86193a5d16fa87de",
@@ -380,7 +380,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -408,7 +408,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -713,11 +713,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7a3f866ee1f7f9bf",
+  "active": "1cb49cf7cc3201bd",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/NodeList.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
@@ -741,7 +742,6 @@
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/宿主对象.md",
     "笔记/前端/编程语言/JS/XML.md",
-    "Day Planners/2023-07-12.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
