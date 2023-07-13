@@ -125,6 +125,9 @@ nodeName与nodeValue
 	1. 是JavaScript中表示文档节点的类型。
 	2. 浏览器中，文档对象document是HTMLDocument的实例（HTMLDocument继承Document），表示整个HTML页面。
 	3. document是window对象的属性，因此是一个全局对象。
+功能
+	Document类型可以表示HTML页面或其他XML文档，但最常用的还是通过 `HTMLDocument的实例` 取得document对象。
+	document对象可用于获取关于页面的信息以及操纵其外观和底层结构。
 特征
 	1. nodeType等于9；
 	2. nodeName值为" document "；
@@ -133,11 +136,13 @@ nodeName与nodeValue
 	5. ownerDocument值为null；
 	6. 子节点可以是DocumentType（最多一个）、Element（最多一个）、ProcessingInstruction或Comment类型。
 应用：可以表示HTML页面或其他XML文档，但最常用的还是通过HTMLDocument的实例取得document对象。document对象可用于获取关于页面的信息以及操纵其外观和底层结构。
-文档子节点
-文档信息
-定位元素
-特殊集合
-DOM兼容性检测
+### 文档子节点
+DOM规范规定 `Document节点的子节点` 可以是DocumentType、Element、ProcessingInstruction或Comment，但也提供了两个访问子节点的快捷方式
+	1. documentElement属性
+### 文档信息
+### 定位元素
+### 特殊集合
+### DOM兼容性检测
 ## Element类型
 背景：除了Document类型，Web开发中最常用的类型。
 功能：Element表示XML或HTML元素，对外暴露出访问元素标签名、子节点和属性的能力
