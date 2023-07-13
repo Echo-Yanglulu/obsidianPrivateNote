@@ -87,14 +87,15 @@ nodeName与nodeValue
 	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
 文档中的所有节点都与其他节点有关系
-每个节点都有一个 
+每个节点都有
 	1.  `childNodes` 属性，其中包含一个 [[NodeList]] 的实例。列表中的每个节点都是同一列表中其他节点的同胞节点
 		1. previousSibling和nextSibling可以在这个列表的节点间*导航*
-		2. 列表中第一个节点的previousSibling属性、最后一个节点的nextSibling属性是null
+		2. 列表中第一个节点的`previousSibling`属性、最后一个节点的`nextSibling`属性是null
 		3. 只有一个节点，则它的previousSibling和nextSibling属性都是null
-	2. firstChild、lastChild。
+	2. `firstChild`、`lastChild`。
 		1. 只有一个子节点：指向该子节点
 		2. 没有子节点：指向null
+		3. 等同：someNode.childNodes\[0]
 	3. `parentNode` 属性： 其DOM树中的父元素
 ### 节点操纵
 ### 其他方法
