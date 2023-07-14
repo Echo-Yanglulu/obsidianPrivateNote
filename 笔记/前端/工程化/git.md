@@ -188,8 +188,10 @@ git 仓库中特定事件触发后被调用的脚本。
 		2. 无命令：取消暂存
 		3. --hard 不想要某个节点之后的记录。可回退到合并提交之前的状态。
 	2. git revert 提交：生成一个*撤销一次提交*的新改动
-		1. git revert HEAD：撤销此次提交
-	3. 区别：revert可push
+		1. git revert [[hash值]] ：撤销该次提交（含）之后的提交
+	3. 区别
+		1. revert可push，一般用于撤销远程分支的提交
+		2. reset一般用于撤销本地还未上传的提交。
 ## 分支
 1. 推送 git push
 	1. origin master
