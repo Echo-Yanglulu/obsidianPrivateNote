@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/基础知识/数据结构/数据结构.md"
                   }
                 }
               }
@@ -381,9 +381,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "14b6e86d5164d173",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "链表",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"链表.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -410,7 +438,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -438,7 +466,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -743,13 +771,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "14b6e86d5164d173",
   "lastOpenFiles": [
+    "链表.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "Day Planners/2023-07-14.md",
     "笔记/前端/assets/Pasted image 20230714122310.png",
     "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
