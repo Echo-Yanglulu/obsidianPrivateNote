@@ -19,7 +19,7 @@
 # Network
 筛选
 # Console
-代码输出
+控制台输出
 # Application
 ## Application
 ## Storage
