@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -364,7 +364,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -391,7 +392,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -419,7 +420,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -724,8 +725,9 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "dashboards/Untitled 1.loom",
