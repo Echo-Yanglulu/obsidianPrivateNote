@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/Chrome Devtools.md"
+                    "file": "笔记/前端/工程化/构建/webpack.md"
                   }
                 }
               }
@@ -507,7 +507,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/Chrome Devtools.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -535,7 +535,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/Chrome Devtools.md",
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -840,11 +840,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0b43089dd44d2cbc",
+  "active": "99a6e9a74f720ca6",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/调试.md",
-    "笔记/前端/基础知识/Chrome Devtools.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/构建.md",
+    "笔记/前端/工程化/工具/抓包工具.md",
+    "笔记/前端/基础知识/Chrome Devtools.md",
+    "笔记/前端/基础知识/调试.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/TCP.md",
@@ -876,8 +878,6 @@
     "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/算法/算法.md",
-    "链表.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
