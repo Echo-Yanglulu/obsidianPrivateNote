@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/性能优化.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -386,8 +386,14 @@
                 "id": "14b6e86d5164d173",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":191,\"ch\":4},\"to\":{\"line\":191,\"ch\":4}},\"scroll\":184.9173098125689}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -433,9 +439,48 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "9e75c0c558b854e6",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "86cbda7c89d121cc",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/前端工作.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 11
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -462,7 +507,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -490,7 +535,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -795,13 +840,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "14b6e86d5164d173",
+  "active": "86cbda7c89d121cc",
   "lastOpenFiles": [
+    "笔记/前端/性能优化.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/构建/CMD.md",
     "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/localStorage.md",
     "笔记/前端/indexDB.md",
@@ -826,7 +872,6 @@
     "链表.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "Day Planners/2023-07-14.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/学习/学习.md",
