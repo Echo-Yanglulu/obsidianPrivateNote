@@ -178,8 +178,14 @@
                 "id": "35e75a6fb5297186",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-14",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -739,13 +745,13 @@
   },
   "active": "35e75a6fb5297186",
   "lastOpenFiles": [
+    "Day Planners/2023-07-14.md",
     "笔记/前端/assets/Pasted image 20230714122310.png",
     "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/学习/学习.md",
-    "Day Planners/2023-07-14.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
@@ -775,7 +781,6 @@
     "笔记/前端/assets/类组件中context用法.png",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/Pasted image 20230711180808.png",
-    "笔记/前端/assets/Pasted image 20230711161656.png",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
