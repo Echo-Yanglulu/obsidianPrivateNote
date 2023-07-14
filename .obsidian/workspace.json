@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/性能优化.md"
+                    "file": "笔记/前端/cookie.md"
                   }
                 }
               }
@@ -462,7 +462,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/cookie.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -490,7 +490,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/cookie.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -795,12 +795,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "14b6e86d5164d173",
+  "active": "f982762ee3741002",
   "lastOpenFiles": [
+    "笔记/前端/cookie.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/assets/Pasted image 20230714171309.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160923.png",
-    "笔记/前端/性能优化.md",
     "笔记/前端/assets/Pasted image 20230714160724.png",
     "笔记/前端/assets/Pasted image 20230714160417.png",
     "笔记/前端/assets/Pasted image 20230714160245.png",
@@ -808,7 +810,6 @@
     "笔记/前端/assets/Pasted image 20230714155740.png",
     "笔记/前端/assets/Pasted image 20230714155655.png",
     "笔记/前端/assets/Pasted image 20230714155546.png",
-    "笔记/前端/assets/JPEG.png",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/基础知识/数据结构/栈.md",
     "笔记/前端/基础知识/数据结构/数据结构.md",
@@ -833,7 +834,6 @@
     "笔记/前端/编程语言/JS/NodeList.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
-    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
