@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/数据结构/数据结构.md"
+                    "file": "笔记/前端/基础知识/数据结构/栈.md"
                   }
                 }
               }
@@ -393,6 +393,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据结构",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/数据结构/数据结构.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":8},\"to\":{\"line\":20,\"ch\":8}}}"
+                    },
+                    {
                       "title": "计算机基础",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机基础.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -415,7 +421,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                    "file": "笔记/前端/基础知识/数据结构/栈.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -450,7 +456,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "笔记/前端/基础知识/数据结构/栈.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -478,7 +484,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "笔记/前端/基础知识/数据结构/栈.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -785,8 +791,9 @@
   },
   "active": "14b6e86d5164d173",
   "lastOpenFiles": [
-    "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/数据结构/数据结构.md",
+    "笔记/前端/基础知识/数据结构/栈.md",
+    "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/算法/算法.md",
     "链表.md",
     "笔记/前端/库、框架/UI库/react原理.md",
@@ -813,7 +820,6 @@
     "笔记/前端/编程语言/CSS/定位.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/assets/Pasted image 20230711155421.png",
-    "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
