@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DNS.md"
+                    "file": "笔记/前端/编程语言/JS/TCP.md"
                   }
                 }
               }
@@ -507,7 +507,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DNS.md",
+                        "file": "笔记/前端/编程语言/JS/TCP.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -535,7 +535,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DNS.md",
+                        "file": "笔记/前端/编程语言/JS/TCP.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -840,9 +840,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a60c09e58ed33961",
+  "active": "1eab795a261002c3",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/编程语言/JS/TCP.md",
+    "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/前端工作.md",
     "笔记/学习/学习.md",
     "笔记/前端/性能优化.md",
@@ -876,8 +878,6 @@
     "Day Planners/2023-07-14.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
