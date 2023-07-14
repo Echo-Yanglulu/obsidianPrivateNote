@@ -163,11 +163,11 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 5. [[babel#plugin（最基础的工具）|插件]]能为loader带来更多特性【插件可对loader进行扩展】
 6. 会产生额外的意外文件
 ###  功能
+【语法，文件，模板，样式，框架】【语文模样框】
 1. 文件预处理
 	1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
 	2. ref-loader 用于手动建立文件之间的依赖关系
-2. JSON
-	1. cson-loader 加载并转换 CSON 文件
+	3. cson-loader 加载并转换 CSON 文件【】
 3. 语法转换
 	1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
 	2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
