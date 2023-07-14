@@ -142,7 +142,7 @@ console.log(module)
 	2. 如果白屏。可能是代理服务器的缓存，或浏览器的缓存。
 		1. 客户端禁止缓存html：![[Pasted image 20230702160830.png]] 
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
-## loader【文件及其内容的层面】
+## loader【模块加载及其内容处理】
 ==一想到loader这个概念，马上想起它的定义、原理、分类、配置== 
 1.定义：
 	1. 一个**函数**，用于在`import`或`load`==JS/JSON之外==的其他模块时，将源码转换[^2]为JS[[模块]]，并添加到依赖图中（默认只可编译JS、JSON模块）
@@ -154,41 +154,41 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			2. 语法转换：es6
 			3. 从不同语言转换为JS,或将内联图像转换为data URL
 			4. 在js文件中`import`css。
-1. 功能
-	1. 文件预处理
-		1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
-		2. ref-loader 用于手动建立文件之间的依赖关系
-	2. JSON
-		1. cson-loader 加载并转换 CSON 文件
-	3. 语法转换
-		1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
-		2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
-		3. `buble-loader` 使用 Bublé 加载 ES2015+ 代码并将其转换为 ES5
-		4. `traceur-loader` 使用 Traceur 加载 ES2015+ 代码并将其转换为 ES5
-		5. `ts-loader` 像加载 JavaScript 一样加载 TypeScript 2.0+
-		6. `coffee-loader` 像加载 JavaScript 一样加载 CoffeeScript
-		7. `fengari-loader` 使用 fengari 加载 Lua 代码
-		8. `elm-webpack-loader` 像加载 JavaScript 一样加载 Elm
-	4. 模板
-		1. `html-loader` 将 *HTML* 导出为字符串，需要传入静态资源的引用路径
-		2. `pug-loader` 加载 Pug 和 Jade 模板并返回一个函数
-		3. `markdown-loader` 将 *Markdown* 编译为 HTML
-		4. `react-markdown-loader` 使用 markdown-parse 解析器将 Markdown 编译为 React 组件
-		5. `posthtml-loader` 使用 PostHTML 加载并转换 HTML 文件
-		6. `handlebars-loader` 将 Handlebars 文件编译为 HTML
-		7. `markup-inline-loader` 将 SVG/MathML 文件内嵌到 HTML 中。在将图标字体或 CSS 动画应用于 SVG 时，此功能非常实用。
-		8. `twig-loader` 编译 Twig 模板并返回一个函数
-		9. `remark-loader` 通过 remark 加载 markdown，且支持解析内容中的图片
-	5. 样式
-		1. `style-loader` 将模块导出的内容作为样式并添加到 DOM 中
-		2. `css-loader` 加载 CSS 文件并解析 import 的 CSS 文件，最终返回 CSS 代码
-		3. `less-loader` 加载并编译 LESS 文件
-		4. `sass-loader` 加载并编译 SASS/SCSS 文件
-		5. `postcss-loader` 使用 PostCSS 加载并转换 CSS/SSS 文件
-		6. `stylus-loader` 加载并编译 Stylus 文件
-	6. 框架
-		1. `vue-loader` 加载并编译 Vue 组件
-		2. `angular2-template-loader` 加载并编译 Angular 组件
+###  功能
+1. 文件预处理
+	1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
+	2. ref-loader 用于手动建立文件之间的依赖关系
+2. JSON
+	1. cson-loader 加载并转换 CSON 文件
+3. 语法转换
+	1. `babel-loader` 使用 Babel 加载 ES2015+ 代码并将其转换为 ES5
+	2. `esbuild-loader` 加载 ES2015+ 代码并使用 esbuild 转译到 ES6+
+	3. `buble-loader` 使用 Bublé 加载 ES2015+ 代码并将其转换为 ES5
+	4. `traceur-loader` 使用 Traceur 加载 ES2015+ 代码并将其转换为 ES5
+	5. `ts-loader` 像加载 JavaScript 一样加载 TypeScript 2.0+
+	6. `coffee-loader` 像加载 JavaScript 一样加载 CoffeeScript
+	7. `fengari-loader` 使用 fengari 加载 Lua 代码
+	8. `elm-webpack-loader` 像加载 JavaScript 一样加载 Elm
+4. 模板
+	1. `html-loader` 将 *HTML* 导出为字符串，需要传入静态资源的引用路径
+	2. `pug-loader` 加载 Pug 和 Jade 模板并返回一个函数
+	3. `markdown-loader` 将 *Markdown* 编译为 HTML
+	4. `react-markdown-loader` 使用 markdown-parse 解析器将 Markdown 编译为 React 组件
+	5. `posthtml-loader` 使用 PostHTML 加载并转换 HTML 文件
+	6. `handlebars-loader` 将 Handlebars 文件编译为 HTML
+	7. `markup-inline-loader` 将 SVG/MathML 文件内嵌到 HTML 中。在将图标字体或 CSS 动画应用于 SVG 时，此功能非常实用。
+	8. `twig-loader` 编译 Twig 模板并返回一个函数
+	9. `remark-loader` 通过 remark 加载 markdown，且支持解析内容中的图片
+5. 样式
+	1. `style-loader` 将模块导出的内容作为样式并添加到 DOM 中
+	2. `css-loader` 加载 CSS 文件并解析 import 的 CSS 文件，最终返回 CSS 代码
+	3. `less-loader` 加载并编译 LESS 文件
+	4. `sass-loader` 加载并编译 SASS/SCSS 文件
+	5. `postcss-loader` 使用 PostCSS 加载并转换 CSS/SSS 文件
+	6. `stylus-loader` 加载并编译 Stylus 文件
+6. 框架
+	1. `vue-loader` 加载并编译 Vue 组件
+	2. `angular2-template-loader` 加载并编译 Angular 组件
 ### 特性
 1. 支持链式调用
 2. 可同步或异步
