@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/前端/工程化/构建/webpack.md"
+                  }
                 }
               }
             ]
@@ -469,7 +471,7 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":258,\"ch\":13},\"to\":{\"line\":258,\"ch\":13}},\"scroll\":237.8103638368247}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":261,\"ch\":17},\"to\":{\"line\":261,\"ch\":17}},\"scroll\":249.15104740904079}"
                     }
                   ]
                 },
@@ -501,7 +503,7 @@
                 }
               }
             ],
-            "currentTab": 14
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -528,6 +530,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -555,6 +558,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -859,10 +863,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b1b1c13f82c2579d",
+  "active": "86cbda7c89d121cc",
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工具/抓包工具.md",
     "笔记/前端/基础知识/Chrome Devtools.md",
@@ -874,7 +879,6 @@
     "笔记/前端/assets/握手.png",
     "笔记/前端/编程语言/JS/DNS.md",
     "笔记/学习/学习.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/构建/CMD.md",
