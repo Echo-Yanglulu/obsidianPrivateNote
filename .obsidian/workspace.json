@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/cookie.md"
+                    "file": "笔记/前端/localStorage.md"
                   }
                 }
               }
@@ -462,7 +462,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/cookie.md",
+                        "file": "笔记/前端/localStorage.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -490,7 +490,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/cookie.md",
+                        "file": "笔记/前端/localStorage.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -795,10 +795,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f982762ee3741002",
+  "active": "3564fee3933296ca",
   "lastOpenFiles": [
-    "笔记/前端/cookie.md",
+    "笔记/前端/localStorage.md",
     "笔记/前端/性能优化.md",
+    "笔记/前端/indexDB.md",
+    "笔记/前端/sessionStorage.md",
+    "笔记/前端/cookie.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/assets/Pasted image 20230714171309.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
@@ -831,9 +834,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/HTMLCollection.md",
     "Day Planners/2023-07-13.md",
-    "笔记/前端/编程语言/JS/NodeList.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
     "笔记/_gsdata_/lock.gsl",
