@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -466,21 +464,44 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":258,\"ch\":13},\"to\":{\"line\":258,\"ch\":13}},\"scroll\":237.8103638368247}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "b1b1c13f82c2579d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 13
+            "currentTab": 14
           },
           {
             "id": "86193a5d16fa87de",
@@ -507,7 +528,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -535,7 +555,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -840,8 +859,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "99a6e9a74f720ca6",
+  "active": "b1b1c13f82c2579d",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工具/抓包工具.md",
@@ -877,7 +897,6 @@
     "笔记/前端/基础知识/数据结构/栈.md",
     "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/基础知识/算法/算法.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
