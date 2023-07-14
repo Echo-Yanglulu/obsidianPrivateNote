@@ -145,7 +145,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 ## loader【模块加载及其内容处理】
 ==一想到loader这个概念，马上想起它的定义、原理、分类、配置== 
 1.定义：
-	1. 一个**函数**，用于在`import`或`load`==JS/JSON之外==的其他模块时，将源码转换[^2]为JS[[模块]]，并添加到依赖图中（默认只可编译JS、JSON模块）
+	1. 一个**函数**，用于在 `import` 或 `load` ==JS/JSON之外==的其他模块时加载模块，并将源码转换[^2]为JS [[模块]]，添加到依赖图中（默认只可编译JS、JSON模块）
 	2. 自己：处理依赖关系时，可**非JS/[[JSON]]模块**的**加载与内容处理**。
 		1. 加载
 			1. cson/ts/CoffeeScript/[[HTML]] 
@@ -154,6 +154,14 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 			2. 语法转换：es6
 			3. 从不同语言转换为JS,或将内联图像转换为data URL
 			4. 在js文件中`import`css。
+
+### 特性
+1. 支持链式调用
+3. 运行在 [[node]] 中，可执行任何操作
+4. 可通过options对象配置
+2. 可同步或异步
+5. [[babel#plugin（最基础的工具）|插件]]能为loader带来更多特性【插件可对loader进行扩展】
+6. 会产生额外的意外文件
 ###  功能
 1. 文件预处理
 	1. val-loader 将代码作为模块执行，并将其导出为 JS 代码
@@ -189,13 +197,6 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 6. 框架
 	1. `vue-loader` 加载并编译 Vue 组件
 	2. `angular2-template-loader` 加载并编译 Angular 组件
-### 特性
-1. 支持链式调用
-2. 可同步或异步
-3. 运行在[[node]]中，可执行任何操作
-4. 可通过options对象配置
-5. [[babel#plugin（最基础的工具）|插件]]能为loader带来更多特性【插件可对loader进行扩展】
-6. 会产生额外的意外文件
 ### 原理
 #### 洋葱模型
 ![[Pasted image 20220806153852.png]]
