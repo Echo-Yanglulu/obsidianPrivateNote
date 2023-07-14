@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/数据结构/数据结构.md"
+                    "file": "链表.md"
                   }
                 }
               }
@@ -438,7 +438,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "链表.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -466,7 +466,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "链表.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -771,8 +771,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "14b6e86d5164d173",
+  "active": "d9e687547b447933",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/数据结构/数据结构.md",
     "链表.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "Day Planners/2023-07-14.md",
@@ -801,7 +802,6 @@
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/库、框架/UI库/JSX.md",
     "笔记/前端/库、框架/UI库/redux.md",
-    "笔记/前端/库、框架/UI库/react-redux.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/类组件根据props重置state.png",
     "笔记/前端/assets/类组件错误边界.png",
