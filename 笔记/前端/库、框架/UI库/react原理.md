@@ -7,7 +7,18 @@
 
 看 vscode
 # [[函数式编程]] 
+
+# [[JSX]] 本质
+本质就是它编译为什么
+是react.createElement函数调用的语法糖。
+
 # virtual dom 与 diff
+## dom更新过程【整体流程】
+1. 调用dom api更新
+2. 通过v-dom更新
+	1. 每次render**新建v-dom** 
+	2. **diff**新旧v-dom，确定变更
+	3. 调用dom api更新【**协调**过程】
 ##  v-dom
 1. 定义
 	1. 官方：一个编程理念，被保存在内存中的*对UI的映射*，并通过某些库（如[[ReactDOM]]）将该映射同步渲染为真实DOM。
@@ -37,69 +48,9 @@
 		1. 子节点*增删*：react-dom对元素进行简单的增删
 		2. 子节点*移动*：react-dom会进行比较复杂的diff。
 			1. 比如。如果开发者把最后一个子节点移动到第一个，react-dom会将前面的节点依次向后移动（如果代码中有这种操作，源码的实现是比较低效的）【日常开发中要避免这种操作】
-## dom更新过程
-1. 调用dom api更新
-2. 通过v-dom更新
-	1. 每次render生成一个新的v-dom
-	2. diff新旧v-dom，确定变更
-	3. 调用dom api更新
-
 表面上看起来好像v-dom更新dom的过程多了几步。
 频繁操作dom会引起页面重绘
-# [[JSX]] 本质
-本质就是它编译为什么
-是react.createElement函数调用的语法糖。
-# [[react合成事件]] 
-# setState 与 batchUpdate原理
-##  现象
-1. 同步
-	1. 17之前，有时同步，有时异步
-	2. 17之后，定时器与DOM事件中也是同步[^4]
-2. 合并
-	1. 传入对象时合并，传入函数时不合并。
-##  [[this]].setState原理
-1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
-	1. 如果命中了**异步**的setState，即处于batchUpdate，走左边分支
-		1. 将状态改变的组件*保存*在dirtyComponents中
-		2. 对其中的组件进行*更新与渲染* 
-	2. 哪些能命中batchUpdate机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
-			1. 生命周期
-			2. react中注册的事件处理函数
-	3. 哪些不能命中bU机制？react管理不到的入口
-		1. 定时器，自定义的DOM事件
-##  batchUpdate机制
-是否批量更新state
-核心：isBatchingUpdates ![[Pasted image 20230711155421.png]] 
-	1. 在执行事件处理函数前，初始化 `isBatchingUpdates = true`
-	2. 执行函数（生命周期函数、组件注册的事件回调）
-	3. 设置 `isBatchingUpdates = false` 
-	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
-## transaction事务机制 
-![[Pasted image 20230711161656.png]] 
-	1. 过程
-		1. 组件创建时注入初始化逻辑、结束逻辑
-		2. 调用时执行初始化逻辑、目标函数、结束逻辑
-	2. 应用
-		1. batchUpdate的流程也属于transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
-# 组件渲染和更新过程
-1. [[JSX]] 如何渲染为页面
-	1. 执行render生成vnode
-	2. patch（elem, vnode）和patch（vnode, newVnode）
-2. 组件渲染过程
-	1. *接收*props, state
-	2. render*生成vnode* 
-	3. *更新*：patch (elem, vnode)
-3. 组件更新过程
-	1. setState (newState)，生成dirtyCompoentns（可能有子组件）
-	2. 接收新props, state
-	3. render生成newVnode
-	4. 更新：patch (vnode, newVnode)【可分为两个阶段】
-		1.  reconcin 协调阶段 - 执行diff算法，纯JS计算
-		2. commit阶段 - 将diff结果渲染为DOM
-4. setState后如何更新页面。更新的两个阶段
-5. 面试会考察全流程
-# Shadow DOM
-定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
+
 # 协调
 定义：在更新过程中，将 [[react原理#virtual dom|virtual dom]] 同步渲染为真实 [[DOM]] 的过程。是react中最重要、最核心的部分。
 有两种协调方式
@@ -157,3 +108,55 @@ react也使用了这种方式进行任务间的切换。 ![[Pasted image 2023053
 [^2]: class组件是render，函数组件是return
 [^3]: 此阶段用户可感知到
 [^4]: 组件的事件不是同步的，是原生的DOM事件
+
+# [[react合成事件]] 
+# setState 与 batchUpdate原理
+##  现象
+1. 同步
+	1. 17之前，有时同步，有时异步
+	2. 17之后，定时器与DOM事件中也是同步[^4]
+2. 合并
+	1. 传入对象时合并，传入函数时不合并。
+##  [[this]].setState原理
+1. setState主流程。核心：是否处于处于batchUpdate机制 ![[Pasted image 20230711154720.png]] 
+	1. 如果命中了**异步**的setState，即处于batchUpdate，走左边分支
+		1. 将状态改变的组件*保存*在dirtyComponents中
+		2. 对其中的组件进行*更新与渲染* 
+	2. 哪些能命中batchUpdate机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
+			1. 生命周期
+			2. react中注册的事件处理函数
+	3. 哪些不能命中bU机制？react管理不到的入口
+		1. 定时器，自定义的DOM事件
+##  batchUpdate机制
+是否批量更新state
+核心：isBatchingUpdates ![[Pasted image 20230711155421.png]] 
+	1. 在执行事件处理函数前，初始化 `isBatchingUpdates = true`
+	2. 执行函数（生命周期函数、组件注册的事件回调）
+	3. 设置 `isBatchingUpdates = false` 
+	4. 当异步的定时器、DOM事件回调被执行时，同步代码已经将isBatchingUpdates赋值为false，所以这两种场景下state的更新是同步的
+## transaction事务机制 
+![[Pasted image 20230711161656.png]] 
+	1. 过程
+		1. 组件创建时注入初始化逻辑、结束逻辑
+		2. 调用时执行初始化逻辑、目标函数、结束逻辑
+	2. 应用
+		1. batchUpdate的流程也属于transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
+# 组件渲染和更新过程
+1. [[JSX]] 如何渲染为页面
+	1. 执行render生成vnode
+	2. patch（elem, vnode）和patch（vnode, newVnode）
+2. 组件渲染过程
+	1. *接收*props, state
+	2. render*生成vnode* 
+	3. *更新*：patch (elem, vnode)
+3. 组件更新过程
+	1. setState (newState)，生成dirtyCompoentns（可能有子组件）
+	2. 接收新props, state
+	3. render生成newVnode
+	4. 更新：patch (vnode, newVnode)【可分为两个阶段】
+		1.  reconcin 协调阶段 - 执行diff算法，纯JS计算
+		2. commit阶段 - 将diff结果渲染为DOM
+4. setState后如何更新页面。更新的两个阶段
+5. 面试会考察全流程
+# Shadow DOM
+定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
