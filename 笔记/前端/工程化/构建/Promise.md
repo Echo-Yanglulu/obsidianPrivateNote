@@ -44,8 +44,12 @@
 ## promise.prototype.finally
 ## Promise.all
 将多个promise实例包装为一个promise实例
-	2. 参数可以不是数组，但需要具备Iterator接口，且返回的每个成员都是Promise实例
-	1. 元素如果不是promise实例，先调用Promise.resolve转为实例
+	1. 参数
+		1. 参数可以不是数组，但需要具备Iterator接口，且返回的每个成员都是Promise实例
+		2. 元素如果不是promise实例，先调用Promise.resolve转为实例
+	2. 返回值
+		1. 全部状态变为解决，变为解决，解决值是数组
+		2. 一个拒绝，变为拒绝。
 ## Promise.allSettled
 ## Promise.any
 ## Promise.race
