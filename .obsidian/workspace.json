@@ -464,10 +464,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-07-15",
+                      "title": "DOM",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-15.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":27},\"to\":{\"line\":19,\"ch\":27}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -877,10 +877,11 @@
   },
   "active": "86cbda7c89d121cc",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/前端工作.md",
     "Day Planners/2023-07-15.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/性能优化.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/工程化/工具/抓包工具.md",
@@ -912,7 +913,6 @@
     "笔记/前端/assets/Pasted image 20230714160226.png",
     "笔记/前端/assets/Pasted image 20230714155740.png",
     "笔记/前端/编程语言/JS/JS.md",
-    "笔记/前端/基础知识/数据结构/栈.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
