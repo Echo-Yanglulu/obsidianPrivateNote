@@ -4,6 +4,10 @@
 	1. 基于 React 的强大路由库，它可以让你向应用中快速地添加视图和数据流，同时保持页面与 URL 间的同步
 		1. 如果不使用该路由管理工具，需要
 	2. 保持 UI 与 URL 同步。拥有简单的 API 与强大的功能例如代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理。你第一个念头想到的应该是 URL，而不是事后再想起。
+## 相关
+[Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
+[React Router v6 官方文档翻译 （一） ---- Installation && Quick Start - 掘金](https://juejin.cn/post/7100479939694034952?searchId=202307131615023EF2ADD9ABAC267EDEB1#heading-2) 
+[React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
 ## 环境
 支持所有的浏览器和环境中运行 React
 ## 模式
@@ -14,11 +18,10 @@ B 端应用可选择hash模式，C 端应用可选择History模式
 Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 # 安装与导入
 [[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
-## react-router库与react-router-dom的区别是什么？
+## react-router库与react-router-dom的区别？
 前者只提供了路由的核心功能，后者基于前者（不含？）提供了在**浏览器环境下使用路由所需的功能**。
 后者依赖于前者，所以只需安装后者即可。
 
-基于浏览器做路由管理的话，也只需要安装一个后者即可。
 前者提供的组件：Route
 后者提供的组件：![[Pasted image 20230529150508.png]] 
 1. 后者提供的两个Router组件有什么区别？
@@ -121,6 +124,3 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 # 相关
 ## 库
 react-router-config：避免了原有的“平铺式”写法，有利于后期维护
-## 链接
-[Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
-[React Router v6 官方文档翻译 （一） ---- Installation && Quick Start - 掘金](https://juejin.cn/post/7100479939694034952?searchId=202307131615023EF2ADD9ABAC267EDEB1#heading-2) 

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/Promise.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -461,17 +461,17 @@
                 "id": "86cbda7c89d121cc",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "DOM",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":27},\"to\":{\"line\":19,\"ch\":27}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":385,\"ch\":21},\"to\":{\"line\":385,\"ch\":21}},\"scroll\":303.4355016538037}"
                     },
                     {
                       "title": "webpack",
@@ -490,7 +490,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -542,7 +542,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -875,11 +875,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a375c71b9fc61e86",
+  "active": "86cbda7c89d121cc",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
-    "笔记/前端/ES6新特性.md",
     "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/ES6新特性.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230715145523.png",
