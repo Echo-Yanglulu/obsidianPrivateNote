@@ -1,7 +1,8 @@
 # 概述
+本质：一个构造函数，生成
 作用
-	1. 在一个条件完成后，添加一个异步任务。
-		1. 图片加载完毕，大量计算完毕
+	1. 在主任务成功或失败后，添加异步任务。
+		1. 图片加载完毕后替换，大量计算完毕后修改，网络请求结束后修改Loading。
 状态
 	1. 三种状态pending, fulfilled, rejected
 	2. 调用resolved：改变状态为resolved并传参。调用rejected：改变状态为rejected并传参 
@@ -16,11 +17,17 @@
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
 特性
-	1. 状态不受外部影响
-	2. 状态改变不可逆
-	3. 链式调用
+	1. 状态
+		1. 不受外部影响
+		2. 改变不可逆
+	2. 进度：处于pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）
+	3. 取消：无法取消，一旦新建Promise就会立即执行
+	4. 错误：如果不设置回调函数，Promise内部抛出的错误，不会反应到外部
+	5. 链式调用
 		1. **有异常**则当前返回rejected状态的promise对象。
 		2. 否则返回fulfilled状态的promise对象
+
+如果某些事件不断地反复发生，一般来说，使用 Stream 模式是比部署Promise更好的选择。[Stream | Node.js v20.4.0 Documentation](https://nodejs.org/api/stream.html) 
 # API
 Promise.resolve
 Promise.reject
