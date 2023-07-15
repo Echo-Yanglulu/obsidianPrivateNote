@@ -1,4 +1,7 @@
 # 概述
+作用
+	1. 在一个条件完成后，添加一个异步任务。
+		1. 图片加载完毕，大量计算完毕
 状态
 	1. 三种状态pending, fulfilled, rejected
 	2. 调用resolved：改变状态为resolved并传参。调用rejected：改变状态为rejected并传参 
@@ -13,8 +16,9 @@
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
 特性
-	1. 状态的改变不可逆
-	2. 链式调用
+	1. 状态不受外部影响
+	2. 状态改变不可逆
+	3. 链式调用
 		1. **有异常**则当前返回rejected状态的promise对象。
 		2. 否则返回fulfilled状态的promise对象
 # API
@@ -24,8 +28,10 @@ promise.prototype.then
 promise.prototype.catch
 promise.prototype.finally
 Promise.all
+Promise.allSettled
 Promise.any
 Promise.race
+Promise.try
 # 手写
 ```js
 class MyPromise {
