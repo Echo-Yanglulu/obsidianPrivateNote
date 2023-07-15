@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/性能优化.md"
                   }
                 }
               }
@@ -542,7 +542,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/性能优化.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/性能优化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -875,10 +875,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "86cbda7c89d121cc",
+  "active": "28494941a6595fe0",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DOM事件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/前端安全.md",
+    "笔记/前端/cookie.md",
+    "笔记/前端/编程语言/JS/DOM事件.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/AbortController.md",
@@ -903,8 +905,6 @@
     "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
-    "笔记/前端/编程语言/JS/DNS.md",
-    "笔记/学习/学习.md",
     "笔记/前端/assets/Pasted image 20230714171309.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160923.png",
