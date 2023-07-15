@@ -1,7 +1,7 @@
 [起步 | Axios 中文文档 | Axios 中文网](https://www.axios-http.cn/docs/intro) 
 [axios中文文档|axios中文网 | axios](http://axios-js.com/zh-cn/docs/) 
 # 概述
-【P端拦消转】【一个屁，】
+【P端拦消转】【一个屁，端起来，蓝色的，转了一圈，消失了】
 定义：一个基于 [[promise]] 的[[网络请求库]]。
 	1. 在服务端使用原生[[node|node.js]]的http模块
 	2. 在客户端使用[[网络请求#XHR对象|XMLHttpRequests]] 
