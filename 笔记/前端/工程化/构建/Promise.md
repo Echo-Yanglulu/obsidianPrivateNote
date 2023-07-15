@@ -37,16 +37,19 @@
 
 如果某些事件不断地反复发生，一般来说，使用 [Stream](https://nodejs.org/api/stream.html) 模式是比部署Promise更好的选择。
 # API
-Promise.resolve
-Promise.reject
-promise.prototype.then
-promise.prototype.catch
-promise.prototype.finally
-Promise.all
-Promise.allSettled
-Promise.any
-Promise.race
-Promise.try
+## Promise.resolve
+## Promise.reject
+## promise.prototype.then
+## promise.prototype.catch
+## promise.prototype.finally
+## Promise.all
+将多个promise实例包装为一个promise实例
+	2. 参数可以不是数组，但需要具备Iterator接口，且返回的每个成员都是Promise实例
+	1. 元素如果不是promise实例，先调用Promise.resolve转为实例
+## Promise.allSettled
+## Promise.any
+## Promise.race
+## Promise.try
 # 手写
 ```js
 class MyPromise {
