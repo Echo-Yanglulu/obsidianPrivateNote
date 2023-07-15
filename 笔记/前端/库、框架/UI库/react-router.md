@@ -123,7 +123,23 @@ React.render(<Router routes={routeConfig} />, document.body)
 			1. 从最外层的父路由开始直到最下层子路由结束
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-## 匹配规则
+## path与URL匹配规则
+### 嵌套关系
+通过嵌套路由的方式，定义view的嵌套
+	1. 一个给定的 URL 被调用时，整个集合中的组件都会被渲染
+	2. 一种树形结构
+	3. React Router 会*深度优先*遍历整个路由配置来寻找一个与给定的 URL 相匹配的路由
+### 路径语法
+`:paramName`  匹配一段位于 /、? 或 # 之后的 URL。命中的部分将被作为一个参数
+`()`   在它内部的内容被认为是可选的
+`*`  匹配任意字符（非贪婪的）直到命中下一个字符或者整个 URL 的末尾，并创建一个 splat 参数
+```js
+<Route path="/hello/:name">         // 匹配 /hello/michael 和 /hello/ryan
+<Route path="/hello(/:name)">       // 匹配 /hello, /hello/michael 和 /hello/ryan
+<Route path="/files/*.*">           // 匹配 /files/hello.jpg 和 /files/path/to/hello.jpg
+```
+### 优先级
+## 组件与path匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
 	2. 单个：Switch包裹Route/Redirect。
