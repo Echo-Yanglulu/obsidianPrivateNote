@@ -145,29 +145,29 @@ export const foo = 'foo' as myFoo;
 
 # 模块导入
 使用export定义了对外接口后，其他JS文件可使用import命令加载
+
+## 形式
+普通结构
+	1. 命名 `import { firstName, lastName, year } from './profile.js';` 
+	2. 重命名 `import { lastName as surname } from './profile.js';` 
+特性
+	1. 只读。导入变量对模块而言只读
+		1. 无法直接修改导入的值
+		2. 已导出的属性也不能修改
+	2. 提升。在编译阶段执行，其他代码运行之前
+	3. 静态执行。使用变量、 
+	4. 作用域。模块顶级
 普通结构
 	1. import 
-		1. 提升，会提升到整个模块的头部，首先执行
-			1. 在编译阶段执行，其他代码运行之前
-	2. 命名
-		1. react ：默认导出
-		2. { useState }：命名导出
-		2. { useState as uS }：命名导出并重命名
 	3. from
-	4. 模块
+	4. 模块文件的位置
 		1. [[相对路径]] 
 		2. [[绝对路径]] 
 		3. 不带有路径，只是一个模块名，那么必须有配置文件，告诉 JavaScript 引擎该模块的位置
 特殊结构
 	1. import '模块'：执行所加载的模块
 		1. 重复书写：同一句import语句，只执行一次
-结构
-	1. 
-特性
-	1. 只读。导入变量对模块而言只读
-		1. 无法直接修改导入的值
-		2. 已导出的属性也不能修改
-环境：同样必须出现在模块顶级
+
 ```javascript
 // 所有导出（包含命名与默认），重命名
 import * as name from "module-name"; 
