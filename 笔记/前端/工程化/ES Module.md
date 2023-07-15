@@ -62,10 +62,6 @@ JS模块文件没有专门的内容类型
 3. 执行
 	1. 异步执行
 	2. 默认在严格模式下
-# 模块转移导出
-```javascript
-export * from './foo.js';
-```
 # 工作者模块
 
 # 模块导出
@@ -98,8 +94,12 @@ export * from './foo.js';
 		1. 本质是将后面的值，赋给default变量
 			1. 不能使用声明[[Pasted image 20230715145016.png]] 
 			2. 后导出不用对象 [[Pasted image 20230715144338.png]] 
-	4. 转换导出
-		1. 
+	4. 转移导出
+		1. 只是转移，当前模块不能使用该变量
+		2. 重命名转移
+		3. 具名转默认转出
+		4. 默认转具名转出
+		5. 整体转具名转出[[Pasted image 20230715145523.png]] 
 特性
 	1. 动态。导出语句出执行了修改，导入会收到修改的值
 
@@ -204,6 +204,8 @@ import defaultExport, { export [ , [...] ] } from "module-name";
 import "module-name"; // 运行模块中的全局代码，不导入任何导出
 var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
+
+# 模块继承
 
 # 向后兼容
 
