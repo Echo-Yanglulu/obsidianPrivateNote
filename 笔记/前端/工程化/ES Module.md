@@ -89,12 +89,13 @@ export * from './foo.js';
 	2. 普通导出
 		1. 声明同时导出 [[Pasted image 20230715122821.png]] 
 		2. 先声明再导出 [[Pasted image 20230715122839.png]] 
-			1. 后导出只能通过对象，不能导出已声明的接口
+			1. *后导出只能通过对象*，不能导出已声明的接口
 		3. 重命名 [[Pasted image 20230715123040.png]] 
 			1. 别名是default，则等同于默认导出
 		4. 可通过 `*` 进行批量导入、指名导入
 	3. 默认导出
-		1. 
+		1. 大括号中
+		2. 后导出不用对象[[Pasted image 20230715144338.png]] 
 特性
 	1. 动态。导出语句出执行了修改，导入会收到修改的值
 
@@ -151,6 +152,7 @@ export const foo = 'foo' as myFoo;
 	1. 单个加载 `import { firstName, lastName, year } from './profile.js';` 
 		1. 合并[[引入合并.png]] 
 	2. 重命名 `import { lastName as surname } from './profile.js';` 
+		1. 大括号中使用default可成为默认导入
 	3. 整体加载 `import * as circle from './circle';` 
 		1. 需要静态分析，不能在运行时改变 [[整体导入.png]] 
 	4. 加载且执行 `import 'lodash';` 
@@ -169,9 +171,6 @@ export const foo = 'foo' as myFoo;
 		1. [[相对路径]] 
 		2. [[绝对路径]] 
 		3. 不带有路径，只是一个模块名，那么必须有配置文件，告诉 JavaScript 引擎该模块的位置
-特殊结构
-	1. import '模块'：执行所加载的模块
-		1. 重复书写：同一句import语句，只执行一次
 
 ```javascript
 // 所有导出（包含命名与默认），重命名
