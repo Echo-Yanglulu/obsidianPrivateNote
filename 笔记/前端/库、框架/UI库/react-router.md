@@ -65,7 +65,18 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 2. 库中的 useHistory API ![[Pasted image 20230710222914.png]] 
 # 路由配置
 一组指令，告诉router如何匹配url与组件。
-IndexRoute：默认组件
+1. 默认组件：IndexRoute
+2. 重定向：Redirect 
+	1. from
+	2. to
+3. 路由：Route
+	1. path：需要匹配的路由参数
+	2. component：该路由对应的路由级别组件
+	3. Hook：跳转的权限验证、存储数据
+		1. onEnter
+			1. 从最外层的父路由开始直到最下层子路由结束
+		2. onLeave
+			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
 ### 匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
