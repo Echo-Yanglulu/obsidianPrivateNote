@@ -65,19 +65,65 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 2. 库中的 useHistory API ![[Pasted image 20230710222914.png]] 
 # 路由配置
 一组指令，告诉router如何匹配url与组件。
-1. 默认组件：IndexRoute
-2. 重定向：Redirect 
+## 配置方式
+### JSX嵌套
+```js
+import { Redirect } from 'react-router'
+
+React.render((
+  <Router>
+    <Route path="/" component={App}>
+      <IndexRoute component={Dashboard} />
+      <Route path="about" component={About} />
+      <Route path="inbox" component={Inbox}>
+        <Route path="/messages/:id" component={Message} />
+
+        {/* 跳转 /inbox/messages/:id 到 /messages/:id */}
+        <Redirect from="messages/:id" to="/messages/:id" />
+      </Route>
+    </Route>
+  </Router>
+), document.body)
+```
+### 原生route数组对象
+```js
+const routeConfig = [
+  { path: '/',
+    component: App,
+    indexRoute: { component: Dashboard },
+    childRoutes: [
+      { path: 'about', component: About },
+      { path: 'inbox',
+        component: Inbox,
+        childRoutes: [
+          { path: '/messages/:id', component: Message },
+          { path: 'messages/:id',
+            onEnter: function (nextState, replaceState) {
+              replaceState(null, '/messages/' + nextState.params.id)
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+
+React.render(<Router routes={routeConfig} />, document.body)
+```
+## 组件
+3. 默认组件：IndexRoute
+4. 重定向：Redirect 
 	1. from
-	2. to
-3. 路由：Route
+	2. to。只有to属性：没有任何匹配时的重定向
+5. 路由：Route
 	1. path：需要匹配的路由参数
 	2. component：该路由对应的路由级别组件
-	3. Hook：跳转的权限验证、存储数据
+	3. Hook：进入和离开的hook。用于跳转的权限验证、存储数据
 		1. onEnter
 			1. 从最外层的父路由开始直到最下层子路由结束
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-### 匹配规则
+## 匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
 	2. 单个：Switch包裹Route/Redirect。
@@ -89,11 +135,11 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 	2. component：该路由对应的路由级别组件
 	3. render属性
 使用时react会自动为绑定的*路由级别*组件注入三个属性
-### 路由属性
-#### 注入
+## 路由属性
+### 注入
 通过Route组件绑定的路由级别组件，会自动注入
 其他叶子组件，需要传入withRouter。
-#### 访问
+### 访问
 通过props访问
 	1. history：会自动使用浏览器的history对象，实现在历史记录中导航。
 		1. go
@@ -107,7 +153,7 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		2. URL
 		3. params
 		4. isExact：当前组件是否由精确匹配展示
-### 子路由
+## 子路由
 Route组件嵌套
 ```js
 React.render((
@@ -120,8 +166,8 @@ React.render((
 ), document.body)
 ```
 内部，router 会将你树级嵌套格式的\<Route> 转变成路由配置
-### [[URL]] 参数
-#### 路由参数
+## [[URL]] 参数
+### 路由参数
 【实际最好不要用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件，不要用于传参
 传递
 	1. 单个：[[Pasted image 20230529155559.png]] 
@@ -132,7 +178,7 @@ React.render((
 接收
 	1. props.match.params
 	2. react-router-dom库中的 useParams [[Pasted image 20230710222733.png]] 
-#### 查询参数
+### 查询参数
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
 	1. location.search，结果建议使用三方库query-string处理【应该是非常智能】
 	2. react-router-dom的useSearchParams
