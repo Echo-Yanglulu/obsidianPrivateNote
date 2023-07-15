@@ -13,12 +13,19 @@
 		1. Promise.resolve()创建解决
 		1. Promise.reject()创建拒绝 
 特性
-	1. 状态的变化不可逆
-	2. 每次链式调用
+	1. 状态的改变不可逆
+	2. 链式调用
 		1. **有异常**则当前返回rejected状态的promise对象。
 		2. 否则返回fulfilled状态的promise对象
 # API
-
+Promise.resolve
+Promise.reject
+promise.prototype.then
+promise.prototype.catch
+promise.prototype.finally
+Promise.all
+Promise.any
+Promise.race
 # 手写
 ```js
 class MyPromise {

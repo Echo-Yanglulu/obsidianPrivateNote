@@ -206,9 +206,26 @@ import "module-name"; // 运行模块中的全局代码，不导入任何导出
 var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
 # 动态加载
-背景：引擎在编译时处理Import语句，并不会分析或执行分支等语句。无法进行异步或条件加载模块。
+背景：引擎在编译时处理Import语句，并不会分析或执行分支等语句。无法进行模块的异步加载或条件加载。
 方案：import(specifier)函数
-	1. 返回一个[[Promise]] 
+	1. 同步加载[^3]
+	2. 返回一个 [[Promise]] 
+
+```js
+async function renderWidget() {
+  const container = document.getElementById('widget');
+  if (container !== null) {
+    // 等同于
+    // import("./widget").then(widget => {
+    //   widget.render(container);
+    // });
+    const widget = await import('./widget.js');
+    widget.render(container);
+  }
+}
+
+renderWidget();
+```
 # 模块继承
 
 # 向后兼容
@@ -216,3 +233,4 @@ var promise = import("module-name");//这是一个处于第三阶段的提案。
 
 [^1]: JS引擎不需要通过require函数才能知道引入的模块，在解析代码时可通过[[AST]]得到依赖关系
 [^2]: 意思就是语言原生支持？
+[^3]: node的require()方法是异步加载
