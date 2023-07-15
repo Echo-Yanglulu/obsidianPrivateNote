@@ -87,17 +87,19 @@ export * from './foo.js';
 	1. 必须在大括号语法中
 	2. 如果别名是default，则等同于默认导出
 ``` javascript
-// 具名导出
-export let name1, name2, …, nameN; // also var, const。只声明
+// 单个具名导出
 export class Foo {}
 export function foo() {}
-export function* foo() {}  // 对象初始化
-// 具名初始化导出语句：会成为一个对象的属性
+export function* foo() {}
 export const foo = 'foo', bar = 'bar'; 
-// 匿名导出
+export let name1, name2, …, nameN; // also var, const。可只声明，不初始化
+// 集合/子句导出
+// 优先使用，可直接看清导出的所有变量
 export { a: 1, b: function(){} }  // 导出列表
-export { str as helloStr } from './b'// 引入外部模块，**别名导出**
+export { str as helloStr } from './b'// 引入外部模块
 export { foo as myFoo, bar };
+// 解构导出
+export const { name1, name2: bar } = o;
 
 // 默认导出
 export default { foo: 'foo' };
@@ -106,8 +108,6 @@ export default foo
 export default function foo() {} // 默认导出：变量命名无效
 export default function*() {}
 
-// 解构导出并重命名
-export const { name1, name2: bar } = o;
 
 // 转移导出
 export * from …; // does not set the default export
@@ -127,7 +127,11 @@ export { 123 as foo }
 // 3.别名只能在export子句中出现
 export const foo = 'foo' as myFoo;
 ```
-
+## 形式
+1. 普通导出
+2. 单个导出
+3. 集合导出
+	1. 别名
 # 模块导入
 方式
 	1. 导出方式
