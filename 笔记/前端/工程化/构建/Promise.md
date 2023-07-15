@@ -1,5 +1,7 @@
 # 概述
-本质：一个构造函数，生成
+本质：一个构造函数，传参接收一个函数，生成Promise实例
+	1. resolve：*改变状态*为fulfilled，并传递给*负责处理成功情况*的异步任务
+	2. reject：改变状态为rejected，并传递给*负责处理失败情况*的异步任务
 作用
 	1. 在主任务成功或失败后，添加异步任务。
 		1. 图片加载完毕后替换，大量计算完毕后修改，网络请求结束后修改Loading。
@@ -22,10 +24,11 @@
 		2. 改变不可逆
 	2. 进度：处于pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）
 	3. 取消：无法取消，一旦新建Promise就会立即执行
-	4. 错误：如果不设置回调函数，Promise内部抛出的错误，不会反应到外部
+	4. 错误：如果不设置回调函数，Promise内部抛出的错误不会反应到外部
 	5. 链式调用
-		1. **有异常**则当前返回rejected状态的promise对象。
-		2. 否则返回fulfilled状态的promise对象
+		1. 返回落定的promise
+			1. **有异常**则返回rejected状态的promise对象。
+			2. 否则返回fulfilled状态的promise对象
 
 如果某些事件不断地反复发生，一般来说，使用 Stream 模式是比部署Promise更好的选择。[Stream | Node.js v20.4.0 Documentation](https://nodejs.org/api/stream.html) 
 # API
