@@ -149,13 +149,17 @@ export const foo = 'foo' as myFoo;
 ## 形式
 普通结构
 	1. 命名 `import { firstName, lastName, year } from './profile.js';` 
+		1. 合并[[引入合并.png]] 
 	2. 重命名 `import { lastName as surname } from './profile.js';` 
+	3. 整体加载
+	4. 导入且执行 `import 'lodash';` 
+		1. 幂等
 特性
 	1. 只读。导入变量对模块而言只读
 		1. 无法直接修改导入的值
 		2. 已导出的属性也不能修改
 	2. 提升。在编译阶段执行，其他代码运行之前
-	3. 静态执行。使用变量、 
+	3. 静态执行。变量、表达式、语句等执行时才能定值的导入，无法导入成功 [[错误导入.png]] 
 	4. 作用域。模块顶级
 普通结构
 	1. import 
