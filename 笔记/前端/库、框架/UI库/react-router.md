@@ -51,6 +51,9 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		1. 功能
 			1. 不会重新发送请求
 			2. 完成了一个由前端控制路由的SPA
+		2. 属性
+			1. to：字符串，要**跳转的路由参数** 
+			2. 
 	3. NavLink组件。
 ### 编程式导航
 1. history路由属性
@@ -68,11 +71,16 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		1. 不使用switch：渲染全部模糊匹配到的组件
 		2. 使用：只渲染第一个与当前路由匹配的组件。
 	3. 精确：Route添加exact属性。路由与path属性精确匹配时才渲染该组件
-2. 对应组件
-	1. render属性
-	2. component属性
+2. 属性
+	1. path：需要匹配的路由参数
+	2. component：该路由对应的路由级别组件
+	3. render属性
 使用时react会自动为绑定的*路由级别*组件注入三个属性
 ### 路由属性
+#### 注入
+通过Route组件绑定的组件，会自动注入
+其他组件，需要调用wi
+#### 访问
 通过props访问
 	1. history：会自动使用浏览器的history对象，实现在历史记录中导航。
 		1. go
@@ -99,24 +107,25 @@ React.render((
 ), document.body)
 ```
 内部，router 会将你树级嵌套格式的\<Route> 转变成路由配置
-### 参数
+### [[URL]] 参数
 #### 路由参数
 【实际最好不要用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件，不要用于传参
-单个：![[Pasted image 20230529155559.png]] 
-多个：
-	1. 准确![[Pasted image 20230529155825.png]] 
-	2. 模糊。接收时未传递的是undefined![[Pasted image 20230529160359.png]]
-顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
+传递
+	1. 单个：[[Pasted image 20230529155559.png]] 
+	2. 多个
+		1. 准确 ![[Pasted image 20230529155825.png]] 
+		2. 模糊。接收时未传递的是undefined ![[Pasted image 20230529160359.png]]
+	3. 顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
 接收
 	1. props.match.params
-	2. 库中的 useParams ![[Pasted image 20230710222733.png]] 
+	2. react-router-dom库中的 useParams [[Pasted image 20230710222733.png]] 
 #### 查询参数
 实际中更多地是使用URL的查询参数，结合queryString进行解析。参见[[location]]。
-	1. 通过location.search获取，结果建议使用三方库query-string处理【应该是非常智能】
-	2. 通过react-router-dom的useSearchParams获取
+	1. location.search，结果建议使用三方库query-string处理【应该是非常智能】
+	2. react-router-dom的useSearchParams
 		1. `const [searchParams] = useSearchParams()`
 		2. `const currentType = searchParams.get('type');` 
-### 总结
+### 小结
 路由级别组件[^1] 
 	1. 传递属性：为避免三个路由属性被覆盖，需传入参数。 ![[Pasted image 20230529155319.png]] 
 	2. 传递查询参数【因为是路由级别】。
