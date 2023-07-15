@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/同源策略.md"
+                    "file": "笔记/前端/编程语言/JS/CSRF.md"
                   }
                 }
               }
@@ -542,7 +542,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/编程语言/JS/CSRF.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/同源策略.md",
+                        "file": "笔记/前端/编程语言/JS/CSRF.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -875,9 +875,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2226590fc398b90b",
+  "active": "ffd9349db08b51f4",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/CSRF.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/JSONP.md",
+    "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/闭包.md",
     "笔记/前端/编程语言/JS/作用域.md",
@@ -901,10 +905,6 @@
     "笔记/前端/工程化/规范/ESLint/CommonJS.md",
     "笔记/前端/工程化/构建/CMD.md",
     "笔记/前端/工程化/构建/AMD.md",
-    "笔记/前端/工程化/模块化.md",
-    "笔记/前端/localStorage.md",
-    "笔记/前端/indexDB.md",
-    "笔记/前端/sessionStorage.md",
     "笔记/前端/assets/Pasted image 20230714171309.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160923.png",
