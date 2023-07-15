@@ -7,7 +7,7 @@
 		1. 代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理
 功能
 	1. 基于 React 的强大路由库，它可以让你向应用中快速地添加*视图和数据流*，同时保持页面与 URL 间的同步
-		1. 如果不使用它，需要手写hashchange事件
+		1. 如果不使用它，需要监听hashchange事件
 	2. 保持 UI 与 URL 同步。拥有简单的 API 与强大的功能例如代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理。你第一个念头想到的应该是 URL，而不是事后再想起。
 ## 相关
 [Introduction | React Router 中文文档](https://react-guide.github.io/react-router-cn/) 
@@ -41,16 +41,19 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 ![[Pasted image 20230529151509.png]] 
 在应用中，定义URL与组件的映射关系。
 ![[Pasted image 20230529151754.png]] 
-## 路由切换：Link
+## 路由切换
 ### 声明式导航
 方式
-	1. 使用a标签。除了渲染组件，也会刷新页面【不是[[SPA]]】。
+	1. a标签。除了渲染组件，也会*刷新页面*【不是[[SPA]]】。
 		1. 重新发送请求，获取整个页面，
-	2. 使用Link组件。以局部更新的方式渲染所需组件
-		1. 不会重新发送请求
-		2. 完成了一个由前端控制路由的SPA
+		2. 所有组件重新触发 `didMount` 生命周期
+	2. Link组件。以局部更新的方式渲染所需组件
+		1. 功能
+			1. 不会重新发送请求
+			2. 完成了一个由前端控制路由的SPA
+	3. NavLink组件。
 ### 编程式导航
-1. 路由属性中的 history
+1. history路由属性
 	1. push
 	2. replace
 		1. 场景
@@ -83,6 +86,19 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		2. URL
 		3. params
 		4. isExact：当前组件是否由精确匹配展示
+### 子路由
+Route组件嵌套
+```js
+React.render((
+  <Router>
+    <Route path="/" component={App}>
+      <Route path="about" component={About} />
+      <Route path="inbox" component={Inbox} />
+    </Route>
+  </Router>
+), document.body)
+```
+内部，router 会将你树级嵌套格式的\<Route> 转变成路由配置
 ### 参数
 #### 路由参数
 【实际最好不要用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件，不要用于传参
