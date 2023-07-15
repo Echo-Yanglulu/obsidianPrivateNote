@@ -26,11 +26,12 @@
 	3. 取消：无法取消，一旦新建Promise就会立即执行
 	4. 错误：如果不设置回调函数，Promise内部抛出的错误不会反应到外部
 	5. 链式调用
-		1. 返回落定的promise
+		1. 后一个回调会等待该Promise对象的状态发生变化，才会被调用
+		2. 返回落定的promise实例
 			1. **有异常**则返回rejected状态的promise对象。
 			2. 否则返回fulfilled状态的promise对象
 
-如果某些事件不断地反复发生，一般来说，使用 Stream 模式是比部署Promise更好的选择。[Stream | Node.js v20.4.0 Documentation](https://nodejs.org/api/stream.html) 
+如果某些事件不断地反复发生，一般来说，使用 [Stream](https://nodejs.org/api/stream.html) 模式是比部署Promise更好的选择。
 # API
 Promise.resolve
 Promise.reject
