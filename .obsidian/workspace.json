@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/浏览器原理.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -542,7 +542,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/浏览器原理.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -875,14 +875,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f13b3129b59a5452",
+  "active": "86cbda7c89d121cc",
   "lastOpenFiles": [
-    "笔记/前端/MVVM.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/编程语言/JS/DNS.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/性能优化.md",
+    "笔记/前端/assets/Pasted image 20230714160724.png",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/MVVM.md",
+    "笔记/前端/编程语言/JS/DNS.md",
+    "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/编程语言/JS/浏览器线程.md",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/JS/前端安全.md",
@@ -902,13 +903,11 @@
     "Day Planners/2023-07-15.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/工程化/构建/构建.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230714171309.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160923.png",
-    "笔记/前端/assets/Pasted image 20230714160724.png",
     "笔记/前端/assets/Pasted image 20230714160417.png",
     "笔记/前端/assets/Pasted image 20230714160245.png",
     "笔记/前端/assets/Pasted image 20230714160226.png",
