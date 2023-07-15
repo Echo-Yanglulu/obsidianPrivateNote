@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/前端/编程语言/JS/BOM.md"
                   }
                 }
               }
@@ -386,17 +386,23 @@
                 "id": "14b6e86d5164d173",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
                     {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":191,\"ch\":4},\"to\":{\"line\":191,\"ch\":4}},\"scroll\":184.9173098125689}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":211,\"ch\":19},\"to\":{\"line\":211,\"ch\":19}},\"scroll\":187.4715789473684}"
                     },
                     {
-                      "state": "{}",
-                      "eState": "{}"
+                      "title": "性能优化",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/性能优化.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "栈",
@@ -433,7 +439,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/性能优化.md",
+                    "file": "笔记/前端/编程语言/JS/BOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -526,7 +532,7 @@
                 }
               }
             ],
-            "currentTab": 13
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -553,7 +559,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -581,7 +587,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/编程语言/JS/BOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -886,14 +892,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "86cbda7c89d121cc",
+  "active": "14b6e86d5164d173",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
     "Day Planners/2023-07-15.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
-    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/ES6新特性.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
@@ -910,7 +917,6 @@
     "笔记/前端/编程语言/CSS/CSS模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/编程语言/JS/TCP.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/MVVM.md",
     "笔记/前端/编程语言/JS/DNS.md",
     "笔记/前端/编程语言/JS/浏览器线程.md",
