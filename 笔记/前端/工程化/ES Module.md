@@ -158,7 +158,8 @@ export const foo = 'foo' as myFoo;
 	2. 重命名 `import { lastName as surname } from './profile.js';` 
 		1. 大括号中使用default可成为默认导入
 	3. 整体加载 `import * as circle from './circle';` 
-		1. 需要静态分析，不能在运行时改变 [[整体导入.png]] 
+		1. 必须使用重命名，否则报错
+		2. 需要静态分析，不能在运行时改变 [[整体导入.png]] 
 	4. 加载且执行 `import 'lodash';` 
 		1. 幂等
 特性
