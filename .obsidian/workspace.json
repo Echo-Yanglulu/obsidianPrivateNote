@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/Promise.md"
+                    "file": "笔记/前端/ES6新特性.md"
                   }
                 }
               }
@@ -542,7 +542,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/ES6新特性.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/Promise.md",
+                        "file": "笔记/前端/ES6新特性.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -875,10 +875,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a375c71b9fc61e86",
+  "active": "4223ae5db38c5a08",
   "lastOpenFiles": [
-    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/ES6新特性.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230715145523.png",
     "笔记/前端/assets/Pasted image 20230715145016.png",
@@ -888,7 +890,6 @@
     "笔记/前端/assets/引入合并.png",
     "笔记/前端/assets/错误导入.png",
     "笔记/前端/assets/Pasted image 20230715123040.png",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/JS模块化.md",
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/CSS/CSS模块化.md",
@@ -912,7 +913,6 @@
     "笔记/前端/同源策略.md",
     "笔记/前端/JSONP.md",
     "笔记/前端/编程语言/JS/HTTP Method.md",
-    "笔记/前端/编程语言/JS/闭包.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
