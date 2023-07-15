@@ -148,11 +148,12 @@ export const foo = 'foo' as myFoo;
 
 ## 形式
 普通结构
-	1. 命名 `import { firstName, lastName, year } from './profile.js';` 
+	1. 单个加载 `import { firstName, lastName, year } from './profile.js';` 
 		1. 合并[[引入合并.png]] 
 	2. 重命名 `import { lastName as surname } from './profile.js';` 
-	3. 整体加载
-	4. 导入且执行 `import 'lodash';` 
+	3. 整体加载 `import * as circle from './circle';` 
+		1. 需要静态分析，不能在运行时改变 [[整体导入.png]] 
+	4. 加载且执行 `import 'lodash';` 
 		1. 幂等
 特性
 	1. 只读。导入变量对模块而言只读
