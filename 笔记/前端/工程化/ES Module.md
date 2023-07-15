@@ -205,7 +205,10 @@ import defaultExport, { export [ , [...] ] } from "module-name";
 import "module-name"; // 运行模块中的全局代码，不导入任何导出
 var promise = import("module-name");//这是一个处于第三阶段的提案。
 ```
-
+# 动态加载
+背景：引擎在编译时处理Import语句，并不会分析或执行分支等语句。无法进行异步或条件加载模块。
+方案：import(specifier)函数
+	1. 返回一个[[Promise]] 
 # 模块继承
 
 # 向后兼容
