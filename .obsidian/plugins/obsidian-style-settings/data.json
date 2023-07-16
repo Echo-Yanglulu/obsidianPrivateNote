@@ -141,5 +141,7 @@
   "encore-settings@@encore-custom-h4@@light": "#009790",
   "encore-settings@@encore-custom-h5@@light": "#FF00C8",
   "encore-settings@@encore-custom-h6@@light": "#2800D3",
-  "encore-settings@@encore-coloured-tooltip": true
+  "encore-settings@@encore-coloured-tooltip": true,
+  "encore-settings@@h1-colour": "encore-h1-custom",
+  "encore-settings@@h2-colour": "encore-h2-custom"
 }
