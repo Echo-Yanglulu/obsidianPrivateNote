@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP Method.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP缓存.md"
                   }
                 }
               }
@@ -588,7 +588,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -616,7 +616,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP缓存.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,12 +923,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8d9230e5ba8b043c",
+  "active": "eeac893097f0edbb",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/RESTful API.md",
+    "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/编程语言/JS/CSRF.md",
-    "笔记/前端/编程语言/JS/HTTP Method.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/性能优化.md",
@@ -960,7 +961,6 @@
     "笔记/前端/assets/整体导入.png",
     "笔记/前端/assets/Pasted image 20230715122839.png",
     "笔记/前端/assets/引入合并.png",
-    "笔记/前端/assets/错误导入.png",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
