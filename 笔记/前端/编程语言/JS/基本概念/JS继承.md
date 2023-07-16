@@ -80,10 +80,11 @@ person2.sayName(); // "Nicholas"
 
 console.log(person1.sayName == person2.sayName); // true
 ```
-任何时候创建一个函数时，都会添加一个prototype属性指向原型对象， [[原型对象]] 存在constructor属性，指回构造函数
+任何时候创建一个函数实例时，都会将该实例内部的prototype指针，赋值为构造函数的原型对象， [[原型对象]] 存在constructor属性，指回构造函数
 
 
 形成闭环
+	1. 实例与构造函数原型之间有直接联系，但实例与构造函数之间没有直接联系
 # 对象迭代
 # [[class]] 
 ES6的类都仅仅是封装了ES5.1**构造函数**加**原型继承**的语法糖而已。
