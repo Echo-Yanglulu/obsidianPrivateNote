@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP Header.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP Method.md"
                   }
                 }
               }
@@ -588,7 +588,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -616,7 +616,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP Header.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,10 +923,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "73c10b0822d2ca57",
+  "active": "8d9230e5ba8b043c",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/CSRF.md",
+    "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
+    "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/JSON.md",
@@ -949,9 +952,6 @@
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/作用域.md",
     "笔记/前端/编程语言/JS/基本概念/原型对象.md",
-    "笔记/前端/编程语言/JS/event-loop.md",
-    "笔记/前端/编程语言/JS/异步JS.md",
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230715145523.png",

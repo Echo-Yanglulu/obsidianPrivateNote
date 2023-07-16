@@ -2,10 +2,10 @@
 
 # Request
 5A3C、HU
-- Accept：浏览器可接收的数据*格式*
-- Accept-Language：浏览器可接收的*语言*，如zh-CN
-- Accept-Encoding：浏览器可接收的*压缩算法*，如gzip。[^1] 
-- Accept-Charset
+- Accept：浏览器可接收的*数据格式* 
+- Accept-Language：浏览器展示的*语言*，如zh-CN
+- Accept-Encoding：浏览器可处理的*压缩算法*，如gzip。[^1] 
+- Accept-Charset：客户端可处理的*字符集类型* 
 - Authorization：用于提供服务器验证用户代理身份的凭据，允许访问受保护的资源
 	- 通常在用户代理首次尝试请求受保护的资源（没有携带凭据）之后发送的，但并不总是发送。
 	- 认证方案：Basic, Digest
@@ -19,10 +19,11 @@
 - User-Agent：浏览器信息（简称UA）
 - if-modified-since
 - if-none-match
-
 # Response
-- Content-type：此次请求所发送的数据【如果有发送】的*格式*。
+3C S
+- Content-type：此次请求所发送的数据【如果有发送】*格式*。
 	- application/json
+	- 见 [[MIME类型]] 
 - content-length：返回数据的*大小*（字节）
 - content-encoding：返回数据的*压缩算法*，如gzip
 - set-cookie：服务端需要更改cookie时添加的响应头
