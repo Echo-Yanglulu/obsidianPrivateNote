@@ -157,5 +157,15 @@
   "mado-11@@toggle-explorer-indent": false,
   "mado-11@@toggle-explorer-collapse": false,
   "mado-11@@toggle-status-bar": false,
-  "mado-11@@toggle-scrollbar": false
+  "mado-11@@toggle-scrollbar": false,
+  "mado-11@@h1-color@@light": "#FF0000",
+  "mado-11@@h2-color@@light": "#000000",
+  "mado-11@@h3-color@@light": "#0FCC00",
+  "mado-11@@h4-color@@light": "#007DB9",
+  "mado-11@@h5-color@@light": "#1500C4",
+  "mado-11@@h6-color@@light": "#00FFC9",
+  "mado-11@@bold-color@@light": "#0022F2",
+  "mado-11@@italic-color@@light": "#00C3CB",
+  "mado-11@@toggle-highlight-type": "THT-background",
+  "mado-11@@text-highlight-bg@@light": "#D4A9DC"
 }

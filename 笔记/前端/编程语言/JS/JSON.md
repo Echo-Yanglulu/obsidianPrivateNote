@@ -31,9 +31,14 @@ JS对象简谱
 		1. **删除**空格或缩进
 		2. **省略**函数和原型成员
 		3. **跳过**值为undefined的属性
+	2. 传入无效JSON字符串：抛出错误
 
 ## JSON.parse()
-将JSON解析为原生JavaScript值
+1. 作用：将JSON解析为原生JavaScript值
+2. 参数
+	1. 要序列化的 [[Object]] 
+	2. 过滤器，可以是数组或函数
+	3. 结果JSON字符串的缩进
 # toJSON方法
 调用JSON.stringfy时，内部会先尝试调用对象内容的toJSON方法，对该方法的返回值进行序列化。
 
