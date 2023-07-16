@@ -117,7 +117,7 @@
   "ul-theme-settings@@grad": true,
   "ul-theme-settings@@ul-floating-ribbon": false,
   "ul-theme-settings@@ul-radius": "var(--radius-m)",
-  "ul-theme-settings@@font-title": "Nightingale",
+  "ul-theme-settings@@font-title": "Getai",
   "ul-theme-settings@@font-text-theme": "Uncut Sans",
   "ul-theme-settings@@ul-color-accent": "ul-orange",
   "ul-theme-settings@@ul-square-tabs": false,
@@ -134,7 +134,7 @@
   "ul-theme-settings@@ul-background-gradient": false,
   "ul-theme-settings@@ul-scrollbars": false,
   "ul-theme-settings@@ul-notitle": false,
-  "ul-theme-settings@@ul-faintselect": false,
+  "ul-theme-settings@@ul-faintselect": true,
   "encore-settings@@encore-custom-h1@@light": "#FF0000",
   "encore-settings@@encore-custom-h2@@light": "#000000",
   "encore-settings@@encore-custom-h3@@light": "#00FF36",
@@ -144,5 +144,6 @@
   "encore-settings@@encore-coloured-tooltip": true,
   "encore-settings@@h1-colour": "encore-h1-custom",
   "encore-settings@@h2-colour": "encore-h2-custom",
-  "encore-settings@@theme-light": "encore-theme-light-atom"
+  "encore-settings@@theme-light": "encore-theme-light-atom",
+  "ul-theme-settings@@ul-accent-title": true
 }
