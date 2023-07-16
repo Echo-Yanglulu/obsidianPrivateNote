@@ -105,7 +105,15 @@
   "feather-style@@text-highlight-bg-l": "#F207D3",
   "feather-style@@strong-color": "#FF9100",
   "ul-theme-settings@@ul-theme-light": "ul-gruvbox-lt",
-  "ul-theme-settings@@ul-header-line-accent": "var(--color-accent)",
+  "ul-theme-settings@@ul-header-line-accent": "var(--background-modifier-border)",
   "ul-theme-settings@@ul-colorful-headings": true,
-  "ul-theme-settings@@ul-header-size": "ul-headings-dec"
+  "ul-theme-settings@@ul-header-size": "ul-headings-opn",
+  "ul-theme-settings@@ul-header-line-h1": true,
+  "ul-theme-settings@@ul-header-line-h2": true,
+  "ul-theme-settings@@ul-header-line-h3": true,
+  "ul-theme-settings@@ul-header-line-h4": true,
+  "ul-theme-settings@@ul-header-line-h5": true,
+  "ul-theme-settings@@ul-header-line-h6": true,
+  "ul-theme-settings@@grad": true,
+  "ul-theme-settings@@ul-floating-ribbon": false
 }
