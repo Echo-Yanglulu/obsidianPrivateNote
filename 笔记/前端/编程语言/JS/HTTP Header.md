@@ -1,11 +1,15 @@
 # 概述
 
 # Request
+5A3C、HU
 - Accept：浏览器可接收的数据*格式*
 - Accept-Language：浏览器可接收的*语言*，如zh-CN
 - Accept-Encoding：浏览器可接收的*压缩算法*，如gzip。[^1] 
-- Authorization：
 - Accept-Charset
+- Authorization：用于提供服务器验证用户代理身份的凭据，允许访问受保护的资源
+	- 通常在用户代理首次尝试请求受保护的资源（没有携带凭据）之后发送的，但并不总是发送。
+	- 认证方案：Basic, Digest
+	- [Authorization - HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Authorization) 
 - Content-type：此次请求所发送的数据【如果有发送】的*格式*。
 	- application/json
 - Connection：[[TCP]]连接
