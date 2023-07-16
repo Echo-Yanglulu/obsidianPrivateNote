@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-07-16.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -236,24 +236,24 @@
                 "id": "b22f7f396d653a6b",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-12",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-12.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "Array",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -386,17 +386,17 @@
                 "id": "14b6e86d5164d173",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-16",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-16.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "window",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":24},\"to\":{\"line\":21,\"ch\":24}},\"scroll\":6.6153}"
                     },
                     {
                       "title": "BOM",
@@ -451,7 +451,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-07-16.md",
+                    "file": "笔记/前端/编程语言/JS/window.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -544,7 +544,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -571,7 +571,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-07-16.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -599,7 +599,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-07-16.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -904,8 +904,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "14b6e86d5164d173",
+  "active": "b22f7f396d653a6b",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/window.md",
     "Day Planners/2023-07-16.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -940,8 +942,6 @@
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/cookie.md",
     "笔记/前端/编程语言/JS/DOM事件.md",
-    "笔记/前端/AJAX.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
