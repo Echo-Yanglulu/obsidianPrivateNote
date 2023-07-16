@@ -46,7 +46,7 @@ person2.sayName();  // Greg
 		3. 没有return
 new操作符机制
 	1. 在内存中*创建*一个新对象
-	2. 将新对象的\[\[prototype]] *特性赋值*为该构造函数的prototype属性
+	2. 将新对象的\[\[prototype]] *特性赋值*为该**构造函数的prototype属性** 
 	3. 构造函数内部的*this赋值*为该新对象。
 	4. *执行*构造函数，添加属性与方法
 	5. 如果构造函数主动*返回*非空对象，则使用该对象；否则返回新建对象
@@ -58,6 +58,32 @@ new操作符机制
 		1. 可以把方法定义为全局变量，这样都可引用，但会扰乱全局作用域。
 # 原型模式
 基于原型的继承：每个函数都会创建一个prototype属性，它是一个对象，包含应该*由特定引用类型的实例共享*的属性和方法。
+	1. 这个对象就是通过调用构造函数创建的对象的原型
+使用原型对象的好处：在它上面定义的属性和方法可以被该引用类型的实例共享
+
+利用new操作符的机制，直接修改构造函数的Prototype属性
+```js
+function Person() {}
+
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName = function() {
+  console.log(this.name);
+  };
+
+let person1 = new Person();
+person1.sayName(); // "Nicholas"
+
+let person2 = new Person();
+person2.sayName(); // "Nicholas"
+
+console.log(person1.sayName == person2.sayName); // true
+```
+任何时候创建一个函数时，都会添加一个prototype属性指向原型对象， [[原型对象]] 存在constructor属性，指回构造函数
+
+
+形成闭环
 # 对象迭代
 # [[class]] 
 ES6的类都仅仅是封装了ES5.1**构造函数**加**原型继承**的语法糖而已。
