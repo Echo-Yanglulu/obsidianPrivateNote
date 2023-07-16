@@ -32,7 +32,6 @@ JS对象简谱
 		2. **省略**函数和原型成员
 		3. **跳过**值为undefined的属性
 	2. 传入无效JSON字符串：抛出错误
-
 ## JSON.parse()
 1. 作用：将JSON解析为原生JavaScript值
 2. 参数
