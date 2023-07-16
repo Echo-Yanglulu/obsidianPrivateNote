@@ -11,13 +11,11 @@ JS对象简谱
 4. 值
 	1. 值类型： boolean，[[String]], [[Number]]（十进制）, null
 		1. [[Number]]不能使用 NaN, Infinity, -Infinity
-	2. 引用类型。不能有变量或方法调用，所以不能有set, map等。[[数据类型]]
+	2. 引用类型。不能有变量或方法调用，不能有regexp, function, set, map等。[[数据类型]]
 		1. [[Object]] 
 		2. [[Array]] 
 		3. [[TypedArray]] 
-		4. [[Function]] 
-		5. [[RegExp]] 
-		6. [[Date]] 
+		4. [[Date]] 
 # JSON.stringfy()
 功能：转换成JSON字符串
 
