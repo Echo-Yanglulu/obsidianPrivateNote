@@ -1,25 +1,15 @@
 {
-  "aestheticStyle": "glass",
+  "aestheticStyle": "default",
   "menuCommands": [
-    {
-      "id": "cmenu-plugin:superscript",
-      "name": "cMenu: Toggle superscript",
-      "icon": "superscript-glyph"
-    },
-    {
-      "id": "cmenu-plugin:subscript",
-      "name": "cMenu: Toggle subscript",
-      "icon": "subscript-glyph"
-    },
     {
       "id": "cmenu-plugin:editor:toggle-blockquote",
       "name": "cMenu: Toggle blockquote",
       "icon": "quote-glyph"
     },
     {
-      "id": "obsidian-theme-design-utilities:toggle-dark-light-mode",
-      "name": "Theme Design Utilities: Toggle between Dark and Light Mode",
-      "icon": "dice-glyph"
+      "id": "obsidian-minimal-settings:toggle-minimal-switch",
+      "name": "Minimal Theme Settings: Switch between light and dark mode",
+      "icon": "remix-RadioButtonLine"
     },
     {
       "id": "hotkey-helper:open-plugins",
@@ -56,7 +46,7 @@
       "icon": "calendar-glyph"
     }
   ],
-  "appendMethod": "body",
+  "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 2.75,
