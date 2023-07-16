@@ -815,23 +815,6 @@
             }
           },
           {
-            "id": "093c0534970f28ae",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "5d6c4213ed688f7b",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -873,8 +856,26 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "093c0534970f28ae",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -906,6 +907,7 @@
   },
   "active": "39a50f6ccb65e5fb",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
@@ -941,7 +943,6 @@
     "笔记/前端/assets/引入合并.png",
     "笔记/前端/assets/错误导入.png",
     "笔记/前端/assets/Pasted image 20230715123040.png",
-    "笔记/前端/工程化/JS模块化.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
