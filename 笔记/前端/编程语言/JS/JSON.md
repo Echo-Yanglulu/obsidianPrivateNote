@@ -9,9 +9,15 @@ JS对象简谱
 3. 键名
 	1. [[String]] 
 4. 值
-	1. 原始类型的值只有4种：[[String]], [[Number]]（十进制）, boolean, null。
+	1. 值类型： boolean，[[String]], [[Number]]（十进制）, null
 		1. [[Number]]不能使用 NaN, Infinity, -Infinity
-	2. 引用类型的值只能是 [[Array]] 或 [[Object]] 
+	2. 引用类型
+		1. [[Object]] 
+		2. [[Array]] 
+		3. [[TypedArray]] 
+		4. [[Function]] 
+		5. [[RegExp]] 
+		6. [[Date]] 
 # JSON.stringfy()
 功能：转换成JSON字符串
 
