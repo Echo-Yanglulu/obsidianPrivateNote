@@ -161,12 +161,15 @@ in可做到而属性访问判断做不到的：in可判断是否存在。访问�
 2. 自有字符串：Object.getOwnPropertyNames()
 3. 自有符号：Object.getOwnPropertySymbols()
 4. 自有可枚举字符串：Object.keys()
+	1. 枚举顺序不确定
 5. 可枚举字符串：for/in
+	1. 枚举顺序不确定
+6. Object.assign()
 ### 顺序
+Object.getOwnPropertyNames()、Object.getOwnPropertySymbols()和Object.assign()的枚举顺序
 1. 自有
-	1. 非负整数的字符串，按**数值**顺序从小到大
-	2. 字符串，添加到对象的顺序
-	3. 符号，添加到对象的顺序
+	1. *升序*枚举数值。非负整数的字符串，按**数值**顺序从小到大
+	2. *插入序*枚举字符串、符号
 2. 上溯原型链
 如果希望有序枚举对象属性，就使用数值字符串作为属性名。或使用符号依次添加。
 ## 计算属性名

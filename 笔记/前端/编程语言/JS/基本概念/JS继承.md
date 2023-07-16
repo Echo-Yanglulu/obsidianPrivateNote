@@ -82,7 +82,6 @@ console.log(person1.sayName == person2.sayName); // true
 ```
 任何时候创建一个函数实例时，都会将该实例内部的prototype指针，赋值为构造函数的原型对象， [[原型对象]] 存在constructor属性，指回构造函数
 
-
 形成闭环
 	1. 实例与构造函数原型之间有直接联系，但实例与构造函数之间没有直接联系
 # 对象迭代

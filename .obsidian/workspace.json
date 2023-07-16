@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/JS继承.md"
                   }
                 }
               }
@@ -243,6 +243,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":169,\"ch\":31},\"to\":{\"line\":169,\"ch\":31}},\"scroll\":144.38492871690428}"
+                    },
+                    {
                       "title": "Array",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -253,7 +259,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -571,7 +577,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/JS继承.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -599,7 +605,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/JS继承.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -905,12 +911,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a635c9f693b50bf6",
+  "active": "5635351571309c67",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
