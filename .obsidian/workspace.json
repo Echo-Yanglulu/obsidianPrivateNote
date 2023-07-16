@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/异步JS.md"
+                    "file": "笔记/前端/编程语言/JS/this.md"
                   }
                 }
               }
@@ -583,7 +583,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/this.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -611,7 +611,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/异步JS.md",
+                        "file": "笔记/前端/编程语言/JS/this.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -917,10 +917,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ae368f78ab6caf4c",
+  "active": "0e1894140d1702b1",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/作用域.md",
+    "笔记/前端/编程语言/JS/基本概念/原型对象.md",
+    "笔记/前端/编程语言/JS/event-loop.md",
     "笔记/前端/编程语言/JS/异步JS.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
@@ -943,8 +945,6 @@
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/window.md",
-    "Day Planners/2023-07-16.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230715145523.png",
