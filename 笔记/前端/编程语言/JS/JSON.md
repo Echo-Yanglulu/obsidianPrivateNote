@@ -17,19 +17,20 @@ JS对象简谱
 		2. [[Array]] 
 		3. [[TypedArray]] 
 		4. [[Date]] 
-## 与JS对象区别
-1. JSON中没有变量、分号
-2. 属性名使用双引号
+
 ## 特点
 1. 可以直接被解析成可用的JavaScript对象。JavaScript语法的子集
 	1. 与解析为DOM文档的XML相比，这个优势非常明显。使用数据非常方便：![[Pasted image 20230716201607.png]] 
+
+## 与JS对象区别
+1. JSON中没有变量、分号、属性名使用双引号
 # 解析与序列化
 ## JSON.stringfy()
 功能
 	1. 将JavaScript值序列化为JSON字符串
-		1. 不包含空格或缩进
-		2. 函数和原型成员都会有意地在结果中省略
-		3. 值为undefined的任何属性也会被跳过
+		1. **删除**空格或缩进
+		2. **省略**函数和原型成员
+		3. **跳过**值为undefined的属性
 
 ## JSON.parse()
 将JSON解析为原生JavaScript值
