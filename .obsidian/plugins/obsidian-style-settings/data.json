@@ -104,7 +104,7 @@
   "things-style@@h5-color": "#09A1EA",
   "feather-style@@text-highlight-bg-l": "#F207D3",
   "feather-style@@strong-color": "#FF9100",
-  "ul-theme-settings@@ul-theme-light": "ul-gruvbox-lt",
+  "ul-theme-settings@@ul-theme-light": "ul-lobstertime-lt",
   "ul-theme-settings@@ul-header-line-accent": "var(--background-modifier-border)",
   "ul-theme-settings@@ul-colorful-headings": true,
   "ul-theme-settings@@ul-header-size": "ul-headings-opn",
@@ -115,5 +115,9 @@
   "ul-theme-settings@@ul-header-line-h5": true,
   "ul-theme-settings@@ul-header-line-h6": true,
   "ul-theme-settings@@grad": true,
-  "ul-theme-settings@@ul-floating-ribbon": false
+  "ul-theme-settings@@ul-floating-ribbon": false,
+  "ul-theme-settings@@ul-radius": "var(--radius-m)",
+  "ul-theme-settings@@font-title": "Getai",
+  "ul-theme-settings@@font-text-theme": "Uncut Sans",
+  "ul-theme-settings@@ul-color-accent": "ul-orange"
 }
