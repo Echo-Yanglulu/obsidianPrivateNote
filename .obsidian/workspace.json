@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/变量.md"
                   }
                 }
               }
@@ -571,7 +571,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -599,7 +599,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/变量.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -904,12 +904,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "08e0acab1aab4e89",
+  "active": "f0612f9e4056d271",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/定位.md",
