@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
                   }
                 }
               }
@@ -633,9 +633,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "56cbd42012617ef1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "Function",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Function.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":184,\"ch\":31},\"to\":{\"line\":184,\"ch\":31}},\"scroll\":172.8218201754386}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 16
+            "currentTab": 17
           },
           {
             "id": "86193a5d16fa87de",
@@ -662,7 +690,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -690,7 +718,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -755,7 +783,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clientwidth",
+                "query": "新对象",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -997,16 +1025,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fbce8e2e69dfb691",
+  "active": "ee71d681adc84269",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
-    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/前端工作.md",
@@ -1024,8 +1054,6 @@
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/MIME类型.md",
-    "笔记/前端/性能优化.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",

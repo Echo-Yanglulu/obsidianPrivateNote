@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Object",
-      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
+      "basename": "构造函数",
+      "path": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
+    },
+    {
+      "basename": "JS继承",
+      "path": "笔记/前端/编程语言/JS/基本概念/JS继承.md"
+    },
+    {
+      "basename": "Function",
+      "path": "笔记/前端/编程语言/JS/Function.md"
     },
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "Object",
+      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     },
     {
       "basename": "Array",
@@ -77,16 +89,8 @@
       "path": "笔记/前端/编程语言/JS/event-loop.md"
     },
     {
-      "basename": "JS继承",
-      "path": "笔记/前端/编程语言/JS/基本概念/JS继承.md"
-    },
-    {
       "basename": "class",
       "path": "笔记/前端/编程语言/JS/基本概念/class.md"
-    },
-    {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/Function.md"
     },
     {
       "basename": "深拷贝",
@@ -195,10 +199,6 @@
     {
       "basename": "数据结构",
       "path": "笔记/前端/基础知识/数据结构/数据结构.md"
-    },
-    {
-      "basename": "计算机基础",
-      "path": "笔记/前端/基础知识/计算机基础.md"
     }
   ],
   "omittedPaths": [
