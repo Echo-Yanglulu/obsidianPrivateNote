@@ -116,9 +116,9 @@
   "ul-theme-settings@@ul-header-line-h6": true,
   "ul-theme-settings@@grad": true,
   "ul-theme-settings@@ul-floating-ribbon": false,
-  "ul-theme-settings@@ul-radius": "var(--radius-m)",
-  "ul-theme-settings@@font-title": "Nightingale",
-  "ul-theme-settings@@font-text-theme": "Aspekta",
+  "ul-theme-settings@@ul-radius": "var(--radius-l)",
+  "ul-theme-settings@@font-title": "Getai",
+  "ul-theme-settings@@font-text-theme": "Uncut Sans",
   "ul-theme-settings@@ul-color-accent": "ul-orange",
   "ul-theme-settings@@ul-square-tabs": false,
   "ul-theme-settings@@ul-square-tab-tops": false,
@@ -170,5 +170,8 @@
   "mado-11@@text-highlight-bg@@light": "#D4A9DC",
   "feather-style@@em-color": "#00CCE0",
   "feather-style@@h5-color": "#AE002E",
-  "feather-style@@default-font-color": false
+  "feather-style@@default-font-color": false,
+  "ul-theme-settings@@ul-kanban-style": "ul-kanban-border",
+  "encore-settings@@encore-custom-title@@light": "#43FAD4",
+  "encore-settings@@blur-amount": "encore-blur-off"
 }
