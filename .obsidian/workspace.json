@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/Function.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md"
                   }
                 }
               }
@@ -656,7 +656,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Function.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -684,7 +684,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Function.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -991,9 +991,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7674e54c1115a6e5",
+  "active": "473141eab6c7ac1f",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/前端工作.md",
@@ -1001,7 +1003,6 @@
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/MutationObserver.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "Day Planners/2023-07-17.md",
     "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/工程化/工具/HTTPS.md",
@@ -1019,7 +1020,6 @@
     "笔记/前端/编程语言/JS/异常捕获.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/学习/学习.md",
-    "笔记/学习/概念/理解.md",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
