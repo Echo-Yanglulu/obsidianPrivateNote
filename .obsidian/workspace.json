@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
                   }
                 }
               }
@@ -592,8 +592,14 @@
                 "id": "10ab4dc24a3249d6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "Array",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":6},\"to\":{\"line\":19,\"ch\":6}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -656,7 +662,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -684,7 +690,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -991,10 +997,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "10ab4dc24a3249d6",
+  "active": "fbce8e2e69dfb691",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
@@ -1018,8 +1026,6 @@
     "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/编程语言/JS/JSON.md",
-    "笔记/前端/requestAnimationFrame.md",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
