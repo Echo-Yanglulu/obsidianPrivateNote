@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/ES6新特性.md"
                   }
                 }
               }
@@ -646,7 +646,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/ES6新特性.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -674,7 +674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/ES6新特性.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -981,8 +981,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "d06e42e5e0368169",
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/assets/webpack开发服务器跨域.png",
     "Day Planners/2023-07-17.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/性能优化.md",
@@ -1005,10 +1007,8 @@
     "笔记/前端/编程语言/JS/WHATWG.md",
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/前端工作.md",
     "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160417.png",
     "笔记/前端/assets/Pasted image 20230714155740.png",
@@ -1018,7 +1018,6 @@
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
-    "笔记/前端/assets/Pasted image 20230715122821.png",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
