@@ -2,26 +2,48 @@
 ## 相关
 [ES6 入门教程](https://es6.ruanyifeng.com/#docs/promise) 
 # 对象维度
+## 变量
+globalThis
+## [[数据类型]] 
+[[BigInt]] 
+## [[Symbol]] 
+Symbol.prototype.description
 ## [[String]] 
 String.prototype.padStart()
+String.prototype.{trimStart, trimEnd}
+String.prototype.matchAll()
+String.prototype.replaceAll()
 ## 对象
 Object.entries
 Object.values
 Object.fromEntries
 Object.getOwnPropertyDescriptors
+Trailing commas
 ## 数组
 includes()
+Array.prototype.{flat, flatMap}
+Array.prototype.sort() is now required to be stable
 ## 迭代
-
+Async iterators 异步迭代器
 ## 函数
 箭头函数
 异步函数
+修订 Function.prototype.toString()
 ## [[Promise]] 
 Promise.prototype.finally
 Promise.allSettled
 Promise.any
+## [[JSON]] 
+JSON.stringify() 的增强力
 ## [[操作符]] 
 Exponentiation Operator
+可选链 Optional chaining
+空值合并运算符（Nullish coalescing Operator）
+逻辑运算符和赋值表达式（&&=，||=，??=）
+数字分隔符
+剩余属性与扩展属性
+## [[模块]] 
+Dynamic import（按需 import）
 # 版本维度
 ## ES2016（ES7）
 1. Array.prototype.includes
@@ -40,11 +62,11 @@ Exponentiation Operator
 4. Promise.prototype.finally
 ## ES2019（ES10）
 1. Array.prototype.{flat, flatMap}扁平化嵌套数组
-2. Object.fromEntries
+6. Array.prototype.sort() is now required to be stable
 3. String.prototype.{trimStart, trimEnd}
 4. Symbol.prototype.description
+2. Object.fromEntries
 5. Optional catch binding
-6. Array.prototype.sort() is now required to be stable
 7. JSON.stringify() 的增强力
 8. 修订 Function.prototype.toString()
 ## ES2020（ES11）
