@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 15.192135835567472,
+            "dimension": 12.773559624832515,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/ES6新特性.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 34.15996425379804,
+            "dimension": 62.1706118803037,
             "children": [
               {
                 "id": "63e6cb6f221a3591",
@@ -505,28 +505,6 @@
                 }
               },
               {
-                "id": "f1acc3e359f0ce7d",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/ES6新特性.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "86cbda7c89d121cc",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -641,41 +619,12 @@
                 }
               }
             ],
-            "currentTab": 13
-          },
-          {
-            "id": "ca26c1d8e2d09e76",
-            "type": "tabs",
-            "dimension": 34.15996425379804,
-            "children": [
-              {
-                "id": "7a6e37d2ddda32c7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/ES6新特性.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 16.487935656836463,
+            "dimension": 25.05582849486378,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -697,7 +646,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/ES6新特性.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -725,7 +674,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/ES6新特性.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -851,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -1032,9 +981,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7a6e37d2ddda32c7",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230717234614.png",
     "笔记/前端/前端工作.md",
+    "笔记/前端/assets/webpack配置babel.png",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/assets/webpack开发服务器跨域.png",
     "Day Planners/2023-07-17.md",
@@ -1060,7 +1011,6 @@
     "笔记/前端/编程语言/JS/浏览器.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/学习/学习.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160417.png",
     "笔记/前端/assets/Pasted image 20230714155740.png",
@@ -1068,8 +1018,6 @@
     "笔记/前端/assets/Pasted image 20230714155546.png",
     "笔记/前端/assets/Pasted image 20230714160245.png",
     "笔记/前端/assets/Pasted image 20230716231305.png",
-    "笔记/前端/assets/Pasted image 20230716201607.png",
-    "笔记/前端/assets/Pasted image 20230529155559.png",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
