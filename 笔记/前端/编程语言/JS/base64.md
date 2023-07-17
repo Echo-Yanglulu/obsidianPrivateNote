@@ -9,7 +9,7 @@
 	1. 在一些软件应用、XML中储存复杂数据
 
 JavaScript 中，有两个函数被分别用来处理解码和编码 Base64 字符串
-	1. btoa()：从*二进制数据字符串*创建一个Base64编码的*ASCII字符串*（“btoa”应读作“binary to ASCII”）
+	1. btoa()：从*二进制数据字符串*创建一个Base64编码的[[ASCII]]字符串（“btoa”应读作“binary to ASCII”）
 	2. atob()：解码通过 Base-64 编码的字符串数据（“atob”应读作“ASCII to binary”）
 
 # Unicode 问题
