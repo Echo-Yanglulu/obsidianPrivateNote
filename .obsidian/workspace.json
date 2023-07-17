@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+                    "file": "笔记/前端/性能优化.md"
                   }
                 }
               }
@@ -583,6 +583,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":11},\"to\":{\"line\":10,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
                       "title": "浏览器",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -599,7 +605,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                    "file": "笔记/前端/性能优化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -634,7 +640,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/性能优化.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -662,7 +668,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                        "file": "笔记/前端/性能优化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -971,10 +977,10 @@
   },
   "active": "fc1558319d994af0",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/基础知识/W3C.md",
     "笔记/前端/前端.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/编程语言/JS/UTF-8.md",
     "笔记/前端/编程语言/JS/Unicode.md",
