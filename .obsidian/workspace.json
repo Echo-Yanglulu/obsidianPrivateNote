@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 68.31992850759607,
+            "dimension": 34.15996425379804,
             "children": [
               {
                 "id": "63e6cb6f221a3591",
@@ -483,10 +483,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-07-17",
+                      "title": "ES6新特性",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/ES6新特性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":27},\"to\":{\"line\":5,\"ch\":27}},\"scroll\":4.916604616530156}"
                     },
                     {
                       "state": "{}",
@@ -498,6 +498,28 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/前端工作.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "f1acc3e359f0ce7d",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/ES6新特性.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -619,7 +641,36 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 13
+          },
+          {
+            "id": "ca26c1d8e2d09e76",
+            "type": "tabs",
+            "dimension": 34.15996425379804,
+            "children": [
+              {
+                "id": "7a6e37d2ddda32c7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/ES6新特性.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -981,9 +1032,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d06e42e5e0368169",
+  "active": "7a6e37d2ddda32c7",
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
+    "笔记/前端/ES6新特性.md",
     "笔记/前端/assets/webpack开发服务器跨域.png",
     "Day Planners/2023-07-17.md",
     "笔记/前端/库、框架/UI库/react原理.md",
