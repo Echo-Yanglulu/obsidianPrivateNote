@@ -1,9 +1,8 @@
 # 概述
 1. 目的：ECMA-262规定Global对象为一种*兜底对象*，*针对*的是不属于任何对象的属性和方法。
-2. [[作用域]]：事实上，不存在全局变量或全局函数这种东西
-	1. 全局作用域中定义的变量和函数都会变成Global对象的属性。
-3. 访问：ECMA-262没有规定直接**访问Global**对象的方式[^2]，在大多数*ECMAScript实现*中都无法直接访问。
-	1. 但[[浏览器]]将[[window]]对象*实现*为**Global对象的代理**。
+	1. [[作用域]]：事实上，也不存在全局变量或全局函数。全局作用域中定义的变量和函数都会变成Global对象的属性。
+2. 访问：ECMA-262没有规定直接**访问Global**对象的方式[^2]，在大多数*ECMAScript实现*中都无法直接访问。
+	1. [[浏览器]]将[[window]]对象*实现*为**Global对象的代理**。
 		1. 所有全局作用域中声明的变量和函数都变成了window的属性
 # 属性
 Global对象有很多属性
@@ -21,12 +20,12 @@ isNaN()、isFinite()、parseInt()、parseFloat()
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURI(uri));  
-// "http://www.wrox.com/illegal%20value.js#start"         空格被替换为%20
+// "http://www.wrox.com/illegal%20value.js#start"         只有空格被替换为%20
 
 // 解码
 let uri = "http%3A%2F%2Fwww.wrox.com%2Fillegal%20value.js%23start";
 decodeURI(uri)   
-// http%3A%2F%2Fwww.wrox.com%2Fillegal value.js%23start    空格被还原
+// http%3A%2F%2Fwww.wrox.com%2Fillegal value.js%23start    只有空格被还原
 ```
 ### encodeURIComponent()
 字面意思：编码URI的组件
