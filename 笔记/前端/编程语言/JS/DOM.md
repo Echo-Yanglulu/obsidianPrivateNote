@@ -232,7 +232,7 @@ Text节点由Text类型表示，包含按字面解释的纯文本，也可能包
 
 ## 使用NodeList
 
-# MutationObserver接口
+# [[MutationObserver]]接口
 背景：为代替性能不好的MutationEvent而问世，
 功能：可以有效精准地**监控DOM变化**，而且API也相对简单
 
@@ -251,7 +251,7 @@ disconnect ()方法
 记录队列
 takeRecords ()方法
 ## 性能、内存与垃圾回收
-MutationObserver的引用
+[[MutationObserver]]的引用 
 MutationRecord的引用
 # 基本概念
 节点
