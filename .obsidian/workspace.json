@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/URL.md"
+                    "file": "笔记/前端/编程语言/JS/base64.md"
                   }
                 }
               }
@@ -634,7 +634,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/URL.md",
+                        "file": "笔记/前端/编程语言/JS/base64.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -662,7 +662,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/URL.md",
+                        "file": "笔记/前端/编程语言/JS/base64.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -969,10 +969,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b399e41929edca91",
+  "active": "0684ada3b015337c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/MIME类型.md",
+    "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/编程语言/JS/URL.md",
+    "笔记/前端/编程语言/JS/基本概念/二进制数据.md",
+    "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/编程语言/JS/WHATWG.md",
     "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
@@ -1001,8 +1003,6 @@
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS上下文.md",
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
-    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
