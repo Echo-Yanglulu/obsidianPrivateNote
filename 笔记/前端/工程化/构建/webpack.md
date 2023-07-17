@@ -272,7 +272,10 @@ module.exports = function (input) {
 4. 使用 **-! 前缀**：禁用所有已配置的 *preLoader 和 loader*，但是不禁用 postLoaders
 	1. `import Styles from '-!style-loader!css-loader?modules!./styles.css';` 
 ### 常用loader 
-1. postcss-loader：sass, less之类的语法编译为CSS。同sass-loader 。
+1. postcss-loader [[postcss插件配置文件.png]] 
+	1. sass, less之类的语法编译为CSS。同sass-loader 。
+	2. 使属性兼容各种浏览器，使用autoprefixer插件
+	3. 所以需要作为第一个执行
 2. css-loader ：处理如通过import引入CSS文件的语法，支持CSS模块
 	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终样式代码包裹为JS，JS在运行过程中创建style标签并把样式插入。
