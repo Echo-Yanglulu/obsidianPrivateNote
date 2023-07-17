@@ -10,8 +10,21 @@ API
 # 应用[^1] 
 ## 给对象打标签。
 如果使用set。当DOM元素被删除时，set中还保留着引用，所以垃圾回收程序不能回收。
-为了回收被删除元素的内存，
+```js
+const disabledElements = new Set();
+const loginButton = document.querySelector('#login');
+// 通过加入对应集合，给这个节点打上“禁用”标签
+disabledElements.add(loginButton);
+```
+为了回收被删除元素的内存，可使用该引用类型
+```js
+const disabledElements = new WeakSet();
 
+const loginButton = document.querySelector('#login');
 
+// 通过加入对应集合，给这个节点打上“禁用”标签
+disabledElements.add(loginButton);
+```
+当其中元素从DOM中删除，垃圾回收程序就能立即释放其内存
 
 [^1]: 相比于WeakMap实例，WeakSet实例的用处没有那么大

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -656,7 +656,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -684,7 +684,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -991,9 +991,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1d859a2a42234d94",
+  "active": "10ab4dc24a3249d6",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/JS.md",
@@ -1018,8 +1020,6 @@
     "笔记/前端/编程语言/JS/JSON.md",
     "笔记/前端/requestAnimationFrame.md",
     "笔记/前端/编程语言/JS/异常捕获.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/学习/学习.md",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
