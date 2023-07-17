@@ -258,12 +258,12 @@ MutationRecord的引用
 # 属性
 screen.height：显示器高度
 window.outerHeight：浏览器软件高度【全屏时等于显示器高度】
-window.innerHeight：浏览器可视区高度
+window.innerHeight：浏览器视口高度
 	与document.documentElement.clientHeight[^2]有什么区别？
 document.body.clientHeight：body高度
 
-clientHeight、clientLeft 、scrollHeight、scrollY：元素内content+padding
 offsetHeight 、offsetTop：元素边框content+padding+border
+scrollHeight、scrollY：元素内content+padding
 clientWidth：**content+padding**。
 clientHeight：content + padding。不含滚动条
 	document.documentElement.clientWidth：页面的宽高
