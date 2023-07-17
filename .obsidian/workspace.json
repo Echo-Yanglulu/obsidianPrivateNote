@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
+                    "file": "笔记/前端/编程语言/JS/JS上下文.md"
                   }
                 }
               }
@@ -645,6 +645,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":6},\"to\":{\"line\":35,\"ch\":6}},\"scroll\":24.414257228315055}"
+                    },
+                    {
+                      "title": "JS继承",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/JS继承.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":13},\"to\":{\"line\":44,\"ch\":13}},\"scroll\":22.780178487552842}"
+                    },
+                    {
                       "title": "Function",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/Function.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -655,7 +667,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+                    "file": "笔记/前端/编程语言/JS/JS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -690,7 +702,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+                        "file": "笔记/前端/编程语言/JS/JS上下文.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -718,7 +730,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+                        "file": "笔记/前端/编程语言/JS/JS上下文.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -783,7 +795,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "新对象",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -844,7 +856,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -1025,19 +1037,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ee71d681adc84269",
+  "active": "c754c532071d1d10",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
-    "笔记/前端/编程语言/JS/Function.md",
-    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+    "笔记/前端/编程语言/JS/JS上下文.md",
+    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+    "笔记/前端/编程语言/JS/基本概念/构造函数.md",
+    "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/this.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
-    "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
@@ -1053,7 +1066,6 @@
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/编程语言/JS/MIME类型.md",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
