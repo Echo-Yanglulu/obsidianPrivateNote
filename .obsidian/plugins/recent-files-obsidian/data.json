@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络",
+      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+    },
+    {
+      "basename": "浏览器",
+      "path": "笔记/前端/编程语言/JS/浏览器.md"
+    },
+    {
+      "basename": "浏览器原理",
+      "path": "笔记/前端/编程语言/JS/浏览器原理.md"
+    },
+    {
       "basename": "性能优化",
       "path": "笔记/前端/性能优化.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "前后端分离",
       "path": "笔记/前端/工程化/前后端分离.md"
-    },
-    {
-      "basename": "浏览器原理",
-      "path": "笔记/前端/编程语言/JS/浏览器原理.md"
     },
     {
       "basename": "DOM",
@@ -191,14 +199,6 @@
     {
       "basename": "调试",
       "path": "笔记/前端/基础知识/调试.md"
-    },
-    {
-      "basename": "JS模块化",
-      "path": "笔记/前端/工程化/JS模块化.md"
-    },
-    {
-      "basename": "indexDB",
-      "path": "笔记/前端/indexDB.md"
     }
   ],
   "omittedPaths": [

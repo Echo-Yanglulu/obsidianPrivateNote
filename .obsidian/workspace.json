@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/前端/基础知识/计算机网络/URI.md"
+                  }
                 }
               }
             ]
@@ -579,12 +581,29 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "浏览器",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":196},\"to\":{\"line\":13,\"ch\":196}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "计算机网络",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/计算机网络.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":7},\"to\":{\"line\":22,\"ch\":7}},\"scroll\":0}"
                     }
                   ]
                 },
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/基础知识/计算机网络/计算机网络.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
                 }
               }
             ],
@@ -615,6 +634,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/前端/基础知识/计算机网络/URI.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -642,6 +662,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/前端/基础知识/计算机网络/URI.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -948,8 +969,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fc1558319d994af0",
+  "active": "2d6237444d350f81",
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机网络/URI.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/前端/编程语言/JS/浏览器.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/前端工作.md",
@@ -968,7 +993,6 @@
     "笔记/前端/PWA.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/RESTful API.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -979,9 +1003,6 @@
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/编程语言/JS/基本概念/迭代器.md",
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
