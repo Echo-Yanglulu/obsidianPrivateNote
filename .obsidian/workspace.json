@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 }
               }
@@ -648,7 +648,7 @@
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":12},\"to\":{\"line\":57,\"ch\":12}},\"scroll\":33.78913260219342}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":12},\"to\":{\"line\":57,\"ch\":12}},\"scroll\":23.43070787637089}"
                     },
                     {
                       "title": "JS",
@@ -679,7 +679,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -714,7 +714,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -742,7 +742,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1052,9 +1052,9 @@
   "active": "56cbd42012617ef1",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/JS.md",
     "笔记/前端/编程语言/JS/JS上下文.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/编程语言/JS/基本概念/构造函数.md",
     "笔记/前端/编程语言/JS/Function.md",
