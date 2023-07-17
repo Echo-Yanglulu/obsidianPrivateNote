@@ -259,12 +259,13 @@ MutationRecord的引用
 1. screen.height：显示器高度
 2. window.outerHeight：浏览器软件高度【全屏时等于显示器高度】
 3. window.innerHeight：浏览器视口高度
-4. **offset**Height：content+padding+border
+4. **offset**Height：content+padding+border。含滚动条
+	1. offsetTop：元素上边框与offsetParent元素的上边框距离
 5. **client**Width：content+padding。不含滚动条
-	1. document.documentElement.clientWidth：页面的宽高
-	2. document.body.clientHeight：body高度
-	3. clientLeft：左border宽度
-6. **scroll**Height、scrollY：clientWidth，*含滚动部分*。
+	1. clientLeft：左border宽度
+	2. document.documentElement.clientWidth：页面的宽高
+	3. document.body.clientHeight：body高度
+6. **scroll**Height、scrollY：content+padding。含滚动部分。
 	1. 没有滚动：等于clientHeight
 	2. 有滚动：==滚动内容高度== + ==padding== 
 	3. 如果设置scroll为auto，content高为手动设置的高度
@@ -284,9 +285,7 @@ offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一�
 	2. 无fixed，且上级无定位：body元素
 	3. 无fixed，上级有定位：存在定位的上级元素
 	4. body元素：null
-offsetTop：元素上边框与offsetParent元素的上边框距离
-offsetWidth：content + padding + border。即clientWidth + clientLeft
-offsetHeight：clientHeight + border。含滚动条
+
 ## 比较
 clientWidth：2个
 offsetWidth：3个
