@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -474,8 +474,14 @@
                 "id": "9e75c0c558b854e6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-17",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -559,9 +565,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "4fb330d20edb660c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 12
+            "currentTab": 15
           },
           {
             "id": "86193a5d16fa87de",
@@ -588,7 +616,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -616,7 +644,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -681,7 +709,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "URLSearchParams",
+                "query": "clientwidth",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -742,7 +770,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -923,10 +951,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "4fb330d20edb660c",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
+    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
+    "Day Planners/2023-07-17.md",
+    "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/工程化/RESTful API.md",
@@ -948,11 +979,8 @@
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/Set.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230715145523.png",
