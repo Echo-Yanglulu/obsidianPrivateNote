@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/性能优化.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -89,9 +87,9 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-07-14",
+                      "title": "2023-07-17",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-14.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-17.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
@@ -243,6 +241,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":388,\"ch\":17},\"to\":{\"line\":388,\"ch\":17}},\"scroll\":327.5144566301097}"
+                    },
+                    {
                       "title": "Object",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -265,7 +269,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/性能优化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -565,9 +569,26 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "fc1558319d994af0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 15
           },
           {
             "id": "86193a5d16fa87de",
@@ -594,7 +615,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -622,7 +642,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -748,7 +767,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -929,11 +948,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "880574e2f9dfcfed",
+  "active": "fc1558319d994af0",
   "lastOpenFiles": [
-    "笔记/学习/学习.md",
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/性能优化.md",
+    "笔记/前端/编程语言/JS/URL.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/学习/学习.md",
+    "Day Planners/2023-07-17.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/Pasted image 20230714160417.png",
     "笔记/前端/assets/Pasted image 20230714155740.png",
@@ -944,7 +968,6 @@
     "笔记/前端/PWA.md",
     "笔记/前端/工程化/前后端分离.md",
     "笔记/前端/工程化/RESTful API.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
@@ -959,10 +982,6 @@
     "笔记/前端/编程语言/JS/基本概念/迭代器.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/前端/编程语言/JS/MutationObserver.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
     "笔记/前端/assets/Pasted image 20230716231305.png",
     "笔记/前端/assets/Pasted image 20230716201607.png",
     "笔记/前端/assets/Pasted image 20230529155559.png",
