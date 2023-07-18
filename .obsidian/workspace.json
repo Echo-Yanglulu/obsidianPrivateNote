@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.773559624832517,
+            "dimension": 12.773559624832515,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 62.17061188030371,
+            "dimension": 71.46047342563644,
             "children": [
               {
                 "id": "63e6cb6f221a3591",
@@ -357,10 +357,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "Pasted image 20230718153217",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"笔记/前端/assets/Pasted image 20230718153217.png\"}}",
-                      "eState": "{}"
+                      "title": "2023-07-19",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -498,7 +498,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 25.055828494863775,
+            "dimension": 15.765966949531041,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -857,9 +857,10 @@
   },
   "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "Day Planners/2023-07-19.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230718160546.png",
     "笔记/前端/assets/Pasted image 20230718160003.png",
-    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230718155907.png",
     "笔记/前端/assets/Pasted image 20230718152606.png",
     "笔记/前端/assets/webpack打包时抽离CSS文件.png",
@@ -876,7 +877,6 @@
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/编程语言/JS/window.md",
     "笔记/前端/assets/Pasted image 20230718150758.png",
-    "笔记/前端/assets/Pasted image 20230718144735.png",
     "Day Planners/2023-07-18.md",
     "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/ES6新特性.md",
