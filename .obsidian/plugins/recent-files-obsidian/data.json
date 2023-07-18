@@ -5,12 +5,36 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
-      "basename": "2023-07-18",
-      "path": "Day Planners/2023-07-18.md"
+      "basename": "DOM 2与DOM 3",
+      "path": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md"
+    },
+    {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "window",
+      "path": "笔记/前端/编程语言/JS/window.md"
+    },
+    {
+      "basename": "react-router",
+      "path": "笔记/前端/库、框架/UI库/react-router.md"
+    },
+    {
+      "basename": "性能优化",
+      "path": "笔记/前端/性能优化.md"
+    },
+    {
+      "basename": "2023-07-18",
+      "path": "Day Planners/2023-07-18.md"
     },
     {
       "basename": "ES6新特性",
@@ -23,10 +47,6 @@
     {
       "basename": "react原理",
       "path": "笔记/前端/库、框架/UI库/react原理.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "笔记/前端/性能优化.md"
     },
     {
       "basename": "计算机网络",
@@ -97,10 +117,6 @@
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
       "basename": "Object",
       "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     },
@@ -165,24 +181,12 @@
       "path": "笔记/前端/编程语言/JS/基本概念/深拷贝.md"
     },
     {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
-    },
-    {
-      "basename": "window",
-      "path": "笔记/前端/编程语言/JS/window.md"
-    },
-    {
       "basename": "2023-07-16",
       "path": "Day Planners/2023-07-16.md"
     },
     {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
-      "basename": "react-router",
-      "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
     {
       "basename": "2023-07-15",
@@ -195,10 +199,6 @@
     {
       "basename": "ES Module",
       "path": "笔记/前端/工程化/ES Module.md"
-    },
-    {
-      "basename": "Pasted image 20230715122821",
-      "path": "笔记/前端/assets/Pasted image 20230715122821.png"
     }
   ],
   "omittedPaths": [

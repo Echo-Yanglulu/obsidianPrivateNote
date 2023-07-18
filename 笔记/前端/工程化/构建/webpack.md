@@ -278,7 +278,7 @@ module.exports = function (input) {
 	3. 所以需要作为第一个执行
 2. css-loader ：处理如通过import引入CSS文件的语法，支持CSS模块
 	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
-3. style-loader ：将最终样式代码包裹为JS，JS在运行过程中创建style标签并把样式插入。
+3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中创建style标签并把样式插入。
 4. less-loader: 处理 [[LESS]] 
 5. sass-loader: 处理 [[Sass]] 
 6. postcss-loader: 用 postcss 来处理 CSS
@@ -286,10 +286,6 @@ module.exports = function (input) {
 8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
 9. babel-loader:  ES6 文件到 ES
 
-作者：晓得迷路了
-链接：https://juejin.cn/post/7244174211957211196
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ## plugin【loader无法解决的其他事】
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
