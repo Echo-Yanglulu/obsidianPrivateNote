@@ -10,7 +10,7 @@
           {
             "id": "670685ad67662d53",
             "type": "tabs",
-            "dimension": 12.773559624832515,
+            "dimension": 12.773559624832517,
             "children": [
               {
                 "id": "bd5ff300df2b3029",
@@ -36,7 +36,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 62.1706118803037,
+            "dimension": 62.17061188030371,
             "children": [
               {
                 "id": "63e6cb6f221a3591",
@@ -483,10 +483,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "ES6新特性",
+                      "title": "2023-07-18",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/ES6新特性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":27},\"to\":{\"line\":5,\"ch\":27}},\"scroll\":4.916604616530156}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-18.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -624,7 +624,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 25.05582849486378,
+            "dimension": 25.055828494863775,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -800,7 +800,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d1616fa1c8050a1e",
@@ -983,8 +983,9 @@
   },
   "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/base64.md",
+    "Day Planners/2023-07-18.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/assets/生产环境图片引入配置.png",
     "笔记/前端/assets/开发环境图片引入配置.png",
     "笔记/前端/assets/样式文件的loader配置.png",
