@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react合成事件.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -139,6 +139,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react合成事件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react合成事件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":11},\"to\":{\"line\":32,\"ch\":11}},\"scroll\":30.680957128614157}"
+                    },
+                    {
                       "title": "react原理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -167,7 +173,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -520,7 +526,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -548,7 +554,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react合成事件.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -857,6 +863,7 @@
   },
   "active": "3e92f5ccb360578e",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/前端工作.md",
     "Day Planners/2023-07-20.md",
     "笔记/前端/assets/Pasted image 20230719193141.png",
@@ -892,7 +899,6 @@
     "笔记/前端/编程语言/JS/Unicode.md",
     "笔记/前端/编程语言/JS/ASCII.md",
     "笔记/前端/编程语言/JS/计算机编码.md",
-    "笔记/工具/思考/记忆/编码.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
