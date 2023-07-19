@@ -357,10 +357,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "动态引入所需语言",
-                      "icon": "lucide-image",
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"笔记/前端/assets/动态引入所需语言.png\"}}",
-                      "eState": "{}"
+                      "title": "2023-07-19",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-19.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -857,6 +857,7 @@
   },
   "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "Day Planners/2023-07-19.md",
     "笔记/前端/assets/Pasted image 20230719121511.png",
     "笔记/前端/assets/动态引入所需语言.png",
     "笔记/前端/前端工作.md",
@@ -865,11 +866,9 @@
     "笔记/前端/assets/缓存babel对js的编译结果.png",
     "笔记/前端/assets/Pasted image 20230718152606.png",
     "笔记/前端/assets/Pasted image 20230719112329.png",
-    "Day Planners/2023-07-19.md",
     "笔记/前端/assets/Pasted image 20230718160546.png",
     "笔记/前端/assets/Pasted image 20230718160003.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",
-    "笔记/前端/assets/webpack打包时抽离CSS文件.png",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/库、框架/UI库/react-router.md",
