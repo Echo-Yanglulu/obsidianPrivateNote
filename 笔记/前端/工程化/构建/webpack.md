@@ -170,7 +170,7 @@ console.log(module)
 		1. 客户端禁止缓存html：![[Pasted image 20230702160830.png]] 
 chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件。一般使用==动态加载==技术时会出现这种bundle。
 ## loader
-2. 功能：转换模块的源码
+2. 功能：转换模块的源码。
 	1. 将模块从不同的语言（如 TypeScript）转换为 JavaScript ，或将内联图像转换为 data URL
 		1. 语法转换：es6
 	2. 在 import 或 "load(加载)" 模块时预处理文件
