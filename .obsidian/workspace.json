@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/Iterator.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -521,7 +521,7 @@
                 }
               }
             ],
-            "currentTab": 13
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -548,7 +548,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/Iterator.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -576,7 +576,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/Iterator.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -883,10 +883,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "179064594a1871bb",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
-    "笔记/前端/Iterator.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/编程语言/JS/浏览器原理.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/ES6新特性.md",
+    "笔记/前端/Iterator.md",
     "笔记/前端/二进制数组.md",
     "笔记/前端/WebGL.md",
     "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
@@ -918,9 +921,6 @@
     "Day Planners/2023-07-20.md",
     "笔记/前端/assets/Pasted image 20230720123811.png",
     "笔记/前端/webpack.dll.js.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/react合成事件.md",
-    "Day Planners/2023-07-19.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",

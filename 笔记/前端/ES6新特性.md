@@ -52,7 +52,6 @@ JSON.stringify() 的增强力
 5. 数字分隔符
 6. 剩余属性与扩展属性
 7. [[解构赋值]] 
-
 ## 迭代
 Async iterators 异步迭代器
 [[Iterator]] 
