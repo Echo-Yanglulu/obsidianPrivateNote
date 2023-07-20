@@ -279,10 +279,13 @@ loaderApi.pitch = function loader(request){
 [[webpack.config.js]]  
 ## plugin
 loader无法解决的其他事【太笼统了！】
-功能
-	1. 在打包过程的不同阶段拦截**运行时事件** 
-		1. 包内容的提取，当 MiniCssExtractPlugin 与 Loader 一起使用时，从包中抽出 CSS 并将其提取到单独的文件中
-	2. 用户直接介入编译流程
+1. 功能
+	1. 用户直接介入编译流程
+		1. 通过调用插件，在不同的生命周期函数上注册处理程序。在编译过程中的不同时间点运行
+		2. 生命周期函数执行时，插件可完全访问当前的编译状态。
+	2. 在打包过程的不同阶段拦截**运行时事件** 
+2. 案例
+	1. 包内容的提取，当 MiniCssExtractPlugin 与 Loader 一起使用时，从包中抽出 CSS 并将其提取到单独的文件中
 如htmlWebpackPlugin：把JS、CSS插入HTML
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
