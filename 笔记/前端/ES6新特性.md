@@ -21,7 +21,7 @@ Object.getOwnPropertyDescriptors
 Trailing commas
 ## 数组
 includes()
-Array.prototype.{flat, flatMap}
+[[Array]].prototype.{flat, flatMap}
 Array.prototype.sort() is now required to be stable
 ## 迭代
 Async iterators 异步迭代器
@@ -36,12 +36,12 @@ Promise.any
 ## [[JSON]] 
 JSON.stringify() 的增强力
 ## [[操作符]] 
-Exponentiation Operator
-可选链 Optional chaining
-空值合并运算符（Nullish coalescing Operator）
-逻辑运算符和赋值表达式（&&=，||=，??=）
-数字分隔符
-剩余属性与扩展属性
+1. Exponentiation Operator：相当于[[Math]].pow
+2. 可选链 Optional chaining
+3. 空值合并运算符（Nullish coalescing Operator）
+4. 逻辑运算符和赋值表达式（&&=，||=，??=）
+5. 数字分隔符
+6. 剩余属性与扩展属性
 ## [[模块]] 
 Dynamic import（按需 import）
 # 版本维度

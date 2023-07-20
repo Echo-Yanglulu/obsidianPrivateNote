@@ -110,7 +110,9 @@ console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
 3. indexOf(值，起点)：*某个值*第一次出现的**索引** 
 4. findIndex：*符合条件的值*第一次出现的**索引**。
 5. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
-6. includes：存在某个值
+6. includes(valueToFind, fromIndex)：存在某个值
+	1.  fromIndex大于等于数组长度：返回false
+	2. fromIndex为负值：追加数组长度，作为起点
 7. every：全部符合条件
 8. some：部分符合条件
 9. filter：找到符合条件的值

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
                   }
                 }
               }
@@ -497,9 +497,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "5110a66f0cdd86b1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/ES6新特性.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 9
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -526,7 +548,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -554,7 +576,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -861,10 +883,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "a256a83672e663ec",
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230719121511.png",
+    "笔记/前端/ES6新特性.md",
+    "笔记/前端/编程语言/JS/基本概念/Math.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/assets/Pasted image 20230719121511.png",
     "笔记/前端/assets/忽略相关文件.png",
     "笔记/前端/assets/动态引入所需语言.png",
     "笔记/前端/忽略所有语言.png.md",
@@ -892,11 +917,9 @@
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/window.md",
     "Day Planners/2023-07-18.md",
     "笔记/前端/编程语言/JS/base64.md",
-    "笔记/前端/ES6新特性.md",
     "Day Planners/2023-07-17.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
