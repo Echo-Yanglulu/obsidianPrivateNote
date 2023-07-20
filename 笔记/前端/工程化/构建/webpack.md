@@ -276,7 +276,7 @@ module.exports = function (input) {
 	1. sass, less之类的语法编译为CSS。同sass-loader 。
 	2. 使属性兼容各种浏览器，使用autoprefixer插件
 	3. 所以需要作为第一个执行
-2. css-loader ：处理如通过import引入CSS文件的语法，支持CSS模块
+2. css-loader ：处理如通过import引入CSS文件的在*JS中引入CSS*的语法，支持CSS模块
 	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
 3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中创建style标签并把样式插入。
 4. less-loader: 处理 [[LESS]] 

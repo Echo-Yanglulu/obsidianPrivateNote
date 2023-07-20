@@ -172,5 +172,8 @@
   "feather-style@@default-font-color": false,
   "ul-theme-settings@@ul-kanban-style": "ul-kanban-border",
   "encore-settings@@encore-custom-title@@light": "#43FAD4",
-  "encore-settings@@blur-amount": "encore-blur-off"
+  "encore-settings@@blur-amount": "encore-blur-off",
+  "minimal-style@@link-color@@light": "#E400F6",
+  "minimal-style@@h1-l": true,
+  "minimal-style@@h1-color@@light": "#000000"
 }
