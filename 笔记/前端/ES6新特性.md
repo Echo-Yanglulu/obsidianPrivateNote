@@ -17,8 +17,9 @@
 ## [[String]] 
 1. String.prototype.padStart()
 2. String.prototype.{trimStart, trimEnd}
-4. String.prototype.replaceAll()
-3. String.prototype.matchAll()
+3. String.prototype.replaceAll()
+4. String.prototype.matchAll()
+5. [[Unicode]]  
 ## [[Object]] 
 1. Object.entries：自有可枚举
 2. Object.values
