@@ -363,10 +363,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "Tree-Shaking",
+                      "title": "babel",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/Tree-Shaking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":33},\"to\":{\"line\":1,\"ch\":33}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/babel.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":8.330708661417322}"
                     },
                     {
                       "state": "{}",
@@ -863,9 +863,10 @@
   },
   "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/babel.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230720152916.png",
     "笔记/前端/工程化/ES Module.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/Tree-Shaking.md",
     "笔记/前端/assets/忽略所有语言.png",
     "笔记/前端/assets/动态引入所需语言.png",
@@ -879,7 +880,6 @@
     "笔记/前端/assets/在开发环境配置中设置引用关系.png",
     "笔记/前端/assets/模板文件中引入dll文件.png",
     "笔记/前端/webpack.dll.js.md",
-    "笔记/前端/assets/设置需要HMR的模块范围.png",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "Day Planners/2023-07-19.md",
