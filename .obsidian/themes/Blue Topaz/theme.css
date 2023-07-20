@@ -1,5 +1,5 @@
-/*蓝色托帕石，适合Obsidian v1.2.8。uid [20230704] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v1.2.8, uid [20230704] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v1.2.8。uid [20230719] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v1.2.8, uid [20230719] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
 thanks pkmer.cn
@@ -10,14 +10,6 @@ Many thanks to @Cuman
 name: 🥑Blue Topaz Theme
 id: blue-topaz-theme
 settings:
-  -
-    id: transparent-setting-panel
-    title: Translucent Setting Panel
-    title.zh: 透明窗口
-    description: Make this panel transparent
-    description.zh: 使本窗口透明，便于设置
-    type: class-toggle
-    default: false
   -
     id: background-settings
     title: 1. General Settings
@@ -143,6 +135,7 @@ settings:
     title.zh: 开启背景
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: background-settings-workplace-theme-light
     title: Light mode
@@ -286,10 +279,11 @@ settings:
     collapsed: true
   -
     id: background-image-settings-switch
-    title: Toggle Background Images
+    title: Toggle Note Background Images
     title.zh: 开启笔记背景
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: toggle-nonoverlapping-bg
     title: Activate nonoverlapping note background when toggling workplace background
@@ -2024,6 +2018,7 @@ settings:
     description: Enable global effect, local effect only need to  declare "cssclass：indent" in the YAML area. Contextual Typography plugin needs to be installed in Reading mode.
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: justify-align
     title: Alignment of both ends(justify align)
@@ -2032,6 +2027,7 @@ settings:
     description: Enable global effect, local effect only need to  declare "cssclass：justify" in the YAML area. Contextual Typography plugin needs to be installed in Reading mode.
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: reduce-bottom-padding
     title: To Reduce Padding Bottom of Pages
@@ -3864,6 +3860,7 @@ settings:
     description.zh: 需要先在设置中开启显示front-matter，笔记cssclass中声明show-full-metadata 可单独控制是否显示yaml
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: canvas-styles
     title: 2.3.25 Canvas
@@ -3879,6 +3876,7 @@ settings:
     description.zh: 开启后 点击卡片会突出显示画布上所有相同颜色的卡片和线条
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: canvas-card-text-middle
     title: canvas card text center align
@@ -4590,6 +4588,7 @@ settings:
     title.zh: 代码换行 （阅读模式）
     type: class-toggle
     default: true
+    addCommand: true
   -
     id: remove-language-type
     title: Toggle showing types of code languages
@@ -4602,6 +4601,7 @@ settings:
     title.zh: 代码不换行 （Live Preview）
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: letter-space-code
     title: Letter Spacing for Code
@@ -9929,6 +9929,16 @@ body:not(.remove-cloze-style) .markdown-source-view.is-live-preview .cm-highligh
   transition: all 400ms ease-in-out;
 }
 
+
+body:not(.remove-cloze-style)  .markdown-rendered mark:has(> del) {
+  background-color: transparent!important;
+}
+
+body:not(.remove-cloze-style) .markdown-rendered mark:empty {
+  background-color: initial !important;
+}
+
+
 .markdown-source-view.is-live-preview.cloze .cm-em.cm-highlight.cm-strikethrough:not([class*="formatting"]),
 body:not(.remove-cloze-style) .markdown-source-view.is-live-preview .cm-em.cm-highlight.cm-strikethrough:not([class*="formatting"]) {
   color: transparent !important;
@@ -10962,6 +10972,8 @@ body:not(.remove-cloze-style) :is(.markdown-preview-view,.markdown-rendered) mar
   background-color: var(--cloze-bg-color);
   color: var(--cloze-bg-color);
   text-decoration: underline var(--cloze-decoration) var(--cloze-decoration-color);
+  border-radius:5px;
+    padding:2px;
 }
 
 body:not(.remove-cloze-style) .cm-s-obsidian .cm-formatting.cm-formatting-highlight.cm-highlight~span.cm-formatting-strikethrough.cm-highlight.cm-strikethrough~span.cm-highlight.cm-strikethrough:not(.cm-em),
@@ -15277,17 +15289,7 @@ body.translucent-setting-panel .modal-bg {
   background-color: var(--background-secondary-translucent-1);
 }
 
-body.transparent-setting-panel .modal.mod-settings .vertical-tab-content-container,
-body.transparent-setting-panel .horizontal-tab-content,
-body.transparent-setting-panel .vertical-tab-content {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.transparent-setting-panel .modal-bg,
-body.transparent-setting-panel .modal.mod-settings {
-  background-color: var(--background-secondary-translucent) !important;
-  backdrop-filter: blur(0) !important;
-}
+ 
 
 body.setting-default-frosted-glass .prompt {
   background-color: var(--bg-color-settings-4);
@@ -15354,23 +15356,9 @@ body.translucent-setting-panel .vertical-tab-content {
   background-color: var(--bg-color-settings-1);
 }
 
-body.transparent-setting-panel .modal,
-body.transparent-setting-panel .modal.mod-settings,
-body.transparent-setting-panel .vertical-tab-content {
-  background-color: transparent !important;
-}
+ 
 
-body.transparent-setting-panel .vertical-tab-header,
-body.transparent-setting-panel .horizontal-tab-nav-item,
-body.transparent-setting-panel .vertical-tab-nav-item {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.transparent-setting-panel .vertical-tab-nav-item.is-active {
-  color: var(--text-noraml) !important;
-  font-weight: bolder;
-}
-
+ 
 body.setting-default-frosted-glass .vertical-tab-header-group-title {
   border: none;
 }
@@ -29332,5 +29320,4 @@ body.canvas-card-text-middle .canvas-node-container .canvas-node-content.markdow
 div#popup-search {
   background-color: var(--color-base-10);
 }
-
  
