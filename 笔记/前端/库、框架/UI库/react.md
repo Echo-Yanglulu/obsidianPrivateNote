@@ -66,6 +66,8 @@ List.propTypes = {
 	  optionalProperty: PropTypes.string,
 	  requiredProperty: PropTypes.number.isRequired
 	}),
+	// 单个子元素
+	optionalProps: PropTypes.element,
 	// 多类型选一
 	optionalProps: PropTypes.oneOfType([
 		PropTypes.string,
