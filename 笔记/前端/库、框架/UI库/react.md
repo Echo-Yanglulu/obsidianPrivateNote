@@ -41,6 +41,14 @@ prop-types库
 ```js
 import PropTypes from 'prop-types'
 List.propTypes = {
+	// 单类型
+	optionalProps: PropTypes.string,
+	optionalProps: PropTypes.number,
+	optionalProps: PropTypes.bool,
+	optionalProps: PropTypes.array,
+	// 多类型选一
+	// 多值选一
+	// 数组
 	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
 }
 ```
