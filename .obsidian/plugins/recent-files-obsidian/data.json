@@ -5,12 +5,16 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
-      "basename": "regenerator",
-      "path": "笔记/前端/regenerator.md"
-    },
-    {
       "basename": "babel",
       "path": "笔记/前端/工程化/构建/babel.md"
+    },
+    {
+      "basename": "使用版本为3的core-js",
+      "path": "笔记/前端/assets/使用版本为3的core-js.png"
+    },
+    {
+      "basename": "regenerator",
+      "path": "笔记/前端/regenerator.md"
     },
     {
       "basename": "Tree-Shaking",
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP Method",
       "path": "笔记/前端/编程语言/JS/HTTP Method.md"
-    },
-    {
-      "basename": "HTTP Header",
-      "path": "笔记/前端/编程语言/JS/HTTP Header.md"
     }
   ],
   "omittedPaths": [
