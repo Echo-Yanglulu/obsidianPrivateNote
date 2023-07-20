@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "二进制数组",
+      "path": "笔记/前端/二进制数组.md"
+    },
+    {
       "basename": "ES6新特性",
       "path": "笔记/前端/ES6新特性.md"
+    },
+    {
+      "basename": "WebGL",
+      "path": "笔记/前端/WebGL.md"
     },
     {
       "basename": "Array",
@@ -191,10 +199,6 @@
     {
       "basename": "Global",
       "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
-    },
-    {
-      "basename": "单例内置对象",
-      "path": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
     }
   ],
   "omittedPaths": [
