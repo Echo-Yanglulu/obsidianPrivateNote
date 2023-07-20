@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
                   }
                 }
               }
@@ -529,13 +529,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":375,\"ch\":22},\"to\":{\"line\":375,\"ch\":22}},\"scroll\":363.8588541666667}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -570,7 +576,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -598,7 +604,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -907,8 +913,8 @@
   },
   "active": "1ef8a53a2b486d4f",
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/webpack.config.js222.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack.config.js222.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",

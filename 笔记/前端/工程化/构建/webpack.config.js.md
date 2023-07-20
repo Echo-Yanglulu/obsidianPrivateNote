@@ -1,8 +1,7 @@
 # 概述
 大部分配置是loader与plugin
 是[[node]]的一个模块，遵循[[CommonJS]]规范
-## 重要概念
-### module
+## module
 模块化编程中，**功能**离散的chunk是模块。
 webpack中，一切**文件**都是[[模块]]（图片，CSS）
 
@@ -12,13 +11,13 @@ webpack中，一切**文件**都是[[模块]]（图片，CSS）
 	1. 安装插件@babe/core, @babel/preset-env, babel-loader
 	2. 新增文件.babelrc
 	3. 设置loader规则
-### chunk
+## chunk
 根据自定义的规则，由module生成的文件。一个chunk可来自多个module
-### bundle
+## bundle
 bundle就是对chunk进行处理（压缩打包等）后的产出
-### entry
+## entry
 入口模块。构建依赖图的起点
-#### 属性
+### 属性
 1. 数量
 	1. 单文件入口
 	2. 多文件入口。几个entry会打包出对应数量的bundle
@@ -63,25 +62,25 @@ list: 'path/to/my/entry/list.js'
 | 场景 | 库,单html页面 | 页面模块分享优化、多页面 |
 | 特点 | 不易扩展 | 灵活性 |
 | 入口模块 | 入口文件 | 并不是会创建一个多起点的依赖图，而是新建一个入口模块，最后一个作为新建入口模块的module.exports, 其他模块作为新建入口模块的引入（成为依赖图中的一部分） |
-#### context
+### context
 webpack打包项目时，相对路径上下文（相对路径所基于的绝对路径）。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
 默认为process.cwd()，当前工作目录。
-### output
+## output
 entry编译打包后输出的bundle。
-#### path
+### path
 存在路径，默认dist
-#### filename
+### filename
 bundle名称，默认main。即：默认为dist/main.js
-##### 函数
+### 函数
 返回字符串作为bundle名
-##### 占位符
+### 占位符
 多个entry可使用**占位符区分bundle来源**：来自哪个entry
 1. name：entry中配置的模块名，即key
 2. id：模块id
 3. hash：模块hash。整个项目共用一个hash。一个改动，bundle中的该字段将重新生成
 4. chunkhash：依赖图hash。依赖的内容改动，整个bundle重新生成
 5. contenthash：文件hash（应该是具体到依赖图中每个层级）。结合提取css的插件，使用。解决js与依赖的css共用hash的问题
-#### publicPath
+### publicPath
 使用script或link标签引用不同于本地磁盘路径（output.path）的文件路径时，配置
 在浏览器中被引用的URL地址：当静态资源部署到CDN或其他服务时，让标签访问该域名及路径。
 ```javascript
@@ -99,18 +98,18 @@ module.exports = {
 	<link href="http://cdn.example.com/assets/logo.png" />
 </head>
 ```
-#### 用webpack封装库用到的属性
+### 用webpack封装库用到的属性
 1. library：库名称
 2. libraryTarget：库打包出来的规范
 	1. var（默认）, assign, this, window, commonjs, commonjs2, amd, umd, umd2, jsonp
-#### externals
+### externals
 **去除**输出的打包文件（bundle？）中依赖的**第三方模块**（jquery, vue等），减小打包文件的体积。
 通常在开发JS库时使用，这些被依赖的模块应该由使用者引入、添加，而不应该包含在这个项目的依赖中。如开发vue扩展，不应把vue本身引入打包内容。
 
 库的使用者应如何提供这些，我们的库所依赖的模块？取决于
 	1. 当前库的导出方式
 	2. 使用者的引入方式
-#### target
+### target
 **构建后代码运行的宿主环境**。可能是web应用，node.js服务应用，electron跨平台桌面应用。因宿主环境不同，构建时需要特殊处理。
 构建的目标（宿主环境）
 1. 接收字符串
@@ -121,13 +120,13 @@ module.exports = {
 	5. webworker
 2. 接收函数
 	1. compiler对象作为参数
-#### devtool
+### devtool
 如何显示[[sourcemap]]。
-### mode
+## mode
 生产环境
 	1. 压缩代码
 	2. 优化图片
-### loader
+## loader
 模块处理器：对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
 webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
 单个loader无法处理的模块：有些模块只有一个loader不足以解析模块依赖关系（如less预编译器模块），此时顺序重要：从后向前
