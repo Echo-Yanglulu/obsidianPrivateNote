@@ -232,6 +232,21 @@ module.exports = function (input) {
 ```
 与同步的区别：返回值用callback传递出去。
 
+### 常用loader 
+1. postcss-loader [[postcss插件配置文件.png]] 
+	1. sass, less之类的语法编译为CSS。同sass-loader 。
+	2. 使属性兼容各种浏览器，使用autoprefixer插件
+	3. 所以需要作为第一个执行
+2. css-loader ：处理如通过import引入CSS文件的在*JS中引入CSS*的语法，支持CSS模块
+	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
+3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中将：创建style标签并把样式代码插入HTML中。
+4. less-loader: 处理 [[LESS]] 
+5. sass-loader: 处理 [[Sass]] 
+6. postcss-loader: 用 postcss 来处理 CSS
+7. file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
+8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
+9. babel-loader:  ES6 文件到 ES
+
 ### 原理
 #### 洋葱模型
 ![[Pasted image 20220806153852.png]]
@@ -272,33 +287,8 @@ loaderApi.pitch = function loader(request){
 ### 配置
 #### 配置文件
 [[webpack.config.js]]  
-![[Pasted image 20220731000757.png]] 
-![[Pasted image 20220804222709.png]]
-#### 内联配置
-在使用import语句建立模块依赖时指定loader
-1. 使用`!`分开多个Loader：`import Styles from 'style-loader!css-loader?modules!./styles.css';`
-	1. 这里css-loader使用了[[CSS Module]]。
-2. 使用 **! 前缀**：禁用所有已配置的 *loader*(普通 loader)
-	1. `import Styles from '!style-loader!css-loader?modules!./styles.css';` 
-3. 使用 **!! 前缀**：禁用所有已配置的 *loader*（preLoader, loader, postLoader）【集合名词】
-	1. `import Styles from '!!style-loader!css-loader?modules!./styles.css';` 
-4. 使用 **-! 前缀**：禁用所有已配置的 *preLoader 和 loader*，但是不禁用 postLoaders
-	1. `import Styles from '-!style-loader!css-loader?modules!./styles.css';` 
-### 常用loader 
-1. postcss-loader [[postcss插件配置文件.png]] 
-	1. sass, less之类的语法编译为CSS。同sass-loader 。
-	2. 使属性兼容各种浏览器，使用autoprefixer插件
-	3. 所以需要作为第一个执行
-2. css-loader ：处理如通过import引入CSS文件的在*JS中引入CSS*的语法，支持CSS模块
-	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
-3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中将：创建style标签并把样式代码插入HTML中。
-4. less-loader: 处理 [[LESS]] 
-5. sass-loader: 处理 [[Sass]] 
-6. postcss-loader: 用 postcss 来处理 CSS
-7. file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
-8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
-9. babel-loader:  ES6 文件到 ES
-## plugin【loader无法解决的其他事】
+## plugin
+loader无法解决的其他事【太笼统了！】
 功能
 	1. 在打包过程的不同阶段拦截**运行时事件** 
 		1. 包内容的提取，当 MiniCssExtractPlugin 与 Loader 一起使用时，从包中抽出 CSS 并将其提取到单独的文件中
@@ -322,6 +312,8 @@ module.exports = class DemoPlugin {
 		1. 为项目/应用程序生成html文件
 		2. 将所有通过loader生成的JS bundle自动注入。(基本的loader无法做到一系列的功能)
 ![[Pasted image 20220731001033.png]]
+### 原理
+1. webpack 插件是一个具有 apply 方法的 JavaScript 对象。
 ### 常用plugin
 #### [[SplitChunksPlugin]] 
 

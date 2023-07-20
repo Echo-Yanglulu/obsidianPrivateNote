@@ -119,13 +119,27 @@ module.exports = {
 # loader
 多loader：有些模块只有一个loader不足以解析模块依赖关系（如less预编译器模块），此时顺序重要：从后向前
 ## 配置
+modules.rules这个List中的每个对象
 ###  文件
-		1. test：选择需要处理的文件类型
-		2. use：对应loader
-		3. exclude：匹配时排除某些文件夹
+1. test：选择需要处理的文件类型
+2. exclude：匹配时排除某些文件夹
+3. include
+4. use：对应loader
+	1. loader
+	2. options
 ###  内联
 const html = require('html-loader!./loader.html');
 或import html from 'html-loader!./loader.html';
+
+在使用import语句建立模块依赖时指定loader
+1. 使用`!`连接多个Loader：`import Styles from 'style-loader!css-loader?modules!./styles.css';`
+	1. 这里css-loader使用了[[CSS Module]]。
+2. 使用 **! 前缀**：禁用所有已配置的 *loader*(普通 loader)
+	1. `import Styles from '!style-loader!css-loader?modules!./styles.css';` 
+3. 使用 **!! 前缀**：禁用所有已配置的 *loader*（preLoader, loader, postLoader）【集合名词】
+	1. `import Styles from '!!style-loader!css-loader?modules!./styles.css';` 
+4. 使用 **-! 前缀**：禁用所有已配置的 *preLoader 和 loader*，但是不禁用 postLoaders
+	1. `import Styles from '-!style-loader!css-loader?modules!./styles.css';` 
 ## 传参
 		1. option
 		2. query
