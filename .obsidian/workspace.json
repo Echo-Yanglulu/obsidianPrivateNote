@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/ES6新特性.md"
+                    "file": "笔记/前端/二进制数组.md"
                   }
                 }
               }
@@ -548,7 +548,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/ES6新特性.md",
+                        "file": "笔记/前端/二进制数组.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -576,7 +576,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/ES6新特性.md",
+                        "file": "笔记/前端/二进制数组.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -883,10 +883,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5110a66f0cdd86b1",
+  "active": "26994221e633cf95",
   "lastOpenFiles": [
-    "笔记/前端/ArrayBuffer.md",
+    "笔记/前端/二进制数组.md",
     "笔记/前端/ES6新特性.md",
+    "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
+    "笔记/前端/ArrayBuffer.md",
     "笔记/前端/编程语言/JS/基本概念/解构赋值.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/关键字.md",
@@ -919,8 +921,6 @@
     "Day Planners/2023-07-19.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",

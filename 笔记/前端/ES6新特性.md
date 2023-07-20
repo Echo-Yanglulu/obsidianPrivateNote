@@ -10,10 +10,10 @@
 2. [[Symbol]] 
 	1. Symbol.prototype.description
 # 接口
-1. 操作二进制数据
-	1. [[ArrayBuffer]]对象
-	2. TypedArray视图
-	3. DataView视图
+1. 操作二进制数据【都是以数组的语法处理二进制数据，所以统称为[[二进制数组]]。
+	1. [[ArrayBuffer]]对象：代表原始的二进制数据
+	2. [[TypedArray]]视图：用来读写简单类型的二进制数据
+	3. DataView视图：用来读写复杂类型的二进制数据
 ## [[String]] 
 1. String.prototype.padStart()
 2. String.prototype.{trimStart, trimEnd}
