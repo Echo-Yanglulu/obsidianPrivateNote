@@ -9,6 +9,11 @@
 1. [[BigInt]] 
 2. [[Symbol]] 
 	1. Symbol.prototype.description
+# 接口
+1. 操作二进制数据
+	1. [[ArrayBuffer]]对象
+	2. TypedArray视图
+	3. DataView视图
 ## [[String]] 
 1. String.prototype.padStart()
 2. String.prototype.{trimStart, trimEnd}
@@ -24,12 +29,12 @@
 1. Array.prototype.includes()
 2. [[Array]].prototype.{flat, flatMap}
 3. Array.prototype.sort() is now required to be stable
-## 迭代
-Async iterators 异步迭代器
 ## [[Function]] 
 1. 箭头函数
 2. 异步函数[[async]] 
 3. 修订 Function.prototype.toString()
+	1. 修订前：省略注释与空格
+	2. 修订后：保留
 ## [[Promise]] 
 1. Promise.prototype.finally
 2. Promise.allSettled
@@ -44,6 +49,10 @@ JSON.stringify() 的增强力
 5. 数字分隔符
 6. 剩余属性与扩展属性
 7. [[解构赋值]] 
+
+## 迭代
+Async iterators 异步迭代器
+
 ## [[模块]] 
 Dynamic import（按需 import）
 # 版本维度
