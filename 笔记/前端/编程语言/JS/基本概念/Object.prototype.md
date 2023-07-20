@@ -20,6 +20,5 @@
 	3. [[Array]]类：调用每个元素的toLocaleString方法
 3. valueOf()：对象需要转为**非[[String]]原始值**
 	1. [[Date]]类可把日期转化为数值，进行比较
-
 # 属性
 指向原型对象：proto: null

@@ -186,8 +186,12 @@ Object.getOwnPropertyNames()、Object.getOwnPropertySymbols()和Object.assign()�
 # 方法
 如何在对象上添加重要的方法
 所有对象都从Object.prototype继承属性(虽然中间还隔了一层当前类型对象的[[原型对象]]。)
-1. 继承属性[[Object.prototype]] 
-2. 静态属性Object.assign
+## 静态属性
+Object.assign
+Object.getOwnPropertyDescriptors：一个对象的所有自身属性的描述符
+## 实例属性
+实例属性并不多
+[[Object.prototype]] 
 # JS中的对象实例
 # 操作
 1. [[深拷贝]]，浅拷贝
