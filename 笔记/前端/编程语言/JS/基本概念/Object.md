@@ -166,12 +166,11 @@ in可做到而属性访问判断做不到的：in可判断是否存在。访问�
 3. 自有符号：Object.getOwnPropertySymbols()
 4. 自有可枚举字符串：Object.keys()
 	1. 枚举顺序不确定
+	1. Object.values()
+	2. Object.entries()
 5. 可枚举字符串：for/in
 	1. 枚举顺序不确定
 6. Object.assign()
-7. 自有字符串
-	1. Object.values()：属性值组成的数组
-	2. Object.entries()：
 ### 顺序
 Object.getOwnPropertyNames()、Object.getOwnPropertySymbols()和Object.assign()的枚举顺序
 1. 自有

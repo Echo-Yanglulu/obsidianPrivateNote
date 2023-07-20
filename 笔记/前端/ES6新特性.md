@@ -4,7 +4,7 @@
 # 对象维度
 ## [[关键字]] 
 globalThis
-const, let
+const, let：块级作用域
 ## [[数据类型]] 
 1. [[BigInt]] 
 2. [[Symbol]] 
