@@ -3,8 +3,8 @@
 [ES6 入门教程](https://es6.ruanyifeng.com/#docs/promise) 
 # 对象维度
 ## [[关键字]] 
-globalThis
-const, let：块级作用域
+1. globalThis：语言标准的层面，引入globalThis作为顶层对象。也就是说，任何环境下，globalThis都是存在的，都可以从它拿到顶层对象，指向全局环境下的this。
+2. const, let：块级作用域
 ## [[数据类型]] 
 1. [[BigInt]] 
 2. [[Symbol]] 
@@ -43,6 +43,7 @@ JSON.stringify() 的增强力
 4. 逻辑运算符和赋值表达式（&&=，||=，??=）
 5. 数字分隔符
 6. 剩余属性与扩展属性
+7. [[解构赋值]] 
 ## [[模块]] 
 Dynamic import（按需 import）
 # 版本维度
