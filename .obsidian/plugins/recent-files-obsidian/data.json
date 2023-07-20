@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "babel",
-      "path": "笔记/前端/工程化/构建/babel.md"
-    },
-    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "regenerator",
+      "path": "笔记/前端/regenerator.md"
+    },
+    {
+      "basename": "babel",
+      "path": "笔记/前端/工程化/构建/babel.md"
     },
     {
       "basename": "Tree-Shaking",
@@ -195,10 +199,6 @@
     {
       "basename": "HTTP Header",
       "path": "笔记/前端/编程语言/JS/HTTP Header.md"
-    },
-    {
-      "basename": "JSON",
-      "path": "笔记/前端/编程语言/JS/JSON.md"
     }
   ],
   "omittedPaths": [
