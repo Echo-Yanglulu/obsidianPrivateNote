@@ -18,7 +18,7 @@
 如
 	箭头函数转为匿名函数
 ## polyfill[^2] 
-目的：==让老环境支持新的API，feature==，
+目的：==让老环境支持新的feature==，
 
 和语法转换有什么区别？
 理解：
@@ -79,9 +79,8 @@ AST的遍历都是深度优先 => 走到尽头后会向上返回到一个公共�
 	3. \['名称', 配置对象]
 即：![[Pasted image 20220730104132.png]]
 ### 执行顺序
-1. 整体plugin 在preset之前执行[^5]
-2. 多个插件**从前向后**执行[^6]
-
+1. 整体plugin 在preset之前执行[^5] 
+2. 多个插件**从前向后**执行[^6] 
 ### 开发（重点）
 > 标识符反转插件
 > 把所有变量名反转
@@ -95,20 +94,20 @@ AST的遍历都是深度优先 => 走到尽头后会向上返回到一个公共�
 1. 输入以上两行代码
 2. 对比词法分析后，解析后的AST变化。准备开始修改AST
 ## preset
-一组**插件的集合**（难道不是内置的插件？）
-可使用对应的preset插件，一键配置对应项目的babel
+定义：一组**插件的集合**（难道不是内置的插件？）可使用对应的preset插件，一键配置对应项目的babel
 配置方式：与plugin相似。preset本质就是一组plugin的集合。==可依赖其他preset==。
+使用：如果一组presets不足以满足需要，再添加插件即可。
 ### 执行顺序
-1. 在plugin之后执行
+1. plugin之后执行
 2. preset之间**从后向前**执行。
 
 plugin执行后执行preset能保证先转换新特性，preset就只需关心比较稳定的语法。（不会覆盖？）
 
-### 常用preset
+### 常用
 #### preset-env
 大多情况只用这个preset即可，主要是两个配置（引入polyfill 代码）
-	1. useBuiltlns配置**polyfill代码注入条件** [^9]
-		1. false：不自动注入[^13]
+	1. useBuiltlns配置**polyfill代码注入条件** [^9] 
+		1. false：不自动注入[^13] 
 		2. usage：实际使用[^14]![[Pasted image 20220728232655.png]]
 		3. entry：环境配置![[Pasted image 20220728232437.png]]
 	2. targets希望preset-env 选择的**插件**[^7]
@@ -121,6 +120,9 @@ preset-env 如此使用存在的问题：
 		1. 解决方案：使用一个plugin和包![[Pasted image 20220728232929.png]]
 		2. 然后可以让polyfill 代码从这个包中**引入**，而不是**内联地写入**polyfill 代码，即：![[Pasted image 20220728233132.png]]如果项目是个三方包，那么这种不影响他人环境的方式很重要。
 
+#### preset-react
+编译JSX语法
+#### preset-typescript
 ### 小结
 preset 与plugin混用的目的，往往是希望在成熟语法之外使用一些新特性
 如果想写一个性能最好，体积最小，侵入性最小的babel/polyfill ，应配置为：![[Pasted image 20220728233405.png]]
