@@ -67,6 +67,19 @@ webpack-cli：通过脚本传参打包
 
 ## 重要的对象与实现
 # 基本概念
+
+## mode
+指定**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
+环境
+	1. 开发环境
+	2. 生产环境
+	3. 不指定环境
+优化项
+	1.添加一些*针对环境的优化*plugin
+	2. 配置一些优化项的默认值。
+
+![[Pasted image 20220731001611.png]]
+
 ## chunk
 定义
 	1. 是**多个模块的封装单元**。
@@ -322,17 +335,6 @@ module.exports = class DemoPlugin {
 ### 常用plugin
 #### [[SplitChunksPlugin]] 
 
-## mode
-指定**构建任务所处环境**/**webpack运行环境**，webpack会根据环境使用一些优化项
-环境
-	1. 开发环境
-	2. 生产环境
-	3. 不指定环境
-优化项
-	1.添加一些*针对环境的优化*plugin
-	2. 配置一些优化项的默认值。
-
-![[Pasted image 20220731001611.png]]
 ## hook
 各个插件注册在hook上，由webpack在相应时机调用
 ## 注释
@@ -372,6 +374,7 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 	3. prefetch 优先级低于 preload。
 # 配置
 [[webpack.config.js]] 
+[[webpack.config.js222]] 
 ## 基础配置
 ### 资源加载
 任何非JS,[[JSON]]资源都应使用loader加载
