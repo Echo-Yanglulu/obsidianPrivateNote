@@ -286,6 +286,7 @@ module.exports = function (input) {
 8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
 9. babel-loader:  ES6 文件到 ES
 ## plugin【loader无法解决的其他事】
+如htmlWebpackPlugin：把JS、CSS插入HTML
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
 module.exports = class DemoPlugin {
