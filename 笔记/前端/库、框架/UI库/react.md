@@ -57,7 +57,7 @@ List.propTypes = {
 	optionalProps: PropTypes.object,
 	optionalProps: PropTypes.array,
 	optionalProps: PropTypes.func,
-	optionalProps: PropTypes.node, // 任何可以被渲染的元素，包括数字，字符串，react 元素，数组，fragment
+	optionalProps: PropTypes.node, // 任何可以被渲染的元素。包括数字，字符串，react 元素，数组，fragment
 	optionalProps: PropTypes.element, // 一个react 元素
 	optionalProps: PropTypes.instanceOf(Message), // 某个类的实例，这里使用JS的instanceOf操作符实现
 	optionalProps: PropTypes.arrayOf(PropTypes.number), // 元素为某个类型的数组
@@ -76,8 +76,6 @@ List.propTypes = {
 	]),
 	// 多值选一
 	optionalProps: PropTypes.oneOf(['News', 'Photos']),
-	// 数组
-	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
 	// 自定义验证器
 	customProp: function(props, propName, componentName) {
 	  if (!/matchme/.test(props[propName])) {
@@ -87,7 +85,14 @@ List.propTypes = {
 	    );
 	  }
 	},
-}
+	customArrayProp: PropTypes.arrayOf(function(propValue, key, componentName, location, propFullName) {
+	  if (!/matchme/.test(propValue[key])) {
+		return new Error(
+		  'Invalid prop `' + propFullName + '` supplied to' +
+		  ' `' + componentName + '`. Validation failed.'
+		);
+	  }
+	}),
 ```
 
 ## state
