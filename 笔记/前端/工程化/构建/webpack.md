@@ -166,7 +166,7 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 4. 可同步或异步
 5. [[babel#plugin（最基础的工具）|插件]]能为loader带来更多特性【插件可对loader进行扩展】
 6. 会产生额外的意外文件
-7. 对一种模块使用的多个loader是倒序执行的。
+7. 对一种模块使用的多个loader默认是倒序执行的。也可以通过手动定义顺序
 ###  功能
 【语法，文件，模板，样式，框架】【语文模样框】
 1. 文件预处理
@@ -278,14 +278,13 @@ module.exports = function (input) {
 	3. 所以需要作为第一个执行
 2. css-loader ：处理如通过import引入CSS文件的在*JS中引入CSS*的语法，支持CSS模块
 	1. 或使用插件将部分代码导出为css文件后通过link标签引入页面。
-3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中创建style标签并把样式插入。
+3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中将：创建style标签并把样式代码插入HTML中。
 4. less-loader: 处理 [[LESS]] 
 5. sass-loader: 处理 [[Sass]] 
 6. postcss-loader: 用 postcss 来处理 CSS
 7. file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
 8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
 9. babel-loader:  ES6 文件到 ES
-
 ## plugin【loader无法解决的其他事】
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript

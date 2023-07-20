@@ -175,5 +175,13 @@
   "encore-settings@@blur-amount": "encore-blur-off",
   "minimal-style@@link-color@@light": "#E400F6",
   "minimal-style@@h1-l": true,
-  "minimal-style@@h1-color@@light": "#000000"
+  "minimal-style@@h1-color@@light": "#000000",
+  "minimal-style@@h2-color@@light": "#FF0000",
+  "minimal-style@@h3-color@@light": "#0600FF",
+  "minimal-style@@h4-color@@light": "#00FF4B",
+  "minimal-style@@h5-color@@light": "#00A2FF",
+  "minimal-style@@h6-color@@light": "#00E1FF",
+  "minimal-advanced@@styled-scrollbars": true,
+  "minimal-advanced@@cursor": "pointer",
+  "minimal-style@@italic-color@@light": "#000FFF"
 }
