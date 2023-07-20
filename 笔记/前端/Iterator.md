@@ -39,3 +39,23 @@ function makeIterator(array) {
 	使用for...of循环遍历某种数据结构时，该循环会自动去寻找 Iterator 接口
 意义
 	1. 可遍历。只要一种数据结构存在Iterator接口，就具备了“可遍历”的特性
+
+## 默认Iterator接口
+默认的 Iterator 接口部署在数据结构的`Symbol.iterator`属性
+	1. 本身是一个函数，就是当前数据结构默认的遍历器生成函数
+
+## 字符串的Iterator接口
+字符串是一个类似数组的对象，也原生具有 Iterator 接口。
+
+可以覆盖原生的Symbol.iterator方法，达到修改遍历器行为的目的
+# 调用Iterator接口的场景
+## [[解构赋值]] 
+## 扩展操作符
+## yield \*
+
+## 其它
+for...of
+Array.from()
+Map(), Set(), WeakMap(), WeakSet()（比如new Map(\[\['a',1],\['b',2]])）
+Promise.all()
+Promise.race()
