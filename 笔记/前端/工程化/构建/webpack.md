@@ -47,7 +47,7 @@ webpack-cli：通过脚本传参打包
 ![[Pasted image 20220730200434.png]]
 1. 准备工作
 	1. 初始化**plugin**：依次调用每个插件的apply方法的过程
-2. resolve源文件，构建module
+2. resolve源文件，
 	1. 遍历源文件，从3到最后，都是由plugin以**注册hook回调**的方式参与
 3. 生成chunk
 4. 构建资源
@@ -61,6 +61,7 @@ webpack-cli：通过脚本传参打包
 2. 处理各种文件类型
 	1. 构造依赖关系图时解析它遇到的每个模块
 3. 转换过程
+	1. 使用Loader处理模块内容
 4. 输出文件
 
 ## 重要的对象与实现
@@ -294,6 +295,8 @@ module.exports = function (input) {
 8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
 9. babel-loader:  ES6 文件到 ES
 ## plugin【loader无法解决的其他事】
+功能
+	1. 在打包过程的不同阶段拦截运行时事件
 如htmlWebpackPlugin：把JS、CSS插入HTML
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript
