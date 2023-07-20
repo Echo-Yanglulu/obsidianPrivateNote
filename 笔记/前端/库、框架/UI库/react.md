@@ -36,11 +36,19 @@ ref
 className代替class
 htmlFor代替label标签的for属性
 事件名：驼峰
+### 默认值
+```js
+Greeting.defaultProps = {
+  name: 'Stranger'
+};
+```
 ### 类型检查
 prop-types库
 ```js
 import PropTypes from 'prop-types'
 List.propTypes = {
+	// 必填：后缀
+	optionalProps: PropTypes.number.isRequired,
 	// 单类型
 	optionalProps: PropTypes.bool,
 	optionalProps: PropTypes.number,
@@ -52,9 +60,12 @@ List.propTypes = {
 	optionalProps: PropTypes.node, // 任何可以被渲染的元素，包括数字，字符串，react 元素，数组，fragment
 	optionalProps: PropTypes.element, // 一个react 元素
 	optionalProps: PropTypes.instanceOf(Message), // 某个类的实例，这里使用JS的instanceOf操作符实现
-	optionalProps: PropTypes.func,
-	optionalProps: PropTypes.arrayOf(PropTypes.number), // 某个类型的数组
-	optionalProps: PropTypes.objectOf(PropTypes.number), // 某个类型的数组
+	optionalProps: PropTypes.arrayOf(PropTypes.number), // 元素为某个类型的数组
+	optionalProps: PropTypes.objectOf(PropTypes.number), // 属性为某个类型的对象
+	optionalProps: PropTypes.exact({ // 禁止多余属性
+	  optionalProperty: PropTypes.string,
+	  requiredProperty: PropTypes.number.isRequired
+	}),
 	// 多类型选一
 	optionalProps: PropTypes.oneOfType([
 		PropTypes.string,
@@ -65,6 +76,15 @@ List.propTypes = {
 	optionalProps: PropTypes.oneOf(['News', 'Photos']),
 	// 数组
 	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
+	// 自定义验证器
+	customProp: function(props, propName, componentName) {
+	  if (!/matchme/.test(props[propName])) {
+	    return new Error(
+	      'Invalid prop `' + propName + '` supplied to' +
+	      ' `' + componentName + '`. Validation failed.'
+	    );
+	  }
+	},
 }
 ```
 
