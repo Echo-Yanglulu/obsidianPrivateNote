@@ -42,12 +42,27 @@ prop-types库
 import PropTypes from 'prop-types'
 List.propTypes = {
 	// 单类型
-	optionalProps: PropTypes.string,
-	optionalProps: PropTypes.number,
 	optionalProps: PropTypes.bool,
+	optionalProps: PropTypes.number,
+	optionalProps: PropTypes.string,
+	optionalProps: PropTypes.symbol,
+	optionalProps: PropTypes.object,
 	optionalProps: PropTypes.array,
+	optionalProps: PropTypes.func,
+	optionalProps: PropTypes.node, // 任何可以被渲染的元素，包括数字，字符串，react 元素，数组，fragment
+	optionalProps: PropTypes.element, // 一个react 元素
+	optionalProps: PropTypes.instanceOf(Message), // 某个类的实例，这里使用JS的instanceOf操作符实现
+	optionalProps: PropTypes.func,
+	optionalProps: PropTypes.arrayOf(PropTypes.number), // 某个类型的数组
+	optionalProps: PropTypes.objectOf(PropTypes.number), // 某个类型的数组
 	// 多类型选一
+	optionalProps: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.number,
+		PropTypes.instanceOf(Message)
+	]),
 	// 多值选一
+	optionalProps: PropTypes.oneOf(['News', 'Photos']),
 	// 数组
 	list: PropTypes.arrayOf(PropTypes.object).isRequiesd
 }
