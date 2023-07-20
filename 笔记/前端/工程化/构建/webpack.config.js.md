@@ -56,6 +56,7 @@ list: 'path/to/my/entry/list.js'
 }
 };
 ```
+
 |  | 单文件入口 | 多文件入口 |
 | --- | --- | --- |
 | 类型 | 字符串，对象，数组 | 对象 |
@@ -212,7 +213,6 @@ module.exports = {
 	]
 }
 ```
-
 #### 三方插件
 需引入
 ```javascript
@@ -228,7 +228,7 @@ module.exports = {
 };
 ```
 ### resolve
-在webpack构建的**查找模块过程**中起作用。
+在webpack构建的**模块解析过程**中起作用。
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
 #### extensions

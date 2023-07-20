@@ -63,6 +63,7 @@ webpack-cli：通过脚本传参打包
 3. 转换过程
 	1. 使用Loader处理模块内容
 4. 输出文件
+	1. 转换完每个模块后，Webpack 会写入 output
 
 ## 重要的对象与实现
 # 基本概念
@@ -296,7 +297,8 @@ module.exports = function (input) {
 9. babel-loader:  ES6 文件到 ES
 ## plugin【loader无法解决的其他事】
 功能
-	1. 在打包过程的不同阶段拦截运行时事件
+	1. 在打包过程的不同阶段拦截**运行时事件** 
+		1. 包内容的提取，当 MiniCssExtractPlugin 与 Loader 一起使用时，从包中抽出 CSS 并将其提取到单独的文件中
 如htmlWebpackPlugin：把JS、CSS插入HTML
 本质：==一个实现了apply方法的JS类==，在运行时得到compiler[^12]和compilation[^13]两个实例。plugin的工作就是操作这两个实例[^14]
 ```JavaScript

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
                   }
                 }
               }
@@ -570,7 +570,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -598,7 +598,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -905,8 +905,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ef8a53a2b486d4f",
+  "active": "65e15e6d3a86e161",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
@@ -931,7 +932,6 @@
     "笔记/前端/assets/忽略所有语言.png",
     "笔记/前端/assets/使用版本为3的core-js.png",
     "笔记/前端/编程语言/JS/core-js.md",
-    "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/assets/污染全局环境.png",
