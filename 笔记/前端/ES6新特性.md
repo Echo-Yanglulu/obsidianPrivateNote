@@ -2,37 +2,38 @@
 ## 相关
 [ES6 入门教程](https://es6.ruanyifeng.com/#docs/promise) 
 # 对象维度
-## 变量
+## [[关键字]] 
 globalThis
+const, let
 ## [[数据类型]] 
-[[BigInt]] 
-## [[Symbol]] 
-Symbol.prototype.description
+1. [[BigInt]] 
+2. [[Symbol]] 
+	1. Symbol.prototype.description
 ## [[String]] 
-String.prototype.padStart()
-String.prototype.{trimStart, trimEnd}
-String.prototype.matchAll()
-String.prototype.replaceAll()
-## 对象
-1. Object.entries
+1. String.prototype.padStart()
+2. String.prototype.{trimStart, trimEnd}
+4. String.prototype.replaceAll()
+3. String.prototype.matchAll()
+## [[Object]] 
+1. Object.entries：自有可枚举
 2. Object.values
 3. Object.fromEntries
 4. Object.getOwnPropertyDescriptors
 5. Trailing commas
-## 数组
-includes()
-[[Array]].prototype.{flat, flatMap}
-Array.prototype.sort() is now required to be stable
+## [[Array]] 
+1. Array.prototype.includes()
+2. [[Array]].prototype.{flat, flatMap}
+3. Array.prototype.sort() is now required to be stable
 ## 迭代
 Async iterators 异步迭代器
-## 函数
+## [[Function]] 
 1. 箭头函数
 2. 异步函数[[async]] 
 3. 修订 Function.prototype.toString()
 ## [[Promise]] 
-Promise.prototype.finally
-Promise.allSettled
-Promise.any
+1. Promise.prototype.finally
+2. Promise.allSettled
+3. Promise.any
 ## [[JSON]] 
 JSON.stringify() 的增强力
 ## [[操作符]] 
