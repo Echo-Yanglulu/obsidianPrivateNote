@@ -3,7 +3,7 @@
 # 形式
 1. 使用promise创建一个耗时任务
 2. 使用async创建一个异步任务，await该耗时任务
-3. 返回值被包裹为一个Promise对象
+3. 返回值：被包裹为一个Promise对象
 	1. 可在另一个异步函数中await执行该async函数
 4. 错误捕获时，在async函数内，进行await时进行try/catch
 # 应用

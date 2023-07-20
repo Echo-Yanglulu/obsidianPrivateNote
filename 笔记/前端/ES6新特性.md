@@ -14,11 +14,11 @@ String.prototype.{trimStart, trimEnd}
 String.prototype.matchAll()
 String.prototype.replaceAll()
 ## 对象
-Object.entries
-Object.values
-Object.fromEntries
-Object.getOwnPropertyDescriptors
-Trailing commas
+1. Object.entries
+2. Object.values
+3. Object.fromEntries
+4. Object.getOwnPropertyDescriptors
+5. Trailing commas
 ## 数组
 includes()
 [[Array]].prototype.{flat, flatMap}
@@ -26,9 +26,9 @@ Array.prototype.sort() is now required to be stable
 ## 迭代
 Async iterators 异步迭代器
 ## 函数
-箭头函数
-异步函数
-修订 Function.prototype.toString()
+1. 箭头函数
+2. 异步函数[[async]] 
+3. 修订 Function.prototype.toString()
 ## [[Promise]] 
 Promise.prototype.finally
 Promise.allSettled
