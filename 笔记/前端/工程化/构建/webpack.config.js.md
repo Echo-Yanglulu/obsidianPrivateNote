@@ -55,7 +55,7 @@ module.exports = {
 ### context
 webpack打包项目时，相对路径上下文（相对路径所基于的绝对路径）。设置之后，entry与output设置的相对路径都是相对于它。引入模块也是从context开始。
 默认为process.cwd()，当前工作目录。
-## output
+# output
 entry编译打包后输出的bundle。
 ### path
 存在路径，默认dist
@@ -99,7 +99,7 @@ module.exports = {
 库的使用者应如何提供这些，我们的库所依赖的模块？取决于
 	1. 当前库的导出方式
 	2. 使用者的引入方式
-### target
+# target
 **构建后代码运行的宿主环境**。可能是web应用，node.js服务应用，electron跨平台桌面应用。因宿主环境不同，构建时需要特殊处理。
 构建的目标（宿主环境）
 1. 接收字符串
@@ -110,20 +110,23 @@ module.exports = {
 	5. webworker
 2. 接收函数
 	1. compiler对象作为参数
-### devtool
+# devtool
 如何显示[[sourcemap]]。
-## mode
+# mode
 生产环境
 	1. 压缩代码
 	2. 优化图片
-## loader
-模块处理器：对语言模块及预处理器**模块**进行处理（ES的语法转换，less的编译）
-webpack**处理依赖中的非原生模块，并将其放入bundle中**的工具。
-单个loader无法处理的模块：有些模块只有一个loader不足以解析模块依赖关系（如less预编译器模块），此时顺序重要：从后向前
-1. 引用
-	1. 配置文件
-	2. 行内const html = require('html-loader!./loader.html');或import html from 'html-loader!./loader.html';
-2. 传参
+# loader
+多loader：有些模块只有一个loader不足以解析模块依赖关系（如less预编译器模块），此时顺序重要：从后向前
+## 配置
+###  文件
+		1. test：选择需要处理的文件类型
+		2. use：对应loader
+		3. exclude：匹配时排除某些文件夹
+###  内联
+const html = require('html-loader!./loader.html');
+或import html from 'html-loader!./loader.html';
+## 传参
 		1. option
 		2. query
 ```javascript
@@ -182,9 +185,9 @@ module.exports = {
 ```
 #### enforce
 调整插件顺序
-## plugin
+# plugin
 loader（处理模块，转换源码，构建依赖关系图）以外的功能：处理**chunk与bundle**。
-#### 内置插件
+## 内置插件
 直接new即可
 ```javascript
 module.exports = {
@@ -202,7 +205,7 @@ module.exports = {
 	]
 }
 ```
-#### 三方插件
+## 三方插件
 需引入
 ```javascript
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -216,15 +219,15 @@ module.exports = {
 	]
 };
 ```
-## resolve
+# resolve
 在webpack构建的**模块解析过程**中起作用。
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
-### extensions
+## extensions
 **引入时可缺省扩展名**
 默认：['.wasm', '.mjs', '.js', '.json']
 通常可以加上.css, .less
-### alias
+## alias
 **引入时可使用别名**
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
@@ -272,7 +275,7 @@ module.exports = {
 import react from 'react'; // 精确匹配， 所以 react.min.js 被解析和导入
 import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
-### mainField
+## mainField
 > [!question]+
 > 并没有懂这个配置的实际工作机制
 
@@ -293,31 +296,31 @@ module.exports = {
 };
 // target为web进行打包时，寻找`browser`版本的模块代码
 ```
-### 不常用、简单配置
+## 不常用、简单配置
 1. mainFiles
 2. modules
 3. symlinks
 4. plugins
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
-## module
+# module
 webpack在构建模块依赖关系图时，默认只能解析js, json模块。没有Loader（模块处理器）则会在遇到非JSON，js模块时停止，无法构建一个完整的依赖关系图。
-### noParse
+## noParse
 对部分**没有采用模块化**的文件**不进行递归解析与处理**。
 接收
 	1. [[RegExp]],或\[[[RegExp]], [[RegExp]]]
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
 应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
-### rules
+## rules
 在构建依赖关系图时，对**命中的模块**使用相应的模块处理器。
 	1. 如何命中
 		1. 机制（动词）（text, include, exclude）
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
 	2. use：处理器（宾补）的名称，数量，顺序（及其调整enforce）
 	3. parser：如何处理（取哪些模块化规范连接依赖）
-#### test
+### test
 选择模块
-#### use
-#### parser
+### use
+### parser
 webpack使用模块化的js文件为入口，内置了模块化JS的解析功能，支持AMD，CommonJS，ES6
 **选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
 ```javascript
