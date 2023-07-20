@@ -59,11 +59,7 @@
 ### 方式
 [[JSON]] 
 ## [[JS继承]] 
-## 方法
-如何在对象上添加重要的方法
-所有对象都从Object.prototype继承属性(虽然中间还隔了一层当前类型对象的[[原型对象]]。)
-1. 继承属性[[Object.prototype]] 
-2. 静态属性Object.assign等
+
 ## [[class|类]]  
 对象
 
@@ -187,8 +183,11 @@ Object.getOwnPropertyNames()、Object.getOwnPropertySymbols()和Object.assign()�
 
 方法：存储在对象中的[[Function]]。
 构造函数
-# 原型
-[[Object.prototype]] 
+# 方法
+如何在对象上添加重要的方法
+所有对象都从Object.prototype继承属性(虽然中间还隔了一层当前类型对象的[[原型对象]]。)
+1. 继承属性[[Object.prototype]] 
+2. 静态属性Object.assign
 # JS中的对象实例
 # 操作
 1. [[深拷贝]]，浅拷贝

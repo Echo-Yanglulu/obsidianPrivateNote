@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Object.md"
                   }
                 }
               }
@@ -521,7 +521,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 13
           },
           {
             "id": "86193a5d16fa87de",
@@ -548,7 +548,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -576,7 +576,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Object.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -883,12 +883,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "cb63566167a9e28d",
   "lastOpenFiles": [
+    "笔记/前端/ES6新特性.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/ES6新特性.md",
     "笔记/前端/Iterator.md",
     "笔记/前端/二进制数组.md",
     "笔记/前端/WebGL.md",
@@ -900,7 +901,6 @@
     "笔记/前端/编程语言/JS/async.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230719121511.png",
     "笔记/前端/assets/忽略相关文件.png",
     "笔记/前端/assets/动态引入所需语言.png",
