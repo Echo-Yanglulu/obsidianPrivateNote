@@ -524,24 +524,24 @@
                 "id": "1ef8a53a2b486d4f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "webpack.config.js",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":8},\"to\":{\"line\":15,\"ch\":8}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":375,\"ch\":22},\"to\":{\"line\":375,\"ch\":22}},\"scroll\":363.8588541666667}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                    "file": "笔记/前端/工程化/构建/webpack.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -911,11 +911,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ef8a53a2b486d4f",
+  "active": "9237ce38265cb404",
   "lastOpenFiles": [
     "笔记/前端/工程化/构建/webpack.md",
-    "笔记/前端/工程化/构建/webpack.config.js222.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
+    "笔记/前端/工程化/构建/webpack.config.js222.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",

@@ -1,7 +1,7 @@
 # 概述
 大部分配置是loader与plugin
 是[[node]]的一个模块，遵循[[CommonJS]]规范
-## module
+# module
 模块化编程中，**功能**离散的chunk是模块。
 webpack中，一切**文件**都是[[模块]]（图片，CSS）
 
@@ -11,48 +11,38 @@ webpack中，一切**文件**都是[[模块]]（图片，CSS）
 	1. 安装插件@babe/core, @babel/preset-env, babel-loader
 	2. 新增文件.babelrc
 	3. 设置loader规则
-## chunk
-根据自定义的规则，由module生成的文件。一个chunk可来自多个module
-## bundle
-bundle就是对chunk进行处理（压缩打包等）后的产出
-## entry
+# entry
 入口模块。构建依赖图的起点
-### 属性
-1. 数量
-	1. 单文件入口
-	2. 多文件入口。几个entry会打包出对应数量的bundle
-2. 数据类型
-	1. 字符串，数组，对象（打包结果中实际只有一个入口模块）
 ```javascript
 // 单文件入口：封装库时常用。扩展配置时灵活性较低
+// 字符串
 module.exports = {
-entry: 'path/to/my/entry/file.js'
+	entry: 'path/to/my/entry/file.js'
 };
 // 或者使用对象方式
 module.exports = {
-entry: {
-main: 'path/to/my/entry/file.js'
+	entry: {
+	main: 'path/to/my/entry/file.js'
 }
 };
-// 使用数组：
+// 或使用数组：
 module.exports = {
-mode: 'development',
-entry: ['./src/app.js', './src/home.js'],
-output: {
-filename: 'array.js'
+	mode: 'development',
+	entry: ['./src/app.js', './src/home.js'],
+	output: {
+	filename: 'array.js'
 }
 };
-// 其实都只有一个入口，在打包产出上会有差异
+// 都只有一个入口，在打包产出上会有差异
 // 单文件时，直接作为入口模块。
 
-// 多入口
-// 使用对象语法
+// 多入口。使用对象语法
 module.exports = {
-entry: {
-home: 'path/to/my/entry/home.js',
-search: 'path/to/my/entry/search.js',
-list: 'path/to/my/entry/list.js'
-}
+	entry: {
+		home: 'path/to/my/entry/home.js',
+		search: 'path/to/my/entry/search.js',
+		list: 'path/to/my/entry/list.js'
+	}
 };
 ```
 
@@ -192,7 +182,7 @@ module.exports = {
 ```
 #### enforce
 调整插件顺序
-### plugin
+## plugin
 loader（处理模块，转换源码，构建依赖关系图）以外的功能：处理**chunk与bundle**。
 #### 内置插件
 直接new即可
@@ -226,15 +216,15 @@ module.exports = {
 	]
 };
 ```
-### resolve
+## resolve
 在webpack构建的**模块解析过程**中起作用。
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
-#### extensions
+### extensions
 **引入时可缺省扩展名**
 默认：['.wasm', '.mjs', '.js', '.json']
 通常可以加上.css, .less
-#### alias
+### alias
 **引入时可使用别名**
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
@@ -282,7 +272,7 @@ module.exports = {
 import react from 'react'; // 精确匹配， 所以 react.min.js 被解析和导入
 import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
-#### mainField
+### mainField
 > [!question]+
 > 并没有懂这个配置的实际工作机制
 
@@ -303,31 +293,31 @@ module.exports = {
 };
 // target为web进行打包时，寻找`browser`版本的模块代码
 ```
-#### 不常用、简单配置
+### 不常用、简单配置
 1. mainFiles
 2. modules
 3. symlinks
 4. plugins
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
-### module
+## module
 webpack在构建模块依赖关系图时，默认只能解析js, json模块。没有Loader（模块处理器）则会在遇到非JSON，js模块时停止，无法构建一个完整的依赖关系图。
-#### noParse
+### noParse
 对部分**没有采用模块化**的文件**不进行递归解析与处理**。
 接收
 	1. [[RegExp]],或\[[[RegExp]], [[RegExp]]]
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
 应保证被排除模块的代码中不能包含 import 、 require 、 define 等内容，不然打包后的JS可能因为缺少模块而报错
-#### rules
+### rules
 在构建依赖关系图时，对**命中的模块**使用相应的模块处理器。
 	1. 如何命中
 		1. 机制（动词）（text, include, exclude）
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
 	2. use：处理器（宾补）的名称，数量，顺序（及其调整enforce）
 	3. parser：如何处理（取哪些模块化规范连接依赖）
-##### test
+#### test
 选择模块
-##### use
-##### parser
+#### use
+#### parser
 webpack使用模块化的js文件为入口，内置了模块化JS的解析功能，支持AMD，CommonJS，ES6
 **选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
 ```javascript
@@ -365,7 +355,7 @@ module: {
 noParse与parser的比较
 	1. 不同
 		1. 前者以**路径**为单位进行排除，后者以**模块内的某种语法**为单位进行排除，
-### 小结
+## 小结
 从一个入口模块开始，使用loader与plugin加工处理，根据output设定输出bundle
 # 配置
 ## 其他

@@ -91,7 +91,7 @@ webpack-cli：通过脚本传参打包
 	2. 异步模块
 	3. 代码分割
 ## bundle
-入口模块及所有依赖模块综合处理后得到的JS文件【预编译，合并，压缩后的文件？】
+入口模块及所依赖模块编译、合并、压缩后得到的JS文件【预编译，合并，压缩后的文件？】
 #### chunk与bundle的区别
 chunk真包含bundle。bundle是个体
 	1. chunk是个抽象概念、*集合概念*。作为打包结果，**一个chunk可能包含一个或多个bundle**[^20] 
@@ -374,7 +374,6 @@ prefetch 和 preload 可以用于提前加载资源[^17]的功能
 	3. prefetch 优先级低于 preload。
 # 配置
 [[webpack.config.js]] 
-[[webpack.config.js222]] 
 ## 基础配置
 ### 资源加载
 任何非JS,[[JSON]]资源都应使用loader加载
