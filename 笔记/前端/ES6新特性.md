@@ -19,7 +19,9 @@
 2. String.prototype.{trimStart, trimEnd}
 3. String.prototype.replaceAll()
 4. String.prototype.matchAll()
-5. [[Unicode]]  
+5. [[Unicode]] 表示法
+6. 添加了迭代器接口。
+	1. 可for/of遍历
 ## [[Object]] 
 1. Object.entries：自有可枚举
 2. Object.values
@@ -53,6 +55,7 @@ JSON.stringify() 的增强力
 
 ## 迭代
 Async iterators 异步迭代器
+[[Iterator]] 
 
 ## [[模块]] 
 Dynamic import（按需 import）
