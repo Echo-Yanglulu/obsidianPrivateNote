@@ -85,6 +85,8 @@ List.propTypes = {
 	    );
 	  }
 	},
+	//你也可以提供一个自定义的验证器 arrayOf和objectOf。如果验证失败，它应该返回一个Error对象。
+	//验证器用来验证数组或对象的每个值。验证器的前两个参数是数组或对象本身，还有对应的key。
 	customArrayProp: PropTypes.arrayOf(function(propValue, key, componentName, location, propFullName) {
 	  if (!/matchme/.test(propValue[key])) {
 		return new Error(
