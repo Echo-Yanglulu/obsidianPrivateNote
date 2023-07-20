@@ -314,6 +314,7 @@ module.exports = class DemoPlugin {
 ![[Pasted image 20220731001033.png]]
 ### 原理
 1. webpack 插件是一个具有 apply 方法的 JavaScript 对象。
+	1. apply 方法会被 webpack compiler 调用，并且在整个编译生命周期都可以访问 compiler 对象
 ### 常用plugin
 #### [[SplitChunksPlugin]] 
 

@@ -127,6 +127,11 @@ modules.rules这个List中的每个对象
 4. use：对应loader
 	1. loader
 	2. options
+5. parser。如何处理（取哪些模块化规范连接依赖）
+目标模块
+	resource被导入模块的绝对路径
+	resourceQuery：资源查询参数
+	issuer：目标导入模块的绝对路径
 ###  内联
 const html = require('html-loader!./loader.html');
 或import html from 'html-loader!./loader.html';
@@ -200,9 +205,8 @@ module.exports = {
 #### enforce
 调整插件顺序
 # plugin
-loader（处理模块，转换源码，构建依赖关系图）以外的功能：处理**chunk与bundle**。
+loader（转换源码，构建依赖关系图）以外的功能：处理**chunk与bundle**。
 ## 内置插件
-直接new即可
 ```javascript
 module.exports = {
 	//....
@@ -327,13 +331,10 @@ webpack在构建模块依赖关系图时，默认只能解析js, json模块。�
 ## rules
 在构建依赖关系图时，对**命中的模块**使用相应的模块处理器。
 	1. 如何命中
-		1. 机制（动词）（text, include, exclude）
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
 	2. use：处理器（宾补）的名称，数量，顺序（及其调整enforce）
-	3. parser：如何处理（取哪些模块化规范连接依赖）
-### test
-选择模块
-### use
+	3. parser：
+
 ### parser
 webpack使用模块化的js文件为入口，内置了模块化JS的解析功能，支持AMD，CommonJS，ES6
 **选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
