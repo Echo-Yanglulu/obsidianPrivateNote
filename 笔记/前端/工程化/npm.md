@@ -66,8 +66,9 @@ npm
 	run 运行脚本
 	install 安装依赖
 		1. 包名 --save-dev：安装并加入devDependencies
+			1. 或 -D
 		2. 包名 --save：安装并加入dependencies
-		3. 包名 无参数：将作为生产依赖，添加到dependencies.
+		3. 包名无参数：将作为运行依赖，添加到dependencies.
 		4. 无参数。即`npm i` 
 			1. 如果有[[package-lock.json]]文件，安装该文件规定的版本
 			2. 否则安装[[package.json]]中所有的开发依赖和运行依赖
