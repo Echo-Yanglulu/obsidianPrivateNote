@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/assets/使用HMR插件.png"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -598,7 +598,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/assets/使用HMR插件.png",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -626,7 +626,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/assets/使用HMR插件.png",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -933,10 +933,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b32a31b0477254dc",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "笔记/前端/工程化/构建/HMR.md",
+    "笔记/前端/assets/入口文件引入内置HMR.png",
     "笔记/前端/前端工作.md",
-    "笔记/前端/assets/入口文件使用内置HMR.png",
+    "笔记/前端/assets/手动引入所需语言.png",
+    "笔记/前端/assets/忽略文件夹.png",
+    "笔记/前端/assets/缓存babel对js的编译结果.png",
+    "笔记/前端/assets/设置需要HMR的模块范围.png",
+    "笔记/前端/assets/注册HMR插件.png",
+    "笔记/前端/assets/开启HMR插件.png",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/构建/SplitChunksPlugin.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
@@ -960,16 +967,9 @@
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/Math.md",
     "笔记/前端/assets/Pasted image 20230719121511.png",
-    "笔记/前端/assets/忽略相关文件.png",
-    "笔记/前端/assets/动态引入所需语言.png",
     "笔记/前端/忽略所有语言.png.md",
     "笔记/前端/assets/忽略所有语言.png",
-    "笔记/前端/assets/使用版本为3的core-js.png",
     "笔记/前端/编程语言/JS/core-js.md",
-    "笔记/前端/工程化/构建/babel.md",
-    "笔记/前端/assets/污染全局环境.png",
-    "笔记/前端/工程化/assets/Pasted image 20220728232655.png",
-    "笔记/前端/assets/Pasted image 20230720152916.png",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",

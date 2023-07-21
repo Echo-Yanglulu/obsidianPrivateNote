@@ -5,6 +5,10 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "HMR",
+      "path": "笔记/前端/工程化/构建/HMR.md"
+    },
+    {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
     },
@@ -89,8 +93,8 @@
       "path": "Day Planners/2023-07-19.md"
     },
     {
-      "basename": "动态引入所需语言",
-      "path": "笔记/前端/assets/动态引入所需语言.png"
+      "basename": "手动引入所需语言",
+      "path": "笔记/前端/assets/手动引入所需语言.png"
     },
     {
       "basename": "Pasted image 20230718153217",
@@ -195,10 +199,6 @@
     {
       "basename": "构造函数",
       "path": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
-    },
-    {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/Function.md"
     }
   ],
   "omittedPaths": [
