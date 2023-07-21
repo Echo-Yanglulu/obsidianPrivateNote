@@ -65,9 +65,9 @@ npm
 		在文件夹中生成一个[[package.json]]文件
 	run 运行脚本
 	install 安装依赖
-		1. 包名 --save-dev：安装并加入devDependencies
-			1. 或 -D
-		2. 包名 --save：安装并加入dependencies
+		1. 包名 --save-dev：安装为devDependencies
+			1. 简写 -D
+		2. 包名 --save：安装为dependencies
 		3. 包名无参数：将作为运行依赖，添加到dependencies.
 		4. 无参数。即`npm i` 
 			1. 如果有[[package-lock.json]]文件，安装该文件规定的版本
