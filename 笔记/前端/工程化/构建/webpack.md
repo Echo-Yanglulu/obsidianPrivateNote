@@ -307,7 +307,7 @@ module.exports = class DemoPlugin {
 1. webpack 插件是一个具有 apply 方法的 JavaScript 对象。
 	1. apply 方法会被 webpack compiler 调用，并且在整个编译生命周期都可以访问 compiler 对象
 ### 常用plugin
-1. [[SplitChunksPlugin]] ：避免重复依赖导致的重复打包问题
+1. SplitChunksPlugin：避免重复依赖导致的重复打包问题
 2. ProgressPlugin：提示编译进度
 ## hook
 各个插件注册在hook上，由webpack在相应时机调用

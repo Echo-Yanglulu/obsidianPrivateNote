@@ -238,15 +238,11 @@ module.exports = {
 };
 ```
 # resolve
-在webpack构建的**模块解析过程**中起作用。
+模块解析过程中，一个模块中导入另一个模块时，该配置可*修改查找被导入模块的方式*。
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
-## extensions
-**引入时可缺省扩展名** 
-默认：['.wasm', '.mjs', '.js', '.json']
-通常可以加上.css, .less
+	3. 别名
 ## alias
-**引入时可使用别名**
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
 	2. 给不同环境配置不同的lib库。
@@ -263,7 +259,7 @@ module.exports = {
 注意
 1. 可使用@ ~ ! ，往往只用一种，或者每种类型使用一种。
 2. 使用@时注意不要和包名的作用域名冲突
-3. 末尾添加$匹配末尾准确导入
+3. 末尾添加$，准确匹配
 ```javascript
 module.exports = {
 	resolve: {
@@ -293,6 +289,11 @@ module.exports = {
 import react from 'react'; // 精确匹配， 所以 react.min.js 被解析和导入
 import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
+
+## extensions
+**引入时可缺省扩展名** 
+默认：['.wasm', '.mjs', '.js', '.json']
+通常可以加上.css, .less
 ## mainField
 > [!question]+
 > 并没有懂这个配置的实际工作机制
