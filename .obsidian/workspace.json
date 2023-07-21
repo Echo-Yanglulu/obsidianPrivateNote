@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md"
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
                   }
                 }
               }
@@ -527,10 +527,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "webpack.config.js",
+                      "title": "2023-07-21",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.config.js.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":8},\"to\":{\"line\":15,\"ch\":8}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
@@ -547,9 +547,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "def2a14783ee326f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 14
+            "currentTab": 15
           },
           {
             "id": "86193a5d16fa87de",
@@ -576,7 +598,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -604,7 +626,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.md",
+                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -911,10 +933,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1ef8a53a2b486d4f",
+  "active": "def2a14783ee326f",
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "Day Planners/2023-07-21.md",
     "笔记/前端/工程化/assets/Pasted image 20220731000757.png",
     "笔记/前端/工程化/构建/webpack.config.js222.md",
     "笔记/前端/ES6新特性.md",
