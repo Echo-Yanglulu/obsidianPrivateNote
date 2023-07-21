@@ -322,8 +322,8 @@ module.exports = {
 5. cachePredicate：是否支持缓存，接收fn({path, require}) => bool或bool,
 # module
 webpack在构建模块依赖关系图时，默认只能解析js, json模块。没有Loader（模块处理器）则会在遇到非JSON，js模块时停止，无法构建一个完整的依赖关系图。
-## noParse
-对部分**没有采用模块化**的文件**不进行递归解析与处理**。
+## noParse【模块层面】
+对部分**没有采用模块化**的文件不进行递归解析与处理。
 接收
 	1. [[RegExp]],或\[[[RegExp]], [[RegExp]]]
 	2. [[Function]] ：(content: 一个模块的文件路径)  => bool
@@ -334,8 +334,7 @@ webpack在构建模块依赖关系图时，默认只能解析js, json模块。�
 		2. 宾语（resource被导入模块的绝对路径，resourceQuery：资源查询参数，issuer：目标导入模块的绝对路径）
 	2. use：处理器（宾补）的名称，数量，顺序（及其调整enforce）
 	3. parser：
-
-### parser
+### parser【语法层面】
 webpack使用模块化的js文件为入口，内置了模块化JS的解析功能
 **选择模块中需要解析的模块化语法**。如设置parser.commonjs=false，则使用require引入的模块不会被认为是依赖模块（不会被添加到依赖图中），不会被处理。
 ```javascript
