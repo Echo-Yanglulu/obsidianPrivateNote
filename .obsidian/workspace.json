@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/assets/Pasted image 20230718155907.png"
                   }
                 }
               }
@@ -598,7 +598,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/assets/Pasted image 20230718155907.png",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -626,7 +626,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/assets/Pasted image 20230718155907.png",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -933,10 +933,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "d9acd8485b24acbd",
   "lastOpenFiles": [
-    "笔记/前端/assets/插件设置.png",
     "笔记/前端/前端工作.md",
+    "笔记/前端/懒加载.md",
+    "笔记/前端/assets/插件设置.png",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/assets/使用CDN引入不希望打包的依赖.png",
     "笔记/前端/Tree-Shaking.md",
