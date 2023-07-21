@@ -233,7 +233,6 @@ chunkFilename：也是一种bundle，是**非entry模块**打包的结果文件�
 3. style-loader ：将最终样式代码放入打包的JS bundle文件中，JS在运行过程中将：创建style标签并把样式代码插入HTML中。
 4. less-loader: 处理 [[LESS]] 
 5. sass-loader: 处理 [[Sass]] 
-6. postcss-loader: 用 postcss 来处理 CSS
 7. file-loader: 分发文件到 output 目录并返回相对路径，wepakck5 asset/resource 内置支持
 8. url-loader: 和 file-loader 类似，但是当文件小于设定的 limit 时可以返回一个 Data Url，wepakck5 asset/inline 内置支持
 9. babel-loader:  ES6 文件到 ES

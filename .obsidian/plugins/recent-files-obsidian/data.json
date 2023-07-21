@@ -5,6 +5,22 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "react-router",
+      "path": "笔记/前端/库、框架/UI库/react-router.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "笔记/前端/工程化/构建/webpack.md"
+    },
+    {
+      "basename": "webpack.config.js",
+      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
+    },
+    {
+      "basename": "ES6新特性",
+      "path": "笔记/前端/ES6新特性.md"
+    },
+    {
       "basename": "设置dll引用关系",
       "path": "笔记/前端/assets/设置dll引用关系.png"
     },
@@ -17,20 +33,8 @@
       "path": "笔记/前端/工程化/构建/HMR.md"
     },
     {
-      "basename": "webpack",
-      "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
-    },
-    {
       "basename": "2023-07-21",
       "path": "Day Planners/2023-07-21.md"
-    },
-    {
-      "basename": "ES6新特性",
-      "path": "笔记/前端/ES6新特性.md"
     },
     {
       "basename": "Object",
@@ -43,10 +47,6 @@
     {
       "basename": "浏览器原理",
       "path": "笔记/前端/编程语言/JS/浏览器原理.md"
-    },
-    {
-      "basename": "react-router",
-      "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
     {
       "basename": "二进制数组",
