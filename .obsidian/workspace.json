@@ -581,7 +581,7 @@
               {
                 "id": "be29d87c4ad60f93",
                 "type": "tabs",
-                "dimension": 62.11453744493392,
+                "dimension": 40.161527165932455,
                 "children": [
                   {
                     "id": "1e28e91b1787e92c",
@@ -599,8 +599,8 @@
                       "type": "outgoing-link",
                       "state": {
                         "file": "笔记/前端/工程化/构建/webpack.md",
-                        "linksCollapsed": true,
-                        "unlinkedCollapsed": false
+                        "linksCollapsed": false,
+                        "unlinkedCollapsed": true
                       }
                     }
                   }
@@ -609,7 +609,7 @@
               {
                 "id": "9284dcaae748ddfc",
                 "type": "tabs",
-                "dimension": 37.88546255506608,
+                "dimension": 59.838472834067545,
                 "children": [
                   {
                     "id": "37fb741facd8f20b",
@@ -935,8 +935,9 @@
   },
   "active": "1ef8a53a2b486d4f",
   "lastOpenFiles": [
-    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "笔记/前端/工程化/构建/SplitChunksPlugin.md",
     "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
     "Day Planners/2023-07-21.md",
     "笔记/前端/工程化/assets/Pasted image 20220731000757.png",
     "笔记/前端/工程化/构建/webpack.config.js222.md",
@@ -968,7 +969,6 @@
     "笔记/前端/工程化/运行依赖.md",
     "笔记/前端/assets/污染全局环境.png",
     "笔记/前端/工程化/assets/Pasted image 20220728232655.png",
-    "笔记/前端/regenerator.md",
     "笔记/前端/assets/Pasted image 20230720152916.png",
     "笔记/前端/assets/图片文件使用CDN.png",
     "dashboards/Untitled 1.loom",
