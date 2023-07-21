@@ -242,6 +242,7 @@ module.exports = {
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
 	3. 别名
+	4. 扩展名缺省、必填
 ## alias
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
@@ -291,9 +292,12 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 ```
 
 ## extensions
-**引入时可缺省扩展名** 
-默认：['.wasm', '.mjs', '.js', '.json']
-通常可以加上.css, .less
+没有扩展名时，按顺序解析
+默认：['.wasm', '.mjs', '.js', '.json']。通常可以加上.css, .less
+## enforceExtension
+所有模块导入时必须添加扩展名
+## extensionAlias
+扩展名别名
 ## mainField
 > [!question]+
 > 并没有懂这个配置的实际工作机制
