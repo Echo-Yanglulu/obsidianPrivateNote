@@ -239,10 +239,12 @@ module.exports = {
 ```
 # resolve
 模块解析过程中，一个模块中导入另一个模块时，该配置可*修改查找被导入模块的方式*。
-	1. 快速查找
-	2. 替换（如开发环境使用dev版本的lib）
+1. 解析失败时：fallback
+2. 别名
+3. 扩展名
+	1. 缺省、缺省时的解析规则
+	2. 必填
 	3. 别名
-	4. 扩展名缺省、必填
 ## alias
 作用
 	1. 在任意模块中，快速访问某个常用文件夹，引入模块。
@@ -293,17 +295,14 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 
 ## extensions
 没有扩展名时，按顺序解析
-默认：['.wasm', '.mjs', '.js', '.json']。通常可以加上.css, .less
+默认：\['.js', '.json', '.wasm']。通常可以加上.css, .less
 ## enforceExtension
 所有模块导入时必须添加扩展名
 ## extensionAlias
 扩展名别名
-## mainField
-> [!question]+
-> 并没有懂这个配置的实际工作机制
-
+## mainFields
+官方：从 npm 包中导入模块时，在 package.json 中使用哪个字段导入模块。默认值取决于target字段
 有些模块会根据不同宿主环境提供不同版本的代码。（如浏览器或node.js，ES6或ES6）
-默认值：取决于target字段
 ```javascript
 // package.json
 {
@@ -311,7 +310,7 @@ import file from 'react/file.js'; // 非精确匹配， 触发普通解析
 	"main": "lib/index.js", //采用ES5语法的代码入口文件， node
 	"browser": "lib/web.js" //这个是专门给浏览器用的版本
 }
-// target设置为web,时mainField默认为
+// target设置为web,mainField默认为
 module.exports = {
 	resolve: {
 		mainFields: ['browser', 'module', 'main']
