@@ -47,9 +47,10 @@ webpack-cli：通过脚本传参打包
 ![[Pasted image 20220730200434.png]]
 1. 准备工作
 	1. 初始化**plugin**：依次调用每个插件的apply方法的过程
-2. resolve源文件，
-	1. 遍历源文件，从3到最后，都是由plugin以**注册hook回调**的方式参与
-3. 生成chunk
+2. 编译
+	1. resolve源文件。遍历源文件，从3到最后，都是由plugin以**注册hook回调**的方式参与
+3. 生成
+	1. chunk
 4. 构建资源
 5. 最终文件生成
 	1. bundle文件
