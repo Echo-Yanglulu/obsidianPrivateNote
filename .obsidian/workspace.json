@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.config.js.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -571,7 +571,7 @@
                 }
               }
             ],
-            "currentTab": 15
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -598,7 +598,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -626,7 +626,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/工程化/构建/webpack.config.js.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -933,8 +933,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ea792bd726790efe",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/vue-loader.png",
@@ -944,8 +946,6 @@
     "笔记/前端/assets/CSS抽离插件的注册.png",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/构建/SplitChunksPlugin.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/工程化/开发流程.md",
     "笔记/前端/assets/设置dll引用关系.png",
