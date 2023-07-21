@@ -242,7 +242,7 @@ module.exports = {
 	1. 快速查找
 	2. 替换（如开发环境使用dev版本的lib）
 ## extensions
-**引入时可缺省扩展名**
+**引入时可缺省扩展名** 
 默认：['.wasm', '.mjs', '.js', '.json']
 通常可以加上.css, .less
 ## alias
