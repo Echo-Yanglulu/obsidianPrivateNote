@@ -23,8 +23,7 @@ module.exports = {
     // 之所以在前面加上 _dll_ 是为了防止全局变量冲突
     library: '_dll_[name]',
   },
-  plugins: [
-    // 接入 DllPlugin
+  plugins: [、
     new DllPlugin({
       // 动态链接库的全局变量名称，需要和 output.library 中保持一致
       // 该字段的值也就是输出的 manifest.json 文件 中 name 字段的值
