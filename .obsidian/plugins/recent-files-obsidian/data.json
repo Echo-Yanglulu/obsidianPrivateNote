@@ -5,6 +5,14 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "设置dll引用关系",
+      "path": "笔记/前端/assets/设置dll引用关系.png"
+    },
+    {
+      "basename": "引入dll文件",
+      "path": "笔记/前端/assets/引入dll文件.png"
+    },
+    {
       "basename": "HMR",
       "path": "笔记/前端/工程化/构建/HMR.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "JS",
       "path": "笔记/前端/编程语言/JS/JS.md"
-    },
-    {
-      "basename": "JS继承",
-      "path": "笔记/前端/编程语言/JS/基本概念/JS继承.md"
-    },
-    {
-      "basename": "构造函数",
-      "path": "笔记/前端/编程语言/JS/基本概念/构造函数.md"
     }
   ],
   "omittedPaths": [
