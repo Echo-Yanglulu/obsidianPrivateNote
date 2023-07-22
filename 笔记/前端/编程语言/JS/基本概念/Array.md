@@ -40,7 +40,6 @@ of()：将一组参数转换为数组实例
 	1. 返回一个数组实例中元素的个数
 	2. 永远大于最大的下标
 	3. [[JS解释器]]会动态修改length的值
-2. 
 # 方法
 ## 静态方法
 Array.from
@@ -88,8 +87,13 @@ console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
 5. splice(索引，删除个数，增加的元素)：
 	1. 从某个索引开始，同时增删元素
 	2. 返回值：被删除元素组成的数组
-6. fill：新值填充
-7. copyWithin：旧值填充
+6. fill(值，起点，终点（不含）)：*新值填充*
+	1.  ![[Pasted image 20230722203556.png]] 
+7. copyWithin(a, b, c)：*旧值填充*
+	1. ![[Pasted image 20230722203907.png]] 
+	2. 1参数：使用\[0, a)元素，替换\[a, Infinity)元素【后面替换前面】
+	3. 2参数：使用\[b, Infinity)元素，替换\[a, b]元素【后面替换前面】
+	4. 3参数：使用\[b, c)元素，替换\[a, Infinity)元素【部分后面替换前面】
 8. slice：截取。浅拷贝部分元素，组成新数组
 9. concat：融合。数组后追加**数组/值**，返回新数组
 	1. 如果是数组，先打平再推入
@@ -108,16 +112,17 @@ console.log(countedNames); // {小猪课堂: 2, 张三: 1, 李四: 1, 王五: 1}
 ### 查找
 1. find：*符合条件*的第一个**值**。`const res = array.find(element => element > 10); // 12` 
 2. findLast：反向迭代数组。*符合条件*的第一个**值**。
-3. indexOf(值，起点)：*某个值*第一次出现的**索引** 
-4. findIndex：*符合条件的值*第一次出现的**索引**。
-5. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
-6. includes(valueToFind, fromIndex)：存在某个值
+3. indexOf(目标值，查找起点)：*某个值*第一次出现的**索引** 【严格相等】
+4. lastIndexOf()：【严格相等】
+5. findIndex：*符合条件的值*第一次出现的**索引**。
+6. findLastIndex：反向迭代数组。*符合条件的值*第一次出现的**索引**。
+7. includes(valueToFind, fromIndex)：存在某个值【严格相等】
 	1.  fromIndex大于等于数组长度：返回false
 	2. fromIndex为负值：追加数组长度，作为起点
-7. every：全部符合条件
-8. some：部分符合条件
-9. filter：找到符合条件的值
-10. at
+8. every：全部符合条件
+9. some：部分符合条件
+10. filter：找到符合条件的值
+11. at
 ### 问题
 1. 哪些会修改原数组？增删与排序，共7个
 	1. push, pop,unshift，shift, splice，sort，reverse，
