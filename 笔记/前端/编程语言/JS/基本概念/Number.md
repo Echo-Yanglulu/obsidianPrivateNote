@@ -1,3 +1,4 @@
+对应数值的引用类型
 使用==IEEE 754规定的[[双精度浮点数]]数据类型==*表示*整数值与浮点值。不同类型有不同的字面量格式
 
 # 分类
@@ -63,7 +64,7 @@ parseFloat：暂时未看
 | null |  |  |  |
 | undefined |  |  |  |
 | 对象 | 调用valueOf方法，返回值按上述规则转换。如果转换得到NaN则重新调用toString，再按字符串规则 |  |  |
-# 属性方法/原始值的包装类型
+# 属性方法
 ## Number
 1. 常量
 	1. NaN
@@ -78,22 +79,12 @@ parseFloat：暂时未看
 3. 类型转换
 	1. parseInt()
 	2. parseFloat()
-4. 精度转换
-	1. toFixed()
-	2. toPrecision()
-	3. toExponential()
-## Math
-trunc()：取整数部分
-floor
-ceil
-round
-abs
-random
-cbrt
-sqrt平方根
-pow
-sign 正负
-min
-max多个参数中的最小值
+	3. valueOf()：返回Number对象表示的原始数值
+	4. toString()：可选地接收一个表示基数的参数，并返回相应基数形式的数值字符串
+4. 格式化为字符串
+	1. toFixed()：指定小数点位数的数值字符串
+	2. toExponential()
+	3. toPrecision()
+
 
 [^1]: C, C++, JAVA，
