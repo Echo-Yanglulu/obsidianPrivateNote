@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Number.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/String.md"
                   }
                 }
               }
@@ -540,24 +540,36 @@
                 "id": "c773c8b516e00e33",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "RegExp",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/RegExp.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":49},\"to\":{\"line\":68,\"ch\":49}},\"scroll\":50.19460227272727}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":14},\"to\":{\"line\":51,\"ch\":14}},\"scroll\":23.2727}"
+                    },
+                    {
+                      "title": "Number",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Number.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":0},\"to\":{\"line\":93,\"ch\":0}},\"scroll\":74.5516}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":14},\"to\":{\"line\":50,\"ch\":14}},\"scroll\":23.272727272727273}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/String.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -592,7 +604,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -620,7 +632,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Number.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -927,11 +939,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5ee9a384e13047ea",
+  "active": "c773c8b516e00e33",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/双精度浮点数.md",
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/基本概念/String.md",
+    "笔记/前端/编程语言/JS/基本概念/双精度浮点数.md",
     "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -956,7 +969,6 @@
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/assets/preload.png",
     "笔记/前端/assets/prefetch.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",

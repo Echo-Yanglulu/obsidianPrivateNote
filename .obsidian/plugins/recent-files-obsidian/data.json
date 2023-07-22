@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Number",
-      "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
+      "basename": "String",
+      "path": "笔记/前端/编程语言/JS/基本概念/String.md"
     },
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "Number",
+      "path": "笔记/前端/编程语言/JS/基本概念/Number.md"
     },
     {
       "basename": "RegExp",
@@ -195,10 +199,6 @@
     {
       "basename": "base64",
       "path": "笔记/前端/编程语言/JS/base64.md"
-    },
-    {
-      "basename": "UTF-8",
-      "path": "笔记/前端/编程语言/JS/UTF-8.md"
     }
   ],
   "omittedPaths": [
