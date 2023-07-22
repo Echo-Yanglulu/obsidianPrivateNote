@@ -72,5 +72,55 @@ console.log(re3);  // "/cat/i"
 接收一个字符串参数。
 	1. 如果输入的文本与模式匹配，则参数返回true，
 	2. 否则返回false
-## 构造函数属性/静态属性
-# 常用
+### toLocaleString()和toString()
+都返回正则表达式的字面量表示
+### valueOf()
+返回正则表达式本身
+## 静态属性
+所有静态属性都没有任何Web标准出处，因此**不要在生产环境中使用**它们
+### 匹配内容
+特点
+	1. 每个属性都有一个全名和一个简写
+	2. 适用于作用域中的所有正则表达式，而且会根据最后执行的正则表达式操作而变化
+
+| 全名         | 简写 | 说明                                   |
+| ------------ | ---- | -------------------------------------- |
+| input        | $_   | 最后搜索的字符串（非标准特性）         |
+| lastMatch    | $&   | 最后匹配的文本                         |
+| lastParen    | $+   | 最后匹配的捕获组（非标准特性）         |
+| leftContext  | $\`  | input字符串中出现在lastMatch前面的文本 |
+| rightContext | $'   | input字符串中出现在lastMatch后面的文本 |
+
+```js
+let text = "this has been a short summer";
+let pattern = /(.)hort/g;
+
+// 搜索任何后跟"hort"的字符，并把第一个字符放在了捕获组
+if (pattern.test(text)) {
+  console.log(RegExp.input);        // this has been a short summer   原始的字符串
+  console.log(RegExp.leftContext);  // this has been a
+  console.log(RegExp.rightContext); // summer
+  console.log(RegExp.lastMatch);    // short
+  console.log(RegExp.lastParen);    // s
+}
+```
+### 捕获内容
+其他几个构造函数属性，可以存储最多9个捕获组的匹配项：RegExp.$1~RegExp.$9
+	1. 在调用exec()或test()时，这些属性就会被填充
+```js
+let text = "this has been a short summer";
+let pattern = /(..)or(.)/g;
+
+if (pattern.test(text)) {
+  console.log(RegExp.$1);  // sh
+  console.log(RegExp.$2);  // t
+}
+```
+# 下列特性目前还没有得到ECMAScript的支持
+1. \A和\Z锚（分别匹配字符串的开始和末尾）
+2. 联合及交叉类
+3. 原子组
+4. x（忽略空格）匹配模式
+5. 条件式匹配
+6. 正则表达式注释
+# 常用正则

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md"
                   }
                 }
               }
@@ -540,24 +540,24 @@
                 "id": "c773c8b516e00e33",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "RegExp",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/RegExp.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":49},\"to\":{\"line\":68,\"ch\":49}},\"scroll\":50.19460227272727}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":13},\"to\":{\"line\":48,\"ch\":13}},\"scroll\":32.59126984126984}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -592,7 +592,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -620,7 +620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -927,11 +927,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c773c8b516e00e33",
+  "active": "fbbf55f8de10295e",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/Date.md",
     "Day Planners/2023-07-22.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
@@ -956,7 +957,6 @@
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/react-app-rewired.md",
     "笔记/前端/库、框架/UI库/customize-cra.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/assets/preload.png",
     "笔记/前端/assets/prefetch.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",
