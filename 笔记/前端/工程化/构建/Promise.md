@@ -36,12 +36,15 @@
 			2. 否则返回fulfilled状态的promise对象
 
 如果某些事件不断地反复发生，一般来说，使用 [Stream](https://nodejs.org/api/stream.html) 模式是比部署Promise更好的选择。
-# API
-## Promise.resolve
-## Promise.reject
+# API 【3实例，7静态】
 ## promise.prototype.then
 ## promise.prototype.catch
 ## promise.prototype.finally
+
+## Promise.resolve
+
+## Promise.reject
+
 ## Promise.all
 将多个promise实例包装为一个promise实例
 	1. 参数
@@ -51,9 +54,12 @@
 		1. 全部状态变为解决，变为解决，解决值是数组
 		2. 一个拒绝，变为拒绝。
 ## Promise.allSettled
-## Promise.any
-## Promise.race
+
 ## Promise.try
+
+## Promise.race
+
+## Promise.any
 # 手写
 ```js
 class MyPromise {

@@ -11,12 +11,14 @@
 # 历史状态管理
 背景：现代web应用开发中最难的环节之一：历史记录管理。
 	1. 用户的每次点击不再刷新页面
-## 方案
-### hashchange事件
+方案
+	1. hash
+	2. History API。HTML5为history对象增加了状态管理特性
+## hash
+基于hashchange事件
 条件：在页面URL的散列变化时被触发
-
-### HTML5为history对象增加了状态管理特性
-状态管理API：开发者可**改变浏览器URL而不加载新页面** 
+## History API
+功能：**改变浏览器URL而不加载新页面** 
 history.pushState([[Object]]，[[String]]，[[URL]])
 	1. 参数
 		1. 状态信息。
@@ -27,7 +29,7 @@ history.pushState([[Object]]，[[String]]，[[URL]])
 			1. 要确保通过pushState()创建的每个“假”URL背后都对应着服务器上一个真实的物理URL。否则刷新会报404。
 				1. 所有[[SPA]]框架都必须通过*服务器或客户端的配置*解决这个问题
 	2. 功能
-		1. 状态信息就会被推到历史记录
+		1. 将状态信息推到历史记录
 			1. 单击“后退”按钮，就会触发[[window]]对象上的popstate事件
 				1. 事件对象有一个state属性：传入的state对象
 				2. 基于这个状态，应该把页面**手动重置**为状态对象所表示的状态

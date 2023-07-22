@@ -48,12 +48,13 @@ Array.of
 Array.isArray()：传递的值是否是一个 [[Array]] 
 ## 实例方法
 ### 遍历
-4. map：对每个元素进行批处理
-5. forEach
-6. reduce
-7. reduceRight
-8. entries：返回一个新的数组[[迭代器]]对象，其中包含数组中每个索引的键
-9. values
+1. map：对每个元素进行批处理
+2. forEach
+3. reduce
+	1. [25个你不得不知道的数组reduce高级用法 - 掘金](https://juejin.cn/post/6844904063729926152#heading-10) 
+4. reduceRight
+5. entries：返回一个新的数组[[迭代器]]对象，其中包含数组中每个索引的键
+6. values
 ```js
 // 应用场景：每个元素的操作，与前面元素有关
 // 1. 统计：每个/某个元素出现的次数；

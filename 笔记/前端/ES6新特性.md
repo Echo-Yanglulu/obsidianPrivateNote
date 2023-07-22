@@ -2,9 +2,6 @@
 ## 相关
 [ES6 入门教程](https://es6.ruanyifeng.com/#docs/promise) 
 # 对象维度
-## [[关键字]] 
-1. globalThis：语言标准的层面，引入globalThis作为顶层对象。也就是说，任何环境下，globalThis都是存在的，都可以从它拿到顶层对象，指向全局环境下的this。
-2. const, let：块级作用域
 ## [[数据类型]] 
 1. [[BigInt]] 
 2. [[Symbol]] 
@@ -14,13 +11,30 @@
 	1. [[ArrayBuffer]]对象：代表内存之中，原始的二进制数据。可以通过“视图”进行操作。“视图”部署了数组接口，这意味着，可以用数组的方法操作内存。
 	2. [[TypedArray]]视图：用来读写简单类型的二进制数据
 	3. DataView视图：用来读写复杂类型的二进制数据
+## 语法
+1. const, let[[关键字]] 【\*】：块级作用域
+2. [[解构赋值]] 【\*】
+3. [[ES Module]][[模块化]] 
+4. globalThis：语言标准的层面，引入globalThis作为顶层对象。也就是说，任何环境下，globalThis都是存在的，都可以从它拿到顶层对象，指向全局环境下的this。
+## Feature
+1. [[Promise]] 【\*】
+## [[操作符]] 
+1. 展开运算符【\*】
+2. 空值二元操作符。??
+3. Exponentiation Operator：相当于[[Math]].pow
+4. 可选链 Optional chaining
+5. 空值合并运算符（Nullish coalescing Operator）
+6. 逻辑运算符和赋值表达式（&&=，||=，??=）
+7. 数字分隔符
+8. 剩余属性与扩展属性
 ## [[String]] 
 1. String.prototype.padStart()
 2. String.prototype.{trimStart, trimEnd}
 3. String.prototype.replaceAll()
 4. String.prototype.matchAll()
-5. [[Unicode]] 表示法
-6. 添加了迭代器接口。
+5. 模板字符串【\*】
+6. [[Unicode]] 表示法
+7. 添加了迭代器接口。
 	1. 可for/of遍历
 ## [[Object]] 
 1. Object.entries：自有可枚举
@@ -29,35 +43,24 @@
 4. Object.getOwnPropertyDescriptors
 5. Trailing commas
 ## [[Array]] 
-1. Array.prototype.includes()
+1. Array.prototype.includes()【\*】
 2. [[Array]].prototype.{flat, flatMap}
 3. Array.prototype.sort() is now required to be stable
+4. Array.from【\*】
+4. Array.of
 ## [[Function]] 
-1. 箭头函数
-2. 异步函数[[async]] 
-3. 修订 Function.prototype.toString()
+1. 箭头函数【\*】
+2. 异步函数[[async]] 【\*】
+3. 默认值【\*】
+4. 剩余参数【\*】
+5. 修订 Function.prototype.toString()
 	1. 修订前：省略注释与空格
 	2. 修订后：保留
-## [[Promise]] 
-1. Promise.prototype.finally
-2. Promise.allSettled
-3. Promise.any
 ## [[JSON]] 
 JSON.stringify() 的增强力
-## [[操作符]] 
-1. Exponentiation Operator：相当于[[Math]].pow
-2. 可选链 Optional chaining
-3. 空值合并运算符（Nullish coalescing Operator）
-4. 逻辑运算符和赋值表达式（&&=，||=，??=）
-5. 数字分隔符
-6. 剩余属性与扩展属性
-7. [[解构赋值]] 
 ## 迭代
 Async iterators 异步迭代器
 [[Iterator]] 
-
-## [[模块]] 
-Dynamic import（按需 import）
 # 版本维度
 ## ES2016（ES7）
 1. Array.prototype.includes
@@ -96,6 +99,7 @@ Dynamic import（按需 import）
 2. String.prototype.replaceAll()
 3. 数字分隔符
 4. Promise.any
+# 常用
 
 # 相关
 [微信公众平台](https://mp.weixin.qq.com/s/GbSNPeDhllfsSP6y1LIdNg) 

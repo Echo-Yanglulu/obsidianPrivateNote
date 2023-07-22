@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react实战.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 }
               }
@@ -385,52 +385,6 @@
                 }
               },
               {
-                "id": "86cbda7c89d121cc",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "2023-07-15",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-15.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":385,\"ch\":21},\"to\":{\"line\":385,\"ch\":21}},\"scroll\":303.4355016538037}"
-                    },
-                    {
-                      "title": "webpack",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":38},\"to\":{\"line\":87,\"ch\":38}},\"scroll\":58.25565770862801}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":261,\"ch\":17},\"to\":{\"line\":261,\"ch\":17}},\"scroll\":249.15104740904079}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "8b0394337c6391e6",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -507,13 +461,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "ES6新特性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/ES6新特性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":28.293650793650794}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/ES6新特性.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -524,24 +484,24 @@
                 "id": "1ef8a53a2b486d4f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-21",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-21.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "webpack",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/构建/webpack.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":53,\"ch\":7},\"to\":{\"line\":53,\"ch\":7}},\"scroll\":42.9624}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/构建/webpack.md",
+                    "file": "笔记/前端/编程语言/JS/Function.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -569,37 +529,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "414e2b602a347127",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "react",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":174,\"ch\":12},\"to\":{\"line\":174,\"ch\":12}},\"scroll\":154.02777777777777}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react实战.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 16
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -626,7 +558,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react实战.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -654,7 +586,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react实战.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -961,13 +893,24 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "414e2b602a347127",
+  "active": "5110a66f0cdd86b1",
   "lastOpenFiles": [
+    "笔记/前端/ES6新特性.md",
+    "笔记/前端/编程语言/JS/Function.md",
+    "笔记/前端/编程语言/JS/柯里化.md",
+    "笔记/前端/工程化/构建/webpack.config.js.md",
+    "笔记/前端/编程语言/JS/高阶函数.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/模块化.md",
+    "笔记/前端/编程语言/JS/基本概念/模块.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/History.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/react-app-rewired.md",
     "笔记/前端/库、框架/UI库/customize-cra.md",
-    "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/前端工作.md",
     "Day Planners/2023-07-22.md",
     "笔记/前端/assets/preload.png",
     "笔记/前端/assets/prefetch.png",
@@ -978,27 +921,16 @@
     "笔记/前端/assets/使用CDN引入不希望打包的依赖.png",
     "笔记/前端/Tree-Shaking.md",
     "笔记/前端/assets/忽略文件夹.png",
-    "笔记/前端/工程化/构建/webpack.md",
     "Day Planners/2023-07-21.md",
     "笔记/前端/assets/不需要解析的模块.png",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/工程化/构建/webpack.config.js.md",
     "笔记/前端/assets/vue-loader.png",
     "笔记/前端/assets/Pasted image 20230718160546.png",
     "笔记/前端/assets/Pasted image 20230718153217.png",
     "笔记/前端/工程化/构建/babel.md",
     "笔记/前端/工程化/构建/SplitChunksPlugin.md",
-    "笔记/前端/ES6新特性.md",
     "笔记/前端/工程化/开发流程.md",
     "笔记/前端/webpack.dll.js.md",
     "笔记/前端/工程化/构建/HMR.md",
-    "笔记/前端/工程化/构建/webpack.config.js222.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.md",
-    "笔记/前端/编程语言/JS/基本概念/Object.prototype.md",
-    "笔记/前端/性能优化.md",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/Iterator.md",
-    "笔记/前端/二进制数组.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
