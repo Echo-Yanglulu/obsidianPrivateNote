@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "CDN",
+      "path": "笔记/前端/工程化/CDN.md"
+    },
+    {
+      "basename": "Object",
+      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
+    },
+    {
+      "basename": "循环引用",
+      "path": "笔记/前端/编程语言/JS/基本概念/循环引用.md"
     },
     {
       "basename": "ES6新特性",
       "path": "笔记/前端/ES6新特性.md"
+    },
+    {
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "Function",
@@ -19,10 +35,6 @@
     {
       "basename": "webpack",
       "path": "笔记/前端/工程化/构建/webpack.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "History",
@@ -67,10 +79,6 @@
     {
       "basename": "HMR",
       "path": "笔记/前端/工程化/构建/HMR.md"
-    },
-    {
-      "basename": "Object",
-      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
     },
     {
       "basename": "性能优化",
@@ -191,14 +199,6 @@
     {
       "basename": "URI",
       "path": "笔记/前端/基础知识/计算机网络/URI.md"
-    },
-    {
-      "basename": "比特",
-      "path": "笔记/前端/编程语言/JS/比特.md"
-    },
-    {
-      "basename": "浏览器",
-      "path": "笔记/前端/编程语言/JS/浏览器.md"
     }
   ],
   "omittedPaths": [

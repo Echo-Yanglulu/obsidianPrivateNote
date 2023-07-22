@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -456,24 +456,30 @@
                 "id": "5110a66f0cdd86b1",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 2,
                   "stack": [
+                    {
+                      "title": "循环引用",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/循环引用.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":3},\"to\":{\"line\":21,\"ch\":3}},\"scroll\":7.425}"
+                    },
+                    {
+                      "title": "Object",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":204,\"ch\":12},\"to\":{\"line\":204,\"ch\":12}},\"scroll\":165.63333333333333}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "ES6新特性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/ES6新特性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":10},\"to\":{\"line\":18,\"ch\":10}},\"scroll\":28.293650793650794}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                    "file": "笔记/前端/ES6新特性.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -531,7 +537,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -558,7 +564,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -586,7 +592,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -893,9 +899,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5110a66f0cdd86b1",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
+    "笔记/前端/assets/分包实际使用.png",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/CDN.md",
+    "笔记/前端/工程化/静态资源.md",
+    "笔记/前端/assets/图片文件使用CDN.png",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/循环引用.md",
     "笔记/前端/ES6新特性.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/柯里化.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
@@ -904,7 +918,6 @@
     "笔记/前端/工程化/模块化.md",
     "笔记/前端/编程语言/JS/基本概念/模块.md",
     "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/react实战.md",
@@ -921,16 +934,8 @@
     "笔记/前端/assets/使用CDN引入不希望打包的依赖.png",
     "笔记/前端/Tree-Shaking.md",
     "笔记/前端/assets/忽略文件夹.png",
-    "Day Planners/2023-07-21.md",
     "笔记/前端/assets/不需要解析的模块.png",
     "笔记/前端/assets/vue-loader.png",
-    "笔记/前端/assets/Pasted image 20230718160546.png",
-    "笔记/前端/assets/Pasted image 20230718153217.png",
-    "笔记/前端/工程化/构建/babel.md",
-    "笔记/前端/工程化/构建/SplitChunksPlugin.md",
-    "笔记/前端/工程化/开发流程.md",
-    "笔记/前端/webpack.dll.js.md",
-    "笔记/前端/工程化/构建/HMR.md",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
