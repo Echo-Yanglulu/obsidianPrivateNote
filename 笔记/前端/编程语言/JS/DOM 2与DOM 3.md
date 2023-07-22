@@ -1,8 +1,4 @@
 # 概述
-## 内容
-- DOM2到DOM3的变化
-- 操作样式的DOM API
-- DOM遍历与范围
 ## 意义
 DOM1（DOM Level 1）主要定义了HTML和XML**文档的底层结构** 
 DOM2（DOM Level 2）和DOM3（DOM Level 3）在这些结构之上加入更多**交互能力**，提供了更高级的XML特性
@@ -19,6 +15,7 @@ DOM2和DOM3是按照[[模块化]]的思路来*制定标准*的，每个模块之
 ## 兼容
 比较老旧的浏览器（如IE8）对本章内容支持有限。如果你的项目要兼容这些低版本浏览器，在使用本章介绍的API之前先确认浏览器的支持情况。推荐参考Can I Use网站。
 # DOM的演进
+DOM2到DOM3的变化
 ## XML命名空间
 Node的变化
 Document的变化
@@ -30,13 +27,14 @@ Document的变化
 Node的变化
 内嵌窗格的变化
 # 样式
+操作样式的DOM API
 ## 存取元素样式
 ## 操作样式表
 ## 元素尺寸
-# 遍历
+# DOM遍历
 ## NodeIterator
 ## TreeWalker
-# 范围
+# DOM范围
 ## DOM范围
 ## 简单选择
 ## 复杂选择

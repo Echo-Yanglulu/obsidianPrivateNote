@@ -1,4 +1,4 @@
-# 概述
+# 概述【节点层级，DOM编程，MO】
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
 定义：DOM是 [[HTML]] 与 [[XML]] 文档的**编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。
 功能
@@ -20,7 +20,7 @@ DOM对象是[[宿主对象]]。
 要理解DOM，最关键的一点是知道影响其性能的问题所在。
 	1. *DOM操作*在JavaScript代码中是代价比较高的，NodeList对象尤其需要注意
 		1. NodeList对象**实时更新**，这意味着每次访问它都会执行一次新的查询
-# 节点层级
+# 节点层级【节点，文档，文档类型，文档碎片，元素，属性，文本，注释，CDATA类型】
 背景：DOM可以将HTML或XML文档*表示*为一个由**节点**构成的**层级**结构[^3]
 	1. 节点**类型** 
 		1. 含义：*对应*文档中不同的信息或标记
@@ -256,16 +256,16 @@ MutationRecord的引用
 # 基本概念
 节点
 # 属性
-1. screen.height：显示器高度
-2. window.outerHeight：浏览器软件高度【全屏时等于显示器高度】
-3. window.innerHeight：浏览器视口高度
-4. **offset**Height：content+padding+border。含滚动条
+1. screen.height：*显示器高度*
+2. window.outerHeight：浏览器*软件高度*【全屏时等于显示器高度】
+3. window.innerHeight：浏览器*视口高度* 
+4. **offset**Height：*content+padding+border*。含滚动条
 	1. offsetTop：元素上边框与offsetParent元素的上边框距离
-5. **client**Width：content+padding。不含滚动条
+5. **client**Width：*content+padding*。不含滚动条
 	1. clientLeft：左border宽度
 	2. document.documentElement.clientWidth：页面的宽高
 	3. document.body.clientHeight：body高度
-6. **scroll**Height、scrollY：content+padding。含滚动部分。
+6. **scroll**Height、scrollY：*content+padding*。含滚动部分。
 	1. 没有滚动：等于clientHeight
 	2. 有滚动：==滚动内容高度== + ==padding== 
 	3. 如果设置scroll为auto，content高为手动设置的高度
