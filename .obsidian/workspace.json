@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/String.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 }
               }
@@ -550,6 +550,24 @@
                       "title": "数据类型",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":58,\"ch\":12},\"to\":{\"line\":58,\"ch\":12}},\"scroll\":40.87083333333333}"
+                    },
+                    {
+                      "title": "原始值包装类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/原始值包装类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":25},\"to\":{\"line\":38,\"ch\":25}},\"scroll\":4.6}"
+                    },
+                    {
+                      "title": "String",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/String.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":29},\"to\":{\"line\":54,\"ch\":29}},\"scroll\":26.78095238095238}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":14},\"to\":{\"line\":50,\"ch\":14}},\"scroll\":26.664299242424242}"
                     },
                     {
@@ -569,7 +587,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -604,7 +622,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -632,7 +650,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -941,13 +959,13 @@
   },
   "active": "c773c8b516e00e33",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
+    "笔记/前端/编程语言/JS/基本概念/String.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/双精度浮点数.md",
-    "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/Date.md",
     "Day Planners/2023-07-22.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",

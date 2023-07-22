@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "String",
-      "path": "笔记/前端/编程语言/JS/基本概念/String.md"
+      "basename": "Array",
+      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "原始值包装类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md"
+    },
+    {
+      "basename": "String",
+      "path": "笔记/前端/编程语言/JS/基本概念/String.md"
     },
     {
       "basename": "Number",
@@ -47,10 +55,6 @@
     {
       "basename": "ES6新特性",
       "path": "笔记/前端/ES6新特性.md"
-    },
-    {
-      "basename": "Array",
-      "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
     },
     {
       "basename": "Function",
@@ -195,10 +199,6 @@
     {
       "basename": "前端",
       "path": "笔记/前端/前端.md"
-    },
-    {
-      "basename": "base64",
-      "path": "笔记/前端/编程语言/JS/base64.md"
     }
   ],
   "omittedPaths": [
