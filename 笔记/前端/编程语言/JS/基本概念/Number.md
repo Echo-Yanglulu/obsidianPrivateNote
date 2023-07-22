@@ -65,16 +65,19 @@ parseFloat：暂时未看
 | undefined |  |  |  |
 | 对象 | 调用valueOf方法，返回值按上述规则转换。如果转换得到NaN则重新调用toString，再按字符串规则 |  |  |
 # 属性方法
-## Number
 1. 常量
 	1. NaN
-	2. MAX_SAFE_INTEGER 2\*\*53-1(可表示的最大数值)
+	2. MAX_SAFE_INTEGER。安全整数：2\*\*53-1(可表示的最大数值)
 	3. MAX_VALUE
 	4. Infinity
 2. 特定值检测
 	1. isNaN()
-	2. isSafeInteger()
-	3. isInteger()
+	3. Number.isInteger()：辨别一个数值是否保存为整数
+		1. 1.00返回true
+	2. Number.isSafeInteger()。
+		1. 数值范围，在这个范围内二进制值可以表示一个整数值
+		2. Number.MIN_SAFE_INTEGER（-2^{53}+1）到Number.MAX_SAFE_INTEGER（2^{53}-1）
+		3. 超出这个范围的数值，即使尝试保存为整数，IEEE 754编码格式也意味着二进制值可能会表示一个完全不同的数值
 	4. isFinite()：在可表示范围内
 3. 类型转换
 	1. parseInt()
@@ -83,8 +86,9 @@ parseFloat：暂时未看
 	4. toString()：可选地接收一个表示基数的参数，并返回相应基数形式的数值字符串
 4. 格式化为字符串
 	1. toFixed()：指定小数点位数的数值字符串
-	2. toExponential()
-	3. toPrecision()
+	2. toExponential()：以科学记数法（也称为指数记数法）表示的数值字符串
+	3. toPrecision(结果中数字的总位数（不包含指数）)：返回最合理的输出结果，可能是固定长度，也可能是科学记数法形式。
+		1. 可以表示带1~21个小数位的数值
 
 
 [^1]: C, C++, JAVA，
