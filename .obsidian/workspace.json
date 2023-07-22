@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
                   }
                 }
               }
@@ -545,13 +545,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":13},\"to\":{\"line\":48,\"ch\":13}},\"scroll\":32.59126984126984}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -586,7 +592,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -614,7 +620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,6 +929,11 @@
   },
   "active": "c773c8b516e00e33",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Date.md",
+    "Day Planners/2023-07-22.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/assets/分包实际使用.png",
@@ -932,7 +943,6 @@
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/循环引用.md",
     "笔记/前端/ES6新特性.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/编程语言/JS/柯里化.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
@@ -947,15 +957,11 @@
     "笔记/前端/react-app-rewired.md",
     "笔记/前端/库、框架/UI库/customize-cra.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "Day Planners/2023-07-22.md",
     "笔记/前端/assets/preload.png",
     "笔记/前端/assets/prefetch.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",
-    "笔记/前端/懒加载.md",
     "笔记/前端/assets/插件设置.png",
-    "笔记/前端/工程化/npm.md",
     "笔记/前端/assets/使用CDN引入不希望打包的依赖.png",
-    "笔记/前端/Tree-Shaking.md",
     "笔记/前端/assets/忽略文件夹.png",
     "笔记/前端/assets/不需要解析的模块.png",
     "笔记/前端/assets/vue-loader.png",
