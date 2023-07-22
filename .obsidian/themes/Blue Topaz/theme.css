@@ -15111,7 +15111,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   margin-top: -1px; /* fix item gap */
 }
 body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner {
-  padding-left: 16px;
+  padding-left: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
   height: calc(var(--nav-item-size) * 1.8);
@@ -15124,7 +15124,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   border: 2px solid hsla(var(--color-accent-hsl), 0.9);
   border-radius: 50%;
   position: absolute;
-  left: 7px;
+margin-left:-1.5em;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -15150,12 +15150,13 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   cursor: pointer;
 }
 body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon::before {
+  margin-top: 50%;
   width: var(--size-4-2);
   height: var(--size-4-2);
   background-color: hsla(var(--color-accent-hsl), 0.9);
   border-radius: 50%;
   position: absolute;
-  left: 7px;
+  left: 4px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -23205,7 +23206,8 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 }
 
 /* Remove collapse arrow from top level folders */
-body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title>.nav-folder-collapse-indicator {
+
+body.remove-arrow:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title>.nav-folder-collapse-indicator {
   display: none;
 }
 
@@ -23213,8 +23215,9 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title {
   color: var(--FoldText);
   padding: var(--nav-item-parent-padding);
-  padding-left: 3px;
- 
+  padding-bottom: 4px;
+  /* padding-left: 3px; */
+   margin-top: 3px;
   /* space between top level sections */
   border-radius: 5px 5px 0 0;
 }
@@ -23226,11 +23229,12 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 
 /* General Nav Folder Children (this is the part that expands from each top level folder) */
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-children {
-  padding-left: 0;
+  
   margin-left: 0;
   border-radius: 0 0 5px 5px;
   padding-bottom: 5px;
   border-left: 0px solid;
+  padding-left:1em;
 }
 
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-file-title {
