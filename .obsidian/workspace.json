@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM扩展.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -239,52 +239,6 @@
                 }
               },
               {
-                "id": "b22f7f396d653a6b",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":388,\"ch\":17},\"to\":{\"line\":388,\"ch\":17}},\"scroll\":327.5144566301097}"
-                    },
-                    {
-                      "title": "Object",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Object.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":16},\"to\":{\"line\":43,\"ch\":16}},\"scroll\":25.285714285714285}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":169,\"ch\":31},\"to\":{\"line\":169,\"ch\":31}},\"scroll\":144.38492871690428}"
-                    },
-                    {
-                      "title": "Array",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Array.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/性能优化.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "71f0afcd5d0019d3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -306,50 +260,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/编程语言/JS/DOM.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9e24fbaa290999fc",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM扩展.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8604c73fee7f6d1f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -431,7 +341,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -458,7 +368,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM扩展.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -486,7 +396,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM扩展.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -793,11 +703,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9e24fbaa290999fc",
+  "active": "71f0afcd5d0019d3",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
+    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/性能优化.md",
