@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-07-23.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -86,17 +86,17 @@
                 "id": "c283810bef530241",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-23",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-23.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "记忆",
@@ -121,7 +121,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-07-23.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -380,7 +380,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-07-23.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -408,7 +408,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-07-23.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -717,6 +717,7 @@
   },
   "active": "c283810bef530241",
   "lastOpenFiles": [
+    "Day Planners/2023-07-23.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
@@ -726,7 +727,6 @@
     "笔记/学习/概念/概念.md",
     "笔记/前端/性能优化.md",
     "笔记/行为/健身/健身.md",
-    "Day Planners/2023-07-23.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/ES6新特性.md",
