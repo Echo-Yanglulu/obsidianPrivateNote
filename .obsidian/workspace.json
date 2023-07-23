@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -341,7 +341,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -368,7 +368,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -396,7 +396,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -688,7 +688,6 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "templater-obsidian:Templater": false,
       "obsidian-journey-plugin:Find Journey": false,
@@ -700,18 +699,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "71f0afcd5d0019d3",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
-    "Day Planners/2023-07-23.md",
+    "笔记/前端/性能优化.md",
+    "笔记/行为/健身/健身.md",
     "笔记/前端/编程语言/JS/DOM.md",
+    "Day Planners/2023-07-23.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/前端/工程化/构建/webpack.config.js.md",
@@ -734,7 +735,6 @@
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/循环引用.md",
     "笔记/前端/编程语言/JS/柯里化.md",
-    "笔记/前端/编程语言/JS/高阶函数.md",
     "笔记/前端/assets/preload.png",
     "笔记/前端/assets/prefetch.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",
