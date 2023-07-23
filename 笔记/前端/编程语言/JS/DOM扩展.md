@@ -8,7 +8,8 @@
 	1. 这两个标准体现了社区*需求*和标准化某些手段及API的*愿景*。
 	2. 专有扩展虽然还有，但这两个规范（特别是HTML5）已经涵盖其中大部分
 2. 较小的Element Traversal规范，增加了一些DOM属性。
-# Selectors API标准：DOM元素查找
+# Selectors API标准
+DOM元素查找
 ## querySelector()
 ## querySelectorAll()
 ## matches()
@@ -27,7 +28,8 @@ Element Traversal API为DOM元素添加了5个属性
 - nextElementSibling，指向*后一个Element类型的同胞元素*（Element版nextSibling）。
 ## 兼容
 IE9及以上版本及现代浏览器支持。所有DOM元素都会有这些属性。开发者就不用担心空白文本节点的问题
-# HTML5 DOM标准：标记相关的JS API
+# HTML5 DOM标准
+标记相关的JS API
 ## 背景
 HTML5代表着与以前的HTML截然不同的方向
 	1. 所有以前的HTML规范中，从未出现过*描述JavaScript接口*的情形，HTML就是一个纯标记语言
