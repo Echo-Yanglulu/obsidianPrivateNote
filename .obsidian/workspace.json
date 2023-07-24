@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/Error.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
                   }
                 }
               }
@@ -503,6 +503,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":47,\"ch\":11},\"to\":{\"line\":47,\"ch\":11}},\"scroll\":35.225806451612904}"
+                    },
+                    {
                       "title": "循环引用",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/循环引用.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -513,7 +519,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -548,7 +554,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Error.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -576,7 +582,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/Error.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -883,7 +889,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "1f7d2a130da7e26b",
+  "active": "a9360fc507ea08df",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/Error.md",

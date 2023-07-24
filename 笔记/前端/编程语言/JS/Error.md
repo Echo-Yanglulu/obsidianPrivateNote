@@ -7,7 +7,7 @@ throw new Error。将throw语句与新建对象写在一起即可。
 ## 属性
 message：创建时的传参
 name：始终是'Error'
-toString(): 
+toString(): 'name值: message值'
 # 子类
 TypeError
 
