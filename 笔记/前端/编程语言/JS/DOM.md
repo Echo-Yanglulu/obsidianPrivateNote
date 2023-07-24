@@ -1,6 +1,6 @@
 # 概述【节点层级，DOM编程，MO】
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
-定义：DOM是 [[HTML]] 与 [[XML]] 文档的**编程模型**。提供了对**文档的结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。
+定义：DOM是 [[HTML]] 与 [[XML]] 文档的**编程模型**。提供了对文档的**结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。
 	1. 即，DOM是一种表示方法，提供了对该表示的访问方法。
 功能
 	1. 表示由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分
@@ -27,7 +27,7 @@ DOM对象是[[宿主对象]]。
 		1. 含义：*对应*文档中不同的信息或标记
 		2. 属性：*拥有*自己不同的特性、数据和方法
 		3. 与其他类型存在某种*关系* 
-			1. 这些关系构成了*层级*，让**标记表示为一个以特定节点为根的树形结构**。【具体是什么层级结构？】
+			1. 这些不同类型之间形成的关系构成了*层级*，让**标记表示为一个以特定节点为根的树形结构**。
 	2. DOM中有12种节点类型
 		1. 都继承自一种基础类型
 ## 实例
@@ -57,9 +57,10 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 	属性表示为属性节点
 ## Node类型
 背景：DOM Level 1描述了名为`Node`的接口
-	1. 必要：所有DOM节点类型都必须实现
+	1. 必要：
+		1. 所有DOM节点类型都必须实现
+		2. 所有节点类型都**继承**Node类型，因此所有类型都共享相同的*基本属性和方法*
 	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
-	3. 子类：JavaScript中，所有节点类型都继承Node类型，因此所有类型都共享相同的基本属性和方法
 分类：文档、元素、属性、文本、2 C、2 D
 ### 节点类型
 每个节点都有`nodeType`属性，表示该节点的**节点类型** 。由定义在Node类型上的12个数值常量表示
@@ -100,7 +101,7 @@ nodeName与nodeValue
 	3. `hasChildNodes()`：是在存在子节点
 	4. `parentNode` ： 其DOM树中的父元素
 	5. `ownerDocument` ：文档节点。所有节点都被创建它们的文档所拥有
-### 节点操纵
+### 节点操作
 背景：所有关系指针都是**只读**的，所以DOM又提供了一些操纵节点的方法
 1. appendChild()：在childNodes列表**末尾添加**节点
 	1. 返回新添加的节点
@@ -121,6 +122,11 @@ nodeName与nodeValue
 			1. 出现并不包含文本的文本节点。发现空文本节点，则将其删除
 			2. 文本节点之间互为同胞关系。两个同胞节点是相邻的，则将其合并为一个文本节点
 ### 其他方法
+cloneNode()，
+接收一个布尔值参数，表示是否深复制
+	1. 传入true参数时，会进行深复制，即复制节点及其整个子DOM树
+	2. 传入false，则只会复制调用该方法的节点。复制返回的节点属于文档所有，但尚未指定父节点，所以可称为孤儿节点（orphan）。可以通过appendChild()、insertBefore()或replaceChild()方法把孤儿节点添加到文档中
+返回与调用它的节点一模一样的节点
 ## Document类型
 意义
 	1. 是JavaScript中**表示文档节点**的类型。
@@ -201,13 +207,13 @@ Attr类型构造函数和原型在所有浏览器中都可以直接访问。技�
 	5. 在HTML中不支持子节点；
 	6. 在XML中子节点可以是Text或EntityReference。
 
-属性节点尽管是节点，却不被认为是DOM文档树的一部分。Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法操作属性。
+属性节点尽管是节点，却*不被认为是DOM文档树的一部分*。Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法**操作属性**。
 Attr对象上有3个属性
 ## Text类型
-Text节点由Text类型表示，包含按字面解释的纯文本，也可能包含转义后的HTML字符，但不含HTML代码。
+Text节点由Text类型表示，包含*按字面解释的纯文本*，也可能包含*转义后的HTML字符*，但不含HTML代码。
 特征
 	1. nodeType等于3；
-	2. nodeName值为" #text "；
+	2. nodeName值为"text"；
 	3. nodeValue值为节点中包含的文本；
 	4. parentNode值为Element对象；
 	5. 不支持子节点。
@@ -304,6 +310,7 @@ querySelectorAll(标签名)
 matches()
 ### 新增
 createElement
+createDocumentFragment
 ### 插入
 appendChild
 ### 删除
