@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/BOM.md"
+                    "file": "笔记/前端/编程语言/JS/location.md"
                   }
                 }
               }
@@ -484,7 +484,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/编程语言/JS/location.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -512,7 +512,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/BOM.md",
+                        "file": "笔记/前端/编程语言/JS/location.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -819,8 +819,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "4caaab619990ff47",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/BOM.md",
+    "笔记/前端/编程语言/JS/navigator.md",
+    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/工具/思考/记忆/记忆.md",
@@ -846,9 +849,6 @@
     "笔记/前端/assets/Pasted image 20230722203907.png",
     "笔记/前端/assets/Pasted image 20230722203556.png",
     "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
-    "笔记/前端/编程语言/JS/基本概念/String.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/assets/分包实际使用.png",
     "笔记/前端/assets/图片文件使用CDN.png",
     "笔记/前端/assets/preload.png",

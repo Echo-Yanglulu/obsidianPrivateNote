@@ -3,10 +3,15 @@
 用途：客户端标识浏览器的标准
 ## 起源
 netscape navigator 2最早引入浏览器，已成为客户端标识浏览器的标准。（这里的客户端是指什么？PC？）
-
+浏览器
+	1. 命名，版本，构建编号，主语言，偏好语言，系统平台
+	2. 电池，网络，认证，位置，媒体能力，存储，权限，cookie，跟踪，
+	3. 设备内存，处理器核心数，
+	4. 插件，蓝牙，厂商名称、其他信息
+# 信息
 appName：浏览器**全名** 
 appVersion：浏览器**版本**。通常与实际的浏览器版本不一致
-buildId：浏览器的**构建编号**
+buildId：浏览器的**构建编号** 
 appCodeName：即使在非Mozilla浏览器中也会返回"Mozilla"
 getVRDisplays()：数组，包含可用的每个**VRDisplay实例** 
 activeVrDisplays：返回数组，包含ispresenting属性为true的**VRDisplay实例**
@@ -23,7 +28,7 @@ serviceWorker：返回用来与ServiceWorker实例交互的ServiceWorkerContaine
 cookieEnabled：返回布尔值，表示是否**启用cookie** 
 deviceMemory：返回单位为GB的**设备内存**容量
 doNotTrack：返回用户的“**不跟踪**”（do-not-track）设置
-getUserMedia()：返回与可用媒体设备硬件关联的流
+getUserMedia()：返回与可用**媒体设备硬件**关联的流
 hardwareConcurrency：设备的**处理器核心数量** 
 javaEnabled：浏览器是否**启用了Java**
 language：浏览器的**主语言**
