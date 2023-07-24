@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/assets/挥手.png"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -520,7 +520,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/assets/挥手.png",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -548,7 +548,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/assets/挥手.png",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -855,9 +855,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a5a5cddd83f66feb",
+  "active": "9e75c0c558b854e6",
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/TCP.md",
+    "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/工具/HTTPS.md",
@@ -891,7 +892,6 @@
     "笔记/前端/assets/prefetch.png",
     "笔记/前端/assets/Pasted image 20230718155907.png",
     "笔记/前端/assets/插件设置.png",
-    "笔记/前端/assets/使用CDN引入不希望打包的依赖.png",
     "dashboards/Untitled 1.loom",
     "笔记/_gsdata_/2023-0708-232711-DESKTOP-YLL-Job1.log",
     "笔记/_gsdata_/_insync_v4.gsl",
