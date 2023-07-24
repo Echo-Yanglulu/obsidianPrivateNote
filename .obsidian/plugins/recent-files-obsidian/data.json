@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "window",
+      "path": "笔记/前端/编程语言/JS/window.md"
     },
     {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
     },
     {
-      "basename": "navigator",
-      "path": "笔记/前端/编程语言/JS/navigator.md"
+      "basename": "History",
+      "path": "笔记/前端/工程化/History.md"
     },
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
+      "basename": "location",
+      "path": "笔记/前端/编程语言/JS/location.md"
+    },
+    {
+      "basename": "navigator",
+      "path": "笔记/前端/编程语言/JS/navigator.md"
     },
     {
       "basename": "DOM",
@@ -191,14 +199,6 @@
     {
       "basename": "regenerator",
       "path": "笔记/前端/regenerator.md"
-    },
-    {
-      "basename": "Tree-Shaking",
-      "path": "笔记/前端/Tree-Shaking.md"
-    },
-    {
-      "basename": "2023-07-20",
-      "path": "Day Planners/2023-07-20.md"
     }
   ],
   "omittedPaths": [

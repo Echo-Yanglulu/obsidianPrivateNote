@@ -15,10 +15,9 @@
 		10. origin：源。https://www.rox.com。**只读** 
 	2. **导航功能** 
 		1. 无记录导航。replace(URL)
-		2. 有记录导航
+		2. 加记录导航
 			1. 整体：location.assign(), 直接为**location.href**[^1]，window.location两个属性赋值（本质也是以新URL调用assign）
-			2. 部分：hostname, port, pathname, search, hash属性赋值
-				1. 只有修改hash不会导致重新加载新URL
+			2. 部分：hostname, port, pathname, search, hash属性赋值。只有修改hash不会导致重新加载
 		3. 重载。location.reload()
 			1. 无参数，智能使用缓存。
 			2. 传true：强制使用服务器资源

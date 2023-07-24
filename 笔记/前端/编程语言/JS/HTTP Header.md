@@ -1,7 +1,7 @@
 # 概述
 
 # Request
-5A3C、HU
+==5A3C、HU==
 - Accept：浏览器可接收的*数据格式* 
 - Accept-Language：浏览器展示的*语言*，如zh-CN
 - Accept-Encoding：浏览器可处理的*压缩算法*，如gzip。[^1] 
@@ -10,17 +10,17 @@
 	- 通常在用户代理首次尝试请求受保护的资源（没有携带凭据）之后发送的，但并不总是发送。
 	- 认证方案：Basic, Digest
 	- [Authorization - HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Authorization) 
-- Content-type：此次请求所发送的数据【如果有发送】的*格式*。
-	- application/json
+- cookie：每次请求*同域*的资源时，浏览器都会携带
 - Connection：[[TCP]]连接
 	1. keep-alive 建立一次重复使用。不重复地断开重连
-- cookie：每次请求*同域*的资源时，浏览器都会携带
+- Content-type：此次请求所发送的数据【如果有发送】的*格式*。
+	- application/json
 - Host：请求的域名
 - User-Agent：浏览器信息（简称UA）
 - if-modified-since
 - if-none-match
 # Response
-3C S
+==3C S==
 - Content-type：此次请求所发送的数据【如果有发送】*格式*。
 	- application/json
 	- 见 [[MIME类型]] 

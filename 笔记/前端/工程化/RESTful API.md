@@ -9,7 +9,7 @@
 			- delete删除
 			- patch、put更新
 			- get获取
-那么，如何设计成一个资源？
+那么，如何设计成一个资源？/特性
 	1. 尽量不用*查询参数* 
 		1. 传统API设计：/api/list?pageIndex=2[^1] 
 		2. RESTful API设计：/api/list/2[^2] 

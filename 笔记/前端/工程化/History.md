@@ -1,13 +1,8 @@
-功能：当前窗口首次使用以来，用户的导航历史记录。
-	1. 存在：每个[[window]]都有自己的history对象
+定义：当前窗口首次使用以来，用户的导航历史记录。
+	1. 实例：每个[[window]]都有自己的history对象
 	2. 访问：出于安全，不暴露[[URL]]，但可通过它进行前进后退。(开发者无法通过该API获取用户的访问记录，只能作跳转)
 # 方法
-1. history.go([[Number]])
-	1. 在旧版本的一些浏览器中，go()方法的参数也可以是一个字符串
-2. history.back
-3. history.forward
-4. length：历史记录中有多个条目
-	1. 测试这个值是否为1，可以确定用户浏览器的起点是不是你的页面
+
 # 历史状态管理
 背景：现代web应用开发中最难的环节之一，就是**历史记录管理**。
 方案
@@ -16,25 +11,31 @@
 ## hash
 基于hashchange事件
 条件：在页面URL的散列变化时被触发
+功能
+	1. history.go([[Number]])
+		2. 在旧版本的一些浏览器中，go()方法的参数也可以是一个字符串
+	2. history.back
+	3. history.forward
+	4. history.replace()只存在结果2，会覆盖当前状态
 ## History API
 背景：自带的hash模式，只有修改hash时不刷新页面
 功能：**改变浏览器URL而不加载新页面** 
-history.pushState([[Object]]，[[String]]，[[URL]])
+1. history.pushState([[Object]]，[[String]]，[[URL]])
 	1. 功能
-		1. 浏览器地址栏改变为新的URL
-		2. 将状态信息推到历史记录
-			1. 单击“后退”按钮，就会触发[[window]]对象上的popstate事件
+		1. 浏览器地址栏改变为新的*URL* 
+		2. 将状态信息推到历史*记录*
+			1. “后退”会触发[[window]].popstate事件
 				1. 事件对象有一个state属性：传入的state对象
 				2. 基于这个状态，应该把页面**手动重置**为状态对象所表示的状态
 	2. 参数
 		1. **状态信息**。
 			1. 应该只包含*可以被序列化*的信息。因此，DOM元素之类并不适合放到状态对象里保存
-			2. 500KB～1MB以内
+			2. 500KB～1MB
 		2. 状态信息的**标题** 
 		3. **相对URL**，可选
 			1. 要确保通过pushState()创建的每个“假”URL背后都对应着服务器上一个真实的物理URL。否则刷新会报404。
 				1. 所有[[SPA]]框架都必须通过*服务器或客户端的配置*解决这个问题
-history.replaceState([[Object]]，[[String]]，[[URL]])
-history.state：获取当前的状态对象
-
-history.replace()只存在结果2，会覆盖当前状态
+2. history.replaceState([[Object]]，[[String]]，[[URL]])
+3. history.state：获取当前的状态对象
+4. length：历史记录中有多个条目
+	1. 测试这个值是否为1，可以确定用户浏览器的起点是不是你的页面
