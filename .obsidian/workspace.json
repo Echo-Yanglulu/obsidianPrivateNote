@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Date.md"
                   }
                 }
               }
@@ -491,9 +491,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "a9360fc507ea08df",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "循环引用",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/循环引用.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":25},\"to\":{\"line\":10,\"ch\":25}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 10
           },
           {
             "id": "86193a5d16fa87de",
@@ -520,7 +548,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Date.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -548,7 +576,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Date.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -855,12 +883,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "9d3b2b0ecd60a99d",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/循环引用.md",
+    "笔记/前端/性能优化.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/TCP.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/工程化/RESTful API.md",
@@ -882,8 +913,6 @@
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
-    "Day Planners/2023-07-24.md",
-    "Day Planners/2023-07-23.md",
     "笔记/前端/assets/Pasted image 20230722203907.png",
     "笔记/前端/assets/Pasted image 20230722203556.png",
     "笔记/前端/assets/分包实际使用.png",
