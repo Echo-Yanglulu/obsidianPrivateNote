@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/理解.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -96,6 +96,18 @@
                       "title": "学习",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":203,\"ch\":10},\"to\":{\"line\":203,\"ch\":10}},\"scroll\":178.5079365079365}"
+                    },
+                    {
+                      "title": "理解",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":4},\"to\":{\"line\":77,\"ch\":4}},\"scroll\":56.067460317460316}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":287,\"ch\":10},\"to\":{\"line\":287,\"ch\":10}},\"scroll\":263.5407196969697}"
                     },
                     {
@@ -121,7 +133,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/理解.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -239,6 +251,34 @@
                 }
               },
               {
+                "id": "9e75c0c558b854e6",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/前端工作.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "71f0afcd5d0019d3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -247,6 +287,36 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "DOM扩展",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM扩展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":18},\"to\":{\"line\":12,\"ch\":18}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":335,\"ch\":2},\"to\":{\"line\":335,\"ch\":2}},\"scroll\":313.90402476780184}"
+                    },
+                    {
+                      "title": "DOM 2与DOM 3",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM 2与DOM 3.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":78},\"to\":{\"line\":12,\"ch\":78}},\"scroll\":1.43342776203966}"
+                    },
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":301,\"ch\":21},\"to\":{\"line\":301,\"ch\":21}},\"scroll\":277.6333333333333}"
+                    },
+                    {
+                      "title": "DOM扩展",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM扩展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "DOM",
@@ -271,7 +341,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM扩展.md",
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -279,17 +349,11 @@
                 }
               },
               {
-                "id": "9e75c0c558b854e6",
+                "id": "5246c36368ef39f5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-22",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-22.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -299,7 +363,29 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/编程语言/JS/DOM扩展.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2ab23b5d6fc075c5",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -380,7 +466,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/理解.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -408,7 +494,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/理解.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -715,20 +801,22 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "bd5ff300df2b3029",
+  "active": "c283810bef530241",
   "lastOpenFiles": [
     "笔记/学习/学习.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习/概念/理解.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/编程语言/JS/DOM扩展.md",
+    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
     "Day Planners/2023-07-24.md",
     "Day Planners/2023-07-23.md",
-    "笔记/前端/编程语言/JS/DOM扩展.md",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/JS/DOM 2与DOM 3.md",
-    "笔记/学习/概念/理解.md",
     "笔记/工具/思考/思维概念/演绎.md",
     "笔记/学习/概念/概念.md",
     "笔记/前端/性能优化.md",
     "笔记/行为/健身/健身.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/前端/ES6新特性.md",
     "笔记/前端/编程语言/JS/Function.md",
@@ -743,8 +831,6 @@
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/前端/编程语言/JS/基本概念/双精度浮点数.md",
-    "笔记/前端/编程语言/JS/基本概念/Date.md",
-    "Day Planners/2023-07-22.md",
     "笔记/前端/assets/分包实际使用.png",
     "笔记/前端/assets/图片文件使用CDN.png",
     "笔记/前端/assets/preload.png",

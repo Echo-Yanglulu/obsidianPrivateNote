@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "理解",
-      "path": "笔记/学习/概念/理解.md"
+      "basename": "记忆",
+      "path": "笔记/工具/思考/记忆/记忆.md"
     },
     {
       "basename": "学习",
       "path": "笔记/学习/学习.md"
+    },
+    {
+      "basename": "理解",
+      "path": "笔记/学习/概念/理解.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "笔记/前端/编程语言/JS/DOM.md"
+    },
+    {
+      "basename": "DOM扩展",
+      "path": "笔记/前端/编程语言/JS/DOM扩展.md"
+    },
+    {
+      "basename": "DOM 2与DOM 3",
+      "path": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md"
     },
     {
       "basename": "2023-07-24",
@@ -15,18 +39,6 @@
     {
       "basename": "2023-07-23",
       "path": "Day Planners/2023-07-23.md"
-    },
-    {
-      "basename": "DOM扩展",
-      "path": "笔记/前端/编程语言/JS/DOM扩展.md"
-    },
-    {
-      "basename": "DOM",
-      "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "DOM 2与DOM 3",
-      "path": "笔记/前端/编程语言/JS/DOM 2与DOM 3.md"
     },
     {
       "basename": "概念",
@@ -39,10 +51,6 @@
     {
       "basename": "健身",
       "path": "笔记/行为/健身/健身.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "浏览器原理",
@@ -191,14 +199,6 @@
     {
       "basename": "react合成事件",
       "path": "笔记/前端/库、框架/UI库/react合成事件.md"
-    },
-    {
-      "basename": "2023-07-19",
-      "path": "Day Planners/2023-07-19.md"
-    },
-    {
-      "basename": "手动引入所需语言",
-      "path": "笔记/前端/assets/手动引入所需语言.png"
     }
   ],
   "omittedPaths": [

@@ -21,9 +21,9 @@ IE9之前的版本不会把**元素间的空格**当成空白节点，而其他�
 为了弥补这个差异，同时不影响DOM规范，W3C通过新的Element Traversal规范定义了一组新属性。
 
 Element Traversal API为DOM元素添加了5个属性
-- childElementCount，返回*子元素数量*（不包含文本节点和注释）；
 - firstElementChild，指向*第一个Element类型的子元素*（Element版firstChild）；
 - lastElementChild，指向*最后一个Element类型的子元素*（Element版lastChild）；
+- childElementCount，返回*子元素数量*（不包含文本节点和注释）；
 - previousElementSibling，指向*前一个Element类型的同胞元素*（Element版previousSibling）；
 - nextElementSibling，指向*后一个Element类型的同胞元素*（Element版nextSibling）。
 ## 兼容

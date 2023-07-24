@@ -293,7 +293,15 @@ offsetWidth：3个
 # 方法
 window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
-## DOM节点
+## 元素节点
+### 获取
+id
+name：伪数组，name属性
+tagName：伪数组，标签名
+className：伪数组，class属性
+querySelector()
+querySelectorAll(标签名)
+matches()
 ### 新增
 createElement
 ### 插入
@@ -302,13 +310,6 @@ appendChild
 removeChild
 ### 移动
 先获取，再插入，节点不是复制，而是移动
-### 获取
-id
-tagName：伪数组
-name：伪数组
-className：伪数组
-querySelector()
-querySelectorAll(标签名)
 ### 关系
 1. 父元素：parentNode
 2. 子元素列表：childNodes
