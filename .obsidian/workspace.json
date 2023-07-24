@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -93,6 +93,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":223,\"ch\":11},\"to\":{\"line\":223,\"ch\":11}},\"scroll\":195.6547619047619}"
+                    },
+                    {
                       "title": "理解",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -145,7 +151,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -478,7 +484,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -506,7 +512,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -815,9 +821,10 @@
   },
   "active": "c283810bef530241",
   "lastOpenFiles": [
-    "笔记/学习/概念/理解.md",
+    "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
+    "笔记/学习/概念/理解.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -842,7 +849,6 @@
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/JS/基本概念/Number.md",
-    "笔记/前端/编程语言/JS/基本概念/双精度浮点数.md",
     "笔记/前端/assets/分包实际使用.png",
     "笔记/前端/assets/图片文件使用CDN.png",
     "笔记/前端/assets/preload.png",
