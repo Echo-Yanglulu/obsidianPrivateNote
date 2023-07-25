@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
+                    "file": "笔记/前端/编程语言/JS/比特.md"
                   }
                 }
               }
@@ -588,7 +588,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/编程语言/JS/比特.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -616,7 +616,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+                        "file": "笔记/前端/编程语言/JS/比特.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,14 +923,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a9360fc507ea08df",
+  "active": "647f6a20a3e7c2d4",
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/ASCII.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "Day Planners/2023-07-25.md",
     "笔记/前端/同源策略.md",
     "笔记/前端/JSONP.md",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/Unicode.md",
@@ -952,7 +953,6 @@
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/assets/Pasted image 20230722203907.png",
     "笔记/前端/assets/Pasted image 20230722203556.png",
     "笔记/前端/assets/分包实际使用.png",
