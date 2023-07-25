@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/比特.md"
+                    "file": "笔记/前端/编程语言/JS/ASCII.md"
                   }
                 }
               }
@@ -496,8 +496,14 @@
                 "id": "a9360fc507ea08df",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "UTF-8",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/UTF-8.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -588,7 +594,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/比特.md",
+                        "file": "笔记/前端/编程语言/JS/ASCII.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -616,7 +622,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/比特.md",
+                        "file": "笔记/前端/编程语言/JS/ASCII.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,10 +929,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "647f6a20a3e7c2d4",
+  "active": "28a34be5fbd33e3f",
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/ASCII.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/编程语言/JS/Unicode.md",
+    "笔记/前端/编程语言/JS/UTF-8.md",
+    "笔记/前端/编程语言/JS/字符集.md",
+    "笔记/前端/编程语言/JS/ASCII.md",
+    "笔记/前端/编程语言/JS/比特.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "Day Planners/2023-07-25.md",
@@ -934,7 +944,6 @@
     "笔记/前端/JSONP.md",
     "笔记/前端/性能优化.md",
     "笔记/前端/AJAX.md",
-    "笔记/前端/编程语言/JS/Unicode.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/Error.md",
     "笔记/前端/编程语言/JS/基本概念/Date.md",
@@ -950,9 +959,6 @@
     "笔记/前端/编程语言/JS/HTTP Header.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/工程化/History.md",
     "笔记/前端/assets/Pasted image 20230722203907.png",
     "笔记/前端/assets/Pasted image 20230722203556.png",
     "笔记/前端/assets/分包实际使用.png",
