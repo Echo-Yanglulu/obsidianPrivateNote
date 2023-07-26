@@ -328,7 +328,11 @@ document.createTextNode(要插入节点的文本)
 	1. 跟设置已有文本节点的值一样，这些要插入的文本也会应用HTML或XML编码
 	2. 创建新文本节点后，其ownerDocument属性会被设置为document。
 ### 规范化
+合并相邻的文本节点。这个方法叫normalize()
+在包含两个或多个相邻文本节点的父节点上调用normalize()时，所有同胞文本节点会被合并为一个文本节点，这个文本节点的nodeValue就等于之前所有同胞节点nodeValue拼接在一起得到的字符串。
 ### 拆分
+Text类型定义了一个与normalize()相反的方法——splitText()：在指定的偏移位置拆分nodeValue，将一个文本节点拆分成两个文本节点
+	1. 拆分之后，原来的文本节点包含开头到偏移位置前的文本，新文本节点包含剩下的文本
 ## Comment类型
 
 ## CDATASection类型
