@@ -121,38 +121,32 @@ performeUnitOfWork
 	2. event参数
 	3. 传递自定义参数
 本质：是个构造函数，不是原生的事件对象。
-
 1. 目的：监管内存
-	1. 方便*事件*的*统一管理*（如transaction事务机制）
-	2. *事件处理函数*全部*挂载*到目标节点，减少内存消耗，避免频繁解绑
-	3. 更好的*兼容性*和跨平台
+	1. 更好的*兼容性*和跨平台
+	2. *事件处理函数*全部*绑定*到一个目标节点，减少内存消耗，避免频繁解绑
+	3. 方便*事件*的*统一管理*（如[[#transaction事务机制]]）
 2. 组成
-	1. 事件对象 
-		1. 是*合成*的，但实现了 DOM 事件的所有能力
-			1. 阻止冒泡、阻止默认行为 
-			2. 除了event.currentTarget 并不指向绑定元素
-		2. *原生*事件对象：event.nativeEvent
-			1. event.nativeEvent.target：触发事件的元素
-			2. event.nativeEvent.currentTarget[^1]：绑定事件的元素
-		3. *传递*：处理函数最后添加event，即可传递。
-	2. 事件绑定 
+	1. 目标节点
 		1. react17之前，事件全部绑定**document节点** 
 		2. react 17之后，事件全部绑定在**root 组件** 
 			1. document 只有一个，root 组件可有多个。
 			2. 有利于多个 react 版本共存，如[[微前端]]。
+	2. 事件对象
+		1. 是*合成*的，但实现了 DOM 事件的所有能力
+			1. 阻止冒泡、阻止默认行为 
+			2. 除了event.currentTarget 并不指向绑定元素
+		2. *传递*：处理函数最后添加event，即可传递。
+		3. *原生*事件对象：event.nativeEvent
+			1. event.nativeEvent.target：触发事件的元素
+			2. event.nativeEvent.currentTarget[^7]：绑定事件的元素
 	3. 与 [[vue]] 事件不同，与 [[DOM]]事件也不同
-3. 机制
-	1. 绑定与触发
-		1. react事件*统一绑定*在目标节点上，冒泡到该元素之后，
-		2. 目标节点会*实例化*一个统一的react event（即合成事件对象）
-		3. 触发后根据event. target找到触发元素，*派发*事件
-		4. 事件处理函数执行完毕后，重置。如果想要异步访问合成事件对象，可使用变量保存。
-	2. 访问原生事件对象。使用event.nativeEvent
+3. 机制：绑定与触发
+	1. react事件*统一绑定*在目标节点上
+	2. 冒泡到该元素之后，*目标节点*会*实例化*一个统一的react event（即合成事件对象）
+	3. 触发后根据event. target找到触发元素，*派发*事件
+	4. 事件处理函数执行完毕后，重置。如果想要异步访问合成事件对象，可使用变量保存。
 ## 机制
-### 17之前：触发
-![[Pasted image 20230711152133.png]] 
-
-### 17 之后：绑定
+### 绑定
 绑定到root组件上
 	1. 有利于多个react版本并存，如[[微前端]] 
 ![[Pasted image 20230708221039.png]]
@@ -160,7 +154,11 @@ performeUnitOfWork
 
 
 
-[^1]: event.target是触发事件的元素，event.currentTarget是事件绑定的元素
+
+
+### 触发
+![[Pasted image 20230711152133.png]] 
+
 # transaction事务机制 
 ![[Pasted image 20230711161656.png]] 
 	1. 目的：当出错时，需要一个现场保护和还原的能力。
@@ -168,7 +166,7 @@ performeUnitOfWork
 		1. 组件创建时注入初始化逻辑、结束逻辑
 		2. 组件调用时执行初始化逻辑、目标函数、结束逻辑
 	3. 应用
-		1. batchUpdate的流程也属于transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
+		1. **batchUpdate**的流程也属于transaction事务机制。在初始化、结束时修改isBatchingUpdates变量
 
 # setState 与 batchUpdate原理
 ##  现象
@@ -183,7 +181,7 @@ performeUnitOfWork
 		1. 将状态改变的组件*保存*在dirtyComponents中
 		2. 对其中的组件进行*更新与渲染* 
 	2. 哪些能命中batchUpdate机制？react可以“管理”的**入口**。因为isBatchingUpdates变量是在入口处设置的
-			1. 生命周期
+			1. 生命周期函数
 			2. react中注册的事件处理函数
 	3. 哪些不能命中bU机制？react管理不到的入口
 		1. 定时器，自定义的DOM事件
@@ -214,8 +212,8 @@ performeUnitOfWork
 # Shadow DOM
 定义：是一种*浏览器技术*，可用于*限制*web components中的变量和CSS。
 
-
-[^1]: 如setState
+[^1]: event.target是触发事件的元素，event.currentTarget是事件绑定的元素
+[^7]: 如setState
 [^2]: class组件是render，函数组件是return
 [^3]: 此阶段用户可感知到
 [^4]: 组件的事件不是同步的，是原生的DOM事件
