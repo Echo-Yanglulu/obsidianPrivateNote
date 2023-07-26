@@ -1,8 +1,8 @@
 # 概述
 ## 实例方法
-1.  [[this]].setState(nextState, callback?)
-2.  [[this]].forceUpdate(callback?)
-3. this. [[context]]。需要先将创建好的context赋值给静态属性 `static contextType` 
+1. [[this]].setState(nextState, callback?)
+2. [[this]].forceUpdate(callback?)
+3. [[this]]. [[context]]。需要先将创建好的context赋值给静态属性 `static contextType` 
 ## [[静态属性]] 
 1. `static propTypes`：属性数据类型。[[类组件属性的数据类型.png]] 
 2. `static defaultProps` ：属性默认值，如果传入是undefined则使用。[[类组件默认属性值.png]] 
@@ -64,31 +64,25 @@ componentDidCatch (error, info)
 ## 父子组件初始化
 父组件 constructor
 父组件 getDerivedStateFromProps
-父组件 render
+父组件 *render*
 子组件 constructor
 子组件 getDerivedStateFromProps
 子组件 render
 子组件 componentDidMount
 父组件 componentDidMount
-
-## 子组件修改自身state
-子组件 getDerivedStateFromProps
-子组件 shouldComponentUpdate
-子组件 render
-子组件 getSnapShotBeforeUpdate
-子组件 componentDidUpdate
 ## 父组件修改props
 父组件 getDerivedStateFromProps
 父组件 shouldComponentUpdate
-父组件 render
+父组件 *render*
 子组件 getDerivedStateFromProps
 子组件 shouldComponentUpdate
 子组件 render
-子组件 getSnapShotBeforeUpdate
+子组件 *getSnapShotBeforeUpdate* 
 父组件 getSnapShotBeforeUpdate
 子组件 componentDidUpdate
 父组件 componentDidUpdate
 ## 卸载子组件
+父组件更新-->子组件卸载
 父组件 getDerivedStateFromProps
 父组件 shouldComponentUpdate
 父组件 render
