@@ -120,7 +120,6 @@ react也使用了这种方式进行任务间的切换。 ![[Pasted image 2023053
 [^2]: class组件是render，函数组件是return
 [^3]: 此阶段用户可感知到
 [^4]: 组件的事件不是同步的，是原生的DOM事件
-
 # [[react合成事件]] 
 # setState 与 batchUpdate原理
 ##  现象

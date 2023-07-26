@@ -29,11 +29,11 @@
 
 ## 异步action
 1. 从 redux 库同时引入 createStore 与 applyMiddleWare
-2. 引用三方库提供中间件
+2. 引用*三方库提供中间件* 
 	1. redux-thunk
 	2. redux-promise
 	3. redux-saga
-3. 在 createStore 第二个参数传入 applyMiddleWare (thunk)
+3. 在 createStore 时第二个参数传入 applyMiddleWare (thunk)
 4. 使用异步 action ![[Pasted image 20230710205953.png]] 
 store
 state
@@ -41,7 +41,7 @@ action
 reducer
 ## redux 中间件
 原理
-action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函数，均无法改造。对 dispatch 做改造：在其中插入自己的逻辑
+action 是对象；reducer 是接收 state 与 action 返回新 state 的纯函数，均无法改造。**对 dispatch 做改造**：在其中插入自己的逻辑
 # 相关
 [[react-redux]]：react 应用连接 redux
 [核心概念 · Redux](https://www.redux.org.cn/docs/introduction/CoreConcepts.html) 

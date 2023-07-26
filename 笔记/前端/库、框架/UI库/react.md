@@ -11,7 +11,7 @@ UI框架：搭建数据驱动的web和移动端UI
 # 基础
 [[React元素]] 
 [[JSX]] 
-ref
+refs：访问在render中创建的react元素
 ## [[组件]] 
 1. 受控组件：由开发者通过state和 onchange 事件，手动地管理*表单值*的获取与更新
 	1. 使用value属性：input, textarea, select
@@ -56,26 +56,24 @@ List.propTypes = {
 	optionalProps: PropTypes.symbol,
 	optionalProps: PropTypes.object,
 	optionalProps: PropTypes.array,
-	optionalProps: PropTypes.func,
-	optionalProps: PropTypes.node, // 任何可以被渲染的元素。包括数字，字符串，react 元素，数组，fragment
-	optionalProps: PropTypes.element, // 一个react 元素
-	optionalProps: PropTypes.instanceOf(Message), // 某个类的实例，这里使用JS的instanceOf操作符实现
-	optionalProps: PropTypes.arrayOf(PropTypes.number), // 元素为某个类型的数组
+	optionalProps: PropTypes.func, // typeof返回8种，这里只需7种
+	optionalProps: PropTypes.node, // 可被渲染的节点。包括数字，字符串，react 元素，数组，fragment
+	optionalProps: PropTypes.element, // （只允许）一个react 元素
 	optionalProps: PropTypes.objectOf(PropTypes.number), // 属性为某个类型的对象
-	optionalProps: PropTypes.exact({ // 禁止多余属性
+	optionalProps: PropTypes.arrayOf(PropTypes.number), // 元素为某个类型的数组
+	optionalProps: PropTypes.instanceOf(Message), // 某个类的实例
+	optionalProps: PropTypes.exact({ // 精确属性
 	  optionalProperty: PropTypes.string,
 	  requiredProperty: PropTypes.number.isRequired
 	}),
-	// 单个子元素
-	optionalProps: PropTypes.element,
+	// 多值选一
+	optionalProps: PropTypes.oneOf(['News', 'Photos']),
 	// 多类型选一
 	optionalProps: PropTypes.oneOfType([
 		PropTypes.string,
 		PropTypes.number,
 		PropTypes.instanceOf(Message)
 	]),
-	// 多值选一
-	optionalProps: PropTypes.oneOf(['News', 'Photos']),
 	// 自定义验证器
 	customProp: function(props, propName, componentName) {
 	  if (!/matchme/.test(props[propName])) {
