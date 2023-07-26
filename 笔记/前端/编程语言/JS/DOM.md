@@ -202,7 +202,7 @@ document对象有一个古老的能力，即向网页输出流中写入内容
 2. open()和close()方法分别用于打开和关闭网页输出流。
 ## Element类型
 背景：除了Document类型，Web开发中最常用的类型。
-功能：Element*表示*XML或HTML元素，对外*暴露*出访问元素标签名、子节点和属性的能力
+功能：*表示*XML或HTML元素，对外*暴露*出访问元素标签名、子节点和属性的能力
 特征
 	1. nodeType等于1；
 	2. nodeName值为元素的标签名；
@@ -230,15 +230,15 @@ document对象有一个古老的能力，即向网页输出流中写入内容
 #### 所有HTML元素及其对应的类型
 
 ### 取得属性
-含义：每个元素都有零个或多个属性，通常用于*为元素或其内容附加更多信息*。
+含义：每个元素都有零个或多个属性，通常用于*为元素或其内容附加信息*。
 方式
 	1. 属性相关的DOM方法主要有3个。这些方法主要用于操纵属性，包括在HTMLElement类型上定义的属性
-		1. getAttribute()
+		1. getAttribute()：通过*DOM方法获取属性*
 			1. 给定的属性不存在，则getAttribute()返回null
 			2. 也能取得不是HTML语言正式属性的*自定义属性*的值
 		2. setAttribute()
 		3. removeAttribute()
-	2. 属性也可以通过相应*DOM元素对象的属性*来取得。包括HTMLElement上定义的直接映射对应属性的5个属性，还有所有公认（非自定义）的属性也会被添加为DOM对象的属性【自定义属性，因此不会成为DOM对象的属性】
+	2. 属性也可以通过*DOM元素对象的属性*来取得。包括HTMLElement上定义的直接映射对应属性的5个属性，还有所有公认（非自定义）的属性也会被添加为DOM对象的属性【自定义属性，因此不会成为DOM对象的属性】
 		1. 有两个返回的值跟使用getAttribute()取得的值不一样
 			1. style属性。
 				1. 使用getAttribute()访问时，返回的是CSS字符串。
@@ -252,7 +252,7 @@ setAttribute(要设置的属性名，属性的值)
 	1. 如果属性已经存在，则setAttribute()会以指定的值*替换*原来的值；
 	2. 如果属性不存在，则setAttribute()会以指定的值*创建*该属性
 范围
-	1. *适用于HTML属性，也适用于自定义属性*
+	1. 适用于*HTML属性*，也适用于*自定义属性* 
 特点
 	1. 使用setAttribute()方法设置的属性名会规范为小写形式，因此"ID"会变成"id"
 	2. *元素属性也是DOM对象属性*，
@@ -262,7 +262,7 @@ setAttribute(要设置的属性名，属性的值)
 removeAttribute()用于从元素中删除属性。不单是清除属性值，而是会把整个属性完全从元素中去掉
 	1. 用得并不多，但在*序列化DOM*元素时可以通过它控制要包含的属性
 ### attributes 属性
-意义：Element类型是唯一使用attributes属性的DOM节点类型
+意义：*Element类型是唯一使用attributes属性的DOM节点类型* 
 特点
 	1. 包含一个**NamedNodeMap**实例，是一个类似NodeList的“实时”集合。元素的每个属性都表示为一个*Attr节点*，并保存在这个*NamedNodeMap对象*中
 		1. `getNamedItem(name)`，返回nodeName属性等于name的节点；
@@ -294,8 +294,8 @@ document.createElement(要创建元素的标签名)
 		3. 通常在执行某个操作之后需要先检测一下节点的nodeType。只当nodeType\=\==1时才执行。
 2. 某个元素的子节点和其他后代节点：`getElementsByTagName()`方法
 ## Attr类型
-元素数据在DOM中通过Attr类型表示
-Attr类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，属性是存在于元素attributes属性中的节点
+**元素数据**在DOM中通过Attr类型表示
+Attr类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，属性是*存在于元素attributes属性中的节点* 
 特征
 	1. nodeType等于2；
 	2. nodeName值为属性名；
@@ -304,8 +304,20 @@ Attr类型构造函数和原型在所有浏览器中都可以直接访问。技�
 	5. 在HTML中不支持子节点；
 	6. 在XML中子节点可以是Text或EntityReference。
 
-属性节点尽管是节点，却*不被认为是DOM文档树的一部分*。Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法**操作属性**。
-Attr对象上有3个属性
+1. 属性节点尽管是节点，却*不被认为是DOM文档树的一部分*。
+	1. Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法**操作属性**。
+2. Attr对象上有3个属性
+	1. name。属性名（与nodeName一样）
+	2. value。属性值（与nodeValue一样）
+	3. specified。布尔值，表示属性使用的是默认值还是被指定的值
+3. 创建该类型节点
+	1. `document.createAttribute(属性名)` 
+4. 添加到元素上
+	1. `element.setAttributeNode(attr);` 
+5. 访问
+	1. attributes属性
+	2. getAttributeNode()
+	3. getAttribute()
 ## Text类型
 Text节点由Text类型表示，包含*按字面解释的纯文本*，也可能包含*转义后的HTML字符*，但不含HTML代码。
 特征
@@ -342,17 +354,127 @@ Text类型定义了一个与normalize()相反的方法——splitText()：在指
 ## DocumentFragment类型
 
 # DOM编程【脚本，样式，表格，List】
-很多时候，操作DOM是很*直观*的。通过HTML代码能实现的，也一样能通过JavaScript实现。但有时候，DOM也*没有看起来那么简单*。浏览器能力的参差不齐和各种问题，也会导致DOM的某些方面会复杂一些。
+操作DOM
+	1. 很多时候，操作DOM是很*直观*的。通过HTML代码能实现的，也一样能通过JavaScript实现。
+	2. 但有时候，DOM也*没有看起来那么简单*。浏览器能力的参差不齐和各种问题，也会导致DOM的某些方面会复杂一些。
 ## 动态脚本
+定义：在*页面初始加载*时不存在，之后又*通过DOM包含*的脚本
+方式：与对应的HTML元素一样，有两种方式通过\<script>动态为网页添加脚本：
+### 引入外部文件
+```js
+function loadScript(url) {
+  let script = document.createElement("script");
+  script.src = url;
+  document.body.appendChild(script);
+}
+// 然后，就可以像下面这样加载外部JavaScript文件了
+loadScript("client.js");
+```
+怎么能知道脚本什么时候加载完？这个问题并没有标准答案。参考与加载相关的[[DOM事件]]。
+### 直接插入源代码
+直接写入script标签
+```js
+<script>
+  function sayHi() {
+    alert("hi");
+  }
+</script>
+```
+或使用DOM
+```js
+// 可以在Firefox、Safari、Chrome和Opera中运行。不过在旧版本的IE中可能会导致问题.
+// IE对<script>元素做了特殊处理，不允许常规DOM访问其子节点
+let script = document.createElement("script");
+script.appendChild(document.createTextNode("function sayHi(){alert('hi');}"));
+document.body.appendChild(script);
 
+// 不支持Safari 3之前的版本
+var script = document.createElement("script");
+script.text = "function sayHi(){alert('hi');}";
+document.body.appendChild(script);
+
+// 如果不要支持safari 3之前的版本
+var script = document.createElement("script");
+var code = "function sayHi(){alert('hi');}";
+try {
+  script.appendChild(document.createTextNode("code"));
+} catch (ex){
+  script.text = "code";
+}
+document.body.appendChild(script);
+```
+最终版本
+```js
+// 抽象出一个跨浏览器的函数
+function loadScriptString(code){
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  try {
+    script.appendChild(document.createTextNode(code));
+  } catch (ex){
+    script.text = code;
+  }
+  document.body.appendChild(script);
+}
+// 调用
+loadScriptString("function sayHi(){alert('hi');}");
+这种方式加载的代码会在全局作用域中执行，并在调用返回后立即生效
+```
+注意
+	1. 使用innerHTML创建的\<script>元素，以后也没有办法强制其执行
 ## 动态样式
+定义：动态样式也是页面初始加载时并不存在，而是在之后才添加到页面中的
+CSS样式在HTML页面中可以通过两个元素加载
 
+通过外部文件加载样式是一个异步过程
+	1. 样式的加载和正执行的JavaScript代码并没有先后顺序
+	2. 也没有必要知道样式什么时候*加载完成* 
+### link元素用于包含CSS外部文件
+```js
+function loadStyles(url){
+  let link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.type = "text/css";
+  link.href = url;
+  let head = document.getElementsByTagName("head")[0];
+  head.appendChild(link);
+}
+
+loadStyles("styles.css");
+```
+### style元素用于添加嵌入样式
+IE对\<style>节点会施加限制，不允许访问其子节点，这一点与它对\<script>元素施加的限制一样
+通用
+```js
+function loadStyleString(css){
+  let style = document.createElement("style");
+  style.type = "text/css";
+  try{
+    style.appendChild(document.createTextNode(css));
+  } catch (ex){
+    style.styleSheet.cssText = css;
+  }
+  let head = document.getElementsByTagName("head")[0];
+    head.appendChild(style);
+}
+
+loadStyleString("body{background-color:red}");
+```
+
+注意
+	1. 对于IE，要小心使用styleSheet.cssText。如果重用同一个\<style>元素并设置该属性超过一次，则可能导致浏览器崩溃。同样，将cssText设置为空字符串也可能导致浏览器崩溃。
 ## 操作表格
-
+HTML中最复杂的结构之一.通过DOM编程创建\<table>元素，通常要涉及大量标签，包括表行、表元、表题，等等。
+	1. 通过DOM编程创建和修改表格时可能要写很多代码
+使用这些属性和方法*创建表格*让代码变得更有逻辑性，也更容易理解
 ## 使用NodeList
+理解[[NodeList]]对象和相关的`NamedNodeMap`、[[HTMLCollection]] ，是理解DOM编程的关键。
+	1. 都是“实时的”。文档结构的变化会实时地在它们身上反映出来，因此它们的值始终代表最新的状态
+	2. 任何时候要迭代NodeList，最好再初始化一个变量保存当时查询时的长度，然后用循环变量与这个变量进行比较
 
+最好限制操作NodeList的次数。因为每次查询都会**搜索整个文档**，所以最好把查询到的NodeList缓存起来
 # [[MutationObserver]]接口
-背景：为代替性能不好的MutationEvent而问世，
+背景：为代替性能不好的*MutationEvent*而问世，
 功能：可以有效精准地**监控DOM变化**，而且API也相对简单
 
 ## 基本用法
