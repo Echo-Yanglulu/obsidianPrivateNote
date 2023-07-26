@@ -19,8 +19,8 @@
 ```
 # 方法
 set
-delete
 get
+delete
 has
 # 属性
 size：长度
