@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/编程语言/JS/DOM.md"
                   }
                 }
               }
@@ -444,17 +444,17 @@
                 "id": "cf58bd948316525f",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-25",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-25.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "AJAX",
@@ -467,7 +467,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/网络请求.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -475,7 +475,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -502,7 +502,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -530,7 +530,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/编程语言/JS/DOM.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -837,14 +837,21 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9e75c0c558b854e6",
+  "active": "71f0afcd5d0019d3",
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/事务机制.md",
+    "笔记/前端/编程语言/JS/XML.md",
+    "笔记/前端/编程语言/JS/CSV.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/cookie.md",
+    "笔记/前端/编程语言/JS/DOM事件.md",
+    "笔记/前端/编程语言/JS/JS事件.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/库、框架/UI库/事务机制.md",
     "笔记/前端/库、框架/UI库/react合成事件.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/assets/Pasted image 20230530121713.png",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/DOM扩展.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/React性能优化.md",
@@ -859,15 +866,8 @@
     "Day Planners/2023-07-26.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/工具.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/assets/JPEG.png",
-    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
-    "笔记/前端/编程语言/JS/Unicode.md",
-    "Day Planners/2023-07-25.md",
-    "笔记/前端/编程语言/JS/UTF-8.md",
-    "笔记/前端/编程语言/JS/字符集.md",
-    "笔记/前端/编程语言/JS/ASCII.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230722203907.png",
