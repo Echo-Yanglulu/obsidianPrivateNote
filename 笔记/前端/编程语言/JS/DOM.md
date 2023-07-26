@@ -84,29 +84,28 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 ```
 浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
 ### 节点信息
-nodeName与nodeValue
-值完全取决于节点类型。使用之前先检测类型
+nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类型
 	1. 元素：nodeName是标签名，nodeValue是null
 ### 节点关系
 文档中的所有节点都与其他节点有关系
-每个节点都有
-	1.  `childNodes` 属性，其中包含一个 [[NodeList]] 的实例。列表中的每个节点都是同一列表中其他节点的同胞节点
+每个节点都有【8个】
+	1. `ownerDocument` ：文档节点。所有节点都被创建它们的文档所拥有
+	2. `parentNode` ： 其DOM树中的父元素
+	3. `hasChildNodes()`：是在存在子节点
+	4. `childNodes` 属性，其中包含一个 [[NodeList]] 的实例。列表中的每个节点都是同一列表中其他节点的同胞节点
 		1. `previousSibling`和`nextSibling`可以在这个列表的节点间*导航*
 			1. 列表中第一个节点的 previousSibling 属性、最后一个节点的 nextSibling 属性是null
 			2. 只有一个节点，则它的previousSibling和nextSibling属性都是null
-	2. `firstChild`、`lastChild`。
+	5. `firstChild`、`lastChild`。
 		1. 只有一个子节点：指向该子节点
 		2. 没有子节点：指向null
 		3. 等同：someNode.childNodes\[0]
-	3. `hasChildNodes()`：是在存在子节点
-	4. `parentNode` ： 其DOM树中的父元素
-	5. `ownerDocument` ：文档节点。所有节点都被创建它们的文档所拥有
 ### 节点操作
 背景：所有关系指针都是**只读**的，所以DOM又提供了一些操纵节点的方法
-1. appendChild()：在childNodes列表**末尾添加**节点
+1. `appendChild()`：在childNodes列表**末尾添加**节点
 	1. 返回新添加的节点
 	2. 文档中*已存在节点*传给appendChild()，则这个节点会从之前的位置被转移到新位置
-2. insertBefore(要插入的节点，参照节点)：在childNodes列表**特定位置添加**节点
+2. `insertBefore(要插入的节点，参照节点)`：在childNodes列表**特定位置添加**节点
 	1. 如果参照节点是null，则insertBefore()与appendChild()效果相同
 3. `replaceChild(要插入的节点，要替换的节点)`：替换
 4. `removeChild()`：移除
@@ -118,15 +117,18 @@ nodeName与nodeValue
 		3. true：复制节点及整个DOM树
 		4. false：只复制该节点，忽略内容
 	2. `normalize()`：处理文档子树中的文本节点。
-		1. 检测这个节点的所有后代
-			1. 出现并不包含文本的文本节点。发现空文本节点，则将其删除
-			2. 文本节点之间互为同胞关系。两个同胞节点是相邻的，则将其合并为一个文本节点
-### 其他方法
-cloneNode()，
-接收一个布尔值参数，表示是否深复制
-	1. 传入true参数时，会进行深复制，即复制节点及其整个子DOM树
-	2. 传入false，则只会复制调用该方法的节点。复制返回的节点属于文档所有，但尚未指定父节点，所以可称为孤儿节点（orphan）。可以通过appendChild()、insertBefore()或replaceChild()方法把孤儿节点添加到文档中
-返回与调用它的节点一模一样的节点
+		1. 背景：由于解析器实现的差异或DOM操作等原因，可能会出现并不包含文本的文本节点，或者文本节点之间互为同胞关系。
+		2. 节点上调用normalize()方法会*检测这个节点的所有后代*，从中搜索上述两种情形
+			1. 出现并不包含文本的文本节点。发现*空文本节点*，则将其删除
+			2. *文本节点之间*互为同胞关系。两个同胞节点是相邻的，则将其合并为一个文本节点
+### 其他节点方法
+1. cloneNode()
+	1. 接收一个布尔值参数，表示是否深复制
+		1. 传入true参数时，会进行深复制，即复制节点及其整个子DOM树
+		2. 传入false，则只会复制调用该方法的节点。复制返回的节点属于文档所有，但尚未指定父节点，所以可称为孤儿节点（orphan）。可以通过appendChild()、insertBefore()或replaceChild()方法把孤儿节点添加到文档中
+	2. 返回与调用它的节点一模一样的节点
+2. normalize()：处理文档子树中的文本节点
+		1. 
 ## Document类型
 意义
 	1. 是JavaScript中**表示文档节点**的类型。
@@ -145,19 +147,19 @@ cloneNode()，
 	6. 子节点可以是DocumentType（最多一个）、Element（最多一个）、ProcessingInstruction或Comment类型。
 应用：可以表示HTML页面或其他XML文档，但最常用的还是通过HTMLDocument的实例取得document对象。document对象可用于获取关于页面的信息以及操纵其外观和底层结构。
 ### 文档子节点
-DOM规范规定 `Document节点的子节点` 可以是DocumentType、Element、ProcessingInstruction或Comment，但也提供了两个访问子节点的快捷方式
+DOM规范规定 `Document节点的子节点` 可以是DocumentType、Element、ProcessingInstruction或Comment，但也提供了两个**访问子节点**的快捷方式
 	1. documentElement属性：始终指向HTML页面中的\<html>元素
 		1. document.childNodes中始终有\<html>元素，但使用documentElement属性可以更快更直接地访问该元素
 	2. DocumentType：Document类型另一种可能的子节点。
 		1. <!doctype>标签是文档中独立的部分，其信息可以通过doctype属性（在浏览器中是document.doctype）来访问
 		2. 只读
 ### 文档信息
-document作为HTMLDocument的实例，还有一些标准Document对象上所没有的属性（提供浏览器所加载网页的信息）
+document作为[[HTMLDocument]]的实例，还有一些标准Document对象上所没有的属性（提供浏览器所加载网页的信息）
 	1. title属性：包含\<title>元素中的文本。用于读写页面的标题
 	2. [[URL]]：当前页面的完整URL（地址栏中的URL）
 	3. domain：页面的域名。可写，但不能设置为当前URL中不包含的值
 	4. referrer：链接到当前页面的那个页面的URL。如果没有来源就是空字符串
-### 定位元素
+### 获取元素
 Document类型提供的两个方法，获取某个或某组元素的引用
 1. getElementById()
 	1. 不匹配则返回null
@@ -171,31 +173,126 @@ Document类型提供的两个方法，获取某个或某组元素的引用
 	1. 返回具有给定name属性的所有元素
 	2. 最常用于单选按钮。因为同一字段的单选按钮必须具有相同的name属性才能确保把正确的值发送给服务器
 		1. 多个type=radio，name属性必须相同。
-### 特殊集合
-document对象上还暴露了几个特殊集合，这些集合也都是HTMLCollection的实例。
+### 元素集合
+document对象上还暴露了几个特殊集合，这些集合也都是[[HTMLCollection]]的实例。
 访问文档中公共部分
 	1. document.anchors：包含文档中所有带name属性的\<a>元素
-	2. document.forms包含文档中所有\<form>元素（与document.getElementsByTagName ("form")返回的结果相同）
+	2. document.links包含文档中所有带href属性的\<a>元素
 	3. document.images包含文档中所有\<img>元素（与document.getElementsByTagName ("img")返回的结果相同）
-	4. document.links包含文档中所有带href属性的\<a>元素
+	4. document.forms包含文档中所有\<form>元素（与document.getElementsByTagName ("form")返回的结果相同）
 ### DOM兼容性检测
+背景：DOM有多个Level和多个部分，因此确定浏览器实现了DOM的哪些部分是很必要的。
+方法
+	1. document.implementation属性是一个对象，其中提供了与浏览器DOM实现相关的信息和能力
+		1. DOM Level 1在document.implementation上只定义了一个方法`hasFeature(特性名称，DOM版本)`。
+			1. 如果浏览器支持指定的特性和版本，则hasFeature()方法返回true
+			2. `let hasXmlDom = document.implementation.hasFeature("XML", "1.0");` 
+		2. **已经被废弃，不再建议使用** 
+### 文档写入
+document对象有一个古老的能力，即向网页输出流中写入内容
+对应方法
+1. write()、writeln()、open()和close()。
+	1. write()和writeln()方法都接收一个字符串参数，可以将这个字符串写入网页中。
+		1. 功能
+			1. write()简单地写入文本
+			2. writeln()还会在字符串末尾追加一个换行符（\n）
+		2. 特性
+			1. 经常用于动态包含外部资源，如JavaScript文件
+			2. 可以用来在*页面加载期间向页面中动态添加内容* 
+2. open()和close()方法分别用于打开和关闭网页输出流。
 ## Element类型
 背景：除了Document类型，Web开发中最常用的类型。
-功能：Element表示XML或HTML元素，对外暴露出访问元素标签名、子节点和属性的能力
+功能：Element*表示*XML或HTML元素，对外*暴露*出访问元素标签名、子节点和属性的能力
 特征
 	1. nodeType等于1；
 	2. nodeName值为元素的标签名；
 	3. nodeValue值为null；
 	4. parentNode值为Document或Element对象；
 	5. 子节点可以是Element、Text、Comment、ProcessingInstruction、CDATASection、EntityReference类型。
+属性
+	1. 可以通过nodeName或tagName属性来获取元素的标签名
+		1. 在HTML中，元素标签名始终以全大写表示；在XML（包括XHTML）中，标签名始终与源代码中的大小写一致。
+			1. div.tagName实际上返回的是"DIV"而不是"div"。使用toLowerCase处理再比较\=='div'
+			2. 
+### HTML元素
+1. 所有HTML元素都通过HTMLElement类型表示，包括其直接实例和间接实例。【所有HTML元素都是HTMLElement或其子类型的实例】
+2. HTMLElement直接继承Element并增加了一些属性。【可读写，获取、修改相应属性值】
+	1. id，元素在文档中的唯一标识符；
+	2. title，包含元素的额外信息，通常以提示条形式展示；
+	3. lang，元素内容的语言代码（很少用）；
+	4. dir，语言的*书写方向*（"ltr"表示从左到右，"rtl"表示从右到左，同样很少用）；
+	5. className，相当于class属性，用于指定元素的CSS类（因为class是ECMAScript关键字，所以不能直接用这个名字）。
+3. 并非所有这些属性的修改都会对页面产生影响
+	1. id或lang改成其他值对用户是不可见的（假设没有基于这两个属性应用CSS样式）
+	2. 修改title属性则只会在鼠标移到这个元素上时才会反映出来
+	3. 修改dir会导致页面文本立即向左或向右对齐
+	4. 修改className会立即反映应用到新类名的CSS样式（如果定义了不同的样式）
+#### 所有HTML元素及其对应的类型
 
-HTML元素
-取得属性
-设置属性
-attributes 属性
-创建元素
-元素后代
+### 取得属性
+含义：每个元素都有零个或多个属性，通常用于*为元素或其内容附加更多信息*。
+方式
+	1. 属性相关的DOM方法主要有3个。这些方法主要用于操纵属性，包括在HTMLElement类型上定义的属性
+		1. getAttribute()
+			1. 给定的属性不存在，则getAttribute()返回null
+			2. 也能取得不是HTML语言正式属性的*自定义属性*的值
+		2. setAttribute()
+		3. removeAttribute()
+	2. 属性也可以通过相应*DOM元素对象的属性*来取得。包括HTMLElement上定义的直接映射对应属性的5个属性，还有所有公认（非自定义）的属性也会被添加为DOM对象的属性【自定义属性，因此不会成为DOM对象的属性】
+		1. 有两个返回的值跟使用getAttribute()取得的值不一样
+			1. style属性。
+				1. 使用getAttribute()访问时，返回的是CSS字符串。
+				2. 通过DOM对象属性访问时，返回的是一个（CSSStyleDeclaration）对象
+			2. 事件处理程序（或者事件属性）
+				1. 在元素上使用事件属性时（比如onclick），属性的值是一段*JavaScript代码*。
+				2. 使用getAttribute()访问事件属性，则返回的是*字符串形式的源代码*。而通过DOM对象的属性访问事件属性时返回的则是一个JavaScript函数（未指定该属性则返回null）。这是因为onclick及其他事件属性是可以接受函数作为值的。
+考虑到以上差异，开发者在进行DOM编程时通常会放弃使用getAttribute()而只使用对象属性。getAttribute()主要用于取得自定义属性的值
+### 设置属性
+setAttribute(要设置的属性名，属性的值)
+	1. 如果属性已经存在，则setAttribute()会以指定的值*替换*原来的值；
+	2. 如果属性不存在，则setAttribute()会以指定的值*创建*该属性
+范围
+	1. *适用于HTML属性，也适用于自定义属性*
+特点
+	1. 使用setAttribute()方法设置的属性名会规范为小写形式，因此"ID"会变成"id"
+	2. *元素属性也是DOM对象属性*，
+		1. 直接给*DOM对象的属性*赋值也可以设置*元素属性*的值
+		2. 在DOM对象上添加*自定义属性*，不会自动让它变成元素的属性
 
+removeAttribute()用于从元素中删除属性。不单是清除属性值，而是会把整个属性完全从元素中去掉
+	1. 用得并不多，但在*序列化DOM*元素时可以通过它控制要包含的属性
+### attributes 属性
+意义：Element类型是唯一使用attributes属性的DOM节点类型
+特点
+	1. 包含一个**NamedNodeMap**实例，是一个类似NodeList的“实时”集合。元素的每个属性都表示为一个*Attr节点*，并保存在这个*NamedNodeMap对象*中
+		1. `getNamedItem(name)`，返回nodeName属性等于name的节点；
+			1. `let id = element.attributes.getNamedItem("id").nodeValue`：获取id属性的值
+		2. `removeNamedItem(name)`，删除nodeName属性等于name的节点；
+			1. 与元素上的removeAttribute()方法类似，也是删除指定名字的属性
+			2. 返回：被删除属性的Attr节点
+		3. `setNamedItem(node)`，向列表中添加node节点，以其nodeName为索引；
+		4. `item(pos)`，返回索引位置pos处的节点。
+	2. attributes属性中的每个节点的`nodeName`是对应属性的名字，`nodeValue`是属性的值
+		1. 也可以用这种语法设置属性的值，即先取得属性节点，再将其nodeValue设置为新值，如下所示`element.attributes["id"].nodeValue = "someOtherId";`
+一般来说，因为使用起来更简便，通常*设置属性时*，开发者更喜欢使用getAttribute()、removeAttribute()和setAttribute()方法，而不是刚刚介绍的NamedNodeMap对象的方法。
+场景
+	1. 需要迭代元素上所有属性的时候
+### 创建元素
+document.createElement(要创建元素的标签名)
+	1. 在HTML文档中，标签名是不区分大小写的，而XML文档（包括XHTML）是区分大小写的
+	2. 创建新元素的同时也会将其ownerDocument属性设置为document
+
+#### 元素添加到文档树
+可以使用appendChild()、insertBefore()或replaceChild()
+	1. 元素被添加到文档树之后，浏览器会立即将其渲染出来
+### 元素后代
+元素可以拥有任意多个子元素和后代元素，因为元素本身也可以是其他元素的子元素
+1. 元素所有的子节点：`childNodes`属性，这些子节点可能是其他元素、文本节点、注释或处理指令
+	1. 不同浏览器在识别这些节点时的表现有明显不同
+		1. 3个li子元素的ul元素会包含7个子元素。因为一个代表li元素周围的空格
+		2. 如果把元素之间的空格删掉，所有浏览器都会返回同样数量的子节点
+		3. 通常在执行某个操作之后需要先检测一下节点的nodeType。只当nodeType\=\==1时才执行。
+2. 某个元素的子节点和其他后代节点：`getElementsByTagName()`方法
 ## Attr类型
 元素数据在DOM中通过Attr类型表示
 Attr类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，属性是存在于元素attributes属性中的节点
@@ -217,10 +314,21 @@ Text节点由Text类型表示，包含*按字面解释的纯文本*，也可能�
 	3. nodeValue值为节点中包含的文本；
 	4. parentNode值为Element对象；
 	5. 不支持子节点。
-
-创建
-规范化
-拆分
+包含文本：可以通过nodeValue属性访问，也可以通过data属性访问，这两个属性包含相同的值。修改nodeValue或data的值，也会在另一个属性反映出来
+操作文本
+	1. appendData(text)，向节点末尾添加文本text；
+	2. deleteData(offset, count)，从位置offset开始删除count个字符；
+	3. insertData(offset, text)，在位置offset插入text；
+	4. replaceData(offset, count, text)，用text替换从位置offset到offset + count的文本；
+	5. splitText(offset)，在位置offset将当前文本节点拆分为两个文本节点；
+	6. substringData(offset, count)，提取从位置offset到offset + count的文本。
+	7. length属性获取*文本节点中包含的字符数量* 。这个值等于nodeValue.length和data.length。
+### 创建
+document.createTextNode(要插入节点的文本)
+	1. 跟设置已有文本节点的值一样，这些要插入的文本也会应用HTML或XML编码
+	2. 创建新文本节点后，其ownerDocument属性会被设置为document。
+### 规范化
+### 拆分
 ## Comment类型
 
 ## CDATASection类型
