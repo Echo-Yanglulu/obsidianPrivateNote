@@ -117,11 +117,6 @@ performeUnitOfWork
 
 
 
-
-[^1]: 如setState
-[^2]: class组件是render，函数组件是return
-[^3]: 此阶段用户可感知到
-[^4]: 组件的事件不是同步的，是原生的DOM事件
 # [[react合成事件]] 
 # setState 与 batchUpdate原理
 ##  现象
@@ -172,4 +167,10 @@ performeUnitOfWork
 4. setState后如何更新页面。更新的两个阶段
 5. 面试会考察全流程
 # Shadow DOM
-定义：是一种浏览器技术，可用于限制web components中的变量和CSS。
+定义：是一种*浏览器技术*，可用于*限制*web components中的变量和CSS。
+
+
+[^1]: 如setState
+[^2]: class组件是render，函数组件是return
+[^3]: 此阶段用户可感知到
+[^4]: 组件的事件不是同步的，是原生的DOM事件
