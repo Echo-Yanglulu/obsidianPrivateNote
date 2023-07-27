@@ -124,9 +124,14 @@ React.render(<Router routes={routeConfig} />, document.body)
 	1. path：需要匹配的URL 中的路径
 	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
 	3. components
-	4. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
-		1. onEnter
+	4. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
+	5. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
+		1. onEnter(nextState, replaceState, callback?)
 			1. 从最外层的父路由开始直到最下层子路由结束
+			2. 参数
+				1. 下一个路由的 state
+				2. 一个函数重定向到另一个路径
+				3. 第三个参数传入时，这个钩子将是异步执行的，并且*跳转会阻塞*直到 callback 被调用
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
 4. 重定向：Redirect 
