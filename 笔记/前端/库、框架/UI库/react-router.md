@@ -42,6 +42,56 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 ![[Pasted image 20230529151509.png]] 
 在应用中，定义URL与组件的映射关系。
 ![[Pasted image 20230529151754.png]] 
+# 路由组件
+[React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Switch) 
+1. 整体组件：Router
+	1. 保持 UI 和 URL 的同步
+	2. [[History]] 
+	3. routes：children 的别名，二选一用于配置路由
+2. 默认路由配置：IndexRoute
+	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
+	2. App组件是没有子元素的
+	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
+3. 路由配置：Route
+	1. path：需要匹配的URL 中的路径
+	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
+	3. exact：用于精确匹配路由（可以省略）
+		1. true：location.pathname与当前path*相等*即可匹配成功
+		2. false：location.pathname*包含*当前path即可匹配成功
+	4. strict：斜杠。
+		1. 开启：location.pathname有，path中没有，不匹配
+	5. render：方便在路由组件外面再嵌套div之类的组件
+		1. [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Route/render-func) 
+	6. components
+	7. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
+	8. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
+		1. onEnter(nextState, replaceState, callback?)
+			1. 从最外层的父路由开始直到最下层子路由结束
+			2. 参数
+				1. 下一个路由的 state
+				2. 一个函数重定向到另一个路径
+				3. 第三个参数传入时，这个钩子将是异步执行的，并且*跳转会阻塞*直到 callback 被调用
+		2. onLeave
+			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
+4. 重定向：Redirect 
+	1. from
+	2. to。只有to属性：没有任何匹配时的重定向
+5. Switch：渲染第一个与location匹配的Route或Redirect
+6. 导航
+	1. Link
+		1. to
+		2. query
+		3. state
+		4. hash
+		5. activeStyle
+		6. activeClassName
+		7. onClick(e)
+	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
+## 重定向：Redirect
+场景
+	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
+	2. 临时维护![[Pasted image 20230529161651.png]] 
+
 # 路由导航
 ### 声明式导航
 方式
@@ -111,43 +161,6 @@ const routeConfig = [
 
 React.render(<Router routes={routeConfig} />, document.body)
 ```
-## 路由组件
-1. 整体组件：Router
-	1. 保持 UI 和 URL 的同步
-	2. [[History]] 
-	3. routes：children 的别名，二选一用于配置路由
-2. 默认路由配置：IndexRoute
-	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
-	2. App组件是没有子元素的
-	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
-3. 路由配置：Route
-	1. path：需要匹配的URL 中的路径
-	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
-	3. exact：用于精确匹配路由（可以省略）
-	4. components
-	5. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
-	6. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
-		1. onEnter(nextState, replaceState, callback?)
-			1. 从最外层的父路由开始直到最下层子路由结束
-			2. 参数
-				1. 下一个路由的 state
-				2. 一个函数重定向到另一个路径
-				3. 第三个参数传入时，这个钩子将是异步执行的，并且*跳转会阻塞*直到 callback 被调用
-		2. onLeave
-			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-4. 重定向：Redirect 
-	1. from
-	2. to。只有to属性：没有任何匹配时的重定向
-5. 导航
-	1. Link
-		1. to
-		2. query
-		3. state
-		4. hash
-		5. activeStyle
-		6. activeClassName
-		7. onClick(e)
-	2. NavLink ：是基于 Link 组件，它有一个 activeClassName 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
 ## 组件与path匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
@@ -213,10 +226,6 @@ React.render((
 路由级别组件[^1] 
 	1. 传递属性：为避免三个路由属性被覆盖，需传入参数。 ![[Pasted image 20230529155319.png]] 
 	2. 传递查询参数【因为是路由级别】。
-## 调整：Redirect
-场景
-	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
-	2. 临时维护![[Pasted image 20230529161651.png]] 
 
 # 历史记录/模式
 一个 history 知道如何去
