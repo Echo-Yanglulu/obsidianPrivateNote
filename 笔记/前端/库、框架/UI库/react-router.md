@@ -123,9 +123,10 @@ React.render(<Router routes={routeConfig} />, document.body)
 3. 路由配置：Route
 	1. path：需要匹配的URL 中的路径
 	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
-	3. components
-	4. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
-	5. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
+	3. exact：用于精确匹配路由（可以省略）
+	4. components
+	5. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
+	6. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
 		1. onEnter(nextState, replaceState, callback?)
 			1. 从最外层的父路由开始直到最下层子路由结束
 			2. 参数
@@ -146,6 +147,7 @@ React.render(<Router routes={routeConfig} />, document.body)
 		5. activeStyle
 		6. activeClassName
 		7. onClick(e)
+	2. NavLink ：是基于 Link 组件，它有一个 activeClassName 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
 ## 组件与path匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
