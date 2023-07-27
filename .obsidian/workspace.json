@@ -1949,6 +1949,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":169,\"ch\":12},\"to\":{\"line\":169,\"ch\":12}},\"scroll\":160.4484375}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1971,7 +1977,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "file": "笔记/前端/库、框架/UI库/react实战.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2514,8 +2520,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/useHistory API.png",
+    "笔记/前端/库、框架/UI库/react实战.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/assets/useHistory API.png",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
@@ -2537,7 +2545,6 @@
     "笔记/前端/assets/URL与URI的区别.png",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/编程语言/CSS/CSS选择器.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",

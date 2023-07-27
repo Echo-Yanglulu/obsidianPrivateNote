@@ -112,11 +112,15 @@ const routeConfig = [
 React.render(<Router routes={routeConfig} />, document.body)
 ```
 ## 路由组件
-1. 默认路由：IndexRoute
+1. 整体组件：Router
+	1. 保持 UI 和 URL 的同步
+	2. [[History]] 
+	3. routes：children 的别名，二选一用于配置路由
+2. 默认路由配置：IndexRoute
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
 	2. App组件是没有子元素的
 	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
-2. 路由：Route
+3. 路由配置：Route
 	1. path：需要匹配的路由参数
 	2. component：该路由对应的路由级别组件
 	3. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
@@ -124,10 +128,11 @@ React.render(<Router routes={routeConfig} />, document.body)
 			1. 从最外层的父路由开始直到最下层子路由结束
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-3. 重定向：Redirect 
+4. 重定向：Redirect 
 	1. from
 	2. to。只有to属性：没有任何匹配时的重定向
-
+5. 导航
+	1. Link
 ## 组件与path匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
@@ -269,6 +274,13 @@ const NestedForm = React.createClass({
   },
   // ...
 })
+```
+## 组件外部导航
+场景：比如在redux中导航
+```js
+// somewhere like a redux/flux action file:
+import { browserHistory } from 'react-router'
+browserHistory.push('/some/path')
 ```
 # 原理
 ## 路由匹配原理
