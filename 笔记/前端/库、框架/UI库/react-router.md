@@ -15,8 +15,10 @@
 ## 环境
 支持所有的浏览器和环境中运行 React
 ## 模式
-1. hash 模式（默认）。如 http://abc.com/#user/10
-2. H5 [[History]] 模式。如 http://abc.com/user/20
+1. hashHistory。hash 模式（默认），如 http://abc.com/#user/10
+2. browserHistory。H5 [[History]] 模式。如 http://abc.com/user/20
+3. createMemoryHistory
+4. 也可自定义history
 B 端应用可选择hash模式，C 端应用可选择History模式
 ## 使用
 Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
@@ -109,9 +111,11 @@ const routeConfig = [
 
 React.render(<Router routes={routeConfig} />, document.body)
 ```
-## 组件
-1. 首页路由：IndexRoute
+## 路由组件
+1. 默认路由：IndexRoute
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
+	2. App组件是没有子元素的
+	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
 2. 路由：Route
 	1. path：需要匹配的路由参数
 	2. component：该路由对应的路由级别组件
@@ -142,13 +146,13 @@ React.render(<Router routes={routeConfig} />, document.body)
 其他叶子组件，需要传入withRouter。
 ### 访问
 通过props访问
-	1. history：会自动使用浏览器的history对象，实现在历史记录中导航。
+	1. location：当前应用的地址
+		1. pathname
+	2. history：会自动使用浏览器的history对象，实现在历史记录中导航。
 		1. go
 		2. goBack
 		3. goForward
 		4. length：历史记录的长度
-	2. location：当前应用的地址
-		1. pathname
 	3. match：如何匹配URL
 		1. path
 		2. URL
@@ -194,25 +198,60 @@ React.render((
 	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
 	2. 临时维护![[Pasted image 20230529161651.png]] 
 
+# 历史记录/模式
+一个 history 知道如何去
+	1. *监听*浏览器地址栏的变化，
+	2. 解析这个 URL *转化*为 location 对象，
+	3. 然后 router 使用location 对象*匹配*到路由，
+	4. 最后正确地*渲染*对应的组件
+## 分类
+1. browserHistory
+	1. 使用浏览器中的 [[History]] API 用于处理 URL，创建一个像`example.com/some/path`这样真实的 URL 
+2. hashHistory
+	1. 使用 URL 中的 hash（#）部分去创建形如 `example.com/\#/some/path` 的路由
+	2. 不需要服务器任何配置就可以运行，如果刚刚入门，那就使用它。但是不推荐在实际线上环境中用到它，因为每一个 web 应用都应该渴望使用 browserHistory
+3. createMemoryHistory
+	1. Memory history 不会在地址栏被操作或读取。这就解释了我们是如何实现服务器渲染的。同时它也非常适合测试和其他的渲染环境（像 React Native ）
+	2. 和另外两种history的一点不同是你必须创建它，这种方式便于测试
+## 使用
+```js
+// JavaScript 模块导入（译者注：ES6 形式）
+import { browserHistory } from 'react-router'
+render(
+  <Router history={browserHistory} routes={routes} />,
+  document.getElementById('app')
+)
+```
+# 高级配置
+## 动态路由
+背景：对于大型应用来说，一个首当其冲的问题就是所需加载的 JavaScript 的大小。程序应当只加载当前渲染页所需的 JavaScript。
 # 原理
 ## 路由匹配原理
-三个属性来决定是否“匹配“一个 URL
-	1. 嵌套关系
+路由三个属性来决定是否“匹配“一个 URL
 ### 嵌套关系
 *通过路由的嵌套，定义view的嵌套*
-	1. 一个给定的 URL 被调用时，整个集合中的组件都会被渲染
-	2. 嵌套路由是一种树形结构
-	3. *深度优先*地遍历整个[[#路由配置]]来寻找一个与给定的 URL 相匹配的路由
+	1. 嵌套路由是一种树形结构
+		1. 一个给定URL 被调用时，整个集合中的组件都会被渲染
+	2. *深度优先*地遍历整个[[#路由配置]]来寻找一个与给定的 URL 相匹配的路由
 ### 路径语法
-`:paramName`  匹配一段位于 /、? 或 # 之后的 URL。命中的部分将被作为一个参数
-`()`   在它内部的内容被认为是可选的
-`*`  匹配任意字符（非贪婪的）直到命中下一个字符或者整个 URL 的末尾，并创建一个 splat 参数
+路由路径
+	1. 是*匹配整体（或部分）URL 的一个字符串模式*
+	2. 大部分的路由路径都可以直接按照字面量理解，除了以下几个特殊的符号
+		1. `:paramName`  ：匹配一段位于 /、? 或 # 之后的 URL。命中的部分将被作为一个参数
+		2. `()`   ：可选内容
+		3. `*`  ：匹配任意字符（非贪婪的）直到命中下一个字符或整个 URL 的末尾，并创建一个 splat 参数
 ```js
 <Route path="/hello/:name">         // 匹配 /hello/michael 和 /hello/ryan
 <Route path="/hello(/:name)">       // 匹配 /hello, /hello/michael 和 /hello/ryan
 <Route path="/files/*.*">           // 匹配 /files/hello.jpg 和 /files/path/to/hello.jpg
 ```
 ### 优先级
+路由算法会*根据定义的顺序自顶向下匹配路由*，多个兄弟路由节点配置时，你必须确认前一个路由不会匹配后一个路由中的路径
+```js
+// 禁止
+<Route path="/comments" ... />
+<Redirect from="/comments" ... />
+```
 # 路由鉴权
 ## 背景
 [React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
