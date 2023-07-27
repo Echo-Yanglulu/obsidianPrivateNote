@@ -1947,13 +1947,41 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":392,\"ch\":17},\"to\":{\"line\":392,\"ch\":17}},\"scroll\":374.7376893939394}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ec3a9eda8e782ce7",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/RegExp.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2321,14 +2349,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e0447bc97cfe8940",
+  "active": "d8f645a7dfa6f095",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/redux.md",
     "笔记/前端/编程语言/JS/异步JS.md",
