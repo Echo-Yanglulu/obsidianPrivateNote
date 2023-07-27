@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/HTML/HTML.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -2115,9 +2115,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "40c21c9da0dd6249",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 10
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -2144,7 +2166,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/HTML/HTML.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -2172,7 +2194,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/HTML/HTML.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2487,11 +2509,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4716cdb3565a1a16",
+  "active": "40c21c9da0dd6249",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/assets/useHistory API.png",
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/编程语言.md",
@@ -2518,9 +2543,6 @@
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/React性能优化.md",
-    "笔记/前端/库、框架/UI库/react实战.md",
-    "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/assets/Pasted image 20230727112354.png"
   ]
 }

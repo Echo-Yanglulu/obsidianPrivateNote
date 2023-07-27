@@ -43,17 +43,17 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 # 路由导航
 ### 声明式导航
 方式
-	1. a标签。除了渲染组件，也会*刷新页面*【不是[[SPA]]】。
+	1. `a标签`。除了渲染组件，也会*刷新页面*【不是[[SPA]]】。
 		1. 重新发送请求，获取整个页面，
 		2. 所有组件重新触发 `didMount` 生命周期
-	2. Link组件。以局部更新的方式渲染所需组件
+	2. `Link组件`。以局部更新的方式渲染所需组件
 		1. 功能
 			1. 不会重新发送请求
 			2. 完成了一个由前端控制路由的SPA
 		2. 属性
 			1. to：字符串，要**跳转的路由参数** 
 			2. 
-	3. NavLink组件。
+	3. `NavLink组件`。
 ### 编程式导航
 1. history路由属性
 	1. push
@@ -61,11 +61,11 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		1. 场景
 			1. 登录之后，点击浏览器的返回按钮不应再返回登录页面
 			2. 填写表单并跳转后不应返回到表单填写页面，重新填写
-2. 库中的 useHistory API ![[Pasted image 20230710222914.png]] 
+2. 库中的 useHistory API [[useHistory API.png]] 
 # 路由配置
 一组指令，告诉router如何匹配url与组件。
 ## 配置方式
-### JSX嵌套
+### Router组件的JSX嵌套
 ```js
 import { Redirect } from 'react-router'
 
@@ -84,7 +84,7 @@ React.render((
   </Router>
 ), document.body)
 ```
-### 原生route数组对象
+### Router组件的routes属性
 ```js
 const routeConfig = [
   { path: '/',
@@ -110,34 +110,20 @@ const routeConfig = [
 React.render(<Router routes={routeConfig} />, document.body)
 ```
 ## 组件
-3. 默认组件：IndexRoute
-4. 重定向：Redirect 
-	1. from
-	2. to。只有to属性：没有任何匹配时的重定向
-5. 路由：Route
+1. 首页路由：IndexRoute
+	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
+2. 路由：Route
 	1. path：需要匹配的路由参数
 	2. component：该路由对应的路由级别组件
-	3. Hook：进入和离开的hook。用于跳转的权限验证、存储数据
+	3. Hook：进入和离开的hook。用于跳转的*权限验证*、*存储数据* 
 		1. onEnter
 			1. 从最外层的父路由开始直到最下层子路由结束
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-## path与URL匹配规则
-### 嵌套关系
-通过嵌套路由的方式，定义view的嵌套
-	1. 一个给定的 URL 被调用时，整个集合中的组件都会被渲染
-	2. 一种树形结构
-	3. React Router 会*深度优先*遍历整个路由配置来寻找一个与给定的 URL 相匹配的路由
-### 路径语法
-`:paramName`  匹配一段位于 /、? 或 # 之后的 URL。命中的部分将被作为一个参数
-`()`   在它内部的内容被认为是可选的
-`*`  匹配任意字符（非贪婪的）直到命中下一个字符或者整个 URL 的末尾，并创建一个 splat 参数
-```js
-<Route path="/hello/:name">         // 匹配 /hello/michael 和 /hello/ryan
-<Route path="/hello(/:name)">       // 匹配 /hello, /hello/michael 和 /hello/ryan
-<Route path="/files/*.*">           // 匹配 /files/hello.jpg 和 /files/path/to/hello.jpg
-```
-### 优先级
+3. 重定向：Redirect 
+	1. from
+	2. to。只有to属性：没有任何匹配时的重定向
+
 ## 组件与path匹配规则
 1. 渲染条件
 	1. 模糊：默认值。只要路由部分的左侧出现了path，就会渲染对应组件【会同时渲染多个】
@@ -208,6 +194,25 @@ React.render((
 	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
 	2. 临时维护![[Pasted image 20230529161651.png]] 
 
+# 原理
+## 路由匹配原理
+三个属性来决定是否“匹配“一个 URL
+	1. 嵌套关系
+### 嵌套关系
+*通过路由的嵌套，定义view的嵌套*
+	1. 一个给定的 URL 被调用时，整个集合中的组件都会被渲染
+	2. 嵌套路由是一种树形结构
+	3. *深度优先*地遍历整个[[#路由配置]]来寻找一个与给定的 URL 相匹配的路由
+### 路径语法
+`:paramName`  匹配一段位于 /、? 或 # 之后的 URL。命中的部分将被作为一个参数
+`()`   在它内部的内容被认为是可选的
+`*`  匹配任意字符（非贪婪的）直到命中下一个字符或者整个 URL 的末尾，并创建一个 splat 参数
+```js
+<Route path="/hello/:name">         // 匹配 /hello/michael 和 /hello/ryan
+<Route path="/hello(/:name)">       // 匹配 /hello, /hello/michael 和 /hello/ryan
+<Route path="/files/*.*">           // 匹配 /files/hello.jpg 和 /files/path/to/hello.jpg
+```
+### 优先级
 # 路由鉴权
 ## 背景
 [React路由鉴权 - 掘金](https://juejin.cn/post/6844903924441284615#heading-0) 
