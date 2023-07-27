@@ -2126,8 +2126,14 @@
                 "id": "40c21c9da0dd6249",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-27",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-27.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -2326,7 +2332,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -2520,6 +2526,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Day Planners/2023-07-27.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react-router.md",
@@ -2549,7 +2556,6 @@
     "笔记/前端/编程语言/CSS/CSS选择器.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/assets/属性选择器.png",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230727112354.png"
   ]
 }
