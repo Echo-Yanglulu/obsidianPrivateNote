@@ -42,17 +42,41 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 ![[Pasted image 20230529151509.png]] 
 在应用中，定义URL与组件的映射关系。
 ![[Pasted image 20230529151754.png]] 
+# 历史记录/模式
+一个 history 知道如何去
+	1. *监听*浏览器地址栏的变化，
+	2. 解析这个 URL *转化*为 location 对象，
+	3. 然后 router 使用location 对象*匹配*到路由，
+	4. 最后正确地*渲染*对应的组件
+## 分类
+1. browserHistory
+	1. 使用浏览器中的 [[History]] API 用于处理 URL，创建一个像`example.com/some/path`这样真实的 URL 
+2. hashHistory
+	1. 使用 URL 中的 hash（#）部分去创建形如 `example.com/\#/some/path` 的路由
+	2. 不需要服务器任何配置就可以运行，如果刚刚入门，那就使用它。但是不推荐在实际线上环境中用到它，因为每一个 web 应用都应该渴望使用 browserHistory
+3. createMemoryHistory
+	1. Memory history 不会在地址栏被操作或读取。这就解释了我们是如何实现服务器渲染的。同时它也非常适合测试和其他的渲染环境（像 React Native ）
+	2. 和另外两种history的一点不同是你必须创建它，这种方式便于测试
+## 使用
+```js
+// JavaScript 模块导入（译者注：ES6 形式）
+import { browserHistory } from 'react-router'
+render(
+  <Router history={browserHistory} routes={routes} />,
+  document.getElementById('app')
+)
+```
 # 路由组件
 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Switch) 
-1. 整体组件：Router
+1. 整体组件：**Router**
 	1. 保持 UI 和 URL 的同步
 	2. [[History]] 
 	3. routes：children 的别名，二选一用于配置路由
-2. 默认路由配置：IndexRoute
+2. 默认路由配置：**IndexRoute**
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
 	2. App组件是没有子元素的
 	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
-3. 路由配置：Route
+3. 路由配置：**Route**：当一个组件的path与当前的URL匹配时，渲染该UI
 	1. path：需要匹配的URL 中的路径
 	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
 	3. exact：用于精确匹配路由（可以省略）
@@ -73,10 +97,13 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 				3. 第三个参数传入时，这个钩子将是异步执行的，并且*跳转会阻塞*直到 callback 被调用
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-4. 重定向：Redirect 
+4. 重定向：**Redirect** 
 	1. from
 	2. to。只有to属性：没有任何匹配时的重定向
-5. Switch：渲染第一个与location匹配的Route或Redirect
+5. **Switch**：渲染*第一个*与location匹配的Route或Redirect
+	1. 使用多个Route：会渲染所有匹配。适用于组合需要同时渲染的多个组件
+		1. 如果url是`/about`，则path为`/about`、`/:name`、`/`都会渲染。因为location包含当前配置
+	2. Switch与多Route的本质是*互斥与兼容* 
 6. 导航
 	1. Link
 		1. to
@@ -227,30 +254,7 @@ React.render((
 	1. 传递属性：为避免三个路由属性被覆盖，需传入参数。 ![[Pasted image 20230529155319.png]] 
 	2. 传递查询参数【因为是路由级别】。
 
-# 历史记录/模式
-一个 history 知道如何去
-	1. *监听*浏览器地址栏的变化，
-	2. 解析这个 URL *转化*为 location 对象，
-	3. 然后 router 使用location 对象*匹配*到路由，
-	4. 最后正确地*渲染*对应的组件
-## 分类
-1. browserHistory
-	1. 使用浏览器中的 [[History]] API 用于处理 URL，创建一个像`example.com/some/path`这样真实的 URL 
-2. hashHistory
-	1. 使用 URL 中的 hash（#）部分去创建形如 `example.com/\#/some/path` 的路由
-	2. 不需要服务器任何配置就可以运行，如果刚刚入门，那就使用它。但是不推荐在实际线上环境中用到它，因为每一个 web 应用都应该渴望使用 browserHistory
-3. createMemoryHistory
-	1. Memory history 不会在地址栏被操作或读取。这就解释了我们是如何实现服务器渲染的。同时它也非常适合测试和其他的渲染环境（像 React Native ）
-	2. 和另外两种history的一点不同是你必须创建它，这种方式便于测试
-## 使用
-```js
-// JavaScript 模块导入（译者注：ES6 形式）
-import { browserHistory } from 'react-router'
-render(
-  <Router history={browserHistory} routes={routes} />,
-  document.getElementById('app')
-)
-```
+
 # 高级配置
 ## 动态路由
 背景：对于大型应用来说，一个首当其冲的问题就是所需加载的 JavaScript 的大小。程序应当只加载当前渲染页所需的 JavaScript。
@@ -307,6 +311,27 @@ import { browserHistory } from 'react-router'
 browserHistory.push('/some/path')
 ```
 # 原理
+在最后的渲染结果中，Switch，Router,Route等react-router提供的组件都会消失，只剩下经历匹配后应当被渲染的组件。
+```js
+ReactDOM.render(
+  <Router>
+    <div>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/news">
+        <NewsFeed />
+      </Route>
+    </div>
+  </Router>,
+  node
+);
+// 如果location是 / ，UI层级将会展示为
+<div>
+  <Home />
+  <!-- react-empty: 2 -->
+</div>
+```
 ## 路由匹配原理
 路由三个属性来决定是否“匹配“一个 URL
 ### 嵌套关系
