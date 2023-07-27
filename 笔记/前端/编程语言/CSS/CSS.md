@@ -5,15 +5,20 @@ cascading style sheet：层叠样式表
 	1. 不是编程语言，却要求抽象思维，不是设计工具，却要求创造力。提供了看似简单的声明式语法，却能写得极其复杂
 	2. 最好的解决办法通常取决于具体场景，以及你希望以多大粒度处理边缘情况
 # 引入
-1. style标签
-2. 行内
-3. @import(css文件内)
-4. HTTP
+1. 内联/*行内样式*
+2. *内部样式表*：style标签
+3. *外部样式表* 
+	1. link标签，href属性
+		1. @import：css文件内引入其他CSS文件 
+			1. `@import url(./style.css)` ：函数调用的方式，引入【推荐】
+			1. `@import './style.css'` ：在顶层引入时，与使用url没有区别
+	2. HTTP
 # 语法
 1. @规则：由@符号开头的语法
 	- @import
 	- @media
 	- @keyframes
+2. 注释：`/* 样式说明 */`
 ![[CSS基本概念.svg]]
 1. [[层叠]] 
 2. 注释
@@ -92,3 +97,8 @@ cascading style sheet：层叠样式表
 	4. base64与性能优化
 	5. 多分辨率适配
 针对特定媒体的样式
+
+# 相关
+## 链接
+can i use
+## [[HTML]] 

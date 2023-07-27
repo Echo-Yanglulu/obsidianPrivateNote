@@ -1,3 +1,12 @@
+# 概述
+# 字体
+# 文本
+1. text
+	1. decoration
+	2. indent
+# [[盒模型]] 
+# 定位
+
 1. position：元素的位置
 	1. relative：相对于自身
 	2. absolute：相对于存在定位属性（值可是三种之一）的上级元素，直到body
@@ -20,6 +29,15 @@ line-height
 	2. 继承规则
 		1. 值或比值：直接向下继承[^1]该值或比例
 		2. 百分比：先乘以自身的font-size，再将值向下继承[^2] 
+
+# 顺序
+1. 定位与布局。位置，偏移，z-index，float, clear, flexbox
+2. 展示与可见: display, opacity, visibility
+3. [[盒模型]] :
+4. 背景: background
+5. 字体、文本: color, 
+6. 其他属性:overflow, clip, cursor, transform, animation, white-space
+
 
 [^1]: 如30px，或2，会直接继承给子元素
 [^2]: 如200%，则先乘以自身的font-size，再向下继承

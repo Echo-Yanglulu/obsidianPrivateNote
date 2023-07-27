@@ -11,6 +11,7 @@ Global对象有很多属性
 # 方法
 isNaN()、isFinite()、parseInt()、parseFloat()
 ## [[URL]]编码
+[[计算机编码]] 
 目的：为了得到浏览器能够理解的**有效URI**[^1]，需要
 	1. 对URI进行编码
 	2. 同时以特殊的UTF-8编码替换掉所有*无效字符* 

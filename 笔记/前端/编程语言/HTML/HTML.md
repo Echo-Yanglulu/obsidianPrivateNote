@@ -8,9 +8,11 @@
 1. 内联引入
 2. src引入
 	1. 特点
-		1. 双标签：html不支持脚本单标签<script />
+		1. 双标签：html不支持单标签脚本<script />
 	2. 优点
 		1. 可缓存，多个页面可共用[^1]
+# 元素
+link：
 # 事件
 [事件参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/Events?spm=a21iq3.home.0.0.54b42764PcwehE) 
 
