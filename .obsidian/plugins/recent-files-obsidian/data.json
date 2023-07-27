@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
+      "basename": "CSS选择器",
+      "path": "笔记/前端/编程语言/CSS/CSS选择器.md"
+    },
+    {
+      "basename": "属性值与单位",
+      "path": "笔记/前端/编程语言/CSS/属性值与单位.md"
+    },
+    {
+      "basename": "属性选择器",
+      "path": "笔记/前端/assets/属性选择器.png"
+    },
+    {
+      "basename": "RegExp",
+      "path": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
-      "basename": "react-router",
-      "path": "笔记/前端/库、框架/UI库/react-router.md"
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
-      "basename": "RegExp",
-      "path": "笔记/前端/编程语言/JS/基本概念/RegExp.md"
+      "basename": "react-router",
+      "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
     {
       "basename": "异步JS",
@@ -35,10 +51,6 @@
     {
       "basename": "CSS",
       "path": "笔记/前端/编程语言/CSS/CSS.md"
-    },
-    {
-      "basename": "CSS选择器",
-      "path": "笔记/前端/编程语言/CSS/CSS选择器.md"
     },
     {
       "basename": "学习",
@@ -63,10 +75,6 @@
     {
       "basename": "DOM扩展",
       "path": "笔记/前端/编程语言/JS/DOM扩展.md"
-    },
-    {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "React性能优化",
@@ -191,14 +199,6 @@
     {
       "basename": "ES6新特性",
       "path": "笔记/前端/ES6新特性.md"
-    },
-    {
-      "basename": "Function",
-      "path": "笔记/前端/编程语言/JS/Function.md"
-    },
-    {
-      "basename": "webpack.config.js",
-      "path": "笔记/前端/工程化/构建/webpack.config.js.md"
     }
   ],
   "omittedPaths": [

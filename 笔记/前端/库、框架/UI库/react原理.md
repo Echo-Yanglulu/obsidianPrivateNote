@@ -206,7 +206,7 @@ performeUnitOfWork
 	2. 接收新props, state
 	3. render生成newVnode
 	4. 更新：patch (vnode, newVnode)【可分为两个阶段】
-		1.  reconcin 协调阶段 - 执行diff算法，纯JS计算
+		1. reconcin 协调阶段 - 执行diff算法，纯JS计算
 		2. commit阶段 - 将diff结果渲染为DOM
 4. setState后如何更新页面。更新的两个阶段
 5. 面试会考察全流程

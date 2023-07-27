@@ -11,21 +11,23 @@
 4. 标签
 5. 继承
 6. 内置
-## 分类
-### 属性
+# 分类
+## 属性
 [[属性选择器.png]] 
 	1. 拥有某个属性
 	2. 某个属性为某个取值
 	3. 属性值包含、开头、结尾
 	4. 属性值包含val，且val与其他值以空格连接。
 	5. 属性值等于val或以val-开头
-### 伪类
-功能：选择处于特定状态的元素
+## 伪类[^1] 
+目的：选中处于*特定状态*的元素
 动态伪类
-	:hover
-	:focus
-	:visited
-	:active
+	:link：未访问的链接
+	:visited 已访问的链接
+	:focus 
+	:hover 必须放在上面两个之后才能生效
+	:active。点击了，但没有松手。必须放在hover后才生效
+	如果需要同时写5个，按照这样的顺序
 目标伪类
 	:target：当前url中hash值与匹配id属性值的元素
 语言伪类
@@ -35,21 +37,21 @@
 	:disabled
 	:checked
 结构伪类
-	:nth-child()
-	:nth-last-child()
-	:nth-of-type()
-	:nth-last-of-type
 	:first-child
 	:last-child
+	:nth-child()
+	:nth-last-child()
 	:first-of-type
 	:last-of-type
-	:root
-	:only-child
+	:nth-of-type()
+	:nth-last-of-type
 	:only-of-type
+	:root
 	:empty
+	:only-child
 否定伪类
 	:not()
-### 伪元素
+## 伪元素
 # 复合
 优先级：计算加法即可。
 同级
@@ -63,4 +65,4 @@
 并集：选择一个即可。选择器之间*,* 
 	为了同时设置多个
 
-# 属性
+[^1]: 小杨想学习法语，*目标语言*具有*动态结构*，部分*否定*了之前学习过的*元素状态*。

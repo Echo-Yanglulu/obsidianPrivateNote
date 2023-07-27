@@ -8,30 +8,62 @@
         "type": "split",
         "children": [
           {
-            "id": "670685ad67662d53",
-            "type": "tabs",
+            "id": "48e8f9eff339766f",
+            "type": "split",
             "dimension": 13.089005235602095,
             "children": [
               {
-                "id": "bd5ff300df2b3029",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "670685ad67662d53",
+                "type": "tabs",
+                "dimension": 59.324522760646104,
+                "children": [
+                  {
+                    "id": "bd5ff300df2b3029",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "笔记/前端/编程语言/CSS/CSS选择器.md"
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
-                }
+                ]
+              },
+              {
+                "id": "c653ccfd9835919f",
+                "type": "tabs",
+                "dimension": 40.67547723935389,
+                "children": [
+                  {
+                    "id": "69a2e6fc80af00cf",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "recent-files",
+                      "state": {}
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "horizontal"
           },
           {
             "id": "e67a4c566e0eea1a",
@@ -1628,17 +1660,17 @@
                 "id": "d6515dafe6301ad5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "Keyboard Shortcuts",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"keyboard-shortcuts-visualization\",\"state\":{}}",
-                      "eState": "{}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "属性值与单位",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/属性值与单位.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":5},\"to\":{\"line\":7,\"ch\":5}}}"
                     },
                     {
                       "title": "CSS",
@@ -1759,7 +1791,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/属性值与单位.md",
+                    "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1952,6 +1984,18 @@
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":319,\"ch\":14},\"to\":{\"line\":319,\"ch\":14}},\"scroll\":299.7761419403549}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":202,\"ch\":28},\"to\":{\"line\":202,\"ch\":28}},\"scroll\":179.29428150614754}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":392,\"ch\":17},\"to\":{\"line\":392,\"ch\":17}},\"scroll\":374.7376893939394}"
                     }
                   ]
@@ -1959,7 +2003,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1989,7 +2033,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1999,6 +2043,7 @@
               {
                 "id": "be29d87c4ad60f93",
                 "type": "tabs",
+                "dimension": 64.97797356828194,
                 "children": [
                   {
                     "id": "1e28e91b1787e92c",
@@ -2015,7 +2060,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": false
                       }
@@ -2026,6 +2071,7 @@
               {
                 "id": "9284dcaae748ddfc",
                 "type": "tabs",
+                "dimension": 35.02202643171806,
                 "children": [
                   {
                     "id": "37fb741facd8f20b",
@@ -2042,7 +2088,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2071,7 +2117,6 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
-        "dimension": 67.62114537444934,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -2168,31 +2213,7 @@
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "178d954c018b7c28",
-        "type": "tabs",
-        "dimension": 32.378854625550666,
-        "children": [
-          {
-            "id": "69a2e6fc80af00cf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -2349,15 +2370,23 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d8f645a7dfa6f095",
+  "active": "d6515dafe6301ad5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/编程语言/CSS/属性值与单位.md",
+    "笔记/前端/assets/属性选择器.png",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/React性能优化.md",
+    "笔记/前端/库、框架/UI库/react实战.md",
+    "笔记/前端/库、框架/UI库/ReactDOM.md",
+    "笔记/前端/库、框架/UI库/concurrent mode.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/assets/Pasted image 20230727112354.png",
+    "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/redux.md",
@@ -2372,8 +2401,6 @@
     "笔记/工具/思考/思维概念/归纳.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/通用概念/人.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/学习方法/概念/意义.md",
-    "笔记/行为/表达.md"
+    "笔记/工具/思考/思维概念/逻辑.md"
   ]
 }

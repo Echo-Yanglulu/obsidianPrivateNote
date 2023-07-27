@@ -113,10 +113,8 @@ List.propTypes = {
 		1. 自动批处理
 			1. 在组件事件中，默认异步更新、合并调用
 			2. 在DOM事件、定时器中，也是异步更新、合并调用
-
 ## [[react合成事件]] 
 因为使用了[[严格模式]]，react中的[[this]]默认是undefined，而不是组件实例。
-
 ## 条件渲染
 二元与、或
 三元
@@ -130,8 +128,7 @@ List.propTypes = {
 ## 机制
 1. 父组件更新，子组件默认也更新
 	1. class 组件可使用 scu 或 pu。
-	2. [[函数组件]] 使用监听
-	3. 都可使用 React.memo
+	2. [[函数组件]] 使用监听，可使用 React.memo
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
@@ -139,14 +136,14 @@ List.propTypes = {
 2. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
 4. StrictMode：提示有潜在问题的组件【建议在老项目中使用，有助于形成规范】
 	1. 功能
-		1. 检测是否存在*即将废弃*的生命周期函数；
+		1. 检测是否存在*即将废弃的生命周期*函数；
 		2. 检测是否使用*string ref*和findDOMNode、老版context api；
 		3. 检测是否*多次调用不可预测的副作用*。
 	2. 特点
 		1. 会让render多运行一次。【实际开发中不用奇怪】
 5. [[concurrent mode]]【同时，并行】：让react应用更好地*响应交互*、根据用户的*硬件设备*与*网络性能*进行部分调节。
 	1. 可中断渲染。该模式下，渲染更新是可以被中断的[^4]。（这里说的是否就是commit阶段？）中断特别耗时的渲染过程来响应用户行为，提升体验。
-		1. 如在一个页面上同时存在复杂动画和输入框。该模式会优先响应用户的输入，
+		1. 如在一个页面上同时存在复杂动画和输入框。该模式会优先响应用户的输入
 	2. 使用
 ## 高级特性
 1. 非受控组件
@@ -160,8 +157,8 @@ List.propTypes = {
 4. [[context]] 
 5. [[性能优化]] 
 	1. SCU
-	2. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
-	3. PureComponent
+	2. PureComponent
+	3. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
 	4. immutable. js：拥抱不可变值
 6. 逻辑复用：高阶组件、HOC
 7. componentDidCatch
@@ -171,6 +168,7 @@ Fiber让应用更好地更新，concurrentMode让应用在体验上更好
 [[react原理]] 
 # 实战
 [[react实战]] 
+# [[React性能优化]] 
 # 异常捕获
 通常使用try/catch在*可能出错*的地方。或使用window.onerror绑定。
 但react本身的[[react原理#Fiber协调|fiber协调]]带来了一个异常捕获的优化【组件错误、全局异常】
