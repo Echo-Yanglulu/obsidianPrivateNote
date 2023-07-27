@@ -225,6 +225,51 @@ render(
 # 高级配置
 ## 动态路由
 背景：对于大型应用来说，一个首当其冲的问题就是所需加载的 JavaScript 的大小。程序应当只加载当前渲染页所需的 JavaScript。
+	路由是个非常适于做代码分拆的地方：它的责任就是配置好每个 view
+## 跳转前确认
+React Router 提供一个 routerWillLeave 生命周期钩子，React 组件可以
+	1. return false *取消*此次跳转
+	2. return 返回提示信息，在离开 route 前*提示*用户进行确认
+### 在路由级别组件中使用
+```js
+// 引入 Lifecycle mixin 来安装这个钩子
+import { Lifecycle } from 'react-router'
+
+const Home = React.createClass({
+  // 假设 Home 是一个 route 组件，它可能会使用
+  // Lifecycle mixin 去获得一个 routerWillLeave 方法。
+  mixins: [ Lifecycle ],
+  routerWillLeave(nextLocation) {
+    if (!this.state.isSaved)
+      return 'Your work is not saved! Are you sure you want to leave?'
+  },
+  // ...
+})
+```
+### 在深层组件中使用
+```js
+import { Lifecycle, RouteContext } from 'react-router'
+
+const Home = React.createClass({
+  // route 会被放到 Home 和它子组件及孙子组件的 context 中，
+  // 这样在层级树中 Home 及其所有子组件都可以拿到 route。
+  mixins: [ RouteContext ],
+  render() {
+    return <NestedForm />
+  }
+
+})
+const NestedForm = React.createClass({
+  // 后代组件使用 Lifecycle mixin 获得
+  // 一个 routerWillLeave 的方法。
+  mixins: [ Lifecycle ],
+  routerWillLeave(nextLocation) {
+    if (!this.state.isSaved)
+      return 'Your work is not saved! Are you sure you want to leave?'
+  },
+  // ...
+})
+```
 # 原理
 ## 路由匹配原理
 路由三个属性来决定是否“匹配“一个 URL
