@@ -164,7 +164,28 @@ render(
 	3. 特性
 		1. 不可变。所以可在生命周期中使用
 	4. 场景。可直接使用location对象的地方
-		1. Link、Redirect组件的to属性。history.push/replace
+		1. 导航：使用location代替[[String]] 。
+			1. Link、Redirect组件的to属性。history.push/replace
+		2. 组件。Route, Switch
+			1. 防止在路由状态中使用实际location。常用于动画、挂起导航，或者需要组件在另一个location下渲染而不是当前所处的Location
+4. match
+	1. Route组件与url的匹配信息
+	2. 属性
+		1. url - (string) The matched portion of the URL. Useful for building nested \<Link>s
+		2. path - (string) The path pattern used to match. Useful for building nested \<Route>s
+		3. params - (object) Key/value pairs parsed from the URL corresponding to the dynamic segments of the path
+		4. isExact - (boolean) true if the entire URL was matched (no trailing characters)
+	3. 存在场景
+		1. `Route component` as this.props.match
+		2. `Route render` as ({ match }) => ()
+		3. `Route children` as ({ match }) => ()
+		4. `withRouter` as this.props.match
+		5. `matchPath` as the return value
+		6. `useRouteMatch` as the return value
+5. matchPath 
+6. withRouter。高阶组件，每次组件更新时都传递最新的history, location, match
+7. Hooks。读取路由状态、在组件内进行导航。16.8以上才能使用！
+	1. 
 # 路由导航
 ### 声明式导航
 方式
