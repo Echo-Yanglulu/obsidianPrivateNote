@@ -78,6 +78,7 @@
 	2. 方法
 		1. length - (number) The number of entries in the history stack
 		2. action - (string) The current action (PUSH, REPLACE, or POP)
+			1. 跳转到当前组件的方式
 		3. location - (object) The current location. May have the following properties:
 			1. pathname - (string) The path of the URL
 			2. search - (string) The URL query string
