@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
+                    "file": "笔记/前端/编程语言/JS/工具函数.md"
                   }
                 }
               }
@@ -963,9 +963,43 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "ec8e0c4b6b27b162",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "React与Vue的比较",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/React与Vue的比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":36},\"to\":{\"line\":27,\"ch\":36}},\"scroll\":23.4669}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":77,\"ch\":0},\"to\":{\"line\":77,\"ch\":0}},\"scroll\":57.24337121212121}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/工具函数.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -992,7 +1026,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1020,7 +1054,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1318,14 +1352,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "207ae4dd42c7673a",
+  "active": "ec8e0c4b6b27b162",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/编程语言/JS/工具函数.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/库、框架/UI库/react-router API.md",
+    "笔记/前端/assets/useHistory API.png",
     "笔记/前端/库、框架/UI库/react-router 路由配置.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/二进制数组.md",
     "笔记/前端/cookie.md",
     "笔记/前端/document.md",
@@ -1343,14 +1381,10 @@
     "Day Planners/2023-07-27.md",
     "笔记/前端/库、框架/UI库/react实战.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/assets/useHistory API.png",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/基础知识/计算机基础.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/JS/计算机编码.md",
     "笔记/前端/assets/编码与解码.png",
     "笔记/前端/assets/URL与URI的区别.png",
     "笔记/前端/assets/属性选择器.png",

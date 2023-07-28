@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "工具函数",
+      "path": "笔记/前端/编程语言/JS/工具函数.md"
+    },
+    {
+      "basename": "React与Vue的比较",
+      "path": "笔记/前端/库、框架/React与Vue的比较.md"
+    },
+    {
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
+    },
+    {
       "basename": "react-router",
       "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
@@ -97,10 +109,6 @@
       "path": "笔记/前端/assets/属性选择器.png"
     },
     {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
-    },
-    {
       "basename": "异步JS",
       "path": "笔记/前端/编程语言/JS/异步JS.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "数据类型",
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
-    },
-    {
-      "basename": "Error",
-      "path": "笔记/前端/编程语言/JS/Error.md"
-    },
-    {
-      "basename": "循环引用",
-      "path": "笔记/前端/编程语言/JS/基本概念/循环引用.md"
     }
   ],
   "omittedPaths": [

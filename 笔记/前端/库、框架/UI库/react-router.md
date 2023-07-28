@@ -66,10 +66,6 @@ render(
   document.getElementById('app')
 )
 ```
-# [[react-router API]] 
-
-# [[react-router 路由配置]] 
-
 # 路由导航
 ### 声明式导航
 方式
@@ -88,7 +84,9 @@ render(
 		1. 场景
 			1. 登录之后，点击浏览器的返回按钮不应再返回登录页面
 			2. 填写表单并跳转后不应返回到表单填写页面，重新填写
-2. 库中的 useHistory API [[useHistory API.png]] 
+# [[react-router API]] 
+# [[react-router 路由配置]] 
+
 # 高级配置
 ## 动态路由
 背景：对于大型应用来说，一个首当其冲的问题就是所需加载的 JavaScript 的大小。程序应当只加载当前渲染页所需的 JavaScript。
