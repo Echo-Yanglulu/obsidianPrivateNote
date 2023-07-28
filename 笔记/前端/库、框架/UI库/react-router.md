@@ -66,7 +66,8 @@ render(
   document.getElementById('app')
 )
 ```
-# 路由组件
+# API
+## 路由组件
 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Switch) 
 1. 整体组件：**Router**。保持 UI 和 URL 的同步
 	1. history
@@ -112,7 +113,9 @@ render(
 		1. 如果url是`/about`，则path为`/about`、`/:name`、`/`都会渲染。因为location包含当前配置
 	2. Switch与多Route的本质是*互斥与兼容* 
 	3. location。[[Object]] 用于匹配子元素，而不是当前浏览器中的[[location]] 
-	4. children
+	4. children。只能是Route或Redirect元素，匹配当前location的第一个子元素将被渲染
+		1. Route使用`path`属性
+		2. Redirect使用`from`属性。from只是path的别名
 7. 导航
 	1. Link
 		1. to
@@ -123,11 +126,45 @@ render(
 		6. activeClassName
 		7. onClick(e)
 	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
-## 重定向：Redirect
+### 重定向：Redirect
 场景
 	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
 	2. 临时维护![[Pasted image 20230529161651.png]] 
-
+## 方法
+1. generatePath ：生成用于route的url
+2. history：为不同环境中的JS管理session历史提供了不同的实现
+	1. 实现
+		1. “browser history” - A DOM-specific implementation, useful in *web browsers* that support the HTML5 history API
+		2. “hash history” - A DOM-specific implementation for *legacy web browsers* 
+		3. “memory history” - An in-memory history implementation, useful in testing and *non-DOM environments* like React Native
+	2. 方法
+		1. length - (number) The number of entries in the history stack
+		2. action - (string) The current action (PUSH, REPLACE, or POP)
+		3. location - (object) The current location. May have the following properties:
+			1. pathname - (string) The path of the URL
+			2. search - (string) The URL query string
+			3. hash - (string) The URL hash fragment
+			4. state - (object) location-specific state that was provided to e.g. push(path, state) when this location was pushed onto the stack. Only available in browser and memory history.
+		4. push(path, [state]) - (function) Pushes a new entry onto the history stack
+		5. replace(path, [state]) - (function) Replaces the current entry on the history stack
+		6. go(n) - (function) Moves the pointer in the history stack by n entries
+		7. goBack() - (function) Equivalent to go(-1)
+		8. goForward() - (function) Equivalent to go(1)
+		9. block(prompt) - (function) Prevents navigation (see the history docs 
+	3. 特性
+		1. 可变。history对象是可变的，所以建议访问时使用`props.location`，而不是`props.history.location`。
+3. [[location]] 
+	1. 代表web应用现在、曾经、之后想去的位置
+	2. 属性
+		1. key: 'ac3df4', // not with HashHistory!
+		2. pathname: '/somewhere',
+		3. search: '?some=search-string',
+		4. hash: '#howdy',
+		5. state: { \[userDefined]: true }
+	3. 特性
+		1. 不可变。所以可在生命周期中使用
+	4. 场景。可直接使用location对象的地方
+		1. Link、Redirect组件的to属性。history.push/replace
 # 路由导航
 ### 声明式导航
 方式

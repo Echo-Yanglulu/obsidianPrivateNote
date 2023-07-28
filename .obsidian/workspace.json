@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/location.md"
+                    "file": "Day Planners/2023-07-28.md"
                   }
                 }
               }
@@ -2143,7 +2143,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "file": "Day Planners/2023-07-28.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -2178,7 +2178,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/location.md",
+                        "file": "Day Planners/2023-07-28.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -2206,7 +2206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/location.md",
+                        "file": "Day Planners/2023-07-28.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -2477,7 +2477,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -2499,16 +2500,18 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-memos:Memos": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "7b6dc4f2ef18c352",
+  "active": "40c21c9da0dd6249",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/工程化/History.md",
     "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/编程语言/JS/location.md",
     "笔记/前端/库、框架/UI库/状态管理工具.md",
     "笔记/前端/库、框架/UI库/状态管理工具比较.md",
     "笔记/前端/assets/Pasted image 20230710222733.png",
@@ -2536,8 +2539,6 @@
     "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/基础知识/计算机网络/URN.md",
     "笔记/前端/assets/URL与URI的区别.png",
-    "笔记/前端/编程语言/JS/URL.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/Pasted image 20230727112354.png"
   ]
