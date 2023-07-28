@@ -243,5 +243,12 @@
   "file-tree-alternative-plugin@@oz-fta-all-panes-active-text-color": "#D1003C",
   "quick-explorer@@qe-obsidian-title": "qe-title-center",
   "at-theme-settings@@at-colorful-headings": true,
-  "at-theme-settings@@at-line-height": false
+  "at-theme-settings@@at-line-height": false,
+  "sanctum@@light-mode-contrast-mode": "sanctum-white",
+  "sanctum@@active-line-accent": "rgba(var(--color-accent-rgb), .3)",
+  "sanctum@@aside-counter": false,
+  "sanctum@@aside-border": false,
+  "sanctum@@bold-color@@light": "#A700F1",
+  "sanctum@@italic-color@@light": "#0B8300",
+  "sanctum@@heading-outline": "heading-counter-0"
 }

@@ -73,7 +73,10 @@ render(
 	1. history
 	2. routes：children 的别名，二选一用于配置路由
 	3. 通常会使用其中一个高阶路由代替
-		1. \<BrowserRouter>
+		1. \<BrowserRouter>：使用H5的history API保持URL与UI同步的Router组件
+			1. basename。所有location的基础URL。如果app在子目录下会需要。有前斜杠没有后斜杠
+			2. getUserConfirmation。用于确认导航的函数
+			3. forceRefresh。true: 页面导航时将整个页面刷新。
 		2. \<HashRouter>
 		3. \<MemoryRouter>
 		4. \<NativeRouter>
@@ -118,13 +121,19 @@ render(
 		2. Redirect使用`from`属性。from只是path的别名
 7. 导航
 	1. Link
-		1. to
-		2. query
-		3. state
-		4. hash
-		5. activeStyle
-		6. activeClassName
-		7. onClick(e)
+		1. 含义：声明式导航
+		2. 属性
+			1. to
+				1. [[String]] 含location的pathname, search, and hash `to="/courses?sort=name"`
+				2. [[Object]] 可多一个state属性：（当前还是下个？）location需要保存的state
+				3. [[Function]] 当前location作为参数的函数，并且应以字符串或对象的形式返回location【目标url与当前url需要传递类似信息】
+			2. replace 如果设置，则新记录替换掉当前记录
+			3. query
+			4. state
+			5. hash
+			6. activeStyle
+			7. activeClassName
+			8. onClick(e)
 	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
 ### 重定向：Redirect
 场景
@@ -185,12 +194,12 @@ render(
 5. matchPath 
 6. withRouter。高阶组件，每次组件更新时都传递最新的history, location, match
 7. Hooks。读取路由状态、在组件内进行导航。16.8以上才能使用！`react-router-dom`提供
-	1. useLocation：代表当前URL的location对象。可认为是一个返回最新location的useState
+	1. useLocation：代表当前URL的*location对象*。可认为是一个返回最新location的useState
 		1. 场景
 			1. 在加载新页面时，使用Web分析工具触发新的“页面浏览”事件 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/uselocation) 
-	2. useHistory：用于导航的history实例
-	3. useParams：URL查询参数对象
-	4. useRouteMatch
+	2. useHistory：用于导航的*history实例*
+	3. useParams：URL*查询参数*对象
+	4. useRouteMatch：路由参数/路径。[React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/useroutematch) 结果类型props.location.match
 # 路由导航
 ### 声明式导航
 方式
