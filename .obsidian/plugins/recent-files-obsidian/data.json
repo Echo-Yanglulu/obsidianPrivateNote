@@ -5,6 +5,10 @@
       "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
     {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
       "basename": "2023-07-28",
       "path": "Day Planners/2023-07-28.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TCP",
       "path": "笔记/前端/编程语言/JS/TCP.md"
-    },
-    {
-      "basename": "window",
-      "path": "笔记/前端/编程语言/JS/window.md"
     }
   ],
   "omittedPaths": [
