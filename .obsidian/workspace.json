@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
                   }
                 }
               }
@@ -992,7 +992,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1020,7 +1020,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1318,13 +1318,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "40c21c9da0dd6249",
+  "active": "207ae4dd42c7673a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
+    "笔记/前端/库、框架/UI库/react-router 路由配置.md",
+    "笔记/前端/二进制数组.md",
+    "笔记/前端/cookie.md",
+    "笔记/前端/document.md",
+    "笔记/前端/深比较.md",
+    "笔记/前端/前端.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/库、框架/UI库/UI库.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "Day Planners/2023-07-28.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/location.md",
@@ -1339,19 +1348,10 @@
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/编程语言.md",
-    "笔记/前端/前端.md",
     "笔记/前端/基础知识/计算机基础.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/计算机编码.md",
-    "笔记/前端/编程语言/JS/Unicode.md",
-    "笔记/前端/编程语言/JS/GBXXXX.md",
-    "笔记/前端/编程语言/JS/ASCII.md",
-    "笔记/前端/编程语言/JS/字符集.md",
     "笔记/前端/assets/编码与解码.png",
-    "笔记/工具/思考/记忆/编码.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/工程化/SEO.md",
-    "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/assets/URL与URI的区别.png",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/Pasted image 20230727112354.png"
