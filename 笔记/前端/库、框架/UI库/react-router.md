@@ -68,15 +68,22 @@ render(
 ```
 # 路由组件
 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Switch) 
-1. 整体组件：**Router**
-	1. 保持 UI 和 URL 的同步
-	2. [[History]] 
-	3. routes：children 的别名，二选一用于配置路由
-2. 默认路由配置：**IndexRoute**
+1. 整体组件：**Router**。保持 UI 和 URL 的同步
+	1. history
+	2. routes：children 的别名，二选一用于配置路由
+	3. 通常会使用其中一个高阶路由代替
+		1. \<BrowserRouter>
+		2. \<HashRouter>
+		3. \<MemoryRouter>
+		4. \<NativeRouter>
+		5. \<StaticRouter>
+	4. 使用该低级组件的场景是，使用一个[[状态管理工具]]来保存自定义历史。react-router并不强制要求另外使用状态管理工具，除非为了*深度集成*。
+2. StaticRouter ：永远不改变location的Router组件。[[SSR]] 时很有用
+3. 默认路由配置：**IndexRoute**
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在/时，需要在App组件中展示的组件。
 	2. App组件是没有子元素的
 	3. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
-3. 路由配置：**Route**：当一个组件的path与当前的URL匹配时，渲染该UI
+4. 路由配置：**Route**：当一个组件的path与当前的URL匹配时，渲染该UI
 	1. path：需要匹配的URL 中的路径
 	2. component：该路由对应的路由级别组件。匹配到 URL 时，单个的组件会被渲染
 	3. exact：用于精确匹配路由（可以省略）
@@ -97,14 +104,16 @@ render(
 				3. 第三个参数传入时，这个钩子将是异步执行的，并且*跳转会阻塞*直到 callback 被调用
 		2. onLeave
 			1. 会在*所有将离开的路由中触发*，从最下层的子路由开始直到最外层父路由结束
-4. 重定向：**Redirect** 
+5. 重定向：**Redirect** 
 	1. from
 	2. to。只有to属性：没有任何匹配时的重定向
-5. **Switch**：渲染*第一个*与location匹配的Route或Redirect
+6. **Switch**：渲染*第一个*与location匹配的Route或Redirect
 	1. 使用多个Route：会渲染所有匹配。适用于组合需要同时渲染的多个组件
 		1. 如果url是`/about`，则path为`/about`、`/:name`、`/`都会渲染。因为location包含当前配置
 	2. Switch与多Route的本质是*互斥与兼容* 
-6. 导航
+	3. location。[[Object]] 用于匹配子元素，而不是当前浏览器中的[[location]] 
+	4. children
+7. 导航
 	1. Link
 		1. to
 		2. query
@@ -232,6 +241,7 @@ React.render((
 ```
 内部，router 会将你树级嵌套格式的\<Route> 转变成路由配置
 ## [[URL]] 参数
+
 ### 路由参数
 【实际最好不要用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件，不要用于传参
 传递
