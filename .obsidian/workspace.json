@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/工具函数.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -975,6 +975,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "工具函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/工具函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":18},\"to\":{\"line\":34,\"ch\":18}}}"
+                    },
+                    {
                       "title": "React与Vue的比较",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/React与Vue的比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -991,15 +997,54 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/工具函数.md",
+                    "file": "笔记/前端/库、框架/React与Vue的比较.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c8939a157a98f43c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/ES Module.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ab39d7c671d278c0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1026,7 +1071,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/工具函数.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1054,7 +1099,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/工具函数.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1352,11 +1397,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ec8e0c4b6b27b162",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/redux-persist.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/构建/webpack.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/工程化/构建/Promise.md",
+    "静态分析.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/库、框架/UI库/react原理.md",
@@ -1379,12 +1430,6 @@
     "笔记/前端/库、框架/UI库/状态管理工具比较.md",
     "笔记/前端/assets/Pasted image 20230710222733.png",
     "Day Planners/2023-07-27.md",
-    "笔记/前端/库、框架/UI库/react实战.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/编程语言/CSS/CSS.md",
-    "笔记/前端/编程语言/CSS/CSS属性.md",
-    "笔记/前端/编程语言/编程语言.md",
     "笔记/前端/assets/编码与解码.png",
     "笔记/前端/assets/URL与URI的区别.png",
     "笔记/前端/assets/属性选择器.png",

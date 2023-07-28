@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "工具函数",
-      "path": "笔记/前端/编程语言/JS/工具函数.md"
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
     },
     {
       "basename": "React与Vue的比较",
       "path": "笔记/前端/库、框架/React与Vue的比较.md"
+    },
+    {
+      "basename": "工具函数",
+      "path": "笔记/前端/编程语言/JS/工具函数.md"
     },
     {
       "basename": "react原理",
@@ -75,10 +83,6 @@
     {
       "basename": "ASCII",
       "path": "笔记/前端/编程语言/JS/ASCII.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "URI",
@@ -195,10 +199,6 @@
     {
       "basename": "AJAX",
       "path": "笔记/前端/AJAX.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     }
   ],
   "omittedPaths": [
