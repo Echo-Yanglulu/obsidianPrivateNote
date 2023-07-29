@@ -32,10 +32,10 @@ context的传递：在渲染过程中执行
 2. 使用组件
 	1. class组件
 		1. 提供
-			1. 引入定义
+			1. 引入 `context` 定义
 			2. 绑定 this 属性
-				1. `ThemeButton.contextType = ThemeContext` 
-				2.  `static contextType = ThemeContext` 
+				1. `ThemeButton.contextType = ThemeContext` 或
+				2. `static contextType = ThemeContext` 
 		2. 使用
 			1. `const theme = this.context`
 	2. 函数组件
