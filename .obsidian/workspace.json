@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/数据结构/数据结构.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -843,6 +843,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "数据结构",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/数据结构/数据结构.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":35.084375}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -931,7 +937,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1215,6 +1221,28 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "dec706c556d4dd3c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
             "currentTab": 5
@@ -1244,7 +1272,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1272,7 +1300,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1575,9 +1603,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/基础知识/数据结构/数据结构.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230729204207.png",
     "笔记/前端/前端工作.md",
-    "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/assets/Pasted image 20230729202501.png",
     "笔记/前端/React性能优化.md",
     "笔记/前端/性能优化.md",
@@ -1609,7 +1638,6 @@
     "笔记/前端/assets/Pasted image 20230728172217.png",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/assets/useHistory API.png",
-    "笔记/前端/assets/Pasted image 20230710222733.png"
+    "笔记/前端/assets/useHistory API.png"
   ]
 }
