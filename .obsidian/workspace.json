@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/基础知识/数据结构/数据结构.md"
                   }
                 }
               }
@@ -843,6 +843,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":804,\"ch\":13},\"to\":{\"line\":804,\"ch\":13}},\"scroll\":784.9195075757576}"
+                    },
+                    {
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -925,7 +931,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/基础知识/数据结构/数据结构.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1238,7 +1244,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1266,7 +1272,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/基础知识/数据结构/数据结构.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1569,12 +1575,17 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230729204207.png",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/基础知识/数据结构/数据结构.md",
+    "笔记/前端/assets/Pasted image 20230729202501.png",
+    "笔记/前端/React性能优化.md",
+    "笔记/前端/性能优化.md",
+    "笔记/学习/概念/概念.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/Pasted image 20230729172618.png",
     "笔记/前端/编程语言/JS/Error.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/React性能优化.md",
     "笔记/前端/assets/useState原理.png",
     "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/库、框架/UI库/副作用.md",
@@ -1586,7 +1597,6 @@
     "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/react组件设计.md",
-    "笔记/学习/概念/概念.md",
     "笔记/前端/assets/图片文件使用CDN.png",
     "Day Planners/2023-07-29.md",
     "笔记/前端/assets/Pasted image 20230729002912.png",
@@ -1599,10 +1609,7 @@
     "笔记/前端/assets/Pasted image 20230728172217.png",
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/前端/库、框架/UI库/React-SSR.md",
-    "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/assets/useHistory API.png",
-    "笔记/前端/assets/Pasted image 20230710222733.png",
-    "笔记/前端/assets/编码与解码.png"
+    "笔记/前端/assets/Pasted image 20230710222733.png"
   ]
 }
