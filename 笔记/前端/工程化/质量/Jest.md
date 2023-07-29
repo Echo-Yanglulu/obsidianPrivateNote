@@ -22,7 +22,7 @@
 		1. ![[Pasted image 20220720000754.png]]（测试一个**函数、类**）
 		2. Mock并测试一个**第三方模块**
 			1. ![[Pasted image 20220720230740.png]](需要请求网络的代码依然可以测试，mock这个模块即可测试User本身的逻辑)
-	6. Snapshot[^10]
+	6. Snapshot[^10] 
 	7. 测试覆盖率[^11]
 		1. Jest内置了istanbul模块，从4个维度统计测试覆盖率。一般只需关注statements 与branches .
 			1. statements: 语句覆盖率：所有语句的执行率
