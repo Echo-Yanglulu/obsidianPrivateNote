@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/修辞/修辞.md"
+                    "file": "笔记/工具/修辞/隐喻Metaphor.md"
                   }
                 }
               }
@@ -1140,7 +1140,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/修辞/修辞.md",
+                        "file": "笔记/工具/修辞/隐喻Metaphor.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1168,7 +1168,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/修辞/修辞.md",
+                        "file": "笔记/工具/修辞/隐喻Metaphor.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1466,11 +1466,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5afd7df751a131dd",
+  "active": "02afda17a85712b3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/修辞/隐喻Metaphor.md",
+    "笔记/工具/修辞/修辞.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/mock.md",
@@ -1501,8 +1503,6 @@
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/useHistory API.png",
     "笔记/前端/库、框架/UI库/react-router 路由配置.md",
-    "笔记/前端/库、框架/UI库/react-router API.md",
-    "笔记/前端/二进制数组.md",
     "笔记/前端/assets/Pasted image 20230710222733.png",
     "笔记/前端/assets/编码与解码.png",
     "笔记/前端/assets/URL与URI的区别.png",
