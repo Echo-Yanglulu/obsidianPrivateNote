@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "修辞",
-      "path": "笔记/工具/修辞/修辞.md"
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "组件",
+      "path": "笔记/前端/库、框架/UI库/组件.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "修辞",
+      "path": "笔记/工具/修辞/修辞.md"
     },
     {
       "basename": "概念",
@@ -41,10 +57,6 @@
       "path": "笔记/前端/库、框架/UI库/React-SSR.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
       "basename": "React与Vue的比较",
       "path": "笔记/前端/库、框架/React与Vue的比较.md"
     },
@@ -63,10 +75,6 @@
     {
       "basename": "react-router API",
       "path": "笔记/前端/库、框架/UI库/react-router API.md"
-    },
-    {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "状态管理工具",
@@ -191,14 +199,6 @@
     {
       "basename": "工具",
       "path": "笔记/工具/工具.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "笔记/前端/性能优化.md"
-    },
-    {
-      "basename": "2023-07-25",
-      "path": "Day Planners/2023-07-25.md"
     }
   ],
   "omittedPaths": [

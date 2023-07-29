@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/修辞/修辞.md"
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
                   }
                 }
               }
@@ -836,17 +836,29 @@
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-29",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-29.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":402,\"ch\":13},\"to\":{\"line\":402,\"ch\":13}},\"scroll\":380.725}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":15},\"to\":{\"line\":9,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":402,\"ch\":13},\"to\":{\"line\":402,\"ch\":13}},\"scroll\":380.725}"
                     },
                     {
                       "title": "URI",
@@ -895,7 +907,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1111,9 +1123,49 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "434ebcf24dbeb4e8",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":10},\"to\":{\"line\":15,\"ch\":10}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 6
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1140,7 +1192,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/修辞/修辞.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1168,7 +1220,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/修辞/修辞.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1466,14 +1518,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5afd7df751a131dd",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/修辞/隐喻Metaphor.md",
-    "笔记/工具/修辞/修辞.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/工具/修辞/修辞.md",
+    "笔记/工具/修辞/隐喻Metaphor.md",
     "笔记/前端/工程化/质量/Code Review.md",
     "笔记/前端/工程化/mock.md",
     "笔记/前端/工程化/质量/单元测试.md",
@@ -1492,17 +1549,12 @@
     "笔记/前端/编程语言/JS/基本概念/RegExp.md",
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/库、框架/UI库/React-SSR.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/redux-persist.md",
     "笔记/前端/工程化/构建/webpack.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/工程化/构建/Promise.md",
-    "静态分析.md",
-    "笔记/前端/编程语言/JS/工具函数.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/useHistory API.png",
-    "笔记/前端/库、框架/UI库/react-router 路由配置.md",
     "笔记/前端/assets/Pasted image 20230710222733.png",
     "笔记/前端/assets/编码与解码.png",
     "笔记/前端/assets/URL与URI的区别.png",
