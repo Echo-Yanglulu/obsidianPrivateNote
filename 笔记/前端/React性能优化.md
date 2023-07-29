@@ -8,7 +8,7 @@
 	2. SCU
 		1. 必须配合不可变值使用。传入新值
 		2. 一定要每次都用吗？只要不会导致卡顿，不必每次都用
-	3. pureComponent
+	3. 或直接使用 pureComponent【在 SCU 函数中使用浅比较返回布尔】
 6. [[函数组件]] 
-	1. useMemo, useCallback, React. memo
-	2. React. memo
+	1. 定义组件导出时使用 React. memo
+	2. 组件传入属性时使用useMemo, useCallback, 

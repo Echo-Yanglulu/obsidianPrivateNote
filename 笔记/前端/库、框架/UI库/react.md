@@ -21,7 +21,7 @@ refs：访问在render中创建的react元素
 	1. ref
 	2. defaultValue/ defaultCechked
 	3. 手动操作 DOM
-3. 使用
+3. ref 使用场景
 		1. 优先使用受控组件，符合 [[react]] 设计原则
 		2. 必须操作 DOM 时，再使用非受控
 			1. 文件上传
@@ -129,7 +129,7 @@ List.propTypes = {
 ## 机制
 1. 父组件更新，子组件默认也更新
 	1. class 组件可使用 scu 或 pu。
-	2. [[函数组件]] 使用监听，可使用 React.memo
+	2. [[函数组件]] 使用监听，可使用 React.memo【对 props 进行浅层比较，阻止渲染】
 # API
 ## 基本特性
 1. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
@@ -137,11 +137,10 @@ List.propTypes = {
 2. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
 3. StrictMode：提示有潜在问题的组件【建议在老项目中使用，有助于形成规范】
 	1. 功能：检测
-		1. 是否存在*不安全的生命周期*函数；
+		1. 是否使用过时的 `string ref` 、 `context api` 、*不安全的生命周期*函数和废弃的 `findDOMNode` ；
 		2. 是否存在*不可预测的副作用*。
-		3. 是否使用过时的`string ref`、`context api`和废弃的 `findDOMNode` ；
 	2. 特点
-		1. 会让render多运行一次。【实际开发中不用奇怪】
+		1. 会让 render 多运行一次。【生产环境不会】
 4. [[concurrent mode]]【同时，并行】：让react应用更好地*响应交互*、根据用户的*硬件设备*与*网络性能*进行部分调节。
 	1. 可中断渲染。该模式下，渲染更新是可以被中断的[^4]。（这里说的是否就是commit阶段？）中断特别耗时的渲染过程来响应用户行为，提升体验。
 		1. 如在一个页面上同时存在复杂动画和输入框。该模式会优先响应用户的输入
