@@ -25,32 +25,26 @@ context的传递：在渲染过程中执行
 	3. 所有使用该值的组件都将重新渲染
 # 使用
 1. 定义
-	1. 在需要共享数据的最小公约数父组件
-	2. 在一个单独的context.js文件中定义
+	1. 在一个单独的 context.js 文件中定义
 		1. `import { createContext } from 'react';` 
 		2. `export const LevelContext = createContext(1);` 
-2. 使用组件
+	2. 在需要共享数据的最小公约数父组件中
+		1. 引入定义： `import { LevelContext } from './LevelContext.js';`
+		2. 提供： `<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
+2. 消费组件
 	1. class组件
-		1. 提供
-			1. 引入 `context` 定义
-			2. 绑定 this 属性
-				1. `ThemeButton.contextType = ThemeContext` 或
-				2. `static contextType = ThemeContext` 
-		2. 使用
-			1. `const theme = this.context`
+		1. 引入定义： `import { LevelContext } from './LevelContext.js';` 
+		2. 绑定 this
+			1. `ThemeButton.contextType = ThemeContext` 或
+			2. `static contextType = ThemeContext` 
+		3. 使用：`const theme = this.context`
 	2. 函数组件
-		1. 提供者
-			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
-			2. 提供：`<LevelContext.Provider value={level}>{children}</LevelContext.Provider>` 
+		1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
 		2. 使用
-			1. 引入定义：`import { LevelContext } from './LevelContext.js';` 
-			2. 使用
-				1.  hook
-					1. `import { useContext } from 'react';` 
-					2. `const level = useContext(LevelContext);` 
-						1. 不需解构，取出的就是值
-				2.  Consumer
-					1. \<LevelContext. Consumer>{value => (\<p></p>)}</LevelContext. Consumer>
+			1. 通过 hook： `const level = useContext(LevelContext);` 
+			2. 通过 Consumer： `<LevelContext. Consumer>{value => (<p></p>)}</LevelContext. Consumer>
+
+“在函数组件和 [[class组件]] 组件中分别怎么用”并不是重点，重点是它的价值
 # 应用：适应周围环境的组件
 ## 场景
 这些场景，使用 props 太繁琐，使用 [[redux]] 又小题大做（没有那么复杂）
