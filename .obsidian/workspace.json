@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "Day Planners/2023-07-30.md"
                   }
                 }
               }
@@ -1226,8 +1226,14 @@
                 "id": "dec706c556d4dd3c",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-30",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1237,7 +1243,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "Day Planners/2023-07-30.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1272,7 +1278,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "Day Planners/2023-07-30.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1300,7 +1306,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "Day Planners/2023-07-30.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1603,6 +1609,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Day Planners/2023-07-30.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/screen.md",
@@ -1625,7 +1633,6 @@
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/质量/Jest.md",
     "笔记/前端/基础知识/数据结构/数据结构.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/assets/Pasted image 20230729204207.png",
     "笔记/前端/assets/Pasted image 20230729202501.png",
     "笔记/前端/React性能优化.md",
@@ -1633,7 +1640,6 @@
     "笔记/学习/概念/概念.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/Pasted image 20230729172618.png",
-    "笔记/前端/编程语言/JS/Error.md",
     "笔记/前端/assets/useState原理.png",
     "笔记/前端/assets/图片文件使用CDN.png",
     "笔记/前端/assets/Pasted image 20230729002912.png",
