@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
                   }
                 }
               }
@@ -1257,7 +1257,7 @@
                 }
               }
             ],
-            "currentTab": 14
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1284,7 +1284,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1312,7 +1312,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1610,13 +1610,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dec706c556d4dd3c",
+  "active": "bd5ff300df2b3029",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Map.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/前端工作.md",
@@ -1643,7 +1644,6 @@
     "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/assets/Pasted image 20230729204207.png",
     "笔记/前端/assets/Pasted image 20230729202501.png",
     "笔记/前端/assets/Pasted image 20230729172618.png",
