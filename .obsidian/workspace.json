@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-07-30.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1243,7 +1243,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-07-30.md",
+                    "file": "笔记/前端/库、框架/UI库/react原理.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1251,7 +1251,7 @@
                 }
               }
             ],
-            "currentTab": 14
+            "currentTab": 5
           },
           {
             "id": "86193a5d16fa87de",
@@ -1278,7 +1278,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-07-30.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1306,7 +1306,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-07-30.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1604,13 +1604,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dec706c556d4dd3c",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Day Planners/2023-07-30.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/基础知识/数据结构/数据结构.md",
+    "笔记/前端/基础知识/算法/算法.md",
     "笔记/前端/库、框架/UI库/react原理.md",
+    "Day Planners/2023-07-30.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/screen.md",
@@ -1619,7 +1625,6 @@
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/同源策略.md",
     "笔记/前端/AJAX.md",
     "笔记/前端/编程语言/JS/axios.md",
@@ -1632,13 +1637,8 @@
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/质量/Jest.md",
-    "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/assets/Pasted image 20230729204207.png",
     "笔记/前端/assets/Pasted image 20230729202501.png",
-    "笔记/前端/React性能优化.md",
-    "笔记/前端/性能优化.md",
-    "笔记/学习/概念/概念.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/Pasted image 20230729172618.png",
     "笔记/前端/assets/useState原理.png",
     "笔记/前端/assets/图片文件使用CDN.png",
