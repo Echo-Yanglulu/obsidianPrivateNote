@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/navigator.md"
+                    "file": "笔记/前端/库、框架/UI库/react原理.md"
                   }
                 }
               }
@@ -1243,49 +1243,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "4af4bfdf9ebaf039",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "BOM",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/BOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":18},\"to\":{\"line\":10,\"ch\":18}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "CSRF",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/CSRF.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":21},\"to\":{\"line\":13,\"ch\":21}}}"
-                    },
-                    {
-                      "title": "前端安全",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/前端安全.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":13},\"to\":{\"line\":4,\"ch\":13}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/navigator.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 15
+            "currentTab": 14
           },
           {
             "id": "86193a5d16fa87de",
@@ -1312,7 +1272,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/navigator.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1340,7 +1300,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/navigator.md",
+                        "file": "笔记/前端/库、框架/UI库/react原理.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1638,15 +1598,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4af4bfdf9ebaf039",
+  "active": "dec706c556d4dd3c",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/window.md",
+    "笔记/前端/编程语言/JS/navigator.md",
+    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/编程语言/JS/location.md",
+    "笔记/前端/编程语言/JS/window.md",
+    "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/前端工作.md",
@@ -1672,9 +1634,7 @@
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/assets/Pasted image 20230729172618.png",
     "笔记/前端/编程语言/JS/Error.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/assets/useState原理.png",
-    "笔记/前端/库、框架/UI库/context.md",
     "笔记/前端/assets/图片文件使用CDN.png",
     "笔记/前端/assets/Pasted image 20230729002912.png",
     "笔记/前端/assets/Pasted image 20230728232845.png",

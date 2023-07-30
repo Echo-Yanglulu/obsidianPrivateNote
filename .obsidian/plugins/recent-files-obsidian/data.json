@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "navigator",
-      "path": "笔记/前端/编程语言/JS/navigator.md"
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
     },
     {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
+      "basename": "window",
+      "path": "笔记/前端/编程语言/JS/window.md"
     },
     {
       "basename": "location",
       "path": "笔记/前端/编程语言/JS/location.md"
+    },
+    {
+      "basename": "navigator",
+      "path": "笔记/前端/编程语言/JS/navigator.md"
+    },
+    {
+      "basename": "History",
+      "path": "笔记/前端/工程化/History.md"
     },
     {
       "basename": "CSRF",
@@ -35,10 +43,6 @@
     {
       "basename": "数据结构",
       "path": "笔记/前端/基础知识/数据结构/数据结构.md"
-    },
-    {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
       "basename": "概念",
@@ -195,10 +199,6 @@
     {
       "basename": "自我层级",
       "path": "笔记/工具/通用概念/自我层级.md"
-    },
-    {
-      "basename": "学习",
-      "path": "笔记/学习/学习.md"
     }
   ],
   "omittedPaths": [

@@ -35,7 +35,7 @@ var newValue = window.oldValue;
 		2. ReferenceError	ReferenceError的构造函数
 		3. SyntaxError	SyntaxError的构造函数
 		4. TypeError	TypeError的构造函数
-		5. URIError	URIError的构造函数
+		5. URIError	URIError 的构造函数【刚好是 Math 对象上的两组属性/方法】
 		6. EvalError	EvalError的构造函数
 3. 不属于任何对象的属性或方法
 	1. [[DOM]] 对象：[[DOM|document]] 
@@ -124,10 +124,10 @@ window.open()
 ### 修改
 ```js
 let wroxWin = window.open("http://www.wrox.com/","wroxWindow","height=400,width=400,top=10,left=10,resizable=yes");
-// 缩放
-wroxWin.resizeTo(500, 500);
-// 移动
+// 位置移动
 wroxWin.moveTo(100, 100);
+// 大小缩放
+wroxWin.resizeTo(500, 500);
 // 关闭
 wroxWin.close();
 top.close()
@@ -188,25 +188,26 @@ JS是单线程，每次只能执行一段代码，为了调度不同代码的执
 4. 分类
 	1. setTimeout()
 		1. 不一定要记录超时ID，因为它会在条件满足时自动停止，否则会自动设置另一个超时任务
-		2. 因为一个任务结束和下一个任务开始之间的时间间隔是无法保证的，有些循环定时任务可能会因此而被跳过
+		2. 因为一个任务结束和下一个任务开始之间的*时间间隔无法保证*，所以有些循环定时任务可能会因此而被跳过
 	2. setInterval()
 		1. 适合执行时间短、非阻塞的任务。
 		2. 一般来说，**即使时循环任务也最好不要使用**，而是使用timeout
 ## 系统对话框
-功能：调用浏览器的系统对话框，向用户展示消息。
-	1. 对话框与正在展示的网页无关、不包含HTML
+功能：调用*浏览器的系统对话框*，向用户展示消息。
+特性
+	1. 结构：与正在展示的网页无关、不包含 HTML
 	2. 样式：由浏览器决定，无法使用CSS设置
-	3. 同步：展示时后续JS代码停止，消失时才会继续执行。
-### alert
+	3. JS：展示时后续 JS 代码停止，消失时才会继续执行。
+### alert（提醒）
 功能：用户无法控制的消息，如报错
 接收：一个[[String]]。如果不是[[String]]则会自动调用toString。
 特点：只有一个OK按钮
-### confirm
+### confirm（交互）
 特点：两个按钮。
 功能：想确定用户点击了什么值，可使用调用的返回值（boolean）
 	true: 确定
 	false: 取消或关闭
-### prompt
+### prompt（进一步交互）
 参数
 	1. 要展示的文案（提问句）
 	2. 表单的默认值
