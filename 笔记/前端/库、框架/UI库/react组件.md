@@ -1,16 +1,12 @@
 # 创建
-1. [[数据类型]]
-	1. [[class组件]] 
-	2. [[函数组件]] 
-2. 创建方式
-	1. [[JSX]] 
-	2. React.createElement()
+## [[class组件]] 
+## [[函数组件]] 
 # 原理
 关注重点，而不是细节
 *使用相关*的原理，如 v-dom, jsx, setState
 ## 组件批处理
 # 属性
-透传props：<div {...props} ><\/div>
+透传props：`<div {...props}></div>`
 # 样式
 由于react中[[JSX]]的写法，给组件添加样式的方法有很多
 	1. 行内
@@ -18,10 +14,10 @@
 	3. [[CSS模块化]]  
 # 返回
 1. react元素
-2. 数组/fragments：多个元素
-3. portals：渲染子节点到不同DOM子树中
-4. String/Number：在DOM中被渲染为文本节点
-5. Boolean/null：不渲染。
+2. portals：渲染子节点到不同 DOM 子树中
+3. 数组或fragments：多个元素
+4. String 或 Number：在 DOM 中被渲染为文本节点
+5. Boolean 或 null：不渲染。
 # 通用概念
 1. 更新时会导致组件更新
 	1. state【数据】
@@ -32,12 +28,6 @@
 		1. 函数：useRef
 		2. 类、原生DOM：react.createRef
 ## 比较
-props与context
-	1. 相同
-		1. 功能：都是一种传递数据的通道
-	2. 不同
-		1. 功能的范围：是否能跨层级
-
 # 组件通讯
 根据传递方向，可分为3个
 1. 父向子
@@ -49,11 +39,11 @@ props与context
 		1. 传递数据：[[函数组件#useImperativeHandle|useImperativeHandle]] 
 		2. 传递元素：ref
 3. 兄弟组件
-	1. 父向子通过props，state传递一个，setState传递另一个
-
+	1. 父向子通过 props，state 传递一个，setState 传递另一个
+4. 自定义事件
+	1. 使用三方库： `events` 
 # 逻辑复用
 在没有 hook之前，开发逻辑组件通常是使用class组件，但两种常用方式都存在问题。
-
 ## 函数组件
 ```js
 import React, { useState } from "react";
@@ -225,21 +215,16 @@ flushSync(callback)
 ## 懒加载
 React.lazy引入组件。在需要展示时时候再导入。但此时可能没有组件展示，需要结合Suspense展示fallback组件
 # [[函数组件]]与类组件对比
-
-| 分类 | 功能 | 体积 | 优点 | 副作用的组织/分类维度 |
-| --- | --- | --- | --- | --- |
-| 类 | 状态管理、生命周期（中引入[[副作用]]） |  |  | 生命周期 |
-| 函数 | 状态管理、副作用 | 轻量 | 方便逻辑复用 | 副作用本身 |
 函数组件增加了Hooks之后，可在内部拥有自己的状态、可相较于类组件更好地实现逻辑复用
 1. class组件存在的问题
 	1. *代码组织*方式**简洁** 
-		1. 分为渲染和卸载两个阶段。组件按生命周期，挂载与更新阶段代码重复。而useEffect可实现三个时机。
-		2. 避免了忘记更新订阅带来的bug
-		3. state读写方式、避免非必要render的方式更简洁
+		1. 函数组件以渲染为核心组织代码，class 组件以生命周期为核心组织代码
+			1. 避免了忘记更新订阅带来的 bug
+		2. state读写方式、避免非必要render的方式更简洁
 			1. 不用解构读取，不用this.setState修改
-		4. 事件处理函数不用绑定实例
+		3. 事件处理函数不用绑定实例
 	2. *逻辑复用*【展示组件容易复用，但逻辑组件如何复用？】
-		1. [[HOC]]增加嵌套。render-props难以清晰梳理props、增加嵌套。
+		1. [[HOC]]增加嵌套。render-props<u>难以清晰梳理props</u>、增加<u>嵌套</u>。
 			1. 复用时需要重写组件结构、他人难以理解。
 			2. 使用devtools时嵌套层级深
 	3. *热重载*不稳定

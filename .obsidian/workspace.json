@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react组件.md"
                   }
                 }
               }
@@ -846,6 +846,18 @@
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":11},\"to\":{\"line\":15,\"ch\":11}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":400,\"ch\":13},\"to\":{\"line\":400,\"ch\":13}},\"scroll\":380.4810606060606}"
+                    },
+                    {
+                      "title": "函数组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":16},\"to\":{\"line\":14,\"ch\":16}}}"
                     },
                     {
@@ -961,7 +973,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/react组件.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1254,7 +1266,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1282,7 +1294,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react组件.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1586,9 +1598,11 @@
   },
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "Day Planners/2023-07-30.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -1610,8 +1624,6 @@
     "笔记/前端/工程化/History.md",
     "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/前端安全.md",
-    "笔记/前端/同源策略.md",
-    "笔记/前端/AJAX.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",
