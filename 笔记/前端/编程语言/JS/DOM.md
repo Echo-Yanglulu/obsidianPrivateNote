@@ -280,7 +280,7 @@ document.createElement(要创建元素的标签名)
 2. 某个元素的子节点和其他后代节点：`getElementsByTagName()`方法
 ## Attr类型
 **元素数据**在DOM中通过Attr类型表示
-Attr类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，属性是*存在于元素attributes属性中的节点* 
+Attr 类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，*属性是存在于元素 attributes 属性中的节点* 
 特征
 	1. nodeType等于2；
 	2. nodeName值为属性名；
@@ -291,20 +291,20 @@ Attr类型构造函数和原型在所有浏览器中都可以直接访问。技�
 
 1. 属性节点尽管是节点，却*不被认为是DOM文档树的一部分*。
 	1. Attr节点很少直接被引用，通常开发者更喜欢使用getAttribute ()、removeAttribute ()和setAttribute ()方法**操作属性**。
-2. Attr对象上有3个属性
+2. Attr对象上有3个*属性*
 	1. name。属性名（与nodeName一样）
 	2. value。属性值（与nodeValue一样）
 	3. specified。布尔值，表示属性使用的是默认值还是被指定的值
-3. 创建该类型节点
+3. 创建该*类型节点*
 	1. `document.createAttribute(属性名)` 
-4. 添加到元素上
+4. 添加到元素
 	1. `element.setAttributeNode(attr);` 
 5. 访问
-	1. attributes属性
-	2. getAttributeNode()
-	3. getAttribute()
+	1. `attributes`属性
+	2. `getAttributeNode()` 
+	3. `getAttribute()`：访问*属性节点*和访问*属性*有什么区别？
 ## Text类型
-Text节点由Text类型表示，包含*按字面解释的纯文本*，也可能包含*转义后的HTML字符*，但不含HTML代码。
+Text 类型节点表示，包含*按字面解释的纯文本*，也可能包含*转义后的 HTML 字符*，但不含 HTML 代码。
 特征
 	1. nodeType等于3；
 	2. nodeName值为"text"；
@@ -453,9 +453,10 @@ HTML中最复杂的结构之一.通过DOM编程创建\<table>元素，通常要�
 	1. 通过DOM编程创建和修改表格时可能要写很多代码
 使用这些属性和方法*创建表格*让代码变得更有逻辑性，也更容易理解
 ## 使用NodeList
-理解[[NodeList]]对象和相关的`NamedNodeMap`、[[HTMLCollection]] ，是理解DOM编程的关键。
+理解[[NodeList]]对象和相关的 `NamedNodeMap` 、[[HTMLCollection]] ，是理解 DOM 编程的关键。
+这三个集合的特性
 	1. 都是“实时的”。文档结构的变化会实时地在它们身上反映出来，因此它们的值始终代表最新的状态
-	2. 任何时候要迭代NodeList，最好再初始化一个变量保存当时查询时的长度，然后用循环变量与这个变量进行比较
+	2. 任何时候要*迭代NodeList*，最好再初始化一个变量保存当时查询时的长度，然后用循环变量与这个变量进行比较
 
 最好限制操作NodeList的次数。因为每次查询都会**搜索整个文档**，所以最好把查询到的NodeList缓存起来
 # [[MutationObserver]]接口
