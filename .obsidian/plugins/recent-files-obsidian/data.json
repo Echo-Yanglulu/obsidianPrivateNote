@@ -5,16 +5,20 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "客户端存储",
+      "path": "笔记/前端/编程语言/JS/客户端存储.md"
+    },
+    {
       "basename": "react-router",
       "path": "笔记/前端/库、框架/UI库/react-router.md"
     },
     {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
     },
     {
       "basename": "react",
@@ -195,10 +199,6 @@
     {
       "basename": "属性选择器",
       "path": "笔记/前端/assets/属性选择器.png"
-    },
-    {
-      "basename": "异步JS",
-      "path": "笔记/前端/编程语言/JS/异步JS.md"
     }
   ],
   "omittedPaths": [
