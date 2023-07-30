@@ -1,23 +1,18 @@
-# 概述【节点层级，DOM编程，MO】
+# 概述【定义，功能，意义】
 [DOM 概述 - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction?spm=a21iq3.home.0.0.54b42764PcwehE) 
 定义：DOM是 [[HTML]] 与 [[XML]] 文档的**编程模型**。提供了对文档的**结构化表示**，并定义了一种方式，从程序中对该结构进行**访问**。
 	1. 即，DOM是一种表示方法，提供了对该表示的访问方法。
 功能
 	1. 表示由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分
-	3. DOM Level 1：提供了基本*文档结构*和*查询*的接口
+	3. DOM Level 1：提供了基本*文档结构化表示*和*查询*的接口
 意义
 	1. DOM现在是真正*跨平台*、*语言无关*的**表示和操作网页的方式** 
 	2. 之所以介绍DOM，是因为它与浏览器中的HTML文档有关，并在JS中提供了DOM API
 特性
 	1. 树形结构
 概要
-	1. 介绍 DOM，主要是 DOM Level 1 定义的 API。
 	2. 简单讨论 XML 及其与 DOM 的关系，
-	3. 进而全面探索 DOM 以及如何利用它操作网页。
 ## 内容
-浏览器解析HTML文档时，在内存中将每个元素表示为DOM。
-DOM对象是[[宿主对象]]。
-
 要理解DOM，最关键的一点是知道影响其性能的问题所在。
 	1. *DOM操作*在JavaScript代码中是代价比较高的，NodeList对象尤其需要注意
 		1. NodeList对象**实时更新**，这意味着每次访问它都会执行一次新的查询
@@ -534,23 +529,20 @@ offsetWidth：3个
 window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
 ## 元素节点
-### 获取
-id
-name：伪数组，name属性
-tagName：伪数组，标签名
-className：伪数组，class属性
-querySelector()
-querySelectorAll(标签名)
-matches()
-### 新增
-createElement
-createDocumentFragment
-### 插入
-appendChild
-### 删除
-removeChild
-### 移动
-先获取，再插入，节点不是复制，而是移动
+### 操作
+1. 获取
+	1. id
+	2. name：伪数组，name 属性
+	3. tagName：伪数组，标签名2. className：伪数组，class 属性性
+	4. querySelector()
+	5. querySelectorAll(标签名)
+	6. matches()
+2. 新增
+	1. createElement
+	2. createDocumentFragment
+3. 插入：appendChild
+4. 删除：removeChild
+5. 移动：先获取，再插入【插入的是已有节点时，执行的操作不是复制，而是移动】
 ### 关系
 1. 父元素：parentNode
 2. 子元素列表：childNodes
