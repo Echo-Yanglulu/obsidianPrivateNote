@@ -10,17 +10,15 @@
 	2. 之所以介绍DOM，是因为它与浏览器中的HTML文档有关，并在JS中提供了DOM API
 特性
 	1. 树形结构
-概要
-	2. 简单讨论 XML 及其与 DOM 的关系，
 ## 内容
-要理解DOM，最关键的一点是知道影响其性能的问题所在。
-	1. *DOM操作*在JavaScript代码中是代价比较高的，NodeList对象尤其需要注意
-		1. NodeList对象**实时更新**，这意味着每次访问它都会执行一次新的查询
+要理解DOM，最关键的一点是知道影响其**性能**的问题所在。
+	1. *DOM操作*在JavaScript代码中是*代价*比较高的，NodeList对象尤其需要注意
+		1. NodeList 对象**实时更新**，这意味着每次访问它都会执行一次新的查询。缓存查询
 # 节点层级【节点，文档，文档类型，文档碎片，元素，属性，文本，注释，CDATA类型】
 背景：DOM可以将HTML或XML文档*表示*为一个由**节点**组成的**层级结构**[^3] 
 	1. 节点**类型** 
-		1. 含义：*对应*文档中不同的信息或标记
-		2. 属性：*拥有*自己不同的特性、数据和方法
+		1. *表示*文档中不同的信息或标记
+		2. *拥有*自己不同的特性、数据和方法
 		3. 与其他类型存在某种*关系* 
 			1. 这些不同类型之间形成的关系构成了*层级*，让**标记表示为一个以特定节点为根的树形结构**。
 	2. DOM中有12种节点类型
@@ -36,11 +34,11 @@
   </body>
 </html>
 ```
-用DOM，表示为一个由节点表示的层级结构，则为 ![[Pasted image 20230709233103.png]]
+用 DOM 表示为一个由节点组成的层级结构，则为 ![[Pasted image 20230709233103.png]]
 > 文档根节点>子节点（文档元素）
 > document节点>在html中是html元素，在xml中不定
 
-1. 每个**文档根节点**：使用document节点表示
+1. **文档根节点**：使用document节点表示
 2. 根节点的*唯一*子节点，我们称之为*文档元素*或*根元素*：documentElement。
 	1. 层级：文档最外层的元素，所有其他元素都存在于这个元素之内
 	2. 数量：每个文档只能有一个
@@ -52,9 +50,8 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 	属性表示为属性节点
 ## Node类型
 背景：DOM Level 1描述了名为`Node`的接口
-	1. 必要：
-		1. 所有DOM节点类型都必须实现
-		2. 所有节点类型都**继承**Node类型，因此所有类型都共享相同的*基本属性和方法*
+	1. 必要
+		1. 所有 DOM 节点类型都必须实现，都继承自Node 类型，因此所有类型都共享相同的基本属性和方法
 	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
 分类：文档、元素、属性、文本、2 C、2 D
 ### 节点类型
@@ -86,15 +83,15 @@ nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类
 每个节点都有【8个】
 	1. `ownerDocument` ：文档节点。所有节点都被创建它们的文档所拥有
 	2. `parentNode` ： 其DOM树中的父元素
+	5. `previousSibling`和`nextSibling`可以在这个列表的节点间*导航*
+		1. 列表中第一个节点的 previousSibling 属性、最后一个节点的 nextSibling 属性是null
+		2. 只有一个节点，则它的previousSibling和nextSibling属性都是null
 	3. `hasChildNodes()`：是在存在子节点
 	4. `childNodes` 属性，其中包含一个 [[NodeList]] 的实例。列表中的每个节点都是同一列表中其他节点的同胞节点
-		1. `previousSibling`和`nextSibling`可以在这个列表的节点间*导航*
-			1. 列表中第一个节点的 previousSibling 属性、最后一个节点的 nextSibling 属性是null
-			2. 只有一个节点，则它的previousSibling和nextSibling属性都是null
-	5. `firstChild`、`lastChild`。
+	6. `firstChild`、`lastChild`。
 		1. 只有一个子节点：指向该子节点
 		2. 没有子节点：指向null
-		3. 等同：someNode.childNodes\[0]
+		3. 等同：`someNode.childNodes[0]`
 ### 节点操作
 背景：所有关系指针都是**只读**的，所以DOM又提供了一些操纵节点的方法
 1. `appendChild()`：在childNodes列表**末尾添加**节点
@@ -106,24 +103,16 @@ nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类
 4. `removeChild()`：移除
 	1. 返回被移除的节点
 5. 每个节点都有
-	1.  `cloneNode(Boolean)`：是否深复制某个节点
+	1. `cloneNode(Boolean)`：是否深复制某个节点
 		1. 返回的节点归文档所有，是孤儿节点，没有父节点
 		2. 只复制HTML属性，不复制JS属性。如事件处理程序
-		3. true：复制节点及整个DOM树
-		4. false：只复制该节点，忽略内容
+		3. true：复制节点及整个子 DOM 树
+		4. false：只复制调用该方法的节点，忽略内容。复制返回的节点属于文档所有，但尚未指定父节点，所以可称为孤儿节点（orphan）
 	2. `normalize()`：处理文档子树中的文本节点。
 		1. 背景：由于解析器实现的差异或DOM操作等原因，可能会出现并不包含文本的文本节点，或者文本节点之间互为同胞关系。
 		2. 节点上调用normalize()方法会*检测这个节点的所有后代*，从中搜索上述两种情形
 			1. 出现并不包含文本的文本节点。发现*空文本节点*，则将其删除
 			2. *文本节点之间*互为同胞关系。两个同胞节点是相邻的，则将其合并为一个文本节点
-### 其他节点方法
-1. cloneNode()
-	1. 接收一个布尔值参数，表示是否深复制
-		1. 传入true参数时，会进行深复制，即复制节点及其整个子DOM树
-		2. 传入false，则只会复制调用该方法的节点。复制返回的节点属于文档所有，但尚未指定父节点，所以可称为孤儿节点（orphan）。可以通过appendChild()、insertBefore()或replaceChild()方法把孤儿节点添加到文档中
-	2. 返回与调用它的节点一模一样的节点
-2. normalize()：处理文档子树中的文本节点
-		1. 
 ## Document类型
 意义
 	1. 是JavaScript中**表示文档节点**的类型。
@@ -139,13 +128,14 @@ nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类
 	3. nodeValue值为null；
 	4. parentNode值为null；
 	5. ownerDocument值为null；
-	6. 子节点可以是DocumentType（最多一个）、Element（最多一个）、ProcessingInstruction或Comment类型。
-应用：可以表示HTML页面或其他XML文档，但最常用的还是通过HTMLDocument的实例取得document对象。document对象可用于获取关于页面的信息以及操纵其外观和底层结构。
+应用
+	1. 表示 HTML 页面或其他 XML 文档，
+	2. 最常用的还是通过 HTMLDocument 的实例取得 document 对象。[[document]] 对象可用于获取关于页面的信息以及操纵其*外观和底层结构*。
 ### 文档子节点
-DOM规范规定 `Document节点的子节点` 可以是DocumentType、Element、ProcessingInstruction或Comment，但也提供了两个**访问子节点**的快捷方式
-	1. documentElement属性：始终指向HTML页面中的\<html>元素
-		1. document.childNodes中始终有\<html>元素，但使用documentElement属性可以更快更直接地访问该元素
-	2. DocumentType：Document类型另一种可能的子节点。
+DOM 规范规定 `Document节点的子节点` 可以是 DocumentType（最多一个）、Element（最多一个）、ProcessingInstruction 或 Comment，但也提供了两个**访问子节点的快捷方式**
+	1. documentElement 属性：始终指向 HTML 页面中的 `<html>`元素
+		1. document.childNodes中始终有`<html>`元素，但使用documentElement属性可以更快更直接地访问该元素
+	2. DocumentType：另一种可能的子节点。
 		1. <!doctype>标签是文档中独立的部分，其信息可以通过doctype属性（在浏览器中是document.doctype）来访问
 		2. 只读
 ### 文档信息
@@ -176,15 +166,15 @@ document对象上还暴露了几个特殊集合，这些集合也都是[[HTMLCol
 	3. document.images包含文档中所有\<img>元素（与document.getElementsByTagName ("img")返回的结果相同）
 	4. document.forms包含文档中所有\<form>元素（与document.getElementsByTagName ("form")返回的结果相同）
 ### DOM兼容性检测
-背景：DOM有多个Level和多个部分，因此确定浏览器实现了DOM的哪些部分是很必要的。
+背景：*DOM有多个Level和多个部分*，因此确定浏览器实现了DOM的哪些部分是很必要的。
 方法
-	1. document.implementation属性是一个对象，其中提供了与浏览器DOM实现相关的信息和能力
+	1. document.implementation 属性是一个对象，其中提供了与*浏览器 DOM 实现*相关的信息和能力。**已经被废弃，不再建议使用** 
 		1. DOM Level 1在document.implementation上只定义了一个方法`hasFeature(特性名称，DOM版本)`。
 			1. 如果浏览器支持指定的特性和版本，则hasFeature()方法返回true
 			2. `let hasXmlDom = document.implementation.hasFeature("XML", "1.0");` 
-		2. **已经被废弃，不再建议使用** 
+		2. 
 ### 文档写入
-document对象有一个古老的能力，即向网页输出流中写入内容
+document对象有一个古老的能力，即*向网页输出流中写入内容*
 对应方法
 1. write()、writeln()、open()和close()。
 	1. write()和writeln()方法都接收一个字符串参数，可以将这个字符串写入网页中。
@@ -210,7 +200,7 @@ document对象有一个古老的能力，即向网页输出流中写入内容
 			1. div.tagName实际上返回的是"DIV"而不是"div"。使用toLowerCase处理再比较\=='div'
 			2. 
 ### HTML元素
-1. 所有HTML元素都通过HTMLElement类型表示，包括其直接实例和间接实例。【所有HTML元素都是HTMLElement或其子类型的实例】
+1. 所有*HTML元素*都通过HTMLElement类型表示，包括其直接实例和间接实例。【所有HTML元素都是HTMLElement或其子类型的实例】
 2. HTMLElement直接继承Element并增加了一些属性。【可读写，获取、修改相应属性值】
 	1. id，元素在文档中的唯一标识符；
 	2. title，包含元素的额外信息，通常以提示条形式展示；
@@ -227,10 +217,10 @@ document对象有一个古老的能力，即向网页输出流中写入内容
 ### 取得属性
 含义：每个元素都有零个或多个属性，通常用于*为元素或其内容附加信息*。
 方式
-	1. 属性相关的DOM方法主要有3个。这些方法主要用于操纵属性，包括在HTMLElement类型上定义的属性
-		1. getAttribute()：通过*DOM方法获取属性*
+	1. 属性相关的DOM方法主要有3个。这些方法主要用于*操纵属性*，包括在HTMLElement类型上定义的属性
+		1. getAttribute()：通过DOM方法获取属性
 			1. 给定的属性不存在，则getAttribute()返回null
-			2. 也能取得不是HTML语言正式属性的*自定义属性*的值
+			2. 也能取得不是HTML语言正式属性的自定义属性的值
 		2. setAttribute()
 		3. removeAttribute()
 	2. 属性也可以通过*DOM元素对象的属性*来取得。包括HTMLElement上定义的直接映射对应属性的5个属性，还有所有公认（非自定义）的属性也会被添加为DOM对象的属性【自定义属性，因此不会成为DOM对象的属性】
@@ -257,7 +247,7 @@ setAttribute(要设置的属性名，属性的值)
 removeAttribute()用于从元素中删除属性。不单是清除属性值，而是会把整个属性完全从元素中去掉
 	1. 用得并不多，但在*序列化DOM*元素时可以通过它控制要包含的属性
 ### attributes 属性
-意义：*Element类型是唯一使用attributes属性的DOM节点类型* 
+意义：Element类型是唯一使用attributes属性的DOM节点类型
 特点
 	1. 包含一个**NamedNodeMap**实例，是一个类似NodeList的“实时”集合。元素的每个属性都表示为一个*Attr节点*，并保存在这个*NamedNodeMap对象*中
 		1. `getNamedItem(name)`，返回nodeName属性等于name的节点；
