@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/React与Vue的比较.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -843,6 +843,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "React与Vue的比较",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/React与Vue的比较.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":19},\"to\":{\"line\":12,\"ch\":19}},\"scroll\":5.897253787878788}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -985,7 +991,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1278,7 +1284,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1306,7 +1312,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/React与Vue的比较.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1609,12 +1615,18 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/圣杯布局.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/双飞翼布局.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/编程语言/CSS/响应式布局.md",
+    "笔记/前端/库、框架/React与Vue的比较.md",
+    "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/质量/单元测试.md",
     "笔记/前端/编程语言/JS/工具函数.md",
     "Day Planners/2023-07-30.md",
@@ -1631,11 +1643,6 @@
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/screen.md",
-    "笔记/前端/编程语言/JS/location.md",
-    "笔记/前端/编程语言/JS/window.md",
-    "笔记/前端/工程化/History.md",
-    "笔记/前端/编程语言/JS/CSRF.md",
-    "笔记/前端/编程语言/JS/前端安全.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",
@@ -1643,7 +1650,6 @@
     "笔记/前端/assets/Pasted image 20230729172618.png",
     "笔记/前端/assets/useState原理.png",
     "笔记/前端/assets/图片文件使用CDN.png",
-    "笔记/前端/assets/Pasted image 20230729002912.png",
-    "笔记/前端/assets/Pasted image 20230728232845.png"
+    "笔记/前端/assets/Pasted image 20230729002912.png"
   ]
 }
