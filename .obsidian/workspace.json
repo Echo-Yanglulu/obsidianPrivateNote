@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/编程语言/JS/工具函数.md"
                   }
                 }
               }
@@ -836,8 +836,14 @@
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-30",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1197,9 +1203,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "56423dd4861ac48a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/工具函数.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 14
           },
           {
             "id": "86193a5d16fa87de",
@@ -1226,7 +1254,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1254,7 +1282,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/工具函数.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1552,13 +1580,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "56423dd4861ac48a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "Day Planners/2023-07-30.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/编程语言/JS/DOM.md",
@@ -1572,7 +1601,6 @@
     "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/基础知识/算法/算法.md",
-    "Day Planners/2023-07-30.md",
     "笔记/前端/编程语言/JS/BOM.md",
     "笔记/前端/编程语言/JS/navigator.md",
     "笔记/前端/编程语言/JS/screen.md",
