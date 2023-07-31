@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -273,6 +273,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "力量训练",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":21},\"to\":{\"line\":16,\"ch\":21}},\"scroll\":20.12784090909091}"
                     },
                     {
                       "title": "健身",
@@ -603,7 +609,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -836,8 +842,14 @@
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-07-31",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-31.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1257,7 +1269,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -1284,7 +1296,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1312,7 +1324,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1610,13 +1622,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "35e75a6fb5297186",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/CSS/圣杯布局.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/前端工作.md",
+    "Day Planners/2023-07-31.md",
+    "笔记/前端/编程语言/CSS/圣杯布局.md",
     "笔记/前端/双飞翼布局.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
@@ -1641,8 +1655,6 @@
     "笔记/前端/基础知识/数据结构/数据结构.md",
     "笔记/前端/基础知识/算法/算法.md",
     "笔记/前端/编程语言/JS/BOM.md",
-    "笔记/前端/编程语言/JS/navigator.md",
-    "笔记/前端/编程语言/JS/screen.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",
