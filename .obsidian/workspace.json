@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md"
+                    "file": "笔记/前端/工程化/npm.md"
                   }
                 }
               }
@@ -879,74 +879,6 @@
                 }
               },
               {
-                "id": "434ebcf24dbeb4e8",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "react组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":13},\"to\":{\"line\":3,\"ch\":13}}}"
-                    },
-                    {
-                      "title": "组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
-                    },
-                    {
-                      "title": "react",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":10},\"to\":{\"line\":15,\"ch\":10}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "dec706c556d4dd3c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "2023-07-30",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-30.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "56423dd4861ac48a",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1091,7 +1023,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -1118,7 +1050,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1146,7 +1078,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react原理.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1437,19 +1369,21 @@
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "dec706c556d4dd3c",
+  "active": "56423dd4861ac48a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/编程语言/CSS/CSS选择器.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/包管理器.md",
@@ -1475,8 +1409,6 @@
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工作/工作.md",
     "笔记/内心/人生.md",
-    "笔记/内心/渐悟.md",
-    "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/挥手.png",
