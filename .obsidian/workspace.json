@@ -1172,7 +1172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1315,6 +1316,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230731214431.png",
+    "笔记/前端/assets/Pasted image 20230731214232.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
     "笔记/前端/工程化/ES Module.md",
@@ -1341,7 +1344,6 @@
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/编程语言/CSS/属性值与单位.md",
-    "笔记/前端/编程语言/JS/工具函数.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",
@@ -1349,7 +1351,6 @@
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",
     "笔记/前端/assets/Pasted image 20230729202501.png",
-    "笔记/前端/assets/Pasted image 20230729172618.png",
-    "笔记/前端/assets/useState原理.png"
+    "笔记/前端/assets/Pasted image 20230729172618.png"
   ]
 }
