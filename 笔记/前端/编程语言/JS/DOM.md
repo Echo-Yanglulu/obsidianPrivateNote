@@ -75,6 +75,7 @@ if (someNode.nodeType == Node.ELEMENT_NODE){
 }
 ```
 浏览器并不支持所有节点类型。开发者最常用到的是元素节点和文本节点。
+节点层级：继承关系![[Pasted image 20230731163127.png]] 
 ### 节点信息
 nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类型
 	1. 元素：nodeName是标签名，nodeValue是null
@@ -187,7 +188,7 @@ document对象有一个古老的能力，即*向网页输出流中写入内容*
 2. open()和close()方法分别用于打开和关闭网页输出流。
 ## Element类型
 背景：除了Document类型，Web开发中最常用的类型。
-功能：*表示*XML或HTML元素，对外*暴露*出访问元素标签名、子节点和属性的能力
+功能：表示**XML或HTML元素**，对外*暴露*出访问元素标签名、子节点和属性的能力
 特征
 	1. nodeType等于1；
 	2. nodeName值为元素的标签名；
@@ -212,8 +213,56 @@ document对象有一个古老的能力，即*向网页输出流中写入内容*
 	2. 修改title属性则只会在鼠标移到这个元素上时才会反映出来
 	3. 修改dir会导致页面文本立即向左或向右对齐
 	4. 修改className会立即反映应用到新类名的CSS样式（如果定义了不同的样式）
-#### 所有HTML元素及其对应的类型
+#### 所有 HTML 元素及其对应的类型
 
+| 元素 | 类型 | 元素 | 类型 |
+| ---- | ---- | ---- | ---- |
+| A |	HTMLAnchorElement |	COL |	HTMLTableColElement |
+| ABBR |	HTMLElement |	COLGROUP |	HTMLTableColElement |
+| ACRONYM |	HTMLElement |	DD |	HTMLElement |
+| ADDRESS |	HTMLElement |	DEL |	HTMLModElement |
+| APPLET |	HTMLAppletElement |	DFN |	HTMLElement |
+| AREA |	HTMLAreaElement |	DIR |	HTMLDirectoryElement |
+| B |	HTMLElement |	DIV |	HTMLDivElement |
+| BASE |	HTMLBaseElement |	DL |	HTMLDListElement |
+| BASEFONT |	HTMLBaseFontElement |	DT |	HTMLElement |
+| BDO |	HTMLElement |	EM |	HTMLElement |
+| BIG |	HTMLElement |	FIELDSET |	HTMLFieldSetElement |
+| BLOCKQUOTE |	HTMLQuoteElement |	FONT |	HTMLFontElement |
+| BODY |	HTMLBodyElement |	FORM |	HTMLFormElement |
+| BR |	HTMLBRElement |	FRAME |	HTMLFrameElement |
+| BUTTON |	HTMLButtonElement |	FRAMESET |	HTMLFrameSetElement |
+| CAPTION |	HTMLTableCaptionElement |	H1 |	HTMLHeadingElement |
+| CENTER |	HTMLElement |	H2 |	HTMLHeadingElement |
+| CITE |	HTMLElement |	H3 |	HTMLHeadingElement |
+| CODE |	HTMLElement |	H4 |	HTMLHeadingElement |
+| H5 |	HTMLHeadingElement |	PRE |	HTMLPreElement |
+| H6 |	HTMLHeadingElement |	Q |	HTMLQuoteElement |
+| HEAD |	HTMLHeadElement |	S |	HTMLElement |
+| HR |	HTMLHRElement |	SAMP |	HTMLElement |
+| HTML |	HTMLHtmlElement |	SCRIPT|	HTMLScriptElement |
+| I |	HTMLElement |	SELECT|	HTMLSelectElement |
+| IFRAME |	HTMLIFrameElement |	SMALL|	HTMLElement |
+| IMG |	HTMLImageElement |	SPAN|	HTMLElement |
+| INPUT |	HTMLInputElement |	STRIKE|	HTMLElement |
+| INS |	HTMLModElement |	STRONG|	HTMLElement |
+| ISINDEX |	HTMLIsIndexElement |	STYLE|	HTMLStyleElement |
+| KBD |	HTMLElement |	SUB|	HTMLElement |
+| LABEL |	HTMLLabelElement |	SUP|	HTMLElement |
+| LEGEND |	HTMLLegendElement |	TABLE|	HTMLTableElement |
+| LI |	HTMLLIElement |	TBODY|	HTMLTableSectionElement |
+| LINK |	HTMLLinkElement |	TD|	HTMLTableCellElement |
+| MAP |	HTMLMapElement |	TEXTAREA|	HTMLTextAreaElement |
+| MENU |	HTMLMenuElement |	TFOOT|	HTMLTableSectionElement |
+| META |	HTMLMetaElement |	TH|	HTMLTableCellElement |
+| NOFRAMES |	HTMLElement |	THEAD|	HTMLTableSectionElement |
+| NOSCRIPT |	HTMLElement |	TITLE|	HTMLTitleElement |
+| OBJECT |	HTMLObjectElement |	TR|	HTMLTableRowElement |
+| OL |	HTMLOListElement |	TT|	HTMLElement |
+| OPTGROUP |	HTMLOptGroupElement |	U|	HTMLElement |
+| OPTION |	HTMLOptionElement |	UL|	HTMLUListElement |
+| P |	HTMLParagraphElement |	VAR|	HTMLElement |
+| PARAM|	HTMLParamElement		| | |
 ### 取得属性
 含义：每个元素都有零个或多个属性，通常用于*为元素或其内容附加信息*。
 方式
@@ -488,7 +537,7 @@ MutationRecord的引用
 3. 浏览器*视口高度* 
 	1. window.innerHeight
 	2. document.documentElement.clientWidth：页面的宽高
-4. **client**Width：*content+padding*。不含滚动条
+4. **client**Width：*content+padding*。不含滚动部分
 	1. clientLeft：左border宽度
 	2. document.documentElement.clientWidth：页面的宽高
 	3. document.body.clientHeight：body高度
@@ -498,7 +547,8 @@ MutationRecord的引用
 		2. 有滚动：==滚动内容高度== + ==padding== 
 		3. 如果设置 scroll 为 auto，content 高为手动设置的高度
 		4. 如果设置 scroll 为 scroll，content 高缩小
-	2. scrollLeft：左边滚动的距离
+	2. scrollLeft：左侧滚动的距离
+	3. window.scrollY === window.pageYoffset：文档相对视口的滚动距离
 6. **offset**Width：*content+padding+border*。含滚动条
 	1. offsetTop：元素*上边框*与 offsetParent 元素的上边框距离
 	2. offsetParent：元素距离<u>定位父元素</u>的*顶部偏移量*，如果一直没有最多上升到 body 元素。
