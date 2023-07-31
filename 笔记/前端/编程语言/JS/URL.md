@@ -28,6 +28,31 @@
 
 查询参数
 	1. location.search
-	2. URLSearchParams API
-		1. `const params = new URLSearchParams(location.search)` 
-		2. `params.get(key)` 
+	2. [[URLSearchParams]] API
+# [[单例内置对象]] 
+用于处理 URL 的内置对象
+```js
+// 获取
+const url = new URL('https://www.example.com/path/file?query=value#fragment')
+console.log(url.protocol) // 输出：https:
+console.log(url.host) // 输出：www.example.com
+console.log(url.pathname) // 输出：/path/file
+console.log(url.search) // 输出：?query=value
+console.log(url.hash) // 输出：#fragment
+
+```
+## 属性与方法
+1. toString() 方法可以将 URL 对象转换为字符串
+2. searchParams 属性可以访问查询字符串参数
+	1. get()
+3. keys()    返回 iterator，此对象包含所有搜索的键名
+4. values()   返回 iterator,此对象包含所有的 value
+5. entries()    返回一个 iterator，可以遍历所有的键值对的对象
+6. set()     设置一个搜索参数新值，原来有多个值将删除其他所有值
+7. get()     获取指定搜索参数的值
+8. has()   判断是否有指定的搜索参数
+9. getAll()   获取指定搜索参数的所有值，返回一个数组
+10. delete()   从搜索参数列表里删除指定的键和值
+11. append()  插入一个指定的键/值
+12. toString()   返回搜索参数组成的字符串
+13. sort()  按键名排序

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/函数组件.md"
+                    "file": "笔记/前端/编程语言/JS/base64.md"
                   }
                 }
               }
@@ -955,13 +955,61 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "URL",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/URL.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":6.452794739314232}"
+                    },
+                    {
+                      "title": "location",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/location.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":19},\"to\":{\"line\":13,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "axios",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/axios.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":286,\"ch\":34},\"to\":{\"line\":286,\"ch\":34}},\"scroll\":264.1880208333333}"
+                    },
+                    {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":131,\"ch\":48},\"to\":{\"line\":131,\"ch\":48}},\"scroll\":111.4403409090909}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":19},\"to\":{\"line\":11,\"ch\":19}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Global",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":31},\"to\":{\"line\":44,\"ch\":31}},\"scroll\":20.625651041666668}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
+                    },
+                    {
+                      "title": "工具函数",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/工具函数.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":23},\"to\":{\"line\":30,\"ch\":23}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/工具函数.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -969,7 +1017,7 @@
                 }
               }
             ],
-            "currentTab": 9
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -996,7 +1044,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/base64.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1024,7 +1072,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/函数组件.md",
+                        "file": "笔记/前端/编程语言/JS/base64.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1089,7 +1137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "每个字符",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -1150,7 +1198,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "cd149acb9d388145",
@@ -1322,11 +1370,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "434ebcf24dbeb4e8",
+  "active": "f0734c58f7c92e27",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/base64.md",
+    "笔记/前端/编程语言/JS/ASCII.md",
+    "笔记/前端/编程语言/JS/计算机编码.md",
+    "笔记/工具/思考/记忆/编码.md",
+    "笔记/前端/编程语言/JS/UTF-8.md",
+    "笔记/前端/编程语言/JS/URLSearchParams.md",
+    "笔记/前端/编程语言/JS/URL.md",
+    "笔记/前端/编程语言/JS/location.md",
+    "笔记/前端/编程语言/JS/axios.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/前端/编程语言/JS/工具函数.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/JS/Error.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/痛风.md",
@@ -1340,21 +1402,7 @@
     "笔记/前端/库、框架/React与Vue的比较.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/库、框架/UI库/react组件.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/库、框架/UI库/副作用.md",
-    "笔记/前端/工程化/质量/单元测试.md",
-    "笔记/前端/编程语言/JS/工具函数.md",
-    "Day Planners/2023-07-30.md",
-    "笔记/前端/编程语言/JS/客户端存储.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/编程语言/JS/HTMLCollection.md",
-    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/assets/硬编码关联元素.png",
-    "笔记/前端/库、框架/UI库/redux.md",
-    "笔记/前端/库、框架/UI库/组件.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",

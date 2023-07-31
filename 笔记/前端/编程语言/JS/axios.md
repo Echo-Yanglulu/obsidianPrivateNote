@@ -211,13 +211,7 @@ v0.22.0 开始已被弃用
 默认情况下，axios将 JavaScript 对象序列化为 [[JSON]]。
 要以application/x-www-form-urlencoded格式发送数据，您可以使用以下选项之一
 ## [[浏览器]] 
-### 使用URLSearchParams API
-```js
-const params = new URLSearchParams();
-params.append('param1', 'value1');
-params.append('param2', 'value2');
-axios.post('/foo', params);
-```
+### 使用[[URLSearchParams]] API
 ### 使用qs库
 ```js
 const qs = require('qs');
@@ -269,7 +263,7 @@ axios(options);
   headers: {'X-Requested-With': 'XMLHttpRequest'},
 ## params
   // `params` 是与请求一起发送的 URL 参数
-  // 必须是一个简单对象或 URLSearchParams 对象
+  // 必须是一个简单对象或 [[URLSearchParams]] 对象
   params: {
     ID: 12345
   },

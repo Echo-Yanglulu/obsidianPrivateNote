@@ -10,7 +10,7 @@
 			2. port
 		7. pathname：路径。端口后，查询参数前
 		8. search：查询参数。?name=abc&password=admin
-			1. URLSearchParams对象，get, set, delete
+			1. 或[[URLSearchParams]]对象，get, set, delete
 		9. hash：哈希。#home。
 		10. origin：源。https://www.rox.com。**只读** 
 	2. **导航功能** 

@@ -1,5 +1,5 @@
 # 概述
-1. 目的：ECMA-262规定Global对象为一种*兜底对象*，*针对*的是不属于任何对象的属性和方法。
+1. 目的：ECMA-262规定 Global 对象为一种*兜底对象*，*针对*的是不属于任何对象的值和方法。
 	1. [[作用域]]：事实上，也不存在全局变量或全局函数。全局作用域中定义的变量和函数都会变成Global对象的属性。
 2. 访问：ECMA-262没有规定直接**访问Global**对象的方式[^2]，在大多数*ECMAScript实现*中都无法直接访问。
 	1. [[浏览器]]将[[window]]对象*实现*为**Global对象的代理**。
@@ -17,7 +17,7 @@ isNaN()、isFinite()、parseInt()、parseFloat()
 	2. 同时以特殊的UTF-8编码替换掉所有*无效字符* 
 ### ecnodeURI()
 编码URI
-	1. 假定任何*保留字符*都有特殊意义，所有不会编码属于*URL组件*的特殊字符，比如冒号、斜杠、问号、井号
+	1. 假定任何*保留字符*都有特殊意义，所有不会编码属于*URL 组件*的特殊字符，比如冒号、斜杠、问号、&、井号
 ```js
 let uri = "http://www.wrox.com/illegal value.js#start";
 console.log(encodeURI(uri));  
@@ -42,7 +42,7 @@ decodeURIComponent(uri)
 // http:// www.wrox.com/illegal value.js#start
 // 输出了没有包含任何转义的字符串。（这个字符串不是有效的URL。）
 ```
-*何时需要编码URL组件*？何时不需要？
+*何时需要编码 URL 组件*？何时不需要？两种方式如何选择？
 ![[Pasted image 20230710091228.png]]
 ## eval()
 意义：整个ECMAScript语言中最强大的方法
