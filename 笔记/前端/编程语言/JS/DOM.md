@@ -485,33 +485,41 @@ MutationRecord的引用
 # 属性
 1. screen.height：*显示器高度*
 2. window.outerHeight：浏览器*软件高度*【全屏时等于显示器高度】
-3. window.innerHeight：浏览器*视口高度* 
-4. **offset**Height：*content+padding+border*。含滚动条
-	1. offsetTop：元素上边框与offsetParent元素的上边框距离
-5. **client**Width：*content+padding*。不含滚动条
+3. 浏览器*视口高度* 
+	1. window.innerHeight
+	2. document.documentElement.clientWidth：页面的宽高
+4. **client**Width：*content+padding*。不含滚动条
 	1. clientLeft：左border宽度
 	2. document.documentElement.clientWidth：页面的宽高
 	3. document.body.clientHeight：body高度
-6. **scroll**Height、scrollY：*content+padding*。含滚动部分。
-	1. 没有滚动：等于clientHeight
-	2. 有滚动：==滚动内容高度== + ==padding== 
-	3. 如果设置scroll为auto，content高为手动设置的高度
-	4. 如果设置scroll为scroll，content高缩小
-
-1. 元素自身有fixed定位，则
-scrollY：被滚动的高度
-scrollTop：一个内部产生了滚动，它的内容区被滚动的值
-	可写：开发者修改卷去的长度
-		1. 回到页面某个位置
-	1. 兼容
+5. **scroll**Width、scrollY：*content+padding*。含滚动部分。
+	1. 特点
+		1. 没有滚动：等于 clientHeight
+		2. 有滚动：==滚动内容高度== + ==padding== 
+		3. 如果设置 scroll 为 auto，content 高为手动设置的高度
+		4. 如果设置 scroll 为 scroll，content 高缩小
+	2. scrollLeft：左边滚动的距离
+6. **offset**Width：*content+padding+border*。含滚动条
+	1. offsetTop：元素*上边框*与 offsetParent 元素的上边框距离
+	2. offsetParent：元素距离<u>定位父元素</u>的*顶部偏移量*，如果一直没有最多上升到 body 元素。
+		1. 元素自身有 fixed 定位，则为 Null
+		2. 无 fixed，且上级无定位：body 元素
+		3. 无 fixed，上级有定位：存在定位的上级元素
+		4. body 元素：null
+7. 元素自身有fixed定位，则
+	1. scrollY：被滚动的高度
+	2. scrollTop：一个内部产生了滚动，它的内容区被滚动的值
+		1. 可写：开发者修改卷去的长度。回到页面某个位置
+	3. 兼容
 		1. 非safari浏览器可使用document.documentElement.scrollTop读取页面滚动的距离
 		2. safari需要用document.body.scrollTop
 		3. 兼容代码：var docScroll = document.documentElement.scrollTop || document.body.scrollTop。实现常用的“回到顶部”功能
-offsetParent：元素距离<u>定位父元素</u>的顶部偏移量，如果一直没有最多上升到body元素。
-	1. 元素自身有fixed定位，则为Null
-	2. 无fixed，且上级无定位：body元素
-	3. 无fixed，上级有定位：存在定位的上级元素
-	4. body元素：null
+8. 鼠标
+	1. event.offsetX：鼠标相对于事件*触发元素*的 X,Y 坐标
+	2. event.clientX：鼠标相对于浏览器*可视区*的坐标
+	3. event.pageX：鼠标相对于*文档*的坐标
+	4. event.screenX：鼠标相对于*显示器*的坐标
+
 
 ## 比较
 clientWidth：2个

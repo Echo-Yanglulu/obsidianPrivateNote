@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1015,9 +1015,59 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "eb828b16fe44a451",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "aab07cb1f73b2f8a",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "属性选择器",
+                      "icon": "lucide-image",
+                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"笔记/前端/assets/属性选择器.png\"}}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1044,7 +1094,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1072,7 +1122,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1137,7 +1187,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "每个字符",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -1198,7 +1248,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1370,13 +1420,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工作/工作.md",
+    "笔记/前端/编程语言/CSS/CSS选择器.md",
+    "笔记/前端/assets/属性选择器.png",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工作/工作.md",
     "笔记/内心/人生.md",
     "笔记/内心/渐悟.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
@@ -1399,8 +1452,6 @@
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/前端工作.md",
     "Day Planners/2023-07-31.md",
-    "笔记/前端/编程语言/CSS/圣杯布局.md",
-    "笔记/前端/双飞翼布局.md",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/挥手.png",
@@ -1409,7 +1460,6 @@
     "笔记/前端/assets/Pasted image 20230729202501.png",
     "笔记/前端/assets/Pasted image 20230729172618.png",
     "笔记/前端/assets/useState原理.png",
-    "笔记/前端/assets/图片文件使用CDN.png",
-    "笔记/前端/assets/Pasted image 20230729002912.png"
+    "笔记/前端/assets/图片文件使用CDN.png"
   ]
 }

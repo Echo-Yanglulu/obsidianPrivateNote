@@ -52,6 +52,84 @@
 否定伪类
 	:not()
 ## 伪元素
+功能：为*所选元素的特定部分*设置样式
+::selection 以用户选择的文本部分为目标
+```css
+::selection {
+  background-color: yellow;
+  color: red;
+}
+用户在页面上选择文本时，它将以黄色背景和红色文本颜色突出显示
+```
+::first-letter 块级元素的第一个字母
+```css
+p::first-letter {
+  font-size: 2em;
+  color: red;
+}
+每个段落的第一个字母将以更大的字体显示并显示为红色
+```
+
+::first-line  文本或块级元素的第一行
+```css
+p::first-line {
+  font-weight: bold;
+  text-decoration: underline;
+}
+每个段落的第一行将以粗体显示并带有下划线
+```
+::marker 列表项的标记
+```css
+li::marker {
+  color: blue;
+  font-weight: bold;
+}
+```
+::placeholder 输入字段和文本区域中设置占位符文本的样式
+```css
+input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+占位符文本将以浅灰色和斜体字体样式显示
+```
+::cue `<audio>` 或 `<video>` 元素的提示文本
+```css
+提示文本通常用于多媒体内容中的字幕或副标题
+video::cue {
+  color: white;
+  background-color: black;
+}
+```
+::grammar-error 和::spelling-error 标记为语法或拼写错误的文本部分
+```css
+p::grammar-error {
+  text-decoration: line-through;
+  color: red;
+}
+
+p::spelling-error {
+  text-decoration: underline;
+  color: blue;
+}
+段落中的语法错误将以划线文本修饰和红色显示，而拼写错误将以下划线和蓝色显示
+```
+::backdrop 与全屏 API 结合使用，以在全屏模式下自定义*元素背后的背景*。默认的黑色背景更改为自定义颜色或样式
+```css
+video::backdrop {
+  background-color: gray;
+}
+当一个视频元素处于全屏模式时，它后面的背景将有一个灰色的背景色
+```
+::target-text 滚动到的文本（如果浏览器支持文本片段）
+```css
+
+::target-text {
+  background-color: rebeccapurple;
+  color: white;
+}
+此 API 目前处于试验阶段。
+```
 # 复合
 优先级：计算加法即可。
 同级
