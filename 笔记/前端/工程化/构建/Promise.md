@@ -45,6 +45,8 @@
 
 ## Promise.reject
 
+## Promise.race
+
 ## Promise.all
 将多个promise实例包装为一个promise实例
 	1. 参数
@@ -52,14 +54,15 @@
 		2. 元素如果不是promise实例，先调用Promise.resolve转为实例
 	2. 返回值
 		1. 全部状态变为解决，变为解决，解决值是数组
-		2. 一个拒绝，变为拒绝。
+		2. **一个拒绝，变为拒绝**。
 ## Promise.allSettled
 
 ## Promise.try
 
-## Promise.race
-
 ## Promise.any
+# 相关
+for await...of 遍历多个 promise
+	1. 
 # 手写
 ```js
 class MyPromise {
