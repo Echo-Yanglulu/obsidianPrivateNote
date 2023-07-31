@@ -8,7 +8,7 @@ throw new Error。将throw语句与新建对象写在一起即可。
 name：始终是'Error'
 message：创建时的传参
 toString(): 'name值: message值'
-# 子类【US ET RR】
+# 子类【拼写，语法，引用，范围，URI，eval】
 TypeError
 
 ReferrenceError
