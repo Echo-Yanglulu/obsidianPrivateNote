@@ -24,7 +24,7 @@
 		1. number = Math.floor(Math.random() * **total_number_of_choices** + **first_possible_value**)
 		2. 1~10范围内随机选择一个数：let num = Math.floor(Math.random() * 10 + 1);[^2] 
 		3. 2~10范围：let num = Math.floor(Math.random() * 9 + 2);[^3] 
-	2. 如果是为了加密而需要生成随机数（传给生成器的输入需要较高的不确定性），那么建议使用[[window]].crypto.getRandomValues()
+	2. 如果是为了加密而需要生成随机数（传给生成器的输入需要较高的不确定性），那么建议使用 `window.crypto.getRandomValues()` 
 4. 计算
 	1. Math.sqrt(x)	返回x的**平方根** 
 	2. Math.cbrt(x)	返回x的**立方根** 
