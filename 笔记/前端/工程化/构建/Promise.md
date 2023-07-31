@@ -62,7 +62,9 @@
 ## Promise.any
 # 相关
 for await...of 遍历多个 promise
-	1. 
+	1. 与 Promise.all 的区别：
+		1. promise.all 如果一个拒绝，其他 promise 的值就无法获得
+		2. for await...of 即使有拒绝的 promise，也可得到解决的 promise 的值。
 # 手写
 ```js
 class MyPromise {
