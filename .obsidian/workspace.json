@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/沟通/沟通.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":6.306998556998557}"
                     },
                     {
                       "title": "力量训练",
@@ -383,7 +389,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/胸部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -956,8 +962,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 11
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -984,7 +989,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/沟通/沟通.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1012,7 +1017,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/沟通/沟通.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1311,11 +1316,14 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "97f21a9480d69b75",
+  "active": "35e75a6fb5297186",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/背部.md",
+    "笔记/沟通/沟通.md",
     "笔记/前端/assets/Pasted image 20230731214431.png",
     "笔记/前端/assets/Pasted image 20230731214232.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1342,15 +1350,12 @@
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
-    "笔记/前端/编程语言/JS/HTTP.md",
-    "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230729204207.png",
-    "笔记/前端/assets/Pasted image 20230729202501.png",
-    "笔记/前端/assets/Pasted image 20230729172618.png"
+    "笔记/前端/assets/Pasted image 20230729202501.png"
   ]
 }
