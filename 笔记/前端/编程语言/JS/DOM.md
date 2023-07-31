@@ -95,15 +95,15 @@ nodeName与nodeValue：值完全取决于节点类型。使用之前先检测类
 		3. 等同：`someNode.childNodes[0]`
 ### 节点操作
 背景：所有关系指针都是**只读**的，所以DOM又提供了一些操纵节点的方法
-1. `appendChild()`：在childNodes列表**末尾添加**节点
-	1. 返回新添加的节点
-	2. 文档中*已存在节点*传给appendChild()，则这个节点会从之前的位置被转移到新位置
-2. `insertBefore(要插入的节点，参照节点)`：在childNodes列表**特定位置添加**节点
-	1. 如果参照节点是null，则insertBefore()与appendChild()效果相同
-3. `replaceChild(要插入的节点，要替换的节点)`：替换
-4. `removeChild()`：移除
-	1. 返回被移除的节点
-5. 每个节点都有
+1. 增加
+	1.  `appendChild()` ：在 childNodes 列表**末尾添加**节点
+		1. 返回新添加的节点
+		2. 文档中*已存在节点*传给appendChild()，则这个节点会从之前的位置被转移到新位置
+	2. `insertBefore(要插入的节点，参照节点)` ：在 childNodes 列表**特定位置添加**节点
+		1. 如果参照节点是null，则insertBefore()与appendChild()效果相同
+2. 替换： `replaceChild(要插入的节点，要替换的节点)` 
+3. 移除： `removeChild()` 。返回被移除的节点
+4. 每个节点的公共方法
 	1. `cloneNode(Boolean)`：是否深复制某个节点
 		1. 返回的节点归文档所有，是孤儿节点，没有父节点
 		2. 只复制HTML属性，不复制JS属性。如事件处理程序

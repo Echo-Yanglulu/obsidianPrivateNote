@@ -257,5 +257,9 @@
   "quick-explorer@@qe-hide-breadcrumbs": false,
   "sanctum@@h1-color": "#F80000",
   "sanctum@@h5-color": "#00DCD7",
-  "sanctum@@h6-color": "#007DD5"
+  "sanctum@@h6-color": "#007DD5",
+  "encore-settings@@h3-colour": "encore-h3-custom",
+  "encore-settings@@h4-colour": "encore-h4-custom",
+  "encore-settings@@h5-colour": "encore-h5-custom",
+  "encore-settings@@h6-colour": "encore-h6-custom"
 }

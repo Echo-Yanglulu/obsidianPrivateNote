@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md"
                   }
                 }
               }
@@ -957,6 +957,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":38},\"to\":{\"line\":11,\"ch\":38}},\"scroll\":20.6071}"
+                    },
+                    {
                       "title": "URL",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/URL.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1009,7 +1015,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1067,7 +1073,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -1094,7 +1100,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1122,7 +1128,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/DOM.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Global.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1420,13 +1426,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "eb828b16fe44a451",
+  "active": "56423dd4861ac48a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230731163127.png",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/构建/Promise.md",
@@ -1446,7 +1454,6 @@
     "笔记/工作/工作.md",
     "笔记/内心/人生.md",
     "笔记/内心/渐悟.md",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/base64.md",
     "笔记/前端/编程语言/JS/UTF-8.md",
     "笔记/前端/编程语言/JS/计算机编码.md",
