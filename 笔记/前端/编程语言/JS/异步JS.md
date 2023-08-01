@@ -38,12 +38,11 @@ MDN：同步脚本也是宏任务。
 包含：script，定时器【setImmediate(node 独有)】，ajax，DOM事件，[[requestAnimationFrame]](浏览器独有)，UI render（浏览器独有），IO
 ### 微任务
 定义：有一个专门的微任务队列。
-包含：Promise.then()、async/await、MutationObserver、process.nextTick(node 独有)、Object.observe（已废弃）
+包含：Promise.then()、process.nextTick(node 独有)、async/await、MutationObserver、Object.observe（已废弃）
 ## 机制
 宏任务->微任务->UI渲染（宏任务）
 # 相关问题
 ## [[event-loop]]与dom渲染
-
 执行一段添加DOM的JS操作后（调用栈清空后），浏览器开始渲染DOM，然后再开始轮询任务队列
 	1. 调用栈清空
 	2. 微任务[^1]执行【存在专用的微任务队列】
