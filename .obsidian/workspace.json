@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/工程化/npm.md"
                   }
                 }
               }
@@ -923,13 +923,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":329,\"ch\":45},\"to\":{\"line\":329,\"ch\":45}},\"scroll\":309.59947916666664}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/DOM.md",
+                    "file": "笔记/前端/工程化/npm.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -959,7 +965,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 9
           },
           {
             "id": "86193a5d16fa87de",
@@ -986,7 +992,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1014,7 +1020,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/工程化/npm.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1312,14 +1318,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "eb828b16fe44a451",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/JS垃圾回收机制.md",
     "笔记/前端/编程语言/JS/基本概念/循环引用.md",
     "笔记/前端/编程语言/JS/网络请求.md",
@@ -1333,7 +1340,6 @@
     "笔记/前端/编程语言/JS/基本概念/String.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
-    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/部位/胸部.md",
     "Day Planners/2023-08-01.md",
     "笔记/行为/健身/健身.md",
