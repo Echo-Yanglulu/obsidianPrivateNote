@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/行为/健身/训练模式/力量训练.md"
                   }
                 }
               }
@@ -42,17 +42,17 @@
                 "id": "35e75a6fb5297186",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-08-01",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":9},\"to\":{\"line\":25,\"ch\":9}},\"scroll\":16.158333333333335}"
                     },
                     {
                       "title": "健身",
@@ -395,7 +395,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -982,8 +982,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           },
           {
             "id": "86193a5d16fa87de",
@@ -1010,7 +1009,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1038,7 +1037,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1336,14 +1335,21 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "ad7cf6b05e52781b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/assets/Pasted image 20230801220946.png",
+    "笔记/前端/assets/Pasted image 20230801220823.png",
+    "笔记/前端/assets/Pasted image 20230801220807.png",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/前端/assets/Pasted image 20230801220127.png",
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230801192644.png",
     "笔记/前端/HTML5.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/工程化/node/Koa.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/库、框架/UI库/react原理.md",
@@ -1368,14 +1374,7 @@
     "笔记/前端/编程语言/JS/基本概念/循环引用.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/同源策略.md",
-    "笔记/前端/JSONP.md",
-    "笔记/前端/编程语言/JS/基本概念/严格模式.md",
-    "笔记/前端/库、框架/UI库/vuex.md",
     "笔记/前端/assets/Pasted image 20230731214431.png",
-    "笔记/前端/assets/Pasted image 20230731214232.png",
-    "笔记/前端/assets/Pasted image 20230731163127.png",
-    "笔记/前端/assets/属性选择器.png",
-    "笔记/前端/assets/vue组件的渲染与更新过程.png",
-    "笔记/前端/assets/硬编码关联元素.png"
+    "笔记/前端/assets/Pasted image 20230731214232.png"
   ]
 }
