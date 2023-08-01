@@ -1,6 +1,6 @@
 特点
 	1. 值类型。只能是Object或者继承自Object的类型，尝试使用非对象设置值会抛出TypeError
-	2. 弱值。这些值不是正式的引用，不会阻止垃圾回收
+	2. 弱引用。这些值不是正式的引用，对值的引用不会阻止垃圾回收
 	3. 不可迭代。WeakSet中的值任何时候都可能被销毁，所以没必要提供迭代其值的能力
 API
 1. add
@@ -16,7 +16,7 @@ const loginButton = document.querySelector('#login');
 // 通过加入对应集合，给这个节点打上“禁用”标签
 disabledElements.add(loginButton);
 ```
-为了回收被删除元素的内存，可使用该引用类型
+为了回收被**删除元素**的内存，可使用该引用类型
 ```js
 const disabledElements = new WeakSet();
 
