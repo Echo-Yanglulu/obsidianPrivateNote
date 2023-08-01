@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "requestAnimationFrame",
+      "path": "笔记/前端/requestAnimationFrame.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "vue",
+      "path": "笔记/前端/库、框架/UI库/vue.md"
     },
     {
       "basename": "class组件",
@@ -41,16 +57,8 @@
       "path": "笔记/前端/编程语言/JS/基本概念/严格模式.md"
     },
     {
-      "basename": "vue",
-      "path": "笔记/前端/库、框架/UI库/vue.md"
-    },
-    {
       "basename": "vuex",
       "path": "笔记/前端/库、框架/UI库/vuex.md"
-    },
-    {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
       "basename": "库、框架",
@@ -95,10 +103,6 @@
     {
       "basename": "概念",
       "path": "笔记/学习/概念/概念.md"
-    },
-    {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
       "basename": "CSS选择器",
@@ -195,10 +199,6 @@
     {
       "basename": "React与Vue的比较",
       "path": "笔记/前端/库、框架/React与Vue的比较.md"
-    },
-    {
-      "basename": "2023-07-30",
-      "path": "Day Planners/2023-07-30.md"
     }
   ],
   "omittedPaths": [
