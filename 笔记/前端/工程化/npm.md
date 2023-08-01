@@ -84,6 +84,15 @@ npm
 	publish 发布包
 	deprecate 废弃包
 	help 查看所有命令
+## hook
+预发布，后发布
+预安装，后安装
+preuninstall，postuninstall
+前版本，后版本
+前测，后测
+穿越，后停
+启动前，记录开始
+重启前，重启后
 # 设置
 1. 镜像
 	1. `npm config set registry https://registry.npm.taobao.org`  
