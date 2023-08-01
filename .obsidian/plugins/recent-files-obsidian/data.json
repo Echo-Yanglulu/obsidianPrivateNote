@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "笔记/前端/库、框架/UI库/vue.md"
+    },
+    {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "DOM",
       "path": "笔记/前端/编程语言/JS/DOM.md"
-    },
-    {
-      "basename": "ES Module",
-      "path": "笔记/前端/工程化/ES Module.md"
     },
     {
       "basename": "胸部",
@@ -195,10 +199,6 @@
     {
       "basename": "前端安全",
       "path": "笔记/前端/编程语言/JS/前端安全.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "笔记/前端/编程语言/JS/TCP.md"
     }
   ],
   "omittedPaths": [
