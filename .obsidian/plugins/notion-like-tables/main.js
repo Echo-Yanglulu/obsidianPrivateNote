@@ -39414,12 +39414,11 @@ var require_lodash = __commonJS({
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
-  DATA_LOOM_PLUGIN_ID: () => DATA_LOOM_PLUGIN_ID,
   DEFAULT_SETTINGS: () => DEFAULT_SETTINGS,
   default: () => DataLoomPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian15 = require("obsidian");
+var import_obsidian16 = require("obsidian");
 
 // node_modules/immer/dist/immer.esm.mjs
 function n(n2) {
@@ -41020,7 +41019,8 @@ N();
 // src/redux/global/global-slice.ts
 var initialState = {
   settings: DEFAULT_SETTINGS,
-  isDarkMode: false
+  isDarkMode: false,
+  manifestPluginVersion: ""
 };
 var globalSlice = createSlice({
   name: "global",
@@ -41031,10 +41031,13 @@ var globalSlice = createSlice({
     },
     setSettings(state, action) {
       state.settings = action.payload;
+    },
+    setManifestPluginVersion(state, action) {
+      state.manifestPluginVersion = action.payload;
     }
   }
 });
-var { setDarkMode, setSettings } = globalSlice.actions;
+var { setDarkMode, setSettings, setManifestPluginVersion } = globalSlice.actions;
 var global_slice_default = globalSlice.reducer;
 
 // src/redux/global/store.ts
@@ -41047,13 +41050,6 @@ var store = configureStore({
 // src/obsidian/dataloom-view.tsx
 var import_obsidian8 = require("obsidian");
 var import_client2 = __toESM(require_client());
-
-// src/data/constants.ts
-var CURRENT_PLUGIN_VERSION = "8.0.0";
-var DEFAULT_LOOM_NAME = "Untitled";
-var CURRENT_FILE_EXTENSION = "loom";
-var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
-var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 
 // src/shared/types/index.ts
 var Color = /* @__PURE__ */ ((Color2) => {
@@ -41121,6 +41117,7 @@ var CurrencyType = /* @__PURE__ */ ((CurrencyType9) => {
   CurrencyType9["COLOMBIA"] = "COP";
   CurrencyType9["MEXICO"] = "MXN";
   CurrencyType9["ARGENTINA"] = "ARS";
+  CurrencyType9["ISRAEL"] = "ILS";
   return CurrencyType9;
 })(CurrencyType || {});
 var Calculation = /* @__PURE__ */ ((Calculation3) => {
@@ -41198,25 +41195,25 @@ var CellNotFoundError = class extends Error {
 var findColorClassName = (isDarkMode, color) => {
   switch (color) {
     case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "DataLoom__light-gray--dark" : "DataLoom__light-gray--light";
+      return isDarkMode ? "dataloom-light-gray--dark" : "dataloom-light-gray--light";
     case "gray" /* GRAY */:
-      return isDarkMode ? "DataLoom__gray--dark" : "DataLoom__gray--light";
+      return isDarkMode ? "dataloom-gray--dark" : "dataloom-gray--light";
     case "brown" /* BROWN */:
-      return isDarkMode ? "DataLoom__brown--dark" : "DataLoom__brown--light";
+      return isDarkMode ? "dataloom-brown--dark" : "dataloom-brown--light";
     case "orange" /* ORANGE */:
-      return isDarkMode ? "DataLoom__orange--dark" : "DataLoom__orange--light";
+      return isDarkMode ? "dataloom-orange--dark" : "dataloom-orange--light";
     case "yellow" /* YELLOW */:
-      return isDarkMode ? "DataLoom__yellow--dark" : "DataLoom__yellow--light";
+      return isDarkMode ? "dataloom-yellow--dark" : "dataloom-yellow--light";
     case "green" /* GREEN */:
-      return isDarkMode ? "DataLoom__green--dark" : "DataLoom__green--light";
+      return isDarkMode ? "dataloom-green--dark" : "dataloom-green--light";
     case "blue" /* BLUE */:
-      return isDarkMode ? "DataLoom__blue--dark" : "DataLoom__blue--light";
+      return isDarkMode ? "dataloom-blue--dark" : "dataloom-blue--light";
     case "purple" /* PURPLE */:
-      return isDarkMode ? "DataLoom__purple--dark" : "DataLoom__purple--light";
+      return isDarkMode ? "dataloom-purple--dark" : "dataloom-purple--light";
     case "pink" /* PINK */:
-      return isDarkMode ? "DataLoom__pink--dark" : "DataLoom__pink--light";
+      return isDarkMode ? "dataloom-pink--dark" : "dataloom-pink--light";
     case "red" /* RED */:
-      return isDarkMode ? "DataLoom__red--dark" : "DataLoom__red--light";
+      return isDarkMode ? "dataloom-red--dark" : "dataloom-red--light";
     default:
       return "";
   }
@@ -41524,7 +41521,7 @@ var createTag = (markdown, options) => {
   };
 };
 var createLoomState = (numColumns, numRows, options) => {
-  const { cellType } = options || {};
+  const { cellType, pluginVersion = "1.0.0" } = options || {};
   const columns = [];
   for (let i2 = 0; i2 < numColumns; i2++)
     columns.push(createColumn({ cellType }));
@@ -41564,7 +41561,7 @@ var createLoomState = (numColumns, numRows, options) => {
       footerCells,
       filterRules
     },
-    pluginVersion: CURRENT_PLUGIN_VERSION
+    pluginVersion
   };
 };
 
@@ -41620,10 +41617,10 @@ var isVersionLessThan = (oldVersion, newVersion) => {
 };
 
 // src/data/serialize-loom-state.ts
-var serializeLoomState = (LoomState8) => {
-  return JSON.stringify(LoomState8, null, 2);
+var serializeLoomState = (state) => {
+  return JSON.stringify(state, null, 2);
 };
-var deserializeLoomState = (data) => {
+var deserializeLoomState = (data, manifestPluginVersion) => {
   const parsedState = JSON.parse(data);
   const untypedVersion = parsedState["pluginVersion"];
   let pluginVersion = "";
@@ -41634,24 +41631,24 @@ var deserializeLoomState = (data) => {
   }
   let currentState = parsedState;
   if (isVersionLessThan(pluginVersion, "6.1.0")) {
-    const LoomState9 = currentState;
-    const { columns } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.currencyType = CurrencyType610.UNITED_STATES;
     });
   }
   if (isVersionLessThan(pluginVersion, "6.2.0")) {
-    const LoomState9 = currentState;
-    const { columns } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.dateFormat = DateFormat620.YYYY_MM_DD;
     });
   }
   if (isVersionLessThan(pluginVersion, "6.3.0")) {
-    const LoomState9 = currentState;
-    const { columns, rows, cells } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns, rows, cells } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       if (typedColumn["hasAutoWidth"]) {
@@ -41672,9 +41669,9 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.4.0")) {
-    const LoomState9 = parsedState;
-    const { columns, tags, rows, cells } = LoomState9.model;
-    const newState = __spreadProps(__spreadValues({}, LoomState9), {
+    const LoomState8 = parsedState;
+    const { columns, tags, rows, cells } = LoomState8.model;
+    const newState = __spreadProps(__spreadValues({}, LoomState8), {
       model: {
         columns: [],
         headerRows: [],
@@ -41743,8 +41740,8 @@ var deserializeLoomState = (data) => {
     currentState = newState;
   }
   if (isVersionLessThan(pluginVersion, "6.8.0")) {
-    const LoomState9 = currentState;
-    const { model } = LoomState9;
+    const LoomState8 = currentState;
+    const { model } = LoomState8;
     const { bodyCells, columns } = model;
     const invalidState = currentState;
     if (invalidState["bodyRows"]) {
@@ -41767,8 +41764,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.9.1")) {
-    const LoomState9 = currentState;
-    const { footerCells } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { footerCells } = LoomState8.model;
     footerCells.forEach((cell) => {
       const typedCell = cell;
       if (typedCell["functionType"]) {
@@ -41777,8 +41774,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.10.0")) {
-    const LoomState9 = currentState;
-    const { columns, tags, bodyCells, bodyRows } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns, tags, bodyCells, bodyRows } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.tags = [];
@@ -41810,7 +41807,7 @@ var deserializeLoomState = (data) => {
         typedCell.tagIds.push(id2);
       });
     });
-    const unknownModel = LoomState9.model;
+    const unknownModel = LoomState8.model;
     const typedModel = unknownModel;
     delete typedModel.tags;
     bodyRows.forEach((row) => {
@@ -41821,8 +41818,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.12.3")) {
-    const LoomState9 = currentState;
-    const { columns, footerCells } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns, footerCells } = LoomState8.model;
     footerCells.forEach((cell) => {
       const column = columns.find(
         (column2) => column2.id === cell.columnId
@@ -41840,8 +41837,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.17.0")) {
-    const LoomState9 = currentState;
-    const { columns } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.isLocked = false;
@@ -41851,8 +41848,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.18.6")) {
-    const LoomState9 = currentState;
-    const { columns, bodyRows } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns, bodyRows } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.sortDir = "default" /* NONE */;
@@ -41864,8 +41861,8 @@ var deserializeLoomState = (data) => {
     });
   }
   if (isVersionLessThan(pluginVersion, "6.19.0")) {
-    const LoomState9 = currentState;
-    const { columns, bodyCells } = LoomState9.model;
+    const LoomState8 = currentState;
+    const { columns, bodyCells } = LoomState8.model;
     columns.forEach((column) => {
       const typedColumn = column;
       typedColumn.calculationType = typedColumn.functionType;
@@ -41877,9 +41874,9 @@ var deserializeLoomState = (data) => {
       typedCell.isExternalLink = true;
     });
   }
-  const LoomState8 = currentState;
-  LoomState8.pluginVersion = CURRENT_PLUGIN_VERSION;
-  return LoomState8;
+  const state = currentState;
+  state.pluginVersion = manifestPluginVersion;
+  return state;
 };
 
 // src/shared/events.ts
@@ -41890,10 +41887,9 @@ var EVENT_COLUMN_ADD = obsidianEvent("add-column");
 var EVENT_COLUMN_DELETE = obsidianEvent("delete-column");
 var EVENT_ROW_ADD = obsidianEvent("add-row");
 var EVENT_ROW_DELETE = obsidianEvent("delete-row");
-var EVENT_REFRESH_APP = obsidianEvent("refresh-app");
-var EVENT_REFRESH_EDITING_VIEW = obsidianEvent("refresh-editing-view");
-var EVENT_OUTSIDE_CLICK = obsidianEvent("outside-click");
-var EVENT_OUTSIDE_KEYDOWN = obsidianEvent("outside-keydown");
+var EVENT_APP_REFRESH = obsidianEvent("app-refresh");
+var EVENT_GLOBAL_CLICK = obsidianEvent("global-click");
+var EVENT_GLOBAL_KEYDOWN = obsidianEvent("global-keydown");
 var EVENT_DOWNLOAD_CSV = obsidianEvent("download-csv");
 var EVENT_DOWNLOAD_MARKDOWN = obsidianEvent("download-markdown");
 
@@ -42183,22 +42179,22 @@ var focusMenuElement = (menuId) => {
 };
 var addFocusVisibleClass = (el) => {
   if (el)
-    el.classList.add("DataLoom__focus-visible");
+    el.classList.add("dataloom-focus-visible");
 };
 var removeFocusVisibleClass = () => {
-  const el = document.querySelector(".DataLoom__focus-visible");
+  const el = document.querySelector(".dataloom-focus-visible");
   if (el)
-    el.classList.remove("DataLoom__focus-visible");
+    el.classList.remove("dataloom-focus-visible");
 };
 var getFocusableLayerEl = (appId, topMenu) => {
-  const appEl = document.querySelector(`.DataLoom__app[data-id="${appId}"]`);
+  const appEl = document.querySelector(`.dataloom-app[data-id="${appId}"]`);
   if (!appEl)
     return null;
   let layerEl = appEl;
   if (topMenu) {
     const { id: id2 } = topMenu;
     const menuEl = document.querySelector(
-      `.DataLoom__menu[data-id="${id2}"]`
+      `.dataloom-menu[data-id="${id2}"]`
     );
     if (menuEl)
       layerEl = menuEl;
@@ -42217,7 +42213,7 @@ var focusNextElement = (layerEl, focusableEls) => {
       return;
     }
   }
-  const selectedEl = layerEl.querySelector(".DataLoom__selected");
+  const selectedEl = layerEl.querySelector(".dataloom-selected");
   if (selectedEl) {
     selectedEl.focus();
   } else {
@@ -42761,6 +42757,7 @@ var useMountState = () => {
   return value;
 };
 function MountProvider({
+  app: app2,
   appId,
   mountLeaf,
   loomFile,
@@ -42768,7 +42765,7 @@ function MountProvider({
   children
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountContext.Provider, {
-    value: { appId, mountLeaf, loomFile, isMarkdownView },
+    value: { app: app2, appId, mountLeaf, loomFile, isMarkdownView },
     children
   });
 }
@@ -42789,7 +42786,7 @@ function LoomStateProvider({
   onSaveState,
   children
 }) {
-  const [LoomState8, setLoomState] = import_react12.default.useState(initialState2);
+  const [loomState, setLoomState] = import_react12.default.useState(initialState2);
   const [searchText, setSearchText] = import_react12.default.useState("");
   const [isSearchBarVisible, setSearchBarVisible] = import_react12.default.useState(false);
   const [resizingColumnId, setResizingColumnId] = import_react12.default.useState(null);
@@ -42797,16 +42794,34 @@ function LoomStateProvider({
     null
   ]);
   const [position, setPosition] = import_react12.default.useState(0);
+  const refreshTime = import_react12.default.useRef(0);
   const logger = useLogger();
-  const { appId } = useMountState();
+  const { appId, loomFile, app: app2 } = useMountState();
   const isMountedRef = import_react12.default.useRef(false);
   import_react12.default.useEffect(() => {
     if (!isMountedRef.current) {
       isMountedRef.current = true;
       return;
     }
-    onSaveState(appId, LoomState8);
-  }, [appId, LoomState8, onSaveState]);
+    if (refreshTime.current !== 0) {
+      refreshTime.current = 0;
+      return;
+    }
+    onSaveState(appId, loomState);
+  }, [appId, loomState, onSaveState]);
+  import_react12.default.useEffect(() => {
+    function handleRefreshEvent(filePath, sourceAppId, state) {
+      if (appId !== sourceAppId && filePath === loomFile.path) {
+        refreshTime.current = Date.now();
+        setLoomState(state);
+      }
+    }
+    app2.workspace.on(
+      EVENT_APP_REFRESH,
+      handleRefreshEvent
+    );
+    return () => app2.workspace.off(EVENT_APP_REFRESH, handleRefreshEvent);
+  }, [appId, loomFile, app2]);
   function handleToggleSearchBar() {
     setSearchBarVisible((prevState) => !prevState);
   }
@@ -42818,14 +42833,14 @@ function LoomStateProvider({
       const command = history[position];
       if (command !== null) {
         logger(command.constructor.name + ".undo");
-        let newState = command.undo(LoomState8);
+        let newState = command.undo(loomState);
         if (command.shouldSortRows) {
           newState = new RowSortCommand().execute(newState);
         }
         setLoomState(newState);
       }
     }
-  }, [position, history, LoomState8, logger]);
+  }, [position, history, loomState, logger]);
   const redo = import_react12.default.useCallback(() => {
     if (position < history.length - 1) {
       logger("handleRedoEvent");
@@ -42834,14 +42849,14 @@ function LoomStateProvider({
       const command = history[currentPosition];
       if (command !== null) {
         logger(command.constructor.name + ".redo");
-        let newState = command.redo(LoomState8);
+        let newState = command.redo(loomState);
         if (command.shouldSortRows) {
           newState = new RowSortCommand().execute(newState);
         }
         setLoomState(newState);
       }
     }
-  }, [position, history, LoomState8, logger]);
+  }, [position, history, loomState, logger]);
   const doCommand = import_react12.default.useCallback(
     (command) => {
       setHistory((prevState) => {
@@ -42853,17 +42868,17 @@ function LoomStateProvider({
         }
       });
       setPosition((prevState) => prevState + 1);
-      let newState = command.execute(LoomState8);
+      let newState = command.execute(loomState);
       if (command.shouldSortRows) {
         newState = new RowSortCommand().execute(newState);
       }
       setLoomState(newState);
     },
-    [position, history, LoomState8]
+    [position, history, loomState]
   );
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateContext.Provider, {
     value: {
-      LoomState: LoomState8,
+      loomState,
       setLoomState,
       doCommand,
       commandRedo: redo,
@@ -42880,7 +42895,7 @@ function LoomStateProvider({
 }
 
 // src/react/loom-app/table/index.tsx
-var import_react16 = __toESM(require_react());
+var import_react15 = __toESM(require_react());
 
 // node_modules/react-virtuoso/dist/index.mjs
 var import_react13 = __toESM(require_react(), 1);
@@ -46939,7 +46954,7 @@ function TableBodyRow(_a) {
     "style",
     "children"
   ]);
-  const { LoomState: LoomState8, setLoomState } = useLoomState();
+  const { loomState, setLoomState } = useLoomState();
   const { dragData, setDragData } = useDragContext();
   function handleDragStart(e) {
     const el = e.target;
@@ -46962,12 +46977,13 @@ function TableBodyRow(_a) {
     const targetId = getRowId(target);
     if (!targetId)
       return;
-    dropDrag(targetId, dragData, LoomState8, setLoomState);
+    dropDrag(targetId, dragData, loomState, setLoomState);
   }
   function handleDragOver(e) {
     e.preventDefault();
   }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", __spreadProps(__spreadValues({
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+    className: "dataloom-row",
     onDrop: handleDrop,
     onDragStart: handleDragStart,
     onDragEnd: handleDragEnd,
@@ -46978,37 +46994,7 @@ function TableBodyRow(_a) {
   }));
 }
 
-// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
-var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
-
 // src/react/loom-app/table/table-header-cell.tsx
-var cellStyle = import_emotion_react_cjs.css`
-	position: sticky;
-	top: 0;
-	z-index: 1;
-	background-color: var(--table-header-background);
-	border-bottom: 1px solid var(--table-border-color);
-	border-left: 1px solid var(--table-border-color);
-	border-right: 0;
-	padding: 0;
-	font-weight: 400;
-	overflow: visible;
-	text-align: start;
-	color: var(--text-normal); //Prevents dimming on hover in embedded loom
-
-	&:first-of-type {
-		border-top: 0;
-		border-left: 0;
-		border-bottom: 0;
-		background-color: var(--background-primary);
-	}
-
-	&:last-of-type {
-		border-top: 0;
-		border-bottom: 0;
-		background-color: var(--background-primary);
-	}
-`;
 function TableHeaderCell({
   columnId,
   content,
@@ -47053,13 +47039,13 @@ function TableHeaderCell({
     const child = thEl.firstChild;
     if (!child)
       return;
-    if (child.classList.contains("DataLoom__focusable"))
-      thEl.classList.add("DataLoom__th--drag-over");
+    if (child.classList.contains("dataloom-focusable"))
+      thEl.classList.add("dataloom-th--drag-over");
   }
   function removeDragHover() {
-    const el = document.querySelector(".DataLoom__th--drag-over");
+    const el = document.querySelector(".dataloom-th--drag-over");
     if (el)
-      el.classList.remove("DataLoom__th--drag-over");
+      el.classList.remove("dataloom-th--drag-over");
   }
   function getColumnId(columnEl) {
     const id2 = columnEl.getAttribute("data-column-id");
@@ -47098,7 +47084,9 @@ function TableHeaderCell({
     const elementUnderneath = document.elementFromPoint(clientX, clientY);
     if (!elementUnderneath)
       return;
-    const thEl = elementUnderneath.closest("th");
+    const thEl = elementUnderneath.closest(
+      ".dataloom-cell--header"
+    );
     if (!thEl)
       return;
     const targetId = getColumnId(thEl);
@@ -47136,9 +47124,9 @@ function TableHeaderCell({
     setTouchDropZone(null);
     removeDragHover();
   }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("th", __spreadProps(__spreadValues({
-    "data-column-id": columnId,
-    css: cellStyle
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+    className: "dataloom-cell dataloom-cell--header",
+    "data-column-id": columnId
   }, isDraggable && {
     draggable: true,
     onDrop: handleDrop,
@@ -47155,10 +47143,10 @@ function TableHeaderCell({
 }
 
 // src/shared/hooks.ts
-var import_react15 = __toESM(require_react());
+var import_react14 = __toESM(require_react());
 var useForceUpdate = () => {
-  const [time, setTime] = import_react15.default.useState(0);
-  return [time, import_react15.default.useCallback(() => setTime(Date.now()), [])];
+  const [time, setTime] = import_react14.default.useState(0);
+  return [time, import_react14.default.useCallback(() => setTime(Date.now()), [])];
 };
 var useCompare = (value, runOnMount = true) => {
   const prevValue = usePrevious(value);
@@ -47167,14 +47155,14 @@ var useCompare = (value, runOnMount = true) => {
   return prevValue !== value;
 };
 var usePrevious = (value) => {
-  const ref = import_react15.default.useRef();
-  import_react15.default.useEffect(() => {
+  const ref = import_react14.default.useRef();
+  import_react14.default.useEffect(() => {
     ref.current = value;
   });
   return ref.current;
 };
 var useInputSelection = (inputRef, value) => {
-  import_react15.default.useEffect(() => {
+  import_react14.default.useEffect(() => {
     function setSelection() {
       if (inputRef.current) {
         inputRef.current.selectionStart = value.length;
@@ -47185,14 +47173,14 @@ var useInputSelection = (inputRef, value) => {
   }, [inputRef]);
 };
 var useUUID = () => {
-  const [uuid] = import_react15.default.useState(v4_default());
+  const [uuid] = import_react14.default.useState(v4_default());
   return uuid;
 };
 
 // src/react/loom-app/table/index.tsx
-var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bodyRows, footerRows }, ref) {
+var Table2 = import_react15.default.forwardRef(function Table3({ headerRows, bodyRows, footerRows }, ref) {
   const previousRowLength = usePrevious(bodyRows.length);
-  import_react16.default.useEffect(() => {
+  import_react15.default.useEffect(() => {
     var _a;
     if (previousRowLength === void 0)
       return;
@@ -47200,7 +47188,6 @@ var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bod
       (_a = ref.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
   }, [previousRowLength, bodyRows.length]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableVirtuoso, {
-    tabIndex: -1,
     ref,
     overscan: 10,
     style: {
@@ -47211,10 +47198,8 @@ var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bod
     components: Components,
     fixedHeaderContent: () => headerRows.map((row) => {
       const { id: rowId, cells } = row;
-      return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", {
-        css: import_emotion_react_cjs.css`
-								background-color: var(--background-secondary);
-							`,
+      return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: "dataloom-row dataloom-row--header",
         children: cells.map((cell, i2) => {
           const { id: cellId, columnId, content } = cell;
           return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableHeaderCell, {
@@ -47225,14 +47210,12 @@ var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bod
         })
       }, rowId);
     }),
-    fixedFooterContent: () => footerRows.map((row) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", {
+    fixedFooterContent: () => footerRows.map((row) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      className: "dataloom-row",
       children: row.cells.map((cell) => {
         const { id: id2, content } = cell;
-        return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
-          className: "DataLoom__footer-td",
-          css: import_emotion_react_cjs.css`
-										padding: 0px;
-									`,
+        return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+          className: "dataloom-cell dataloom-cell--footer",
           children: content
         }, id2);
       })
@@ -47242,39 +47225,9 @@ var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bod
       const { id: rowId, cells } = row;
       return cells.map((cell, i2) => {
         const { id: cellId, content } = cell;
-        return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
+        return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+          className: "dataloom-cell dataloom-cell--body",
           "data-row-id": i2 === 0 ? rowId : void 0,
-          css: import_emotion_react_cjs.css`
-								border-top: 0;
-								border-bottom: 1px solid
-									var(--table-border-color);
-								border-left: 1px solid var(--table-border-color);
-								border-right: 0;
-								padding: 0;
-								overflow: visible;
-								vertical-align: top;
-								color: var(
-									--text-normal
-								); //Prevents hover style in embedded table
-								color: var(--text-normal);
-								/** 
-								* This is a hack to make the children have something to calculate their height percentage from.
-								* i.e. if you have a child with height: 100%, it will be 100% of the height of the td, only
-								* if the td has a set height value.
-								* This doesn't represent the actual height of the td, as that is set by HTML
-								*/
-								height: 1px;
-
-								&:first-of-type {
-									border-left: 0;
-									border-bottom: 0;
-								}
-
-								&:last-child {
-									border-bottom: 0;
-								}
-							`,
-          className: "DataLoom__body-td",
           children: content
         }, cellId);
       });
@@ -47284,60 +47237,54 @@ var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bod
 var Components = {
   Table: (_a) => {
     var _b = _a, { style } = _b, props = __objRest(_b, ["style"]);
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("table", __spreadProps(__spreadValues({
-      css: import_emotion_react_cjs.css`
-					table-layout: fixed;
-					border-collapse: separate;
-				`
-    }, props), {
-      style,
-      className: "DataLoom__table"
-    }));
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadValues({
+      className: "dataloom-table"
+    }, props));
   },
-  TableRow: (_c) => {
+  TableHead: import_react15.default.forwardRef((_c, ref) => {
     var _d = _c, { style } = _d, props = __objRest(_d, ["style"]);
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+      className: "dataloom-header"
+    }, props), {
+      ref
+    }));
+  }),
+  TableRow: (_e) => {
+    var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableBodyRow, __spreadProps(__spreadValues({}, props), {
       style
     }));
   },
-  TableBody: import_react16.default.forwardRef((_e, ref) => {
-    var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tbody", __spreadProps(__spreadValues({}, props), {
-      style,
-      ref
-    }));
-  }),
-  TableFoot: import_react16.default.forwardRef((_g, ref) => {
+  TableBody: import_react15.default.forwardRef((_g, ref) => {
     var _h = _g, { style } = _h, props = __objRest(_h, ["style"]);
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tfoot", __spreadProps(__spreadValues({
-      css: import_emotion_react_cjs.css`
-				position: sticky;
-				bottom: 0;
-				background-color: var(--background-primary);
-
-				& > tr:first-of-type > td {
-					border-bottom: 1px solid var(--table-border-color);
-				}
-
-				& > tr:first-of-type > td:nth-of-type(2) {
-					border-left: 1px solid var(--table-border-color);
-				}
-
-				& > tr:first-of-type > td:last-child {
-					border-left: 1px solid var(--table-border-color);
-				}
-			`
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+      className: "dataloom-body"
     }, props), {
       style,
       ref
     }));
-  })
+  }),
+  TableFoot: import_react15.default.forwardRef((_i, ref) => {
+    var _j = _i, { style } = _j, props = __objRest(_j, ["style"]);
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+      className: "dataloom-footer"
+    }, props), {
+      style,
+      ref
+    }));
+  }),
+  FillerRow: ({ height }) => {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      className: "dataloom-row",
+      style: { height }
+    });
+  }
 };
 var table_default = Table2;
 
 // src/react/shared/icon/index.tsx
 var import_obsidian = require("obsidian");
-var import_react18 = __toESM(require_react());
+var import_react16 = __toESM(require_react());
 
 // src/shared/render/utils.ts
 var replaceNewLinesWithBr = (markdown) => {
@@ -47388,7 +47335,7 @@ function Icon({
   size = "md",
   color = "unset"
 }) {
-  const ref = import_react18.default.useRef(null);
+  const ref = import_react16.default.useRef(null);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref: (node) => {
       ref.current = node;
@@ -47412,8 +47359,11 @@ function Icon({
   });
 }
 
+// node_modules/@emotion/react/dist/emotion-react.cjs.mjs
+var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
+
 // src/react/shared/menu-trigger/index.tsx
-var import_react20 = __toESM(require_react());
+var import_react18 = __toESM(require_react());
 
 // src/shared/keyboard-event.ts
 var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
@@ -47440,7 +47390,7 @@ var MenuTrigger = ({
     canOpenMenu,
     hasOpenMenu
   } = useMenuState();
-  const ref = import_react20.default.useRef(null);
+  const ref = import_react18.default.useRef(null);
   const logger = useLogger();
   function handleKeyDown(e) {
     logger("MenuTrigger handleKeyDown");
@@ -47495,7 +47445,7 @@ var MenuTrigger = ({
   }
   const { id: id2 } = menu;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__menu-trigger DataLoom__focusable",
+    className: "dataloom-menu-trigger dataloom-focusable",
     ref,
     css: import_emotion_react_cjs.css`
 				width: ${isCell ? "100%" : "unset"};
@@ -47638,11 +47588,11 @@ function Button({
       onClick == null ? void 0 : onClick();
     }
   }
-  let className = "DataLoom__button";
+  let className = "dataloom-button";
   if (isFocusable) {
-    className += " DataLoom__focusable";
+    className += " dataloom-focusable";
     if (invertFocusColor)
-      className += " DataLoom__focusable--inverted";
+      className += " dataloom-focusable--inverted";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
     tabIndex: isFocusable ? 0 : -1,
@@ -47693,10 +47643,10 @@ function MenuButton({
 }
 
 // src/react/loom-app/row-options/components/RowMenu/index.tsx
-var import_react34 = __toESM(require_react());
+var import_react32 = __toESM(require_react());
 
 // src/react/shared/menu/index.tsx
-var import_react26 = __toESM(require_react());
+var import_react24 = __toESM(require_react());
 var import_react_dom3 = __toESM(require_react_dom());
 
 // src/shared/conversion.ts
@@ -47714,17 +47664,17 @@ var stringToCurrencyString = (value, type) => {
 };
 
 // src/shared/menu/utils.ts
-var import_react24 = __toESM(require_react());
+var import_react22 = __toESM(require_react());
 
 // src/shared/menu/constants.ts
 var MENU_SHIFT_PADDING = 5;
 
 // src/shared/render-utils.ts
-var import_react23 = __toESM(require_react());
+var import_react21 = __toESM(require_react());
 var import_obsidian3 = require("obsidian");
 
 // src/shared/render/embed.ts
-var handleLinkClick = (event) => {
+var handleLinkClick = (app2, event) => {
   const targetEl = event.target;
   const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
   if (!closestAnchor) {
@@ -47735,7 +47685,7 @@ var handleLinkClick = (event) => {
     const href = closestAnchor.getAttr("href");
     const newLeaf = event.ctrlKey || event.metaKey;
     if (href)
-      app.workspace.openLinkText(href, "", newLeaf);
+      app2.workspace.openLinkText(href, "", newLeaf);
   }
 };
 
@@ -47805,7 +47755,7 @@ var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
             sourcePath: el.href
           });
         });
-        el.addEventListener("click", handleLinkClick);
+        el.addEventListener("click", (e) => handleLinkClick(app, e));
       });
     }
   } catch (e) {
@@ -47815,10 +47765,10 @@ var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
 });
 var useRenderMarkdown = (markdown, options) => {
   const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
-  const containerRef = import_react23.default.useRef(null);
-  const renderRef = import_react23.default.useRef(null);
+  const containerRef = import_react21.default.useRef(null);
+  const renderRef = import_react21.default.useRef(null);
   const { mountLeaf } = useMountState();
-  import_react23.default.useEffect(() => {
+  import_react21.default.useEffect(() => {
     function updateContainerRef() {
       return __async(this, null, function* () {
         let el = null;
@@ -47844,8 +47794,8 @@ var useRenderMarkdown = (markdown, options) => {
 var isOnMobile = () => {
   return import_obsidian3.Platform.isMobile;
 };
-var getResourcePath = (filePath) => {
-  return app.vault.adapter.getResourcePath(filePath);
+var getResourcePath = (app2, filePath) => {
+  return app2.vault.adapter.getResourcePath(filePath);
 };
 
 // src/shared/menu/utils.ts
@@ -47866,7 +47816,7 @@ var getElementPosition = (el) => {
 var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
   const { mountLeaf } = useMountState();
   const viewContentEl = mountLeaf.view.containerEl;
-  import_react24.default.useEffect(() => {
+  import_react22.default.useEffect(() => {
     function shiftMenuIntoView() {
       if (menuRef.current === null)
         return;
@@ -47913,7 +47863,7 @@ var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
   });
 };
 var useMenuTriggerPosition = () => {
-  const ref = import_react24.default.useRef(null);
+  const ref = import_react22.default.useRef(null);
   const position = getElementPosition(ref.current);
   return { triggerRef: ref, triggerPosition: position };
 };
@@ -47939,11 +47889,12 @@ var shiftElementIntoContainer = (container, element) => {
 };
 
 // src/shared/loom-state/use-menu-events.ts
-var import_react25 = __toESM(require_react());
+var import_react23 = __toESM(require_react());
 var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
+  const { app: app2 } = useMountState();
   const logger = useLogger();
   const { requestCloseTopMenu, closeTopMenu, topMenu } = useMenuState();
-  import_react25.default.useEffect(() => {
+  import_react23.default.useEffect(() => {
     function handleOutsideKeyDown(e) {
       logger("Menu handleOutsideKeyDown");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -47955,11 +47906,11 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
       }
     }
     if (isOpen) {
-      app.workspace.on(EVENT_OUTSIDE_KEYDOWN, handleOutsideKeyDown);
+      app2.workspace.on(EVENT_GLOBAL_KEYDOWN, handleOutsideKeyDown);
     }
-    return () => app.workspace.off(EVENT_OUTSIDE_CLICK, handleOutsideKeyDown);
-  }, [isOpen, logger, closeTopMenu, requestCloseTopMenu, id2, topMenu]);
-  import_react25.default.useEffect(() => {
+    return () => app2.workspace.off(EVENT_GLOBAL_CLICK, handleOutsideKeyDown);
+  }, [isOpen, logger, closeTopMenu, requestCloseTopMenu, id2, app2, topMenu]);
+  import_react23.default.useEffect(() => {
     function handleOutsideClick() {
       logger("Menu handleOutsideClick");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -47970,14 +47921,14 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
       requestCloseTopMenu("click");
     }
     if (isOpen) {
-      app.workspace.on(EVENT_OUTSIDE_CLICK, handleOutsideClick);
+      app2.workspace.on(EVENT_GLOBAL_CLICK, handleOutsideClick);
     }
-    return () => app.workspace.off(EVENT_OUTSIDE_CLICK, handleOutsideClick);
+    return () => app2.workspace.off(EVENT_GLOBAL_CLICK, handleOutsideClick);
   }, [isOpen, logger, requestCloseTopMenu, id2, topMenu, isTextHighlighted]);
 };
 
 // src/react/shared/menu/index.tsx
-var Menu = import_react26.default.forwardRef(function Menu2({
+var Menu = import_react24.default.forwardRef(function Menu2({
   id: id2,
   isOpen,
   hideBorder = false,
@@ -47990,7 +47941,7 @@ var Menu = import_react26.default.forwardRef(function Menu2({
   children
 }, ref) {
   const { topMenu, closeTopMenu, requestCloseTopMenu } = useMenuState();
-  const isTextHighlighted = import_react26.default.useRef(false);
+  const isTextHighlighted = import_react24.default.useRef(false);
   const logger = useLogger();
   useMenuEvents(id2, isOpen, isTextHighlighted.current);
   function handleMouseDown() {
@@ -48020,7 +47971,7 @@ var Menu = import_react26.default.forwardRef(function Menu2({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: isOpen && import_react_dom3.default.createPortal(
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__menu",
+        className: "dataloom-menu",
         "data-id": id2,
         css: import_emotion_react_cjs.css`
 							width: 0;
@@ -48094,13 +48045,13 @@ var useOverflow = (shouldWrapOverflow) => {
 
 // src/react/shared/text/index.tsx
 function Text({ value, variant, size = "sm", maxWidth }) {
-  let className = "DataLoom__p";
+  let className = "dataloom-p";
   if (variant === "faint")
-    className += " DataLoom__text-faint";
+    className += " dataloom-text-faint";
   if (variant === "muted")
-    className += " DataLoom__text-muted";
+    className += " dataloom-text-muted";
   if (variant === "semibold")
-    className += " DataLoom__text-semibold";
+    className += " dataloom-text-semibold";
   let fontSize = "";
   if (size === "xs") {
     fontSize = "var(--nlt-font-size--xs)";
@@ -48186,7 +48137,7 @@ function Padding({
 }
 
 // src/react/shared/menu-item/index.tsx
-var import_react33 = __toESM(require_react());
+var import_react31 = __toESM(require_react());
 function MenuItem({
   isFocusable = true,
   lucideId,
@@ -48196,8 +48147,8 @@ function MenuItem({
   onClick,
   isSelected = false
 }) {
-  const ref = import_react33.default.useRef(null);
-  import_react33.default.useEffect(() => {
+  const ref = import_react31.default.useRef(null);
+  import_react31.default.useEffect(() => {
     if (!ref.current)
       return;
     if (isSelected) {
@@ -48216,11 +48167,11 @@ function MenuItem({
       onClick == null ? void 0 : onClick();
     }
   }
-  let className = "DataLoom__menu-item DataLoom__selectable";
+  let className = "dataloom-menu-item dataloom-selectable";
   if (isSelected)
-    className += " DataLoom__selected";
+    className += " dataloom-selected";
   if (isFocusable)
-    className += " DataLoom__focusable";
+    className += " dataloom-focusable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref,
     tabIndex: 0,
@@ -48262,7 +48213,7 @@ function MenuItem({
 }
 
 // src/react/loom-app/row-options/components/RowMenu/index.tsx
-var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
+var RowMenu = import_react32.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
     id: id2,
     isOpen,
@@ -48270,7 +48221,7 @@ var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, row
     left,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "DataLoom__row-menu",
+      className: "dataloom-row-menu",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
         lucideId: "trash-2",
         name: "Delete",
@@ -48282,15 +48233,15 @@ var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, row
 var RowMenu_default = RowMenu;
 
 // src/shared/menu/hooks.ts
-var import_react35 = __toESM(require_react());
+var import_react33 = __toESM(require_react());
 var useMenu = (level, options) => {
   const { shouldRequestOnClose = false } = options || {};
-  const [menu] = import_react35.default.useState({
+  const [menu] = import_react33.default.useState({
     id: "m" + v4_default(),
     level,
     shouldRequestOnClose
   });
-  const menuRef = import_react35.default.useRef(null);
+  const menuRef = import_react33.default.useRef(null);
   const {
     isMenuOpen,
     openMenu,
@@ -48317,14 +48268,14 @@ function RowOptions({ rowId, onDeleteClick }) {
     openDirection: "right"
   });
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  const { LoomState: LoomState8, setLoomState } = useLoomState();
+  const { loomState, setLoomState } = useLoomState();
   function handleDeleteClick(rowId2) {
     onDeleteClick(rowId2);
     closeTopMenu();
   }
   function handleMouseDown(e) {
     const el = e.target;
-    const row = el.closest("tr");
+    const row = el.closest(".dataloom-row");
     if (row) {
       row.setAttr("draggable", true);
       const dragStartEvent = new DragEvent("dragstart");
@@ -48337,7 +48288,7 @@ function RowOptions({ rowId, onDeleteClick }) {
   function handleTouchStart(e) {
     e.stopPropagation();
     const targetEl = e.currentTarget;
-    const rowEl = targetEl.closest("tr");
+    const rowEl = targetEl.closest(".dataloom-row");
     if (!rowEl)
       throw new Error("Row not found");
     const rowId2 = getRowId(rowEl);
@@ -48356,7 +48307,9 @@ function RowOptions({ rowId, onDeleteClick }) {
     const elementUnderneath = document.elementFromPoint(clientX, clientY);
     if (!elementUnderneath)
       return;
-    const rowEl = elementUnderneath.closest("tr");
+    const rowEl = elementUnderneath.closest(
+      ".dataloom-row"
+    );
     if (!rowEl)
       return;
     const targetId = getRowId(rowEl);
@@ -48384,7 +48337,7 @@ function RowOptions({ rowId, onDeleteClick }) {
       const touchY = e.changedTouches[0].clientY;
       const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
       if (isInsideDropZone) {
-        dropDrag(touchDropZone.id, dragData, LoomState8, setLoomState);
+        dropDrag(touchDropZone.id, dragData, loomState, setLoomState);
       }
     }
     endDrag();
@@ -48395,21 +48348,21 @@ function RowOptions({ rowId, onDeleteClick }) {
     removeDragHover();
   }
   function addDragHover(rowEl) {
-    const children = rowEl.querySelectorAll("td:not(:last-child)");
+    const children = rowEl.querySelectorAll(".dataloom-cell");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.add("DataLoom__tr--drag-over");
+      children[i2].classList.add("dataloom-tr--drag-over");
     }
   }
   function removeDragHover() {
-    const children = document.querySelectorAll(".DataLoom__tr--drag-over");
+    const children = document.querySelectorAll(".dataloom-tr--drag-over");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.remove("DataLoom__tr--drag-over");
+      children[i2].classList.remove("dataloom-tr--drag-over");
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__row-options",
+        className: "dataloom-row-options",
         css: import_emotion_react_cjs.css`
 					width: 100%;
 					height: 100%;
@@ -48511,7 +48464,7 @@ function Switch({ id: id2, value, ariaLabel, onToggle }) {
       onToggle(!value);
     }
   }
-  let className = "checkbox-container DataLoom__switch DataLoom__focusable";
+  let className = "checkbox-container dataloom-switch dataloom-focusable";
   if (value)
     className += " is-enabled";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -48560,8 +48513,8 @@ function Wrap({
 }
 
 // src/react/loom-app/option-bar/toggle-column-menu.tsx
-var import_react40 = __toESM(require_react());
-var ToggleColumnMenu = import_react40.default.forwardRef(
+var import_react38 = __toESM(require_react());
+var ToggleColumnMenu = import_react38.default.forwardRef(
   function ToggleColumnMenu2({ id: id2, top, left, isOpen, columns, onToggle }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       isOpen,
@@ -48569,8 +48522,9 @@ var ToggleColumnMenu = import_react40.default.forwardRef(
       top,
       left,
       ref,
+      maxHeight: 220,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__toggle-column-menu",
+        className: "dataloom-toggle-column-menu",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
           p: "md",
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
@@ -48601,7 +48555,7 @@ var ToggleColumnMenu = import_react40.default.forwardRef(
 var toggle_column_menu_default = ToggleColumnMenu;
 
 // src/react/loom-app/option-bar/toggle-column.tsx
-var import_react41 = __toESM(require_react());
+var import_react39 = __toESM(require_react());
 var areEqual = (prevProps, nextProps) => {
   const toggleMatches = prevProps.onToggle == nextProps.onToggle;
   const columnsMatch = JSON.stringify(prevProps.columns) === JSON.stringify(nextProps.columns);
@@ -48634,10 +48588,10 @@ var ToggleColumn = ({ columns, onToggle }) => {
     ]
   });
 };
-var toggle_column_default = import_react41.default.memo(ToggleColumn, areEqual);
+var toggle_column_default = import_react39.default.memo(ToggleColumn, areEqual);
 
 // src/react/loom-app/option-bar/filter/filter.tsx
-var import_react48 = __toESM(require_react());
+var import_react46 = __toESM(require_react());
 
 // src/react/loom-app/shared-styles.ts
 var selectStyle = import_emotion_react_cjs.css`
@@ -48705,7 +48659,7 @@ function FilterRowDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
     tabIndex: 0,
-    className: "DataLoom__focusable",
+    className: "dataloom-focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 			`,
@@ -48819,7 +48773,7 @@ function FilterColumnDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
     tabIndex: 0,
-    className: "DataLoom__focusable",
+    className: "dataloom-focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 				max-width: 175px;
@@ -48861,7 +48815,7 @@ function FilterTextInput({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       cellType !== "checkbox" /* CHECKBOX */ && cellType !== "tag" /* TAG */ && cellType !== "multi-tag" /* MULTI_TAG */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "DataLoom__focusable",
+        className: "dataloom-focusable",
         css: import_emotion_react_cjs.css`
 							${baseInputStyle}
 							width: 150px !important;
@@ -48872,7 +48826,7 @@ function FilterTextInput({
       }),
       cellType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
         tabIndex: 0,
-        className: "DataLoom__focusable",
+        className: "dataloom-focusable",
         css: import_emotion_react_cjs.css`
 						${selectStyle}
 					`,
@@ -48895,7 +48849,7 @@ function FilterTextInput({
         ]
       }),
       (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_react_select_cjs_default._default, {
-        className: "react-select DataLoom__focusable",
+        className: "react-select dataloom-focusable",
         styles: {
           placeholder: (baseStyles) => __spreadProps(__spreadValues({}, baseStyles), {
             fontSize: "var(--font-ui-small)"
@@ -49047,8 +49001,8 @@ function FilterRow({
 }
 
 // src/react/loom-app/option-bar/filter/filter-menu.tsx
-var import_react46 = __toESM(require_react());
-var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
+var import_react44 = __toESM(require_react());
+var FilterMenu = import_react44.default.forwardRef(function FilterMenu2({
   id: id2,
   top,
   left,
@@ -49071,7 +49025,7 @@ var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
     maxHeight: 255,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "DataLoom__filter-menu",
+      className: "dataloom-filter-menu",
       css: import_emotion_react_cjs.css`
 					width: ${isMobileSize() ? "calc(100vw - 30px)" : "unset"};
 				`,
@@ -49159,7 +49113,7 @@ var Filter = ({
     openDirection: "left"
   });
   const previousLength = usePrevious(filterRules.length);
-  import_react48.default.useEffect(() => {
+  import_react46.default.useEffect(() => {
     if (previousLength !== void 0) {
       if (previousLength < filterRules.length) {
         if (menuRef.current) {
@@ -49196,7 +49150,7 @@ var Filter = ({
     ]
   });
 };
-var filter_default = import_react48.default.memo(Filter, areEqual2);
+var filter_default = import_react46.default.memo(Filter, areEqual2);
 
 // src/react/loom-app/option-bar/search-bar.tsx
 function SearchBar() {
@@ -49206,7 +49160,7 @@ function SearchBar() {
     isHorizontal: true,
     children: [
       isSearchBarVisible && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "DataLoom__focusable",
+        className: "dataloom-focusable",
         css: import_emotion_react_cjs.css`
 						${baseInputStyle}
 						max-width: 200px;
@@ -49357,12 +49311,12 @@ var doesTextMatch = (markdown, ruleText, filterType) => {
   }
 };
 
-// src/obsidian/export-modal.tsx
+// src/obsidian/modal/export-modal.tsx
 var import_obsidian6 = require("obsidian");
 var import_client = __toESM(require_client());
 
 // src/react/export-app/index.tsx
-var import_react53 = __toESM(require_react());
+var import_react51 = __toESM(require_react());
 
 // src/shared/export/types.ts
 var ExportType = /* @__PURE__ */ ((ExportType2) => {
@@ -49722,7 +49676,7 @@ var getDateCellContent = (dateTime, format) => {
 };
 
 // src/shared/cell-content/embed-cell-content.ts
-var getEmbedCellContent = (value, options) => {
+var getEmbedCellContent = (app2, value, options) => {
   const {
     shouldRenderMarkdown = true,
     isExternalLink = false,
@@ -49739,7 +49693,7 @@ var getEmbedCellContent = (value, options) => {
       if (value !== "") {
         if (isExport)
           return `![[${value}]]`;
-        return `![](${getResourcePath(value)})`;
+        return `![](${getResourcePath(app2, value)})`;
       }
     }
   }
@@ -49752,6 +49706,12 @@ var getNumberCellContent = (value) => {
     return value;
   return "";
 };
+
+// src/data/constants.ts
+var DEFAULT_LOOM_NAME = "Untitled";
+var FILE_EXTENSION = "loom";
+var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
+var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 
 // src/shared/cell-content/text-cell-content.ts
 var getTextCellContent = (markdown, renderMarkdown2) => {
@@ -49773,7 +49733,7 @@ var getTimeCellContent = (dateTime, format) => {
 var getTagCellContent = (column, cell) => {
   return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
 };
-var getCellContent = (column, row, cell, renderMarkdown2) => {
+var getCellContent = (app2, column, row, cell, renderMarkdown2) => {
   switch (column.type) {
     case "text" /* TEXT */:
     case "file" /* FILE */:
@@ -49781,7 +49741,7 @@ var getCellContent = (column, row, cell, renderMarkdown2) => {
     case "number" /* NUMBER */:
       return getNumberCellContent(cell.markdown);
     case "embed" /* EMBED */:
-      return getEmbedCellContent(cell.markdown, {
+      return getEmbedCellContent(app2, cell.markdown, {
         isExport: true,
         isExternalLink: cell.isExternalLink,
         shouldRenderMarkdown: renderMarkdown2
@@ -49808,7 +49768,7 @@ var getCellContent = (column, row, cell, renderMarkdown2) => {
 var serializeHeaderCells = (cells) => {
   return cells.map((cell) => cell.markdown);
 };
-var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
+var serializeBodyCells = (app2, columns, rows, cells, renderMarkdown2) => {
   return rows.map((row) => {
     const rowCells = cells.filter((cell) => cell.rowId === row.id);
     return rowCells.map((cell) => {
@@ -49817,14 +49777,15 @@ var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
       );
       if (!column)
         throw new ColumNotFoundError(cell.columnId);
-      return getCellContent(column, row, cell, renderMarkdown2);
+      return getCellContent(app2, column, row, cell, renderMarkdown2);
     });
   });
 };
-var LoomStateToArray = (LoomState8, renderMarkdown2) => {
-  const { headerCells, bodyCells, bodyRows, columns } = LoomState8.model;
+var loomStateToArray = (app2, loomState, renderMarkdown2) => {
+  const { headerCells, bodyCells, bodyRows, columns } = loomState.model;
   const serializedHeaderCells = serializeHeaderCells(headerCells);
   const serializedBodyCells = serializeBodyCells(
+    app2,
     columns,
     bodyRows,
     bodyCells,
@@ -49834,8 +49795,8 @@ var LoomStateToArray = (LoomState8, renderMarkdown2) => {
 };
 
 // src/shared/export/export-to-markdown.tsx
-var exportToMarkdown = (LoomState8, renderMarkdown2) => {
-  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+var exportToMarkdown = (app2, loomState, renderMarkdown2) => {
+  const arr = loomStateToArray(app2, loomState, renderMarkdown2);
   return markdownTable(arr);
 };
 
@@ -49855,7 +49816,7 @@ var getBlobTypeForExportType = (type) => {
   }
 };
 var getExportFileName = (filePath) => {
-  const replaceExtension = filePath.replace(`.${CURRENT_FILE_EXTENSION}`, "");
+  const replaceExtension = filePath.replace(`.${FILE_EXTENSION}`, "");
   const replaceSlash = replaceExtension.replace(/\//g, "-");
   const replaceSpaces = replaceSlash.replace(/ /g, "_");
   const timestamp = (0, import_obsidian4.moment)().format("YYYY_MM_DD-HH_mm_ss");
@@ -49875,20 +49836,20 @@ var downloadFile = (fileName, blobType, data) => {
 
 // src/shared/export/export-to-csv.tsx
 var import_papaparse = __toESM(require_papaparse_min());
-var exportToCSV = (LoomState8, renderMarkdown2) => {
-  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+var exportToCSV = (app2, loomState, renderMarkdown2) => {
+  const arr = loomStateToArray(app2, loomState, renderMarkdown2);
   return import_papaparse.default.unparse(arr);
 };
 
 // src/react/export-app/index.tsx
-function ExportApp({ LoomState: LoomState8, loomFilePath }) {
-  const [exportType, setExportType] = import_react53.default.useState(
+function ExportApp({ loomState, loomFilePath }) {
+  const [exportType, setExportType] = import_react51.default.useState(
     "Select an option" /* UNSELECTED */
   );
   const { exportRenderMarkdown } = useAppSelector(
     (state) => state.global.settings
   );
-  const [renderMarkdown2, setRenderMarkdown] = import_react53.default.useState(exportRenderMarkdown);
+  const [renderMarkdown2, setRenderMarkdown] = import_react51.default.useState(exportRenderMarkdown);
   function handleCopyClick(value) {
     return __async(this, null, function* () {
       yield navigator.clipboard.writeText(value);
@@ -49902,12 +49863,12 @@ function ExportApp({ LoomState: LoomState8, loomFilePath }) {
   }
   let content = "";
   if (exportType === "Markdown" /* MARKDOWN */) {
-    content = exportToMarkdown(LoomState8, renderMarkdown2);
+    content = exportToMarkdown(app, loomState, renderMarkdown2);
   } else if (exportType === "CSV" /* CSV */) {
-    content = exportToCSV(LoomState8, renderMarkdown2);
+    content = exportToCSV(app, loomState, renderMarkdown2);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__export-app",
+    className: "dataloom-export-app",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
       p: "xl",
       children: [
@@ -49978,12 +49939,13 @@ function ExportApp({ LoomState: LoomState8, loomFilePath }) {
   });
 }
 
-// src/obsidian/export-modal.tsx
+// src/obsidian/modal/export-modal.tsx
 var ExportModal = class extends import_obsidian6.Modal {
-  constructor(app2, loomFile) {
+  constructor(app2, loomFile, pluginVersion) {
     super(app2);
     this.app = app2;
     this.loomFile = loomFile;
+    this.pluginVersion = pluginVersion;
   }
   onOpen() {
     this.renderApp();
@@ -49991,14 +49953,15 @@ var ExportModal = class extends import_obsidian6.Modal {
   renderApp() {
     return __async(this, null, function* () {
       try {
-        const data = yield app.vault.read(this.loomFile);
-        const state = deserializeLoomState(data);
+        const data = yield this.app.vault.read(this.loomFile);
+        const state = deserializeLoomState(data, this.pluginVersion);
         this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
         this.root.render(
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
             store,
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
-              LoomState: state,
+              app: this.app,
+              loomState: state,
               loomFilePath: this.loomFile.path
             })
           })
@@ -50051,7 +50014,8 @@ function OptionBar({
   onRuleAddClick,
   onRuleTagsChange
 }) {
-  const { loomFile } = useMountState();
+  const { manifestPluginVersion } = useAppSelector((state) => state.global);
+  const { loomFile, app: app2 } = useMountState();
   const sortedCells = headerCells.filter((cell) => {
     const columnId = cell.columnId;
     const column = columns.find((c2) => c2.id === columnId);
@@ -50078,15 +50042,13 @@ function OptionBar({
       return isCellTypeFilterable(type);
     }
   );
-  const { isMarkdownView } = useMountState();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__option-bar",
+    className: "dataloom-option-bar",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				border-bottom: 1px solid var(--background-modifier-border);
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-      px: isMarkdownView ? "unset" : "lg",
       py: "md",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
         spacing: "lg",
@@ -50132,10 +50094,14 @@ function OptionBar({
                 }),
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
                   icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
-                    lucideId: "download"
+                    lucideId: "more-vertical"
                   }),
                   onClick: () => {
-                    new ExportModal(app, loomFile).open();
+                    new ExportModal(
+                      app2,
+                      loomFile,
+                      manifestPluginVersion
+                    ).open();
                   }
                 })
               ]
@@ -50147,8 +50113,197 @@ function OptionBar({
   });
 }
 
-// src/react/loom-app/calculation-cell/calculation-menu.tsx
-var import_react56 = __toESM(require_react());
+// src/react/loom-app/header-cell-container/index.tsx
+var import_react60 = __toESM(require_react());
+
+// src/react/shared/icon/utils.tsx
+var getIconIdForCellType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return "text";
+    case "embed" /* EMBED */:
+      return "link";
+    case "file" /* FILE */:
+      return "file";
+    case "number" /* NUMBER */:
+      return "hash";
+    case "checkbox" /* CHECKBOX */:
+      return "check-square";
+    case "creation-time" /* CREATION_TIME */:
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return "clock-2";
+    case "tag" /* TAG */:
+      return "tag";
+    case "multi-tag" /* MULTI_TAG */:
+      return "tags";
+    case "date" /* DATE */:
+      return "calendar";
+    case "currency" /* CURRENCY */:
+      return "banknote";
+    default:
+      return "text";
+  }
+};
+
+// src/react/loom-app/header-cell-container/use-column-resize.ts
+var import_react54 = __toESM(require_react());
+var useColumnResize = (columnId, onMove) => {
+  const { setResizingColumnId } = useLoomState();
+  const mouseDownX = (0, import_react54.useRef)(0);
+  function handleMouseMove(e) {
+    const dist = e.pageX - mouseDownX.current;
+    onMove(dist);
+  }
+  function handleTouchMove(e) {
+    e.stopPropagation();
+    const dist = e.touches[0].pageX - mouseDownX.current;
+    onMove(dist);
+  }
+  function handleMouseUp() {
+    document.removeEventListener("mousemove", handleMouseMove);
+    document.removeEventListener("mouseup", handleMouseUp);
+    setTimeout(() => {
+      setResizingColumnId(null);
+    }, 100);
+  }
+  function handleTouchEnd() {
+    document.removeEventListener("touchmove", handleTouchMove);
+    document.removeEventListener("touchend", handleTouchEnd);
+    setTimeout(() => {
+      setResizingColumnId(null);
+    }, 100);
+  }
+  function handleTouchStart(e) {
+    if (e.detail >= 2)
+      return;
+    document.addEventListener("touchmove", handleTouchMove);
+    document.addEventListener("touchend", handleTouchEnd);
+    mouseDownX.current = e.touches[0].pageX;
+    setResizingColumnId(columnId);
+  }
+  function handleMouseDown(e) {
+    if (e.detail >= 2)
+      return;
+    e.preventDefault();
+    document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseup", handleMouseUp);
+    mouseDownX.current = e.pageX;
+    setResizingColumnId(columnId);
+  }
+  return { handleMouseDown, handleTouchStart };
+};
+
+// src/react/loom-app/header-cell-container/resize-container.tsx
+var containerStyle = import_emotion_react_cjs.css`
+	position: relative;
+`;
+var innerStyle = import_emotion_react_cjs.css`
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 5px;
+	cursor: col-resize;
+	height: 100%;
+	&:hover {
+		background-color: var(--interactive-accent);
+	}
+	&:active {
+		background-color: var(--interactive-accent);
+	}
+`;
+var dragStyle = import_emotion_react_cjs.css`
+	background-color: var(--interactive-accent);
+`;
+function ResizeContainer({
+  currentResizingId,
+  columnId,
+  width,
+  onWidthChange,
+  onMenuClose
+}) {
+  const { handleMouseDown, handleTouchStart } = useColumnResize(
+    columnId,
+    (dist) => {
+      const oldWidth = pxToNum(width);
+      const newWidth = oldWidth + dist;
+      if (newWidth < MIN_COLUMN_WIDTH)
+        return;
+      onWidthChange(columnId, numToPx(newWidth));
+    }
+  );
+  const isDragging = columnId === currentResizingId;
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: containerStyle,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      className: "dataloom-resize-handle",
+      css: [innerStyle, isDragging && dragStyle],
+      onMouseDown: (e) => {
+        onMenuClose();
+        handleMouseDown(e);
+      },
+      onTouchStart: handleTouchStart,
+      onClick: (e) => {
+        e.stopPropagation();
+        if (e.detail === 2)
+          onWidthChange(columnId, "unset");
+      }
+    })
+  });
+}
+
+// src/react/loom-app/header-cell-edit/index.tsx
+var import_react58 = __toESM(require_react());
+
+// src/react/shared/divider/index.tsx
+function Divider({
+  isVertical = false,
+  width = "100%",
+  height = "100%"
+}) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+    css: import_emotion_react_cjs.css`
+				margin: 0;
+				width: ${!isVertical ? width : "unset"};
+				height: ${isVertical === true ? height : "unset"};
+				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
+				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
+			`
+  });
+}
+
+// src/react/loom-app/header-cell-edit/submenu.tsx
+function Submenu({ title, children, onBackClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        p: "md",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          spacing: "md",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "arrow-left"
+                  }),
+                  onClick: () => {
+                    onBackClick();
+                  }
+                }),
+                title
+              ]
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {})
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        children
+      })
+    ]
+  });
+}
 
 // src/shared/loom-state/display-name.ts
 var getShortDisplayNameForCalculation = (value) => {
@@ -50310,6 +50465,8 @@ var getDisplayNameForCurrencyType = (type) => {
       return "Mexican Peso";
     case "RUB" /* RUSSIA */:
       return "Ruble";
+    case "ILS" /* ISRAEL */:
+      return "Israeli Shekel";
     default:
       return "";
   }
@@ -50342,2491 +50499,6 @@ var getDisplayNameForCellType = (type) => {
       return "";
   }
 };
-
-// src/react/loom-app/calculation-cell/calculation-menu.tsx
-var CalculationMenu = import_react56.default.forwardRef(
-  function CalculationMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      ref,
-      id: id2,
-      isOpen,
-      top,
-      left,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        className: "DataLoom__function-menu",
-        children: [
-          Object.values(Calculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-            name: getDisplayNameForCalculation(type),
-            ariaLabel: getAriaLabelForCalculation(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          }, type)),
-          (cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-            ariaLabel: getAriaLabelForNumberCalculation(
-              type
-            ),
-            name: getDisplayNameForNumberCalculation(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          }, type))
-        ]
-      })
-    });
-  }
-);
-var calculation_menu_default = CalculationMenu;
-
-// src/react/loom-app/calculation-cell/utils.ts
-var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
-var hashString = (value) => {
-  return v5_default(value, NAMESPACE);
-};
-var round2Digits = (value) => {
-  if (value.toString().includes("."))
-    return parseFloat(value.toFixed(2));
-  return value;
-};
-
-// src/react/loom-app/calculation-cell/calculation.ts
-var getCalculationContent = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
-  return getCalculation(
-    bodyRows,
-    columnCells,
-    columnTags,
-    cellType,
-    calculationType,
-    dateFormat
-  ).toString();
-};
-var getCalculation = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
-  if (calculationType === "count-all" /* COUNT_ALL */) {
-    return countAll(bodyRows);
-  } else if (calculationType === "count-empty" /* COUNT_EMPTY */) {
-    return countEmpty(columnCells, cellType);
-  } else if (calculationType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
-    return countNotEmpty(columnCells, cellType);
-  } else if (calculationType === "count-unique" /* COUNT_UNIQUE */) {
-    return countUnique(
-      bodyRows,
-      columnCells,
-      columnTags,
-      cellType,
-      dateFormat
-    );
-  } else if (calculationType === "count-values" /* COUNT_VALUES */) {
-    return countValues(columnCells, cellType);
-  } else if (calculationType === "percent-empty" /* PERCENT_EMPTY */) {
-    return percentEmpty(columnCells, cellType);
-  } else if (calculationType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
-    return percentNotEmpty(columnCells, cellType);
-  } else if (calculationType === "none" /* NONE */) {
-    return "";
-  } else {
-    throw new Error("Unhandled calculation type");
-  }
-};
-var countAll = (bodyRows) => {
-  return bodyRows.length;
-};
-var countEmpty = (columnCells, cellType) => {
-  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
-    if (value === true)
-      return accum + 1;
-    return accum;
-  }, 0);
-};
-var countNotEmpty = (columnCells, cellType) => {
-  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
-    if (value === false)
-      return accum + 1;
-    return accum;
-  }, 0);
-};
-var countUnique = (bodyRows, columnCells, columnTags, cellType, dateFormat) => {
-  const hashes = columnCells.map((cell) => {
-    const row = bodyRows.find((row2) => row2.id === cell.rowId);
-    if (!row)
-      throw new RowNotFoundError(cell.rowId);
-    const cellValues = getCellValues(
-      row,
-      cell,
-      columnTags,
-      cellType,
-      dateFormat
-    );
-    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
-  }).flat(1);
-  const uniqueHashes = new Set(hashes);
-  return uniqueHashes.size;
-};
-var countValues = (columnCells, cellType) => {
-  return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
-};
-var percentEmpty = (columnCells, cellType) => {
-  if (columnCells.length === 0)
-    return "0%";
-  const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
-  return round2Digits(percent) + "%";
-};
-var percentNotEmpty = (columnCells, cellType) => {
-  if (columnCells.length === 0)
-    return "0%";
-  const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
-  return round2Digits(percent) + "%";
-};
-var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
-  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
-    return [cell.markdown];
-  } else if (cellType === "date" /* DATE */) {
-    if (cell.dateTime)
-      return [cell.dateTime.toString()];
-    return [];
-  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
-    return cell.tagIds.map((tagId) => {
-      const tag = columnTags.find((tag2) => tag2.id === tagId);
-      if (!tag)
-        throw new TagNotFoundError(tagId);
-      return tag.markdown;
-    });
-  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */) {
-    return [unixTimeToDateTimeString(bodyRow.lastEditedTime, dateFormat)];
-  } else if (cellType === "creation-time" /* CREATION_TIME */) {
-    return [unixTimeToDateTimeString(bodyRow.creationTime, dateFormat)];
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-var countCellValues = (cell, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
-    return cell.markdown === "" ? 0 : 1;
-  } else if (cellType === "date" /* DATE */) {
-    return cell.dateTime == null ? 0 : 1;
-  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
-    return cell.tagIds.length;
-  } else if (cellType === "checkbox" /* CHECKBOX */) {
-    return isCheckboxChecked(cell.markdown) ? 1 : 0;
-  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
-    return 1;
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-var isCellContentEmpty = (cell, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
-    return cell.markdown === "";
-  } else if (cellType === "date" /* DATE */) {
-    return cell.dateTime == null;
-  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
-    return cell.tagIds.length === 0;
-  } else if (cellType === "checkbox" /* CHECKBOX */) {
-    return !isCheckboxChecked(cell.markdown);
-  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
-    return true;
-  } else {
-    throw new Error("Unhandled cell type");
-  }
-};
-
-// src/react/loom-app/calculation-cell/arithmetic.ts
-var getAverage = (values) => {
-  return getSum(values) / values.length;
-};
-var getSum = (values) => {
-  return values.reduce((sum, a2) => sum + a2, 0);
-};
-var getMaximum = (values) => {
-  return Math.max(...values);
-};
-var getMinimum = (values) => {
-  return Math.min(...values);
-};
-var getMedian = (values) => {
-  const sortedValues = values.sort((a2, b2) => a2 - b2);
-  const middle = Math.floor(values.length / 2);
-  if (values.length % 2 === 0) {
-    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
-  } else {
-    return sortedValues[middle];
-  }
-};
-var getRange = (values) => {
-  return getMaximum(values) - getMinimum(values);
-};
-
-// src/react/loom-app/calculation-cell/number-calculation.ts
-var getNumberCalculationContent = (values, cellType, currencyType, calculationType) => {
-  const value = getNumberCalculation(values, calculationType).toString();
-  if (cellType === "currency" /* CURRENCY */)
-    return getCurrencyCellContent(value, currencyType);
-  return value;
-};
-var getNumberCalculation = (values, type) => {
-  if (type === "avg" /* AVG */) {
-    return round2Digits(getAverage(values));
-  } else if (type === "max" /* MAX */) {
-    return getMaximum(values);
-  } else if (type === "min" /* MIN */) {
-    return getMinimum(values);
-  } else if (type === "range" /* RANGE */) {
-    return round2Digits(getRange(values));
-  } else if (type === "sum" /* SUM */) {
-    return round2Digits(getSum(values));
-  } else if (type === "median" /* MEDIAN */) {
-    return round2Digits(getMedian(values));
-  } else {
-    throw new Error("Unhandled number calculation type");
-  }
-};
-
-// src/react/loom-app/calculation-cell/index.tsx
-function CalculationCell({
-  columnId,
-  columnTags,
-  bodyCells,
-  dateFormat,
-  bodyRows,
-  calculationType,
-  currencyType,
-  cellType,
-  onTypeChange
-}) {
-  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(0 /* ONE */);
-  const { triggerPosition, triggerRef } = useMenuTriggerPosition();
-  useShiftMenu(triggerRef, menuRef, isMenuOpen);
-  function handleTypeClick(value) {
-    onTypeChange(columnId, value);
-    closeTopMenu();
-  }
-  const columnCells = bodyCells.filter((cell) => cell.columnId === columnId);
-  let content = "";
-  if (isNumberCalcuation(calculationType)) {
-    const cellValues = columnCells.filter((cell) => isNumber(cell.markdown)).map((cell) => parseFloat(cell.markdown));
-    if (cellValues.length !== 0)
-      content = getNumberCalculationContent(
-        cellValues,
-        cellType,
-        currencyType,
-        calculationType
-      );
-  } else {
-    content = getCalculationContent(
-      bodyRows,
-      columnCells,
-      columnTags,
-      cellType,
-      calculationType,
-      dateFormat
-    );
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
-        isCell: true,
-        menu,
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "DataLoom__function-cell DataLoom__selectable",
-          ref: triggerRef,
-          css: import_emotion_react_cjs.css`
-						display: flex;
-						justify-content: flex-end;
-						cursor: pointer;
-						overflow: hidden;
-						padding: var(--nlt-cell-spacing-x)
-							var(--nlt-cell-spacing-y);
-					`,
-          children: [
-            calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-              value: "Calculate",
-              variant: "faint"
-            }),
-            calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-              spacing: "sm",
-              isHorizontal: true,
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-                  value: getShortDisplayNameForCalculationType(
-                    calculationType
-                  ),
-                  variant: "muted"
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-                  value: content,
-                  variant: "semibold"
-                })
-              ]
-            })
-          ]
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(calculation_menu_default, {
-        id: menu.id,
-        top: triggerPosition.top,
-        ref: menuRef,
-        cellType,
-        left: triggerPosition.left,
-        isOpen: isMenuOpen,
-        value: calculationType,
-        onClick: handleTypeClick
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/body-cell/index.tsx
-var import_react90 = __toESM(require_react());
-
-// src/react/loom-app/text-cell/index.tsx
-function TextCell({ markdown, shouldWrapOverflow }) {
-  const { containerRef, renderRef } = useRenderMarkdown(markdown);
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__text-cell",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				height: 100%;
-				${overflowStyle}
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      css: import_emotion_react_cjs.css`
-					text-align: left;
-
-					p {
-						margin: 0;
-					}
-
-					//.contains-task-list is from dataview
-					//it is what is rendered for a task list
-					ul:not(.contains-task-list) {
-						padding-left: var(--nlt-spacing--xl);
-						padding-right: 0;
-					}
-				`,
-      ref: (node) => {
-        containerRef.current = node;
-        appendOrReplaceFirstChild(node, renderRef.current);
-      }
-    })
-  });
-}
-
-// src/react/shared/tag/index.tsx
-function Tag8({
-  id: id2,
-  color,
-  maxWidth,
-  markdown,
-  showRemoveButton,
-  onRemoveClick
-}) {
-  const { isDarkMode } = useAppSelector((state) => state.global);
-  let tagClass = "DataLoom__tag";
-  tagClass += " " + findColorClassName(isDarkMode, color);
-  if (onRemoveClick !== void 0 && id2 === void 0) {
-    throw new Error(
-      "An id must defined when the onRemoveClick handler is present."
-    );
-  }
-  let contentClassName = "DataLoom__tag-content";
-  if (maxWidth !== void 0) {
-    contentClassName += " DataLoom__hide-overflow-ellipsis";
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: tagClass,
-    css: import_emotion_react_cjs.css`
-				display: flex;
-				align-items: center;
-				border-radius: 8px;
-				padding: var(--nlt-spacing--xs) var(--nlt-spacing--md);
-				width: max-content;
-				color: var(--text-normal);
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-      spacing: "sm",
-      justify: "center",
-      isHorizontal: true,
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
-          className: contentClassName
-        }, maxWidth !== void 0 && { style: { maxWidth } }), {
-          children: markdown
-        })),
-        showRemoveButton && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-          width: "max-content",
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-            isSmall: true,
-            icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
-              lucideId: "x"
-            }),
-            onClick: () => {
-              if (id2 && onRemoveClick)
-                onRemoveClick(id2);
-            }
-          })
-        })
-      ]
-    })
-  });
-}
-
-// src/react/loom-app/tag-cell/index.tsx
-function TagCell({
-  markdown,
-  color,
-  shouldWrapOverflow
-}) {
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__tag-cell",
-    css: overflowStyle,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
-      markdown,
-      color
-    })
-  });
-}
-
-// src/react/loom-app/checkbox-cell/index.tsx
-function CheckboxCell({ value }) {
-  const isChecked = isCheckboxChecked(value);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__checkbox-cell",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				padding: var(--nlt-cell-spacing);
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-      className: "task-list-item-checkbox",
-      css: import_emotion_react_cjs.css`
-					cursor: pointer;
-				`,
-      type: "checkbox",
-      checked: isChecked,
-      onChange: () => {
-      }
-    })
-  });
-}
-
-// src/react/loom-app/date-cell/index.tsx
-function DateCell({ value, format }) {
-  const content = getDateCellContent(value, format);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__date-cell",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				text-align: left;
-				overflow: hidden;
-				white-space: nowrap;
-				text-overflow: ellipsis;
-				padding: var(--nlt-cell-spacing);
-			`,
-    children: content
-  });
-}
-
-// src/react/loom-app/number-cell/index.tsx
-function NumberCell({ value, shouldWrapOverflow }) {
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  let valueString = "";
-  if (isNumber(value))
-    valueString = value;
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__number-cell",
-    css: overflowStyle,
-    children: valueString
-  });
-}
-
-// src/react/loom-app/number-cell-edit/index.tsx
-var import_react62 = __toESM(require_react());
-function NumberCellEdit({
-  menuCloseRequest,
-  value,
-  onChange,
-  onMenuClose
-}) {
-  const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react62.default.useState(initialValue);
-  const inputRef = import_react62.default.useRef(null);
-  useInputSelection(inputRef, localValue);
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react62.default.useEffect(() => {
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
-      onMenuClose();
-    }
-  }, [
-    value,
-    localValue,
-    hasCloseRequestTimeChanged,
-    menuCloseRequest,
-    onMenuClose,
-    onChange
-  ]);
-  function handleChange(inputValue) {
-    if (!isNumberInput(inputValue))
-      return;
-    setLocalValue(inputValue);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__number-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-      autoFocus: true,
-      css: numberInputStyle,
-      type: "text",
-      ref: inputRef,
-      inputMode: "numeric",
-      value: localValue,
-      onChange: (e) => handleChange(e.target.value),
-      onBlur: (e) => {
-        e.target.classList.add("DataLoom__blur--cell");
-      }
-    })
-  });
-}
-
-// src/react/loom-app/text-cell-edit/index.tsx
-var import_react70 = __toESM(require_react());
-
-// src/react/loom-app/text-cell-edit/suggest-menu.tsx
-var import_react69 = __toESM(require_react());
-
-// src/react/shared/suggest-list/index.tsx
-var import_react67 = __toESM(require_react());
-var import_fuzzysort = __toESM(require_fuzzysort());
-
-// src/react/shared/suggest-list/suggest-item.tsx
-var import_react63 = __toESM(require_react());
-
-// src/shared/event-system/event-system.ts
-var EventSystem = class {
-  constructor() {
-    this.eventListeners = [];
-  }
-  addEventListener(name, callback, priority = 0) {
-    this.eventListeners.push({
-      name,
-      callback,
-      priority
-    });
-    this.eventListeners.sort((a2, b2) => b2.priority - a2.priority);
-  }
-  removeEventListener(name, callback) {
-    this.eventListeners = this.eventListeners.filter(
-      (l2) => l2.name !== name || l2.callback !== callback
-    );
-  }
-  dispatchEvent(name, event, ...data) {
-    const listeners = this.eventListeners.filter((l2) => l2.name === name);
-    listeners.forEach((listener2) => {
-      listener2.callback(event, data);
-    });
-  }
-};
-var nltEventSystem = new EventSystem();
-
-// src/react/shared/suggest-list/suggest-item.tsx
-var SuggestItem = import_react63.default.forwardRef(
-  function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
-    const handleClick = import_react63.default.useCallback(
-      (e) => {
-        e.stopPropagation();
-        onItemClick(file);
-      },
-      [file, onItemClick]
-    );
-    import_react63.default.useEffect(() => {
-      function handleKeyDown(e) {
-        if (e.key === "Enter")
-          onItemClick(file);
-      }
-      if (isHighlighted)
-        nltEventSystem.addEventListener("keydown", handleKeyDown, 1);
-      return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-    }, [isHighlighted, onItemClick, file]);
-    let name = "No match found";
-    if (file) {
-      if (file.extension === "md") {
-        name = file.basename;
-      } else {
-        name = file.name;
-      }
-    }
-    let path = null;
-    if (file) {
-      if (file.parent && file.parent.path !== "/") {
-        path = file.parent.path + "/";
-      }
-    }
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-      tabIndex: 0,
-      "data-index": index,
-      className: "DataLoom__suggest-item DataLoom__focusable",
-      ref,
-      css: import_emotion_react_cjs.css`
-					padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
-					margin: 2px 0;
-					background-color: ${isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"};
-					&:hover {
-						background-color: var(--background-modifier-hover);
-					}
-				`,
-      onClick: handleClick,
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-          variant: "semibold",
-          size: "xs",
-          value: name,
-          maxWidth: "275px"
-        }),
-        path && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-          value: path,
-          size: "xs"
-        })
-      ]
-    });
-  }
-);
-var suggest_item_default = SuggestItem;
-
-// src/react/shared/suggest-list/input.tsx
-function Input({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				background-color: var(--background-secondary);
-				border-bottom: 1px solid var(--table-border-color);
-				padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-      className: "DataLoom__focusable",
-      type: "text",
-      css: transparentInputStyle,
-      autoFocus: true,
-      value,
-      onChange: (e) => onChange(e.target.value)
-    })
-  });
-}
-
-// src/react/shared/divider/index.tsx
-function Divider({
-  isVertical = false,
-  width = "100%",
-  height = "100%"
-}) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
-    css: import_emotion_react_cjs.css`
-				margin: 0;
-				width: ${!isVertical ? width : "unset"};
-				height: ${isVertical === true ? height : "unset"};
-				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
-				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
-			`
-  });
-}
-
-// src/react/shared/suggest-list/clear-button.tsx
-function ClearButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-        name: "Clear",
-        onClick
-      })
-    ]
-  });
-}
-
-// src/react/shared/suggest-list/create-button.tsx
-function CreateButton({ value, onClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-        name: `Create ${value}`,
-        onClick: () => onClick == null ? void 0 : onClick(value)
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {})
-    ]
-  });
-}
-
-// src/react/shared/suggest-list/index.tsx
-function SuggestList({
-  hiddenExtensions = [],
-  showInput,
-  showCreate,
-  showClear,
-  filterValue,
-  onItemClick,
-  onClearClick,
-  onCreateClick
-}) {
-  const [localFilterValue, setLocalFilterValue] = import_react67.default.useState(
-    filterValue != null ? filterValue : ""
-  );
-  const highlightItemRef = import_react67.default.useRef(null);
-  const [highlightIndex, setHighlightIndex] = import_react67.default.useState(-1);
-  const logger = useLogger();
-  import_react67.default.useEffect(() => {
-    setLocalFilterValue(filterValue != null ? filterValue : "");
-  }, [filterValue]);
-  import_react67.default.useEffect(() => {
-    if (highlightItemRef.current) {
-      highlightItemRef.current.scrollIntoView({
-        behavior: "auto",
-        block: "nearest"
-      });
-    }
-  }, [highlightIndex]);
-  const files = app.vault.getFiles().filter((file) => !hiddenExtensions.includes(file.extension));
-  let filteredFiles = [];
-  if (localFilterValue !== "") {
-    const results = import_fuzzysort.default.go(localFilterValue, files, {
-      key: "path",
-      limit: 20
-    });
-    filteredFiles = results.map((result) => result.obj);
-  } else {
-    filteredFiles = files;
-    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
-    filteredFiles = filteredFiles.slice(0, 20);
-  }
-  import_react67.default.useEffect(() => {
-    function handleKeyDown() {
-      logger("SuggestMenuContent handleKeyDown");
-      const focusedEl = document.activeElement;
-      if (!focusedEl)
-        return;
-      if (focusedEl.classList.contains("DataLoom__suggest-item")) {
-        const index = focusedEl.getAttribute("data-index");
-        if (!index)
-          return;
-        setHighlightIndex(parseInt(index));
-        return;
-      }
-      setHighlightIndex(-1);
-    }
-    nltEventSystem.addEventListener("keydown", handleKeyDown);
-    return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-  }, [filteredFiles.length, logger, highlightIndex]);
-  const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "DataLoom__suggest-menu",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-			`,
-    children: [
-      showInput && files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Input, {
-        value: localFilterValue,
-        onChange: setLocalFilterValue
-      }),
-      showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateButton, {
-        value: localFilterValue,
-        onClick: onCreateClick
-      }),
-      files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        css: import_emotion_react_cjs.css`
-						max-height: 175px;
-						overflow-y: auto;
-					`,
-        children: [
-          filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
-            index: 0,
-            file: null,
-            ref: null,
-            isHighlighted: true,
-            onItemClick
-          }),
-          filteredFiles.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-            children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
-              index,
-              ref: highlightIndex === index ? highlightItemRef : null,
-              file,
-              isHighlighted: index === highlightIndex,
-              onItemClick
-            }, file.path))
-          })
-        ]
-      }),
-      files.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-        px: "md",
-        pb: "md",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-          value: "No image files found"
-        })
-      }),
-      showClear && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ClearButton, {
-        onClick: onClearClick
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/text-cell-edit/suggest-menu.tsx
-var SuggestMenu = import_react69.default.forwardRef(
-  function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      id: id2,
-      isOpen,
-      top,
-      left,
-      ref,
-      width: 275,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
-        filterValue,
-        onItemClick
-      })
-    });
-  }
-);
-var suggest_menu_default = SuggestMenu;
-
-// src/react/loom-app/text-cell-edit/constants.ts
-var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
-
-// src/react/loom-app/text-cell-edit/utils.ts
-var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
-  let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText.length - 1;
-    const index = selectionStart - 1;
-    if (innerText === "" && index === startIndex - 1)
-      return true;
-    if (index >= startIndex && index <= endIndex)
-      return true;
-  }
-  return false;
-};
-var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
-  let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText.length - 1;
-    const index = selectionStart - 1;
-    if (innerText === "" && index === startIndex - 1) {
-      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
-    }
-    if (index >= startIndex && index <= endIndex) {
-      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
-    }
-  }
-  return inputValue;
-};
-var getFilterValue = (inputValue, selectionStart) => {
-  let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
-  while ((match = regex.exec(inputValue)) !== null) {
-    const innerText = match[1];
-    const startIndex = match.index + 2;
-    const endIndex = startIndex + innerText.length - 1;
-    const index = selectionStart - 1;
-    if (innerText === "" && index === startIndex - 1) {
-      return innerText;
-    }
-    if (index >= startIndex && index <= endIndex) {
-      return innerText;
-    }
-  }
-  return null;
-};
-var addClosingBracket = (value, selectionStart) => {
-  const char = value[selectionStart - 1];
-  if (char === "[")
-    value = value + "]";
-  return value;
-};
-var removeClosingBracket = (previousValue, value, selectionStart) => {
-  const previousChar = previousValue[selectionStart];
-  const nextChar = value[selectionStart];
-  if (previousChar === "[" && nextChar === "]") {
-    const updatedValue = value.slice(0, selectionStart) + value.slice(selectionStart + 1);
-    value = updatedValue;
-  }
-  return value;
-};
-
-// src/shared/link/link-utils.ts
-var getBasename = (filePath) => {
-  const fileName = stripDirectory(filePath);
-  return stripFileExtension(fileName);
-};
-var getExtension = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf(".") + 1);
-};
-var stripFileExtension = (filePath) => {
-  return filePath.substring(0, filePath.lastIndexOf("."));
-};
-var stripDirectory = (filePath) => {
-  return filePath.substring(filePath.lastIndexOf("/") + 1);
-};
-var isMarkdownFile = (extension) => {
-  return extension === "md";
-};
-var getWikiLinkText = (path) => {
-  const basename = getBasename(path);
-  const extension = getExtension(path);
-  let text = basename;
-  if (!isMarkdownFile(extension)) {
-    text = stripDirectory(path);
-    if (path.includes("/"))
-      text = `${path}|${basename}`;
-  } else {
-    const pathWithoutExtension = stripFileExtension(path);
-    if (path.includes("/"))
-      text = `${pathWithoutExtension}|${basename}`;
-  }
-  return text;
-};
-
-// src/react/loom-app/text-cell-edit/index.tsx
-function TextCellEdit({
-  shouldWrapOverflow,
-  menuCloseRequest,
-  value,
-  onChange,
-  onMenuClose
-}) {
-  var _a, _b, _c;
-  const { menu, isMenuOpen, menuRef, openMenu, closeAllMenus, closeTopMenu } = useMenu(1 /* TWO */);
-  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
-  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
-    topOffset: 35
-  });
-  const [localValue, setLocalValue] = import_react70.default.useState(value);
-  const inputRef = import_react70.default.useRef(null);
-  import_react70.default.useEffect(() => {
-    if (inputRef.current) {
-      const selectionIndex = inputRef.current.selectionStart;
-      if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "[") {
-        inputRef.current.selectionStart = selectionIndex - 1;
-        inputRef.current.selectionEnd = selectionIndex - 1;
-      } else if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "]" && localValue[selectionIndex - 3] === "[") {
-        inputRef.current.selectionStart = selectionIndex - 2;
-        inputRef.current.selectionEnd = selectionIndex - 2;
-      }
-    }
-  }, [inputRef, localValue]);
-  useInputSelection(inputRef, localValue);
-  const logger = useLogger();
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react70.default.useEffect(() => {
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
-      onMenuClose();
-    }
-  }, [
-    value,
-    localValue,
-    hasCloseRequestTimeChanged,
-    menuCloseRequest,
-    onMenuClose,
-    onChange
-  ]);
-  function handleKeyDown(e) {
-    const el = e.target;
-    logger("TextCellEdit handleKeyDown");
-    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
-      const cursorPosition = el.selectionStart;
-      if (isMenuOpen) {
-        if (!isSurroundedByDoubleBrackets(value, cursorPosition))
-          closeTopMenu();
-      }
-      if (inputRef.current) {
-        const inputEl = inputRef.current;
-        inputEl.selectionStart = cursorPosition;
-        inputEl.selectionEnd = cursorPosition;
-      }
-    } else if (e.key === "Enter") {
-      if (e.shiftKey && !isMenuOpen) {
-        e.stopPropagation();
-        return;
-      }
-      e.preventDefault();
-    }
-  }
-  function handleTextareaChange(e) {
-    const inputValue = e.target.value;
-    let newValue = inputValue;
-    if (inputRef.current) {
-      const inputEl = inputRef.current;
-      if (inputValue.length > localValue.length) {
-        newValue = addClosingBracket(newValue, inputEl.selectionStart);
-      } else {
-        newValue = removeClosingBracket(
-          localValue,
-          inputValue,
-          inputEl.selectionStart
-        );
-      }
-      if (isSurroundedByDoubleBrackets(newValue, inputEl.selectionStart)) {
-        if (!isMenuOpen)
-          openMenu(menu);
-      }
-    }
-    setLocalValue(newValue);
-  }
-  function handleSuggestItemClick(file) {
-    var _a2, _b2;
-    if (file) {
-      const fileName = getWikiLinkText(file.path);
-      const newValue = doubleBracketsInnerReplace(
-        localValue,
-        (_b2 = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b2 : 0,
-        fileName
-      );
-      onChange(newValue);
-    }
-    closeAllMenus();
-  }
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  const filterValue = (_c = getFilterValue(localValue, (_b = (_a = inputRef.current) == null ? void 0 : _a.selectionStart) != null ? _b : 0)) != null ? _c : "";
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__text-cell-edit",
-        ref: triggerRef,
-        css: import_emotion_react_cjs.css`
-					width: 100%;
-					height: 100%;
-				`,
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-          autoFocus: true,
-          css: import_emotion_react_cjs.css`
-						${textAreaStyle}
-						${overflowStyle}
-					`,
-          ref: inputRef,
-          value: localValue,
-          onKeyDown: handleKeyDown,
-          onChange: handleTextareaChange,
-          onBlur: (e) => {
-            e.target.classList.add("DataLoom__blur--cell");
-          }
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_menu_default, {
-        id: menu.id,
-        ref: menuRef,
-        isOpen: isMenuOpen,
-        top: triggerPosition.top,
-        left: triggerPosition.left,
-        filterValue,
-        onItemClick: handleSuggestItemClick
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/tag-cell-edit/index.tsx
-var import_react79 = __toESM(require_react());
-
-// src/react/loom-app/tag-cell-edit/menu-header.tsx
-var import_react73 = __toESM(require_react());
-function MenuHeader({
-  cellTags,
-  inputValue,
-  onInputValueChange,
-  onRemoveTag
-}) {
-  const inputRef = import_react73.default.useRef(null);
-  function handleInputChange(value) {
-    if (value.match(/^\s/))
-      return;
-    onInputValueChange(value);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				background-color: var(--background-secondary);
-				border-bottom: 1px solid var(--table-border-color);
-				padding: 4px 10px;
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
-      spacingX: "sm",
-      children: [
-        cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
-          id: tag.id,
-          color: tag.color,
-          markdown: tag.markdown,
-          maxWidth: "150px",
-          showRemoveButton: true,
-          onRemoveClick: onRemoveTag
-        }, tag.id)),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-          className: "DataLoom__focusable",
-          css: transparentInputStyle,
-          autoFocus: true,
-          ref: inputRef,
-          type: "text",
-          value: inputValue,
-          onChange: (e) => handleInputChange(e.target.value)
-        })
-      ]
-    })
-  });
-}
-
-// src/react/loom-app/tag-cell-edit/create-tag.tsx
-function CreateTag({ markdown, color, onTagAdd }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-    css: import_emotion_react_cjs.css`
-				all: unset; //reset button style
-				display: flex;
-				align-items: center;
-				padding: 4px 6px;
-				width: 100%;
-				overflow: hidden;
-				box-shadow: none !important;
-			`,
-    className: "DataLoom__focusable DataLoom__selectable",
-    onClick: () => onTagAdd(markdown, color),
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-      spacing: "sm",
-      isHorizontal: true,
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-          children: "Create"
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
-          markdown,
-          color,
-          maxWidth: "120px"
-        })
-      ]
-    })
-  });
-}
-
-// src/react/loom-app/tag-color-menu/index.tsx
-var import_react76 = __toESM(require_react());
-
-// src/shared/stringUtils.ts
-var uppercaseFirst = (input) => {
-  return input.charAt(0).toUpperCase() + input.slice(1);
-};
-
-// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
-var import_react75 = __toESM(require_react());
-function ColorItem({
-  isDarkMode,
-  color,
-  isSelected,
-  onColorClick
-}) {
-  const ref = import_react75.default.useRef(null);
-  import_react75.default.useEffect(() => {
-    if (!ref.current)
-      return;
-    if (isSelected) {
-      ref.current.focus();
-    }
-  }, [isSelected]);
-  function handleKeyDown(e) {
-    if (e.key === "Enter") {
-      e.stopPropagation();
-      onColorClick(color);
-    }
-  }
-  let containerClass = "DataLoom__color-item DataLoom__focusable DataLoom__selectable";
-  if (isSelected)
-    containerClass += " DataLoom__selected";
-  const colorClass = findColorClassName(isDarkMode, color);
-  let squareClass = "DataLoom__color-item-square";
-  squareClass += " " + colorClass;
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    ref,
-    tabIndex: 0,
-    className: containerClass,
-    onKeyDown: handleKeyDown,
-    onClick: () => {
-      onColorClick(color);
-    },
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: squareClass
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        children: uppercaseFirst(color)
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/tag-color-menu/index.tsx
-var TagColorMenu = import_react76.default.forwardRef(
-  function TagColorMenu2({
-    menuId,
-    isOpen,
-    top,
-    left,
-    selectedColor,
-    onColorClick,
-    onDeleteClick
-  }, ref) {
-    const { isDarkMode } = useAppSelector((state) => state.global);
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      ref,
-      id: menuId,
-      isOpen,
-      top,
-      left,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__tag-color-menu",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "sm",
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-              px: "lg",
-              py: "sm",
-              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-                value: "Color"
-              })
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-              children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ColorItem, {
-                isDarkMode,
-                color,
-                onColorClick,
-                isSelected: selectedColor === color
-              }, color))
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-              lucideId: "trash-2",
-              name: "Delete",
-              onClick: onDeleteClick
-            })
-          ]
-        })
-      })
-    });
-  }
-);
-var tag_color_menu_default = TagColorMenu;
-
-// src/react/loom-app/tag-cell-edit/selectable-tag.tsx
-function SelectableTag({
-  id: id2,
-  markdown,
-  color,
-  onClick,
-  onColorChange,
-  onDeleteClick
-}) {
-  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(1 /* TWO */);
-  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
-  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
-    openDirection: "right",
-    leftOffset: -55,
-    topOffset: -100
-  });
-  function handleColorChange(color2) {
-    onColorChange(id2, color2);
-    closeTopMenu();
-  }
-  function handleDeleteClick() {
-    onDeleteClick(id2);
-    closeTopMenu();
-  }
-  function handleKeyDown(e) {
-    if (e.key === "Enter") {
-      e.stopPropagation();
-      onClick(id2);
-    }
-  }
-  function handleClick(e) {
-    const target = e.target;
-    if (target.classList.contains("DataLoom__menu-trigger"))
-      return;
-    e.stopPropagation();
-    onClick(id2);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        tabIndex: 0,
-        ref: triggerRef,
-        css: import_emotion_react_cjs.css`
-					display: flex;
-					justify-content: space-between;
-					align-items: center;
-					padding: var(--nlt-spacing--sm) var(--nlt-spacing--md);
-					overflow: hidden;
-				`,
-        className: "DataLoom__focusable DataLoom__selectable",
-        onClick: handleClick,
-        onKeyDown: handleKeyDown,
-        children: [
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
-            markdown,
-            color,
-            maxWidth: "150px"
-          }),
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
-            icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
-              lucideId: "more-horizontal"
-            }),
-            menu
-          })
-        ]
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(tag_color_menu_default, {
-        isOpen: isMenuOpen,
-        ref: menuRef,
-        menuId: menu.id,
-        top: triggerPosition.top,
-        left: triggerPosition.left,
-        selectedColor: color,
-        onColorClick: (color2) => handleColorChange(color2),
-        onDeleteClick: handleDeleteClick
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/tag-cell-edit/menu-body.tsx
-function MenuBody({
-  columnTags,
-  inputValue,
-  newTagColor,
-  onTagAdd,
-  onTagClick,
-  onTagColorChange,
-  onTagDelete
-}) {
-  const hasTagWithSameCase = columnTags.find((tag) => tag.markdown === inputValue) !== void 0;
-  const filteredTags = columnTags.filter(
-    (tag) => tag.markdown.toLowerCase().includes(inputValue.toLowerCase())
-  );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    css: import_emotion_react_cjs.css`
-				max-height: 140px;
-				overflow-y: scroll;
-			`,
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-        px: "lg",
-        py: "md",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-          value: "Select an option or create one"
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        css: import_emotion_react_cjs.css`
-					width: 100%;
-				`,
-        children: [
-          !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateTag, {
-            markdown: inputValue,
-            color: newTagColor,
-            onTagAdd
-          }),
-          filteredTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SelectableTag, {
-            id: tag.id,
-            color: tag.color,
-            markdown: tag.markdown,
-            onColorChange: onTagColorChange,
-            onClick: onTagClick,
-            onDeleteClick: onTagDelete
-          }, tag.id))
-        ]
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/tag-cell-edit/index.tsx
-function TagCellEdit({
-  columnTags,
-  cellTags,
-  menuCloseRequest,
-  onTagClick,
-  onTagAdd,
-  onTagColorChange,
-  onTagDelete,
-  onRemoveTag,
-  onMenuClose
-}) {
-  const [inputValue, setInputValue] = import_react79.default.useState("");
-  const [newTagColor, setNewTagColor] = import_react79.default.useState(randomColor());
-  const handleTagAdd = import_react79.default.useCallback(
-    (markdown, color) => {
-      onTagAdd(markdown, color);
-      setInputValue("");
-      setNewTagColor(randomColor());
-      onMenuClose();
-    },
-    [onTagAdd, onMenuClose]
-  );
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react79.default.useEffect(() => {
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (menuCloseRequest.type === "enter") {
-        const doesTagExist = columnTags.find(
-          (tag) => tag.markdown === inputValue
-        );
-        if (!doesTagExist) {
-          handleTagAdd(inputValue, newTagColor);
-          return;
-        }
-      }
-      onMenuClose();
-    }
-  }, [
-    handleTagAdd,
-    columnTags,
-    inputValue,
-    newTagColor,
-    hasCloseRequestTimeChanged,
-    menuCloseRequest,
-    onMenuClose
-  ]);
-  function handleTagClick(id2) {
-    onTagClick(id2);
-    onMenuClose();
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "DataLoom__tag-cell-edit",
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuHeader, {
-        inputValue,
-        cellTags,
-        onInputValueChange: setInputValue,
-        onRemoveTag
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuBody, {
-        inputValue,
-        columnTags,
-        newTagColor,
-        onTagAdd: handleTagAdd,
-        onTagClick: handleTagClick,
-        onTagDelete,
-        onTagColorChange
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/date-cell-edit/index.tsx
-var import_react81 = __toESM(require_react());
-
-// src/react/loom-app/date-cell-edit/date-format-menu.tsx
-var import_react80 = __toESM(require_react());
-var DateFormatMenu = import_react80.default.forwardRef(
-  function DateFormatMenu2({ id: id2, top, left, isOpen, value, onChange }, ref) {
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      ref,
-      isOpen,
-      id: id2,
-      top,
-      left,
-      width: 175,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "DataLoom__date-format-menu",
-        children: Object.values([
-          "dd/mm/yyyy" /* DD_MM_YYYY */,
-          "mm/dd/yyyy" /* MM_DD_YYYY */,
-          "yyyy/mm/dd" /* YYYY_MM_DD */
-        ]).map((format) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-          name: getDisplayNameForDateFormat(format),
-          isSelected: value === format,
-          onClick: () => {
-            onChange(format);
-          }
-        }, format))
-      })
-    });
-  }
-);
-var date_format_menu_default = DateFormatMenu;
-
-// src/react/loom-app/date-cell-edit/index.tsx
-function DateCellEdit({
-  value,
-  menuCloseRequest,
-  dateFormat,
-  onDateTimeChange,
-  onMenuClose,
-  onDateFormatChange
-}) {
-  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(1 /* TWO */);
-  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
-  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
-    openDirection: "right",
-    topOffset: 35,
-    leftOffset: -50
-  });
-  const [localValue, setLocalValue] = import_react81.default.useState(
-    value === null ? "" : unixTimeToDateString(value, dateFormat)
-  );
-  const [isInputInvalid, setInputInvalid] = import_react81.default.useState(false);
-  const [closeTime, setCloseTime] = import_react81.default.useState(0);
-  const inputRef = import_react81.default.useRef(null);
-  import_react81.default.useEffect(() => {
-    setLocalValue(
-      value === null ? "" : unixTimeToDateString(value, dateFormat)
-    );
-  }, [value, dateFormat]);
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react81.default.useEffect(() => {
-    function validateInput() {
-      let newValue = null;
-      if (localValue !== "") {
-        if (isValidDateFormat(localValue, dateFormat)) {
-          newValue = dateStringToUnixTime(localValue, dateFormat);
-        } else {
-          if ((menuCloseRequest == null ? void 0 : menuCloseRequest.type) === "enter") {
-            setInputInvalid(true);
-            return;
-          }
-          newValue = value;
-        }
-      }
-      if (newValue !== value) {
-        setInputInvalid(false);
-        onDateTimeChange(newValue);
-      }
-      setCloseTime(Date.now());
-    }
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null)
-      validateInput();
-  }, [
-    value,
-    hasCloseRequestTimeChanged,
-    localValue,
-    menuCloseRequest,
-    dateFormat,
-    onDateTimeChange,
-    onMenuClose
-  ]);
-  import_react81.default.useEffect(() => {
-    if (closeTime !== 0) {
-      onMenuClose();
-    }
-  }, [closeTime, onMenuClose]);
-  function handleDateFormatChange(value2) {
-    onDateFormatChange(value2);
-    closeTopMenu();
-  }
-  function handleClearClick() {
-    onDateTimeChange(null);
-    onMenuClose();
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        ref: triggerRef,
-        className: "DataLoom__date-cell-edit",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-                tabIndex: 0,
-                type: "text",
-                className: "DataLoom__focusable",
-                css: import_emotion_react_cjs.css`
-								${borderInputStyle}
-								${isInputInvalid ? "&:focus-visible { outline: 2px solid var(--background-modifier-error) !important; }" : ""}
-							`,
-                ref: inputRef,
-                autoFocus: true,
-                value: localValue,
-                onChange: (e) => setLocalValue(e.target.value)
-              })
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
-              menu,
-              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-                isFocusable: false,
-                name: "Date format",
-                value: getDisplayNameForDateFormat(dateFormat)
-              })
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-              name: "Clear",
-              onClick: handleClearClick
-            })
-          ]
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(date_format_menu_default, {
-        id: menu.id,
-        isOpen: isMenuOpen,
-        ref: menuRef,
-        top: triggerPosition.top,
-        left: triggerPosition.left,
-        value: dateFormat,
-        onChange: handleDateFormatChange
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/multi-tag-cell/index.tsx
-function MultiTagCell({ cellTags, shouldWrapOverflow }) {
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__multi-tag-cell",
-    css: overflowStyle,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Wrap, {
-      children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
-        markdown: tag.markdown,
-        color: tag.color
-      }, tag.id))
-    })
-  });
-}
-
-// src/react/loom-app/last-edited-time-cell/index.tsx
-function LastEditedTimeCell({
-  value,
-  format,
-  shouldWrapOverflow
-}) {
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__last-edited-time-cell",
-    css: overflowStyle,
-    children: unixTimeToDateTimeString(value, format)
-  });
-}
-
-// src/react/loom-app/creation-time-cell/index.tsx
-function CreationTimeCell({
-  value,
-  format,
-  shouldWrapOverflow
-}) {
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__creation-time-cell",
-    css: overflowStyle,
-    children: unixTimeToDateTimeString(value, format)
-  });
-}
-
-// src/react/loom-app/currency-cell/index.tsx
-function CurrencyCell({
-  value,
-  currencyType,
-  shouldWrapOverflow
-}) {
-  const content = getCurrencyCellContent(value, currencyType);
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__currency-cell",
-    css: overflowStyle,
-    children: content
-  });
-}
-
-// src/react/loom-app/currency-cell-edit/index.tsx
-var import_react83 = __toESM(require_react());
-function CurrencyCellEdit({
-  value,
-  menuCloseRequest,
-  onChange,
-  onMenuClose
-}) {
-  const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react83.default.useState(initialValue);
-  const inputRef = import_react83.default.useRef(null);
-  useInputSelection(inputRef, localValue);
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react83.default.useEffect(() => {
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
-      onMenuClose();
-    }
-  }, [
-    value,
-    localValue,
-    hasCloseRequestTimeChanged,
-    menuCloseRequest,
-    onMenuClose,
-    onChange
-  ]);
-  function handleChange(inputValue) {
-    if (!isNumberInput(inputValue))
-      return;
-    setLocalValue(inputValue);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__currency-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-      autoFocus: true,
-      css: numberInputStyle,
-      ref: inputRef,
-      type: "text",
-      inputMode: "numeric",
-      value: localValue,
-      onChange: (e) => handleChange(e.target.value),
-      onBlur: (e) => {
-        e.target.classList.add("DataLoom__blur--cell");
-      }
-    })
-  });
-}
-
-// src/shared/cell-content/file-cell-content.ts
-var getFileCellContent = (markdown) => {
-  if (markdown === "")
-    return markdown;
-  const linkRegex = new RegExp(/\[\[([^[\]]+)\]\]/);
-  const matches = markdown.match(linkRegex);
-  let matchStartIndex = -1;
-  let matchEndIndex = -1;
-  if (matches) {
-    matchStartIndex = markdown.indexOf(matches[0]);
-    matchEndIndex = matchStartIndex + matches[0].length;
-  }
-  if (matches === null) {
-    return `[[${markdown}]]`;
-  } else if (matchStartIndex === 0) {
-    return `${markdown.slice(0, matchEndIndex + 1).trim()}`;
-  } else {
-    return `[[${markdown.slice(0, matchStartIndex).trim()}]]`;
-  }
-};
-
-// src/react/loom-app/file-cell/index.tsx
-function FileCell({ markdown, shouldWrapOverflow }) {
-  const content = getFileCellContent(markdown);
-  const { containerRef, renderRef } = useRenderMarkdown(content);
-  const overflowStyle = useOverflow(shouldWrapOverflow);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__file-cell",
-    css: overflowStyle,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      css: import_emotion_react_cjs.css`
-					p {
-						margin: 0;
-						text-align: left;
-					}
-				`,
-      ref: (node) => {
-        containerRef.current = node;
-        appendOrReplaceFirstChild(node, renderRef.current);
-      }
-    })
-  });
-}
-
-// src/react/loom-app/file-cell-edit/index.tsx
-function FileCellEdit({ onChange, onMenuClose }) {
-  function handleSuggestItemClick(file) {
-    if (file) {
-      let fileName = file.basename;
-      if (file.path.includes("/"))
-        fileName = `${file.path}|${file.basename}`;
-      onChange(`[[${fileName}]]`);
-    }
-    onMenuClose();
-  }
-  function handleClearClick() {
-    onChange("");
-    onMenuClose();
-  }
-  function handleCreateClick(value) {
-    let link = `[[${value}]]`;
-    if (value.includes("/")) {
-      const fileName = getBasename(value);
-      link = `${value}|${fileName}`;
-    }
-    onChange(link);
-    onMenuClose();
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__file-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
-      showInput: true,
-      showClear: true,
-      showCreate: true,
-      onItemClick: handleSuggestItemClick,
-      onClearClick: handleClearClick,
-      onCreateClick: handleCreateClick
-    })
-  });
-}
-
-// src/react/loom-app/embed-cell/embed.tsx
-function Embed({
-  isExternalLink,
-  content,
-  aspectRatio,
-  horizontalPadding,
-  verticalPadding
-}) {
-  const { containerRef, renderRef } = useRenderMarkdown(content, {
-    isEmbed: true,
-    isExternalLink
-  });
-  const paddingX = getSpacing(horizontalPadding);
-  const paddingY = getSpacing(verticalPadding);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				aspect-ratio: ${aspectRatio};
-				padding-left: ${paddingX};
-				padding-right: ${paddingX};
-				padding-top: ${paddingY};
-				padding-bottom: ${paddingY};
-
-				iframe {
-					width: 100%;
-					height: 100%;
-				}
-
-				p {
-					width: 100%;
-					height: 100%;
-					margin: 0px;
-				}
-			`,
-    ref: (node) => {
-      containerRef.current = node;
-      appendOrReplaceFirstChild(node, renderRef.current);
-    }
-  });
-}
-
-// src/react/loom-app/embed-cell/index.tsx
-function EmbedCell({
-  isExternalLink,
-  markdown,
-  aspectRatio,
-  horizontalPadding,
-  verticalPadding
-}) {
-  const content = getEmbedCellContent(markdown, {
-    shouldRenderMarkdown: true,
-    isExternalLink
-  });
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__embed-cell",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				height: 100%;
-				overflow: hidden;
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Embed, {
-      isExternalLink,
-      content,
-      aspectRatio,
-      horizontalPadding,
-      verticalPadding
-    })
-  });
-}
-
-// src/react/loom-app/embed-cell-edit/index.tsx
-var import_react89 = __toESM(require_react());
-
-// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
-var import_react87 = __toESM(require_react());
-function ExternalEmbedInput({ value, onChange }) {
-  const inputRef = import_react87.default.useRef(null);
-  useInputSelection(inputRef, value);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-    autoFocus: true,
-    type: "text",
-    className: "DataLoom__focusable",
-    css: import_emotion_react_cjs.css`
-				${borderInputStyle}
-			`,
-    ref: inputRef,
-    value,
-    onChange: (e) => onChange(e.target.value)
-  });
-}
-
-// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
-function InternalEmbedSuggest({ onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
-    showInput: true,
-    hiddenExtensions: ["md", CURRENT_FILE_EXTENSION],
-    onItemClick: (item) => {
-      var _a;
-      return onChange((_a = item == null ? void 0 : item.path) != null ? _a : "");
-    }
-  });
-}
-
-// src/react/loom-app/embed-cell-edit/index.tsx
-function EmbedCellEdit({
-  menuCloseRequest,
-  isExternalLink,
-  value,
-  onChange,
-  onMenuClose,
-  onExternalLinkToggle
-}) {
-  const [externalLink, setExternalLink] = import_react89.default.useState(
-    isExternalLink ? value : ""
-  );
-  const hasCloseRequestTimeChanged = useCompare(
-    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
-  );
-  import_react89.default.useEffect(() => {
-    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (isExternalLink) {
-        if (externalLink !== value)
-          onChange(externalLink);
-      }
-      onMenuClose();
-    }
-  }, [
-    isExternalLink,
-    value,
-    externalLink,
-    hasCloseRequestTimeChanged,
-    menuCloseRequest,
-    onMenuClose,
-    onChange
-  ]);
-  function handleSuggestChange(value2) {
-    onChange(value2);
-    onMenuClose();
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__embed-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-      width: "100%",
-      spacing: "lg",
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-          width: "100%",
-          px: "md",
-          pt: "md",
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-            spacing: "sm",
-            width: "100%",
-            children: [
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-                htmlFor: "external-switch",
-                children: "External Link"
-              }),
-              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-                id: "external-switch",
-                value: isExternalLink,
-                onToggle: onExternalLinkToggle
-              })
-            ]
-          })
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
-        isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-          width: "100%",
-          px: "md",
-          pb: "md",
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExternalEmbedInput, {
-            value: externalLink,
-            onChange: setExternalLink
-          })
-        }),
-        !isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(InternalEmbedSuggest, {
-          onChange: handleSuggestChange
-        })
-      ]
-    })
-  });
-}
-
-// src/react/loom-app/body-cell/index.tsx
-var import_obsidian7 = require("obsidian");
-function BodyCell8({
-  cellId,
-  columnId,
-  rowId,
-  isExternalLink,
-  markdown,
-  aspectRatio,
-  verticalPadding,
-  horizontalPadding,
-  dateFormat,
-  dateTime,
-  columnCurrencyType,
-  columnType,
-  rowCreationTime,
-  rowLastEditedTime: rowLastEditedTime2,
-  columnTags,
-  cellTagIds,
-  width,
-  shouldWrapOverflow,
-  onTagRemoveClick,
-  onTagMultipleRemove,
-  onTagColorChange,
-  onTagDelete,
-  onTagClick,
-  onContentChange,
-  onDateFormatChange,
-  onDateTimeChange,
-  onTagAdd,
-  onExternalLinkToggle
-}) {
-  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
-  const { menu, isMenuOpen, menuCloseRequest, menuRef, closeTopMenu } = useMenu(0 /* ONE */, {
-    shouldRequestOnClose
-  });
-  const { triggerPosition, triggerRef } = useMenuTriggerPosition();
-  useShiftMenu(triggerRef, menuRef, isMenuOpen);
-  function handleCellContextClick() {
-    return __async(this, null, function* () {
-      try {
-        yield navigator.clipboard.writeText(markdown);
-        new import_obsidian7.Notice("Copied text to clipboard");
-      } catch (err) {
-        console.log(err);
-      }
-    });
-  }
-  function toggleCheckbox() {
-    const isChecked = isCheckboxChecked(markdown);
-    if (isChecked) {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED);
-    } else {
-      handleCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
-    }
-  }
-  function handleMenuTriggerBackspaceDown() {
-    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
-      onContentChange(cellId, rowId, "");
-    } else if (columnType === "date" /* DATE */) {
-      onDateTimeChange(cellId, rowId, null);
-    } else if (columnType === "checkbox" /* CHECKBOX */) {
-      onContentChange(cellId, rowId, CHECKBOX_MARKDOWN_UNCHECKED);
-    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
-      onTagMultipleRemove(cellId, rowId, cellTagIds);
-    }
-  }
-  function handleMenuTriggerEnterDown() {
-    if (columnType === "checkbox" /* CHECKBOX */)
-      toggleCheckbox();
-  }
-  function handleMenuTriggerClick() {
-    if (columnType === "checkbox" /* CHECKBOX */) {
-      toggleCheckbox();
-    }
-  }
-  function handleExternalLinkToggle(value) {
-    onExternalLinkToggle(cellId, rowId, value);
-  }
-  function handleTagAdd(markdown2, color) {
-    if (markdown2 === "")
-      return;
-    onTagAdd(
-      cellId,
-      columnId,
-      rowId,
-      markdown2.trim(),
-      color,
-      columnType === "multi-tag" /* MULTI_TAG */
-    );
-  }
-  function handleRemoveTagClick(tagId) {
-    onTagRemoveClick(cellId, rowId, tagId);
-  }
-  function handleTagColorChange(tagId, color) {
-    onTagColorChange(columnId, tagId, color);
-  }
-  function handleTagDeleteClick(tagId) {
-    onTagDelete(columnId, tagId);
-  }
-  function handleTagClick(tagId) {
-    onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
-  }
-  const handleInputChange = import_react90.default.useCallback(
-    (value) => {
-      onContentChange(cellId, rowId, value);
-    },
-    [cellId, rowId, onContentChange]
-  );
-  function handleCheckboxChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleDateFormatChange(value) {
-    onDateFormatChange(columnId, value);
-  }
-  const handleDateTimeChange = import_react90.default.useCallback(
-    (value) => {
-      onDateTimeChange(cellId, rowId, value);
-    },
-    [cellId, rowId, onDateTimeChange]
-  );
-  const handleMenuClose = import_react90.default.useCallback(() => {
-    closeTopMenu();
-  }, [closeTopMenu]);
-  const { width: measuredWidth, height: measuredHeight } = triggerPosition;
-  let menuHeight = measuredHeight;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
-    menuHeight = 0;
-  }
-  let menuWidth = measuredWidth;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
-    menuWidth = 250;
-  } else if (columnType === "file" /* FILE */) {
-    menuWidth = 275;
-  } else if (columnType === "date" /* DATE */) {
-    menuWidth = 175;
-  }
-  let className = "DataLoom__body-td-container";
-  if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */) {
-    className += " DataLoom__default-cursor";
-  }
-  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
-        isCell: true,
-        menu,
-        onClick: handleMenuTriggerClick,
-        onEnterDown: handleMenuTriggerEnterDown,
-        onBackspaceDown: handleMenuTriggerBackspaceDown,
-        shouldRun: columnType !== "checkbox" /* CHECKBOX */ && columnType !== "creation-time" /* CREATION_TIME */ && columnType !== "last-edited-time" /* LAST_EDITED_TIME */,
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          ref: triggerRef,
-          onContextMenu: handleCellContextClick,
-          css: import_emotion_react_cjs.css`
-						display: flex;
-						width: 100%;
-						height: 100%;
-						min-height: var(--nlt-cell-min-height);
-						padding: var(--nlt-cell-spacing-x)
-							var(--nlt-cell-spacing-y);
-						cursor: pointer;
-					`,
-          className,
-          style: {
-            width
-          },
-          children: [
-            columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCell, {
-              markdown,
-              shouldWrapOverflow
-            }),
-            columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCell, {
-              isExternalLink,
-              markdown,
-              verticalPadding,
-              horizontalPadding,
-              aspectRatio
-            }),
-            columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCell, {
-              markdown,
-              shouldWrapOverflow
-            }),
-            columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCell, {
-              value: markdown,
-              shouldWrapOverflow
-            }),
-            columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCell, {
-              value: markdown,
-              currencyType: columnCurrencyType,
-              shouldWrapOverflow
-            }),
-            columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCell, {
-              markdown: cellTags[0].markdown,
-              color: cellTags[0].color,
-              shouldWrapOverflow
-            }),
-            columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MultiTagCell, {
-              cellTags,
-              shouldWrapOverflow
-            }),
-            columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DateCell, {
-              value: dateTime,
-              format: dateFormat
-            }),
-            columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CheckboxCell, {
-              value: markdown
-            }),
-            columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreationTimeCell, {
-              value: rowCreationTime,
-              format: dateFormat,
-              shouldWrapOverflow
-            }),
-            columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LastEditedTimeCell, {
-              value: rowLastEditedTime2,
-              format: dateFormat,
-              shouldWrapOverflow
-            })
-          ]
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(menu_default, {
-        ref: menuRef,
-        id: menu.id,
-        hideBorder: columnType === "text" /* TEXT */ || columnType === "currency" /* CURRENCY */ || columnType === "number" /* NUMBER */,
-        isOpen: isMenuOpen,
-        top: triggerPosition.top,
-        left: triggerPosition.left,
-        width: menuWidth,
-        height: menuHeight,
-        children: [
-          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCellEdit, {
-            menuCloseRequest,
-            shouldWrapOverflow,
-            value: markdown,
-            onChange: handleInputChange,
-            onMenuClose: handleMenuClose
-          }),
-          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCellEdit, {
-            isExternalLink,
-            menuCloseRequest,
-            value: markdown,
-            onChange: handleInputChange,
-            onMenuClose: handleMenuClose,
-            onExternalLinkToggle: handleExternalLinkToggle
-          }),
-          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCellEdit, {
-            onChange: handleInputChange,
-            onMenuClose: handleMenuClose
-          }),
-          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCellEdit, {
-            menuCloseRequest,
-            value: markdown,
-            onChange: handleInputChange,
-            onMenuClose: handleMenuClose
-          }),
-          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCellEdit, {
-            menuCloseRequest,
-            columnTags,
-            cellTags,
-            onTagColorChange: handleTagColorChange,
-            onTagAdd: handleTagAdd,
-            onRemoveTag: handleRemoveTagClick,
-            onTagClick: handleTagClick,
-            onTagDelete: handleTagDeleteClick,
-            onMenuClose: handleMenuClose
-          }),
-          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DateCellEdit, {
-            value: dateTime,
-            menuCloseRequest,
-            dateFormat,
-            onDateTimeChange: handleDateTimeChange,
-            onDateFormatChange: handleDateFormatChange,
-            onMenuClose: handleMenuClose
-          }),
-          columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCellEdit, {
-            menuCloseRequest,
-            value: markdown,
-            onChange: handleInputChange,
-            onMenuClose: handleMenuClose
-          })
-        ]
-      })
-    ]
-  });
-}
-
-// src/react/loom-app/new-column-button/index.tsx
-function NewColumnButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__new-column",
-    css: import_emotion_react_cjs.css`
-				width: 50px;
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-      icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
-        lucideId: "plus"
-      }),
-      ariaLabel: "New column",
-      onClick: () => onClick()
-    })
-  });
-}
-
-// src/react/loom-app/header-cell/index.tsx
-var import_react98 = __toESM(require_react());
-
-// src/react/shared/icon/utils.tsx
-var getIconIdForCellType = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-      return "text";
-    case "embed" /* EMBED */:
-      return "link";
-    case "file" /* FILE */:
-      return "file";
-    case "number" /* NUMBER */:
-      return "hash";
-    case "checkbox" /* CHECKBOX */:
-      return "check-square";
-    case "creation-time" /* CREATION_TIME */:
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "clock-2";
-    case "tag" /* TAG */:
-      return "tag";
-    case "multi-tag" /* MULTI_TAG */:
-      return "tags";
-    case "date" /* DATE */:
-      return "calendar";
-    case "currency" /* CURRENCY */:
-      return "banknote";
-    default:
-      return "text";
-  }
-};
-
-// src/react/loom-app/header-cell/use-column-resize.ts
-var import_react93 = __toESM(require_react());
-var useColumnResize = (columnId, onMove) => {
-  const { setResizingColumnId } = useLoomState();
-  const mouseDownX = (0, import_react93.useRef)(0);
-  function handleMouseMove(e) {
-    const dist = e.pageX - mouseDownX.current;
-    onMove(dist);
-  }
-  function handleTouchMove(e) {
-    e.stopPropagation();
-    const dist = e.touches[0].pageX - mouseDownX.current;
-    onMove(dist);
-  }
-  function handleMouseUp() {
-    document.removeEventListener("mousemove", handleMouseMove);
-    document.removeEventListener("mouseup", handleMouseUp);
-    setTimeout(() => {
-      setResizingColumnId(null);
-    }, 100);
-  }
-  function handleTouchEnd() {
-    document.removeEventListener("touchmove", handleTouchMove);
-    document.removeEventListener("touchend", handleTouchEnd);
-    setTimeout(() => {
-      setResizingColumnId(null);
-    }, 100);
-  }
-  function handleTouchStart(e) {
-    if (e.detail >= 2)
-      return;
-    document.addEventListener("touchmove", handleTouchMove);
-    document.addEventListener("touchend", handleTouchEnd);
-    mouseDownX.current = e.touches[0].pageX;
-    setResizingColumnId(columnId);
-  }
-  function handleMouseDown(e) {
-    if (e.detail >= 2)
-      return;
-    e.preventDefault();
-    document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("mouseup", handleMouseUp);
-    mouseDownX.current = e.pageX;
-    setResizingColumnId(columnId);
-  }
-  return { handleMouseDown, handleTouchStart };
-};
-
-// src/react/loom-app/header-cell/resize-container.tsx
-var containerStyle = import_emotion_react_cjs.css`
-	position: relative;
-`;
-var innerStyle = import_emotion_react_cjs.css`
-	position: absolute;
-	left: -5px;
-	cursor: col-resize;
-	width: 8px;
-	height: 100%;
-	&:hover {
-		background-color: var(--interactive-accent);
-	}
-	&:active {
-		background-color: var(--interactive-accent);
-	}
-`;
-var dragStyle = import_emotion_react_cjs.css`
-	background-color: var(--interactive-accent);
-`;
-function ResizeContainer({
-  currentResizingId,
-  columnId,
-  width,
-  onWidthChange,
-  onMenuClose
-}) {
-  const { handleMouseDown, handleTouchStart } = useColumnResize(
-    columnId,
-    (dist) => {
-      const oldWidth = pxToNum(width);
-      const newWidth = oldWidth + dist;
-      if (newWidth < MIN_COLUMN_WIDTH)
-        return;
-      onWidthChange(columnId, numToPx(newWidth));
-    }
-  );
-  const isDragging = columnId === currentResizingId;
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: containerStyle,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "DataLoom__resize-handle",
-      css: [innerStyle, isDragging && dragStyle],
-      onMouseDown: (e) => {
-        onMenuClose();
-        handleMouseDown(e);
-      },
-      onTouchStart: handleTouchStart,
-      onClick: (e) => {
-        e.stopPropagation();
-        if (e.detail === 2)
-          onWidthChange(columnId, "unset");
-      }
-    })
-  });
-}
-
-// src/react/loom-app/header-cell-edit/index.tsx
-var import_react96 = __toESM(require_react());
-
-// src/react/loom-app/header-cell-edit/submenu.tsx
-function Submenu({ title, children, onBackClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-        p: "md",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "md",
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-              isHorizontal: true,
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
-                    lucideId: "arrow-left"
-                  }),
-                  onClick: () => {
-                    onBackClick();
-                  }
-                }),
-                title
-              ]
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {})
-          ]
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        children
-      })
-    ]
-  });
-}
 
 // src/react/loom-app/header-cell-edit/option-submenu.tsx
 function OptionSubmenu({
@@ -52900,7 +50572,7 @@ function TypeSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/base-menu.tsx
-var import_react95 = __toESM(require_react());
+var import_react57 = __toESM(require_react());
 function BaseMenu({
   shouldWrapOverflow,
   columnName,
@@ -52915,8 +50587,8 @@ function BaseMenu({
   onColumnNameChange,
   onHideClick
 }) {
-  const lastKeyPressed = import_react95.default.useRef(null);
-  const inputRef = import_react95.default.useRef(null);
+  const lastKeyPressed = import_react57.default.useRef(null);
+  const inputRef = import_react57.default.useRef(null);
   useInputSelection(inputRef, columnName);
   function handleInputChange(inputValue) {
     onColumnNameChange(inputValue);
@@ -52938,7 +50610,7 @@ function BaseMenu({
             width: "100%",
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
               type: "text",
-              className: "DataLoom__focusable",
+              className: "dataloom-focusable",
               autoFocus: true,
               css: borderInputStyle,
               ref: inputRef,
@@ -53087,7 +50759,7 @@ function PaddingSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/index.tsx
-var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
+var HeaderMenu = import_react58.default.forwardRef(function HeaderMenu2({
   isOpen,
   id: id2,
   top,
@@ -53118,12 +50790,12 @@ var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
   onDateFormatChange,
   onHideClick
 }, ref) {
-  const [submenu, setSubmenu] = (0, import_react96.useState)(null);
-  const [localValue, setLocalValue] = (0, import_react96.useState)(markdown);
+  const [submenu, setSubmenu] = (0, import_react58.useState)(null);
+  const [localValue, setLocalValue] = (0, import_react58.useState)(markdown);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react96.default.useEffect(() => {
+  import_react58.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (submenu === null) {
         if (localValue !== markdown)
@@ -53191,7 +50863,7 @@ var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
     ref,
     width: 175,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-      className: "DataLoom__header-menu",
+      className: "dataloom-header-menu",
       css: import_emotion_react_cjs.css`
 					color: var(--text-normal);
 				`,
@@ -53265,8 +50937,8 @@ var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
 });
 var header_cell_edit_default = HeaderMenu;
 
-// src/react/loom-app/header-cell/index.tsx
-function HeaderCell3({
+// src/react/loom-app/header-cell-container/index.tsx
+function HeaderCellContainer({
   cellId,
   rowId,
   columnId,
@@ -53299,12 +50971,12 @@ function HeaderCell3({
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   const [forceUpdateTime, forceUpdate] = useForceUpdate();
-  import_react98.default.useEffect(() => {
+  import_react60.default.useEffect(() => {
     if (width === "unset")
       forceUpdate();
   }, [width, forceUpdate]);
   const shouldUpdateWidth = useCompare(forceUpdateTime, false);
-  import_react98.default.useEffect(() => {
+  import_react60.default.useEffect(() => {
     if (shouldUpdateWidth) {
       const newWidth = numToPx(triggerPosition.width);
       onWidthChange(columnId, newWidth);
@@ -53314,9 +50986,9 @@ function HeaderCell3({
     closeTopMenu();
   }
   const lucideId = getIconIdForCellType(type);
-  let contentClassName = "DataLoom__th-content";
+  let contentClassName = "dataloom-cell--header__inner-container";
   if (resizingColumnId == null)
-    contentClassName += " DataLoom__selectable";
+    contentClassName += " dataloom-selectable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
@@ -53324,29 +50996,14 @@ function HeaderCell3({
         menu,
         shouldRun: resizingColumnId === null,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "DataLoom__th-container",
+          className: "dataloom-cell--header__container",
           ref: triggerRef,
-          css: import_emotion_react_cjs.css`
-						display: flex;
-						justify-content: space-between;
-						min-height: var(--nlt-cell-min-height);
-						width: ${width};
-					`,
+          style: {
+            width
+          },
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
               className: contentClassName,
-              css: import_emotion_react_cjs.css`
-							display: flex;
-							align-items: center;
-							/* Use 100% so that the resize indicator appears at the end */
-							width: 100%;
-							overflow: hidden;
-							white-space: nowrap;
-							text-overflow: ellipsis;
-							user-select: none;
-							padding: var(--nlt-cell-spacing-x)
-								var(--nlt-cell-spacing-y);
-						`,
               children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
                 spacing: "md",
                 align: "flex-start",
@@ -53405,6 +51062,2295 @@ function HeaderCell3({
         onHideClick
       })
     ]
+  });
+}
+
+// src/react/loom-app/body-cell-container/index.tsx
+var import_react92 = __toESM(require_react());
+
+// src/react/loom-app/text-cell/index.tsx
+function TextCell({ markdown, shouldWrapOverflow }) {
+  const { containerRef, renderRef } = useRenderMarkdown(markdown);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-text-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+				${overflowStyle}
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					text-align: left;
+
+					p {
+						margin: 0;
+					}
+
+					//.contains-task-list is from dataview
+					//it is what is rendered for a task list
+					ul:not(.contains-task-list) {
+						padding-left: var(--nlt-spacing--xl);
+						padding-right: 0;
+					}
+				`,
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, renderRef.current);
+      }
+    })
+  });
+}
+
+// src/react/shared/tag/index.tsx
+function Tag6({
+  id: id2,
+  color,
+  maxWidth,
+  markdown,
+  showRemoveButton,
+  onRemoveClick
+}) {
+  const { isDarkMode } = useAppSelector((state) => state.global);
+  let tagClass = "dataloom-tag";
+  tagClass += " " + findColorClassName(isDarkMode, color);
+  if (onRemoveClick !== void 0 && id2 === void 0) {
+    throw new Error(
+      "An id must defined when the onRemoveClick handler is present."
+    );
+  }
+  let contentClassName = "dataloom-tag-content";
+  if (maxWidth !== void 0) {
+    contentClassName += " dataloom-hide-overflow-ellipsis";
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: tagClass,
+    css: import_emotion_react_cjs.css`
+				display: flex;
+				align-items: center;
+				border-radius: 8px;
+				padding: var(--nlt-spacing--xs) var(--nlt-spacing--md);
+				width: max-content;
+				color: var(--text-normal);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      spacing: "sm",
+      justify: "center",
+      isHorizontal: true,
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
+          className: contentClassName
+        }, maxWidth !== void 0 && { style: { maxWidth } }), {
+          children: markdown
+        })),
+        showRemoveButton && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+          width: "max-content",
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+            isSmall: true,
+            icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+              lucideId: "x"
+            }),
+            onClick: () => {
+              if (id2 && onRemoveClick)
+                onRemoveClick(id2);
+            }
+          })
+        })
+      ]
+    })
+  });
+}
+
+// src/react/loom-app/tag-cell/index.tsx
+function TagCell({
+  markdown,
+  color,
+  shouldWrapOverflow
+}) {
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-tag-cell",
+    css: overflowStyle,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+      markdown,
+      color
+    })
+  });
+}
+
+// src/react/loom-app/checkbox-cell/index.tsx
+function CheckboxCell({ value }) {
+  const isChecked = isCheckboxChecked(value);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-checkbox-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				padding: var(--nlt-cell-spacing);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+      className: "task-list-item-checkbox",
+      css: import_emotion_react_cjs.css`
+					cursor: pointer;
+				`,
+      type: "checkbox",
+      checked: isChecked,
+      onChange: () => {
+      }
+    })
+  });
+}
+
+// src/react/loom-app/date-cell/index.tsx
+function DateCell({ value, format }) {
+  const content = getDateCellContent(value, format);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-date-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				text-align: left;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				padding: var(--nlt-cell-spacing);
+			`,
+    children: content
+  });
+}
+
+// src/react/loom-app/number-cell/index.tsx
+function NumberCell({ value, shouldWrapOverflow }) {
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  let valueString = "";
+  if (isNumber(value))
+    valueString = value;
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-number-cell",
+    css: overflowStyle,
+    children: valueString
+  });
+}
+
+// src/react/loom-app/number-cell-edit/index.tsx
+var import_react65 = __toESM(require_react());
+function NumberCellEdit({
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  const initialValue = isNumber(value) ? value : "";
+  const [localValue, setLocalValue] = import_react65.default.useState(initialValue);
+  const inputRef = import_react65.default.useRef(null);
+  useInputSelection(inputRef, localValue);
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react65.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (localValue !== value)
+        onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    value,
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleChange(inputValue) {
+    if (!isNumberInput(inputValue))
+      return;
+    setLocalValue(inputValue);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-number-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+      autoFocus: true,
+      css: numberInputStyle,
+      type: "text",
+      ref: inputRef,
+      inputMode: "numeric",
+      value: localValue,
+      onChange: (e) => handleChange(e.target.value),
+      onBlur: (e) => {
+        e.target.classList.add("dataloom-blur--cell");
+      }
+    })
+  });
+}
+
+// src/react/loom-app/text-cell-edit/index.tsx
+var import_react72 = __toESM(require_react());
+
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
+var import_react71 = __toESM(require_react());
+
+// src/react/shared/suggest-list/index.tsx
+var import_react69 = __toESM(require_react());
+var import_fuzzysort = __toESM(require_fuzzysort());
+
+// src/react/shared/suggest-list/suggest-item.tsx
+var import_react66 = __toESM(require_react());
+
+// src/shared/event-system/event-system.ts
+var EventSystem = class {
+  constructor() {
+    this.eventListeners = [];
+  }
+  addEventListener(name, callback, priority = 0) {
+    this.eventListeners.push({
+      name,
+      callback,
+      priority
+    });
+    this.eventListeners.sort((a2, b2) => b2.priority - a2.priority);
+  }
+  removeEventListener(name, callback) {
+    this.eventListeners = this.eventListeners.filter(
+      (l2) => l2.name !== name || l2.callback !== callback
+    );
+  }
+  dispatchEvent(name, event, ...data) {
+    const listeners = this.eventListeners.filter((l2) => l2.name === name);
+    listeners.forEach((listener2) => {
+      listener2.callback(event, data);
+    });
+  }
+};
+var nltEventSystem = new EventSystem();
+
+// src/react/shared/suggest-list/suggest-item.tsx
+var SuggestItem = import_react66.default.forwardRef(
+  function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
+    const handleClick = import_react66.default.useCallback(
+      (e) => {
+        e.stopPropagation();
+        onItemClick(file);
+      },
+      [file, onItemClick]
+    );
+    import_react66.default.useEffect(() => {
+      function handleKeyDown(e) {
+        if (e.key === "Enter")
+          onItemClick(file);
+      }
+      if (isHighlighted)
+        nltEventSystem.addEventListener("keydown", handleKeyDown, 1);
+      return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
+    }, [isHighlighted, onItemClick, file]);
+    let name = "No match found";
+    if (file) {
+      if (file.extension === "md") {
+        name = file.basename;
+      } else {
+        name = file.name;
+      }
+    }
+    let path = null;
+    if (file) {
+      if (file.parent && file.parent.path !== "/") {
+        path = file.parent.path + "/";
+      }
+    }
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+      tabIndex: 0,
+      "data-index": index,
+      className: "dataloom-suggest-item dataloom-focusable",
+      ref,
+      css: import_emotion_react_cjs.css`
+					padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
+					margin: 2px 0;
+					background-color: ${isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"};
+					&:hover {
+						background-color: var(--background-modifier-hover);
+					}
+				`,
+      onClick: handleClick,
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          variant: "semibold",
+          size: "xs",
+          value: name,
+          maxWidth: "275px"
+        }),
+        path && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          value: path,
+          size: "xs"
+        })
+      ]
+    });
+  }
+);
+var suggest_item_default = SuggestItem;
+
+// src/react/shared/suggest-list/input.tsx
+function Input({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				background-color: var(--background-secondary);
+				border-bottom: 1px solid var(--table-border-color);
+				padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+      className: "dataloom-focusable",
+      type: "text",
+      css: transparentInputStyle,
+      autoFocus: true,
+      value,
+      onChange: (e) => onChange(e.target.value)
+    })
+  });
+}
+
+// src/react/shared/suggest-list/clear-button.tsx
+function ClearButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        name: "Clear",
+        onClick
+      })
+    ]
+  });
+}
+
+// src/react/shared/suggest-list/create-button.tsx
+function CreateButton({ value, onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        name: `Create ${value}`,
+        onClick: () => onClick == null ? void 0 : onClick(value)
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {})
+    ]
+  });
+}
+
+// src/react/shared/suggest-list/index.tsx
+function SuggestList({
+  hiddenExtensions = [],
+  showInput,
+  showCreate,
+  showClear,
+  filterValue,
+  onItemClick,
+  onClearClick,
+  onCreateClick
+}) {
+  const [localFilterValue, setLocalFilterValue] = import_react69.default.useState(
+    filterValue != null ? filterValue : ""
+  );
+  const highlightItemRef = import_react69.default.useRef(null);
+  const [highlightIndex, setHighlightIndex] = import_react69.default.useState(-1);
+  const logger = useLogger();
+  import_react69.default.useEffect(() => {
+    setLocalFilterValue(filterValue != null ? filterValue : "");
+  }, [filterValue]);
+  import_react69.default.useEffect(() => {
+    if (highlightItemRef.current) {
+      highlightItemRef.current.scrollIntoView({
+        behavior: "auto",
+        block: "nearest"
+      });
+    }
+  }, [highlightIndex]);
+  const files = app.vault.getFiles().filter((file) => !hiddenExtensions.includes(file.extension));
+  let filteredFiles = [];
+  if (localFilterValue !== "") {
+    const results = import_fuzzysort.default.go(localFilterValue, files, {
+      key: "path",
+      limit: 20
+    });
+    filteredFiles = results.map((result) => result.obj);
+  } else {
+    filteredFiles = files;
+    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
+    filteredFiles = filteredFiles.slice(0, 20);
+  }
+  import_react69.default.useEffect(() => {
+    function handleKeyDown() {
+      logger("SuggestMenuContent handleKeyDown");
+      const focusedEl = document.activeElement;
+      if (!focusedEl)
+        return;
+      if (focusedEl.classList.contains("dataloom-suggest-item")) {
+        const index = focusedEl.getAttribute("data-index");
+        if (!index)
+          return;
+        setHighlightIndex(parseInt(index));
+        return;
+      }
+      setHighlightIndex(-1);
+    }
+    nltEventSystem.addEventListener("keydown", handleKeyDown);
+    return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
+  }, [filteredFiles.length, logger, highlightIndex]);
+  const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    className: "dataloom-suggest-menu",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+			`,
+    children: [
+      showInput && files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Input, {
+        value: localFilterValue,
+        onChange: setLocalFilterValue
+      }),
+      showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateButton, {
+        value: localFilterValue,
+        onClick: onCreateClick
+      }),
+      files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        css: import_emotion_react_cjs.css`
+						max-height: 175px;
+						overflow-y: auto;
+					`,
+        children: [
+          filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+            index: 0,
+            file: null,
+            ref: null,
+            isHighlighted: true,
+            onItemClick
+          }),
+          filteredFiles.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+            children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+              index,
+              ref: highlightIndex === index ? highlightItemRef : null,
+              file,
+              isHighlighted: index === highlightIndex,
+              onItemClick
+            }, file.path))
+          })
+        ]
+      }),
+      files.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: "md",
+        pb: "md",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          value: "No image files found"
+        })
+      }),
+      showClear && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ClearButton, {
+        onClick: onClearClick
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
+var SuggestMenu = import_react71.default.forwardRef(
+  function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      id: id2,
+      isOpen,
+      top,
+      left,
+      ref,
+      width: 275,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
+        filterValue,
+        onItemClick
+      })
+    });
+  }
+);
+var suggest_menu_default = SuggestMenu;
+
+// src/react/loom-app/text-cell-edit/constants.ts
+var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
+
+// src/react/loom-app/text-cell-edit/utils.ts
+var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1)
+      return true;
+    if (index >= startIndex && index <= endIndex)
+      return true;
+  }
+  return false;
+};
+var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return inputValue.slice(0, startIndex) + replacement + inputValue.slice(endIndex + 1);
+    }
+  }
+  return inputValue;
+};
+var getFilterValue = (inputValue, selectionStart) => {
+  let match;
+  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  while ((match = regex.exec(inputValue)) !== null) {
+    const innerText = match[1];
+    const startIndex = match.index + 2;
+    const endIndex = startIndex + innerText.length - 1;
+    const index = selectionStart - 1;
+    if (innerText === "" && index === startIndex - 1) {
+      return innerText;
+    }
+    if (index >= startIndex && index <= endIndex) {
+      return innerText;
+    }
+  }
+  return null;
+};
+var addClosingBracket = (value, selectionStart) => {
+  const char = value[selectionStart - 1];
+  if (char === "[")
+    value = value + "]";
+  return value;
+};
+var removeClosingBracket = (previousValue, value, selectionStart) => {
+  const previousChar = previousValue[selectionStart];
+  const nextChar = value[selectionStart];
+  if (previousChar === "[" && nextChar === "]") {
+    const updatedValue = value.slice(0, selectionStart) + value.slice(selectionStart + 1);
+    value = updatedValue;
+  }
+  return value;
+};
+
+// src/shared/link/link-utils.ts
+var getBasename = (filePath) => {
+  const fileName = stripDirectory(filePath);
+  return stripFileExtension(fileName);
+};
+var getExtension = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf(".") + 1);
+};
+var stripFileExtension = (filePath) => {
+  return filePath.substring(0, filePath.lastIndexOf("."));
+};
+var stripDirectory = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf("/") + 1);
+};
+var isMarkdownFile = (extension) => {
+  return extension === "md";
+};
+var getWikiLinkText = (path) => {
+  const basename = getBasename(path);
+  const extension = getExtension(path);
+  let text = basename;
+  if (!isMarkdownFile(extension)) {
+    text = stripDirectory(path);
+    if (path.includes("/"))
+      text = `${path}|${basename}`;
+  } else {
+    const pathWithoutExtension = stripFileExtension(path);
+    if (path.includes("/"))
+      text = `${pathWithoutExtension}|${basename}`;
+  }
+  return text;
+};
+
+// src/react/loom-app/text-cell-edit/index.tsx
+function TextCellEdit({
+  shouldWrapOverflow,
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  var _a, _b, _c;
+  const { menu, isMenuOpen, menuRef, openMenu, closeAllMenus, closeTopMenu } = useMenu(1 /* TWO */);
+  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
+    topOffset: 35
+  });
+  const [localValue, setLocalValue] = import_react72.default.useState(value);
+  const inputRef = import_react72.default.useRef(null);
+  import_react72.default.useEffect(() => {
+    if (inputRef.current) {
+      const selectionIndex = inputRef.current.selectionStart;
+      if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "[") {
+        inputRef.current.selectionStart = selectionIndex - 1;
+        inputRef.current.selectionEnd = selectionIndex - 1;
+      } else if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "]" && localValue[selectionIndex - 3] === "[") {
+        inputRef.current.selectionStart = selectionIndex - 2;
+        inputRef.current.selectionEnd = selectionIndex - 2;
+      }
+    }
+  }, [inputRef, localValue]);
+  useInputSelection(inputRef, localValue);
+  const logger = useLogger();
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react72.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (localValue !== value)
+        onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    value,
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleKeyDown(e) {
+    const el = e.target;
+    logger("TextCellEdit handleKeyDown");
+    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+      const cursorPosition = el.selectionStart;
+      if (isMenuOpen) {
+        if (!isSurroundedByDoubleBrackets(value, cursorPosition))
+          closeTopMenu();
+      }
+      if (inputRef.current) {
+        const inputEl = inputRef.current;
+        inputEl.selectionStart = cursorPosition;
+        inputEl.selectionEnd = cursorPosition;
+      }
+    } else if (e.key === "Enter") {
+      if (e.shiftKey && !isMenuOpen) {
+        e.stopPropagation();
+        return;
+      }
+      e.preventDefault();
+    }
+  }
+  function handleTextareaChange(e) {
+    const inputValue = e.target.value;
+    let newValue = inputValue;
+    if (inputRef.current) {
+      const inputEl = inputRef.current;
+      if (inputValue.length > localValue.length) {
+        newValue = addClosingBracket(newValue, inputEl.selectionStart);
+      } else {
+        newValue = removeClosingBracket(
+          localValue,
+          inputValue,
+          inputEl.selectionStart
+        );
+      }
+      if (isSurroundedByDoubleBrackets(newValue, inputEl.selectionStart)) {
+        if (!isMenuOpen)
+          openMenu(menu);
+      }
+    }
+    setLocalValue(newValue);
+  }
+  function handleSuggestItemClick(file) {
+    var _a2, _b2;
+    if (file) {
+      const fileName = getWikiLinkText(file.path);
+      const newValue = doubleBracketsInnerReplace(
+        localValue,
+        (_b2 = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b2 : 0,
+        fileName
+      );
+      onChange(newValue);
+    }
+    closeAllMenus();
+  }
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  const filterValue = (_c = getFilterValue(localValue, (_b = (_a = inputRef.current) == null ? void 0 : _a.selectionStart) != null ? _b : 0)) != null ? _c : "";
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: "dataloom-text-cell-edit",
+        ref: triggerRef,
+        css: import_emotion_react_cjs.css`
+					width: 100%;
+					height: 100%;
+				`,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+          autoFocus: true,
+          css: import_emotion_react_cjs.css`
+						${textAreaStyle}
+						${overflowStyle}
+					`,
+          ref: inputRef,
+          value: localValue,
+          onKeyDown: handleKeyDown,
+          onChange: handleTextareaChange,
+          onBlur: (e) => {
+            e.target.classList.add("dataloom-blur--cell");
+          }
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_menu_default, {
+        id: menu.id,
+        ref: menuRef,
+        isOpen: isMenuOpen,
+        top: triggerPosition.top,
+        left: triggerPosition.left,
+        filterValue,
+        onItemClick: handleSuggestItemClick
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/tag-cell-edit/index.tsx
+var import_react81 = __toESM(require_react());
+
+// src/react/loom-app/tag-cell-edit/menu-header.tsx
+var import_react75 = __toESM(require_react());
+function MenuHeader({
+  cellTags,
+  inputValue,
+  onInputValueChange,
+  onRemoveTag
+}) {
+  const inputRef = import_react75.default.useRef(null);
+  function handleInputChange(value) {
+    if (value.match(/^\s/))
+      return;
+    onInputValueChange(value);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				background-color: var(--background-secondary);
+				border-bottom: 1px solid var(--table-border-color);
+				padding: 4px 10px;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
+      spacingX: "sm",
+      children: [
+        cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+          id: tag.id,
+          color: tag.color,
+          markdown: tag.markdown,
+          maxWidth: "150px",
+          showRemoveButton: true,
+          onRemoveClick: onRemoveTag
+        }, tag.id)),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+          className: "dataloom-focusable",
+          css: transparentInputStyle,
+          autoFocus: true,
+          ref: inputRef,
+          type: "text",
+          value: inputValue,
+          onChange: (e) => handleInputChange(e.target.value)
+        })
+      ]
+    })
+  });
+}
+
+// src/react/loom-app/tag-cell-edit/create-tag.tsx
+function CreateTag({ markdown, color, onTagAdd }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+    css: import_emotion_react_cjs.css`
+				all: unset; //reset button style
+				display: flex;
+				align-items: center;
+				padding: 4px 6px;
+				width: 100%;
+				overflow: hidden;
+				box-shadow: none !important;
+			`,
+    className: "dataloom-focusable dataloom-selectable",
+    onClick: () => onTagAdd(markdown, color),
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      spacing: "sm",
+      isHorizontal: true,
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+          children: "Create"
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+          markdown,
+          color,
+          maxWidth: "120px"
+        })
+      ]
+    })
+  });
+}
+
+// src/react/loom-app/tag-color-menu/index.tsx
+var import_react78 = __toESM(require_react());
+
+// src/shared/stringUtils.ts
+var uppercaseFirst = (input) => {
+  return input.charAt(0).toUpperCase() + input.slice(1);
+};
+
+// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
+var import_react77 = __toESM(require_react());
+function ColorItem({
+  isDarkMode,
+  color,
+  isSelected,
+  onColorClick
+}) {
+  const ref = import_react77.default.useRef(null);
+  import_react77.default.useEffect(() => {
+    if (!ref.current)
+      return;
+    if (isSelected) {
+      ref.current.focus();
+    }
+  }, [isSelected]);
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onColorClick(color);
+    }
+  }
+  let containerClass = "dataloom-color-item dataloom-focusable dataloom-selectable";
+  if (isSelected)
+    containerClass += " dataloom-selected";
+  const colorClass = findColorClassName(isDarkMode, color);
+  let squareClass = "dataloom-color-item-square";
+  squareClass += " " + colorClass;
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    ref,
+    tabIndex: 0,
+    className: containerClass,
+    onKeyDown: handleKeyDown,
+    onClick: () => {
+      onColorClick(color);
+    },
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: squareClass
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        children: uppercaseFirst(color)
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/tag-color-menu/index.tsx
+var TagColorMenu = import_react78.default.forwardRef(
+  function TagColorMenu2({
+    menuId,
+    isOpen,
+    top,
+    left,
+    selectedColor,
+    onColorClick,
+    onDeleteClick
+  }, ref) {
+    const { isDarkMode } = useAppSelector((state) => state.global);
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      ref,
+      id: menuId,
+      isOpen,
+      top,
+      left,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: "dataloom-tag-color-menu",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          spacing: "sm",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+              px: "lg",
+              py: "sm",
+              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+                value: "Color"
+              })
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+              children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ColorItem, {
+                isDarkMode,
+                color,
+                onColorClick,
+                isSelected: selectedColor === color
+              }, color))
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+              lucideId: "trash-2",
+              name: "Delete",
+              onClick: onDeleteClick
+            })
+          ]
+        })
+      })
+    });
+  }
+);
+var tag_color_menu_default = TagColorMenu;
+
+// src/react/loom-app/tag-cell-edit/selectable-tag.tsx
+function SelectableTag({
+  id: id2,
+  markdown,
+  color,
+  onClick,
+  onColorChange,
+  onDeleteClick
+}) {
+  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(1 /* TWO */);
+  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
+    openDirection: "right",
+    leftOffset: -55,
+    topOffset: -100
+  });
+  function handleColorChange(color2) {
+    onColorChange(id2, color2);
+    closeTopMenu();
+  }
+  function handleDeleteClick() {
+    onDeleteClick(id2);
+    closeTopMenu();
+  }
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onClick(id2);
+    }
+  }
+  function handleClick(e) {
+    const target = e.target;
+    if (target.classList.contains("dataloom-menu-trigger"))
+      return;
+    e.stopPropagation();
+    onClick(id2);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        tabIndex: 0,
+        ref: triggerRef,
+        css: import_emotion_react_cjs.css`
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding: var(--nlt-spacing--sm) var(--nlt-spacing--md);
+					overflow: hidden;
+				`,
+        className: "dataloom-focusable dataloom-selectable",
+        onClick: handleClick,
+        onKeyDown: handleKeyDown,
+        children: [
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+            markdown,
+            color,
+            maxWidth: "150px"
+          }),
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
+            icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+              lucideId: "more-horizontal"
+            }),
+            menu
+          })
+        ]
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(tag_color_menu_default, {
+        isOpen: isMenuOpen,
+        ref: menuRef,
+        menuId: menu.id,
+        top: triggerPosition.top,
+        left: triggerPosition.left,
+        selectedColor: color,
+        onColorClick: (color2) => handleColorChange(color2),
+        onDeleteClick: handleDeleteClick
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/tag-cell-edit/menu-body.tsx
+function MenuBody({
+  columnTags,
+  inputValue,
+  newTagColor,
+  onTagAdd,
+  onTagClick,
+  onTagColorChange,
+  onTagDelete
+}) {
+  const hasTagWithSameCase = columnTags.find((tag) => tag.markdown === inputValue) !== void 0;
+  const filteredTags = columnTags.filter(
+    (tag) => tag.markdown.toLowerCase().includes(inputValue.toLowerCase())
+  );
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    css: import_emotion_react_cjs.css`
+				max-height: 140px;
+				overflow-y: scroll;
+			`,
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: "lg",
+        py: "md",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          value: "Select an option or create one"
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        css: import_emotion_react_cjs.css`
+					width: 100%;
+				`,
+        children: [
+          !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateTag, {
+            markdown: inputValue,
+            color: newTagColor,
+            onTagAdd
+          }),
+          filteredTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SelectableTag, {
+            id: tag.id,
+            color: tag.color,
+            markdown: tag.markdown,
+            onColorChange: onTagColorChange,
+            onClick: onTagClick,
+            onDeleteClick: onTagDelete
+          }, tag.id))
+        ]
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/tag-cell-edit/index.tsx
+function TagCellEdit({
+  isMulti,
+  columnTags,
+  cellTags,
+  menuCloseRequest,
+  onTagClick,
+  onTagAdd,
+  onTagColorChange,
+  onTagDelete,
+  onRemoveTag,
+  onMenuClose
+}) {
+  const [inputValue, setInputValue] = import_react81.default.useState("");
+  const [newTagColor, setNewTagColor] = import_react81.default.useState(randomColor());
+  const handleTagAdd = import_react81.default.useCallback(
+    (markdown, color) => {
+      onTagAdd(markdown, color);
+      setInputValue("");
+      setNewTagColor(randomColor());
+      if (!isMulti)
+        onMenuClose();
+    },
+    [onTagAdd, onMenuClose]
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react81.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (menuCloseRequest.type === "enter") {
+        if (inputValue !== "") {
+          const doesTagExist = columnTags.find(
+            (tag) => tag.markdown === inputValue
+          );
+          if (!doesTagExist) {
+            handleTagAdd(inputValue, newTagColor);
+            return;
+          }
+        }
+      }
+      onMenuClose();
+    }
+  }, [
+    handleTagAdd,
+    columnTags,
+    inputValue,
+    newTagColor,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose
+  ]);
+  function handleTagClick(id2) {
+    onTagClick(id2);
+    if (!isMulti)
+      onMenuClose();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    className: "dataloom-tag-cell-edit",
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuHeader, {
+        inputValue,
+        cellTags,
+        onInputValueChange: setInputValue,
+        onRemoveTag
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuBody, {
+        inputValue,
+        columnTags,
+        newTagColor,
+        onTagAdd: handleTagAdd,
+        onTagClick: handleTagClick,
+        onTagDelete,
+        onTagColorChange
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/date-cell-edit/index.tsx
+var import_react83 = __toESM(require_react());
+
+// src/react/loom-app/date-cell-edit/date-format-menu.tsx
+var import_react82 = __toESM(require_react());
+var DateFormatMenu = import_react82.default.forwardRef(
+  function DateFormatMenu2({ id: id2, top, left, isOpen, value, onChange }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      ref,
+      isOpen,
+      id: id2,
+      top,
+      left,
+      width: 175,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        className: "dataloom-date-format-menu",
+        children: Object.values([
+          "dd/mm/yyyy" /* DD_MM_YYYY */,
+          "mm/dd/yyyy" /* MM_DD_YYYY */,
+          "yyyy/mm/dd" /* YYYY_MM_DD */
+        ]).map((format) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+          name: getDisplayNameForDateFormat(format),
+          isSelected: value === format,
+          onClick: () => {
+            onChange(format);
+          }
+        }, format))
+      })
+    });
+  }
+);
+var date_format_menu_default = DateFormatMenu;
+
+// src/react/loom-app/date-cell-edit/index.tsx
+function DateCellEdit({
+  value,
+  menuCloseRequest,
+  dateFormat,
+  onDateTimeChange,
+  onMenuClose,
+  onDateFormatChange
+}) {
+  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(1 /* TWO */);
+  const { triggerRef, triggerPosition } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen, {
+    openDirection: "right",
+    topOffset: 35,
+    leftOffset: -50
+  });
+  const [localValue, setLocalValue] = import_react83.default.useState(
+    value === null ? "" : unixTimeToDateString(value, dateFormat)
+  );
+  const [isInputInvalid, setInputInvalid] = import_react83.default.useState(false);
+  const [closeTime, setCloseTime] = import_react83.default.useState(0);
+  const inputRef = import_react83.default.useRef(null);
+  import_react83.default.useEffect(() => {
+    setLocalValue(
+      value === null ? "" : unixTimeToDateString(value, dateFormat)
+    );
+  }, [value, dateFormat]);
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react83.default.useEffect(() => {
+    function validateInput() {
+      let newValue = null;
+      if (localValue !== "") {
+        if (isValidDateFormat(localValue, dateFormat)) {
+          newValue = dateStringToUnixTime(localValue, dateFormat);
+        } else {
+          if ((menuCloseRequest == null ? void 0 : menuCloseRequest.type) === "enter") {
+            setInputInvalid(true);
+            return;
+          }
+          newValue = value;
+        }
+      }
+      if (newValue !== value) {
+        setInputInvalid(false);
+        onDateTimeChange(newValue);
+      }
+      setCloseTime(Date.now());
+    }
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null)
+      validateInput();
+  }, [
+    value,
+    hasCloseRequestTimeChanged,
+    localValue,
+    menuCloseRequest,
+    dateFormat,
+    onDateTimeChange,
+    onMenuClose
+  ]);
+  import_react83.default.useEffect(() => {
+    if (closeTime !== 0) {
+      onMenuClose();
+    }
+  }, [closeTime, onMenuClose]);
+  function handleDateFormatChange(value2) {
+    onDateFormatChange(value2);
+    closeTopMenu();
+  }
+  function handleClearClick() {
+    onDateTimeChange(null);
+    onMenuClose();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+        ref: triggerRef,
+        className: "dataloom-date-cell-edit",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+                tabIndex: 0,
+                type: "text",
+                className: "dataloom-focusable",
+                css: import_emotion_react_cjs.css`
+								${borderInputStyle}
+								${isInputInvalid ? "&:focus-visible { outline: 2px solid var(--background-modifier-error) !important; }" : ""}
+							`,
+                ref: inputRef,
+                autoFocus: true,
+                value: localValue,
+                onChange: (e) => setLocalValue(e.target.value)
+              })
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
+              menu,
+              children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+                isFocusable: false,
+                name: "Date format",
+                value: getDisplayNameForDateFormat(dateFormat)
+              })
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+              name: "Clear",
+              onClick: handleClearClick
+            })
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(date_format_menu_default, {
+        id: menu.id,
+        isOpen: isMenuOpen,
+        ref: menuRef,
+        top: triggerPosition.top,
+        left: triggerPosition.left,
+        value: dateFormat,
+        onChange: handleDateFormatChange
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/multi-tag-cell/index.tsx
+function MultiTagCell({ cellTags, shouldWrapOverflow }) {
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-multi-tag-cell",
+    css: overflowStyle,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Wrap, {
+      children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+        markdown: tag.markdown,
+        color: tag.color
+      }, tag.id))
+    })
+  });
+}
+
+// src/react/loom-app/last-edited-time-cell/index.tsx
+function LastEditedTimeCell({
+  value,
+  format,
+  shouldWrapOverflow
+}) {
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-last-edited-time-cell",
+    css: overflowStyle,
+    children: unixTimeToDateTimeString(value, format)
+  });
+}
+
+// src/react/loom-app/creation-time-cell/index.tsx
+function CreationTimeCell({
+  value,
+  format,
+  shouldWrapOverflow
+}) {
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-creation-time-cell",
+    css: overflowStyle,
+    children: unixTimeToDateTimeString(value, format)
+  });
+}
+
+// src/react/loom-app/currency-cell/index.tsx
+function CurrencyCell({
+  value,
+  currencyType,
+  shouldWrapOverflow
+}) {
+  const content = getCurrencyCellContent(value, currencyType);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-currency-cell",
+    css: overflowStyle,
+    children: content
+  });
+}
+
+// src/react/loom-app/currency-cell-edit/index.tsx
+var import_react85 = __toESM(require_react());
+function CurrencyCellEdit({
+  value,
+  menuCloseRequest,
+  onChange,
+  onMenuClose
+}) {
+  const initialValue = isNumber(value) ? value : "";
+  const [localValue, setLocalValue] = import_react85.default.useState(initialValue);
+  const inputRef = import_react85.default.useRef(null);
+  useInputSelection(inputRef, localValue);
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react85.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (localValue !== value)
+        onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    value,
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleChange(inputValue) {
+    if (!isNumberInput(inputValue))
+      return;
+    setLocalValue(inputValue);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-currency-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+      autoFocus: true,
+      css: numberInputStyle,
+      ref: inputRef,
+      type: "text",
+      inputMode: "numeric",
+      value: localValue,
+      onChange: (e) => handleChange(e.target.value),
+      onBlur: (e) => {
+        e.target.classList.add("dataloom-blur--cell");
+      }
+    })
+  });
+}
+
+// src/shared/cell-content/file-cell-content.ts
+var getFileCellContent = (markdown) => {
+  if (markdown === "")
+    return markdown;
+  const linkRegex = new RegExp(/\[\[([^[\]]+)\]\]/);
+  const matches = markdown.match(linkRegex);
+  let matchStartIndex = -1;
+  let matchEndIndex = -1;
+  if (matches) {
+    matchStartIndex = markdown.indexOf(matches[0]);
+    matchEndIndex = matchStartIndex + matches[0].length;
+  }
+  if (matches === null) {
+    return `[[${markdown}]]`;
+  } else if (matchStartIndex === 0) {
+    return `${markdown.slice(0, matchEndIndex + 1).trim()}`;
+  } else {
+    return `[[${markdown.slice(0, matchStartIndex).trim()}]]`;
+  }
+};
+
+// src/react/loom-app/file-cell/index.tsx
+function FileCell({ markdown, shouldWrapOverflow }) {
+  const content = getFileCellContent(markdown);
+  const { containerRef, renderRef } = useRenderMarkdown(content);
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-file-cell",
+    css: overflowStyle,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					p {
+						margin: 0;
+						text-align: left;
+					}
+				`,
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild(node, renderRef.current);
+      }
+    })
+  });
+}
+
+// src/react/loom-app/file-cell-edit/index.tsx
+function FileCellEdit({ onChange, onMenuClose }) {
+  function handleSuggestItemClick(file) {
+    if (file) {
+      let fileName = file.basename;
+      if (file.path.includes("/"))
+        fileName = `${file.path}|${file.basename}`;
+      onChange(`[[${fileName}]]`);
+    }
+    onMenuClose();
+  }
+  function handleClearClick() {
+    onChange("");
+    onMenuClose();
+  }
+  function handleCreateClick(value) {
+    let link = `[[${value}]]`;
+    if (value.includes("/")) {
+      const fileName = getBasename(value);
+      link = `${value}|${fileName}`;
+    }
+    onChange(link);
+    onMenuClose();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-file-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
+      showInput: true,
+      showClear: true,
+      showCreate: true,
+      onItemClick: handleSuggestItemClick,
+      onClearClick: handleClearClick,
+      onCreateClick: handleCreateClick
+    })
+  });
+}
+
+// src/react/loom-app/embed-cell/embed.tsx
+function Embed({
+  isExternalLink,
+  content,
+  aspectRatio,
+  horizontalPadding,
+  verticalPadding
+}) {
+  const { containerRef, renderRef } = useRenderMarkdown(content, {
+    isEmbed: true,
+    isExternalLink
+  });
+  const paddingX = getSpacing(horizontalPadding);
+  const paddingY = getSpacing(verticalPadding);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				aspect-ratio: ${aspectRatio};
+				padding-left: ${paddingX};
+				padding-right: ${paddingX};
+				padding-top: ${paddingY};
+				padding-bottom: ${paddingY};
+
+				iframe {
+					width: 100%;
+					height: 100%;
+				}
+
+				p {
+					width: 100%;
+					height: 100%;
+					margin: 0px;
+				}
+			`,
+    ref: (node) => {
+      containerRef.current = node;
+      appendOrReplaceFirstChild(node, renderRef.current);
+    }
+  });
+}
+
+// src/react/loom-app/embed-cell/index.tsx
+function EmbedCell({
+  isExternalLink,
+  markdown,
+  aspectRatio,
+  horizontalPadding,
+  verticalPadding
+}) {
+  const { app: app2 } = useMountState();
+  const content = getEmbedCellContent(app2, markdown, {
+    shouldRenderMarkdown: true,
+    isExternalLink
+  });
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-embed-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Embed, {
+      isExternalLink,
+      content,
+      aspectRatio,
+      horizontalPadding,
+      verticalPadding
+    })
+  });
+}
+
+// src/react/loom-app/embed-cell-edit/index.tsx
+var import_react91 = __toESM(require_react());
+
+// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
+var import_react89 = __toESM(require_react());
+function ExternalEmbedInput({ value, onChange }) {
+  const inputRef = import_react89.default.useRef(null);
+  useInputSelection(inputRef, value);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+    autoFocus: true,
+    type: "text",
+    className: "dataloom-focusable",
+    css: import_emotion_react_cjs.css`
+				${borderInputStyle}
+			`,
+    ref: inputRef,
+    value,
+    onChange: (e) => onChange(e.target.value)
+  });
+}
+
+// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
+function InternalEmbedSuggest({ onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
+    showInput: true,
+    hiddenExtensions: ["md", FILE_EXTENSION],
+    onItemClick: (item) => {
+      var _a;
+      return onChange((_a = item == null ? void 0 : item.path) != null ? _a : "");
+    }
+  });
+}
+
+// src/react/loom-app/embed-cell-edit/index.tsx
+function EmbedCellEdit({
+  menuCloseRequest,
+  isExternalLink,
+  value,
+  onChange,
+  onMenuClose,
+  onExternalLinkToggle
+}) {
+  const [externalLink, setExternalLink] = import_react91.default.useState(
+    isExternalLink ? value : ""
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react91.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      if (isExternalLink) {
+        if (externalLink !== value)
+          onChange(externalLink);
+      }
+      onMenuClose();
+    }
+  }, [
+    isExternalLink,
+    value,
+    externalLink,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleSuggestChange(value2) {
+    onChange(value2);
+    onMenuClose();
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-embed-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      width: "100%",
+      spacing: "lg",
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+          width: "100%",
+          px: "md",
+          pt: "md",
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+            spacing: "sm",
+            width: "100%",
+            children: [
+              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+                htmlFor: "external-switch",
+                children: "External Link"
+              }),
+              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
+                id: "external-switch",
+                value: isExternalLink,
+                onToggle: onExternalLinkToggle
+              })
+            ]
+          })
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+        isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+          width: "100%",
+          px: "md",
+          pb: "md",
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExternalEmbedInput, {
+            value: externalLink,
+            onChange: setExternalLink
+          })
+        }),
+        !isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(InternalEmbedSuggest, {
+          onChange: handleSuggestChange
+        })
+      ]
+    })
+  });
+}
+
+// src/react/loom-app/body-cell-container/index.tsx
+var import_obsidian7 = require("obsidian");
+function BodyCellContainer({
+  cellId,
+  columnId,
+  rowId,
+  isExternalLink,
+  markdown,
+  aspectRatio,
+  verticalPadding,
+  horizontalPadding,
+  dateFormat,
+  dateTime,
+  columnCurrencyType,
+  columnType,
+  rowCreationTime,
+  rowLastEditedTime: rowLastEditedTime2,
+  columnTags,
+  cellTagIds,
+  width,
+  shouldWrapOverflow,
+  onTagRemoveClick,
+  onTagMultipleRemove,
+  onTagColorChange,
+  onTagDelete,
+  onTagClick,
+  onContentChange,
+  onDateFormatChange,
+  onDateTimeChange,
+  onTagAdd,
+  onExternalLinkToggle
+}) {
+  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
+  const { menu, isMenuOpen, menuCloseRequest, menuRef, closeTopMenu } = useMenu(0 /* ONE */, {
+    shouldRequestOnClose
+  });
+  const { triggerPosition, triggerRef } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen);
+  function handleCellContextClick() {
+    return __async(this, null, function* () {
+      try {
+        yield navigator.clipboard.writeText(markdown);
+        new import_obsidian7.Notice("Copied text to clipboard");
+      } catch (err) {
+        console.log(err);
+      }
+    });
+  }
+  function toggleCheckbox() {
+    const isChecked = isCheckboxChecked(markdown);
+    if (isChecked) {
+      handleCheckboxChange(CHECKBOX_MARKDOWN_UNCHECKED);
+    } else {
+      handleCheckboxChange(CHECKBOX_MARKDOWN_CHECKED);
+    }
+  }
+  function handleMenuTriggerBackspaceDown() {
+    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
+      onContentChange(cellId, rowId, "");
+    } else if (columnType === "date" /* DATE */) {
+      onDateTimeChange(cellId, rowId, null);
+    } else if (columnType === "checkbox" /* CHECKBOX */) {
+      onContentChange(cellId, rowId, CHECKBOX_MARKDOWN_UNCHECKED);
+    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
+      onTagMultipleRemove(cellId, rowId, cellTagIds);
+    }
+  }
+  function handleMenuTriggerEnterDown() {
+    if (columnType === "checkbox" /* CHECKBOX */)
+      toggleCheckbox();
+  }
+  function handleMenuTriggerClick() {
+    if (columnType === "checkbox" /* CHECKBOX */) {
+      toggleCheckbox();
+    }
+  }
+  function handleExternalLinkToggle(value) {
+    onExternalLinkToggle(cellId, rowId, value);
+  }
+  function handleTagAdd(markdown2, color) {
+    if (markdown2 === "")
+      return;
+    onTagAdd(
+      cellId,
+      columnId,
+      rowId,
+      markdown2.trim(),
+      color,
+      columnType === "multi-tag" /* MULTI_TAG */
+    );
+  }
+  function handleRemoveTagClick(tagId) {
+    onTagRemoveClick(cellId, rowId, tagId);
+  }
+  function handleTagColorChange(tagId, color) {
+    onTagColorChange(columnId, tagId, color);
+  }
+  function handleTagDeleteClick(tagId) {
+    onTagDelete(columnId, tagId);
+  }
+  function handleTagClick(tagId) {
+    onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
+  }
+  const handleInputChange = import_react92.default.useCallback(
+    (value) => {
+      onContentChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onContentChange]
+  );
+  function handleCheckboxChange(value) {
+    onContentChange(cellId, rowId, value);
+  }
+  function handleDateFormatChange(value) {
+    onDateFormatChange(columnId, value);
+  }
+  const handleDateTimeChange = import_react92.default.useCallback(
+    (value) => {
+      onDateTimeChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onDateTimeChange]
+  );
+  const handleMenuClose = import_react92.default.useCallback(() => {
+    closeTopMenu();
+  }, [closeTopMenu]);
+  const { width: measuredWidth, height: measuredHeight } = triggerPosition;
+  let menuHeight = measuredHeight;
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
+    menuHeight = 0;
+  }
+  let menuWidth = measuredWidth;
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
+    menuWidth = 250;
+  } else if (columnType === "file" /* FILE */) {
+    menuWidth = 275;
+  } else if (columnType === "date" /* DATE */) {
+    menuWidth = 175;
+  }
+  let className = "dataloom-cell--body__container";
+  if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */) {
+    className += " dataloom-default-cursor";
+  }
+  const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
+        isCell: true,
+        menu,
+        onClick: handleMenuTriggerClick,
+        onEnterDown: handleMenuTriggerEnterDown,
+        onBackspaceDown: handleMenuTriggerBackspaceDown,
+        shouldRun: columnType !== "checkbox" /* CHECKBOX */ && columnType !== "creation-time" /* CREATION_TIME */ && columnType !== "last-edited-time" /* LAST_EDITED_TIME */,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+          ref: triggerRef,
+          onContextMenu: handleCellContextClick,
+          className,
+          style: {
+            width
+          },
+          children: [
+            columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCell, {
+              markdown,
+              shouldWrapOverflow
+            }),
+            columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCell, {
+              isExternalLink,
+              markdown,
+              verticalPadding,
+              horizontalPadding,
+              aspectRatio
+            }),
+            columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCell, {
+              markdown,
+              shouldWrapOverflow
+            }),
+            columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCell, {
+              value: markdown,
+              shouldWrapOverflow
+            }),
+            columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCell, {
+              value: markdown,
+              currencyType: columnCurrencyType,
+              shouldWrapOverflow
+            }),
+            columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCell, {
+              markdown: cellTags[0].markdown,
+              color: cellTags[0].color,
+              shouldWrapOverflow
+            }),
+            columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MultiTagCell, {
+              cellTags,
+              shouldWrapOverflow
+            }),
+            columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DateCell, {
+              value: dateTime,
+              format: dateFormat
+            }),
+            columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CheckboxCell, {
+              value: markdown
+            }),
+            columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreationTimeCell, {
+              value: rowCreationTime,
+              format: dateFormat,
+              shouldWrapOverflow
+            }),
+            columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LastEditedTimeCell, {
+              value: rowLastEditedTime2,
+              format: dateFormat,
+              shouldWrapOverflow
+            })
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(menu_default, {
+        ref: menuRef,
+        id: menu.id,
+        hideBorder: columnType === "text" /* TEXT */ || columnType === "currency" /* CURRENCY */ || columnType === "number" /* NUMBER */,
+        isOpen: isMenuOpen,
+        top: triggerPosition.top,
+        left: triggerPosition.left,
+        width: menuWidth,
+        height: menuHeight,
+        children: [
+          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCellEdit, {
+            menuCloseRequest,
+            shouldWrapOverflow,
+            value: markdown,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCellEdit, {
+            isExternalLink,
+            menuCloseRequest,
+            value: markdown,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose,
+            onExternalLinkToggle: handleExternalLinkToggle
+          }),
+          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCellEdit, {
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCellEdit, {
+            menuCloseRequest,
+            value: markdown,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCellEdit, {
+            isMulti: columnType === "multi-tag" /* MULTI_TAG */,
+            menuCloseRequest,
+            columnTags,
+            cellTags,
+            onTagColorChange: handleTagColorChange,
+            onTagAdd: handleTagAdd,
+            onRemoveTag: handleRemoveTagClick,
+            onTagClick: handleTagClick,
+            onTagDelete: handleTagDeleteClick,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DateCellEdit, {
+            value: dateTime,
+            menuCloseRequest,
+            dateFormat,
+            onDateTimeChange: handleDateTimeChange,
+            onDateFormatChange: handleDateFormatChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCellEdit, {
+            menuCloseRequest,
+            value: markdown,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          })
+        ]
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/footer-cell-container/calculation-menu.tsx
+var import_react93 = __toESM(require_react());
+var CalculationMenu = import_react93.default.forwardRef(
+  function CalculationMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      ref,
+      id: id2,
+      isOpen,
+      top,
+      left,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        className: "dataloom-function-menu",
+        children: [
+          Object.values(Calculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+            name: getDisplayNameForCalculation(type),
+            ariaLabel: getAriaLabelForCalculation(type),
+            onClick: () => onClick(type),
+            isSelected: type === value
+          }, type)),
+          (cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+            ariaLabel: getAriaLabelForNumberCalculation(
+              type
+            ),
+            name: getDisplayNameForNumberCalculation(type),
+            onClick: () => onClick(type),
+            isSelected: type === value
+          }, type))
+        ]
+      })
+    });
+  }
+);
+var calculation_menu_default = CalculationMenu;
+
+// src/react/loom-app/footer-cell-container/utils.ts
+var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
+var hashString = (value) => {
+  return v5_default(value, NAMESPACE);
+};
+var round2Digits = (value) => {
+  if (value.toString().includes("."))
+    return parseFloat(value.toFixed(2));
+  return value;
+};
+
+// src/react/loom-app/footer-cell-container/calculation.ts
+var getCalculationContent = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
+  return getCalculation(
+    bodyRows,
+    columnCells,
+    columnTags,
+    cellType,
+    calculationType,
+    dateFormat
+  ).toString();
+};
+var getCalculation = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
+  if (calculationType === "count-all" /* COUNT_ALL */) {
+    return countAll(bodyRows);
+  } else if (calculationType === "count-empty" /* COUNT_EMPTY */) {
+    return countEmpty(columnCells, cellType);
+  } else if (calculationType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
+    return countNotEmpty(columnCells, cellType);
+  } else if (calculationType === "count-unique" /* COUNT_UNIQUE */) {
+    return countUnique(
+      bodyRows,
+      columnCells,
+      columnTags,
+      cellType,
+      dateFormat
+    );
+  } else if (calculationType === "count-values" /* COUNT_VALUES */) {
+    return countValues(columnCells, cellType);
+  } else if (calculationType === "percent-empty" /* PERCENT_EMPTY */) {
+    return percentEmpty(columnCells, cellType);
+  } else if (calculationType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
+    return percentNotEmpty(columnCells, cellType);
+  } else if (calculationType === "none" /* NONE */) {
+    return "";
+  } else {
+    throw new Error("Unhandled calculation type");
+  }
+};
+var countAll = (bodyRows) => {
+  return bodyRows.length;
+};
+var countEmpty = (columnCells, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
+    if (value === true)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countNotEmpty = (columnCells, cellType) => {
+  return columnCells.map((cell) => isCellContentEmpty(cell, cellType)).reduce((accum, value) => {
+    if (value === false)
+      return accum + 1;
+    return accum;
+  }, 0);
+};
+var countUnique = (bodyRows, columnCells, columnTags, cellType, dateFormat) => {
+  const hashes = columnCells.map((cell) => {
+    const row = bodyRows.find((row2) => row2.id === cell.rowId);
+    if (!row)
+      throw new RowNotFoundError(cell.rowId);
+    const cellValues = getCellValues(
+      row,
+      cell,
+      columnTags,
+      cellType,
+      dateFormat
+    );
+    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
+  }).flat(1);
+  const uniqueHashes = new Set(hashes);
+  return uniqueHashes.size;
+};
+var countValues = (columnCells, cellType) => {
+  return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
+};
+var percentEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
+  const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
+  return round2Digits(percent) + "%";
+};
+var percentNotEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
+  const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
+  return round2Digits(percent) + "%";
+};
+var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
+    return [cell.markdown];
+  } else if (cellType === "date" /* DATE */) {
+    if (cell.dateTime)
+      return [cell.dateTime.toString()];
+    return [];
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return cell.tagIds.map((tagId) => {
+      const tag = columnTags.find((tag2) => tag2.id === tagId);
+      if (!tag)
+        throw new TagNotFoundError(tagId);
+      return tag.markdown;
+    });
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */) {
+    return [unixTimeToDateTimeString(bodyRow.lastEditedTime, dateFormat)];
+  } else if (cellType === "creation-time" /* CREATION_TIME */) {
+    return [unixTimeToDateTimeString(bodyRow.creationTime, dateFormat)];
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var countCellValues = (cell, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
+    return cell.markdown === "" ? 0 : 1;
+  } else if (cellType === "date" /* DATE */) {
+    return cell.dateTime == null ? 0 : 1;
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return cell.tagIds.length;
+  } else if (cellType === "checkbox" /* CHECKBOX */) {
+    return isCheckboxChecked(cell.markdown) ? 1 : 0;
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
+    return 1;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+var isCellContentEmpty = (cell, cellType) => {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
+    return cell.markdown === "";
+  } else if (cellType === "date" /* DATE */) {
+    return cell.dateTime == null;
+  } else if (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) {
+    return cell.tagIds.length === 0;
+  } else if (cellType === "checkbox" /* CHECKBOX */) {
+    return !isCheckboxChecked(cell.markdown);
+  } else if (cellType === "last-edited-time" /* LAST_EDITED_TIME */ || cellType === "creation-time" /* CREATION_TIME */) {
+    return true;
+  } else {
+    throw new Error("Unhandled cell type");
+  }
+};
+
+// src/react/loom-app/footer-cell-container/arithmetic.ts
+var getAverage = (values) => {
+  return getSum(values) / values.length;
+};
+var getSum = (values) => {
+  return values.reduce((sum, a2) => sum + a2, 0);
+};
+var getMaximum = (values) => {
+  return Math.max(...values);
+};
+var getMinimum = (values) => {
+  return Math.min(...values);
+};
+var getMedian = (values) => {
+  const sortedValues = values.sort((a2, b2) => a2 - b2);
+  const middle = Math.floor(values.length / 2);
+  if (values.length % 2 === 0) {
+    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
+  } else {
+    return sortedValues[middle];
+  }
+};
+var getRange = (values) => {
+  return getMaximum(values) - getMinimum(values);
+};
+
+// src/react/loom-app/footer-cell-container/number-calculation.ts
+var getNumberCalculationContent = (values, cellType, currencyType, calculationType) => {
+  const value = getNumberCalculation(values, calculationType).toString();
+  if (cellType === "currency" /* CURRENCY */)
+    return getCurrencyCellContent(value, currencyType);
+  return value;
+};
+var getNumberCalculation = (values, type) => {
+  if (type === "avg" /* AVG */) {
+    return round2Digits(getAverage(values));
+  } else if (type === "max" /* MAX */) {
+    return getMaximum(values);
+  } else if (type === "min" /* MIN */) {
+    return getMinimum(values);
+  } else if (type === "range" /* RANGE */) {
+    return round2Digits(getRange(values));
+  } else if (type === "sum" /* SUM */) {
+    return round2Digits(getSum(values));
+  } else if (type === "median" /* MEDIAN */) {
+    return round2Digits(getMedian(values));
+  } else {
+    throw new Error("Unhandled number calculation type");
+  }
+};
+
+// src/react/loom-app/footer-cell-container/index.tsx
+function FooterCellContainer({
+  columnId,
+  columnTags,
+  bodyCells,
+  dateFormat,
+  bodyRows,
+  width,
+  calculationType,
+  currencyType,
+  cellType,
+  onTypeChange
+}) {
+  const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(0 /* ONE */);
+  const { triggerPosition, triggerRef } = useMenuTriggerPosition();
+  useShiftMenu(triggerRef, menuRef, isMenuOpen);
+  function handleTypeClick(value) {
+    onTypeChange(columnId, value);
+    closeTopMenu();
+  }
+  const columnCells = bodyCells.filter((cell) => cell.columnId === columnId);
+  let content = "";
+  if (isNumberCalcuation(calculationType)) {
+    const cellValues = columnCells.filter((cell) => isNumber(cell.markdown)).map((cell) => parseFloat(cell.markdown));
+    if (cellValues.length !== 0)
+      content = getNumberCalculationContent(
+        cellValues,
+        cellType,
+        currencyType,
+        calculationType
+      );
+  } else {
+    content = getCalculationContent(
+      bodyRows,
+      columnCells,
+      columnTags,
+      cellType,
+      calculationType,
+      dateFormat
+    );
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
+        isCell: true,
+        menu,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+          className: "dataloom-cell--footer__container dataloom-selectable",
+          ref: triggerRef,
+          style: {
+            width
+          },
+          children: [
+            calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+              value: "Calculate",
+              variant: "faint"
+            }),
+            calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "sm",
+              isHorizontal: true,
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+                  value: getShortDisplayNameForCalculationType(
+                    calculationType
+                  ),
+                  variant: "muted"
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+                  value: content,
+                  variant: "semibold"
+                })
+              ]
+            })
+          ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(calculation_menu_default, {
+        id: menu.id,
+        top: triggerPosition.top,
+        ref: menuRef,
+        cellType,
+        left: triggerPosition.left,
+        isOpen: isMenuOpen,
+        value: calculationType,
+        onClick: handleTypeClick
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/new-column-button/index.tsx
+function NewColumnButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "dataloom-new-column",
+    css: import_emotion_react_cjs.css`
+				width: 50px;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+      icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+        lucideId: "plus"
+      }),
+      ariaLabel: "New column",
+      onClick: () => onClick()
+    })
   });
 }
 
@@ -53595,7 +53541,7 @@ var matchLastEditedTimeCell = (lastEditedTime, dateFormat, searchText) => {
 };
 
 // src/shared/loom-state/use-column.ts
-var import_react100 = __toESM(require_react());
+var import_react95 = __toESM(require_react());
 
 // src/shared/commands/column-add-command.ts
 var ColumnAddCommand = class extends LoomStateCommand {
@@ -54242,7 +54188,7 @@ var useColumn = () => {
       })
     );
   }
-  const handleColumnToggle = import_react100.default.useCallback(
+  const handleColumnToggle = import_react95.default.useCallback(
     (columnId) => {
       logger("handleColumnToggle", {
         columnId
@@ -54490,11 +54436,11 @@ var RowDeleteCommand = class extends LoomStateCommand {
 };
 
 // src/shared/loom-state/use-row.ts
-var import_react101 = __toESM(require_react());
+var import_react96 = __toESM(require_react());
 var useRow = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
-  const handleRowDeleteClick = import_react101.default.useCallback(
+  const handleRowDeleteClick = import_react96.default.useCallback(
     (rowId) => {
       logger("handleRowDeleteClick", {
         rowId
@@ -54644,7 +54590,7 @@ var CellHeaderUpdateCommand = class extends LoomStateCommand {
 };
 
 // src/shared/loom-state/use-cell.ts
-var import_react102 = __toESM(require_react());
+var import_react97 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
   const { doCommand } = useLoomState();
@@ -54664,7 +54610,7 @@ var useCell = () => {
     });
     doCommand(new CellHeaderUpdateCommand(cellId, "markdown", value));
   }
-  const handleBodyCellContentChange = import_react102.default.useCallback(
+  const handleBodyCellContentChange = import_react97.default.useCallback(
     (cellId, rowId, value) => {
       logger("handleCellContentChange", {
         cellId,
@@ -54677,7 +54623,7 @@ var useCell = () => {
     },
     [logger, doCommand]
   );
-  const handleCellDateTimeChange = import_react102.default.useCallback(
+  const handleCellDateTimeChange = import_react97.default.useCallback(
     (cellId, rowId, value) => {
       logger("handleCellContentChange", {
         cellId,
@@ -55227,8 +55173,8 @@ var useTag = () => {
   };
 };
 
-// src/react/loom-app/app.tsx
-var import_react109 = __toESM(require_react());
+// src/react/loom-app/loom-app.tsx
+var import_react103 = __toESM(require_react());
 
 // src/shared/menu/arrow-move-focus.ts
 var moveMenuFocusUp = (focusableEls, currentIndex) => {
@@ -55302,19 +55248,19 @@ var moveFocusDown = (focusableEls, numColumns, numBodyRows, numSortedColumns, cu
 };
 
 // src/shared/loom-state/use-export-events.ts
-var import_react103 = __toESM(require_react());
+var import_react98 = __toESM(require_react());
 
 // src/shared/event-system/utils.ts
 var isEventForThisApp = (appId, allowOutsideEvents = false) => {
   const activeEl = document.activeElement;
   if (!activeEl)
     return false;
-  const appEl = activeEl.closest(".DataLoom__app");
+  const appEl = activeEl.closest(".dataloom-app");
   if (appEl)
     return appEl.getAttribute("data-id") === appId;
   if (allowOutsideEvents)
     return true;
-  const menuEl = activeEl.closest(".DataLoom__menu");
+  const menuEl = activeEl.closest(".dataloom-menu");
   if (menuEl) {
     const menuId = menuEl.getAttribute("data-id");
     const menuTrigger = document.querySelector(
@@ -55322,7 +55268,7 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
     );
     if (!menuTrigger)
       return false;
-    const appEl2 = menuTrigger.closest(".DataLoom__app");
+    const appEl2 = menuTrigger.closest(".dataloom-app");
     if (appEl2)
       return appEl2.getAttribute("data-id") === appId;
   }
@@ -55331,17 +55277,16 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
 
 // src/shared/loom-state/use-export-events.ts
 var useExportEvents = (state) => {
-  const { loomFile } = useMountState();
-  const { appId } = useMountState();
+  const { appId, loomFile } = useMountState();
   const { exportRenderMarkdown } = useAppSelector(
     (state2) => state2.global.settings
   );
   const filePath = loomFile.path;
-  import_react103.default.useEffect(() => {
+  import_react98.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(appId)) {
         setTimeout(() => {
-          const data = exportToCSV(state, exportRenderMarkdown);
+          const data = exportToCSV(app, state, exportRenderMarkdown);
           const exportFileName = getExportFileName(filePath);
           const blobType = getBlobTypeForExportType(
             "Markdown" /* MARKDOWN */
@@ -55353,7 +55298,11 @@ var useExportEvents = (state) => {
     function handleDownloadMarkdown() {
       if (isEventForThisApp(appId)) {
         setTimeout(() => {
-          const data = exportToMarkdown(state, exportRenderMarkdown);
+          const data = exportToMarkdown(
+            app,
+            state,
+            exportRenderMarkdown
+          );
           const exportFileName = getExportFileName(filePath);
           const blobType = getBlobTypeForExportType(
             "Markdown" /* MARKDOWN */
@@ -55368,15 +55317,15 @@ var useExportEvents = (state) => {
       app.workspace.off(EVENT_DOWNLOAD_CSV, handleDownloadCSV);
       app.workspace.off(EVENT_DOWNLOAD_MARKDOWN, handleDownloadMarkdown);
     };
-  }, [filePath, state, appId, exportRenderMarkdown]);
+  }, [filePath, state, appId, exportRenderMarkdown, app]);
 };
 
 // src/shared/loom-state/use-row-events.ts
-var import_react104 = __toESM(require_react());
+var import_react99 = __toESM(require_react());
 var useRowEvents = () => {
-  const { appId } = useMountState();
+  const { appId, app: app2 } = useMountState();
   const { doCommand } = useLoomState();
-  import_react104.default.useEffect(() => {
+  import_react99.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(appId))
         doCommand(new RowAddCommand());
@@ -55385,22 +55334,22 @@ var useRowEvents = () => {
       if (isEventForThisApp(appId))
         doCommand(new RowDeleteCommand({ last: true }));
     }
-    app.workspace.on(EVENT_ROW_ADD, handleRowAddEvent);
-    app.workspace.on(EVENT_ROW_DELETE, handleRowDeleteEvent);
+    app2.workspace.on(EVENT_ROW_ADD, handleRowAddEvent);
+    app2.workspace.on(EVENT_ROW_DELETE, handleRowDeleteEvent);
     return () => {
-      app.workspace.off(EVENT_ROW_ADD, handleRowAddEvent);
-      app.workspace.off(EVENT_ROW_DELETE, handleRowDeleteEvent);
+      app2.workspace.off(EVENT_ROW_ADD, handleRowAddEvent);
+      app2.workspace.off(EVENT_ROW_DELETE, handleRowDeleteEvent);
     };
-  }, [doCommand, appId]);
+  }, [doCommand, app2, appId]);
 };
 
 // src/shared/loom-state/use-column-events.ts
-var import_react105 = __toESM(require_react());
+var import_react100 = __toESM(require_react());
 var useColumnEvents = () => {
-  const { appId } = useMountState();
+  const { appId, app: app2 } = useMountState();
   const { doCommand } = useLoomState();
   const logger = useLogger();
-  import_react105.default.useEffect(() => {
+  import_react100.default.useEffect(() => {
     function handleColumnAddEvent() {
       if (isEventForThisApp(appId)) {
         logger("handleColumnAddEvent");
@@ -55413,14 +55362,17 @@ var useColumnEvents = () => {
         doCommand(new ColumnDeleteCommand({ last: true }));
       }
     }
-    app.workspace.on(EVENT_COLUMN_ADD, handleColumnAddEvent);
-    app.workspace.on(EVENT_COLUMN_DELETE, handleColumnDeleteEvent);
+    app2.workspace.on(EVENT_COLUMN_ADD, handleColumnAddEvent);
+    app2.workspace.on(EVENT_COLUMN_DELETE, handleColumnDeleteEvent);
     return () => {
-      app.workspace.off(EVENT_COLUMN_ADD, handleColumnAddEvent);
-      app.workspace.off(EVENT_COLUMN_DELETE, handleColumnDeleteEvent);
+      app2.workspace.off(EVENT_COLUMN_ADD, handleColumnAddEvent);
+      app2.workspace.off(EVENT_COLUMN_DELETE, handleColumnDeleteEvent);
     };
-  }, [doCommand, logger, appId]);
+  }, [doCommand, logger, appId, app2]);
 };
+
+// src/react/loom-app/bottom-bar/index.tsx
+var import_react101 = __toESM(require_react());
 
 // src/react/loom-app/new-row-button/index.tsx
 function NewRowButton({ onClick }) {
@@ -55435,20 +55387,23 @@ function NewRowButton({ onClick }) {
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_react107 = __toESM(require_react());
 function BottomBar({
   appId,
   onNewRowClick,
   onScrollToTopClick,
-  onScrollToBottomClick
+  onScrollToBottomClick,
+  onUndoClick,
+  onRedoClick
 }) {
-  const ref = import_react107.default.useRef(null);
-  const [spaceBetweenTableAndContainer, setSpaceBetweenTableAndContainer] = import_react107.default.useState(0);
-  import_react107.default.useEffect(() => {
+  const ref = import_react101.default.useRef(null);
+  const [spaceBetweenTableAndContainer, setSpaceBetweenTableAndContainer] = import_react101.default.useState(0);
+  import_react101.default.useEffect(() => {
     let observer = null;
     if (!ref.current)
       return;
-    const tableEl = document.querySelector(`[data-id="${appId}"] table`);
+    const tableEl = document.querySelector(
+      `[data-id="${appId}"] .dataloom-table`
+    );
     if (!tableEl)
       return;
     const tableContainerEl = tableEl.parentElement;
@@ -55468,41 +55423,60 @@ function BottomBar({
         observer == null ? void 0 : observer.unobserve(tableEl);
     };
   }, [ref]);
-  const { isMarkdownView } = useMountState();
+  const isMobile = isOnMobile();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "DataLoom__bottom-bar",
-    css: import_emotion_react_cjs.css`
-				position: relative;
-				height: 60px;
-			`,
+    className: "dataloom-bottom-bar",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
       ref,
-      css: import_emotion_react_cjs.css`
-					position: absolute;
-					top: -${numToPx(spaceBetweenTableAndContainer)};
-					width: 100%;
-				`,
+      style: {
+        top: numToPx(-spaceBetweenTableAndContainer)
+      },
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-        px: isMarkdownView ? "unset" : "lg",
-        py: "md",
+        pt: "md",
         width: "100%",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
           justify: "space-between",
           children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
-              onClick: onNewRowClick
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "md",
+              isHorizontal: true,
+              children: [
+                isMobile && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  ariaLabel: "Undo",
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "undo"
+                  }),
+                  onClick: onUndoClick
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
+                  onClick: onNewRowClick
+                })
+              ]
             }),
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
               isHorizontal: true,
               spacing: "sm",
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-                  onClick: onScrollToTopClick,
-                  children: "Top"
+                  ariaLabel: "Scroll to top",
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "chevron-up"
+                  }),
+                  onClick: onScrollToTopClick
                 }),
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  ariaLabel: "Scroll to bottom",
                   onClick: onScrollToBottomClick,
-                  children: "Bottom"
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "chevron-down"
+                  })
+                }),
+                isMobile && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  ariaLabel: "Redo",
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "redo"
+                  }),
+                  onClick: onRedoClick
                 })
               ]
             })
@@ -55513,21 +55487,21 @@ function BottomBar({
   });
 }
 
-// src/react/loom-app/app.tsx
-function App2() {
+// src/react/loom-app/loom-app.tsx
+function LoomApp() {
   const { appId, isMarkdownView } = useMountState();
   const { topMenu, hasOpenMenu, requestCloseTopMenu } = useMenuState();
   const logger = useLogger();
   const {
-    LoomState: LoomState8,
+    loomState,
     resizingColumnId,
     searchText,
     commandRedo,
     commandUndo,
     setLoomState
   } = useLoomState();
-  const tableRef = import_react109.default.useRef(null);
-  useExportEvents(LoomState8);
+  const tableRef = import_react103.default.useRef(null);
+  useExportEvents(loomState);
   useRowEvents();
   useColumnEvents();
   const {
@@ -55593,7 +55567,7 @@ function App2() {
       if (!layerEl)
         return;
       const focusableEls = layerEl.querySelectorAll(
-        ".DataLoom__focusable"
+        ".dataloom-focusable"
       );
       if (focusableEls.length === 0)
         return;
@@ -55609,7 +55583,7 @@ function App2() {
       if (!layerEl)
         return;
       const focusableEls = layerEl.querySelectorAll(
-        ".DataLoom__focusable"
+        ".dataloom-focusable"
       );
       if (focusableEls.length === 0)
         return;
@@ -55618,11 +55592,11 @@ function App2() {
       let index = -1;
       if (focusedEl)
         index = Array.from(focusableEls).indexOf(focusedEl);
-      const numVisibleColumns = LoomState8.model.columns.filter(
+      const numVisibleColumns = loomState.model.columns.filter(
         (column) => column.isVisible
       ).length;
-      const numBodyRows = LoomState8.model.bodyRows.length;
-      const numSortedColumns = LoomState8.model.columns.filter(
+      const numBodyRows = loomState.model.bodyRows.length;
+      const numSortedColumns = loomState.model.columns.filter(
         (column) => column.sortDir !== "default" /* NONE */
       ).length;
       let elementToFocus = null;
@@ -55675,6 +55649,12 @@ function App2() {
     var _a;
     (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(filteredBodyRows.length - 1);
   }
+  function handleRedoClick() {
+    commandRedo();
+  }
+  function handleUndoClick() {
+    commandUndo();
+  }
   const {
     headerRows,
     footerRows,
@@ -55683,17 +55663,17 @@ function App2() {
     bodyCells,
     footerCells,
     filterRules
-  } = LoomState8.model;
-  let filteredBodyRows = filterBodyRowsByRules2(LoomState8);
+  } = loomState.model;
+  let filteredBodyRows = filterBodyRowsByRules2(loomState);
   filteredBodyRows = filterBodyRowsBySearch(
-    LoomState8,
+    loomState,
     filteredBodyRows,
     searchText
   );
   const visibleColumns = columns.filter((column) => column.isVisible);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     "data-id": appId,
-    className: "DataLoom__app",
+    className: "dataloom-app",
     css: import_emotion_react_cjs.css`
 				display: flex;
 				flex-direction: column;
@@ -55758,7 +55738,7 @@ function App2() {
                 return {
                   id: cellId,
                   columnId,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(HeaderCell3, {
+                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(HeaderCellContainer, {
                     cellId,
                     rowId,
                     dateFormat,
@@ -55841,7 +55821,7 @@ function App2() {
                 } = cell;
                 return {
                   id: cellId,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCell8, {
+                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCellContainer, {
                     cellId,
                     isExternalLink,
                     verticalPadding,
@@ -55915,23 +55895,18 @@ function App2() {
                   );
                   return {
                     id: cell.id,
-                    content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-                      className: "DataLoom__footer-td-container",
-                      css: import_emotion_react_cjs.css`
-													width: ${width};
-												`,
-                      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CalculationCell, {
-                        columnId,
-                        columnTags: tags,
-                        cellId,
-                        currencyType,
-                        dateFormat,
-                        bodyCells: columnBodyCells,
-                        bodyRows: filteredBodyRows,
-                        calculationType,
-                        cellType: type,
-                        onTypeChange: handleCalculationTypeChange
-                      })
+                    content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FooterCellContainer, {
+                      columnId,
+                      columnTags: tags,
+                      cellId,
+                      currencyType,
+                      dateFormat,
+                      bodyCells: columnBodyCells,
+                      bodyRows: filteredBodyRows,
+                      calculationType,
+                      width,
+                      cellType: type,
+                      onTypeChange: handleCalculationTypeChange
                     })
                   };
                 }),
@@ -55952,23 +55927,27 @@ function App2() {
         appId,
         onNewRowClick: handleNewRowClick,
         onScrollToTopClick: handleScrollToTopClick,
-        onScrollToBottomClick: handleScrollToBottomClick
+        onScrollToBottomClick: handleScrollToBottomClick,
+        onUndoClick: handleUndoClick,
+        onRedoClick: handleRedoClick
       })
     ]
   });
 }
 
 // src/react/loom-app/index.tsx
-function LoomApp({
+function LoomAppWrapper({
+  app: app2,
   appId,
   mountLeaf,
   isMarkdownView,
   store: store2,
   loomFile,
-  LoomState: LoomState8,
+  loomState,
   onSaveState
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountProvider, {
+    app: app2,
     mountLeaf,
     appId,
     isMarkdownView,
@@ -55976,11 +55955,11 @@ function LoomApp({
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
       store: store2,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateProvider, {
-        initialState: LoomState8,
+        initialState: loomState,
         onSaveState,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
-            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(App2, {})
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {})
           })
         })
       })
@@ -55993,25 +55972,21 @@ if (false) {
 }
 var DATA_LOOM_VIEW = "dataloom";
 var DataLoomView = class extends import_obsidian8.TextFileView {
-  constructor(leaf) {
+  constructor(leaf, pluginId, pluginVersion) {
     super(leaf);
-    this.handleRefreshEvent = (filePath, sourceAppId, state) => {
-      if (this.appId !== sourceAppId && filePath === this.file.path) {
-        const serialized = serializeLoomState(state);
-        this.setViewData(serialized, true);
-      }
-    };
     this.handleSaveLoomState = (appId, state) => {
       const serialized = serializeLoomState(state);
-      this.data = serialized;
+      this.setViewData(serialized, false);
       this.requestSave();
       this.app.workspace.trigger(
-        EVENT_REFRESH_APP,
+        EVENT_APP_REFRESH,
         this.file.path,
         appId,
         state
       );
     };
+    this.pluginId = pluginId;
+    this.pluginVersion = pluginVersion;
     this.root = null;
     this.data = "";
     this.appId = v4_default();
@@ -56019,21 +55994,14 @@ var DataLoomView = class extends import_obsidian8.TextFileView {
   onOpen() {
     return __async(this, null, function* () {
       this.containerEl.style.paddingBottom = "48px";
-      const container = this.containerEl.children[1];
-      this.root = (0, import_client2.createRoot)(container);
       this.addAction("settings", "Settings", () => {
         this.app.setting.open();
-        this.app.setting.openTabById(DATA_LOOM_PLUGIN_ID);
+        this.app.setting.openTabById(this.pluginId);
       });
-      this.app.workspace.on(
-        EVENT_REFRESH_APP,
-        this.handleRefreshEvent
-      );
     });
   }
   onClose() {
     return __async(this, null, function* () {
-      this.app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
       if (this.root) {
         this.root.unmount();
         this.root = null;
@@ -56042,17 +56010,13 @@ var DataLoomView = class extends import_obsidian8.TextFileView {
   }
   setViewData(data, clear) {
     this.data = data;
-    const state = deserializeLoomState(data);
     if (clear) {
-      setTimeout(() => {
-        if (this.root) {
-          this.root.unmount();
-          const container = this.containerEl.children[1];
-          this.root = (0, import_client2.createRoot)(container);
-          this.renderApp(this.appId, state);
-        }
-      }, 0);
-    } else {
+      if (this.root) {
+        this.root.unmount();
+      }
+      const state = deserializeLoomState(data, this.pluginVersion);
+      const container = this.containerEl.children[1];
+      this.root = (0, import_client2.createRoot)(container);
       this.renderApp(this.appId, state);
     }
   }
@@ -56077,13 +56041,14 @@ var DataLoomView = class extends import_obsidian8.TextFileView {
   renderApp(appId, state) {
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomAppWrapper, {
+          app: this.app,
           mountLeaf: this.leaf,
           appId,
           loomFile: this.file,
           isMarkdownView: false,
           store,
-          LoomState: state,
+          loomState: state,
           onSaveState: this.handleSaveLoomState
         })
       );
@@ -56121,22 +56086,22 @@ var updateLinkReferences = (markdown, newPath, oldPath) => {
 };
 
 // src/data/file-operations.ts
-var createFolder = (folderPath) => __async(void 0, null, function* () {
-  return yield app.vault.createFolder(folderPath);
+var createFolder = (app2, folderPath) => __async(void 0, null, function* () {
+  return yield app2.vault.createFolder(folderPath);
 });
-var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, function* () {
+var createFile = (app2, filePath, data, numExisting = 0) => __async(void 0, null, function* () {
   try {
     const filePathExtension = splitFileExtension(filePath);
     if (filePathExtension == null)
       throw new SyntaxError("File must include an extension");
     const numIterations = numExisting > 0 ? " " + numExisting : "";
     const filePathWithIteration = filePathExtension[0] + numIterations + filePathExtension[1];
-    yield app.vault.create(filePathWithIteration, data);
+    yield app2.vault.create(filePathWithIteration, data);
     return filePathWithIteration;
   } catch (err) {
     const error = err;
     if (error.message.includes("File already exists")) {
-      return createFile(filePath, data, numExisting + 1);
+      return createFile(app2, filePath, data, numExisting + 1);
     } else {
       throw err;
     }
@@ -56146,24 +56111,26 @@ var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, func
 // src/data/loom-file.ts
 var getFileName = () => {
   const fileName = DEFAULT_LOOM_NAME;
-  return `${fileName}.${CURRENT_FILE_EXTENSION}`;
+  return `${fileName}.${FILE_EXTENSION}`;
 };
-var getFilePath = (folderPath, fileName) => {
-  if (folderPath === "")
-    return fileName;
-  return folderPath + "/" + fileName;
+var getFilePath = (folderPath) => {
+  const fileName = getFileName();
+  return (0, import_obsidian9.normalizePath)(folderPath + "/" + fileName);
 };
-var createLoomFile = (options) => __async(void 0, null, function* () {
+var createFolderIfNotExists = (app2, folderPath) => __async(void 0, null, function* () {
+  if (app2.vault.getAbstractFileByPath(folderPath) == null)
+    yield createFolder(app2, folderPath);
+});
+var createLoomFile = (app2, folderPath, manifestPluginVersion) => __async(void 0, null, function* () {
   try {
-    if (options.folderPath !== "") {
-      if (app.vault.getAbstractFileByPath(options.folderPath) == null)
-        yield createFolder(options.folderPath);
-    }
-    const fileName = getFileName();
-    const LoomState8 = createLoomState(1, 1);
-    const serialized = serializeLoomState(LoomState8);
-    const filePath = getFilePath(options.folderPath, fileName);
-    return yield createFile(filePath, serialized);
+    yield createFolderIfNotExists(app2, folderPath);
+    const filePath = getFilePath(folderPath);
+    const loomState = createLoomState(1, 1, {
+      pluginVersion: manifestPluginVersion
+    });
+    const serializedState = serializeLoomState(loomState);
+    console.log("Creating loom file at: ", filePath);
+    return yield createFile(app2, filePath, serializedState);
   } catch (err) {
     new import_obsidian9.Notice("Could not create loom file");
     throw err;
@@ -56172,174 +56139,194 @@ var createLoomFile = (options) => __async(void 0, null, function* () {
 
 // src/obsidian/editing-view-plugin.tsx
 var import_view = require("@codemirror/view");
-var import_client3 = __toESM(require_client());
-var import_lodash = __toESM(require_lodash());
 
-// src/obsidian/utils.ts
-var getEmbeddedLoomLinkEls = (el) => {
-  const embeddedLinkEls = el.querySelectorAll(".internal-embed");
-  const loomLinkEls = [];
-  for (let i2 = 0; i2 < embeddedLinkEls.length; i2++) {
-    const linkEl = embeddedLinkEls[i2];
-    const src = linkEl.getAttribute("src");
-    if (src == null ? void 0 : src.endsWith(CURRENT_FILE_EXTENSION))
-      loomLinkEls.push(linkEl);
+// src/obsidian/embedded-app/embed-utils.ts
+var getEmbeddedLoomLinkEls = (view, mode) => {
+  const linkEls = [];
+  const { contentEl } = view;
+  const el = mode === "source" ? contentEl.querySelector(".markdown-source-view") : contentEl.querySelector(".markdown-reading-view");
+  if (el) {
+    const embeddedLinkEls = el.querySelectorAll(".internal-embed");
+    for (let i2 = 0; i2 < embeddedLinkEls.length; i2++) {
+      const linkEl = embeddedLinkEls[i2];
+      const src = linkEl.getAttribute("src");
+      if (src == null ? void 0 : src.endsWith(FILE_EXTENSION))
+        linkEls.push(linkEl);
+    }
   }
-  return loomLinkEls;
+  return linkEls;
 };
 var hasLoadedEmbeddedLoom = (linkEl) => {
   if (linkEl.children.length > 0) {
     const firstChildEl = linkEl.children[0];
-    if (firstChildEl.classList.contains("DataLoom__embedded-container"))
+    if (firstChildEl.classList.contains("dataloom-embedded-container"))
       return true;
   }
   return false;
 };
-var findEmbeddedLoomFile = (linkEl) => {
-  var _a;
+var findEmbeddedLoomFile = (app2, linkEl, sourcePath) => {
   const src = linkEl.getAttribute("src");
-  const loomFile = app.vault.getFiles().find((file) => file.path === src);
-  if (loomFile === void 0)
-    return (_a = app.vault.getFiles().find((file) => file.name === src)) != null ? _a : null;
-  return loomFile != null ? loomFile : null;
+  if (!src)
+    return null;
+  return app2.metadataCache.getFirstLinkpathDest(src, sourcePath);
 };
-var getEmbeddedLoomWidth = (linkEl, defaultWidth) => {
+var getLinkWidth = (linkEl, defaultWidth) => {
   const width = linkEl.getAttribute("width");
   if (width === null || width === "0")
     return defaultWidth;
   return numToPx(width);
 };
-var getEmbeddedLoomHeight = (linkEl, defaultHeight) => {
+var getLinkHeight = (linkEl, defaultHeight) => {
   const height = linkEl.getAttribute("height");
   if (height === null || height === "0")
     return defaultHeight;
   return numToPx(height);
 };
 
+// src/obsidian/embedded-app/embedded-app-manager.tsx
+var import_client3 = __toESM(require_client());
+var import_lodash = __toESM(require_lodash());
+var embeddedApps = [];
+var loadPreviewModeApps = (app2, markdownLeaves, manifestPluginVersion) => {
+  for (let i2 = 0; i2 < markdownLeaves.length; i2++) {
+    const leaf = markdownLeaves[i2];
+    const view = leaf.view;
+    const mode = view.getMode();
+    if (mode === "preview")
+      loadEmbeddedLoomApps(app2, manifestPluginVersion, leaf, "preview");
+  }
+};
+var loadEmbeddedLoomApps = (app2, manifestPluginVersion, markdownLeaf, mode) => {
+  const view = markdownLeaf.view;
+  const linkEls = getEmbeddedLoomLinkEls(view, mode);
+  linkEls.forEach(
+    (linkEl) => processLinkEl(app2, manifestPluginVersion, markdownLeaf, linkEl, mode)
+  );
+};
+var purgeEmbeddedLoomApps = (leaves) => {
+  embeddedApps = embeddedApps.filter(
+    (app2) => leaves.find(
+      (l2) => l2.view.file.path === app2.leafFilePath
+    )
+  );
+};
+var processLinkEl = (app2, manifestPluginVersion, leaf, linkEl, mode) => __async(void 0, null, function* () {
+  setLinkSize(linkEl);
+  if (hasLoadedEmbeddedLoom(linkEl))
+    return;
+  const sourcePath = leaf.view.file.path;
+  const file = findEmbeddedLoomFile(app2, linkEl, sourcePath);
+  if (!file)
+    return;
+  resetLinkStyles(linkEl);
+  const containerEl = renderContainerEl(linkEl);
+  const data = yield app2.vault.read(file);
+  const state = deserializeLoomState(data, manifestPluginVersion);
+  const appId = v4_default();
+  const embeddedApp = {
+    id: appId,
+    leaf,
+    leafFilePath: sourcePath,
+    containerEl,
+    file,
+    mode
+  };
+  embeddedApps.push(embeddedApp);
+  const root = (0, import_client3.createRoot)(containerEl);
+  embeddedApp.root = root;
+  renderApp(app2, appId, leaf, file, root, state);
+});
+var renderApp = (app2, appId, leaf, file, root, state) => {
+  const THROTTLE_TIME_MILLIS = 2e3;
+  const throttleHandleSave = import_lodash.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
+  root.render(
+    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomAppWrapper, {
+      app: app2,
+      appId,
+      isMarkdownView: true,
+      loomFile: file,
+      mountLeaf: leaf,
+      store,
+      loomState: state,
+      onSaveState: (appId2, state2) => throttleHandleSave(app2, file, appId2, state2)
+    })
+  );
+};
+var handleSave = (app2, file, appId, state) => __async(void 0, null, function* () {
+  const serialized = serializeLoomState(state);
+  yield app2.vault.modify(file, serialized);
+  app2.workspace.trigger(EVENT_APP_REFRESH, file.path, appId, state);
+});
+var renderContainerEl = (linkEl) => {
+  const containerEl = linkEl.createDiv({
+    cls: "dataloom-embedded-container"
+  });
+  containerEl.style.height = "100%";
+  containerEl.style.width = "100%";
+  containerEl.style.padding = "10px 0px";
+  containerEl.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+  return containerEl;
+};
+var resetLinkStyles = (linkEl) => {
+  linkEl.empty();
+  linkEl.style.backgroundColor = "var(--color-primary)";
+  linkEl.style.cursor = "unset";
+  linkEl.style.margin = "0px";
+  linkEl.style.padding = "0px";
+};
+var setLinkSize = (linkEl) => {
+  const { defaultEmbedWidth, defaultEmbedHeight } = store.getState().global.settings;
+  const width = getLinkWidth(linkEl, defaultEmbedWidth);
+  const height = getLinkHeight(linkEl, defaultEmbedHeight);
+  linkEl.style.width = width;
+  linkEl.style.height = height;
+};
+
 // src/obsidian/editing-view-plugin.tsx
 if (false) {
 }
-var EditingViewPlugin = class {
-  constructor(view) {
-    this.handleRefreshEvent = (sourceFilePath, sourceAppId, state) => {
-      const app2 = this.loomApps.find(
-        (app3) => app3.id !== sourceAppId && app3.file.path === sourceFilePath
-      );
-      if (!app2)
-        return;
-      const { id: id2, parentEl, leaf, file } = app2;
-      if (!app2.root)
-        return;
-      setTimeout(() => {
-        var _a;
-        (_a = app2.root) == null ? void 0 : _a.unmount();
-        app2.root = (0, import_client3.createRoot)(parentEl);
-        this.renderApp(id2, leaf, file, app2.root, state);
-      }, 0);
-    };
-    this.editorView = view;
-    this.loomApps = [];
-    this.setupEventListeners();
-  }
-  update() {
-    const markdownLeaves = app.workspace.getLeavesOfType("markdown");
-    const activeLeaf = markdownLeaves.find(
-      (leaf) => leaf.view.editor.cm === this.editorView
-    );
-    if (!activeLeaf)
-      return;
-    const activeView = activeLeaf.view;
-    const embeddedLoomLinkEls = getEmbeddedLoomLinkEls(
-      activeView.containerEl
-    );
-    for (let i2 = 0; i2 < embeddedLoomLinkEls.length; i2++) {
-      const linkEl = embeddedLoomLinkEls[i2];
-      const { defaultEmbedWidth, defaultEmbedHeight } = store.getState().global.settings;
-      const width = getEmbeddedLoomWidth(linkEl, defaultEmbedWidth);
-      const height = getEmbeddedLoomHeight(linkEl, defaultEmbedHeight);
-      linkEl.style.width = width;
-      linkEl.style.height = height;
-      if (hasLoadedEmbeddedLoom(linkEl))
-        continue;
-      linkEl.empty();
-      const file = findEmbeddedLoomFile(linkEl);
-      if (!file)
-        continue;
-      this.loomApps = this.loomApps.filter(
-        (app2) => app2.file.path !== file.path
-      );
-      linkEl.style.backgroundColor = "var(--color-primary)";
-      linkEl.style.cursor = "unset";
-      linkEl.style.margin = "0px";
-      linkEl.style.padding = "0px";
-      const loomContainerEl = linkEl.createDiv();
-      loomContainerEl.className = "DataLoom__embedded-container";
-      loomContainerEl.style.height = "100%";
-      loomContainerEl.style.width = "100%";
-      loomContainerEl.style.padding = "10px 0px";
-      const appId = v4_default();
-      this.loomApps.push({
-        id: appId,
-        leaf: activeView.leaf,
-        parentEl: loomContainerEl,
-        file
-      });
-      this.setupLoom(activeView, loomContainerEl, file, appId);
+function EditingViewPlugin(app2, manifestPluginVersion) {
+  return import_view.ViewPlugin.fromClass(
+    class EditingViewPlugin {
+      update(update) {
+        const markdownLeaves = app2.workspace.getLeavesOfType("markdown");
+        const activeLeaf = markdownLeaves.find(
+          (leaf) => leaf.view.editor.cm === update.view
+        );
+        if (!activeLeaf)
+          return;
+        loadEmbeddedLoomApps(
+          app2,
+          manifestPluginVersion,
+          activeLeaf,
+          "source"
+        );
+      }
     }
-  }
-  setupLoom(activeView, loomContainerEl, file, appId) {
-    return __async(this, null, function* () {
-      loomContainerEl.addEventListener("click", (e) => {
-        e.stopPropagation();
-      });
-      const data = yield app.vault.read(file);
-      const LoomState8 = deserializeLoomState(data);
-      const loom = this.loomApps.find((app2) => app2.id === appId);
-      if (!loom)
-        return;
-      loom.root = (0, import_client3.createRoot)(loomContainerEl);
-      this.renderApp(appId, activeView.leaf, file, loom.root, LoomState8);
-    });
-  }
-  handleSave(loomFile, appId, state) {
-    return __async(this, null, function* () {
-      const serialized = serializeLoomState(state);
-      yield app.vault.modify(loomFile, serialized);
-      app.workspace.trigger(EVENT_REFRESH_APP, loomFile.path, appId, state);
-    });
-  }
-  renderApp(id2, leaf, loomFile, root, LoomState8) {
-    const throttleHandleSave = import_lodash.default.throttle(this.handleSave, 2e3);
-    root.render(
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
-        appId: id2,
-        isMarkdownView: true,
-        loomFile,
-        mountLeaf: leaf,
-        store,
-        LoomState: LoomState8,
-        onSaveState: (appId, state) => throttleHandleSave(loomFile, appId, state)
-      })
-    );
-  }
-  setupEventListeners() {
-    app.workspace.on(EVENT_REFRESH_APP, this.handleRefreshEvent);
-    app.workspace.on(EVENT_REFRESH_EDITING_VIEW, this.update);
-  }
-  destroy() {
-    this.loomApps.forEach((app2) => {
-      var _a;
-      return (_a = app2.root) == null ? void 0 : _a.unmount();
-    });
-    this.loomApps = [];
-    app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
-    app.workspace.off(EVENT_REFRESH_EDITING_VIEW, this.update);
-  }
-};
-var editingViewPlugin = import_view.ViewPlugin.fromClass(EditingViewPlugin);
+  );
+}
 
-// src/obsidian/welcome-modal.tsx
+// src/obsidian/modal/welcome-modal/index.tsx
 var import_obsidian10 = require("obsidian");
+
+// src/obsidian/html-utils/index.ts
+var renderDonationBadge = (contentEl) => {
+  const linkEl = contentEl.createEl("a", {
+    href: "https://www.buymeacoffee.com/treywallis"
+  });
+  const imgEl = linkEl.createEl("img");
+  imgEl.src = "https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=treywallis&button_colour=6a8695&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00";
+  imgEl.referrerPolicy = "no-referrer";
+  imgEl.alt = "Buymeacoffee";
+  imgEl.width = 180;
+};
+var renderDivider = (contentEl) => {
+  contentEl.createDiv({ cls: "dataloom-modal__divider" });
+};
+
+// src/obsidian/modal/welcome-modal/index.tsx
 var WelcomeModal = class extends import_obsidian10.Modal {
   constructor(app2) {
     super(app2);
@@ -56350,14 +56337,14 @@ var WelcomeModal = class extends import_obsidian10.Modal {
     contentEl.createDiv({
       text: "Weave together data from diverse sources into a cohesive table view."
     });
-    this.renderDivider(contentEl);
-    const titleEl = contentEl.createEl("h5", { text: "Learn how to use" });
-    titleEl.style.marginTop = "0em";
-    titleEl.style.marginBottom = "1em";
-    const cardContainerEl = contentEl.createDiv();
-    cardContainerEl.style.display = "flex";
-    cardContainerEl.style.flexDirection = "column";
-    cardContainerEl.style.rowGap = "1rem";
+    renderDivider(contentEl);
+    contentEl.createEl("h5", {
+      text: "Learn how to use",
+      cls: "dataloom-welcome-modal__title"
+    });
+    const cardContainerEl = contentEl.createDiv({
+      cls: "dataloom-welcome-modal__card-container"
+    });
     this.renderCard(
       cardContainerEl,
       "Quick start",
@@ -56380,30 +56367,24 @@ var WelcomeModal = class extends import_obsidian10.Modal {
       "list-plus"
     );
   }
-  renderDivider(contentEl) {
-    const dividerEl = contentEl.createDiv();
-    dividerEl.style.margin = "1.5em 0";
-    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
-  }
   renderCard(contentEl, title, description, link, iconId) {
-    const cardEl = contentEl.createDiv();
-    cardEl.style.display = "flex";
-    cardEl.style.padding = "1em 1.5em";
-    cardEl.style.columnGap = "1.5em";
-    cardEl.style.alignItems = "center";
-    cardEl.style.border = "1px solid var(--background-modifier-border)";
+    const cardEl = contentEl.createDiv({
+      cls: "dataloom-welcome-modal__card"
+    });
     const iconEl = cardEl.createDiv();
     (0, import_obsidian10.setIcon)(iconEl, iconId);
-    iconEl.firstChild.style.width = "1.5em";
-    iconEl.firstChild.style.height = "1.5em";
+    iconEl.firstChild.classList.add(
+      "dataloom-welcome-modal__card-icon"
+    );
     const cardContainerEl = cardEl.createDiv();
-    const titleEl = cardContainerEl.createEl("h6", { text: title });
-    titleEl.style.margin = "0";
-    const descriptionEl = cardContainerEl.createEl("p", {
-      text: description
+    cardContainerEl.createEl("h6", {
+      text: title,
+      cls: "dataloom-welcome-modal__card-title"
     });
-    descriptionEl.style.marginTop = "0.25em";
-    descriptionEl.style.marginBottom = "0.5em";
+    cardContainerEl.createEl("p", {
+      text: description,
+      cls: "dataloom-welcome-modal__card-description"
+    });
     cardContainerEl.createEl("a", { text: "Get started", href: link });
   }
   onClose() {
@@ -56412,7 +56393,7 @@ var WelcomeModal = class extends import_obsidian10.Modal {
   }
 };
 
-// src/obsidian/whats-new-modal.tsx
+// src/obsidian/modal/whats-new-modal/whats-new-modal.tsx
 var import_obsidian12 = require("obsidian");
 
 // src/data/network.ts
@@ -56432,7 +56413,7 @@ var getLastestGithubRelease = () => __async(void 0, null, function* () {
   }
 });
 
-// src/obsidian/whats-new-modal.tsx
+// src/obsidian/modal/whats-new-modal/whats-new-modal.tsx
 var WhatsNewModal = class extends import_obsidian12.Modal {
   constructor(app2) {
     super(app2);
@@ -56441,7 +56422,7 @@ var WhatsNewModal = class extends import_obsidian12.Modal {
     return __async(this, null, function* () {
       let { contentEl } = this;
       contentEl.createEl("h2", { text: "DataLoom - What's New" });
-      this.renderDivider(contentEl);
+      renderDivider(contentEl);
       this.renderContent(contentEl);
     });
   }
@@ -56451,12 +56432,14 @@ var WhatsNewModal = class extends import_obsidian12.Modal {
       const { body, published_at, tag_name } = data;
       if (data) {
         const tagEl = contentEl.createEl("h5", {
-          text: `v${tag_name}`
+          text: `v${tag_name}`,
+          cls: "dataloom-whats-new-modal__tag"
         });
-        tagEl.style.marginTop = "0.5em";
-        tagEl.style.marginBottom = "0";
         const date = new Date(published_at);
-        tagEl.innerHTML += ` <span style="font-size: 0.75em; color: var(--text-muted);">(${date.toLocaleDateString()})</span>`;
+        tagEl.createSpan({
+          text: date.toLocaleDateString(),
+          cls: "dataloom-whats-new-modal__date"
+        });
         const bodyEl = contentEl.createDiv();
         const replacedText = this.replaceIssueNumbersWithLinks(body);
         import_obsidian12.MarkdownRenderer.renderMarkdown(
@@ -56481,11 +56464,6 @@ var WhatsNewModal = class extends import_obsidian12.Modal {
         });
       }
     });
-  }
-  renderDivider(contentEl) {
-    const dividerEl = contentEl.createDiv();
-    dividerEl.style.margin = "1.5em 0";
-    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
   }
   replaceIssueNumbersWithLinks(text) {
     const regex = /#(\d+)/g;
@@ -56517,11 +56495,42 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
     super(app2, plugin);
     this.plugin = plugin;
   }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    this.renderDonationHeader(containerEl);
+    this.renderFileSettings(containerEl);
+    this.renderExportSettings(containerEl);
+    this.renderEmbeddedLoomSettings(containerEl);
+    this.renderModalSettings(containerEl);
+    this.renderDebugSettings(containerEl);
+  }
+  renderDonationHeader(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("DataLoom").setHeading();
+    const donationDesc = new DocumentFragment();
+    const textEl = donationDesc.createDiv({
+      text: "I need your support - this project is dependent on donations from people like you"
+    });
+    textEl.style.marginBottom = "1.5em";
+    renderDonationBadge(donationDesc);
+    new import_obsidian14.Setting(containerEl).setDesc(donationDesc);
+  }
   renderFileSettings(containerEl) {
     new import_obsidian14.Setting(containerEl).setName("File").setHeading();
     const attachmentsFolderDesc = new DocumentFragment();
-    attachmentsFolderDesc.createSpan({}, (span) => {
-      span.innerHTML = `Create looms in the attachments folder defined in the Obsidian settings.<br><br>This can be changed in <span style="color: var(--text-accent);">Files & Links -> Default location for new attachments</span><br><br>Otherwise, the folder location below will be used.`;
+    attachmentsFolderDesc.createDiv({
+      text: "Create looms in the attachments folder defined in the Obsidian settings."
+    });
+    attachmentsFolderDesc.createSpan({
+      text: "This can be changed in"
+    });
+    attachmentsFolderDesc.createSpan({
+      text: " Files & Links -> Default location for new attachments",
+      cls: "Dashboards__setting-emphasize"
+    });
+    attachmentsFolderDesc.createEl("br");
+    attachmentsFolderDesc.createDiv({
+      text: "Otherwise, the folder location below will be used"
     });
     new import_obsidian14.Setting(containerEl).setName("Create new looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
       cb.setValue(
@@ -56533,8 +56542,8 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
       }));
     });
     const defaultLocationDesc = new DocumentFragment();
-    defaultLocationDesc.createSpan({}, (span) => {
-      span.innerHTML = `Where newly created looms are placed. Please don't include a slash at the beginning or end of the value.<br>e.g. <strong>myfolder/subdirectory</strong><br><br>Default location is the vault root folder, if not specified.`;
+    defaultLocationDesc.createSpan({
+      text: "Where newly created looms are placed. Default location is the vault root folder, if not specified."
     });
     if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
       new import_obsidian14.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
@@ -56549,8 +56558,8 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
   }
   renderExportSettings(containerEl) {
     const exportRenderMarkdownDesc = new DocumentFragment();
-    exportRenderMarkdownDesc.createSpan({}, (span) => {
-      span.innerHTML = "If enabled, content will be exported as markdown. For example, if enabled, a checkbox cell's content will be exported as <strong>[ ]</strong> or <strong>[x]</strong>. If disabled, the content will be exported as <strong>true</strong> or <strong>false</strong>.";
+    exportRenderMarkdownDesc.createSpan({
+      text: "If enabled, content will be exported as markdown. For example, if enabled, a checkbox cell's content will be exported as [ ] or [x]. If disabled, the content will be exported as true or false."
     });
     new import_obsidian14.Setting(containerEl).setName("Export").setHeading();
     new import_obsidian14.Setting(containerEl).setName("Export content as markdown").setDesc(exportRenderMarkdownDesc).addToggle((cb) => {
@@ -56563,10 +56572,14 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
     });
   }
   renderEmbeddedLoomSettings(containerEl) {
-    new import_obsidian14.Setting(containerEl).setName("Embedded Looms").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("Embedded looms").setHeading();
     const defaultEmbedWidthDesc = new DocumentFragment();
-    defaultEmbedWidthDesc.createSpan({}, (span) => {
-      span.innerHTML = "The default embedded loom width. Accepts valid HTML width values. Like <strong>100px<strong>, <strong>50%</strong>, etc.";
+    defaultEmbedWidthDesc.createSpan({
+      text: "The default embedded loom width. Accepts valid HTML width values. Like 100px, 50%, etc."
+    });
+    defaultEmbedWidthDesc.createDiv({
+      text: "Please close and reopen your embedded looms for this setting to take effect",
+      cls: "dataloom-modal-text--emphasize"
     });
     new import_obsidian14.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
@@ -56577,8 +56590,12 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
       );
     });
     const defaultEmbedHeightDesc = new DocumentFragment();
-    defaultEmbedHeightDesc.createSpan({}, (span) => {
-      span.innerHTML = "The default embedded loom height. Accepts valid HTML width values. Like <strong>100px</strong>, <strong>50%</strong>, etc.";
+    defaultEmbedHeightDesc.createSpan({
+      text: "The default embedded loom height. Accepts valid HTML width values. Like 100px, 50%, etc."
+    });
+    defaultEmbedHeightDesc.createDiv({
+      text: "Please close and reopen your embedded looms for this setting to take effect",
+      cls: "dataloom-modal-text--emphasize"
     });
     new import_obsidian14.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
       cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
@@ -56588,10 +56605,25 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
         })
       );
     });
-    containerEl.createSpan(
-      {},
-      (span) => span.innerHTML = `<strong style="color: var(--text-accent); font-size: 12px;">Please close and reopen your embedded looms for these settings to take effect</strong>`
-    );
+  }
+  renderModalSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("Modal").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("What's new modal").setDesc("Show the what's new modal when the plugin is updated.").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.showWhatsNewModal).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.showWhatsNewModal = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+    new import_obsidian14.Setting(containerEl).setName("Donation modal").setDesc("Show the donation modal when the plugin is updated.").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.showDonationModal).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.showDonationModal = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
   }
   renderDebugSettings(containerEl) {
     new import_obsidian14.Setting(containerEl).setName("Debug").setHeading();
@@ -56606,13 +56638,38 @@ var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
       );
     });
   }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    this.renderFileSettings(containerEl);
-    this.renderExportSettings(containerEl);
-    this.renderEmbeddedLoomSettings(containerEl);
-    this.renderDebugSettings(containerEl);
+};
+
+// src/obsidian/modal/donation-modal/index.tsx
+var import_obsidian15 = require("obsidian");
+var DonationModal = class extends import_obsidian15.Modal {
+  constructor(app2) {
+    super(app2);
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h2", { text: "Support DataLoom" });
+    renderDivider(contentEl);
+    this.renderText(contentEl);
+    renderDonationBadge(contentEl);
+  }
+  renderText(contentEl) {
+    const containerEl = contentEl.createEl("div", {
+      cls: "dataloom-donation-modal__container"
+    });
+    containerEl.createEl("p", {
+      text: "I need your help. I develop this plugin as a free service, however I cannot dedicate adequate time to it without some support."
+    });
+    containerEl.createEl("p", {
+      text: "If this plugin has helped you, please consider donating."
+    });
+    containerEl.createEl("p", {
+      text: "- Trey."
+    });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
   }
 };
 
@@ -56626,20 +56683,26 @@ var DEFAULT_SETTINGS = {
   defaultEmbedHeight: "340px",
   hasMigratedTo800: false,
   showWelcomeModal: true,
+  showDonationModal: true,
+  showWhatsNewModal: true,
   pluginVersion: ""
 };
-var DATA_LOOM_PLUGIN_ID = "notion-like-tables";
-var DataLoomPlugin = class extends import_obsidian15.Plugin {
+var DataLoomPlugin = class extends import_obsidian16.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.registerView(DATA_LOOM_VIEW, (leaf) => new DataLoomView(leaf));
-      this.registerExtensions([CURRENT_FILE_EXTENSION], DATA_LOOM_VIEW);
+      this.registerView(
+        DATA_LOOM_VIEW,
+        (leaf) => new DataLoomView(leaf, this.manifest.id, this.manifest.version)
+      );
+      this.registerExtensions([FILE_EXTENSION], DATA_LOOM_VIEW);
       this.addRibbonIcon("table", "Create new loom", () => __async(this, null, function* () {
         yield this.newLoomFile(null);
       }));
       this.addSettingTab(new DataLoomSettingsTab(this.app, this));
-      this.registerEmbeddedView();
+      this.registerEditorExtension(
+        EditingViewPlugin(this.app, this.manifest.version)
+      );
       this.registerCommands();
       this.registerEvents();
       this.registerDOMEvents();
@@ -56649,7 +56712,14 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
         yield this.migrateLoomFiles();
       }));
       if (this.settings.pluginVersion !== this.manifest.version) {
-        new WhatsNewModal(this.app).open();
+        if (this.settings.pluginVersion !== "") {
+          if (this.settings.showDonationModal) {
+            new DonationModal(this.app).open();
+          }
+          if (this.settings.showWhatsNewModal) {
+            new WhatsNewModal(this.app).open();
+          }
+        }
       }
       if (this.settings.showWelcomeModal) {
         new WelcomeModal(app).open();
@@ -56658,6 +56728,7 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
       this.settings.pluginVersion = this.manifest.version;
       yield this.saveSettings();
+      store.dispatch(setManifestPluginVersion(this.manifest.version));
     });
   }
   migrateLoomFiles() {
@@ -56668,17 +56739,21 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
         );
         for (let i2 = 0; i2 < loomFiles.length; i2++) {
           const file = loomFiles[i2];
+          const data = yield this.app.vault.read(file);
+          const parsedState = JSON.parse(data);
+          if (!parsedState.model)
+            return;
           const newFilePath = file.path.replace(
             `.${file.extension}`,
-            `.${CURRENT_FILE_EXTENSION}`
+            `.${FILE_EXTENSION}`
           );
           try {
             yield this.app.vault.rename(file, newFilePath);
           } catch (err) {
-            new import_obsidian15.Notice(
+            new import_obsidian16.Notice(
               `Failed renaming ${file.path} to ${newFilePath}`
             );
-            new import_obsidian15.Notice("Please rename this file manually");
+            new import_obsidian16.Notice("Please rename this file manually");
           }
         }
         this.settings.hasMigratedTo800 = true;
@@ -56686,24 +56761,30 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
   }
-  registerEmbeddedView() {
-    this.registerEditorExtension(editingViewPlugin);
+  getFolderForNewLoomFile(contextMenuFolderPath) {
+    let folderPath = "";
+    if (contextMenuFolderPath) {
+      folderPath = contextMenuFolderPath;
+    } else if (this.settings.createAtObsidianAttachmentFolder) {
+      folderPath = this.app.vault.getConfig(
+        "attachmentFolderPath"
+      );
+    } else {
+      folderPath = this.settings.customFolderForNewFiles;
+    }
+    const normalized = (0, import_obsidian16.normalizePath)(folderPath);
+    if (normalized === ".")
+      return "/";
+    return normalized;
   }
   newLoomFile(contextMenuFolderPath, embedded) {
     return __async(this, null, function* () {
-      let folderPath = "";
-      if (contextMenuFolderPath) {
-        folderPath = contextMenuFolderPath;
-      } else if (this.settings.createAtObsidianAttachmentFolder) {
-        folderPath = this.app.vault.getConfig(
-          "attachmentFolderPath"
-        );
-      } else {
-        folderPath = this.settings.customFolderForNewFiles;
-      }
-      const filePath = yield createLoomFile({
-        folderPath
-      });
+      const folderPath = this.getFolderForNewLoomFile(contextMenuFolderPath);
+      const filePath = yield createLoomFile(
+        this.app,
+        folderPath,
+        this.manifest.version
+      );
       if (embedded)
         return filePath;
       yield app.workspace.getLeaf(true).setViewState({
@@ -56718,12 +56799,12 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       if (this.settings.shouldDebug)
         console.log("main handleClick");
       removeFocusVisibleClass();
-      this.app.workspace.trigger(EVENT_OUTSIDE_CLICK);
+      this.app.workspace.trigger(EVENT_GLOBAL_CLICK);
     });
     this.registerDomEvent(document, "keydown", (e) => {
       if (this.settings.shouldDebug)
         console.log("main handleKeyDown");
-      this.app.workspace.trigger(EVENT_OUTSIDE_KEYDOWN, e);
+      this.app.workspace.trigger(EVENT_GLOBAL_KEYDOWN, e);
     });
   }
   registerEvents() {
@@ -56734,8 +56815,21 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       })
     );
     this.registerEvent(
+      this.app.workspace.on("layout-change", () => {
+        const leaves = this.app.workspace.getLeavesOfType("markdown");
+        purgeEmbeddedLoomApps(leaves);
+        setTimeout(() => {
+          loadPreviewModeApps(
+            this.app,
+            leaves,
+            this.manifest.version
+          );
+        }, 2);
+      })
+    );
+    this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian15.TFolder) {
+        if (file instanceof import_obsidian16.TFolder) {
           menu.addItem((item) => {
             item.setTitle("New loom").setIcon("document").onClick(() => __async(this, null, function* () {
               yield this.newLoomFile(file.path);
@@ -56747,19 +56841,16 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
     this.app.vault.on(
       "rename",
       (file, oldPath) => __async(this, null, function* () {
-        const leafs = app.workspace.getLeavesOfType("markdown");
-        leafs.forEach((leaf) => {
-          leaf.trigger(EVENT_REFRESH_EDITING_VIEW);
-        });
-        if (file instanceof import_obsidian15.TFile) {
-          const loomFiles = this.app.vault.getFiles().filter(
-            (file2) => file2.extension === CURRENT_FILE_EXTENSION
-          );
+        if (file instanceof import_obsidian16.TFile) {
+          const loomFiles = this.app.vault.getFiles().filter((file2) => file2.extension === FILE_EXTENSION);
           const loomsToUpdate = [];
           let numLinks = 0;
           for (const loomFile of loomFiles) {
             const data = yield file.vault.read(loomFile);
-            const state = deserializeLoomState(data);
+            const state = deserializeLoomState(
+              data,
+              this.manifest.version
+            );
             state.model.bodyCells.forEach((cell) => {
               const regex = structuredClone(WIKI_LINK_REGEX);
               let matches;
@@ -56781,7 +56872,7 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
             });
           }
           if (numLinks > 0) {
-            new import_obsidian15.Notice(
+            new import_obsidian16.Notice(
               `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${loomsToUpdate.length} loom file${loomsToUpdate.length > 1 ? "s" : ""}.`
             );
           }
@@ -56812,7 +56903,7 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
               const serializedState = serializeLoomState(newState);
               yield file.vault.modify(loomFile, serializedState);
               app.workspace.trigger(
-                EVENT_REFRESH_APP,
+                EVENT_APP_REFRESH,
                 loomFile.path,
                 -1,
                 newState
@@ -56825,7 +56916,7 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
   }
   registerCommands() {
     this.addCommand({
-      id: "dataloom-create",
+      id: "create",
       name: "Create loom",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: () => __async(this, null, function* () {
@@ -56833,7 +56924,7 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       })
     });
     this.addCommand({
-      id: "dataloom-create-and-embed",
+      id: "create-and-embed",
       name: "Create loom and embed it into current file",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
       editorCallback: (editor) => __async(this, null, function* () {
@@ -56852,13 +56943,13 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       })
     });
     this.addCommand({
-      id: "nlt-add-column",
+      id: "add-column",
       name: "Add column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_ADD);
           }
@@ -56868,13 +56959,13 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
     this.addCommand({
-      id: "nlt-delete-column",
+      id: "delete-column",
       name: "Delete column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_DELETE);
           }
@@ -56884,13 +56975,13 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
     this.addCommand({
-      id: "nlt-add-row",
+      id: "add-row",
       name: "Add row",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking)
             this.app.workspace.trigger(EVENT_ROW_ADD);
           return true;
@@ -56899,13 +56990,13 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
     this.addCommand({
-      id: "nlt-row-column",
+      id: "delete-row",
       name: "Delete row",
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_ROW_DELETE);
           }
@@ -56915,12 +57006,12 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
     this.addCommand({
-      id: "nlt-export-markdown",
+      id: "export-markdown",
       name: "Export as markdown",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_MARKDOWN);
           }
@@ -56930,12 +57021,12 @@ var DataLoomPlugin = class extends import_obsidian15.Plugin {
       }
     });
     this.addCommand({
-      id: "nlt-export-csv",
+      id: "export-csv",
       name: "Export as CSV",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
-        if (nltView || markdownView) {
+        const loomView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian16.MarkdownView);
+        if (loomView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_CSV);
           }

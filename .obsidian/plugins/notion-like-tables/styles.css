@@ -1,36 +1,90 @@
+/* src/react/loom-app/table/styles.css */
+.dataloom-table {
+  display: table;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.dataloom-header {
+  display: table-header-group;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.dataloom-body {
+  display: table-row-group;
+}
+.dataloom-footer {
+  display: table-footer-group;
+}
+.dataloom-row {
+  display: table-row;
+}
+.dataloom-row--header {
+  background-color: var(--background-secondary);
+}
+.dataloom-cell {
+  display: table-cell;
+}
+.dataloom-cell--header {
+  background-color: var(--table-header-background);
+  border-bottom: 1px solid var(--table-border-color);
+  border-right: 1px solid var(--table-border-color);
+  &:last-of-type {
+    border-right: 0;
+    background-color: var(--background-primary);
+  }
+}
+.dataloom-cell--body {
+  border-bottom: 1px solid var(--table-border-color);
+  border-right: 1px solid var(--table-border-color);
+  vertical-align: top;
+  height: 1px;
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+.dataloom-cell--footer {
+  background-color: var(--background-primary);
+  border-top: 1px solid var(--table-border-color);
+  border-bottom: 1px solid var(--table-border-color);
+}
+.dataloom-body > .dataloom-row:last-child > .dataloom-cell {
+  border-bottom: 0;
+}
+
 /* src/react/shared/text/styles.css */
-.DataLoom__p {
+.dataloom-p {
   white-space: nowrap;
   margin: 0;
   color: var(--text-normal);
 }
-.DataLoom__text-muted {
+.dataloom-text-muted {
   color: var(--text-muted);
 }
-.DataLoom__text-faint {
+.dataloom-text-faint {
   color: var(--text-faint);
 }
-.DataLoom__text-semibold {
+.dataloom-text-semibold {
   font-weight: var(--font-semibold);
 }
 
 /* src/react/shared/switch/styles.css */
-.DataLoom__switch {
+.dataloom-switch {
   width: calc(var(--toggle-width) * 0.75);
   height: calc((var(--toggle-thumb-height) * 0.75) + (var(--toggle-border-width) * 2 * 0.75));
 }
-.DataLoom__switch:after {
+.dataloom-switch:after {
   width: calc(var(--toggle-thumb-width) * 0.75);
   height: calc(var(--toggle-thumb-height) * 0.75);
 }
-.DataLoom__switch.is-enabled:after {
+.dataloom-switch.is-enabled:after {
   transform: translate3d(calc((var(--toggle-width) - var(--toggle-thumb-width) - var(--toggle-border-width)) * 0.75), 0, 0);
 }
-.DataLoom__switch input {
+.dataloom-switch input {
   width: calc(var(--checkbox-size) * 0.75);
   height: calc(var(--checkbox-size) * 0.75);
 }
-.DataLoom__switch:active:after {
+.dataloom-switch:active:after {
   width: calc((var(--toggle-thumb-width) * 0.75) + (var(--toggle-border-width)));
 }
 
@@ -47,25 +101,42 @@
   box-shadow: none !important;
 }
 
+/* src/react/loom-app/header-cell-container/styles.css */
+.dataloom-cell--header__container {
+  display: flex;
+  justify-content: space-between;
+  min-height: var(--nlt-cell-min-height);
+}
+.dataloom-cell--header__inner-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
+}
+
 /* src/react/loom-app/tag-cell/styles.css */
 ._tag-cell {
   width: 100%;
 }
 
 /* src/react/loom-app/number-cell/styles.css */
-.DataLoom__number-cell {
+.dataloom-number-cell {
   width: 100%;
   text-align: right;
 }
 
 /* src/react/loom-app/tag-color-menu/components/color-item/styles.css */
-.DataLoom__color-item {
+.dataloom-color-item {
   display: flex;
   align-items: center;
   padding: var(--nlt-spacing--xs) var(--nlt-spacing--lg);
   width: 100%;
 }
-.DataLoom__color-item-square {
+.dataloom-color-item-square {
   width: 10px;
   height: 10px;
   padding: 0;
@@ -75,19 +146,38 @@
 /* src/react/loom-app/tag-color-menu/styles.css */
 
 /* src/react/loom-app/multi-tag-cell/styles.css */
-.DataLoom_multi-tag-cell {
+.dataloom-multi-tag-cell {
   display: flex;
   flex-direction: column;
 }
 
+/* src/react/loom-app/body-cell-container/styles.css */
+.dataloom-cell--body__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: var(--nlt-cell-min-height);
+  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
+  cursor: pointer;
+}
+
 /* src/react/loom-app/currency-cell/styles.css */
-.DataLoom__currency-cell {
+.dataloom-currency-cell {
   width: 100%;
   text-align: right;
 }
 
+/* src/react/loom-app/footer-cell-container/styles.css */
+.dataloom-cell--footer__container {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  overflow: hidden;
+  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
+}
+
 /* src/react/loom-app/new-column-button/styles.css */
-.DataLoom_new-column {
+.dataloom-new-column {
   padding-left: var(--nlt-spacing--md);
 }
 
@@ -109,107 +199,162 @@
   --nlt-font-size--md: 1rem;
   --nlt-font-size--lg: 1.1rem;
 }
-.DataLoom__light-gray--light {
+.dataloom-light-gray--light {
   background-color: hsl(0, 3%, 94%);
 }
-.DataLoom__light-gray--dark {
+.dataloom-light-gray--dark {
   background-color: hsl(0, 0%, 22%);
 }
-.DataLoom__gray--light {
+.dataloom-gray--light {
   background-color: hsl(40, 5%, 88%);
 }
-.DataLoom__gray--dark {
+.dataloom-gray--dark {
   background-color: hsl(0, 0%, 35%);
 }
-.DataLoom__brown--light {
+.dataloom-brown--light {
   background-color: hsl(18, 31%, 89%);
 }
-.DataLoom__brown--dark {
+.dataloom-brown--dark {
   background-color: hsl(19, 32%, 27%);
 }
-.DataLoom__orange--light {
+.dataloom-orange--light {
   background-color: hsl(28, 67%, 88%);
 }
-.DataLoom__orange--dark {
+.dataloom-orange--dark {
   background-color: hsl(28, 52%, 32%);
 }
-.DataLoom__yellow--light {
+.dataloom-yellow--light {
   background-color: hsl(43, 82%, 89%);
 }
-.DataLoom__yellow--dark {
+.dataloom-yellow--dark {
   background-color: hsl(37, 43%, 36%);
 }
-.DataLoom__green--light {
+.dataloom-green--light {
   background-color: hsl(113, 30%, 89%);
 }
-.DataLoom__green--dark {
+.dataloom-green--dark {
   background-color: hsl(138, 23%, 28%);
 }
-.DataLoom__blue--light {
+.dataloom-blue--light {
   background-color: hsl(205, 41%, 89%);
 }
-.DataLoom__blue--dark {
+.dataloom-blue--dark {
   background-color: hsl(218, 38%, 30%);
 }
-.DataLoom__purple--light {
+.dataloom-purple--light {
   background-color: hsl(272, 29%, 90%);
 }
-.DataLoom__purple--dark {
+.dataloom-purple--dark {
   background-color: hsl(266, 34%, 28%);
 }
-.DataLoom__pink--light {
+.dataloom-pink--light {
   background-color: hsl(330, 36%, 91%);
 }
-.DataLoom__pink--dark {
+.dataloom-pink--dark {
   background-color: hsl(330, 31%, 30%);
 }
-.DataLoom__red--light {
+.dataloom-red--light {
   background-color: hsl(11, 64%, 91%);
 }
-.DataLoom__red--dark {
+.dataloom-red--dark {
   background-color: hsl(8, 35%, 30%);
 }
-.DataLoom__app ::-webkit-scrollbar {
-  display: none;
-}
-.DataLoom__menu ::-webkit-scrollbar {
-  display: none;
-}
-.DataLoom__selectable {
+.dataloom-selectable {
   cursor: pointer;
 }
-.DataLoom__selectable:hover {
+.dataloom-selectable:hover {
   background-color: var(--color-base-30);
 }
-.DataLoom__selected {
+.dataloom-selected {
   background-color: var(--color-base-20);
 }
-.workspace-leaf-content[data-type=table] .view-content {
-  padding: 0;
-}
-.DataLoom__default-cursor {
+.dataloom-default-cursor {
   cursor: default !important;
 }
-.DataLoom__focusable:focus-visible,
-.DataLoom__focus-visible {
+.dataloom-focusable:focus-visible,
+.dataloom-focus-visible {
   outline: 2px solid var(--color-accent) !important;
   outline-offset: -2px !important;
 }
-.DataLoom__focusable--inverted:focus-visible {
+.dataloom-focusable--inverted:focus-visible {
   outline: 2px solid var(--text-on-accent-inverted);
   outline-offset: 0px;
 }
-.DataLoom__blur--cell {
+.dataloom-blur--cell {
   outline: 2px solid var(--background-modifier-border-focus) !important;
   outline-offset: -2px;
 }
-.DataLoom__blur {
+.dataloom-blur {
   outline: 2px solid var(--color-accent) !important;
   outline-offset: -2px;
 }
-.DataLoom__tr--drag-over {
+.dataloom-tr--drag-over {
   border-bottom: 1px solid var(--color-accent) !important;
 }
-.DataLoom__th--drag-over {
+.dataloom-th--drag-over {
   border-bottom: 1px solid var(--color-accent) !important;
+}
+
+/* src/react/loom-app/bottom-bar/styles.css */
+.dataloom-bottom-bar {
+  position: relative;
+  height: 60px;
+}
+.dataloom-bottom-bar > div {
+  position: absolute;
+  width: 100%;
+}
+
+/* src/obsidian/html-utils/styles.css */
+.dataloom-modal__divider {
+  margin: 1.5em 0;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.dataloom-modal-text--emphasize {
+  color: var(--text-accent);
+}
+
+/* src/obsidian/modal/welcome-modal/styles.css */
+.data-welcome-modal__title {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+.dataloom-welcome-modal__card-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.dataloom-welcome-modal__card {
+  display: flex;
+  padding: 1em 1.5em;
+  column-gap: 1.5em;
+  align-items: center;
+  border: 1px solid var(--background-modifier-border);
+}
+.dataloom-welcome-modal__card-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.dataloom-welcome-modal__card-title {
+  margin: 0;
+}
+.dataloom-welcome-modal__card-description {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+/* src/obsidian/modal/whats-new-modal/styles.css */
+.dataloom-whats-new-modal__tag {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+.dataloom-whats-new-modal__date {
+  margin-left: 0.75em;
+  font-size: 0.75em;
+  color: var(--text-muted);
+}
+
+/* src/obsidian/modal/donation-modal/styles.css */
+.dataloom-donation-modal__container {
+  margin-bottom: 1.5rem;
 }

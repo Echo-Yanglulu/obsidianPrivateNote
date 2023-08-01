@@ -8,13 +8,29 @@
 |  |  |  |  |  |
 ## 解释1
 1. 执行宏任务[^1] 
-	1. 定时器、网络请求、事件添加的任务
+	1. 定时器、网络请求、事件添加的任务会在一定时间后被添加到宏任务队列
 2. 执行此次宏任务添加的微任务
-	1. 微任务添加的微任务也会在此次被执行
+	1. 此次微任务执行所添加的微任务也会在此次被执行
 		1. 通过queneMicrotask()或其他微任务添加方式
 3. DOM渲染为UI【UI渲染本身是宏任务】
 
 所以整体机制是，宏任务->微任务。不断循环
-# 解释2
+## 解释2
+
+# [[node]]的异步
+node 同样是单线程，也需要异步，也分为宏任务和微任务。
+与浏览器的区别在于需要区分**类型**与**优先级**。
+1. 宏任务优先级
+	1. timer：  timeout > interval
+	2. I/O callbacks：处理网络、流、TCP 的错误回调
+	3. Idle, prepare：闲置状态（node 内部使用）
+	4. Poll 轮询：执行 poll 中的 I/O 队列
+	5. check 检查：存储 setImmediate 回调
+	6. close callbacks：关闭回调，如 soctet.on('close')
+2. 微任务优先级
+	1. [[process]].nextTick
+	2. [[Promise]], [[async]] 
+注意
+	1. 推荐使用 setImmediate 代替 [[process]].nextTick【因为它优先级较高】
 
 [^1]: UI渲染->其它宏任务
