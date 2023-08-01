@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "react原理",
-      "path": "笔记/前端/库、框架/UI库/react原理.md"
-    },
-    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "react-router",
+      "path": "笔记/前端/库、框架/UI库/react-router.md"
+    },
+    {
+      "basename": "react原理",
+      "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
     {
       "basename": "requestAnimationFrame",
@@ -195,10 +199,6 @@
     {
       "basename": "布局",
       "path": "笔记/前端/编程语言/CSS/布局.md"
-    },
-    {
-      "basename": "React与Vue的比较",
-      "path": "笔记/前端/库、框架/React与Vue的比较.md"
     }
   ],
   "omittedPaths": [

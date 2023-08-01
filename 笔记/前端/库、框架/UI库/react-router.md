@@ -18,6 +18,8 @@
 1. hashHistory。hash 模式（默认），如 http://abc.com/#user/10
 2. browserHistory。H5 [[History]] 模式。如 http://abc.com/user/20
 3. createMemoryHistory
+	1. 特点
+		1. 不会发生 url 的变化
 4. 也可自定义history
 B 端应用可选择hash模式，C 端应用可选择History模式
 ## 使用
