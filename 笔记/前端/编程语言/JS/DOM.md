@@ -326,7 +326,8 @@ document.createElement(要创建元素的标签名)
 		1. 3个li子元素的ul元素会包含7个子元素。因为一个代表li元素周围的空格
 		2. 如果把元素之间的空格删掉，所有浏览器都会返回同样数量的子节点
 		3. 通常在执行某个操作之后需要先检测一下节点的nodeType。只当nodeType\=\==1时才执行。
-2. 某个元素的子节点和其他后代节点：`getElementsByTagName()`方法
+2. 元素的元素子节点： `children` 属性
+3. 某个元素的子节点和其他后代节点：`getElementsByTagName()`方法
 ## Attr类型
 **元素数据**在DOM中通过Attr类型表示
 Attr 类型构造函数和原型在所有浏览器中都可以直接访问。技术上讲，*属性是存在于元素 attributes 属性中的节点* 

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -42,8 +42,14 @@
                 "id": "35e75a6fb5297186",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-08-01",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-01.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -962,7 +968,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -989,7 +996,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1017,7 +1024,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1143,7 +1150,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -1177,8 +1184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -1311,16 +1317,22 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "workspaces:管理工作区布局": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/行为/健身/部位/胸部.md",
+    "Day Planners/2023-08-01.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/沟通/沟通.md",
@@ -1328,7 +1340,6 @@
     "笔记/前端/assets/Pasted image 20230731214232.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
-    "笔记/前端/工程化/ES Module.md",
     "笔记/学习/概念/概念.md",
     "笔记/前端/工程化/npm.md",
     "笔记/前端/工程化/node/node.md",
@@ -1340,16 +1351,11 @@
     "笔记/前端/编程语言/JS/基本概念/Math.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/JS/DOM.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230731163127.png",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/工程化/构建/Promise.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
-    "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",

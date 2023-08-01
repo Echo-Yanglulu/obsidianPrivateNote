@@ -239,7 +239,7 @@
   "quick-explorer@@qe-obsidian-title": "qe-title-center",
   "at-theme-settings@@at-colorful-headings": true,
   "at-theme-settings@@at-line-height": false,
-  "sanctum@@light-mode-contrast-mode": "sanctum-white",
+  "sanctum@@light-mode-contrast-mode": "sanctum-contrast-light",
   "sanctum@@active-line-accent": "rgba(var(--color-accent-rgb), .3)",
   "sanctum@@aside-counter": false,
   "sanctum@@aside-border": false,
@@ -297,5 +297,6 @@
   "jotter@@h6-color": "#A200C9",
   "anuppuccin-theme-settings@@anp-toggle-preview": false,
   "anuppuccin-theme-settings@@anp-cursor": "pointer",
-  "anuppuccin-theme-settings@@anp-canvas-dark-bg": false
+  "anuppuccin-theme-settings@@anp-canvas-dark-bg": false,
+  "sanctum@@no-sanctum-icons": false
 }
