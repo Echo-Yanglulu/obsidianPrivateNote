@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/行为/健身/训练模式/力量训练.md"
                   }
                 }
               }
@@ -47,6 +47,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":43,\"ch\":4},\"to\":{\"line\":43,\"ch\":4}},\"scroll\":36.9117}"
                     },
                     {
                       "title": "胸部",
@@ -395,7 +401,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/训练模式/力量训练.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1009,7 +1015,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1037,7 +1043,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1335,14 +1341,16 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "bd5ff300df2b3029",
+  "active": "35e75a6fb5297186",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/RPE.png",
+    "笔记/前端/assets/Pasted image 20230801223950.png",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/前端/assets/Pasted image 20230801223540.png",
+    "笔记/前端/assets/RPE.png",
     "笔记/前端/assets/Pasted image 20230801221725.png",
     "笔记/前端/assets/Pasted image 20230801220946.png",
     "笔记/前端/assets/Pasted image 20230801220823.png",
@@ -1361,7 +1369,6 @@
     "笔记/前端/assets/Pasted image 20230706150551.png",
     "笔记/前端/库、框架/UI库/vue.md",
     "笔记/前端/库、框架/UI库/class组件.md",
-    "笔记/前端/assets/类组件属性的数据类型.png",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/组件.md",
