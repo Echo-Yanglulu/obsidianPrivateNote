@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/vue.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -600,17 +600,23 @@
                 "id": "ec3a9eda8e782ce7",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "库、框架",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "String",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/String.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
                     },
                     {
                       "title": "RegExp",
@@ -623,7 +629,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/String.md",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -634,17 +640,23 @@
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "2023-07-31",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-31.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "严格模式",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/严格模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":28},\"to\":{\"line\":34,\"ch\":28}},\"scroll\":19.515151515151516}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":236,\"ch\":15},\"to\":{\"line\":236,\"ch\":15}},\"scroll\":217.54545454545453}"
                     },
                     {
                       "title": "React与Vue的比较",
@@ -975,7 +987,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1002,7 +1014,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/vue.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1030,7 +1042,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/vue.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1156,7 +1168,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1328,13 +1340,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c8939a157a98f43c",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/同源策略.md",
+    "笔记/前端/JSONP.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/基本概念/严格模式.md",
+    "笔记/前端/库、框架/UI库/vue.md",
+    "笔记/前端/库、框架/UI库/vuex.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/库、框架.md",
+    "笔记/前端/编程语言/JS/基本概念/String.md",
+    "笔记/前端/工程化/ES Module.md",
     "笔记/前端/编程语言/JS/基本概念/类数组对象.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/行为/健身/部位/胸部.md",
@@ -1352,16 +1373,7 @@
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/编程语言/CSS/CSS选择器.md",
-    "笔记/前端/工程化/包管理器.md",
-    "笔记/前端/编程语言/JS/基本概念/Math.md",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/assets/Pasted image 20230731163127.png",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/工程化/构建/Promise.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/assets/vue组件的渲染与更新过程.png",
     "笔记/前端/assets/硬编码关联元素.png",

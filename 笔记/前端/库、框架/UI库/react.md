@@ -31,7 +31,9 @@ refs：访问在render中创建的react元素
 1. props
 2. [[context]] 
 3. [[redux]] 
-4. 自定义事件
+4. 事件中心
+	1. 自定义事件
+	2. 三方库： `events` , `event-emitter`
 ## 属性
 ### 调整
 className代替class

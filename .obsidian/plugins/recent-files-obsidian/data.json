@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "同源策略",
+      "path": "笔记/前端/同源策略.md"
+    },
+    {
+      "basename": "严格模式",
+      "path": "笔记/前端/编程语言/JS/基本概念/严格模式.md"
+    },
+    {
       "basename": "vue",
       "path": "笔记/前端/库、框架/UI库/vue.md"
     },
     {
-      "basename": "ES Module",
-      "path": "笔记/前端/工程化/ES Module.md"
+      "basename": "vuex",
+      "path": "笔记/前端/库、框架/UI库/vuex.md"
     },
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "库、框架",
+      "path": "笔记/前端/库、框架/库、框架.md"
+    },
+    {
+      "basename": "String",
+      "path": "笔记/前端/编程语言/JS/基本概念/String.md"
+    },
+    {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
     },
     {
       "basename": "DOM",
@@ -161,10 +185,6 @@
       "path": "笔记/前端/库、框架/React与Vue的比较.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
       "basename": "2023-07-30",
       "path": "Day Planners/2023-07-30.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "BOM",
       "path": "笔记/前端/编程语言/JS/BOM.md"
-    },
-    {
-      "basename": "window",
-      "path": "笔记/前端/编程语言/JS/window.md"
-    },
-    {
-      "basename": "navigator",
-      "path": "笔记/前端/编程语言/JS/navigator.md"
-    },
-    {
-      "basename": "History",
-      "path": "笔记/前端/工程化/History.md"
-    },
-    {
-      "basename": "CSRF",
-      "path": "笔记/前端/编程语言/JS/CSRF.md"
-    },
-    {
-      "basename": "前端安全",
-      "path": "笔记/前端/编程语言/JS/前端安全.md"
     }
   ],
   "omittedPaths": [
