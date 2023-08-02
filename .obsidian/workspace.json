@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-08-02.md"
+                    "file": "笔记/学习/概念/概念.md"
                   }
                 }
               }
@@ -652,17 +652,17 @@
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-08-02",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "前端工作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "客户端存储",
@@ -885,7 +885,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-08-02.md",
+                    "file": "笔记/前端/前端工作.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1043,7 +1043,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 8
           },
           {
             "id": "86193a5d16fa87de",
@@ -1070,7 +1070,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-08-02.md",
+                        "file": "笔记/学习/概念/概念.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1098,7 +1098,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-08-02.md",
+                        "file": "笔记/学习/概念/概念.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1396,13 +1396,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "ab39d7c671d278c0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/preconnect.png",
+    "笔记/行为/健身/健身.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/响应式布局.md",
+    "Day Planners/2023-08-02.md",
+    "笔记/前端/assets/preconnect.png",
     "笔记/前端/SQL 注入.md",
     "笔记/前端/DDOS.md",
     "笔记/前端/Click Jaking.md",
@@ -1431,8 +1434,6 @@
     "笔记/前端/OAuth.md",
     "笔记/前端/SSO单点登录.md",
     "笔记/前端/assets/Pasted image 20230802124648.png",
-    "笔记/前端/编程语言/JS/客户端存储.md",
-    "笔记/前端/编程语言/JS/Web Storage.md",
     "笔记/前端/assets/Pasted image 20230802123857.png",
     "笔记/前端/assets/Pasted image 20230802114940.png",
     "笔记/前端/assets/Pasted image 20230802113946.png"
