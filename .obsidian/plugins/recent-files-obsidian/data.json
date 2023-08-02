@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "客户端存储",
-      "path": "笔记/前端/编程语言/JS/客户端存储.md"
+      "basename": "SSO单点登录",
+      "path": "笔记/前端/SSO单点登录.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "cookie",
       "path": "笔记/前端/cookie.md"
+    },
+    {
+      "basename": "客户端存储",
+      "path": "笔记/前端/编程语言/JS/客户端存储.md"
     },
     {
       "basename": "sessionStorage",
@@ -23,10 +31,6 @@
     {
       "basename": "网络请求",
       "path": "笔记/前端/编程语言/JS/网络请求.md"
-    },
-    {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "健身",
@@ -195,10 +199,6 @@
     {
       "basename": "location",
       "path": "笔记/前端/编程语言/JS/location.md"
-    },
-    {
-      "basename": "axios",
-      "path": "笔记/前端/编程语言/JS/axios.md"
     }
   ],
   "omittedPaths": [
