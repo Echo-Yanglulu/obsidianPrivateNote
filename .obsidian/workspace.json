@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/前端/cookie.md"
                   }
                 }
               }
@@ -659,6 +659,30 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "客户端存储",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/客户端存储.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "cookie",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/cookie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":22},\"to\":{\"line\":4,\"ch\":22}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "客户端存储",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/客户端存储.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":14},\"to\":{\"line\":8,\"ch\":14}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":296,\"ch\":11},\"to\":{\"line\":296,\"ch\":11}},\"scroll\":269.3809523809524}"
+                    },
+                    {
                       "title": "异步JS",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/异步JS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -831,7 +855,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/cookie.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -988,7 +1012,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1015,7 +1040,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/前端/cookie.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1043,7 +1068,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/前端/cookie.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1341,15 +1366,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "35e75a6fb5297186",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/客户端存储.md",
+    "笔记/前端/cookie.md",
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/编程语言/JS/AbortController.md",
+    "笔记/前端/前端工作.md",
+    "笔记/行为/健身/健身.md",
     "Day Planners/2023-08-02.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/assets/Pasted image 20230801223950.png",
-    "笔记/行为/健身/健身.md",
     "笔记/前端/assets/Pasted image 20230801223540.png",
     "笔记/前端/assets/RPE.png",
     "笔记/前端/assets/Pasted image 20230801221725.png",
@@ -1358,7 +1388,6 @@
     "笔记/前端/assets/Pasted image 20230801220807.png",
     "笔记/前端/assets/Pasted image 20230801220127.png",
     "笔记/行为/健身/部位/胸部.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/assets/Pasted image 20230801192644.png",
     "笔记/前端/HTML5.md",
     "笔记/前端/工程化/node/Koa.md",
@@ -1377,10 +1406,6 @@
     "笔记/前端/工程化/npm.md",
     "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
-    "笔记/前端/编程语言/JS/基本概念/WeakMap.md",
-    "笔记/前端/编程语言/JS/JS垃圾回收机制.md",
-    "笔记/前端/编程语言/JS/基本概念/循环引用.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/同源策略.md"
+    "笔记/前端/编程语言/JS/基本概念/WeakMap.md"
   ]
 }

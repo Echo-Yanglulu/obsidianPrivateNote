@@ -34,5 +34,6 @@ function fetchVideo() {
       console.error(`下载错误：${err.message}`);
     });
 }
-
+// 10毫秒后中断请求
+setTimeout(() => controller.abort(), 10);
 ```
