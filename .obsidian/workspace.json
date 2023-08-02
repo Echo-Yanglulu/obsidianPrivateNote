@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/SSO单点登录.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1064,7 +1064,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/SSO单点登录.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1092,7 +1092,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/SSO单点登录.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1390,16 +1390,28 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d8c5f304e45cbdc8",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230802124648.png",
+    "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络.md",
+    "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
+    "笔记/前端/基础知识/计算机网络/计算机网络协议.md",
+    "笔记/前端/基础知识/计算机网络/应用层.md",
+    "笔记/前端/基础知识/计算机网络/IP.md",
+    "笔记/前端/UDP.md",
+    "笔记/前端/基础知识/计算机网络/数据链路层.md",
+    "笔记/前端/OAuth 2.0.md",
+    "笔记/前端/assets/Pasted image 20230802130314.png",
+    "笔记/沟通/沟通.md",
+    "笔记/前端/OAuth.md",
+    "笔记/前端/SSO单点登录.md",
+    "笔记/前端/assets/Pasted image 20230802124648.png",
     "笔记/前端/编程语言/JS/客户端存储.md",
     "笔记/前端/编程语言/JS/Web Storage.md",
-    "笔记/前端/SSO单点登录.md",
     "笔记/前端/assets/Pasted image 20230802123857.png",
     "笔记/前端/cookie.md",
     "笔记/前端/WebSocket.md",
@@ -1414,22 +1426,10 @@
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/编程语言/JS/AbortController.md",
     "笔记/行为/健身/健身.md",
-    "Day Planners/2023-08-02.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/assets/Pasted image 20230801223950.png",
     "笔记/前端/assets/Pasted image 20230801223540.png",
     "笔记/前端/assets/RPE.png",
     "笔记/前端/assets/Pasted image 20230801221725.png",
-    "笔记/前端/assets/Pasted image 20230801220946.png",
-    "笔记/前端/assets/Pasted image 20230801220823.png",
-    "笔记/前端/assets/Pasted image 20230801220807.png",
-    "笔记/行为/健身/部位/胸部.md",
-    "笔记/前端/HTML5.md",
-    "笔记/前端/工程化/node/Koa.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/requestAnimationFrame.md",
-    "笔记/前端/库、框架/UI库/vue.md"
+    "笔记/前端/assets/Pasted image 20230801220946.png"
   ]
 }
