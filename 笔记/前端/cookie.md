@@ -9,35 +9,92 @@
 特点
 	1. 生命周期：会话。**页面刷新**，始终存在
 		1. 被用于本地存储
-	2. 作用：服务器在响应时添加 HTTP 头部：set-cookie 包含会话信息。名、值在发送时都会经过 URL 编码。响应后浏览器存储这些会话信息，在之后的*每次请求*中通过 HTTP 头部：cookie 将它们发回服务器。【与服务端通讯】
-		1. 不要存储太多。因为一个页面会发出许多请求
-	3. 体积：最大4k
-	4. 服务器收到 HTTP 请求时，可发送带有 set-cookie 的头部，给 cookie 设置有效时间
-	5. cookie 是与特定域绑定的。设置 cookie 后，它会与请求一起发送到创建它的域。这个限制能保证 cookie 中存储的信息只对被认可的接收者开放，不被其他域访问
-		1. 嵌入的 [[iframe]]如果是另一个域，也不能获取嵌入页面的 cookie
-	6. 设置 cookie 后，它会与请求一起发送到创建它的域
-应用
-	1. 会话管理：登录名，购物车商品，游戏得分、服务器要记录的其他内容
-	2. 个性化：用户首选项，主题，语言
-	3. 跟踪：记录和分析用户行为，如埋点。
-### 组成
-名称
-值
-域
-路径
-过期时间
-安全标志
-### 限制
-1. 浏览器
-2. 单个域：cookie 数，字节数
-3. 单个 cookie：4095字节
-如果 cookie 总数超出，不同的浏览器有不同的删除规则
+	2. 服务器收到 HTTP 请求时，可发送带有 set-cookie 的头部，给 cookie 设置有效时间
+	3. 与特定域绑定。
+		1. 设置 cookie 后，它会与请求一起发送到创建它的域。
+			1. 之后的*每次请求*中通过 HTTP 头部：cookie 将它们发回服务器。【与服务端通讯】
+			2. 这个限制能保证 cookie 中存储的信息只对被认可的接收者开放，不被其他域访问
+		2. 嵌入[[iframe]]的页面如果是另一个域，也不能获取所在页面的 cookie
+	4. 不会占用太多磁盘空间。
+		1. 原因：一个页面会发出许多请求，每次请求都携带
+		2. 限制
+			1. 不超过300个 cookie；
+			2. 每个 cookie 不超过4096字节；最大4k
+			3. 每个域不超过20个 cookie；
+			4. 每个域不超过81 920字节。
+		3. 每个域能设置的 cookie 总数[^1]
+			1. 最新版 IE 和 Edge 限制每个域不超过50个 cookie；
+			2. 最新版 Firefox 限制每个域不超过150个 cookie；
+			3. 最新版 Opera 限制每个域不超过180个 cookie；
+			4. Safari 和 Chrome 对每个域的 cookie 数没有硬性限制
+# 组成
+1. 名称：唯一标识 cookie 的名称。
+	1. 不区分大小写。实践中最好将 cookie 名当成区分大小写来对待，因为一些服务器软件可能这样对待它们
+	2. 必须经过[[Global#URL 编码|URL编码]]
+2. 值：
+	1. 存储在 cookie 里的字符串值
+	2. 必须经过 URL 编码
+3. 域：cookie 有效的域
+	1. 发送到这个域的所有请求都会包含对应的 cookie。
+	2. 这个值可能包含子域（如 www.wrox.com ），也可以不包含（如`.wrox.com`表示对 wrox.com 的所有子域都有效）。
+	3. 如果不明确设置，则默认为设置 cookie 的域。自动绑定到执行语句的当前域
+4. 路径：需要发送 cookie 的路径。请求 URL 中包含这个路径才会把 cookie 发送到服务器
+	1. 例如，可以指定 cookie 只能由`http://www.wrox.com/books/`访问 ，因此访问`http://www.wrox.com/`下的页面就不会发送cookie ，即使请求的是同一个域。
+5. 过期时间：删除 cookie 的时间戳（即什么时间之后就不发送到服务器了）
+	1. 默认情况下，*浏览器会话结束*后会删除所有 cookie。【浏览器关闭】
+	2. 不过，也可以设置删除 cookie 的时间。这个值是 GMT 格式（Wdy, DD-Mon-YYYY HH:MM:SS GMT），用于指定删除 cookie 的具体时间。这样即使关闭浏览器 cookie 也会保留在用户机器上。
+	3. 把过期时间设置为过去的时间会立即删除 cookie。
+6. 安全标志：设置之后，只在*使用 [[SSL]] 安全连接*的情况下才会把 cookie 发送到服务器
+	1. 例如，请求 `https://www.wrox.com` 会发送 cookie ，而请求 `http://www.wrox.com` 则不会
+	2. cookie 中唯一的非名/值对，只需一个 secure 就可以了
+```HTTP
+// 这些参数在 Set-Cookie 头部中使用*分号加空格*隔开
 
+HTTP/1.1 200 OK
+Content-type: text/html
+Set-Cookie: name=value; expires=Mon, 22-Jan-07 07:10:24 GMT; domain=.wrox.com
+Other-header: other-header-value
+// 这个cookie在2007年1月22日7:10:24过期，对www.wrox.com及其他wrox.com的子域（如p2p.wrox.com）有效
+
+HTTP/1.1 200 OK
+Content-type: text/html
+Set-Cookie: name=value; expires=Mon, 22-Jan-07 07:10:24 GMT; domain=.wrox.com
+Other-header: other-header-value
+// 对所有wrox.com的子域及该域中的所有页面有效（通过path=/指定）。不过，这个cookie只能在SSL连接上发送，因为设置了secure标志。
+```
+后面四个属性只是用于表示何时应该在请求中包含 cookie，在发送 cookie 时并不会作为内容。真正发送的内容只有名值对。
+# 限制
 使用**多字节字符**（如 UTF-8 Unicode 字符），每个字符最多可能占4字节
-### 修改
-前端：document.cookie = 'a=100'
-	1. 每次调用赋值表达式只能添加一个
-	2. 不同 key 会追加，相同 key 会覆盖
-### JS 中的 cookie
-### 子 cookie
-### 使用时的注意事项
+# JS 中的 cookie
+JavaScript 中处理 cookie 比较麻烦，因为接口过于简单，只有 BOM 的 document.cookie 属性
+1. 获取: document.cookie 返回包含页面中所有有效 cookie 的字符串(根据域、路径、过期时间和安全设置)，如 `name1=value1;name2=value2;name3=value3` 
+	1. 名和值都是 URL 编码的，因此必须使用 decodeURIComponent()解码
+2. 设置：通过 document.cookie 属性设置新的 cookie 字符串
+	1. 这个字符串在被解析后会添加到原有 cookie 中。
+	2. 设置 document.cookie 不会*覆盖*之前存在的任何 cookie，除非设置了已有的 cookie。
+	3. 设置 cookie 的格式如下，与 Set-Cookie 头部的格式一样 `name=value; expires=expiration_time; path=domain_path; domain=domain_name; secure` 
+	4. 只有 cookie 的名称和值是必需的。有时名值对中只有 `URI非转义字符` ，不用进行 URI 编码，但最好还是使用 encodeURIComponent
+	5. 要为创建的 cookie 指定额外的信息,像 Set-Cookie 头部一样直接在后面追加相同格式的字符串即可
+# 子 cookie
+背景：为绕过浏览器对每个域 cookie 数的限制，有些开发者提出了子 cookie 的概念
+定义：在单个 cookie 存储的小块数据，本质上是使用 cookie 的值在单个 cookie 中存储多个名/值对
+实例： `name=name1=value1&name2=value2&name3=value3&name4=value4&name5=value5` 
+格式：类似于查询字符串。
+	1. 这些值可以存储为单个 cookie，而不用单独存储为自己的名/值对。结果就是网站或 Web 应用程序能够在单域 cookie 数限制下存储更多的结构化数据
+# 使用时的注意事项
+1. 读取
+	1. 还有一种叫作 `HTTP-only` 的 cookie
+		1. 可以在浏览器设置，也可以在服务器设置，
+		2. 只能在服务器上读取，这是因为 JavaScript 无法取得这种 cookie 的值
+2. 性能
+	1. 因为所有 cookie 都会作为请求头部由浏览器发送给服务器，所以在 cookie 中保存大量信息可能会影响特定域浏览器请求的性能。
+	2. 保存的 cookie 越大，请求完成的时间就越长。即使浏览器对 cookie 大小有限制，最好还是尽可能只通过 cookie 保存*必要信息*，以避免性能问题
+3. 安全
+	1. 不要在 cookie 中存储重要或敏感的信息。
+		1. cookie 数据不是保存在安全的环境中，因此*任何人都可能获得*。应该避免把信用卡号或个人地址等信息保存在 cookie 中
+4. 应用
+	1. 会话管理：登录名，购物车商品，游戏得分、服务器要记录的其他内容
+	3. 个性化：用户首选项，主题，语言
+	2. 跟踪：记录和分析用户行为，如埋点。
+
+[^1]: 如果 cookie 总数超过了单个域的上限，浏览器就会删除之前设置的 cookie。

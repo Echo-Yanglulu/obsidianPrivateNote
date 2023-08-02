@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "cookie",
-      "path": "笔记/前端/cookie.md"
-    },
-    {
       "basename": "客户端存储",
       "path": "笔记/前端/编程语言/JS/客户端存储.md"
+    },
+    {
+      "basename": "sessionStorage",
+      "path": "笔记/前端/sessionStorage.md"
+    },
+    {
+      "basename": "indexDB",
+      "path": "笔记/前端/indexDB.md"
+    },
+    {
+      "basename": "Web Storage",
+      "path": "笔记/前端/编程语言/JS/Web Storage.md"
+    },
+    {
+      "basename": "cookie",
+      "path": "笔记/前端/cookie.md"
     },
     {
       "basename": "网络请求",
@@ -187,18 +199,6 @@
     {
       "basename": "axios",
       "path": "笔记/前端/编程语言/JS/axios.md"
-    },
-    {
-      "basename": "工具函数",
-      "path": "笔记/前端/编程语言/JS/工具函数.md"
-    },
-    {
-      "basename": "Error",
-      "path": "笔记/前端/编程语言/JS/Error.md"
-    },
-    {
-      "basename": "2023-07-31",
-      "path": "Day Planners/2023-07-31.md"
     }
   ],
   "omittedPaths": [
