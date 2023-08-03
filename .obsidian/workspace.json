@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/前端/编程语言/JS/HTTP Method.md"
                   }
                 }
               }
@@ -879,10 +879,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-08-02",
+                      "title": "HTTP Method",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-02.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP Method.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":5.0629}"
                     },
                     {
                       "state": "{}",
@@ -1225,7 +1225,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1252,7 +1252,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1280,7 +1280,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/前端/编程语言/JS/HTTP Method.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1578,14 +1578,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "63e6cb6f221a3591",
+  "active": "08afcef1f2573dc5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/MIME类型.md",
+    "笔记/前端/编程语言/JS/HTTP Method.md",
+    "笔记/前端/工程化/规范/计算机文件.md",
+    "笔记/前端/编程语言/JS/基本概念/二进制数据.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/HTTP Header.md",
+    "笔记/前端/cookie.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/工程化/npm.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/SharedWorker.md",
     "笔记/前端/postMessage.md",
     "笔记/前端/assets/Pasted image 20230803174857.png",
@@ -1604,16 +1612,8 @@
     "笔记/前端/编程语言/JS/错误处理.md",
     "笔记/前端/库、框架/UI库/ReactDOM.md",
     "笔记/前端/库、框架/UI库/组件.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/编程语言/CSS/CSS选择器.md",
-    "笔记/前端/SQL 注入.md",
     "笔记/前端/assets/Pasted image 20230803122036.png",
     "笔记/前端/assets/属性选择器.png",
-    "笔记/前端/工程化/规范/计算机文件.md",
-    "笔记/前端/工程化/规范/ignore.md",
-    "笔记/前端/工程化/git.md",
-    "笔记/前端/工程化/github.md",
     "笔记/前端/assets/preconnect.png",
     "笔记/前端/assets/Pasted image 20230802171513.png",
     "笔记/前端/assets/Pasted image 20230802171231.png",

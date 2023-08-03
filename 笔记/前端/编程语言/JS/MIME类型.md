@@ -15,9 +15,8 @@
 | audio       | 音频文件                                                      | audio/midi, audio/mpeg, audio/webm, audio/ogg, audio/wav                                                                            |
 | video       | 视频文件                                                      | video/webm, video/ogg                                                                                                               |
 | application | 二进制数据                                                    | application/octet-stream, application/pkcs12, application/vnd.mspowerpoint, application/xhtml+xml, application/xml, application/pdf |
-
 ## Multipart 类型
-表示细分领域的文件类型的种类，经常对应不同的 MIME 类型
+表示*细分领域的文件类型*的种类，经常对应不同的 MIME 类型
 是复合文件的一种表现方式
 1. multipart/form-data
 	1. 可用于联系 HTML Forms 和 POST 方法
@@ -26,8 +25,8 @@
 # 重要的 MIME 类型
 application/octet-stream
 text/plain
-text/css
 text/html
+text/css
 text/javascript
 图片类型
 音频与视频类型
