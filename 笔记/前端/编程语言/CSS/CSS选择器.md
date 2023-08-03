@@ -61,7 +61,7 @@
 }
 用户在页面上选择文本时，它将以黄色背景和红色文本颜色突出显示
 ```
-::first-letter 块级元素的第一个字母
+::first-letter 块级元素的*第一个字母*
 ```css
 p::first-letter {
   font-size: 2em;
@@ -70,7 +70,7 @@ p::first-letter {
 每个段落的第一个字母将以更大的字体显示并显示为红色
 ```
 
-::first-line  文本或块级元素的第一行
+::first-line  文本或块级元素的*第一行*
 ```css
 p::first-line {
   font-weight: bold;
@@ -78,14 +78,14 @@ p::first-line {
 }
 每个段落的第一行将以粗体显示并带有下划线
 ```
-::marker 列表项的标记
+::marker 列表项的*标记*
 ```css
 li::marker {
   color: blue;
   font-weight: bold;
 }
 ```
-::placeholder 输入字段和文本区域中设置占位符文本的样式
+::placeholder 输入字段和文本区域中设置*占位符文本*的样式
 ```css
 input::placeholder {
   color: #999;
@@ -93,7 +93,7 @@ input::placeholder {
 }
 占位符文本将以浅灰色和斜体字体样式显示
 ```
-::cue `<audio>` 或 `<video>` 元素的提示文本
+::cue `<audio>` 或 `<video>` 元素的*提示文本*
 ```css
 提示文本通常用于多媒体内容中的字幕或副标题
 video::cue {
@@ -101,7 +101,7 @@ video::cue {
   background-color: black;
 }
 ```
-::grammar-error 和::spelling-error 标记为语法或拼写错误的文本部分
+::grammar-error 和::spelling-error 标记为*语法或拼写错误的文本*部分
 ```css
 p::grammar-error {
   text-decoration: line-through;
@@ -121,7 +121,7 @@ video::backdrop {
 }
 当一个视频元素处于全屏模式时，它后面的背景将有一个灰色的背景色
 ```
-::target-text 滚动到的文本（如果浏览器支持文本片段）
+::target-text *滚动到的文本*（如果浏览器支持文本片段）
 ```css
 
 ::target-text {
