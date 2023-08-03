@@ -14,7 +14,7 @@
 | image       | 图像。动态图（如gif）也使用 | image/gif, image/png, image/jpeg, image/bmp, image/webp, image/x-icon, image/vnd.microsoft.icon                                     |
 | audio       | 音频文件                                                      | audio/midi, audio/mpeg, audio/webm, audio/ogg, audio/wav                                                                            |
 | video       | 视频文件                                                      | video/webm, video/ogg                                                                                                               |
-| application | 二进制数据                                                    | application/octet-stream, application/pkcs12, application/vnd.mspowerpoint, application/xhtml+xml, application/xml, application/pdf |
+| application | [[二进制数据]]                                                    | application/octet-stream, application/pkcs12, application/vnd.mspowerpoint, application/xhtml+xml, application/xml, application/pdf |
 ## Multipart 类型
 表示*细分领域的文件类型*的种类，经常对应不同的 MIME 类型
 是复合文件的一种表现方式
