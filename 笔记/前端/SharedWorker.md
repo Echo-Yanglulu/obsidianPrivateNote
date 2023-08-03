@@ -22,7 +22,9 @@ onconnect = event => {
 }
 
 ```
-
+需要通讯的两个页面，都引入该文件，
+通过 worker.port.postMessage 发送消息
+通过 worker.port.onmessage 接收消息
 ```html
 // 列表页
 <!DOCTYPE html>
