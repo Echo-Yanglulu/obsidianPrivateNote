@@ -893,6 +893,34 @@
                 }
               },
               {
+                "id": "e8d66460a1012c26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":24},\"to\":{\"line\":87,\"ch\":24}},\"scroll\":73.7}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "5afd7df751a131dd",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -1479,9 +1507,11 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/SQL 注入.md",
     "笔记/前端/assets/Pasted image 20230803122036.png",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/CSS选择器.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/工程化/规范/计算机文件.md",
@@ -1510,7 +1540,6 @@
     "笔记/前端/编程语言/JS/HTTP.md",
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
-    "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
     "笔记/前端/assets/Pasted image 20230802130314.png",
     "笔记/前端/assets/Pasted image 20230802124648.png",
     "笔记/前端/assets/Pasted image 20230802123857.png"
