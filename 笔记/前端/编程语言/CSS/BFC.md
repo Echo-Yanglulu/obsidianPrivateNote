@@ -3,7 +3,9 @@
 
 形成条件：PDFO
 	1. position是absolute或fixed
-	2. display是flex, inline-block等
+	2. display
+		1. inline-block, table, table-row, table-cell 等
+		2. flex、grid 的直接子元素
 	3. float不是none
 	4. overflow不是visible
 
