@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/CSS选择器.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -1121,7 +1121,7 @@
                 }
               }
             ],
-            "currentTab": 13
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -1148,7 +1148,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1176,7 +1176,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/CSS选择器.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1474,11 +1474,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d50db753617bfecc",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/SQL 注入.md",
+    "笔记/前端/assets/Pasted image 20230803122036.png",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/CSS选择器.md",
     "笔记/前端/assets/属性选择器.png",
     "笔记/前端/工程化/规范/计算机文件.md",
     "笔记/前端/工程化/规范/ignore.md",
@@ -1488,11 +1492,9 @@
     "Day Planners/2023-08-03.md",
     "笔记/学习/概念/概念.md",
     "笔记/行为/健身/健身.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/响应式布局.md",
     "Day Planners/2023-08-02.md",
     "笔记/前端/assets/preconnect.png",
-    "笔记/前端/SQL 注入.md",
     "笔记/前端/DDOS.md",
     "笔记/前端/Click Jaking.md",
     "笔记/前端/assets/Pasted image 20230802171513.png",
@@ -1509,11 +1511,8 @@
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
-    "笔记/前端/基础知识/计算机网络/计算机网络协议.md",
     "笔记/前端/assets/Pasted image 20230802130314.png",
     "笔记/前端/assets/Pasted image 20230802124648.png",
-    "笔记/前端/assets/Pasted image 20230802123857.png",
-    "笔记/前端/assets/Pasted image 20230802114940.png",
-    "笔记/前端/assets/Pasted image 20230802113946.png"
+    "笔记/前端/assets/Pasted image 20230802123857.png"
   ]
 }
