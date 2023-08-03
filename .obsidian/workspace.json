@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/SharedWorker.md"
                   }
                 }
               }
@@ -1252,7 +1252,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/SharedWorker.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1280,7 +1280,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/SharedWorker.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1578,13 +1578,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "9d1eb6cbd0a60fa9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/postMessage.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/postMessage.md",
     "笔记/前端/assets/Pasted image 20230803174857.png",
     "笔记/前端/SharedWorker.md",
     "笔记/前端/WebWorker.md",
