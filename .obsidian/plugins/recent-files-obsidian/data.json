@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
-    },
-    {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "组件",
+      "path": "笔记/前端/库、框架/UI库/组件.md"
+    },
+    {
+      "basename": "react组件",
+      "path": "笔记/前端/库、框架/UI库/react组件.md"
+    },
+    {
+      "basename": "函数组件",
+      "path": "笔记/前端/库、框架/UI库/函数组件.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "react原理",
@@ -133,14 +145,6 @@
       "path": "笔记/前端/库、框架/UI库/class组件.md"
     },
     {
-      "basename": "函数组件",
-      "path": "笔记/前端/库、框架/UI库/函数组件.md"
-    },
-    {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
       "basename": "异步JS",
       "path": "笔记/前端/编程语言/JS/异步JS.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "幻象",
       "path": "笔记/工具/思考/幻象.md"
-    },
-    {
-      "basename": "Math",
-      "path": "笔记/前端/编程语言/JS/基本概念/Math.md"
     }
   ],
   "omittedPaths": [

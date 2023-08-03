@@ -156,18 +156,22 @@ List.propTypes = {
 2. 异步组件
 	1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
 	2. Suspense
-3. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
+3. React.forwardRef：函数组件没有实例，无法接收 ref，通过该 API 可将函数组件接收到的 ref 转发给内部的 DOM 元素，实现焦点处理、文本选择等功能。
+	1. 函数组件中，每次渲染时都 focus 某个表单组件。
+4. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
 	1. 组件的事件流不会改变
 	2. 场景：兼容性、父组件是 [[BFC]] 、父组件的 z-index
 	3. 适用：对话框、全局的消息提示等全局展示的组件。
-4. [[context]] 
-5. [[性能优化]] 
+5. [[context]] 
+6. [[性能优化]] 
 	1. SCU
 	2. PureComponent
 	3. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
+		1. 两种组件皆可用
 	4. immutable. js：拥抱不可变值
-6. 逻辑复用：高阶组件、HOC
-7. componentDidCatch
+	5. useMemo, useCallback
+7. 逻辑复用：高阶组件、HOC、hooks
+8. componentDidCatch
 ## 总结
 Fiber让应用更好地更新，concurrentMode让应用在体验上更好
 # 原理
