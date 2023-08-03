@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md"
+                    "file": "Day Planners/2023-08-03.md"
                   }
                 }
               }
@@ -1046,8 +1046,14 @@
                 "id": "dbe5641acf66a3fb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-08-03",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-03.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1057,7 +1063,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                    "file": "Day Planners/2023-08-03.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1092,7 +1098,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "Day Planners/2023-08-03.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1120,7 +1126,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                        "file": "Day Planners/2023-08-03.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1423,6 +1429,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Day Planners/2023-08-03.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/学习/概念/概念.md",
     "笔记/行为/健身/健身.md",
     "笔记/前端/前端工作.md",
@@ -1453,8 +1461,6 @@
     "笔记/前端/基础知识/计算机网络/数据链路层.md",
     "笔记/前端/OAuth 2.0.md",
     "笔记/前端/assets/Pasted image 20230802130314.png",
-    "笔记/沟通/沟通.md",
-    "笔记/前端/OAuth.md",
     "笔记/前端/assets/Pasted image 20230802124648.png",
     "笔记/前端/assets/Pasted image 20230802123857.png",
     "笔记/前端/assets/Pasted image 20230802114940.png",
