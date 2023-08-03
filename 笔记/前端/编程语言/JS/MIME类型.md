@@ -5,7 +5,6 @@
 	1. type：可分为多个子类的**独立类型** 
 	2. subtype：**细分类型** 
 2. 大小写不敏感
-
 ## 独立类型
 
 | 类型        | 描述                                                                    | 示例                                                                                                                                |
@@ -32,7 +31,7 @@ text/javascript
 音频与视频类型
 # 设置正确的 MIME 类型的重要性
 背景
-	1. 很多 web 服务器使用默认的 application/octet-stream 来发送未知类型。
-
+	1. 很多 web 服务器使用默认的 `application/octet-stream` 来发送未知类型。
 # MIME 嗅探
+
 # 其他传送文件类型的方法
