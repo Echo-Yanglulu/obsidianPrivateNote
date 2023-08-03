@@ -133,11 +133,25 @@ List.propTypes = {
 	2. [[函数组件]] 使用监听，可使用 React.memo【对 props 进行浅层比较，阻止渲染】
 # API
 ## 基本特性
-1. refs：访问在render中创建的react元素
-	1. 场景：
-		1. 处理焦点、文本选择、媒体控制
-		2. 触发动画
-		3. 集成第三方 DOM 库
+### 父组件获取子组件
+功能
+	1. 将子组件暴露给父组件
+		1. 整个子元素：滚动到视口、将焦点放在表单、触发动画、文本选择、媒体控制、集成第三方 DOM 库
+		2. 子元素的部分数据
+	2. 访问在 render 中创建的 react 元素
+相关 API
+	1. 函数组件：React.forwardRef
+		1. 背景：函数组件没有实例，无法接收 ref，通过该 API 可将函数组件接收到的 ref 转发给内部的 DOM 元素
+		2. 参数
+			1. props：父组件传递过来的参数。
+			2. ref：父组件传递的 ref 属性。组件调用时没有传递 ref 则传入 null
+		3. 返回值：一个可以在 JSX 中渲染的、**可以接收 ref 属性**的[[函数组件]] 
+		4. 使用： `const MyInput = forwardRef(function MyInput(props, ref) {return ()});` 
+			1. 包裹函数组件后，组件被调用时会同时传入两个参数
+			2. ref 转发【DOM 节点】给或[[函数组件#useImperativeHandle|useImperativeHandle]] 【DOM 节点的**部分**数据】
+				1. 获得深层元素，需要多次通过 forwardRef 下传。
+	1. 类组件：createRef、findDOMNode（已废弃）[^2] 
+
 2. dangerouslySetInnerHTML属性：渲染传入的HTML字符串
 	1. 否则会被作为字符串渲染。<等被用于渲染，而不是解析为标签。
 3. fragments：减少嵌套。或返回语义化列表时使用组件作为元素的数组。
@@ -151,35 +165,56 @@ List.propTypes = {
 	1. 可中断渲染。该模式下，渲染更新是可以被中断的[^4]。（这里说的是否就是commit阶段？）中断特别耗时的渲染过程来响应用户行为，提升体验。
 		1. 如在一个页面上同时存在复杂动画和输入框。该模式会优先响应用户的输入
 ## 高级特性
-1. 非受控组件
-	1. 场景：文件上传，富文本编辑器，必须手动操作 [[DOM]] 
-2. 异步组件
-	1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
-	2. Suspense
-3. React.forwardRef：函数组件没有实例，无法接收 ref，通过该 API 可将函数组件接收到的 ref 转发给内部的 DOM 元素，实现焦点处理、文本选择等功能。
-	1. 函数组件中，每次渲染时都 focus 某个表单组件。
-4. [[ReactDOM#^73f348|portal]]：移动组件在 DOM 结构中的位置
-	1. 组件的事件流不会改变
-	2. 场景：兼容性、父组件是 [[BFC]] 、父组件的 z-index
-	3. 适用：对话框、全局的消息提示等全局展示的组件。
-5. [[context]] 
-6. [[性能优化]] 
-	1. SCU
-	2. PureComponent
-	3. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
-		1. 两种组件皆可用
-	4. immutable. js：拥抱不可变值
-	5. useMemo, useCallback
-7. 逻辑复用：高阶组件、HOC、hooks
-8. componentDidCatch
-## 总结
-Fiber让应用更好地更新，concurrentMode让应用在体验上更好
-# 原理
-[[react原理]] 
-# 实战
-[[react实战]] 
-# [[React性能优化]] 
-# 异常捕获
+### 创建节点
+createRoot 
+	1. react-dom/client 提供
+### 非受控组件
+1. 场景：文件上传，富文本编辑器，必须手动操作 [[DOM]] 
+### 异步组件
+1. const ContextDemo = React. lazy (()=>import ('./ContextDemo')))
+2. Suspense
+### 减少嵌套层级
+`<Fragment>` 
+列表渲染时不可简写
+```js
+function Blog() {
+  return posts.map(post =>
+    <Fragment key={post.id}>
+      <PostTitle title={post.title} />
+      <PostBody body={post.body} />
+    </Fragment>
+  );
+}
+```
+### 懒加载
+React.lazy 引入组件。在需要展示时时候再导入。但此时可能没有组件展示，需要结合 Suspense 展示 fallback 组件
+### 移动组件的DOM 结构
+功能：在 DOM 结构中，将组件内的模态对话框和提示框等*全局展示的组件*展示在 DOM 的外层
+API：createPortal(children, domNode, key?)
+	1. children：需要转移的元素。React 可以渲染的任何内容、这些内容构成的数组
+	2. domNode：目标容器元素。一个 DOM 节点，例如由 document.getElementById() 返回的节点。节点必须已经存在。
+	3. 返回：一个 React 节点，该节点可以包含在 JSX 中或从 React 组件中返回
+特点
+	1. 由[[ReactDOM]]提供
+	2. 组件的事件流不会改变。事件传播遵循 React 树而不是 DOM 树。虽然在 DOM 树中元素被移动了，但事件触发是以定义时的嵌套结构进行的。
+	3. 场景：兼容性、父组件是 [[BFC]] 、父组件的 z-index
+	4. 适用：对话框、全局的消息提示等全局展示的组件。
+### [[context]] 
+### [[性能优化]] 
+1. SCU
+2. PureComponent
+3. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
+	1. 两种组件皆可用
+4. immutable. js：拥抱不可变值
+5. useMemo, useCallback
+### 逻辑复用
+高阶组件、HOC、hooks，见[[react组件#逻辑复用|逻辑复用]] 
+### 强制 react 同步更新
+flushSync(callback)
+特性
+	1. 由[[ReactDOM]]提供
+	2. 严重破坏性能，如果可以，尽量避免使用
+### [[异常捕获]]/[[错误处理]] 
 通常使用try/catch在*可能出错*的地方。或使用window.onerror绑定
 react 本身的[[react原理#react中的Fiber协调【染新，乌鸡布局】|fiber协调]]带来了一个异常捕获的优化【组件错误、全局异常】
 ![[Pasted image 20230530144452.png]] 
@@ -210,6 +245,24 @@ class ErrorBoundary extends React.Component {
   <MyWidget />
 </ErrorBoundary>
 ```
+
+### 分析组件树性能
+```js
+<Profiler id="App" onRender={onRender}>
+  <App />
+</Profiler>
+function onRender(id, phase, actualDuration, baseDuration, startTime, commitTime) {
+  // Aggregate or log render timings...
+}
+id: 如果使用了多个分析器，可用于确定分析的是哪个
+```
+## 总结
+Fiber让应用更好地更新，concurrentMode让应用在体验上更好
+# 原理
+[[react原理]] 
+# 实战
+[[react实战]] 
+# [[React性能优化]] 
 # 相关
 1. react应用[^1] 
 	1. 创建【脚手架】[^3]

@@ -649,6 +649,230 @@
                 }
               },
               {
+                "id": "e8d66460a1012c26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":221,\"ch\":8},\"to\":{\"line\":221,\"ch\":8}},\"scroll\":206.35104166666667}"
+                    },
+                    {
+                      "title": "组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
+                    },
+                    {
+                      "title": "react",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":24},\"to\":{\"line\":87,\"ch\":24}},\"scroll\":73.7}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5afd7df751a131dd",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/修辞/修辞.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "40c21c9da0dd6249",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "2023-07-28",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c8939a157a98f43c",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "ES Module",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/库、框架/UI库/vue.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ab39d7c671d278c0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习/概念/概念.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "eb828b16fe44a451",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "DOM",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":329,\"ch\":45},\"to\":{\"line\":329,\"ch\":45}},\"scroll\":309.59947916666664}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/npm.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "97f21a9480d69b75",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/沟通/沟通.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b8e1ea01a7e10f8e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/git.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "bfe58fa182ed7d16",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -893,7 +1117,7 @@
                 }
               },
               {
-                "id": "e8d66460a1012c26",
+                "id": "dbe5641acf66a3fb",
                 "type": "leaf",
                 "pane-relief:history-v1": {
                   "pos": 0,
@@ -901,18 +1125,6 @@
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "react组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":221,\"ch\":8},\"to\":{\"line\":221,\"ch\":8}},\"scroll\":206.35104166666667}"
                     },
                     {
                       "title": "组件",
@@ -921,16 +1133,10 @@
                       "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":12},\"to\":{\"line\":4,\"ch\":12}}}"
                     },
                     {
-                      "title": "react",
+                      "title": "HTTP状态码",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "react原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":24},\"to\":{\"line\":87,\"ch\":24}},\"scroll\":73.7}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/HTTP状态码.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":3},\"to\":{\"line\":89,\"ch\":3}},\"scroll\":69.2289}"
                     }
                   ]
                 },
@@ -938,206 +1144,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/库、框架/UI库/react.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5afd7df751a131dd",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/修辞/修辞.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "40c21c9da0dd6249",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "2023-07-28",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-07-28.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c8939a157a98f43c",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "ES Module",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/ES Module.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":18},\"to\":{\"line\":3,\"ch\":18}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/vue.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ab39d7c671d278c0",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习/概念/概念.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "eb828b16fe44a451",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "DOM",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/DOM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":329,\"ch\":45},\"to\":{\"line\":329,\"ch\":45}},\"scroll\":309.59947916666664}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/npm.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "97f21a9480d69b75",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/沟通/沟通.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "dbe5641acf66a3fb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "2023-08-03",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-03.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b8e1ea01a7e10f8e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/工程化/git.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1555,13 +1561,17 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/前端工作.md",
     "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/编程语言/JS/异常捕获.md",
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/前端/编程语言/JS/错误处理.md",
+    "笔记/前端/库、框架/UI库/ReactDOM.md",
+    "笔记/前端/库、框架/UI库/组件.md",
+    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/编程语言/CSS/CSS选择器.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/前端/SQL 注入.md",
     "笔记/前端/assets/Pasted image 20230803122036.png",
     "笔记/前端/assets/属性选择器.png",
@@ -1569,7 +1579,6 @@
     "笔记/前端/工程化/规范/ignore.md",
     "笔记/前端/工程化/git.md",
     "笔记/前端/工程化/github.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
     "Day Planners/2023-08-03.md",
     "笔记/学习/概念/概念.md",
     "笔记/行为/健身/健身.md",
@@ -1584,10 +1593,7 @@
     "笔记/前端/cookie.md",
     "笔记/前端/工程化/XSS.md",
     "笔记/前端/assets/prefetch与preload.png",
-    "笔记/前端/编程语言/JS/DNS.md",
-    "笔记/前端/工程化/工具/HTTPS.md",
     "笔记/前端/assets/https.png",
-    "笔记/前端/工程化/工具/TLS.md",
     "笔记/前端/assets/Pasted image 20230802130314.png",
     "笔记/前端/assets/Pasted image 20230802124648.png",
     "笔记/前端/assets/Pasted image 20230802123857.png"
