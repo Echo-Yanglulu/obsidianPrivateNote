@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-08-03.md"
+                    "file": "笔记/前端/工程化/git.md"
                   }
                 }
               }
@@ -1063,7 +1063,29 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-08-03.md",
+                    "file": "笔记/前端/编程语言/JS/HTTP状态码.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b8e1ea01a7e10f8e",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/工程化/git.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1071,7 +1093,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1098,7 +1120,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-08-03.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1126,7 +1148,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-08-03.md",
+                        "file": "笔记/前端/工程化/git.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1424,13 +1446,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dbe5641acf66a3fb",
+  "active": "b8e1ea01a7e10f8e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Day Planners/2023-08-03.md",
+    "笔记/前端/工程化/github.md",
+    "笔记/前端/工程化/git.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
+    "Day Planners/2023-08-03.md",
     "笔记/学习/概念/概念.md",
     "笔记/行为/健身/健身.md",
     "笔记/前端/前端工作.md",
@@ -1458,8 +1482,6 @@
     "笔记/前端/基础知识/计算机网络/应用层.md",
     "笔记/前端/基础知识/计算机网络/IP.md",
     "笔记/前端/UDP.md",
-    "笔记/前端/基础知识/计算机网络/数据链路层.md",
-    "笔记/前端/OAuth 2.0.md",
     "笔记/前端/assets/Pasted image 20230802130314.png",
     "笔记/前端/assets/Pasted image 20230802124648.png",
     "笔记/前端/assets/Pasted image 20230802123857.png",
