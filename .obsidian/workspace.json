@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Day Planners/2023-08-04.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -854,17 +854,17 @@
                 "id": "b8e1ea01a7e10f8e",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "2023-08-04",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-04.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "title": "Object",
@@ -907,7 +907,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Day Planners/2023-08-04.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1273,7 +1273,7 @@
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "86193a5d16fa87de",
@@ -1300,7 +1300,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Day Planners/2023-08-04.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1328,7 +1328,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Day Planners/2023-08-04.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1626,13 +1626,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b8e1ea01a7e10f8e",
+  "active": "bfe58fa182ed7d16",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "Day Planners/2023-08-04.md",
+    "笔记/前端/编程语言/JS/基本概念/Map.md",
     "笔记/前端/编程语言/JS/基本概念/原始值包装类型.md",
     "笔记/前端/编程语言/JS/基本概念/Object.md",
     "笔记/前端/编程语言/JS/基本概念/属性名.md",
@@ -1654,7 +1655,6 @@
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
     "笔记/前端/前端工作.md",
-    "Day Planners/2023-08-04.md",
     "笔记/前端/JWT.md",
     "笔记/前端/编程语言/JS/axios.md",
     "笔记/前端/编程语言/JS/网络请求.md",
