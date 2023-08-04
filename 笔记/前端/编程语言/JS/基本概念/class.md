@@ -7,11 +7,13 @@
 ## 本质
 typeof 返回function
 ## 可见性
-private - 该属性/方法不能被其他类、子类访问
-public + 任何类访问
-protected # 同类或子类访问
-package/default ~ 可被处于同一个package中的类使用
-多数情况，属性是private或protected，方法是public
+1. public + 任何类访问
+2. protected # 同类或子类访问
+3. private - 该属性/方法不能被其他类、子类访问
+4. package/default ~ 可被处于同一个 package 中的类使用
+5. 多数情况，
+	1. 属性是 private 或 protected
+	2. 方法是public
 ## 分类
 [[mixin]] 
 ## 类之间的关系
@@ -52,6 +54,7 @@ UML：只有n个子类：n，有一个以上子类：1..* ，0-1个：0..1 ，�
 ### 把类当成特殊函数
 ## 实例、原型和类成员
 ## 继承
+[[JS继承]] 
 # 相关
 [[面向对象编程]]
 ![面向对象](面向对象.svg) 

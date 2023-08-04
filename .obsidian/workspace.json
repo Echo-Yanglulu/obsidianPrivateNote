@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/性能优化.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md"
                   }
                 }
               }
@@ -859,13 +859,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "git",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/工程化/git.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":39,\"ch\":12},\"to\":{\"line\":39,\"ch\":12}},\"scroll\":25.7311}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/工程化/git.md",
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1231,7 +1237,7 @@
                 }
               }
             ],
-            "currentTab": 15
+            "currentTab": 11
           },
           {
             "id": "86193a5d16fa87de",
@@ -1258,7 +1264,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1286,7 +1292,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/性能优化.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1584,13 +1590,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a6add08c79dace65",
+  "active": "c3093f5330fa36b5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/assets/Pasted image 20230714161927.png",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Object.md",
+    "笔记/前端/编程语言/JS/基本概念/JS创建对象.md",
+    "笔记/前端/编程语言/JS/基本概念/class.md",
+    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
+    "笔记/前端/工程化/git.md",
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/性能优化.md",
+    "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
@@ -1611,12 +1624,6 @@
     "笔记/前端/编程语言/JS/HTTP缓存.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/编程语言/JS/CSRF.md",
-    "笔记/前端/cookie.md",
-    "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/工程化/npm.md",
-    "笔记/前端/SharedWorker.md",
     "笔记/前端/assets/Pasted image 20230803174857.png",
     "笔记/前端/assets/Pasted image 20230803163537.png",
     "笔记/前端/assets/Pasted image 20230803154221.png",

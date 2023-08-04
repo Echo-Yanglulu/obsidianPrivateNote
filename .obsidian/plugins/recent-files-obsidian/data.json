@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
+      "basename": "Object",
+      "path": "笔记/前端/编程语言/JS/基本概念/Object.md"
+    },
+    {
+      "basename": "JS创建对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/JS创建对象.md"
+    },
+    {
+      "basename": "class",
+      "path": "笔记/前端/编程语言/JS/基本概念/class.md"
+    },
+    {
+      "basename": "git",
+      "path": "笔记/前端/工程化/git.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
       "basename": "性能优化",
       "path": "笔记/前端/性能优化.md"
     },
@@ -73,10 +97,6 @@
       "path": "笔记/前端/库、框架/UI库/react组件.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
       "basename": "组件",
       "path": "笔记/前端/库、框架/UI库/组件.md"
     },
@@ -103,10 +123,6 @@
     {
       "basename": "ignore",
       "path": "笔记/前端/工程化/规范/ignore.md"
-    },
-    {
-      "basename": "git",
-      "path": "笔记/前端/工程化/git.md"
     },
     {
       "basename": "2023-08-03",
@@ -183,22 +199,6 @@
     {
       "basename": "胸部",
       "path": "笔记/行为/健身/部位/胸部.md"
-    },
-    {
-      "basename": "requestAnimationFrame",
-      "path": "笔记/前端/requestAnimationFrame.md"
-    },
-    {
-      "basename": "vue",
-      "path": "笔记/前端/库、框架/UI库/vue.md"
-    },
-    {
-      "basename": "class组件",
-      "path": "笔记/前端/库、框架/UI库/class组件.md"
-    },
-    {
-      "basename": "异步JS",
-      "path": "笔记/前端/编程语言/JS/异步JS.md"
     }
   ],
   "omittedPaths": [
