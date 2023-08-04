@@ -11,8 +11,15 @@
 		1. 双标签：html不支持单标签脚本<script />
 	2. 优点
 		1. 可缓存，多个页面可共用[^1]
-# 元素
+# 标签
 link：
+## 分类
+1. 占据空间
+	1. [[块级标签]] 
+	2. [[行内标签]] 
+2. 是否展示在页面中
+	1. 可见标签：
+	2. 不可见标签：script, link, meta, head, 
 # 事件
 [事件参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/Events?spm=a21iq3.home.0.0.54b42764PcwehE) 
 

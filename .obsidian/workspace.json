@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/HTML/HTML.md"
                   }
                 }
               }
@@ -1300,7 +1300,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/HTML/HTML.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1328,7 +1328,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/HTML/HTML.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1626,11 +1626,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "c95f4716d48ae8e7",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/HTML/块级标签.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/编程语言/HTML/行内标签.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "Day Planners/2023-08-04.md",
     "笔记/前端/编程语言/JS/基本概念/Map.md",
@@ -1654,10 +1658,6 @@
     "笔记/前端/编程语言/JS/浏览器原理.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/JWT.md",
-    "笔记/前端/编程语言/JS/axios.md",
-    "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230803174857.png",
