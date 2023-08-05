@@ -47,6 +47,11 @@
 6. 安全标志：设置之后，只在*使用 [[SSL]] 安全连接*的情况下才会把 cookie 发送到服务器
 	1. 例如，请求 `https://www.wrox.com` 会发送 cookie ，而请求 `http://www.wrox.com` 则不会
 	2. cookie 中唯一的非名/值对，只需一个 secure 就可以了
+7. SameSite：限制第三方 Cookie，从而减少安全风险
+	1. Strict：完全禁止第三方 Cookie，跨站点时，任何情况下都不会发送 Cookie。只有当前网页的 URL 与请求目标一致，才会带上 Cookie。
+		1. 过于严格，可能造成非常不好的用户体验。比如，当前网页有一个 GitHub 链接，用户点击跳转就不会带有 GitHub 的 Cookie，跳转过去总是未登陆状态
+	2. Lax：
+	3. None
 ```HTTP
 // 这些参数在 Set-Cookie 头部中使用*分号加空格*隔开
 
