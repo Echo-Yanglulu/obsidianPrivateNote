@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "TCP IP协议群",
+      "path": "笔记/前端/基础知识/计算机网络/TCP IP协议群.md"
+    },
+    {
+      "basename": "OSI协议簇",
+      "path": "笔记/前端/基础知识/计算机网络/OSI协议簇.md"
+    },
+    {
+      "basename": "应用层",
+      "path": "笔记/前端/基础知识/计算机网络/应用层.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
@@ -11,18 +27,6 @@
     {
       "basename": "CSRF",
       "path": "笔记/前端/编程语言/JS/CSRF.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "TCP IP协议群",
-      "path": "笔记/前端/基础知识/计算机网络/TCP IP协议群.md"
-    },
-    {
-      "basename": "OSI协议簇",
-      "path": "笔记/前端/基础知识/计算机网络/OSI协议簇.md"
     },
     {
       "basename": "ES Module",
@@ -195,10 +199,6 @@
     {
       "basename": "Click Jaking",
       "path": "笔记/前端/Click Jaking.md"
-    },
-    {
-      "basename": "HTTPS",
-      "path": "笔记/前端/工程化/工具/HTTPS.md"
     }
   ],
   "omittedPaths": [
