@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -613,6 +613,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
                       "title": "react",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -641,7 +647,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react原理.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -921,9 +927,9 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "2023-08-04",
+                      "title": "2023-08-05",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-04.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Day Planners/2023-08-05.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
@@ -1273,7 +1279,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 3
           },
           {
             "id": "86193a5d16fa87de",
@@ -1300,7 +1306,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1328,7 +1334,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1454,7 +1460,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1623,17 +1629,23 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new loom": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "bfe58fa182ed7d16",
+  "active": "ec3a9eda8e782ce7",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react原理.md",
+    "笔记/工具/修辞/修辞.md",
+    "笔记/工具/修辞/隐喻Metaphor.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/前端工作.md",
+    "Day Planners/2023-08-05.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/HTML/块级标签.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/HTML/行内标签.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "Day Planners/2023-08-04.md",
@@ -1652,12 +1664,7 @@
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/工程化/git.md",
-    "笔记/前端/库、框架/UI库/react.md",
-    "笔记/前端/性能优化.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
-    "笔记/前端/编程语言/JS/浏览器原理.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/思考/幻象.md",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230803174857.png",
