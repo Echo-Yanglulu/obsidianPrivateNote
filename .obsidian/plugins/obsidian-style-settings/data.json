@@ -304,7 +304,10 @@
   "floating-toc-styles@@floating-toc-color-h3@@light": "#5100D3",
   "floating-toc-styles@@floating-toc-color-h4@@light": "#00E201",
   "floating-toc-styles@@floating-toc-color-h5@@light": "#989E00",
-  "floating-toc-styles@@floating-toc-position": -17,
   "floating-toc-styles@@indicator-bar-position": 0.2,
-  "floating-toc-styles@@background-blur-depth": 19
+  "floating-toc-styles@@background-blur-depth": 19,
+  "floating-toc-styles@@floating-toc-position": 0,
+  "sanctum@@hide-vault-title": false,
+  "sanctum@@wrap-nav-titles": false,
+  "sanctum@@file-line-width": 33
 }
