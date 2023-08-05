@@ -8,9 +8,35 @@
         "type": "split",
         "children": [
           {
+            "id": "86ffae0d27173b9c",
+            "type": "tabs",
+            "dimension": 13.084112149532709,
+            "children": [
+              {
+                "id": "5b6a3864c2d565e1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "笔记/前端/前端工作.md"
+                  }
+                }
+              }
+            ]
+          },
+          {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 79.63197969543147,
+            "dimension": 73.16421895861149,
             "children": [
               {
                 "id": "63e6cb6f221a3591",
@@ -274,8 +300,14 @@
                 "id": "296ee391914fb7cd",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "网络请求",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/网络请求.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":106,\"ch\":19},\"to\":{\"line\":106,\"ch\":19}},\"scroll\":85.90241228070175}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -298,7 +330,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 20.368020304568525,
+            "dimension": 13.75166889185581,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -474,7 +506,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -508,7 +540,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 259
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -639,17 +671,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "296ee391914fb7cd",
+  "active": "5b6a3864c2d565e1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/网络请求.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/AJAX.md",
+    "笔记/前端/工程化/ES Module.md",
+    "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/工具/修辞/修辞.md",
     "笔记/工具/修辞/隐喻Metaphor.md",
-    "笔记/前端/前端工作.md",
     "Day Planners/2023-08-05.md",
     "笔记/前端/编程语言/HTML/HTML.md",
     "笔记/前端/编程语言/HTML/块级标签.md",
@@ -666,10 +702,6 @@
     "笔记/前端/编程语言/JS/基本概念/WeakSet.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "笔记/前端/编程语言/JS/基本概念/TypedArray.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/前端/编程语言/JS/基本概念/JS创建对象.md",
-    "笔记/前端/编程语言/JS/基本概念/class.md",
-    "笔记/前端/编程语言/JS/基本概念/JS继承.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
@@ -678,7 +710,6 @@
     "笔记/前端/assets/Pasted image 20230803154221.png",
     "笔记/前端/assets/Pasted image 20230803122036.png",
     "笔记/前端/assets/属性选择器.png",
-    "笔记/前端/assets/preconnect.png",
-    "笔记/前端/assets/Pasted image 20230802171513.png"
+    "笔记/前端/assets/preconnect.png"
   ]
 }

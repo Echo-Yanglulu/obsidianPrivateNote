@@ -5,6 +5,14 @@
       "path": "笔记/前端/前端工作.md"
     },
     {
+      "basename": "ES Module",
+      "path": "笔记/前端/工程化/ES Module.md"
+    },
+    {
+      "basename": "网络请求",
+      "path": "笔记/前端/编程语言/JS/网络请求.md"
+    },
+    {
       "basename": "深夜加油站遇见苏格拉底",
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "浏览器原理",
       "path": "笔记/前端/编程语言/JS/浏览器原理.md"
-    },
-    {
-      "basename": "网络请求",
-      "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
       "basename": "HTTP Method",
@@ -195,10 +199,6 @@
     {
       "basename": "OAuth 2.0",
       "path": "笔记/前端/OAuth 2.0.md"
-    },
-    {
-      "basename": "沟通",
-      "path": "笔记/沟通/沟通.md"
     }
   ],
   "omittedPaths": [
