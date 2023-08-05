@@ -312,5 +312,8 @@
   "sanctum@@file-line-width": 33,
   "anuppuccin-theme-settings@@anp-file-label-align": "0",
   "blue-topaz-theme@@toggle-left-aligned-content": false,
-  "jotter@@strong-color": "#0500D7"
+  "jotter@@strong-color": "#0500D7",
+  "jotter@@em-underline": false,
+  "jotter@@em-color": "#3EC200",
+  "jotter@@italic-underline-color": "#4CD100"
 }
