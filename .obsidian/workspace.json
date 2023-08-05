@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/基础知识/计算机网络/数据链路层.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -303,10 +303,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "OSI协议簇",
+                      "title": "TCP IP协议群",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/OSI协议簇.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":10},\"to\":{\"line\":7,\"ch\":10}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/基础知识/计算机网络/TCP IP协议群.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":7},\"to\":{\"line\":7,\"ch\":7}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -352,7 +352,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/数据链路层.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -380,7 +380,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/基础知识/计算机网络/数据链路层.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -608,7 +608,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/基础知识/计算机网络/数据链路层.md"
+                "file": "笔记/前端/前端工作.md"
               }
             }
           }
@@ -671,22 +671,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "23971055302c26bf",
+  "active": "296ee391914fb7cd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/基础知识/计算机网络/应用层.md",
-    "笔记/前端/基础知识/计算机网络/传输层.md",
+    "笔记/前端/编程语言/JS/CSRF.md",
+    "笔记/前端/编程语言/JS/媒体元素.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
-    "笔记/前端/编程语言/JS/TCP.md",
-    "笔记/前端/基础知识/计算机网络/网络层.md",
+    "笔记/前端/SQL 注入.md",
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
+    "笔记/前端/基础知识/计算机网络/传输层.md",
+    "笔记/前端/编程语言/JS/TCP.md",
+    "笔记/前端/基础知识/计算机网络/应用层.md",
+    "笔记/前端/基础知识/计算机网络/数据链路层.md",
+    "笔记/前端/基础知识/计算机网络/OSI协议簇.md",
+    "笔记/前端/基础知识/计算机网络/网络层.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/cookie.md",
     "笔记/前端/编程语言/JS/基本概念/Global.md",
-    "笔记/前端/编程语言/JS/CSRF.md",
     "笔记/前端/编程语言/JS/HTTP Method.md",
     "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/OAuth 2.0.md",
@@ -700,9 +703,6 @@
     "笔记/工具/修辞/修辞.md",
     "笔记/工具/修辞/隐喻Metaphor.md",
     "Day Planners/2023-08-05.md",
-    "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/编程语言/HTML/块级标签.md",
-    "笔记/前端/编程语言/HTML/行内标签.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
