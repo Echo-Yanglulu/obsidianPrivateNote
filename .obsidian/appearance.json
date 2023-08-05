@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 20,
+  "baseFontSize": 19,
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
@@ -10,14 +10,16 @@
     "Progress bar vault launch",
     "Animation",
     "supercharged-links-gen",
-    "Tooltip"
+    "Tooltip",
+    "Block quote inline",
+    "Gutter line numbers"
   ],
   "baseFontSizeAction": true,
   "accentColor": "#09a0f1",
   "interfaceFontFamily": "",
   "textFontFamily": "Inter",
   "nativeMenus": false,
-  "showViewHeader": false,
+  "showViewHeader": true,
   "cssTheme": "Sanctum",
   "monospaceFontFamily": ""
 }

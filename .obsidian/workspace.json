@@ -8,35 +8,9 @@
         "type": "split",
         "children": [
           {
-            "id": "670685ad67662d53",
-            "type": "tabs",
-            "dimension": 13.099535843218154,
-            "children": [
-              {
-                "id": "bd5ff300df2b3029",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "笔记/学习/学习.md"
-                  }
-                }
-              }
-            ]
-          },
-          {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 71.11913357400722,
+            "dimension": 81.56288156288156,
             "children": [
               {
                 "id": "35e75a6fb5297186",
@@ -1118,7 +1092,7 @@
           {
             "id": "86193a5d16fa87de",
             "type": "split",
-            "dimension": 15.781330582774626,
+            "dimension": 18.43711843711844,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -1407,8 +1381,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1439,8 +1412,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 394.5
   },
   "left-ribbon": {
     "hiddenItems": {
