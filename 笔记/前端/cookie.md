@@ -48,10 +48,12 @@
 	1. 例如，请求 `https://www.wrox.com` 会发送 cookie ，而请求 `http://www.wrox.com` 则不会
 	2. cookie 中唯一的非名/值对，只需一个 secure 就可以了
 7. SameSite：限制第三方 Cookie，从而减少安全风险
-	1. Strict：完全禁止第三方 Cookie，跨站点时，任何情况下都不会发送 Cookie。只有当前网页的 URL 与请求目标一致，才会带上 Cookie。
+	1. Strict：完全禁止第三方 Cookie，*跨站点时不会发送 Cookie*。只有当前网页的 URL 与请求目标一致，才会带上 Cookie。
 		1. 过于严格，可能造成非常不好的用户体验。比如，当前网页有一个 GitHub 链接，用户点击跳转就不会带有 GitHub 的 Cookie，跳转过去总是未登陆状态
-	2. Lax：
-	3. None
+	2. Lax：允许部分第三方请求携带 Cookie
+	3. None：无论是否跨站都会发送 Cookie
+8. HTTPOnly
+	1. 防止客户端脚本通过 document.cookie 等方式访问 Cookie。有助于避免 XSS 攻击
 ```HTTP
 // 这些参数在 Set-Cookie 头部中使用*分号加空格*隔开
 
@@ -68,6 +70,24 @@ Other-header: other-header-value
 // 对所有wrox.com的子域及该域中的所有页面有效（通过path=/指定）。不过，这个cookie只能在SSL连接上发送，因为设置了secure标志。
 ```
 后面四个属性只是用于表示何时应该在请求中包含 cookie，在发送 cookie 时并不会作为内容。真正发送的内容只有名值对。
+# 机制
+[谈谈 cookie & session & jwt - 掘金](https://juejin.cn/post/7236028062872600636?searchId=20230805210130A941551291CC8ECCA886) 
+1. 某个 cookie 是否发送取决于此次**请求的目标域名**。
+	1. 登录 A 网站保存 cookie 之后，如果登录的 B 网站向 A 网站发起请求，则此次请求使用的是 A 网站保存的 cookie。
+	2. 该特性会导致 [[CSRF]]。
+# 分类
+Cookie 是属于一方 Cookie、还是三方 Cookie，只取决于两个要素：
+	1. Cookie 是被哪个域名种的
+	2. Cookie 是在哪个网站上种的
+## 第一方 cookie
+
+## 第三方 cookie
+当前页面所在的域调用了外域的接口。该外域接口所设置的 cookie 即是第三方 cookie。
+
+特点
+	1. *我们的网站不可能只调用同站的域名的接口*，调用其他域名的接口再正常不过了，所以有三方 Cookie 也是很正常的，我们也通过三方 Cookie 做了很多正常的需求，比如*日志打点*、*单点登录*、*广告转化分析*等等
+	2. 广告。
+		1. 一个官方网站，调用第三方广告商的接口。第三方广告商可通过三方 cookie 记录用户行为。下次逛某个电商时，会浏览到精准推送的广告。
 # 限制
 使用**多字节字符**（如 UTF-8 Unicode 字符），每个字符最多可能占4字节
 ## 现代浏览器开始禁止第三方 cookie
