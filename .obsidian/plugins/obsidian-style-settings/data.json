@@ -285,7 +285,7 @@
   "shimmering-focus@@hide-trailing-whitespace": true,
   "things-style@@active-line": true,
   "jotter@@color-scheme": "ct-explorer",
-  "jotter@@predefined-accent-colors": "accent-wine",
+  "jotter@@predefined-accent-colors": "accent-vermilion",
   "jotter@@active-line-highlight": true,
   "jotter@@hide-note-title": false,
   "jotter@@h2-underline": true,
@@ -311,5 +311,6 @@
   "sanctum@@wrap-nav-titles": false,
   "sanctum@@file-line-width": 33,
   "anuppuccin-theme-settings@@anp-file-label-align": "0",
-  "blue-topaz-theme@@toggle-left-aligned-content": false
+  "blue-topaz-theme@@toggle-left-aligned-content": false,
+  "jotter@@strong-color": "#0500D7"
 }
