@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "CSRF",
+      "path": "笔记/前端/编程语言/JS/CSRF.md"
+    },
+    {
+      "basename": "cookie",
+      "path": "笔记/前端/cookie.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
@@ -113,10 +121,6 @@
       "path": "笔记/前端/编程语言/JS/TCP.md"
     },
     {
-      "basename": "CSRF",
-      "path": "笔记/前端/编程语言/JS/CSRF.md"
-    },
-    {
       "basename": "二进制数据",
       "path": "笔记/前端/编程语言/JS/基本概念/二进制数据.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "HTTPS",
       "path": "笔记/前端/工程化/工具/HTTPS.md"
-    },
-    {
-      "basename": "OAuth 2.0",
-      "path": "笔记/前端/OAuth 2.0.md"
     }
   ],
   "omittedPaths": [
