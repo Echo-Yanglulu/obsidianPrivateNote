@@ -28,6 +28,7 @@
 			3. 最新版 Opera 限制每个域不超过180个 cookie；
 			4. Safari 和 Chrome 对每个域的 cookie 数没有硬性限制
 # 组成
+[广告是如何跟踪我们的？所有关于 cookie - 掘金](https://juejin.cn/post/7052507369690890270?searchId=20230805210130A941551291CC8ECCA886) 
 1. 名称：唯一标识 cookie 的名称。
 	1. 不区分大小写。实践中最好将 cookie 名当成区分大小写来对待，因为一些服务器软件可能这样对待它们
 	2. 必须经过[[Global#URL 编码|URL编码]]
@@ -40,20 +41,25 @@
 	3. 如果不明确设置，则默认为*设置 cookie 的域*。自动绑定到执行语句的当前域
 4. 路径：需要发送 cookie 的路径。请求 URL 中包含这个路径才会把 cookie 发送到服务器
 	1. 例如，可以指定 cookie 只能由`http://www.wrox.com/books/`访问 ，因此访问`http://www.wrox.com/`下的页面就不会发送cookie ，即使请求的是同一个域。
-5. 过期时间：删除 cookie 的时间戳（即什么时间之后就不发送到服务器了）
+5. Max-Age：删除 cookie 的时间戳（即什么时间之后就不发送到服务器了）
 	1. 默认情况下，*浏览器会话结束*后会删除所有 cookie。【浏览器关闭】
 	2. 不过，也可以设置删除 cookie 的时间。这个值是 GMT 格式（Wdy, DD-Mon-YYYY HH:MM:SS GMT），用于指定删除 cookie 的具体时间。这样即使关闭浏览器 cookie 也会保留在用户机器上。
 	3. 把过期时间设置为过去的时间会立即删除 cookie。
-6. 安全标志：设置之后，只在*使用 [[SSL]] 安全连接*的情况下才会把 cookie 发送到服务器
+6. secure：设置之后，只在*使用 [[SSL]] 安全连接*的情况下才会把 cookie 发送到服务器
 	1. 例如，请求 `https://www.wrox.com` 会发送 cookie ，而请求 `http://www.wrox.com` 则不会
 	2. cookie 中唯一的非名/值对，只需一个 secure 就可以了
 7. SameSite：跨域时决定浏览器是否自动携带 cookie。
 	1. Strict：完全禁止第三方 Cookie，*跨站点时不会发送 Cookie*。只有当前网页的 URL 与请求目标一致，才会带上 Cookie。
 		1. 过于严格，可能造成非常不好的用户体验。比如，当前网页有一个 GitHub 链接，用户点击跳转就不会带有 GitHub 的 Cookie，跳转过去总是未登陆状态
-	2. Lax：允许部分第三方请求携带 Cookie
+	2. Lax：允许部分第三方请求携带 Cookie【默认】
 	3. None：无论是否跨站都会发送 Cookie
+	4. 跨站则比较宽松，只要*二级域名*相同就是同站（二级域名指 .com 这种顶级域名的下一级，如 test.com）
 8. HTTPOnly
 	1. 防止客户端脚本访问 Cookie（通过 document.cookie 等方式）。有助于避免 XSS 攻击
+9. SameParty。
+	1. Chrome 新推出了一个 First-Party Sets 策略，它可以允许<u>由同一实体拥有的不同关域名都被视为第一方</u>。之前都是以站点做区分，现在可以以一个 party 做区分。SameParty 就是为了配合该策略。（目前只有 Chrome 有该属性）
+10. Priority
+	1. 优先级，chrome 的提案（firefox 不支持），定义了三种优先级，Low/Medium/High，当 cookie 大小超出浏览器限制时，低优先级的 cookie 会被优先清除。（目前只有 Chrome 有该属性）
 ```HTTP
 // 这些参数在 Set-Cookie 头部中使用*分号加空格*隔开
 
