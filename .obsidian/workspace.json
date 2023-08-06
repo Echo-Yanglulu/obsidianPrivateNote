@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -105,6 +105,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":31},\"to\":{\"line\":64,\"ch\":31}},\"scroll\":47.733333333333334}"
+                    },
+                    {
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -127,7 +133,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -162,7 +168,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -190,7 +196,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -427,7 +433,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/行为/健身/部位/背部.md"
+                "file": "笔记/行为/健身/健身.md"
               }
             }
           }
@@ -495,6 +501,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/背部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/assets/心形腰带.png",
