@@ -105,6 +105,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "手臂",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":4},\"to\":{\"line\":16,\"ch\":4}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":7},\"to\":{\"line\":19,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
                       "title": "背部",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -501,8 +513,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/背部.md",
+    "笔记/行为/健身/手臂.md",
     "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/背部.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/assets/心形腰带.png",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -528,7 +541,6 @@
     "笔记/前端/AJAX.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
-    "笔记/学习/学习.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
