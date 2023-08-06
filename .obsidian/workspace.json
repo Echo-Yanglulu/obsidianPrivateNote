@@ -39,64 +39,6 @@
             "dimension": 73.16421895861147,
             "children": [
               {
-                "id": "ec3a9eda8e782ce7",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "react原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "react",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":167,\"ch\":4},\"to\":{\"line\":167,\"ch\":4}},\"scroll\":147.90873015873015}"
-                    },
-                    {
-                      "title": "库、框架",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/库、框架.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "String",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/String.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}}}"
-                    },
-                    {
-                      "title": "RegExp",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/RegExp.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":15},\"to\":{\"line\":12,\"ch\":15}},\"scroll\":6.530612244897959}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "eb828b16fe44a451",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -118,34 +60,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/工程化/npm.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a6add08c79dace65",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "浏览器原理",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/浏览器原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":82,\"ch\":11},\"to\":{\"line\":82,\"ch\":11}},\"scroll\":51.8922}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/性能优化.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -181,7 +95,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "86193a5d16fa87de",
@@ -519,12 +433,12 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new loom": false,
       "homepage:Open homepage": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "296ee391914fb7cd",
