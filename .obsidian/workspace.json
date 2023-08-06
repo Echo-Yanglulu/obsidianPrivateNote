@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -93,9 +93,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "9144b10134cd8d33",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":7},\"to\":{\"line\":16,\"ch\":7}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "86193a5d16fa87de",
@@ -122,7 +150,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -150,7 +178,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -276,7 +304,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -378,7 +406,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                "file": "笔记/行为/健身/部位/腿部.md"
               }
             }
           }
@@ -441,11 +469,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "296ee391914fb7cd",
+  "active": "9144b10134cd8d33",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/JS/HTTP Header.md",
@@ -468,11 +498,9 @@
     "笔记/前端/AJAX.md",
     "笔记/前端/工程化/ES Module.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/前端/库、框架/UI库/react原理.md",
     "笔记/工具/修辞/修辞.md",
-    "笔记/工具/修辞/隐喻Metaphor.md",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
     "笔记/前端/assets/握手.png",
