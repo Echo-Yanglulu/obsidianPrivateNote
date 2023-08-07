@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
                   }
                 }
               }
@@ -143,9 +143,49 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "2fefc13b54857c06",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "Global",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.4948453608247423}"
+                    },
+                    {
+                      "title": "单例内置对象",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "86193a5d16fa87de",
@@ -172,7 +212,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -200,7 +240,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/Math.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -437,7 +477,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/行为/健身/健身.md"
+                "file": "笔记/前端/编程语言/JS/基本概念/Math.md"
               }
             }
           }
@@ -500,14 +540,16 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "2fefc13b54857c06",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
+    "笔记/前端/编程语言/JS/基本概念/Global.md",
+    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腹部.md",
     "笔记/工具/通用概念/智慧.md",
-    "笔记/行为/健身/健身.md",
     "笔记/诗词/诗歌.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/诗词",
@@ -530,9 +572,7 @@
     "笔记/前端/基础知识/计算机网络/网络层.md",
     "笔记/前端/基础知识/计算机网络/计算机网络.md",
     "笔记/前端/cookie.md",
-    "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/前端/编程语言/JS/HTTP Method.md",
-    "笔记/前端/工程化/RESTful API.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",

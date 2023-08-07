@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Math",
+      "path": "笔记/前端/编程语言/JS/基本概念/Math.md"
+    },
+    {
+      "basename": "单例内置对象",
+      "path": "笔记/前端/编程语言/JS/基本概念/单例内置对象.md"
+    },
+    {
+      "basename": "Global",
+      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
+    },
+    {
       "basename": "健身",
       "path": "笔记/行为/健身/健身.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "SharedWorker",
       "path": "笔记/前端/SharedWorker.md"
-    },
-    {
-      "basename": "WebWorker",
-      "path": "笔记/前端/WebWorker.md"
-    },
-    {
-      "basename": "react组件",
-      "path": "笔记/前端/库、框架/UI库/react组件.md"
-    },
-    {
-      "basename": "组件",
-      "path": "笔记/前端/库、框架/UI库/组件.md"
     }
   ],
   "omittedPaths": [
