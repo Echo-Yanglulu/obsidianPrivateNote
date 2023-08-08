@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/智慧.md"
+                    "file": "笔记/西方文明简史/问题.md"
                   }
                 }
               }
@@ -261,9 +261,43 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d6ede5ad3e738250",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":10},\"to\":{\"line\":29,\"ch\":10}},\"scroll\":0.5483870967741935}"
+                    },
+                    {
+                      "title": "思考",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":11},\"to\":{\"line\":40,\"ch\":11}},\"scroll\":12.224431818181818}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/思考/思考.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 8
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -289,7 +323,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/智慧.md",
+                        "file": "笔记/西方文明简史/问题.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -316,7 +350,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/智慧.md",
+                        "file": "笔记/西方文明简史/问题.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -442,7 +476,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -553,7 +587,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/智慧.md"
+                "file": "笔记/西方文明简史/问题.md"
               }
             }
           }
@@ -616,11 +650,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b7822257754ee96f",
+  "active": "717e68e2c9e4f297",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/洋葱思考法.md",
+    "笔记/工具/思考/问题思维.md",
+    "笔记/西方文明简史/拆解问题的技术.md",
+    "笔记/西方文明简史/问题.md",
+    "笔记/工具/通用概念/问题解决.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/通用概念/系统.md",
+    "笔记/工具/通用概念/系统之美.md",
+    "笔记/工具/思考/思考的维度.md",
+    "笔记/工具/通用概念/智慧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/基础知识/计算机网络/URI.md",
@@ -636,19 +681,8 @@
     "笔记/前端/编程语言/JS/基本概念/Global.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腹部.md",
-    "笔记/工具/通用概念/智慧.md",
-    "笔记/诗词/诗歌.md",
     "笔记/诗词",
-    "笔记/行为/健身/手臂.md",
-    "笔记/行为/健身/部位/背部.md",
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/assets/心形腰带.png",
-    "笔记/前端/编程语言/JS/网络请求.md",
-    "笔记/前端/编程语言/JS/HTTP Header.md",
-    "笔记/前端/编程语言/JS/CSRF.md",
-    "笔记/前端/编程语言/JS/媒体元素.md",
-    "笔记/前端/SQL 注入.md",
-    "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
