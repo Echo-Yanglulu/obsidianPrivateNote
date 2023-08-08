@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/class组件.md"
+                    "file": "笔记/前端/前端工作.md"
                   }
                 }
               }
@@ -228,7 +228,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/前端/基础知识/计算机网络/URI.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "backlinks": false,
                     "source": false
                   }
@@ -263,7 +263,7 @@
                 }
               }
             ],
-            "currentTab": 7
+            "currentTab": 5
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -289,7 +289,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/前端工作.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -316,7 +316,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/class组件.md",
+                        "file": "笔记/前端/前端工作.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -553,7 +553,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/库、框架/UI库/class组件.md"
+                "file": "笔记/前端/前端工作.md"
               }
             }
           }
@@ -616,17 +616,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e8687fcde3da6523",
+  "active": "bae76a5d1b2d07f3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/库、框架/UI库/react组件.md",
+    "笔记/前端/库、框架/UI库/函数组件.md",
+    "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/前端/react组件设计.md",
     "笔记/前端/编程语言/JS/this.md",
-    "笔记/前端/库、框架/UI库/函数组件.md",
     "笔记/前端/前端工作.md",
-    "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
@@ -648,7 +649,6 @@
     "笔记/前端/编程语言/JS/媒体元素.md",
     "笔记/前端/SQL 注入.md",
     "笔记/前端/基础知识/计算机网络/TCP IP协议群.md",
-    "笔记/前端/基础知识/计算机网络/传输层.md",
     "笔记/前端/assets/Pasted image 20230715122821.png",
     "笔记/前端/assets/Pasted image 20230714161927.png",
     "笔记/前端/assets/挥手.png",
