@@ -1,5 +1,7 @@
 # 概述
 定义：返回需要渲染在页面中的 react 元素。
+# 设计
+[[react组件设计]] 
 # 创建
 ## [[class组件]] 
 ## [[函数组件]] 
@@ -8,17 +10,17 @@
 *使用相关*的原理，如 v-dom, jsx, setState
 ## 组件批处理
 # 属性
-透传 props： `<div {...props}></div>` 
+透传： `<div {...props}></div>` 
 # 样式
 由于react中[[JSX]]的写法，给组件添加样式的方法有很多
 	1. 行内
 	2. 声明式：把行内样式写成变量，通过style添加
 	3. [[CSS模块化]]  
 # 返回
-1. react元素
-2. portals：渲染子节点到不同 DOM 子树中
-3. 数组或fragments：多个元素
-4. String 或 Number：在 DOM 中被渲染为文本节点
+1. 文本节点：[[String]] 或 [[Number]] 
+2. react 元素
+3. portals：渲染子节点到不同 DOM 子树中
+4. 多个元素：[[Array]]或 fragments
 5. Boolean 或 null：不渲染。
 # 通用概念
 1. 更新时会导致组件更新
