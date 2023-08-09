@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/提问.md"
+                    "file": "笔记/行为/阅读.md"
                   }
                 }
               }
@@ -373,7 +373,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/行为/阅读.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -400,7 +400,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/提问.md",
+                        "file": "笔记/行为/阅读.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -637,7 +637,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/提问.md"
+                "file": "笔记/行为/阅读.md"
               }
             }
           }
@@ -700,11 +700,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "763e3bb96ebb6f72",
+  "active": "5b6a3864c2d565e1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/提问.md",
     "笔记/行为/阅读.md",
     "笔记/学习/概念/拓展.md",
     "笔记/学习/学习.md",
@@ -731,7 +732,6 @@
     "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/库、框架/UI库/函数组件.md",
-    "笔记/前端/库、框架/UI库/class组件.md",
     "笔记/诗词",
     "笔记/前端/assets/心形腰带.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
