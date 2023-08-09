@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/智慧.md"
+                    "file": "笔记/行为/阅读.md"
                   }
                 }
               }
@@ -295,9 +295,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d05bd82c3032bbab",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/行为/阅读.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 9
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -323,7 +345,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/智慧.md",
+                        "file": "笔记/行为/阅读.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -350,7 +372,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/智慧.md",
+                        "file": "笔记/行为/阅读.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -587,7 +609,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/通用概念/智慧.md"
+                "file": "笔记/行为/阅读.md"
               }
             }
           }
@@ -650,14 +672,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b7822257754ee96f",
+  "active": "d05bd82c3032bbab",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/信仰.md",
-    "笔记/工具/通用概念/智慧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/工具/通用概念/信仰.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/思考/洋葱思考法.md",
     "笔记/前端/assets/Pasted image 20230809000751.png",
