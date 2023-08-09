@@ -5,6 +5,14 @@
       "path": "笔记/行为/阅读.md"
     },
     {
+      "basename": "学习",
+      "path": "笔记/学习/学习.md"
+    },
+    {
+      "basename": "理解",
+      "path": "笔记/学习/概念/理解.md"
+    },
+    {
       "basename": "深夜加油站遇见苏格拉底",
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
@@ -133,10 +141,6 @@
       "path": "笔记/前端/编程语言/JS/网络请求.md"
     },
     {
-      "basename": "学习",
-      "path": "笔记/学习/学习.md"
-    },
-    {
       "basename": "react原理",
       "path": "笔记/前端/库、框架/UI库/react原理.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "react",
       "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
-      "basename": "性能优化",
-      "path": "笔记/前端/性能优化.md"
     }
   ],
   "omittedPaths": [
