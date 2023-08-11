@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react.md"
                   }
                 }
               }
@@ -279,6 +279,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react组件",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{}"
+                    },
+                    {
                       "title": "函数组件",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -289,8 +295,8 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react组件.md",
-                    "mode": "preview",
+                    "file": "笔记/前端/库、框架/UI库/react.md",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
@@ -331,7 +337,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 8
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -357,7 +363,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -384,7 +390,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -612,7 +618,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/前端工作.md"
+                "file": "笔记/前端/库、框架/UI库/react.md"
               }
             }
           }
@@ -675,13 +681,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "bae76a5d1b2d07f3",
+  "active": "77e1fd3f9230a975",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/DOM.md",
+    "笔记/前端/assets/Pasted image 20230811151830.png",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/前端/库、框架/UI库/纯函数.md",
+    "笔记/前端/编程语言/JS/函数式编程.md",
+    "笔记/前端/库、框架/UI库/副作用.md",
+    "笔记/前端/工程化/MVC.md",
+    "笔记/前端/库、框架/UI库/react组件.md",
     "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/JS/DOM.md",
     "笔记/前端/编程语言/JS/HTMLCollection.md",
     "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -700,13 +713,6 @@
     "笔记/工具/思考/洋葱思考法.md",
     "笔记/前端/assets/Pasted image 20230809000751.png",
     "笔记/工具/思考/计划.md",
-    "笔记/工具/通用概念/本质.md",
-    "笔记/西方文明简史/问题.md",
-    "笔记/工具/通用概念/问题解决.md",
-    "笔记/工具/思考/问题思维.md",
-    "笔记/西方文明简史/拆解问题的技术.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/通用概念/系统.md",
     "笔记/诗词",
     "笔记/前端/assets/心形腰带.png",
     "笔记/前端/assets/Pasted image 20230715122821.png",
@@ -715,7 +721,6 @@
     "笔记/前端/assets/握手.png",
     "笔记/前端/assets/Pasted image 20230803174857.png",
     "笔记/前端/assets/Pasted image 20230803163537.png",
-    "笔记/前端/assets/Pasted image 20230803154221.png",
-    "笔记/前端/assets/Pasted image 20230803122036.png"
+    "笔记/前端/assets/Pasted image 20230803154221.png"
   ]
 }
