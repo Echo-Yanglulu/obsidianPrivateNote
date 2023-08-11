@@ -151,12 +151,12 @@ Document类型提供的两个方法，获取某个或某组元素的引用
 	1. 不匹配则返回null
 	2. 多个则返回第一个
 2. getElementsByTagName()
-	1. 返回包含零个或多个元素的NodeList
+	1. 返回包含零个或多个元素的`NodeList`
 	2. HTML文档中，取得页面中所有的\<img>元素并返回包含它们的 [[HTMLCollection]] 对象
 	3. 取得文档中的所有元素：getElementsByTagName()传入'\*'
 	4. HTML页面，实际上是不区分大小写。XML页面（如XHTML）中使用，区分大小写
 3. getElementsByName()
-	1. 返回具有给定name属性的所有元素
+	1. 返回具有给定*name属性*的所有元素
 	2. 最常用于单选按钮。因为同一字段的单选按钮必须具有相同的name属性才能确保把正确的值发送给服务器
 		1. 多个type=radio，name属性必须相同。
 ### 元素集合
@@ -579,20 +579,24 @@ offsetWidth：3个
 window.scrollTo(x, y)：文档左上角滚动到某个点
 当前元素在<u>页面</u>上的偏移量
 ## 元素节点
-### 操作
+### 操作【获取，创建，插入，替换，删除】
 1. 获取
 	1. id
 	2. name：伪数组，name 属性
-	3. tagName：伪数组，标签名2. className：伪数组，class 属性性
-	4. querySelector()
-	5. querySelectorAll(标签名)
-	6. matches()
-2. 新增
+	3. tagName：伪数组，标签名
+	4. className：伪数组，class 属性性
+	5. querySelector()
+	6. querySelectorAll(标签名)
+	7. matches()
+2. 创建
 	1. createElement
 	2. createDocumentFragment
-3. 插入：appendChild
-4. 删除：removeChild
-5. 移动：先获取，再插入【插入的是已有节点时，执行的操作不是复制，而是移动】
+3. 插入：
+	1. appendChild
+	2. insertBefore
+4. 替换：replaceChild
+5. 删除：removeChild
+6. 移动：先获取，再插入【插入的是已有节点时，执行的操作不是复制，而是移动】
 ### 关系
 1. 父元素：parentNode
 2. 子元素列表：childNodes
