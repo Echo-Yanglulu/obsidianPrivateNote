@@ -5,6 +5,14 @@
       "path": "笔记/前端/库、框架/UI库/react.md"
     },
     {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "window",
+      "path": "笔记/前端/编程语言/JS/window.md"
+    },
+    {
       "basename": "react组件",
       "path": "笔记/前端/库、框架/UI库/react组件.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "智慧",
       "path": "笔记/工具/通用概念/智慧.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
     },
     {
       "basename": "洋葱思考法",
@@ -195,10 +199,6 @@
     {
       "basename": "Array",
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
-      "basename": "JS创建对象",
-      "path": "笔记/前端/编程语言/JS/基本概念/JS创建对象.md"
     }
   ],
   "omittedPaths": [
