@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -363,7 +363,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -390,7 +390,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -501,6 +501,15 @@
           {
             "id": "79b834c5033b626b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -618,7 +627,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/行为/健身/部位/胸部.md"
+                "file": "笔记/行为/健身/健身.md"
               }
             }
           }
@@ -681,14 +690,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "27f09b88b4356029",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/热身.md",
     "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/声明式编程.md",
     "笔记/前端/库、框架/UI库/命令式编程.md",
@@ -713,7 +723,6 @@
     "笔记/学习/学习.md",
     "笔记/行为/阅读.md",
     "笔记/工具/通用概念/提问.md",
-    "笔记/学习/概念/拓展.md",
     "笔记/前端/assets/Pasted image 20230809000751.png",
     "笔记/诗词",
     "笔记/前端/assets/心形腰带.png",
