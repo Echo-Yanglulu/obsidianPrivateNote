@@ -522,7 +522,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -617,27 +617,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "94eada5ba7e8185c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "01b984a51df1d6b1",
@@ -668,8 +650,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5,
-    "collapsed": true
+    "width": 394.5
   },
   "left-ribbon": {
     "hiddenItems": {
