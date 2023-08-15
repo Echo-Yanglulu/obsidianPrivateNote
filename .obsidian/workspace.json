@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md"
+                    "file": "笔记/行为/健身/部位/腹部.md"
                   }
                 }
               }
@@ -143,6 +143,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":76.42909760589319}"
+                    },
+                    {
                       "title": "腹部",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -159,7 +165,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/腹部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -325,7 +331,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -351,7 +357,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/行为/健身/部位/腹部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -378,7 +384,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/记忆.md",
+                        "file": "笔记/行为/健身/部位/腹部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -615,7 +621,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/工具/思考/记忆/记忆.md"
+                "file": "笔记/行为/健身/部位/腹部.md"
               }
             }
           }
@@ -678,17 +684,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/想象力.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/诗词/诗歌.md",
-    "笔记/行为/健身/健身.md",
     "笔记/前端/前端工作.md",
     "笔记/工具/通用概念/智慧.md",
     "笔记/工具/思考/记忆/观察力.md",
