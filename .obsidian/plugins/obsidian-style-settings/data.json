@@ -319,5 +319,10 @@
   "red-graphite@@red-graphite-base-color@@light": "#B08800",
   "red-graphite@@red-graphite-accent-color@@light": "#4EA000",
   "minimal-style@@ax1@@light": "#FAA300",
-  "minimal-style@@checkbox-shape": "checkbox-square"
+  "minimal-style@@checkbox-shape": "checkbox-square",
+  "focus-mode@@fade-out-inactive-lines": true,
+  "focus-mode@@zen-mode": false,
+  "focus-mode@@inactive-opacity": 0.3,
+  "focus-mode@@inactive-hover-opacity": 1,
+  "focus-mode@@focuse-transition-duration": 0.5
 }
