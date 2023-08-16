@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -121,6 +121,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":87},\"to\":{\"line\":16,\"ch\":87}},\"scroll\":0}"
+                    },
+                    {
                       "title": "记忆",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -167,7 +173,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -399,7 +405,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -426,7 +432,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -713,8 +719,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/学习.md",
+    "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/通用概念/创造力.md",
     "笔记/工具/思考/记忆/注意力.md",
