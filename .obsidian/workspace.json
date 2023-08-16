@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/通用概念/创造力.md"
                   }
                 }
               }
@@ -119,6 +119,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":13},\"to\":{\"line\":96,\"ch\":13}},\"scroll\":75.83333333333333}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":234,\"ch\":11},\"to\":{\"line\":234,\"ch\":11}},\"scroll\":218.37878787878788}"
                     },
                     {
                       "title": "记忆",
@@ -375,7 +387,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/创造力.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -402,7 +414,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/创造力.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -684,24 +696,29 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "802911fddf8ec26b",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/思考/记忆/注意力.md",
+    "笔记/工具/通用概念/创造力.md",
+    "笔记/学习/学习.md",
+    "笔记/工具/通用概念/创造.md",
+    "笔记/工具/思考/记忆/联系.md",
+    "笔记/工具/通用概念/DOCTORS模型.md",
+    "笔记/工具/思考/思维概念/联想.md",
+    "笔记/工具/思考/记忆/图像.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/思考/记忆/观察力.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/诗词/诗歌.md",
     "笔记/工具/通用概念/智慧.md",
-    "笔记/学习/学习.md",
     "笔记/工具/通用概念/评估.md",
-    "笔记/工具/思考/思维概念/联想.md",
     "笔记/行为/健身/部位/腹部.md",
     "笔记/行为/健身/健身.md",
     "笔记/工具/思考/记忆/想象力.md",
-    "笔记/工具/思考/记忆/注意力.md",
     "笔记/前端/前端工作.md",
-    "笔记/工具/思考/记忆/观察力.md",
     "笔记/工具/思考/排中律.md",
     "笔记/工具/哲学/逻辑学/基本原理.md",
     "笔记/工具/思考/矛盾律.md",
@@ -712,11 +729,6 @@
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/学习/概念/拓展.md",
-    "笔记/工具/思考/记忆/联系.md",
-    "笔记/工具/通用概念/策略.md",
-    "笔记/工具/思考/效率.md",
-    "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/工具/通用概念/学习.md",
     "笔记/前端/assets/Pasted image 20230811161809.png",
     "笔记/前端/assets/Pasted image 20230811151830.png",
     "笔记/前端/assets/Pasted image 20230809000751.png",
