@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/联系.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -114,17 +114,17 @@
                 "id": "ac038c08bf5333e5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":0.030927835051546393}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":11},\"to\":{\"line\":237,\"ch\":11}},\"scroll\":221.36363636363637}"
                     },
                     {
                       "title": "记忆",
@@ -161,7 +161,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -393,7 +393,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/联系.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -420,7 +420,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/联系.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -702,17 +702,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "71939659434891fc",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/学习/学习.md",
+    "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/创造力.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/工具/通用概念/创造.md",
-    "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/通用概念/DOCTORS模型.md",
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/图像.md",
