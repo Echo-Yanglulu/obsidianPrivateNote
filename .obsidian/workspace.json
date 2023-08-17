@@ -388,8 +388,26 @@
                 "id": "372f1e8f780229ca",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 3,
                   "stack": [
+                    {
+                      "title": "前端",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/前端\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "笔记",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "obsidianPrivateNote",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"obsidianPrivateNote//\"}}",
+                      "eState": "{}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -489,7 +507,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
-        "dimension": 69.60352422907489,
+        "dimension": 62.70190895741556,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -584,14 +602,22 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "f7dc0f7703e41780",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "cd149acb9d388145",
         "type": "tabs",
-        "dimension": 30.396475770925107,
+        "dimension": 37.29809104258444,
         "children": [
           {
             "id": "69a2e6fc80af00cf",
@@ -620,7 +646,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259
+    "width": 290.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -747,8 +773,15 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "custom-icons.zip",
+    "笔记/前端/前端.md",
+    "笔记/笔记.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/编程语言/JS/基本概念/Note Name.md",
+    "笔记/前端/编程语言/JS/基本概念/context.mdb",
+    "Context/spacesLastSync.log",
+    "Context",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
     "笔记/学习/学习.md",
     "笔记/工具/通用概念/世界观.md",
     "笔记/工具/哲学/哲学.md",
@@ -769,10 +802,6 @@
     "笔记/工具/通用概念/创造.md",
     "笔记/工具/通用概念/DOCTORS模型.md",
     "笔记/工具/思考/思维概念/联想.md",
-    "笔记/工具/思考/记忆/图像.md",
-    "笔记/工具/思考/记忆/观察力.md",
-    "笔记/诗词/诗歌.md",
-    "笔记/工具/通用概念/评估.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",

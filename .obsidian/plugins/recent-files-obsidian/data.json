@@ -5,6 +5,18 @@
       "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
+      "basename": "前端",
+      "path": "笔记/前端/前端.md"
+    },
+    {
+      "basename": "笔记",
+      "path": "笔记/笔记.md"
+    },
+    {
+      "basename": "Note Name",
+      "path": "笔记/前端/编程语言/JS/基本概念/Note Name.md"
+    },
+    {
       "basename": "学习",
       "path": "笔记/学习/学习.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "OSI协议簇",
       "path": "笔记/前端/基础知识/计算机网络/OSI协议簇.md"
-    },
-    {
-      "basename": "网络层",
-      "path": "笔记/前端/基础知识/计算机网络/网络层.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "笔记/前端/基础知识/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "cookie",
-      "path": "笔记/前端/cookie.md"
     }
   ],
   "omittedPaths": [
