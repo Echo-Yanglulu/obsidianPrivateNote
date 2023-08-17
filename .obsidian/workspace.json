@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -114,17 +114,17 @@
                 "id": "ac038c08bf5333e5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "事物",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/事物.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":16},\"to\":{\"line\":17,\"ch\":16}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":184,\"ch\":21},\"to\":{\"line\":184,\"ch\":21}},\"scroll\":159.22727272727272}"
                     },
                     {
                       "title": "学习",
@@ -179,7 +179,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -384,7 +384,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -410,7 +411,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -437,7 +438,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -719,13 +720,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/概念/感官.md",
     "笔记/工具/思考/记忆/记忆.md",
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/学习/概念/感官.md",
     "笔记/工具/思考/基本概念/感觉.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/基本概念/思维的连续性.md",
@@ -740,9 +743,7 @@
     "笔记/工具/思考/思维概念/联想.md",
     "笔记/工具/思考/记忆/图像.md",
     "笔记/工具/思考/记忆/观察力.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/诗词/诗歌.md",
-    "笔记/工具/通用概念/智慧.md",
     "笔记/工具/通用概念/评估.md",
     "笔记/行为/健身/部位/腹部.md",
     "笔记/行为/健身/健身.md",
