@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -431,7 +431,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -457,7 +457,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -484,7 +484,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -774,13 +774,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/腹部.md",
+    "笔记/学习/认知效率.md",
     "笔记/学习/学习.md",
+    "笔记/学习/技术效率.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腹部.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "custom-icons.zip",
@@ -806,9 +809,6 @@
     "笔记/工具/通用概念/事物.md",
     "笔记/工具/通用概念/创造力.md",
     "笔记/工具/心理学/情绪/情绪.md",
-    "笔记/工具/思考/记忆/注意力.md",
-    "笔记/工具/通用概念/创造.md",
-    "笔记/工具/通用概念/DOCTORS模型.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
