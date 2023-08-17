@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/工具/思考/记忆/记忆.md"
                   }
                 }
               }
@@ -121,6 +121,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":10},\"to\":{\"line\":144,\"ch\":10}},\"scroll\":120.45}"
+                    },
+                    {
                       "title": "记忆",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -179,7 +185,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/记忆.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -431,7 +437,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -457,7 +463,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -484,7 +490,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/工具/思考/记忆/记忆.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -783,12 +789,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bae76a5d1b2d07f3",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/学习/学习.md",
+    "笔记/前端/前端工作.md",
     "笔记/工具/修辞/隐喻.md",
     "笔记/学习/技术效率.md",
     "笔记/学习/概念/知识.md",
@@ -817,7 +824,6 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/思考/基本概念/思维的连续性.md",
     "笔记/工具/思考/记忆/联系.md",
-    "笔记/工具/通用概念/事物.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
