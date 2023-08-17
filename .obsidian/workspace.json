@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/技术效率.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -457,7 +457,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/技术效率.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -484,7 +484,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/技术效率.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -612,6 +612,15 @@
           {
             "id": "f7dc0f7703e41780",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "mk-file-view",
               "state": {}
@@ -774,15 +783,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "645c39a76992ac59",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/修辞/隐喻.md",
     "笔记/学习/学习.md",
+    "笔记/学习/技术效率.md",
     "笔记/学习/概念/知识.md",
     "笔记/学习/认知效率.md",
-    "笔记/学习/技术效率.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腹部.md",
     "笔记/前端/编程语言/JS/基本概念/Array.md",
@@ -808,7 +818,6 @@
     "笔记/工具/思考/基本概念/思维的连续性.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/工具/通用概念/事物.md",
-    "笔记/工具/通用概念/创造力.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
