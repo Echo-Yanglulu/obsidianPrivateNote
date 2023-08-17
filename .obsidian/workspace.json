@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
                 }
               }
@@ -383,9 +383,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "372f1e8f780229ca",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 10
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -411,7 +433,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -438,7 +460,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -720,13 +742,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "372f1e8f780229ca",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/世界观.md",
+    "笔记/前端/编程语言/JS/基本概念/Number.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/学习/学习.md",
+    "笔记/工具/通用概念/世界观.md",
     "笔记/工具/哲学/哲学.md",
     "笔记/工具/哲学/分析哲学.md",
     "笔记/工具/哲学/形而上学.md",
@@ -749,8 +773,6 @@
     "笔记/工具/思考/记忆/观察力.md",
     "笔记/诗词/诗歌.md",
     "笔记/工具/通用概念/评估.md",
-    "笔记/行为/健身/部位/腹部.md",
-    "笔记/行为/健身/健身.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
