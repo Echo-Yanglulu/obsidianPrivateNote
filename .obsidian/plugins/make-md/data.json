@@ -37,7 +37,9 @@
   "expandedFolders": {
     "obsidianPrivateNote": []
   },
-  "expandedSpaces": [],
+  "expandedSpaces": [
+    null
+  ],
   "expandFolderOnClick": true,
   "openFolders": [],
   "fileIcons": [],
@@ -68,7 +70,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1692278347248,
+  "spacesAutoBackupLast": 1692318755227,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
