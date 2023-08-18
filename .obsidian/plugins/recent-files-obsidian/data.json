@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
+    },
+    {
+      "basename": "OO设计模式",
+      "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "单例模式",
+      "path": "笔记/前端/设计模式/单例模式.md"
+    },
+    {
+      "basename": "react-router",
+      "path": "笔记/前端/库、框架/UI库/react-router.md"
+    },
+    {
+      "basename": "URL",
+      "path": "笔记/前端/编程语言/JS/URL.md"
+    },
+    {
+      "basename": "思考",
+      "path": "笔记/工具/思考/思考.md"
+    },
+    {
+      "basename": "react",
+      "path": "笔记/前端/库、框架/UI库/react.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
+    },
+    {
       "basename": "人生观",
       "path": "笔记/工具/通用概念/人生观.md"
     },
@@ -29,10 +61,6 @@
       "path": "笔记/工具/思考/记忆/记忆.md"
     },
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
-    },
-    {
       "basename": "认知效率",
       "path": "笔记/学习/认知效率.md"
     },
@@ -47,10 +75,6 @@
     {
       "basename": "Array",
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     },
     {
       "basename": "前端",
@@ -129,14 +153,6 @@
       "path": "笔记/前端/基础知识/计算机网络/URI.md"
     },
     {
-      "basename": "react",
-      "path": "笔记/前端/库、框架/UI库/react.md"
-    },
-    {
-      "basename": "思考",
-      "path": "笔记/工具/思考/思考.md"
-    },
-    {
       "basename": "window",
       "path": "笔记/前端/编程语言/JS/window.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Global",
       "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
-    },
-    {
-      "basename": "手臂",
-      "path": "笔记/行为/健身/手臂.md"
-    },
-    {
-      "basename": "背部",
-      "path": "笔记/行为/健身/部位/背部.md"
-    },
-    {
-      "basename": "腿部",
-      "path": "笔记/行为/健身/部位/腿部.md"
-    },
-    {
-      "basename": "CSRF",
-      "path": "笔记/前端/编程语言/JS/CSRF.md"
     }
   ],
   "omittedPaths": [

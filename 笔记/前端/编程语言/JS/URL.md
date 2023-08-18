@@ -7,7 +7,7 @@
 ###  Data URL
 1. 定义：前缀为 `data:` 协议的 URL。
 2. 背景
-	1. 之前被称作“data URI”，直到这个名字被 [[WHATWG]] 弃用
+	1. 之前被称作“data [[URI]]”，直到这个名字被 [[WHATWG]] 弃用
 	2. 现代浏览器将 Data URL 视作*唯一的不透明来源*，而不是可以用于导航的 URL。
 3. 相关
 	1. [Data URL - HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/Data_URLs) 
