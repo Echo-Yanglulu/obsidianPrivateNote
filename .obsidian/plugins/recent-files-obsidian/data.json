@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "前端工作",
-      "path": "笔记/前端/前端工作.md"
-    },
-    {
       "basename": "OO设计模式",
       "path": "笔记/前端/设计模式/OO设计模式.md"
+    },
+    {
+      "basename": "面向对象编程",
+      "path": "笔记/前端/编程语言/JS/面向对象编程.md"
+    },
+    {
+      "basename": "前端工作",
+      "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "单例模式",
@@ -195,10 +199,6 @@
     {
       "basename": "Math",
       "path": "笔记/前端/编程语言/JS/基本概念/Math.md"
-    },
-    {
-      "basename": "Global",
-      "path": "笔记/前端/编程语言/JS/基本概念/Global.md"
     }
   ],
   "omittedPaths": [
