@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/通用概念/人生观.md"
                   }
                 }
               }
@@ -447,9 +447,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "db9b23d182609e64",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "共产主义",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/共产主义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/人生观.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 11
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -475,7 +503,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/人生观.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -502,7 +530,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/人生观.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -801,13 +829,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "db9b23d182609e64",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/未命名.md",
+    "笔记/工具/通用概念/乐观主义.md",
+    "笔记/工具/通用概念/人生观.md",
+    "笔记/学习/概念/意义.md",
+    "笔记/工具/通用概念/共产主义.md",
+    "笔记/工具/通用概念/幸福主义.md",
+    "笔记/工具/通用概念/禁欲主义.md",
+    "笔记/工具/通用概念/厌世主义.md",
     "笔记/学习/学习.md",
+    "笔记/学习/未命名.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/前端/前端工作.md",
     "笔记/工具/修辞/隐喻.md",
@@ -829,13 +864,6 @@
     "笔记/工具/通用概念/世界观.md",
     "笔记/工具/哲学/哲学.md",
     "笔记/工具/哲学/分析哲学.md",
-    "笔记/工具/哲学/形而上学.md",
-    "笔记/工具/通用概念/智慧.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/学习/概念/感官.md",
-    "笔记/工具/思考/基本概念/感觉.md",
-    "笔记/工具/思考/基本概念/思维.md",
-    "笔记/工具/思考/基本概念/思维的连续性.md",
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
