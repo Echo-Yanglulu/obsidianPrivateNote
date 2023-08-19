@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -482,7 +482,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -508,7 +509,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -535,7 +536,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -834,11 +835,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/诗词/诗歌.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/编程语言/JS/面向对象编程.md",
     "笔记/前端/编程语言/JS/基本概念/class.md",
     "笔记/前端/设计模式/OO设计模式.md",
@@ -862,9 +866,6 @@
     "笔记/学习/未命名.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/修辞/隐喻.md",
-    "笔记/学习/技术效率.md",
-    "笔记/学习/概念/知识.md",
-    "笔记/学习/认知效率.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
