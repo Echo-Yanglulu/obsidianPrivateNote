@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/内心/心魔.md"
                   }
                 }
               }
@@ -375,6 +375,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":7},\"to\":{\"line\":24,\"ch\":7}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "人",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "思考",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}}}"
+                    },
+                    {
                       "title": "思维",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -391,29 +409,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/思考.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "50985fc1d54c4cbb",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/Array.md",
+                    "file": "笔记/内心/心魔.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -482,7 +478,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 8
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -508,7 +505,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/心魔.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -535,7 +532,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/心魔.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -661,17 +658,8 @@
             }
           },
           {
-            "id": "f7dc0f7703e41780",
+            "id": "b5e5f270a7bb830e",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
             "state": {
               "type": "mk-file-view",
               "state": {}
@@ -828,17 +816,25 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new loom": false,
-      "homepage:Open homepage": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-memos:Memos": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "d6ede5ad3e738250",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/行为/人的行为.md",
+    "笔记/工具/思考/思考.md",
+    "笔记/学习/自己的思考.md",
+    "笔记/工具/通用概念/勇气.md",
+    "笔记/前端/requestAnimationFrame.md",
+    "笔记/前端/编程语言/JS/基本概念/Array.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/智慧.md",
     "笔记/诗词/诗歌.md",
@@ -851,20 +847,12 @@
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/前端/编程语言/JS/URL.md",
     "笔记/前端/基础知识/计算机网络/URI.md",
-    "笔记/工具/思考/思考.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/工具/通用概念/人生观.md",
     "笔记/工具/通用概念/乐观主义.md",
     "笔记/学习/概念/意义.md",
     "笔记/工具/通用概念/共产主义.md",
-    "笔记/工具/通用概念/幸福主义.md",
-    "笔记/工具/通用概念/禁欲主义.md",
-    "笔记/工具/通用概念/厌世主义.md",
-    "笔记/学习/学习.md",
-    "笔记/学习/未命名.md",
-    "笔记/工具/思考/记忆/记忆.md",
-    "笔记/工具/修辞/隐喻.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
