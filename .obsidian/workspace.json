@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/心魔.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -478,8 +478,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 8
+            ]
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -505,7 +504,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/心魔.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -532,7 +531,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/心魔.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -666,7 +665,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "cd149acb9d388145",
@@ -817,12 +816,12 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new loom": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-memos:Memos": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "d6ede5ad3e738250",
+  "active": "4f2ccacccfa108ec",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
