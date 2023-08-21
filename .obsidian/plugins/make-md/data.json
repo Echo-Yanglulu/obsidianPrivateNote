@@ -35,11 +35,17 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedFolders": {
-    "obsidianPrivateNote": []
+    "obsidianPrivateNote": [
+      "/",
+      "笔记",
+      "笔记/行为",
+      "笔记/行为/写作"
+    ]
   },
   "expandedSpaces": [
     null,
-    null
+    null,
+    "obsidianPrivateNote"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
@@ -71,7 +77,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1692349271570,
+  "spacesAutoBackupLast": 1692582247352,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
