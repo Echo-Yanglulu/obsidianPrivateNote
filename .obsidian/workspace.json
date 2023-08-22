@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
                   }
                 }
               }
@@ -360,30 +360,24 @@
                 "id": "bae76a5d1b2d07f3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 2,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "单例模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/单例模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "OO设计模式",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/设计模式/OO设计模式.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":565,\"ch\":13},\"to\":{\"line\":565,\"ch\":13}},\"scroll\":554.8057291666667}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "前端工作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":580,\"ch\":34},\"to\":{\"line\":580,\"ch\":34}},\"scroll\":567.7102272727273}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/前端工作.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -587,7 +581,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -614,7 +608,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -912,11 +906,14 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "bae76a5d1b2d07f3",
+  "active": "30ab0635432bf670",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
+    "笔记/前端/前端工作.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "excalibrain.md",
     "笔记/行为/健身/拉伸.md",
@@ -926,7 +923,6 @@
     "笔记/前端/assets/Pasted image 20230821174741.png",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/营养.md",
-    "笔记/前端/前端工作.md",
     "笔记/学习/学习.md",
     "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
@@ -946,8 +942,6 @@
     "笔记/学习/自己的思考.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/前端/requestAnimationFrame.md",
-    "笔记/前端/编程语言/JS/基本概念/Array.md",
-    "笔记/诗词/诗歌.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",

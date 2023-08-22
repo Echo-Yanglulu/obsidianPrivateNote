@@ -3,7 +3,7 @@
 特点
 	1. 保持 UI 与 [[URL]] 同步
 	2. 简单的 API 与强大的功能。
-		1. 代码缓冲加载、动态路由匹配、以及建立正确的位置过渡处理
+		1. 代码*缓冲加载*、*动态路由*匹配、以及建立正确的*位置过渡*处理
 功能
 	1. 基于 React 的强大路由库，它可以让你向应用中快速地添加*视图和数据流*，同时保持页面与 URL 间的同步
 		1. 如果不使用它，需要监听hashchange事件
@@ -40,11 +40,11 @@ Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 		2. 如果有一个专用于响应请求的服务器，更推荐使用browserRouter。将约定好的URL返回给前端页面。可与后端商定，将域名后面的所有都（或其他部分）都返回给前端。
 	4. 区别：是否需要后端判断向前端返回哪个部分作为前端路由。
 ## 导入
-导入，并使用该路由模式组件包裹整个应用。
+使用路由模式组件包裹应用。
 ![[Pasted image 20230529151509.png]] 
-在应用中，定义URL与组件的映射关系。
+在应用中，定义 URL 与 UI的映射关系。
 ![[Pasted image 20230529151754.png]] 
-# 历史记录/模式
+# 管理历史记录的模式
 一个 history 知道如何去
 	1. *监听*浏览器地址栏的变化，
 	2. 解析这个 URL *转化*为 location 对象，
@@ -71,7 +71,7 @@ render(
 # 路由导航
 ### 声明式导航
 方式
-	1. `a标签`。除了渲染组件，也会*刷新页面*【不是[[SPA]]】。
+	1. `a标签`。除了渲染组件，也会*刷新页面*【不是[[SPA]]】
 		1. 重新发送请求，获取整个页面，
 		2. 所有组件重新触发 `didMount` 生命周期
 	2. `Link组件`。以局部更新的方式渲染所需组件
@@ -86,18 +86,27 @@ render(
 		1. 场景
 			1. 登录之后，点击浏览器的返回按钮不应再返回登录页面
 			2. 填写表单并跳转后不应返回到表单填写页面，重新填写
-# [[react-router API]] 
+# [[react-router API|API]] 
 # [[react-router 路由配置]] 
 
 # 高级配置
+
+## 组件外导航
+场景：比如在redux中导航
+```js
+// somewhere like a redux/flux action file:
+import { browserHistory } from 'react-router'
+browserHistory.push('/some/path')
+```
+
 ## 动态路由
 背景：对于大型应用来说，一个首当其冲的问题就是所需加载的 JavaScript 的大小。程序应当只加载当前渲染页所需的 JavaScript。
 	路由是个非常适于做代码分拆的地方：它的责任就是配置好每个 view
-## 跳转前确认
+## 跳转确认
 React Router 提供一个 routerWillLeave 生命周期钩子，React 组件可以
 	1. return false *取消*此次跳转
 	2. return 返回提示信息，在离开 route 前*提示*用户进行确认
-### 在路由级别组件中使用
+### 路由级别组件中使用
 ```js
 // 引入 Lifecycle mixin 来安装这个钩子
 import { Lifecycle } from 'react-router'
@@ -113,7 +122,7 @@ const Home = React.createClass({
   // ...
 })
 ```
-### 在深层组件中使用
+### 深层组件中使用
 ```js
 import { Lifecycle, RouteContext } from 'react-router'
 
@@ -127,22 +136,15 @@ const Home = React.createClass({
 
 })
 const NestedForm = React.createClass({
-  // 后代组件使用 Lifecycle mixin 获得
-  // 一个 routerWillLeave 的方法。
+  // 后代组件使用 Lifecycle mixin 获得一个 routerWillLeave 的方法。
   mixins: [ Lifecycle ],
   routerWillLeave(nextLocation) {
+	  // 判断当前组件中某个state，进行操作
     if (!this.state.isSaved)
       return 'Your work is not saved! Are you sure you want to leave?'
   },
   // ...
 })
-```
-## 组件外部导航
-场景：比如在redux中导航
-```js
-// somewhere like a redux/flux action file:
-import { browserHistory } from 'react-router'
-browserHistory.push('/some/path')
 ```
 # 原理
 在最后的渲染结果中，Switch，Router,Route等react-router提供的组件都会消失，只剩下经历匹配后应当被渲染的组件。
