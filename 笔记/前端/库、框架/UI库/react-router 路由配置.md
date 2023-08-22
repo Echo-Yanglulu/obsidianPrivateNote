@@ -11,7 +11,6 @@ React.render((
       <Route path="about" component={About} />
       <Route path="inbox" component={Inbox}>
         <Route path="/messages/:id" component={Message} />
-
         {/* 跳转 /inbox/messages/:id 到 /messages/:id */}
         <Redirect from="messages/:id" to="/messages/:id" />
       </Route>
@@ -92,10 +91,10 @@ React.render((
 ### 路由参数
 【实际最好不要用】：查询参数最好与路由参数分开？路由参数就用用于映射对应组件，不要用于传参
 传递
-	1. 单个：[[Pasted image 20230529155559.png]] 
+	1. 单个：![[Pasted image 20230529155559.png]] 
 	2. 多个
-		1. 准确 ![[Pasted image 20230529155825.png]] 
-		2. 模糊。接收时未传递的是undefined ![[Pasted image 20230529160359.png]]
+		1. **必须**。![[Pasted image 20230529155825.png]] 
+		2. **可选**。接收时未传递则为 undefined ![[Pasted image 20230529160359.png]]
 	3. 顺序：接收路由查询参数的组件需要放在上面。从具体到抽象
 接收
 	1. props.match.params

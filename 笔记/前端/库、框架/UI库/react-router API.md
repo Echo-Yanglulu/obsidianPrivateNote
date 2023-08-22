@@ -39,7 +39,7 @@
 	2. false：location.pathname*包含*当前path即可匹配成功
 4. strict：斜杠。
 	1. 开启：location.pathname有，path中没有，不匹配
-5. render：方便在路由组件外面再嵌套div之类的组件
+5. render：方便在路由组件外面再嵌套 div 之类的组件，或 props 透传/添加路由属性
 	1. [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Route/render-func) 
 6. components
 7. `getComponent(location, callback)` 与 component 一样，但是是异步的，对于 code-splitting 很有用
@@ -57,6 +57,13 @@
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在匹配/时，需要在App组件中展示的组件。
 	2. \<IndexLink to="/">Home\</IndexLink>：默认路由渲染后，才链接到它。
 
+## 重定向：**Redirect** 
+1. from
+2. to。只有to属性：没有任何匹配时的重定向
+3. 场景
+	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
+	2. 临时维护![[Pasted image 20230529161651.png]] 
+
 ## 单一匹配：**Switch** 
 渲染*第一个*与 location 匹配的 Route 或 Redirect 组件
 1. 使用多个 Route：默认渲染所有匹配。适用于需要同时渲染的多个组件
@@ -66,12 +73,6 @@
 	1. Route使用`path`属性
 	2. Redirect使用`from`属性。from只是path的别名
 
-## 重定向：**Redirect** 
-1. from
-2. to。只有to属性：没有任何匹配时的重定向
-3. 场景
-	1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
-	2. 临时维护![[Pasted image 20230529161651.png]] 
 # 方法
 1. generatePath ：生成用于route的url
 2. history：为不同环境中的JS管理session历史提供了不同的实现

@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
                   }
                 }
               }
@@ -367,6 +367,24 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react-router",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":27},\"to\":{\"line\":88,\"ch\":27}},\"scroll\":70.7201171875}"
+                    },
+                    {
+                      "title": "react-router 路由配置",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router 路由配置.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":0},\"to\":{\"line\":89,\"ch\":0}},\"scroll\":82.38333333333334}"
+                    },
+                    {
+                      "title": "react-router",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":24},\"to\":{\"line\":89,\"ch\":24}},\"scroll\":71.98116919617763}"
+                    },
+                    {
                       "title": "react-router API",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -389,7 +407,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md",
+                    "file": "笔记/前端/库、框架/UI库/react-router API.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -593,7 +611,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -620,7 +638,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -923,8 +941,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/库、框架/UI库/react-router 路由配置.md",
+    "笔记/前端/assets/Pasted image 20230529155559.png",
+    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/工程化/History.md",
     "笔记/前端/库、框架/UI库/react-native.md",
     "笔记/前端/前端工作.md",
@@ -952,8 +972,6 @@
     "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/通用概念/人.md",
     "笔记/行为/人的行为.md",
-    "笔记/工具/思考/思考.md",
-    "笔记/学习/自己的思考.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
@@ -963,7 +981,6 @@
     "笔记/前端/assets/Pasted image 20230811161809.png",
     "笔记/前端/assets/Pasted image 20230811151830.png",
     "笔记/前端/assets/Pasted image 20230809000751.png",
-    "笔记/诗词",
-    "笔记/前端/assets/心形腰带.png"
+    "笔记/诗词"
   ]
 }
