@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
+                    "file": "笔记/前端/库、框架/UI库/react-router.md"
                   }
                 }
               }
@@ -367,6 +367,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react-router API",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":129,\"ch\":42},\"to\":{\"line\":129,\"ch\":42}},\"scroll\":26.658143939393938}"
+                    },
+                    {
+                      "title": "react-router",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":27},\"to\":{\"line\":88,\"ch\":27}},\"scroll\":70.6734375}"
+                    },
+                    {
                       "title": "前端工作",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/前端工作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -581,7 +593,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -608,7 +620,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/前端/库、框架/UI库/react-router.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -906,14 +918,15 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "30ab0635432bf670",
+  "active": "bae76a5d1b2d07f3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react-native.md",
     "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react-router.md",
+    "笔记/前端/工程化/History.md",
+    "笔记/前端/库、框架/UI库/react-native.md",
     "笔记/前端/前端工作.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "excalibrain.md",
@@ -941,7 +954,6 @@
     "笔记/行为/人的行为.md",
     "笔记/工具/思考/思考.md",
     "笔记/学习/自己的思考.md",
-    "笔记/工具/通用概念/勇气.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
