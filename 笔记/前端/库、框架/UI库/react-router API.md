@@ -53,19 +53,18 @@
 		2. Redirect使用`from`属性。from只是path的别名
 6. 导航
 	1. Link：声明式导航
-		1. 属性
-			1. to
-				1. [[String]] 含location的pathname, search, and hash `to="/courses?sort=name"`
-				2. [[Object]] 可多一个state属性：（当前还是下个？）location需要保存的state
-				3. [[Function]] 当前location作为参数的函数，并且应以字符串或对象的形式返回location【目标url与当前url需要传递类似信息】
-			2. replace 如果设置，则新记录替换掉当前记录
-			3. component:传入自定义的导航组件
-			4. query
-			5. state
-			6. hash
-			7. activeStyle
-			8. activeClassName
-			9. onClick(e)
+		1. to
+			1. [[String]] 含location的pathname, search, and hash `to="/courses?sort=name"`
+			2. [[Object]] 可多一个state属性：（当前还是下个？）location需要保存的state
+			3. [[Function]] 当前location作为参数的函数，并且应以字符串或对象的形式返回location【目标url与当前url需要传递类似信息】
+		2. replace 如果设置，则新记录替换掉当前记录
+		3. component：使用自定义的导航组件
+		4. query
+		5. state
+		6. hash
+		7. activeStyle
+		8. activeClassName
+		9. onClick(e)
 	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
 ## 方法
 1. generatePath ：生成用于route的url
