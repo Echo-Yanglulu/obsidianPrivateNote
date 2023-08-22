@@ -9,9 +9,10 @@
 			2. getUserConfirmation。用于确认导航的函数
 			3. forceRefresh。true: 页面导航时将整个页面刷新。
 		2. \<HashRouter>
-		3. \<MemoryRouter>
+		3. \<MemoryRouter>：把 [[URL]]历史保存到内存中，无法读写到地址栏。
+			1. 在测试环境或非浏览器环境中使用，如 [[react-native]] 
 		4. \<NativeRouter>
-		5. \<StaticRouter>：永远不改变 location 的 Router 组件。[[SSR]] 时很有用
+		5. \<StaticRouter>：不改变 location 的 Router 组件。[[SSR]] 时很有用
 	4. 使用该低级组件的场景是，使用一个[[状态管理工具]]来保存自定义历史。react-router 并不强制要求另外使用状态管理工具，除非为了*深度集成*。
 2. 默认路由配置：**IndexRoute**
 	1. indexRoute与Route组件同级，指定的是默认组件。即，在匹配/时，需要在App组件中展示的组件。
@@ -43,28 +44,28 @@
 	3. 场景
 		1. 当前路由没有定义映射组件关系![[Pasted image 20230529161450.png]] 
 		2. 临时维护![[Pasted image 20230529161651.png]] 
-5. 匹配规则：**Switch**：渲染*第一个*与 location 匹配的 Route 或 Redirect
-	1. 使用多个Route：会渲染所有匹配。适用于组合需要同时渲染的多个组件
+5. 匹配规则**Switch**：渲染*第一个*与 location 匹配的 Route 或 Redirect 组件
+	1. 使用多个 Route：默认渲染所有匹配。适用于需要同时渲染的多个组件
 		1. 如果url是`/about`，则path为`/about`、`/:name`、`/`都会渲染。因为location包含当前配置
-	2. Switch与多Route的本质是*互斥与兼容* 
-	3. location。[[Object]] 用于匹配子元素，而不是当前浏览器中的[[location]] 
-	4. children。只能是Route或Redirect元素，匹配当前location的第一个子元素将被渲染
+	2. location。[[Object]] 用于匹配*子元素*，而不是当前浏览器中的[[location]] 
+	3. children。只能是Route或Redirect元素，匹配当前location的第一个子元素将被渲染
 		1. Route使用`path`属性
 		2. Redirect使用`from`属性。from只是path的别名
 6. 导航
 	1. Link：声明式导航
 		1. to
-			1. [[String]] 含location的pathname, search, and hash `to="/courses?sort=name"`
-			2. [[Object]] 可多一个state属性：（当前还是下个？）location需要保存的state
-			3. [[Function]] 当前location作为参数的函数，并且应以字符串或对象的形式返回location【目标url与当前url需要传递类似信息】
+			1. [[String]] 目标地址字符串。含 pathname, search,  hash 
+			2. [[Object]] 可多一个 state 属性：目标地址需要保存的 state
+			3. [[Function]] 传入当前地址，返回字符串或对象的地址【目标 url 与当前 url 需要传递类似信息】
 		2. replace 如果设置，则新记录替换掉当前记录
-		3. component：使用自定义的导航组件
-		4. query
-		5. state
-		6. hash
-		7. activeStyle
-		8. activeClassName
-		9. onClick(e)
+		3. innerRef：
+		4. component：使用自定义的导航组件
+		5. query
+		6. state
+		7. hash
+		8. activeStyle
+		9. activeClassName
+		10. onClick(e)
 	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
 ## 方法
 1. generatePath ：生成用于route的url
