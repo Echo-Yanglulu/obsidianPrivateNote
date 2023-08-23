@@ -9,6 +9,7 @@
   "showWelcomeModal": false,
   "showDonationModal": true,
   "showWhatsNewModal": true,
-  "pluginVersion": "8.2.1",
+  "defaultFrozenColumnCount": 1,
+  "pluginVersion": "8.2.2",
   "hasMigratedTo700": true
 }

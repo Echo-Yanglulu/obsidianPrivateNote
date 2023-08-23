@@ -1,22 +1,22 @@
 # 路由组件
 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Switch) 
 ## 导航【修改 [[URL]]】
-	1. Link：声明式导航
-		1. to
-			1. [[String]] 目标地址字符串。含 pathname, search,  hash 
-			2. [[Object]] 可多一个 state 属性：目标地址需要保存的 state
-			3. [[Function]] 传入当前地址，返回字符串或对象的地址【目标 url 与当前 url 需要传递类似信息】
-		2. replace 如果设置，则新记录替换掉当前记录
-		3. innerRef：
-		4. component：使用自定义的导航组件
-		5. query
-		6. state
-		7. hash
-		8. activeStyle
-		9. activeClassName
-		10. onClick(e)
-	2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
-## 保持 UI 和 URL 的同步：**Router** 
+1. Link：声明式导航
+	1. to
+		1. [[String]] 目标地址字符串。含 pathname, search,  hash 
+		2. [[Object]] 可多一个 state 属性：目标地址需要保存的 state
+		3. [[Function]] 传入当前地址，返回字符串或对象的地址【目标 url 与当前 url 需要传递类似信息】
+	2. replace 如果设置，则新记录替换掉当前记录
+	3. innerRef：
+	4. component：使用自定义的导航组件
+	5. query
+	6. state
+	7. hash
+	8. activeStyle
+	9. activeClassName
+	10. onClick(e)
+2. NavLink ：基于 Link 组件，它有一个 `activeClassName` 属性，目的在于如果路由匹配成功，则为当前导航添加选中样式
+## 保持 UI 和 URL 的同步：**Router** 【加 er：路由器】
 1. history
 2. routes：children 的别名，二选一用于配置路由
 3. 通常会使用其中一个高阶路由代替
