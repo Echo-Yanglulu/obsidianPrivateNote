@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
+                    "file": "笔记/学习/概念/观点.md"
                   }
                 }
               }
@@ -617,7 +617,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习/概念/观点.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -644,7 +644,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
+                        "file": "笔记/学习/概念/观点.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -778,7 +778,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -938,17 +938,21 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "homepage:Open homepage": false,
-      "obsidian-memos:Memos": false,
-      "notion-like-tables:Create new loom": false
+      "notion-like-tables:Create new loom": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "372f1e8f780229ca",
+  "active": "5320a9a84c725fc7",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/逻辑形式.md",
+    "笔记/西方文明简史/命题.md",
+    "笔记/学习/概念/观点.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/西方文明简史/陈述句.md",
+    "笔记/工具/思考/思维概念/论证.md",
+    "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/内心/心魔.md",
@@ -974,11 +978,7 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/智慧.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
-    "笔记/行为/写作/写作.md",
-    "笔记/写作/写作.md",
-    "笔记/笔记.md",
     "Context/obsidianPrivateNote.mdb",
-    "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
