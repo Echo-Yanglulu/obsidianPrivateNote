@@ -129,8 +129,8 @@
 5. matchPath 
 6. withRouter。高阶组件，每次组件更新时都传递最新的history, location, match
 7. Hooks：16.8以上才能使用！ `react-router-dom` 提供
-	1. useLocation：代表当前URL的*location对象*。可认为是一个返回最新location的useState
-		1. 场景
+	1. useLocation：获取代表当前 URL 的*location 对象*。
+		1. 场景【不需要在顶层作用域，】
 			1. 在加载新页面时，使用Web分析工具触发新的“页面浏览”事件 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/uselocation) 
 	2. useHistory：用于导航的*history实例*
 	3. useParams：URL*查询参数*对象
