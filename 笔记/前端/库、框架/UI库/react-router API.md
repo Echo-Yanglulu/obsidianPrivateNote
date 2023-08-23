@@ -72,7 +72,6 @@
 3. children。只能是Route或Redirect元素，匹配当前location的第一个子元素将被渲染
 	1. Route使用`path`属性
 	2. Redirect使用`from`属性。from只是path的别名
-
 # 方法
 1. generatePath ：生成用于route的url
 2. history：为不同环境中的JS管理session历史提供了不同的实现
@@ -132,7 +131,7 @@
 	1. useLocation：获取代表当前 URL 的*location 对象*。
 		1. 场景【不需要在顶层作用域，】
 			1. 在加载新页面时，使用Web分析工具触发新的“页面浏览”事件 [React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/uselocation) 
-	2. useHistory：用于导航的*history实例*
+	2. useHistory：用于导航的*history 实例* 
 	3. useParams：URL*查询参数*对象
 	4. useRouteMatch：路由参数/路径。[React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/useroutematch) 结果类型 props.location.match
 		1. 目的：访问当前 URL 的**匹配数据**，而不实际渲染 Route 组件。以 Route 组件的匹配方式，匹配当前 URL。
