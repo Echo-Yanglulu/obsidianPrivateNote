@@ -135,4 +135,5 @@
 	2. useHistory：用于导航的*history实例*
 	3. useParams：URL*查询参数*对象
 	4. useRouteMatch：路由参数/路径。[React Router: Declarative Routing for React.js](https://v5.reactrouter.com/web/api/Hooks/useroutematch) 结果类型 props.location.match
-		1. 无参数：返回当前 Route 组件匹配的 match 对象
+		1. 目的：访问当前 URL 的匹配数据，而不实际渲染 Route 组件。
+		2. 无参数：返回当前 Route 组件匹配的 match 对象。以 Route 组件的匹配方式，匹配当前 URL。
