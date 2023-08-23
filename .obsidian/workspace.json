@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router API.md"
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md"
                   }
                 }
               }
@@ -516,36 +516,30 @@
                 "id": "372f1e8f780229ca",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 3,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "前端",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/前端\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "笔记",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "obsidianPrivateNote",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"obsidianPrivateNote//\"}}",
-                      "eState": "{}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "逻辑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":8}}}"
+                    },
+                    {
+                      "title": "数据类型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                    "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -597,7 +591,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 9
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -623,7 +617,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -650,7 +644,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                        "file": "笔记/工具/哲学/逻辑学/逻辑学.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -784,7 +778,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -948,14 +942,19 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "bae76a5d1b2d07f3",
+  "active": "372f1e8f780229ca",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑形式.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/工具/思考/思维概念/逻辑.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/内心/心魔.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react-router.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react-router 路由配置.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/工程化/History.md",
@@ -970,7 +969,6 @@
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/营养.md",
     "笔记/学习/学习.md",
-    "笔记/内心/心魔.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/束缚.md",
     "笔记/工具/思考/基本概念/思维.md",
@@ -981,9 +979,6 @@
     "笔记/笔记.md",
     "Context/obsidianPrivateNote.mdb",
     "笔记/前端/编程语言/JS/基本概念/单例内置对象.md",
-    "笔记/工具/通用概念/人的属性.md",
-    "笔记/工具/通用概念/人.md",
-    "笔记/行为/人的行为.md",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
     "Context/spacesLastSync.log",
