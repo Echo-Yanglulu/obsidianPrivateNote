@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -590,8 +590,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 6
+            ]
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -617,7 +616,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -644,7 +643,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react-router.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -935,14 +934,14 @@
       "workspaces:管理工作区布局": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "homepage:Open homepage": false,
-      "notion-like-tables:Create new loom": false
+      "notion-like-tables:Create new loom": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "bae76a5d1b2d07f3",
+  "active": "4f2ccacccfa108ec",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
