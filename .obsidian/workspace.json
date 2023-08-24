@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -218,6 +218,30 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":84.9234375}"
+                    },
+                    {
+                      "title": "拉伸",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":1.3}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":10},\"to\":{\"line\":104,\"ch\":10}},\"scroll\":95.4203125}"
+                    },
+                    {
+                      "title": "拉伸",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":9},\"to\":{\"line\":108,\"ch\":9}},\"scroll\":94.73333333333333}"
                     },
                     {
@@ -249,7 +273,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/拉伸.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -467,58 +491,6 @@
                 }
               },
               {
-                "id": "d6ede5ad3e738250",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "人的属性",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":7},\"to\":{\"line\":24,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "人",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "思考",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}}}"
-                    },
-                    {
-                      "title": "思维",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":10},\"to\":{\"line\":29,\"ch\":10}},\"scroll\":0.5483870967741935}"
-                    },
-                    {
-                      "title": "思考",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思考.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":11},\"to\":{\"line\":40,\"ch\":11}},\"scroll\":12.224431818181818}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/心魔.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "372f1e8f780229ca",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -597,7 +569,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -623,7 +595,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -650,7 +622,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -784,7 +756,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -926,7 +898,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "oz-clear-unused-images:Clear Unused Images": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "daily-notes:打开/创建今天的日记": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
@@ -945,18 +916,24 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "homepage:Open homepage": false,
       "notion-like-tables:Create new loom": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2fefc13b54857c06",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/拉伸.md",
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
+    "笔记/前端/库、框架/UI库/react.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/内心/心魔.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/责任.md",
     "笔记/内心/圆满.md",
-    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/学习/概念/概念.md",
     "笔记/前端/前端工作.md",
@@ -973,14 +950,9 @@
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/内心/心魔.md",
     "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react-router.md",
-    "笔记/前端/库、框架/UI库/react-router 路由配置.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
-    "笔记/前端/工程化/History.md",
-    "笔记/前端/库、框架/UI库/react-native.md",
-    "excalibrain.md",
     "笔记/前端/assets/Pasted image 20230821175350.png",
     "笔记/前端/assets/Pasted image 20230821175339.png",
     "笔记/前端/assets/Pasted image 20230821175326.png",
