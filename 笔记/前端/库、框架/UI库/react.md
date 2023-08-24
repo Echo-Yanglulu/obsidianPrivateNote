@@ -85,7 +85,7 @@ mutation：改变对象中的内容
 	2. defaultValue/ defaultCechked
 	3. 手动操作 DOM
 3. ref 使用场景
-		1. 优先使用受控组件，符合 [[react]] 设计原则
+		1. *优先使用受控组件*，符合 [[react]] 设计原则
 		2. 必须操作 DOM 时，再使用非受控
 			1. 文件上传
 			2. 富文本编辑器
