@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md"
+                    "file": "笔记/内心/焦虑.md"
                   }
                 }
               }
@@ -567,9 +567,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "8770ab7cb6bf26c1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/焦虑.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 11
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -595,7 +617,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/内心/焦虑.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -622,7 +644,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "file": "笔记/内心/焦虑.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -756,7 +778,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -916,15 +938,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "homepage:Open homepage": false,
       "notion-like-tables:Create new loom": false,
-      "obsidian-memos:Memos": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "77e1fd3f9230a975",
+  "active": "8770ab7cb6bf26c1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -932,7 +955,6 @@
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/拉伸.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/通用概念/人.md",
     "笔记/内心/心魔.md",
     "笔记/工具/通用概念/责任.md",
