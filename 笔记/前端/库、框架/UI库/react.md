@@ -91,12 +91,14 @@ mutation：改变对象中的内容
 			2. 富文本编辑器
 			3. 手动操作 [[DOM]] 
 ### 通讯
-1. props
-2. [[context]] 
-3. [[redux]] 
-4. 事件中心
-	1. 自定义事件
-	2. 三方库： `events` , `event-emitter`
+1. 普通
+	1. props
+2. 非嵌套关系
+	1. [[context]] 
+	2. [[redux]] 
+	3. 事件中心
+		1. 自定义事件
+		2. 三方库： `events` , `event-emitter`
 ## 属性
 ### 调整
 className代替class
