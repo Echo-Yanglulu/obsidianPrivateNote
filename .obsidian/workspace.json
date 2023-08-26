@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/编程语言/CSS/BFC.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -590,8 +590,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -617,7 +616,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/BFC.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -644,7 +643,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/CSS/BFC.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -753,32 +752,23 @@
             }
           },
           {
-            "id": "79b834c5033b626b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
             "id": "6302d64e67f73760",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
+          },
+          {
+            "id": "5734c92e8ee02d6f",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "cd149acb9d388145",
@@ -932,17 +922,17 @@
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "workspaces:管理工作区布局": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "homepage:Open homepage": false,
       "notion-like-tables:Create new loom": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "7c1d2019eda1ac38",
+  "active": "4f2ccacccfa108ec",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
