@@ -13,10 +13,18 @@
 	3. fixed
 2. display：显示
 	1. block
-	2. inline
-	3. inline-block
+	2. flex
+	3. grid
 	4. table
-	5. table-cell
+	5. inline
+	6. inline-block
+	7. inline-flex
+	8. inline-gird
+	9. inline-table
+	10. table-caption
+	11. table-row
+	12. table-cell
+	13. table-column
 
 background-clip
 ![[Pasted image 20230616150834.png]] 

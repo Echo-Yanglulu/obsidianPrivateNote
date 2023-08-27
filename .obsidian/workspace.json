@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/前端/前端工作.md"
+                    "file": "笔记/前端/编程语言/CSS/CSS属性.md"
                   }
                 }
               }
@@ -284,8 +284,14 @@
                 "id": "2fefc13b54857c06",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "布局",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -617,7 +623,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -644,7 +650,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/前端工作.md",
+                        "file": "笔记/前端/编程语言/CSS/CSS属性.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -933,17 +939,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2fefc13b54857c06",
+  "active": "cdb8f31587f4a74f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/前端/编程语言/CSS/CSS.md",
+    "笔记/前端/编程语言/HTML/HTML.md",
+    "笔记/前端/前端工作.md",
+    "笔记/前端/编程语言/CSS/属性值与单位.md",
+    "笔记/前端/编程语言/CSS/布局.md",
+    "笔记/前端/assets/Pasted image 20230605103614.png",
+    "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/焦虑.md",
     "笔记/诗词/诗歌.md",
     "笔记/内心/优越感.md",
-    "笔记/前端/前端工作.md",
-    "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
@@ -961,10 +972,6 @@
     "笔记/行为/写作/写作.md",
     "笔记/工具/通用概念/形式谬误.md",
     "笔记/工具/通用概念/谬误.md",
-    "笔记/行为/表达.md",
-    "笔记/工具/哲学/逻辑学/逻辑规律.md",
-    "笔记/西方文明简史/命题.md",
-    "笔记/工具/通用概念/观念.md",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230821175350.png",
     "笔记/前端/assets/Pasted image 20230821175339.png",
@@ -978,7 +985,6 @@
     "笔记/前端/assets/Pasted image 20230813182338.png",
     "笔记/前端/assets/Pasted image 20230813180842.png",
     "笔记/前端/assets/Pasted image 20230811161809.png",
-    "笔记/前端/assets/Pasted image 20230811151830.png",
     "笔记/诗词"
   ]
 }
