@@ -5,16 +5,20 @@
       "path": "笔记/内心/深夜加油站遇见苏格拉底.md"
     },
     {
+      "basename": "焦虑",
+      "path": "笔记/内心/焦虑.md"
+    },
+    {
+      "basename": "诗歌",
+      "path": "笔记/诗词/诗歌.md"
+    },
+    {
       "basename": "前端工作",
       "path": "笔记/前端/前端工作.md"
     },
     {
       "basename": "react-router API",
       "path": "笔记/前端/库、框架/UI库/react-router API.md"
-    },
-    {
-      "basename": "焦虑",
-      "path": "笔记/内心/焦虑.md"
     },
     {
       "basename": "react",
@@ -131,10 +135,6 @@
     {
       "basename": "Array",
       "path": "笔记/前端/编程语言/JS/基本概念/Array.md"
-    },
-    {
-      "basename": "诗歌",
-      "path": "笔记/诗词/诗歌.md"
     },
     {
       "basename": "OO设计模式",
