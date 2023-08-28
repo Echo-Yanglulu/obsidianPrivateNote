@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/内心/优越感.md"
                   }
                 }
               }
@@ -66,6 +66,28 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/学习/学习.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "86af5a8a68f51317",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -602,7 +624,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -628,7 +651,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/优越感.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -655,7 +678,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/优越感.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -780,7 +803,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "cd149acb9d388145",
@@ -940,24 +963,25 @@
       "notion-like-tables:Create new loom": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-memos:Memos": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "16dc45884c9b3efd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "excalibrain.md",
+    "笔记/学习/学习.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/思考/思维概念/逻辑.md",
     "笔记/工具/思考/思考.md",
     "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/学习/错误.md",
-    "笔记/学习/学习.md",
     "笔记/工具/通用概念/学习.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/人生.md",
     "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
@@ -975,7 +999,6 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/拉伸.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230821175350.png",
