@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -630,7 +630,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -656,7 +657,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -683,7 +684,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -972,14 +973,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/学习.md",
-    "笔记/工具/意识/意识.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/意识/意识.md",
+    "笔记/学习/学习.md",
     "excalibrain.svg",
     "笔记/内心/人生.md",
     "笔记/内心/优越感.md",
