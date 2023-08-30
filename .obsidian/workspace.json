@@ -437,6 +437,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "react-router API",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":6},\"to\":{\"line\":4,\"ch\":6}}}"
+                    },
+                    {
                       "title": "react-router",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -489,7 +495,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/前端/库、框架/UI库/react-router API.md",
+                    "file": "笔记/沟通/沟通.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -978,10 +984,13 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/经历.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/智慧.md",
     "笔记/学习/学习.md",
+    "笔记/前端/前端工作.md",
+    "笔记/沟通/沟通.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/经历.md",
+    "笔记/工具/通用概念/智慧.md",
     "笔记/工具/意识/意识.md",
     "excalibrain.svg",
     "笔记/内心/人生.md",
@@ -994,7 +1003,6 @@
     "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/学习/错误.md",
     "笔记/工具/通用概念/学习.md",
-    "笔记/前端/前端工作.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/HTML/HTML.md",
@@ -1004,8 +1012,6 @@
     "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/内心/焦虑.md",
     "笔记/诗词/诗歌.md",
-    "笔记/前端/库、框架/UI库/react-router API.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230821175350.png",
