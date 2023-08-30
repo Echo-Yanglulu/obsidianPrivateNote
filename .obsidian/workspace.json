@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/背部.md"
                   }
                 }
               }
@@ -252,6 +252,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":10},\"to\":{\"line\":100,\"ch\":10}},\"scroll\":82.96666666666667}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":84.9234375}"
                     },
                     {
@@ -307,7 +319,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "file": "笔记/行为/健身/部位/背部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -637,7 +649,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 5
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -663,7 +675,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -690,7 +702,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/背部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -803,14 +815,6 @@
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "ae820a0b96911ba1",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
               "state": {}
             }
           }
@@ -979,16 +983,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "86af5a8a68f51317",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/前端/前端工作.md",
     "笔记/沟通/沟通.md",
     "笔记/前端/库、框架/UI库/react-router API.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/经历.md",
     "笔记/工具/通用概念/智慧.md",
     "笔记/工具/意识/意识.md",
@@ -1010,8 +1016,6 @@
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/前端/编程语言/CSS/BFC.md",
-    "笔记/内心/焦虑.md",
-    "笔记/诗词/诗歌.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230821175350.png",
