@@ -793,23 +793,23 @@
             }
           },
           {
-            "id": "6302d64e67f73760",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
-          },
-          {
             "id": "5734c92e8ee02d6f",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "ae820a0b96911ba1",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -945,8 +945,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5,
-    "collapsed": true
+    "width": 394.5
   },
   "left-ribbon": {
     "hiddenItems": {

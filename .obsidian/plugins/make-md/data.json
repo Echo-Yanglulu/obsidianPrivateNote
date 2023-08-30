@@ -18,9 +18,9 @@
   "activeView": "root",
   "hideFrontmatter": true,
   "activeSpace": "",
-  "spacesCompactMode": true,
+  "spacesCompactMode": false,
   "defaultDateFormat": "MMM dd yyyy",
-  "spacesEnabled": true,
+  "spacesEnabled": false,
   "spacesPerformance": false,
   "collapsedTags": [],
   "enableFolderNote": false,
@@ -68,7 +68,7 @@
   "newFileLocation": "current",
   "inlineBacklinks": true,
   "inlineContext": false,
-  "inlineBacklinksExpanded": true,
+  "inlineBacklinksExpanded": false,
   "inlineContextExpanded": true,
   "inlineContextSectionsExpanded": true,
   "dataviewInlineContext": true,
@@ -86,5 +86,5 @@
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": false,
   "indexSVG": false,
-  "readableLineWidth": false
+  "readableLineWidth": true
 }
