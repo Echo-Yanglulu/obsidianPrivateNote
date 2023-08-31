@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -249,6 +249,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "背部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":9},\"to\":{\"line\":237,\"ch\":9}},\"scroll\":225.55350378787878}"
+                    },
+                    {
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -319,7 +325,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/背部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -675,7 +681,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -702,7 +708,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/背部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -988,6 +994,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/背部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腿部.md",
@@ -1015,7 +1022,6 @@
     "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/编程语言/CSS/布局.md",
     "笔记/前端/assets/Pasted image 20230605103614.png",
-    "笔记/前端/编程语言/CSS/BFC.md",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
     "笔记/前端/assets/Pasted image 20230821175350.png",
