@@ -324,5 +324,8 @@
   "focus-mode@@zen-mode": false,
   "focus-mode@@inactive-opacity": 0.3,
   "focus-mode@@inactive-hover-opacity": 1,
-  "focus-mode@@focuse-transition-duration": 0.5
+  "focus-mode@@focuse-transition-duration": 0.5,
+  "jotter@@h3-italics": false,
+  "jotter@@h5-uppercase": false,
+  "jotter@@h6-uppercase": false
 }
