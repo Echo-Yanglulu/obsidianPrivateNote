@@ -101,6 +101,25 @@
                 }
               },
               {
+                "id": "f5a008c6a27e4505",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.4.5"
+                  }
+                }
+              },
+              {
                 "id": "b4bf577937bc9265",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -655,7 +674,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -989,7 +1008,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "f5a008c6a27e4505",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
