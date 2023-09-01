@@ -101,25 +101,6 @@
                 }
               },
               {
-                "id": "f5a008c6a27e4505",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.4.5"
-                  }
-                }
-              },
-              {
                 "id": "b4bf577937bc9265",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -660,13 +641,25 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "焦虑",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/焦虑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":30},\"to\":{\"line\":4,\"ch\":30}}}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/焦虑.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -674,7 +667,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 12
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1008,11 +1001,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f5a008c6a27e4505",
+  "active": "8770ab7cb6bf26c1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/学习.md",
+    "笔记/内心/焦虑.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/工具/意识/意识.md",
@@ -1035,11 +1030,9 @@
     "笔记/工具/思考/思考.md",
     "笔记/工具/表象与本质-类比作为思考的原料与火焰.md",
     "笔记/学习/错误.md",
-    "笔记/工具/通用概念/学习.md",
     "笔记/前端/编程语言/CSS/CSS属性.md",
     "笔记/前端/编程语言/CSS/CSS.md",
     "笔记/前端/编程语言/HTML/HTML.md",
-    "笔记/前端/编程语言/CSS/属性值与单位.md",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
