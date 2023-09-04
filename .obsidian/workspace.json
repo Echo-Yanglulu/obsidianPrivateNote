@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/学习/极简主义.md"
                   }
                 }
               }
@@ -455,6 +455,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "自己的观点",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/自己的观点.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "沟通",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/沟通/沟通.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                    },
+                    {
                       "title": "react-router API",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -513,7 +525,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/沟通/沟通.md",
+                    "file": "笔记/学习/自己的思考.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -667,7 +679,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 7
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -693,7 +705,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/极简主义.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -720,7 +732,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/学习/极简主义.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1001,14 +1013,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "0716c065239fb18e",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习/极简主义.md",
+    "笔记/学习/自己的思考.md",
+    "笔记/行为/自己的观点.md",
+    "笔记/沟通/沟通.md",
+    "笔记/学习/学习.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/工具/通用概念/智慧.md",
-    "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/行为/健身/健身.md",
@@ -1028,11 +1044,7 @@
     "笔记/行为/健身/部位/背部.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/前端工作.md",
-    "笔记/沟通/沟通.md",
-    "笔记/前端/库、框架/UI库/react-router API.md",
-    "笔记/内心/经历.md",
     "excalibrain.svg",
-    "笔记/内心/优越感.md",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
     "笔记/前端/assets/Pasted image 20230529155559.png",
