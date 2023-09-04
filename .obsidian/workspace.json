@@ -448,11 +448,23 @@
                 "id": "bae76a5d1b2d07f3",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "逻辑学",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":7},\"to\":{\"line\":6,\"ch\":7}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "自己的思考",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/自己的思考.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
                     },
                     {
                       "title": "自己的观点",
@@ -525,7 +537,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/自己的思考.md",
+                    "file": "笔记/学习/极简主义.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -849,7 +861,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1013,13 +1025,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0716c065239fb18e",
+  "active": "bae76a5d1b2d07f3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/学习/极简主义.md",
     "笔记/学习/自己的思考.md",
+    "笔记/工具/通用概念/创造者.md",
     "笔记/行为/自己的观点.md",
     "笔记/沟通/沟通.md",
     "笔记/学习/学习.md",
@@ -1042,8 +1056,6 @@
     "笔记/工具/意识/意识.md",
     "笔记/工具/意识/觉醒.md",
     "笔记/行为/健身/部位/背部.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/前端/前端工作.md",
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
