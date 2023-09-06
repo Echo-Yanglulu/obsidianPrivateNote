@@ -329,5 +329,16 @@
   "jotter@@h5-uppercase": false,
   "jotter@@h6-uppercase": false,
   "anuppuccin-theme-settings@@anp-table-auto": false,
-  "anuppuccin-theme-settings@@anp-safari-tab-animated": false
+  "anuppuccin-theme-settings@@anp-safari-tab-animated": false,
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-swan-lt",
+  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-border-lt",
+  "obsidian-prism-theme@@light-accent-color-preset": "pt-accent-color-red-lt",
+  "obsidian-prism-theme@@h1-text-color-lt": "var(--interactive-accent-text)",
+  "obsidian-prism-theme@@h2-text-color-lt": "var(--color-red-text)",
+  "obsidian-prism-theme@@h3-text-color-lt": "var(--color-orange-text)",
+  "obsidian-prism-theme@@h4-text-color-lt": "var(--color-yellow-text)",
+  "obsidian-prism-theme@@h5-text-color-lt": "var(--color-mint-text)",
+  "obsidian-prism-theme@@h6-text-color-lt": "var(--color-blue-text)",
+  "obsidian-prism-theme@@text-bold-color-lt": "var(--color-purple-text)",
+  "obsidian-prism-theme@@text-italic-color-lt": "var(--color-mint-text)"
 }
