@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -87,6 +87,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "鹿智者的法则",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":9},\"to\":{\"line\":15,\"ch\":9}},\"scroll\":0}"
                     },
                     {
                       "title": "原则",
@@ -159,7 +165,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -841,7 +847,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -868,7 +874,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/鹿智者的法则.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1154,8 +1160,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/选择.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/工具/通用概念/选择.md",
     "笔记/工具/通用概念/平衡.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/工具/通用概念/人生十二法则.md",
@@ -1168,7 +1175,6 @@
     "笔记/工具/意识/觉醒.md",
     "笔记/工具/意识/意识.md",
     "笔记/诗词/诗歌.md",
-    "笔记/工具/通用概念/智慧.md",
     "笔记/学习/视角.md",
     "笔记/学习/极简主义.md",
     "笔记/前端/前端工作.md",
