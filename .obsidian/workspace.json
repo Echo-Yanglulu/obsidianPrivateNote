@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/行为/健身/部位/胸部.md"
                   }
                 }
               }
@@ -230,6 +230,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.52153801676785}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":10},\"to\":{\"line\":120,\"ch\":10}},\"scroll\":102.23245614035088}"
                     },
                     {
@@ -321,7 +333,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "file": "笔记/行为/健身/部位/胸部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -739,7 +751,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -765,7 +777,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -792,7 +804,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/胸部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -909,7 +921,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1070,15 +1082,18 @@
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false,
-      "random-note:开始漫游笔记": false
+      "random-note:开始漫游笔记": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/语法/词.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/语词.md",
@@ -1086,11 +1101,8 @@
     "笔记/前端/编程语言/JS/基本概念/Note Name.md",
     "笔记/工具/思考/思考.md",
     "笔记/学习/概念/技术.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/记忆/多样性.md",
     "笔记/工具/意识/意识.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/工具/通用概念/创造力.md",
     "笔记/工具/通用概念/创造.md",
