@@ -26,9 +26,7 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/学习/学习.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -129,10 +127,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "记忆",
+                      "title": "Note Name",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":219,\"ch\":8},\"to\":{\"line\":219,\"ch\":8}},\"scroll\":212.9922287845819}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Note Name.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -765,7 +763,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -792,7 +789,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -901,7 +897,7 @@
             }
           },
           {
-            "id": "5734c92e8ee02d6f",
+            "id": "0a571c0c7294d163",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -1070,17 +1066,20 @@
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "random-note:开始漫游笔记": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "51f5166ad7f3ad98",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
+    "笔记/学习/context.mdb",
+    "笔记/前端/编程语言/JS/基本概念/Note Name.md",
     "笔记/工具/思考/思考.md",
     "笔记/学习/概念/技术.md",
-    "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/记忆/多样性.md",
     "笔记/工具/意识/意识.md",
@@ -1102,8 +1101,6 @@
     "笔记/前端/编程语言/JS/语句.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/工具/通用概念/智慧.md",
-    "笔记/工具/通用概念/选择.md",
-    "笔记/工具/通用概念/平衡.md",
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
