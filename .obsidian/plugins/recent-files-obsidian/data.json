@@ -5,6 +5,10 @@
       "path": "笔记/学习/学习.md"
     },
     {
+      "basename": "语词",
+      "path": "笔记/学习/概念/语词.md"
+    },
+    {
       "basename": "Note Name",
       "path": "笔记/前端/编程语言/JS/基本概念/Note Name.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "逻辑",
       "path": "笔记/工具/思考/思维概念/逻辑.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
     }
   ],
   "omittedPaths": [
