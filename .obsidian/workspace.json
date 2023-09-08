@@ -26,7 +26,9 @@
                 },
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/学习/学习.md"
+                  }
                 }
               }
             ]
@@ -763,6 +765,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -789,6 +792,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1070,7 +1074,7 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "51f5166ad7f3ad98",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
