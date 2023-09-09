@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/快速阅读.md"
+                    "file": "笔记/学习/概念/拓展.md"
                   }
                 }
               }
@@ -126,17 +126,17 @@
                 "id": "ac038c08bf5333e5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "语词",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/语词.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":458,\"ch\":11},\"to\":{\"line\":458,\"ch\":11}},\"scroll\":441.0473579262213}"
                     },
                     {
                       "title": "记忆",
@@ -209,7 +209,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/学习/概念/拓展.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -727,7 +727,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/快速阅读.md",
+                        "file": "笔记/学习/概念/拓展.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -754,7 +754,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/快速阅读.md",
+                        "file": "笔记/学习/概念/拓展.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1036,7 +1036,7 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "3cc29d2363428611",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
