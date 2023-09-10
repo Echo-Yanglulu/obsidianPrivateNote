@@ -339,5 +339,7 @@
   "obsidian-prism-theme@@h5-text-color-lt": "var(--color-mint-text)",
   "obsidian-prism-theme@@h6-text-color-lt": "var(--color-blue-text)",
   "obsidian-prism-theme@@text-bold-color-lt": "var(--color-purple-text)",
-  "obsidian-prism-theme@@text-italic-color-lt": "var(--color-mint-text)"
+  "obsidian-prism-theme@@text-italic-color-lt": "var(--color-mint-text)",
+  "minimal-style@@col-lines": true,
+  "minimal-style@@table-lines": true
 }

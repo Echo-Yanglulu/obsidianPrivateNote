@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -216,6 +216,28 @@
                   "type": "markdown",
                   "state": {
                     "file": "笔记/学习/学习.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "45a15abf45941491",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -707,7 +729,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -733,7 +755,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -760,7 +782,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -877,7 +899,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "cd149acb9d388145",
@@ -1037,18 +1059,19 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "random-note:开始漫游笔记": false,
-      "obsidian-memos:Memos": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "45a15abf45941491",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/判断.md",
     "笔记/学习/学习.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/思考/判断.md",
     "笔记/学习/概念/拓展.md",
     "笔记/西方文明简史/命题.md",
     "笔记/工具/通用概念/DOCTORS模型.md",
@@ -1066,7 +1089,6 @@
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/内聚性自我.md",
     "笔记/行为/人的行为.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/工具/语法/词.md",
