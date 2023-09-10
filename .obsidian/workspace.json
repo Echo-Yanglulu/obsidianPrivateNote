@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -255,6 +255,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":5},\"to\":{\"line\":34,\"ch\":5}},\"scroll\":17.209429824561404}"
+                    },
+                    {
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -385,7 +391,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -779,7 +785,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -806,7 +812,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1093,6 +1099,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1115,7 +1122,6 @@
     "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/内聚性自我.md",
     "笔记/行为/人的行为.md",
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/工具/语法/词.md",
     "笔记/学习/概念/语词.md",
     "笔记/学习/context.mdb",
