@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -255,6 +255,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":118,\"ch\":20},\"to\":{\"line\":118,\"ch\":20}},\"scroll\":91.45449561403508}"
+                    },
+                    {
                       "title": "腿部",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -391,7 +397,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -759,7 +765,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -785,7 +791,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -812,7 +818,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1094,16 +1100,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
+    "笔记/学习/学习.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/学习/学习.md",
     "笔记/工具/思考/判断.md",
     "笔记/学习/概念/拓展.md",
     "笔记/西方文明简史/命题.md",
