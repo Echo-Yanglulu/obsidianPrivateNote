@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/写作/写作.md"
+                    "file": "笔记/学习/概念/笔记.md"
                   }
                 }
               }
@@ -591,6 +591,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":462,\"ch\":13},\"to\":{\"line\":462,\"ch\":13}},\"scroll\":448.99401794616153}"
+                    },
+                    {
+                      "title": "写作",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":6},\"to\":{\"line\":11,\"ch\":6}}}"
+                    },
+                    {
                       "title": "纳瓦尔宝典",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/纳瓦尔宝典.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -745,7 +757,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/写作/写作.md",
+                    "file": "笔记/学习/概念/笔记.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -869,7 +881,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/写作/写作.md",
+                        "file": "笔记/学习/概念/笔记.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -896,7 +908,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/写作/写作.md",
+                        "file": "笔记/学习/概念/笔记.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -961,7 +973,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "写作",
+                "query": "file:笔记",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -1007,6 +1019,15 @@
           {
             "id": "0a571c0c7294d163",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-tree-view",
               "state": {}
@@ -1112,6 +1133,15 @@
           {
             "id": "f4a00909060eaf0d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "make-context-view",
               "state": {}
@@ -1183,12 +1213,13 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
+    "笔记/学习/概念/笔记流.md",
+    "笔记/行为/写作/写作.md",
     "笔记/工具/纳瓦尔宝典.md",
     "笔记/工具/思考/记忆/注意力.md",
-    "笔记/行为/写作/写作.md",
     "笔记/学习/超级学习.md",
     "笔记/学习/极简主义.md",
-    "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
@@ -1215,7 +1246,6 @@
     "笔记/西方文明简史/问题.md",
     "笔记/西方文明简史/主题，问题，命题.md",
     "笔记/西方文明简史/主题.md",
-    "笔记/工具/通用概念/智慧.md",
     "笔记/学习/context.mdb",
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
