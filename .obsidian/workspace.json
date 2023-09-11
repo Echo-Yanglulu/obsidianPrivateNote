@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/内心/简洁.md"
                   }
                 }
               }
@@ -415,6 +415,18 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "人的属性",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "人",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":7},\"to\":{\"line\":9,\"ch\":7}}}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -425,7 +437,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/人.md",
+                    "file": "笔记/内心/简洁.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -765,7 +777,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 6
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -791,7 +803,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/简洁.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -818,7 +830,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/简洁.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -935,7 +947,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1089,7 +1101,6 @@
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "workspaces:管理工作区布局": false,
-      "notion-like-tables:Create new loom": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
@@ -1097,14 +1108,18 @@
       "random-note:开始漫游笔记": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "notion-like-tables:Create new loom": false
     }
   },
-  "active": "45a15abf45941491",
+  "active": "877859fb5a066730",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/工具/通用概念/人.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230910153156.png",
     "笔记/前端/assets/Pasted image 20230910153121.png",
     "笔记/前端/assets/Pasted image 20230910152923.png",
@@ -1116,7 +1131,6 @@
     "笔记/学习/学习.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/部位/胸部.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/判断.md",
     "笔记/学习/概念/拓展.md",
     "笔记/西方文明简史/命题.md",
@@ -1132,7 +1146,6 @@
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/基本概念/Note Name.md",
-    "笔记/工具/通用概念/人.md",
     "笔记/工具/通用概念/内聚性自我.md",
     "笔记/行为/人的行为.md",
     "笔记/工具/语法/词.md",
@@ -1141,7 +1154,6 @@
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
     "笔记/工具/哲学/逻辑学/逻辑学思想准备.svg",
-    "笔记/前端/assets/Pasted image 20230529155559.png",
     "Context/obsidianPrivateNote.mdb",
     "custom-icons.zip",
     "笔记/前端/编程语言/JS/基本概念/context.mdb",
