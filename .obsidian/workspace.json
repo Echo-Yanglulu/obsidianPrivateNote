@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/简洁.md"
+                    "file": "笔记/内心/心魔.md"
                   }
                 }
               }
@@ -418,7 +418,7 @@
                       "title": "人的属性",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人的属性.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}},\"scroll\":0}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":7},\"to\":{\"line\":11,\"ch\":7}},\"scroll\":0}"
                     },
                     {
                       "title": "人",
@@ -437,7 +437,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/简洁.md",
+                    "file": "笔记/内心/心魔.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -803,7 +803,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/简洁.md",
+                        "file": "笔记/内心/心魔.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -830,7 +830,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/简洁.md",
+                        "file": "笔记/内心/心魔.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1118,6 +1118,8 @@
   },
   "lastOpenFiles": [
     "笔记/工具/通用概念/人的属性.md",
+    "笔记/内心/简洁.md",
+    "笔记/学习/极简主义.md",
     "笔记/工具/通用概念/人.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230910153156.png",
@@ -1148,8 +1150,6 @@
     "笔记/前端/编程语言/JS/基本概念/Note Name.md",
     "笔记/工具/通用概念/内聚性自我.md",
     "笔记/行为/人的行为.md",
-    "笔记/工具/语法/词.md",
-    "笔记/学习/概念/语词.md",
     "笔记/学习/context.mdb",
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
