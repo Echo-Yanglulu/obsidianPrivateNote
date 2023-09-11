@@ -308,7 +308,7 @@
   "floating-toc-styles@@floating-toc-position": -12,
   "sanctum@@hide-vault-title": false,
   "sanctum@@wrap-nav-titles": false,
-  "sanctum@@file-line-width": 33,
+  "sanctum@@file-line-width": 42,
   "anuppuccin-theme-settings@@anp-file-label-align": "0",
   "blue-topaz-theme@@toggle-left-aligned-content": false,
   "jotter@@strong-color": "#0500D7",
@@ -341,5 +341,7 @@
   "obsidian-prism-theme@@text-bold-color-lt": "var(--color-purple-text)",
   "obsidian-prism-theme@@text-italic-color-lt": "var(--color-mint-text)",
   "minimal-style@@col-lines": true,
-  "minimal-style@@table-lines": true
+  "minimal-style@@table-lines": true,
+  "sanctum@@color-accent-rgb-l": "246, 141, 69",
+  "sanctum@@table-nums": true
 }
