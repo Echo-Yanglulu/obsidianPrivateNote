@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -133,6 +133,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "记忆",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":8},\"to\":{\"line\":51,\"ch\":8}},\"scroll\":33.7702850877193}"
+                    },
+                    {
                       "title": "学习",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -221,7 +227,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/记忆.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -259,6 +265,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":37},\"to\":{\"line\":20,\"ch\":37}},\"scroll\":12.107720880870257}"
                     },
                     {
                       "title": "腿部",
@@ -409,7 +421,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -815,7 +827,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -842,7 +854,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/健身.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1129,9 +1141,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/行为/健身/健身.md",
     "笔记/学习/学习.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/行为/健身/部位/腿部.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/内心/心魔.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -1146,7 +1159,6 @@
     "笔记/前端/assets/Pasted image 20230910152734.png",
     "笔记/前端/assets/Pasted image 20230910152638.png",
     "笔记/前端/assets/Pasted image 20230910152607.png",
-    "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/工具/思考/判断.md",
     "笔记/学习/概念/拓展.md",
