@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/注意力.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -126,17 +126,17 @@
                 "id": "ac038c08bf5333e5",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "注意力",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/注意力.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":5},\"to\":{\"line\":2,\"ch\":5}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":4},\"to\":{\"line\":54,\"ch\":4}},\"scroll\":40.30537280701754}"
                     },
                     {
                       "title": "拓展",
@@ -221,7 +221,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/记忆/注意力.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -809,7 +809,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/注意力.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -836,7 +836,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/记忆/注意力.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1123,6 +1123,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/注意力.md",
     "笔记/学习/学习.md",
     "笔记/内心/心魔.md",
     "笔记/工具/通用概念/人的属性.md",
@@ -1155,7 +1156,6 @@
     "笔记/前端/设计模式/OO设计模式.md",
     "笔记/前端/编程语言/JS/HTTP状态码.md",
     "笔记/前端/编程语言/JS/基本概念/Note Name.md",
-    "笔记/工具/通用概念/内聚性自我.md",
     "笔记/学习/context.mdb",
     "excalibrain.svg",
     "笔记/前端/assets/Pasted image 20230605103614.png",
