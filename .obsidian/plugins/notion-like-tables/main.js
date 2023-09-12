@@ -53441,6 +53441,12 @@ var getNumBottomBarFocusableEl = (appEl) => {
     throw Error("No bottom bar found");
   return getFocusableElements(el).length;
 };
+var isArrowKeyPressed = (e, isMenuOpen) => {
+  if (isMenuOpen) {
+    return e.key === "ArrowDown" || e.key === "ArrowUp";
+  }
+  return e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "ArrowLeft" || e.key === "ArrowRight";
+};
 
 // src/react/shared/menu/hooks.ts
 var useModalMenu = (options) => {
@@ -53963,17 +53969,23 @@ var BaseMenu = import_react19.default.forwardRef(
     onClose
   }, ref) => {
     const logger = useLogger();
-    function handleKeyDown(e) {
-      logger("Menu handleKeyDown");
-      if (e.key === "Enter") {
-        onRequestClose("close-on-save");
-      } else if (e.key === "Escape") {
-        onClose();
-      }
-    }
+    const { topMenu, onRequestCloseTop } = useMenuOperations();
     function handleClick(e) {
       logger("Menu handleClick");
       e.stopPropagation();
+      if (topMenu.id === id2)
+        return;
+      onRequestCloseTop();
+    }
+    function handleKeyDown(e) {
+      logger("Menu handleKeyDown");
+      if (e.key === "Enter") {
+        e.stopPropagation();
+        onRequestClose("close-on-save");
+      } else if (e.key === "Escape") {
+        e.stopPropagation();
+        onClose();
+      }
     }
     if (!isOpen)
       return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(import_jsx_runtime15.Fragment, {});
@@ -53983,8 +53995,8 @@ var BaseMenu = import_react19.default.forwardRef(
         {
           id: id2,
           className: "dataloom-menu",
-          onClick: handleClick,
           onKeyDown: handleKeyDown,
+          onClick: handleClick,
           children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)(
             "div",
             {
@@ -61743,7 +61755,6 @@ var uppercaseFirst = (input) => {
 };
 
 // src/react/loom-app/tag-color-menu/components/color-item/index.tsx
-var import_react41 = __toESM(require_react());
 var import_jsx_runtime96 = __toESM(require_jsx_runtime());
 function ColorItem({
   isDarkMode,
@@ -61751,14 +61762,6 @@ function ColorItem({
   isSelected,
   onColorClick
 }) {
-  const ref = import_react41.default.useRef(null);
-  import_react41.default.useEffect(() => {
-    if (!ref.current)
-      return;
-    if (isSelected) {
-      ref.current.focus();
-    }
-  }, [isSelected]);
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       e.stopPropagation();
@@ -61769,39 +61772,53 @@ function ColorItem({
   if (isSelected)
     containerClass += " dataloom-selected";
   const colorClass = findColorClassName(isDarkMode, color);
-  let squareClass = "dataloom-color-item-square";
+  let squareClass = "dataloom-color-item__square";
   squareClass += " " + colorClass;
-  return /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
     "div",
     {
-      ref,
       tabIndex: 0,
       className: containerClass,
       onKeyDown: handleKeyDown,
       onClick: () => {
         onColorClick(color);
       },
-      children: [
+      children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
         /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", { className: squareClass }),
-        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("div", { children: uppercaseFirst(color) })
-      ]
+        /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Text, { value: uppercaseFirst(color), size: "sm" })
+      ] }) })
     }
   );
 }
 
 // src/react/loom-app/tag-color-menu/index.tsx
+var import_react41 = __toESM(require_react());
 var import_jsx_runtime97 = __toESM(require_jsx_runtime());
 function TagColorMenu({
   id: id2,
   isOpen,
   triggerPosition,
   selectedColor,
+  markdown,
+  closeRequest,
   onColorClick,
   onDeleteClick,
   onRequestClose,
+  onTagNameChange,
   onClose
 }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
+  const [localValue, setLocalValue] = import_react41.default.useState(markdown);
+  import_react41.default.useEffect(
+    function saveOnCloseRequest() {
+      if (closeRequest === null)
+        return;
+      if (markdown !== localValue)
+        onTagNameChange(localValue);
+      onClose();
+    },
+    [closeRequest, markdown, localValue, onTagNameChange, onClose]
+  );
   return /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
     Menu,
     {
@@ -61811,8 +61828,18 @@ function TagColorMenu({
       onRequestClose,
       onClose,
       children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("div", { className: "dataloom-tag-color-menu", children: /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Text, { value: "Color" }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("div", { children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Padding, { px: "md", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(input_default, { value: localValue, onChange: setLocalValue }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
+          MenuItem,
+          {
+            lucideId: "trash-2",
+            name: "Delete",
+            onClick: onDeleteClick
+          }
+        ),
+        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Divider, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Text, { value: "Colors" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
           ColorItem,
           {
             isDarkMode,
@@ -61821,16 +61848,7 @@ function TagColorMenu({
             isSelected: selectedColor === color
           },
           color
-        )) }),
-        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
-          MenuItem,
-          {
-            lucideId: "trash-2",
-            name: "Delete",
-            onClick: onDeleteClick
-          }
-        )
+        )) })
       ] }) })
     }
   );
@@ -61844,23 +61862,29 @@ function SelectableTag({
   color,
   onClick,
   onColorChange,
-  onDeleteClick
+  onDeleteClick,
+  onTagNameChange
 }) {
   const {
     menu,
     triggerRef,
     triggerPosition,
     isOpen,
+    closeRequest,
     onOpen,
     onClose,
     onRequestClose
-  } = useMenu({ level: 2 /* TWO */ });
+  } = useMenu({ level: 2 /* TWO */, shouldRequestOnClose: true });
   function handleColorChange(color2) {
     onColorChange(id2, color2);
     onClose();
   }
   function handleDeleteClick() {
     onDeleteClick(id2);
+    onClose();
+  }
+  function handleTagNameChange(value) {
+    onTagNameChange(id2, value);
     onClose();
   }
   function handleKeyDown(e) {
@@ -61904,10 +61928,13 @@ function SelectableTag({
         isOpen,
         id: menu.id,
         triggerPosition,
+        closeRequest,
+        markdown,
         selectedColor: color,
         onColorClick: (color2) => handleColorChange(color2),
         onDeleteClick: handleDeleteClick,
         onRequestClose,
+        onTagNameChange: handleTagNameChange,
         onClose
       }
     )
@@ -61923,7 +61950,8 @@ function MenuBody({
   onTagAdd,
   onTagClick,
   onTagColorChange,
-  onTagDelete
+  onTagDelete,
+  onTagNameChange
 }) {
   const hasTagWithSameCase = columnTags.find((tag) => tag.markdown === inputValue) !== void 0;
   const filteredTags = columnTags.filter(
@@ -61948,7 +61976,8 @@ function MenuBody({
           markdown: tag.markdown,
           onColorChange: onTagColorChange,
           onClick: onTagClick,
-          onDeleteClick: onTagDelete
+          onDeleteClick: onTagDelete,
+          onTagNameChange
         },
         tag.id
       ))
@@ -61968,6 +61997,7 @@ function TagCellEdit({
   onTagColorChange,
   onTagDelete,
   onRemoveTag,
+  onTagNameChange,
   onClose
 }) {
   const [inputValue, setInputValue] = import_react42.default.useState("");
@@ -62029,7 +62059,8 @@ function TagCellEdit({
         onTagAdd: handleTagAdd,
         onTagClick: handleTagClick,
         onTagDelete,
-        onTagColorChange
+        onTagColorChange,
+        onTagNameChange
       }
     )
   ] });
@@ -62537,6 +62568,7 @@ function BodyCellContainer({
   onContentChange,
   onDateFormatChange,
   onDateTimeChange,
+  onTagNameChange,
   onTagAdd,
   onExternalLinkToggle
 }) {
@@ -62614,6 +62646,9 @@ function BodyCellContainer({
   }
   function handleTagDeleteClick(tagId) {
     onTagDelete(columnId, tagId);
+  }
+  function handleTagNameChange(tagId, value) {
+    onTagNameChange(columnId, tagId, value);
   }
   function handleTagClick(tagId) {
     onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
@@ -62805,6 +62840,7 @@ function BodyCellContainer({
               onRemoveTag: handleRemoveTagClick,
               onTagClick: handleTagClick,
               onTagDelete: handleTagDeleteClick,
+              onTagNameChange: handleTagNameChange,
               onClose
             }
           ),
@@ -63381,48 +63417,31 @@ var useFilterRules = (onChange) => {
 };
 
 // src/react/loom-app/app/filter-by-search.ts
-var filterBodyRowsBySearch = (LoomState11, filteredBodyRows, searchText) => {
-  const { columns, bodyCells, bodyRows } = LoomState11.model;
-  const columnMap = /* @__PURE__ */ new Map();
-  columns.forEach((column) => columnMap.set(column.id, column));
-  const rowMap = /* @__PURE__ */ new Map();
-  bodyRows.forEach((row) => rowMap.set(row.id, row));
-  const cellToTagMap = /* @__PURE__ */ new Map();
-  bodyCells.forEach((cell) => {
-    const column = columnMap.get(cell.columnId);
+var filterBodyRowsBySearch = (state, filteredBodyRows, searchText) => {
+  const { columns, bodyCells, bodyRows } = state.model;
+  const cells = bodyCells.map((cell) => {
+    const column = columns.find((c2) => c2.id === cell.columnId);
     if (!column)
       throw new ColumNotFoundError(cell.columnId);
-    const cellTags = column.tags.filter(
-      (tag) => cell.tagIds.includes(tag.id)
-    );
-    cellToTagMap.set(cell.id, cellTags);
+    const row = bodyRows.find((r2) => r2.id === cell.rowId);
+    if (!row)
+      throw new RowNotFoundError(cell.rowId);
+    const tags = column.tags.filter((tag) => cell.tagIds.includes(tag.id));
+    return { cell, column, row, tags };
   });
+  if (searchText === "")
+    return filteredBodyRows;
   return filteredBodyRows.filter((row) => {
-    const rowCells = bodyCells.filter((cell) => cell.rowId === row.id);
-    return rowCells.some((cell) => {
-      const cellTags = cellToTagMap.get(cell.id);
-      if (!cellTags)
-        throw new Error(`Tags not found for cell ${cell.id}`);
-      return doesCellMatch(
-        cell,
-        columnMap,
-        rowMap,
-        cellTags,
-        searchText.toLowerCase()
-      );
+    const filteredCells = cells.filter((cell) => cell.row.id === row.id);
+    return filteredCells.some((cell) => {
+      return doesCellMatch(cell, searchText.toLowerCase());
     });
   });
 };
-var doesCellMatch = (cell, columnMap, rowMap, cellTags, searchText) => {
-  const column = columnMap.get(cell.columnId);
-  if (!column)
-    throw new ColumNotFoundError(cell.columnId);
-  const row = rowMap.get(cell.rowId);
-  if (!row)
-    throw new RowNotFoundError(cell.rowId);
-  const { dateTime, markdown } = cell;
-  const { currencyType, type, dateFormat } = column;
-  const { lastEditedTime, creationTime } = row;
+var doesCellMatch = (cell, searchText) => {
+  const { dateTime, markdown } = cell.cell;
+  const { currencyType, type, dateFormat } = cell.column;
+  const { lastEditedTime, creationTime } = cell.row;
   switch (type) {
     case "text" /* TEXT */:
     case "embed" /* EMBED */:
@@ -63444,7 +63463,7 @@ var doesCellMatch = (cell, columnMap, rowMap, cellTags, searchText) => {
       );
     case "tag" /* TAG */:
     case "multi-tag" /* MULTI_TAG */:
-      return matchTags(cellTags, searchText);
+      return matchTags(cell.tags, searchText);
     default:
       throw new Error("Unsupported cell type");
   }
@@ -65209,6 +65228,14 @@ var useTag = () => {
     });
     doCommand(new TagCellRemoveCommand(cellId, rowId, tagId));
   }
+  function handleTagNameChange(columnId, tagId, name) {
+    logFunc("handleTagNameChange", {
+      columnId,
+      tagId,
+      name
+    });
+    doCommand(new TagUpdateCommand(columnId, tagId, "markdown", name));
+  }
   function handleTagCellMultipleRemove(cellId, rowId, tagIds) {
     logFunc("handleTagCellMultipleRemove", {
       cellId,
@@ -65238,7 +65265,8 @@ var useTag = () => {
     onTagCellRemove: handleTagCellRemove,
     onTagColorChange: handleTagColorChange,
     onTagCellMultipleRemove: handleTagCellMultipleRemove,
-    onTagDeleteClick: handleTagDeleteClick
+    onTagDeleteClick: handleTagDeleteClick,
+    onTagNameChange: handleTagNameChange
   };
 };
 
@@ -65490,11 +65518,7 @@ function useFocus() {
   const logger = useLogger();
   const { reactAppId } = useAppMount();
   const { loomState } = useLoomState();
-  const { onRequestCloseTop, topMenu } = useMenuOperations();
-  function handleClick() {
-    logger("useFocus handleClick");
-    onRequestCloseTop();
-  }
+  const { topMenu } = useMenuOperations();
   function handleKeyDown(e) {
     logger("useFocus handleKeyDown");
     if (e.key === "Tab") {
@@ -65507,7 +65531,7 @@ function useFocus() {
       if (focusableEls.length === 0)
         return;
       focusNextElement(menuEl, focusableEls);
-    } else if (e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "ArrowLeft" || e.key === "ArrowRight") {
+    } else if (isArrowKeyPressed(e, topMenu !== null)) {
       const layerEl = getTopMenuEl(topMenu, reactAppId);
       if (!layerEl)
         return;
@@ -65571,7 +65595,6 @@ function useFocus() {
     }
   }
   return {
-    onFocusClick: handleClick,
     onFocusKeyDown: handleKeyDown
   };
 }
@@ -65674,11 +65697,12 @@ function App10() {
     setLoomState
   } = useLoomState();
   const tableRef = import_react56.default.useRef(null);
+  const { onRequestCloseTop } = useMenuOperations();
   useExportEvents(loomState);
   useRowEvents();
   useColumnEvents();
   useMenuEvents();
-  const { onFocusClick, onFocusKeyDown } = useFocus();
+  const { onFocusKeyDown } = useFocus();
   const { onFrozenColumnsChange } = useTableSettings();
   const {
     onRuleAddClick,
@@ -65725,7 +65749,8 @@ function App10() {
     onTagCellRemove,
     onTagCellMultipleRemove,
     onTagColorChange,
-    onTagDeleteClick
+    onTagDeleteClick,
+    onTagNameChange
   } = useTag();
   const firstColumnId = useUUID();
   const lastColumnId = useUUID();
@@ -65740,7 +65765,7 @@ function App10() {
   function handleClick(e) {
     logger("App handleClick");
     e.stopPropagation();
-    onFocusClick();
+    onRequestCloseTop();
   }
   function handleKeyDown(e) {
     logger("App handleKeyDown");
@@ -65767,12 +65792,15 @@ function App10() {
     settings
   } = loomState.model;
   const { numFrozenColumns } = settings;
+  console.log(loomState.model.bodyRows);
   let filteredBodyRows = filterBodyRowsByRules2(loomState);
+  console.log(filteredBodyRows);
   filteredBodyRows = filterBodyRowsBySearch(
     loomState,
     filteredBodyRows,
     searchText
   );
+  console.log(filteredBodyRows);
   const visibleColumns = columns.filter((column) => column.isVisible);
   let className = "dataloom-app";
   if (isMarkdownView)
@@ -65967,7 +65995,8 @@ function App10() {
                           onDateTimeChange: onCellDateTimeChange,
                           onDateFormatChange,
                           onTagAdd,
-                          onExternalLinkToggle
+                          onExternalLinkToggle,
+                          onTagNameChange
                         },
                         cellId
                       )
