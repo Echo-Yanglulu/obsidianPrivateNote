@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -133,6 +133,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "笔记",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/笔记.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":36},\"to\":{\"line\":15,\"ch\":36}},\"scroll\":9.333998005982053}"
+                    },
+                    {
                       "title": "学习",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -233,7 +239,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/笔记.md",
+                    "file": "笔记/学习/学习.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -885,7 +891,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -911,7 +917,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -938,7 +944,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1238,18 +1244,18 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "5b6a3864c2d565e1",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习/概念/笔记.md",
+    "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/手臂.md",
-    "笔记/学习/概念/笔记.md",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
     "笔记/学习/学习.md",
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/学习/概念/快速阅读.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/学习/概念/观点.md",
