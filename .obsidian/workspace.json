@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/行为/健身/手臂.md"
                   }
                 }
               }
@@ -276,6 +276,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":10},\"to\":{\"line\":124,\"ch\":10}},\"scroll\":107.28508771929825}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":37},\"to\":{\"line\":20,\"ch\":37}},\"scroll\":12.107720880870257}"
                     },
                     {
@@ -427,7 +439,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
+                    "file": "笔记/行为/健身/手臂.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -861,7 +873,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -887,7 +899,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/手臂.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -914,7 +926,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/手臂.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1214,13 +1226,15 @@
       "notion-like-tables:Create new loom": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/概念/快速阅读.md",
+    "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/腿部.md",
     "笔记/学习/学习.md",
+    "笔记/学习/概念/快速阅读.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/学习/概念/观点.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1236,8 +1250,6 @@
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/学习/超级学习.md",
     "笔记/学习/极简主义.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/行为/健身/健身.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/内心/心魔.md",
     "笔记/工具/通用概念/人的属性.md",
