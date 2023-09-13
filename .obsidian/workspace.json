@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/理解.md"
+                    "file": "笔记/学习/概念/观点.md"
                   }
                 }
               }
@@ -131,6 +131,12 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "理解",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":19},\"to\":{\"line\":73,\"ch\":19}},\"scroll\":54.13629242819843}"
                     },
                     {
                       "title": "学习",
@@ -245,7 +251,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/理解.md",
+                    "file": "笔记/学习/概念/观点.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -793,7 +799,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/理解.md",
+                        "file": "笔记/学习/概念/观点.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -814,7 +820,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/概念/理解.md"
+                        "file": "笔记/学习/概念/观点.md"
                       }
                     }
                   }
@@ -840,7 +846,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/理解.md",
+                        "file": "笔记/学习/概念/观点.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1155,8 +1161,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/概念/比喻.md",
     "笔记/学习/概念/理解.md",
+    "笔记/学习/概念/比喻.md",
     "笔记/学习/概念/费曼技巧.md",
     "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
