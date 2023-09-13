@@ -8,67 +8,35 @@
         "type": "split",
         "children": [
           {
-            "id": "4125f190c0f3ec57",
-            "type": "split",
-            "dimension": 13.084112149532707,
+            "id": "86ffae0d27173b9c",
+            "type": "tabs",
+            "dimension": 13.078651685393258,
             "children": [
               {
-                "id": "86ffae0d27173b9c",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "5b6a3864c2d565e1",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "outline",
-                      "state": {
-                        "file": "笔记/学习/学习.md"
-                      }
+                "id": "5b6a3864c2d565e1",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
                     }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "笔记/行为/健身/部位/肩部.md"
                   }
-                ]
-              },
-              {
-                "id": "3ba6963fcb30ec74",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "ecefb5c1f61a787d",
-                    "type": "leaf",
-                    "pane-relief:history-v1": {
-                      "pos": 0,
-                      "stack": [
-                        {
-                          "state": "{}",
-                          "eState": "{}"
-                        }
-                      ]
-                    },
-                    "state": {
-                      "type": "file-properties",
-                      "state": {
-                        "file": "笔记/学习/学习.md"
-                      }
-                    }
-                  }
-                ]
+                }
               }
-            ],
-            "direction": "horizontal"
+            ]
           },
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 73.16421895861147,
+            "dimension": 70.56179775280899,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -301,25 +269,6 @@
                 }
               },
               {
-                "id": "db6eb5f308773950",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.4.11"
-                  }
-                }
-              },
-              {
                 "id": "4501c58b69f6ecbe",
                 "type": "leaf",
                 "pane-relief:history-v1": {
@@ -328,6 +277,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":18},\"to\":{\"line\":126,\"ch\":18}},\"scroll\":109.15312046444122}"
+                    },
+                    {
+                      "title": "力量训练",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":32},\"to\":{\"line\":69,\"ch\":32}},\"scroll\":55.849495239658566}"
                     },
                     {
                       "title": "健身",
@@ -520,7 +481,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md",
+                    "file": "笔记/行为/健身/部位/肩部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -730,12 +691,12 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           },
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 13.751668891855807,
+            "dimension": 16.359550561797754,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -756,13 +717,33 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/肩部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
                     }
+                  },
+                  {
+                    "id": "c054f14f43bd7c76",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "file-properties",
+                      "state": {
+                        "file": "笔记/行为/健身/部位/肩部.md"
+                      }
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -783,7 +764,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/行为/健身/部位/肩部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1093,18 +1074,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/智慧.md",
-    "笔记/学习/学习.md",
-    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/训练模式/力量训练.md",
+    "笔记/学习/学习.md",
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/诗词/诗歌.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+    "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/内心/心魔.md",
     "笔记/前端/前端工作.md",
@@ -1127,7 +1109,6 @@
     "笔记/工具/纳瓦尔宝典.md",
     "笔记/工具/思考/记忆/注意力.md",
     "笔记/学习/超级学习.md",
-    "笔记/学习/极简主义.md",
     "笔记/前端/assets/Pasted image 20230910153156.png",
     "笔记/前端/assets/Pasted image 20230910153121.png",
     "笔记/前端/assets/Pasted image 20230910152923.png",
