@@ -282,6 +282,30 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":105.21491228070175}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":19},\"to\":{\"line\":88,\"ch\":19}},\"scroll\":66.518444666002}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":10},\"to\":{\"line\":116,\"ch\":10}},\"scroll\":105.21491228070175}"
+                    },
+                    {
+                      "title": "腿部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":20},\"to\":{\"line\":158,\"ch\":20}},\"scroll\":137.536889332004}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":0},\"to\":{\"line\":123,\"ch\":0}},\"scroll\":105.22039473684211}"
                     },
                     {
@@ -1125,9 +1149,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/部位/胸部.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/学习/学习.md",
     "笔记/行为/健身/部位/肩部.md",
     "笔记/工具/通用概念/智慧.md",
@@ -1154,7 +1179,6 @@
     "笔记/学习/概念/事实.md",
     "笔记/行为/写作/写作.md",
     "笔记/工具/纳瓦尔宝典.md",
-    "笔记/工具/思考/记忆/注意力.md",
     "笔记/前端/assets/Pasted image 20230910153156.png",
     "笔记/前端/assets/Pasted image 20230910153121.png",
     "笔记/前端/assets/Pasted image 20230910152923.png",
