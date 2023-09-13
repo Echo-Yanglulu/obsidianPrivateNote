@@ -8,30 +8,62 @@
         "type": "split",
         "children": [
           {
-            "id": "86ffae0d27173b9c",
-            "type": "tabs",
+            "id": "4125f190c0f3ec57",
+            "type": "split",
             "dimension": 13.084112149532707,
             "children": [
               {
-                "id": "5b6a3864c2d565e1",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "86ffae0d27173b9c",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "5b6a3864c2d565e1",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "outline",
+                      "state": {
+                        "file": "笔记/学习/学习.md"
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md"
                   }
-                }
+                ]
+              },
+              {
+                "id": "3ba6963fcb30ec74",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "ecefb5c1f61a787d",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "file-properties",
+                      "state": {
+                        "file": "笔记/学习/学习.md"
+                      }
+                    }
+                  }
+                ]
               }
-            ]
+            ],
+            "direction": "horizontal"
           },
           {
             "id": "e67a4c566e0eea1a",
@@ -698,7 +730,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 3
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -724,7 +756,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -751,7 +783,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1061,18 +1093,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3d5d3c48a1694c5e",
+  "active": "ac038c08bf5333e5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/智慧.md",
+    "笔记/学习/学习.md",
+    "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/部位/腿部.md",
-    "笔记/工具/通用概念/智慧.md",
-    "笔记/学习/学习.md",
     "笔记/内心/心魔.md",
     "笔记/前端/前端工作.md",
     "笔记/学习/概念/笔记.md",
