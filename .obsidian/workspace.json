@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/观点.md"
+                    "file": "笔记/学习/概念/理解.md"
                   }
                 }
               }
@@ -131,6 +131,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "学习",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":445,\"ch\":17},\"to\":{\"line\":445,\"ch\":17}},\"scroll\":423.01201044386426}"
+                    },
+                    {
+                      "title": "观点",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/观点.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":18},\"to\":{\"line\":32,\"ch\":18}},\"scroll\":12.892543859649123}"
                     },
                     {
                       "title": "理解",
@@ -251,7 +263,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/观点.md",
+                    "file": "笔记/学习/概念/理解.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -799,7 +811,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/观点.md",
+                        "file": "笔记/学习/概念/理解.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -820,7 +832,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/概念/观点.md"
+                        "file": "笔记/学习/概念/理解.md"
                       }
                     }
                   }
@@ -846,7 +858,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/观点.md",
+                        "file": "笔记/学习/概念/理解.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1161,10 +1173,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
+    "笔记/学习/概念/观点.md",
+    "笔记/工具/通用概念/事物.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/概念/比喻.md",
     "笔记/学习/概念/费曼技巧.md",
-    "笔记/学习/学习.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/胸部.md",
@@ -1185,12 +1199,10 @@
     "笔记/前端/assets/Pasted image 20230912141841.png",
     "笔记/学习/概念/快速阅读.md",
     "笔记/工具/通用概念/提问.md",
-    "笔记/学习/概念/观点.md",
     "笔记/前端/assets/Pasted image 20230912001041.png",
     "笔记/工具/通用概念/本质.md",
     "笔记/学习/概念/笔记流.md",
     "笔记/西方文明简史/陈述句.md",
-    "笔记/学习/概念/陈述.md",
     "笔记/前端/assets/Pasted image 20230910153156.png",
     "笔记/前端/assets/Pasted image 20230910153121.png",
     "笔记/前端/assets/Pasted image 20230910152923.png",
