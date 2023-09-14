@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/健身.md"
                   }
                 }
               }
@@ -629,13 +629,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "力量训练",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":10},\"to\":{\"line\":68,\"ch\":10}},\"scroll\":63.5486}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md",
+                    "file": "笔记/行为/健身/健身.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -845,7 +851,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 6
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -871,7 +877,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -892,7 +898,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/行为/健身/健身.md"
                       }
                     }
                   }
@@ -917,7 +923,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/健身.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1227,15 +1233,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "45a15abf45941491",
+  "active": "623468c97e57e94a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/健身.md",
-    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/部位/背部.md",
     "笔记/行为/健身/部位/胸部.md",
     "笔记/学习/概念/理解.md",
