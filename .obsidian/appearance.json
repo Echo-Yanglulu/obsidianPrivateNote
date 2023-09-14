@@ -1,6 +1,6 @@
 {
   "baseFontSize": 19,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "translucency": false,
   "enabledCssSnippets": [
     "Mermaid",
@@ -22,6 +22,6 @@
   "textFontFamily": "JetBrains Mono NL",
   "nativeMenus": false,
   "showViewHeader": true,
-  "cssTheme": "Sanctum",
+  "cssTheme": "Dracula + LYT",
   "monospaceFontFamily": "JetBrains Mono"
 }
