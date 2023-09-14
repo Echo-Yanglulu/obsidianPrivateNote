@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md"
+                    "file": "笔记/行为/健身/训练模式/力量训练.md"
                   }
                 }
               }
@@ -306,6 +306,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":105,\"ch\":13},\"to\":{\"line\":105,\"ch\":13}},\"scroll\":99.39035087719299}"
+                    },
+                    {
+                      "title": "胸部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":8},\"to\":{\"line\":87,\"ch\":8}},\"scroll\":80.60518444666002}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":4},\"to\":{\"line\":109,\"ch\":4}},\"scroll\":92.11129385964912}"
                     },
                     {
@@ -565,7 +577,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/胸部.md",
+                    "file": "笔记/行为/健身/训练模式/力量训练.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -823,7 +835,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -844,12 +856,11 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md"
+                        "file": "笔记/行为/健身/训练模式/力量训练.md"
                       }
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -870,7 +881,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/胸部.md",
+                        "file": "笔记/行为/健身/训练模式/力量训练.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1187,6 +1198,7 @@
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腿部.md",
+    "笔记/行为/健身/部位/胸部.md",
     "笔记/学习/概念/理解.md",
     "笔记/学习/学习.md",
     "笔记/学习/概念/观点.md",
@@ -1194,7 +1206,6 @@
     "笔记/学习/概念/比喻.md",
     "笔记/学习/概念/费曼技巧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/行为/健身/部位/胸部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/部位/肩部.md",
     "笔记/工具/通用概念/智慧.md",
