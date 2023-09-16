@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/手臂.md"
+                    "file": "笔记/行为/健身/部位/肩部.md"
                   }
                 }
               }
@@ -307,6 +307,18 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":0}"
+                    },
+                    {
+                      "title": "手臂",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":8},\"to\":{\"line\":49,\"ch\":8}},\"scroll\":32.23587158397453}"
                     },
                     {
                       "title": "健身",
@@ -631,7 +643,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/手臂.md",
+                    "file": "笔记/行为/健身/部位/肩部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -901,7 +913,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/手臂.md",
+                        "file": "笔记/行为/健身/部位/肩部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -922,7 +934,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/行为/健身/手臂.md"
+                        "file": "笔记/行为/健身/部位/肩部.md"
                       }
                     }
                   }
@@ -947,7 +959,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/手臂.md",
+                        "file": "笔记/行为/健身/部位/肩部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1263,6 +1275,7 @@
   },
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
+    "笔记/行为/健身/手臂.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/记忆/注意力.md",
@@ -1288,7 +1301,6 @@
     "笔记/学习/概念/笔记.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/前端/设计模式/OO设计模式.md",
-    "笔记/行为/健身/手臂.md",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
     "笔记/前端/assets/Pasted image 20230912001041.png",
