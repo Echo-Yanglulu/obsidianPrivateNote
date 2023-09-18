@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/恐惧.md"
+                    "file": "笔记/工具/科学/价值观.md"
                   }
                 }
               }
@@ -1021,9 +1021,9 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md",
-                        "linksCollapsed": false,
-                        "unlinkedCollapsed": true
+                        "file": "笔记/工具/科学/价值观.md",
+                        "linksCollapsed": true,
+                        "unlinkedCollapsed": false
                       }
                     }
                   },
@@ -1042,7 +1042,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md"
+                        "file": "笔记/工具/科学/价值观.md"
                       }
                     }
                   }
@@ -1067,7 +1067,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md",
+                        "file": "笔记/工具/科学/价值观.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1377,12 +1377,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2c8717da9de98463",
+  "active": "082d76a53863da1f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/恐惧.md",
     "笔记/内心/匹夫.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
@@ -1407,7 +1408,6 @@
     "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
-    "笔记/内心/心魔.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
