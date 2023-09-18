@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -682,6 +682,18 @@
                       "title": "健身",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":140.21546052631578}"
+                    },
+                    {
+                      "title": "肩部",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":46,\"ch\":14},\"to\":{\"line\":46,\"ch\":14}}}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                       "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":144.15287856797292}"
                     },
                     {
@@ -707,7 +719,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/部位/肩部.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -977,7 +989,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1003,7 +1015,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1024,7 +1036,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md"
+                        "file": "笔记/行为/健身/部位/腿部.md"
                       }
                     }
                   }
@@ -1049,7 +1061,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1359,13 +1371,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "623468c97e57e94a",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/肩部.md",
+    "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/匹夫.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
@@ -1389,7 +1402,6 @@
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/内心/心魔.md",
     "笔记/工具/思考/思维概念/逻辑.md",
-    "笔记/前端/库、框架/UI库/react.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
