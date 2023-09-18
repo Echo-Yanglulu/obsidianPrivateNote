@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/训练模式/力量训练.md"
+                    "file": "笔记/工具/通用概念/恐惧.md"
                   }
                 }
               }
@@ -286,8 +286,14 @@
                 "id": "45a15abf45941491",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "匹夫",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/匹夫.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":4},\"to\":{\"line\":0,\"ch\":4}}}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -989,7 +995,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1015,7 +1021,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -1036,7 +1042,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md"
+                        "file": "笔记/工具/通用概念/恐惧.md"
                       }
                     }
                   }
@@ -1061,7 +1067,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/训练模式/力量训练.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1371,17 +1377,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "2c8717da9de98463",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/行为/健身/部位/腿部.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/匹夫.md",
+    "笔记/行为/健身/部位/腿部.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/肩部.md",
-    "笔记/内心/匹夫.md",
     "笔记/前端/编程语言/JS/基本概念/数据类型.md",
     "笔记/前端/基础知识/计算机网络/URI.md",
     "笔记/学习/学习.md",
