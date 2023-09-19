@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/通用概念/恐惧.md"
                   }
                 }
               }
@@ -1021,7 +1021,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1042,11 +1042,12 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/学习.md"
+                        "file": "笔记/工具/通用概念/恐惧.md"
                       }
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -1067,7 +1068,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/通用概念/恐惧.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1377,13 +1378,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ac038c08bf5333e5",
+  "active": "d81e131b12ebf729",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/学习/极简主义.md",
     "笔记/学习/学习.md",
+    "笔记/学习/极简主义.md",
     "笔记/学习/概念/理解.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/科学/价值观.md",
