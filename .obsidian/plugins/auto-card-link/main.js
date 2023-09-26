@@ -372,6 +372,9 @@ var CodeBlockProcessor = class {
           el.appendChild(this.genErrorEl(error.message));
         } else if (error instanceof YamlParseError) {
           el.appendChild(this.genErrorEl(error.message));
+        } else if (error instanceof TypeError) {
+          el.appendChild(this.genErrorEl("internal links must be surrounded by quotes."));
+          console.log(error);
         } else {
           console.log("Code Block: cardlink unknown error", error);
         }
@@ -440,6 +443,8 @@ var CodeBlockProcessor = class {
     hostEl.addClass("auto-card-link-host");
     mainEl.appendChild(hostEl);
     if (data.favicon) {
+      if (!CheckIf.isUrl(data.favicon))
+        data.favicon = this.getLocalImagePath(data.favicon);
       const faviconEl = document.createElement("img");
       faviconEl.addClass("auto-card-link-favicon");
       faviconEl.setAttr("src", data.favicon);
@@ -451,6 +456,8 @@ var CodeBlockProcessor = class {
       hostEl.appendChild(hostNameEl);
     }
     if (data.image) {
+      if (!CheckIf.isUrl(data.image))
+        data.image = this.getLocalImagePath(data.image);
       const thumbnailEl = document.createElement("img");
       thumbnailEl.addClass("auto-card-link-thumbnail");
       thumbnailEl.setAttr("src", data.image);
@@ -463,6 +470,14 @@ ${data.url}`).onClick(() => {
       new import_obsidian3.Notice("URL copied to your clipboard");
     });
     return containerEl;
+  }
+  getLocalImagePath(link) {
+    var _a;
+    link = link.slice(2, -2);
+    const imageRelativePath = (_a = this.app.metadataCache.getFirstLinkpathDest((0, import_obsidian3.getLinkpath)(link), "")) == null ? void 0 : _a.path;
+    if (!imageRelativePath)
+      return link;
+    return this.app.vault.adapter.getResourcePath(imageRelativePath);
   }
 };
 

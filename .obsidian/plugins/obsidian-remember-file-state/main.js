@@ -94,7 +94,8 @@ function around1(obj, method, createWrapper) {
 // src/settings.ts
 var import_obsidian = __toModule(require("obsidian"));
 var DEFAULT_SETTINGS = {
-  rememberMaxFiles: 20
+  rememberMaxFiles: 20,
+  persistStates: true
 };
 var RememberFileStatePluginSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app2, plugin) {
@@ -114,6 +115,10 @@ var RememberFileStatePluginSettingTab = class extends import_obsidian.PluginSett
         }
       }));
     });
+    new import_obsidian.Setting(containerEl).setName("Save states").setDesc("Whether to save the state of all open files to disk").addToggle((toggle) => toggle.setValue(this.plugin.settings.persistStates).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.persistStates = value;
+      yield this.plugin.saveSettings();
+    })));
   }
 };
 
@@ -121,6 +126,7 @@ var RememberFileStatePluginSettingTab = class extends import_obsidian.PluginSett
 var DEFAULT_DATA = {
   rememberedFiles: {}
 };
+var STATE_DB_PATH = ".obsidian/plugins/obsidian-remember-file-state/states.json";
 var WarningModal = class extends import_obsidian2.Modal {
   constructor(app2, title, message) {
     super(app2);
@@ -142,19 +148,35 @@ var RememberFileStatePlugin = class extends import_obsidian2.Plugin {
     this._lastOpenFiles = {};
     this._viewUninstallers = {};
     this._globalUninstallers = [];
+    this.onLayoutReady = function() {
+      this.app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
+        var view = leaf.view;
+        this.registerOnUnloadFile(view);
+        const viewId = this.getUniqueViewId(view);
+        if (viewId != void 0) {
+          this._lastOpenFiles[viewId] = view.file.path;
+        }
+        const existingFile = this.data.rememberedFiles[view.file.path];
+        if (existingFile) {
+          const savedStateData = existingFile.stateData;
+          console.debug("RememberFileState: restoring saved state for:", view.file.path, savedStateData);
+          this.restoreState(savedStateData, view);
+        }
+      });
+    };
     this.registerOnUnloadFile = function(view) {
       var filePath = view.file.path;
       var viewId = this.getUniqueViewId(view, true);
       if (viewId in this._viewUninstallers) {
         return;
       }
-      console.debug(`RememberedFileState: registering callback on view ${viewId}`, filePath);
+      console.debug(`RememberFileState: registering callback on view ${viewId}`, filePath);
       const _this = this;
       var uninstall = around(view, {
         onUnloadFile: function(next) {
           return function(unloaded) {
             return __async(this, null, function* () {
-              _this.rememberFileState(unloaded, this);
+              _this.rememberFileState(this, unloaded);
               return yield next.call(this, unloaded);
             });
           };
@@ -164,57 +186,64 @@ var RememberFileStatePlugin = class extends import_obsidian2.Plugin {
       view.register(() => {
         var plugin = app.plugins.getPlugin("obsidian-remember-file-state");
         if (plugin) {
-          console.debug(`RememberedFileState: unregistering view ${viewId} callback`, filePath);
+          console.debug(`RememberFileState: unregistering view ${viewId} callback`, filePath);
           delete plugin._viewUninstallers[viewId];
           delete plugin._lastOpenFiles[viewId];
           uninstall();
         } else {
-          console.debug("RememberedFileState: plugin was unloaded, ignoring unregister");
+          console.debug("RememberFileState: plugin was unloaded, ignoring unregister");
         }
       });
     };
     this.onFileOpen = (openedFile) => __async(this, null, function* () {
-      if (openedFile) {
-        var activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-        if (activeView) {
-          this.registerOnUnloadFile(activeView);
-          var isRealFileOpen = true;
-          const viewId = this.getUniqueViewId(activeView);
-          if (viewId != void 0) {
-            const lastOpenFileInView = this._lastOpenFiles[viewId];
-            isRealFileOpen = lastOpenFileInView != openedFile.path;
-            this._lastOpenFiles[viewId] = openedFile.path;
-          }
-          if (!this._suppressNextFileOpen && !this.isFileMultiplyOpen(openedFile) && isRealFileOpen) {
-            try {
-              this.restoreFileState(openedFile, activeView);
-            } catch (err) {
-              console.error("RememberedFileState: couldn't restore file state: ", err);
-            }
-          } else {
-            console.debug("RememberedFileState: not restoring file state because:");
-            if (this._suppressNextFileOpen) {
-              console.debug("...we were told to not do it.");
-            } else if (this.isFileMultiplyOpen(openedFile)) {
-              console.debug("...it's open in multiple panes.");
-            } else if (!isRealFileOpen) {
-              console.debug("...that file was already open in this pane.");
-            } else {
-              console.debug("...unknown reason.");
-            }
-          }
+      if (!openedFile) {
+        return;
+      }
+      var shouldSuppressThis = this._suppressNextFileOpen;
+      this._suppressNextFileOpen = false;
+      if (shouldSuppressThis) {
+        console.debug("RememberFileState: not restoring file state because of explicit suppression");
+        return;
+      }
+      var activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
+      if (!activeView) {
+        console.debug("RememberFileState: not restoring file state, it's not a markdown view");
+        return;
+      }
+      this.registerOnUnloadFile(activeView);
+      var isRealFileOpen = true;
+      const viewId = this.getUniqueViewId(activeView);
+      if (viewId != void 0) {
+        const lastOpenFileInView = this._lastOpenFiles[viewId];
+        isRealFileOpen = lastOpenFileInView != openedFile.path;
+        this._lastOpenFiles[viewId] = openedFile.path;
+      }
+      if (!isRealFileOpen) {
+        console.debug("RememberFileState: not restoring file state, that file was already open in this pane.");
+        return;
+      }
+      try {
+        const existingFile = this.data.rememberedFiles[openedFile.path];
+        if (existingFile) {
+          const savedStateData = existingFile.stateData;
+          console.debug("RememberFileState: restoring saved state for:", openedFile.path, savedStateData);
+          this.restoreState(savedStateData, activeView);
         } else {
-          console.debug("RememberedFileState: not restoring anything, it's not a markdown view");
+          const otherPaneState = this.findFileStateFromOtherPane(openedFile, activeView);
+          if (otherPaneState) {
+            console.debug("RememberFileState: restoring other pane state for:", openedFile.path, otherPaneState);
+            this.restoreState(otherPaneState, activeView);
+          }
         }
-        this._suppressNextFileOpen = false;
+      } catch (err) {
+        console.error("RememberFileState: couldn't restore file state: ", err);
       }
     });
-    this.rememberFileState = (file, view) => __async(this, null, function* () {
-      const scrollInfo = { top: view.currentMode.getScroll(), left: 0 };
-      const cm6editor = view.editor;
-      const stateSelection = cm6editor.cm.state.selection;
-      const stateSelectionJSON = stateSelection !== void 0 ? stateSelection.toJSON() : "";
-      const stateData = { "scrollInfo": scrollInfo, "selection": stateSelectionJSON };
+    this.rememberFileState = (view, file) => __async(this, null, function* () {
+      const stateData = this.getState(view);
+      if (file === void 0) {
+        file = view.file;
+      }
       var existingFile = this.data.rememberedFiles[file.path];
       if (existingFile) {
         existingFile.lastSavedTime = Date.now();
@@ -228,32 +257,37 @@ var RememberFileStatePlugin = class extends import_obsidian2.Plugin {
         this.data.rememberedFiles[file.path] = newFileState;
         this.forgetExcessFiles();
       }
-      console.debug("RememberedFileState: remembered state for:", file.path, stateData);
+      console.debug("RememberFileState: remembered state for:", file.path, stateData);
     });
-    this.restoreFileState = function(file, view) {
-      const existingFile = this.data.rememberedFiles[file.path];
-      if (existingFile) {
-        console.debug("RememberedFileState: restoring state for:", file.path, existingFile.stateData);
-        const stateData = existingFile.stateData;
-        view.currentMode.applyScroll(stateData.scrollInfo.top);
-        if (stateData.selection != "") {
-          const cm6editor = view.editor;
-          var transaction = cm6editor.cm.state.update({
-            selection: import_state.EditorSelection.fromJSON(stateData.selection)
-          });
-          cm6editor.cm.dispatch(transaction);
-        }
+    this.getState = function(view) {
+      const scrollInfo = { top: view.currentMode.getScroll(), left: 0 };
+      const cm6editor = view.editor;
+      const stateSelection = cm6editor.cm.state.selection;
+      const stateSelectionJSON = stateSelection !== void 0 ? stateSelection.toJSON() : void 0;
+      const stateData = { "scrollInfo": scrollInfo, "selection": stateSelectionJSON };
+      return stateData;
+    };
+    this.restoreState = function(stateData, view) {
+      view.currentMode.applyScroll(stateData.scrollInfo.top);
+      if (stateData.selection !== void 0) {
+        const cm6editor = view.editor;
+        var transaction = cm6editor.cm.state.update({
+          selection: import_state.EditorSelection.fromJSON(stateData.selection)
+        });
+        cm6editor.cm.dispatch(transaction);
       }
     };
-    this.isFileMultiplyOpen = function(file) {
-      var numFound = 0;
-      this.app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
-        const filePath = leaf.view.file.path;
-        if (filePath == file.path) {
-          ++numFound;
+    this.findFileStateFromOtherPane = function(file, activeView) {
+      var otherView = null;
+      this.app.workspace.getLeavesOfType("markdown").every((leaf) => {
+        var curView = leaf.view;
+        if (curView != activeView && curView.file.path == file.path && this.getUniqueViewId(curView) >= 0) {
+          otherView = curView;
+          return false;
         }
-      });
-      return numFound >= 2;
+        return true;
+      }, this);
+      return otherView ? this.getState(otherView) : null;
     };
     this.forgetExcessFiles = function() {
       const keepMax = this.settings.rememberMaxFiles;
@@ -297,17 +331,43 @@ var RememberFileStatePlugin = class extends import_obsidian2.Plugin {
     this.onFileDelete = (file) => __async(this, null, function* () {
       delete this.data.rememberedFiles[file.path];
     });
+    this.onAppQuit = (tasks) => __async(this, null, function* () {
+      const _this = this;
+      tasks.addPromise(_this.rememberAllOpenedFileStates().then(() => _this.writeStateDatabase(STATE_DB_PATH)));
+    });
+    this.rememberAllOpenedFileStates = () => __async(this, null, function* () {
+      this.app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
+        const view = leaf.view;
+        this.rememberFileState(view);
+      });
+    });
+    this.writeStateDatabase = (path) => __async(this, null, function* () {
+      const fs = this.app.vault.adapter;
+      const jsonDb = JSON.stringify(this.data);
+      yield fs.write(path, jsonDb);
+    });
+    this.readStateDatabase = (path) => __async(this, null, function* () {
+      const fs = this.app.vault.adapter;
+      if (yield fs.exists(path)) {
+        const jsonDb = yield fs.read(path);
+        this.data = JSON.parse(jsonDb);
+        const numLoaded = Object.keys(this.data.rememberedFiles).length;
+        console.debug(`RememberFileState: read ${numLoaded} record from state database.`);
+      }
+    });
   }
   onload() {
     return __async(this, null, function* () {
       console.log("RememberFileState: loading plugin");
       yield this.loadSettings();
       this.data = Object.assign({}, DEFAULT_DATA);
+      yield this.readStateDatabase(STATE_DB_PATH);
       this.registerEvent(this.app.workspace.on("file-open", this.onFileOpen));
+      this.registerEvent(this.app.workspace.on("quit", this.onAppQuit));
       this.registerEvent(this.app.vault.on("rename", this.onFileRename));
       this.registerEvent(this.app.vault.on("delete", this.onFileDelete));
-      this.app.workspace.getLeavesOfType("markdown").forEach((leaf) => {
-        this.registerOnUnloadFile(leaf.view);
+      this.app.workspace.onLayoutReady(() => {
+        this.onLayoutReady();
       });
       const _this = this;
       var uninstall = around(this.app.workspace, {
@@ -335,18 +395,18 @@ var RememberFileStatePlugin = class extends import_obsidian2.Plugin {
       if (viewId != void 0) {
         var uninstaller = this._viewUninstallers[viewId];
         if (uninstaller) {
-          console.debug(`RememberedFileState: uninstalling hooks for view ${viewId}`, filePath);
+          console.debug(`RememberFileState: uninstalling hooks for view ${viewId}`, filePath);
           uninstaller(leaf.view);
           ++numViews;
         } else {
-          console.debug("RememberedFileState: found markdown view without an uninstaller!", filePath);
+          console.debug("RememberFileState: found markdown view without an uninstaller!", filePath);
         }
         this.clearUniqueViewId(leaf.view);
       } else {
-        console.debug("RememberedFileState: found markdown view without an ID!", filePath);
+        console.debug("RememberFileState: found markdown view without an ID!", filePath);
       }
     });
-    console.debug(`RememberedFileState: unregistered ${numViews} view callbacks`);
+    console.debug(`RememberFileState: unregistered ${numViews} view callbacks`);
     this._viewUninstallers = {};
     this._lastOpenFiles = {};
     this._globalUninstallers.forEach((cb) => cb());
