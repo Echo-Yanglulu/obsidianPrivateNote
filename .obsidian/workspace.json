@@ -1356,7 +1356,6 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "obsidian-journey-plugin:Find Journey": false,
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
@@ -1368,8 +1367,9 @@
       "random-note:开始漫游笔记": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "notion-like-tables:Create new loom": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "templater-obsidian:Templater": false,
+      "notion-like-tables:Create new loom": false
     }
   },
   "active": "f1c9e830d5e356be",
