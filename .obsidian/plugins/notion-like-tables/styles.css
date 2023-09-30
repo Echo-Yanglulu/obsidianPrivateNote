@@ -253,15 +253,20 @@ svg.dataloom-svg--xl {
   color: var(--text-error);
 }
 
-/* src/react/error-app/styles.css */
-.dataloom-error-app {
+/* src/react/shared/divider/styles.css */
+.dataloom-hr {
+  margin: 0;
+}
+
+/* src/react/shared/error-display/styles.css */
+.dataloom-error {
   background-color: var(--background-secondary);
   overflow: scroll;
 }
-.dataloom-error-app--embedded {
+.dataloom-error--embedded-app {
   height: 100%;
 }
-.dataloom-error-app__message {
+.dataloom-error__message {
   width: 100%;
   max-height: 150px;
   overflow: scroll;
@@ -286,11 +291,6 @@ svg.dataloom-svg--xl {
   --dataloom-font-size--md: 1rem;
   --dataloom-font-size--lg: 1.1rem;
   --dataloom-font-size--xl: 1.3rem;
-}
-
-/* src/react/shared/divider/styles.css */
-.dataloom-hr {
-  margin: 0;
 }
 
 /* src/react/shared/flex/styles.css */
@@ -917,4 +917,16 @@ svg.dataloom-svg--xl {
   cursor: pointer;
   overflow: hidden;
   padding: var(--dataloom-cell-spacing-x) var(--dataloom-cell-spacing-y);
+}
+
+/* src/react/shared/error-boundary/styles.css */
+.dataloom-error-boundary {
+  background-color: var(--background-secondary);
+  overflow: scroll;
+}
+.dataloom-error-boundary__message {
+  width: 100%;
+  max-height: 150px;
+  overflow: scroll;
+  text-align: left;
 }

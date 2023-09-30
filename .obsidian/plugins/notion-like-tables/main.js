@@ -2350,9 +2350,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React57 = require_react();
+        var React58 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React57.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React58.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2401,7 +2401,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment21 = 7;
+        var Fragment22 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3478,7 +3478,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment21:
+            case Fragment22:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3873,7 +3873,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React57.Children.forEach(props.children, function(child) {
+                React58.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -12034,7 +12034,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React57.Component().refs;
+        var emptyRefsObject = new React58.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -12843,7 +12843,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment21) {
+            if (current2 === null || current2.tag !== Fragment22) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13245,7 +13245,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment21) {
+                  if (child.tag === Fragment22) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17351,7 +17351,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment21:
+            case Fragment22:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17623,7 +17623,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment21:
+            case Fragment22:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21837,7 +21837,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment21, elements, key, mode);
+          var fiber = createFiber(Fragment22, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -22947,1892 +22947,6 @@ var require_client = __commonJS({
       };
     }
     var i2;
-  }
-});
-
-// node_modules/runtypes/lib/reflect.js
-var require_reflect = __commonJS({
-  "node_modules/runtypes/lib/reflect.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-  }
-});
-
-// node_modules/runtypes/lib/result.js
-var require_result = __commonJS({
-  "node_modules/runtypes/lib/result.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Failcode = void 0;
-    exports.Failcode = {
-      TYPE_INCORRECT: "TYPE_INCORRECT",
-      VALUE_INCORRECT: "VALUE_INCORRECT",
-      KEY_INCORRECT: "KEY_INCORRECT",
-      CONTENT_INCORRECT: "CONTENT_INCORRECT",
-      ARGUMENT_INCORRECT: "ARGUMENT_INCORRECT",
-      RETURN_INCORRECT: "RETURN_INCORRECT",
-      CONSTRAINT_FAILED: "CONSTRAINT_FAILED",
-      PROPERTY_MISSING: "PROPERTY_MISSING",
-      PROPERTY_PRESENT: "PROPERTY_PRESENT",
-      NOTHING_EXPECTED: "NOTHING_EXPECTED"
-    };
-  }
-});
-
-// node_modules/runtypes/lib/errors.js
-var require_errors = __commonJS({
-  "node_modules/runtypes/lib/errors.js"(exports) {
-    "use strict";
-    var __extends2 = exports && exports.__extends || function() {
-      var extendStatics = function(d2, b2) {
-        extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d3, b3) {
-          d3.__proto__ = b3;
-        } || function(d3, b3) {
-          for (var p2 in b3)
-            if (Object.prototype.hasOwnProperty.call(b3, p2))
-              d3[p2] = b3[p2];
-        };
-        return extendStatics(d2, b2);
-      };
-      return function(d2, b2) {
-        if (typeof b2 !== "function" && b2 !== null)
-          throw new TypeError("Class extends value " + String(b2) + " is not a constructor or null");
-        extendStatics(d2, b2);
-        function __() {
-          this.constructor = d2;
-        }
-        d2.prototype = b2 === null ? Object.create(b2) : (__.prototype = b2.prototype, new __());
-      };
-    }();
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.ValidationError = void 0;
-    var ValidationError2 = function(_super) {
-      __extends2(ValidationError3, _super);
-      function ValidationError3(failure) {
-        var _this = _super.call(this, failure.message) || this;
-        _this.name = "ValidationError";
-        _this.code = failure.code;
-        if (failure.details !== void 0)
-          _this.details = failure.details;
-        Object.setPrototypeOf(_this, ValidationError3.prototype);
-        return _this;
-      }
-      return ValidationError3;
-    }(Error);
-    exports.ValidationError = ValidationError2;
-  }
-});
-
-// node_modules/runtypes/lib/show.js
-var require_show = __commonJS({
-  "node_modules/runtypes/lib/show.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var showStringified = function(circular) {
-      return function(refl) {
-        switch (refl.tag) {
-          case "literal":
-            return '"'.concat(String(refl.value), '"');
-          case "string":
-            return "string";
-          case "brand":
-            return refl.brand;
-          case "constraint":
-            return refl.name || showStringified(circular)(refl.underlying);
-          case "union":
-            return refl.alternatives.map(showStringified(circular)).join(" | ");
-          case "intersect":
-            return refl.intersectees.map(showStringified(circular)).join(" & ");
-          default:
-            break;
-        }
-        return "`${".concat(show(false, circular)(refl), "}`");
-      };
-    };
-    var showEmbedded = function(circular) {
-      return function(refl) {
-        switch (refl.tag) {
-          case "literal":
-            return String(refl.value);
-          case "brand":
-            return "${".concat(refl.brand, "}");
-          case "constraint":
-            return refl.name ? "${".concat(refl.name, "}") : showEmbedded(circular)(refl.underlying);
-          case "union":
-            if (refl.alternatives.length === 1) {
-              var inner = refl.alternatives[0];
-              return showEmbedded(circular)(inner.reflect);
-            }
-            break;
-          case "intersect":
-            if (refl.intersectees.length === 1) {
-              var inner = refl.intersectees[0];
-              return showEmbedded(circular)(inner.reflect);
-            }
-            break;
-          default:
-            break;
-        }
-        return "${".concat(show(false, circular)(refl), "}");
-      };
-    };
-    var show = function(needsParens, circular) {
-      return function(refl) {
-        var parenthesize = function(s2) {
-          return needsParens ? "(".concat(s2, ")") : s2;
-        };
-        if (circular.has(refl))
-          return parenthesize("CIRCULAR ".concat(refl.tag));
-        else
-          circular.add(refl);
-        try {
-          switch (refl.tag) {
-            case "unknown":
-            case "never":
-            case "void":
-            case "boolean":
-            case "number":
-            case "bigint":
-            case "string":
-            case "symbol":
-            case "function":
-              return refl.tag;
-            case "literal": {
-              var value = refl.value;
-              return typeof value === "string" ? '"'.concat(value, '"') : String(value);
-            }
-            case "template": {
-              if (refl.strings.length === 0)
-                return '""';
-              else if (refl.strings.length === 1)
-                return '"'.concat(refl.strings[0], '"');
-              else if (refl.strings.length === 2) {
-                if (refl.strings.every(function(string) {
-                  return string === "";
-                })) {
-                  var runtype = refl.runtypes[0];
-                  return showStringified(circular)(runtype.reflect);
-                }
-              }
-              var backtick_1 = false;
-              var inner = refl.strings.reduce(function(inner2, string, i2) {
-                var prefix2 = inner2 + string;
-                var runtype2 = refl.runtypes[i2];
-                if (runtype2) {
-                  var suffix = showEmbedded(circular)(runtype2.reflect);
-                  if (!backtick_1 && suffix.startsWith("$"))
-                    backtick_1 = true;
-                  return prefix2 + suffix;
-                } else
-                  return prefix2;
-              }, "");
-              return backtick_1 ? "`".concat(inner, "`") : '"'.concat(inner, '"');
-            }
-            case "array":
-              return "".concat(readonlyTag(refl)).concat(show(true, circular)(refl.element), "[]");
-            case "dictionary":
-              return "{ [_: ".concat(refl.key, "]: ").concat(show(false, circular)(refl.value), " }");
-            case "record": {
-              var keys = Object.keys(refl.fields);
-              return keys.length ? "{ ".concat(keys.map(function(k2) {
-                return "".concat(readonlyTag(refl)).concat(k2).concat(partialTag(refl, k2), ": ").concat(refl.fields[k2].tag === "optional" ? show(false, circular)(refl.fields[k2].underlying) : show(false, circular)(refl.fields[k2]), ";");
-              }).join(" "), " }") : "{}";
-            }
-            case "tuple":
-              return "[".concat(refl.components.map(show(false, circular)).join(", "), "]");
-            case "union":
-              return parenthesize("".concat(refl.alternatives.map(show(true, circular)).join(" | ")));
-            case "intersect":
-              return parenthesize("".concat(refl.intersectees.map(show(true, circular)).join(" & ")));
-            case "optional":
-              return show(needsParens, circular)(refl.underlying) + " | undefined";
-            case "constraint":
-              return refl.name || show(needsParens, circular)(refl.underlying);
-            case "instanceof":
-              return refl.ctor.name;
-            case "brand":
-              return show(needsParens, circular)(refl.entity);
-          }
-        } finally {
-          circular.delete(refl);
-        }
-        throw Error("impossible");
-      };
-    };
-    exports.default = show(false, /* @__PURE__ */ new Set());
-    function partialTag(_a2, key) {
-      var isPartial = _a2.isPartial, fields = _a2.fields;
-      return isPartial || key !== void 0 && fields[key].tag === "optional" ? "?" : "";
-    }
-    function readonlyTag(_a2) {
-      var isReadonly = _a2.isReadonly;
-      return isReadonly ? "readonly " : "";
-    }
-  }
-});
-
-// node_modules/runtypes/lib/util.js
-var require_util = __commonJS({
-  "node_modules/runtypes/lib/util.js"(exports) {
-    "use strict";
-    var __assign = exports && exports.__assign || function() {
-      __assign = Object.assign || function(t2) {
-        for (var s2, i2 = 1, n2 = arguments.length; i2 < n2; i2++) {
-          s2 = arguments[i2];
-          for (var p2 in s2)
-            if (Object.prototype.hasOwnProperty.call(s2, p2))
-              t2[p2] = s2[p2];
-        }
-        return t2;
-      };
-      return __assign.apply(this, arguments);
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.FAILURE = exports.SUCCESS = exports.enumerableKeysOf = exports.typeOf = exports.hasKey = void 0;
-    var result_1 = require_result();
-    var show_1 = require_show();
-    function hasKey(key, object) {
-      return typeof object === "object" && object !== null && key in object;
-    }
-    exports.hasKey = hasKey;
-    var typeOf = function(value) {
-      var _a2, _b, _c;
-      return typeof value === "object" ? value === null ? "null" : Array.isArray(value) ? "array" : ((_a2 = value.constructor) === null || _a2 === void 0 ? void 0 : _a2.name) === "Object" ? "object" : (_c = (_b = value.constructor) === null || _b === void 0 ? void 0 : _b.name) !== null && _c !== void 0 ? _c : typeof value : typeof value;
-    };
-    exports.typeOf = typeOf;
-    var enumerableKeysOf = function(object) {
-      return typeof object === "object" && object !== null ? Reflect.ownKeys(object).filter(function(key) {
-        var _a2, _b;
-        return (_b = (_a2 = object.propertyIsEnumerable) === null || _a2 === void 0 ? void 0 : _a2.call(object, key)) !== null && _b !== void 0 ? _b : true;
-      }) : [];
-    };
-    exports.enumerableKeysOf = enumerableKeysOf;
-    function SUCCESS(value) {
-      return { success: true, value };
-    }
-    exports.SUCCESS = SUCCESS;
-    exports.FAILURE = Object.assign(function(code, message, details) {
-      return __assign({ success: false, code, message }, details ? { details } : {});
-    }, {
-      TYPE_INCORRECT: function(self2, value) {
-        var message = "Expected ".concat(self2.tag === "template" ? "string ".concat((0, show_1.default)(self2)) : (0, show_1.default)(self2), ", but was ").concat((0, exports.typeOf)(value));
-        return (0, exports.FAILURE)(result_1.Failcode.TYPE_INCORRECT, message);
-      },
-      VALUE_INCORRECT: function(name, expected, received) {
-        return (0, exports.FAILURE)(result_1.Failcode.VALUE_INCORRECT, "Expected ".concat(name, " ").concat(String(expected), ", but was ").concat(String(received)));
-      },
-      KEY_INCORRECT: function(self2, expected, value) {
-        return (0, exports.FAILURE)(result_1.Failcode.KEY_INCORRECT, "Expected ".concat((0, show_1.default)(self2), " key to be ").concat((0, show_1.default)(expected), ", but was ").concat((0, exports.typeOf)(value)));
-      },
-      CONTENT_INCORRECT: function(self2, details) {
-        var formattedDetails = JSON.stringify(details, null, 2).replace(/^ *null,\n/gm, "");
-        var message = "Validation failed:\n".concat(formattedDetails, ".\nObject should match ").concat((0, show_1.default)(self2));
-        return (0, exports.FAILURE)(result_1.Failcode.CONTENT_INCORRECT, message, details);
-      },
-      ARGUMENT_INCORRECT: function(message) {
-        return (0, exports.FAILURE)(result_1.Failcode.ARGUMENT_INCORRECT, message);
-      },
-      RETURN_INCORRECT: function(message) {
-        return (0, exports.FAILURE)(result_1.Failcode.RETURN_INCORRECT, message);
-      },
-      CONSTRAINT_FAILED: function(self2, message) {
-        var info = message ? ": ".concat(message) : "";
-        return (0, exports.FAILURE)(result_1.Failcode.CONSTRAINT_FAILED, "Failed constraint check for ".concat((0, show_1.default)(self2)).concat(info));
-      },
-      PROPERTY_MISSING: function(self2) {
-        var message = "Expected ".concat((0, show_1.default)(self2), ", but was missing");
-        return (0, exports.FAILURE)(result_1.Failcode.PROPERTY_MISSING, message);
-      },
-      PROPERTY_PRESENT: function(value) {
-        var message = "Expected nothing, but was ".concat((0, exports.typeOf)(value));
-        return (0, exports.FAILURE)(result_1.Failcode.PROPERTY_PRESENT, message);
-      },
-      NOTHING_EXPECTED: function(value) {
-        var message = "Expected nothing, but was ".concat((0, exports.typeOf)(value));
-        return (0, exports.FAILURE)(result_1.Failcode.NOTHING_EXPECTED, message);
-      }
-    });
-  }
-});
-
-// node_modules/runtypes/lib/contract.js
-var require_contract = __commonJS({
-  "node_modules/runtypes/lib/contract.js"(exports) {
-    "use strict";
-    var __read = exports && exports.__read || function(o2, n2) {
-      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
-      if (!m2)
-        return o2;
-      var i2 = m2.call(o2), r2, ar = [], e;
-      try {
-        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
-          ar.push(r2.value);
-      } catch (error) {
-        e = { error };
-      } finally {
-        try {
-          if (r2 && !r2.done && (m2 = i2["return"]))
-            m2.call(i2);
-        } finally {
-          if (e)
-            throw e.error;
-        }
-      }
-      return ar;
-    };
-    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
-      if (pack || arguments.length === 2)
-        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
-          if (ar || !(i2 in from)) {
-            if (!ar)
-              ar = Array.prototype.slice.call(from, 0, i2);
-            ar[i2] = from[i2];
-          }
-        }
-      return to.concat(ar || Array.prototype.slice.call(from));
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Contract = void 0;
-    var errors_1 = require_errors();
-    var util_1 = require_util();
-    function Contract() {
-      var runtypes = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        runtypes[_i] = arguments[_i];
-      }
-      var lastIndex = runtypes.length - 1;
-      var argRuntypes = runtypes.slice(0, lastIndex);
-      var returnRuntype = runtypes[lastIndex];
-      return {
-        enforce: function(f3) {
-          return function() {
-            var args = [];
-            for (var _i2 = 0; _i2 < arguments.length; _i2++) {
-              args[_i2] = arguments[_i2];
-            }
-            if (args.length < argRuntypes.length) {
-              var message = "Expected ".concat(argRuntypes.length, " arguments but only received ").concat(args.length);
-              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
-              throw new errors_1.ValidationError(failure);
-            }
-            for (var i2 = 0; i2 < argRuntypes.length; i2++)
-              argRuntypes[i2].check(args[i2]);
-            return returnRuntype.check(f3.apply(void 0, __spreadArray2([], __read(args), false)));
-          };
-        }
-      };
-    }
-    exports.Contract = Contract;
-  }
-});
-
-// node_modules/runtypes/lib/asynccontract.js
-var require_asynccontract = __commonJS({
-  "node_modules/runtypes/lib/asynccontract.js"(exports) {
-    "use strict";
-    var __read = exports && exports.__read || function(o2, n2) {
-      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
-      if (!m2)
-        return o2;
-      var i2 = m2.call(o2), r2, ar = [], e;
-      try {
-        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
-          ar.push(r2.value);
-      } catch (error) {
-        e = { error };
-      } finally {
-        try {
-          if (r2 && !r2.done && (m2 = i2["return"]))
-            m2.call(i2);
-        } finally {
-          if (e)
-            throw e.error;
-        }
-      }
-      return ar;
-    };
-    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
-      if (pack || arguments.length === 2)
-        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
-          if (ar || !(i2 in from)) {
-            if (!ar)
-              ar = Array.prototype.slice.call(from, 0, i2);
-            ar[i2] = from[i2];
-          }
-        }
-      return to.concat(ar || Array.prototype.slice.call(from));
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.AsyncContract = void 0;
-    var errors_1 = require_errors();
-    var util_1 = require_util();
-    function AsyncContract() {
-      var runtypes = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        runtypes[_i] = arguments[_i];
-      }
-      var lastIndex = runtypes.length - 1;
-      var argRuntypes = runtypes.slice(0, lastIndex);
-      var returnRuntype = runtypes[lastIndex];
-      return {
-        enforce: function(f3) {
-          return function() {
-            var args = [];
-            for (var _i2 = 0; _i2 < arguments.length; _i2++) {
-              args[_i2] = arguments[_i2];
-            }
-            if (args.length < argRuntypes.length) {
-              var message = "Expected ".concat(argRuntypes.length, " arguments but only received ").concat(args.length);
-              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
-              throw new errors_1.ValidationError(failure);
-            }
-            for (var i2 = 0; i2 < argRuntypes.length; i2++)
-              argRuntypes[i2].check(args[i2]);
-            var returnedPromise = f3.apply(void 0, __spreadArray2([], __read(args), false));
-            if (!(returnedPromise instanceof Promise)) {
-              var message = "Expected function to return a promise, but instead got ".concat(returnedPromise);
-              var failure = util_1.FAILURE.RETURN_INCORRECT(message);
-              throw new errors_1.ValidationError(failure);
-            }
-            return returnedPromise.then(returnRuntype.check);
-          };
-        }
-      };
-    }
-    exports.AsyncContract = AsyncContract;
-  }
-});
-
-// node_modules/runtypes/lib/match.js
-var require_match = __commonJS({
-  "node_modules/runtypes/lib/match.js"(exports) {
-    "use strict";
-    var __values = exports && exports.__values || function(o2) {
-      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
-      if (m2)
-        return m2.call(o2);
-      if (o2 && typeof o2.length === "number")
-        return {
-          next: function() {
-            if (o2 && i2 >= o2.length)
-              o2 = void 0;
-            return { value: o2 && o2[i2++], done: !o2 };
-          }
-        };
-      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
-    };
-    var __read = exports && exports.__read || function(o2, n2) {
-      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
-      if (!m2)
-        return o2;
-      var i2 = m2.call(o2), r2, ar = [], e;
-      try {
-        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
-          ar.push(r2.value);
-      } catch (error) {
-        e = { error };
-      } finally {
-        try {
-          if (r2 && !r2.done && (m2 = i2["return"]))
-            m2.call(i2);
-        } finally {
-          if (e)
-            throw e.error;
-        }
-      }
-      return ar;
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.when = exports.match = void 0;
-    function match() {
-      var cases = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        cases[_i] = arguments[_i];
-      }
-      return function(x2) {
-        var e_1, _a2;
-        try {
-          for (var cases_1 = __values(cases), cases_1_1 = cases_1.next(); !cases_1_1.done; cases_1_1 = cases_1.next()) {
-            var _b = __read(cases_1_1.value, 2), T = _b[0], f3 = _b[1];
-            if (T.guard(x2))
-              return f3(x2);
-          }
-        } catch (e_1_1) {
-          e_1 = { error: e_1_1 };
-        } finally {
-          try {
-            if (cases_1_1 && !cases_1_1.done && (_a2 = cases_1.return))
-              _a2.call(cases_1);
-          } finally {
-            if (e_1)
-              throw e_1.error;
-          }
-        }
-        throw new Error("No alternatives were matched");
-      };
-    }
-    exports.match = match;
-    function when(runtype, transformer) {
-      return [runtype, transformer];
-    }
-    exports.when = when;
-  }
-});
-
-// node_modules/runtypes/lib/runtype.js
-var require_runtype = __commonJS({
-  "node_modules/runtypes/lib/runtype.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.innerValidate = exports.create = exports.isRuntype = void 0;
-    var index_1 = require_lib();
-    var show_1 = require_show();
-    var errors_1 = require_errors();
-    var util_1 = require_util();
-    var RuntypeSymbol = Symbol();
-    var isRuntype = function(x2) {
-      return (0, util_1.hasKey)(RuntypeSymbol, x2);
-    };
-    exports.isRuntype = isRuntype;
-    function create(validate2, A2) {
-      A2[RuntypeSymbol] = true;
-      A2.check = check;
-      A2.assert = check;
-      A2._innerValidate = function(value, visited) {
-        if (visited.has(value, A2))
-          return (0, util_1.SUCCESS)(value);
-        return validate2(value, visited);
-      };
-      A2.validate = function(value) {
-        return A2._innerValidate(value, VisitedState());
-      };
-      A2.guard = guard;
-      A2.Or = Or;
-      A2.And = And;
-      A2.optional = optional;
-      A2.nullable = nullable;
-      A2.withConstraint = withConstraint;
-      A2.withGuard = withGuard;
-      A2.withBrand = withBrand;
-      A2.reflect = A2;
-      A2.toString = function() {
-        return "Runtype<".concat((0, show_1.default)(A2), ">");
-      };
-      return A2;
-      function check(x2) {
-        var result = A2.validate(x2);
-        if (result.success)
-          return result.value;
-        else
-          throw new errors_1.ValidationError(result);
-      }
-      function guard(x2) {
-        return A2.validate(x2).success;
-      }
-      function Or(B2) {
-        return (0, index_1.Union)(A2, B2);
-      }
-      function And(B2) {
-        return (0, index_1.Intersect)(A2, B2);
-      }
-      function optional() {
-        return (0, index_1.Optional)(A2);
-      }
-      function nullable() {
-        return (0, index_1.Union)(A2, index_1.Null);
-      }
-      function withConstraint(constraint, options) {
-        return (0, index_1.Constraint)(A2, constraint, options);
-      }
-      function withGuard(guard2, options) {
-        return (0, index_1.Constraint)(A2, guard2, options);
-      }
-      function withBrand(B2) {
-        return (0, index_1.Brand)(B2, A2);
-      }
-    }
-    exports.create = create;
-    function innerValidate(targetType, value, visited) {
-      return targetType._innerValidate(value, visited);
-    }
-    exports.innerValidate = innerValidate;
-    function VisitedState() {
-      var members = /* @__PURE__ */ new WeakMap();
-      var add = function(candidate, type) {
-        if (candidate === null || !(typeof candidate === "object"))
-          return;
-        var typeSet = members.get(candidate);
-        members.set(candidate, typeSet ? typeSet.set(type, true) : (/* @__PURE__ */ new WeakMap()).set(type, true));
-      };
-      var has = function(candidate, type) {
-        var typeSet = members.get(candidate);
-        var value = typeSet && typeSet.get(type) || false;
-        add(candidate, type);
-        return value;
-      };
-      return { has };
-    }
-  }
-});
-
-// node_modules/runtypes/lib/types/unknown.js
-var require_unknown = __commonJS({
-  "node_modules/runtypes/lib/types/unknown.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Unknown = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "unknown" };
-    exports.Unknown = (0, runtype_1.create)(function(value) {
-      return (0, util_1.SUCCESS)(value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/never.js
-var require_never = __commonJS({
-  "node_modules/runtypes/lib/types/never.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Never = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "never" };
-    exports.Never = (0, runtype_1.create)(util_1.FAILURE.NOTHING_EXPECTED, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/void.js
-var require_void = __commonJS({
-  "node_modules/runtypes/lib/types/void.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Void = void 0;
-    var unknown_1 = require_unknown();
-    exports.Void = unknown_1.Unknown;
-  }
-});
-
-// node_modules/runtypes/lib/types/union.js
-var require_union = __commonJS({
-  "node_modules/runtypes/lib/types/union.js"(exports) {
-    "use strict";
-    var __values = exports && exports.__values || function(o2) {
-      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
-      if (m2)
-        return m2.call(o2);
-      if (o2 && typeof o2.length === "number")
-        return {
-          next: function() {
-            if (o2 && i2 >= o2.length)
-              o2 = void 0;
-            return { value: o2 && o2[i2++], done: !o2 };
-          }
-        };
-      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Union = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function Union2() {
-      var alternatives = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        alternatives[_i] = arguments[_i];
-      }
-      var match = function() {
-        var cases = [];
-        for (var _i2 = 0; _i2 < arguments.length; _i2++) {
-          cases[_i2] = arguments[_i2];
-        }
-        return function(x2) {
-          for (var i2 = 0; i2 < alternatives.length; i2++) {
-            if (alternatives[i2].guard(x2)) {
-              return cases[i2](x2);
-            }
-          }
-        };
-      };
-      var self2 = { tag: "union", alternatives, match };
-      return (0, runtype_1.create)(function(value, visited) {
-        var e_1, _a2, e_2, _b, e_3, _c, e_4, _d;
-        if (typeof value !== "object" || value === null) {
-          try {
-            for (var alternatives_1 = __values(alternatives), alternatives_1_1 = alternatives_1.next(); !alternatives_1_1.done; alternatives_1_1 = alternatives_1.next()) {
-              var alternative = alternatives_1_1.value;
-              if ((0, runtype_1.innerValidate)(alternative, value, visited).success)
-                return (0, util_1.SUCCESS)(value);
-            }
-          } catch (e_1_1) {
-            e_1 = { error: e_1_1 };
-          } finally {
-            try {
-              if (alternatives_1_1 && !alternatives_1_1.done && (_a2 = alternatives_1.return))
-                _a2.call(alternatives_1);
-            } finally {
-              if (e_1)
-                throw e_1.error;
-            }
-          }
-          return util_1.FAILURE.TYPE_INCORRECT(self2, value);
-        }
-        var commonLiteralFields = {};
-        try {
-          for (var alternatives_2 = __values(alternatives), alternatives_2_1 = alternatives_2.next(); !alternatives_2_1.done; alternatives_2_1 = alternatives_2.next()) {
-            var alternative = alternatives_2_1.value;
-            if (alternative.reflect.tag === "record") {
-              var _loop_1 = function(fieldName2) {
-                var field2 = alternative.reflect.fields[fieldName2];
-                if (field2.tag === "literal") {
-                  if (commonLiteralFields[fieldName2]) {
-                    if (commonLiteralFields[fieldName2].every(function(value2) {
-                      return value2 !== field2.value;
-                    })) {
-                      commonLiteralFields[fieldName2].push(field2.value);
-                    }
-                  } else {
-                    commonLiteralFields[fieldName2] = [field2.value];
-                  }
-                }
-              };
-              for (var fieldName in alternative.reflect.fields) {
-                _loop_1(fieldName);
-              }
-            }
-          }
-        } catch (e_2_1) {
-          e_2 = { error: e_2_1 };
-        } finally {
-          try {
-            if (alternatives_2_1 && !alternatives_2_1.done && (_b = alternatives_2.return))
-              _b.call(alternatives_2);
-          } finally {
-            if (e_2)
-              throw e_2.error;
-          }
-        }
-        for (var fieldName in commonLiteralFields) {
-          if (commonLiteralFields[fieldName].length === alternatives.length) {
-            try {
-              for (var alternatives_3 = (e_3 = void 0, __values(alternatives)), alternatives_3_1 = alternatives_3.next(); !alternatives_3_1.done; alternatives_3_1 = alternatives_3.next()) {
-                var alternative = alternatives_3_1.value;
-                if (alternative.reflect.tag === "record") {
-                  var field = alternative.reflect.fields[fieldName];
-                  if (field.tag === "literal" && (0, util_1.hasKey)(fieldName, value) && value[fieldName] === field.value) {
-                    return (0, runtype_1.innerValidate)(alternative, value, visited);
-                  }
-                }
-              }
-            } catch (e_3_1) {
-              e_3 = { error: e_3_1 };
-            } finally {
-              try {
-                if (alternatives_3_1 && !alternatives_3_1.done && (_c = alternatives_3.return))
-                  _c.call(alternatives_3);
-              } finally {
-                if (e_3)
-                  throw e_3.error;
-              }
-            }
-          }
-        }
-        try {
-          for (var alternatives_4 = __values(alternatives), alternatives_4_1 = alternatives_4.next(); !alternatives_4_1.done; alternatives_4_1 = alternatives_4.next()) {
-            var targetType = alternatives_4_1.value;
-            if ((0, runtype_1.innerValidate)(targetType, value, visited).success)
-              return (0, util_1.SUCCESS)(value);
-          }
-        } catch (e_4_1) {
-          e_4 = { error: e_4_1 };
-        } finally {
-          try {
-            if (alternatives_4_1 && !alternatives_4_1.done && (_d = alternatives_4.return))
-              _d.call(alternatives_4);
-          } finally {
-            if (e_4)
-              throw e_4.error;
-          }
-        }
-        return util_1.FAILURE.TYPE_INCORRECT(self2, value);
-      }, self2);
-    }
-    exports.Union = Union2;
-  }
-});
-
-// node_modules/runtypes/lib/types/literal.js
-var require_literal = __commonJS({
-  "node_modules/runtypes/lib/types/literal.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Nullish = exports.Null = exports.Undefined = exports.Literal = exports.literal = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var union_1 = require_union();
-    function literal(value) {
-      return Array.isArray(value) ? String(value.map(String)) : typeof value === "bigint" ? String(value) + "n" : String(value);
-    }
-    exports.literal = literal;
-    function Literal2(valueBase) {
-      var self2 = { tag: "literal", value: valueBase };
-      return (0, runtype_1.create)(function(value) {
-        return value === valueBase ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.VALUE_INCORRECT("literal", "`".concat(literal(valueBase), "`"), "`".concat(literal(value), "`"));
-      }, self2);
-    }
-    exports.Literal = Literal2;
-    exports.Undefined = Literal2(void 0);
-    exports.Null = Literal2(null);
-    exports.Nullish = (0, union_1.Union)(exports.Null, exports.Undefined);
-  }
-});
-
-// node_modules/runtypes/lib/types/template.js
-var require_template = __commonJS({
-  "node_modules/runtypes/lib/types/template.js"(exports) {
-    "use strict";
-    var __read = exports && exports.__read || function(o2, n2) {
-      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
-      if (!m2)
-        return o2;
-      var i2 = m2.call(o2), r2, ar = [], e;
-      try {
-        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
-          ar.push(r2.value);
-      } catch (error) {
-        e = { error };
-      } finally {
-        try {
-          if (r2 && !r2.done && (m2 = i2["return"]))
-            m2.call(i2);
-        } finally {
-          if (e)
-            throw e.error;
-        }
-      }
-      return ar;
-    };
-    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
-      if (pack || arguments.length === 2)
-        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
-          if (ar || !(i2 in from)) {
-            if (!ar)
-              ar = Array.prototype.slice.call(from, 0, i2);
-            ar[i2] = from[i2];
-          }
-        }
-      return to.concat(ar || Array.prototype.slice.call(from));
-    };
-    var __values = exports && exports.__values || function(o2) {
-      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
-      if (m2)
-        return m2.call(o2);
-      if (o2 && typeof o2.length === "number")
-        return {
-          next: function() {
-            if (o2 && i2 >= o2.length)
-              o2 = void 0;
-            return { value: o2 && o2[i2++], done: !o2 };
-          }
-        };
-      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Template = void 0;
-    var runtype_1 = require_runtype();
-    var show_1 = require_show();
-    var util_1 = require_util();
-    var literal_1 = require_literal();
-    var escapeRegExp = function(string) {
-      return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    };
-    var parseArgs = function(args) {
-      if (0 < args.length && Array.isArray(args[0])) {
-        var _a2 = __read(args), strings = _a2[0], runtypes = _a2.slice(1);
-        return [Array.from(strings), runtypes];
-      } else {
-        var convenient = args;
-        var strings = convenient.reduce(function(strings2, arg) {
-          if (!(0, runtype_1.isRuntype)(arg))
-            strings2.push(strings2.pop() + String(arg));
-          else
-            strings2.push("");
-          return strings2;
-        }, [""]);
-        var runtypes = convenient.filter(runtype_1.isRuntype);
-        return [strings, runtypes];
-      }
-    };
-    var flattenInnerRuntypes = function(strings, runtypes) {
-      for (var i2 = 0; i2 < runtypes.length; ) {
-        switch (runtypes[i2].reflect.tag) {
-          case "literal": {
-            var literal_2 = runtypes[i2];
-            runtypes.splice(i2, 1);
-            var string = String(literal_2.value);
-            strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
-            break;
-          }
-          case "template": {
-            var template = runtypes[i2];
-            runtypes.splice.apply(runtypes, __spreadArray2([i2, 1], __read(template.runtypes), false));
-            var innerStrings = template.strings;
-            if (innerStrings.length === 1) {
-              strings.splice(i2, 2, strings[i2] + innerStrings[0] + strings[i2 + 1]);
-            } else {
-              var first = innerStrings[0];
-              var rest = innerStrings.slice(1, -1);
-              var last2 = innerStrings[innerStrings.length - 1];
-              strings.splice.apply(strings, __spreadArray2(__spreadArray2([i2, 2, strings[i2] + first], __read(rest), false), [last2 + strings[i2 + 1]], false));
-            }
-            break;
-          }
-          case "union": {
-            var union = runtypes[i2];
-            if (union.alternatives.length === 1) {
-              try {
-                var literal_3 = getInnerLiteral(union);
-                runtypes.splice(i2, 1);
-                var string = String(literal_3.value);
-                strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
-                break;
-              } catch (_5) {
-                i2++;
-                break;
-              }
-            } else {
-              i2++;
-              break;
-            }
-          }
-          case "intersect": {
-            var intersect = runtypes[i2];
-            if (intersect.intersectees.length === 1) {
-              try {
-                var literal_4 = getInnerLiteral(intersect);
-                runtypes.splice(i2, 1);
-                var string = String(literal_4.value);
-                strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
-                break;
-              } catch (_5) {
-                i2++;
-                break;
-              }
-            } else {
-              i2++;
-              break;
-            }
-          }
-          default:
-            i2++;
-            break;
-        }
-      }
-    };
-    var normalizeArgs = function(args) {
-      var _a2 = __read(parseArgs(args), 2), strings = _a2[0], runtypes = _a2[1];
-      flattenInnerRuntypes(strings, runtypes);
-      return [strings, runtypes];
-    };
-    var getInnerLiteral = function(runtype) {
-      switch (runtype.reflect.tag) {
-        case "literal":
-          return runtype;
-        case "brand":
-          return getInnerLiteral(runtype.reflect.entity);
-        case "union":
-          if (runtype.reflect.alternatives.length === 1)
-            return getInnerLiteral(runtype.reflect.alternatives[0]);
-          break;
-        case "intersect":
-          if (runtype.reflect.intersectees.length === 1)
-            return getInnerLiteral(runtype.reflect.intersectees[0]);
-          break;
-        default:
-          break;
-      }
-      throw void 0;
-    };
-    var identity2 = function(s2) {
-      return s2;
-    };
-    var revivers = {
-      string: [function(s2) {
-        return globalThis.String(s2);
-      }, ".*"],
-      number: [
-        function(s2) {
-          return globalThis.Number(s2);
-        },
-        "[+-]?(?:\\d*\\.\\d+|\\d+\\.\\d*|\\d+)(?:[Ee][+-]?\\d+)?",
-        "0[Bb][01]+",
-        "0[Oo][0-7]+",
-        "0[Xx][0-9A-Fa-f]+"
-      ],
-      bigint: [function(s2) {
-        return globalThis.BigInt(s2);
-      }, "-?[1-9]d*"],
-      boolean: [function(s2) {
-        return s2 === "false" ? false : true;
-      }, "true", "false"],
-      null: [function() {
-        return null;
-      }, "null"],
-      undefined: [function() {
-        return void 0;
-      }, "undefined"]
-    };
-    var getReviversFor = function(reflect) {
-      switch (reflect.tag) {
-        case "literal": {
-          var _a2 = __read(revivers[(0, util_1.typeOf)(reflect.value)] || [identity2], 1), reviver_1 = _a2[0];
-          return reviver_1;
-        }
-        case "brand":
-          return getReviversFor(reflect.entity);
-        case "constraint":
-          return getReviversFor(reflect.underlying);
-        case "union":
-          return reflect.alternatives.map(getReviversFor);
-        case "intersect":
-          return reflect.intersectees.map(getReviversFor);
-        default:
-          var _b = __read(revivers[reflect.tag] || [identity2], 1), reviver = _b[0];
-          return reviver;
-      }
-    };
-    var reviveValidate = function(reflect, visited) {
-      return function(value) {
-        var e_1, _a2, e_2, _b;
-        var revivers2 = getReviversFor(reflect);
-        if (Array.isArray(revivers2)) {
-          switch (reflect.tag) {
-            case "union":
-              try {
-                for (var _c = __values(reflect.alternatives), _d = _c.next(); !_d.done; _d = _c.next()) {
-                  var alternative = _d.value;
-                  var validated = reviveValidate(alternative.reflect, visited)(value);
-                  if (validated.success)
-                    return validated;
-                }
-              } catch (e_1_1) {
-                e_1 = { error: e_1_1 };
-              } finally {
-                try {
-                  if (_d && !_d.done && (_a2 = _c.return))
-                    _a2.call(_c);
-                } finally {
-                  if (e_1)
-                    throw e_1.error;
-                }
-              }
-              return util_1.FAILURE.TYPE_INCORRECT(reflect, value);
-            case "intersect":
-              try {
-                for (var _e = __values(reflect.intersectees), _f = _e.next(); !_f.done; _f = _e.next()) {
-                  var intersectee = _f.value;
-                  var validated = reviveValidate(intersectee.reflect, visited)(value);
-                  if (!validated.success)
-                    return validated;
-                }
-              } catch (e_2_1) {
-                e_2 = { error: e_2_1 };
-              } finally {
-                try {
-                  if (_f && !_f.done && (_b = _e.return))
-                    _b.call(_e);
-                } finally {
-                  if (e_2)
-                    throw e_2.error;
-                }
-              }
-              return (0, util_1.SUCCESS)(value);
-            default:
-              throw Error("impossible");
-          }
-        } else {
-          var reviver = revivers2;
-          var validated = (0, runtype_1.innerValidate)(reflect, reviver(value), visited);
-          if (!validated.success && validated.code === "VALUE_INCORRECT" && reflect.tag === "literal")
-            return util_1.FAILURE.VALUE_INCORRECT("literal", '"'.concat((0, literal_1.literal)(reflect.value), '"'), '"'.concat(value, '"'));
-          return validated;
-        }
-      };
-    };
-    var getRegExpPatternFor = function(reflect) {
-      switch (reflect.tag) {
-        case "literal":
-          return escapeRegExp(String(reflect.value));
-        case "brand":
-          return getRegExpPatternFor(reflect.entity);
-        case "constraint":
-          return getRegExpPatternFor(reflect.underlying);
-        case "union":
-          return reflect.alternatives.map(getRegExpPatternFor).join("|");
-        case "template": {
-          return reflect.strings.map(escapeRegExp).reduce(function(pattern, string, i2) {
-            var prefix2 = pattern + string;
-            var runtype = reflect.runtypes[i2];
-            if (runtype)
-              return prefix2 + "(?:".concat(getRegExpPatternFor(runtype.reflect), ")");
-            else
-              return prefix2;
-          }, "");
-        }
-        default:
-          var _a2 = __read(revivers[reflect.tag] || [void 0, ".*"]), patterns = _a2.slice(1);
-          return patterns.join("|");
-      }
-    };
-    var createRegExpForTemplate = function(reflect) {
-      var pattern = reflect.strings.map(escapeRegExp).reduce(function(pattern2, string, i2) {
-        var prefix2 = pattern2 + string;
-        var runtype = reflect.runtypes[i2];
-        if (runtype)
-          return prefix2 + "(".concat(getRegExpPatternFor(runtype.reflect), ")");
-        else
-          return prefix2;
-      }, "");
-      return new RegExp("^".concat(pattern, "$"), "su");
-    };
-    function Template() {
-      var args = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        args[_i] = arguments[_i];
-      }
-      var _a2 = __read(normalizeArgs(args), 2), strings = _a2[0], runtypes = _a2[1];
-      var self2 = { tag: "template", strings, runtypes };
-      var regexp = createRegExpForTemplate(self2);
-      var test = function(value, visited) {
-        var matches = value.match(regexp);
-        if (matches) {
-          var values = matches.slice(1);
-          for (var i2 = 0; i2 < runtypes.length; i2++) {
-            var runtype = runtypes[i2];
-            var value_1 = values[i2];
-            var validated = reviveValidate(runtype.reflect, visited)(value_1);
-            if (!validated.success)
-              return validated;
-          }
-          return (0, util_1.SUCCESS)(value);
-        } else {
-          return util_1.FAILURE.VALUE_INCORRECT("string", "".concat((0, show_1.default)(self2)), '"'.concat((0, literal_1.literal)(value), '"'));
-        }
-      };
-      return (0, runtype_1.create)(function(value, visited) {
-        if (typeof value !== "string")
-          return util_1.FAILURE.TYPE_INCORRECT(self2, value);
-        else {
-          var validated = test(value, visited);
-          if (!validated.success) {
-            var result = util_1.FAILURE.VALUE_INCORRECT("string", "".concat((0, show_1.default)(self2)), '"'.concat(value, '"'));
-            if (result.message !== validated.message)
-              result.message += " (inner: ".concat(validated.message, ")");
-            return result;
-          } else
-            return (0, util_1.SUCCESS)(value);
-        }
-      }, self2);
-    }
-    exports.Template = Template;
-  }
-});
-
-// node_modules/runtypes/lib/types/boolean.js
-var require_boolean = __commonJS({
-  "node_modules/runtypes/lib/types/boolean.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Boolean = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "boolean" };
-    exports.Boolean = (0, runtype_1.create)(function(value) {
-      return typeof value === "boolean" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/number.js
-var require_number = __commonJS({
-  "node_modules/runtypes/lib/types/number.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Number = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "number" };
-    exports.Number = (0, runtype_1.create)(function(value) {
-      return typeof value === "number" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/bigint.js
-var require_bigint = __commonJS({
-  "node_modules/runtypes/lib/types/bigint.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.BigInt = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "bigint" };
-    exports.BigInt = (0, runtype_1.create)(function(value) {
-      return typeof value === "bigint" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/string.js
-var require_string = __commonJS({
-  "node_modules/runtypes/lib/types/string.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.String = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "string" };
-    exports.String = (0, runtype_1.create)(function(value) {
-      return typeof value === "string" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/symbol.js
-var require_symbol = __commonJS({
-  "node_modules/runtypes/lib/types/symbol.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Symbol = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var f3 = function(key) {
-      var self3 = { tag: "symbol", key };
-      return (0, runtype_1.create)(function(value) {
-        if (typeof value !== "symbol")
-          return util_1.FAILURE.TYPE_INCORRECT(self3, value);
-        else {
-          var keyForValue = globalThis.Symbol.keyFor(value);
-          if (keyForValue !== key)
-            return util_1.FAILURE.VALUE_INCORRECT("symbol key", quoteIfPresent(key), quoteIfPresent(keyForValue));
-          else
-            return (0, util_1.SUCCESS)(value);
-        }
-      }, self3);
-    };
-    var self2 = { tag: "symbol" };
-    exports.Symbol = (0, runtype_1.create)(function(value) {
-      return typeof value === "symbol" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, Object.assign(f3, self2));
-    var quoteIfPresent = function(key) {
-      return key === void 0 ? "undefined" : '"'.concat(key, '"');
-    };
-  }
-});
-
-// node_modules/runtypes/lib/types/array.js
-var require_array = __commonJS({
-  "node_modules/runtypes/lib/types/array.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Array = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function InternalArr(element, isReadonly) {
-      var self2 = { tag: "array", isReadonly, element };
-      return withExtraModifierFuncs((0, runtype_1.create)(function(xs, visited) {
-        if (!Array.isArray(xs))
-          return util_1.FAILURE.TYPE_INCORRECT(self2, xs);
-        var keys = (0, util_1.enumerableKeysOf)(xs);
-        var results = keys.map(function(key) {
-          return (0, runtype_1.innerValidate)(element, xs[key], visited);
-        });
-        var details = keys.reduce(function(details2, key) {
-          var result = results[key];
-          if (!result.success)
-            details2[key] = result.details || result.message;
-          return details2;
-        }, []);
-        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
-          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
-        else
-          return (0, util_1.SUCCESS)(xs);
-      }, self2));
-    }
-    function Arr(element) {
-      return InternalArr(element, false);
-    }
-    exports.Array = Arr;
-    function withExtraModifierFuncs(A2) {
-      A2.asReadonly = asReadonly;
-      return A2;
-      function asReadonly() {
-        return InternalArr(A2.element, true);
-      }
-    }
-  }
-});
-
-// node_modules/runtypes/lib/types/tuple.js
-var require_tuple = __commonJS({
-  "node_modules/runtypes/lib/types/tuple.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Tuple = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function Tuple() {
-      var components = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        components[_i] = arguments[_i];
-      }
-      var self2 = { tag: "tuple", components };
-      return (0, runtype_1.create)(function(xs, visited) {
-        if (!Array.isArray(xs))
-          return util_1.FAILURE.TYPE_INCORRECT(self2, xs);
-        if (xs.length !== components.length)
-          return util_1.FAILURE.CONSTRAINT_FAILED(self2, "Expected length ".concat(components.length, ", but was ").concat(xs.length));
-        var keys = (0, util_1.enumerableKeysOf)(xs);
-        var results = keys.map(function(key) {
-          return (0, runtype_1.innerValidate)(components[key], xs[key], visited);
-        });
-        var details = keys.reduce(function(details2, key) {
-          var result = results[key];
-          if (!result.success)
-            details2[key] = result.details || result.message;
-          return details2;
-        }, []);
-        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
-          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
-        else
-          return (0, util_1.SUCCESS)(xs);
-      }, self2);
-    }
-    exports.Tuple = Tuple;
-  }
-});
-
-// node_modules/runtypes/lib/types/record.js
-var require_record = __commonJS({
-  "node_modules/runtypes/lib/types/record.js"(exports) {
-    "use strict";
-    var __read = exports && exports.__read || function(o2, n2) {
-      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
-      if (!m2)
-        return o2;
-      var i2 = m2.call(o2), r2, ar = [], e;
-      try {
-        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
-          ar.push(r2.value);
-      } catch (error) {
-        e = { error };
-      } finally {
-        try {
-          if (r2 && !r2.done && (m2 = i2["return"]))
-            m2.call(i2);
-        } finally {
-          if (e)
-            throw e.error;
-        }
-      }
-      return ar;
-    };
-    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
-      if (pack || arguments.length === 2)
-        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
-          if (ar || !(i2 in from)) {
-            if (!ar)
-              ar = Array.prototype.slice.call(from, 0, i2);
-            ar[i2] = from[i2];
-          }
-        }
-      return to.concat(ar || Array.prototype.slice.call(from));
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Partial = exports.Record = exports.InternalRecord = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function InternalRecord(fields, isPartial, isReadonly) {
-      var self2 = { tag: "record", isPartial, isReadonly, fields };
-      return withExtraModifierFuncs((0, runtype_1.create)(function(x2, visited) {
-        if (x2 === null || x2 === void 0) {
-          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
-        }
-        var keysOfFields = (0, util_1.enumerableKeysOf)(fields);
-        if (keysOfFields.length !== 0 && typeof x2 !== "object")
-          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
-        var keys = __spreadArray2([], __read(new Set(__spreadArray2(__spreadArray2([], __read(keysOfFields), false), __read((0, util_1.enumerableKeysOf)(x2)), false))), false);
-        var results = keys.reduce(function(results2, key) {
-          var fieldsHasKey = (0, util_1.hasKey)(key, fields);
-          var xHasKey = (0, util_1.hasKey)(key, x2);
-          if (fieldsHasKey) {
-            var runtype = fields[key];
-            var isOptional = isPartial || runtype.reflect.tag === "optional";
-            if (xHasKey) {
-              var value = x2[key];
-              if (isOptional && value === void 0)
-                results2[key] = (0, util_1.SUCCESS)(value);
-              else
-                results2[key] = (0, runtype_1.innerValidate)(runtype, value, visited);
-            } else {
-              if (!isOptional)
-                results2[key] = util_1.FAILURE.PROPERTY_MISSING(runtype.reflect);
-              else
-                results2[key] = (0, util_1.SUCCESS)(void 0);
-            }
-          } else if (xHasKey) {
-            var value = x2[key];
-            results2[key] = (0, util_1.SUCCESS)(value);
-          } else {
-            throw new Error("impossible");
-          }
-          return results2;
-        }, {});
-        var details = keys.reduce(function(details2, key) {
-          var result = results[key];
-          if (!result.success)
-            details2[key] = result.details || result.message;
-          return details2;
-        }, {});
-        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
-          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
-        else
-          return (0, util_1.SUCCESS)(x2);
-      }, self2));
-    }
-    exports.InternalRecord = InternalRecord;
-    function Record2(fields) {
-      return InternalRecord(fields, false, false);
-    }
-    exports.Record = Record2;
-    function Partial(fields) {
-      return InternalRecord(fields, true, false);
-    }
-    exports.Partial = Partial;
-    function withExtraModifierFuncs(A2) {
-      A2.asPartial = asPartial;
-      A2.asReadonly = asReadonly;
-      A2.pick = pick;
-      A2.omit = omit2;
-      A2.extend = extend;
-      return A2;
-      function asPartial() {
-        return InternalRecord(A2.fields, true, A2.isReadonly);
-      }
-      function asReadonly() {
-        return InternalRecord(A2.fields, A2.isPartial, true);
-      }
-      function pick() {
-        var keys = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-          keys[_i] = arguments[_i];
-        }
-        var result = {};
-        keys.forEach(function(key) {
-          result[key] = A2.fields[key];
-        });
-        return InternalRecord(result, A2.isPartial, A2.isReadonly);
-      }
-      function omit2() {
-        var keys = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-          keys[_i] = arguments[_i];
-        }
-        var result = {};
-        var existingKeys = (0, util_1.enumerableKeysOf)(A2.fields);
-        existingKeys.forEach(function(key) {
-          if (!keys.includes(key))
-            result[key] = A2.fields[key];
-        });
-        return InternalRecord(result, A2.isPartial, A2.isReadonly);
-      }
-      function extend(fields) {
-        return InternalRecord(Object.assign({}, A2.fields, fields), A2.isPartial, A2.isReadonly);
-      }
-    }
-  }
-});
-
-// node_modules/runtypes/lib/types/constraint.js
-var require_constraint = __commonJS({
-  "node_modules/runtypes/lib/types/constraint.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Guard = exports.Constraint = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var unknown_1 = require_unknown();
-    function Constraint(underlying, constraint, options) {
-      var name = options && options.name;
-      var args = options && options.args;
-      var self2 = {
-        tag: "constraint",
-        underlying,
-        constraint,
-        name,
-        args
-      };
-      return (0, runtype_1.create)(function(value) {
-        var result = underlying.validate(value);
-        if (!result.success)
-          return result;
-        var message = constraint(result.value);
-        if (typeof message === "string")
-          return util_1.FAILURE.CONSTRAINT_FAILED(self2, message);
-        else if (!message)
-          return util_1.FAILURE.CONSTRAINT_FAILED(self2);
-        return (0, util_1.SUCCESS)(result.value);
-      }, self2);
-    }
-    exports.Constraint = Constraint;
-    var Guard = function(guard, options) {
-      return unknown_1.Unknown.withGuard(guard, options);
-    };
-    exports.Guard = Guard;
-  }
-});
-
-// node_modules/runtypes/lib/types/dictionary.js
-var require_dictionary = __commonJS({
-  "node_modules/runtypes/lib/types/dictionary.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Dictionary = void 0;
-    var runtype_1 = require_runtype();
-    var string_1 = require_string();
-    var constraint_1 = require_constraint();
-    var show_1 = require_show();
-    var util_1 = require_util();
-    var NumberKey = (0, constraint_1.Constraint)(string_1.String, function(s2) {
-      return !isNaN(+s2);
-    }, { name: "number" });
-    function Dictionary(value, key) {
-      var keyRuntype = key === void 0 ? string_1.String : key === "string" ? string_1.String : key === "number" ? NumberKey : key;
-      var keyString = (0, show_1.default)(keyRuntype);
-      var self2 = { tag: "dictionary", key: keyString, value };
-      return (0, runtype_1.create)(function(x2, visited) {
-        if (x2 === null || x2 === void 0 || typeof x2 !== "object")
-          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
-        if (Object.getPrototypeOf(x2) !== Object.prototype) {
-          if (!Array.isArray(x2) || keyString === "string")
-            return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
-        }
-        var numberString = /^(?:NaN|-?\d+(?:\.\d+)?)$/;
-        var keys = (0, util_1.enumerableKeysOf)(x2);
-        var results = keys.reduce(function(results2, key2) {
-          var isNumberLikeKey = typeof key2 === "string" && numberString.test(key2);
-          var keyInterop = isNumberLikeKey ? globalThis.Number(key2) : key2;
-          if (isNumberLikeKey ? !keyRuntype.guard(keyInterop) && !keyRuntype.guard(key2) : !keyRuntype.guard(keyInterop)) {
-            results2[key2] = util_1.FAILURE.KEY_INCORRECT(self2, keyRuntype.reflect, keyInterop);
-          } else
-            results2[key2] = (0, runtype_1.innerValidate)(value, x2[key2], visited);
-          return results2;
-        }, {});
-        var details = keys.reduce(function(details2, key2) {
-          var result = results[key2];
-          if (!result.success)
-            details2[key2] = result.details || result.message;
-          return details2;
-        }, {});
-        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
-          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
-        else
-          return (0, util_1.SUCCESS)(x2);
-      }, self2);
-    }
-    exports.Dictionary = Dictionary;
-  }
-});
-
-// node_modules/runtypes/lib/types/intersect.js
-var require_intersect = __commonJS({
-  "node_modules/runtypes/lib/types/intersect.js"(exports) {
-    "use strict";
-    var __values = exports && exports.__values || function(o2) {
-      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
-      if (m2)
-        return m2.call(o2);
-      if (o2 && typeof o2.length === "number")
-        return {
-          next: function() {
-            if (o2 && i2 >= o2.length)
-              o2 = void 0;
-            return { value: o2 && o2[i2++], done: !o2 };
-          }
-        };
-      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Intersect = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function Intersect() {
-      var intersectees = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        intersectees[_i] = arguments[_i];
-      }
-      var self2 = { tag: "intersect", intersectees };
-      return (0, runtype_1.create)(function(value, visited) {
-        var e_1, _a2;
-        try {
-          for (var intersectees_1 = __values(intersectees), intersectees_1_1 = intersectees_1.next(); !intersectees_1_1.done; intersectees_1_1 = intersectees_1.next()) {
-            var targetType = intersectees_1_1.value;
-            var result = (0, runtype_1.innerValidate)(targetType, value, visited);
-            if (!result.success)
-              return result;
-          }
-        } catch (e_1_1) {
-          e_1 = { error: e_1_1 };
-        } finally {
-          try {
-            if (intersectees_1_1 && !intersectees_1_1.done && (_a2 = intersectees_1.return))
-              _a2.call(intersectees_1);
-          } finally {
-            if (e_1)
-              throw e_1.error;
-          }
-        }
-        return (0, util_1.SUCCESS)(value);
-      }, self2);
-    }
-    exports.Intersect = Intersect;
-  }
-});
-
-// node_modules/runtypes/lib/types/optional.js
-var require_optional = __commonJS({
-  "node_modules/runtypes/lib/types/optional.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Optional = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function Optional(runtype) {
-      var self2 = { tag: "optional", underlying: runtype };
-      return (0, runtype_1.create)(function(value) {
-        return value === void 0 ? (0, util_1.SUCCESS)(value) : runtype.validate(value);
-      }, self2);
-    }
-    exports.Optional = Optional;
-  }
-});
-
-// node_modules/runtypes/lib/types/function.js
-var require_function = __commonJS({
-  "node_modules/runtypes/lib/types/function.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Function = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    var self2 = { tag: "function" };
-    exports.Function = (0, runtype_1.create)(function(value) {
-      return typeof value === "function" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-    }, self2);
-  }
-});
-
-// node_modules/runtypes/lib/types/instanceof.js
-var require_instanceof = __commonJS({
-  "node_modules/runtypes/lib/types/instanceof.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.InstanceOf = void 0;
-    var runtype_1 = require_runtype();
-    var util_1 = require_util();
-    function InstanceOf(ctor) {
-      var self2 = { tag: "instanceof", ctor };
-      return (0, runtype_1.create)(function(value) {
-        return value instanceof ctor ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
-      }, self2);
-    }
-    exports.InstanceOf = InstanceOf;
-  }
-});
-
-// node_modules/runtypes/lib/types/lazy.js
-var require_lazy = __commonJS({
-  "node_modules/runtypes/lib/types/lazy.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Lazy = void 0;
-    var runtype_1 = require_runtype();
-    function Lazy(delayed) {
-      var data = {
-        get tag() {
-          return getWrapped()["tag"];
-        }
-      };
-      var cached;
-      function getWrapped() {
-        if (!cached) {
-          cached = delayed();
-          for (var k2 in cached)
-            if (k2 !== "tag")
-              data[k2] = cached[k2];
-        }
-        return cached;
-      }
-      return (0, runtype_1.create)(function(x2) {
-        return getWrapped().validate(x2);
-      }, data);
-    }
-    exports.Lazy = Lazy;
-  }
-});
-
-// node_modules/runtypes/lib/types/brand.js
-var require_brand = __commonJS({
-  "node_modules/runtypes/lib/types/brand.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Brand = void 0;
-    var runtype_1 = require_runtype();
-    function Brand(brand, entity) {
-      var self2 = { tag: "brand", brand, entity };
-      return (0, runtype_1.create)(function(value) {
-        return entity.validate(value);
-      }, self2);
-    }
-    exports.Brand = Brand;
-  }
-});
-
-// node_modules/runtypes/lib/decorator.js
-var require_decorator = __commonJS({
-  "node_modules/runtypes/lib/decorator.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.checked = exports.check = void 0;
-    var errors_1 = require_errors();
-    var util_1 = require_util();
-    var prototypes = /* @__PURE__ */ new WeakMap();
-    function check(target, propertyKey, parameterIndex) {
-      var prototype = prototypes.get(target) || /* @__PURE__ */ new Map();
-      prototypes.set(target, prototype);
-      var validParameterIndices = prototype.get(propertyKey) || [];
-      prototype.set(propertyKey, validParameterIndices);
-      validParameterIndices.push(parameterIndex);
-    }
-    exports.check = check;
-    function getValidParameterIndices(target, propertyKey, runtypeCount) {
-      var prototype = prototypes.get(target);
-      var validParameterIndices = prototype && prototype.get(propertyKey);
-      if (validParameterIndices) {
-        return validParameterIndices;
-      }
-      var indices = [];
-      for (var i2 = 0; i2 < runtypeCount; i2++) {
-        indices.push(i2);
-      }
-      return indices;
-    }
-    function checked() {
-      var runtypes = [];
-      for (var _i = 0; _i < arguments.length; _i++) {
-        runtypes[_i] = arguments[_i];
-      }
-      if (runtypes.length === 0) {
-        throw new Error("No runtype provided to `@checked`. Please remove the decorator.");
-      }
-      return function(target, propertyKey, descriptor) {
-        var method = descriptor.value;
-        var methodId = (target.name || target.constructor.name + ".prototype") + (typeof propertyKey === "string" ? '["'.concat(propertyKey, '"]') : "[".concat(String(propertyKey), "]"));
-        var validParameterIndices = getValidParameterIndices(target, propertyKey, runtypes.length);
-        if (validParameterIndices.length !== runtypes.length) {
-          throw new Error("Number of `@checked` runtypes and @check parameters not matched.");
-        }
-        if (validParameterIndices.length > method.length) {
-          throw new Error("Number of `@checked` runtypes exceeds actual parameter length.");
-        }
-        descriptor.value = function() {
-          var args = [];
-          for (var _i2 = 0; _i2 < arguments.length; _i2++) {
-            args[_i2] = arguments[_i2];
-          }
-          runtypes.forEach(function(type, typeIndex) {
-            var parameterIndex = validParameterIndices[typeIndex];
-            var result = type.validate(args[parameterIndex]);
-            if (!result.success) {
-              var message = "".concat(methodId, ", argument #").concat(parameterIndex, ": ").concat(result.message);
-              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
-              throw new errors_1.ValidationError(failure);
-            }
-          });
-          return method.apply(this, args);
-        };
-      };
-    }
-    exports.checked = checked;
-  }
-});
-
-// node_modules/runtypes/lib/index.js
-var require_lib = __commonJS({
-  "node_modules/runtypes/lib/index.js"(exports) {
-    "use strict";
-    var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m2, k2, k22) {
-      if (k22 === void 0)
-        k22 = k2;
-      Object.defineProperty(o2, k22, { enumerable: true, get: function() {
-        return m2[k2];
-      } });
-    } : function(o2, m2, k2, k22) {
-      if (k22 === void 0)
-        k22 = k2;
-      o2[k22] = m2[k2];
-    });
-    var __exportStar = exports && exports.__exportStar || function(m2, exports2) {
-      for (var p2 in m2)
-        if (p2 !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p2))
-          __createBinding(exports2, m2, p2);
-    };
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.InstanceOf = exports.Nullish = exports.Null = exports.Undefined = exports.Literal = void 0;
-    __exportStar(require_reflect(), exports);
-    __exportStar(require_result(), exports);
-    __exportStar(require_contract(), exports);
-    __exportStar(require_asynccontract(), exports);
-    __exportStar(require_match(), exports);
-    __exportStar(require_errors(), exports);
-    __exportStar(require_unknown(), exports);
-    __exportStar(require_never(), exports);
-    __exportStar(require_void(), exports);
-    var literal_1 = require_literal();
-    Object.defineProperty(exports, "Literal", { enumerable: true, get: function() {
-      return literal_1.Literal;
-    } });
-    Object.defineProperty(exports, "Undefined", { enumerable: true, get: function() {
-      return literal_1.Undefined;
-    } });
-    Object.defineProperty(exports, "Null", { enumerable: true, get: function() {
-      return literal_1.Null;
-    } });
-    Object.defineProperty(exports, "Nullish", { enumerable: true, get: function() {
-      return literal_1.Nullish;
-    } });
-    __exportStar(require_template(), exports);
-    __exportStar(require_boolean(), exports);
-    __exportStar(require_number(), exports);
-    __exportStar(require_bigint(), exports);
-    __exportStar(require_string(), exports);
-    __exportStar(require_symbol(), exports);
-    __exportStar(require_array(), exports);
-    __exportStar(require_tuple(), exports);
-    __exportStar(require_record(), exports);
-    __exportStar(require_dictionary(), exports);
-    __exportStar(require_union(), exports);
-    __exportStar(require_intersect(), exports);
-    __exportStar(require_optional(), exports);
-    __exportStar(require_function(), exports);
-    var instanceof_1 = require_instanceof();
-    Object.defineProperty(exports, "InstanceOf", { enumerable: true, get: function() {
-      return instanceof_1.InstanceOf;
-    } });
-    __exportStar(require_lazy(), exports);
-    __exportStar(require_constraint(), exports);
-    __exportStar(require_brand(), exports);
-    __exportStar(require_decorator(), exports);
   }
 });
 
@@ -28818,7 +26932,7 @@ var require_lodash = __commonJS({
           customizer = typeof customizer == "function" ? customizer : undefined2;
           return baseClone(value, CLONE_SYMBOLS_FLAG, customizer);
         }
-        function cloneDeep(value) {
+        function cloneDeep17(value) {
           return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG);
         }
         function cloneDeepWith(value, customizer) {
@@ -29944,7 +28058,7 @@ var require_lodash = __commonJS({
         lodash.ceil = ceil2;
         lodash.clamp = clamp;
         lodash.clone = clone2;
-        lodash.cloneDeep = cloneDeep;
+        lodash.cloneDeep = cloneDeep17;
         lodash.cloneDeepWith = cloneDeepWith;
         lodash.cloneWith = cloneWith;
         lodash.conformsTo = conformsTo;
@@ -30274,6 +28388,1892 @@ var require_lodash = __commonJS({
   }
 });
 
+// node_modules/runtypes/lib/reflect.js
+var require_reflect = __commonJS({
+  "node_modules/runtypes/lib/reflect.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+  }
+});
+
+// node_modules/runtypes/lib/result.js
+var require_result = __commonJS({
+  "node_modules/runtypes/lib/result.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Failcode = void 0;
+    exports.Failcode = {
+      TYPE_INCORRECT: "TYPE_INCORRECT",
+      VALUE_INCORRECT: "VALUE_INCORRECT",
+      KEY_INCORRECT: "KEY_INCORRECT",
+      CONTENT_INCORRECT: "CONTENT_INCORRECT",
+      ARGUMENT_INCORRECT: "ARGUMENT_INCORRECT",
+      RETURN_INCORRECT: "RETURN_INCORRECT",
+      CONSTRAINT_FAILED: "CONSTRAINT_FAILED",
+      PROPERTY_MISSING: "PROPERTY_MISSING",
+      PROPERTY_PRESENT: "PROPERTY_PRESENT",
+      NOTHING_EXPECTED: "NOTHING_EXPECTED"
+    };
+  }
+});
+
+// node_modules/runtypes/lib/errors.js
+var require_errors = __commonJS({
+  "node_modules/runtypes/lib/errors.js"(exports) {
+    "use strict";
+    var __extends2 = exports && exports.__extends || function() {
+      var extendStatics = function(d2, b2) {
+        extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d3, b3) {
+          d3.__proto__ = b3;
+        } || function(d3, b3) {
+          for (var p2 in b3)
+            if (Object.prototype.hasOwnProperty.call(b3, p2))
+              d3[p2] = b3[p2];
+        };
+        return extendStatics(d2, b2);
+      };
+      return function(d2, b2) {
+        if (typeof b2 !== "function" && b2 !== null)
+          throw new TypeError("Class extends value " + String(b2) + " is not a constructor or null");
+        extendStatics(d2, b2);
+        function __() {
+          this.constructor = d2;
+        }
+        d2.prototype = b2 === null ? Object.create(b2) : (__.prototype = b2.prototype, new __());
+      };
+    }();
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.ValidationError = void 0;
+    var ValidationError2 = function(_super) {
+      __extends2(ValidationError3, _super);
+      function ValidationError3(failure) {
+        var _this = _super.call(this, failure.message) || this;
+        _this.name = "ValidationError";
+        _this.code = failure.code;
+        if (failure.details !== void 0)
+          _this.details = failure.details;
+        Object.setPrototypeOf(_this, ValidationError3.prototype);
+        return _this;
+      }
+      return ValidationError3;
+    }(Error);
+    exports.ValidationError = ValidationError2;
+  }
+});
+
+// node_modules/runtypes/lib/show.js
+var require_show = __commonJS({
+  "node_modules/runtypes/lib/show.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var showStringified = function(circular) {
+      return function(refl) {
+        switch (refl.tag) {
+          case "literal":
+            return '"'.concat(String(refl.value), '"');
+          case "string":
+            return "string";
+          case "brand":
+            return refl.brand;
+          case "constraint":
+            return refl.name || showStringified(circular)(refl.underlying);
+          case "union":
+            return refl.alternatives.map(showStringified(circular)).join(" | ");
+          case "intersect":
+            return refl.intersectees.map(showStringified(circular)).join(" & ");
+          default:
+            break;
+        }
+        return "`${".concat(show(false, circular)(refl), "}`");
+      };
+    };
+    var showEmbedded = function(circular) {
+      return function(refl) {
+        switch (refl.tag) {
+          case "literal":
+            return String(refl.value);
+          case "brand":
+            return "${".concat(refl.brand, "}");
+          case "constraint":
+            return refl.name ? "${".concat(refl.name, "}") : showEmbedded(circular)(refl.underlying);
+          case "union":
+            if (refl.alternatives.length === 1) {
+              var inner = refl.alternatives[0];
+              return showEmbedded(circular)(inner.reflect);
+            }
+            break;
+          case "intersect":
+            if (refl.intersectees.length === 1) {
+              var inner = refl.intersectees[0];
+              return showEmbedded(circular)(inner.reflect);
+            }
+            break;
+          default:
+            break;
+        }
+        return "${".concat(show(false, circular)(refl), "}");
+      };
+    };
+    var show = function(needsParens, circular) {
+      return function(refl) {
+        var parenthesize = function(s2) {
+          return needsParens ? "(".concat(s2, ")") : s2;
+        };
+        if (circular.has(refl))
+          return parenthesize("CIRCULAR ".concat(refl.tag));
+        else
+          circular.add(refl);
+        try {
+          switch (refl.tag) {
+            case "unknown":
+            case "never":
+            case "void":
+            case "boolean":
+            case "number":
+            case "bigint":
+            case "string":
+            case "symbol":
+            case "function":
+              return refl.tag;
+            case "literal": {
+              var value = refl.value;
+              return typeof value === "string" ? '"'.concat(value, '"') : String(value);
+            }
+            case "template": {
+              if (refl.strings.length === 0)
+                return '""';
+              else if (refl.strings.length === 1)
+                return '"'.concat(refl.strings[0], '"');
+              else if (refl.strings.length === 2) {
+                if (refl.strings.every(function(string) {
+                  return string === "";
+                })) {
+                  var runtype = refl.runtypes[0];
+                  return showStringified(circular)(runtype.reflect);
+                }
+              }
+              var backtick_1 = false;
+              var inner = refl.strings.reduce(function(inner2, string, i2) {
+                var prefix2 = inner2 + string;
+                var runtype2 = refl.runtypes[i2];
+                if (runtype2) {
+                  var suffix = showEmbedded(circular)(runtype2.reflect);
+                  if (!backtick_1 && suffix.startsWith("$"))
+                    backtick_1 = true;
+                  return prefix2 + suffix;
+                } else
+                  return prefix2;
+              }, "");
+              return backtick_1 ? "`".concat(inner, "`") : '"'.concat(inner, '"');
+            }
+            case "array":
+              return "".concat(readonlyTag(refl)).concat(show(true, circular)(refl.element), "[]");
+            case "dictionary":
+              return "{ [_: ".concat(refl.key, "]: ").concat(show(false, circular)(refl.value), " }");
+            case "record": {
+              var keys = Object.keys(refl.fields);
+              return keys.length ? "{ ".concat(keys.map(function(k2) {
+                return "".concat(readonlyTag(refl)).concat(k2).concat(partialTag(refl, k2), ": ").concat(refl.fields[k2].tag === "optional" ? show(false, circular)(refl.fields[k2].underlying) : show(false, circular)(refl.fields[k2]), ";");
+              }).join(" "), " }") : "{}";
+            }
+            case "tuple":
+              return "[".concat(refl.components.map(show(false, circular)).join(", "), "]");
+            case "union":
+              return parenthesize("".concat(refl.alternatives.map(show(true, circular)).join(" | ")));
+            case "intersect":
+              return parenthesize("".concat(refl.intersectees.map(show(true, circular)).join(" & ")));
+            case "optional":
+              return show(needsParens, circular)(refl.underlying) + " | undefined";
+            case "constraint":
+              return refl.name || show(needsParens, circular)(refl.underlying);
+            case "instanceof":
+              return refl.ctor.name;
+            case "brand":
+              return show(needsParens, circular)(refl.entity);
+          }
+        } finally {
+          circular.delete(refl);
+        }
+        throw Error("impossible");
+      };
+    };
+    exports.default = show(false, /* @__PURE__ */ new Set());
+    function partialTag(_a2, key) {
+      var isPartial = _a2.isPartial, fields = _a2.fields;
+      return isPartial || key !== void 0 && fields[key].tag === "optional" ? "?" : "";
+    }
+    function readonlyTag(_a2) {
+      var isReadonly = _a2.isReadonly;
+      return isReadonly ? "readonly " : "";
+    }
+  }
+});
+
+// node_modules/runtypes/lib/util.js
+var require_util = __commonJS({
+  "node_modules/runtypes/lib/util.js"(exports) {
+    "use strict";
+    var __assign = exports && exports.__assign || function() {
+      __assign = Object.assign || function(t2) {
+        for (var s2, i2 = 1, n2 = arguments.length; i2 < n2; i2++) {
+          s2 = arguments[i2];
+          for (var p2 in s2)
+            if (Object.prototype.hasOwnProperty.call(s2, p2))
+              t2[p2] = s2[p2];
+        }
+        return t2;
+      };
+      return __assign.apply(this, arguments);
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.FAILURE = exports.SUCCESS = exports.enumerableKeysOf = exports.typeOf = exports.hasKey = void 0;
+    var result_1 = require_result();
+    var show_1 = require_show();
+    function hasKey(key, object) {
+      return typeof object === "object" && object !== null && key in object;
+    }
+    exports.hasKey = hasKey;
+    var typeOf = function(value) {
+      var _a2, _b, _c;
+      return typeof value === "object" ? value === null ? "null" : Array.isArray(value) ? "array" : ((_a2 = value.constructor) === null || _a2 === void 0 ? void 0 : _a2.name) === "Object" ? "object" : (_c = (_b = value.constructor) === null || _b === void 0 ? void 0 : _b.name) !== null && _c !== void 0 ? _c : typeof value : typeof value;
+    };
+    exports.typeOf = typeOf;
+    var enumerableKeysOf = function(object) {
+      return typeof object === "object" && object !== null ? Reflect.ownKeys(object).filter(function(key) {
+        var _a2, _b;
+        return (_b = (_a2 = object.propertyIsEnumerable) === null || _a2 === void 0 ? void 0 : _a2.call(object, key)) !== null && _b !== void 0 ? _b : true;
+      }) : [];
+    };
+    exports.enumerableKeysOf = enumerableKeysOf;
+    function SUCCESS(value) {
+      return { success: true, value };
+    }
+    exports.SUCCESS = SUCCESS;
+    exports.FAILURE = Object.assign(function(code, message, details) {
+      return __assign({ success: false, code, message }, details ? { details } : {});
+    }, {
+      TYPE_INCORRECT: function(self2, value) {
+        var message = "Expected ".concat(self2.tag === "template" ? "string ".concat((0, show_1.default)(self2)) : (0, show_1.default)(self2), ", but was ").concat((0, exports.typeOf)(value));
+        return (0, exports.FAILURE)(result_1.Failcode.TYPE_INCORRECT, message);
+      },
+      VALUE_INCORRECT: function(name, expected, received) {
+        return (0, exports.FAILURE)(result_1.Failcode.VALUE_INCORRECT, "Expected ".concat(name, " ").concat(String(expected), ", but was ").concat(String(received)));
+      },
+      KEY_INCORRECT: function(self2, expected, value) {
+        return (0, exports.FAILURE)(result_1.Failcode.KEY_INCORRECT, "Expected ".concat((0, show_1.default)(self2), " key to be ").concat((0, show_1.default)(expected), ", but was ").concat((0, exports.typeOf)(value)));
+      },
+      CONTENT_INCORRECT: function(self2, details) {
+        var formattedDetails = JSON.stringify(details, null, 2).replace(/^ *null,\n/gm, "");
+        var message = "Validation failed:\n".concat(formattedDetails, ".\nObject should match ").concat((0, show_1.default)(self2));
+        return (0, exports.FAILURE)(result_1.Failcode.CONTENT_INCORRECT, message, details);
+      },
+      ARGUMENT_INCORRECT: function(message) {
+        return (0, exports.FAILURE)(result_1.Failcode.ARGUMENT_INCORRECT, message);
+      },
+      RETURN_INCORRECT: function(message) {
+        return (0, exports.FAILURE)(result_1.Failcode.RETURN_INCORRECT, message);
+      },
+      CONSTRAINT_FAILED: function(self2, message) {
+        var info = message ? ": ".concat(message) : "";
+        return (0, exports.FAILURE)(result_1.Failcode.CONSTRAINT_FAILED, "Failed constraint check for ".concat((0, show_1.default)(self2)).concat(info));
+      },
+      PROPERTY_MISSING: function(self2) {
+        var message = "Expected ".concat((0, show_1.default)(self2), ", but was missing");
+        return (0, exports.FAILURE)(result_1.Failcode.PROPERTY_MISSING, message);
+      },
+      PROPERTY_PRESENT: function(value) {
+        var message = "Expected nothing, but was ".concat((0, exports.typeOf)(value));
+        return (0, exports.FAILURE)(result_1.Failcode.PROPERTY_PRESENT, message);
+      },
+      NOTHING_EXPECTED: function(value) {
+        var message = "Expected nothing, but was ".concat((0, exports.typeOf)(value));
+        return (0, exports.FAILURE)(result_1.Failcode.NOTHING_EXPECTED, message);
+      }
+    });
+  }
+});
+
+// node_modules/runtypes/lib/contract.js
+var require_contract = __commonJS({
+  "node_modules/runtypes/lib/contract.js"(exports) {
+    "use strict";
+    var __read = exports && exports.__read || function(o2, n2) {
+      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
+      if (!m2)
+        return o2;
+      var i2 = m2.call(o2), r2, ar = [], e;
+      try {
+        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
+          ar.push(r2.value);
+      } catch (error) {
+        e = { error };
+      } finally {
+        try {
+          if (r2 && !r2.done && (m2 = i2["return"]))
+            m2.call(i2);
+        } finally {
+          if (e)
+            throw e.error;
+        }
+      }
+      return ar;
+    };
+    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
+      if (pack || arguments.length === 2)
+        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
+          if (ar || !(i2 in from)) {
+            if (!ar)
+              ar = Array.prototype.slice.call(from, 0, i2);
+            ar[i2] = from[i2];
+          }
+        }
+      return to.concat(ar || Array.prototype.slice.call(from));
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Contract = void 0;
+    var errors_1 = require_errors();
+    var util_1 = require_util();
+    function Contract() {
+      var runtypes = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        runtypes[_i] = arguments[_i];
+      }
+      var lastIndex = runtypes.length - 1;
+      var argRuntypes = runtypes.slice(0, lastIndex);
+      var returnRuntype = runtypes[lastIndex];
+      return {
+        enforce: function(f3) {
+          return function() {
+            var args = [];
+            for (var _i2 = 0; _i2 < arguments.length; _i2++) {
+              args[_i2] = arguments[_i2];
+            }
+            if (args.length < argRuntypes.length) {
+              var message = "Expected ".concat(argRuntypes.length, " arguments but only received ").concat(args.length);
+              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
+              throw new errors_1.ValidationError(failure);
+            }
+            for (var i2 = 0; i2 < argRuntypes.length; i2++)
+              argRuntypes[i2].check(args[i2]);
+            return returnRuntype.check(f3.apply(void 0, __spreadArray2([], __read(args), false)));
+          };
+        }
+      };
+    }
+    exports.Contract = Contract;
+  }
+});
+
+// node_modules/runtypes/lib/asynccontract.js
+var require_asynccontract = __commonJS({
+  "node_modules/runtypes/lib/asynccontract.js"(exports) {
+    "use strict";
+    var __read = exports && exports.__read || function(o2, n2) {
+      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
+      if (!m2)
+        return o2;
+      var i2 = m2.call(o2), r2, ar = [], e;
+      try {
+        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
+          ar.push(r2.value);
+      } catch (error) {
+        e = { error };
+      } finally {
+        try {
+          if (r2 && !r2.done && (m2 = i2["return"]))
+            m2.call(i2);
+        } finally {
+          if (e)
+            throw e.error;
+        }
+      }
+      return ar;
+    };
+    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
+      if (pack || arguments.length === 2)
+        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
+          if (ar || !(i2 in from)) {
+            if (!ar)
+              ar = Array.prototype.slice.call(from, 0, i2);
+            ar[i2] = from[i2];
+          }
+        }
+      return to.concat(ar || Array.prototype.slice.call(from));
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AsyncContract = void 0;
+    var errors_1 = require_errors();
+    var util_1 = require_util();
+    function AsyncContract() {
+      var runtypes = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        runtypes[_i] = arguments[_i];
+      }
+      var lastIndex = runtypes.length - 1;
+      var argRuntypes = runtypes.slice(0, lastIndex);
+      var returnRuntype = runtypes[lastIndex];
+      return {
+        enforce: function(f3) {
+          return function() {
+            var args = [];
+            for (var _i2 = 0; _i2 < arguments.length; _i2++) {
+              args[_i2] = arguments[_i2];
+            }
+            if (args.length < argRuntypes.length) {
+              var message = "Expected ".concat(argRuntypes.length, " arguments but only received ").concat(args.length);
+              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
+              throw new errors_1.ValidationError(failure);
+            }
+            for (var i2 = 0; i2 < argRuntypes.length; i2++)
+              argRuntypes[i2].check(args[i2]);
+            var returnedPromise = f3.apply(void 0, __spreadArray2([], __read(args), false));
+            if (!(returnedPromise instanceof Promise)) {
+              var message = "Expected function to return a promise, but instead got ".concat(returnedPromise);
+              var failure = util_1.FAILURE.RETURN_INCORRECT(message);
+              throw new errors_1.ValidationError(failure);
+            }
+            return returnedPromise.then(returnRuntype.check);
+          };
+        }
+      };
+    }
+    exports.AsyncContract = AsyncContract;
+  }
+});
+
+// node_modules/runtypes/lib/match.js
+var require_match = __commonJS({
+  "node_modules/runtypes/lib/match.js"(exports) {
+    "use strict";
+    var __values = exports && exports.__values || function(o2) {
+      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
+      if (m2)
+        return m2.call(o2);
+      if (o2 && typeof o2.length === "number")
+        return {
+          next: function() {
+            if (o2 && i2 >= o2.length)
+              o2 = void 0;
+            return { value: o2 && o2[i2++], done: !o2 };
+          }
+        };
+      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    };
+    var __read = exports && exports.__read || function(o2, n2) {
+      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
+      if (!m2)
+        return o2;
+      var i2 = m2.call(o2), r2, ar = [], e;
+      try {
+        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
+          ar.push(r2.value);
+      } catch (error) {
+        e = { error };
+      } finally {
+        try {
+          if (r2 && !r2.done && (m2 = i2["return"]))
+            m2.call(i2);
+        } finally {
+          if (e)
+            throw e.error;
+        }
+      }
+      return ar;
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.when = exports.match = void 0;
+    function match() {
+      var cases = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        cases[_i] = arguments[_i];
+      }
+      return function(x2) {
+        var e_1, _a2;
+        try {
+          for (var cases_1 = __values(cases), cases_1_1 = cases_1.next(); !cases_1_1.done; cases_1_1 = cases_1.next()) {
+            var _b = __read(cases_1_1.value, 2), T = _b[0], f3 = _b[1];
+            if (T.guard(x2))
+              return f3(x2);
+          }
+        } catch (e_1_1) {
+          e_1 = { error: e_1_1 };
+        } finally {
+          try {
+            if (cases_1_1 && !cases_1_1.done && (_a2 = cases_1.return))
+              _a2.call(cases_1);
+          } finally {
+            if (e_1)
+              throw e_1.error;
+          }
+        }
+        throw new Error("No alternatives were matched");
+      };
+    }
+    exports.match = match;
+    function when(runtype, transformer) {
+      return [runtype, transformer];
+    }
+    exports.when = when;
+  }
+});
+
+// node_modules/runtypes/lib/runtype.js
+var require_runtype = __commonJS({
+  "node_modules/runtypes/lib/runtype.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.innerValidate = exports.create = exports.isRuntype = void 0;
+    var index_1 = require_lib();
+    var show_1 = require_show();
+    var errors_1 = require_errors();
+    var util_1 = require_util();
+    var RuntypeSymbol = Symbol();
+    var isRuntype = function(x2) {
+      return (0, util_1.hasKey)(RuntypeSymbol, x2);
+    };
+    exports.isRuntype = isRuntype;
+    function create(validate2, A2) {
+      A2[RuntypeSymbol] = true;
+      A2.check = check;
+      A2.assert = check;
+      A2._innerValidate = function(value, visited) {
+        if (visited.has(value, A2))
+          return (0, util_1.SUCCESS)(value);
+        return validate2(value, visited);
+      };
+      A2.validate = function(value) {
+        return A2._innerValidate(value, VisitedState());
+      };
+      A2.guard = guard;
+      A2.Or = Or;
+      A2.And = And;
+      A2.optional = optional;
+      A2.nullable = nullable;
+      A2.withConstraint = withConstraint;
+      A2.withGuard = withGuard;
+      A2.withBrand = withBrand;
+      A2.reflect = A2;
+      A2.toString = function() {
+        return "Runtype<".concat((0, show_1.default)(A2), ">");
+      };
+      return A2;
+      function check(x2) {
+        var result = A2.validate(x2);
+        if (result.success)
+          return result.value;
+        else
+          throw new errors_1.ValidationError(result);
+      }
+      function guard(x2) {
+        return A2.validate(x2).success;
+      }
+      function Or(B2) {
+        return (0, index_1.Union)(A2, B2);
+      }
+      function And(B2) {
+        return (0, index_1.Intersect)(A2, B2);
+      }
+      function optional() {
+        return (0, index_1.Optional)(A2);
+      }
+      function nullable() {
+        return (0, index_1.Union)(A2, index_1.Null);
+      }
+      function withConstraint(constraint, options) {
+        return (0, index_1.Constraint)(A2, constraint, options);
+      }
+      function withGuard(guard2, options) {
+        return (0, index_1.Constraint)(A2, guard2, options);
+      }
+      function withBrand(B2) {
+        return (0, index_1.Brand)(B2, A2);
+      }
+    }
+    exports.create = create;
+    function innerValidate(targetType, value, visited) {
+      return targetType._innerValidate(value, visited);
+    }
+    exports.innerValidate = innerValidate;
+    function VisitedState() {
+      var members = /* @__PURE__ */ new WeakMap();
+      var add = function(candidate, type) {
+        if (candidate === null || !(typeof candidate === "object"))
+          return;
+        var typeSet = members.get(candidate);
+        members.set(candidate, typeSet ? typeSet.set(type, true) : (/* @__PURE__ */ new WeakMap()).set(type, true));
+      };
+      var has = function(candidate, type) {
+        var typeSet = members.get(candidate);
+        var value = typeSet && typeSet.get(type) || false;
+        add(candidate, type);
+        return value;
+      };
+      return { has };
+    }
+  }
+});
+
+// node_modules/runtypes/lib/types/unknown.js
+var require_unknown = __commonJS({
+  "node_modules/runtypes/lib/types/unknown.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Unknown = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "unknown" };
+    exports.Unknown = (0, runtype_1.create)(function(value) {
+      return (0, util_1.SUCCESS)(value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/never.js
+var require_never = __commonJS({
+  "node_modules/runtypes/lib/types/never.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Never = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "never" };
+    exports.Never = (0, runtype_1.create)(util_1.FAILURE.NOTHING_EXPECTED, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/void.js
+var require_void = __commonJS({
+  "node_modules/runtypes/lib/types/void.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Void = void 0;
+    var unknown_1 = require_unknown();
+    exports.Void = unknown_1.Unknown;
+  }
+});
+
+// node_modules/runtypes/lib/types/union.js
+var require_union = __commonJS({
+  "node_modules/runtypes/lib/types/union.js"(exports) {
+    "use strict";
+    var __values = exports && exports.__values || function(o2) {
+      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
+      if (m2)
+        return m2.call(o2);
+      if (o2 && typeof o2.length === "number")
+        return {
+          next: function() {
+            if (o2 && i2 >= o2.length)
+              o2 = void 0;
+            return { value: o2 && o2[i2++], done: !o2 };
+          }
+        };
+      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Union = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function Union2() {
+      var alternatives = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        alternatives[_i] = arguments[_i];
+      }
+      var match = function() {
+        var cases = [];
+        for (var _i2 = 0; _i2 < arguments.length; _i2++) {
+          cases[_i2] = arguments[_i2];
+        }
+        return function(x2) {
+          for (var i2 = 0; i2 < alternatives.length; i2++) {
+            if (alternatives[i2].guard(x2)) {
+              return cases[i2](x2);
+            }
+          }
+        };
+      };
+      var self2 = { tag: "union", alternatives, match };
+      return (0, runtype_1.create)(function(value, visited) {
+        var e_1, _a2, e_2, _b, e_3, _c, e_4, _d;
+        if (typeof value !== "object" || value === null) {
+          try {
+            for (var alternatives_1 = __values(alternatives), alternatives_1_1 = alternatives_1.next(); !alternatives_1_1.done; alternatives_1_1 = alternatives_1.next()) {
+              var alternative = alternatives_1_1.value;
+              if ((0, runtype_1.innerValidate)(alternative, value, visited).success)
+                return (0, util_1.SUCCESS)(value);
+            }
+          } catch (e_1_1) {
+            e_1 = { error: e_1_1 };
+          } finally {
+            try {
+              if (alternatives_1_1 && !alternatives_1_1.done && (_a2 = alternatives_1.return))
+                _a2.call(alternatives_1);
+            } finally {
+              if (e_1)
+                throw e_1.error;
+            }
+          }
+          return util_1.FAILURE.TYPE_INCORRECT(self2, value);
+        }
+        var commonLiteralFields = {};
+        try {
+          for (var alternatives_2 = __values(alternatives), alternatives_2_1 = alternatives_2.next(); !alternatives_2_1.done; alternatives_2_1 = alternatives_2.next()) {
+            var alternative = alternatives_2_1.value;
+            if (alternative.reflect.tag === "record") {
+              var _loop_1 = function(fieldName2) {
+                var field2 = alternative.reflect.fields[fieldName2];
+                if (field2.tag === "literal") {
+                  if (commonLiteralFields[fieldName2]) {
+                    if (commonLiteralFields[fieldName2].every(function(value2) {
+                      return value2 !== field2.value;
+                    })) {
+                      commonLiteralFields[fieldName2].push(field2.value);
+                    }
+                  } else {
+                    commonLiteralFields[fieldName2] = [field2.value];
+                  }
+                }
+              };
+              for (var fieldName in alternative.reflect.fields) {
+                _loop_1(fieldName);
+              }
+            }
+          }
+        } catch (e_2_1) {
+          e_2 = { error: e_2_1 };
+        } finally {
+          try {
+            if (alternatives_2_1 && !alternatives_2_1.done && (_b = alternatives_2.return))
+              _b.call(alternatives_2);
+          } finally {
+            if (e_2)
+              throw e_2.error;
+          }
+        }
+        for (var fieldName in commonLiteralFields) {
+          if (commonLiteralFields[fieldName].length === alternatives.length) {
+            try {
+              for (var alternatives_3 = (e_3 = void 0, __values(alternatives)), alternatives_3_1 = alternatives_3.next(); !alternatives_3_1.done; alternatives_3_1 = alternatives_3.next()) {
+                var alternative = alternatives_3_1.value;
+                if (alternative.reflect.tag === "record") {
+                  var field = alternative.reflect.fields[fieldName];
+                  if (field.tag === "literal" && (0, util_1.hasKey)(fieldName, value) && value[fieldName] === field.value) {
+                    return (0, runtype_1.innerValidate)(alternative, value, visited);
+                  }
+                }
+              }
+            } catch (e_3_1) {
+              e_3 = { error: e_3_1 };
+            } finally {
+              try {
+                if (alternatives_3_1 && !alternatives_3_1.done && (_c = alternatives_3.return))
+                  _c.call(alternatives_3);
+              } finally {
+                if (e_3)
+                  throw e_3.error;
+              }
+            }
+          }
+        }
+        try {
+          for (var alternatives_4 = __values(alternatives), alternatives_4_1 = alternatives_4.next(); !alternatives_4_1.done; alternatives_4_1 = alternatives_4.next()) {
+            var targetType = alternatives_4_1.value;
+            if ((0, runtype_1.innerValidate)(targetType, value, visited).success)
+              return (0, util_1.SUCCESS)(value);
+          }
+        } catch (e_4_1) {
+          e_4 = { error: e_4_1 };
+        } finally {
+          try {
+            if (alternatives_4_1 && !alternatives_4_1.done && (_d = alternatives_4.return))
+              _d.call(alternatives_4);
+          } finally {
+            if (e_4)
+              throw e_4.error;
+          }
+        }
+        return util_1.FAILURE.TYPE_INCORRECT(self2, value);
+      }, self2);
+    }
+    exports.Union = Union2;
+  }
+});
+
+// node_modules/runtypes/lib/types/literal.js
+var require_literal = __commonJS({
+  "node_modules/runtypes/lib/types/literal.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Nullish = exports.Null = exports.Undefined = exports.Literal = exports.literal = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var union_1 = require_union();
+    function literal(value) {
+      return Array.isArray(value) ? String(value.map(String)) : typeof value === "bigint" ? String(value) + "n" : String(value);
+    }
+    exports.literal = literal;
+    function Literal2(valueBase) {
+      var self2 = { tag: "literal", value: valueBase };
+      return (0, runtype_1.create)(function(value) {
+        return value === valueBase ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.VALUE_INCORRECT("literal", "`".concat(literal(valueBase), "`"), "`".concat(literal(value), "`"));
+      }, self2);
+    }
+    exports.Literal = Literal2;
+    exports.Undefined = Literal2(void 0);
+    exports.Null = Literal2(null);
+    exports.Nullish = (0, union_1.Union)(exports.Null, exports.Undefined);
+  }
+});
+
+// node_modules/runtypes/lib/types/template.js
+var require_template = __commonJS({
+  "node_modules/runtypes/lib/types/template.js"(exports) {
+    "use strict";
+    var __read = exports && exports.__read || function(o2, n2) {
+      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
+      if (!m2)
+        return o2;
+      var i2 = m2.call(o2), r2, ar = [], e;
+      try {
+        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
+          ar.push(r2.value);
+      } catch (error) {
+        e = { error };
+      } finally {
+        try {
+          if (r2 && !r2.done && (m2 = i2["return"]))
+            m2.call(i2);
+        } finally {
+          if (e)
+            throw e.error;
+        }
+      }
+      return ar;
+    };
+    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
+      if (pack || arguments.length === 2)
+        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
+          if (ar || !(i2 in from)) {
+            if (!ar)
+              ar = Array.prototype.slice.call(from, 0, i2);
+            ar[i2] = from[i2];
+          }
+        }
+      return to.concat(ar || Array.prototype.slice.call(from));
+    };
+    var __values = exports && exports.__values || function(o2) {
+      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
+      if (m2)
+        return m2.call(o2);
+      if (o2 && typeof o2.length === "number")
+        return {
+          next: function() {
+            if (o2 && i2 >= o2.length)
+              o2 = void 0;
+            return { value: o2 && o2[i2++], done: !o2 };
+          }
+        };
+      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Template = void 0;
+    var runtype_1 = require_runtype();
+    var show_1 = require_show();
+    var util_1 = require_util();
+    var literal_1 = require_literal();
+    var escapeRegExp = function(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    };
+    var parseArgs = function(args) {
+      if (0 < args.length && Array.isArray(args[0])) {
+        var _a2 = __read(args), strings = _a2[0], runtypes = _a2.slice(1);
+        return [Array.from(strings), runtypes];
+      } else {
+        var convenient = args;
+        var strings = convenient.reduce(function(strings2, arg) {
+          if (!(0, runtype_1.isRuntype)(arg))
+            strings2.push(strings2.pop() + String(arg));
+          else
+            strings2.push("");
+          return strings2;
+        }, [""]);
+        var runtypes = convenient.filter(runtype_1.isRuntype);
+        return [strings, runtypes];
+      }
+    };
+    var flattenInnerRuntypes = function(strings, runtypes) {
+      for (var i2 = 0; i2 < runtypes.length; ) {
+        switch (runtypes[i2].reflect.tag) {
+          case "literal": {
+            var literal_2 = runtypes[i2];
+            runtypes.splice(i2, 1);
+            var string = String(literal_2.value);
+            strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
+            break;
+          }
+          case "template": {
+            var template = runtypes[i2];
+            runtypes.splice.apply(runtypes, __spreadArray2([i2, 1], __read(template.runtypes), false));
+            var innerStrings = template.strings;
+            if (innerStrings.length === 1) {
+              strings.splice(i2, 2, strings[i2] + innerStrings[0] + strings[i2 + 1]);
+            } else {
+              var first = innerStrings[0];
+              var rest = innerStrings.slice(1, -1);
+              var last2 = innerStrings[innerStrings.length - 1];
+              strings.splice.apply(strings, __spreadArray2(__spreadArray2([i2, 2, strings[i2] + first], __read(rest), false), [last2 + strings[i2 + 1]], false));
+            }
+            break;
+          }
+          case "union": {
+            var union = runtypes[i2];
+            if (union.alternatives.length === 1) {
+              try {
+                var literal_3 = getInnerLiteral(union);
+                runtypes.splice(i2, 1);
+                var string = String(literal_3.value);
+                strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
+                break;
+              } catch (_5) {
+                i2++;
+                break;
+              }
+            } else {
+              i2++;
+              break;
+            }
+          }
+          case "intersect": {
+            var intersect = runtypes[i2];
+            if (intersect.intersectees.length === 1) {
+              try {
+                var literal_4 = getInnerLiteral(intersect);
+                runtypes.splice(i2, 1);
+                var string = String(literal_4.value);
+                strings.splice(i2, 2, strings[i2] + string + strings[i2 + 1]);
+                break;
+              } catch (_5) {
+                i2++;
+                break;
+              }
+            } else {
+              i2++;
+              break;
+            }
+          }
+          default:
+            i2++;
+            break;
+        }
+      }
+    };
+    var normalizeArgs = function(args) {
+      var _a2 = __read(parseArgs(args), 2), strings = _a2[0], runtypes = _a2[1];
+      flattenInnerRuntypes(strings, runtypes);
+      return [strings, runtypes];
+    };
+    var getInnerLiteral = function(runtype) {
+      switch (runtype.reflect.tag) {
+        case "literal":
+          return runtype;
+        case "brand":
+          return getInnerLiteral(runtype.reflect.entity);
+        case "union":
+          if (runtype.reflect.alternatives.length === 1)
+            return getInnerLiteral(runtype.reflect.alternatives[0]);
+          break;
+        case "intersect":
+          if (runtype.reflect.intersectees.length === 1)
+            return getInnerLiteral(runtype.reflect.intersectees[0]);
+          break;
+        default:
+          break;
+      }
+      throw void 0;
+    };
+    var identity2 = function(s2) {
+      return s2;
+    };
+    var revivers = {
+      string: [function(s2) {
+        return globalThis.String(s2);
+      }, ".*"],
+      number: [
+        function(s2) {
+          return globalThis.Number(s2);
+        },
+        "[+-]?(?:\\d*\\.\\d+|\\d+\\.\\d*|\\d+)(?:[Ee][+-]?\\d+)?",
+        "0[Bb][01]+",
+        "0[Oo][0-7]+",
+        "0[Xx][0-9A-Fa-f]+"
+      ],
+      bigint: [function(s2) {
+        return globalThis.BigInt(s2);
+      }, "-?[1-9]d*"],
+      boolean: [function(s2) {
+        return s2 === "false" ? false : true;
+      }, "true", "false"],
+      null: [function() {
+        return null;
+      }, "null"],
+      undefined: [function() {
+        return void 0;
+      }, "undefined"]
+    };
+    var getReviversFor = function(reflect) {
+      switch (reflect.tag) {
+        case "literal": {
+          var _a2 = __read(revivers[(0, util_1.typeOf)(reflect.value)] || [identity2], 1), reviver_1 = _a2[0];
+          return reviver_1;
+        }
+        case "brand":
+          return getReviversFor(reflect.entity);
+        case "constraint":
+          return getReviversFor(reflect.underlying);
+        case "union":
+          return reflect.alternatives.map(getReviversFor);
+        case "intersect":
+          return reflect.intersectees.map(getReviversFor);
+        default:
+          var _b = __read(revivers[reflect.tag] || [identity2], 1), reviver = _b[0];
+          return reviver;
+      }
+    };
+    var reviveValidate = function(reflect, visited) {
+      return function(value) {
+        var e_1, _a2, e_2, _b;
+        var revivers2 = getReviversFor(reflect);
+        if (Array.isArray(revivers2)) {
+          switch (reflect.tag) {
+            case "union":
+              try {
+                for (var _c = __values(reflect.alternatives), _d = _c.next(); !_d.done; _d = _c.next()) {
+                  var alternative = _d.value;
+                  var validated = reviveValidate(alternative.reflect, visited)(value);
+                  if (validated.success)
+                    return validated;
+                }
+              } catch (e_1_1) {
+                e_1 = { error: e_1_1 };
+              } finally {
+                try {
+                  if (_d && !_d.done && (_a2 = _c.return))
+                    _a2.call(_c);
+                } finally {
+                  if (e_1)
+                    throw e_1.error;
+                }
+              }
+              return util_1.FAILURE.TYPE_INCORRECT(reflect, value);
+            case "intersect":
+              try {
+                for (var _e = __values(reflect.intersectees), _f = _e.next(); !_f.done; _f = _e.next()) {
+                  var intersectee = _f.value;
+                  var validated = reviveValidate(intersectee.reflect, visited)(value);
+                  if (!validated.success)
+                    return validated;
+                }
+              } catch (e_2_1) {
+                e_2 = { error: e_2_1 };
+              } finally {
+                try {
+                  if (_f && !_f.done && (_b = _e.return))
+                    _b.call(_e);
+                } finally {
+                  if (e_2)
+                    throw e_2.error;
+                }
+              }
+              return (0, util_1.SUCCESS)(value);
+            default:
+              throw Error("impossible");
+          }
+        } else {
+          var reviver = revivers2;
+          var validated = (0, runtype_1.innerValidate)(reflect, reviver(value), visited);
+          if (!validated.success && validated.code === "VALUE_INCORRECT" && reflect.tag === "literal")
+            return util_1.FAILURE.VALUE_INCORRECT("literal", '"'.concat((0, literal_1.literal)(reflect.value), '"'), '"'.concat(value, '"'));
+          return validated;
+        }
+      };
+    };
+    var getRegExpPatternFor = function(reflect) {
+      switch (reflect.tag) {
+        case "literal":
+          return escapeRegExp(String(reflect.value));
+        case "brand":
+          return getRegExpPatternFor(reflect.entity);
+        case "constraint":
+          return getRegExpPatternFor(reflect.underlying);
+        case "union":
+          return reflect.alternatives.map(getRegExpPatternFor).join("|");
+        case "template": {
+          return reflect.strings.map(escapeRegExp).reduce(function(pattern, string, i2) {
+            var prefix2 = pattern + string;
+            var runtype = reflect.runtypes[i2];
+            if (runtype)
+              return prefix2 + "(?:".concat(getRegExpPatternFor(runtype.reflect), ")");
+            else
+              return prefix2;
+          }, "");
+        }
+        default:
+          var _a2 = __read(revivers[reflect.tag] || [void 0, ".*"]), patterns = _a2.slice(1);
+          return patterns.join("|");
+      }
+    };
+    var createRegExpForTemplate = function(reflect) {
+      var pattern = reflect.strings.map(escapeRegExp).reduce(function(pattern2, string, i2) {
+        var prefix2 = pattern2 + string;
+        var runtype = reflect.runtypes[i2];
+        if (runtype)
+          return prefix2 + "(".concat(getRegExpPatternFor(runtype.reflect), ")");
+        else
+          return prefix2;
+      }, "");
+      return new RegExp("^".concat(pattern, "$"), "su");
+    };
+    function Template() {
+      var args = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        args[_i] = arguments[_i];
+      }
+      var _a2 = __read(normalizeArgs(args), 2), strings = _a2[0], runtypes = _a2[1];
+      var self2 = { tag: "template", strings, runtypes };
+      var regexp = createRegExpForTemplate(self2);
+      var test = function(value, visited) {
+        var matches = value.match(regexp);
+        if (matches) {
+          var values = matches.slice(1);
+          for (var i2 = 0; i2 < runtypes.length; i2++) {
+            var runtype = runtypes[i2];
+            var value_1 = values[i2];
+            var validated = reviveValidate(runtype.reflect, visited)(value_1);
+            if (!validated.success)
+              return validated;
+          }
+          return (0, util_1.SUCCESS)(value);
+        } else {
+          return util_1.FAILURE.VALUE_INCORRECT("string", "".concat((0, show_1.default)(self2)), '"'.concat((0, literal_1.literal)(value), '"'));
+        }
+      };
+      return (0, runtype_1.create)(function(value, visited) {
+        if (typeof value !== "string")
+          return util_1.FAILURE.TYPE_INCORRECT(self2, value);
+        else {
+          var validated = test(value, visited);
+          if (!validated.success) {
+            var result = util_1.FAILURE.VALUE_INCORRECT("string", "".concat((0, show_1.default)(self2)), '"'.concat(value, '"'));
+            if (result.message !== validated.message)
+              result.message += " (inner: ".concat(validated.message, ")");
+            return result;
+          } else
+            return (0, util_1.SUCCESS)(value);
+        }
+      }, self2);
+    }
+    exports.Template = Template;
+  }
+});
+
+// node_modules/runtypes/lib/types/boolean.js
+var require_boolean = __commonJS({
+  "node_modules/runtypes/lib/types/boolean.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Boolean = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "boolean" };
+    exports.Boolean = (0, runtype_1.create)(function(value) {
+      return typeof value === "boolean" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/number.js
+var require_number = __commonJS({
+  "node_modules/runtypes/lib/types/number.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Number = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "number" };
+    exports.Number = (0, runtype_1.create)(function(value) {
+      return typeof value === "number" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/bigint.js
+var require_bigint = __commonJS({
+  "node_modules/runtypes/lib/types/bigint.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.BigInt = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "bigint" };
+    exports.BigInt = (0, runtype_1.create)(function(value) {
+      return typeof value === "bigint" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/string.js
+var require_string = __commonJS({
+  "node_modules/runtypes/lib/types/string.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.String = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "string" };
+    exports.String = (0, runtype_1.create)(function(value) {
+      return typeof value === "string" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/symbol.js
+var require_symbol = __commonJS({
+  "node_modules/runtypes/lib/types/symbol.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Symbol = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var f3 = function(key) {
+      var self3 = { tag: "symbol", key };
+      return (0, runtype_1.create)(function(value) {
+        if (typeof value !== "symbol")
+          return util_1.FAILURE.TYPE_INCORRECT(self3, value);
+        else {
+          var keyForValue = globalThis.Symbol.keyFor(value);
+          if (keyForValue !== key)
+            return util_1.FAILURE.VALUE_INCORRECT("symbol key", quoteIfPresent(key), quoteIfPresent(keyForValue));
+          else
+            return (0, util_1.SUCCESS)(value);
+        }
+      }, self3);
+    };
+    var self2 = { tag: "symbol" };
+    exports.Symbol = (0, runtype_1.create)(function(value) {
+      return typeof value === "symbol" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, Object.assign(f3, self2));
+    var quoteIfPresent = function(key) {
+      return key === void 0 ? "undefined" : '"'.concat(key, '"');
+    };
+  }
+});
+
+// node_modules/runtypes/lib/types/array.js
+var require_array = __commonJS({
+  "node_modules/runtypes/lib/types/array.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Array = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function InternalArr(element, isReadonly) {
+      var self2 = { tag: "array", isReadonly, element };
+      return withExtraModifierFuncs((0, runtype_1.create)(function(xs, visited) {
+        if (!Array.isArray(xs))
+          return util_1.FAILURE.TYPE_INCORRECT(self2, xs);
+        var keys = (0, util_1.enumerableKeysOf)(xs);
+        var results = keys.map(function(key) {
+          return (0, runtype_1.innerValidate)(element, xs[key], visited);
+        });
+        var details = keys.reduce(function(details2, key) {
+          var result = results[key];
+          if (!result.success)
+            details2[key] = result.details || result.message;
+          return details2;
+        }, []);
+        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
+          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
+        else
+          return (0, util_1.SUCCESS)(xs);
+      }, self2));
+    }
+    function Arr(element) {
+      return InternalArr(element, false);
+    }
+    exports.Array = Arr;
+    function withExtraModifierFuncs(A2) {
+      A2.asReadonly = asReadonly;
+      return A2;
+      function asReadonly() {
+        return InternalArr(A2.element, true);
+      }
+    }
+  }
+});
+
+// node_modules/runtypes/lib/types/tuple.js
+var require_tuple = __commonJS({
+  "node_modules/runtypes/lib/types/tuple.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Tuple = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function Tuple() {
+      var components = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        components[_i] = arguments[_i];
+      }
+      var self2 = { tag: "tuple", components };
+      return (0, runtype_1.create)(function(xs, visited) {
+        if (!Array.isArray(xs))
+          return util_1.FAILURE.TYPE_INCORRECT(self2, xs);
+        if (xs.length !== components.length)
+          return util_1.FAILURE.CONSTRAINT_FAILED(self2, "Expected length ".concat(components.length, ", but was ").concat(xs.length));
+        var keys = (0, util_1.enumerableKeysOf)(xs);
+        var results = keys.map(function(key) {
+          return (0, runtype_1.innerValidate)(components[key], xs[key], visited);
+        });
+        var details = keys.reduce(function(details2, key) {
+          var result = results[key];
+          if (!result.success)
+            details2[key] = result.details || result.message;
+          return details2;
+        }, []);
+        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
+          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
+        else
+          return (0, util_1.SUCCESS)(xs);
+      }, self2);
+    }
+    exports.Tuple = Tuple;
+  }
+});
+
+// node_modules/runtypes/lib/types/record.js
+var require_record = __commonJS({
+  "node_modules/runtypes/lib/types/record.js"(exports) {
+    "use strict";
+    var __read = exports && exports.__read || function(o2, n2) {
+      var m2 = typeof Symbol === "function" && o2[Symbol.iterator];
+      if (!m2)
+        return o2;
+      var i2 = m2.call(o2), r2, ar = [], e;
+      try {
+        while ((n2 === void 0 || n2-- > 0) && !(r2 = i2.next()).done)
+          ar.push(r2.value);
+      } catch (error) {
+        e = { error };
+      } finally {
+        try {
+          if (r2 && !r2.done && (m2 = i2["return"]))
+            m2.call(i2);
+        } finally {
+          if (e)
+            throw e.error;
+        }
+      }
+      return ar;
+    };
+    var __spreadArray2 = exports && exports.__spreadArray || function(to, from, pack) {
+      if (pack || arguments.length === 2)
+        for (var i2 = 0, l2 = from.length, ar; i2 < l2; i2++) {
+          if (ar || !(i2 in from)) {
+            if (!ar)
+              ar = Array.prototype.slice.call(from, 0, i2);
+            ar[i2] = from[i2];
+          }
+        }
+      return to.concat(ar || Array.prototype.slice.call(from));
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Partial = exports.Record = exports.InternalRecord = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function InternalRecord(fields, isPartial, isReadonly) {
+      var self2 = { tag: "record", isPartial, isReadonly, fields };
+      return withExtraModifierFuncs((0, runtype_1.create)(function(x2, visited) {
+        if (x2 === null || x2 === void 0) {
+          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
+        }
+        var keysOfFields = (0, util_1.enumerableKeysOf)(fields);
+        if (keysOfFields.length !== 0 && typeof x2 !== "object")
+          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
+        var keys = __spreadArray2([], __read(new Set(__spreadArray2(__spreadArray2([], __read(keysOfFields), false), __read((0, util_1.enumerableKeysOf)(x2)), false))), false);
+        var results = keys.reduce(function(results2, key) {
+          var fieldsHasKey = (0, util_1.hasKey)(key, fields);
+          var xHasKey = (0, util_1.hasKey)(key, x2);
+          if (fieldsHasKey) {
+            var runtype = fields[key];
+            var isOptional = isPartial || runtype.reflect.tag === "optional";
+            if (xHasKey) {
+              var value = x2[key];
+              if (isOptional && value === void 0)
+                results2[key] = (0, util_1.SUCCESS)(value);
+              else
+                results2[key] = (0, runtype_1.innerValidate)(runtype, value, visited);
+            } else {
+              if (!isOptional)
+                results2[key] = util_1.FAILURE.PROPERTY_MISSING(runtype.reflect);
+              else
+                results2[key] = (0, util_1.SUCCESS)(void 0);
+            }
+          } else if (xHasKey) {
+            var value = x2[key];
+            results2[key] = (0, util_1.SUCCESS)(value);
+          } else {
+            throw new Error("impossible");
+          }
+          return results2;
+        }, {});
+        var details = keys.reduce(function(details2, key) {
+          var result = results[key];
+          if (!result.success)
+            details2[key] = result.details || result.message;
+          return details2;
+        }, {});
+        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
+          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
+        else
+          return (0, util_1.SUCCESS)(x2);
+      }, self2));
+    }
+    exports.InternalRecord = InternalRecord;
+    function Record2(fields) {
+      return InternalRecord(fields, false, false);
+    }
+    exports.Record = Record2;
+    function Partial(fields) {
+      return InternalRecord(fields, true, false);
+    }
+    exports.Partial = Partial;
+    function withExtraModifierFuncs(A2) {
+      A2.asPartial = asPartial;
+      A2.asReadonly = asReadonly;
+      A2.pick = pick;
+      A2.omit = omit2;
+      A2.extend = extend;
+      return A2;
+      function asPartial() {
+        return InternalRecord(A2.fields, true, A2.isReadonly);
+      }
+      function asReadonly() {
+        return InternalRecord(A2.fields, A2.isPartial, true);
+      }
+      function pick() {
+        var keys = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+          keys[_i] = arguments[_i];
+        }
+        var result = {};
+        keys.forEach(function(key) {
+          result[key] = A2.fields[key];
+        });
+        return InternalRecord(result, A2.isPartial, A2.isReadonly);
+      }
+      function omit2() {
+        var keys = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+          keys[_i] = arguments[_i];
+        }
+        var result = {};
+        var existingKeys = (0, util_1.enumerableKeysOf)(A2.fields);
+        existingKeys.forEach(function(key) {
+          if (!keys.includes(key))
+            result[key] = A2.fields[key];
+        });
+        return InternalRecord(result, A2.isPartial, A2.isReadonly);
+      }
+      function extend(fields) {
+        return InternalRecord(Object.assign({}, A2.fields, fields), A2.isPartial, A2.isReadonly);
+      }
+    }
+  }
+});
+
+// node_modules/runtypes/lib/types/constraint.js
+var require_constraint = __commonJS({
+  "node_modules/runtypes/lib/types/constraint.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Guard = exports.Constraint = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var unknown_1 = require_unknown();
+    function Constraint(underlying, constraint, options) {
+      var name = options && options.name;
+      var args = options && options.args;
+      var self2 = {
+        tag: "constraint",
+        underlying,
+        constraint,
+        name,
+        args
+      };
+      return (0, runtype_1.create)(function(value) {
+        var result = underlying.validate(value);
+        if (!result.success)
+          return result;
+        var message = constraint(result.value);
+        if (typeof message === "string")
+          return util_1.FAILURE.CONSTRAINT_FAILED(self2, message);
+        else if (!message)
+          return util_1.FAILURE.CONSTRAINT_FAILED(self2);
+        return (0, util_1.SUCCESS)(result.value);
+      }, self2);
+    }
+    exports.Constraint = Constraint;
+    var Guard = function(guard, options) {
+      return unknown_1.Unknown.withGuard(guard, options);
+    };
+    exports.Guard = Guard;
+  }
+});
+
+// node_modules/runtypes/lib/types/dictionary.js
+var require_dictionary = __commonJS({
+  "node_modules/runtypes/lib/types/dictionary.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Dictionary = void 0;
+    var runtype_1 = require_runtype();
+    var string_1 = require_string();
+    var constraint_1 = require_constraint();
+    var show_1 = require_show();
+    var util_1 = require_util();
+    var NumberKey = (0, constraint_1.Constraint)(string_1.String, function(s2) {
+      return !isNaN(+s2);
+    }, { name: "number" });
+    function Dictionary(value, key) {
+      var keyRuntype = key === void 0 ? string_1.String : key === "string" ? string_1.String : key === "number" ? NumberKey : key;
+      var keyString = (0, show_1.default)(keyRuntype);
+      var self2 = { tag: "dictionary", key: keyString, value };
+      return (0, runtype_1.create)(function(x2, visited) {
+        if (x2 === null || x2 === void 0 || typeof x2 !== "object")
+          return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
+        if (Object.getPrototypeOf(x2) !== Object.prototype) {
+          if (!Array.isArray(x2) || keyString === "string")
+            return util_1.FAILURE.TYPE_INCORRECT(self2, x2);
+        }
+        var numberString = /^(?:NaN|-?\d+(?:\.\d+)?)$/;
+        var keys = (0, util_1.enumerableKeysOf)(x2);
+        var results = keys.reduce(function(results2, key2) {
+          var isNumberLikeKey = typeof key2 === "string" && numberString.test(key2);
+          var keyInterop = isNumberLikeKey ? globalThis.Number(key2) : key2;
+          if (isNumberLikeKey ? !keyRuntype.guard(keyInterop) && !keyRuntype.guard(key2) : !keyRuntype.guard(keyInterop)) {
+            results2[key2] = util_1.FAILURE.KEY_INCORRECT(self2, keyRuntype.reflect, keyInterop);
+          } else
+            results2[key2] = (0, runtype_1.innerValidate)(value, x2[key2], visited);
+          return results2;
+        }, {});
+        var details = keys.reduce(function(details2, key2) {
+          var result = results[key2];
+          if (!result.success)
+            details2[key2] = result.details || result.message;
+          return details2;
+        }, {});
+        if ((0, util_1.enumerableKeysOf)(details).length !== 0)
+          return util_1.FAILURE.CONTENT_INCORRECT(self2, details);
+        else
+          return (0, util_1.SUCCESS)(x2);
+      }, self2);
+    }
+    exports.Dictionary = Dictionary;
+  }
+});
+
+// node_modules/runtypes/lib/types/intersect.js
+var require_intersect = __commonJS({
+  "node_modules/runtypes/lib/types/intersect.js"(exports) {
+    "use strict";
+    var __values = exports && exports.__values || function(o2) {
+      var s2 = typeof Symbol === "function" && Symbol.iterator, m2 = s2 && o2[s2], i2 = 0;
+      if (m2)
+        return m2.call(o2);
+      if (o2 && typeof o2.length === "number")
+        return {
+          next: function() {
+            if (o2 && i2 >= o2.length)
+              o2 = void 0;
+            return { value: o2 && o2[i2++], done: !o2 };
+          }
+        };
+      throw new TypeError(s2 ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Intersect = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function Intersect() {
+      var intersectees = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        intersectees[_i] = arguments[_i];
+      }
+      var self2 = { tag: "intersect", intersectees };
+      return (0, runtype_1.create)(function(value, visited) {
+        var e_1, _a2;
+        try {
+          for (var intersectees_1 = __values(intersectees), intersectees_1_1 = intersectees_1.next(); !intersectees_1_1.done; intersectees_1_1 = intersectees_1.next()) {
+            var targetType = intersectees_1_1.value;
+            var result = (0, runtype_1.innerValidate)(targetType, value, visited);
+            if (!result.success)
+              return result;
+          }
+        } catch (e_1_1) {
+          e_1 = { error: e_1_1 };
+        } finally {
+          try {
+            if (intersectees_1_1 && !intersectees_1_1.done && (_a2 = intersectees_1.return))
+              _a2.call(intersectees_1);
+          } finally {
+            if (e_1)
+              throw e_1.error;
+          }
+        }
+        return (0, util_1.SUCCESS)(value);
+      }, self2);
+    }
+    exports.Intersect = Intersect;
+  }
+});
+
+// node_modules/runtypes/lib/types/optional.js
+var require_optional = __commonJS({
+  "node_modules/runtypes/lib/types/optional.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Optional = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function Optional(runtype) {
+      var self2 = { tag: "optional", underlying: runtype };
+      return (0, runtype_1.create)(function(value) {
+        return value === void 0 ? (0, util_1.SUCCESS)(value) : runtype.validate(value);
+      }, self2);
+    }
+    exports.Optional = Optional;
+  }
+});
+
+// node_modules/runtypes/lib/types/function.js
+var require_function = __commonJS({
+  "node_modules/runtypes/lib/types/function.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Function = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    var self2 = { tag: "function" };
+    exports.Function = (0, runtype_1.create)(function(value) {
+      return typeof value === "function" ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+    }, self2);
+  }
+});
+
+// node_modules/runtypes/lib/types/instanceof.js
+var require_instanceof = __commonJS({
+  "node_modules/runtypes/lib/types/instanceof.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.InstanceOf = void 0;
+    var runtype_1 = require_runtype();
+    var util_1 = require_util();
+    function InstanceOf(ctor) {
+      var self2 = { tag: "instanceof", ctor };
+      return (0, runtype_1.create)(function(value) {
+        return value instanceof ctor ? (0, util_1.SUCCESS)(value) : util_1.FAILURE.TYPE_INCORRECT(self2, value);
+      }, self2);
+    }
+    exports.InstanceOf = InstanceOf;
+  }
+});
+
+// node_modules/runtypes/lib/types/lazy.js
+var require_lazy = __commonJS({
+  "node_modules/runtypes/lib/types/lazy.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Lazy = void 0;
+    var runtype_1 = require_runtype();
+    function Lazy(delayed) {
+      var data = {
+        get tag() {
+          return getWrapped()["tag"];
+        }
+      };
+      var cached;
+      function getWrapped() {
+        if (!cached) {
+          cached = delayed();
+          for (var k2 in cached)
+            if (k2 !== "tag")
+              data[k2] = cached[k2];
+        }
+        return cached;
+      }
+      return (0, runtype_1.create)(function(x2) {
+        return getWrapped().validate(x2);
+      }, data);
+    }
+    exports.Lazy = Lazy;
+  }
+});
+
+// node_modules/runtypes/lib/types/brand.js
+var require_brand = __commonJS({
+  "node_modules/runtypes/lib/types/brand.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Brand = void 0;
+    var runtype_1 = require_runtype();
+    function Brand(brand, entity) {
+      var self2 = { tag: "brand", brand, entity };
+      return (0, runtype_1.create)(function(value) {
+        return entity.validate(value);
+      }, self2);
+    }
+    exports.Brand = Brand;
+  }
+});
+
+// node_modules/runtypes/lib/decorator.js
+var require_decorator = __commonJS({
+  "node_modules/runtypes/lib/decorator.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.checked = exports.check = void 0;
+    var errors_1 = require_errors();
+    var util_1 = require_util();
+    var prototypes = /* @__PURE__ */ new WeakMap();
+    function check(target, propertyKey, parameterIndex) {
+      var prototype = prototypes.get(target) || /* @__PURE__ */ new Map();
+      prototypes.set(target, prototype);
+      var validParameterIndices = prototype.get(propertyKey) || [];
+      prototype.set(propertyKey, validParameterIndices);
+      validParameterIndices.push(parameterIndex);
+    }
+    exports.check = check;
+    function getValidParameterIndices(target, propertyKey, runtypeCount) {
+      var prototype = prototypes.get(target);
+      var validParameterIndices = prototype && prototype.get(propertyKey);
+      if (validParameterIndices) {
+        return validParameterIndices;
+      }
+      var indices = [];
+      for (var i2 = 0; i2 < runtypeCount; i2++) {
+        indices.push(i2);
+      }
+      return indices;
+    }
+    function checked() {
+      var runtypes = [];
+      for (var _i = 0; _i < arguments.length; _i++) {
+        runtypes[_i] = arguments[_i];
+      }
+      if (runtypes.length === 0) {
+        throw new Error("No runtype provided to `@checked`. Please remove the decorator.");
+      }
+      return function(target, propertyKey, descriptor) {
+        var method = descriptor.value;
+        var methodId = (target.name || target.constructor.name + ".prototype") + (typeof propertyKey === "string" ? '["'.concat(propertyKey, '"]') : "[".concat(String(propertyKey), "]"));
+        var validParameterIndices = getValidParameterIndices(target, propertyKey, runtypes.length);
+        if (validParameterIndices.length !== runtypes.length) {
+          throw new Error("Number of `@checked` runtypes and @check parameters not matched.");
+        }
+        if (validParameterIndices.length > method.length) {
+          throw new Error("Number of `@checked` runtypes exceeds actual parameter length.");
+        }
+        descriptor.value = function() {
+          var args = [];
+          for (var _i2 = 0; _i2 < arguments.length; _i2++) {
+            args[_i2] = arguments[_i2];
+          }
+          runtypes.forEach(function(type, typeIndex) {
+            var parameterIndex = validParameterIndices[typeIndex];
+            var result = type.validate(args[parameterIndex]);
+            if (!result.success) {
+              var message = "".concat(methodId, ", argument #").concat(parameterIndex, ": ").concat(result.message);
+              var failure = util_1.FAILURE.ARGUMENT_INCORRECT(message);
+              throw new errors_1.ValidationError(failure);
+            }
+          });
+          return method.apply(this, args);
+        };
+      };
+    }
+    exports.checked = checked;
+  }
+});
+
+// node_modules/runtypes/lib/index.js
+var require_lib = __commonJS({
+  "node_modules/runtypes/lib/index.js"(exports) {
+    "use strict";
+    var __createBinding = exports && exports.__createBinding || (Object.create ? function(o2, m2, k2, k22) {
+      if (k22 === void 0)
+        k22 = k2;
+      Object.defineProperty(o2, k22, { enumerable: true, get: function() {
+        return m2[k2];
+      } });
+    } : function(o2, m2, k2, k22) {
+      if (k22 === void 0)
+        k22 = k2;
+      o2[k22] = m2[k2];
+    });
+    var __exportStar = exports && exports.__exportStar || function(m2, exports2) {
+      for (var p2 in m2)
+        if (p2 !== "default" && !Object.prototype.hasOwnProperty.call(exports2, p2))
+          __createBinding(exports2, m2, p2);
+    };
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.InstanceOf = exports.Nullish = exports.Null = exports.Undefined = exports.Literal = void 0;
+    __exportStar(require_reflect(), exports);
+    __exportStar(require_result(), exports);
+    __exportStar(require_contract(), exports);
+    __exportStar(require_asynccontract(), exports);
+    __exportStar(require_match(), exports);
+    __exportStar(require_errors(), exports);
+    __exportStar(require_unknown(), exports);
+    __exportStar(require_never(), exports);
+    __exportStar(require_void(), exports);
+    var literal_1 = require_literal();
+    Object.defineProperty(exports, "Literal", { enumerable: true, get: function() {
+      return literal_1.Literal;
+    } });
+    Object.defineProperty(exports, "Undefined", { enumerable: true, get: function() {
+      return literal_1.Undefined;
+    } });
+    Object.defineProperty(exports, "Null", { enumerable: true, get: function() {
+      return literal_1.Null;
+    } });
+    Object.defineProperty(exports, "Nullish", { enumerable: true, get: function() {
+      return literal_1.Nullish;
+    } });
+    __exportStar(require_template(), exports);
+    __exportStar(require_boolean(), exports);
+    __exportStar(require_number(), exports);
+    __exportStar(require_bigint(), exports);
+    __exportStar(require_string(), exports);
+    __exportStar(require_symbol(), exports);
+    __exportStar(require_array(), exports);
+    __exportStar(require_tuple(), exports);
+    __exportStar(require_record(), exports);
+    __exportStar(require_dictionary(), exports);
+    __exportStar(require_union(), exports);
+    __exportStar(require_intersect(), exports);
+    __exportStar(require_optional(), exports);
+    __exportStar(require_function(), exports);
+    var instanceof_1 = require_instanceof();
+    Object.defineProperty(exports, "InstanceOf", { enumerable: true, get: function() {
+      return instanceof_1.InstanceOf;
+    } });
+    __exportStar(require_lazy(), exports);
+    __exportStar(require_constraint(), exports);
+    __exportStar(require_brand(), exports);
+    __exportStar(require_decorator(), exports);
+  }
+});
+
 // node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
 var require_use_sync_external_store_shim_development = __commonJS({
   "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
@@ -30284,8 +30284,8 @@ var require_use_sync_external_store_shim_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React57 = require_react();
-        var ReactSharedInternals = React57.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var React58 = require_react();
+        var ReactSharedInternals = React58.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -30315,13 +30315,13 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState2 = React57.useState, useEffect2 = React57.useEffect, useLayoutEffect2 = React57.useLayoutEffect, useDebugValue2 = React57.useDebugValue;
+        var useState2 = React58.useState, useEffect2 = React58.useEffect, useLayoutEffect2 = React58.useLayoutEffect, useDebugValue2 = React58.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
           {
             if (!didWarnOld18Alpha) {
-              if (React57.startTransition !== void 0) {
+              if (React58.startTransition !== void 0) {
                 didWarnOld18Alpha = true;
                 error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
               }
@@ -30386,7 +30386,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
         var isServerEnvironment = !canUseDOM2;
         var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React57.useSyncExternalStore !== void 0 ? React57.useSyncExternalStore : shim;
+        var useSyncExternalStore$2 = React58.useSyncExternalStore !== void 0 ? React58.useSyncExternalStore : shim;
         exports.useSyncExternalStore = useSyncExternalStore$2;
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -30418,14 +30418,14 @@ var require_with_selector_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React57 = require_react();
+        var React58 = require_react();
         var shim = require_shim();
         function is(x2, y2) {
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef4 = React57.useRef, useEffect2 = React57.useEffect, useMemo3 = React57.useMemo, useDebugValue2 = React57.useDebugValue;
+        var useRef4 = React58.useRef, useEffect2 = React58.useEffect, useMemo3 = React58.useMemo, useDebugValue2 = React58.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
           var instRef = useRef4(null);
           var inst;
@@ -30578,7 +30578,7 @@ var require_react_is_development = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment21 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30637,7 +30637,7 @@ var require_react_is_development = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment21;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30845,7 +30845,7 @@ var require_react_is_development2 = __commonJS({
         var ContextProvider = REACT_PROVIDER_TYPE;
         var Element2 = REACT_ELEMENT_TYPE;
         var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment21 = REACT_FRAGMENT_TYPE;
+        var Fragment22 = REACT_FRAGMENT_TYPE;
         var Lazy = REACT_LAZY_TYPE;
         var Memo = REACT_MEMO_TYPE;
         var Portal = REACT_PORTAL_TYPE;
@@ -30913,7 +30913,7 @@ var require_react_is_development2 = __commonJS({
         exports.ContextProvider = ContextProvider;
         exports.Element = Element2;
         exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment21;
+        exports.Fragment = Fragment22;
         exports.Lazy = Lazy;
         exports.Memo = Memo;
         exports.Portal = Portal;
@@ -30961,7 +30961,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React57 = require_react();
+        var React58 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -30987,7 +30987,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React57.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React58.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -31813,11 +31813,11 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx127 = jsxWithValidationDynamic;
-        var jsxs54 = jsxWithValidationStatic;
+        var jsx129 = jsxWithValidationDynamic;
+        var jsxs55 = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx127;
-        exports.jsxs = jsxs54;
+        exports.jsx = jsx129;
+        exports.jsxs = jsxs55;
       })();
     }
   }
@@ -40489,6 +40489,7 @@ var MigrateState1 = class {
 };
 
 // src/shared/loom-state/migrate/migrate-state-2.ts
+var import_lodash = __toESM(require_lodash());
 var MigrateState2 = class {
   migrate(prevState) {
     const { columns, rows, cells } = prevState.model;
@@ -40498,7 +40499,7 @@ var MigrateState2 = class {
       });
     });
     const nextColumns = columns.map((column) => {
-      const columnCopy = structuredClone(column);
+      const columnCopy = (0, import_lodash.cloneDeep)(column);
       const unknownColumn = columnCopy;
       if (unknownColumn["hasAutoWidth"]) {
         delete unknownColumn.hasAutoWidth;
@@ -40871,6 +40872,7 @@ var MigrateState5 = class {
 };
 
 // src/shared/loom-state/migrate/migrate-state-6.ts
+var import_lodash2 = __toESM(require_lodash());
 var MigrateState6 = class {
   migrate(prevState) {
     const {
@@ -40909,7 +40911,7 @@ var MigrateState6 = class {
       });
     });
     const nextBodyRows = bodyRows.map((row) => {
-      const rowCopy = structuredClone(row);
+      const rowCopy = (0, import_lodash2.cloneDeep)(row);
       const unknownRow = rowCopy;
       if (unknownRow["menuCellId"]) {
         delete unknownRow.menuCellId;
@@ -40932,6 +40934,7 @@ var MigrateState6 = class {
 };
 
 // src/shared/loom-state/migrate/migrate-state-7.ts
+var import_lodash3 = __toESM(require_lodash());
 var MigrateState7 = class {
   migrate(prevState) {
     const { columns, footerCells } = prevState.model;
@@ -40946,7 +40949,7 @@ var MigrateState7 = class {
       });
     });
     const nextFooterCells = footerCells.map((cell) => {
-      const cellCopy = structuredClone(cell);
+      const cellCopy = (0, import_lodash3.cloneDeep)(cell);
       const unknownCell = cellCopy;
       if (unknownCell["functionType"]) {
         delete unknownCell.functionType;
@@ -41094,6 +41097,7 @@ var DateFilterOption = /* @__PURE__ */ ((DateFilterOption4) => {
 })(DateFilterOption || {});
 
 // src/shared/loom-state/migrate/migrate-state-9.ts
+var import_lodash4 = __toESM(require_lodash());
 var MigrateState9 = class {
   migrate(prevState) {
     const { columns, bodyRows } = prevState.model;
@@ -41102,7 +41106,7 @@ var MigrateState9 = class {
         sortDir: "default" /* NONE */
       });
     });
-    const bodyRowsCopy = structuredClone(bodyRows);
+    const bodyRowsCopy = (0, import_lodash4.cloneDeep)(bodyRows);
     bodyRowsCopy.sort((a2, b2) => a2.index - b2.index);
     const nextBodyRows = bodyRowsCopy.map((row, i2) => {
       return __spreadProps(__spreadValues({}, row), {
@@ -41119,11 +41123,12 @@ var MigrateState9 = class {
 };
 
 // src/shared/loom-state/migrate/migrate-state-10.ts
+var import_lodash5 = __toESM(require_lodash());
 var MigrateState10 = class {
   migrate(prevState) {
     const { columns, bodyCells } = prevState.model;
     const nextColumns = columns.map((column) => {
-      const columnCopy = structuredClone(column);
+      const columnCopy = (0, import_lodash5.cloneDeep)(column);
       const unknownCopy = columnCopy;
       unknownCopy.calculationType = unknownCopy.functionType;
       delete unknownCopy.functionType;
@@ -42139,7 +42144,7 @@ var deserializeState = (data, pluginVersion) => {
 };
 
 // src/obsidian/embedded/embedded-app-manager.tsx
-var import_lodash3 = __toESM(require_lodash());
+var import_lodash18 = __toESM(require_lodash());
 
 // src/shared/events.ts
 var obsidianEvent = (name) => {
@@ -47155,6 +47160,9 @@ function DragProvider({ children }) {
   );
 }
 
+// src/shared/dragging/utils.ts
+var import_lodash6 = __toESM(require_lodash());
+
 // src/shared/sort-utils.ts
 var confirmSortOrderChange = (state) => {
   const { columns } = state.model;
@@ -47186,7 +47194,7 @@ var dropDrag = (targetRowId, dragData, state, onLoomStateChange) => {
     const { rows, columns } = prevState.model;
     const draggedElIndex = rows.findIndex((row) => row.id === dragData.id);
     const targetElIndex = rows.findIndex((row) => row.id === targetRowId);
-    const newRows = structuredClone(rows);
+    const newRows = (0, import_lodash6.cloneDeep)(rows);
     const draggedEl = newRows[draggedElIndex];
     newRows.splice(draggedElIndex, 1);
     newRows.splice(targetElIndex, 0, draggedEl);
@@ -47293,6 +47301,7 @@ var useStickyOffset = (ref, numFrozenColumns, columnIndex) => {
 
 // src/react/loom-app/table/header-cell.tsx
 var import_react9 = __toESM(require_react());
+var import_lodash7 = __toESM(require_lodash());
 var import_jsx_runtime5 = __toESM(require_jsx_runtime());
 function HeaderCell({
   index,
@@ -47328,7 +47337,7 @@ function HeaderCell({
       const targetElIndex = columns.findIndex(
         (column) => column.id === targetRowId
       );
-      const newColumns = structuredClone(columns);
+      const newColumns = (0, import_lodash7.cloneDeep)(columns);
       const draggedEl = newColumns[draggedElIndex];
       newColumns.splice(draggedElIndex, 1);
       newColumns.splice(targetElIndex, 0, draggedEl);
@@ -47800,7 +47809,7 @@ var isInsertLineAltDown = (e) => {
 
 // src/react/shared/menu/hooks.ts
 var import_react16 = __toESM(require_react());
-var import_lodash = __toESM(require_lodash());
+var import_lodash8 = __toESM(require_lodash());
 
 // src/react/shared/menu/factory.ts
 var createMenu = (level, shouldRequestOnClose, shouldFocusTriggerOnClose) => {
@@ -48054,7 +48063,7 @@ var useModalPosition = () => {
     }
     const ancestors = findAncestorsUntilModal(el);
     const THROTTLE_TIME_MILLIS = 10;
-    const throttleUpdatePosition = import_lodash.default.throttle(
+    const throttleUpdatePosition = import_lodash8.default.throttle(
       updatePosition,
       THROTTLE_TIME_MILLIS
     );
@@ -48099,7 +48108,7 @@ var usePosition = () => {
       return;
     const el = ref.current;
     const THROTTLE_TIME_MILLIS = 10;
-    const throttleUpdatePosition = import_lodash.default.throttle(
+    const throttleUpdatePosition = import_lodash8.default.throttle(
       updatePosition,
       THROTTLE_TIME_MILLIS
     );
@@ -48560,8 +48569,32 @@ function Text({
   );
 }
 
-// src/react/shared/padding/index.tsx
+// src/react/shared/divider/index.tsx
 var import_jsx_runtime17 = __toESM(require_jsx_runtime());
+function Divider({
+  isVertical = false,
+  width = "100%",
+  height = "100%"
+}) {
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+    "hr",
+    {
+      className: "dataloom-hr",
+      style: {
+        width: !isVertical ? width : void 0,
+        height: isVertical === true ? height : void 0,
+        borderTop: isVertical === false ? "1px solid var(--hr-color)" : void 0,
+        borderLeft: isVertical === true ? "1px var(--hr-color) solid" : void 0
+      }
+    }
+  );
+}
+
+// src/react/shared/error-display/index.tsx
+var import_obsidian9 = require("obsidian");
+
+// src/react/shared/padding/index.tsx
+var import_jsx_runtime18 = __toESM(require_jsx_runtime());
 function Padding({
   width = "100%",
   px,
@@ -48611,7 +48644,7 @@ function Padding({
       renderPb = spacing;
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
     "div",
     {
       className: "dataloom-padding",
@@ -48627,111 +48660,103 @@ function Padding({
   );
 }
 
-// src/react/error-app/index.tsx
-var import_obsidian9 = require("obsidian");
-
-// src/react/shared/divider/index.tsx
-var import_jsx_runtime18 = __toESM(require_jsx_runtime());
-function Divider({
-  isVertical = false,
-  width = "100%",
-  height = "100%"
-}) {
-  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)(
-    "hr",
-    {
-      className: "dataloom-hr",
-      style: {
-        width: !isVertical ? width : void 0,
-        height: isVertical === true ? height : void 0,
-        borderTop: isVertical === false ? "1px solid var(--hr-color)" : void 0,
-        borderLeft: isVertical === true ? "1px var(--hr-color) solid" : void 0
-      }
-    }
-  );
-}
-
-// src/react/error-app/index.tsx
+// src/react/shared/error-display/index.tsx
 var import_jsx_runtime19 = __toESM(require_jsx_runtime());
-function ErrorApp({ error, isEmbeddedApp = false }) {
-  function handleCopyClick(message2, pluginVersion2, fileVersion2, failedMigration2) {
-    return __async(this, null, function* () {
-      const value = `Plugin version: ${pluginVersion2}
-File version: ${fileVersion2}
-Failed migration: ${failedMigration2}
-Error message: ${message2}`;
-      yield navigator.clipboard.writeText(value);
-      new import_obsidian9.Notice("Copied error to clipboard");
-    });
+function ErrorDisplay({
+  title,
+  copyErrorMessage,
+  errorMessage,
+  isEmbeddedApp,
+  infoSection,
+  helpMessage,
+  helpURL
+}) {
+  function handleCopyClick() {
+    navigator.clipboard.writeText(copyErrorMessage);
+    new import_obsidian9.Notice("Copied error to clipboard");
   }
-  const { fileVersion, pluginVersion, failedMigration, message } = error;
-  let className = "dataloom-error-app";
+  let className = "dataloom-error";
   if (isEmbeddedApp)
-    className += " dataloom-error-app--embedded";
+    className += " dataloom-error--embedded-app";
   return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Padding, { p: "2xl", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { spacing: "xl", children: [
     /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { variant: "semibold", size: "xl", value: "Opps" }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { variant: "semibold", size: "md", value: title })
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
       /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
         Text,
         {
           variant: "semibold",
           size: "md",
-          value: "DataLoom cannot render file"
-        }
-      )
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
-        Text,
-        {
-          variant: "semibold",
-          size: "sm",
-          value: "Error message:"
+          value: "Error message"
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "dataloom-error-app__message", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: message, whiteSpace: "pre-wrap" }) })
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "dataloom-error__message", children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: errorMessage, whiteSpace: "pre-wrap" }) })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { isHorizontal: true, spacing: "xl", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { variant: "semibold", value: "Plugin version" }),
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: pluginVersion })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, { isVertical: true, height: "60px" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { variant: "semibold", value: "File version" }),
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: fileVersion })
-      ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, { isVertical: true, height: "60px" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { children: [
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { variant: "semibold", value: "Failed migration" }),
-        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: failedMigration != null ? failedMigration : "None" })
-      ] })
-    ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Divider, {}),
+    infoSection,
     /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: "For help fixing this error please visit:" }),
-      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", { href: "https://dataloom.xyz/other/loom-file", children: "https://dataloom.xyz/other/loom-file" })
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Text, { value: helpMessage }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", { href: helpURL, children: helpURL })
     ] }),
     /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Stack, { isHorizontal: true, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(
       "button",
       {
         className: "dataloom-copy-button",
-        onClick: () => handleCopyClick(
-          message,
-          pluginVersion,
-          fileVersion,
-          failedMigration != null ? failedMigration : "None"
-        ),
-        children: "Copy error details"
+        onClick: () => handleCopyClick(),
+        children: "Copy to clipboard"
       }
     ) })
   ] }) }) });
 }
 
-// src/obsidian/dataloom-view.tsx
+// src/react/error-app/index.tsx
 var import_jsx_runtime20 = __toESM(require_jsx_runtime());
+function ErrorApp({ error, isEmbeddedApp = false }) {
+  const { fileVersion, pluginVersion, failedMigration, message } = error;
+  let className = "dataloom-error-app";
+  if (isEmbeddedApp)
+    className += " dataloom-error-app--embedded";
+  const copyErrorMessage = `Plugin version: ${pluginVersion}
+File version: ${fileVersion}
+Failed migration: ${failedMigration}
+Error message: ${message}`;
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+    ErrorDisplay,
+    {
+      title: "DataLoom cannot render file",
+      errorMessage: message,
+      copyErrorMessage,
+      isEmbeddedApp,
+      helpMessage: "For help fixing this error please visit:",
+      helpURL: "https://dataloom.xyz/other/loom-file",
+      infoSection: /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(import_jsx_runtime20.Fragment, { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(Stack, { isHorizontal: true, spacing: "xl", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { variant: "semibold", value: "Plugin version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { value: pluginVersion })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Divider, { isVertical: true, height: "60px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { variant: "semibold", value: "File version" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { value: fileVersion })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Divider, { isVertical: true, height: "60px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)(Stack, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { variant: "semibold", value: "Failed migration" }),
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Text, { value: failedMigration != null ? failedMigration : "None" })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(Divider, {})
+      ] })
+    }
+  );
+}
+
+// src/obsidian/dataloom-view.tsx
+var import_jsx_runtime21 = __toESM(require_jsx_runtime());
 var DATA_LOOM_VIEW = "dataloom";
 var DataLoomView = class extends import_obsidian10.TextFileView {
   constructor(leaf, pluginId, pluginVersion) {
@@ -48810,7 +48835,7 @@ var DataLoomView = class extends import_obsidian10.TextFileView {
       return;
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
           LoomApp,
           {
             app: this.app,
@@ -48828,7 +48853,7 @@ var DataLoomView = class extends import_obsidian10.TextFileView {
   }
   renderErrorApp(error) {
     if (this.root) {
-      this.root.render(/* @__PURE__ */ (0, import_jsx_runtime20.jsx)(ErrorApp, { error }));
+      this.root.render(/* @__PURE__ */ (0, import_jsx_runtime21.jsx)(ErrorApp, { error }));
     }
   }
 };
@@ -49067,7 +49092,7 @@ var shiftElementIntoContainer = (container, element) => {
 };
 
 // src/react/shared/menu/index.tsx
-var import_jsx_runtime21 = __toESM(require_jsx_runtime());
+var import_jsx_runtime22 = __toESM(require_jsx_runtime());
 function Menu({
   id: id2,
   isOpen,
@@ -49095,8 +49120,8 @@ function Menu({
     }
   );
   if (!isOpen)
-    return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(import_jsx_runtime21.Fragment, {});
-  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(import_jsx_runtime22.Fragment, {});
+  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
     base_menu_default,
     {
       ref,
@@ -49119,7 +49144,7 @@ function Menu({
 var import_react23 = __toESM(require_react());
 
 // src/react/shared/flex/index.tsx
-var import_jsx_runtime22 = __toESM(require_jsx_runtime());
+var import_jsx_runtime23 = __toESM(require_jsx_runtime());
 function Flex({
   flexDir = "row",
   justify = "flex-start",
@@ -49129,7 +49154,7 @@ function Flex({
   height,
   children
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
     "div",
     {
       className: "dataloom-flex",
@@ -49147,7 +49172,7 @@ function Flex({
 }
 
 // src/react/shared/menu-item/index.tsx
-var import_jsx_runtime23 = __toESM(require_jsx_runtime());
+var import_jsx_runtime24 = __toESM(require_jsx_runtime());
 function MenuItem({
   isFocusable = true,
   lucideId,
@@ -49182,7 +49207,7 @@ function MenuItem({
     className += " dataloom-selected";
   if (isFocusable)
     className += " dataloom-focusable";
-  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
     "div",
     {
       ref,
@@ -49191,19 +49216,19 @@ function MenuItem({
       "aria-label": ariaLabel,
       onClick: handleClick,
       onKeyDown: handleKeyDown,
-      children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)(Stack, { isHorizontal: true, children: [
-          lucideId !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Padding, { width: "unset", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Icon, { lucideId }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { value: name })
+      children: /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)(Stack, { isHorizontal: true, children: [
+          lucideId !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Padding, { width: "unset", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Icon, { lucideId }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { value: name })
         ] }),
-        value !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime23.jsx)(Text, { variant: "faint", value })
+        value !== void 0 && /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(Text, { variant: "faint", value })
       ] })
     }
   );
 }
 
 // src/react/loom-app/row-options/row-menu/index.tsx
-var import_jsx_runtime24 = __toESM(require_jsx_runtime());
+var import_jsx_runtime25 = __toESM(require_jsx_runtime());
 function RowOptions({
   id: id2,
   isOpen,
@@ -49214,7 +49239,7 @@ function RowOptions({
   onRequestClose,
   onClose
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
     Menu,
     {
       id: id2,
@@ -49223,8 +49248,8 @@ function RowOptions({
       triggerPosition,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", { className: "dataloom-row-menu", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)("div", { className: "dataloom-row-menu", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
           MenuItem,
           {
             lucideId: "trash-2",
@@ -49232,7 +49257,7 @@ function RowOptions({
             onClick: () => onDeleteClick()
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
           MenuItem,
           {
             lucideId: "chevrons-up",
@@ -49240,7 +49265,7 @@ function RowOptions({
             onClick: () => onInsertAboveClick()
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
           MenuItem,
           {
             lucideId: "chevrons-down",
@@ -49254,7 +49279,7 @@ function RowOptions({
 }
 
 // src/react/loom-app/row-options/index.tsx
-var import_jsx_runtime25 = __toESM(require_jsx_runtime());
+var import_jsx_runtime26 = __toESM(require_jsx_runtime());
 function RowOptions2({
   rowId,
   onDeleteClick,
@@ -49370,8 +49395,8 @@ function RowOptions2({
       children[i2].classList.remove("dataloom-tr--drag-over");
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)(import_jsx_runtime25.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("div", { className: "dataloom-row-options", children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(Padding, { p: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)(import_jsx_runtime26.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("div", { className: "dataloom-row-options", children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(Padding, { p: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(
       "div",
       {
         className: "dataloom-row-options__container",
@@ -49379,12 +49404,12 @@ function RowOptions2({
         onTouchMove: handleTouchMove,
         onTouchEnd: handleTouchEnd,
         onTouchCancel: handleTouchCancel,
-        children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(
           menu_button_default,
           {
             ref: triggerRef,
             menu,
-            icon: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(Icon, { lucideId: "grip-vertical" }),
+            icon: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(Icon, { lucideId: "grip-vertical" }),
             ariaLabel: "Drag to move or click to open",
             onMouseDown: handleMouseDown,
             onOpen
@@ -49392,7 +49417,7 @@ function RowOptions2({
         )
       }
     ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime25.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(
       RowOptions,
       {
         id: menu.id,
@@ -49410,7 +49435,7 @@ function RowOptions2({
 
 // src/react/shared/input/index.tsx
 var import_react24 = __toESM(require_react());
-var import_jsx_runtime26 = __toESM(require_jsx_runtime());
+var import_jsx_runtime27 = __toESM(require_jsx_runtime());
 var Input = import_react24.default.forwardRef(
   ({
     isTransparent,
@@ -49439,7 +49464,7 @@ var Input = import_react24.default.forwardRef(
     }
     if (hasError)
       className += " dataloom-input--error";
-    return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(
       "input",
       {
         ref,
@@ -49459,11 +49484,11 @@ var Input = import_react24.default.forwardRef(
 var input_default = Input;
 
 // src/react/loom-app/option-bar/search-bar/index.tsx
-var import_jsx_runtime27 = __toESM(require_jsx_runtime());
+var import_jsx_runtime28 = __toESM(require_jsx_runtime());
 function SearchBar() {
   const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useLoomState();
-  return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", { className: "dataloom-search-bar", children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
-    isSearchBarVisible && /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("div", { className: "dataloom-search-bar", children: /* @__PURE__ */ (0, import_jsx_runtime28.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
+    isSearchBarVisible && /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(
       input_default,
       {
         placeholder: "Type to search...",
@@ -49471,10 +49496,10 @@ function SearchBar() {
         onChange: (value) => setSearchText(value)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)(Icon, { lucideId: "search" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Icon, { lucideId: "search" }),
         ariaLabel: "Search",
         onClick: () => toggleSearchBar()
       }
@@ -49483,24 +49508,24 @@ function SearchBar() {
 }
 
 // src/react/shared/bubble/index.tsx
-var import_jsx_runtime28 = __toESM(require_jsx_runtime());
+var import_jsx_runtime29 = __toESM(require_jsx_runtime());
 function Bubble({
   canRemove,
   icon,
   value,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("div", { className: "dataloom-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime28.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime28.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("div", { className: "dataloom-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime29.jsxs)(Stack, { spacing: "lg", isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime29.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
       icon,
-      /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("span", { children: value })
+      /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("span", { children: value })
     ] }),
-    canRemove && /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(
+    canRemove && /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(
       Button,
       {
         isSmall: true,
         invertFocusColor: true,
-        icon: /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(Icon, { lucideId: "x", color: "var(--text-on-accent)" }),
         ariaLabel: "Remove sort",
         onClick: onRemoveClick
       }
@@ -49509,42 +49534,42 @@ function Bubble({
 }
 
 // src/react/loom-app/option-bar/active-filter-bubble/index.tsx
-var import_jsx_runtime29 = __toESM(require_jsx_runtime());
+var import_jsx_runtime30 = __toESM(require_jsx_runtime());
 function ActiveFilterBubble({ numActive }) {
   if (numActive === 0)
-    return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(import_jsx_runtime29.Fragment, {});
+    return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(import_jsx_runtime30.Fragment, {});
   const value = `${numActive} active filter${numActive > 1 ? "s" : ""}`;
-  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("div", { className: "dataloom-active-filter-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)(Bubble, { value }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)("div", { className: "dataloom-active-filter-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(Bubble, { value }) });
 }
 
 // src/react/loom-app/option-bar/more-menu/index.tsx
 var import_react31 = __toESM(require_react());
 
 // src/react/shared/submenu/index.tsx
-var import_jsx_runtime30 = __toESM(require_jsx_runtime());
+var import_jsx_runtime31 = __toESM(require_jsx_runtime());
 function Submenu({ title, children, onBackClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime30.jsxs)(Padding, { p: "sm", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime30.jsxs)(Stack, { spacing: "md", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime30.jsxs)(Stack, { isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Padding, { p: "sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Stack, { spacing: "md", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Stack, { isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(
           Button,
           {
-            icon: /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(Icon, { lucideId: "arrow-left" }),
+            icon: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Icon, { lucideId: "arrow-left" }),
             onClick: () => {
               onBackClick();
             }
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(Padding, { pr: "md", children: title })
+        /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Padding, { pr: "md", children: title })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime30.jsx)(Divider, {})
+      /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Divider, {})
     ] }),
     children
   ] });
 }
 
 // src/react/loom-app/option-bar/more-menu/frozen-columns-submenu.tsx
-var import_jsx_runtime31 = __toESM(require_jsx_runtime());
+var import_jsx_runtime32 = __toESM(require_jsx_runtime());
 function FrozenColumnsSubmenu({
   numFrozenColumns,
   onFrozenColumnsChange,
@@ -49565,28 +49590,28 @@ function FrozenColumnsSubmenu({
       return;
     onFrozenColumnsChange(newValue);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Submenu, { title: "Freeze", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Submenu, { title: "Freeze", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Padding, { py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Icon, { lucideId: "rotate-ccw" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Icon, { lucideId: "rotate-ccw" }),
         ariaLabel: "Restore default",
         onClick: () => onFrozenColumnsChange(defaultFrozenColumnCount)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Icon, { lucideId: "minus" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Icon, { lucideId: "minus" }),
         ariaLabel: "Subtract column",
         onClick: () => handleMinusClick()
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Padding, { px: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Text, { value: numFrozenColumns }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Padding, { px: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Text, { value: numFrozenColumns }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
       Button,
       {
-        icon: /* @__PURE__ */ (0, import_jsx_runtime31.jsx)(Icon, { lucideId: "plus" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(Icon, { lucideId: "plus" }),
         ariaLabel: "Add column",
         onClick: () => handlePlusClick()
       }
@@ -49610,26 +49635,26 @@ var ExportType = /* @__PURE__ */ ((ExportType2) => {
 })(ExportType || {});
 
 // src/react/export-app/export-type-select.tsx
-var import_jsx_runtime32 = __toESM(require_jsx_runtime());
+var import_jsx_runtime33 = __toESM(require_jsx_runtime());
 function ExportTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime32.jsxs)(Stack, { spacing: "xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("label", { htmlFor: "type-select", children: "File Type" }),
-    /* @__PURE__ */ (0, import_jsx_runtime32.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)(Stack, { spacing: "xl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("label", { htmlFor: "type-select", children: "File Type" }),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)(
       "select",
       {
         id: "type-select",
         value,
         onChange: (e) => onChange(e.target.value),
-        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("option", { value: type, children: type }, type))
+        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("option", { value: type, children: type }, type))
       }
     )
   ] });
 }
 
 // src/react/export-app/content-textarea.tsx
-var import_jsx_runtime33 = __toESM(require_jsx_runtime());
+var import_jsx_runtime34 = __toESM(require_jsx_runtime());
 function ContentTextArea({ value }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("textarea", { readOnly: true, value });
+  return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("textarea", { readOnly: true, value });
 }
 
 // node_modules/markdown-table/index.js
@@ -52433,7 +52458,7 @@ var exportToCSV = (app, loomState, shouldRemoveMarkdown) => {
 };
 
 // src/react/shared/switch/index.tsx
-var import_jsx_runtime34 = __toESM(require_jsx_runtime());
+var import_jsx_runtime35 = __toESM(require_jsx_runtime());
 function Switch({ id: id2, value, ariaLabel, onToggle }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
   function handleKeyDown(e) {
@@ -52451,7 +52476,7 @@ function Switch({ id: id2, value, ariaLabel, onToggle }) {
     className += " is-enabled";
   if (isDarkMode)
     className += " dataloom-switch--dark";
-  return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
     "div",
     {
       tabIndex: 0,
@@ -52459,13 +52484,13 @@ function Switch({ id: id2, value, ariaLabel, onToggle }) {
       "aria-label": ariaLabel,
       onClick: handleClick,
       onKeyDown: handleKeyDown,
-      children: /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("input", { id: id2, type: "checkbox" })
+      children: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("input", { id: id2, type: "checkbox" })
     }
   );
 }
 
 // src/react/export-app/index.tsx
-var import_jsx_runtime35 = __toESM(require_jsx_runtime());
+var import_jsx_runtime36 = __toESM(require_jsx_runtime());
 function ExportApp({ app, loomState, loomFilePath }) {
   const [exportType, setExportType] = import_react25.default.useState(
     "Select an option" /* UNSELECTED */
@@ -52493,12 +52518,12 @@ function ExportApp({ app, loomState, loomFilePath }) {
   } else if (exportType === "CSV" /* CSV */) {
     content = exportToCSV(app, loomState, shouldRemoveMarkdown);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("div", { className: "dataloom-export-app", children: /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(Stack, { spacing: "xl", width: "100%", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(ExportTypeSelect, { value: exportType, onChange: setExportType }),
-    exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(import_jsx_runtime35.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("label", { htmlFor: "remove-markdown", children: "Remove markdown" }),
-        /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("div", { className: "dataloom-export-app", children: /* @__PURE__ */ (0, import_jsx_runtime36.jsxs)(Stack, { spacing: "xl", width: "100%", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(ExportTypeSelect, { value: exportType, onChange: setExportType }),
+    exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_jsx_runtime36.jsxs)(import_jsx_runtime36.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime36.jsxs)(Stack, { spacing: "sm", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("label", { htmlFor: "remove-markdown", children: "Remove markdown" }),
+        /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
           Switch,
           {
             id: "remove-markdown",
@@ -52507,9 +52532,9 @@ function ExportApp({ app, loomState, loomFilePath }) {
           }
         )
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(ContentTextArea, { value: content }),
-      /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)(Stack, { isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(ContentTextArea, { value: content }),
+      /* @__PURE__ */ (0, import_jsx_runtime36.jsxs)(Stack, { isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
           "button",
           {
             className: "mod-cta",
@@ -52517,7 +52542,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
             children: "Download"
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime35.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
           "button",
           {
             className: "dataloom-copy-button",
@@ -52531,7 +52556,7 @@ function ExportApp({ app, loomState, loomFilePath }) {
 }
 
 // src/obsidian/modal/export-modal.tsx
-var import_jsx_runtime36 = __toESM(require_jsx_runtime());
+var import_jsx_runtime37 = __toESM(require_jsx_runtime());
 var ExportModal = class extends import_obsidian15.Modal {
   constructor(app, loomFile, loomState) {
     super(app);
@@ -52551,7 +52576,7 @@ var ExportModal = class extends import_obsidian15.Modal {
     return __async(this, null, function* () {
       this.root = (0, import_client2.createRoot)(contentEl);
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime36.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(
           ExportApp,
           {
             app: this.app,
@@ -52591,14 +52616,14 @@ var DataSource = /* @__PURE__ */ ((DataSource2) => {
 })(DataSource || {});
 
 // src/react/import-app/data-type-select.tsx
-var import_jsx_runtime37 = __toESM(require_jsx_runtime());
+var import_jsx_runtime38 = __toESM(require_jsx_runtime());
 function DataTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime37.jsx)("div", { className: "dataloom-data-type-select", children: /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime37.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("div", { className: "dataloom-data-type-select", children: /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime38.jsx)(
     "select",
     {
       value,
       onChange: (e) => onChange(e.target.value),
-      children: Object.values(DataType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime37.jsx)("option", { value: type, children: type }, type))
+      children: Object.values(DataType).map((type) => /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("option", { value: type, children: type }, type))
     }
   ) }) });
 }
@@ -52607,23 +52632,23 @@ function DataTypeSelect({ value, onChange }) {
 var import_react26 = __toESM(require_react());
 
 // src/react/shared/stepper/step-spacer.tsx
-var import_jsx_runtime38 = __toESM(require_jsx_runtime());
+var import_jsx_runtime39 = __toESM(require_jsx_runtime());
 function StepSpacer() {
-  return /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("div", { className: "dataloom-step__spacer" });
+  return /* @__PURE__ */ (0, import_jsx_runtime39.jsx)("div", { className: "dataloom-step__spacer" });
 }
 
 // src/react/shared/stepper/step-content.tsx
-var import_jsx_runtime39 = __toESM(require_jsx_runtime());
+var import_jsx_runtime40 = __toESM(require_jsx_runtime());
 function StepContent({ content, addTopMargin }) {
   let className = "dataloom-step__content";
   if (addTopMargin) {
     className += " dataloom-step__content--margin-top";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime39.jsx)("div", { className, children: content });
+  return /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("div", { className, children: content });
 }
 
 // src/react/shared/stepper/step-buttons.tsx
-var import_jsx_runtime40 = __toESM(require_jsx_runtime());
+var import_jsx_runtime41 = __toESM(require_jsx_runtime());
 function StepButtons({
   isFirstStep,
   isLastStep,
@@ -52632,8 +52657,8 @@ function StepButtons({
   onNextClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("div", { className: "dataloom-step__buttons", children: /* @__PURE__ */ (0, import_jsx_runtime40.jsxs)(Stack, { isHorizontal: true, spacing: "md", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("div", { className: "dataloom-step__buttons", children: /* @__PURE__ */ (0, import_jsx_runtime41.jsxs)(Stack, { isHorizontal: true, spacing: "md", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(
       Button,
       {
         isDisabled: isNextDisabled,
@@ -52642,12 +52667,12 @@ function StepButtons({
         children: isLastStep ? finishButtonLabel : "Next"
       }
     ),
-    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime40.jsx)(Button, { onClick: onBackClick, children: "Back" })
+    !isFirstStep && /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(Button, { onClick: onBackClick, children: "Back" })
   ] }) });
 }
 
 // src/react/shared/stepper/step-indicator.tsx
-var import_jsx_runtime41 = __toESM(require_jsx_runtime());
+var import_jsx_runtime42 = __toESM(require_jsx_runtime());
 function StepIndicator({ index, isComplete, onClick }) {
   function handleClick() {
     if (!isComplete)
@@ -52658,11 +52683,11 @@ function StepIndicator({ index, isComplete, onClick }) {
   if (isComplete) {
     className += " dataloom-step__indicator--complete";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("div", { className, onClick: handleClick, children: /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(Flex, { justify: "center", align: "center", height: "100%", children: isComplete ? /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(Icon, { lucideId: "checkmark", size: "lg" }) : /* @__PURE__ */ (0, import_jsx_runtime41.jsx)(Text, { value: index + 1, variant: "semibold", size: "lg" }) }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("div", { className, onClick: handleClick, children: /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(Flex, { justify: "center", align: "center", height: "100%", children: isComplete ? /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(Icon, { lucideId: "checkmark", size: "lg" }) : /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(Text, { value: index + 1, variant: "semibold", size: "lg" }) }) });
 }
 
 // src/react/shared/stepper/step-text.tsx
-var import_jsx_runtime42 = __toESM(require_jsx_runtime());
+var import_jsx_runtime43 = __toESM(require_jsx_runtime());
 function StepText({
   title,
   description,
@@ -52678,14 +52703,14 @@ function StepText({
   if (isComplete) {
     className += " dataloom-step__text--complete";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime42.jsxs)(Stack, { spacing: "sm", onClick: handleClick, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(Text, { variant: "semibold", size: "lg", value: title }),
-    description && /* @__PURE__ */ (0, import_jsx_runtime42.jsx)(Text, { size: "md", value: description })
+  return /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime43.jsxs)(Stack, { spacing: "sm", onClick: handleClick, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(Text, { variant: "semibold", size: "lg", value: title }),
+    description && /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(Text, { size: "md", value: description })
   ] }) });
 }
 
 // src/react/shared/stepper/step-header.tsx
-var import_jsx_runtime43 = __toESM(require_jsx_runtime());
+var import_jsx_runtime44 = __toESM(require_jsx_runtime());
 function StepHeader({
   title,
   description,
@@ -52698,8 +52723,8 @@ function StepHeader({
     className += " dataloom-step__header--margin-bottom";
   }
   const isComplete = activeIndex > index;
-  return /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime43.jsxs)(Stack, { isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)(Stack, { isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
       StepIndicator,
       {
         index,
@@ -52707,7 +52732,7 @@ function StepHeader({
         onClick: () => onClick(index)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)(
       StepText,
       {
         title,
@@ -52720,17 +52745,17 @@ function StepHeader({
 }
 
 // src/react/shared/stepper/step-separator.tsx
-var import_jsx_runtime44 = __toESM(require_jsx_runtime());
+var import_jsx_runtime45 = __toESM(require_jsx_runtime());
 function StepSeparator({ hideBorder }) {
   let className = "dataloom-step__separator";
   if (hideBorder) {
     className += " dataloom-step__separator--no-border";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("div", { className });
+  return /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("div", { className });
 }
 
 // src/react/shared/stepper/index.tsx
-var import_jsx_runtime45 = __toESM(require_jsx_runtime());
+var import_jsx_runtime46 = __toESM(require_jsx_runtime());
 function Stepper({
   steps,
   finishButtonLabel = "Finish",
@@ -52765,15 +52790,15 @@ function Stepper({
   }
   const isFirstStep = activeIndex === 0;
   const isLastStep = activeIndex === steps.length - 1;
-  return /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("div", { className: "dataloom-stepper", children: steps.map((step, i2) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("div", { className: "dataloom-stepper", children: steps.map((step, i2) => {
     const {
       title,
       description,
       content,
       canContinue = true
     } = step;
-    return /* @__PURE__ */ (0, import_jsx_runtime45.jsxs)("div", { className: "dataloom-step", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime46.jsxs)("div", { className: "dataloom-step", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
         StepHeader,
         {
           title,
@@ -52783,17 +52808,17 @@ function Stepper({
           onClick: handleStepHeaderClick
         }
       ),
-      i2 === activeIndex && /* @__PURE__ */ (0, import_jsx_runtime45.jsxs)(Stack, { isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(StepSeparator, { hideBorder: isLastStep }),
-        /* @__PURE__ */ (0, import_jsx_runtime45.jsxs)(Stack, { spacing: "lg", width: "100%", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
+      i2 === activeIndex && /* @__PURE__ */ (0, import_jsx_runtime46.jsxs)(Stack, { isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(StepSeparator, { hideBorder: isLastStep }),
+        /* @__PURE__ */ (0, import_jsx_runtime46.jsxs)(Stack, { spacing: "lg", width: "100%", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
             StepContent,
             {
               content,
               addTopMargin: description !== void 0
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
             StepButtons,
             {
               isNextDisabled: canContinue instanceof Function ? !canContinue() : !canContinue,
@@ -52806,20 +52831,20 @@ function Stepper({
           )
         ] })
       ] }),
-      i2 < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime45.jsx)(StepSpacer, {})
+      i2 < steps.length - 1 && /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(StepSpacer, {})
     ] }, i2);
   }) });
 }
 
 // src/react/import-app/data-source-select.tsx
-var import_jsx_runtime46 = __toESM(require_jsx_runtime());
+var import_jsx_runtime47 = __toESM(require_jsx_runtime());
 function DataSourceSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("div", { className: "dataloom-data-source-select", children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("div", { className: "dataloom-data-source-select", children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(Stack, { children: /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(
     "select",
     {
       value,
       onChange: (e) => onChange(e.target.value),
-      children: Object.values(DataSource).map((type) => /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("option", { value: type, children: type }, type))
+      children: Object.values(DataSource).map((type) => /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("option", { value: type, children: type }, type))
     }
   ) }) });
 }
@@ -52837,7 +52862,7 @@ var getAcceptForDataType = (value) => {
 };
 
 // src/react/import-app/upload-data/file-input/index.tsx
-var import_jsx_runtime47 = __toESM(require_jsx_runtime());
+var import_jsx_runtime48 = __toESM(require_jsx_runtime());
 function FileInput({
   hasHeadersRow,
   fileName,
@@ -52858,10 +52883,10 @@ function FileInput({
     reader.readAsText(file);
   }
   const accept = getAcceptForDataType(dataType);
-  return /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("div", { className: "dataloom-file-input", children: /* @__PURE__ */ (0, import_jsx_runtime47.jsxs)(Stack, { spacing: "2xl", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime47.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(Text, { value: fileName != null ? fileName : "No file chosen" }),
-      /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("div", { className: "dataloom-file-input", children: /* @__PURE__ */ (0, import_jsx_runtime48.jsxs)(Stack, { spacing: "2xl", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime48.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(Text, { value: fileName != null ? fileName : "No file chosen" }),
+      /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(
         "input",
         {
           type: "file",
@@ -52870,9 +52895,9 @@ function FileInput({
         }
       )
     ] }),
-    accept === ".csv" && /* @__PURE__ */ (0, import_jsx_runtime47.jsxs)(Stack, { spacing: "sm", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("label", { htmlFor: "has-headers", children: "First row contains headers" }),
-      /* @__PURE__ */ (0, import_jsx_runtime47.jsx)(
+    accept === ".csv" && /* @__PURE__ */ (0, import_jsx_runtime48.jsxs)(Stack, { spacing: "sm", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("label", { htmlFor: "has-headers", children: "First row contains headers" }),
+      /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(
         Switch,
         {
           id: "has-headers",
@@ -52885,13 +52910,13 @@ function FileInput({
 }
 
 // src/react/import-app/upload-data/upload-textarea.tsx
-var import_jsx_runtime48 = __toESM(require_jsx_runtime());
+var import_jsx_runtime49 = __toESM(require_jsx_runtime());
 function UploadTextarea({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("textarea", { value, onChange: (e) => onChange(e.target.value) });
+  return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("textarea", { value, onChange: (e) => onChange(e.target.value) });
 }
 
 // src/react/import-app/upload-data/index.tsx
-var import_jsx_runtime49 = __toESM(require_jsx_runtime());
+var import_jsx_runtime50 = __toESM(require_jsx_runtime());
 function UploadData({
   source,
   fileName,
@@ -52902,9 +52927,9 @@ function UploadData({
   onRawDataChange,
   onHeadersRowToggle
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime49.jsxs)("div", { className: "dataloom-upload-data", children: [
-    source === "Paste from clipboard" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
-    source === "File" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime50.jsxs)("div", { className: "dataloom-upload-data", children: [
+    source === "Paste from clipboard" /* PASTE */ && /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(UploadTextarea, { value: rawData, onChange: onRawDataChange }),
+    source === "File" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(
       FileInput,
       {
         fileName,
@@ -52914,12 +52939,12 @@ function UploadData({
         onDataChange: onRawDataChange
       }
     ),
-    errorText !== null && /* @__PURE__ */ (0, import_jsx_runtime49.jsx)(Text, { variant: "error", value: errorText, size: "sm" })
+    errorText !== null && /* @__PURE__ */ (0, import_jsx_runtime50.jsx)(Text, { variant: "error", value: errorText, size: "sm" })
   ] });
 }
 
 // src/react/import-app/match-columns/body-cell.tsx
-var import_jsx_runtime50 = __toESM(require_jsx_runtime());
+var import_jsx_runtime51 = __toESM(require_jsx_runtime());
 function BodyCell2({ value, isDisabled }) {
   const overflowClassName = useOverflow(false, {
     ellipsis: true
@@ -52927,7 +52952,7 @@ function BodyCell2({ value, isDisabled }) {
   let className = overflowClassName;
   if (isDisabled)
     className += " dataloom-disabled";
-  return /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("td", { className, children: value });
+  return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("td", { className, children: value });
 }
 
 // src/react/shared/menu/modal-menu.tsx
@@ -52935,7 +52960,7 @@ var import_react28 = __toESM(require_react());
 
 // src/react/shared/modal-mount-provider/index.tsx
 var import_react27 = __toESM(require_react());
-var import_jsx_runtime51 = __toESM(require_jsx_runtime());
+var import_jsx_runtime52 = __toESM(require_jsx_runtime());
 var MountContext2 = import_react27.default.createContext(null);
 var useModalMount = () => {
   const value = import_react27.default.useContext(MountContext2);
@@ -52951,11 +52976,11 @@ function ModalMountProvider({
   modalEl,
   children
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime51.jsx)(MountContext2.Provider, { value: { obsidianApp, modalEl }, children });
+  return /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(MountContext2.Provider, { value: { obsidianApp, modalEl }, children });
 }
 
 // src/react/shared/menu/modal-menu.tsx
-var import_jsx_runtime52 = __toESM(require_jsx_runtime());
+var import_jsx_runtime53 = __toESM(require_jsx_runtime());
 function ModalMenu({
   id: id2,
   isOpen,
@@ -52976,8 +53001,8 @@ function ModalMenu({
     openDirection
   });
   if (!isOpen)
-    return /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(import_jsx_runtime52.Fragment, {});
-  return /* @__PURE__ */ (0, import_jsx_runtime52.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(import_jsx_runtime53.Fragment, {});
+  return /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
     base_menu_default,
     {
       ref,
@@ -53027,7 +53052,7 @@ var getIconIdForCellType = (type) => {
 var NEW_COLUMN_ID = "-1";
 
 // src/react/import-app/match-columns/select-column-menu.tsx
-var import_jsx_runtime53 = __toESM(require_jsx_runtime());
+var import_jsx_runtime54 = __toESM(require_jsx_runtime());
 function SelectColumnMenu({
   id: id2,
   triggerPosition,
@@ -53045,7 +53070,7 @@ function SelectColumnMenu({
       return true;
     return !columnMatches.some((match) => match.columnId === id3);
   });
-  return /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(
     ModalMenu,
     {
       id: id2,
@@ -53057,7 +53082,7 @@ function SelectColumnMenu({
       children: [
         columnsToDisplay.map((column) => {
           const { id: id3, name, type } = column;
-          return /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+          return /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
             MenuItem,
             {
               name,
@@ -53068,8 +53093,8 @@ function SelectColumnMenu({
             id3
           );
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Divider, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
           MenuItem,
           {
             name: "New column",
@@ -53077,9 +53102,9 @@ function SelectColumnMenu({
             isSelected: selectedColumnId === NEW_COLUMN_ID
           }
         ),
-        selectedColumnId !== null && /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)(import_jsx_runtime53.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(Divider, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime53.jsx)(
+        selectedColumnId !== null && /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(import_jsx_runtime54.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Divider, {}),
+          /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
             MenuItem,
             {
               name: "Unmatch",
@@ -53093,7 +53118,7 @@ function SelectColumnMenu({
 }
 
 // src/react/import-app/match-columns/header-cell.tsx
-var import_jsx_runtime54 = __toESM(require_jsx_runtime());
+var import_jsx_runtime55 = __toESM(require_jsx_runtime());
 function HeaderCell2({
   isDisabled,
   columns,
@@ -53122,8 +53147,8 @@ function HeaderCell2({
     onColumnMatch(index, columnId);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(import_jsx_runtime54.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)("th", { className: overflowClassName, children: /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(import_jsx_runtime55.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("th", { className: overflowClassName, children: /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(
       Stack,
       {
         className: isDisabled ? "dataloom-disabled" : void 0,
@@ -53132,9 +53157,9 @@ function HeaderCell2({
         spacing: "xl",
         width: "100%",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Text, { value: importValue }),
-            /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Text, { value: importValue }),
+            /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
               Icon,
               {
                 color: matchId ? "green" : "red",
@@ -53144,8 +53169,8 @@ function HeaderCell2({
               }
             )
           ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
               "input",
               {
                 "aria-label": "Toggle column",
@@ -53154,13 +53179,13 @@ function HeaderCell2({
                 onChange: () => onColumnToggle(index)
               }
             ),
-            /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
+            /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
               menu_button_default,
               {
                 menu,
                 ref: triggerRef,
                 ariaLabel: "Match column",
-                icon: /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(Icon, { lucideId: "columns", size: "lg" }),
+                icon: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Icon, { lucideId: "columns", size: "lg" }),
                 onOpen
               }
             )
@@ -53168,7 +53193,7 @@ function HeaderCell2({
         ]
       }
     ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
       SelectColumnMenu,
       {
         id: menu.id,
@@ -53187,7 +53212,7 @@ function HeaderCell2({
 
 // src/react/import-app/match-columns/index.tsx
 var import_react29 = __toESM(require_react());
-var import_jsx_runtime55 = __toESM(require_jsx_runtime());
+var import_jsx_runtime56 = __toESM(require_jsx_runtime());
 function MatchColumns({
   columns,
   columnMatches,
@@ -53221,20 +53246,20 @@ function MatchColumns({
   let numUnmatched = enabledColumnIndices.length - columnMatches.length;
   if (numUnmatched < 0)
     numUnmatched = 0;
-  return /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)("div", { className: "dataloom-match-columns", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Padding, { pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Button, { variant: "default", onClick: onAllColumnsToggle, children: "Toggle all" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("div", { className: "dataloom-match-columns", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Padding, { pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Button, { variant: "default", onClick: onAllColumnsToggle, children: "Toggle all" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
       "div",
       {
         ref: containerRef,
         className: "dataloom-match-columns__container",
-        children: /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)("table", { children: [
-          /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("tr", { children: data[0].map((header, i2) => {
+        children: /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("table", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("tr", { children: data[0].map((header, i2) => {
             var _a2, _b;
             const matchId = (_b = (_a2 = columnMatches.find(
               (match) => match.importColumnIndex === i2
             )) == null ? void 0 : _a2.columnId) != null ? _b : null;
-            return /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+            return /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
               HeaderCell2,
               {
                 isDisabled: !enabledColumnIndices.includes(i2),
@@ -53249,7 +53274,7 @@ function MatchColumns({
               i2
             );
           }) }) }),
-          /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("tbody", { children: data.slice(1).map((row, i2) => /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("tr", { children: row.map((cell, j2) => /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("tbody", { children: data.slice(1).map((row, i2) => /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("tr", { children: row.map((cell, j2) => /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
             BodyCell2,
             {
               value: cell,
@@ -53260,8 +53285,8 @@ function MatchColumns({
         ] })
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(Padding, { pt: "3xl", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)(Stack, { spacing: "lg", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Padding, { pt: "3xl", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)(Stack, { spacing: "lg", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
         Text,
         {
           size: "sm",
@@ -53269,7 +53294,7 @@ function MatchColumns({
           value: `Importing ${enabledColumnIndices.length} of ${data[0].length} columns`
         }
       ),
-      numUnmatched > 0 && /* @__PURE__ */ (0, import_jsx_runtime55.jsx)(
+      numUnmatched > 0 && /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
         Text,
         {
           size: "sm",
@@ -53504,7 +53529,7 @@ var isDateParsable = (value) => {
 };
 
 // src/react/import-app/index.tsx
-var import_jsx_runtime56 = __toESM(require_jsx_runtime());
+var import_jsx_runtime57 = __toESM(require_jsx_runtime());
 function ImportApp({ state, onStateChange }) {
   const { onCloseAll } = useMenuOperations();
   const [dataSource, setDataSource] = import_react30.default.useState("Select an option" /* UNSELECTED */);
@@ -53591,7 +53616,7 @@ function ImportApp({ state, onStateChange }) {
   const steps = [
     {
       title: "Select data type",
-      content: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
         DataTypeSelect,
         {
           value: dataType,
@@ -53602,7 +53627,7 @@ function ImportApp({ state, onStateChange }) {
     },
     {
       title: "Select data source",
-      content: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
         DataSourceSelect,
         {
           value: dataSource,
@@ -53613,7 +53638,7 @@ function ImportApp({ state, onStateChange }) {
     },
     {
       title: "Upload data",
-      content: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
         UploadData,
         {
           hasHeadersRow,
@@ -53658,7 +53683,7 @@ function ImportApp({ state, onStateChange }) {
     },
     {
       title: "Match columns",
-      content: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(
+      content: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
         MatchColumns,
         {
           data,
@@ -53685,11 +53710,11 @@ function ImportApp({ state, onStateChange }) {
     const newState = addImportData(state, data, columnMatches);
     onStateChange(newState);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("div", { className: "dataloom-import-app", onClick: handleModalClick, children: /* @__PURE__ */ (0, import_jsx_runtime56.jsx)(Stepper, { steps, onFinishClick: handleFinishClick }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime57.jsx)("div", { className: "dataloom-import-app", onClick: handleModalClick, children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(Stepper, { steps, onFinishClick: handleFinishClick }) });
 }
 
 // src/obsidian/modal/import-modal.tsx
-var import_jsx_runtime57 = __toESM(require_jsx_runtime());
+var import_jsx_runtime58 = __toESM(require_jsx_runtime());
 var ImportModal = class extends import_obsidian16.Modal {
   constructor(app, loomFile, loomState) {
     super(app);
@@ -53722,7 +53747,7 @@ var ImportModal = class extends import_obsidian16.Modal {
         throw new Error("Modal element not found.");
       this.root = (0, import_client3.createRoot)(contentEl);
       this.root.render(
-        /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(ModalMountProvider, { obsidianApp: this.app, modalEl, children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(Provider_default, { store, children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(ModalMountProvider, { obsidianApp: this.app, modalEl, children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
           ImportApp,
           {
             state: this.loomState,
@@ -53739,7 +53764,7 @@ var ImportModal = class extends import_obsidian16.Modal {
 };
 
 // src/react/loom-app/option-bar/more-menu/base-content.tsx
-var import_jsx_runtime58 = __toESM(require_jsx_runtime());
+var import_jsx_runtime59 = __toESM(require_jsx_runtime());
 function BaseContent({
   onFreezeColumnsClick,
   onToggleColumnClick,
@@ -53750,8 +53775,8 @@ function BaseContent({
   const { app, loomFile } = useAppMount();
   const { loomState } = useLoomState();
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime58.jsxs)(Padding, { p: "sm", children: [
-    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime59.jsxs)(Padding, { p: "sm", children: [
+    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "filter",
@@ -53759,7 +53784,7 @@ function BaseContent({
         onClick: onFilterClick
       }
     ),
-    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+    isSmallScreen && /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "eye-off",
@@ -53767,7 +53792,7 @@ function BaseContent({
         onClick: onToggleColumnClick
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "snowflake",
@@ -53775,7 +53800,7 @@ function BaseContent({
         onClick: onFreezeColumnsClick
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "import",
@@ -53786,7 +53811,7 @@ function BaseContent({
         }
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "download",
@@ -53797,7 +53822,7 @@ function BaseContent({
         }
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime58.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
       MenuItem,
       {
         lucideId: "gear",
@@ -53809,15 +53834,15 @@ function BaseContent({
 }
 
 // src/react/loom-app/option-bar/more-menu/settings-submenu.tsx
-var import_jsx_runtime59 = __toESM(require_jsx_runtime());
+var import_jsx_runtime60 = __toESM(require_jsx_runtime());
 function SettingsSubmenu({
   showCalculationRow,
   onCalculationRowToggle,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Submenu, { title: "Settings", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime59.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(Text, { value: "Calculation row" }),
-    /* @__PURE__ */ (0, import_jsx_runtime59.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Submenu, { title: "Settings", onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime60.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(Text, { value: "Calculation row" }),
+    /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
       Switch,
       {
         value: showCalculationRow,
@@ -53828,7 +53853,7 @@ function SettingsSubmenu({
 }
 
 // src/react/loom-app/option-bar/more-menu/index.tsx
-var import_jsx_runtime60 = __toESM(require_jsx_runtime());
+var import_jsx_runtime61 = __toESM(require_jsx_runtime());
 function MoreMenu({
   id: id2,
   isOpen,
@@ -53847,7 +53872,7 @@ function MoreMenu({
     if (!isOpen)
       setSubmenu(null);
   }, [isOpen]);
-  return /* @__PURE__ */ (0, import_jsx_runtime60.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime61.jsxs)(
     Menu,
     {
       id: id2,
@@ -53857,7 +53882,7 @@ function MoreMenu({
       onRequestClose,
       onClose,
       children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
           BaseContent,
           {
             onToggleColumnClick,
@@ -53867,7 +53892,7 @@ function MoreMenu({
             onSettingsClick: () => setSubmenu(1 /* SETTINGS */)
           }
         ),
-        submenu == 0 /* FROZEN_COLUMNS */ && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu == 0 /* FROZEN_COLUMNS */ && /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
           FrozenColumnsSubmenu,
           {
             numFrozenColumns,
@@ -53875,7 +53900,7 @@ function MoreMenu({
             onFrozenColumnsChange
           }
         ),
-        submenu === 1 /* SETTINGS */ && /* @__PURE__ */ (0, import_jsx_runtime60.jsx)(
+        submenu === 1 /* SETTINGS */ && /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
           SettingsSubmenu,
           {
             showCalculationRow,
@@ -53889,7 +53914,7 @@ function MoreMenu({
 }
 
 // src/react/shared/wrap/index.tsx
-var import_jsx_runtime61 = __toESM(require_jsx_runtime());
+var import_jsx_runtime62 = __toESM(require_jsx_runtime());
 function Wrap({
   justify,
   align = "center",
@@ -53900,7 +53925,7 @@ function Wrap({
 }) {
   const justifyContent = getDynamicSize("flex-start", justify);
   const renderWidth = getDynamicSize("100%", width);
-  return /* @__PURE__ */ (0, import_jsx_runtime61.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(
     "div",
     {
       className: "dataloom-wrap",
@@ -53917,7 +53942,7 @@ function Wrap({
 }
 
 // src/react/loom-app/option-bar/toggle-column-menu.tsx
-var import_jsx_runtime62 = __toESM(require_jsx_runtime());
+var import_jsx_runtime63 = __toESM(require_jsx_runtime());
 function ToggleColumnMenu({
   id: id2,
   triggerPosition,
@@ -53927,7 +53952,7 @@ function ToggleColumnMenu({
   onRequestClose,
   onClose
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
     Menu,
     {
       isOpen,
@@ -53937,16 +53962,16 @@ function ToggleColumnMenu({
       maxHeight: 220,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("div", { className: "dataloom-toggle-column-menu", children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
+      children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("div", { className: "dataloom-toggle-column-menu", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Stack, { spacing: "md", children: columns.map((column) => {
         const { id: id3, content, isVisible } = column;
-        return /* @__PURE__ */ (0, import_jsx_runtime62.jsxs)(
+        return /* @__PURE__ */ (0, import_jsx_runtime63.jsxs)(
           Wrap,
           {
             justify: "space-between",
             spacingX: "4xl",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(Text, { value: content, maxWidth: "250px" }),
-              /* @__PURE__ */ (0, import_jsx_runtime62.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(Text, { value: content, maxWidth: "250px" }),
+              /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
                 Switch,
                 {
                   value: isVisible,
@@ -53963,7 +53988,7 @@ function ToggleColumnMenu({
 }
 
 // src/react/shared/select/index.tsx
-var import_jsx_runtime63 = __toESM(require_jsx_runtime());
+var import_jsx_runtime64 = __toESM(require_jsx_runtime());
 function Select({
   className,
   value,
@@ -53975,7 +54000,7 @@ function Select({
   if (className) {
     newClassName += " " + className;
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime63.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(
     "select",
     {
       tabIndex: 0,
@@ -53989,7 +54014,7 @@ function Select({
 }
 
 // src/react/loom-app/option-bar/filter-menu/filter-column-select/index.tsx
-var import_jsx_runtime64 = __toESM(require_jsx_runtime());
+var import_jsx_runtime65 = __toESM(require_jsx_runtime());
 function FilterColumnSelect({
   id: id2,
   columns,
@@ -54001,7 +54026,7 @@ function FilterColumnSelect({
       e.stopPropagation();
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime64.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
     Select,
     {
       className: "dataloom-filter-column-select",
@@ -54010,7 +54035,7 @@ function FilterColumnSelect({
       onChange: (newValue) => onChange(id2, newValue),
       children: columns.map((column) => {
         const { id: id3, content } = column;
-        return /* @__PURE__ */ (0, import_jsx_runtime64.jsx)("option", { value: id3, children: content }, id3);
+        return /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("option", { value: id3, children: content }, id3);
       })
     }
   );
@@ -54283,7 +54308,7 @@ var getDisplayNameForDateFilterOption = (value) => {
 };
 
 // src/react/loom-app/option-bar/filter-menu/filter-condition-select.tsx
-var import_jsx_runtime65 = __toESM(require_jsx_runtime());
+var import_jsx_runtime66 = __toESM(require_jsx_runtime());
 function FilterConditionSelect({
   id: id2,
   value,
@@ -54295,36 +54320,36 @@ function FilterConditionSelect({
       e.stopPropagation();
     }
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime65.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime66.jsx)(
     Select,
     {
       value,
       onKeyDown: handleKeyDown,
       onChange: (newValue) => onChange(id2, newValue),
-      children: options.map((option) => /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("option", { value: option, children: getDisplayNameForFilterCondition(option) }, option))
+      children: options.map((option) => /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("option", { value: option, children: getDisplayNameForFilterCondition(option) }, option))
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/filter-operator/index.tsx
-var import_jsx_runtime66 = __toESM(require_jsx_runtime());
+var import_jsx_runtime67 = __toESM(require_jsx_runtime());
 function FilterOperator({ id: id2, value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime66.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)(
     Select,
     {
       className: "dataloom-filter-operator",
       value,
       onChange: (newValue) => onChange(id2, newValue),
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("option", { value: "or", children: "Or" }),
-        /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("option", { value: "and", children: "And" })
+        /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("option", { value: "or", children: "Or" }),
+        /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("option", { value: "and", children: "And" })
       ]
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/filter-row/index.tsx
-var import_jsx_runtime67 = __toESM(require_jsx_runtime());
+var import_jsx_runtime68 = __toESM(require_jsx_runtime());
 function FilterRow({
   index,
   id: id2,
@@ -54341,16 +54366,16 @@ function FilterRow({
   onConditionChange,
   onDeleteClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("div", { className: "dataloom-filter-row", children: /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)(Wrap, { children: [
-    index !== 0 ? /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("div", { className: "dataloom-filter-row", children: /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(Wrap, { children: [
+    index !== 0 ? /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
       FilterOperator,
       {
         id: id2,
         value: selectedOperator,
         onChange: onOperatorChange
       }
-    ) : /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("div", { className: "dataloom-filter-row__spacer" }),
-    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+    ) : /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("div", { className: "dataloom-filter-row__spacer" }),
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
       FilterColumnSelect,
       {
         id: id2,
@@ -54359,7 +54384,7 @@ function FilterRow({
         onChange: onColumnChange
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
       FilterConditionSelect,
       {
         id: id2,
@@ -54368,8 +54393,8 @@ function FilterRow({
         onChange: onConditionChange
       }
     ),
-    selectedCondition !== "is-empty" /* IS_EMPTY */ && selectedCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("div", { className: "dataloom-filter-row__input", children: inputNode }),
-    /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)(
+    selectedCondition !== "is-empty" /* IS_EMPTY */ && selectedCondition !== "is-not-empty" /* IS_NOT_EMPTY */ && /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("div", { className: "dataloom-filter-row__input", children: inputNode }),
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)(
       Stack,
       {
         grow: true,
@@ -54378,15 +54403,15 @@ function FilterRow({
         spacing: "lg",
         isHorizontal: true,
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
             Button,
             {
-              icon: /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(Icon, { lucideId: "trash-2" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(Icon, { lucideId: "trash-2" }),
               ariaLabel: "Delete filter",
               onClick: () => onDeleteClick(id2)
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime67.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
             Switch,
             {
               value: isEnabled,
@@ -54401,7 +54426,7 @@ function FilterRow({
 }
 
 // src/react/shared/multi-select/index.tsx
-var import_jsx_runtime68 = __toESM(require_jsx_runtime());
+var import_jsx_runtime69 = __toESM(require_jsx_runtime());
 function MultiSelect({
   className: customClassName,
   value,
@@ -54420,7 +54445,7 @@ function MultiSelect({
   if (customClassName) {
     className += " " + customClassName;
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime68.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(
     "select",
     {
       tabIndex: 0,
@@ -54435,20 +54460,20 @@ function MultiSelect({
 }
 
 // src/react/loom-app/option-bar/filter-menu/date-filter-select.tsx
-var import_jsx_runtime69 = __toESM(require_jsx_runtime());
+var import_jsx_runtime70 = __toESM(require_jsx_runtime());
 function DateFilterSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime69.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
     Select,
     {
       value,
       onChange: (value2) => onChange(value2),
-      children: Object.values(DateFilterOption).map((option) => /* @__PURE__ */ (0, import_jsx_runtime69.jsx)("option", { value: option, children: getDisplayNameForDateFilterOption(option) }, option))
+      children: Object.values(DateFilterOption).map((option) => /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("option", { value: option, children: getDisplayNameForDateFilterOption(option) }, option))
     }
   );
 }
 
 // src/react/loom-app/option-bar/filter-menu/index.tsx
-var import_jsx_runtime70 = __toESM(require_jsx_runtime());
+var import_jsx_runtime71 = __toESM(require_jsx_runtime());
 function FilterMenu({
   id: id2,
   triggerPosition,
@@ -54610,7 +54635,7 @@ function FilterMenu({
       throw new Error("Filter not found");
     onUpdate(id3, { isEnabled: !filter3.isEnabled });
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
     Menu,
     {
       id: id2,
@@ -54620,14 +54645,14 @@ function FilterMenu({
       maxHeight: 255,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
         "div",
         {
           className: "dataloom-filter-menu",
           style: {
             width: isSmallScreenSize() ? "calc(100vw - 30px)" : void 0
           },
-          children: /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)(Stack, { spacing: "lg", children: [
+          children: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, { spacing: "lg", children: [
             filters.map((filter3, i2) => {
               const {
                 id: id3,
@@ -54648,7 +54673,7 @@ function FilterMenu({
               switch (type) {
                 case "text" /* TEXT */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     input_default,
                     {
                       value: text,
@@ -54669,7 +54694,7 @@ function FilterMenu({
                 }
                 case "file" /* FILE */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     input_default,
                     {
                       value: text,
@@ -54690,21 +54715,21 @@ function FilterMenu({
                 }
                 case "checkbox" /* CHECKBOX */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(
                     Select,
                     {
                       value: text,
                       onChange: (newValue) => onTextChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("option", { value: "", children: "Select an option" }),
-                        /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("option", { value: "", children: "Select an option" }),
+                        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                           "option",
                           {
                             value: CHECKBOX_MARKDOWN_CHECKED,
                             children: "Checked"
                           }
                         ),
-                        /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                           "option",
                           {
                             value: CHECKBOX_MARKDOWN_UNCHECKED2,
@@ -54722,14 +54747,14 @@ function FilterMenu({
                 }
                 case "tag" /* TAG */: {
                   const { tagId } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(
                     Select,
                     {
                       value: tagId,
                       onChange: (newValue) => onTagChange(id3, newValue),
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("option", { value: "", children: "Select an option" }),
-                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                        /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("option", { value: "", children: "Select an option" }),
+                        tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                           "option",
                           {
                             value: tag.id,
@@ -54750,12 +54775,12 @@ function FilterMenu({
                 }
                 case "multi-tag" /* MULTI_TAG */: {
                   const { tagIds } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     MultiSelect,
                     {
                       value: tagIds,
                       onChange: (value) => onTagsChange(id3, value),
-                      children: tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                      children: tags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                         "option",
                         {
                           value: tag.id,
@@ -54782,7 +54807,7 @@ function FilterMenu({
                 }
                 case "number" /* NUMBER */: {
                   const { text } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     input_default,
                     {
                       inputMode: "numeric",
@@ -54804,7 +54829,7 @@ function FilterMenu({
                 }
                 case "date" /* DATE */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -54825,7 +54850,7 @@ function FilterMenu({
                 }
                 case "creation-time" /* CREATION_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -54844,7 +54869,7 @@ function FilterMenu({
                 }
                 case "last-edited-time" /* LAST_EDITED_TIME */: {
                   const { option } = filter3;
-                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+                  inputNode = /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                     DateFilterSelect,
                     {
                       value: option,
@@ -54864,7 +54889,7 @@ function FilterMenu({
                 default:
                   throw new Error("Column type not handled");
               }
-              return /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+              return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                 FilterRow,
                 {
                   index: i2,
@@ -54885,16 +54910,16 @@ function FilterMenu({
                 id3
               );
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)(Stack, { isHorizontal: true, children: [
-              /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(
+            /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)(Stack, { isHorizontal: true, children: [
+              /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
                 Button,
                 {
-                  icon: /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(Icon, { lucideId: "plus" }),
+                  icon: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Icon, { lucideId: "plus" }),
                   ariaLabel: "Add filter",
                   onClick: () => onAddClick()
                 }
               ),
-              filters.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime70.jsx)(Text, { value: "No filters to display" })
+              filters.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Text, { value: "No filters to display" })
             ] })
           ] }) })
         }
@@ -54904,32 +54929,32 @@ function FilterMenu({
 }
 
 // src/react/loom-app/option-bar/sort-bubble/index.tsx
-var import_jsx_runtime71 = __toESM(require_jsx_runtime());
+var import_jsx_runtime72 = __toESM(require_jsx_runtime());
 function SortBubble({
   sortDir,
   content,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("div", { className: "dataloom-sort-bubble", children: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
     Bubble,
     {
       canRemove: true,
       value: content,
-      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime71.jsx)(Icon, { lucideId: "arrow-down" }),
+      icon: sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Icon, { lucideId: "arrow-up" }) : /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Icon, { lucideId: "arrow-down" }),
       onRemoveClick
     }
   ) });
 }
 
 // src/react/loom-app/option-bar/sort-bubble-list.tsx
-var import_jsx_runtime72 = __toESM(require_jsx_runtime());
+var import_jsx_runtime73 = __toESM(require_jsx_runtime());
 function SortBubbleList({
   sortedColumns,
   onRemoveClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
+  return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Stack, { spacing: "sm", isHorizontal: true, children: sortedColumns.map((column, i2) => {
     const { id: id2, sortDir, content } = column;
-    return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)(
+    return /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
       SortBubble,
       {
         sortDir,
@@ -54942,7 +54967,7 @@ function SortBubbleList({
 }
 
 // src/react/loom-app/option-bar/index.tsx
-var import_jsx_runtime73 = __toESM(require_jsx_runtime());
+var import_jsx_runtime74 = __toESM(require_jsx_runtime());
 function OptionBar({
   numFrozenColumns,
   columns,
@@ -54988,15 +55013,15 @@ function OptionBar({
     (column) => column.sortDir !== "default" /* NONE */
   );
   const isSmallScreen = isSmallScreenSize();
-  return /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(import_jsx_runtime73.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime74.jsxs)(import_jsx_runtime74.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", { className: "dataloom-option-bar", children: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(Padding, { py: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime74.jsxs)(
       Stack,
       __spreadProps(__spreadValues({
         isHorizontal: !isSmallScreen,
         spacing: "sm"
       }, !isSmallScreen && { justify: "space-between" }), {
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime74.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -55007,14 +55032,14 @@ function OptionBar({
               justify: "flex-end"
             }), {
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
                   SortBubbleList,
                   {
                     sortedColumns,
                     onRemoveClick: onSortRemoveClick
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
                   ActiveFilterBubble,
                   {
                     numActive: activeFilters.length
@@ -55023,7 +55048,7 @@ function OptionBar({
               ]
             })
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)(
+          /* @__PURE__ */ (0, import_jsx_runtime74.jsxs)(
             Stack,
             __spreadProps(__spreadValues({
               isHorizontal: true,
@@ -55034,8 +55059,8 @@ function OptionBar({
               width: "100%"
             }), {
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(SearchBar, {}),
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(SearchBar, {}),
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
                   menu_button_default,
                   {
                     ref: filterMenuTriggerRef,
@@ -55044,7 +55069,7 @@ function OptionBar({
                     children: "Filter"
                   }
                 ),
-                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+                isSmallScreen === false && /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
                   menu_button_default,
                   {
                     ref: toggleMenuTriggerRef,
@@ -55053,12 +55078,12 @@ function OptionBar({
                     children: "Toggle"
                   }
                 ),
-                /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+                /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
                   menu_button_default,
                   {
                     ref: moreMenuTriggerRef,
                     menu: moreMenu,
-                    icon: /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(Icon, { lucideId: "more-vertical" }),
+                    icon: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(Icon, { lucideId: "more-vertical" }),
                     onOpen: onMoreMenuOpen
                   }
                 )
@@ -55068,7 +55093,7 @@ function OptionBar({
         ]
       })
     ) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
       MoreMenu,
       {
         id: moreMenu.id,
@@ -55084,7 +55109,7 @@ function OptionBar({
         onClose: onMoreMenuClose
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
       ToggleColumnMenu,
       {
         id: toggleMenu.id,
@@ -55096,7 +55121,7 @@ function OptionBar({
         onClose: onToggleMenuClose
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
       FilterMenu,
       {
         id: filterMenu.id,
@@ -55166,7 +55191,7 @@ var useColumnResize = (columnId, onMove) => {
 };
 
 // src/react/loom-app/header-cell-container/column-resize/index.tsx
-var import_jsx_runtime74 = __toESM(require_jsx_runtime());
+var import_jsx_runtime75 = __toESM(require_jsx_runtime());
 function ColumnResize({
   currentResizingId,
   columnId,
@@ -55188,7 +55213,7 @@ function ColumnResize({
   let innerClassName = "dataloom-column-resize__handle";
   if (isDragging)
     innerClassName += " dataloom-column-resize__handle--dragging";
-  return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("div", { className: "dataloom-column-resize", children: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("div", { className: "dataloom-column-resize", children: /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
     "div",
     {
       className: innerClassName,
@@ -55210,7 +55235,7 @@ function ColumnResize({
 var import_react35 = __toESM(require_react());
 
 // src/react/loom-app/header-cell-edit/option-submenu.tsx
-var import_jsx_runtime75 = __toESM(require_jsx_runtime());
+var import_jsx_runtime76 = __toESM(require_jsx_runtime());
 function OptionSubmenu({
   type,
   currencyType,
@@ -55227,8 +55252,8 @@ function OptionSubmenu({
   onSubmenuChange
 }) {
   const numberFormatDisplayName = numberFormat === "number" /* NUMBER */ ? "Number" : getDisplayNameForCurrencyType(currencyType);
-  return /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(Padding, { pt: "sm", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime75.jsxs)(Stack, { spacing: "sm", children: [
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Padding, { pt: "sm", pb: "lg", children: /* @__PURE__ */ (0, import_jsx_runtime76.jsxs)(Stack, { spacing: "sm", children: [
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Aspect ratio",
@@ -55236,7 +55261,7 @@ function OptionSubmenu({
         onClick: () => onSubmenuChange(6 /* ASPECT_RATIO */)
       }
     ),
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Horizontal padding",
@@ -55244,7 +55269,7 @@ function OptionSubmenu({
         onClick: () => onSubmenuChange(4 /* HORIZONTAL_PADDING */)
       }
     ),
-    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Vertical padding",
@@ -55252,7 +55277,7 @@ function OptionSubmenu({
         onClick: () => onSubmenuChange(5 /* VERTICAL_PADDING */)
       }
     ),
-    type === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Number format",
@@ -55260,7 +55285,7 @@ function OptionSubmenu({
         onClick: () => onSubmenuChange(2 /* CURRENCY */)
       }
     ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Prefix",
@@ -55270,7 +55295,7 @@ function OptionSubmenu({
         )
       }
     ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Suffix",
@@ -55280,7 +55305,7 @@ function OptionSubmenu({
         )
       }
     ),
-    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    type === "number" /* NUMBER */ && numberFormat == "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Separator",
@@ -55290,7 +55315,7 @@ function OptionSubmenu({
         )
       }
     ),
-    (type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "date" /* DATE */) && /* @__PURE__ */ (0, import_jsx_runtime75.jsx)(
+    (type === "creation-time" /* CREATION_TIME */ || type === "last-edited-time" /* LAST_EDITED_TIME */ || type === "date" /* DATE */) && /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
       MenuItem,
       {
         name: "Date format",
@@ -55302,14 +55327,14 @@ function OptionSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/type-submenu.tsx
-var import_jsx_runtime76 = __toESM(require_jsx_runtime());
+var import_jsx_runtime77 = __toESM(require_jsx_runtime());
 function TypeSubmenu({
   title,
   value,
   onValueClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(Submenu, { title, onBackClick, children: Object.values(CellType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime76.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Submenu, { title, onBackClick, children: Object.values(CellType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
     MenuItem,
     {
       name: getDisplayNameForCellType(type),
@@ -55323,7 +55348,7 @@ function TypeSubmenu({
 
 // src/react/loom-app/header-cell-edit/base-menu.tsx
 var import_react33 = __toESM(require_react());
-var import_jsx_runtime77 = __toESM(require_jsx_runtime());
+var import_jsx_runtime78 = __toESM(require_jsx_runtime());
 function BaseMenu2({
   shouldWrapOverflow,
   columnName,
@@ -55349,9 +55374,9 @@ function BaseMenu2({
     onColumnNameChange(inputValue);
   }
   const hasOptions = columnType === "embed" /* EMBED */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
-  return /* @__PURE__ */ (0, import_jsx_runtime77.jsxs)(Stack, { spacing: "sm", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Padding, { px: "md", py: "sm", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Stack, { spacing: "sm", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Padding, { px: "md", py: "sm", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
         input_default,
         {
           ref: inputRef,
@@ -55360,7 +55385,7 @@ function BaseMenu2({
           onChange: handleInputChange
         }
       ) }),
-      /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
         MenuItem,
         {
           lucideId: "list",
@@ -55371,7 +55396,7 @@ function BaseMenu2({
           }
         }
       ),
-      hasOptions && /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+      hasOptions && /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
         MenuItem,
         {
           lucideId: "settings",
@@ -55382,8 +55407,8 @@ function BaseMenu2({
         }
       )
     ] }),
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
       MenuItem,
       {
         lucideId: "arrow-up",
@@ -55392,7 +55417,7 @@ function BaseMenu2({
         isSelected: columnSortDir === "asc" /* ASC */
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
       MenuItem,
       {
         lucideId: "arrow-down",
@@ -55401,8 +55426,8 @@ function BaseMenu2({
         isSelected: columnSortDir === "desc" /* DESC */
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
       MenuItem,
       {
         lucideId: "eye-off",
@@ -55410,7 +55435,7 @@ function BaseMenu2({
         onClick: () => onHideClick()
       }
     ),
-    canDeleteColumn && /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+    canDeleteColumn && /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
       MenuItem,
       {
         lucideId: "trash",
@@ -55418,11 +55443,11 @@ function BaseMenu2({
         onClick: () => onDeleteClick()
       }
     ),
-    columnType !== "embed" /* EMBED */ && columnType !== "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime77.jsxs)(import_jsx_runtime77.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Divider, {}),
-      /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime77.jsxs)(Flex, { justify: "space-between", align: "center", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(Text, { value: "Wrap content" }),
-        /* @__PURE__ */ (0, import_jsx_runtime77.jsx)(
+    columnType !== "embed" /* EMBED */ && columnType !== "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(import_jsx_runtime78.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)(Flex, { justify: "space-between", align: "center", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Text, { value: "Wrap content" }),
+        /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
           Switch,
           {
             value: shouldWrapOverflow,
@@ -55435,7 +55460,7 @@ function BaseMenu2({
 }
 
 // src/react/loom-app/header-cell-edit/number-format-submenu/index.tsx
-var import_jsx_runtime78 = __toESM(require_jsx_runtime());
+var import_jsx_runtime79 = __toESM(require_jsx_runtime());
 function NumberFormatSubmenu({
   title,
   format,
@@ -55443,8 +55468,8 @@ function NumberFormatSubmenu({
   onNumberFormatChange,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)("div", { className: "dataloom-number-format-submenu", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime79.jsxs)("div", { className: "dataloom-number-format-submenu", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
       MenuItem,
       {
         name: "Number",
@@ -55452,7 +55477,7 @@ function NumberFormatSubmenu({
         isSelected: format === "number" /* NUMBER */
       }
     ),
-    Object.values(CurrencyType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime78.jsx)(
+    Object.values(CurrencyType2).map((type) => /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(
       MenuItem,
       {
         name: getDisplayNameForCurrencyType(type),
@@ -55468,7 +55493,7 @@ function NumberFormatSubmenu({
 
 // src/react/loom-app/header-cell-edit/text-input-submenu.tsx
 var import_react34 = __toESM(require_react());
-var import_jsx_runtime79 = __toESM(require_jsx_runtime());
+var import_jsx_runtime80 = __toESM(require_jsx_runtime());
 function TextInputSubmenu({
   title,
   value,
@@ -55484,18 +55509,18 @@ function TextInputSubmenu({
       onClose();
     }
   }, [onValueChange, textValue, closeRequest, onClose]);
-  return /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime79.jsx)(input_default, { value: textValue, onChange: setTextValue }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Submenu, { title, onBackClick, children: /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(input_default, { value: textValue, onChange: setTextValue }) });
 }
 
 // src/react/loom-app/header-cell-edit/date-format-submenu.tsx
-var import_jsx_runtime80 = __toESM(require_jsx_runtime());
+var import_jsx_runtime81 = __toESM(require_jsx_runtime());
 function DateFormatSubmenu({
   title,
   value,
   onValueClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(Submenu, { title, onBackClick, children: Object.values(DateFormat2).map((format) => /* @__PURE__ */ (0, import_jsx_runtime80.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(Submenu, { title, onBackClick, children: Object.values(DateFormat2).map((format) => /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(
     MenuItem,
     {
       name: getDisplayNameForDateFormat(format),
@@ -55507,14 +55532,14 @@ function DateFormatSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/aspect-ratio-submenu.tsx
-var import_jsx_runtime81 = __toESM(require_jsx_runtime());
+var import_jsx_runtime82 = __toESM(require_jsx_runtime());
 function AspectRatioSubmenu({
   title,
   value,
   onValueClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(Submenu, { title, onBackClick, children: Object.values(AspectRatio2).map((ratio) => /* @__PURE__ */ (0, import_jsx_runtime81.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Submenu, { title, onBackClick, children: Object.values(AspectRatio2).map((ratio) => /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
     MenuItem,
     {
       name: ratio,
@@ -55526,14 +55551,14 @@ function AspectRatioSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/padding-submenu.tsx
-var import_jsx_runtime82 = __toESM(require_jsx_runtime());
+var import_jsx_runtime83 = __toESM(require_jsx_runtime());
 function PaddingSubmenu({
   title,
   value,
   onValueClick,
   onBackClick
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(Submenu, { title, onBackClick, children: Object.values(PaddingSize2).map((size) => /* @__PURE__ */ (0, import_jsx_runtime82.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(Submenu, { title, onBackClick, children: Object.values(PaddingSize2).map((size) => /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
     MenuItem,
     {
       name: size,
@@ -55545,7 +55570,7 @@ function PaddingSubmenu({
 }
 
 // src/react/loom-app/header-cell-edit/index.tsx
-var import_jsx_runtime83 = __toESM(require_jsx_runtime());
+var import_jsx_runtime84 = __toESM(require_jsx_runtime());
 var SELFHANDLE_CLOSE = [
   8 /* TEXT_INPUT_NUMBER_SUFFIX */,
   7 /* TEXT_INPUT_NUMBER_PREFIX */,
@@ -55657,7 +55682,7 @@ function HeaderMenu({
     onDateFormatChange(columnId, value);
     setSubmenu(1 /* OPTIONS */);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
     Menu,
     {
       isOpen,
@@ -55666,8 +55691,8 @@ function HeaderMenu({
       width: 175,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime83.jsxs)("div", { className: "dataloom-header-menu", children: [
-        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)("div", { className: "dataloom-header-menu", children: [
+        submenu === null && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           BaseMenu2,
           {
             canDeleteColumn,
@@ -55684,7 +55709,7 @@ function HeaderMenu({
             onHideClick: handleHideClick
           }
         ),
-        submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           OptionSubmenu,
           {
             title: "Options",
@@ -55702,7 +55727,7 @@ function HeaderMenu({
             onSubmenuChange: setSubmenu
           }
         ),
-        submenu === 6 /* ASPECT_RATIO */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 6 /* ASPECT_RATIO */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           AspectRatioSubmenu,
           {
             title: "Aspect ratio",
@@ -55711,7 +55736,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(null)
           }
         ),
-        submenu === 4 /* HORIZONTAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 4 /* HORIZONTAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           PaddingSubmenu,
           {
             title: "Horizontal padding",
@@ -55720,7 +55745,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(null)
           }
         ),
-        submenu === 5 /* VERTICAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 5 /* VERTICAL_PADDING */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           PaddingSubmenu,
           {
             title: "Vertical padding",
@@ -55729,7 +55754,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(null)
           }
         ),
-        submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 0 /* TYPE */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           TypeSubmenu,
           {
             title: "Type",
@@ -55738,7 +55763,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(null)
           }
         ),
-        submenu === 3 /* DATE_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 3 /* DATE_FORMAT */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           DateFormatSubmenu,
           {
             title: "Date Format",
@@ -55747,7 +55772,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(1 /* OPTIONS */)
           }
         ),
-        submenu === 2 /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 2 /* CURRENCY */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           NumberFormatSubmenu,
           {
             title: "Currency",
@@ -55757,7 +55782,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(1 /* OPTIONS */)
           }
         ),
-        submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 7 /* TEXT_INPUT_NUMBER_PREFIX */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           TextInputSubmenu,
           {
             title: "Prefix",
@@ -55768,7 +55793,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(1 /* OPTIONS */)
           }
         ),
-        submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 8 /* TEXT_INPUT_NUMBER_SUFFIX */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           TextInputSubmenu,
           {
             title: "Suffix",
@@ -55779,7 +55804,7 @@ function HeaderMenu({
             onBackClick: () => setSubmenu(1 /* OPTIONS */)
           }
         ),
-        submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime83.jsx)(
+        submenu === 9 /* TEXT_INPUT_NUMBER_SEPARATOR */ && /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
           TextInputSubmenu,
           {
             title: "Separator",
@@ -55796,7 +55821,7 @@ function HeaderMenu({
 }
 
 // src/react/loom-app/header-cell-container/index.tsx
-var import_jsx_runtime84 = __toESM(require_jsx_runtime());
+var import_jsx_runtime85 = __toESM(require_jsx_runtime());
 function HeaderCellContainer({
   columnId,
   currencyType,
@@ -55859,8 +55884,8 @@ function HeaderCellContainer({
   let contentClassName = "dataloom-cell--header__inner-container";
   if (resizingColumnId == null)
     contentClassName += " dataloom-selectable";
-  return /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)(import_jsx_runtime84.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(import_jsx_runtime85.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
       menu_trigger_default,
       {
         ref: triggerRef,
@@ -55868,7 +55893,7 @@ function HeaderCellContainer({
         isCell: true,
         shouldOpenOnTrigger: resizingColumnId === null,
         onOpen,
-        children: /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(
           "div",
           {
             className: "dataloom-cell--header__container",
@@ -55876,11 +55901,11 @@ function HeaderCellContainer({
               width
             },
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("div", { className: contentClassName, children: /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)(Stack, { isHorizontal: true, spacing: "md", align: "center", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(Icon, { lucideId, size: "md" }),
+              /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("div", { className: contentClassName, children: /* @__PURE__ */ (0, import_jsx_runtime85.jsxs)(Stack, { isHorizontal: true, spacing: "md", align: "center", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(Icon, { lucideId, size: "md" }),
                 content
               ] }) }),
-              /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
+              /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
                 ColumnResize,
                 {
                   currentResizingId: resizingColumnId,
@@ -55895,7 +55920,7 @@ function HeaderCellContainer({
         )
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime84.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
       HeaderMenu,
       {
         isOpen,
@@ -55944,13 +55969,13 @@ var import_react47 = __toESM(require_react());
 var import_obsidian17 = require("obsidian");
 
 // src/react/loom-app/text-cell/index.tsx
-var import_jsx_runtime85 = __toESM(require_jsx_runtime());
+var import_jsx_runtime86 = __toESM(require_jsx_runtime());
 function TextCell({ value, shouldWrapOverflow }) {
   const { containerRef, renderRef } = useRenderMarkdown(value);
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-text-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
     "div",
     {
       className: "dataloom-text-cell__container",
@@ -55963,7 +55988,7 @@ function TextCell({ value, shouldWrapOverflow }) {
 }
 
 // src/react/shared/tag/index.tsx
-var import_jsx_runtime86 = __toESM(require_jsx_runtime());
+var import_jsx_runtime87 = __toESM(require_jsx_runtime());
 function Tag6({
   id: id2,
   color,
@@ -55984,8 +56009,8 @@ function Tag6({
   if (maxWidth !== void 0) {
     contentClassName += " dataloom-overflow--ellipsis";
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("div", { className: tagClassName, children: /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)(Stack, { spacing: "sm", justify: "center", isHorizontal: true, children: [
-    /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", { className: tagClassName, children: /* @__PURE__ */ (0, import_jsx_runtime87.jsxs)(Stack, { spacing: "sm", justify: "center", isHorizontal: true, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(
       "div",
       {
         className: contentClassName,
@@ -55995,11 +56020,11 @@ function Tag6({
         children: content
       }
     ),
-    showRemoveButton && /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Padding, { width: "max-content", children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(
+    showRemoveButton && /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(Padding, { width: "max-content", children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(
       Button,
       {
         isSmall: true,
-        icon: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(Icon, { lucideId: "x" }),
+        icon: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(Icon, { lucideId: "x" }),
         onClick: () => {
           if (id2 && onRemoveClick)
             onRemoveClick(id2);
@@ -56010,19 +56035,19 @@ function Tag6({
 }
 
 // src/react/loom-app/tag-cell/index.tsx
-var import_jsx_runtime87 = __toESM(require_jsx_runtime());
+var import_jsx_runtime88 = __toESM(require_jsx_runtime());
 function TagCell({ content, color, shouldWrapOverflow }) {
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-tag-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)(Tag6, { content, color }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(Tag6, { content, color }) });
 }
 
 // src/react/loom-app/checkbox-cell/index.tsx
-var import_jsx_runtime88 = __toESM(require_jsx_runtime());
+var import_jsx_runtime89 = __toESM(require_jsx_runtime());
 function CheckboxCell({ value }) {
   const isChecked = isCheckboxChecked(value);
-  return /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("div", { className: "dataloom-checkbox-cell", children: /* @__PURE__ */ (0, import_jsx_runtime88.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("div", { className: "dataloom-checkbox-cell", children: /* @__PURE__ */ (0, import_jsx_runtime89.jsx)(
     "input",
     {
       className: "task-list-item-checkbox",
@@ -56035,7 +56060,7 @@ function CheckboxCell({ value }) {
 }
 
 // src/react/loom-app/date-cell/index.tsx
-var import_jsx_runtime89 = __toESM(require_jsx_runtime());
+var import_jsx_runtime90 = __toESM(require_jsx_runtime());
 function DateCell({ value, format }) {
   const overflowClassName = useOverflow(false, {
     ellipsis: true
@@ -56043,11 +56068,11 @@ function DateCell({ value, format }) {
   let className = "dataloom-date-cell";
   className += " " + overflowClassName;
   const content = getDateCellContent(value, format);
-  return /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("div", { className, children: content });
+  return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", { className, children: content });
 }
 
 // src/react/loom-app/number-cell/index.tsx
-var import_jsx_runtime90 = __toESM(require_jsx_runtime());
+var import_jsx_runtime91 = __toESM(require_jsx_runtime());
 function NumberCell({
   value,
   currency,
@@ -56067,12 +56092,12 @@ function NumberCell({
   }
   let className = "dataloom-number-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("div", { className, children: value });
+  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("div", { className, children: value });
 }
 
 // src/react/loom-app/number-cell-edit/index.tsx
 var import_react37 = __toESM(require_react());
-var import_jsx_runtime91 = __toESM(require_jsx_runtime());
+var import_jsx_runtime92 = __toESM(require_jsx_runtime());
 function NumberCellEdit({
   closeRequest,
   value,
@@ -56095,7 +56120,7 @@ function NumberCellEdit({
       return;
     setLocalValue(inputValue);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("div", { className: "dataloom-number-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime91.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("div", { className: "dataloom-number-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(
     input_default,
     {
       ref: inputRef,
@@ -56148,7 +56173,7 @@ var EventSystem = class {
 var nltEventSystem = new EventSystem();
 
 // src/react/shared/suggest-list/suggest-item/index.tsx
-var import_jsx_runtime92 = __toESM(require_jsx_runtime());
+var import_jsx_runtime93 = __toESM(require_jsx_runtime());
 var SuggestItem = import_react38.default.forwardRef(
   function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
     const handleClick = import_react38.default.useCallback(
@@ -56181,7 +56206,7 @@ var SuggestItem = import_react38.default.forwardRef(
         path = file.parent.path + "/";
       }
     }
-    return /* @__PURE__ */ (0, import_jsx_runtime92.jsxs)(
+    return /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)(
       "div",
       {
         tabIndex: 0,
@@ -56193,7 +56218,7 @@ var SuggestItem = import_react38.default.forwardRef(
         },
         onClick: handleClick,
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
             Text,
             {
               variant: "semibold",
@@ -56202,7 +56227,7 @@ var SuggestItem = import_react38.default.forwardRef(
               maxWidth: "275px"
             }
           ),
-          path && /* @__PURE__ */ (0, import_jsx_runtime92.jsx)(Text, { value: path, size: "xs" })
+          path && /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(Text, { value: path, size: "xs" })
         ]
       }
     );
@@ -56211,9 +56236,9 @@ var SuggestItem = import_react38.default.forwardRef(
 var suggest_item_default = SuggestItem;
 
 // src/react/shared/suggest-list/suggest-input/index.tsx
-var import_jsx_runtime93 = __toESM(require_jsx_runtime());
+var import_jsx_runtime94 = __toESM(require_jsx_runtime());
 function SuggestInput({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("div", { className: "dataloom-suggest-input", children: /* @__PURE__ */ (0, import_jsx_runtime93.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("div", { className: "dataloom-suggest-input", children: /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(
     input_default,
     {
       isTransparent: true,
@@ -56226,31 +56251,31 @@ function SuggestInput({ value, onChange }) {
 }
 
 // src/react/shared/suggest-list/clear-button.tsx
-var import_jsx_runtime94 = __toESM(require_jsx_runtime());
+var import_jsx_runtime95 = __toESM(require_jsx_runtime());
 function ClearButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime94.jsxs)(import_jsx_runtime94.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(Divider, {}),
-    /* @__PURE__ */ (0, import_jsx_runtime94.jsx)(MenuItem, { name: "Clear", onClick })
+  return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(import_jsx_runtime95.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Divider, {}),
+    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(MenuItem, { name: "Clear", onClick })
   ] });
 }
 
 // src/react/shared/suggest-list/create-button.tsx
-var import_jsx_runtime95 = __toESM(require_jsx_runtime());
+var import_jsx_runtime96 = __toESM(require_jsx_runtime());
 function CreateButton({ value, onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)(import_jsx_runtime95.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(import_jsx_runtime96.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
       MenuItem,
       {
         name: `Create ${value}`,
         onClick: () => onClick == null ? void 0 : onClick(value)
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)(Divider, {})
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Divider, {})
   ] });
 }
 
 // src/react/shared/suggest-list/index.tsx
-var import_jsx_runtime96 = __toESM(require_jsx_runtime());
+var import_jsx_runtime97 = __toESM(require_jsx_runtime());
 function SuggestList({
   hiddenExtensions = [],
   showInput,
@@ -56311,26 +56336,26 @@ function SuggestList({
     return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
   }, [filteredFiles.length, logger, highlightIndex]);
   const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
-  return /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)("div", { className: "dataloom-suggest-menu", children: [
-    showInput && files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)(import_jsx_runtime96.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)("div", { className: "dataloom-suggest-menu", children: [
+    showInput && files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)(import_jsx_runtime97.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
         SuggestInput,
         {
           value: localFilterValue,
           onChange: setLocalFilterValue
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Divider, {})
+      /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Divider, {})
     ] }),
-    showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
+    showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
       CreateButton,
       {
         value: localFilterValue,
         onClick: onCreateClick
       }
     ),
-    files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)("div", { className: "dataloom-suggest-menu__container", children: [
-      filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
+    files.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)("div", { className: "dataloom-suggest-menu__container", children: [
+      filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
         suggest_item_default,
         {
           index: 0,
@@ -56340,7 +56365,7 @@ function SuggestList({
           onItemClick
         }
       ),
-      filteredFiles.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(import_jsx_runtime96.Fragment, { children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(
+      filteredFiles.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(import_jsx_runtime97.Fragment, { children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
         suggest_item_default,
         {
           index,
@@ -56352,13 +56377,13 @@ function SuggestList({
         file.path
       )) })
     ] }),
-    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(Text, { value: "No image files found" }) }),
-    showClear && /* @__PURE__ */ (0, import_jsx_runtime96.jsx)(ClearButton, { onClick: onClearClick })
+    files.length === 0 && /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Padding, { px: "md", pb: "md", children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(Text, { value: "No image files found" }) }),
+    showClear && /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(ClearButton, { onClick: onClearClick })
   ] });
 }
 
 // src/react/loom-app/text-cell-edit/suggest-menu.tsx
-var import_jsx_runtime97 = __toESM(require_jsx_runtime());
+var import_jsx_runtime98 = __toESM(require_jsx_runtime());
 function SuggestMenu({
   id: id2,
   isOpen,
@@ -56368,7 +56393,7 @@ function SuggestMenu({
   onRequestClose,
   onClose
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
     Menu,
     {
       id: id2,
@@ -56377,10 +56402,13 @@ function SuggestMenu({
       width: 275,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime97.jsx)(SuggestList, { filterValue, onItemClick })
+      children: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(SuggestList, { filterValue, onItemClick })
     }
   );
 }
+
+// src/react/loom-app/text-cell-edit/utils.ts
+var import_lodash9 = __toESM(require_lodash());
 
 // src/react/loom-app/text-cell-edit/constants.ts
 var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
@@ -56388,7 +56416,7 @@ var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
 // src/react/loom-app/text-cell-edit/utils.ts
 var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
   let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  const regex = (0, import_lodash9.cloneDeep)(DOUBLE_BRACKET_REGEX);
   while ((match = regex.exec(inputValue)) !== null) {
     const innerText2 = match[1];
     const startIndex = match.index + 2;
@@ -56403,7 +56431,7 @@ var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
 };
 var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
   let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  const regex = (0, import_lodash9.cloneDeep)(DOUBLE_BRACKET_REGEX);
   while ((match = regex.exec(inputValue)) !== null) {
     const innerText2 = match[1];
     const startIndex = match.index + 2;
@@ -56420,7 +56448,7 @@ var doubleBracketsInnerReplace = (inputValue, selectionStart, replacement) => {
 };
 var getFilterValue = (inputValue, selectionStart) => {
   let match;
-  const regex = structuredClone(DOUBLE_BRACKET_REGEX);
+  const regex = (0, import_lodash9.cloneDeep)(DOUBLE_BRACKET_REGEX);
   while ((match = regex.exec(inputValue)) !== null) {
     const innerText2 = match[1];
     const startIndex = match.index + 2;
@@ -56485,7 +56513,7 @@ var getWikiLinkText = (path) => {
 };
 
 // src/react/loom-app/text-cell-edit/index.tsx
-var import_jsx_runtime98 = __toESM(require_jsx_runtime());
+var import_jsx_runtime99 = __toESM(require_jsx_runtime());
 function TextCellEdit({
   shouldWrapOverflow,
   closeRequest,
@@ -56610,13 +56638,13 @@ function TextCellEdit({
   }
   const overflowClassName = useOverflow(shouldWrapOverflow);
   const filterValue = (_c = getFilterValue(localValue, (_b = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b : 0)) != null ? _c : "";
-  return /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)(import_jsx_runtime98.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)(import_jsx_runtime99.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
       "div",
       {
         className: "dataloom-text-cell-edit",
         ref: suggestMenuTriggerRef,
-        children: /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
           "textarea",
           {
             className: overflowClassName,
@@ -56632,7 +56660,7 @@ function TextCellEdit({
         )
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime98.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
       SuggestMenu,
       {
         id: suggestMenu.id,
@@ -56652,7 +56680,7 @@ var import_react43 = __toESM(require_react());
 
 // src/react/loom-app/tag-cell-edit/menu-header/index.tsx
 var import_react41 = __toESM(require_react());
-var import_jsx_runtime99 = __toESM(require_jsx_runtime());
+var import_jsx_runtime100 = __toESM(require_jsx_runtime());
 function MenuHeader({
   cellTags,
   inputValue,
@@ -56665,8 +56693,8 @@ function MenuHeader({
       return;
     onInputValueChange(value);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-header", children: [
-    cellTags.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(Padding, { px: "md", pt: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(Wrap, { spacingX: "sm", children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-header", children: [
+    cellTags.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(Padding, { px: "md", pt: "md", pb: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(Wrap, { spacingX: "sm", children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
       Tag6,
       {
         id: tag.id,
@@ -56678,7 +56706,7 @@ function MenuHeader({
       },
       tag.id
     )) }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
       input_default,
       {
         ref: inputRef,
@@ -56693,17 +56721,17 @@ function MenuHeader({
 }
 
 // src/react/loom-app/tag-cell-edit/create-tag/index.tsx
-var import_jsx_runtime100 = __toESM(require_jsx_runtime());
+var import_jsx_runtime101 = __toESM(require_jsx_runtime());
 function CreateTag({ content, color, onTagAdd }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("div", { className: "dataloom-create-tag", children: /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("div", { className: "dataloom-create-tag", children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
     Button,
     {
       variant: "text",
       isFullWidth: true,
       onClick: () => onTagAdd(content, color),
-      children: /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(Padding, { px: "md", children: /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-        /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("div", { children: "Create" }),
-        /* @__PURE__ */ (0, import_jsx_runtime100.jsx)(Tag6, { content, color, maxWidth: "120px" })
+      children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(Padding, { px: "md", children: /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+        /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("div", { children: "Create" }),
+        /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(Tag6, { content, color, maxWidth: "120px" })
       ] }) })
     }
   ) });
@@ -56715,7 +56743,7 @@ var uppercaseFirst = (input) => {
 };
 
 // src/react/loom-app/tag-color-menu/components/color-item/index.tsx
-var import_jsx_runtime101 = __toESM(require_jsx_runtime());
+var import_jsx_runtime102 = __toESM(require_jsx_runtime());
 function ColorItem({
   isDarkMode,
   color,
@@ -56734,7 +56762,7 @@ function ColorItem({
   const colorClass = findColorClassName(isDarkMode, color);
   let squareClass = "dataloom-color-item__square";
   squareClass += " " + colorClass;
-  return /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(
     "div",
     {
       tabIndex: 0,
@@ -56743,9 +56771,9 @@ function ColorItem({
       onClick: () => {
         onColorClick(color);
       },
-      children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime101.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("div", { className: squareClass }),
-        /* @__PURE__ */ (0, import_jsx_runtime101.jsx)(Text, { value: uppercaseFirst(color), size: "sm" })
+      children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)(Stack, { isHorizontal: true, spacing: "lg", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", { className: squareClass }),
+        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Text, { value: uppercaseFirst(color), size: "sm" })
       ] }) })
     }
   );
@@ -56753,7 +56781,7 @@ function ColorItem({
 
 // src/react/loom-app/tag-color-menu/index.tsx
 var import_react42 = __toESM(require_react());
-var import_jsx_runtime102 = __toESM(require_jsx_runtime());
+var import_jsx_runtime103 = __toESM(require_jsx_runtime());
 function TagColorMenu({
   id: id2,
   isOpen,
@@ -56779,7 +56807,7 @@ function TagColorMenu({
     },
     [closeRequest, content, localValue, onTagContentChange, onClose]
   );
-  return /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
     Menu,
     {
       id: id2,
@@ -56787,9 +56815,9 @@ function TagColorMenu({
       triggerPosition,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", { className: "dataloom-tag-color-menu", children: /* @__PURE__ */ (0, import_jsx_runtime102.jsxs)(Stack, { spacing: "sm", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Padding, { px: "md", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(input_default, { value: localValue, onChange: setLocalValue }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("div", { className: "dataloom-tag-color-menu", children: /* @__PURE__ */ (0, import_jsx_runtime103.jsxs)(Stack, { spacing: "sm", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Padding, { px: "md", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(input_default, { value: localValue, onChange: setLocalValue }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
           MenuItem,
           {
             lucideId: "trash-2",
@@ -56797,9 +56825,9 @@ function TagColorMenu({
             onClick: onDeleteClick
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Divider, {}),
-        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(Text, { value: "Colors" }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime102.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Divider, {}),
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Padding, { px: "lg", py: "sm", children: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Text, { value: "Colors" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("div", { className: "dataloom-tag-color-menu__color-container", children: Object.values(Color).map((color) => /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
           ColorItem,
           {
             isDarkMode,
@@ -56815,7 +56843,7 @@ function TagColorMenu({
 }
 
 // src/react/loom-app/tag-cell-edit/selectable-tag/index.tsx
-var import_jsx_runtime103 = __toESM(require_jsx_runtime());
+var import_jsx_runtime104 = __toESM(require_jsx_runtime());
 function SelectableTag({
   id: id2,
   content,
@@ -56860,8 +56888,8 @@ function SelectableTag({
     e.stopPropagation();
     onClick(id2);
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime103.jsxs)(import_jsx_runtime103.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime103.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime104.jsxs)(import_jsx_runtime104.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsxs)(
       "div",
       {
         tabIndex: 0,
@@ -56869,20 +56897,20 @@ function SelectableTag({
         onClick: handleClick,
         onKeyDown: handleKeyDown,
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Tag6, { content, color, maxWidth: "150px" }),
-          /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(Tag6, { content, color, maxWidth: "150px" }),
+          /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(
             menu_button_default,
             {
               ref: triggerRef,
               menu,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(Icon, { lucideId: "more-horizontal" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(Icon, { lucideId: "more-horizontal" }),
               onOpen
             }
           )
         ]
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime103.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(
       TagColorMenu,
       {
         isOpen,
@@ -56902,7 +56930,7 @@ function SelectableTag({
 }
 
 // src/react/loom-app/tag-cell-edit/menu-body/index.tsx
-var import_jsx_runtime104 = __toESM(require_jsx_runtime());
+var import_jsx_runtime105 = __toESM(require_jsx_runtime());
 function MenuBody({
   columnTags,
   inputValue,
@@ -56917,10 +56945,10 @@ function MenuBody({
   const filteredTags = columnTags.filter(
     (tag) => tag.content.toLowerCase().includes(inputValue.toLowerCase())
   );
-  return /* @__PURE__ */ (0, import_jsx_runtime104.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(Text, { value: "Select a tag or create one" }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime104.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body-container", children: [
-      !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(Padding, { px: "lg", py: "md", children: /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(Text, { value: "Select a tag or create one" }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)("div", { className: "dataloom-tag-cell-edit__menu-body-container", children: [
+      !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
         CreateTag,
         {
           content: inputValue,
@@ -56928,7 +56956,7 @@ function MenuBody({
           onTagAdd
         }
       ),
-      filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime104.jsx)(
+      filteredTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
         SelectableTag,
         {
           id: tag.id,
@@ -56946,7 +56974,7 @@ function MenuBody({
 }
 
 // src/react/loom-app/tag-cell-edit/index.tsx
-var import_jsx_runtime105 = __toESM(require_jsx_runtime());
+var import_jsx_runtime106 = __toESM(require_jsx_runtime());
 function TagCellEdit({
   isMulti,
   columnTags,
@@ -57000,8 +57028,8 @@ function TagCellEdit({
     if (!isMulti)
       onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime105.jsxs)("div", { className: "dataloom-tag-cell-edit", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime106.jsxs)("div", { className: "dataloom-tag-cell-edit", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
       MenuHeader,
       {
         inputValue,
@@ -57010,7 +57038,7 @@ function TagCellEdit({
         onRemoveTag
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime105.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
       MenuBody,
       {
         inputValue,
@@ -57030,7 +57058,7 @@ function TagCellEdit({
 var import_react44 = __toESM(require_react());
 
 // src/react/loom-app/date-cell-edit/date-format-menu.tsx
-var import_jsx_runtime106 = __toESM(require_jsx_runtime());
+var import_jsx_runtime107 = __toESM(require_jsx_runtime());
 function DateFormatMenu({
   id: id2,
   triggerPosition,
@@ -57040,7 +57068,7 @@ function DateFormatMenu({
   onRequestClose,
   onClose
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
     Menu,
     {
       isOpen,
@@ -57049,11 +57077,11 @@ function DateFormatMenu({
       width: 175,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime106.jsx)("div", { className: "dataloom-date-format-menu", children: Object.values([
+      children: /* @__PURE__ */ (0, import_jsx_runtime107.jsx)("div", { className: "dataloom-date-format-menu", children: Object.values([
         "dd/mm/yyyy" /* DD_MM_YYYY */,
         "mm/dd/yyyy" /* MM_DD_YYYY */,
         "yyyy/mm/dd" /* YYYY_MM_DD */
-      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime106.jsx)(
+      ]).map((format) => /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
         MenuItem,
         {
           name: getDisplayNameForDateFormat(format),
@@ -57069,7 +57097,7 @@ function DateFormatMenu({
 }
 
 // src/react/loom-app/date-cell-edit/index.tsx
-var import_jsx_runtime107 = __toESM(require_jsx_runtime());
+var import_jsx_runtime108 = __toESM(require_jsx_runtime());
 function DateCellEdit({
   value,
   closeRequest,
@@ -57139,9 +57167,9 @@ function DateCellEdit({
     onDateTimeChange(null);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(import_jsx_runtime107.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime107.jsx)("div", { className: "dataloom-date-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime107.jsxs)(Stack, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)(import_jsx_runtime108.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("div", { className: "dataloom-date-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)(Stack, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Padding, { p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
         input_default,
         {
           ref: inputRef,
@@ -57151,13 +57179,13 @@ function DateCellEdit({
           onChange: setLocalValue
         }
       ) }),
-      /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
+      /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
         menu_trigger_default,
         {
           ref: dateFormatMenuTriggerRef,
           menu: dateFormatMenu,
           onOpen: onDateFormatMenuOpen,
-          children: /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
+          children: /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
             MenuItem,
             {
               isFocusable: false,
@@ -57167,9 +57195,9 @@ function DateCellEdit({
           )
         }
       ),
-      /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
+      /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(MenuItem, { name: "Clear", onClick: handleClearClick })
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime107.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(
       DateFormatMenu,
       {
         id: dateFormatMenu.id,
@@ -57185,12 +57213,12 @@ function DateCellEdit({
 }
 
 // src/react/loom-app/multi-tag-cell/index.tsx
-var import_jsx_runtime108 = __toESM(require_jsx_runtime());
+var import_jsx_runtime109 = __toESM(require_jsx_runtime());
 function MultiTagCell({ cellTags, shouldWrapOverflow }) {
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-multi-tag-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Wrap, { children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime108.jsx)(Tag6, { content: tag.content, color: tag.color }, tag.id)) }) });
+  return /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Wrap, { children: cellTags.map((tag) => /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(Tag6, { content: tag.content, color: tag.color }, tag.id)) }) });
 }
 
 // src/shared/cell-content/file-cell-content.ts
@@ -57215,14 +57243,14 @@ var getFileCellContent = (markdown) => {
 };
 
 // src/react/loom-app/file-cell/index.tsx
-var import_jsx_runtime109 = __toESM(require_jsx_runtime());
+var import_jsx_runtime110 = __toESM(require_jsx_runtime());
 function FileCell({ value, shouldWrapOverflow }) {
   const content = getFileCellContent(value);
   const { containerRef, renderRef } = useRenderMarkdown(content);
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-file-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime109.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime110.jsx)("div", { className, children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(
     "div",
     {
       ref: (node) => {
@@ -57234,7 +57262,7 @@ function FileCell({ value, shouldWrapOverflow }) {
 }
 
 // src/react/loom-app/file-cell-edit/index.tsx
-var import_jsx_runtime110 = __toESM(require_jsx_runtime());
+var import_jsx_runtime111 = __toESM(require_jsx_runtime());
 function FileCellEdit({ onChange, onClose }) {
   function handleSuggestItemClick(file) {
     if (file) {
@@ -57258,7 +57286,7 @@ function FileCellEdit({ onChange, onClose }) {
     onChange(link);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime110.jsx)("div", { className: "dataloom-file-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime111.jsx)("div", { className: "dataloom-file-cell-edit", children: /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
     SuggestList,
     {
       showInput: true,
@@ -57272,7 +57300,7 @@ function FileCellEdit({ onChange, onClose }) {
 }
 
 // src/react/loom-app/embed-cell/embed/index.tsx
-var import_jsx_runtime111 = __toESM(require_jsx_runtime());
+var import_jsx_runtime112 = __toESM(require_jsx_runtime());
 function Embed({
   isExternalLink,
   content,
@@ -57286,7 +57314,7 @@ function Embed({
   });
   const paddingX = getSpacing(horizontalPadding);
   const paddingY = getSpacing(verticalPadding);
-  return /* @__PURE__ */ (0, import_jsx_runtime111.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(
     "div",
     {
       style: {
@@ -57305,7 +57333,7 @@ function Embed({
 }
 
 // src/react/loom-app/embed-cell/index.tsx
-var import_jsx_runtime112 = __toESM(require_jsx_runtime());
+var import_jsx_runtime113 = __toESM(require_jsx_runtime());
 function EmbedCell({
   isExternalLink,
   value,
@@ -57317,7 +57345,7 @@ function EmbedCell({
   const content = getEmbedCellContent(app, value, {
     isExternalLink
   });
-  return /* @__PURE__ */ (0, import_jsx_runtime112.jsx)("div", { className: "dataloom-embed-cell", children: /* @__PURE__ */ (0, import_jsx_runtime112.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)("div", { className: "dataloom-embed-cell", children: /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
     Embed,
     {
       isExternalLink,
@@ -57334,11 +57362,11 @@ var import_react46 = __toESM(require_react());
 
 // src/react/loom-app/embed-cell-edit/external-embed-input.tsx
 var import_react45 = __toESM(require_react());
-var import_jsx_runtime113 = __toESM(require_jsx_runtime());
+var import_jsx_runtime114 = __toESM(require_jsx_runtime());
 function ExternalEmbedInput({ value, onChange }) {
   const ref = import_react45.default.useRef(null);
   usePlaceCursorAtEnd(ref, value);
-  return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
     input_default,
     {
       ref,
@@ -57351,9 +57379,9 @@ function ExternalEmbedInput({ value, onChange }) {
 }
 
 // src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
-var import_jsx_runtime114 = __toESM(require_jsx_runtime());
+var import_jsx_runtime115 = __toESM(require_jsx_runtime());
 function InternalEmbedSuggest({ onChange }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime114.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
     SuggestList,
     {
       showInput: true,
@@ -57367,7 +57395,7 @@ function InternalEmbedSuggest({ onChange }) {
 }
 
 // src/react/loom-app/embed-cell-edit/index.tsx
-var import_jsx_runtime115 = __toESM(require_jsx_runtime());
+var import_jsx_runtime116 = __toESM(require_jsx_runtime());
 function EmbedCellEdit({
   closeRequest,
   isExternalLink,
@@ -57392,10 +57420,10 @@ function EmbedCellEdit({
     onChange(value2);
     onClose();
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime115.jsxs)("div", { className: "dataloom-embed-cell-edit", children: [
-    /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime115.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
-      /* @__PURE__ */ (0, import_jsx_runtime115.jsx)("label", { htmlFor: "external-switch", children: "External Link" }),
-      /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)("div", { className: "dataloom-embed-cell-edit", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime116.jsxs)(Stack, { spacing: "sm", width: "100%", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("label", { htmlFor: "external-switch", children: "External Link" }),
+      /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
         Switch,
         {
           id: "external-switch",
@@ -57404,20 +57432,20 @@ function EmbedCellEdit({
         }
       )
     ] }) }),
-    /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(Divider, {}),
-    isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Divider, {}),
+    isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(Padding, { width: "100%", p: "md", children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(
       ExternalEmbedInput,
       {
         value: externalLink,
         onChange: setExternalLink
       }
     ) }),
-    !isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime115.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
+    !isExternalLink && /* @__PURE__ */ (0, import_jsx_runtime116.jsx)(InternalEmbedSuggest, { onChange: handleSuggestChange })
   ] });
 }
 
 // src/react/loom-app/last-edited-time-cell/index.tsx
-var import_jsx_runtime116 = __toESM(require_jsx_runtime());
+var import_jsx_runtime117 = __toESM(require_jsx_runtime());
 function LastEditedTimeCell({
   value,
   format,
@@ -57426,11 +57454,11 @@ function LastEditedTimeCell({
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-last-edited-time-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
+  return /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
 }
 
 // src/react/loom-app/creation-time-cell/index.tsx
-var import_jsx_runtime117 = __toESM(require_jsx_runtime());
+var import_jsx_runtime118 = __toESM(require_jsx_runtime());
 function CreationTimeCell({
   value,
   format,
@@ -57439,11 +57467,11 @@ function CreationTimeCell({
   const overflowClassName = useOverflow(shouldWrapOverflow);
   let className = "dataloom-creation-time-cell";
   className += " " + overflowClassName;
-  return /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
+  return /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("div", { className, children: unixTimeToDateTimeString(value, format) });
 }
 
 // src/react/loom-app/body-cell-container/index.tsx
-var import_jsx_runtime118 = __toESM(require_jsx_runtime());
+var import_jsx_runtime119 = __toESM(require_jsx_runtime());
 function BodyCellContainer({
   cellId,
   columnId,
@@ -57593,8 +57621,8 @@ function BodyCellContainer({
     className += " dataloom-default-cursor";
   }
   const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
-  return /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)(import_jsx_runtime118.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(import_jsx_runtime119.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
       menu_trigger_default,
       {
         ref: triggerRef,
@@ -57605,7 +57633,7 @@ function BodyCellContainer({
         onBackspaceDown: handleMenuTriggerBackspaceDown,
         shouldOpenOnTrigger: columnType !== "checkbox" /* CHECKBOX */ && columnType !== "creation-time" /* CREATION_TIME */ && columnType !== "last-edited-time" /* LAST_EDITED_TIME */,
         onOpen,
-        children: /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)(
+        children: /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(
           "div",
           {
             onContextMenu: handleCellContextClick,
@@ -57614,14 +57642,14 @@ function BodyCellContainer({
               width
             },
             children: [
-              columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 TextCell,
                 {
                   value: content,
                   shouldWrapOverflow
                 }
               ),
-              columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 EmbedCell,
                 {
                   isExternalLink,
@@ -57631,14 +57659,14 @@ function BodyCellContainer({
                   aspectRatio
                 }
               ),
-              columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 FileCell,
                 {
                   value: content,
                   shouldWrapOverflow
                 }
               ),
-              columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 NumberCell,
                 {
                   value: content,
@@ -57649,7 +57677,7 @@ function BodyCellContainer({
                   separator: numberSeparator
                 }
               ),
-              columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "tag" /* TAG */ && cellTags.length === 1 && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 TagCell,
                 {
                   content: cellTags[0].content,
@@ -57657,16 +57685,16 @@ function BodyCellContainer({
                   shouldWrapOverflow
                 }
               ),
-              columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "multi-tag" /* MULTI_TAG */ && cellTags.length !== 0 && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 MultiTagCell,
                 {
                   cellTags,
                   shouldWrapOverflow
                 }
               ),
-              columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(DateCell, { value: dateTime, format: dateFormat }),
-              columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(CheckboxCell, { value: content }),
-              columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(DateCell, { value: dateTime, format: dateFormat }),
+              columnType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(CheckboxCell, { value: content }),
+              columnType === "creation-time" /* CREATION_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 CreationTimeCell,
                 {
                   value: rowCreationTime,
@@ -57674,7 +57702,7 @@ function BodyCellContainer({
                   shouldWrapOverflow
                 }
               ),
-              columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+              columnType === "last-edited-time" /* LAST_EDITED_TIME */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
                 LastEditedTimeCell,
                 {
                   value: rowLastEditedTime,
@@ -57687,7 +57715,7 @@ function BodyCellContainer({
         )
       }
     ),
-    /* @__PURE__ */ (0, import_jsx_runtime118.jsxs)(
+    /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)(
       Menu,
       {
         id: menu.id,
@@ -57699,7 +57727,7 @@ function BodyCellContainer({
         onRequestClose,
         onClose,
         children: [
-          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             TextCellEdit,
             {
               closeRequest,
@@ -57709,7 +57737,7 @@ function BodyCellContainer({
               onClose
             }
           ),
-          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             EmbedCellEdit,
             {
               isExternalLink,
@@ -57720,14 +57748,14 @@ function BodyCellContainer({
               onExternalLinkToggle: handleExternalLinkToggle
             }
           ),
-          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             FileCellEdit,
             {
               onChange: handleInputChange,
               onClose
             }
           ),
-          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             NumberCellEdit,
             {
               closeRequest,
@@ -57736,7 +57764,7 @@ function BodyCellContainer({
               onClose
             }
           ),
-          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             TagCellEdit,
             {
               isMulti: columnType === "multi-tag" /* MULTI_TAG */,
@@ -57752,7 +57780,7 @@ function BodyCellContainer({
               onClose
             }
           ),
-          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime118.jsx)(
+          columnType === "date" /* DATE */ && /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
             DateCellEdit,
             {
               value: dateTime,
@@ -57770,12 +57798,12 @@ function BodyCellContainer({
 }
 
 // src/react/loom-app/new-column-button/index.tsx
-var import_jsx_runtime119 = __toESM(require_jsx_runtime());
+var import_jsx_runtime120 = __toESM(require_jsx_runtime());
 function NewColumnButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime119.jsx)("div", { className: "dataloom-new-column", children: /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)("div", { className: "dataloom-new-column", children: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
     Button,
     {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime119.jsx)(Icon, { lucideId: "plus" }),
+      icon: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Icon, { lucideId: "plus" }),
       ariaLabel: "New column",
       onClick: () => onClick()
     }
@@ -57786,12 +57814,12 @@ function NewColumnButton({ onClick }) {
 var import_react48 = __toESM(require_react());
 
 // src/react/loom-app/new-row-button/index.tsx
-var import_jsx_runtime120 = __toESM(require_jsx_runtime());
+var import_jsx_runtime121 = __toESM(require_jsx_runtime());
 function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
     Button,
     {
-      icon: /* @__PURE__ */ (0, import_jsx_runtime120.jsx)(Icon, { lucideId: "plus" }),
+      icon: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "plus" }),
       ariaLabel: "New row",
       onClick: () => onClick(),
       children: "New"
@@ -57800,7 +57828,7 @@ function NewRowButton({ onClick }) {
 }
 
 // src/react/loom-app/bottom-bar/index.tsx
-var import_jsx_runtime121 = __toESM(require_jsx_runtime());
+var import_jsx_runtime122 = __toESM(require_jsx_runtime());
 function BottomBar({
   onRowAddClick,
   onScrollToTopClick,
@@ -57837,47 +57865,47 @@ function BottomBar({
     };
   }, [ref]);
   const isMobile = isOnMobile();
-  return /* @__PURE__ */ (0, import_jsx_runtime121.jsx)("div", { className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime122.jsx)("div", { className: "dataloom-bottom-bar", children: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
     "div",
     {
       ref,
       style: {
         top: numToPx(-spaceBetweenTableAndContainer)
       },
-      children: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(Flex, { justify: "space-between", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Padding, { pt: "md", width: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)(Flex, { justify: "space-between", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)(Stack, { spacing: "md", isHorizontal: true, children: [
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
             Button,
             {
               ariaLabel: "Undo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "undo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Icon, { lucideId: "undo" }),
               onClick: onUndoClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(NewRowButton, { onClick: onRowAddClick })
+          /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(NewRowButton, { onClick: onRowAddClick })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)(Stack, { isHorizontal: true, spacing: "sm", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
             Button,
             {
               ariaLabel: "Scroll to top",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "chevron-up" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Icon, { lucideId: "chevron-up" }),
               onClick: onScrollToTopClick
             }
           ),
-          /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+          /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
             Button,
             {
               ariaLabel: "Scroll to bottom",
               onClick: onScrollToBottomClick,
-              icon: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "chevron-down" })
+              icon: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Icon, { lucideId: "chevron-down" })
             }
           ),
-          isMobile && /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(
+          isMobile && /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
             Button,
             {
               ariaLabel: "Redo",
-              icon: /* @__PURE__ */ (0, import_jsx_runtime121.jsx)(Icon, { lucideId: "redo" }),
+              icon: /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(Icon, { lucideId: "redo" }),
               onClick: onRedoClick
             }
           )
@@ -58205,6 +58233,7 @@ var doesTextMatch = (cellContent, filterText, condition) => {
 };
 
 // src/shared/loom-state/commands/filter-update-command.ts
+var import_lodash10 = __toESM(require_lodash());
 var FilterUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
     super();
@@ -58217,7 +58246,7 @@ var FilterUpdateCommand = class extends loom_state_command_default {
     const { filters } = prevState.model;
     const nextFilters = filters.map((filter3) => {
       if (filter3.id === this.id) {
-        this.prevFilter = structuredClone(filter3);
+        this.prevFilter = (0, import_lodash10.cloneDeep)(filter3);
         let newFilter = this.data;
         if (this.isPartial)
           newFilter = __spreadValues(__spreadValues({}, filter3), this.data);
@@ -58326,6 +58355,7 @@ var FilterAddCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/filter-delete-command.ts
+var import_lodash11 = __toESM(require_lodash());
 var FilterDeleteCommand = class extends loom_state_command_default {
   constructor(id2) {
     super();
@@ -58338,7 +58368,7 @@ var FilterDeleteCommand = class extends loom_state_command_default {
       if (f3.id === this.id) {
         this.deletedFilter = {
           arrIndex: filters.indexOf(f3),
-          filter: structuredClone(f3)
+          filter: (0, import_lodash11.cloneDeep)(f3)
         };
         return false;
       }
@@ -58353,7 +58383,7 @@ var FilterDeleteCommand = class extends loom_state_command_default {
   undo(prevState) {
     super.onUndo();
     const { filters } = prevState.model;
-    const nextFilters = structuredClone(filters);
+    const nextFilters = (0, import_lodash11.cloneDeep)(filters);
     nextFilters.splice(
       this.deletedFilter.arrIndex,
       0,
@@ -58587,6 +58617,7 @@ var CommandArgumentsError = class extends Error {
 };
 
 // src/shared/loom-state/commands/column-delete-command.ts
+var import_lodash12 = __toESM(require_lodash());
 var ColumnDeleteCommand = class extends loom_state_command_default {
   constructor(options) {
     super();
@@ -58610,7 +58641,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
       throw new ColumNotFoundError(id2);
     this.deletedColumn = {
       arrIndex: columns.indexOf(columnToDelete),
-      column: structuredClone(columnToDelete)
+      column: (0, import_lodash12.cloneDeep)(columnToDelete)
     };
     const nextColumns = columns.filter((column) => column.id !== id2);
     const nextRows = rows.map((row) => {
@@ -58620,7 +58651,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
         throw new CellNotFoundError({ columnId: id2, rowId: row.id });
       this.deletedCells.push({
         rowId: row.id,
-        cell: structuredClone(cell),
+        cell: (0, import_lodash12.cloneDeep)(cell),
         arrIndex: row.cells.indexOf(cell)
       });
       const nextCells = cells.filter((cell2) => cell2.columnId !== id2);
@@ -58633,7 +58664,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
     );
     this.deletedFilters = filtersToDelete.map((filter3) => ({
       arrIndex: filters.indexOf(filter3),
-      filter: structuredClone(filter3)
+      filter: (0, import_lodash12.cloneDeep)(filter3)
     }));
     const nextFilters = filters.filter((filter3) => filter3.columnId !== id2);
     return __spreadProps(__spreadValues({}, prevState), {
@@ -58655,7 +58686,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
     );
     const nextRows = rows.map((row) => {
       const { cells } = row;
-      const nextCells = structuredClone(cells);
+      const nextCells = (0, import_lodash12.cloneDeep)(cells);
       const cellsToAdd = this.deletedCells.filter(
         (cell) => cell.rowId === row.id
       );
@@ -58685,6 +58716,7 @@ var ColumnDeleteCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/column-update-command.ts
+var import_lodash13 = __toESM(require_lodash());
 var ColumnUpdateCommand = class extends loom_state_command_default {
   constructor(columnId, data, options) {
     const { shouldSortRows = false, isPartial = true } = options || {};
@@ -58701,7 +58733,7 @@ var ColumnUpdateCommand = class extends loom_state_command_default {
       throw new ColumNotFoundError(this.columnId);
     const nextColumns = columns.map((column2) => {
       if (column2.id === this.columnId) {
-        this.prevColumn = structuredClone(column2);
+        this.prevColumn = (0, import_lodash13.cloneDeep)(column2);
         let newColumn = this.data;
         if (this.isPartial)
           newColumn = __spreadValues(__spreadValues({}, column2), this.data);
@@ -58749,6 +58781,7 @@ var ColumnUpdateCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/column-type-update-command.ts
+var import_lodash14 = __toESM(require_lodash());
 var ColumnTypeUpdateCommand = class extends loom_state_command_default {
   constructor(id2, type) {
     super();
@@ -58771,8 +58804,8 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
     if (type === this.nextType)
       return prevState;
     this.previousType = column.type;
-    let nextColumns = structuredClone(columns);
-    let nextRows = structuredClone(rows);
+    let nextColumns = (0, import_lodash14.cloneDeep)(columns);
+    let nextRows = (0, import_lodash14.cloneDeep)(rows);
     if (this.previousType === "multi-tag" /* MULTI_TAG */ && this.nextType !== "tag" /* TAG */ || this.previousType === "tag" /* TAG */ && this.nextType !== "multi-tag" /* MULTI_TAG */) {
       nextRows = this.fromTagOrMultiTag(nextRows);
     } else if (this.previousType !== "multi-tag" /* MULTI_TAG */ && this.nextType === "tag" /* TAG */) {
@@ -58801,7 +58834,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
       if (filter3.columnId === this.id) {
         this.deletedFilters.push({
           arrIndex: filters.indexOf(filter3),
-          filter: structuredClone(filter3)
+          filter: (0, import_lodash14.cloneDeep)(filter3)
         });
         return false;
       }
@@ -58832,7 +58865,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
         cells: nextCells
       });
     });
-    const nextFilters = structuredClone(filters);
+    const nextFilters = (0, import_lodash14.cloneDeep)(filters);
     this.deletedFilters.forEach((f3) => {
       const { arrIndex, filter: filter3 } = f3;
       nextFilters.splice(arrIndex, 0, filter3);
@@ -58921,7 +58954,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const updatedCell = __spreadProps(__spreadValues({}, cell), {
               tagIds: []
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(updatedCell);
             return updatedCell;
           }
@@ -58947,7 +58980,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               content: dateString
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -58981,14 +59014,14 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
                   tagIds.push(existingTag.id);
                 } else {
                   const tag = createTag(tagContent);
-                  this.addedTags.push(structuredClone(tag));
+                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                   column.tags.push(tag);
                   tagIds.push(tag.id);
                 }
               } else {
                 if (!existingTag) {
                   const tag = createTag(tagContent);
-                  this.addedTags.push(structuredClone(tag));
+                  this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                   column.tags.push(tag);
                 }
               }
@@ -58996,7 +59029,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -59029,7 +59062,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
                 tagIds.push(existingTag.id);
               } else {
                 const tag = createTag(tagContent);
-                this.addedTags.push(structuredClone(tag));
+                this.addedTags.push((0, import_lodash14.cloneDeep)(tag));
                 column.tags.push(tag);
                 tagIds.push(tag.id);
               }
@@ -59037,7 +59070,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -59059,7 +59092,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               tagIds: [tagIds[0]]
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -59081,7 +59114,7 @@ var ColumnTypeUpdateCommand = class extends loom_state_command_default {
             const newCell = __spreadProps(__spreadValues({}, cell), {
               content: CHECKBOX_MARKDOWN_UNCHECKED2
             });
-            this.updatedCells.previous.push(structuredClone(cell));
+            this.updatedCells.previous.push((0, import_lodash14.cloneDeep)(cell));
             this.updatedCells.next.push(newCell);
             return newCell;
           }
@@ -59406,6 +59439,7 @@ var RowAddCommand = class extends loom_state_command_default {
 };
 
 // src/shared/loom-state/commands/row-delete-command.ts
+var import_lodash15 = __toESM(require_lodash());
 var RowDeleteCommand = class extends loom_state_command_default {
   constructor(options) {
     super();
@@ -59428,7 +59462,7 @@ var RowDeleteCommand = class extends loom_state_command_default {
       throw new RowNotFoundError(id2);
     this.deletedRow = {
       arrIndex: rows.indexOf(rowToDelete),
-      row: structuredClone(rowToDelete)
+      row: (0, import_lodash15.cloneDeep)(rowToDelete)
     };
     let newRows = rows.filter((row) => row.id !== id2);
     this.previousRows = newRows.filter((row) => row.index > this.deletedRow.row.index).map((row) => {
@@ -59629,6 +59663,7 @@ var useRow = () => {
 var import_react50 = __toESM(require_react());
 
 // src/shared/loom-state/commands/cell-body-update-command.ts
+var import_lodash16 = __toESM(require_lodash());
 var CellBodyUpdateCommand = class extends loom_state_command_default {
   constructor(id2, data, isPartial = true) {
     super();
@@ -59650,7 +59685,7 @@ var CellBodyUpdateCommand = class extends loom_state_command_default {
       const { cells } = row2;
       const nextCells = cells.map((cell) => {
         if (cell.id === this.id) {
-          this.prevCell = structuredClone(cell);
+          this.prevCell = (0, import_lodash16.cloneDeep)(cell);
           let newCell = this.data;
           if (this.isPartial)
             newCell = __spreadValues(__spreadValues({}, cell), this.data);
@@ -60824,7 +60859,7 @@ function useFocus() {
 
 // src/react/loom-app/app/hooks/use-menu-events.ts
 var import_react54 = __toESM(require_react());
-var import_lodash2 = __toESM(require_lodash());
+var import_lodash17 = __toESM(require_lodash());
 var useMenuEvents = () => {
   const hookName = "useMenuEvents";
   const logger = useLogger();
@@ -60832,7 +60867,7 @@ var useMenuEvents = () => {
   const { onCloseAll } = useMenuOperations();
   import_react54.default.useEffect(() => {
     const THROTTLE_TIME_MILLIS = 100;
-    const throttleHandleScroll = import_lodash2.default.throttle(
+    const throttleHandleScroll = import_lodash17.default.throttle(
       handleScroll,
       THROTTLE_TIME_MILLIS
     );
@@ -60858,7 +60893,7 @@ var useMenuEvents = () => {
     var _a2;
     let pageScrollerEl;
     const THROTTLE_TIME_MILLIS = 100;
-    const throttleHandleScroll = import_lodash2.default.throttle(
+    const throttleHandleScroll = import_lodash17.default.throttle(
       handleScroll,
       THROTTLE_TIME_MILLIS
     );
@@ -60907,7 +60942,7 @@ var useMenuEvents = () => {
 };
 
 // src/react/loom-app/footer-cell-container/calculation-menu.tsx
-var import_jsx_runtime122 = __toESM(require_jsx_runtime());
+var import_jsx_runtime123 = __toESM(require_jsx_runtime());
 function CalculationMenu({
   id: id2,
   value,
@@ -60918,7 +60953,7 @@ function CalculationMenu({
   onRequestClose,
   onClose
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
     Menu,
     {
       id: id2,
@@ -60926,8 +60961,8 @@ function CalculationMenu({
       triggerPosition,
       onRequestClose,
       onClose,
-      children: /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)("div", { className: "dataloom-function-menu", children: [
-        Object.values(GeneralCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)("div", { className: "dataloom-function-menu", children: [
+        Object.values(GeneralCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
           MenuItem,
           {
             name: getDisplayNameForCalculation(type),
@@ -60937,7 +60972,7 @@ function CalculationMenu({
           },
           type
         )),
-        cellType === "number" /* NUMBER */ && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime122.jsx)(
+        cellType === "number" /* NUMBER */ && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
           MenuItem,
           {
             ariaLabel: getAriaLabelForNumberCalculation(type),
@@ -61165,7 +61200,7 @@ var getNumberCalculation = (values, type) => {
 };
 
 // src/react/loom-app/footer-cell-container/index.tsx
-var import_jsx_runtime123 = __toESM(require_jsx_runtime());
+var import_jsx_runtime124 = __toESM(require_jsx_runtime());
 function FooterCellContainer({
   columnId,
   columnCells,
@@ -61212,8 +61247,8 @@ function FooterCellContainer({
       dateFormat
     );
   }
-  return /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(import_jsx_runtime123.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(menu_trigger_default, { menu, isCell: true, ref: triggerRef, onOpen, children: /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(import_jsx_runtime124.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(menu_trigger_default, { menu, isCell: true, ref: triggerRef, onOpen, children: /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(
       "div",
       {
         className: "dataloom-cell--footer__container dataloom-selectable",
@@ -61221,9 +61256,9 @@ function FooterCellContainer({
           width
         },
         children: [
-          calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Text, { value: "Calculate", variant: "faint" }),
-          calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
-            /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
+          calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Text, { value: "Calculate", variant: "faint" }),
+          calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(Stack, { spacing: "sm", isHorizontal: true, children: [
+            /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
               Text,
               {
                 value: getShortDisplayNameForCalculationType(
@@ -61232,12 +61267,12 @@ function FooterCellContainer({
                 variant: "muted"
               }
             ),
-            /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(Text, { value: content, variant: "semibold" })
+            /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(Text, { value: content, variant: "semibold" })
           ] })
         ]
       }
     ) }),
-    /* @__PURE__ */ (0, import_jsx_runtime123.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
       CalculationMenu,
       {
         id: menu.id,
@@ -61254,7 +61289,7 @@ function FooterCellContainer({
 }
 
 // src/react/loom-app/app/index.tsx
-var import_jsx_runtime124 = __toESM(require_jsx_runtime());
+var import_jsx_runtime125 = __toESM(require_jsx_runtime());
 function App10() {
   const logger = useLogger();
   const { reactAppId, isMarkdownView } = useAppMount();
@@ -61346,7 +61381,7 @@ function App10() {
   let className = "dataloom-app";
   if (isMarkdownView)
     className += " dataloom-app--markdown-view";
-  return /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)(
+  return /* @__PURE__ */ (0, import_jsx_runtime125.jsxs)(
     "div",
     {
       id: reactAppId,
@@ -61354,7 +61389,7 @@ function App10() {
       onKeyDown: handleKeyDown,
       onClick: handleClick,
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
           OptionBar,
           {
             columns,
@@ -61370,7 +61405,7 @@ function App10() {
             onCalculationRowToggle
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
           table_default,
           {
             numFrozenColumns,
@@ -61380,7 +61415,7 @@ function App10() {
                 {
                   id: firstColumnId,
                   columnId: firstColumnId,
-                  content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("div", { className: "dataloom-cell--left-corner" })
+                  content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("div", { className: "dataloom-cell--left-corner" })
                 },
                 ...visibleColumns.map((column) => {
                   const {
@@ -61403,7 +61438,7 @@ function App10() {
                   return {
                     id: columnId,
                     columnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+                    content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
                       HeaderCellContainer,
                       {
                         dateFormat,
@@ -61446,7 +61481,7 @@ function App10() {
                 {
                   id: lastColumnId,
                   columnId: lastColumnId,
-                  content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(NewColumnButton, { onClick: onColumnAddClick })
+                  content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(NewColumnButton, { onClick: onColumnAddClick })
                 }
               ]
             },
@@ -61457,7 +61492,7 @@ function App10() {
                 cells: [
                   {
                     id: firstColumnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+                    content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
                       RowOptions2,
                       {
                         rowId,
@@ -61501,7 +61536,7 @@ function App10() {
                     } = cell;
                     return {
                       id: cellId,
-                      content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+                      content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
                         BodyCellContainer,
                         {
                           cellId,
@@ -61543,7 +61578,7 @@ function App10() {
                   }),
                   {
                     id: lastColumnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(import_jsx_runtime124.Fragment, {})
+                    content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(import_jsx_runtime125.Fragment, {})
                   }
                 ]
               };
@@ -61552,7 +61587,7 @@ function App10() {
               cells: [
                 {
                   id: firstColumnId,
-                  content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(import_jsx_runtime124.Fragment, {})
+                  content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(import_jsx_runtime125.Fragment, {})
                 },
                 ...visibleColumns.map((column) => {
                   const {
@@ -61580,7 +61615,7 @@ function App10() {
                   });
                   return {
                     id: columnId,
-                    content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+                    content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
                       FooterCellContainer,
                       {
                         columnId,
@@ -61600,13 +61635,13 @@ function App10() {
                 }),
                 {
                   id: lastColumnId,
-                  content: /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(import_jsx_runtime124.Fragment, {})
+                  content: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(import_jsx_runtime125.Fragment, {})
                 }
               ]
             } : void 0
           }
         ),
-        /* @__PURE__ */ (0, import_jsx_runtime124.jsx)(
+        /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
           BottomBar,
           {
             onRowAddClick,
@@ -61621,8 +61656,45 @@ function App10() {
   );
 }
 
+// src/react/shared/error-boundary/index.tsx
+var import_react56 = __toESM(require_react());
+var import_jsx_runtime126 = __toESM(require_jsx_runtime());
+var ErrorBoundary = class extends import_react56.default.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+  componentDidCatch(error, errorInfo) {
+    this.setState({
+      hasError: true,
+      errorInfo,
+      errorMessage: error.message
+    });
+  }
+  render() {
+    var _a2, _b;
+    let copyErrorMessage = "";
+    if (this.state.hasError) {
+      copyErrorMessage = `Error message: ${this.state.errorMessage}
+Error info: ${(_a2 = this.state.errorInfo) == null ? void 0 : _a2.componentStack}`;
+      return /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+        ErrorDisplay,
+        {
+          title: "DataLoom experienced an error",
+          errorMessage: (_b = this.state.errorMessage) != null ? _b : "",
+          copyErrorMessage,
+          helpMessage: "For help fixing this error please post in the bugs channel on the Discord:",
+          helpURL: "https://discord.gg/QaFbepMdN4"
+        }
+      );
+    }
+    return this.props.children;
+  }
+};
+var error_boundary_default = ErrorBoundary;
+
 // src/react/loom-app/index.tsx
-var import_jsx_runtime125 = __toESM(require_jsx_runtime());
+var import_jsx_runtime127 = __toESM(require_jsx_runtime());
 function LoomApp({
   app,
   reactAppId,
@@ -61633,7 +61705,7 @@ function LoomApp({
   loomState,
   onSaveState
 }) {
-  return /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
+  return /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(error_boundary_default, { children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
     AppMountProvider,
     {
       app,
@@ -61641,20 +61713,20 @@ function LoomApp({
       reactAppId,
       isMarkdownView,
       loomFile,
-      children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(
+      children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(Provider_default, { store: store2, children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(
         LoomStateProvider,
         {
           initialState: loomState,
           onSaveState,
-          children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)(App10, {}) }) })
+          children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(DragProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(MenuProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime127.jsx)(App10, {}) }) })
         }
       ) })
     }
-  );
+  ) });
 }
 
 // src/obsidian/embedded/embedded-app-manager.tsx
-var import_jsx_runtime126 = __toESM(require_jsx_runtime());
+var import_jsx_runtime128 = __toESM(require_jsx_runtime());
 var embeddedApps = [];
 var loadPreviewModeApps = (app, markdownLeaves, pluginVersion) => {
   for (let i2 = 0; i2 < markdownLeaves.length; i2++) {
@@ -61715,9 +61787,9 @@ var processLinkEl = (app, pluginVersion, leaf, linkEl, mode) => __async(void 0, 
 });
 var renderApp = (app, reactAppId, leaf, file, root, state) => {
   const THROTTLE_TIME_MILLIS = 2e3;
-  const throttleHandleSave = import_lodash3.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
+  const throttleHandleSave = import_lodash18.default.throttle(handleSave, THROTTLE_TIME_MILLIS);
   root.render(
-    /* @__PURE__ */ (0, import_jsx_runtime126.jsx)(
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)(
       LoomApp,
       {
         app,
@@ -61733,7 +61805,7 @@ var renderApp = (app, reactAppId, leaf, file, root, state) => {
   );
 };
 var renderErrorApp = (root, error) => {
-  root.render(/* @__PURE__ */ (0, import_jsx_runtime126.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
+  root.render(/* @__PURE__ */ (0, import_jsx_runtime128.jsx)(ErrorApp, { error, isEmbeddedApp: true }));
 };
 var handleSave = (app, file, appId, state) => __async(void 0, null, function* () {
   const serialized = serializeState(state);
@@ -61866,6 +61938,7 @@ var createFolderIfNotExists = (app, folderPath) => __async(void 0, null, functio
 });
 
 // src/main.ts
+var import_lodash19 = __toESM(require_lodash());
 var DEFAULT_SETTINGS = {
   shouldDebug: false,
   createAtObsidianAttachmentFolder: false,
@@ -62082,7 +62155,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
                 const { cells } = row;
                 cells.forEach((cell) => {
                   const { content } = cell;
-                  const regex = structuredClone(WIKI_LINK_REGEX);
+                  const regex = (0, import_lodash19.cloneDeep)(WIKI_LINK_REGEX);
                   let matches;
                   while ((matches = regex.exec(content)) !== null) {
                     const path = matches[1];
@@ -62113,7 +62186,7 @@ var DataLoomPlugin = class extends import_obsidian19.Plugin {
                 console.log("Updating links in file", {
                   path: loomFile.path
                 });
-              const newState = structuredClone(state);
+              const newState = (0, import_lodash19.cloneDeep)(state);
               newState.model.rows.map((row) => {
                 const { cells } = row;
                 const nextCells = cells.map((cell) => {
