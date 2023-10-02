@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/期待.md"
+                    "file": "笔记/工具/通用概念/期待.md"
                   }
                 }
               }
@@ -1021,7 +1021,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/期待.md",
+                        "file": "笔记/工具/通用概念/期待.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1042,7 +1042,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/期待.md"
+                        "file": "笔记/工具/通用概念/期待.md"
                       }
                     }
                   }
@@ -1068,7 +1068,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/期待.md",
+                        "file": "笔记/工具/通用概念/期待.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1310,6 +1310,15 @@
           {
             "id": "fdeedd3c32118486",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -1378,11 +1387,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d9e8a82e73a341fd",
+  "active": "6d13b195cd971f83",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/期望.md",
+    "笔记/工具/通用概念/期待.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/期待.md",
     "笔记/工具/思考/基本概念/思维.md",
@@ -1408,8 +1419,6 @@
     "笔记/内心/我.md",
     "笔记/工具/通用概念/自我.md",
     "笔记/内心/无我.md",
-    "笔记/学习/极简主义.md",
-    "笔记/学习/概念/理解.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
