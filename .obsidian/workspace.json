@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/人生.md"
+                    "file": "笔记/内心/困难.md"
                   }
                 }
               }
@@ -976,24 +976,24 @@
                 "id": "f1c9e830d5e356be",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "人生",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/人生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":34},\"to\":{\"line\":24,\"ch\":34}},\"scroll\":13.419}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":308,\"ch\":10},\"to\":{\"line\":308,\"ch\":10}},\"scroll\":284.8703703703704}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/人生.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1027,7 +1027,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/人生.md",
+                        "file": "笔记/内心/困难.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1048,7 +1048,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/人生.md"
+                        "file": "笔记/内心/困难.md"
                       }
                     }
                   }
@@ -1074,7 +1074,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/人生.md",
+                        "file": "笔记/内心/困难.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1393,12 +1393,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f1c9e830d5e356be",
+  "active": "8622301b263ca3f3",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/困难.md",
+    "笔记/内心/至一生命.md",
+    "笔记/工作/工作.md",
+    "笔记/工具/通用概念/目标.md",
     "笔记/内心/人生.md",
     "笔记/内心/领悟.md",
     "笔记/内心/圆满.md",
@@ -1421,10 +1425,6 @@
     "笔记/工具/思考/幻象.md",
     "笔记/内心/束缚.md",
     "笔记/工具/通用概念/恐惧.md",
-    "笔记/工作/工作.md",
-    "笔记/前端/前端工作.md",
-    "笔记/工具/通用概念/观念.md",
-    "笔记/工具/思考/思维形式.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
