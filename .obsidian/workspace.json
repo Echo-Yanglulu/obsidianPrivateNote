@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/基本概念/思维.md"
+                    "file": "笔记/工具/思考/基本概念/思维模型.md"
                   }
                 }
               }
@@ -983,6 +983,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":6},\"to\":{\"line\":40,\"ch\":6}},\"scroll\":1.8888888888888888}"
+                    },
+                    {
                       "title": "深夜加油站遇见苏格拉底",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -993,7 +999,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/基本概念/思维.md",
+                    "file": "笔记/工具/思考/基本概念/思维模型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1027,7 +1033,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/基本概念/思维.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1048,7 +1054,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/思考/基本概念/思维.md"
+                        "file": "笔记/工具/思考/基本概念/思维模型.md"
                       }
                     }
                   }
@@ -1074,7 +1080,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/基本概念/思维.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1398,8 +1404,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/工具/思考/基本概念/思维.md",
+    "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/工具/通用概念/期待.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/困难.md",
