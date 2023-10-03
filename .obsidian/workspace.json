@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/工具/思考/基本概念/思维.md"
                   }
                 }
               }
@@ -976,24 +976,24 @@
                 "id": "f1c9e830d5e356be",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "人生",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/人生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":34},\"to\":{\"line\":24,\"ch\":34}},\"scroll\":13.419}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":361,\"ch\":11},\"to\":{\"line\":361,\"ch\":11}},\"scroll\":346.88947368421054}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/工具/思考/基本概念/思维.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1027,7 +1027,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1048,7 +1048,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/工具/思考/基本概念/思维.md"
                       }
                     }
                   }
@@ -1074,7 +1074,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/基本概念/思维.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1200,7 +1200,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1398,8 +1398,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/困难.md",
+    "笔记/工具/通用概念/期待.md",
+    "笔记/工具/思考/基本概念/思维.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/困难.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/至一生命.md",
     "笔记/工作/工作.md",
@@ -1410,9 +1412,7 @@
     "笔记/工具/通用概念/完美.md",
     "笔记/工具/通用概念/了解.md",
     "笔记/内心/期望.md",
-    "笔记/工具/通用概念/期待.md",
     "笔记/内心/期待.md",
-    "笔记/工具/思考/基本概念/思维.md",
     "笔记/内心/欲望.md",
     "笔记/工具/通用概念/抗拒.md",
     "笔记/工具/心理学/情绪/情绪.md",
