@@ -976,8 +976,14 @@
                 "id": "f1c9e830d5e356be",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "黄金思维圈",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.845}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -986,7 +992,7 @@
                       "title": "思维",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":6},\"to\":{\"line\":40,\"ch\":6}},\"scroll\":1.8888888888888888}"
+                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}},\"scroll\":1.8888888888888888}"
                     },
                     {
                       "title": "深夜加油站遇见苏格拉底",
@@ -1404,8 +1410,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/基本概念/思维.md",
+    "笔记/学习/概念/黄金思维圈.md",
     "笔记/工具/思考/基本概念/思维模型.md",
+    "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/期待.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/困难.md",
@@ -1430,7 +1437,6 @@
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/学习/学习.md",
     "笔记/工具/思考/记忆/注意力.md",
-    "笔记/内心/束缚.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
