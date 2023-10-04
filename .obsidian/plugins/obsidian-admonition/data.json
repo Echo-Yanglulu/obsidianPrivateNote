@@ -8,7 +8,7 @@
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": true,
-  "hideEmpty": false,
+  "hideEmpty": true,
   "open": {
     "admonitions": true,
     "icons": true,
