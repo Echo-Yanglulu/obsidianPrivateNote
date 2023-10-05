@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
@@ -291,6 +291,24 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":10},\"to\":{\"line\":170,\"ch\":10}},\"scroll\":151.56134259259258}"
+                    },
+                    {
+                      "title": "力量训练",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":0},\"to\":{\"line\":78,\"ch\":0}},\"scroll\":62.11081248707877}"
+                    },
+                    {
+                      "title": "健身",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":12},\"to\":{\"line\":41,\"ch\":12}},\"scroll\":22.149305555555557}"
                     },
                     {
                       "title": "力量训练",
@@ -645,7 +663,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/行为/健身/健身.md",
+                    "file": "笔记/行为/健身/部位/腿部.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -977,7 +995,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 4
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1003,7 +1021,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1024,7 +1042,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/行为/健身/部位/腿部.md"
                       }
                     }
                   }
@@ -1050,7 +1068,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1369,7 +1387,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d6a04bc597d90b71",
+  "active": "4501c58b69f6ecbe",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
