@@ -27,975 +27,1376 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/行为/健身/部位/腿部.md"
                   }
                 }
               }
             ]
           },
           {
-            "id": "e67a4c566e0eea1a",
-            "type": "tabs",
+            "id": "0e0cfe3f808f7697",
+            "type": "split",
             "dimension": 70.56179775280899,
             "children": [
               {
-                "id": "4f2ccacccfa108ec",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "e67a4c566e0eea1a",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "4f2ccacccfa108ec",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":10},\"to\":{\"line\":48,\"ch\":10}},\"scroll\":39.053949903660886}"
+                        },
+                        {
+                          "title": "深夜加油站遇见苏格拉底",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":304,\"ch\":20},\"to\":{\"line\":304,\"ch\":20}},\"scroll\":282.73333333333335}"
+                        },
+                        {
+                          "title": "诗歌",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/诗词/诗歌.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        }
+                      ]
                     },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":48,\"ch\":10},\"to\":{\"line\":48,\"ch\":10}},\"scroll\":39.053949903660886}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":304,\"ch\":20},\"to\":{\"line\":304,\"ch\":20}},\"scroll\":282.73333333333335}"
-                    },
-                    {
-                      "title": "诗歌",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/诗词/诗歌.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/工具/意识/意识.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/意识/意识.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                  },
+                  {
+                    "id": "b4bf577937bc9265",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/诗词/诗歌.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "b7822257754ee96f",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/工具/通用概念/智慧.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "d6a04bc597d90b71",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "ac038c08bf5333e5",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 1,
+                      "stack": [
+                        {
+                          "title": "黄金思维圈",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.8449682683590208}"
+                        },
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "理解",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":18},\"to\":{\"line\":62,\"ch\":18}},\"scroll\":40.9294}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":445,\"ch\":17},\"to\":{\"line\":445,\"ch\":17}},\"scroll\":423.01201044386426}"
+                        },
+                        {
+                          "title": "观点",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/观点.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":18},\"to\":{\"line\":32,\"ch\":18}},\"scroll\":12.892543859649123}"
+                        },
+                        {
+                          "title": "理解",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":19},\"to\":{\"line\":73,\"ch\":19}},\"scroll\":54.13629242819843}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":502,\"ch\":11},\"to\":{\"line\":502,\"ch\":11}},\"scroll\":484.2811565304088}"
+                        },
+                        {
+                          "title": "笔记",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/笔记.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":36},\"to\":{\"line\":15,\"ch\":36}},\"scroll\":9.333998005982053}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":484,\"ch\":12},\"to\":{\"line\":484,\"ch\":12}},\"scroll\":455.65104685942174}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":8},\"to\":{\"line\":51,\"ch\":8}},\"scroll\":33.7702850877193}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":10},\"to\":{\"line\":50,\"ch\":10}},\"scroll\":30.95175438596491}"
+                        },
+                        {
+                          "title": "拓展",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/拓展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}},\"scroll\":4.3829}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":458,\"ch\":11},\"to\":{\"line\":458,\"ch\":11}},\"scroll\":441.0209371884347}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":11},\"to\":{\"line\":52,\"ch\":11}},\"scroll\":34.8}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":10},\"to\":{\"line\":144,\"ch\":10}},\"scroll\":120.45}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":184,\"ch\":21},\"to\":{\"line\":184,\"ch\":21}},\"scroll\":159.22727272727272}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":87},\"to\":{\"line\":16,\"ch\":87}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":16},\"to\":{\"line\":88,\"ch\":16}},\"scroll\":71.83333333333333}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":11},\"to\":{\"line\":237,\"ch\":11}},\"scroll\":221.36363636363637}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":13},\"to\":{\"line\":96,\"ch\":13}},\"scroll\":75.83333333333333}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":234,\"ch\":11},\"to\":{\"line\":234,\"ch\":11}},\"scroll\":218.37878787878788}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":5},\"to\":{\"line\":61,\"ch\":5}},\"scroll\":55.833333333333336}"
+                        },
+                        {
+                          "title": "学习",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":9},\"to\":{\"line\":86,\"ch\":9}},\"scroll\":77.40291262135922}"
+                        },
+                        {
+                          "title": "记忆",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/学习/学习.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "4501c58b69f6ecbe",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":10},\"to\":{\"line\":170,\"ch\":10}},\"scroll\":151.56134259259258}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":0},\"to\":{\"line\":78,\"ch\":0}},\"scroll\":62.11081248707877}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":12},\"to\":{\"line\":41,\"ch\":12}},\"scroll\":22.149305555555557}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":133,\"ch\":9},\"to\":{\"line\":133,\"ch\":9}},\"scroll\":121.6127}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":20.87138584247258}"
+                        },
+                        {
+                          "title": "肩部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":33.3859649122807}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "手臂",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":8},\"to\":{\"line\":49,\"ch\":8}},\"scroll\":32.23587158397453}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":10},\"to\":{\"line\":158,\"ch\":10}},\"scroll\":141.27631578947367}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":8},\"to\":{\"line\":86,\"ch\":8}},\"scroll\":64.81030701754386}"
+                        },
+                        {
+                          "title": "背部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":8},\"to\":{\"line\":134,\"ch\":8}},\"scroll\":113.15350877192982}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":14},\"to\":{\"line\":35,\"ch\":14}},\"scroll\":11.111749347258487}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":15},\"to\":{\"line\":85,\"ch\":15}},\"scroll\":64.10682436517533}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":105,\"ch\":13},\"to\":{\"line\":105,\"ch\":13}},\"scroll\":99.39035087719299}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":8},\"to\":{\"line\":87,\"ch\":8}},\"scroll\":80.60518444666002}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":4},\"to\":{\"line\":109,\"ch\":4}},\"scroll\":92.11129385964912}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":105.21491228070175}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":19},\"to\":{\"line\":88,\"ch\":19}},\"scroll\":66.518444666002}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":10},\"to\":{\"line\":116,\"ch\":10}},\"scroll\":105.21491228070175}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":20},\"to\":{\"line\":158,\"ch\":20}},\"scroll\":137.536889332004}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":0},\"to\":{\"line\":123,\"ch\":0}},\"scroll\":105.22039473684211}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":9},\"to\":{\"line\":124,\"ch\":9}},\"scroll\":95.7791625124626}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":101.14254385964912}"
+                        },
+                        {
+                          "title": "肩部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":8},\"to\":{\"line\":25,\"ch\":8}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":18},\"to\":{\"line\":126,\"ch\":18}},\"scroll\":109.15312046444122}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":32},\"to\":{\"line\":69,\"ch\":32}},\"scroll\":55.849495239658566}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":12},\"to\":{\"line\":26,\"ch\":12}},\"scroll\":8.630405943221014}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":18},\"to\":{\"line\":15,\"ch\":18}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":107.28289473684211}"
+                        },
+                        {
+                          "title": "手臂",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":10},\"to\":{\"line\":124,\"ch\":10}},\"scroll\":107.28508771929825}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":37},\"to\":{\"line\":20,\"ch\":37}},\"scroll\":12.107720880870257}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":118,\"ch\":20},\"to\":{\"line\":118,\"ch\":20}},\"scroll\":91.45449561403508}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":5},\"to\":{\"line\":34,\"ch\":5}},\"scroll\":17.209429824561404}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}}}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.75809687589567}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.52153801676785}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":10},\"to\":{\"line\":120,\"ch\":10}},\"scroll\":102.23245614035088}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":25},\"to\":{\"line\":3,\"ch\":25}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":92.74342105263158}"
+                        },
+                        {
+                          "title": "背部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":9},\"to\":{\"line\":237,\"ch\":9}},\"scroll\":225.55350378787878}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":10},\"to\":{\"line\":100,\"ch\":10}},\"scroll\":82.96666666666667}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":84.9234375}"
+                        },
+                        {
+                          "title": "拉伸",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":1.3}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":10},\"to\":{\"line\":104,\"ch\":10}},\"scroll\":95.4203125}"
+                        },
+                        {
+                          "title": "拉伸",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":9},\"to\":{\"line\":108,\"ch\":9}},\"scroll\":94.73333333333333}"
+                        },
+                        {
+                          "title": "腹部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":76.42909760589319}"
+                        },
+                        {
+                          "title": "腹部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":28},\"to\":{\"line\":14,\"ch\":28}},\"scroll\":9.711862664473685}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":7},\"to\":{\"line\":28,\"ch\":7}},\"scroll\":4.793103448275862}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "2fefc13b54857c06",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 1,
+                      "stack": [
+                        {
+                          "title": "布局",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}},\"scroll\":0}"
+                        },
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/写作\"}}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "obsidianPrivateNote",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"obsidianPrivateNote//\"}}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/写作\"}}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "写作",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/行为/写作\"}}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "单例内置对象",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":51},\"to\":{\"line\":11,\"ch\":51}}}"
+                        },
+                        {
+                          "title": "Math",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Math.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":16},\"to\":{\"line\":16,\"ch\":16}},\"scroll\":19.166666666666668}"
+                        },
+                        {
+                          "title": "单例内置对象",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "Global",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.4948453608247423}"
+                        },
+                        {
+                          "title": "单例内置对象",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/前端/前端工作.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "77e1fd3f9230a975",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "react组件",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "函数组件",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":416,\"ch\":20},\"to\":{\"line\":416,\"ch\":20}},\"scroll\":387.96309523809526}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/前端/库、框架/UI库/react.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "372f1e8f780229ca",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "简洁",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/简洁.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "极简主义",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/极简主义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "简洁",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/简洁.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "当下的力量",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/当下的力量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":5},\"to\":{\"line\":15,\"ch\":5}}}"
+                        },
+                        {
+                          "title": "人生十二法则",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人生十二法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "鹿智者的法则",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "活在当下指南",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}}}"
+                        },
+                        {
+                          "title": "深夜加油站遇见苏格拉底",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":4},\"to\":{\"line\":42,\"ch\":4}},\"scroll\":19.857}"
+                        },
+                        {
+                          "title": "活在当下指南",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "逻辑学",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":12.677966101694915}"
+                        },
+                        {
+                          "title": "逻辑",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":8}}}"
+                        },
+                        {
+                          "title": "数据类型",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/学习/极简主义.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "3d5d3c48a1694c5e",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "f1c9e830d5e356be",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 1,
+                      "stack": [
+                        {
+                          "title": "黄金思维圈",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.845}"
+                        },
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "思维",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}},\"scroll\":1.8888888888888888}"
+                        },
+                        {
+                          "title": "深夜加油站遇见苏格拉底",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":361,\"ch\":11},\"to\":{\"line\":361,\"ch\":11}},\"scroll\":346.88947368421054}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
                   }
-                }
+                ],
+                "currentTab": 5
               },
               {
-                "id": "b4bf577937bc9265",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
+                "id": "a3f24952d0c0e493",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "20f1c9961029c6dd",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":10},\"to\":{\"line\":170,\"ch\":10}},\"scroll\":151.56134259259258}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":0},\"to\":{\"line\":78,\"ch\":0}},\"scroll\":62.11081248707877}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":12},\"to\":{\"line\":41,\"ch\":12}},\"scroll\":22.149305555555557}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":133,\"ch\":9},\"to\":{\"line\":133,\"ch\":9}},\"scroll\":121.6127}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":20.87138584247258}"
+                        },
+                        {
+                          "title": "肩部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":33.3859649122807}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "手臂",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":8},\"to\":{\"line\":49,\"ch\":8}},\"scroll\":32.23587158397453}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":10},\"to\":{\"line\":158,\"ch\":10}},\"scroll\":141.27631578947367}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":8},\"to\":{\"line\":86,\"ch\":8}},\"scroll\":64.81030701754386}"
+                        },
+                        {
+                          "title": "背部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":8},\"to\":{\"line\":134,\"ch\":8}},\"scroll\":113.15350877192982}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":14},\"to\":{\"line\":35,\"ch\":14}},\"scroll\":11.111749347258487}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":15},\"to\":{\"line\":85,\"ch\":15}},\"scroll\":64.10682436517533}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":105,\"ch\":13},\"to\":{\"line\":105,\"ch\":13}},\"scroll\":99.39035087719299}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":8},\"to\":{\"line\":87,\"ch\":8}},\"scroll\":80.60518444666002}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":4},\"to\":{\"line\":109,\"ch\":4}},\"scroll\":92.11129385964912}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":105.21491228070175}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":19},\"to\":{\"line\":88,\"ch\":19}},\"scroll\":66.518444666002}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":10},\"to\":{\"line\":116,\"ch\":10}},\"scroll\":105.21491228070175}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":20},\"to\":{\"line\":158,\"ch\":20}},\"scroll\":137.536889332004}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":0},\"to\":{\"line\":123,\"ch\":0}},\"scroll\":105.22039473684211}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":9},\"to\":{\"line\":124,\"ch\":9}},\"scroll\":95.7791625124626}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":101.14254385964912}"
+                        },
+                        {
+                          "title": "肩部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":8},\"to\":{\"line\":25,\"ch\":8}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":18},\"to\":{\"line\":126,\"ch\":18}},\"scroll\":109.15312046444122}"
+                        },
+                        {
+                          "title": "力量训练",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":32},\"to\":{\"line\":69,\"ch\":32}},\"scroll\":55.849495239658566}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":12},\"to\":{\"line\":26,\"ch\":12}},\"scroll\":8.630405943221014}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":18},\"to\":{\"line\":15,\"ch\":18}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":107.28289473684211}"
+                        },
+                        {
+                          "title": "手臂",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":10},\"to\":{\"line\":124,\"ch\":10}},\"scroll\":107.28508771929825}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":37},\"to\":{\"line\":20,\"ch\":37}},\"scroll\":12.107720880870257}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":118,\"ch\":20},\"to\":{\"line\":118,\"ch\":20}},\"scroll\":91.45449561403508}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":5},\"to\":{\"line\":34,\"ch\":5}},\"scroll\":17.209429824561404}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}}}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}},\"scroll\":0}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.75809687589567}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.52153801676785}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":10},\"to\":{\"line\":120,\"ch\":10}},\"scroll\":102.23245614035088}"
+                        },
+                        {
+                          "title": "胸部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":25},\"to\":{\"line\":3,\"ch\":25}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":92.74342105263158}"
+                        },
+                        {
+                          "title": "背部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":9},\"to\":{\"line\":237,\"ch\":9}},\"scroll\":225.55350378787878}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":10},\"to\":{\"line\":100,\"ch\":10}},\"scroll\":82.96666666666667}"
+                        },
+                        {
+                          "title": "腿部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":84.9234375}"
+                        },
+                        {
+                          "title": "拉伸",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":1.3}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":10},\"to\":{\"line\":104,\"ch\":10}},\"scroll\":95.4203125}"
+                        },
+                        {
+                          "title": "拉伸",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":9},\"to\":{\"line\":108,\"ch\":9}},\"scroll\":94.73333333333333}"
+                        },
+                        {
+                          "title": "腹部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":76.42909760589319}"
+                        },
+                        {
+                          "title": "腹部",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":28},\"to\":{\"line\":14,\"ch\":28}},\"scroll\":9.711862664473685}"
+                        },
+                        {
+                          "title": "健身",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":7},\"to\":{\"line\":28,\"ch\":7}},\"scroll\":4.793103448275862}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
                     }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/诗词/诗歌.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
                   }
-                }
-              },
-              {
-                "id": "b7822257754ee96f",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/智慧.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d6a04bc597d90b71",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ac038c08bf5333e5",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "黄金思维圈",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.8449682683590208}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "理解",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":18},\"to\":{\"line\":62,\"ch\":18}},\"scroll\":40.9294}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":445,\"ch\":17},\"to\":{\"line\":445,\"ch\":17}},\"scroll\":423.01201044386426}"
-                    },
-                    {
-                      "title": "观点",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/观点.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":18},\"to\":{\"line\":32,\"ch\":18}},\"scroll\":12.892543859649123}"
-                    },
-                    {
-                      "title": "理解",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/理解.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":19},\"to\":{\"line\":73,\"ch\":19}},\"scroll\":54.13629242819843}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":502,\"ch\":11},\"to\":{\"line\":502,\"ch\":11}},\"scroll\":484.2811565304088}"
-                    },
-                    {
-                      "title": "笔记",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/笔记.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":36},\"to\":{\"line\":15,\"ch\":36}},\"scroll\":9.333998005982053}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":484,\"ch\":12},\"to\":{\"line\":484,\"ch\":12}},\"scroll\":455.65104685942174}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":8},\"to\":{\"line\":51,\"ch\":8}},\"scroll\":33.7702850877193}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":10},\"to\":{\"line\":50,\"ch\":10}},\"scroll\":30.95175438596491}"
-                    },
-                    {
-                      "title": "拓展",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/拓展.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}},\"scroll\":4.3829}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":458,\"ch\":11},\"to\":{\"line\":458,\"ch\":11}},\"scroll\":441.0209371884347}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":52,\"ch\":11},\"to\":{\"line\":52,\"ch\":11}},\"scroll\":34.8}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":144,\"ch\":10},\"to\":{\"line\":144,\"ch\":10}},\"scroll\":120.45}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":184,\"ch\":21},\"to\":{\"line\":184,\"ch\":21}},\"scroll\":159.22727272727272}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":87},\"to\":{\"line\":16,\"ch\":87}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":16},\"to\":{\"line\":88,\"ch\":16}},\"scroll\":71.83333333333333}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":11},\"to\":{\"line\":237,\"ch\":11}},\"scroll\":221.36363636363637}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":96,\"ch\":13},\"to\":{\"line\":96,\"ch\":13}},\"scroll\":75.83333333333333}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":234,\"ch\":11},\"to\":{\"line\":234,\"ch\":11}},\"scroll\":218.37878787878788}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":61,\"ch\":5},\"to\":{\"line\":61,\"ch\":5}},\"scroll\":55.833333333333336}"
-                    },
-                    {
-                      "title": "学习",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/学习.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":9},\"to\":{\"line\":86,\"ch\":9}},\"scroll\":77.40291262135922}"
-                    },
-                    {
-                      "title": "记忆",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/记忆/记忆.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习/学习.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4501c58b69f6ecbe",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":170,\"ch\":10},\"to\":{\"line\":170,\"ch\":10}},\"scroll\":151.56134259259258}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":78,\"ch\":0},\"to\":{\"line\":78,\"ch\":0}},\"scroll\":62.11081248707877}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":41,\"ch\":12},\"to\":{\"line\":41,\"ch\":12}},\"scroll\":22.149305555555557}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":133,\"ch\":9},\"to\":{\"line\":133,\"ch\":9}},\"scroll\":121.6127}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":0},\"to\":{\"line\":40,\"ch\":0}},\"scroll\":20.87138584247258}"
-                    },
-                    {
-                      "title": "肩部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":50,\"ch\":0},\"to\":{\"line\":50,\"ch\":0}},\"scroll\":33.3859649122807}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":10},\"to\":{\"line\":159,\"ch\":10}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "手臂",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":8},\"to\":{\"line\":49,\"ch\":8}},\"scroll\":32.23587158397453}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":10},\"to\":{\"line\":158,\"ch\":10}},\"scroll\":141.27631578947367}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":86,\"ch\":8},\"to\":{\"line\":86,\"ch\":8}},\"scroll\":64.81030701754386}"
-                    },
-                    {
-                      "title": "背部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":134,\"ch\":8},\"to\":{\"line\":134,\"ch\":8}},\"scroll\":113.15350877192982}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":35,\"ch\":14},\"to\":{\"line\":35,\"ch\":14}},\"scroll\":11.111749347258487}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":99.36074561403508}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":15},\"to\":{\"line\":85,\"ch\":15}},\"scroll\":64.10682436517533}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":105,\"ch\":13},\"to\":{\"line\":105,\"ch\":13}},\"scroll\":99.39035087719299}"
-                    },
-                    {
-                      "title": "胸部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":87,\"ch\":8},\"to\":{\"line\":87,\"ch\":8}},\"scroll\":80.60518444666002}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":109,\"ch\":4},\"to\":{\"line\":109,\"ch\":4}},\"scroll\":92.11129385964912}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":4},\"to\":{\"line\":14,\"ch\":4}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":105.21491228070175}"
-                    },
-                    {
-                      "title": "胸部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":88,\"ch\":19},\"to\":{\"line\":88,\"ch\":19}},\"scroll\":66.518444666002}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":116,\"ch\":10},\"to\":{\"line\":116,\"ch\":10}},\"scroll\":105.21491228070175}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":158,\"ch\":20},\"to\":{\"line\":158,\"ch\":20}},\"scroll\":137.536889332004}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":0},\"to\":{\"line\":123,\"ch\":0}},\"scroll\":105.22039473684211}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":9},\"to\":{\"line\":124,\"ch\":9}},\"scroll\":95.7791625124626}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":101.14254385964912}"
-                    },
-                    {
-                      "title": "肩部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/肩部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":8},\"to\":{\"line\":25,\"ch\":8}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":18},\"to\":{\"line\":126,\"ch\":18}},\"scroll\":109.15312046444122}"
-                    },
-                    {
-                      "title": "力量训练",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/训练模式/力量训练.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":69,\"ch\":32},\"to\":{\"line\":69,\"ch\":32}},\"scroll\":55.849495239658566}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":12},\"to\":{\"line\":26,\"ch\":12}},\"scroll\":8.630405943221014}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":18},\"to\":{\"line\":15,\"ch\":18}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":123,\"ch\":10},\"to\":{\"line\":123,\"ch\":10}},\"scroll\":107.28289473684211}"
-                    },
-                    {
-                      "title": "手臂",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/手臂.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":7},\"to\":{\"line\":14,\"ch\":7}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":124,\"ch\":10},\"to\":{\"line\":124,\"ch\":10}},\"scroll\":107.28508771929825}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":37},\"to\":{\"line\":20,\"ch\":37}},\"scroll\":12.107720880870257}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":8},\"to\":{\"line\":6,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":118,\"ch\":20},\"to\":{\"line\":118,\"ch\":20}},\"scroll\":91.45449561403508}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":5},\"to\":{\"line\":34,\"ch\":5}},\"scroll\":17.209429824561404}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}}}"
-                    },
-                    {
-                      "title": "胸部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.75809687589567}"
-                    },
-                    {
-                      "title": "胸部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":6},\"to\":{\"line\":7,\"ch\":6}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":93.52153801676785}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":120,\"ch\":10},\"to\":{\"line\":120,\"ch\":10}},\"scroll\":102.23245614035088}"
-                    },
-                    {
-                      "title": "胸部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/胸部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":25},\"to\":{\"line\":3,\"ch\":25}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":113,\"ch\":10},\"to\":{\"line\":113,\"ch\":10}},\"scroll\":92.74342105263158}"
-                    },
-                    {
-                      "title": "背部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/背部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":237,\"ch\":9},\"to\":{\"line\":237,\"ch\":9}},\"scroll\":225.55350378787878}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":100,\"ch\":10},\"to\":{\"line\":100,\"ch\":10}},\"scroll\":82.96666666666667}"
-                    },
-                    {
-                      "title": "腿部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腿部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":84.9234375}"
-                    },
-                    {
-                      "title": "拉伸",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":5},\"to\":{\"line\":16,\"ch\":5}},\"scroll\":1.3}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":104,\"ch\":10},\"to\":{\"line\":104,\"ch\":10}},\"scroll\":95.4203125}"
-                    },
-                    {
-                      "title": "拉伸",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/拉伸.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":5},\"to\":{\"line\":14,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":108,\"ch\":9},\"to\":{\"line\":108,\"ch\":9}},\"scroll\":94.73333333333333}"
-                    },
-                    {
-                      "title": "腹部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":102,\"ch\":10},\"to\":{\"line\":102,\"ch\":10}},\"scroll\":76.42909760589319}"
-                    },
-                    {
-                      "title": "腹部",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/部位/腹部.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":28},\"to\":{\"line\":14,\"ch\":28}},\"scroll\":9.711862664473685}"
-                    },
-                    {
-                      "title": "健身",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/健身/健身.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":7},\"to\":{\"line\":28,\"ch\":7}},\"scroll\":4.793103448275862}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2fefc13b54857c06",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "布局",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/CSS/布局.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":23},\"to\":{\"line\":5,\"ch\":23}},\"scroll\":0}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/写作\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/行为/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/写作/写作.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "obsidianPrivateNote",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"obsidianPrivateNote//\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/写作\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "写作",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"make-folder-view\",\"state\":{\"contextPath\":\"笔记/行为/写作\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "单例内置对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":51},\"to\":{\"line\":11,\"ch\":51}}}"
-                    },
-                    {
-                      "title": "Math",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Math.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":16},\"to\":{\"line\":16,\"ch\":16}},\"scroll\":19.166666666666668}"
-                    },
-                    {
-                      "title": "单例内置对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":13},\"to\":{\"line\":8,\"ch\":13}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "Global",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/Global.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.4948453608247423}"
-                    },
-                    {
-                      "title": "单例内置对象",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/单例内置对象.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":15},\"to\":{\"line\":7,\"ch\":15}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/前端工作.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "77e1fd3f9230a975",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "react组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react组件.md\",\"mode\":\"preview\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "函数组件",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/函数组件.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":416,\"ch\":20},\"to\":{\"line\":416,\"ch\":20}},\"scroll\":387.96309523809526}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/库、框架/UI库/react.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "372f1e8f780229ca",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "简洁",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/简洁.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "极简主义",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/极简主义.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "简洁",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/简洁.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "当下的力量",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/当下的力量.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":5},\"to\":{\"line\":15,\"ch\":5}}}"
-                    },
-                    {
-                      "title": "人生十二法则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/人生十二法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "title": "鹿智者的法则",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/通用概念/鹿智者的法则.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "活在当下指南",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}}}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":42,\"ch\":4},\"to\":{\"line\":42,\"ch\":4}},\"scroll\":19.857}"
-                    },
-                    {
-                      "title": "活在当下指南",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":37},\"to\":{\"line\":5,\"ch\":37}},\"scroll\":0}"
-                    },
-                    {
-                      "title": "逻辑学",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/哲学/逻辑学/逻辑学.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":7},\"to\":{\"line\":5,\"ch\":7}},\"scroll\":12.677966101694915}"
-                    },
-                    {
-                      "title": "逻辑",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/思维概念/逻辑.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":8},\"to\":{\"line\":1,\"ch\":8}}}"
-                    },
-                    {
-                      "title": "数据类型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/编程语言/JS/基本概念/数据类型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习/极简主义.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3d5d3c48a1694c5e",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/前端/编程语言/JS/基本概念/数据类型.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "f1c9e830d5e356be",
-                "type": "leaf",
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "title": "黄金思维圈",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.845}"
-                    },
-                    {
-                      "state": "{}",
-                      "eState": "{}"
-                    },
-                    {
-                      "title": "思维",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}},\"scroll\":1.8888888888888888}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":361,\"ch\":11},\"to\":{\"line\":361,\"ch\":11}},\"scroll\":346.88947368421054}"
-                    }
-                  ]
-                },
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/思考/基本概念/思维模型.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
+                ]
               }
             ],
-            "currentTab": 3
+            "direction": "horizontal"
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1021,7 +1422,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1042,7 +1443,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/行为/健身/部位/腿部.md"
                       }
                     }
                   }
@@ -1068,7 +1469,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/行为/健身/部位/腿部.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1387,17 +1788,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d6a04bc597d90b71",
+  "active": "20f1c9961029c6dd",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/学习/学习.md",
     "笔记/行为/健身/部位/腿部.md",
     "笔记/前端/前端工作.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/训练模式/力量训练.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/行为/健身/训练模式/波动周期.md",
     "笔记/工具/思考/基本概念/思维模型.md",
