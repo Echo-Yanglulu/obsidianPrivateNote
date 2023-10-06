@@ -263,7 +263,7 @@ var SettingsSearch = class extends import_obsidian.Plugin {
     this.register(around(this.app.setting, {
       addSettingTab: function(next) {
         return function(tab) {
-          if (tab && tab.id !== void 0 && !this.seen.includes(tab.id)) {
+          if (tab && tab.id !== void 0 && !self.seen.includes(tab.id)) {
             self.getTabResources(tab);
           }
           return next.call(this, tab);
