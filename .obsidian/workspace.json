@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/行为/健身/部位/腿部.md"
+                    "file": "笔记/工具/思考/基本概念/思维模型.md"
                   }
                 }
               }
@@ -961,14 +961,38 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "黄金思维圈",
+                      "title": "思想实验",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":7},\"to\":{\"line\":8,\"ch\":7}},\"scroll\":0.845}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思想实验.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                     },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "地图思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/地图思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":30},\"to\":{\"line\":4,\"ch\":30}}}"
+                    },
+                    {
+                      "title": "思维模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":11},\"to\":{\"line\":9,\"ch\":11}}}"
+                    },
+                    {
+                      "title": "地图思维",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/地图思维.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}}}"
+                    },
+                    {
+                      "title": "思维模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":9},\"to\":{\"line\":9,\"ch\":9}},\"scroll\":243.45}"
                     },
                     {
                       "title": "思维",
@@ -993,9 +1017,31 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "63bcce849aa4c7e0",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/学习/概念/临界知识.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 10
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1021,7 +1067,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1042,7 +1088,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md"
+                        "file": "笔记/工具/思考/基本概念/思维模型.md"
                       }
                     }
                   }
@@ -1068,7 +1114,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/行为/健身/部位/腿部.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "collapseAll": true,
                         "extraContext": false,
                         "sortOrder": "byModifiedTime",
@@ -1387,20 +1433,28 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4501c58b69f6ecbe",
+  "active": "f1c9e830d5e356be",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/行为/健身/部位/腿部.md",
-    "笔记/学习/学习.md",
+    "笔记/工具/思考/基本概念/思想实验.md",
+    "笔记/工具/思考/基本概念/思维模型.md",
+    "笔记/工具/思考/基本概念/第一性原理.md",
+    "笔记/工具/思考/基本概念/汉隆剃刀定律.md",
+    "笔记/学习/概念/复利效应.md",
+    "笔记/学习/概念/临界知识.md",
+    "笔记/学习/概念/概率论.md",
+    "笔记/学习/概念/奥卡姆剃刀定律.md",
+    "笔记/工具/思考/基本概念/地图思维.md",
     "笔记/前端/前端工作.md",
+    "笔记/行为/健身/部位/腿部.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/学习/学习.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/训练模式/力量训练.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/行为/健身/训练模式/波动周期.md",
-    "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/学习/概念/黄金思维圈.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/通用概念/期待.md",
@@ -1411,14 +1465,6 @@
     "笔记/工具/通用概念/目标.md",
     "笔记/内心/人生.md",
     "笔记/内心/领悟.md",
-    "笔记/内心/圆满.md",
-    "笔记/工具/通用概念/完美.md",
-    "笔记/工具/通用概念/了解.md",
-    "笔记/内心/期望.md",
-    "笔记/内心/期待.md",
-    "笔记/内心/欲望.md",
-    "笔记/工具/通用概念/抗拒.md",
-    "笔记/工具/心理学/情绪/情绪.md",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
     "笔记/前端/assets/Pasted image 20230912141841.png",
