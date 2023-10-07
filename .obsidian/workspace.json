@@ -131,13 +131,19 @@
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":73,\"ch\":11},\"to\":{\"line\":73,\"ch\":11}},\"scroll\":180.19270833333334}"
                     }
                   ]
                 },
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/内心/活在当下指南.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1444,12 +1450,14 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/活在当下指南.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/觉察.md",
+    "笔记/内心/简洁.md",
     "笔记/工具/意识/意识.md",
     "笔记/内心/欲望.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/内心/心灵.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/工具/思考/记忆/条件性.md",
@@ -1468,8 +1476,6 @@
     "笔记/学习/概念/复利效应.md",
     "笔记/学习/概念/临界知识.md",
     "笔记/学习/概念/概率论.md",
-    "笔记/学习/概念/奥卡姆剃刀定律.md",
-    "笔记/工具/思考/基本概念/地图思维.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
