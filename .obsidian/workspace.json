@@ -958,17 +958,23 @@
                 "id": "f1c9e830d5e356be",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "思想实验",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思想实验.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "第一性原理",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/第一性原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":172},\"to\":{\"line\":6,\"ch\":172}}}"
+                    },
+                    {
+                      "title": "思维模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":15},\"to\":{\"line\":13,\"ch\":15}}}"
                     },
                     {
                       "title": "地图思维",
@@ -1438,9 +1444,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/思考/基本概念/思想实验.md",
-    "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/工具/思考/基本概念/第一性原理.md",
+    "笔记/工具/思考/基本概念/思维模型.md",
+    "笔记/工具/思考/基本概念/思想实验.md",
     "笔记/工具/思考/基本概念/汉隆剃刀定律.md",
     "笔记/学习/概念/复利效应.md",
     "笔记/学习/概念/临界知识.md",
