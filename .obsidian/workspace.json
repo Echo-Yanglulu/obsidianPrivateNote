@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/黄金思维圈.md"
+                    "file": "笔记/工具/思考/基本概念/思维模型.md"
                   }
                 }
               }
@@ -982,17 +982,17 @@
                 "id": "f1c9e830d5e356be",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "黄金思维圈",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/学习/概念/黄金思维圈.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":6},\"to\":{\"line\":22,\"ch\":6}},\"scroll\":10.978875171467765}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "思维模型",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":17},\"to\":{\"line\":30,\"ch\":17}},\"scroll\":0.8436}"
                     },
                     {
                       "title": "第一性原理",
@@ -1047,7 +1047,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/黄金思维圈.md",
+                    "file": "笔记/工具/思考/基本概念/思维模型.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1103,7 +1103,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/黄金思维圈.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1124,7 +1124,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/概念/黄金思维圈.md"
+                        "file": "笔记/工具/思考/基本概念/思维模型.md"
                       }
                     }
                   }
@@ -1149,7 +1149,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/黄金思维圈.md",
+                        "file": "笔记/工具/思考/基本概念/思维模型.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1473,6 +1473,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/工具/通用概念/形式谬误.md",
     "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/学习/概念/黄金思维圈.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -1498,7 +1499,6 @@
     "笔记/工具/思考/盲点思维.md",
     "笔记/工具/思考/基本概念/第一性原理.md",
     "笔记/工具/思考/基本概念/思想实验.md",
-    "笔记/工具/思考/基本概念/汉隆剃刀定律.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
