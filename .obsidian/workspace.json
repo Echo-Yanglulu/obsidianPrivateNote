@@ -126,8 +126,14 @@
                 "id": "d6a04bc597d90b71",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "react-router API",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":4},\"to\":{\"line\":74,\"ch\":4}},\"scroll\":63.861864824864334}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
@@ -1203,7 +1209,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "黄金思维",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -1264,7 +1270,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "cd149acb9d388145",
@@ -1397,7 +1403,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1452,9 +1458,9 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "notion-like-tables:Create new loom": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "d6a04bc597d90b71",
@@ -1462,8 +1468,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/意识/意识.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/觉察.md",
@@ -1487,7 +1494,6 @@
     "笔记/工具/思考/基本概念/思想实验.md",
     "笔记/工具/思考/基本概念/汉隆剃刀定律.md",
     "笔记/学习/概念/复利效应.md",
-    "笔记/学习/概念/临界知识.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
