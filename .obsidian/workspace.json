@@ -129,10 +129,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "react-router API",
+                      "title": "活在当下指南",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/前端/库、框架/UI库/react-router API.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":74,\"ch\":4},\"to\":{\"line\":74,\"ch\":4}},\"scroll\":63.861864824864334}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":277,\"ch\":0},\"to\":{\"line\":277,\"ch\":0}},\"scroll\":261.634837962963}"
                     },
                     {
                       "state": "{}",
@@ -1146,7 +1146,7 @@
                       "state": {
                         "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
-                        "extraContext": false,
+                        "extraContext": true,
                         "sortOrder": "byModifiedTime",
                         "showSearch": false,
                         "searchQuery": "",
@@ -1468,11 +1468,11 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/前端/库、框架/UI库/react-router API.md",
+    "笔记/内心/活在当下指南.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/当下.md",
-    "笔记/内心/活在当下指南.md",
     "笔记/内心/觉察.md",
     "笔记/内心/简洁.md",
     "笔记/内心/欲望.md",
