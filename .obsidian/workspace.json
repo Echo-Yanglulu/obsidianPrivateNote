@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/学习/概念/黄金思维圈.md"
                   }
                 }
               }
@@ -989,6 +989,12 @@
                       "eState": "{}"
                     },
                     {
+                      "title": "思维模型",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/思维模型.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":30,\"ch\":17},\"to\":{\"line\":30,\"ch\":17}},\"scroll\":0.8436}"
+                    },
+                    {
                       "title": "第一性原理",
                       "icon": "lucide-file",
                       "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/工具/思考/基本概念/第一性原理.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1041,7 +1047,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/基本概念/思维模型.md",
+                    "file": "笔记/学习/概念/黄金思维圈.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1071,7 +1077,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 10
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1097,7 +1103,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/概念/黄金思维圈.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1118,12 +1124,11 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/学习/概念/黄金思维圈.md"
                       }
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -1144,7 +1149,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/学习/概念/黄金思维圈.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1463,13 +1468,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d6a04bc597d90b71",
+  "active": "f1c9e830d5e356be",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/活在当下指南.md",
+    "笔记/工具/思考/基本概念/思维模型.md",
+    "笔记/学习/概念/黄金思维圈.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/活在当下指南.md",
     "笔记/前端/库、框架/UI库/react-router API.md",
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/当下.md",
@@ -1487,13 +1494,11 @@
     "笔记/工具/通用概念/理性.md",
     "笔记/工具/思考/记忆/想象力.md",
     "笔记/工具/意识/觉醒.md",
-    "笔记/工具/思考/基本概念/思维模型.md",
     "笔记/学习/概念/盲点.md",
     "笔记/工具/思考/盲点思维.md",
     "笔记/工具/思考/基本概念/第一性原理.md",
     "笔记/工具/思考/基本概念/思想实验.md",
     "笔记/工具/思考/基本概念/汉隆剃刀定律.md",
-    "笔记/学习/概念/复利效应.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
