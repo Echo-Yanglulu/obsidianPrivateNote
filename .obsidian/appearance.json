@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 18,
+  "baseFontSize": 19,
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
@@ -22,6 +22,6 @@
   "textFontFamily": "JetBrains Mono NL",
   "nativeMenus": false,
   "showViewHeader": true,
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "monospaceFontFamily": "JetBrains Mono"
 }
