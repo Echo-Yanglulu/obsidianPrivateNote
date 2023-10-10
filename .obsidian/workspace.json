@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/内心/圆满.md"
                   }
                 }
               }
@@ -110,17 +110,17 @@
                 "id": "d6a04bc597d90b71",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "圆满",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/圆满.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":22},\"to\":{\"line\":10,\"ch\":22}},\"scroll\":0}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":369,\"ch\":17},\"to\":{\"line\":369,\"ch\":17}},\"scroll\":350.1729810568295}"
                     },
                     {
                       "title": "当下",
@@ -145,7 +145,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/内心/圆满.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1087,7 +1087,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/圆满.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1108,7 +1108,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/内心/圆满.md"
                       }
                     }
                   }
@@ -1133,7 +1133,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/圆满.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1457,8 +1457,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/工具/通用概念/心流.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/心流.md",
     "笔记/内心/圆满.md",
     "笔记/内心/人生.md",
     "笔记/沟通/沟通.md",
