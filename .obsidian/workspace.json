@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/沟通/沟通.md"
+                    "file": "笔记/内心/人生.md"
                   }
                 }
               }
@@ -110,17 +110,17 @@
                 "id": "d6a04bc597d90b71",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 1,
+                  "pos": 0,
                   "stack": [
-                    {
-                      "title": "活在当下指南",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/活在当下指南.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":277,\"ch\":0},\"to\":{\"line\":277,\"ch\":0}},\"scroll\":261.634837962963}"
-                    },
                     {
                       "state": "{}",
                       "eState": "{}"
+                    },
+                    {
+                      "title": "深夜加油站遇见苏格拉底",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":315,\"ch\":10},\"to\":{\"line\":315,\"ch\":10}},\"scroll\":294.4720394736842}"
                     },
                     {
                       "title": "当下",
@@ -145,7 +145,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/内心/人生.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1060,7 +1060,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -1086,7 +1087,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/沟通/沟通.md",
+                        "file": "笔记/内心/人生.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1107,7 +1108,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/沟通/沟通.md"
+                        "file": "笔记/内心/人生.md"
                       }
                     }
                   }
@@ -1132,7 +1133,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/沟通/沟通.md",
+                        "file": "笔记/内心/人生.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1445,25 +1446,26 @@
       "random-note:开始漫游笔记": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "notion-like-tables:Create new loom": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-memos:Memos": false
+      "obsidian-memos:Memos": false,
+      "notion-like-tables:Create loom": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "d6a04bc597d90b71",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/内心/人生.md",
+    "笔记/沟通/沟通.md",
     "笔记/工具/意识/意识.md",
     "笔记/诗词/诗歌.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/至一生命.md",
     "笔记/学习/概念/知识.md",
     "笔记/工具/通用概念/智慧.md",
     "笔记/内心/圆满.md",
-    "笔记/内心/人生.md",
     "笔记/学习/概念/事实.md",
     "笔记/工具/通用概念/形式谬误.md",
     "笔记/工具/思考/基本概念/思维模型.md",
@@ -1481,7 +1483,6 @@
     "笔记/工具/思考/记忆/条件性.md",
     "笔记/工具/思考/基本概念/前意识.md",
     "笔记/工具/通用概念/心灵能力.md",
-    "笔记/工具/思考/理性思维.md",
     "笔记/前端/assets/Pasted image 20230913001948.png",
     "笔记/前端/assets/Pasted image 20231001235258.png",
     "笔记/前端/assets/Pasted image 20230912141847.png",
