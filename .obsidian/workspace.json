@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/人生.md"
+                    "file": "笔记/内心/圆满.md"
                   }
                 }
               }
@@ -110,17 +110,17 @@
                 "id": "d6a04bc597d90b71",
                 "type": "leaf",
                 "pane-relief:history-v1": {
-                  "pos": 0,
+                  "pos": 1,
                   "stack": [
+                    {
+                      "title": "人生",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/人生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":18},\"to\":{\"line\":8,\"ch\":18}},\"scroll\":0}"
+                    },
                     {
                       "state": "{}",
                       "eState": "{}"
-                    },
-                    {
-                      "title": "深夜加油站遇见苏格拉底",
-                      "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/深夜加油站遇见苏格拉底.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":315,\"ch\":10},\"to\":{\"line\":315,\"ch\":10}},\"scroll\":294.4720394736842}"
                     },
                     {
                       "title": "当下",
@@ -145,7 +145,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/人生.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -1087,7 +1087,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/人生.md",
+                        "file": "笔记/内心/圆满.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1108,7 +1108,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/人生.md"
+                        "file": "笔记/内心/圆满.md"
                       }
                     }
                   }
@@ -1133,7 +1133,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/人生.md",
+                        "file": "笔记/内心/圆满.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1452,7 +1452,7 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "d6a04bc597d90b71",
+  "active": "fe269c2cc7e25aef",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
