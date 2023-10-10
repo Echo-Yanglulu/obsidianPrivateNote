@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/圆满.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -113,10 +113,10 @@
                   "pos": 1,
                   "stack": [
                     {
-                      "title": "人生",
+                      "title": "圆满",
                       "icon": "lucide-file",
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/人生.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":18},\"to\":{\"line\":8,\"ch\":18}},\"scroll\":0}"
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"笔记/内心/圆满.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":7},\"to\":{\"line\":19,\"ch\":7}},\"scroll\":0}"
                     },
                     {
                       "state": "{}",
@@ -1087,7 +1087,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/圆满.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1108,7 +1108,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/圆满.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -1133,7 +1133,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/圆满.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1452,13 +1452,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7eb5627730163e08",
+  "active": "d6a04bc597d90b71",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/圆满.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/内心/人生.md",
     "笔记/沟通/沟通.md",
     "笔记/工具/意识/意识.md",
