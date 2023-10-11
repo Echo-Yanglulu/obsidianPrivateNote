@@ -311,7 +311,6 @@
   "sanctum@@file-line-width": 42,
   "anuppuccin-theme-settings@@anp-file-label-align": "0",
   "blue-topaz-theme@@toggle-left-aligned-content": false,
-  "jotter@@strong-color": "#0500D7",
   "jotter@@em-underline": false,
   "jotter@@em-color": "#3EC200",
   "jotter@@italic-underline-color": "#4CD100",
@@ -345,5 +344,8 @@
   "sanctum@@color-accent-rgb-l": "246, 141, 69",
   "sanctum@@table-nums": true,
   "ebullientworks-theme-16@@ebullientworks-show-edit-mode-external-links": true,
-  "ebullientworks-theme-16@@ebullientworks-floating-frontmatter": true
+  "ebullientworks-theme-16@@ebullientworks-floating-frontmatter": true,
+  "jotter@@bold-underline": false,
+  "jotter@@strong-color": "#D70000",
+  "jotter@@link-color": "#8706ED"
 }
