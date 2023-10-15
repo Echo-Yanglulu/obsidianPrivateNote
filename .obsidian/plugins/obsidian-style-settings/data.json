@@ -352,5 +352,21 @@
   "ebullientworks-theme-16@@ebullientworks-secondary-accent": "secondary-accent-orange",
   "obsidian-joval-theme@@hide-gui": false,
   "obsidian-joval-theme@@footnote-g": true,
-  "obsidian-joval-theme@@code-utils": true
+  "obsidian-joval-theme@@code-utils": false,
+  "obsidian-joval-theme@@show-title-parent": true,
+  "obsidian-joval-theme@@show-status-bar": false,
+  "obsidian-joval-theme@@show-tab-name": true,
+  "obsidian-joval-theme@@show-ui-btns": true,
+  "obsidian-joval-theme@@stacked-tabs-focused": true,
+  "obsidian-joval-theme@@show-title-name": true,
+  "obsidian-joval-theme@@show-ribbon-l": true,
+  "obsidian-joval-theme@@switch-dcol": "col-mod-a",
+  "obsidian-joval-theme@@dim-pictures": "dark-2",
+  "obsidian-joval-theme@@italic-color@@light": "#B80093",
+  "obsidian-joval-theme@@text-selection@@light": "#21DD178A",
+  "obsidian-joval-theme@@h1-color@@light": "#FF0000",
+  "obsidian-joval-theme@@h2-color@@light": "#00B1B4",
+  "obsidian-joval-theme@@h3-color@@light": "#AA5C00",
+  "obsidian-joval-theme@@h4-color@@light": "#0023DF",
+  "obsidian-joval-theme@@glob-fonts": "fontmod-3"
 }
