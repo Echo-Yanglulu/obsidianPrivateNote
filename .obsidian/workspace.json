@@ -27,7 +27,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/恐惧.md"
+                    "file": "笔记/工具/思考/幻象.md"
                   }
                 }
               }
@@ -1099,7 +1099,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "linksCollapsed": true,
                         "unlinkedCollapsed": false
                       }
@@ -1120,7 +1120,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md"
+                        "file": "笔记/工具/思考/幻象.md"
                       }
                     }
                   }
@@ -1146,7 +1146,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/恐惧.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -1403,9 +1403,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "c020b62d6736eb7c",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -1436,8 +1444,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5,
-    "collapsed": true
+    "width": 394.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1465,16 +1472,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "edd44116ef50c1b6",
+  "active": "3ee6753415cb5bcc",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/恐惧.md",
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/思考/记忆/联系.md",
     "笔记/学习/概念/事实.md",
-    "笔记/工具/通用概念/恐惧.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/思考/幻象.md",
     "笔记/行为/健身/健身.md",
     "笔记/行为/健身/部位/腿部.md",
