@@ -145,7 +145,7 @@
   "encore-settings@@h2-colour": "encore-h2-custom",
   "encore-settings@@theme-light": "encore-theme-light",
   "ul-theme-settings@@ul-accent-title": false,
-  "mado-11@@theme-color": "theme-violette",
+  "mado-11@@theme-color": "theme-orange-jist",
   "mado-11@@toggle-wave-background": true,
   "mado-11@@toggle-titlebar-buttons": false,
   "mado-11@@toggle-side-ribbons": false,
@@ -369,5 +369,15 @@
   "obsidian-joval-theme@@h3-color@@light": "#AA5C00",
   "obsidian-joval-theme@@h4-color@@light": "#0023DF",
   "obsidian-joval-theme@@glob-fonts": "fontmod-3",
-  "obsidian-joval-theme@@bold-color@@light": "#FE00B6"
+  "obsidian-joval-theme@@bold-color@@light": "#FE00B6",
+  "CG@@CG-workspace-background": true,
+  "CG@@CG-workspace-background-blur": 15,
+  "CG@@CG-workspace-background-saturation": 4,
+  "CG@@CG-workspace-background-contrast": 45,
+  "CG@@CG-workspace-sbt": "CG-MObsidian-sbt",
+  "mado-11@@toggle-sidebar-right-color": false,
+  "CG@@CG-workspace-background-workspace-slider": 0.39,
+  "CG@@CG-workspace-background-brightness": 1.15,
+  "CG@@CG-header-crumbs": true,
+  "CG@@CG-custom-checkbox": true
 }
