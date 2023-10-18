@@ -283,8 +283,8 @@
   "shimmering-focus@@clean-embeds": false,
   "shimmering-focus@@hide-trailing-whitespace": true,
   "things-style@@active-line": true,
-  "jotter@@color-scheme": "ct-explorer",
-  "jotter@@predefined-accent-colors": "accent-vermilion",
+  "jotter@@color-scheme": "ct-reporter",
+  "jotter@@predefined-accent-colors": "accent-jade",
   "jotter@@active-line-highlight": true,
   "jotter@@hide-note-title": false,
   "jotter@@h2-underline": true,
@@ -346,7 +346,6 @@
   "ebullientworks-theme-16@@ebullientworks-show-edit-mode-external-links": true,
   "ebullientworks-theme-16@@ebullientworks-floating-frontmatter": true,
   "jotter@@bold-underline": false,
-  "jotter@@strong-color": "#D70000",
   "jotter@@link-color": "#8706ED",
   "ebullientworks-theme-16@@ebullientworks-nix-tags": true,
   "ebullientworks-theme-16@@ebullientworks-secondary-accent": "secondary-accent-orange",
@@ -379,5 +378,6 @@
   "CG@@CG-workspace-background-workspace-slider": 0.39,
   "CG@@CG-workspace-background-brightness": 1.15,
   "CG@@CG-header-crumbs": true,
-  "CG@@CG-custom-checkbox": true
+  "CG@@CG-custom-checkbox": true,
+  "jotter@@strong-color": "#059B01"
 }
