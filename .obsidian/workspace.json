@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/判断.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -177,7 +177,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/判断.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +189,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/思考/判断.md"
+                        "file": "笔记/学习/学习.md"
                       }
                     }
                   }
@@ -206,7 +206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/判断.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -279,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "fee80e388149649b",
@@ -382,8 +382,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -408,7 +407,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2c4104904faf1e7f",
+  "active": "5b6a3864c2d565e1",
   "lastOpenFiles": [
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/判断.md",
