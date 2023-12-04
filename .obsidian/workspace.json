@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/工具/思考/思维概念/推理.md"
                   }
                 }
               }
@@ -177,7 +177,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/思维概念/推理.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +189,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/学习.md"
+                        "file": "笔记/工具/思考/思维概念/推理.md"
                       }
                     }
                   }
@@ -206,7 +206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/工具/思考/思维概念/推理.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -382,7 +382,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -407,8 +408,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b6a3864c2d565e1",
+  "active": "d9dd5e7610ee35c0",
   "lastOpenFiles": [
+    "笔记/学习/学习.md",
     "笔记/工具/思考/思维概念/推理.md",
     "笔记/工具/思考/判断.md",
     "笔记/工具/哲学/逻辑学/前提.md",
@@ -434,7 +436,6 @@
     "笔记/学习/极简主义.md",
     "笔记/内心/美德.md",
     "笔记/学习/热情.md",
-    "笔记/工具/通用概念/鹿智者的法则.md",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
     "笔记/前端/assets/Pasted image 20231101092127.png",
