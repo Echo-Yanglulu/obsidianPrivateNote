@@ -51,7 +51,7 @@ HTML中的每段标记都可以表示为这个树形结构中的一个节点。
 ## Node类型
 背景：DOM Level 1描述了名为`Node`的接口
 	1. 必要
-		1. 所有 DOM 节点类型都必须实现，都继承自Node 类型，因此所有类型都共享相同的基本属性和方法
+		1. 所有 DOM 节点类型都必须实现，都*继承*自Node 类型，因此所有类型共享的属性和方法
 	2. 访问：在JavaScript中被实现为 `Node类型`，在除IE之外的所有浏览器中都可以**直接访问**这个类型
 分类：文档、元素、属性、文本、2 C、2 D
 ### 节点类型
@@ -196,7 +196,7 @@ document对象有一个古老的能力，即*向网页输出流中写入内容*
 	4. parentNode值为Document或Element对象；
 	5. 子节点可以是Element、Text、Comment、ProcessingInstruction、CDATASection、EntityReference类型。
 属性
-	1. 可以通过nodeName或tagName属性来获取元素的标签名
+	1. 可以通过`nodeName`或`tagName`属性来获取元素的标签名
 		1. 在HTML中，元素标签名始终以全大写表示；在XML（包括XHTML）中，标签名始终与源代码中的大小写一致。
 			1. div.tagName实际上返回的是"DIV"而不是"div"。使用toLowerCase处理再比较\=='div'
 			2. 

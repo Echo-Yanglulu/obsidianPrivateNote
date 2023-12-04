@@ -47,6 +47,7 @@
   "excludeOpenRelatedFiles": false,
   "excludeObsidianIgnoredFiles": false,
   "shouldSearchFilenames": false,
+  "shouldSearchBookmarks": false,
   "pathDisplayFormat": 3,
   "hidePathIfRoot": true,
   "enabledRelatedItems": [
@@ -203,5 +204,59 @@
   "preserveQuickSwitcherLastInput": false,
   "shouldCloseModalOnBackspace": false,
   "maxRecentFileSuggestionsOnInit": 25,
-  "orderEditorListByAccessTime": true
+  "orderEditorListByAccessTime": true,
+  "insertLinkInEditor": {
+    "isEnabled": true,
+    "keymap": {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "i",
+      "purpose": "insert in editor"
+    },
+    "insertableEditorTypes": [
+      "markdown"
+    ],
+    "useBasenameAsAlias": false,
+    "useHeadingAsAlias": true
+  },
+  "removeDefaultTabBinding": true,
+  "navigationKeys": {
+    "nextKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "n"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "j"
+      }
+    ],
+    "prevKeys": [
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "p"
+      },
+      {
+        "modifiers": [
+          "Ctrl"
+        ],
+        "key": "k"
+      }
+    ]
+  },
+  "preferredSourceForTitle": "H1",
+  "closeWhenEmptyKeys": [
+    {
+      "modifiers": null,
+      "key": "Backspace"
+    }
+  ],
+  "escapeCmdChar": "!"
 }

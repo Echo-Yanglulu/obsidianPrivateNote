@@ -8,7 +8,7 @@ UI框架：搭建数据驱动的web和移动端UI
 ## 保持组件的纯净
 [Keeping Components Pure – React](https://react.dev/learn/keeping-components-pure#) 
 1. 相同返回值。react 是围绕[[纯函数]]这个概念设计的。它假设你创建的每个组件都是纯函数，即 react 组件在相同输入时必须返回相同的 [[JSX]]。
-2. [[副作用]]
+2. [[副作用]] 
 	1. 虽然[[函数式编程]]很大程度依赖于*函数的纯粹性*：[[纯函数]]，但有时也必须改变一些事物，这些更改称为[[副作用]]。
 		1. 将外部变量通过 Props 传递【相同输入】，而不是去创造副作用，产生**突变**【组件在渲染时修改了*预先创建*的变量】。[[Pasted image 20230811151830.png]]。组件在渲染时修改*渲染时创建*的变量则是完全可以的。
 	2. 在 react 中<u>副作用通常属于</u>事件处理程序
@@ -77,7 +77,7 @@ mutation：改变对象中的内容
 [[React元素]] 
 [[JSX]] 
 ## [[组件]] 
-1. 受控组件：由开发者通过state和 onchange 事件，手动地管理*表单值*的获取与更新
+1. 受控组件：由开发者通过state和 onchange 事件，**手动管理**表单值的获取与更新
 	1. 使用value属性：input, textarea, select
 	2. 使用checked属性：checkbox, radio
 2. 非受控组件: 由 react 管理元素的输入值的改变。不需要定义回调，但表单值的获取需要通过 ref 属性
@@ -85,11 +85,13 @@ mutation：改变对象中的内容
 	2. defaultValue/ defaultCechked
 	3. 手动操作 DOM
 3. ref 使用场景
-		1. *优先使用受控组件*，符合 [[react]] 设计原则
+		1. *优先使用受控组件*，符合 [[React]] 设计原则
 		2. 必须操作 DOM 时，再使用非受控
 			1. 文件上传
 			2. 富文本编辑器
 			3. 手动操作 [[DOM]] 
+### 命名
+首字母大写
 ### 通讯
 1. 普通
 	1. props
@@ -196,7 +198,7 @@ List.propTypes = {
 ## 机制
 1. 父组件更新，子组件默认也更新
 	1. class 组件可使用 scu 或 pu。
-	2. [[函数组件]] 使用监听，可使用 React.memo【对 props 进行浅层比较，阻止渲染】
+	2. [[函数组件]]可用 React.memo【对 props 进行浅层比较，阻止渲染】
 # API
 ## 基本特性
 ### 父组件获取子组件
@@ -267,10 +269,11 @@ API：createPortal(children, domNode, key?)
 	4. 适用：对话框、全局的消息提示等全局展示的组件。
 ### [[context]] 
 ### [[性能优化]] 
-1. SCU
+1. SCU 函数
 2. PureComponent
-3. React.memo(Component, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
+3. React.memo(组件, (prevProps, nextProps) => {  自定义的对比逻辑 // return true 则不重新渲染  // return false 重新渲染 }), 
 	1. 两种组件皆可用
+	2. 自定义对比函数
 4. immutable. js：拥抱不可变值
 5. useMemo, useCallback
 ### 逻辑复用
@@ -281,9 +284,13 @@ flushSync(callback)
 	1. 由[[ReactDOM]]提供
 	2. 严重破坏性能，如果可以，尽量避免使用
 ### [[异常捕获]]/[[错误处理]] 
-通常使用try/catch在*可能出错*的地方。或使用window.onerror绑定
 react 本身的[[react原理#react中的Fiber协调【染新，乌鸡布局】|fiber协调]]带来了一个异常捕获的优化【组件错误、全局异常】
 ![[Pasted image 20230530144452.png]] 
+1. ErrorBoundary 组件
+	1. 监听所有下级组件报错，可展示降低 UI
+		1. 生产环境生效，DEV 环境直接报错。
+	2. 只监听*渲染*报错，不监听 [[DOM]]事件、异步错误
+		1. 渲染成功后出错不管（如点击回调的报错，无法获取）
 ```js
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -300,7 +307,7 @@ class ErrorBoundary extends React.Component {
 
   render() {
     if (this.state.hasError) {
-      // You can render any custom fallback UI
+      // 返回的UI会作为降级UI展示
       return <h1>Something went wrong.</h1>;
     }
     return this.props.children;
@@ -311,6 +318,7 @@ class ErrorBoundary extends React.Component {
   <MyWidget />
 </ErrorBoundary>
 ```
+1. 非渲染相关：[[异常捕获]]、[[监控与异常上报]] 
 
 ### 分析组件树性能
 ```js

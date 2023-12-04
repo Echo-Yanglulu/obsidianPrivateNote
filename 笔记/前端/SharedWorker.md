@@ -1,16 +1,18 @@
-可单独开启一个进程，用于同域页面通讯。引入的文件可执行该文件。
+可单独开启一个进程，用于*同域*页面通讯。引入的文件可执行该文件。
 
 # 使用
 ```js
+//sharedWorker.js
 const set = new Set()
 
 onconnect = event => {
     const port = event.ports[0]
+    // 如果是多个页面通讯，就添加多个进set
     set.add(port)
 
-    // 接收信息
+    // 收到信息时
     port.onmessage = e => {
-        // 广播消息
+		// 向其他页面发送消息
         set.forEach(p => {
             if (p === port) return
             p.postMessage(e.data)
@@ -22,9 +24,9 @@ onconnect = event => {
 }
 
 ```
-需要通讯的两个页面，都引入该文件，
-通过 worker.port.postMessage 发送消息
-通过 worker.port.onmessage 接收消息
+需要通讯的所有页面，都引入该 JS文件，
+	1. 通过 worker.port.postMessage 发送消息
+	2. 通过 worker.port.onmessage 接收消息
 ```html
 // 列表页
 <!DOCTYPE html>
@@ -39,7 +41,7 @@ onconnect = event => {
     <p>SharedWorker message - list page</p>
 
     <script>
-        const worker = new SharedWorker('./worker.js')
+        const worker = new SharedWorker('./sharedWorker.js')
         worker.port.onmessage = e => console.info('list文件收到消息：', e.data)
     </script>
 </body>
@@ -60,7 +62,7 @@ onconnect = event => {
     <p>SharedWorker message - detail page</p>
     <button id="btn1">修改标题</button>
     <script>
-        const worker = new SharedWorker('./worker.js')
+        const worker = new SharedWorker('./sharedWorker.js')
         const btn1 = document.getElementById('btn1')
         btn1.addEventListener('click', () => {
             console.log('detail文件点击')
@@ -71,6 +73,6 @@ onconnect = event => {
 </html>
 ```
 # 调试
-地址栏输入： `chrome://inspect` 找到 `shared workers` ，可做验证（使用时没有收到消息时使用此方式进行验证）
+## 本地调试
+如果在隐私模式下查看时，找不到控制台的输出消息。可在地址栏输入： `chrome://inspect` 找到 `shared workers` ，点击 `inspect`可做验证（使用时没有收到消息时使用此方式进行验证）
 兼容性：IE11不支持
-

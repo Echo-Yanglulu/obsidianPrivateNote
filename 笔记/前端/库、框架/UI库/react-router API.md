@@ -102,7 +102,7 @@
 		1. key: 'ac3df4', // not with HashHistory!
 		2. pathname: '/somewhere',
 		3. search: '?some=search-string',
-		4. hash: ' #howdy ',
+		4. hash: '#howdy',
 		5. state: { \[userDefined]: true }
 	3. 特性
 		1. 不可变。所以可在生命周期中使用

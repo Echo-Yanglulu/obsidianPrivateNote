@@ -38,128 +38,10 @@
 	5.  整体能作为一个模块使用（复用）
 	6.  避免修改（开闭原则）
 ## [[单例模式]] 
-问题：如何确保某个类只能有==唯一实例==，并提供全局访问？
-
-如：线程池，全局缓存，浏览器的window对象，登录弹窗，全局提醒，唯一的iframe
-
-思路：用一个变量判断当前类是否已经实例化过，如果没有实例化过，实例化并修改变量。如果已经实例化过直接返回该实例。
-
-分类：
-	1.  不透明单例
-```javascript
-// "不透明"单例模式：该类的使用者必须知道这是一个单例类（只能创建一个实例的类）
-class Singleton {
-  constructor(name) {
-    this.name = name
-    this.instance = null
-  }
-  static getInstance(name) {
-    return this.instance || (this.instance = new Singleton(name))
-  }
-}
-
-var sin1 = Singleton.getInstance('name1')
-var sin2 = Singleton.getInstance('name2')
-console.log(sin1, sin2, sin1 === sin2)
-```
- 2.  透明单例
- 3.  代理单例
- 4.  惰性单例
-场景：
-	1.  给项目写一个全局的数据存储对象
-	2.  vue-router（路由）必须保证全局只有一个（避免重复注册），否则会错乱
-	3.  多次点击登陆时，只弹出一次成功/失败的提示
-
-## 工厂模式
-
->定义：某个（简单）对象需要经常创建。封装实例的创建过程，解放new Class()【vue,react都在用】
-
-==任何行为都可以单独封装到一个对象==中。实现对行为/操作的封装，因为行为必然需要一个对象作为施展的主体。
-
-场景：
-	1.  table组件中columns属性，数组中对象大多相似。
-	2.  项目中有一部分内容（UI，逻辑，组件）经常被重复用到
-
-```javascript
-//弹窗
-function infoPop(){
-
-}
-function confirmPop(){
-
-}
-function cancelPop(){
-
-}
-
-function pop(type,content,color){
-	if(this instanceof pop){
- 		var s=new this[type](content,color);
- 		return s;
-	}else{
-		return new pop(type,content,color);
-	}
-	
-	/*if(this instanceof pop){
-	  return pop(type,content,color)
-	}else{
-            
-	}
-	function infoPop(){
-
-	}
-	function confirmPop(){
-
-	}
-	function cancelPop(){
-
-	}	
-
-	switch(type) {
-	  case 'infoPop':
-	  return new infoPop(content,color);
-	  case 'confirmPop':
-	  return new confirmPop(content,color);
-	  case 'cancelPop':
-	  return new cancelPop(content,color);
-	}*/
-}
-pop.prototype.infoPop=function(){
-  console.log('infoPop');
-}
-pop.prototype.confirmPop=function(){
-	
-}
-pop.prototype.cancelPop=function(){
-	
-}
-
-//pop('infoPop','hello','red');
-var data=[
-  {
-  	type:'infoPop',
-  	content:'hello',
-  	color:'red'
-  },
-  {
-  	type:'infoPop',
-  	content:'good good study',
-  	color:'red'
-  },  
-  {
-  	type:'confirmPop',
-  	content:'good good study',
-  	color:'green'
-  },    
-];
-data.forEach((item)=>{
-   console.log( pop(item.type,item.content,item.color));
-})
-data.forEach((item)=>{
-   console.log(new pop(item.type,item.content,item.color));
-})
-```
-## [[建造者模式]]
+保证实例唯一
+## [[工厂模式]] 
+将创建实例的过程封装到一个工厂函数中，**便利地创建实例**。
+## [[建造者模式]] 
 >定义：组合出一个复杂对象（参数较多，不需要大量产出）。把一个复杂类分为多个子类，最后组合在一起，只暴露最终组合得到的类
 
 场景：
@@ -353,30 +235,7 @@ JavaScript中函数能实现功能、作为值，这两个作为还能作为对�
 ## [[外观模式]] 
 
 ## [[代理模式]] 
->定义：为一个对象提供一个**占位符**，管理所有对这个对象的访问。也可代替某些**懒惰**的对象做一些事情。
 
-1.  Java中实现代理需要进行向上转型（将子类实例化得到的对象的类型声明为父类），JavaScript中实现代理只需检测代理对象和原访问对象是否都实现了访问方法。（为了健壮性，在调用某个方法时需确定方法存在）
-2.  分为保护代理与虚拟代理
-	1.  保护代理（访问权限控制）
-	2.  虚拟代理（在适当的时候，由代理对象向被访问者发起请求/访问，而不是访问者）即访问者不是必须的
-	3.  JS难以实现保护代理，因为无法判断一个对象的访问者。所以虚拟代理是常用的代理模式。
-3.  代理对象与访问者提供的接口的一致性：
-	1.  不再需要代理时，访问者可直接访问被访问对象。
-	2.  需要使用原访问者的地方都可替换使用代理对象
-
-场景
-	1.  图片过大/网速较慢导致图片所在位置空白。
-		1.  方案：图片预加载，定义一个img，对外界提供一个setSrc接口。使用异步的方式**加载**图片，等图片加载好了再**填充**到该img元素
-	2.  节流
-	3.  缓存大量计算的结果（常用）
-	4.  合并HTTP请求
-	5.  虚拟代理（常用）
-	6.  DOM事件代理
-	7.  webpack devServer
-	8.  nginx反向代理
-	9.  Proxy与Reflect
-
-总结：创建一个中间人。懒惰（收集请求，延迟代码，避免重复计算）
 ## [[适配器模式]]
 >定义：后端接口结构改变，但不想动这个老接口（把方块放进一个圆洞）
 
@@ -458,6 +317,8 @@ methods.forEach(function(method){
 # 行为型
 >对象/模块间的沟通（封装对象的**行为**变化）
 
+## [[观察者模式]] 
+## [[发布订阅模式]] 
 ## [[迭代器模式]] 
 >定义：提供一个工具用于**遍历容器中各个元素**，不用暴露该对象的内部表示。无论数据类型是什么，迭代器的接口应该一样，遵循迭代器协议。【遍历数据不只for与forEach，还有高级的Iterator已加入JS原生套餐】
 
@@ -591,7 +452,7 @@ methods.forEach(function(method){
 ## [[惰性模式]] 
 
 ## [[委托模式]] 
-
+代理模式？
 ## [[等待模式]] 
 
 ## [[迭代器模式]] 

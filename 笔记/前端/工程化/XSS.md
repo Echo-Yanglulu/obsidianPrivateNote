@@ -12,7 +12,7 @@ cross site script
 		1. 前端后端都做替换，不会出错。前端在显示时做替换，后面在存储时替换
 
 注意
-	1. [[react]]与 [[vue]]不用担心该攻击
+	1. [[React]]与 [[vue]]不用担心该攻击
 		1. 除非在 vue 中使用 v-html，
 		2. 在 react 中使用 dangerouslySetInnerHtml
 

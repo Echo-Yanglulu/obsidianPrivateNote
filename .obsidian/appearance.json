@@ -16,12 +16,12 @@
     "Command palette",
     "Block quote"
   ],
-  "baseFontSizeAction": true,
+  "baseFontSizeAction": false,
   "accentColor": "#09a0f1",
-  "interfaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "JetBrains Mono NL,JetBrains Mono",
   "textFontFamily": "JetBrains Mono NL",
   "nativeMenus": false,
   "showViewHeader": true,
-  "cssTheme": "Jotter",
+  "cssTheme": "Minimal",
   "monospaceFontFamily": "JetBrains Mono"
 }

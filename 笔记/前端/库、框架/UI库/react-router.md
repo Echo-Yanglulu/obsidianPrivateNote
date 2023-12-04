@@ -25,7 +25,7 @@ B 端应用可选择hash模式，C 端应用可选择History模式
 ## 使用
 Router组件,包裹Route组件，最终匹配，输出结果为一个组件。
 # 安装与导入
-[[react]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
+[[React]]本身只负责构建UI，并没有路由功能。需要安装react-router-dom来实现此功能。
 ## react-router库与react-router-dom的区别？
 前者只提供了**路由的核心功能**，后者基于前者提供了在**浏览器环境下使用路由所需的功能**。
 后者依赖于前者，所以只需安装后者即可。

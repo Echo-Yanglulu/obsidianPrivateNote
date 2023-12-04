@@ -8,7 +8,7 @@
     },
     {
       "name": "Html",
-      "openExportedFileLocation": true
+      "openExportedFileLocation": false
     },
     {
       "name": "TextBundle"
@@ -53,46 +53,12 @@
   ],
   "defaultExportDirectoryMode": "Custom",
   "openExportedFile": false,
-  "env": {
-    "darwin": {
-      "PATH": "/usr/local/bin:/Library/TeX/texbin:${PATH}",
-      "HOME": "${HOME}"
-    },
-    "aix": {
-      "HOME": "${HOME}"
-    },
-    "android": {
-      "HOME": "${HOME}"
-    },
-    "freebsd": {
-      "HOME": "${HOME}"
-    },
-    "haiku": {
-      "HOME": "${HOME}"
-    },
-    "linux": {
-      "HOME": "${HOME}"
-    },
-    "openbsd": {
-      "HOME": "${HOME}"
-    },
-    "sunos": {
-      "HOME": "${HOME}"
-    },
-    "win32": {
-      "HOME": "${HOME}"
-    },
-    "cygwin": {
-      "HOME": "${HOME}"
-    },
-    "netbsd": {
-      "HOME": "${HOME}"
-    }
-  },
+  "env": {},
+  "showExportProgressBar": false,
   "version": "1.1.8",
   "lastEditName": "Html",
   "customDefaultExportDirectory": {
     "win32": "C:\\Users\\11510\\Desktop"
   },
-  "openExportedFileLocation": true
+  "openExportedFileLocation": false
 }
