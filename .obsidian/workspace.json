@@ -350,14 +350,6 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "79a6efb0f3b97f11",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
         ],
         "currentTab": 3
@@ -397,11 +389,11 @@
       "workbench-obsidian:Workbench": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "workspaces:管理工作区布局": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "random-note:开始漫游笔记": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "d9dd5e7610ee35c0",
