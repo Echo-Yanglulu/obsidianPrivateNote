@@ -554,58 +554,47 @@ function IoIosAddCircle(props){return GenIcon({"tag":"svg","attr":{"viewBox":"0 
 // THIS FILE IS AUTO GENERATED
 function MdOutlineCreateNewFolder(props){return GenIcon({"tag":"svg","attr":{"viewBox":"0 0 24 24"},"child":[{"tag":"path","attr":{"fill":"none","d":"M0 0h24v24H0V0z"}},{"tag":"path","attr":{"d":"M20 6h-8l-2-2H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm0 12H4V6h5.17l2 2H20v10zm-8-4h2v2h2v-2h2v-2h-2v-2h-2v2h-2z"}}]})(props);}
 
-const MinusSquareO = props => React.createElement("svg", Object.assign({}, props, {
-  viewBox: "64 -65 897 897"
-}), React.createElement("g", null, React.createElement("path", {
-  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 347h-442q-14 0 -25 10.5t-11 25.5v0q0 15 11 25.5t25 10.5h442q14 0 25 -10.5t11 -25.5v0\n  q0 -15 -11 -25.5t-25 -10.5z"
-})));
-const PlusSquareO = props => React.createElement("svg", Object.assign({}, props, {
-  viewBox: "64 -65 897 897"
-}), React.createElement("g", null, React.createElement("path", {
-  d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 420h-184v183q0 15 -10.5 25.5t-25.5 10.5v0q-14 0 -25 -10.5t-11 -25.5v-183h-184\n  q-15 0 -25.5 -11t-10.5 -25v0q0 -15 10.5 -25.5t25.5 -10.5h184v-183q0 -15 11 -25.5t25 -10.5v0q15 0 25.5 10.5t10.5 25.5v183h184q15 0 25.5 10.5t10.5 25.5v0q0 14 -10.5 25t-25.5 11z"
-})));
-const CloseSquareO = props => React.createElement("svg", Object.assign({}, props, {
-  viewBox: "64 -65 897 897"
-}), React.createElement("g", null, React.createElement("path", {
-  d: "M717.5 589.5q-10.5 10.5 -25.5 10.5t-26 -10l-154 -155l-154 155q-11 10 -26 10t-25.5 -10.5t-10.5 -25.5t11 -25l154 -155l-154 -155q-11 -10 -11 -25t10.5 -25.5t25.5 -10.5t26 10l154 155l154 -155q11 -10 26 -10t25.5 10.5t10.5 25t-11 25.5l-154 155l154 155\n  q11 10 11 25t-10.5 25.5zM888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0z"
-})));
+const MinusSquareO = (props) => (React.createElement("svg", Object.assign({}, props, { viewBox: "64 -65 897 897" }),
+    React.createElement("g", null,
+        React.createElement("path", { d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 347h-442q-14 0 -25 10.5t-11 25.5v0q0 15 11 25.5t25 10.5h442q14 0 25 -10.5t11 -25.5v0\n  q0 -15 -11 -25.5t-25 -10.5z" }))));
+const PlusSquareO = (props) => (React.createElement("svg", Object.assign({}, props, { viewBox: "64 -65 897 897" }),
+    React.createElement("g", null,
+        React.createElement("path", { d: "M888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0zM732 420h-184v183q0 15 -10.5 25.5t-25.5 10.5v0q-14 0 -25 -10.5t-11 -25.5v-183h-184\n  q-15 0 -25.5 -11t-10.5 -25v0q0 -15 10.5 -25.5t25.5 -10.5h184v-183q0 -15 11 -25.5t25 -10.5v0q15 0 25.5 10.5t10.5 25.5v183h184q15 0 25.5 10.5t10.5 25.5v0q0 14 -10.5 25t-25.5 11z" }))));
+const CloseSquareO = (props) => (React.createElement("svg", Object.assign({}, props, { viewBox: "64 -65 897 897" }),
+    React.createElement("g", null,
+        React.createElement("path", { d: "M717.5 589.5q-10.5 10.5 -25.5 10.5t-26 -10l-154 -155l-154 155q-11 10 -26 10t-25.5 -10.5t-10.5 -25.5t11 -25l154 -155l-154 -155q-11 -10 -11 -25t10.5 -25.5t25.5 -10.5t26 10l154 155l154 -155q11 -10 26 -10t25.5 10.5t10.5 25t-11 25.5l-154 155l154 155\n  q11 10 11 25t-10.5 25.5zM888 760v0v0v-753v0h-752v0v753v0h752zM888 832h-752q-30 0 -51 -21t-21 -51v-753q0 -29 21 -50.5t51 -21.5h753q29 0 50.5 21.5t21.5 50.5v753q0 30 -21.5 51t-51.5 21v0z" }))));
 const LocationIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" stroke="currentColor" viewBox="0 0 50 50"><path d="M 24 0 L 24 1 L 24 4.0234375 C 13.208549 4.5309414 4.5329027 13.208443 4.0253906 24 L 1 24 L 0 24 L 0 26 L 1 26 L 4.0253906 26 C 4.5329027 36.791557 13.208549 45.469059 24 45.976562 L 24 49 L 24 50 L 26 50 L 26 49 L 26 45.974609 C 36.79155 45.467098 45.467098 36.79155 45.974609 26 L 49 26 L 50 26 L 50 24 L 49 24 L 45.974609 24 C 45.467098 13.20845 36.79155 4.5329024 26 4.0253906 L 26 1 L 26 0 L 24 0 z M 24 6.0488281 L 24 9 L 24 10 L 26 10 L 26 9 L 26 6.0507812 C 35.703044 6.5553041 43.444696 14.296956 43.949219 24 L 41 24 L 40 24 L 40 26 L 41 26 L 43.949219 26 C 43.444696 35.703044 35.703044 43.444696 26 43.949219 L 26 41 L 26 40 L 24 40 L 24 41 L 24 43.951172 C 14.298476 43.446281 6.5553046 35.703053 6.0507812 26 L 9 26 L 10 26 L 10 24 L 9 24 L 6.0507812 24 C 6.5553046 14.296947 14.298476 6.5537194 24 6.0488281 z M 19.990234 18.990234 A 1.0001 1.0001 0 0 0 19.292969 20.707031 L 23.585938 25 L 19.292969 29.292969 A 1.0001 1.0001 0 1 0 20.707031 30.707031 L 25 26.414062 L 29.292969 30.707031 A 1.0001 1.0001 0 1 0 30.707031 29.292969 L 26.414062 25 L 30.707031 20.707031 A 1.0001 1.0001 0 0 0 29.980469 18.990234 A 1.0001 1.0001 0 0 0 29.292969 19.292969 L 25 23.585938 L 20.707031 19.292969 A 1.0001 1.0001 0 0 0 19.990234 18.990234 z"/></svg>`;
 const ZoomOutIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>`;
 const ZoomOutDoubleIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 50 50" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z M 13 12 L 13 18 L 15.28125 15.71875 L 19.5625 20 L 15.28125 24.28125 L 13 22 L 13 28 L 19 28 L 16.71875 25.71875 L 21 21.4375 L 25.28125 25.71875 L 23 28 L 29 28 L 29 22 L 26.71875 24.28125 L 22.4375 20 L 26.71875 15.71875 L 29 18 L 29 12 L 23 12 L 25.28125 14.28125 L 21 18.5625 L 16.71875 14.28125 L 19 12 Z"/></svg>`;
 const ZoomInIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>`;
 const SpaceIcon = `<circle cx="50" cy="50" r="50" fill="transparent" />`;
 const getFolderIcon = (plugin, children, open) => {
-  let setting = plugin.settings.folderIcon;
-  let OpenFolderIcon = MinusSquareO;
-  let InactiveOpenFolderIcon = CloseSquareO;
-  let ClosedFolderIcon = PlusSquareO;
-  if (setting === 'box-folder') {
-    OpenFolderIcon = BiFolderMinus;
-    InactiveOpenFolderIcon = BiFolder;
-    ClosedFolderIcon = BiFolderPlus;
-  } else if (setting === 'icomoon') {
-    OpenFolderIcon = ImFolderMinus;
-    InactiveOpenFolderIcon = ImFolder;
-    ClosedFolderIcon = ImFolderPlus;
-  } else if (setting === 'typicon') {
-    OpenFolderIcon = TiFolderOpen;
-    InactiveOpenFolderIcon = TiFolder;
-    ClosedFolderIcon = TiFolder;
-  } else if (setting === 'circle-gg') {
-    OpenFolderIcon = CgRemove;
-    InactiveOpenFolderIcon = CgCloseO;
-    ClosedFolderIcon = CgAdd;
-  }
-  const Icon = children ? open ? OpenFolderIcon : ClosedFolderIcon : InactiveOpenFolderIcon;
-  return Icon;
-};
-
-const eventTypes = {
-    activeFileChange: 'fta-active-file-change',
-    refreshView: 'fta-refresh-view',
-    revealFile: 'fta-reveal-file',
-    vaultChange: 'fta-vault-change',
-    createNewNote: 'fta-create-new-note',
+    let setting = plugin.settings.folderIcon;
+    let OpenFolderIcon = MinusSquareO;
+    let InactiveOpenFolderIcon = CloseSquareO;
+    let ClosedFolderIcon = PlusSquareO;
+    if (setting === 'box-folder') {
+        OpenFolderIcon = BiFolderMinus;
+        InactiveOpenFolderIcon = BiFolder;
+        ClosedFolderIcon = BiFolderPlus;
+    }
+    else if (setting === 'icomoon') {
+        OpenFolderIcon = ImFolderMinus;
+        InactiveOpenFolderIcon = ImFolder;
+        ClosedFolderIcon = ImFolderPlus;
+    }
+    else if (setting === 'typicon') {
+        OpenFolderIcon = TiFolderOpen;
+        InactiveOpenFolderIcon = TiFolder;
+        ClosedFolderIcon = TiFolder;
+    }
+    else if (setting === 'circle-gg') {
+        OpenFolderIcon = CgRemove;
+        InactiveOpenFolderIcon = CgCloseO;
+        ClosedFolderIcon = CgAdd;
+    }
+    const Icon = children ? (open ? OpenFolderIcon : ClosedFolderIcon) : InactiveOpenFolderIcon;
+    return Icon;
 };
 
 var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();var _templateObject=_taggedTemplateLiteral(['',''],['','']);function _taggedTemplateLiteral(strings,raw){return Object.freeze(Object.defineProperties(strings,{raw:{value:Object.freeze(raw)}}));}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}/**
@@ -741,23 +730,265 @@ var dayjs_min = {exports: {}};
 var dayjs_minExports = dayjs_min.exports;
 var dayjs = /*@__PURE__*/getDefaultExportFromCjs(dayjs_minExports);
 
+const eventTypes = {
+    activeFileChange: 'fta-active-file-change',
+    refreshView: 'fta-refresh-view',
+    revealFile: 'fta-reveal-file',
+    vaultChange: 'fta-vault-change',
+    createNewNote: 'fta-create-new-note',
+};
+
+const openFile$1 = (props) => {
+    const { file, app, newLeaf, leafBySplit } = props;
+    let fileToOpen = app.vault.getAbstractFileByPath(file.path);
+    if (!fileToOpen)
+        return;
+    let leaf = app.workspace.getLeaf(newLeaf);
+    if (leafBySplit)
+        leaf = app.workspace.createLeafBySplit(leaf, 'vertical');
+    app.workspace.setActiveLeaf(leaf, {
+        focus: true,
+    });
+    leaf.openFile(fileToOpen, { eState: { focus: true } });
+};
+const getFileCreateString = (params) => {
+    const { plugin, fileName } = params;
+    return stripIndents `
+    ${plugin.settings.createdYaml
+        ? `
+        ---
+        created: ${dayjs(new Date()).format('YYYY-MM-DD hh:mm:ss')}
+        ---
+        `
+        : ''}
+    ${plugin.settings.fileNameIsHeader ? `# ${fileName}` : ''}
+    `;
+};
+const createNewMarkdownFile = (plugin, folder, newFileName, content) => __awaiter(void 0, void 0, void 0, function* () {
+    // @ts-ignore
+    const newFile = yield plugin.app.fileManager.createNewMarkdownFile(folder, newFileName);
+    if (content && content !== '')
+        yield plugin.app.vault.modify(newFile, content);
+    openFile$1({ file: newFile, app: plugin.app, newLeaf: false });
+    let evt = new CustomEvent(eventTypes.activeFileChange, { detail: { filePath: newFile.path } });
+    window.dispatchEvent(evt);
+});
+const openFileInNewTab = (app, file) => {
+    openFile$1({ file: file, app: app, newLeaf: true });
+};
+const openFileInNewTabGroup = (app, file) => {
+    openFile$1({ file: file, app: app, newLeaf: false, leafBySplit: true });
+};
+
+class ConfirmationModal extends obsidian.Modal {
+    constructor(plugin, confirmationNote, callBackAfterConfirmation) {
+        super(plugin.app);
+        this.confirmationNote = confirmationNote;
+        this.callBackAfterConfirmation = callBackAfterConfirmation;
+        this.plugin = plugin;
+    }
+    onOpen() {
+        let { contentEl } = this;
+        let confirmationModal = this;
+        const headerEl = contentEl.createEl('div', { text: this.confirmationNote });
+        headerEl.addClass('modal-title');
+        this.confirmButton = contentEl.createEl('button', { text: 'Confirm' });
+        const cancelButton = contentEl.createEl('button', { text: 'Cancel' });
+        cancelButton.style.cssText = 'float: right;';
+        cancelButton.addEventListener('click', () => {
+            confirmationModal.close();
+        });
+        // Create Button Action and Assign to the Global Variable of the class
+        this.onConfirmClickAction = (e) => {
+            this.callBackAfterConfirmation();
+            this.close();
+        };
+        // Assign the event listener
+        this.confirmButton.addEventListener('click', this.onConfirmClickAction);
+    }
+    onClose() {
+        let { contentEl } = this;
+        contentEl.empty();
+        this.confirmButton.removeEventListener('click', this.onConfirmClickAction);
+    }
+}
+class VaultChangeModal extends obsidian.Modal {
+    constructor(plugin, file, action) {
+        super(plugin.app);
+        this.file = file;
+        this.action = action;
+        this.plugin = plugin;
+    }
+    onOpen() {
+        let { contentEl } = this;
+        let myModal = this;
+        // Header
+        let headerText;
+        if (this.action === 'rename') {
+            headerText = 'Rename: Provide a New Name';
+        }
+        else if (this.action === 'create folder') {
+            headerText = 'Create Folder: Provide Name';
+        }
+        else if (this.action === 'create note') {
+            headerText = 'Create Note: Provide Name';
+        }
+        const headerEl = contentEl.createEl('div', { text: headerText });
+        headerEl.addClass('modal-title');
+        // Input El
+        const inputEl = contentEl.createEl('input');
+        inputEl.style.cssText = 'width: 100%; height: 2.5em; margin-bottom: 15px;';
+        if (this.action === 'rename') {
+            // Manual Rename Handler For md Files
+            if (this.file.path.endsWith('.md')) {
+                if (this.file instanceof obsidian.TFolder || this.file instanceof obsidian.TAbstractFile) {
+                    inputEl.value = this.file.name.substring(0, this.file.name.lastIndexOf('.'));
+                }
+                else {
+                    inputEl.value = this.file.basename;
+                }
+            }
+            else {
+                if (this.file instanceof obsidian.TFolder || this.file instanceof obsidian.TAbstractFile) {
+                    inputEl.value = this.file.name;
+                }
+                else {
+                    inputEl.value = this.file.basename;
+                }
+            }
+        }
+        else if (this.action === 'create note' || this.action === 'create folder') {
+            inputEl.value = 'Untitled';
+        }
+        inputEl.focus();
+        // Buttons
+        let changeButtonText;
+        if (this.action === 'rename') {
+            changeButtonText = 'Change Name';
+        }
+        else if (this.action === 'create folder') {
+            changeButtonText = 'Create Folder';
+        }
+        else if (this.action === 'create note') {
+            changeButtonText = 'Create Note';
+        }
+        const changeButton = contentEl.createEl('button', { text: changeButtonText });
+        const cancelButton = contentEl.createEl('button', { text: 'Cancel' });
+        cancelButton.style.cssText = 'float: right;';
+        cancelButton.addEventListener('click', () => {
+            myModal.close();
+        });
+        const onClickAction = () => __awaiter(this, void 0, void 0, function* () {
+            let newName = inputEl.value;
+            if (this.action === 'rename') {
+                // Manual Rename Handler For md Files
+                if (this.file.path.endsWith('.md'))
+                    newName = newName + '.md';
+                // Folder Note files to be updated
+                if (this.file instanceof obsidian.TFolder && this.plugin.settings.folderNote) {
+                    let folderNoteFile = this.app.vault.getAbstractFileByPath(this.file.path + '/' + this.file.name + '.md');
+                    if (folderNoteFile)
+                        this.app.fileManager.renameFile(folderNoteFile, this.file.path + '/' + newName + '.md');
+                }
+                // Rename the destination file/folder name
+                this.app.fileManager.renameFile(this.file instanceof obsidian.TFolder || this.file instanceof obsidian.TAbstractFile
+                    ? this.file
+                    : this.plugin.app.vault.getAbstractFileByPath(this.file.path), this.file.parent.path + '/' + newName);
+            }
+            else if (this.action === 'create folder') {
+                this.app.vault.createFolder(this.file.path + '/' + newName);
+            }
+            else if (this.action === 'create note') {
+                yield createNewMarkdownFile(this.plugin, this.file, newName, this.plugin.settings.createdYaml ? getFileCreateString({ plugin: this.plugin, fileName: newName }) : '');
+            }
+            myModal.close();
+        });
+        // Event Listener
+        changeButton.addEventListener('click', onClickAction);
+        inputEl.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter')
+                onClickAction();
+        });
+    }
+    onClose() {
+        let { contentEl } = this;
+        contentEl.empty();
+    }
+}
+class MoveSuggestionModal extends obsidian.FuzzySuggestModal {
+    constructor(app, fileOrFolderToMove) {
+        super(app);
+        this.fileOrFolderToMove = fileOrFolderToMove;
+    }
+    getItemText(item) {
+        return item.path;
+    }
+    getItems() {
+        return getAllFoldersInVault(this.app);
+    }
+    onChooseItem(item, evt) {
+        let fileToRename = this.app.vault.getAbstractFileByPath(item.path);
+        if (fileToRename) {
+            this.app.vault.rename(fileToRename, item.path + '/' + fileToRename.name);
+        }
+    }
+}
+function getAllFoldersInVault(app) {
+    let folders = [];
+    let rootFolder = app.vault.getRoot();
+    folders.push(rootFolder);
+    function recursiveFx(folder) {
+        for (let child of folder.children) {
+            if (child instanceof obsidian.TFolder) {
+                let childFolder = child;
+                folders.push(childFolder);
+                if (childFolder.children)
+                    recursiveFx(childFolder);
+            }
+        }
+    }
+    recursiveFx(rootFolder);
+    return folders;
+}
+
 // Helper Function To Get List of Files
 const getFilesUnderPath = (path, plugin, getAllFiles) => {
     var filesUnderPath = [];
     var showFilesFromSubFolders = getAllFiles ? true : plugin.settings.showFilesFromSubFolders;
-    recursiveFx(path, plugin.app);
-    function recursiveFx(path, app) {
-        var folderObj = app.vault.getAbstractFileByPath(path);
+    var folderObj = plugin.app.vault.getAbstractFileByPath(path);
+    recursiveFx(folderObj, plugin.app);
+    function recursiveFx(folderObj, app) {
         if (folderObj instanceof obsidian.TFolder && folderObj.children) {
             for (let child of folderObj.children) {
                 if (child instanceof obsidian.TFile)
-                    filesUnderPath.push(child);
+                    filesUnderPath.push(TFile2OZFile(child));
                 if (child instanceof obsidian.TFolder && showFilesFromSubFolders)
-                    recursiveFx(child.path, app);
+                    recursiveFx(child);
             }
         }
     }
     return filesUnderPath;
+};
+// Converted from TFile to OZFile
+const TFile2OZFile = (t) => {
+    return {
+        path: t.path,
+        basename: t.basename,
+        extension: t.extension,
+        stat: {
+            mtime: t.stat.mtime,
+            ctime: t.stat.ctime,
+            size: t.stat.size,
+        },
+        parent: {
+            path: t.parent.path,
+        },
+        isFolderNote: isFolderNote(t),
+    };
+};
+// Check if the file is a folder note
+const isFolderNote = (t) => {
+    return t.extension === 'md' && t.basename === t.parent.name;
 };
 // Helper Function to Create Folder Tree
 const createFolderTree = (startFolder) => {
@@ -837,48 +1068,10 @@ const internalPluginLoaded = (pluginName, app) => {
     // @ts-ignore
     return (_a = app.internalPlugins.plugins[pluginName]) === null || _a === void 0 ? void 0 : _a._loaded;
 };
-const openFile = (props) => {
-    const { file, app, newLeaf, leafBySplit } = props;
-    let leaf = app.workspace.getLeaf(newLeaf);
-    if (leafBySplit)
-        leaf = app.workspace.createLeafBySplit(leaf, 'vertical');
-    app.workspace.setActiveLeaf(leaf, {
-        focus: false,
-    });
-    leaf.openFile(file, { eState: { focus: true } });
-};
-const openFileInNewTab = (app, file) => {
-    openFile({ file: file, app: app, newLeaf: true });
-};
-const openFileInNewTabGroup = (app, file) => {
-    openFile({ file: file, app: app, newLeaf: false, leafBySplit: true });
-};
-const getFileCreateString = (params) => {
-    const { plugin, fileName } = params;
-    return stripIndents `
-    ${plugin.settings.createdYaml
-        ? `
-        ---
-        created: ${dayjs(new Date()).format('YYYY-MM-DD hh:mm:ss')}
-        ---
-        `
-        : ''}
-    ${plugin.settings.fileNameIsHeader ? `# ${fileName}` : ''}
-    `;
-};
 const pluginIsLoaded = (app, pluginId) => {
     // @ts-ignore
     return app.plugins.getPlugin(pluginId);
 };
-const createNewMarkdownFile = (plugin, folder, newFileName, content) => __awaiter(void 0, void 0, void 0, function* () {
-    // @ts-ignore
-    const newFile = yield plugin.app.fileManager.createNewMarkdownFile(folder, newFileName);
-    if (content && content !== '')
-        yield plugin.app.vault.modify(newFile, content);
-    openFile({ file: newFile, app: plugin.app, newLeaf: false });
-    let evt = new CustomEvent(eventTypes.activeFileChange, { detail: { filePath: newFile.path } });
-    window.dispatchEvent(evt);
-});
 const createNewFile = (e, folderPath, plugin) => __awaiter(void 0, void 0, void 0, function* () {
     let targetFolder = plugin.app.vault.getAbstractFileByPath(folderPath);
     if (!targetFolder)
@@ -886,159 +1079,6 @@ const createNewFile = (e, folderPath, plugin) => __awaiter(void 0, void 0, void 
     let modal = new VaultChangeModal(plugin, targetFolder, 'create note');
     modal.open();
 });
-
-class ConfirmationModal extends obsidian.Modal {
-    constructor(plugin, confirmationNote, callBackAfterConfirmation) {
-        super(plugin.app);
-        this.confirmationNote = confirmationNote;
-        this.callBackAfterConfirmation = callBackAfterConfirmation;
-        this.plugin = plugin;
-    }
-    onOpen() {
-        let { contentEl } = this;
-        let confirmationModal = this;
-        const headerEl = contentEl.createEl('div', { text: this.confirmationNote });
-        headerEl.addClass('modal-title');
-        this.confirmButton = contentEl.createEl('button', { text: 'Confirm' });
-        const cancelButton = contentEl.createEl('button', { text: 'Cancel' });
-        cancelButton.style.cssText = 'float: right;';
-        cancelButton.addEventListener('click', () => {
-            confirmationModal.close();
-        });
-        // Create Button Action and Assign to the Global Variable of the class
-        this.onConfirmClickAction = (e) => {
-            this.callBackAfterConfirmation();
-            this.close();
-        };
-        // Assign the event listener
-        this.confirmButton.addEventListener('click', this.onConfirmClickAction);
-    }
-    onClose() {
-        let { contentEl } = this;
-        contentEl.empty();
-        this.confirmButton.removeEventListener('click', this.onConfirmClickAction);
-    }
-}
-class VaultChangeModal extends obsidian.Modal {
-    constructor(plugin, file, action) {
-        super(plugin.app);
-        this.file = file;
-        this.action = action;
-        this.plugin = plugin;
-    }
-    onOpen() {
-        let { contentEl } = this;
-        let myModal = this;
-        // Header
-        let headerText;
-        if (this.action === 'rename') {
-            headerText = 'Rename: Provide a New Name';
-        }
-        else if (this.action === 'create folder') {
-            headerText = 'Create Folder: Provide Name';
-        }
-        else if (this.action === 'create note') {
-            headerText = 'Create Note: Provide Name';
-        }
-        const headerEl = contentEl.createEl('div', { text: headerText });
-        headerEl.addClass('modal-title');
-        // Input El
-        const inputEl = contentEl.createEl('input');
-        inputEl.style.cssText = 'width: 100%; height: 2.5em; margin-bottom: 15px;';
-        if (this.action === 'rename') {
-            // Manual Rename Handler For md Files
-            if (this.file.name.endsWith('.md')) {
-                inputEl.value = this.file.name.substring(0, this.file.name.lastIndexOf('.'));
-            }
-            else {
-                inputEl.value = this.file.name;
-            }
-        }
-        inputEl.focus();
-        // Buttons
-        let changeButtonText;
-        if (this.action === 'rename') {
-            changeButtonText = 'Change Name';
-        }
-        else if (this.action === 'create folder') {
-            changeButtonText = 'Create Folder';
-        }
-        else if (this.action === 'create note') {
-            changeButtonText = 'Create Note';
-        }
-        const changeButton = contentEl.createEl('button', { text: changeButtonText });
-        const cancelButton = contentEl.createEl('button', { text: 'Cancel' });
-        cancelButton.style.cssText = 'float: right;';
-        cancelButton.addEventListener('click', () => {
-            myModal.close();
-        });
-        const onClickAction = () => __awaiter(this, void 0, void 0, function* () {
-            let newName = inputEl.value;
-            if (this.action === 'rename') {
-                // Manual Rename Handler For md Files
-                if (this.file.name.endsWith('.md'))
-                    newName = newName + '.md';
-                // Folder Note files to be updated
-                if (this.file instanceof obsidian.TFolder && this.plugin.settings.folderNote) {
-                    let folderNoteFile = this.app.vault.getAbstractFileByPath(this.file.path + '/' + this.file.name + '.md');
-                    if (folderNoteFile)
-                        this.app.fileManager.renameFile(folderNoteFile, this.file.path + '/' + newName + '.md');
-                }
-                // Rename the destination file/folder name
-                this.app.fileManager.renameFile(this.file, this.file.parent.path + '/' + newName);
-            }
-            else if (this.action === 'create folder') {
-                this.app.vault.createFolder(this.file.path + '/' + newName);
-            }
-            else if (this.action === 'create note') {
-                yield createNewMarkdownFile(this.plugin, this.file, newName, this.plugin.settings.createdYaml ? getFileCreateString({ plugin: this.plugin, fileName: newName }) : '');
-            }
-            myModal.close();
-        });
-        // Event Listener
-        changeButton.addEventListener('click', onClickAction);
-        inputEl.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter')
-                onClickAction();
-        });
-    }
-    onClose() {
-        let { contentEl } = this;
-        contentEl.empty();
-    }
-}
-class MoveSuggestionModal extends obsidian.FuzzySuggestModal {
-    constructor(app, fileOrFolderToMove) {
-        super(app);
-        this.fileOrFolderToMove = fileOrFolderToMove;
-    }
-    getItemText(item) {
-        return item.path;
-    }
-    getItems() {
-        return getAllFoldersInVault(this.app);
-    }
-    onChooseItem(item, evt) {
-        this.app.vault.rename(this.fileOrFolderToMove, item.path + '/' + this.fileOrFolderToMove.name);
-    }
-}
-function getAllFoldersInVault(app) {
-    let folders = [];
-    let rootFolder = app.vault.getRoot();
-    folders.push(rootFolder);
-    function recursiveFx(folder) {
-        for (let child of folder.children) {
-            if (child instanceof obsidian.TFolder) {
-                let childFolder = child;
-                folders.push(childFolder);
-                if (childFolder.children)
-                    recursiveFx(childFolder);
-            }
-        }
-    }
-    recursiveFx(rootFolder);
-    return folders;
-}
 
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -2691,10 +2731,9 @@ const activeFolderPath = Recoil_index_8({
     key: 'fileTreeActiveFolderPathState',
     default: '',
 });
-const activeFile = Recoil_index_8({
-    key: 'fileTreeActiveFile',
+const activeOZFile = Recoil_index_8({
+    key: 'fileTreeActiveOZFile',
     default: null,
-    dangerouslyAllowMutability: true,
 });
 const excludedFolders = Recoil_index_8({
     key: 'fileTreeExcludedFoldersState',
@@ -2713,15 +2752,13 @@ const folderTree = Recoil_index_8({
     default: null,
     dangerouslyAllowMutability: true,
 });
-const fileList = Recoil_index_8({
-    key: 'fileTreeFileListState',
+const ozFileList = Recoil_index_8({
+    key: 'fileTreeOzFileListState',
     default: [],
-    dangerouslyAllowMutability: true,
 });
-const pinnedFiles = Recoil_index_8({
-    key: 'fileTreePinnedFilesState',
+const ozPinnedFileList = Recoil_index_8({
+    key: 'fileTreeOzPinnedFilesState',
     default: [],
-    dangerouslyAllowMutability: true,
 });
 const openFolders = Recoil_index_8({
     key: 'fileTreeOpenFoldersState',
@@ -2738,1536 +2775,1473 @@ const focusedFolder = Recoil_index_8({
 });
 
 function useForceUpdate() {
-  const [value, setValue] = reactExports.useState(0);
-  return () => setValue(value => value + 1);
+    const [value, setValue] = reactExports.useState(0);
+    return () => setValue((value) => value + 1);
 }
 
 function isMouseEvent(e) {
-  return e && 'screenX' in e;
+    return e && 'screenX' in e;
 }
-function useLongPress(callback = e => {}, ms = 300) {
-  const [startLongPress, setStartLongPress] = reactExports.useState(false);
-  const [longPressEvent, setLongPressEvent] = reactExports.useState(null);
-  const [startLocationY, setStartLocationY] = reactExports.useState(null);
-  reactExports.useEffect(() => {
-    let timerId;
-    if (startLongPress && startLocationY) {
-      timerId = setTimeout(() => {
-        callback(longPressEvent);
-        stop(longPressEvent);
-      }, ms);
-    } else {
-      clearTimeout(timerId);
-    }
-    return () => {
-      clearTimeout(timerId);
+function useLongPress(callback = (e) => { }, ms = 300) {
+    const [startLongPress, setStartLongPress] = reactExports.useState(false);
+    const [longPressEvent, setLongPressEvent] = reactExports.useState(null);
+    const [startLocationY, setStartLocationY] = reactExports.useState(null);
+    reactExports.useEffect(() => {
+        let timerId;
+        if (startLongPress && startLocationY) {
+            timerId = setTimeout(() => {
+                callback(longPressEvent);
+                stop(longPressEvent);
+            }, ms);
+        }
+        else {
+            clearTimeout(timerId);
+        }
+        return () => {
+            clearTimeout(timerId);
+        };
+    }, [callback, ms, startLongPress, startLocationY]);
+    const start = reactExports.useCallback((e) => {
+        setStartLongPress(true);
+        setStartLocationY(e.touches[0].clientY);
+        setLongPressEvent(e);
+    }, []);
+    const move = reactExports.useCallback((e) => {
+        if (startLocationY) {
+            let dist = Math.abs(e.touches[0].clientY - startLocationY);
+            if (dist >= 0.5)
+                stop(e);
+        }
+    }, [startLocationY]);
+    const stop = reactExports.useCallback((e) => {
+        setStartLongPress(false);
+        setLongPressEvent(null);
+    }, []);
+    return {
+        onTouchStart: start,
+        onTouchMove: move,
+        onTouchEnd: stop,
     };
-  }, [callback, ms, startLongPress, startLocationY]);
-  const start = reactExports.useCallback(e => {
-    setStartLongPress(true);
-    setStartLocationY(e.touches[0].clientY);
-    setLongPressEvent(e);
-  }, []);
-  const move = reactExports.useCallback(e => {
-    if (startLocationY) {
-      let dist = Math.abs(e.touches[0].clientY - startLocationY);
-      if (dist >= 0.5) stop(e);
-    }
-  }, [startLocationY]);
-  const stop = reactExports.useCallback(e => {
-    setStartLongPress(false);
-    setLongPressEvent(null);
-  }, []);
-  return {
-    onTouchStart: start,
-    onTouchMove: move,
-    onTouchEnd: stop
-  };
 }
 
-function FileComponent(props) {
-  let searchInput = React.useRef(null);
-  const plugin = props.plugin;
-  // States Coming From Main Component
-  const [_view, setView] = Recoil_index_22(view);
-  const [fileList$1, setFileList] = Recoil_index_22(fileList);
-  const [pinnedFiles$1] = Recoil_index_22(pinnedFiles);
-  const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
-  const [excludedExtensions$1] = Recoil_index_22(excludedExtensions);
-  const [excludedFolders$1] = Recoil_index_22(excludedFolders);
-  const [showSubFolders$1, setShowSubFolders] = Recoil_index_22(showSubFolders);
-  const [focusedFolder$1, _setFocusedFolder] = Recoil_index_22(focusedFolder);
-  // Local States
-  const [highlight, setHighlight] = reactExports.useState(false);
-  const [searchPhrase, setSearchPhrase] = reactExports.useState('');
-  const [searchBoxVisible, setSearchBoxVisible] = reactExports.useState(false);
-  const [treeHeader, setTreeHeader] = reactExports.useState(getFolderName(activeFolderPath$1, plugin.app));
-  // Force Update
-  const forceUpdate = useForceUpdate();
-  // Folder Name Update once Active Folder Path Change
-  reactExports.useEffect(() => setTreeHeader(getFolderName(activeFolderPath$1, plugin.app)), [activeFolderPath$1]);
-  // File List Update once showSubFolders change
-  reactExports.useEffect(() => {
-    setFileList(getFilesUnderPath(activeFolderPath$1, plugin));
-  }, [showSubFolders$1]);
-  // To focus on Search box if visible set
-  reactExports.useEffect(() => {
-    if (searchBoxVisible) searchInput.current.focus();
-  }, [searchBoxVisible]);
-  // Function After an External File Dropped into Folder Name
-  const onDrop = files => {
-    files.map(file => __awaiter(this, void 0, void 0, function* () {
-      file.arrayBuffer().then(arrayBuffer => {
-        plugin.app.vault.adapter.writeBinary(activeFolderPath$1 + '/' + file.name, arrayBuffer);
-      });
-    }));
-  };
-  // Sort - Filter Files Depending on Preferences
-  const customFiles = fileList => {
-    let sortedfileList;
-    // Remove Files with Excluded Extensions
-    if (excludedExtensions$1.length > 0) {
-      sortedfileList = fileList.filter(file => !excludedExtensions$1.contains(file.extension));
-    }
-    // Remove Files from Excluded Folders
-    if (excludedFolders$1.length > 0) {
-      sortedfileList = sortedfileList.filter(file => {
-        for (let exc of excludedFolders$1) {
-          if (file.path.startsWith(exc)) {
-            return false;
-          }
-        }
-        return true;
-      });
-    }
-    // Remove Files for Folder Note (If file name is same as parent folder name)
-    if (plugin.settings.folderNote) {
-      sortedfileList = sortedfileList.filter(f => f.basename !== f.parent.name);
-    }
-    // Sort File by Name or Last Content Update, moving pinned files to the front
-    sortedfileList = sortedfileList.sort((a, b) => {
-      if (pinnedFiles$1.contains(a) && !pinnedFiles$1.contains(b)) {
-        return -1;
-      } else if (!pinnedFiles$1.contains(a) && pinnedFiles$1.contains(b)) {
-        return 1;
-      }
-      if (plugin.settings.sortReverse) {
-        [a, b] = [b, a];
-      }
-      if (plugin.settings.sortFilesBy === 'name') {
-        return plugin.settings.showFileNameAsFullPath ? a.path.localeCompare(b.path, 'en', {
-          numeric: true
-        }) : a.name.localeCompare(b.name, 'en', {
-          numeric: true
+// ----> FILE TREE COMPONENT HANDLERS <----- \\
+// Function After an External File Dropped into Folder Name
+const handleOnDropFiles = (params) => {
+    let { files, activeFolderPath, plugin } = params;
+    files.map((file) => __awaiter(void 0, void 0, void 0, function* () {
+        file.arrayBuffer().then((arrayBuffer) => {
+            plugin.app.vault.adapter.writeBinary(activeFolderPath + '/' + file.name, arrayBuffer);
         });
-      } else if (plugin.settings.sortFilesBy === 'last-update') {
-        return b.stat.mtime - a.stat.mtime;
-      } else if (plugin.settings.sortFilesBy === 'created') {
-        return b.stat.ctime - a.stat.ctime;
-      } else if (plugin.settings.sortFilesBy === 'file-size') {
-        return b.stat.size - a.stat.size;
-      }
-    });
-    return sortedfileList;
-  };
-  const filesToList = reactExports.useMemo(() => customFiles(fileList$1), [excludedFolders$1, excludedExtensions$1, pinnedFiles$1, fileList$1, plugin.settings.sortFilesBy, plugin.settings.sortReverse]);
-  // Go Back Button - Sets Main Component View to Folder
-  const handleGoBack = e => {
-    setView('folder');
-    setActiveFolderPath('');
-  };
-  // Toggle Search Box Visibility State
-  const toggleSearchBox = () => {
-    setSearchPhrase('');
-    setSearchBoxVisible(!searchBoxVisible);
-    setFileList(getFilesUnderPath(activeFolderPath$1, plugin));
-  };
-  // Search Function
-  const searchAllRegex = new RegExp('all:(.*)?');
-  const searchTagRegex = new RegExp('tag:(.*)?');
-  const handleSearch = e => {
-    var searchPhrase = e.target.value;
-    setSearchPhrase(searchPhrase);
-    var searchFolder = activeFolderPath$1;
-    // Check Tag Regex in Search Phrase
-    let tagRegexMatch = searchPhrase.match(searchTagRegex);
-    if (tagRegexMatch) {
-      setTreeHeader('Files with Tag');
-      if (tagRegexMatch[1] === undefined || tagRegexMatch[1].replace(/\s/g, '').length === 0) {
-        setFileList([]);
-        return;
-      }
-      setFileList([...getFilesWithTag(tagRegexMatch[1])]);
-      return;
-    }
-    // Check All Regex in Search Phrase
-    let allRegexMatch = searchPhrase.match(searchAllRegex);
-    if (allRegexMatch) {
-      searchPhrase = allRegexMatch[1] ? allRegexMatch[1] : '';
-      searchFolder = plugin.settings.allSearchOnlyInFocusedFolder ? focusedFolder$1.path : '/';
-      setTreeHeader('All Files');
-    } else {
-      setTreeHeader(getFolderName(activeFolderPath$1, plugin.app));
-    }
-    let getAllFiles = allRegexMatch ? true : false;
-    let filteredFiles = getFilesWithName(searchPhrase, searchFolder, getAllFiles);
-    setFileList(filteredFiles);
-  };
-  const getFilesWithName = (searchPhrase, searchFolder, getAllFiles) => {
+    }));
+};
+const getFilesWithName = (params) => {
+    let { searchPhrase, searchFolder, plugin, getAllFiles } = params;
     var files = getFilesUnderPath(searchFolder, plugin, getAllFiles);
-    var filteredFiles = files.filter(file => file.name.toLowerCase().includes(searchPhrase.toLowerCase().trimStart()));
+    var filteredFiles = files.filter((file) => file.basename.toLowerCase().includes(searchPhrase.toLowerCase().trimStart()));
     return filteredFiles;
-  };
-  const getFileTags = mdFile => {
+};
+const getFileTags = (params) => {
+    let { f, plugin } = params;
+    let mdFile = plugin.app.vault.getAbstractFileByPath(f.path);
+    if (!mdFile)
+        return [];
     let fileCache = plugin.app.metadataCache.getFileCache(mdFile);
     let fileTags = [];
     if (fileCache.tags) {
-      for (let fileTag of fileCache.tags) {
-        fileTags.push(fileTag.tag);
-      }
+        for (let fileTag of fileCache.tags) {
+            fileTags.push(fileTag.tag);
+        }
     }
     if (fileCache.frontmatter && fileCache.frontmatter['tags']) {
-      let tagsFM = fileCache.frontmatter['tags'];
-      if (typeof tagsFM === 'string') {
-        let fileFMTags = tagsFM.split(',');
-        for (let i = 0; i < fileFMTags.length; i++) {
-          fileTags.push(fileFMTags[i]);
+        let tagsFM = fileCache.frontmatter['tags'];
+        if (typeof tagsFM === 'string') {
+            let fileFMTags = tagsFM.split(',');
+            for (let i = 0; i < fileFMTags.length; i++) {
+                fileTags.push(fileFMTags[i]);
+            }
         }
-      } else if (Array.isArray(tagsFM)) {
-        for (let i = 0; i < tagsFM.length; i++) {
-          fileTags.push(tagsFM[i]);
+        else if (Array.isArray(tagsFM)) {
+            for (let i = 0; i < tagsFM.length; i++) {
+                fileTags.push(tagsFM[i]);
+            }
         }
-      }
     }
     return fileTags;
-  };
-  const getFilesWithTag = searchTag => {
+};
+const getFilesWithTag = (params) => {
+    let { searchTag, plugin, focusedFolder } = params;
     let filesWithTag = new Set();
-    let mdFiles = getFilesUnderPath(plugin.settings.allSearchOnlyInFocusedFolder ? focusedFolder$1.path : '/', plugin, true);
-    for (let mdFile of mdFiles) {
-      let fileTags = getFileTags(mdFile);
-      for (let fileTag of fileTags) {
-        if (fileTag.toLowerCase().contains(searchTag.toLowerCase().trimStart())) {
-          if (!filesWithTag.has(mdFile)) filesWithTag.add(mdFile);
+    let ozFiles = getFilesUnderPath(plugin.settings.allSearchOnlyInFocusedFolder ? focusedFolder.path : '/', plugin, true);
+    for (let ozFile of ozFiles) {
+        let fileTags = getFileTags({
+            f: ozFile,
+            plugin: plugin,
+        });
+        for (let fileTag of fileTags) {
+            if (fileTag.toLowerCase().contains(searchTag.toLowerCase().trimStart())) {
+                if (!filesWithTag.has(ozFile))
+                    filesWithTag.add(ozFile);
+            }
         }
-      }
     }
     return filesWithTag;
-  };
-  const toggleShowSubFolders = () => __awaiter(this, void 0, void 0, function* () {
-    plugin.settings.showFilesFromSubFolders = !showSubFolders$1;
-    yield plugin.saveSettings();
-    setShowSubFolders(!showSubFolders$1);
-  });
-  const handleRevealActiveFileButton = () => {
+};
+const handleRevealActiveFileButton = (params) => {
+    let { plugin } = params;
     let event = new CustomEvent(eventTypes.revealFile, {
-      detail: {
-        file: plugin.app.workspace.getActiveFile()
-      }
+        detail: {
+            file: plugin.app.workspace.getActiveFile(),
+        },
     });
     window.dispatchEvent(event);
-  };
-  const sortClicked = e => {
+};
+// Sort - Filter Files Depending on Preferences
+const customFiles = (params) => {
+    let { fileList, excludedExtensions, excludedFolders, plugin, ozPinnedFiles } = params;
+    let sortedfileList;
+    // Remove Files with Excluded Extensions
+    if (excludedExtensions.length > 0) {
+        sortedfileList = fileList.filter((file) => !excludedExtensions.contains(file.extension));
+    }
+    // Remove Files from Excluded Folders
+    if (excludedFolders.length > 0) {
+        sortedfileList = sortedfileList.filter((file) => {
+            for (let exc of excludedFolders) {
+                if (file.path.startsWith(exc)) {
+                    return false;
+                }
+            }
+            return true;
+        });
+    }
+    // Remove Files for Folder Note (If file name is same as parent folder name)
+    if (plugin.settings.folderNote) {
+        sortedfileList = sortedfileList.filter((f) => !f.isFolderNote);
+    }
+    // Sort File by Name or Last Content Update, moving pinned files to the front
+    sortedfileList = sortedfileList.sort((a, b) => {
+        if (ozPinnedFiles.contains(a) && !ozPinnedFiles.contains(b)) {
+            return -1;
+        }
+        else if (!ozPinnedFiles.contains(a) && ozPinnedFiles.contains(b)) {
+            return 1;
+        }
+        if (plugin.settings.sortReverse) {
+            [a, b] = [b, a];
+        }
+        if (plugin.settings.sortFilesBy === 'name') {
+            return plugin.settings.showFileNameAsFullPath
+                ? a.path.localeCompare(b.path, 'en', { numeric: true })
+                : a.basename.localeCompare(b.basename, 'en', { numeric: true });
+        }
+        else if (plugin.settings.sortFilesBy === 'last-update') {
+            return b.stat.mtime - a.stat.mtime;
+        }
+        else if (plugin.settings.sortFilesBy === 'created') {
+            return b.stat.ctime - a.stat.ctime;
+        }
+        else if (plugin.settings.sortFilesBy === 'file-size') {
+            return b.stat.size - a.stat.size;
+        }
+    });
+    return sortedfileList;
+};
+const sortFileListClickHandle = (params) => {
+    let { e, plugin, forceUpdate } = params;
     const sortMenu = new obsidian.Menu();
-    const changeSortSettingTo = newValue => {
-      plugin.settings.sortFilesBy = newValue;
-      plugin.saveSettings();
-      forceUpdate();
+    const changeSortSettingTo = (newValue) => {
+        plugin.settings.sortFilesBy = newValue;
+        plugin.saveSettings();
+        forceUpdate();
     };
     const addMenuItem = (label, low, high, value) => {
-      sortMenu.addItem(menuItem => {
-        const order = plugin.settings.sortReverse ? `${high} to ${low}` : `${low} to ${high}`;
-        menuItem.setTitle(`${label} (${order})`);
-        menuItem.setIcon(value === plugin.settings.sortFilesBy ? 'checkmark' : 'spaceIcon');
-        menuItem.onClick(() => changeSortSettingTo(value));
-      });
+        sortMenu.addItem((menuItem) => {
+            const order = plugin.settings.sortReverse ? `${high} to ${low}` : `${low} to ${high}`;
+            menuItem.setTitle(`${label} (${order})`);
+            menuItem.setIcon(value === plugin.settings.sortFilesBy ? 'checkmark' : 'spaceIcon');
+            menuItem.onClick(() => changeSortSettingTo(value));
+        });
     };
     addMenuItem('File Name', 'A', 'Z', 'name');
     addMenuItem('Created', 'New', 'Old', 'created');
     addMenuItem('File Size', 'Big', 'Small', 'file-size');
     addMenuItem('Last Update', 'New', 'Old', 'last-update');
     sortMenu.addSeparator();
-    sortMenu.addItem(menuItem => {
-      menuItem.setTitle('Reverse Order');
-      menuItem.setIcon(plugin.settings.sortReverse ? 'checkmark' : 'spaceIcon');
-      menuItem.onClick(() => {
-        plugin.settings.sortReverse = !plugin.settings.sortReverse;
-        plugin.saveSettings();
-        forceUpdate();
-      });
+    sortMenu.addItem((menuItem) => {
+        menuItem.setTitle('Reverse Order');
+        menuItem.setIcon(plugin.settings.sortReverse ? 'checkmark' : 'spaceIcon');
+        menuItem.onClick(() => {
+            plugin.settings.sortReverse = !plugin.settings.sortReverse;
+            plugin.saveSettings();
+            forceUpdate();
+        });
     });
     // Trigger
-    sortMenu.showAtPosition({
-      x: e.pageX,
-      y: e.pageY
-    });
-  };
-  const topIconSize = 19;
-  return React.createElement(React.Fragment, null, React.createElement(Dropzone$1, {
-    onDrop: onDrop,
-    noClick: true,
-    onDragEnter: () => setHighlight(true),
-    onDragLeave: () => setHighlight(false),
-    onDropAccepted: () => setHighlight(false),
-    onDropRejected: () => setHighlight(false)
-  }, ({
-    getRootProps,
-    getInputProps
-  }) => React.createElement("div", Object.assign({}, getRootProps(), {
-    className: highlight ? 'drag-entered' : '',
-    style: {
-      width: '100%',
-      height: '100%',
-      position: 'relative'
-    }
-  }), React.createElement("input", Object.assign({}, getInputProps())), React.createElement("div", {
-    className: "oz-explorer-container"
-  }, React.createElement("div", {
-    className: `oz-file-tree-header-wrapper${plugin.settings.fixedHeaderInFileList ? ' file-tree-header-fixed' : ''}`
-  }, React.createElement("div", {
-    className: "oz-flex-container"
-  }, React.createElement("div", {
-    className: "oz-nav-action-button",
-    style: {
-      marginLeft: '0px'
-    }
-  }, ['Horizontal', 'Vertical'].includes(plugin.settings.evernoteView) ? React.createElement(IoIosCloseCircleOutline, {
-    onClick: e => handleGoBack(),
-    size: topIconSize,
-    "aria-label": "Close File Pane"
-  }) : React.createElement(IoIosArrowBack, {
-    onClick: e => handleGoBack(),
-    size: topIconSize,
-    "aria-label": "Go Back to Folder View"
-  })), React.createElement("div", {
-    className: "oz-nav-buttons-right-block"
-  }, plugin.settings.revealActiveFileButton && React.createElement("div", {
-    className: "oz-nav-action-button"
-  }, React.createElement(BiCurrentLocation, {
-    onClick: handleRevealActiveFileButton,
-    size: topIconSize,
-    "aria-label": "Reveal Active File"
-  })), plugin.settings.showFilesFromSubFoldersButton && React.createElement("div", {
-    className: "oz-nav-action-button"
-  }, showSubFolders$1 ? React.createElement(IoIosEyeOff, {
-    onClick: toggleShowSubFolders,
-    size: topIconSize,
-    "aria-label": "Hide Files from Sub-Folders"
-  }) : React.createElement(IoIosEye, {
-    onClick: toggleShowSubFolders,
-    size: topIconSize,
-    "aria-label": "Show Files from Sub-Folders"
-  })), plugin.settings.searchFunction && React.createElement("div", {
-    className: "oz-nav-action-button"
-  }, React.createElement(IoIosSearch, {
-    onClick: toggleSearchBox,
-    size: topIconSize,
-    "aria-label": "Search File by Name or Tag"
-  })), React.createElement("div", {
-    className: "oz-nav-action-button"
-  }, React.createElement(CgSortAz, {
-    size: topIconSize + 2,
-    onClick: sortClicked,
-    "aria-label": "Sorting Options"
-  })), React.createElement("div", {
-    className: "oz-nav-action-button"
-  }, React.createElement(IoIosAddCircle, {
-    onClick: e => createNewFile(e, activeFolderPath$1, plugin),
-    size: topIconSize,
-    "aria-label": "Create a Note"
-  })))), searchBoxVisible && React.createElement("div", {
-    className: "oz-input-container"
-  }, React.createElement("input", {
-    type: "search",
-    placeholder: "Search...",
-    ref: searchInput,
-    value: searchPhrase,
-    onChange: handleSearch,
-    onKeyDown: e => {
-      if (e.key === 'Escape') {
-        e.preventDefault();
-        toggleSearchBox();
-      }
-    }
-  })), React.createElement("div", {
-    className: "oz-file-tree-header"
-  }, treeHeader)), React.createElement("div", {
-    className: `oz-file-tree-files${plugin.settings.fixedHeaderInFileList ? searchBoxVisible ? ' file-tree-files-fixed-with-search' : ' file-tree-files-fixed' : ''}`
-  }, filesToList.map(file => {
-    return React.createElement(NavFile, {
-      file: file,
-      plugin: plugin,
-      key: file.path
-    });
-  }))))));
-}
-/* ----------- SINGLE NAVFILE ELEMENT ----------- */
-const NavFile = props => {
-  const {
-    file,
-    plugin
-  } = props;
-  const [pinnedFiles$1, setPinnedFiles] = Recoil_index_22(pinnedFiles);
-  const [activeFile$1, setActiveFile] = Recoil_index_22(activeFile);
-  const [hoverActive, setHoverActive] = reactExports.useState(false);
-  const longPressEvents = useLongPress(e => {
-    triggerContextMenu(file, e);
-  }, 500);
-  reactExports.useEffect(() => {
-    if (hoverActive && plugin.settings.filePreviewOnHover) {
-      document.addEventListener('keydown', handleKeyDownEvent);
-      return () => {
-        document.removeEventListener('keydown', handleKeyDownEvent);
-      };
-    }
-  }, [hoverActive]);
-  // Handle Click Event on File - Allows Open with Cmd/Ctrl
-  const openFile$1 = (file, e) => {
-    openFile({
-      file: file,
-      app: plugin.app,
-      newLeaf: (e.ctrlKey || e.metaKey) && !(e.shiftKey || e.altKey),
-      leafBySplit: (e.ctrlKey || e.metaKey) && (e.shiftKey || e.altKey)
-    });
-    setActiveFile(file);
-  };
-  // Handle Right Click Event on File - Custom Menu
-  const triggerContextMenu = (file, e) => {
-    const fileMenu = new obsidian.Menu();
-    // Pin - Unpin Item
-    fileMenu.addItem(menuItem => {
-      menuItem.setIcon('pin');
-      if (pinnedFiles$1.contains(file)) menuItem.setTitle('Unpin');else menuItem.setTitle('Pin to Top');
-      menuItem.onClick(ev => {
-        if (pinnedFiles$1.contains(file)) {
-          let newPinnedFiles = pinnedFiles$1.filter(pinnedFile => pinnedFile !== file);
-          setPinnedFiles(newPinnedFiles);
-        } else {
-          setPinnedFiles([...pinnedFiles$1, file]);
+    sortMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+};
+// Search Function
+const searchAllRegex = new RegExp('all:(.*)?');
+const searchTagRegex = new RegExp('tag:(.*)?');
+const handleSearch = (params) => {
+    let { e, activeFolderPath, setSearchPhrase, setOzFileList, setTreeHeader, plugin, focusedFolder } = params;
+    var searchPhrase = e.target.value;
+    setSearchPhrase(searchPhrase);
+    var searchFolder = activeFolderPath;
+    // Check Tag Regex in Search Phrase
+    let tagRegexMatch = searchPhrase.match(searchTagRegex);
+    if (tagRegexMatch) {
+        setTreeHeader('Files with Tag');
+        if (tagRegexMatch[1] === undefined || tagRegexMatch[1].replace(/\s/g, '').length === 0) {
+            setOzFileList([]);
+            return;
         }
-      });
+        setOzFileList([
+            ...getFilesWithTag({
+                searchTag: tagRegexMatch[1],
+                plugin: plugin,
+                focusedFolder: focusedFolder,
+            }),
+        ]);
+        return;
+    }
+    // Check All Regex in Search Phrase
+    let allRegexMatch = searchPhrase.match(searchAllRegex);
+    if (allRegexMatch) {
+        searchPhrase = allRegexMatch[1] ? allRegexMatch[1] : '';
+        searchFolder = plugin.settings.allSearchOnlyInFocusedFolder ? focusedFolder.path : '/';
+        setTreeHeader('All Files');
+    }
+    else {
+        setTreeHeader(getFolderName(activeFolderPath, plugin.app));
+    }
+    let getAllFiles = allRegexMatch ? true : false;
+    let filteredFiles = getFilesWithName({
+        searchPhrase,
+        searchFolder,
+        plugin,
+        getAllFiles,
+    });
+    setOzFileList(filteredFiles);
+};
+// ----> NAV FILE COMPONENT HANDLERS <----- \\
+// Handle Click Event on File - Allows Open with Cmd/Ctrl
+const openFile = (params) => {
+    let { file, e, plugin, setActiveOzFile } = params;
+    openFile$1({
+        file: file,
+        app: plugin.app,
+        newLeaf: (e.ctrlKey || e.metaKey) && !(e.shiftKey || e.altKey),
+        leafBySplit: (e.ctrlKey || e.metaKey) && (e.shiftKey || e.altKey),
+    });
+    setActiveOzFile(file);
+};
+const getFileIcon = (params) => {
+    let { file } = params;
+    return file.extension === 'pdf'
+        ? AiFillFilePdf
+        : ['png', 'jpg', 'jpeg', 'svg'].contains(file.extension)
+            ? AiFillFileImage
+            : ['doc', 'docx'].contains(file.extension)
+                ? AiFillFileWord
+                : BiFile;
+};
+// --> Dragging for File
+const dragStarted = (params) => {
+    let { e, file, plugin } = params;
+    // json to move file to folder
+    e.dataTransfer.setData('application/json', JSON.stringify({ filePath: file.path }));
+    // Obsidian Internal Dragmanager
+    plugin.app.dragManager.onDragStart(e, {
+        icon: plugin.ICON,
+        source: undefined,
+        title: file.basename + '.' + file.extension,
+        type: 'file',
+        file: file,
+    });
+    plugin.app.dragManager.dragFile(e, file, true);
+};
+// --> AuxClick (Mouse Wheel Button Action)
+const onAuxClick = (params) => {
+    let { e, plugin, file } = params;
+    if (e.button === 1)
+        openFileInNewTab(plugin.app, file);
+};
+const mouseEnteredOnFile = (params) => {
+    let { e, file, plugin, setHoverActive } = params;
+    setHoverActive(true);
+    if (plugin.settings.filePreviewOnHover && (e.ctrlKey || e.metaKey)) {
+        plugin.app.workspace.trigger('link-hover', {}, e.target, file.path, file.path);
+    }
+};
+const mouseLeftFile = (params) => {
+    params.setHoverActive(false);
+};
+// Handle Right Click Event on File - Custom Menu
+const triggerContextMenu = (params) => {
+    let { file, e, ozPinnedFiles, setOzPinnedFiles, plugin } = params;
+    const fileMenu = new obsidian.Menu();
+    let fileToTrigger = plugin.app.vault.getAbstractFileByPath(file.path);
+    if (!fileToTrigger)
+        return;
+    // Pin - Unpin Item
+    fileMenu.addItem((menuItem) => {
+        menuItem.setIcon('pin');
+        if (ozPinnedFiles.contains(file))
+            menuItem.setTitle('Unpin');
+        else
+            menuItem.setTitle('Pin to Top');
+        menuItem.onClick((ev) => {
+            if (ozPinnedFiles.contains(file)) {
+                let newPinnedFiles = ozPinnedFiles.filter((pinnedFile) => pinnedFile !== file);
+                setOzPinnedFiles(newPinnedFiles);
+            }
+            else {
+                setOzPinnedFiles([...ozPinnedFiles, file]);
+            }
+        });
     });
     // Rename Item
-    fileMenu.addItem(menuItem => {
-      menuItem.setTitle('Rename');
-      menuItem.setIcon('pencil');
-      menuItem.onClick(ev => {
-        let vaultChangeModal = new VaultChangeModal(plugin, file, 'rename');
-        vaultChangeModal.open();
-      });
+    fileMenu.addItem((menuItem) => {
+        menuItem.setTitle('Rename');
+        menuItem.setIcon('pencil');
+        menuItem.onClick((ev) => {
+            let vaultChangeModal = new VaultChangeModal(plugin, file, 'rename');
+            vaultChangeModal.open();
+        });
     });
     // Delete Item
-    fileMenu.addItem(menuItem => {
-      menuItem.setTitle('Delete');
-      menuItem.setIcon('trash');
-      menuItem.onClick(ev => {
-        let confirmationModal = new ConfirmationModal(plugin, `Are you sure you want to delete the file "${file.basename}${file.extension === 'md' ? '' : file.extension}"?`, function () {
-          let deleteOption = plugin.settings.deleteFileOption;
-          if (deleteOption === 'permanent') {
-            plugin.app.vault.delete(file, true);
-          } else if (deleteOption === 'system-trash') {
-            plugin.app.vault.trash(file, true);
-          } else if (deleteOption === 'trash') {
-            plugin.app.vault.trash(file, false);
-          }
+    fileMenu.addItem((menuItem) => {
+        menuItem.setTitle('Delete');
+        menuItem.setIcon('trash');
+        menuItem.onClick((ev) => {
+            let confirmationModal = new ConfirmationModal(plugin, `Are you sure you want to delete the file "${file.basename}${file.extension === 'md' ? '' : file.extension}"?`, function () {
+                let deleteOption = plugin.settings.deleteFileOption;
+                let fileToDelete = plugin.app.vault.getAbstractFileByPath(file.path);
+                if (!fileToDelete)
+                    return;
+                if (deleteOption === 'permanent') {
+                    plugin.app.vault.delete(fileToDelete, true);
+                }
+                else if (deleteOption === 'system-trash') {
+                    plugin.app.vault.trash(fileToDelete, true);
+                }
+                else if (deleteOption === 'trash') {
+                    plugin.app.vault.trash(fileToDelete, false);
+                }
+            });
+            confirmationModal.open();
         });
-        confirmationModal.open();
-      });
     });
     // Open in a New Pane
-    fileMenu.addItem(menuItem => {
-      menuItem.setIcon('go-to-file');
-      menuItem.setTitle('Open in a new tab');
-      menuItem.onClick(ev => {
-        openFileInNewTab(plugin.app, file);
-      });
+    fileMenu.addItem((menuItem) => {
+        menuItem.setIcon('go-to-file');
+        menuItem.setTitle('Open in a new tab');
+        menuItem.onClick((ev) => {
+            openFileInNewTab(plugin.app, file);
+        });
     });
     // Open in a New Pane
-    fileMenu.addItem(menuItem => {
-      menuItem.setIcon('go-to-file');
-      menuItem.setTitle('Open to right');
-      menuItem.onClick(ev => {
-        openFileInNewTabGroup(plugin.app, file);
-      });
+    fileMenu.addItem((menuItem) => {
+        menuItem.setIcon('go-to-file');
+        menuItem.setTitle('Open to right');
+        menuItem.onClick((ev) => {
+            openFileInNewTabGroup(plugin.app, file);
+        });
     });
     // Make a Copy Item
-    fileMenu.addItem(menuItem => {
-      menuItem.setTitle('Make a copy');
-      menuItem.setIcon('documents');
-      menuItem.onClick(ev => {
-        plugin.app.vault.copy(file, `${file.parent.path}/${file.basename} 1.${file.extension}`);
-      });
+    fileMenu.addItem((menuItem) => {
+        menuItem.setTitle('Make a copy');
+        menuItem.setIcon('documents');
+        menuItem.onClick((ev) => {
+            let fileToCopy = plugin.app.vault.getAbstractFileByPath(file.path);
+            if (fileToCopy) {
+                plugin.app.vault.copy(fileToCopy, `${file.parent.path}/${file.basename} 1.${file.extension}`);
+            }
+        });
     });
     // Move Item
     if (!internalPluginLoaded('file-explorer', plugin.app)) {
-      fileMenu.addItem(menuItem => {
-        menuItem.setTitle('Move file to...');
-        menuItem.setIcon('paper-plane');
-        menuItem.onClick(ev => {
-          let fileMoveSuggester = new MoveSuggestionModal(plugin.app, file);
-          fileMoveSuggester.open();
+        fileMenu.addItem((menuItem) => {
+            menuItem.setTitle('Move file to...');
+            menuItem.setIcon('paper-plane');
+            menuItem.onClick((ev) => {
+                let fileMoveSuggester = new MoveSuggestionModal(plugin.app, file);
+                fileMoveSuggester.open();
+            });
         });
-      });
     }
     // Trigger
-    plugin.app.workspace.trigger('file-menu', fileMenu, file, 'file-explorer');
+    plugin.app.workspace.trigger('file-menu', fileMenu, fileToTrigger, 'file-explorer');
     if (isMouseEvent(e)) {
-      fileMenu.showAtPosition({
-        x: e.pageX,
-        y: e.pageY
-      });
-    } else {
-      // @ts-ignore
-      fileMenu.showAtPosition({
-        x: e.nativeEvent.locationX,
-        y: e.nativeEvent.locationY
-      });
+        fileMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+    }
+    else {
+        // @ts-ignore
+        fileMenu.showAtPosition({ x: e.nativeEvent.locationX, y: e.nativeEvent.locationY });
     }
     return false;
-  };
-  const handleKeyDownEvent = e => {
-    if (e.key === 'Control' || e.key === 'Meta') {
-      let el = document.querySelector(`.oz-nav-file-title[data-path="${file.path}"]`);
-      if (el) plugin.app.workspace.trigger('link-hover', {}, el, file.path, file.path);
-    }
-  };
-  const mouseEnteredOnFile = (e, file) => {
-    setHoverActive(true);
-    if (plugin.settings.filePreviewOnHover && (e.ctrlKey || e.metaKey)) {
-      plugin.app.workspace.trigger('link-hover', {}, e.target, file.path, file.path);
-    }
-  };
-  const mouseLeftFile = (e, file) => {
-    setHoverActive(false);
-  };
-  // --> Dragging for File
-  const dragStarted = (e, file) => {
-    // json to move file to folder
-    e.dataTransfer.setData('application/json', JSON.stringify({
-      filePath: file.path
-    }));
-    // Obsidian Internal Dragmanager
-    plugin.app.dragManager.onDragStart(e, {
-      icon: ICON,
-      source: undefined,
-      title: file.name,
-      type: 'file',
-      file: file
+};
+
+function FileComponent(props) {
+    let searchInput = React.useRef(null);
+    const plugin = props.plugin;
+    // States Coming From Main Component
+    const [_view, setView] = Recoil_index_22(view);
+    const [ozFileList$1, setOzFileList] = Recoil_index_22(ozFileList);
+    const [ozPinnedFiles] = Recoil_index_22(ozPinnedFileList);
+    const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
+    const [excludedExtensions$1] = Recoil_index_22(excludedExtensions);
+    const [excludedFolders$1] = Recoil_index_22(excludedFolders);
+    const [showSubFolders$1, setShowSubFolders] = Recoil_index_22(showSubFolders);
+    const [focusedFolder$1, _setFocusedFolder] = Recoil_index_22(focusedFolder);
+    // Local States
+    const [highlight, setHighlight] = reactExports.useState(false);
+    const [searchPhrase, setSearchPhrase] = reactExports.useState('');
+    const [searchBoxVisible, setSearchBoxVisible] = reactExports.useState(false);
+    const [treeHeader, setTreeHeader] = reactExports.useState(getFolderName(activeFolderPath$1, plugin.app));
+    // Force Update
+    const forceUpdate = useForceUpdate();
+    // Folder Name Update once Active Folder Path Change
+    reactExports.useEffect(() => setTreeHeader(getFolderName(activeFolderPath$1, plugin.app)), [activeFolderPath$1]);
+    // File List Update once showSubFolders change
+    reactExports.useEffect(() => {
+        setOzFileList(getFilesUnderPath(activeFolderPath$1, plugin));
+    }, [showSubFolders$1]);
+    // To focus on Search box if visible set
+    reactExports.useEffect(() => {
+        if (searchBoxVisible)
+            searchInput.current.focus();
+    }, [searchBoxVisible]);
+    const filesToList = reactExports.useMemo(() => customFiles({
+        fileList: ozFileList$1,
+        excludedExtensions: excludedExtensions$1,
+        excludedFolders: excludedFolders$1,
+        plugin: plugin,
+        ozPinnedFiles: ozPinnedFiles,
+    }), [excludedFolders$1, excludedExtensions$1, ozPinnedFiles, ozFileList$1, plugin.settings.sortFilesBy, plugin.settings.sortReverse]);
+    // Go Back Button - Sets Main Component View to Folder
+    const handleGoBack = (e) => {
+        setView('folder');
+        setActiveFolderPath('');
+    };
+    // Toggle Search Box Visibility State
+    const toggleSearchBox = () => {
+        setSearchPhrase('');
+        setSearchBoxVisible(!searchBoxVisible);
+        setOzFileList(getFilesUnderPath(activeFolderPath$1, plugin));
+    };
+    const toggleShowSubFolders = () => __awaiter(this, void 0, void 0, function* () {
+        plugin.settings.showFilesFromSubFolders = !showSubFolders$1;
+        yield plugin.saveSettings();
+        setShowSubFolders(!showSubFolders$1);
     });
-    plugin.app.dragManager.dragFile(e, file, true);
-  };
-  // --> AuxClick (Mouse Wheel Button Action)
-  const onAuxClick = e => {
-    if (e.button === 1) openFileInNewTab(plugin.app, file);
-  };
-  const getFileIcon = () => {
-    return file.extension === 'pdf' ? AiFillFilePdf : ['png', 'jpg', 'jpeg', 'svg'].contains(file.extension) ? AiFillFileImage : ['doc', 'docx'].contains(file.extension) ? AiFillFileWord : BiFile;
-  };
-  const FileIcon = reactExports.useMemo(() => getFileIcon(), [plugin.settings.iconBeforeFileName]);
-  const fileDisplayName = reactExports.useMemo(() => {
-    let displayName = plugin.settings.showFileNameAsFullPath ? file.path : file.name;
-    return getFileNameAndExtension(displayName).fileName;
-  }, [plugin.settings.showFileNameAsFullPath, file.path]);
-  return React.createElement("div", Object.assign({
-    className: 'oz-nav-file' + (activeFile$1 === file ? ' is-active' : ''),
-    key: file.path,
-    draggable: true,
-    onDragStart: e => dragStarted(e, file),
-    onClick: e => openFile$1(file, e),
-    onAuxClick: onAuxClick,
-    onContextMenu: e => triggerContextMenu(file, e),
-    onMouseEnter: e => mouseEnteredOnFile(e, file),
-    onMouseLeave: e => mouseLeftFile()
-  }, longPressEvents), React.createElement("div", {
-    className: "oz-nav-file-title",
-    "data-path": file.path
-  }, React.createElement("div", {
-    className: "oz-nav-file-title-content"
-  }, plugin.settings.iconBeforeFileName && React.createElement(FileIcon, {
-    className: "oz-nav-file-icon",
-    size: 15
-  }), fileDisplayName), pinnedFiles$1.contains(file) && React.createElement(FaThumbtack, {
-    className: "oz-nav-file-tag",
-    size: 14
-  }), getFileNameAndExtension(file.name).extension !== 'md' && React.createElement("span", {
-    className: "oz-nav-file-tag"
-  }, getFileNameAndExtension(file.name).extension)));
+    const topIconSize = 19;
+    return (React.createElement(React.Fragment, null,
+        React.createElement(Dropzone$1, { onDrop: (files) => handleOnDropFiles({
+                files,
+                activeFolderPath: activeFolderPath$1,
+                plugin,
+            }), noClick: true, onDragEnter: () => setHighlight(true), onDragLeave: () => setHighlight(false), onDropAccepted: () => setHighlight(false), onDropRejected: () => setHighlight(false) }, ({ getRootProps, getInputProps }) => (React.createElement("div", Object.assign({}, getRootProps(), { className: highlight ? 'drag-entered' : '', style: { width: '100%', height: '100%', position: 'relative' } }),
+            React.createElement("input", Object.assign({}, getInputProps())),
+            React.createElement("div", { className: "oz-explorer-container" },
+                React.createElement("div", { className: `oz-file-tree-header-wrapper${plugin.settings.fixedHeaderInFileList ? ' file-tree-header-fixed' : ''}` },
+                    React.createElement("div", { className: "oz-flex-container" },
+                        React.createElement("div", { className: "oz-nav-action-button", style: { marginLeft: '0px' } }, ['Horizontal', 'Vertical'].includes(plugin.settings.evernoteView) ? (React.createElement(IoIosCloseCircleOutline, { onClick: (e) => handleGoBack(), size: topIconSize, "aria-label": "Close File Pane" })) : (React.createElement(IoIosArrowBack, { onClick: (e) => handleGoBack(), size: topIconSize, "aria-label": "Go Back to Folder View" }))),
+                        React.createElement("div", { className: "oz-nav-buttons-right-block" },
+                            plugin.settings.revealActiveFileButton && (React.createElement("div", { className: "oz-nav-action-button" },
+                                React.createElement(BiCurrentLocation, { onClick: () => handleRevealActiveFileButton({ plugin }), size: topIconSize, "aria-label": "Reveal Active File" }))),
+                            plugin.settings.showFilesFromSubFoldersButton && (React.createElement("div", { className: "oz-nav-action-button" }, showSubFolders$1 ? (React.createElement(IoIosEyeOff, { onClick: toggleShowSubFolders, size: topIconSize, "aria-label": "Hide Files from Sub-Folders" })) : (React.createElement(IoIosEye, { onClick: toggleShowSubFolders, size: topIconSize, "aria-label": "Show Files from Sub-Folders" })))),
+                            plugin.settings.searchFunction && (React.createElement("div", { className: "oz-nav-action-button" },
+                                React.createElement(IoIosSearch, { onClick: toggleSearchBox, size: topIconSize, "aria-label": "Search File by Name or Tag" }))),
+                            React.createElement("div", { className: "oz-nav-action-button" },
+                                React.createElement(CgSortAz, { size: topIconSize + 2, onClick: (e) => {
+                                        sortFileListClickHandle({ e, plugin, forceUpdate });
+                                    }, "aria-label": "Sorting Options" })),
+                            React.createElement("div", { className: "oz-nav-action-button" },
+                                React.createElement(IoIosAddCircle, { onClick: (e) => createNewFile(e, activeFolderPath$1, plugin), size: topIconSize, "aria-label": "Create a Note" })))),
+                    searchBoxVisible && (React.createElement("div", { className: "oz-input-container" },
+                        React.createElement("input", { type: "search", placeholder: "Search...", ref: searchInput, value: searchPhrase, onChange: (e) => {
+                                handleSearch({
+                                    e,
+                                    plugin,
+                                    activeFolderPath: activeFolderPath$1,
+                                    setSearchPhrase,
+                                    setTreeHeader,
+                                    setOzFileList,
+                                    focusedFolder: focusedFolder$1,
+                                });
+                            }, onKeyDown: (e) => {
+                                if (e.key === 'Escape') {
+                                    e.preventDefault();
+                                    toggleSearchBox();
+                                }
+                            } }))),
+                    React.createElement("div", { className: "oz-file-tree-header" }, treeHeader)),
+                React.createElement("div", { className: `oz-file-tree-files${plugin.settings.fixedHeaderInFileList
+                        ? searchBoxVisible
+                            ? ' file-tree-files-fixed-with-search'
+                            : ' file-tree-files-fixed'
+                        : ''}` }, filesToList.map((file) => {
+                    return React.createElement(NavFile, { file: file, plugin: plugin, key: file.path });
+                }))))))));
+}
+/* ----------- SINGLE NAVFILE ELEMENT ----------- */
+const NavFile = (props) => {
+    const { file, plugin } = props;
+    const [ozPinnedFiles, setOzPinnedFiles] = Recoil_index_22(ozPinnedFileList);
+    const [activeOzFile, setActiveOzFile] = Recoil_index_22(activeOZFile);
+    const [hoverActive, setHoverActive] = reactExports.useState(false);
+    const longPressEvents = useLongPress((e) => {
+        triggerContextMenu({
+            file,
+            e,
+            plugin,
+            ozPinnedFiles,
+            setOzPinnedFiles,
+        });
+    }, 500);
+    reactExports.useEffect(() => {
+        const handleKeyDownEvent = (e) => {
+            if (e.key === 'Control' || e.key === 'Meta') {
+                let el = document.querySelector(`.oz-nav-file-title[data-path="${file.path}"]`);
+                if (el)
+                    plugin.app.workspace.trigger('link-hover', {}, el, file.path, file.path);
+            }
+        };
+        if (hoverActive && plugin.settings.filePreviewOnHover) {
+            document.addEventListener('keydown', handleKeyDownEvent);
+            return () => {
+                document.removeEventListener('keydown', handleKeyDownEvent);
+            };
+        }
+    }, [hoverActive]);
+    const FileIcon = reactExports.useMemo(() => getFileIcon({
+        file,
+    }), [plugin.settings.iconBeforeFileName]);
+    const fileDisplayName = reactExports.useMemo(() => {
+        return plugin.settings.showFileNameAsFullPath ? getFileNameAndExtension(file.path).fileName : file.basename;
+    }, [plugin.settings.showFileNameAsFullPath, file.path]);
+    return (React.createElement("div", Object.assign({ className: 'oz-nav-file' + (activeOzFile && activeOzFile.path === file.path ? ' is-active' : ''), key: file.path, draggable: true, onDragStart: (e) => dragStarted({
+            e,
+            file,
+            plugin,
+        }), onClick: (e) => openFile({
+            e,
+            file,
+            plugin,
+            setActiveOzFile,
+        }), onAuxClick: (e) => onAuxClick({ e, plugin, file }), onContextMenu: (e) => triggerContextMenu({
+            e,
+            file,
+            plugin,
+            ozPinnedFiles,
+            setOzPinnedFiles,
+        }), onMouseEnter: (e) => mouseEnteredOnFile({
+            e,
+            file,
+            plugin,
+            setHoverActive,
+        }), onMouseLeave: (e) => mouseLeftFile({ e, file, setHoverActive }) }, longPressEvents),
+        React.createElement("div", { className: "oz-nav-file-title", "data-path": file.path },
+            React.createElement("div", { className: "oz-nav-file-title-content" },
+                plugin.settings.iconBeforeFileName && React.createElement(FileIcon, { className: "oz-nav-file-icon", size: 15 }),
+                fileDisplayName),
+            ozPinnedFiles.contains(file) && React.createElement(FaThumbtack, { className: "oz-nav-file-tag", size: 14 }),
+            file.extension !== 'md' && React.createElement("span", { className: "oz-nav-file-tag" }, file.extension))));
 };
 
 function Tree(props) {
-  // Global States
-  const [openFolders$1, setOpenFolders] = Recoil_index_22(openFolders);
-  const [folderFileCountMap$1] = Recoil_index_22(folderFileCountMap);
-  const [activeFolderPath$1] = Recoil_index_22(activeFolderPath);
-  const longPressEvents = useLongPress(e => {
-    props.onContextMenu(e);
-  }, 500);
-  // Local States
-  const [open, setOpen] = reactExports.useState(props.open);
-  const [highlight, setHightlight] = reactExports.useState(false);
-  const isFolderActive = props.folder.path === activeFolderPath$1;
-  // --> For state update from outside of the component
-  reactExports.useEffect(() => setOpen(props.open), [props.open]);
-  // --> Icon to be toggled between min(-) and plus(+) Each click sets openFolders Main Component state to save in settings
-  const toggle = () => {
-    if (props.children) {
-      // Set State in Main Component for Keeping Folders Open
-      if (!open) {
-        setOpenFolders([...openFolders$1, props.folder.path]);
-      } else {
-        const newOpenFolders = openFolders$1.filter(openFolder => props.folder.path !== openFolder);
-        setOpenFolders(newOpenFolders);
-      }
-      // Set State Open for the Folder
-      setOpen(!open);
-    }
-  };
-  // --> Function After an External File Dropped into Folder Name
-  const onDrop = files => {
-    files.map(file => __awaiter(this, void 0, void 0, function* () {
-      file.arrayBuffer().then(arrayBuffer => {
-        props.plugin.app.vault.adapter.writeBinary(props.folder.path + '/' + file.name, arrayBuffer);
-      });
-    }));
-  };
-  // --> Click Events
-  const folderNameClickEvent = ev => {
-    if (props.plugin.settings.folderNote && ev.shiftKey) {
-      const fileFullPath = `${props.folder.path}/${props.folder.name}.md`;
-      props.plugin.app.vault.getAbstractFileByPath(fileFullPath);
-      props.plugin.app.workspace.openLinkText(fileFullPath, '/', false);
-    } else {
-      props.onClick();
-    }
-  };
-  const folderContextMenuEvent = () => props.onContextMenu();
-  const folderNameDoubleClickEvent = ev => {
-    setOpen(true);
-    props.onDoubleClick();
-  };
-  // --> Icon
-  const Icon = reactExports.useMemo(() => getFolderIcon(props.plugin, props.children, open), [open, props.children]);
-  // --> Folder Count Map
-  const folderCount = folderFileCountMap$1[props.folder.path];
-  // --> Drag and Drop Actions
-  const dropFileOrFolder = e => {
-    let data = e.dataTransfer.getData('application/json');
-    if (data !== '') {
-      let dataJson = JSON.parse(data);
-      // File Drop
-      if (dataJson['filePath']) {
-        const filePath = dataJson.filePath;
-        // check if file exists
-        let file = props.plugin.app.vault.getAbstractFileByPath(filePath);
-        if (file) {
-          props.plugin.app.vault.rename(file, `${props.folder.path}/${file.name}`);
-        } else {
-          new obsidian.Notice('Couldnt find the file');
+    // Global States
+    const [openFolders$1, setOpenFolders] = Recoil_index_22(openFolders);
+    const [folderFileCountMap$1] = Recoil_index_22(folderFileCountMap);
+    const [activeFolderPath$1] = Recoil_index_22(activeFolderPath);
+    const longPressEvents = useLongPress((e) => {
+        props.onContextMenu(e);
+    }, 500);
+    // Local States
+    const [open, setOpen] = reactExports.useState(props.open);
+    const [highlight, setHightlight] = reactExports.useState(false);
+    const isFolderActive = props.folder.path === activeFolderPath$1;
+    // --> For state update from outside of the component
+    reactExports.useEffect(() => setOpen(props.open), [props.open]);
+    // --> Icon to be toggled between min(-) and plus(+) Each click sets openFolders Main Component state to save in settings
+    const toggle = () => {
+        if (props.children) {
+            // Set State in Main Component for Keeping Folders Open
+            if (!open) {
+                setOpenFolders([...openFolders$1, props.folder.path]);
+            }
+            else {
+                const newOpenFolders = openFolders$1.filter((openFolder) => props.folder.path !== openFolder);
+                setOpenFolders(newOpenFolders);
+            }
+            // Set State Open for the Folder
+            setOpen(!open);
         }
-      }
-      // Folder Drop
-      else if (dataJson['folderPath']) {
-        const folderPath = dataJson.folderPath;
-        let folder = props.plugin.app.vault.getAbstractFileByPath(folderPath);
-        if (folder) {
-          if (!props.folder.path.startsWith(folder.path)) {
-            props.plugin.app.vault.rename(folder, `${props.folder.path}/${folder.name}`);
-          } else {
-            new obsidian.Notice('You cant move folder under its child');
-          }
-        } else {
-          new obsidian.Notice('Couldnt find the folder');
+    };
+    // --> Function After an External File Dropped into Folder Name
+    const onDrop = (files) => {
+        files.map((file) => __awaiter(this, void 0, void 0, function* () {
+            file.arrayBuffer().then((arrayBuffer) => {
+                props.plugin.app.vault.adapter.writeBinary(props.folder.path + '/' + file.name, arrayBuffer);
+            });
+        }));
+    };
+    // --> Click Events
+    const folderNameClickEvent = (ev) => {
+        if (props.plugin.settings.folderNote && ev.shiftKey) {
+            const fileFullPath = `${props.folder.path}/${props.folder.name}.md`;
+            props.plugin.app.vault.getAbstractFileByPath(fileFullPath);
+            props.plugin.app.workspace.openLinkText(fileFullPath, '/', false);
         }
-      }
-    }
-    setHightlight(false);
-    e.dataTransfer.clearData();
-  };
-  const onFolderDragStart = (e, folder) => {
-    e.dataTransfer.setData('application/json', JSON.stringify({
-      folderPath: folder.path
-    }));
-  };
-  return React.createElement(Dropzone$1, {
-    onDrop: onDrop,
-    noClick: true,
-    onDragEnter: () => setHightlight(true),
-    onDragLeave: () => setHightlight(false),
-    onDropAccepted: () => setHightlight(false),
-    onDropRejected: () => setHightlight(false)
-  }, ({
-    getRootProps,
-    getInputProps
-  }) => React.createElement(React.Fragment, null, React.createElement("div", {
-    style: Object.assign({}, props.style),
-    className: "treeview",
-    draggable: true,
-    onDragStart: e => onFolderDragStart(e, props.folder),
-    onDrop: e => dropFileOrFolder(e),
-    onDragOver: () => setHightlight(true),
-    onDragLeave: () => setHightlight(false)
-  }, React.createElement("div", Object.assign({}, getRootProps({
-    className: 'dropzone'
-  }), {
-    className: 'oz-folder-element' + (highlight ? ' drag-entered' : ''),
-    "data-path": props.folder.path
-  }), React.createElement("input", Object.assign({}, getInputProps())), React.createElement("div", {
-    className: "oz-folder-line"
-  }, React.createElement("div", {
-    className: "oz-icon-div"
-  }, React.createElement(Icon, {
-    className: "oz-folder-toggle",
-    style: {
-      opacity: props.children ? 1 : 0.3
-    },
-    onClick: toggle
-  })), React.createElement("div", Object.assign({
-    className: "oz-folder-block",
-    onClick: folderNameClickEvent,
-    onDoubleClick: folderNameDoubleClickEvent,
-    onContextMenu: folderContextMenuEvent
-  }, longPressEvents), React.createElement("div", {
-    className: "oz-folder-type",
-    style: {
-      marginRight: props.type ? 10 : 0
-    }
-  }, props.type), React.createElement("div", {
-    className: `oz-folder-name ${isFolderActive ? 'is-folder-active' : ''}${props.isRootFolder ? ' is-root-folder' : ''}`
-  }, props.content, ' ', props.plugin.settings.folderNote && props.folder.children.some(f => f.name === `${props.folder.name}.md`) ? React.createElement(IoMdArrowDropright, {
-    size: 10,
-    className: "oz-folder-note-icon"
-  }) : ''), props.plugin.settings.folderCount && React.createElement("div", {
-    className: "oz-folder-count"
-  }, React.createElement("span", {
-    className: "oz-nav-file-tag"
-  }, folderCount ? open ? folderCount.open : folderCount.closed : 0)))))), props.children && React.createElement("div", {
-    className: "oz-folder-contents",
-    style: {
-      height: open ? 'auto' : 0,
-      opacity: open ? 1 : 0,
-      display: open ? 'inherit' : 'none'
-    }
-  }, props.children)));
+        else {
+            props.onClick();
+        }
+    };
+    const folderContextMenuEvent = () => props.onContextMenu();
+    const folderNameDoubleClickEvent = (ev) => {
+        setOpen(true);
+        props.onDoubleClick();
+    };
+    // --> Icon
+    const Icon = reactExports.useMemo(() => getFolderIcon(props.plugin, props.children, open), [open, props.children]);
+    // --> Folder Count Map
+    const folderCount = folderFileCountMap$1[props.folder.path];
+    // --> Drag and Drop Actions
+    const dropFileOrFolder = (e) => {
+        let data = e.dataTransfer.getData('application/json');
+        if (data !== '') {
+            let dataJson = JSON.parse(data);
+            // File Drop
+            if (dataJson['filePath']) {
+                const filePath = dataJson.filePath;
+                // check if file exists
+                let file = props.plugin.app.vault.getAbstractFileByPath(filePath);
+                if (file) {
+                    props.plugin.app.vault.rename(file, `${props.folder.path}/${file.name}`);
+                }
+                else {
+                    new obsidian.Notice('Couldnt find the file');
+                }
+            }
+            // Folder Drop
+            else if (dataJson['folderPath']) {
+                const folderPath = dataJson.folderPath;
+                let folder = props.plugin.app.vault.getAbstractFileByPath(folderPath);
+                if (folder) {
+                    if (!props.folder.path.startsWith(folder.path)) {
+                        props.plugin.app.vault.rename(folder, `${props.folder.path}/${folder.name}`);
+                    }
+                    else {
+                        new obsidian.Notice('You cant move folder under its child');
+                    }
+                }
+                else {
+                    new obsidian.Notice('Couldnt find the folder');
+                }
+            }
+        }
+        setHightlight(false);
+        e.dataTransfer.clearData();
+    };
+    const onFolderDragStart = (e, folder) => {
+        e.dataTransfer.setData('application/json', JSON.stringify({ folderPath: folder.path }));
+    };
+    return (React.createElement(Dropzone$1, { onDrop: onDrop, noClick: true, onDragEnter: () => setHightlight(true), onDragLeave: () => setHightlight(false), onDropAccepted: () => setHightlight(false), onDropRejected: () => setHightlight(false) }, ({ getRootProps, getInputProps }) => (React.createElement(React.Fragment, null,
+        React.createElement("div", { style: Object.assign({}, props.style), className: "treeview", draggable: true, onDragStart: (e) => onFolderDragStart(e, props.folder), onDrop: (e) => dropFileOrFolder(e), onDragOver: () => setHightlight(true), onDragLeave: () => setHightlight(false) },
+            React.createElement("div", Object.assign({}, getRootProps({ className: 'dropzone' }), { className: 'oz-folder-element' + (highlight ? ' drag-entered' : ''), "data-path": props.folder.path }),
+                React.createElement("input", Object.assign({}, getInputProps())),
+                React.createElement("div", { className: "oz-folder-line" },
+                    React.createElement("div", { className: "oz-icon-div" },
+                        React.createElement(Icon, { className: "oz-folder-toggle", style: { opacity: props.children ? 1 : 0.3 }, onClick: toggle })),
+                    React.createElement("div", Object.assign({ className: "oz-folder-block", onClick: folderNameClickEvent, onDoubleClick: folderNameDoubleClickEvent, onContextMenu: folderContextMenuEvent }, longPressEvents),
+                        React.createElement("div", { className: "oz-folder-type", style: { marginRight: props.type ? 10 : 0 } }, props.type),
+                        React.createElement("div", { className: `oz-folder-name ${isFolderActive ? 'is-folder-active' : ''}${props.isRootFolder ? ' is-root-folder' : ''}` },
+                            props.content,
+                            ' ',
+                            props.plugin.settings.folderNote && props.folder.children.some((f) => f.name === `${props.folder.name}.md`) ? (React.createElement(IoMdArrowDropright, { size: 10, className: "oz-folder-note-icon" })) : ('')),
+                        props.plugin.settings.folderCount && (React.createElement("div", { className: "oz-folder-count" },
+                            React.createElement("span", { className: "oz-nav-file-tag" }, folderCount ? (open ? folderCount.open : folderCount.closed) : 0))))))),
+        props.children && (React.createElement("div", { className: "oz-folder-contents", style: {
+                height: open ? 'auto' : 0,
+                opacity: open ? 1 : 0,
+                display: open ? 'inherit' : 'none',
+            } }, props.children))))));
 }
 
-const ConditionalRootFolderWrapper = ({
-  condition,
-  wrapper,
-  children
-}) => condition ? wrapper(children) : children;
+const ConditionalRootFolderWrapper = ({ condition, wrapper, children }) => condition ? wrapper(children) : children;
 
 function NestedFolders(props) {
-  const plugin = props.plugin;
-  const app = plugin.app;
-  let rootFolder = app.vault.getRoot();
-  // Global States
-  const [openFolders$1] = Recoil_index_22(openFolders);
-  const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
-  const [excludedFolders$1, setExcludedFolders] = Recoil_index_22(excludedFolders);
-  const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
-  const [folderFileCountMap$1] = Recoil_index_22(folderFileCountMap);
-  const [_view, setView] = Recoil_index_22(view);
-  const handleFolderNameClick = folderPath => setActiveFolderPath(folderPath);
-  const handleFolderNameDoubleClick = folder => {
-    setFocusedFolder(folder);
-  };
-  const getSortedFolderTree = folderTree => {
-    let newTree = folderTree;
-    if (excludedFolders$1.length > 0) {
-      newTree = newTree.filter(tree => !excludedFolders$1.contains(tree.folder.path));
-    }
-    newTree = newTree.sort((a, b) => {
-      if (plugin.settings.sortFoldersBy === 'name') {
-        return a.folder.name.localeCompare(b.folder.name, 'en', {
-          numeric: true
-        });
-      } else if (plugin.settings.sortFoldersBy === 'item-number') {
-        let aCount = folderFileCountMap$1[a.folder.path] ? folderFileCountMap$1[a.folder.path].closed : 0;
-        let bCount = folderFileCountMap$1[b.folder.path] ? folderFileCountMap$1[b.folder.path].closed : 0;
-        return bCount - aCount;
-      }
-    });
-    return newTree;
-  };
-  const handleFolderContextMenu = params => {
-    let {
-      event,
-      folder
-    } = params;
-    // Event Undefined Correction
-    let e = event;
-    if (event === undefined) e = window.event;
-    // Menu Items
-    const folderMenu = new obsidian.Menu();
-    // Focus Items
-    if (hasChildFolder(folder)) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Focus on Folder').setIcon('zoomInIcon').onClick(() => setFocusedFolder(folder));
-      });
-    }
-    if (!focusedFolder$1.isRoot()) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Focus Back to Root').setIcon('zoomOutIcon').onClick(() => setFocusedFolder(rootFolder));
-      });
-    }
-    // CRUD Items
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('New Folder').setIcon('folder').onClick(ev => {
-        let vaultChangeModal = new VaultChangeModal(plugin, folder, 'create folder');
-        vaultChangeModal.open();
-      });
-    });
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('Delete').setIcon('trash').onClick(ev => {
-        let confirmationModal = new ConfirmationModal(plugin, `Are you sure you want to delete folder "${folder.name}" and all folders & files under it?`, () => {
-          let deleteOption = plugin.settings.deleteFileOption;
-          if (deleteOption === 'permanent') {
-            plugin.app.vault.delete(folder, true);
-          } else if (deleteOption === 'system-trash') {
-            plugin.app.vault.trash(folder, true);
-          } else if (deleteOption === 'trash') {
-            plugin.app.vault.trash(folder, false);
-          }
-          if (activeFolderPath$1 === folder.path) {
-            setActiveFolderPath('');
-            setView('folder');
-          }
-        });
-        confirmationModal.open();
-      });
-    });
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('Rename').setIcon('pencil').onClick(ev => {
-        let vaultChangeModal = new VaultChangeModal(plugin, folder, 'rename');
-        vaultChangeModal.open();
-      });
-    });
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('New File').setIcon('document').onClick(ev => {
-        createNewFile(ev, folder.path, plugin);
-      });
-    });
-    // Move Item
-    if (!internalPluginLoaded('file-explorer', app)) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Move folder to...').setIcon('paper-plane').onClick(ev => {
-          let folderMoveModal = new MoveSuggestionModal(app, folder);
-          folderMoveModal.open();
-        });
-      });
-    }
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('Add to Excluded Folders').setIcon('switch').onClick(ev => {
-        setExcludedFolders([...excludedFolders$1, folder.path]);
-      });
-    });
-    // Folder Note Open & Create & Delete (If folder note loaded, avoid duplicate create, delete buttons)
-    const folderNotePath = `${folder.path}/${folder.name}.md`;
-    let folderNoteExists = folder.children.some(f => `${folder.name}.md` === f.name);
-    if (folderNoteExists) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Open Folder Note').setIcon('go-to-file').onClick(ev => {
-          plugin.app.workspace.activeLeaf.setViewState({
-            type: 'markdown',
-            state: {
-              file: folderNotePath
+    const plugin = props.plugin;
+    const app = plugin.app;
+    let rootFolder = app.vault.getRoot();
+    // Global States
+    const [openFolders$1] = Recoil_index_22(openFolders);
+    const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
+    const [excludedFolders$1, setExcludedFolders] = Recoil_index_22(excludedFolders);
+    const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
+    const [folderFileCountMap$1] = Recoil_index_22(folderFileCountMap);
+    const [_view, setView] = Recoil_index_22(view);
+    const handleFolderNameClick = (folderPath) => setActiveFolderPath(folderPath);
+    const handleFolderNameDoubleClick = (folder) => {
+        setFocusedFolder(folder);
+    };
+    const getSortedFolderTree = (folderTree) => {
+        let newTree = folderTree;
+        if (excludedFolders$1.length > 0) {
+            newTree = newTree.filter((tree) => !excludedFolders$1.contains(tree.folder.path));
+        }
+        newTree = newTree.sort((a, b) => {
+            if (plugin.settings.sortFoldersBy === 'name') {
+                return a.folder.name.localeCompare(b.folder.name, 'en', { numeric: true });
             }
-          });
+            else if (plugin.settings.sortFoldersBy === 'item-number') {
+                let aCount = folderFileCountMap$1[a.folder.path] ? folderFileCountMap$1[a.folder.path].closed : 0;
+                let bCount = folderFileCountMap$1[b.folder.path] ? folderFileCountMap$1[b.folder.path].closed : 0;
+                return bCount - aCount;
+            }
         });
-      });
-    }
-    if (!pluginIsLoaded(plugin.app, 'folder-note-core')) {
-      // Delete Folder Note Button
-      if (folderNoteExists) {
-        folderMenu.addItem(menuItem => {
-          menuItem.setTitle('Delete Folder Note').setIcon('trash').onClick(ev => {
-            const folderNoteFile = plugin.app.vault.getAbstractFileByPath(folderNotePath);
-            if (folderNoteFile) plugin.app.vault.delete(folderNoteFile, true);
-          });
+        return newTree;
+    };
+    const handleFolderContextMenu = (params) => {
+        let { event, folder } = params;
+        // Event Undefined Correction
+        let e = event;
+        if (event === undefined)
+            e = window.event;
+        // Menu Items
+        const folderMenu = new obsidian.Menu();
+        // Focus Items
+        if (hasChildFolder(folder)) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Focus on Folder')
+                    .setIcon('zoomInIcon')
+                    .onClick(() => setFocusedFolder(folder));
+            });
+        }
+        if (!focusedFolder$1.isRoot()) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Focus Back to Root')
+                    .setIcon('zoomOutIcon')
+                    .onClick(() => setFocusedFolder(rootFolder));
+            });
+        }
+        // CRUD Items
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('New Folder')
+                .setIcon('folder')
+                .onClick((ev) => {
+                let vaultChangeModal = new VaultChangeModal(plugin, folder, 'create folder');
+                vaultChangeModal.open();
+            });
         });
-      }
-      // Create Folder Note Button
-      else {
-        folderMenu.addItem(menuItem => {
-          menuItem.setTitle('Create Folder Note').setIcon('create-new').onClick(ev => __awaiter(this, void 0, void 0, function* () {
-            createNewMarkdownFile(plugin, folder, folder.name, `# ${folder.name}`);
-          }));
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('Delete')
+                .setIcon('trash')
+                .onClick((ev) => {
+                let confirmationModal = new ConfirmationModal(plugin, `Are you sure you want to delete folder "${folder.name}" and all folders & files under it?`, () => {
+                    let deleteOption = plugin.settings.deleteFileOption;
+                    if (deleteOption === 'permanent') {
+                        plugin.app.vault.delete(folder, true);
+                    }
+                    else if (deleteOption === 'system-trash') {
+                        plugin.app.vault.trash(folder, true);
+                    }
+                    else if (deleteOption === 'trash') {
+                        plugin.app.vault.trash(folder, false);
+                    }
+                    if (activeFolderPath$1 === folder.path) {
+                        setActiveFolderPath('');
+                        setView('folder');
+                    }
+                });
+                confirmationModal.open();
+            });
         });
-      }
-    }
-    // Trigger
-    app.workspace.trigger('file-menu', folderMenu, folder, 'file-explorer');
-    if (e instanceof MouseEvent) {
-      folderMenu.showAtPosition({
-        x: e.pageX,
-        y: e.pageY
-      });
-    } else {
-      folderMenu.showAtPosition({
-        x: 0,
-        y: 0
-      });
-    }
-    return false;
-  };
-  if (!props.folderTree.children) return null;
-  let sortedFolderTree = reactExports.useMemo(() => getSortedFolderTree(props.folderTree.children), [props.folderTree.children, excludedFolders$1, plugin.settings.sortFoldersBy]);
-  return React.createElement(React.Fragment, null, Array.isArray(props.folderTree.children) && sortedFolderTree.map(child => {
-    return React.createElement(React.Fragment, {
-      key: child.folder.path
-    }, child.folder.children.some(child => child instanceof obsidian.TFolder) ? React.createElement(Tree, {
-      plugin: plugin,
-      content: child.folder.name,
-      open: openFolders$1.contains(child.folder.path),
-      onClick: () => handleFolderNameClick(child.folder.path),
-      onDoubleClick: () => handleFolderNameDoubleClick(child.folder),
-      onContextMenu: e => handleFolderContextMenu({
-        event: e,
-        folder: child.folder
-      }),
-      folder: child.folder
-    }, React.createElement(NestedFolders, {
-      plugin: plugin,
-      folderTree: child
-    })) : React.createElement(Tree, {
-      plugin: plugin,
-      content: child.folder.name,
-      onClick: () => handleFolderNameClick(child.folder.path),
-      onDoubleClick: () => handleFolderNameDoubleClick(child.folder),
-      onContextMenu: e => handleFolderContextMenu({
-        event: e,
-        folder: child.folder
-      }),
-      folder: child.folder
-    }));
-  }));
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('Rename')
+                .setIcon('pencil')
+                .onClick((ev) => {
+                let vaultChangeModal = new VaultChangeModal(plugin, folder, 'rename');
+                vaultChangeModal.open();
+            });
+        });
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('New File')
+                .setIcon('document')
+                .onClick((ev) => {
+                createNewFile(ev, folder.path, plugin);
+            });
+        });
+        // Move Item
+        if (!internalPluginLoaded('file-explorer', app)) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Move folder to...')
+                    .setIcon('paper-plane')
+                    .onClick((ev) => {
+                    let folderMoveModal = new MoveSuggestionModal(app, folder);
+                    folderMoveModal.open();
+                });
+            });
+        }
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('Add to Excluded Folders')
+                .setIcon('switch')
+                .onClick((ev) => {
+                setExcludedFolders([...excludedFolders$1, folder.path]);
+            });
+        });
+        // Folder Note Open & Create & Delete (If folder note loaded, avoid duplicate create, delete buttons)
+        const folderNotePath = `${folder.path}/${folder.name}.md`;
+        let folderNoteExists = folder.children.some((f) => `${folder.name}.md` === f.name);
+        if (folderNoteExists) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Open Folder Note')
+                    .setIcon('go-to-file')
+                    .onClick((ev) => {
+                    plugin.app.workspace.activeLeaf.setViewState({
+                        type: 'markdown',
+                        state: { file: folderNotePath },
+                    });
+                });
+            });
+        }
+        if (!pluginIsLoaded(plugin.app, 'folder-note-core')) {
+            // Delete Folder Note Button
+            if (folderNoteExists) {
+                folderMenu.addItem((menuItem) => {
+                    menuItem
+                        .setTitle('Delete Folder Note')
+                        .setIcon('trash')
+                        .onClick((ev) => {
+                        const folderNoteFile = plugin.app.vault.getAbstractFileByPath(folderNotePath);
+                        if (folderNoteFile)
+                            plugin.app.vault.delete(folderNoteFile, true);
+                    });
+                });
+            }
+            // Create Folder Note Button
+            else {
+                folderMenu.addItem((menuItem) => {
+                    menuItem
+                        .setTitle('Create Folder Note')
+                        .setIcon('create-new')
+                        .onClick((ev) => __awaiter(this, void 0, void 0, function* () {
+                        createNewMarkdownFile(plugin, folder, folder.name, `# ${folder.name}`);
+                    }));
+                });
+            }
+        }
+        // Trigger
+        app.workspace.trigger('file-menu', folderMenu, folder, 'file-explorer');
+        if (e instanceof MouseEvent) {
+            folderMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+        }
+        else {
+            folderMenu.showAtPosition({ x: 0, y: 0 });
+        }
+        return false;
+    };
+    if (!props.folderTree.children)
+        return null;
+    let sortedFolderTree = reactExports.useMemo(() => getSortedFolderTree(props.folderTree.children), [props.folderTree.children, excludedFolders$1, plugin.settings.sortFoldersBy]);
+    return (React.createElement(React.Fragment, null, Array.isArray(props.folderTree.children) &&
+        sortedFolderTree.map((child) => {
+            return (React.createElement(React.Fragment, { key: child.folder.path }, child.folder.children.some((child) => child instanceof obsidian.TFolder) ? (React.createElement(Tree, { plugin: plugin, content: child.folder.name, open: openFolders$1.contains(child.folder.path), onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => handleFolderNameDoubleClick(child.folder), onContextMenu: (e) => handleFolderContextMenu({
+                    event: e,
+                    folder: child.folder,
+                }), folder: child.folder },
+                React.createElement(NestedFolders, { plugin: plugin, folderTree: child }))) : (React.createElement(Tree, { plugin: plugin, content: child.folder.name, onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => handleFolderNameDoubleClick(child.folder), onContextMenu: (e) => handleFolderContextMenu({
+                    event: e,
+                    folder: child.folder,
+                }), folder: child.folder }))));
+        })));
 }
 
 function MainFolder(props) {
-  const treeStyles = {
-    color: 'var(--text-muted)',
-    fill: '#c16ff7',
-    width: '100%'
-  };
-  const plugin = props.plugin;
-  const app = plugin.app;
-  const rootFolder = app.vault.getRoot();
-  // Global States
-  const [_activeFolderPath, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
-  const [folderTree$1] = Recoil_index_22(folderTree);
-  const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
-  const [_openFolders, setOpenFolders] = Recoil_index_22(openFolders);
-  // Force Update
-  const forceUpdate = useForceUpdate();
-  const createFolder = underFolder => {
-    let vaultChangeModal = new VaultChangeModal(plugin, underFolder, 'create folder');
-    vaultChangeModal.open();
-  };
-  const handleRootFolderContextMenu = (event, folder) => {
-    // Event Undefined Correction
-    let e = event;
-    if (event === undefined) e = window.event;
-    // Menu Items
-    const folderMenu = new obsidian.Menu();
-    folderMenu.addItem(menuItem => {
-      menuItem.setTitle('New Folder').setIcon('folder').onClick(ev => createFolder(folder));
-    });
-    if (!folder.isRoot()) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Focus Back to Root').setIcon('zoomOutDoubleIcon').onClick(() => setFocusedFolder(rootFolder));
-      });
-    }
-    if (folder.parent && !folder.parent.isRoot() && folder.parent !== focusedFolder$1) {
-      folderMenu.addItem(menuItem => {
-        menuItem.setTitle('Focus to Parent Folder').setIcon('zoomOutIcon').onClick(() => setFocusedFolder(folder.parent));
-      });
-    }
-    // Trigger
-    app.workspace.trigger('root-folder-menu', folderMenu, folder);
-    folderMenu.showAtPosition({
-      x: e.pageX,
-      y: e.pageY
-    });
-    return false;
-  };
-  // --> Collapse, Expland Button Functions
-  const collapseAllFolders = () => setOpenFolders([]);
-  const explandAllFolders = () => {
-    let newOpenFolders = [];
-    newOpenFolders.push(folderTree$1.folder.path);
-    const recursiveFx = folderTreeChildren => {
-      for (let folderTreeChild of folderTreeChildren) {
-        newOpenFolders.push(folderTreeChild.folder.path);
-        if (folderTreeChild.children.length > 0) {
-          recursiveFx(folderTreeChild.children);
-        }
-      }
+    const treeStyles = { color: 'var(--text-muted)', fill: '#c16ff7', width: '100%' };
+    const plugin = props.plugin;
+    const app = plugin.app;
+    const rootFolder = app.vault.getRoot();
+    // Global States
+    const [_activeFolderPath, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
+    const [folderTree$1] = Recoil_index_22(folderTree);
+    const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
+    const [_openFolders, setOpenFolders] = Recoil_index_22(openFolders);
+    // Force Update
+    const forceUpdate = useForceUpdate();
+    const createFolder = (underFolder) => {
+        let vaultChangeModal = new VaultChangeModal(plugin, underFolder, 'create folder');
+        vaultChangeModal.open();
     };
-    recursiveFx(folderTree$1.children);
-    setOpenFolders(newOpenFolders);
-  };
-  const triggerFolderSortOptions = e => {
-    const sortMenu = new obsidian.Menu();
-    const changeSortSettingTo = newValue => {
-      plugin.settings.sortFoldersBy = newValue;
-      plugin.saveSettings();
-      forceUpdate();
-    };
-    sortMenu.addItem(menuItem => {
-      menuItem.setTitle('Folder Name (A to Z)');
-      menuItem.onClick(ev => {
-        changeSortSettingTo('name');
-      });
-    });
-    if (plugin.settings.folderCount) {
-      sortMenu.addItem(menuItem => {
-        menuItem.setTitle('Item Numbers (Bigger to Smaller)');
-        menuItem.onClick(ev => {
-          changeSortSettingTo('item-number');
+    const handleRootFolderContextMenu = (event, folder) => {
+        // Event Undefined Correction
+        let e = event;
+        if (event === undefined)
+            e = window.event;
+        // Menu Items
+        const folderMenu = new obsidian.Menu();
+        folderMenu.addItem((menuItem) => {
+            menuItem
+                .setTitle('New Folder')
+                .setIcon('folder')
+                .onClick((ev) => createFolder(folder));
         });
-      });
-    }
-    // Trigger
-    plugin.app.workspace.trigger('sort-menu', sortMenu);
-    sortMenu.showAtPosition({
-      x: e.pageX,
-      y: e.pageY
-    });
-    return false;
-  };
-  const handleFolderNameDoubleClick = folder => {
-    if (!folder.isRoot()) setFocusedFolder(folder.parent);
-  };
-  let folderActionItemSize = 22;
-  return React.createElement("div", {
-    className: "oz-folders-tree-wrapper"
-  }, React.createElement("div", {
-    className: "oz-folders-action-items file-tree-header-fixed"
-  }, React.createElement(MdOutlineCreateNewFolder, {
-    className: "oz-nav-action-button",
-    size: folderActionItemSize,
-    onClick: e => createFolder(plugin.app.vault.getRoot()),
-    "aria-label": "Create Folder"
-  }), React.createElement(CgSortAz, {
-    className: "oz-nav-action-button",
-    size: folderActionItemSize,
-    onClick: triggerFolderSortOptions,
-    "aria-label": "Sorting Options"
-  }), React.createElement(CgChevronDoubleUp, {
-    className: "oz-nav-action-button",
-    size: folderActionItemSize,
-    onClick: collapseAllFolders,
-    "aria-label": "Collapse Folders"
-  }), React.createElement(CgChevronDoubleDown, {
-    className: "oz-nav-action-button",
-    size: folderActionItemSize,
-    onClick: explandAllFolders,
-    "aria-label": "Expand Folders"
-  })), React.createElement(ConditionalRootFolderWrapper, {
-    condition: focusedFolder$1 && !focusedFolder$1.isRoot() || focusedFolder$1 && focusedFolder$1.isRoot && plugin.settings.showRootFolder,
-    wrapper: children => {
-      return React.createElement(Tree, {
-        plugin: plugin,
-        content: focusedFolder$1.isRoot() ? plugin.app.vault.getName() : focusedFolder$1.name,
-        open: true,
-        isRootFolder: focusedFolder$1.isRoot(),
-        style: treeStyles,
-        onClick: () => setActiveFolderPath(focusedFolder$1.path),
-        onDoubleClick: () => handleFolderNameDoubleClick(focusedFolder$1),
-        folder: focusedFolder$1,
-        onContextMenu: e => handleRootFolderContextMenu(e, focusedFolder$1)
-      }, children);
-    }
-  }, folderTree$1 && React.createElement(NestedFolders, {
-    plugin: plugin,
-    folderTree: folderTree$1
-  })));
+        if (!folder.isRoot()) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Focus Back to Root')
+                    .setIcon('zoomOutDoubleIcon')
+                    .onClick(() => setFocusedFolder(rootFolder));
+            });
+        }
+        if (folder.parent && !folder.parent.isRoot() && folder.parent !== focusedFolder$1) {
+            folderMenu.addItem((menuItem) => {
+                menuItem
+                    .setTitle('Focus to Parent Folder')
+                    .setIcon('zoomOutIcon')
+                    .onClick(() => setFocusedFolder(folder.parent));
+            });
+        }
+        // Trigger
+        app.workspace.trigger('root-folder-menu', folderMenu, folder);
+        folderMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+        return false;
+    };
+    // --> Collapse, Expland Button Functions
+    const collapseAllFolders = () => setOpenFolders([]);
+    const explandAllFolders = () => {
+        let newOpenFolders = [];
+        newOpenFolders.push(folderTree$1.folder.path);
+        const recursiveFx = (folderTreeChildren) => {
+            for (let folderTreeChild of folderTreeChildren) {
+                newOpenFolders.push(folderTreeChild.folder.path);
+                if (folderTreeChild.children.length > 0) {
+                    recursiveFx(folderTreeChild.children);
+                }
+            }
+        };
+        recursiveFx(folderTree$1.children);
+        setOpenFolders(newOpenFolders);
+    };
+    const triggerFolderSortOptions = (e) => {
+        const sortMenu = new obsidian.Menu();
+        const changeSortSettingTo = (newValue) => {
+            plugin.settings.sortFoldersBy = newValue;
+            plugin.saveSettings();
+            forceUpdate();
+        };
+        sortMenu.addItem((menuItem) => {
+            menuItem.setTitle('Folder Name (A to Z)');
+            menuItem.onClick((ev) => {
+                changeSortSettingTo('name');
+            });
+        });
+        if (plugin.settings.folderCount) {
+            sortMenu.addItem((menuItem) => {
+                menuItem.setTitle('Item Numbers (Bigger to Smaller)');
+                menuItem.onClick((ev) => {
+                    changeSortSettingTo('item-number');
+                });
+            });
+        }
+        // Trigger
+        plugin.app.workspace.trigger('sort-menu', sortMenu);
+        sortMenu.showAtPosition({ x: e.pageX, y: e.pageY });
+        return false;
+    };
+    const handleFolderNameDoubleClick = (folder) => {
+        if (!folder.isRoot())
+            setFocusedFolder(folder.parent);
+    };
+    let folderActionItemSize = 22;
+    return (React.createElement("div", { className: "oz-folders-tree-wrapper" },
+        React.createElement("div", { className: "oz-folders-action-items file-tree-header-fixed" },
+            React.createElement(MdOutlineCreateNewFolder, { className: "oz-nav-action-button", size: folderActionItemSize, onClick: (e) => createFolder(plugin.app.vault.getRoot()), "aria-label": "Create Folder" }),
+            React.createElement(CgSortAz, { className: "oz-nav-action-button", size: folderActionItemSize, onClick: triggerFolderSortOptions, "aria-label": "Sorting Options" }),
+            React.createElement(CgChevronDoubleUp, { className: "oz-nav-action-button", size: folderActionItemSize, onClick: collapseAllFolders, "aria-label": "Collapse Folders" }),
+            React.createElement(CgChevronDoubleDown, { className: "oz-nav-action-button", size: folderActionItemSize, onClick: explandAllFolders, "aria-label": "Expand Folders" })),
+        React.createElement(ConditionalRootFolderWrapper, { condition: (focusedFolder$1 && !focusedFolder$1.isRoot()) || (focusedFolder$1 && focusedFolder$1.isRoot && plugin.settings.showRootFolder), wrapper: (children) => {
+                return (React.createElement(Tree, { plugin: plugin, content: focusedFolder$1.isRoot() ? plugin.app.vault.getName() : focusedFolder$1.name, open: true, isRootFolder: focusedFolder$1.isRoot(), style: treeStyles, onClick: () => setActiveFolderPath(focusedFolder$1.path), onDoubleClick: () => handleFolderNameDoubleClick(focusedFolder$1), folder: focusedFolder$1, onContextMenu: (e) => handleRootFolderContextMenu(e, focusedFolder$1) }, children));
+            } }, folderTree$1 && React.createElement(NestedFolders, { plugin: plugin, folderTree: folderTree$1 }))));
 }
 
-const SingleViewVertical = props => {
-  let {
-    plugin
-  } = props;
-  const [dividerOnMove, setDividerOnMove] = reactExports.useState(false);
-  const [folderPaneHeight, setFolderPaneHeight] = reactExports.useState(null);
-  const [clientY, setClientY] = reactExports.useState(null);
-  let folderPaneRef = reactExports.useRef();
-  let dividerRef = reactExports.useRef();
-  let heightSetting = localStorage.getItem(plugin.keys.customHeightKey);
-  reactExports.useEffect(() => {
-    if (folderPaneHeight) {
-      localStorage.setItem(plugin.keys.customHeightKey, folderPaneHeight.toString());
+const SingleViewVertical = (props) => {
+    let { plugin } = props;
+    const [dividerOnMove, setDividerOnMove] = reactExports.useState(false);
+    const [folderPaneHeight, setFolderPaneHeight] = reactExports.useState(null);
+    const [clientY, setClientY] = reactExports.useState(null);
+    let folderPaneRef = reactExports.useRef();
+    let dividerRef = reactExports.useRef();
+    let heightSetting = localStorage.getItem(plugin.keys.customHeightKey);
+    reactExports.useEffect(() => {
+        if (folderPaneHeight) {
+            localStorage.setItem(plugin.keys.customHeightKey, folderPaneHeight.toString());
+        }
+    }, [folderPaneHeight]);
+    function touchMouseStart(e) {
+        e.preventDefault();
+        setDividerOnMove(true);
+        let height = dividerRef.current.offsetTop - folderPaneRef.current.offsetTop;
+        setFolderPaneHeight(height);
+        setClientY(e.nativeEvent.clientY);
     }
-  }, [folderPaneHeight]);
-  function touchMouseStart(e) {
-    e.preventDefault();
-    setDividerOnMove(true);
-    let height = dividerRef.current.offsetTop - folderPaneRef.current.offsetTop;
-    setFolderPaneHeight(height);
-    setClientY(e.nativeEvent.clientY);
-  }
-  function touchMouseMove(e) {
-    e.preventDefault();
-    if (!dividerOnMove) return;
-    setFolderPaneHeight(folderPaneHeight + (e.nativeEvent.clientY - clientY));
-    setClientY(e.nativeEvent.clientY);
-  }
-  function touchMouseEnd(e) {
-    e.preventDefault();
-    setDividerOnMove(false);
-    setClientY(e.nativeEvent.clientY);
-  }
-  return (
+    function touchMouseMove(e) {
+        e.preventDefault();
+        if (!dividerOnMove)
+            return;
+        setFolderPaneHeight(folderPaneHeight + (e.nativeEvent.clientY - clientY));
+        setClientY(e.nativeEvent.clientY);
+    }
+    function touchMouseEnd(e) {
+        e.preventDefault();
+        setDividerOnMove(false);
+        setClientY(e.nativeEvent.clientY);
+    }
+    return (
     // Register Move & End Events for All File Tree Leaf
-    React.createElement("div", {
-      className: "file-tree-container",
-      onMouseMove: e => touchMouseMove(e),
-      onMouseUp: e => touchMouseEnd(e)
-    }, React.createElement("div", {
-      className: "oz-folder-pane",
-      ref: folderPaneRef,
-      style: {
-        height: folderPaneHeight ? `${folderPaneHeight}px` : heightSetting && heightSetting !== '' ? `${heightSetting}px` : '50%'
-      }
-    }, React.createElement(MainFolder, {
-      plugin: plugin
-    })), React.createElement("div", {
-      id: "file-tree-divider",
-      ref: dividerRef,
-      onClick: e => e.preventDefault(),
-      onMouseDown: e => touchMouseStart(e),
-      className: dividerOnMove ? 'active-divider' : ''
-    }), React.createElement("div", {
-      className: "oz-file-list-pane"
-    }, React.createElement(FileComponent, {
-      plugin: plugin
-    })))
-  );
+    React.createElement("div", { className: "file-tree-container", onMouseMove: (e) => touchMouseMove(e), onMouseUp: (e) => touchMouseEnd(e) },
+        React.createElement("div", { className: "oz-folder-pane", ref: folderPaneRef, style: { height: folderPaneHeight ? `${folderPaneHeight}px` : heightSetting && heightSetting !== '' ? `${heightSetting}px` : '50%' } },
+            React.createElement(MainFolder, { plugin: plugin })),
+        React.createElement("div", { id: "file-tree-divider", ref: dividerRef, onClick: (e) => e.preventDefault(), onMouseDown: (e) => touchMouseStart(e), className: dividerOnMove ? 'active-divider' : '' }),
+        React.createElement("div", { className: "oz-file-list-pane" },
+            React.createElement(FileComponent, { plugin: plugin }))));
 };
-const SingleViewHorizontal = props => {
-  let {
-    plugin
-  } = props;
-  const [dividerOnMove, setDividerOnMove] = reactExports.useState(false);
-  const [folderPaneWidth, setFolderPaneWidth] = reactExports.useState(null);
-  const [clientX, setClientX] = reactExports.useState(null);
-  let folderPaneRef = reactExports.useRef();
-  let dividerRef = reactExports.useRef();
-  let widthSetting = localStorage.getItem(plugin.keys.customWidthKey);
-  reactExports.useEffect(() => {
-    if (folderPaneWidth) {
-      localStorage.setItem(plugin.keys.customWidthKey, folderPaneWidth.toString());
+const SingleViewHorizontal = (props) => {
+    let { plugin } = props;
+    const [dividerOnMove, setDividerOnMove] = reactExports.useState(false);
+    const [folderPaneWidth, setFolderPaneWidth] = reactExports.useState(null);
+    const [clientX, setClientX] = reactExports.useState(null);
+    let folderPaneRef = reactExports.useRef();
+    let dividerRef = reactExports.useRef();
+    let widthSetting = localStorage.getItem(plugin.keys.customWidthKey);
+    reactExports.useEffect(() => {
+        if (folderPaneWidth) {
+            localStorage.setItem(plugin.keys.customWidthKey, folderPaneWidth.toString());
+        }
+    }, [folderPaneWidth]);
+    function touchMouseStart(e) {
+        e.preventDefault();
+        setDividerOnMove(true);
+        let width = dividerRef.current.offsetLeft - folderPaneRef.current.offsetLeft;
+        setFolderPaneWidth(width);
+        setClientX(e.nativeEvent.clientX);
     }
-  }, [folderPaneWidth]);
-  function touchMouseStart(e) {
-    e.preventDefault();
-    setDividerOnMove(true);
-    let width = dividerRef.current.offsetLeft - folderPaneRef.current.offsetLeft;
-    setFolderPaneWidth(width);
-    setClientX(e.nativeEvent.clientX);
-  }
-  function touchMouseMove(e) {
-    e.preventDefault();
-    if (!dividerOnMove) return;
-    setFolderPaneWidth(folderPaneWidth + (e.nativeEvent.clientX - clientX));
-    setClientX(e.nativeEvent.clientX);
-  }
-  function touchMouseEnd(e) {
-    e.preventDefault();
-    setDividerOnMove(false);
-    setClientX(e.nativeEvent.clientX);
-  }
-  return (
+    function touchMouseMove(e) {
+        e.preventDefault();
+        if (!dividerOnMove)
+            return;
+        setFolderPaneWidth(folderPaneWidth + (e.nativeEvent.clientX - clientX));
+        setClientX(e.nativeEvent.clientX);
+    }
+    function touchMouseEnd(e) {
+        e.preventDefault();
+        setDividerOnMove(false);
+        setClientX(e.nativeEvent.clientX);
+    }
+    return (
     // Register Move & End Events for All File Tree Leaf
-    React.createElement("div", {
-      className: "file-tree-container-horizontal",
-      onMouseMove: e => touchMouseMove(e),
-      onMouseUp: e => touchMouseEnd(e)
-    }, React.createElement("div", {
-      className: "oz-folder-pane-horizontal",
-      ref: folderPaneRef,
-      style: {
-        width: folderPaneWidth ? `${folderPaneWidth}px` : widthSetting && widthSetting !== '' ? `${widthSetting}px` : '50%'
-      }
-    }, React.createElement(MainFolder, {
-      plugin: plugin
-    })), React.createElement("div", {
-      id: "file-tree-divider-horizontal",
-      ref: dividerRef,
-      onClick: e => e.preventDefault(),
-      onMouseDown: e => touchMouseStart(e),
-      className: dividerOnMove ? 'active-divider' : ''
-    }), React.createElement("div", {
-      className: "oz-file-list-pane-horizontal"
-    }, React.createElement(FileComponent, {
-      plugin: plugin
-    })))
-  );
+    React.createElement("div", { className: "file-tree-container-horizontal", onMouseMove: (e) => touchMouseMove(e), onMouseUp: (e) => touchMouseEnd(e) },
+        React.createElement("div", { className: "oz-folder-pane-horizontal", ref: folderPaneRef, style: { width: folderPaneWidth ? `${folderPaneWidth}px` : widthSetting && widthSetting !== '' ? `${widthSetting}px` : '50%' } },
+            React.createElement(MainFolder, { plugin: plugin })),
+        React.createElement("div", { id: "file-tree-divider-horizontal", ref: dividerRef, onClick: (e) => e.preventDefault(), onMouseDown: (e) => touchMouseStart(e), className: dividerOnMove ? 'active-divider' : '' }),
+        React.createElement("div", { className: "oz-file-list-pane-horizontal" },
+            React.createElement(FileComponent, { plugin: plugin }))));
 };
 
 function MainTreeComponent(props) {
-  // --> Main Variables
-  const {
-    plugin
-  } = props;
-  // --> Force Update Hook
-  const forceUpdate = useForceUpdate();
-  // --> Plugin States
-  const [view$1, setView] = Recoil_index_22(view);
-  const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
-  const [fileList$1, setFileList] = Recoil_index_22(fileList);
-  const [pinnedFiles$1, setPinnedFiles] = Recoil_index_22(pinnedFiles);
-  const [openFolders$1, setOpenFolders] = Recoil_index_22(openFolders);
-  const [_folderTree, setFolderTree] = Recoil_index_22(folderTree);
-  const [excludedFolders$1, setExcludedFolders] = Recoil_index_22(excludedFolders);
-  const [_folderFileCountMap, setFolderFileCountMap] = Recoil_index_22(folderFileCountMap);
-  const [_excludedExtensions, setExcludedExtensions] = Recoil_index_22(excludedExtensions);
-  const [_showSubFolders, setShowSubFolders] = Recoil_index_22(showSubFolders);
-  const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
-  const [activeFile$1, setActiveFile] = Recoil_index_22(activeFile);
-  const setNewFileList = folderPath => {
-    let filesPath = folderPath ? folderPath : activeFolderPath$1;
-    setFileList(getFilesUnderPath(filesPath, plugin));
-  };
-  const setInitialActiveFolderPath = () => {
-    if (['Horizontal', 'Vertical'].includes(plugin.settings.evernoteView)) {
-      let previousActiveFolder = localStorage.getItem(plugin.keys.activeFolderPathKey);
-      if (previousActiveFolder) {
-        let folder = plugin.app.vault.getAbstractFileByPath(previousActiveFolder);
-        if (folder && folder instanceof obsidian.TFolder) {
-          setActiveFolderPath(folder.path);
-        }
-      }
-    }
-  };
-  // --> Create Custom Event Handlers
-  reactExports.useEffect(() => {
-    window.addEventListener(eventTypes.vaultChange, vaultChangeEvent);
-    window.addEventListener(eventTypes.activeFileChange, changeActiveFile);
-    window.addEventListener(eventTypes.refreshView, forceUpdate);
-    window.addEventListener(eventTypes.revealFile, handleRevealFileEvent);
-    window.addEventListener(eventTypes.createNewNote, handleCreateNewNoteEvent);
-    return () => {
-      window.removeEventListener(eventTypes.vaultChange, vaultChangeEvent);
-      window.removeEventListener(eventTypes.activeFileChange, changeActiveFile);
-      window.removeEventListener(eventTypes.refreshView, forceUpdate);
-      window.removeEventListener(eventTypes.revealFile, handleRevealFileEvent);
-      window.removeEventListener(eventTypes.revealFile, handleCreateNewNoteEvent);
+    // --> Main Variables
+    const { plugin } = props;
+    // --> Force Update Hook
+    const forceUpdate = useForceUpdate();
+    // --> Plugin States
+    const [view$1, setView] = Recoil_index_22(view);
+    const [activeFolderPath$1, setActiveFolderPath] = Recoil_index_22(activeFolderPath);
+    const [ozFileList$1, setOzFileList] = Recoil_index_22(ozFileList);
+    const [ozPinnedFiles, setOzPinnedFiles] = Recoil_index_22(ozPinnedFileList);
+    const [openFolders$1, setOpenFolders] = Recoil_index_22(openFolders);
+    const [_folderTree, setFolderTree] = Recoil_index_22(folderTree);
+    const [excludedFolders$1, setExcludedFolders] = Recoil_index_22(excludedFolders);
+    const [_folderFileCountMap, setFolderFileCountMap] = Recoil_index_22(folderFileCountMap);
+    const [_excludedExtensions, setExcludedExtensions] = Recoil_index_22(excludedExtensions);
+    const [_showSubFolders, setShowSubFolders] = Recoil_index_22(showSubFolders);
+    const [focusedFolder$1, setFocusedFolder] = Recoil_index_22(focusedFolder);
+    const [activeOZFile$1, setActiveOzFile] = Recoil_index_22(activeOZFile);
+    const setNewFileList = (folderPath) => {
+        let filesPath = folderPath ? folderPath : activeFolderPath$1;
+        setOzFileList(getFilesUnderPath(filesPath, plugin));
     };
-  }, []);
-  const handleCreateNewNoteEvent = () => {
-    let currentActiveFolderPath = '/';
-    setActiveFolderPath(activeFolderPath => {
-      currentActiveFolderPath = activeFolderPath;
-      return activeFolderPath;
-    });
-    createNewFile(null, currentActiveFolderPath, plugin);
-  };
-  const vaultChangeEvent = evt => {
-    handleVaultChanges(evt.detail.file, evt.detail.changeType, evt.detail.oldPath);
-  };
-  const changeActiveFile = evt => {
-    // @ts-ignore
-    let filePath = evt.detail.filePath;
-    let file = plugin.app.vault.getAbstractFileByPath(filePath);
-    if (file) setActiveFile(file);
-  };
-  // Initial Load
-  reactExports.useEffect(() => {
-    setInitialFocusedFolder();
-    setExcludedFolders(getExcludedFolders());
-    setExcludedExtensions(getExcludedExtensions());
-    setPinnedFiles(getPinnedFilesFromSettings());
-    setOpenFolders(getOpenFoldersFromSettings());
-    setShowSubFolders(plugin.settings.showFilesFromSubFolders);
-    setInitialActiveFolderPath();
-    if (plugin.settings.folderCount) setFolderFileCountMap(getFolderNoteCountMap(plugin));
-  }, []);
-  // Each Focused Folder Change triggers new folder tree build
-  reactExports.useEffect(() => {
-    if (focusedFolder$1) {
-      setFolderTree(createFolderTree(focusedFolder$1));
-      localStorage.setItem(plugin.keys.focusedFolder, focusedFolder$1.path);
-      setActiveFolderPath(focusedFolder$1.path);
-    }
-  }, [focusedFolder$1]);
-  const setInitialFocusedFolder = () => {
-    let localFocusedFolder = localStorage.getItem(plugin.keys.focusedFolder);
-    if (localFocusedFolder) {
-      let folder = plugin.app.vault.getAbstractFileByPath(localFocusedFolder);
-      if (folder && folder instanceof obsidian.TFolder) {
-        setFocusedFolder(folder);
-        return;
-      }
-    }
-    setFocusedFolder(plugin.app.vault.getRoot());
-  };
-  // State Change Handlers
-  reactExports.useEffect(() => savePinnedFilesToSettings(), [pinnedFiles$1]);
-  reactExports.useEffect(() => saveOpenFoldersToSettings(), [openFolders$1]);
-  reactExports.useEffect(() => saveExcludedFoldersToSettings(), [excludedFolders$1]);
-  // If activeFolderPath is set, it means it should go to 'file' view
-  reactExports.useEffect(() => {
-    if (activeFolderPath$1 !== '') {
-      setNewFileList(activeFolderPath$1);
-      setView('file');
-    }
-    localStorage.setItem(plugin.keys.activeFolderPathKey, activeFolderPath$1);
-  }, [activeFolderPath$1]);
-  // Load Excluded Extensions as State
-  function getExcludedExtensions() {
-    let extensionsString = plugin.settings.excludedExtensions;
-    let excludedExtensions = [];
-    for (let extension of extensionsString.split(',')) {
-      excludedExtensions.push(extension.trim());
-    }
-    return excludedExtensions;
-  }
-  // Load Excluded Folders
-  function getExcludedFolders() {
-    let excludedString = plugin.settings.excludedFolders;
-    let excludedFolders = [];
-    if (excludedString) {
-      for (let excludedFolder of excludedString.split(',')) {
-        if (excludedFolder !== '') excludedFolders.push(excludedFolder.trim());
-      }
-    }
-    return excludedFolders;
-  }
-  // Load The String List and Set Open Folders State
-  function getOpenFoldersFromSettings() {
-    let openFolders = [];
-    let localStorageOpenFolders = localStorage.getItem(plugin.keys.openFoldersKey);
-    if (localStorageOpenFolders) {
-      localStorageOpenFolders = JSON.parse(localStorageOpenFolders);
-      for (let folder of localStorageOpenFolders) {
-        let openFolder = plugin.app.vault.getAbstractFileByPath(folder);
-        if (openFolder) openFolders.push(openFolder.path);
-      }
-    }
-    return openFolders;
-  }
-  // Load The String List anad Set Pinned Files State
-  function getPinnedFilesFromSettings() {
-    let pinnedFiles = [];
-    let localStoragePinnedFiles = localStorage.getItem(plugin.keys.pinnedFilesKey);
-    if (localStoragePinnedFiles) {
-      localStoragePinnedFiles = JSON.parse(localStoragePinnedFiles);
-      for (let file of localStoragePinnedFiles) {
-        let pinnedFile = plugin.app.vault.getAbstractFileByPath(file);
-        if (pinnedFile) pinnedFiles.push(pinnedFile);
-      }
-    }
-    return pinnedFiles;
-  }
-  // Get The Folders State and Save in Data as String Array
-  function saveOpenFoldersToSettings() {
-    let openFoldersToSave = [];
-    for (let folder of openFolders$1) {
-      openFoldersToSave.push(folder);
-    }
-    localStorage.setItem(plugin.keys.openFoldersKey, JSON.stringify(openFoldersToSave));
-  }
-  // Get The Pinned Files State and Save in Data as String Array
-  function savePinnedFilesToSettings() {
-    let pinnedFilesToSave = [];
-    for (let file of pinnedFiles$1) {
-      pinnedFilesToSave.push(file.path);
-    }
-    localStorage.setItem(plugin.keys.pinnedFilesKey, JSON.stringify(pinnedFilesToSave));
-  }
-  // Save Excluded Folders to Settings as String
-  function saveExcludedFoldersToSettings() {
-    plugin.settings.excludedFolders = excludedFolders$1.length > 1 ? excludedFolders$1.join(', ') : excludedFolders$1[0];
-    plugin.saveSettings();
-  }
-  // Function for Event Handlers
-  function handleVaultChanges(file, changeType, oldPathBeforeRename) {
-    // Get Current States from Setters
-    let currentFocusedFolder = null;
-    let currentActiveFolderPath = '';
-    let currentView = '';
-    let currentFileList = [];
-    setFocusedFolder(focusedFolder => {
-      currentFocusedFolder = focusedFolder;
-      return focusedFolder;
-    });
-    setActiveFolderPath(activeFolderPath => {
-      currentActiveFolderPath = activeFolderPath;
-      return activeFolderPath;
-    });
-    setView(view => {
-      currentView = view;
-      return view;
-    });
-    setFileList(fileList => {
-      currentFileList = fileList;
-      return fileList;
-    });
-    // File Event Handlers
-    if (file instanceof obsidian.TFile) {
-      if (currentView === 'file') {
-        if (changeType === 'rename' || changeType === 'modify' || changeType === 'delete') {
-          // If the file is modified but sorting is not last-update to not component update unnecessarily, return
-          let sortFilesBy = plugin.settings.sortFilesBy;
-          if (changeType === 'modify') {
-            if (!(sortFilesBy === 'last-update' || sortFilesBy === 'file-size')) {
-              return;
+    const setInitialActiveFolderPath = () => {
+        if (['Horizontal', 'Vertical'].includes(plugin.settings.evernoteView)) {
+            let previousActiveFolder = localStorage.getItem(plugin.keys.activeFolderPathKey);
+            if (previousActiveFolder) {
+                let folder = plugin.app.vault.getAbstractFileByPath(previousActiveFolder);
+                if (folder && folder instanceof obsidian.TFolder) {
+                    setActiveFolderPath(folder.path);
+                }
             }
-          }
-          // If the file renamed or deleted or modified is in the current view, it will be updated
-          let parentFolderPath = file.path.substring(0, file.path.lastIndexOf('/'));
-          let fileInCurrentView = currentFileList.some(f => f.path === file.path);
-          let fileInCurrentFolder = currentActiveFolderPath === parentFolderPath || plugin.settings.showFilesFromSubFolders && parentFolderPath.startsWith(currentActiveFolderPath);
-          if (fileInCurrentView) {
-            if (changeType === 'delete') {
-              setFileList(currentFileList.filter(f => {
-                return f.path !== file.path;
-              }));
-            } else if (changeType === 'rename' || changeType === 'modify' && (sortFilesBy === 'last-update' || sortFilesBy === 'file-size')) {
-              setFileList([...currentFileList.filter(f => {
-                return f.path !== file.path;
-              }), ...(file.parent.path === currentActiveFolderPath ? [file] : [])]);
-            }
-          }
-          // File is no in current view but parent folder is and should be included
-          else if (fileInCurrentFolder && !fileInCurrentView) {
-            setFileList([...currentFileList, file]);
-          }
-        } else if (changeType === 'create') {
-          let fileIsCreatedUnderActiveFolder = file.path.match(new RegExp(currentActiveFolderPath + '.*'));
-          if (fileIsCreatedUnderActiveFolder) {
-            // If file is not already in the list, add into view
-            if (!currentFileList.some(f => f.path === file.path)) {
-              setFileList([...currentFileList, file]);
-            }
-          }
         }
-      }
-    }
-    // Folder Event Handlers
-    else if (file instanceof obsidian.TFolder) {
-      setFolderTree(createFolderTree(currentFocusedFolder));
-      // if active folder is renamed, activefolderpath needs to be refreshed
-      if (changeType === 'rename' && oldPathBeforeRename && currentActiveFolderPath === oldPathBeforeRename) {
-        setActiveFolderPath(file.path);
-      }
-    }
-    // After Each Vault Change Folder Count Map to Be Updated
-    if (plugin.settings.folderCount && changeType !== 'modify') {
-      setFolderFileCountMap(getFolderNoteCountMap(plugin));
-    }
-  }
-  // ******** REVEAL ACTIVE FILE FUNCTIONS ******** //
-  // --> During file list change, it will scroll to the active file element
-  reactExports.useEffect(() => {
-    if (activeFile$1 && fileList$1.length > 0) scrollToFile(activeFile$1);
-  }, [fileList$1]);
-  // Custom Event Handler Function
-  function handleRevealFileEvent(evt) {
-    // @ts-ignore
-    const file = evt.detail.file;
-    if (file && file instanceof obsidian.TFile) {
-      revealFileInFileTree(file);
-    } else {
-      new obsidian.Notice('No active file');
-    }
-  }
-  // Scrolling Functions
-  function scrollToFile(fileToScroll) {
-    const selector = `div.oz-file-tree-files div.oz-nav-file-title[data-path="${fileToScroll.path}"]`;
-    const fileTitleElement = document.querySelector(selector);
-    if (fileTitleElement) fileTitleElement.scrollIntoView(false);
-  }
-  function scrollToFolder(folder) {
-    const selector = `div.oz-folder-contents div.oz-folder-element[data-path="${folder.path}"]`;
-    const folderElement = document.querySelector(selector);
-    if (folderElement) folderElement.scrollIntoView(false);
-  }
-  // --> Handle Reveal Active File Button
-  function revealFileInFileTree(fileToReveal) {
-    // Get parent folder
-    const parentFolder = fileToReveal.parent;
-    // Focused Folder needs to be root for the reveal
-    if (focusedFolder$1 && focusedFolder$1.path !== '/') setFocusedFolder(plugin.app.vault.getRoot());
-    // Obtain all folders that needs to be opened
-    const getAllFoldersToOpen = fileToReveal => {
-      let foldersToOpen = [];
-      const recursiveFx = folder => {
-        foldersToOpen.push(folder.path);
-        if (folder.parent) recursiveFx(folder.parent);
-      };
-      recursiveFx(fileToReveal.parent);
-      return foldersToOpen;
     };
-    // Sanity check - Parent to be folder and set required component states
-    if (parentFolder instanceof obsidian.TFolder) {
-      // Set Active Folder - It will trigger auto file list update
-      setActiveFolderPath(parentFolder.path);
-      // Set active file to show in the list
-      setActiveFile(fileToReveal);
-      // Set openfolders to expand in the folder list
-      const foldersToOpen = getAllFoldersToOpen(fileToReveal);
-      let openFoldersSet = new Set([...openFolders$1, ...foldersToOpen]);
-      setOpenFolders(Array.from(openFoldersSet));
-      scrollToFile(fileToReveal);
-      scrollToFolder(parentFolder);
+    // --> Create Custom Event Handlers
+    reactExports.useEffect(() => {
+        window.addEventListener(eventTypes.vaultChange, vaultChangeEvent);
+        window.addEventListener(eventTypes.activeFileChange, changeActiveFile);
+        window.addEventListener(eventTypes.refreshView, forceUpdate);
+        window.addEventListener(eventTypes.revealFile, handleRevealFileEvent);
+        window.addEventListener(eventTypes.createNewNote, handleCreateNewNoteEvent);
+        return () => {
+            window.removeEventListener(eventTypes.vaultChange, vaultChangeEvent);
+            window.removeEventListener(eventTypes.activeFileChange, changeActiveFile);
+            window.removeEventListener(eventTypes.refreshView, forceUpdate);
+            window.removeEventListener(eventTypes.revealFile, handleRevealFileEvent);
+            window.removeEventListener(eventTypes.revealFile, handleCreateNewNoteEvent);
+        };
+    }, []);
+    const handleCreateNewNoteEvent = () => {
+        let currentActiveFolderPath = '/';
+        setActiveFolderPath((activeFolderPath) => {
+            currentActiveFolderPath = activeFolderPath;
+            return activeFolderPath;
+        });
+        createNewFile(null, currentActiveFolderPath, plugin);
+    };
+    const vaultChangeEvent = (evt) => {
+        handleVaultChanges(evt.detail.file, evt.detail.changeType, evt.detail.oldPath);
+    };
+    const changeActiveFile = (evt) => {
+        // @ts-ignore
+        let filePath = evt.detail.filePath;
+        let file = plugin.app.vault.getAbstractFileByPath(filePath);
+        if (file)
+            setActiveOzFile(TFile2OZFile(file));
+    };
+    // Initial Load
+    reactExports.useEffect(() => {
+        setInitialFocusedFolder();
+        setExcludedFolders(getExcludedFolders());
+        setExcludedExtensions(getExcludedExtensions());
+        setOzPinnedFiles(getPinnedFilesFromSettings());
+        setOpenFolders(getOpenFoldersFromSettings());
+        setShowSubFolders(plugin.settings.showFilesFromSubFolders);
+        setInitialActiveFolderPath();
+        if (plugin.settings.folderCount)
+            setFolderFileCountMap(getFolderNoteCountMap(plugin));
+    }, []);
+    // Each Focused Folder Change triggers new folder tree build
+    reactExports.useEffect(() => {
+        if (focusedFolder$1) {
+            setFolderTree(createFolderTree(focusedFolder$1));
+            localStorage.setItem(plugin.keys.focusedFolder, focusedFolder$1.path);
+            setActiveFolderPath(focusedFolder$1.path);
+        }
+    }, [focusedFolder$1]);
+    const setInitialFocusedFolder = () => {
+        let localFocusedFolder = localStorage.getItem(plugin.keys.focusedFolder);
+        if (localFocusedFolder) {
+            let folder = plugin.app.vault.getAbstractFileByPath(localFocusedFolder);
+            if (folder && folder instanceof obsidian.TFolder) {
+                setFocusedFolder(folder);
+                return;
+            }
+        }
+        setFocusedFolder(plugin.app.vault.getRoot());
+    };
+    // State Change Handlers
+    reactExports.useEffect(() => savePinnedFilesToSettings(), [ozPinnedFiles]);
+    reactExports.useEffect(() => saveOpenFoldersToSettings(), [openFolders$1]);
+    reactExports.useEffect(() => saveExcludedFoldersToSettings(), [excludedFolders$1]);
+    // If activeFolderPath is set, it means it should go to 'file' view
+    reactExports.useEffect(() => {
+        if (activeFolderPath$1 !== '') {
+            setNewFileList(activeFolderPath$1);
+            setView('file');
+        }
+        localStorage.setItem(plugin.keys.activeFolderPathKey, activeFolderPath$1);
+    }, [activeFolderPath$1]);
+    // Load Excluded Extensions as State
+    function getExcludedExtensions() {
+        let extensionsString = plugin.settings.excludedExtensions;
+        let excludedExtensions = [];
+        for (let extension of extensionsString.split(',')) {
+            excludedExtensions.push(extension.trim());
+        }
+        return excludedExtensions;
     }
-  }
-  return React.createElement(React.Fragment, null, view$1 === 'folder' ? React.createElement(MainFolder, {
-    plugin: plugin
-  }) : plugin.settings.evernoteView === 'Horizontal' ? React.createElement(SingleViewHorizontal, {
-    plugin: plugin
-  }) : plugin.settings.evernoteView === 'Vertical' ? React.createElement(SingleViewVertical, {
-    plugin: plugin
-  }) : React.createElement(FileComponent, {
-    plugin: plugin
-  }));
+    // Load Excluded Folders
+    function getExcludedFolders() {
+        let excludedString = plugin.settings.excludedFolders;
+        let excludedFolders = [];
+        if (excludedString) {
+            for (let excludedFolder of excludedString.split(',')) {
+                if (excludedFolder !== '')
+                    excludedFolders.push(excludedFolder.trim());
+            }
+        }
+        return excludedFolders;
+    }
+    // Load The String List and Set Open Folders State
+    function getOpenFoldersFromSettings() {
+        let openFolders = [];
+        let localStorageOpenFolders = localStorage.getItem(plugin.keys.openFoldersKey);
+        if (localStorageOpenFolders) {
+            localStorageOpenFolders = JSON.parse(localStorageOpenFolders);
+            for (let folder of localStorageOpenFolders) {
+                let openFolder = plugin.app.vault.getAbstractFileByPath(folder);
+                if (openFolder)
+                    openFolders.push(openFolder.path);
+            }
+        }
+        return openFolders;
+    }
+    // Load The String List anad Set Pinned Files State
+    function getPinnedFilesFromSettings() {
+        let pinnedFiles = [];
+        let localStoragePinnedFiles = localStorage.getItem(plugin.keys.pinnedFilesKey);
+        if (localStoragePinnedFiles) {
+            localStoragePinnedFiles = JSON.parse(localStoragePinnedFiles);
+            for (let file of localStoragePinnedFiles) {
+                let pinnedFile = plugin.app.vault.getAbstractFileByPath(file);
+                if (pinnedFile)
+                    pinnedFiles.push(TFile2OZFile(pinnedFile));
+            }
+        }
+        return pinnedFiles;
+    }
+    // Get The Folders State and Save in Data as String Array
+    function saveOpenFoldersToSettings() {
+        let openFoldersToSave = [];
+        for (let folder of openFolders$1) {
+            openFoldersToSave.push(folder);
+        }
+        localStorage.setItem(plugin.keys.openFoldersKey, JSON.stringify(openFoldersToSave));
+    }
+    // Get The Pinned Files State and Save in Data as String Array
+    function savePinnedFilesToSettings() {
+        let pinnedFilesToSave = [];
+        for (let file of ozPinnedFiles) {
+            pinnedFilesToSave.push(file.path);
+        }
+        localStorage.setItem(plugin.keys.pinnedFilesKey, JSON.stringify(pinnedFilesToSave));
+    }
+    // Save Excluded Folders to Settings as String
+    function saveExcludedFoldersToSettings() {
+        plugin.settings.excludedFolders = excludedFolders$1.length > 1 ? excludedFolders$1.join(', ') : excludedFolders$1[0];
+        plugin.saveSettings();
+    }
+    // Function for Event Handlers
+    function handleVaultChanges(file, changeType, oldPathBeforeRename) {
+        // Get Current States from Setters
+        let currentFocusedFolder = null;
+        let currentActiveFolderPath = '';
+        let currentView = '';
+        let currentFileList = [];
+        let currentActiveOZFile = null;
+        setFocusedFolder((focusedFolder) => {
+            currentFocusedFolder = focusedFolder;
+            return focusedFolder;
+        });
+        setActiveFolderPath((activeFolderPath) => {
+            currentActiveFolderPath = activeFolderPath;
+            return activeFolderPath;
+        });
+        setView((view) => {
+            currentView = view;
+            return view;
+        });
+        setOzFileList((fileList) => {
+            currentFileList = fileList;
+            return fileList;
+        });
+        setActiveOzFile((activeOZFile) => {
+            currentActiveOZFile = activeOZFile;
+            return activeOZFile;
+        });
+        // File Event Handlers
+        if (file instanceof obsidian.TFile) {
+            if (currentView === 'file') {
+                if (changeType === 'rename' || changeType === 'modify' || changeType === 'delete') {
+                    // If the file is modified but sorting is not last-update to not component update unnecessarily, return
+                    let sortFilesBy = plugin.settings.sortFilesBy;
+                    if (changeType === 'modify') {
+                        if (!(sortFilesBy === 'last-update' || sortFilesBy === 'file-size')) {
+                            return;
+                        }
+                    }
+                    // If the file renamed or deleted or modified is in the current view, it will be updated
+                    let parentFolderPath = file.path.substring(0, file.path.lastIndexOf('/'));
+                    let fileInCurrentView = currentFileList.some((f) => {
+                        return changeType === 'rename' ? f.path === oldPathBeforeRename : f.path === file.path;
+                    });
+                    let fileInCurrentFolder = currentActiveFolderPath === parentFolderPath ||
+                        (plugin.settings.showFilesFromSubFolders && parentFolderPath.startsWith(currentActiveFolderPath));
+                    if (fileInCurrentView) {
+                        if (changeType === 'delete') {
+                            setOzFileList(currentFileList.filter((f) => {
+                                return f.path !== file.path;
+                            }));
+                        }
+                        else if (changeType === 'rename' ||
+                            (changeType === 'modify' && (sortFilesBy === 'last-update' || sortFilesBy === 'file-size'))) {
+                            // Fix for Root Folder Path
+                            if (currentActiveFolderPath === "/")
+                                currentActiveFolderPath = "";
+                            // Set the file list
+                            setOzFileList([
+                                ...currentFileList.filter((f) => {
+                                    return changeType === 'rename' ? f.path !== oldPathBeforeRename : f.path !== file.path;
+                                }),
+                                // Include any file that roles up to the current active folder, not only the direct ones
+                                ...(file.parent.path.startsWith(currentActiveFolderPath) ? [TFile2OZFile(file)] : []),
+                            ]);
+                            // If active file is renamed, change the active file
+                            if (changeType === 'rename' && currentActiveOZFile && currentActiveOZFile.path === oldPathBeforeRename) {
+                                setActiveOzFile(TFile2OZFile(file));
+                            }
+                        }
+                    }
+                    // File is no in current view but parent folder is and should be included
+                    else if (fileInCurrentFolder && !fileInCurrentView) {
+                        setOzFileList([...currentFileList, TFile2OZFile(file)]);
+                    }
+                }
+                else if (changeType === 'create') {
+                    let fileIsCreatedUnderActiveFolder = file.path.match(new RegExp(currentActiveFolderPath + '.*'));
+                    if (fileIsCreatedUnderActiveFolder) {
+                        // If file is not already in the list, add into view
+                        if (!currentFileList.some((f) => f.path === file.path)) {
+                            setOzFileList([...currentFileList, TFile2OZFile(file)]);
+                        }
+                    }
+                }
+            }
+        }
+        // Folder Event Handlers
+        else if (file instanceof obsidian.TFolder) {
+            setFolderTree(createFolderTree(currentFocusedFolder));
+            // if active folder is renamed, activefolderpath needs to be refreshed
+            if (changeType === 'rename' && oldPathBeforeRename && currentActiveFolderPath === oldPathBeforeRename) {
+                setActiveFolderPath(file.path);
+            }
+        }
+        // After Each Vault Change Folder Count Map to Be Updated
+        if (plugin.settings.folderCount && changeType !== 'modify') {
+            setFolderFileCountMap(getFolderNoteCountMap(plugin));
+        }
+    }
+    // ******** REVEAL ACTIVE FILE FUNCTIONS ******** //
+    // --> During file list change, it will scroll to the active file element
+    reactExports.useEffect(() => {
+        if (activeOZFile$1 && ozFileList$1.length > 0)
+            scrollToFile(activeOZFile$1);
+    }, [ozFileList$1]);
+    // Custom Event Handler Function
+    function handleRevealFileEvent(evt) {
+        // @ts-ignore
+        const file = evt.detail.file;
+        if (file && file instanceof obsidian.TFile) {
+            revealFileInFileTree(TFile2OZFile(file));
+        }
+        else {
+            new obsidian.Notice('No active file');
+        }
+    }
+    // Scrolling Functions
+    function scrollToFile(fileToScroll) {
+        const selector = `div.oz-file-tree-files div.oz-nav-file-title[data-path="${fileToScroll.path}"]`;
+        const fileTitleElement = document.querySelector(selector);
+        if (fileTitleElement)
+            fileTitleElement.scrollIntoView(false);
+    }
+    function scrollToFolder(folder) {
+        const selector = `div.oz-folder-contents div.oz-folder-element[data-path="${folder.path}"]`;
+        const folderElement = document.querySelector(selector);
+        if (folderElement)
+            folderElement.scrollIntoView(false);
+    }
+    // --> Handle Reveal Active File Button
+    function revealFileInFileTree(fileToReveal) {
+        // Get parent folder
+        const parentFolder = fileToReveal.parent;
+        // Focused Folder needs to be root for the reveal
+        if (focusedFolder$1 && focusedFolder$1.path !== '/')
+            setFocusedFolder(plugin.app.vault.getRoot());
+        // Obtain all folders that needs to be opened
+        const getAllFoldersToOpen = (fileToReveal) => {
+            let foldersToOpen = [];
+            let TFileToReveal = plugin.app.vault.getAbstractFileByPath(fileToReveal.path);
+            const recursiveFx = (folder) => {
+                foldersToOpen.push(folder.path);
+                if (folder.parent)
+                    recursiveFx(folder.parent);
+            };
+            recursiveFx(TFileToReveal.parent);
+            return foldersToOpen;
+        };
+        // Sanity check - Parent to be folder and set required component states
+        if (parentFolder instanceof obsidian.TFolder) {
+            // Set Active Folder - It will trigger auto file list update
+            setActiveFolderPath(parentFolder.path);
+            // Set active file to show in the list
+            setActiveOzFile(fileToReveal);
+            // Set openfolders to expand in the folder list
+            const foldersToOpen = getAllFoldersToOpen(fileToReveal);
+            let openFoldersSet = new Set([...openFolders$1, ...foldersToOpen]);
+            setOpenFolders(Array.from(openFoldersSet));
+            scrollToFile(fileToReveal);
+            scrollToFolder(parentFolder);
+        }
+    }
+    return (React.createElement(React.Fragment, null, view$1 === 'folder' ? (React.createElement(MainFolder, { plugin: plugin })) : plugin.settings.evernoteView === 'Horizontal' ? (React.createElement(SingleViewHorizontal, { plugin: plugin })) : plugin.settings.evernoteView === 'Vertical' ? (React.createElement(SingleViewVertical, { plugin: plugin })) : (React.createElement(FileComponent, { plugin: plugin }))));
 }
 
-const VIEW_TYPE = 'file-tree-view';
-const VIEW_DISPLAY_TEXT = 'File Tree';
-const ICON = 'sheets-in-box';
 class FileTreeView extends obsidian.ItemView {
-  constructor(leaf, plugin) {
-    super(leaf);
-    // @ Temp Fix for Opening New File
-    this.navigation = false;
-    this.plugin = plugin;
-  }
-  getViewType() {
-    return VIEW_TYPE;
-  }
-  getDisplayText() {
-    return VIEW_DISPLAY_TEXT;
-  }
-  getIcon() {
-    return ICON;
-  }
-  onClose() {
-    return __awaiter(this, void 0, void 0, function* () {
-      this.destroy();
-    });
-  }
-  destroy() {
-    if (this.root) this.root.unmount();
-  }
-  onOpen() {
-    return __awaiter(this, void 0, void 0, function* () {
-      this.destroy();
-      this.constructFileTree(this.app.vault.getRoot().path, '');
-    });
-  }
-  constructFileTree(folderPath, vaultChange) {
-    this.destroy();
-    this.root = createRoot(this.contentEl);
-    this.root.render(React.createElement("div", {
-      className: "file-tree-plugin-view"
-    }, React.createElement(Recoil_index_5, null, React.createElement(MainTreeComponent, {
-      fileTreeView: this,
-      plugin: this.plugin
-    }))));
-  }
+    constructor(leaf, plugin) {
+        super(leaf);
+        this.plugin = plugin;
+    }
+    getViewType() {
+        var _a;
+        return (_a = this.plugin) === null || _a === void 0 ? void 0 : _a.VIEW_TYPE;
+    }
+    getDisplayText() {
+        var _a;
+        return (_a = this.plugin) === null || _a === void 0 ? void 0 : _a.VIEW_DISPLAY_TEXT;
+    }
+    getIcon() {
+        var _a;
+        return (_a = this.plugin) === null || _a === void 0 ? void 0 : _a.ICON;
+    }
+    onClose() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.destroy();
+        });
+    }
+    destroy() {
+        if (this.root)
+            this.root.unmount();
+    }
+    onOpen() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.destroy();
+            this.constructFileTree(this.app.vault.getRoot().path, '');
+        });
+    }
+    constructFileTree(folderPath, vaultChange) {
+        this.destroy();
+        this.root = createRoot(this.contentEl);
+        this.root.render(React.createElement("div", { className: "file-tree-plugin-view" },
+            React.createElement(Recoil_index_5, null,
+                React.createElement(MainTreeComponent, { fileTreeView: this, plugin: this.plugin }))));
+    }
 }
 
 var lib = {};
@@ -4631,6 +4605,10 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
             customWidthKey: 'fileTreePlugin-CustomWidth',
             focusedFolder: 'fileTreePlugin-FocusedFolder',
         };
+        // File Tree View Variables
+        this.VIEW_TYPE = 'file-tree-view';
+        this.VIEW_DISPLAY_TEXT = 'File Tree';
+        this.ICON = 'sheets-in-box';
         this.triggerVaultChangeEvent = (file, changeType, oldPath) => {
             let event = new CustomEvent(eventTypes.vaultChange, {
                 detail: {
@@ -4649,17 +4627,17 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
             var _a;
             (_a = this.ribbonIconEl) === null || _a === void 0 ? void 0 : _a.remove();
             if (this.settings.ribbonIcon) {
-                this.ribbonIconEl = this.addRibbonIcon(ICON, 'File Tree Alternative Plugin', () => __awaiter(this, void 0, void 0, function* () {
+                this.ribbonIconEl = this.addRibbonIcon(this.ICON, 'File Tree Alternative Plugin', () => __awaiter(this, void 0, void 0, function* () {
                     yield this.openFileTreeLeaf(true);
                 }));
             }
         };
         this.openFileTreeLeaf = (showAfterAttach) => __awaiter(this, void 0, void 0, function* () {
-            let leafs = this.app.workspace.getLeavesOfType(VIEW_TYPE);
+            let leafs = this.app.workspace.getLeavesOfType(this.VIEW_TYPE);
             if (leafs.length == 0) {
                 // Needs to be mounted
                 let leaf = this.app.workspace.getLeftLeaf(false);
-                yield leaf.setViewState({ type: VIEW_TYPE });
+                yield leaf.setViewState({ type: this.VIEW_TYPE });
                 if (showAfterAttach)
                     this.app.workspace.revealLeaf(leaf);
             }
@@ -4671,7 +4649,7 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
             }
         });
         this.detachFileTreeLeafs = () => {
-            let leafs = this.app.workspace.getLeavesOfType(VIEW_TYPE);
+            let leafs = this.app.workspace.getLeavesOfType(this.VIEW_TYPE);
             for (let leaf of leafs) {
                 leaf.view.destroy();
                 leaf.detach();
@@ -4694,7 +4672,7 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
             this.addSettingTab(new FileTreeAlternativePluginSettingsTab(this.app, this));
             yield this.loadSettings();
             // Register File Tree View
-            this.registerView(VIEW_TYPE, (leaf) => {
+            this.registerView(this.VIEW_TYPE, (leaf) => {
                 return new FileTreeView(leaf, this);
             });
             // Event Listeners
@@ -4715,7 +4693,7 @@ class FileTreeAlternativePlugin extends obsidian.Plugin {
                 name: 'Reveal Active File',
                 callback: () => {
                     // Activate file tree pane
-                    let leafs = this.app.workspace.getLeavesOfType(VIEW_TYPE);
+                    let leafs = this.app.workspace.getLeavesOfType(this.VIEW_TYPE);
                     if (leafs.length === 0)
                         this.openFileTreeLeaf(true);
                     for (let leaf of leafs) {

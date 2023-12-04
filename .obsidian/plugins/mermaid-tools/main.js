@@ -1423,6 +1423,7 @@ var EditMermaidElementModal = class extends import_obsidian2.Modal {
     elementContentEl.style.height = "200px";
     elementContentEl.style.width = "100%";
     elementContentEl.onchange = async (e) => {
+      this._element.content = elementContentEl.value;
       let { svg: svg2 } = await this._mermaid.render(renderEl.id, this._plugin._mermaidElementService.wrapAsCompleteDiagram(this._element));
       renderEl.innerHTML = svg2;
       renderContainerEl.appendChild(renderEl);
@@ -1610,7 +1611,6 @@ async function recreateElementsSection(sectionContainer, category, items, onElCl
   let mermaid = await (0, import_obsidian4.loadMermaid)();
   let filteredSortedItems = items.filter((i) => i.category == category).sort((a, b) => a.sortingOrder - b.sortingOrder);
   filteredSortedItems.forEach(async (elem, index) => {
-    console.log("mermaid element for rendering", elemService.wrapAsCompleteDiagram(elem));
     let el = createToolbarElement(sectionContainer);
     el.id = `mermaid-toolbar-element-${elem.category}-${index}`;
     let { svg } = await mermaid.render(el.id, elemService.wrapAsCompleteDiagram(elem));
