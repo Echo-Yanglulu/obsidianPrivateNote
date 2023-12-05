@@ -30,9 +30,9 @@
       ]
     },
     {
-      "id": "theme-picker:open-theme-picker",
-      "name": "Theme Picker: Open Theme Picker",
-      "icon": "heading-glyph"
+      "id": "theme:switch",
+      "name": "更换主题",
+      "icon": "bullet-list-glyph"
     },
     {
       "id": "workspace:export-pdf",
