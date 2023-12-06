@@ -480,5 +480,15 @@
   "catppuccin-heading-settings@@ctp-h5": "var(--ctp-yellow)",
   "catppuccin-heading-settings@@ctp-h6": "var(--ctp-sky)",
   "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-accent)",
-  "New-Willemstad-Editor@@ssopt-editor-vll-title": false
+  "New-Willemstad-Editor@@ssopt-editor-vll-title": false,
+  "aura@@cpt-accent": "var(--cpt-orange)",
+  "aura@@aura-colorshemes-light": "aura-colorschemes-light-origin",
+  "aura@@aura-active-line": "aura-active-line-highlight",
+  "aura@@aura-neon-headings": false,
+  "aura@@aura-rainbow-tags": true,
+  "aura@@aura-rainbow-folders": true,
+  "aura@@aura-translucent-window": false,
+  "aura@@aura-workspace-background-image-dark": "aura-workspace-background-image-lines",
+  "aura@@aura-vault-name-toggle": true,
+  "aura@@aura-floating-status-bar": false
 }
