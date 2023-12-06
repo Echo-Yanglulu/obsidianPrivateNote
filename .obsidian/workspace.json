@@ -279,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "fee80e388149649b",
@@ -374,8 +374,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -391,10 +390,10 @@
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "d3ca00599b3ac624",
