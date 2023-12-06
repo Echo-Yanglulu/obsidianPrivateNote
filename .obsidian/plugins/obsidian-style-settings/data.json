@@ -490,5 +490,7 @@
   "aura@@aura-translucent-window": false,
   "aura@@aura-workspace-background-image-dark": "aura-workspace-background-image-lines",
   "aura@@aura-vault-name-toggle": true,
-  "aura@@aura-floating-status-bar": false
+  "aura@@aura-floating-status-bar": false,
+  "aura@@aura-floating-titlebar": true,
+  "aura@@italic-color": "rgb(var(--cpt-red))"
 }
