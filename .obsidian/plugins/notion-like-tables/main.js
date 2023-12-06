@@ -46052,7 +46052,7 @@ var CheckboxConditionUnion = (0, import_runtypes.Union)(
 var CheckboxFilter = BaseFilter.extend({
   type: (0, import_runtypes.Literal)("checkbox" /* CHECKBOX */),
   condition: CheckboxConditionUnion,
-  text: import_runtypes.String
+  value: import_runtypes.Boolean
 });
 var TagFilterConditionUnion = (0, import_runtypes.Union)(
   (0, import_runtypes.Literal)("is" /* IS */),
@@ -64419,8 +64419,8 @@ function FilterMenu({
   function onTextChange(id3, text) {
     onUpdate(id3, { text });
   }
-  function onCheckboxChange(id3, text) {
-    onUpdate(id3, { text });
+  function onCheckboxChange(id3, value) {
+    onUpdate(id3, { value });
   }
   function onDateFilterOptionChange(id3, option) {
     onUpdate(id3, { option });
@@ -64540,10 +64540,7 @@ function FilterMenu({
                     CheckboxFilterSelect,
                     {
                       value,
-                      onChange: (newValue) => onCheckboxChange(
-                        id3,
-                        newValue.toString()
-                      )
+                      onChange: (newValue) => onCheckboxChange(id3, newValue)
                     }
                   );
                   conditionOptions = [

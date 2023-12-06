@@ -446,7 +446,6 @@
   "o-theme-settings@@o-header-line-h5": true,
   "o-theme-settings@@o-header-line-h6": true,
   "o-theme-settings@@o-header1-override": false,
-  "red-graphite@@red-graphite-base-color@@light": "#008081",
   "o-theme-settings@@s-ul-cards": false,
   "o-theme-settings@@s-ul-cards-border": false,
   "o-theme-settings@@fancy-callouts": false,
@@ -480,5 +479,6 @@
   "catppuccin-heading-settings@@ctp-h4": "var(--ctp-peach)",
   "catppuccin-heading-settings@@ctp-h5": "var(--ctp-yellow)",
   "catppuccin-heading-settings@@ctp-h6": "var(--ctp-sky)",
-  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-accent)"
+  "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-accent)",
+  "New-Willemstad-Editor@@ssopt-editor-vll-title": false
 }
