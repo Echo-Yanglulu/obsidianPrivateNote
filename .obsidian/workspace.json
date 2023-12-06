@@ -253,7 +253,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "寂然",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -279,7 +279,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "fee80e388149649b",
@@ -393,7 +393,8 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open today": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "d3ca00599b3ac624",
