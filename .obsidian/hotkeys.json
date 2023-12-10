@@ -455,5 +455,15 @@
       "key": "L"
     }
   ],
-  "workspace:new-tab": []
+  "workspace:new-tab": [],
+  "properties:open-local": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
 }
