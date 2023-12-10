@@ -17,9 +17,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -177,13 +175,21 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
                     }
+                  },
+                  {
+                    "id": "629737d1796cf713",
+                    "type": "leaf",
+                    "state": {
+                      "type": "empty",
+                      "state": {}
+                    }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -195,7 +201,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -268,7 +273,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "fee80e388149649b",
@@ -341,7 +346,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "01b984a51df1d6b1",
@@ -386,9 +391,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac45321a494cbeed",
+  "active": "629737d1796cf713",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/学习/学习.md",
     "笔记/内心/富足.md",
     "笔记/内心/二元.md",
     "笔记/内心/一元.md",
@@ -414,7 +420,6 @@
     "笔记/工具/通用概念/观念.md",
     "笔记/工具/通用概念/定义.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
-    "笔记/学习/概念/概念.md",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
     "笔记/前端/assets/Pasted image 20231101092127.png",
