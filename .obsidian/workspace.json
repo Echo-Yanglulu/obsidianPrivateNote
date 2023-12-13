@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/规则.md"
+                    "file": "笔记/学习/学习.md"
                   }
                 }
               }
@@ -165,7 +165,7 @@
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 13.676731793960922,
+            "dimension": 13.67673179396092,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -177,7 +177,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md",
+                        "file": "笔记/学习/学习.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +189,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md"
+                        "file": "笔记/学习/学习.md"
                       }
                     }
                   }
@@ -206,7 +206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md",
+                        "file": "笔记/学习/学习.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -374,8 +374,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5,
-    "collapsed": true
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -397,7 +396,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d673bff482d68baf",
+  "active": "5b6a3864c2d565e1",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/哲学/逻辑学/规则.md",
