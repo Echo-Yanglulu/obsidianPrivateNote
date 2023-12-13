@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -45,16 +45,14 @@
               {
                 "id": "839a2ebf93d913aa",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/规则.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
@@ -161,7 +159,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -178,7 +177,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -190,7 +189,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/学习.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -207,7 +206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -398,11 +397,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4f2ccacccfa108ec",
+  "active": "839a2ebf93d913aa",
   "lastOpenFiles": [
-    "笔记/工具/通用概念/提问.md",
-    "笔记/学习/学习.md",
     "笔记/工具/哲学/逻辑学/规则.md",
+    "笔记/学习/学习.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/提问.md",
     "笔记/工具/意识/意识.md",
     "笔记/学习/概念/临界知识.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
@@ -412,7 +412,6 @@
     "笔记/工具/通用概念/自我.md",
     "笔记/工具/思考/记忆/记忆.md",
     "笔记/学习/概念/费曼技巧.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/人的行为.md",
     "笔记/内心/快乐.md",
     "笔记/工具/通用概念/生命之书.md",
