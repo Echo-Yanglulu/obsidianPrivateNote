@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/概念/临界知识.md"
+                    "file": "笔记/工具/哲学/逻辑学/规则.md"
                   }
                 }
               }
@@ -159,7 +159,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -176,7 +177,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/概念/临界知识.md",
+                        "file": "笔记/工具/哲学/逻辑学/规则.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -188,7 +189,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/概念/临界知识.md"
+                        "file": "笔记/工具/哲学/逻辑学/规则.md"
                       }
                     }
                   }
@@ -205,7 +206,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/概念/临界知识.md",
+                        "file": "笔记/工具/哲学/逻辑学/规则.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -396,7 +397,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "794542af26c11875",
+  "active": "839a2ebf93d913aa",
   "lastOpenFiles": [
     "笔记/学习/学习.md",
     "笔记/学习/概念/临界知识.md",
