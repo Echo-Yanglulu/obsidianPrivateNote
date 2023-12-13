@@ -10,16 +10,14 @@
           {
             "id": "86ffae0d27173b9c",
             "type": "tabs",
-            "dimension": 13.03763440860215,
+            "dimension": 19.73816717019134,
             "children": [
               {
                 "id": "5b6a3864c2d565e1",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
-                  }
+                  "state": {}
                 }
               }
             ]
@@ -27,7 +25,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 71.95340501792114,
+            "dimension": 51.19167505874455,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -45,7 +43,6 @@
               {
                 "id": "839a2ebf93d913aa",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -53,9 +50,9 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
-                }
+                  }
+                },
+                "group": "eb018b9f69a72d71"
               },
               {
                 "id": "2fefc13b54857c06",
@@ -167,7 +164,7 @@
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 15.008960573476703,
+            "dimension": 29.070157771064117,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -179,7 +176,6 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -190,13 +186,55 @@
                     "type": "leaf",
                     "state": {
                       "type": "file-properties",
+                      "state": {}
+                    }
+                  },
+                  {
+                    "id": "d9695b9b55767bb7",
+                    "type": "leaf",
+                    "state": {
+                      "type": "localgraph",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "options": {
+                          "collapse-filter": true,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": false,
+                          "textFadeMultiplier": 0,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 250,
+                          "scale": 1,
+                          "close": false
+                        }
                       }
+                    },
+                    "group": "eb018b9f69a72d71"
+                  },
+                  {
+                    "id": "9e6bcdde83f3ee37",
+                    "type": "leaf",
+                    "state": {
+                      "type": "empty",
+                      "state": {}
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               },
               {
                 "id": "908591d9e9ba5bc1",
@@ -208,7 +246,6 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -399,11 +436,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "839a2ebf93d913aa",
+  "active": "d9695b9b55767bb7",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/学习/学习.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/工具/意识/意识.md",
     "笔记/学习/概念/临界知识.md",
