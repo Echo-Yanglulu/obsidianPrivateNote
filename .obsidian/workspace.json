@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/规则.md"
+                    "file": "笔记/内心/欲望.md"
                   }
                 }
               }
@@ -35,7 +35,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/学习.md",
+                    "file": "笔记/工具/思考/记忆/联系.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -159,8 +159,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -177,7 +176,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md",
+                        "file": "笔记/内心/欲望.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +188,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md"
+                        "file": "笔记/内心/欲望.md"
                       }
                     }
                   }
@@ -206,7 +205,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md",
+                        "file": "笔记/内心/欲望.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -397,11 +396,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "839a2ebf93d913aa",
+  "active": "55661cd7f11c3ea3",
   "lastOpenFiles": [
+    "笔记/工具/思考/记忆/联系.md",
+    "笔记/工具/思考/记忆/记忆.md",
+    "笔记/学习/学习.md",
+    "笔记/学习/概念/费曼技巧.md",
+    "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/行为/人的行为.md",
-    "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/内心/快乐.md",
     "笔记/工具/通用概念/生命之书.md",
     "笔记/内心/欲望.md",
@@ -411,7 +414,6 @@
     "笔记/工具/通用概念/抗拒.md",
     "笔记/内心/二元.md",
     "笔记/前端/前端工作.md",
-    "笔记/学习/学习.md",
     "笔记/内心/富足.md",
     "笔记/内心/一元.md",
     "笔记/工具/通用概念/自我.md",
@@ -422,9 +424,6 @@
     "笔记/工具/哲学/逻辑学/逻辑形式.md",
     "笔记/工具/思考/判断.md",
     "笔记/工具/思考/负判断.md",
-    "笔记/工具/思考/假言判断.md",
-    "笔记/工具/思考/选言判断.md",
-    "笔记/工具/思考/联言判断.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
