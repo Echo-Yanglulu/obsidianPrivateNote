@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/学习/学习.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -45,14 +45,16 @@
               {
                 "id": "839a2ebf93d913aa",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/简洁.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -158,24 +160,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "4d95905f3909b720",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/学习/学习.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
               }
             ],
-            "currentTab": 10
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -192,7 +179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -204,7 +191,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/学习/学习.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -221,7 +208,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/学习/学习.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -412,13 +399,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4d95905f3909b720",
+  "active": "839a2ebf93d913aa",
   "lastOpenFiles": [
     "笔记/内心/简洁.md",
+    "笔记/工具/思考/性质判断.md",
     "笔记/学习/学习.md",
     "笔记/学习/自己的思考.md",
     "笔记/学习/热情.md",
-    "笔记/工具/思考/性质判断.md",
     "笔记/内心/美德.md",
     "笔记/学习/极简主义.md",
     "笔记/工具/思考/基本概念/思维模型.md",
