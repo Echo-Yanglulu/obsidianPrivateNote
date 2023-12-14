@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/苦难.md"
+                    "file": "笔记/工具/通用概念/原则.md"
                   }
                 }
               }
@@ -45,7 +45,6 @@
               {
                 "id": "839a2ebf93d913aa",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -53,8 +52,7 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
@@ -167,7 +165,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/通用概念/苦难.md",
+                    "file": "笔记/内心/内心.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -175,7 +173,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -192,7 +190,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/苦难.md",
+                        "file": "笔记/工具/通用概念/原则.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -204,7 +202,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/通用概念/苦难.md"
+                        "file": "笔记/工具/通用概念/原则.md"
                       }
                     }
                   }
@@ -221,7 +219,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/通用概念/苦难.md",
+                        "file": "笔记/工具/通用概念/原则.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -412,22 +410,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "69aeeb5461f0e01e",
+  "active": "839a2ebf93d913aa",
   "lastOpenFiles": [
-    "笔记/内心/快乐.md",
     "笔记/内心/内心.md",
+    "笔记/工具/通用概念/苦难.md",
+    "笔记/工具/意识/意识.md",
+    "笔记/工具/思考/幻象.md",
+    "笔记/内心/快乐.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/工具/通用概念/原则.md",
     "笔记/工具/通用概念/生活.md",
     "笔记/内心/美德.md",
     "笔记/内心/实相.md",
-    "笔记/工具/意识/意识.md",
     "笔记/工具/思考/基本概念/感觉.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/思考/性质判断.md",
-    "笔记/工具/通用概念/苦难.md",
     "笔记/内心/简洁.md",
     "笔记/内心/开悟.md",
     "笔记/工具/意识/觉醒.md",
@@ -439,7 +438,6 @@
     "笔记/学习/热情.md",
     "笔记/学习/极简主义.md",
     "笔记/工具/思考/基本概念/思维模型.md",
-    "笔记/工具/思考/基本概念/思维.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
