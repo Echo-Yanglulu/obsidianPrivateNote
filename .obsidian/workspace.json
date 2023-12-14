@@ -162,6 +162,7 @@
               {
                 "id": "4d95905f3909b720",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -169,7 +170,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
