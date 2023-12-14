@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/内心/美德.md"
                   }
                 }
               }
@@ -147,9 +147,22 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d7b7abaac87c9801",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/美德.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 9
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -166,7 +179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/美德.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -178,7 +191,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/内心/美德.md"
                       }
                     }
                   }
@@ -195,7 +208,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/内心/美德.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -386,11 +399,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "839a2ebf93d913aa",
+  "active": "d7b7abaac87c9801",
   "lastOpenFiles": [
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/目标.md",
     "笔记/内心/快乐.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "Day Planners/2023-12-14.md",
     "笔记/工具/思考/性质判断.md",
     "笔记/学习/概念/系统思考.md",
