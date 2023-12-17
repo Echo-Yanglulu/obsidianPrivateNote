@@ -18,7 +18,6 @@
 *?   - Links
 *?   - Lists
 *?   - Blockquotes
-*?   - Embeds
 *?   - Tables
 *?   - Tags
 *?   - Embeds
@@ -602,6 +601,7 @@ pre.language-shell::after { content: "Shell" }
 pre.language-sql::after { content: "SQL" }
 pre.language-text::after { content: "Plain Text" }
 pre.language-ts::after { content: "TypeScript" }
+pre.language-toml::after { content: "TOML" }
 pre.language-txt::after { content: "Plain Text" }
 pre.language-typescript::after { content: "TypeScript" }
 pre.language-url::after { content: "URL" }
@@ -717,21 +717,6 @@ input.task-list-item-checkbox:checked::after {
 }
 
 
-/** Embeds **/
-
-.cm-embed-block {
-    box-shadow: 0 4px 14px -2px hsla(0,0%,0%,0%);
-    transition: box-shadow var(--anim-duration-fast) ease-out;
-}
-
-/* Reduce embed edit button opacity */
-.markdown-source-view.mod-cm6 .cm-embed-block:hover .edit-block-button {
-    opacity: 0.5;
-}
-.markdown-source-view.mod-cm6 .cm-embed-block:hover .edit-block-button:hover {
-    opacity: 1;
-}
-
 
 /** Tables **/
 
@@ -801,6 +786,20 @@ div:has(h1)+div p:has(.tag) {
 /* Fix overflow blocks ruining margin collapse */
 .markdown-embed .markdown-preview-sizer > div {
     overflow-x: unset !important;
+}
+
+/* Add a shadow to embeds */
+.cm-embed-block {
+    box-shadow: 0 4px 14px -2px hsla(0,0%,0%,0%);
+    transition: box-shadow var(--anim-duration-fast) ease-out;
+}
+
+/* Reduce embed edit button opacity */
+.markdown-source-view.mod-cm6 .cm-embed-block:hover .edit-block-button {
+    opacity: 0.5;
+}
+.markdown-source-view.mod-cm6 .cm-embed-block:hover .edit-block-button:hover {
+    opacity: 1;
 }
 
 /*Embed titles*/
@@ -913,6 +912,15 @@ div:has(h1)+div p:has(.tag) {
     animation-name: cm-blink;
 }
 
+/* Vim mode cursor */
+.cm-editor.cm-focused .cm-fat-cursor {
+    background: var(--fg);
+    color: var(--bg0);
+}
+
+.cm-editor:not(.cm-focused) .cm-fat-cursor {
+    outline-color: var(--fg);
+}
 
 
 /**** Style Settings ****/
