@@ -15,11 +15,13 @@
               {
                 "id": "5b6a3864c2d565e1",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "outline",
                   "state": {
                     "file": "笔记/工具/思考/幻象.md"
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ]
@@ -386,7 +388,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "385daab1c8db98a2",
+  "active": "5b6a3864c2d565e1",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/目标.md",
