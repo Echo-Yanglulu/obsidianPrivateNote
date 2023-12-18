@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/幻象.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -45,6 +45,7 @@
               {
                 "id": "839a2ebf93d913aa",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -52,7 +53,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -139,7 +141,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/幻象.md",
+                    "file": "笔记/前端/工程化/XSS.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -147,7 +149,7 @@
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -164,7 +166,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -176,7 +178,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -193,7 +195,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -240,7 +242,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "睡着",
+                "query": "博客",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "fee80e388149649b",
@@ -384,10 +386,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "385daab1c8db98a2",
+  "active": "839a2ebf93d913aa",
   "lastOpenFiles": [
-    "笔记/工具/意识/意识.md",
+    "笔记/工具/思考/性质判断.md",
+    "笔记/前端/工程化/XSS.md",
     "笔记/工具/思考/幻象.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/目标.md",
@@ -397,7 +401,6 @@
     "笔记/工具/通用概念/当下.md",
     "笔记/内心/活在当下指南.md",
     "笔记/工具/通用概念/鹿智者的法则.md",
-    "笔记/工具/思考/性质判断.md",
     "笔记/内心/内心.md",
     "笔记/内心/美德.md",
     "笔记/内心/简洁.md",
@@ -411,7 +414,6 @@
     "笔记/工具/通用概念/苦难.md",
     "笔记/工具/通用概念/生活.md",
     "笔记/内心/实相.md",
-    "笔记/工具/思考/基本概念/感觉.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
