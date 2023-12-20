@@ -149,6 +149,7 @@
               {
                 "id": "ab682c34bb3f1bf9",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -156,7 +157,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
