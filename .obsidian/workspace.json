@@ -147,21 +147,6 @@
                 }
               },
               {
-                "id": "d333e934f16783a4",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/思考/幻象.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
                 "id": "ab682c34bb3f1bf9",
                 "type": "leaf",
                 "state": {
@@ -175,7 +160,7 @@
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 9
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -390,7 +375,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
