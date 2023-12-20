@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "笔记/工具/思考/幻象.md"
                   }
                 }
               }
@@ -149,14 +149,16 @@
               {
                 "id": "d333e934f16783a4",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "file": "笔记/工具/思考/幻象.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
@@ -177,7 +179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +191,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "笔记/工具/思考/幻象.md"
                       }
                     }
                   }
@@ -206,7 +208,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -400,8 +402,8 @@
   },
   "active": "d333e934f16783a4",
   "lastOpenFiles": [
-    "笔记/行为/人的行为.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/行为/人的行为.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/二元.md",
     "笔记/工具/意识/意识.md",
