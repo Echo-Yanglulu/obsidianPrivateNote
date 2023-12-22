@@ -400,7 +400,7 @@
   "Olivier-s-Theme@@OT-pageBackground-lightMode": "pb-lm-none",
   "Olivier-s-Theme@@paperBackground-in-livePreview-LM": true,
   "Olivier-s-Theme@@OT-editMode-font": "iA Writer Mono S",
-  "polka@@ss-light-h": 48,
+  "polka@@ss-light-h": 136,
   "minimal-cards-style@@cards-image-height": "600px",
   "minimal-cards-style@@cards-padding": "1.9em",
   "feather-style@@icon-color-hover": "#00E1FF",
@@ -493,5 +493,6 @@
   "aura@@aura-floating-status-bar": false,
   "aura@@aura-floating-titlebar": true,
   "aura@@italic-color": "rgb(var(--cpt-purple))",
-  "aura@@bold-color": "rgb(var(--cpt-pink))"
+  "aura@@bold-color": "rgb(var(--cpt-pink))",
+  "polka@@ss-light-s": 4.02
 }
