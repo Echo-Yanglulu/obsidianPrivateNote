@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/通用概念/努力.md"
+                    "file": "笔记/工具/思考/幻象.md"
                   }
                 }
               }
@@ -58,6 +58,7 @@
               {
                 "id": "dab7ccc92e3c1aed",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -65,7 +66,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -177,7 +179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/通用概念/努力.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -189,7 +191,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/通用概念/努力.md"
+                        "file": "笔记/工具/思考/幻象.md"
                       }
                     }
                   }
@@ -281,7 +283,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "fee80e388149649b",
@@ -399,7 +401,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c9f47203747de8b",
+  "active": "dab7ccc92e3c1aed",
   "lastOpenFiles": [
     "笔记/内心/开悟.md",
     "笔记/工具/通用概念/努力.md",
