@@ -45,7 +45,6 @@
               {
                 "id": "e660ef57f3e7c100",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -53,8 +52,7 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 },
                 "group": "9d0dc76b19f3080e"
               },
@@ -304,11 +302,9 @@
           {
             "id": "f59515532fe6ff4b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
             },
             "group": "9d0dc76b19f3080e"
           },
@@ -360,7 +356,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 455.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
