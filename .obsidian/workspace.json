@@ -53,8 +53,7 @@
                     "backlinks": false,
                     "source": false
                   }
-                },
-                "group": "dd9c1446433d48c9"
+                }
               },
               {
                 "id": "dab7ccc92e3c1aed",
@@ -67,7 +66,8 @@
                     "backlinks": false,
                     "source": false
                   }
-                }
+                },
+                "group": "482648077fda8226"
               },
               {
                 "id": "2fefc13b54857c06",
@@ -161,7 +161,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -319,7 +319,7 @@
               "type": "3d-graph-view-global",
               "state": {}
             },
-            "group": "dd9c1446433d48c9"
+            "group": "482648077fda8226"
           },
           {
             "id": "da38c84078073193",
@@ -355,7 +355,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "01b984a51df1d6b1",
@@ -400,7 +401,7 @@
       "3d-graph-new:Global 3D Graph": false
     }
   },
-  "active": "f59515532fe6ff4b",
+  "active": "dab7ccc92e3c1aed",
   "lastOpenFiles": [
     "笔记/工具/思考/幻象.md",
     "笔记/工具/通用概念/努力.md",
