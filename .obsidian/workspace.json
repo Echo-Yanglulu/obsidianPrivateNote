@@ -45,6 +45,7 @@
               {
                 "id": "e660ef57f3e7c100",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -52,7 +53,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -302,7 +304,7 @@
             "id": "f59515532fe6ff4b",
             "type": "leaf",
             "state": {
-              "type": "3d-graph-view-global",
+              "type": "graph",
               "state": {}
             }
           },
@@ -319,14 +321,6 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "f4a00909060eaf0d",
-            "type": "leaf",
-            "state": {
-              "type": "make-context-view",
               "state": {}
             }
           },
@@ -381,14 +375,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "3d-graph-new:Global 3D Graph": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "e660ef57f3e7c100",
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/对象.md",
     "笔记/工具/思考/幻象.md",
+    "笔记/工具/哲学/逻辑学/对象.md",
     "笔记/前端/工程化/Sass.md",
     "笔记/工具/通用概念/努力.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
