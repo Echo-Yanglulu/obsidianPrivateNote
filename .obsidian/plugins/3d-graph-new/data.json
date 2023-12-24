@@ -6,16 +6,16 @@
       "setting": {
         "filter": {
           "searchQuery": "",
-          "showOrphans": true,
+          "showOrphans": false,
           "showAttachments": false
         },
         "groups": [],
         "display": {
-          "nodeSize": 2.4,
-          "linkThickness": 2,
-          "linkDistance": 100,
-          "nodeRepulsion": 2800,
-          "distanceFromFocal": 300,
+          "nodeSize": 1.7,
+          "linkThickness": 2.4,
+          "linkDistance": 59,
+          "nodeRepulsion": 3000,
+          "distanceFromFocal": 280,
           "nodeHoverColor": "#ff0000",
           "nodeHoverNeighbourColor": "#00ff00",
           "linkHoverColor": "#0000ff",
@@ -59,16 +59,16 @@
   "temporaryGlobalGraphSetting": {
     "filter": {
       "searchQuery": "",
-      "showOrphans": true,
+      "showOrphans": false,
       "showAttachments": false
     },
     "groups": [],
     "display": {
-      "nodeSize": 2.4,
-      "linkThickness": 2,
-      "linkDistance": 100,
-      "nodeRepulsion": 2800,
-      "distanceFromFocal": 300,
+      "nodeSize": 1.7,
+      "linkThickness": 2.4,
+      "linkDistance": 59,
+      "nodeRepulsion": 3000,
+      "distanceFromFocal": 280,
       "nodeHoverColor": "#ff0000",
       "nodeHoverNeighbourColor": "#00ff00",
       "linkHoverColor": "#0000ff",
@@ -81,7 +81,7 @@
     }
   },
   "pluginSetting": {
-    "maxNodeNumber": 1000,
+    "maxNodeNumber": 3000,
     "searchEngine": "default",
     "rightClickToPan": false,
     "commandLeftClickNode": "openNodeInNewTab",
