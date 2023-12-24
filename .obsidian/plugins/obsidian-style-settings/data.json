@@ -495,5 +495,10 @@
   "aura@@italic-color": "rgb(var(--cpt-purple))",
   "aura@@bold-color": "rgb(var(--cpt-pink))",
   "polka@@ss-light-s": 4.02,
-  "Olivier-s-Theme@@OT-sidebars-font-size": 16
+  "Olivier-s-Theme@@OT-sidebars-font-size": 16,
+  "Olivier-s-Theme@@OT-TextColor-lightMode": "textColor-lightMode-default",
+  "Olivier-s-Theme@@OT-highlight-color": "highlight-color-lightOrange",
+  "Olivier-s-Theme@@OT-readingMode-text-size": 16,
+  "Olivier-s-Theme@@OT-tables-style": "OT-tables-native",
+  "Olivier-s-Theme@@OT-editMode-line-height": 1.3
 }
