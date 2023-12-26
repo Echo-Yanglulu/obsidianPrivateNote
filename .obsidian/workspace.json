@@ -179,11 +179,13 @@
               {
                 "id": "c1952ba1b46678f3",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "release-notes",
                   "state": {
                     "currentVersion": "1.5.3"
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
