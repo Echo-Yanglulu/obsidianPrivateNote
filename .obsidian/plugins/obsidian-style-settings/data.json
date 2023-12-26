@@ -181,7 +181,7 @@
   "minimal-style@@h6-color@@light": "#00E1FF",
   "minimal-advanced@@styled-scrollbars": true,
   "minimal-advanced@@cursor": "pointer",
-  "minimal-style@@italic-color@@light": "#9900FF",
+  "minimal-style@@italic-color@@light": "#DD0037",
   "minimal-style@@h1-size": "2em",
   "minimal-style@@h2-size": "1.85em",
   "minimal-style@@h3-size": "1.6em",
@@ -503,5 +503,11 @@
   "aura@@aura-colorful-frame": false,
   "anuppuccin-theme-settings@@ctp-custom-base@@light": "#FFFFFF",
   "everforest-enchanted-theme@@visual-parity-enabled": true,
-  "feather-style@@color-base-00": "#FFFFFF"
+  "feather-style@@color-base-00": "#FFFFFF",
+  "minimal-style@@h2-l": true,
+  "minimal-style@@h3-l": true,
+  "minimal-style@@h4-l": true,
+  "minimal-style@@h5-l": true,
+  "minimal-style@@h6-l": true,
+  "minimal-style@@window-title-off": true
 }
