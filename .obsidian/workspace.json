@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md"
+                    "file": "笔记/工具/通用概念/生命之书.md"
                   }
                 }
               }
@@ -60,6 +60,7 @@
               {
                 "id": "d1d47f2a0d66382d",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -67,7 +68,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -173,9 +175,24 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "1de57c60c3e084d6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/生命之书.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 11
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -192,7 +209,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md",
+                        "file": "笔记/工具/通用概念/生命之书.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -204,7 +221,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md"
+                        "file": "笔记/工具/通用概念/生命之书.md"
                       }
                     }
                   }
@@ -270,7 +287,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "开放的心",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -296,7 +313,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "fee80e388149649b",
@@ -407,11 +424,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d1d47f2a0d66382d",
+  "active": "1de57c60c3e084d6",
   "lastOpenFiles": [
+    "笔记/内心/快乐.md",
+    "笔记/工具/通用概念/目标.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/努力.md",
     "笔记/行为/习惯.md",
     "笔记/工具/通用概念/勇气.md",
@@ -420,7 +439,6 @@
     "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/工具/哲学/逻辑学/对象.md",
     "笔记/前端/工程化/Sass.md",
-    "笔记/内心/快乐.md",
     "笔记/内心/开悟.md",
     "笔记/前端/工程化/XSS.md",
     "笔记/内心/富足.md",
@@ -432,7 +450,6 @@
     "笔记/工具/通用概念/形式谬误.md",
     "笔记/工具/思考/性质判断.md",
     "笔记/工具/思考/判断.md",
-    "笔记/工具/通用概念/目标.md",
     "笔记/前端/前端工作.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
