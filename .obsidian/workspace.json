@@ -8,24 +8,9 @@
         "type": "split",
         "children": [
           {
-            "id": "40e6560765b6603c",
-            "type": "tabs",
-            "dimension": 8.887915936952714,
-            "children": [
-              {
-                "id": "69a2e6fc80af00cf",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
             "id": "86ffae0d27173b9c",
             "type": "tabs",
-            "dimension": 11.033274956217163,
+            "dimension": 12.109562710235462,
             "children": [
               {
                 "id": "5b6a3864c2d565e1",
@@ -33,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -42,7 +27,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 66.54991243432575,
+            "dimension": 73.04180682364249,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -88,16 +73,14 @@
               {
                 "id": "d1d47f2a0d66382d",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
@@ -184,7 +167,7 @@
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 13.528896672504379,
+            "dimension": 14.848630466122057,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -196,7 +179,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -208,7 +191,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -299,11 +282,25 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "7c439f90a8ecf834",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69a2e6fc80af00cf",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 366.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -397,10 +394,11 @@
   },
   "active": "d1d47f2a0d66382d",
   "lastOpenFiles": [
-    "笔记/工具/哲学/逻辑学/规则.md",
-    "笔记/工具/意识/意识.md",
     "笔记/内心/开悟.md",
+    "笔记/工具/通用概念/目标.md",
+    "笔记/工具/意识/意识.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/内心/至一生命.md",
     "笔记/前端/工程化/XSS.md",
@@ -410,7 +408,6 @@
     "笔记/工具/通用概念/努力.md",
     "笔记/工具/思考/幻象.md",
     "笔记/内心/快乐.md",
-    "笔记/工具/通用概念/目标.md",
     "笔记/工具/通用概念/勇气.md",
     "笔记/学习/学习.md",
     "笔记/内心/美德.md",
