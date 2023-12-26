@@ -10,7 +10,7 @@
           {
             "id": "86ffae0d27173b9c",
             "type": "tabs",
-            "dimension": 15.725806451612907,
+            "dimension": 15.725806451612904,
             "children": [
               {
                 "id": "5b6a3864c2d565e1",
@@ -27,7 +27,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 70.60931899641578,
+            "dimension": 70.60931899641577,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -164,6 +164,7 @@
               {
                 "id": "fd40d28a8dd3f52c",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -171,16 +172,27 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "c1952ba1b46678f3",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.5.3"
                   }
                 }
               }
             ],
-            "currentTab": 10
+            "currentTab": 11
           },
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 13.664874551971328,
+            "dimension": 13.664874551971327,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -356,7 +368,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -405,7 +419,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd40d28a8dd3f52c",
+  "active": "c1952ba1b46678f3",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
