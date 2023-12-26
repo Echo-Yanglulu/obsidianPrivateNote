@@ -164,6 +164,7 @@
               {
                 "id": "fd40d28a8dd3f52c",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -171,7 +172,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
@@ -405,7 +407,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b23938e37b88c4d5",
+  "active": "fd40d28a8dd3f52c",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/意识/意识.md",
