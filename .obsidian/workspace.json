@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md"
+                    "file": "笔记/工具/哲学/逻辑学/规则.md"
                   }
                 }
               }
@@ -175,9 +175,37 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "e47fd54d4f758303",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/思考/幻象.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "646d608350d409cb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/哲学/逻辑学/规则.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 10
+            "currentTab": 12
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -194,7 +222,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md",
+                        "file": "笔记/工具/哲学/逻辑学/规则.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -206,7 +234,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/意识/意识.md"
+                        "file": "笔记/工具/哲学/逻辑学/规则.md"
                       }
                     }
                   }
@@ -409,7 +437,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c7ab03649cb1cd28",
+  "active": "646d608350d409cb",
   "lastOpenFiles": [
     "笔记/工具/思考/幻象.md",
     "笔记/工具/意识/意识.md",
