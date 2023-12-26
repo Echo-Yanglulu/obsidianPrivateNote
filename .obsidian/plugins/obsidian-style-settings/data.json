@@ -466,7 +466,7 @@
   "o-theme-settings@@o-notitle": false,
   "everforest-enchanted-theme@@stacked-panes-gutter-disable-float": false,
   "everforest-enchanted-theme@@background-image-light-url": "url(\"https://www.bing.com/search?q=苏格兰斯凯岛&form=hpcapt&mkt=zh-cn\")",
-  "everforest-enchanted-theme@@background-image-enabled": true,
+  "everforest-enchanted-theme@@background-image-enabled": false,
   "feather-style@@h1-color": "#007DAF",
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-frappe",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-flamingo",
@@ -481,7 +481,7 @@
   "catppuccin-heading-settings@@ctp-page-title": "var(--ctp-accent)",
   "New-Willemstad-Editor@@ssopt-editor-vll-title": false,
   "aura@@cpt-accent": "var(--cpt-orange)",
-  "aura@@aura-colorshemes-light": "aura-colorschemes-light-origin",
+  "aura@@aura-colorshemes-light": "aura-colorschemes-light-solarized",
   "aura@@aura-active-line": "aura-active-line-highlight",
   "aura@@aura-neon-headings": false,
   "aura@@aura-rainbow-tags": true,
@@ -501,5 +501,6 @@
   "Olivier-s-Theme@@OT-tables-style": "OT-tables-native",
   "Olivier-s-Theme@@OT-editMode-line-height": 1.3,
   "aura@@aura-colorful-frame": false,
-  "anuppuccin-theme-settings@@ctp-custom-base@@light": "#FFFFFF"
+  "anuppuccin-theme-settings@@ctp-custom-base@@light": "#FFFFFF",
+  "everforest-enchanted-theme@@visual-parity-enabled": true
 }
