@@ -58,6 +58,7 @@
               {
                 "id": "d1d47f2a0d66382d",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -65,7 +66,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -405,7 +407,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b6a3864c2d565e1",
+  "active": "d1d47f2a0d66382d",
   "lastOpenFiles": [
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/努力.md",
