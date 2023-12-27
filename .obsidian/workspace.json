@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/哲学/逻辑学/规则.md"
+                    "file": "笔记/工具/通用概念/生命之书.md"
                   }
                 }
               }
@@ -194,7 +194,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/意识/意识.md",
+                    "file": "笔记/工具/通用概念/生命之书.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -205,6 +205,7 @@
               {
                 "id": "f0a62fb7001fa1b7",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -212,11 +213,12 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
-            "currentTab": 13
+            "currentTab": 12
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -233,7 +235,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md",
+                        "file": "笔记/工具/通用概念/生命之书.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -245,7 +247,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/哲学/逻辑学/规则.md"
+                        "file": "笔记/工具/通用概念/生命之书.md"
                       }
                     }
                   }
@@ -448,13 +450,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f0a62fb7001fa1b7",
+  "active": "646d608350d409cb",
   "lastOpenFiles": [
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/生命之书.md",
-    "笔记/工具/通用概念/智慧.md",
-    "笔记/工具/思考/幻象.md",
     "笔记/工具/哲学/逻辑学/规则.md",
+    "笔记/工具/思考/幻象.md",
+    "笔记/工具/通用概念/智慧.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/前端/前端工作.md",
     "笔记/内心/开悟.md",
