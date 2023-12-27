@@ -190,7 +190,6 @@
               {
                 "id": "646d608350d409cb",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -198,8 +197,7 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
@@ -218,7 +216,7 @@
                 }
               }
             ],
-            "currentTab": 12
+            "currentTab": 10
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -450,7 +448,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "646d608350d409cb",
+  "active": "5b7f01ab9eb7389b",
   "lastOpenFiles": [
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/生命之书.md",
