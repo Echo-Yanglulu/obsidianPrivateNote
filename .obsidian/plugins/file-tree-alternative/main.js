@@ -2920,10 +2920,10 @@ const customFiles = (params) => {
     }
     // Sort File by Name or Last Content Update, moving pinned files to the front
     sortedfileList = sortedfileList.sort((a, b) => {
-        if (ozPinnedFiles.contains(a) && !ozPinnedFiles.contains(b)) {
+        if (ozPinnedFiles.some((f) => f.path === a.path) && !ozPinnedFiles.some((f) => f.path === b.path)) {
             return -1;
         }
-        else if (!ozPinnedFiles.contains(a) && ozPinnedFiles.contains(b)) {
+        else if (!ozPinnedFiles.some((f) => f.path === a.path) && ozPinnedFiles.some((f) => f.path === b.path)) {
             return 1;
         }
         if (plugin.settings.sortReverse) {
@@ -3349,7 +3349,7 @@ const NavFile = (props) => {
             React.createElement("div", { className: "oz-nav-file-title-content" },
                 plugin.settings.iconBeforeFileName && React.createElement(FileIcon, { className: "oz-nav-file-icon", size: 15 }),
                 fileDisplayName),
-            ozPinnedFiles.contains(file) && React.createElement(FaThumbtack, { className: "oz-nav-file-tag", size: 14 }),
+            ozPinnedFiles.some((f) => f.path === file.path) && React.createElement(FaThumbtack, { className: "oz-nav-file-tag", size: 14 }),
             file.extension !== 'md' && React.createElement("span", { className: "oz-nav-file-tag" }, file.extension))));
 };
 
@@ -3486,8 +3486,9 @@ function NestedFolders(props) {
     const [folderFileCountMap$1] = Recoil_index_22(folderFileCountMap);
     const [_view, setView] = Recoil_index_22(view);
     const handleFolderNameClick = (folderPath) => setActiveFolderPath(folderPath);
-    const handleFolderNameDoubleClick = (folder) => {
+    const focusOnFolder = (folder) => {
         setFocusedFolder(folder);
+        setActiveFolderPath(folder.path);
     };
     const getSortedFolderTree = (folderTree) => {
         let newTree = folderTree;
@@ -3520,7 +3521,7 @@ function NestedFolders(props) {
                 menuItem
                     .setTitle('Focus on Folder')
                     .setIcon('zoomInIcon')
-                    .onClick(() => setFocusedFolder(folder));
+                    .onClick(() => focusOnFolder(folder));
             });
         }
         if (!focusedFolder$1.isRoot()) {
@@ -3528,7 +3529,7 @@ function NestedFolders(props) {
                 menuItem
                     .setTitle('Focus Back to Root')
                     .setIcon('zoomOutIcon')
-                    .onClick(() => setFocusedFolder(rootFolder));
+                    .onClick(() => focusOnFolder(rootFolder));
             });
         }
         // CRUD Items
@@ -3659,11 +3660,11 @@ function NestedFolders(props) {
     let sortedFolderTree = reactExports.useMemo(() => getSortedFolderTree(props.folderTree.children), [props.folderTree.children, excludedFolders$1, plugin.settings.sortFoldersBy]);
     return (React.createElement(React.Fragment, null, Array.isArray(props.folderTree.children) &&
         sortedFolderTree.map((child) => {
-            return (React.createElement(React.Fragment, { key: child.folder.path }, child.folder.children.some((child) => child instanceof obsidian.TFolder) ? (React.createElement(Tree, { plugin: plugin, content: child.folder.name, open: openFolders$1.contains(child.folder.path), onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => handleFolderNameDoubleClick(child.folder), onContextMenu: (e) => handleFolderContextMenu({
+            return (React.createElement(React.Fragment, { key: child.folder.path }, child.folder.children.some((child) => child instanceof obsidian.TFolder) ? (React.createElement(Tree, { plugin: plugin, content: child.folder.name, open: openFolders$1.contains(child.folder.path), onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => focusOnFolder(child.folder), onContextMenu: (e) => handleFolderContextMenu({
                     event: e,
                     folder: child.folder,
                 }), folder: child.folder },
-                React.createElement(NestedFolders, { plugin: plugin, folderTree: child }))) : (React.createElement(Tree, { plugin: plugin, content: child.folder.name, onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => handleFolderNameDoubleClick(child.folder), onContextMenu: (e) => handleFolderContextMenu({
+                React.createElement(NestedFolders, { plugin: plugin, folderTree: child }))) : (React.createElement(Tree, { plugin: plugin, content: child.folder.name, onClick: () => handleFolderNameClick(child.folder.path), onDoubleClick: () => focusOnFolder(child.folder), onContextMenu: (e) => handleFolderContextMenu({
                     event: e,
                     folder: child.folder,
                 }), folder: child.folder }))));
@@ -3682,6 +3683,10 @@ function MainFolder(props) {
     const [_openFolders, setOpenFolders] = Recoil_index_22(openFolders);
     // Force Update
     const forceUpdate = useForceUpdate();
+    const focusOnFolder = (folder) => {
+        setFocusedFolder(folder);
+        setActiveFolderPath(folder.path);
+    };
     const createFolder = (underFolder) => {
         let vaultChangeModal = new VaultChangeModal(plugin, underFolder, 'create folder');
         vaultChangeModal.open();
@@ -3704,7 +3709,7 @@ function MainFolder(props) {
                 menuItem
                     .setTitle('Focus Back to Root')
                     .setIcon('zoomOutDoubleIcon')
-                    .onClick(() => setFocusedFolder(rootFolder));
+                    .onClick(() => focusOnFolder(rootFolder));
             });
         }
         if (folder.parent && !folder.parent.isRoot() && folder.parent !== focusedFolder$1) {
@@ -3712,7 +3717,7 @@ function MainFolder(props) {
                 menuItem
                     .setTitle('Focus to Parent Folder')
                     .setIcon('zoomOutIcon')
-                    .onClick(() => setFocusedFolder(folder.parent));
+                    .onClick(() => focusOnFolder(folder.parent));
             });
         }
         // Trigger
@@ -3764,7 +3769,7 @@ function MainFolder(props) {
     };
     const handleFolderNameDoubleClick = (folder) => {
         if (!folder.isRoot())
-            setFocusedFolder(folder.parent);
+            focusOnFolder(folder.parent);
     };
     let folderActionItemSize = 22;
     return (React.createElement("div", { className: "oz-folders-tree-wrapper" },
@@ -3944,7 +3949,6 @@ function MainTreeComponent(props) {
         if (focusedFolder$1) {
             setFolderTree(createFolderTree(focusedFolder$1));
             localStorage.setItem(plugin.keys.focusedFolder, focusedFolder$1.path);
-            setActiveFolderPath(focusedFolder$1.path);
         }
     }, [focusedFolder$1]);
     const setInitialFocusedFolder = () => {
