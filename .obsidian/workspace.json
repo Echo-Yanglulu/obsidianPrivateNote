@@ -8,9 +8,24 @@
         "type": "split",
         "children": [
           {
+            "id": "1627ab61a8d8227e",
+            "type": "tabs",
+            "dimension": 8.748906386701663,
+            "children": [
+              {
+                "id": "69a2e6fc80af00cf",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
             "id": "86ffae0d27173b9c",
             "type": "tabs",
-            "dimension": 16.03053435114504,
+            "dimension": 13.123359580052494,
             "children": [
               {
                 "id": "5b6a3864c2d565e1",
@@ -27,7 +42,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 69.10642119443197,
+            "dimension": 63.38582677165354,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -45,6 +60,7 @@
               {
                 "id": "e660ef57f3e7c100",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -52,7 +68,8 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -152,7 +169,7 @@
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 14.863044454422994,
+            "dimension": 14.741907261592303,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -224,7 +241,6 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
-        "dimension": 62.04111600587372,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -261,25 +277,10 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "7c439f90a8ecf834",
-        "type": "tabs",
-        "dimension": 37.95888399412629,
-        "children": [
-          {
-            "id": "69a2e6fc80af00cf",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 248.5
   },
   "right": {
     "id": "27f207157d6497ec",
@@ -371,7 +372,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "69a2e6fc80af00cf",
+  "active": "e660ef57f3e7c100",
   "lastOpenFiles": [
     "笔记/工具/意识/意识.md",
     "笔记/工具/通用概念/努力.md",

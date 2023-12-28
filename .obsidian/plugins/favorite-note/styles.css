@@ -1,0 +1,62 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.fav-nav-file-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.nav-file-title-content, .nav-folder-title-content {
+	flex: 1;
+}
+
+.fav-btn {
+	visibility: hidden;
+	cursor: pointer;
+	display: flex;
+}
+
+.fav-btn:hover {
+	color: #9f9f9f;
+}
+
+.fav-btn svg.svg-icon {
+	height: 16px;
+	width: 16px;
+}
+
+.nav-file:hover .fav-btn {
+	visibility: visible;
+}
+
+.is-favorite {
+	visibility: visible;
+	color: var(--text-accent);
+}
+
+.is-favorite:hover {
+	visibility: visible;
+	color: var(--text-accent-hover);
+}
+
+.donate-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.fv-icon-item {
+	line-height: normal;
+	vertical-align: middle;
+	margin-right: 8px;
+}
