@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/人性.md"
+                    "file": "笔记/工具/思考/幻象.md"
                   }
                 }
               }
@@ -62,7 +62,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/工具/思考/幻象.md",
+                    "file": "笔记/内心/人性.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -186,37 +186,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "e55eadd1ee51dcc9",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/工具/通用概念/人的属性.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "b0422159c252c19e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "笔记/内心/人性.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 13
+            "currentTab": 11
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -233,7 +205,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/人性.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -245,7 +217,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/人性.md"
+                        "file": "笔记/工具/思考/幻象.md"
                       }
                     }
                   }
@@ -259,11 +231,10 @@
                   {
                     "id": "37fb741facd8f20b",
                     "type": "leaf",
-                    "pinned": true,
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "笔记/工具/思考/幻象.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -271,8 +242,7 @@
                         "searchQuery": "",
                         "backlinkCollapsed": false,
                         "unlinkedCollapsed": false
-                      },
-                      "pinned": true
+                      }
                     }
                   }
                 ]
@@ -311,7 +281,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "胜者",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -329,7 +299,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "002ab0fb0a40877d",
@@ -440,19 +410,19 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "b0422159c252c19e",
+  "active": "0a3da7a2de2f107c",
   "lastOpenFiles": [
     "笔记/内心/胜者心法.md",
     "笔记/内心/人性.md",
-    "笔记/内心/快乐.md",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
-    "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/思考/幻象.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/工具/哲学/逻辑学/规则.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/工具/通用概念/爱.md",
-    "笔记/工具/通用概念/生命之书.md",
+    "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/工具/通用概念/原则.md",
+    "笔记/工具/通用概念/人的属性.md",
+    "笔记/内心/快乐.md",
+    "笔记/工具/意识/意识.md",
+    "笔记/工具/通用概念/生命之书.md",
     "笔记/西方文明简史/自由.md",
     "笔记/工具/通用概念/努力.md",
     "笔记/学习/学习.md",
