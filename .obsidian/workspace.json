@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工具/思考/幻象.md"
+                    "file": "笔记/内心/人性.md"
                   }
                 }
               }
@@ -186,9 +186,37 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "e55eadd1ee51dcc9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/工具/通用概念/人的属性.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "b0422159c252c19e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "笔记/内心/人性.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 13
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -205,7 +233,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md",
+                        "file": "笔记/内心/人性.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -217,7 +245,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工具/思考/幻象.md"
+                        "file": "笔记/内心/人性.md"
                       }
                     }
                   }
@@ -265,7 +293,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
-        "dimension": 54.845814977973575,
+        "dimension": 55.58002936857562,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -306,7 +334,7 @@
       {
         "id": "002ab0fb0a40877d",
         "type": "tabs",
-        "dimension": 45.15418502202643,
+        "dimension": 44.41997063142438,
         "children": [
           {
             "id": "69a2e6fc80af00cf",
@@ -412,11 +440,15 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "8131a6ec6aeec952",
+  "active": "b0422159c252c19e",
   "lastOpenFiles": [
-    "笔记/工具/意识/意识.md",
+    "笔记/内心/胜者心法.md",
+    "笔记/内心/人性.md",
+    "笔记/内心/快乐.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
+    "笔记/工具/通用概念/人的属性.md",
     "笔记/工具/思考/幻象.md",
+    "笔记/工具/意识/意识.md",
     "笔记/工具/哲学/逻辑学/规则.md",
     "笔记/工具/通用概念/爱.md",
     "笔记/工具/通用概念/生命之书.md",
@@ -425,7 +457,6 @@
     "笔记/工具/通用概念/努力.md",
     "笔记/学习/学习.md",
     "笔记/工具/思考/思维概念/思想.md",
-    "笔记/内心/快乐.md",
     "笔记/学习/概念/系统思考.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/行为/人的行为.md",
@@ -437,9 +468,6 @@
     "笔记/前端/工程化/XSS.md",
     "笔记/工具/通用概念/当下.md",
     "笔记/行为/习惯.md",
-    "笔记/工具/通用概念/勇气.md",
-    "笔记/内心/美德.md",
-    "笔记/工具/哲学/逻辑学/对象.md",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
     "笔记/前端/assets/Pasted image 20231101093141.png",
