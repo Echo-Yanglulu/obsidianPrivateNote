@@ -385,7 +385,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 455.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -409,8 +410,8 @@
   },
   "active": "7eed0870a34419f6",
   "lastOpenFiles": [
-    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/负判断.md",
+    "笔记/工具/思考/判断.md",
     "笔记/工具/思考/联言判断.md",
     "笔记/工具/哲学/逻辑学/逻辑学.md",
     "笔记/工具/哲学/逻辑学/规则.md",
