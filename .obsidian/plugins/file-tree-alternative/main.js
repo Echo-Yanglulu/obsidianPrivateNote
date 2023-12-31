@@ -3804,6 +3804,8 @@ const SingleViewVertical = (props) => {
         setClientY(e.nativeEvent.clientY);
     }
     function touchMouseMove(e) {
+        if (e.type !== 'drag')
+            return;
         e.preventDefault();
         if (!dividerOnMove)
             return;
@@ -3811,6 +3813,8 @@ const SingleViewVertical = (props) => {
         setClientY(e.nativeEvent.clientY);
     }
     function touchMouseEnd(e) {
+        if (e.type !== 'drag')
+            return;
         e.preventDefault();
         setDividerOnMove(false);
         setClientY(e.nativeEvent.clientY);
@@ -3845,6 +3849,8 @@ const SingleViewHorizontal = (props) => {
         setClientX(e.nativeEvent.clientX);
     }
     function touchMouseMove(e) {
+        if (e.type !== 'drag')
+            return;
         e.preventDefault();
         if (!dividerOnMove)
             return;
@@ -3852,6 +3858,8 @@ const SingleViewHorizontal = (props) => {
         setClientX(e.nativeEvent.clientX);
     }
     function touchMouseEnd(e) {
+        if (e.type !== 'drag')
+            return;
         e.preventDefault();
         setDividerOnMove(false);
         setClientX(e.nativeEvent.clientX);
