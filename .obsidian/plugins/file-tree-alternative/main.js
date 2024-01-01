@@ -3048,17 +3048,14 @@ const getFileIcon = (params) => {
 // --> Dragging for File
 const dragStarted = (params) => {
     let { e, file, plugin } = params;
+    let obsidianFile = plugin.app.vault.getAbstractFileByPath(file.path);
+    if (!obsidianFile)
+        return;
     // json to move file to folder
     e.dataTransfer.setData('application/json', JSON.stringify({ filePath: file.path }));
-    // Obsidian Internal Dragmanager
-    plugin.app.dragManager.onDragStart(e, {
-        icon: plugin.ICON,
-        source: undefined,
-        title: file.basename + '.' + file.extension,
-        type: 'file',
-        file: file,
-    });
-    plugin.app.dragManager.dragFile(e, file, true);
+    let dragManager = plugin.app.dragManager;
+    const dragData = dragManager.dragFile(e.nativeEvent, file);
+    dragManager.onDragStart(e.nativeEvent, dragData);
 };
 // --> AuxClick (Mouse Wheel Button Action)
 const onAuxClick = (params) => {
@@ -3449,6 +3446,9 @@ function Tree(props) {
     };
     const onFolderDragStart = (e, folder) => {
         e.dataTransfer.setData('application/json', JSON.stringify({ folderPath: folder.path }));
+        let dragManager = props.plugin.app.dragManager;
+        const dragData = dragManager.dragFile(e.nativeEvent, folder);
+        dragManager.onDragStart(e.nativeEvent, dragData);
     };
     return (React.createElement(Dropzone$1, { onDrop: onDrop, noClick: true, onDragEnter: () => setHightlight(true), onDragLeave: () => setHightlight(false), onDropAccepted: () => setHightlight(false), onDropRejected: () => setHightlight(false) }, ({ getRootProps, getInputProps }) => (React.createElement(React.Fragment, null,
         React.createElement("div", { style: Object.assign({}, props.style), className: "treeview", draggable: true, onDragStart: (e) => onFolderDragStart(e, props.folder), onDrop: (e) => dropFileOrFolder(e), onDragOver: () => setHightlight(true), onDragLeave: () => setHightlight(false) },
@@ -3797,6 +3797,8 @@ const SingleViewVertical = (props) => {
         }
     }, [folderPaneHeight]);
     function touchMouseStart(e) {
+        if (e.type !== 'drag' && e.target.id !== 'file-tree-divider')
+            return;
         e.preventDefault();
         setDividerOnMove(true);
         let height = dividerRef.current.offsetTop - folderPaneRef.current.offsetTop;
@@ -3804,16 +3806,14 @@ const SingleViewVertical = (props) => {
         setClientY(e.nativeEvent.clientY);
     }
     function touchMouseMove(e) {
-        if (e.type !== 'drag')
-            return;
-        e.preventDefault();
         if (!dividerOnMove)
             return;
+        e.preventDefault();
         setFolderPaneHeight(folderPaneHeight + (e.nativeEvent.clientY - clientY));
         setClientY(e.nativeEvent.clientY);
     }
     function touchMouseEnd(e) {
-        if (e.type !== 'drag')
+        if (!dividerOnMove)
             return;
         e.preventDefault();
         setDividerOnMove(false);
@@ -3842,6 +3842,8 @@ const SingleViewHorizontal = (props) => {
         }
     }, [folderPaneWidth]);
     function touchMouseStart(e) {
+        if (e.type !== 'drag' && e.target.id !== 'file-tree-divider-horizontal')
+            return;
         e.preventDefault();
         setDividerOnMove(true);
         let width = dividerRef.current.offsetLeft - folderPaneRef.current.offsetLeft;
@@ -3849,16 +3851,14 @@ const SingleViewHorizontal = (props) => {
         setClientX(e.nativeEvent.clientX);
     }
     function touchMouseMove(e) {
-        if (e.type !== 'drag')
-            return;
-        e.preventDefault();
         if (!dividerOnMove)
             return;
+        e.preventDefault();
         setFolderPaneWidth(folderPaneWidth + (e.nativeEvent.clientX - clientX));
         setClientX(e.nativeEvent.clientX);
     }
     function touchMouseEnd(e) {
-        if (e.type !== 'drag')
+        if (!dividerOnMove)
             return;
         e.preventDefault();
         setDividerOnMove(false);
