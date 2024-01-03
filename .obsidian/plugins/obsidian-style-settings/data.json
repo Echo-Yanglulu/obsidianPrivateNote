@@ -512,5 +512,7 @@
   "minimal-style@@window-title-off": true,
   "sQdthOne-theme-settings@@sQdthOne-header-contrast": "headers-high",
   "sQdthOne-theme-settings@@sQdthOne-left-hand-close-tab": false,
-  "sQdthOne-theme-settings@@sQdthOne-hide-folder-icons": true
+  "sQdthOne-theme-settings@@sQdthOne-hide-folder-icons": true,
+  "garden-gnome@@hide-window-buttons": false,
+  "garden-gnome@@hide-only-tab": "hide-only-tab_full"
 }
