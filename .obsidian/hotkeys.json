@@ -467,5 +467,14 @@
     }
   ],
   "easy-typing-obsidian:easy-typing-format-article": [],
-  "easy-typing-obsidian:easy-typing-format-selection": []
+  "easy-typing-obsidian:easy-typing-format-selection": [],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "make-md:mk-blink": []
 }
