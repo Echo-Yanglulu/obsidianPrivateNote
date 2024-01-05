@@ -5,6 +5,10 @@
       "path": "Excalidraw/test.md"
     },
     {
+      "basename": "诗歌",
+      "path": "笔记/诗词/诗歌.md"
+    },
+    {
       "basename": "test",
       "path": "Excalidraw/test.svg"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "习惯",
       "path": "笔记/行为/习惯.md"
-    },
-    {
-      "basename": "评估",
-      "path": "笔记/工具/通用概念/评估.md"
     }
   ],
   "omittedPaths": [],
