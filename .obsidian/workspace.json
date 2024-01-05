@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                    "file": "Excalidraw/test.md"
                   }
                 }
               }
@@ -61,12 +61,9 @@
                 "id": "e0cbbbd8790c7f21",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "Excalidraw/test.md"
                   }
                 }
               },
@@ -218,7 +215,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Excalidraw/test.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -230,7 +227,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                        "file": "Excalidraw/test.md"
                       }
                     }
                   }
@@ -247,7 +244,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                        "file": "Excalidraw/test.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -428,11 +425,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "e0cbbbd8790c7f21",
   "lastOpenFiles": [
+    "Excalidraw/test.svg",
+    "Excalidraw/test.md",
+    "笔记/前端/编程语言/JS/Function.md",
+    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/canvas/白板测试2.canvas",
     "笔记/前端/链表.md",
     "笔记/前端/静态分析.md",
@@ -441,7 +443,6 @@
     "笔记/前端/编程语言/JS/网络请求.md",
     "笔记/工具/思考/幻象.md",
     "白板测试.canvas",
-    "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/canvas",
     "笔记/新建文件夹",
     "笔记/工具/思考/思维概念/假设.md",
@@ -460,8 +461,6 @@
     "笔记/工具/心理学/情绪/情绪.md",
     "笔记/内心/满足.md",
     "笔记/工具/通用概念/目标.md",
-    "笔记/工具/意识/意识.md",
-    "笔记/工具/通用概念/爱.md",
     "笔记/工作/焊接",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
@@ -474,7 +473,6 @@
     "Spaces",
     "笔记/前端/assets/Pasted image 20230714155546.png",
     "笔记/前端/assets/Pasted image 20231027173224.png",
-    "笔记/前端/assets/Pasted image 20231027151621.png",
     "笔记/学习/context.mdb",
     "Context/obsidianPrivateNote.mdb",
     "custom-icons.zip",
