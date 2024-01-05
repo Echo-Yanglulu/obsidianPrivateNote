@@ -10,7 +10,7 @@
           {
             "id": "86ffae0d27173b9c",
             "type": "tabs",
-            "dimension": 12.533814247069433,
+            "dimension": 13.114754098360656,
             "children": [
               {
                 "id": "5b6a3864c2d565e1",
@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Excalidraw/test.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -27,7 +27,7 @@
           {
             "id": "e67a4c566e0eea1a",
             "type": "tabs",
-            "dimension": 73.44454463480614,
+            "dimension": 74.3021710234825,
             "children": [
               {
                 "id": "4f2ccacccfa108ec",
@@ -61,9 +61,12 @@
                 "id": "e0cbbbd8790c7f21",
                 "type": "leaf",
                 "state": {
-                  "type": "excalidraw",
+                  "type": "markdown",
                   "state": {
-                    "file": "Excalidraw/test.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
                   }
                 }
               },
@@ -203,7 +206,7 @@
           {
             "id": "4bf2f8c14f52e492",
             "type": "split",
-            "dimension": 14.021641118124437,
+            "dimension": 12.583074878156845,
             "children": [
               {
                 "id": "be29d87c4ad60f93",
@@ -215,7 +218,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "Excalidraw/test.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -227,7 +230,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "Excalidraw/test.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -244,7 +247,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "Excalidraw/test.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -431,13 +434,13 @@
   },
   "active": "e0cbbbd8790c7f21",
   "lastOpenFiles": [
-    "笔记/内心/实相.md",
     "Excalidraw/test.md",
+    "Excalidraw/test.svg",
+    "笔记/诗词/诗歌.md",
+    "笔记/内心/实相.md",
     "笔记/内心/行动.md",
     "笔记/工具/意识/意识.md",
     "笔记/内心/快乐.md",
-    "笔记/诗词/诗歌.md",
-    "Excalidraw/test.svg",
     "笔记/前端/编程语言/JS/Function.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
     "笔记/canvas/白板测试2.canvas",
@@ -461,7 +464,6 @@
     "笔记/工具/思考/基本概念/思维.md",
     "笔记/工具/时间管理.md",
     "笔记/工具/通用概念/生命之书.md",
-    "笔记/学习/热情.md",
     "笔记/工作/焊接",
     "笔记/前端/assets/Pasted image 20231205234022.png",
     "Spaces/Home",
