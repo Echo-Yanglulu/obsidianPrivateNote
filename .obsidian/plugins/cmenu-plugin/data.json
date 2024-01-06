@@ -39,6 +39,21 @@
       "name": "Obsidian Memos: Show Memos in Popover",
       "hotkeys": [],
       "icon": "calendar-glyph"
+    },
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "name": "Style Settings: Show style settings view",
+      "icon": "audio-file"
+    },
+    {
+      "id": "darlal-switcher-plus:switcher-plus:open-symbols-active",
+      "name": "Quick Switcher++: Open Symbols for the active editor",
+      "icon": "lucide-dollar-sign"
+    },
+    {
+      "id": "darlal-switcher-plus:switcher-plus:open-related-items-active",
+      "name": "Quick Switcher++: Open Related Items for the active editor",
+      "icon": "lucide-file-plus-2"
     }
   ],
   "appendMethod": "workspace",
