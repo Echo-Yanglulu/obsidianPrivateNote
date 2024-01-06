@@ -476,5 +476,15 @@
       "key": "L"
     }
   ],
-  "make-md:mk-blink": []
+  "make-md:mk-blink": [],
+  "obsidian-fullscreen-plugin:fullscreen-focus": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ]
 }
