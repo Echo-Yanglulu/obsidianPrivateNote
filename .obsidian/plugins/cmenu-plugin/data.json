@@ -51,9 +51,9 @@
       "icon": "lucide-dollar-sign"
     },
     {
-      "id": "darlal-switcher-plus:switcher-plus:open-related-items-active",
-      "name": "Quick Switcher++: Open Related Items for the active editor",
-      "icon": "lucide-file-plus-2"
+      "id": "darlal-switcher-plus:switcher-plus:open-commands",
+      "name": "Quick Switcher++: Open in Commands Mode",
+      "icon": "run-command"
     }
   ],
   "appendMethod": "workspace",
