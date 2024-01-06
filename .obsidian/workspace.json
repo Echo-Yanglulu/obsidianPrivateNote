@@ -17,7 +17,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                  }
                 }
               }
             ]
@@ -195,17 +197,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "1dccb0e15ce54fb6",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
               }
             ],
-            "currentTab": 13
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -222,6 +216,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -232,7 +227,9 @@
                     "type": "leaf",
                     "state": {
                       "type": "file-properties",
-                      "state": {}
+                      "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
+                      }
                     }
                   }
                 ],
@@ -248,6 +245,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -429,14 +427,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "1dccb0e15ce54fb6",
+  "active": "e660ef57f3e7c100",
   "lastOpenFiles": [
+    "笔记/西方文明简史/命题.md",
     "笔记/工具/通用概念/提问.md",
     "笔记/工具/意识/意识.md",
     "笔记/内心/深夜加油站遇见苏格拉底.md",
@@ -466,7 +465,6 @@
     "笔记/工具/思考/思维概念/假设.md",
     "笔记/内心/活在当下指南.md",
     "笔记/内心/心智.md",
-    "笔记/西方文明简史/命题.md",
     "笔记/工具/思考/思维概念/论据.md",
     "笔记/工作/焊接",
     "笔记/前端/assets/Pasted image 20231205234022.png",
