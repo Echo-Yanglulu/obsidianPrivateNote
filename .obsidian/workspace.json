@@ -274,7 +274,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
-        "dimension": 53.23054331864905,
+        "dimension": 53.230543318649055,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -315,7 +315,7 @@
       {
         "id": "002ab0fb0a40877d",
         "type": "tabs",
-        "dimension": 46.76945668135095,
+        "dimension": 46.769456681350945,
         "children": [
           {
             "id": "69a2e6fc80af00cf",
@@ -426,9 +426,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "periodic-notes:Open today": false
     }
   },
   "active": "e660ef57f3e7c100",
