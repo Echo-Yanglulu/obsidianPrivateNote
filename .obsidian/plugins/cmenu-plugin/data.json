@@ -49,16 +49,11 @@
       "id": "darlal-switcher-plus:switcher-plus:open-symbols-active",
       "name": "Quick Switcher++: Open Symbols for the active editor",
       "icon": "lucide-dollar-sign"
-    },
-    {
-      "id": "darlal-switcher-plus:switcher-plus:open-commands",
-      "name": "Quick Switcher++: Open in Commands Mode",
-      "icon": "run-command"
     }
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 2.75,
-  "cMenuNumRows": 7
+  "cMenuNumRows": 8
 }
