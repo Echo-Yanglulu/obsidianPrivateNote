@@ -383,9 +383,17 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "36a9dd28abd0cd32",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "01b984a51df1d6b1",
@@ -428,12 +436,13 @@
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "e660ef57f3e7c100",
+  "active": "36a9dd28abd0cd32",
   "lastOpenFiles": [
     "笔记/工具/意识/意识.md",
     "笔记/工具/思考/幻象.md",
