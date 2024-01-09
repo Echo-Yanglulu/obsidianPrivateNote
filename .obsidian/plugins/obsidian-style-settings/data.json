@@ -515,5 +515,13 @@
   "garden-gnome@@hide-window-buttons": false,
   "garden-gnome@@hide-only-tab": "hide-only-tab_full",
   "aura@@aura-folder-icons": true,
-  "aura@@aura-file-icons": true
+  "aura@@aura-file-icons": true,
+  "ITS@@radius-s": 7,
+  "ITS@@file-line-width": 700,
+  "ITS@@nav-item-size": 14,
+  "ITS@@sidebar-tab-icon-size": 19,
+  "ITS@@ribbon-width": 40,
+  "ITS@@file-header-font-size": 13,
+  "ITS@@file-header-breadcrumb-font-size": 13.5,
+  "ITS@@inline-title-font-size": 34
 }
