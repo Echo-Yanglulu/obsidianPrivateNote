@@ -523,5 +523,19 @@
   "ITS@@ribbon-width": 40,
   "ITS@@file-header-font-size": 13,
   "ITS@@file-header-breadcrumb-font-size": 13.5,
-  "ITS@@inline-title-font-size": 34
+  "ITS@@inline-title-font-size": 34,
+  "ITS@@tab-widths": "tab-auto",
+  "ITS@@ITS-Sidebar-Styling": "sidebar-tabs-underline",
+  "ITS@@ITS-Sidebar-Ribbon-Float": "none",
+  "ITS@@ITS-Sidebar-Ribbon-Float-Position": "sidebar-float-top",
+  "ITS@@hide-resize-handle": false,
+  "ITS@@hide-scrollbar": false,
+  "ITS@@hide-sidebar-ribbon": false,
+  "ITS@@hide-sidebar-ribbon-icons": false,
+  "ITS@@hide-vault-name": false,
+  "ITS@@hide-nav-header": false,
+  "ITS@@hide-file-explorer-icons": true,
+  "ITS@@hide-titlebar": false,
+  "ITS@@hide-status-bar": false,
+  "ITS@@hide-outline-heading": false
 }
