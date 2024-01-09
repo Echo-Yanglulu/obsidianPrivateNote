@@ -551,5 +551,19 @@
   "ITS@@italic-color@@light": "#D07F00",
   "ITS@@lp-img-float": false,
   "ITS@@clear-headings": false,
-  "ITS@@clear-heading-1": true
+  "ITS@@clear-heading-1": false,
+  "ITS@@ITS-Note-Title-Styling": "none",
+  "ITS@@Inline-Title-Styling": "none",
+  "ITS@@header-border-line-height": 6,
+  "ITS@@heading-spacing": 10,
+  "ITS@@ITS-Header-positions": "none",
+  "ITS@@hide-header-underline": false,
+  "ITS@@heading-indicator": false,
+  "ITS@@hcl": false,
+  "ITS@@heading-color-override": false,
+  "ITS@@illusion": true,
+  "ITS@@illusion-h1": false,
+  "ITS@@link-style": "link-underline",
+  "ITS@@list-lines-color": true,
+  "ITS@@list-bullet-color": true
 }
