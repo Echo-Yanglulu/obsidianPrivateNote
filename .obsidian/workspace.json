@@ -18,7 +18,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "笔记/工作/焊接/焊接.md"
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                   }
                 }
               }
@@ -48,7 +48,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "笔记/学习/概念/知识.md",
+                    "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                     "mode": "source",
                     "backlinks": false,
                     "source": false
@@ -199,7 +199,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "4bf2f8c14f52e492",
@@ -216,7 +216,7 @@
                     "state": {
                       "type": "outgoing-link",
                       "state": {
-                        "file": "笔记/工作/焊接/焊接.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "linksCollapsed": false,
                         "unlinkedCollapsed": true
                       }
@@ -228,7 +228,7 @@
                     "state": {
                       "type": "file-properties",
                       "state": {
-                        "file": "笔记/工作/焊接/焊接.md"
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md"
                       }
                     }
                   }
@@ -245,7 +245,7 @@
                     "state": {
                       "type": "backlink",
                       "state": {
-                        "file": "笔记/工作/焊接/焊接.md",
+                        "file": "笔记/内心/深夜加油站遇见苏格拉底.md",
                         "collapseAll": true,
                         "extraContext": true,
                         "sortOrder": "byModifiedTime",
@@ -274,6 +274,7 @@
       {
         "id": "932e5b2355cf0a40",
         "type": "tabs",
+        "dimension": 53.278688524590166,
         "children": [
           {
             "id": "231c1b69c3d25663",
@@ -307,7 +308,15 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "655116b311f6eebc",
+        "type": "tabs",
+        "dimension": 46.72131147540984,
+        "children": [
           {
             "id": "69a2e6fc80af00cf",
             "type": "leaf",
@@ -316,8 +325,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -434,10 +442,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4699337ee2441f97",
+  "active": "ac45321a494cbeed",
   "lastOpenFiles": [
-    "笔记/工作/焊接/焊丝.md",
+    "笔记/学习/概念/知识.md",
     "笔记/工作/焊接/焊接.md",
+    "笔记/工作/焊接/焊丝.md",
     "笔记/工作/焊接/烙铁头.md",
     "笔记/工作/焊接/小问题.md",
     "笔记/工具/历史/二十四史.md",
@@ -445,7 +454,6 @@
     "笔记/工具/历史/汉书.md",
     "笔记/工具/历史/史记.md",
     "笔记/工具/历史/儒家思想.md",
-    "笔记/学习/概念/知识.md",
     "笔记/工具/历史/历史.md",
     "笔记/诗词/诗歌.md",
     "笔记/工具/意识/意识.md",
