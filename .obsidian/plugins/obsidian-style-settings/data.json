@@ -537,5 +537,19 @@
   "ITS@@hide-file-explorer-icons": true,
   "ITS@@hide-titlebar": false,
   "ITS@@hide-status-bar": false,
-  "ITS@@hide-outline-heading": false
+  "ITS@@hide-outline-heading": true,
+  "ITS@@hide-titlebar-tab": false,
+  "ITS@@hide-tab-outline": false,
+  "ITS@@hide-note-title": false,
+  "ITS@@hide-note-title-icons": false,
+  "ITS@@writing-document": false,
+  "ITS@@paper": false,
+  "ITS@@writing": false,
+  "ITS@@justified": false,
+  "ITS@@p-spacing": 1,
+  "ITS@@bold-color@@light": "#0085FF",
+  "ITS@@italic-color@@light": "#D07F00",
+  "ITS@@lp-img-float": false,
+  "ITS@@clear-headings": false,
+  "ITS@@clear-heading-1": true
 }
