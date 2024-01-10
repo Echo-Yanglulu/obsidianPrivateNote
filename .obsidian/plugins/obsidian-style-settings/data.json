@@ -565,5 +565,11 @@
   "ITS@@illusion-h1": false,
   "ITS@@link-style": "link-underline",
   "ITS@@list-lines-color": true,
-  "ITS@@list-bullet-color": true
+  "ITS@@list-bullet-color": true,
+  "ITS@@list-default-bullet": true,
+  "ITS@@list-neon": false,
+  "ITS@@tag-text": false,
+  "ITS@@hr-center-vertically": false,
+  "ITS@@breadcrumbs-block": false,
+  "ITS@@default-statblock": false
 }
